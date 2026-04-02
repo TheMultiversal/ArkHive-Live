@@ -20,26 +20,25 @@ const investigations_f: Record<string, InvestigationData> = {
  'FOOD SYSTEM CONTROL: Whoever controls the land controls the food supply. Concentrated ownership enables coordination of agricultural practices, crop choices, and pricing. Combined with seed patents and processing monopolies, this creates vertically integrated food system control.',
  'GATES AGRICULTURAL AGENDA: Gates has promoted specific agricultural approaches: GMO crops, synthetic fertilizers, digital agriculture technology. His farmland serves as a testing ground for technologies his other investments produce. Critics question whether this serves farmers or Gates\' portfolio.',
  'POLICY CAPTURE: Agricultural policy increasingly serves large landowners and agribusiness. Farm subsidies flow disproportionately to the largest operations. USDA programs nominally helping small farmers often benefit corporate agriculture. Political donations from ag interests shape policy.',
- 'LOCAL IMPACT: Communities built around family farms face economic devastation as land consolidates. Local businesses lose customers. Schools lose students. Rural America becomes economically hollowed out as wealth extracts to distant billionaire owners.',
+ 'LOCAL IMPACT: Communities built around family farms face economic devastation as land consolidates. Local businesses lose customers. Schools lose students. Rural America becomes economically hollowed out as wealth extracts to distant billionaire owners.'
  ],
  tags: ['Farmland', 'Land Ownership', 'Agriculture', 'Food System', 'Bill Gates', 'Land Monopoly', 'Food Sovereignty', 'Rural America'],
  sources: [
  { title: 'Land Report, Gates Farmland Holdings', url: 'https://landreport.com/2021/01/bill-gates-americas-top-farmland-owner/', type: 'Investigation' },
  { title: 'USDA Foreign Land Holdings Report', url: 'https://www.ers.usda.gov/topics/farm-economy/land-use-land-value-tenure/farmland-ownership-and-tenure/', type: 'Government Data' },
- { title: 'Farm Subsidy Database', url: 'https://farm.ewg.org/', type: 'Database' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Farm Subsidy Database', url: 'https://farm.ewg.org/', type: 'Database' }
  ],
  affiliations: [
  { id: '1', name: 'Bill Gates', type: 'individual', relationship: 'Largest private farmland owner', href: '/entities/individuals/bill-gates' },
  { id: '2', name: 'Cascade Investment', type: 'corporation', relationship: 'Gates family investment vehicle', href: '/entities/corporations/cascade-investment' },
- { id: '3', name: 'USDA', type: 'agency', relationship: 'Agricultural policy', href: '/entities/agencies/usda' },
+ { id: '3', name: 'USDA', type: 'agency', relationship: 'Agricultural policy', href: '/entities/agencies/usda' }
  ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2022-05-18',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2024', event: 'Subsequent developments in agricultural land monopolization reveal broader systemic patterns', type: 'default' },
-     { date: '2026', event: 'Continued developments in agricultural land monopolization with new evidence emerging', type: 'default' },
+     { date: '2026', event: 'Continued developments in agricultural land monopolization with new evidence emerging', type: 'default' }
    ],
  },
   'financial-fraud': {
@@ -57,19 +56,21 @@ const investigations_f: Record<string, InvestigationData> = {
  'TRUMP UNIVERSITY: $25 million settlement for fraud. Former students testified they were deceived by promises of learning Trump\'s secrets from "hand-picked "instructors who had never met Trump.',
  'TRUMP FOUNDATION: Dissolved by court order for systematic self-dealing. Foundation money used to purchase a portrait of Trump, settle business legal disputes, and make campaign contributions.',
  'DEUTSCHE BANK LOANS: Despite red flags about Trump\'s creditworthiness and potential money laundering, Deutsche Bank extended over $2 billion in loans. The relationship is under investigation.',
- 'INSURANCE FRAUD: NY AG investigation examined whether Trump provided fraudulent financial statements to insurance companies to obtain better rates.',
+ 'INSURANCE FRAUD: NY AG investigation examined whether Trump provided fraudulent financial statements to insurance companies to obtain better rates.'
  ],
  tags: ['Financial Fraud', 'Securities', 'DJT Stock', 'Trump Organization', 'Tax Fraud'],
  sources: [
  { title: 'Trump University Settlement', url: 'https://www.nytimes.com/2016/11/19/us/politics/trump-university.html', type: 'Court Records' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
+ { title: 'SEC: Division of Enforcement Annual Reports', url: 'https://www.sec.gov/enforce/sec-enforcement-actions', type: 'Government Report' },
+ { title: 'FBI: White-Collar Crime', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government Record' },
+ { title: 'DOJ Fraud Section: Securities and Financial Fraud Cases', url: 'https://www.justice.gov/criminal/criminal-fraud/cases', type: 'Government Record' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Primary defendant', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'Corporate vehicle for fraud', href: '/entities/corporations/trump-organization' },
  { id: '3', name: 'Trump Media', type: 'corporation', relationship: 'DJT stock manipulation concerns', href: '/entities/corporations/trump-media' },
  { id: '4', name: 'Deutsche Bank', type: 'corporation', relationship: 'Questionable loans', href: '/entities/corporations/deutsche-bank' },
- { id: '5', name: 'Allen Weisselberg', type: 'individual', relationship: 'CFO, convicted felon', href: '/entities/individuals/allen-weisselberg' },
+ { id: '5', name: 'Allen Weisselberg', type: 'individual', relationship: 'CFO, convicted felon', href: '/entities/individuals/allen-weisselberg' }
  ],
    eventOriginDate: '2010-12-17',
    lastActivityDate: '2013-02-16',
@@ -80,7 +81,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2016-11', event: 'Trump settled three Trump University lawsuits for $25 million shortly after winning the presidency, avoiding trial testimony under oath', type: 'legal' },
      { date: '2019-09', event: 'New York AG Letitia James filed civil fraud suit against Trump, Trump Organization, and his adult children for systematic inflation of asset values to secure loans and insurance', type: 'legal' },
      { date: '2022-12', event: 'Trump Organization convicted on 17 felony counts of tax fraud; CFO Allen Weisselberg sentenced to five months in jail after pleading guilty', type: 'legal' },
-     { date: '2024-02', event: 'Judge Engoron ordered Trump to pay $454 million in civil fraud case, finding he inflated asset values by billions; Trump Organization barred from NY real estate transactions', type: 'financial' },
+     { date: '2024-02', event: 'Judge Engoron ordered Trump to pay $454 million in civil fraud case, finding he inflated asset values by billions; Trump Organization barred from NY real estate transactions', type: 'financial' }
    ],
  },
   'foreign-influence': {
@@ -98,7 +99,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'SAUDI SPENDING AT TRUMP PROPERTIES: Saudi government and Saudi-backed entities spent millions at Trump properties while having business before the administration, including the massive $110 billion arms deal.',
  'CHINESE TRADEMARKS FOR IVANKA: China granted valuable trademarks to Ivanka Trump\'s businesses while trade negotiations were ongoing. The timing raised corruption concerns.',
  'UAE INFLUENCE: The UAE sought to influence U.S. policy through connections including Tom Barrack (charged but acquitted of acting as foreign agent) and Erik Prince (Seychelles meeting with Russian banker).',
- 'EMOLUMENTS VIOLATIONS: Foreign governments spending money at Trump properties while seeking favorable treatment represents the corruption the Emoluments Clause was designed to prevent.',
+ 'EMOLUMENTS VIOLATIONS: Foreign governments spending money at Trump properties while seeking favorable treatment represents the corruption the Emoluments Clause was designed to prevent.'
  ],
  tags: ['Foreign Influence', 'Saudi Arabia', 'Russia', 'China', 'UAE', 'Kushner', 'Emoluments'],
  sources: [
@@ -109,7 +110,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Trump Tower Moscow: Cohen Congressional Testimony', url: 'https://www.congress.gov/116/meeting/house/108862/documents/HMTG-116-IG00-20190227-SD002.pdf', type: 'Congressional Record' },
  { title: 'Ivanka Trump Chinese Trademarks', url: 'https://apnews.com/article/0a3283036d2f4e699da4aa3c6dd01727', type: 'Investigation' },
  { title: 'GSA: Trump Hotel Foreign Government Spending', url: 'https://www.gao.gov/products/gao-20-333', type: 'Government Report' },
- { title: 'Trump Emoluments Cases: CREW v. Trump', url: 'https://www.citizensforethics.org/legal-action/lawsuits/trump-emoluments/', type: 'Legal Analysis' },
+ { title: 'Trump Emoluments Cases: CREW v. Trump', url: 'https://www.citizensforethics.org/legal-action/lawsuits/trump-emoluments/', type: 'Legal Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: '$2B Saudi investment in Affinity Partners; 666 Fifth Avenue Qatari bailout', href: '/entities/individuals/jared-kushner' },
@@ -119,7 +120,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { id: '5', name: 'Mohammed bin Salman', type: 'individual', relationship: 'Saudi Crown Prince; directed $2B Kushner investment over PIF advisors\' objections', href: '/entities/individuals/mohammed-bin-salman' },
  { id: '6', name: 'Kushner Companies', type: 'corporation', relationship: '666 Fifth Avenue rescued by Qatari-backed Brookfield deal after potential default', href: '/entities/corporations/kushner-companies' },
  { id: '7', name: 'Affinity Partners', type: 'corporation', relationship: 'Kushner\'s post-White House firm; $2B Saudi PIF, $200M UAE, $100M Qatar investments', href: '/entities/corporations/affinity-partners' },
- { id: '8', name: 'Michael Cohen', type: 'individual', relationship: 'Testified about Trump Tower Moscow negotiations during 2016 campaign', href: '/entities/individuals/michael-cohen' },
+ { id: '8', name: 'Michael Cohen', type: 'individual', relationship: 'Testified about Trump Tower Moscow negotiations during 2016 campaign', href: '/entities/individuals/michael-cohen' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2026-01-28',
@@ -138,7 +139,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2021-01-20', event: 'Trump leaves office. Within 6 months, Kushner launches Affinity Partners and begins soliciting sovereign wealth fund investments', type: 'political' },
      { date: '2022-04', event: 'NYT reports Saudi PIF invested $2B in Kushner\'s Affinity Partners despite internal objections citing "ichkeptcis inexperience" and concerns about fees and risk', type: 'critical' },
      { date: '2022-06', event: 'House Oversight Committee investigation finds over $7.8M in payments from foreign governments to Trump businesses during presidency', type: 'legal' },
-     { date: '2023', event: 'Senate Finance Committee launches investigation into Kushner-Saudi financial relationship and potential quid pro quo', type: 'legal' },
+     { date: '2023', event: 'Senate Finance Committee launches investigation into Kushner-Saudi financial relationship and potential quid pro quo', type: 'legal' }
    ],
  },
   'foreign-agents': {
@@ -157,21 +158,20 @@ const investigations_f: Record<string, InvestigationData> = {
  'ELLIOTT BROIDY: RNC fundraiser pleaded guilty to lobbying to drop 1MDB investigation for foreign interests. Received millions from Malaysian fugitive Jho Low.',
  'FARA RENAISSANCE: Before Mueller, FARA prosecutions were rare. The investigation demonstrated FARA\'s power and revived enforcement. Multiple guilty pleas followed.',
  'SYSTEMIC PATTERN: The concentration of foreign agent violations in one campaign/administration was unprecedented. Critics argued this represented systematic vulnerability to foreign influence.',
- 'LOBBYING LOOPHOLES: Many avoided FARA by registering under weaker Lobbying Disclosure Act. The line between lobbying and foreign agent work remains contested.',
+ 'LOBBYING LOOPHOLES: Many avoided FARA by registering under weaker Lobbying Disclosure Act. The line between lobbying and foreign agent work remains contested.'
  ],
  tags: ['FARA', 'Foreign Agents', 'Flynn', 'Manafort', 'Lobbying', 'Foreign Influence'],
  sources: [
  { title: 'DOJ FARA Website', url: 'https://www.justice.gov/nsd-fara', type: 'Government Resource' },
  { title: 'Flynn FARA Registration', url: 'https://efile.fara.gov/', type: 'Government Document' },
- { title: 'Barrack Indictment', url: 'https://www.justice.gov/usao-edny', type: 'Court Document' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Barrack Indictment', url: 'https://www.justice.gov/usao-edny', type: 'Court Document' }
  ],
  affiliations: [
  { id: '1', name: 'Michael Flynn', type: 'individual', relationship: 'Turkey FARA, guilty plea', href: '/entities/individuals/michael-flynn' },
  { id: '2', name: 'Paul Manafort', type: 'individual', relationship: 'Ukraine FARA, convicted', href: '/entities/individuals/paul-manafort' },
  { id: '3', name: 'Rick Gates', type: 'individual', relationship: 'FARA guilty plea', href: '/entities/individuals/rick-gates' },
  { id: '4', name: 'Tom Barrack', type: 'individual', relationship: 'UAE charges (acquitted)', href: '/entities/individuals/tom-barrack' },
- { id: '5', name: 'Elliott Broidy', type: 'individual', relationship: '1MDB lobbying guilty plea', href: '/entities/individuals/elliott-broidy' },
+ { id: '5', name: 'Elliott Broidy', type: 'individual', relationship: '1MDB lobbying guilty plea', href: '/entities/individuals/elliott-broidy' }
  ],
    eventOriginDate: '2018-10-22',
    lastActivityDate: '2025-06-25',
@@ -182,7 +182,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2019-01', event: 'Maria Butina sentenced for acting as an unregistered Russian agent; had infiltrated NRA and Republican political circles to advance Russian interests', type: 'legal' },
      { date: '2021-07', event: 'Tom Barrack, Trump inaugural committee chair, indicted for acting as an unregistered foreign agent of UAE; acquitted at trial in November 2022', type: 'legal' },
      { date: '2022-03', event: 'DOJ launched a FARA enforcement surge; prosecutions rose 1,500% from pre-Mueller levels as the investigation revived the dormant statute', type: 'default' },
-     { date: '2023-06', event: 'Elliott Broidy, former RNC fundraiser, sentenced after pleading guilty to illegal lobbying for foreign interests to drop 1MDB investigation; received millions from Malaysian fugitive Jho Low', type: 'legal' },
+     { date: '2023-06', event: 'Elliott Broidy, former RNC fundraiser, sentenced after pleading guilty to illegal lobbying for foreign interests to drop 1MDB investigation; received millions from Malaysian fugitive Jho Low', type: 'legal' }
    ],
  },
   'first-impeachment': {
@@ -201,15 +201,14 @@ const investigations_f: Record<string, InvestigationData> = {
  'ARTICLES OF IMPEACHMENT: The House approved two articles: (1) Abuse of Power, leveraging aid for personal political benefit, and (2) Obstruction of Congress, blocking testimony and documents.',
  'HOUSE VOTE: On December 18, 2019, the House voted 230-197 on abuse of power and 229-198 on obstruction. Nearly party-line with few exceptions.',
  'SENATE TRIAL: The Senate held a trial in January-February 2020. Republicans blocked witnesses. Trump was acquitted 52-48 and 53-47. Only Mitt Romney voted to convict on abuse of power.',
- 'AFTERMATH: Trump fired Vindman and other witnesses in retaliation. Ukraine eventually received the aid. Biden was not investigated. Trump was emboldened toward 2020 election interference.',
+ 'AFTERMATH: Trump fired Vindman and other witnesses in retaliation. Ukraine eventually received the aid. Biden was not investigated. Trump was emboldened toward 2020 election interference.'
  ],
  tags: ['Impeachment', 'Ukraine', 'Zelensky', 'Abuse of Power', 'Obstruction of Congress'],
  sources: [
  { title: 'July 25 Call Memo', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/', type: 'Primary Document' },
  { title: 'Whistleblower Complaint', url: 'https://web.archive.org/web/2024/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Primary Document' },
  { title: 'House Impeachment Resolution', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755', type: 'Congressional Record' },
- { title: 'Senate Trial Record', url: 'https://www.congress.gov/congressional-record/senate-trial-record', type: 'Congressional Record' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Senate Trial Record', url: 'https://www.congress.gov/congressional-record/senate-trial-record', type: 'Congressional Record' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Impeached, acquitted by Senate', href: '/entities/individuals/donald-trump' },
@@ -217,7 +216,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { id: '3', name: 'Lev Parnas', type: 'individual', relationship: 'Giuliani associate, convicted', href: '/entities/individuals/lev-parnas' },
  { id: '4', name: 'Alexander Vindman', type: 'individual', relationship: 'Witness, retaliated against', href: '/entities/individuals/alexander-vindman' },
  { id: '5', name: 'Marie Yovanovitch', type: 'individual', relationship: 'Ambassador, removed', href: '/entities/individuals/marie-yovanovitch' },
- { id: '6', name: 'Gordon Sondland', type: 'individual', relationship: 'Confirmed quid pro quo', href: '/entities/individuals/gordon-sondland' },
+ { id: '6', name: 'Gordon Sondland', type: 'individual', relationship: 'Confirmed quid pro quo', href: '/entities/individuals/gordon-sondland' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-02-04',
@@ -226,7 +225,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2019-07-25', event: 'THE "PERFECT CALL": On July 25, 2019, Trump called Ukrainian President Zelensky and asked for "a favor," investigations into Biden and a debunked theory that Ukraine, not Russia, interfered in 2016', type: 'political' },
      { date: '2019-12-18', event: 'HOUSE VOTE: On December 18, 2019, the House voted 230-197 on abuse of power and 229-198 on obstruction', type: 'political' },
      { date: '2020', event: 'Trump was emboldened toward 2020 election interference', type: 'political' },
-     { date: '2020-02-01', event: 'SENATE TRIAL: The Senate held a trial in January-February 2020', type: 'legal' },
+     { date: '2020-02-01', event: 'SENATE TRIAL: The Senate held a trial in January-February 2020', type: 'legal' }
    ],
  },
   'flynn-russia': {
@@ -248,14 +247,13 @@ const investigations_f: Record<string, InvestigationData> = {
  'TRUMP PARDON: Trump pardoned Flynn in November 2020, eliminating any remaining legal jeopardy. The pardon was criticized as obstruction, rewarding Flynn for not cooperating fully against Trump.',
  'POST-PARDON EXTREMISM: After his pardon, Flynn embraced QAnon conspiracy theories, called for martial law to overturn the election, and became a prominent figure in the election denial movement.',
  'FLYNN\'S BROTHER: Charles Flynn, Michael Flynn\'s brother, was an Army general involved in the delayed National Guard response to January 6. Questions remain about his role in the slow deployment.',
- 'THE PATTERN: Flynn exemplifies Trump world\'s vulnerability to foreign influence, officials with financial ties to foreign powers, willing to lie about contacts, operating outside legal channels.',
+ 'THE PATTERN: Flynn exemplifies Trump world\'s vulnerability to foreign influence, officials with financial ties to foreign powers, willing to lie about contacts, operating outside legal channels.'
  ],
  tags: ['Michael Flynn', 'Russia', 'Turkey', 'Foreign Agent', 'Pardon', 'Mueller', 'Kislyak'],
  sources: [
  { title: 'Flynn Statement of Offense', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1015126/download', type: 'Court Filing' },
  { title: 'Mueller Report Flynn Sections', url: 'https://www.justice.gov/storage/report.pdf', type: 'Government Report' },
- { title: 'Flynn Turkey Payment Investigation', url: 'https://www.nytimes.com/2017/03/10/us/politics/michael-flynn-turkey.html', type: 'News Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Flynn Turkey Payment Investigation', url: 'https://www.nytimes.com/2017/03/10/us/politics/michael-flynn-turkey.html', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'Michael Flynn', type: 'individual', relationship: 'Subject of investigation, twice guilty', href: '/entities/individuals/michael-flynn' },
@@ -264,7 +262,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { id: '4', name: 'Bill Barr', type: 'individual', relationship: 'Moved to drop prosecution', href: '/entities/individuals/william-barr' },
  { id: '5', name: 'Robert Mueller', type: 'individual', relationship: 'Special counsel who prosecuted Flynn', href: '/entities/individuals/robert-mueller' },
  { id: '6', name: 'DOJ', type: 'agency', relationship: 'Prosecuted then sought dismissal', href: '/entities/agencies/doj' },
- { id: '7', name: 'FBI', type: 'agency', relationship: 'Interviewed Flynn, received lies', href: '/entities/agencies/fbi' },
+ { id: '7', name: 'FBI', type: 'agency', relationship: 'Interviewed Flynn, received lies', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-05-27',
@@ -274,7 +272,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2017', event: 'Flynn pled guilty in December 2017 to making false statements to the FBI.', type: 'legal' },
      { date: '2017-12', event: 'Flynn pled guilty in December 2017 to making false statements to the FBI.', type: 'legal' },
      { date: '2020', event: 'Trump pardoned Flynn in November 2020, eliminating any remaining legal jeopardy.', type: 'default' },
-     { date: '2020-11', event: 'Trump pardoned Flynn in November 2020, eliminating any remaining legal jeopardy.', type: 'default' },
+     { date: '2020-11', event: 'Trump pardoned Flynn in November 2020, eliminating any remaining legal jeopardy.', type: 'default' }
      ],
  },
   'federal-election-interference': {
@@ -297,7 +295,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'STATE PRESSURE: Beyond DOJ, Trump pressured officials in Georgia, Arizona, and Michigan to "find votes "or refuse to certify. The Georgia call where Trump asked for 11,780 votes was recorded.',
  'PENCE PRESSURE: Trump and his lawyers pressured Mike Pence to refuse to certify electoral votes or unilaterally declare Trump the winner. Pence refused, correctly noting he had no such power.',
  'CONGRESSIONAL OBJECTIONS: Republican members of Congress planned objections to electoral certification. The plan was to create enough chaos that the election would be thrown to the House or results delayed.',
- 'JANUARY 6 CULMINATION: When all other pressure failed, Trump directed supporters to the Capitol where they violently interrupted the certification. The coup attempt nearly succeeded.',
+ 'JANUARY 6 CULMINATION: When all other pressure failed, Trump directed supporters to the Capitol where they violently interrupted the certification. The coup attempt nearly succeeded.'
  ],
  tags: ['Election Interference', 'DOJ', 'Jeffrey Clark', 'Big Lie', '2020 Election', 'Coup Attempt'],
  sources: [
@@ -305,8 +303,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Clark Indictment, Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
  { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
- { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
-   { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+ { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pressured DOJ to overturn election', href: '/entities/individuals/donald-trump' },
@@ -315,7 +312,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { id: '4', name: 'Richard Donoghue', type: 'individual', relationship: 'Deputy AG, threatened resignation', href: '/entities/individuals/richard-donoghue' },
  { id: '5', name: 'DOJ', type: 'agency', relationship: 'Target of pressure campaign', href: '/entities/agencies/doj' },
  { id: '6', name: 'Pat Cipollone', type: 'individual', relationship: 'WH Counsel, opposed Clark scheme', href: '/entities/individuals/pat-cipollone' },
- { id: '7', name: 'Mark Meadows', type: 'individual', relationship: 'Chief of Staff, facilitated pressure', href: '/entities/individuals/mark-meadows' },
+ { id: '7', name: 'Mark Meadows', type: 'individual', relationship: 'Chief of Staff, facilitated pressure', href: '/entities/individuals/mark-meadows' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-03-30',
@@ -326,7 +323,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2021-01-06', event: 'After all other pressure failed, Trump directed supporters to the Capitol where they violently interrupted electoral certification; 140 officers injured', type: 'critical' },
      { date: '2022-06', event: 'January 6 Committee held public hearings detailing Trump\'s multi-pronged scheme to overturn the election, including the Clark plan and fake elector slates in seven states', type: 'political' },
      { date: '2023-08', event: 'Special Counsel Jack Smith indicted Trump on four federal counts including conspiracy to defraud the United States and obstruction of an official proceeding', type: 'legal' },
-     { date: '2023-08-14', event: 'Fulton County DA Fani Willis indicted Trump and 18 co-conspirators under Georgia RICO statute; Jeffrey Clark charged with conspiracy and filing false documents', type: 'legal' },
+     { date: '2023-08-14', event: 'Fulton County DA Fani Willis indicted Trump and 18 co-conspirators under Georgia RICO statute; Jeffrey Clark charged with conspiracy and filing false documents', type: 'legal' }
    ],
  },
   'fox-disinformation': {
@@ -349,22 +346,21 @@ const investigations_f: Record<string, InvestigationData> = {
  'THE RATINGS TRAP: Fox\'s business model creates pressure to broadcast ever more extreme content. When Fox called Arizona for Biden on election night 2020, viewers fled to even-further-right alternatives. Fox then amplified election lies to win them back.',
  'AILES LEGACY: Founder Roger Ailes was forced out in 2016 after sexual harassment revelations. But the culture he created persists. Fox promotes a paranoid worldview where viewers are under constant attack by liberals, immigrants, and elites.',
  'INTERNATIONAL PARALLELS: Murdoch has deployed similar models elsewhere, Sky News in Australia, newspapers in the UK. His media properties consistently advance right-wing politics and attack climate action across the English-speaking world.',
- 'REGULATORY FAILURE: The U.S. has no meaningful regulation of broadcast news accuracy. Fox can call itself news while broadcasting lies with no regulatory consequence. The First Amendment protects even deliberate deception.',
+ 'REGULATORY FAILURE: The U.S. has no meaningful regulation of broadcast news accuracy. Fox can call itself news while broadcasting lies with no regulatory consequence. The First Amendment protects even deliberate deception.'
  ],
  tags: ['Fox News', 'Rupert Murdoch', 'Disinformation', 'Dominion', 'Election Lies', 'Tucker Carlson', 'Media Manipulation'],
  sources: [
  { title: 'Dominion v. Fox News, Court Filings', url: 'https://www.documentcloud.org/documents/23726819-dominion-v-fox-news-ruling', type: 'Court Filing' },
  { title: 'NYT, Tucker Carlson and White Nationalism', url: 'https://www.nytimes.com/2022/04/30/us/tucker-carlson-gop-eli-lake.html', type: 'Investigation' },
  { title: 'Hoax by Brian Stelter', url: 'https://www.simonandschuster.com/books/Hoax/Brian-Stelter/9781982142452', type: 'Book' },
- { title: 'Media Matters, Fox News Research', url: 'https://www.mediamatters.org/fox-news', type: 'Research Archive' },
-   { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
+ { title: 'Media Matters, Fox News Research', url: 'https://www.mediamatters.org/fox-news', type: 'Research Archive' }
  ],
  affiliations: [
  { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Owner, acknowledged lies were broadcast', href: '/entities/individuals/rupert-murdoch' },
  { id: '2', name: 'Tucker Carlson', type: 'individual', relationship: 'Host, promoted replacement theory', href: '/entities/individuals/tucker-carlson' },
  { id: '3', name: 'Sean Hannity', type: 'individual', relationship: 'Host, coordinated with Trump', href: '/entities/individuals/sean-hannity' },
  { id: '4', name: 'Fox Corporation', type: 'corporation', relationship: 'Parent company, paid $787M settlement', href: '/entities/corporations/fox-corporation' },
- { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Collaborated with Fox hosts', href: '/entities/individuals/donald-trump' },
+ { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Collaborated with Fox hosts', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-07-22',
@@ -374,7 +370,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2016', event: 'AILES LEGACY: Founder Roger Ailes was forced out in 2016 after sexual harassment revelations', type: 'default' },
      { date: '2020', event: 'When Fox called Arizona for Biden on election night 2020, viewers fled to even-further-right alternatives', type: 'political' },
      { date: '2023', event: 'DOMINION SETTLEMENT: In 2023, Fox paid $787.5 million to settle Dominion Voting Systems\' defamation lawsuit, the largest known media settlement in history', type: 'legal' },
-     { date: '2023', event: 'WHITE NATIONALIST MAINSTREAMING: Tucker Carlson, Fox\'s most-watched host until his 2023 firing, regularly promoted "great replacement "conspiracy theory, the white nationalist idea that elites are ...', type: 'default' },
+     { date: '2023', event: 'WHITE NATIONALIST MAINSTREAMING: Tucker Carlson, Fox\'s most-watched host until his 2023 firing, regularly promoted "great replacement "conspiracy theory, the white nationalist idea that elites are ...', type: 'default' }
    ],
  },
   'federal-election-conspiracy': {
@@ -395,20 +391,21 @@ const investigations_f: Record<string, InvestigationData> = {
  'SUPREME COURT IMMUNITY RULING: On July 1, 2024, the Supreme Court ruled in Trump v. United States that presidents have substantial immunity for "official acts."This complicated prosecution and delayed the case.',
  'CASE DISMISSAL: Smith sought to dismiss the case after Trump won the 2024 election, citing DOJ policy against prosecuting sitting presidents. The constitutional crisis of an indicted president taking office was avoided through electoral timing.',
  'HISTORICAL SIGNIFICANCE: This was the first time a former president was indicted for attempting to overturn an election. Regardless of outcome, the prosecution documented Trump\'s crimes in the official record.',
- 'DEMOCRACY AT STAKE: The charges represented the justice system\'s attempt to hold accountable someone who tried to end American democracy. The failure to complete prosecution before Trump\'s return to power raises profound questions.',
+ 'DEMOCRACY AT STAKE: The charges represented the justice system\'s attempt to hold accountable someone who tried to end American democracy. The failure to complete prosecution before Trump\'s return to power raises profound questions.'
  ],
  tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
  sources: [
  { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
  { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
-   { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+ { title: 'DOJ Special Counsel: United States v. Trump (D.C. Indictment)', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', type: 'Legal Document' },
+ { title: 'January 6th Committee: Final Report', url: 'https://www.govinfo.gov/collection/january-6th-committee-final-report', type: 'Congressional Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, four counts', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Jack Smith', type: 'individual', relationship: 'Special Counsel', href: '/entities/individuals/jack-smith' },
  { id: '3', name: 'Rudy Giuliani', type: 'individual', relationship: 'Co-conspirator 1', href: '/entities/individuals/rudy-giuliani' },
  { id: '4', name: 'John Eastman', type: 'individual', relationship: 'Co-conspirator 2, coup memo', href: '/entities/individuals/john-eastman' },
- { id: '5', name: 'DOJ', type: 'agency', relationship: 'Prosecuting authority', href: '/entities/agencies/doj' },
+ { id: '5', name: 'DOJ', type: 'agency', relationship: 'Prosecuting authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-07-01',
@@ -418,7 +415,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2023', event: 'On August 1, 2023, Special Counsel Jack Smith indicted Donald Trump on four federal counts related to his attempt to overturn the 2020 election: conspiracy to defraud the United States, conspiracy to obstruct an', type: 'legal' },
      { date: '2023-08-01', event: 'On August 1, 2023, Special Counsel Jack Smith indicted Donald Trump on four federal counts related to his attempt to overturn the 2020 election: conspiracy to defraud the United States, conspiracy to obstruct an', type: 'legal' },
      { date: '2024', event: 'On July 1, 2024, the Supreme Court ruled in Trump v.', type: 'legal' },
-     { date: '2024-07-01', event: 'On July 1, 2024, the Supreme Court ruled in Trump v.', type: 'legal' },
+     { date: '2024-07-01', event: 'On July 1, 2024, the Supreme Court ruled in Trump v.', type: 'legal' }
    ],
  },
   'fbi-surveillance': {
@@ -434,7 +431,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'The 1975 Church Committee investigation documented systemic abuses and led to the Foreign Intelligence Surveillance Act of 1978, which created the FISA Court to provide judicial oversight of intelligence surveillance. The reforms were designed to prevent the FBI from using national security powers against domestic political activity. They held for approximately 23 years. After September 11, 2001, the PATRIOT Act (signed October 26, 2001) demolished the wall between foreign intelligence and domestic law enforcement, expanded FISA authority to include business records and "tangible things," authorized roving wiretaps, and created the National Security Letter (NSL) mechanism allowing the FBI to demand communications records, financial records, and internet activity without a court order. Between 2003 and 2019, the FBI issued over 300,000 NSLs, the vast majority accompanied by gag orders that prohibited recipients from disclosing that the FBI had demanded their records.',
  'The FBI\'s post-9/11 surveillance disproportionately targeted Muslim Americans. The bureau operated a network of informants inside mosques, Muslim student associations, and community organizations across the country. An Associated Press investigation in 2011 revealed that the NYPD Intelligence Division, working with a CIA liaison, mapped Muslim communities, surveilled mosques, and infiltrated student groups with no evidence of criminal activity. The FBI\'s own informants in multiple cases created the plots they then "disrupted" through sting operations; a pattern documented by Human Rights Watch in its 2014 report "Illusion of Justice," which found that in many terrorism cases the FBI provided the idea, the weapons, the funding, and the operational planning for plots that would never have existed without government involvement.',
  'The FBI\'s surveillance of Black political movements did not end with COINTELPRO. In August 2017, the FBI\'s Counterterrorism Division published a report identifying "Black Identity Extremism" as a domestic terrorism threat, effectively labeling Black political dissent as a national security concern. Documents obtained through FOIA revealed FBI surveillance of Black Lives Matter activists, including monitoring of social media activity and tracking of protest attendance. In 2019, the FBI Counterterrorism Division\'s domestic intelligence chief testified that the bureau did not consider white supremacist organizations a domestic terror threat equivalent to "Black Identity Extremists"; a position directly contradicted by the FBI\'s own data showing far-right extremists committed the majority of domestic terrorism killings.',
- 'Section 702 of the FISA Amendments Act, originally authorized in 2008 and reauthorized in 2024, allows warrantless surveillance of foreign targets that inevitably sweeps up massive volumes of American communications. A declassified 2011 FISA Court opinion found the NSA had been collecting tens of thousands of purely domestic communications per year under its Section 702 authority. The FBI conducts "backdoor searches" of this data, querying the communications of Americans without a warrant. The FISA Court has repeatedly found the FBI in violation of its own minimization procedures; in 2020, the court found over 278,000 improper queries of Section 702 data including searches related to January 6 defendants, a U.S. congressman, and a local political party. Despite these documented abuses, Congress reauthorized Section 702 in April 2024 while expanding the definition of "electronic communications service providers" required to cooperate with surveillance demands.',
+ 'Section 702 of the FISA Amendments Act, originally authorized in 2008 and reauthorized in 2024, allows warrantless surveillance of foreign targets that inevitably sweeps up massive volumes of American communications. A declassified 2011 FISA Court opinion found the NSA had been collecting tens of thousands of purely domestic communications per year under its Section 702 authority. The FBI conducts "backdoor searches" of this data, querying the communications of Americans without a warrant. The FISA Court has repeatedly found the FBI in violation of its own minimization procedures; in 2020, the court found over 278,000 improper queries of Section 702 data including searches related to January 6 defendants, a U.S. congressman, and a local political party. Despite these documented abuses, Congress reauthorized Section 702 in April 2024 while expanding the definition of "electronic communications service providers" required to cooperate with surveillance demands.'
  ],
  tags: ['FBI', 'COINTELPRO', 'PATRIOT Act', 'Section 702', 'National Security Letters', 'FISA Court', 'Black Identity Extremism', 'Muslim Surveillance'],
  sources: [
@@ -442,12 +439,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'DOJ Inspector General: Review of FBI Use of National Security Letters', url: 'https://oig.justice.gov/', type: 'Government Audit' },
  { title: 'FISA Court Declassified Opinions on Section 702 Compliance', url: 'https://www.fisc.uscourts.gov/', type: 'Legal Document' },
  { title: 'Human Rights Watch: Illusion of Justice; FBI Entrapment of Muslims', url: 'https://www.hrw.org/report/2014/07/21/illusion-justice', type: 'Research' },
- { title: 'ACLU: Surveillance Under the PATRIOT Act', url: 'https://www.aclu.org/issues/national-security/privacy-and-surveillance/surveillance-under-patriot-act', type: 'Research' },
+ { title: 'ACLU: Surveillance Under the PATRIOT Act', url: 'https://www.aclu.org/issues/national-security/privacy-and-surveillance/surveillance-under-patriot-act', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Conducted COINTELPRO against domestic political movements; issued 300,000+ warrantless NSLs post-9/11; created "Black Identity Extremist" threat category; found in repeated violation of FISA Court minimization rules', href: '/entities/agencies/fbi' },
  { id: '2', name: 'J. Edgar Hoover', type: 'individual', relationship: 'FBI Director for 48 years who authorized COINTELPRO, the King surveillance campaign, and systematic infiltration of civil rights organizations; died in office in 1972 without facing consequences', href: '/entities/individuals/j-edgar-hoover' },
- { id: '3', name: 'NSA', type: 'agency', relationship: 'Collects communications under Section 702 that FBI accesses through backdoor searches of Americans without warrants; FISA Court found tens of thousands of improper domestic collections', href: '/entities/agencies/nsa' },
+ { id: '3', name: 'NSA', type: 'agency', relationship: 'Collects communications under Section 702 that FBI accesses through backdoor searches of Americans without warrants; FISA Court found tens of thousands of improper domestic collections', href: '/entities/agencies/nsa' }
  ],
    eventOriginDate: '1956-01-01',
    lastActivityDate: '2025-04-16',
@@ -459,7 +456,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2001-10-26', event: 'PATRIOT Act signed into law; massively expands FBI surveillance powers through National Security Letters, Section 215 bulk collection, and roving wiretaps', type: 'legal' },
      { date: '2013-06-05', event: 'Edward Snowden reveals NSA mass surveillance programs including Section 702 collection that FBI accesses through warrantless "backdoor searches" of American communications', type: 'critical' },
      { date: '2017-08-03', event: 'FBI Counterterrorism Division creates "Black Identity Extremist" threat category; equating Black political dissent with domestic terrorism while downplaying far-right threats', type: 'political' },
-     { date: '2024-04-20', event: 'Congress reauthorizes Section 702 despite FISA Court findings of 278,000+ improper FBI queries; expands definition of entities required to cooperate with surveillance', type: 'legal' },
+     { date: '2024-04-20', event: 'Congress reauthorizes Section 702 despite FISA Court findings of 278,000+ improper FBI queries; expands definition of entities required to cooperate with surveillance', type: 'legal' }
      ],
  },
   'fbi-civil-rights': {
@@ -482,7 +479,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'CHURCH COMMITTEE REVELATIONS: In 1975, the Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities, chaired by Senator Frank Church, investigated FBI and CIA abuses. The Church Committee\'s findings were devastating: systematic surveillance of hundreds of thousands of Americans, illegal break-ins, mail opening, IRS harassment, and the formal policy of destroying legitimate political organizations. The committee concluded COINTELPRO was "a sophisticated vigilante operation aimed squarely at preventing the exercise of First Amendment rights."',
  'THE MOVE BOMBING: On May 13, 1985, Philadelphia police dropped a bomb (provided by the FBI) on the MOVE organization\'s row house, killing 11 people including 5 children, and destroying 65 homes in a predominantly Black neighborhood. The fire department was ordered to let the resulting fire burn. No officer or official was criminally charged. In 2021, it was revealed that the University of Pennsylvania had been storing MOVE victims\' bones for research without family consent.',
  'MODERN CONTINUATIONS: The FBI\'s targeting of activists did not end with COINTELPRO. In 2017, the FBI created a "Black Identity Extremist" threat category, essentially designating Black political dissent as a terrorism threat. FBI surveillance of Black Lives Matter activists has been documented. In 2020, DHS intelligence reports prioritized monitoring BLM protests while downplaying right-wing threats. The institutional DNA that produced COINTELPRO remains embedded in federal law enforcement.',
- 'NO ACCOUNTABILITY: Hoover died in office in 1972, never facing consequences. No FBI official was ever prosecuted for COINTELPRO operations. No one was charged for the King suicide letter. No one was charged for complicity in the Hampton assassination (a civil settlement was reached for $1.85 million). The FBI has never formally apologized for COINTELPRO. The bureau Hoover built treated the struggle for racial equality as a national security threat.',
+ 'NO ACCOUNTABILITY: Hoover died in office in 1972, never facing consequences. No FBI official was ever prosecuted for COINTELPRO operations. No one was charged for the King suicide letter. No one was charged for complicity in the Hampton assassination (a civil settlement was reached for $1.85 million). The FBI has never formally apologized for COINTELPRO. The bureau Hoover built treated the struggle for racial equality as a national security threat.'
  ],
  tags: ['FBI', 'Civil Rights', 'MLK', 'COINTELPRO', 'Fred Hampton', 'Black Panthers', 'J. Edgar Hoover', 'Church Committee', 'MOVE', 'Malcolm X', 'Klan', 'Surveillance'],
  sources: [
@@ -492,8 +489,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence: COINTELPRO Investigation', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Government Report' },
  { title: 'The FBI and Martin Luther King Jr. by David Garrow (W.W. Norton, 1981)', url: 'https://wwnorton.com/', type: 'Book' },
  { title: 'Fred Hampton Assassination: Commission on Chicago Historical Police Misconduct', url: 'https://peopleslawoffice.com/issues-and-cases/fred-hampton-case/', type: 'Legal Archive' },
- { title: 'Malcolm X Assassination Convictions Vacated (2021)', url: 'https://www.nytimes.com/2021/11/18/nyregion/malcolm-x-murder-conviction.html', type: 'News Report' },
-   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government Agency' },
+ { title: 'Malcolm X Assassination Convictions Vacated (2021)', url: 'https://www.nytimes.com/2021/11/18/nyregion/malcolm-x-murder-conviction.html', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'J. Edgar Hoover', type: 'individual', relationship: 'FBI Director for 48 years, authorized COINTELPRO and King surveillance campaign', href: '/entities/individuals/j-edgar-hoover' },
@@ -502,7 +498,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { id: '4', name: 'Fred Hampton', type: 'individual', relationship: 'Black Panther leader assassinated in FBI-facilitated raid at age 21', href: '/entities/individuals/fred-hampton' },
  { id: '5', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who provided floor plan of Hampton\'s apartment and drugged him', href: '/entities/individuals/william-oneal' },
  { id: '6', name: 'DOJ', type: 'agency', relationship: 'Failed to rein in FBI abuses, did not prosecute COINTELPRO officials', href: '/entities/agencies/doj' },
- { id: '7', name: 'Chicago Police Department', type: 'agency', relationship: 'Executed the raid that killed Fred Hampton using FBI intelligence', href: '/entities/agencies/chicago-police' },
+ { id: '7', name: 'Chicago Police Department', type: 'agency', relationship: 'Executed the raid that killed Fred Hampton using FBI intelligence', href: '/entities/agencies/chicago-police' }
  ],
    eventOriginDate: '1956-08-28',
    lastActivityDate: '2025-08-10',
@@ -520,7 +516,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '1975', event: 'Church Committee investigation reveals systematic FBI abuses: surveillance of hundreds of thousands of Americans, illegal break-ins, mail opening, and destruction of political organizations', type: 'political' },
      { date: '1985-05-13', event: 'Philadelphia police drop FBI-provided bomb on MOVE row house, killing 11 people including 5 children and destroying 65 homes. Fire department ordered to let it burn. No one charged', type: 'critical' },
      { date: '2017', event: 'FBI creates "Black Identity Extremist" threat category, essentially designating Black political dissent as terrorism. Surveillance of BLM activists documented', type: 'political' },
-     { date: '2021-11-18', event: 'Manhattan DA vacates convictions of two men wrongfully convicted of Malcolm X murder after investigation reveals FBI and NYPD withheld exculpatory evidence for 55 years', type: 'default' },
+     { date: '2021-11-18', event: 'Manhattan DA vacates convictions of two men wrongfully convicted of Malcolm X murder after investigation reveals FBI and NYPD withheld exculpatory evidence for 55 years', type: 'default' }
    ],
  },
   'far-right-extremism': {
@@ -536,7 +532,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Far-right extremism in the United States operates through an interconnected organizational ecosystem ranging from street-level gangs to sophisticated paramilitary networks. The Proud Boys, founded by Gavin McInnes in 2016, evolved from a self-described "Western chauvinist" drinking club into a violent organisation whose leader Enrique Tarrio and four lieutenants were convicted of seditious conspiracy for their role in the January 6 attack on the Capitol. The Oath Keepers, founded by Yale Law graduate Stewart Rhodes, recruited military veterans and law enforcement into a militia that planned armed resistance to the federal government; Rhodes received an 18-year seditious conspiracy sentence in May 2023. More extreme accelerationist groups like Atomwaffen Division, The Base, and the Rise Above Movement have pursued explicit terrorism including bombings, assassinations, and attacks on critical infrastructure. Law enforcement infiltration of these groups has been hampered by the FBI\'s own documented problem of white supremacist infiltration of police departments, identified as early as a classified 2006 FBI intelligence assessment that warned of "ghost skins" (white nationalists who deliberately join law enforcement).',
  'Online radicalization has created a self-reinforcing pipeline from mainstream platforms to encrypted extremist networks. The pathway typically moves from YouTube algorithm recommendations and Facebook groups to Reddit and 4chan boards to dedicated platforms like Telegram channels, Gab, and the former 8chan (now 8kun). The 2019 Christchurch shooter livestreamed his attack on Facebook and posted his manifesto on 8chan; the El Paso shooter posted his "Great Replacement" manifesto on 8chan minutes before killing 23 people; the Buffalo shooter posted a 180-page manifesto on Discord and 4chan and livestreamed on Twitch. A 2022 study by the Institute for Strategic Dialogue found that Telegram channels promoting accelerationist violence grew 247% between 2020 and 2022. Despite congressional pressure, social media platforms have repeatedly failed to enforce their own policies; a 2021 internal Facebook report revealed the platform\'s algorithm actively recommended white supremacist groups to users who showed no prior interest in extremism.',
  'The political mainstreaming of far-right ideology has blurred the line between extremist fringe and Republican Party base. Tucker Carlson promoted the "Great Replacement" theory; the claim that elites are deliberately importing non-white immigrants to dilute white political power; on his Fox News program over 400 times according to a New York Times analysis. Representative Paul Gosar spoke at a white nationalist conference organized by Nick Fuentes in 2021 and 2022. Representative Marjorie Taylor Greene appeared at the same conference. In Charlottesville in 2017, when white supremacists carrying torches chanted "Jews will not replace us" and one drove his car into counter-protesters killing Heather Heyer, President Trump responded that there were "very fine people on both sides." The Anti-Defamation League tracked a 34% increase in white supremacist propaganda incidents in 2022; the highest number ever recorded; as groups like Patriot Front blanketed communities with recruitment flyers.',
- 'Federal law enforcement has systematically deprioritized the far-right threat despite its own data. A 2009 DHS intelligence assessment under the Obama administration that warned of rising right-wing extremism was retracted after Republican politicians and conservative media accused DHS of targeting conservatives. The analyst who wrote the report, Daryl Johnson, was reassigned and the domestic terrorism analytical unit was effectively dismantled. Under the Trump administration, DHS further gutted domestic terrorism resources; a 2020 whistleblower complaint from DHS intelligence official Brian Murphy alleged he was ordered to downplay white supremacist threats. The Biden administration\'s 2021 National Strategy for Countering Domestic Terrorism acknowledged far-right violence as the most significant terrorism threat, but enforcement has been inconsistent. As of 2024, no far-right organization has been formally designated a Foreign Terrorist Organization (the most powerful legal tool available), and domestic terrorism charges remain legally limited because there is no federal domestic terrorism statute that provides the same authorities available for international terrorism cases.',
+ 'Federal law enforcement has systematically deprioritized the far-right threat despite its own data. A 2009 DHS intelligence assessment under the Obama administration that warned of rising right-wing extremism was retracted after Republican politicians and conservative media accused DHS of targeting conservatives. The analyst who wrote the report, Daryl Johnson, was reassigned and the domestic terrorism analytical unit was effectively dismantled. Under the Trump administration, DHS further gutted domestic terrorism resources; a 2020 whistleblower complaint from DHS intelligence official Brian Murphy alleged he was ordered to downplay white supremacist threats. The Biden administration\'s 2021 National Strategy for Countering Domestic Terrorism acknowledged far-right violence as the most significant terrorism threat, but enforcement has been inconsistent. As of 2024, no far-right organization has been formally designated a Foreign Terrorist Organization (the most powerful legal tool available), and domestic terrorism charges remain legally limited because there is no federal domestic terrorism statute that provides the same authorities available for international terrorism cases.'
  ],
  tags: ['Far-Right Extremism', 'White Supremacy', 'Domestic Terrorism', 'Great Replacement', 'Proud Boys', 'Oath Keepers', 'Charlottesville', 'Online Radicalization'],
  sources: [
@@ -544,14 +540,14 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'GAO: Countering Violent Extremism; Actions Needed to Define Strategy', url: 'https://www.gao.gov/products/gao-17-300', type: 'Government Report' },
  { title: 'START: Global Terrorism Database; U.S. Domestic Incidents', url: 'https://www.start.umd.edu/gtd/', type: 'Research' },
  { title: 'SPLC: Year in Hate and Extremism Report', url: 'https://www.splcenter.org/year-hate-extremism', type: 'Research' },
- { title: 'FBI: Domestic Terrorism; Definitions, Terminology, and Methodology', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
+ { title: 'FBI: Domestic Terrorism; Definitions, Terminology, and Methodology', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Called Charlottesville marchers "very fine people"; used "invasion" rhetoric echoed in El Paso manifesto; refused to condemn Proud Boys at 2020 debate ("stand back and stand by")', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Tucker Carlson promoted Great Replacement theory over 400 times on air; platform provided mainstream amplification of white nationalist talking points to millions of nightly viewers', href: '/entities/corporations/fox-news' },
  { id: '3', name: 'Proud Boys', type: 'organization', relationship: 'Street-level extremist organization whose leader Enrique Tarrio and four lieutenants were convicted of seditious conspiracy for January 6 attack; evolved from provocateur group to violent political militia', href: '/entities/corporations/proud-boys' },
  { id: '4', name: 'Oath Keepers', type: 'organization', relationship: 'Paramilitary militia founded by Stewart Rhodes that recruited military and law enforcement; Rhodes sentenced to 18 years for seditious conspiracy related to January 6 Capitol breach', href: '/entities/corporations/oath-keepers' },
- { id: '5', name: 'DHS', type: 'agency', relationship: 'Retracted 2009 right-wing extremism warning under political pressure; dismantled domestic terrorism analytical unit; whistleblower alleged orders to downplay white supremacist threats under Trump', href: '/entities/agencies/dhs' },
+ { id: '5', name: 'DHS', type: 'agency', relationship: 'Retracted 2009 right-wing extremism warning under political pressure; dismantled domestic terrorism analytical unit; whistleblower alleged orders to downplay white supremacist threats under Trump', href: '/entities/agencies/dhs' }
  ],
    eventOriginDate: '2017-08-12',
    lastActivityDate: '2024-11-27',
@@ -563,7 +559,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2021-01-06', event: 'Far-right groups including Proud Boys and Oath Keepers lead assault on U.S. Capitol; Proud Boys chairman Tarrio and Oath Keepers founder Rhodes later convicted of seditious conspiracy', type: 'critical' },
      { date: '2022-05-14', event: 'Payton Gendron murders 10 Black shoppers at Tops supermarket in Buffalo; livestreams attack on Twitch and posts 180-page manifesto citing Great Replacement theory and Christchurch shooter', type: 'critical' },
      { date: '2023-05-25', event: 'Stewart Rhodes sentenced to 18 years for seditious conspiracy; longest sentence for January 6 defendants. Enrique Tarrio later sentenced to 22 years', type: 'legal' },
-     { date: '2024-01-01', event: 'ADL reports white supremacist propaganda incidents hit all-time high for fourth consecutive year; FBI domestic terrorism caseload remains at record levels with far-right subjects comprising majority', type: 'political' },
+     { date: '2024-01-01', event: 'ADL reports white supremacist propaganda incidents hit all-time high for fourth consecutive year; FBI domestic terrorism caseload remains at record levels with far-right subjects comprising majority', type: 'political' }
      ],
  },
   'faa-regulatory-capture': {
@@ -584,13 +580,14 @@ const investigations_f: Record<string, InvestigationData> = {
  'BOEING MANAGERS OVERRULE FAA: Internal documents show FAA engineers wanted more training for pilots. Boeing managers objected. The FAA managers sided with Boeing. The regulator was controlled by the regulated.',
  'CONGRESSIONAL FINDINGS: The House Transportation Committee found the FAA" fundamentally failed in its oversight."They found "a disturbing pattern of technical miscalculations and troubling management misjudgments."',
  'WHAT CAPTURE LOOKS LIKE: Industry writes the regulations. Industry certifies compliance. Industry provides the expertise. Industry hires former regulators. Regulators go easy to preserve job prospects. This is regulatory capture.',
- 'FEDERAL CRIMES: 18 U.S.C. § 208, Acts Affecting Personal Financial Interest. 18 U.S.C. § 371, Conspiracy. 18 U.S.C. § 1001, False Statements. 18 U.S.C. § 1519, Destruction of Records.',
+ 'FEDERAL CRIMES: 18 U.S.C. § 208, Acts Affecting Personal Financial Interest. 18 U.S.C. § 371, Conspiracy. 18 U.S.C. § 1001, False Statements. 18 U.S.C. § 1519, Destruction of Records.'
  ],
  tags: ['FAA', 'Regulatory Capture', 'Boeing', 'ODA', 'Revolving Door', 'Aviation Safety'],
  sources: [
  { title: 'House Committee Report on FAA Oversight', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
  { title: 'GAO FAA Oversight Report', url: 'https://www.gao.gov/products/gao-20-626', type: 'Government Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'DOT Inspector General: FAA Oversight of Boeing', url: 'https://www.oig.dot.gov/library-item/39621', type: 'Government Report' },
+ { title: 'Senate Commerce Committee: Aviation Safety Oversight', url: 'https://www.commerce.senate.gov/2020/12/senate-investigation-final-report-on-faa', type: 'Congressional Report' }
  ],
  affiliations: [
  { id: '1', name: 'FAA', type: 'agency', relationship: 'The captured regulator', href: '/entities/agencies/faa' },
@@ -598,7 +595,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { id: '3', name: 'Steve Dickson', type: 'individual', relationship: 'FAA Administrator from industry', href: '/entities/individuals/steve-dickson' },
  { id: '4', name: 'Ali Bahrami', type: 'individual', relationship: 'Approved MCAS certification', href: '/entities/individuals/ali-bahrami' },
  { id: '5', name: 'Elaine Chao', type: 'individual', relationship: 'DOT Secretary who protected Boeing', href: '/entities/individuals/elaine-chao' },
- { id: '6', name: 'Peter DeFazio', type: 'individual', relationship: 'Congressman who exposed capture', href: '/entities/individuals/peter-defazio' },
+ { id: '6', name: 'Peter DeFazio', type: 'individual', relationship: 'Congressman who exposed capture', href: '/entities/individuals/peter-defazio' }
  ],
    eventOriginDate: '2018-10-29',
    lastActivityDate: '2025-02-04',
@@ -610,7 +607,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2019-03-13', event: 'FAA becomes last major aviation authority to ground 737 MAX; three days after Ethiopian crash and only after direct intervention by President Trump. American MAX flights continued during the delay', type: 'critical' },
      { date: '2020-09-16', event: 'House Transportation Committee releases 238-page report finding FAA "fundamentally failed" in oversight; reveals Boeing concealed MCAS from pilots and FAA managers overruled their own engineers', type: 'legal' },
      { date: '2024-01-05', event: 'Alaska Airlines Flight 1282 door plug blows out at 16,000 feet on a 737 MAX 9; NTSB finds four bolts were missing from factory. FAA caps Boeing 737 production at 38 per month', type: 'critical' },
-     { date: '2024-02-26', event: 'FAA announces six-week audit of Boeing 737 MAX production after door plug blowout; finds "multiple instances" of non-conformance. Boeing CEO Dave Calhoun announces resignation', type: 'legal' },
+     { date: '2024-02-26', event: 'FAA announces six-week audit of Boeing 737 MAX production after door plug blowout; finds "multiple instances" of non-conformance. Boeing CEO Dave Calhoun announces resignation', type: 'legal' }
    ],
  },
   'ftx-collapse': {
@@ -626,7 +623,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'The mechanics of the fraud were straightforward: SBF secretly directed FTX to route customer deposits to Alameda Research through a hidden "backdoor" in the exchange\'s accounting software that exempted Alameda from triggering auto-liquidation. Alameda used the stolen customer funds for venture investments (including $500 million into AI startup Anthropic), luxury real estate in the Bahamas ($256 million in property purchases), personal loans to executives ($3.3 billion total, including $1 billion to SBF personally), and massive political donations. At the time of collapse, Alameda owed FTX approximately $8 billion that it could not repay. Internal FTX audits were conducted by a Metaverse-based accounting firm with a single employee.',
  'SBF\'s political operation was central to the fraud. He donated over $40 million to Democratic candidates and committees in the 2022 election cycle, making him the second-largest individual donor to Democrats. Through straw donors including Alameda CEO Caroline Ellison and FTX engineering director Nishad Singh, he also funneled approximately $23 million to Republican candidates to maintain bipartisan influence. All of this money came from customer deposits. SBF cultivated relationships with key financial regulators, personally lobbying CFTC chair Rostin Behnam and meeting with SEC officials while pushing for a regulatory framework that would have given FTX a competitive advantage over rivals. His parents, both Stanford Law professors, received a $16.4 million Bahamas property and $10 million in "gifts" from FTX funds.',
  'The trial in October-November 2023 lasted four weeks. Three of SBF\'s closest associates; Caroline Ellison (Alameda CEO), Gary Wang (FTX co-founder), and Nishad Singh (engineering director); cooperated with prosecutors and testified against him. Ellison described how SBF directed her to use customer funds for Alameda\'s trading losses and venture bets. Wang testified he built the software backdoor on SBF\'s instructions. The jury convicted SBF on all seven counts in under five hours of deliberation. The verdict covered wire fraud against FTX customers and Alameda lenders, securities fraud against FTX equity investors, commodities fraud, and conspiracy to commit money laundering.',
- 'SBF was sentenced to 25 years in federal prison on March 28, 2024. Judge Lewis Kaplan rejected defense arguments for leniency, saying SBF had shown no remorse and that his testimony at trial constituted perjury. The FTX bankruptcy estate, under John Ray, spent over two years recovering assets; ultimately clawing back enough to propose repaying customers 98 cents on the dollar (based on crypto prices at the time of bankruptcy, not the significantly higher values tokens reached during recovery). Caroline Ellison was sentenced to two years; Gary Wang received no prison time; Nishad Singh received no prison time; all receiving leniency for cooperation. The case exposed catastrophic regulatory gaps: the SEC, CFTC, and Bahamian Securities Commission all failed to detect a multi-billion-dollar fraud operating in plain sight while the perpetrator was simultaneously lobbying them for favorable regulation.',
+ 'SBF was sentenced to 25 years in federal prison on March 28, 2024. Judge Lewis Kaplan rejected defense arguments for leniency, saying SBF had shown no remorse and that his testimony at trial constituted perjury. The FTX bankruptcy estate, under John Ray, spent over two years recovering assets; ultimately clawing back enough to propose repaying customers 98 cents on the dollar (based on crypto prices at the time of bankruptcy, not the significantly higher values tokens reached during recovery). Caroline Ellison was sentenced to two years; Gary Wang received no prison time; Nishad Singh received no prison time; all receiving leniency for cooperation. The case exposed catastrophic regulatory gaps: the SEC, CFTC, and Bahamian Securities Commission all failed to detect a multi-billion-dollar fraud operating in plain sight while the perpetrator was simultaneously lobbying them for favorable regulation.'
  ],
  tags: ['FTX', 'Cryptocurrency Fraud', 'Sam Bankman-Fried', 'Alameda Research', 'Political Corruption', 'Securities Fraud', 'Money Laundering'],
  sources: [
@@ -634,13 +631,13 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'CoinDesk: Divisions in Sam Bankman-Fried\'s Crypto Empire', url: 'https://www.coindesk.com/', type: 'Investigation' },
  { title: 'FTX Bankruptcy; Kroll Restructuring Administration', url: 'https://restructuring.ra.kroll.com/FTX/', type: 'Court Filing' },
  { title: 'SEC: Complaint Against Samuel Bankman-Fried', url: 'https://www.sec.gov/litigation/complaints.htm', type: 'Legal Document' },
- { title: 'CFTC: Complaint Against Bankman-Fried, FTX, and Alameda', url: 'https://www.cftc.gov/', type: 'Legal Document' },
+ { title: 'CFTC: Complaint Against Bankman-Fried, FTX, and Alameda', url: 'https://www.cftc.gov/', type: 'Legal Document' }
  ],
  affiliations: [
  { id: '1', name: 'Sam Bankman-Fried', type: 'individual', relationship: 'FTX founder and CEO; convicted on all seven federal fraud charges; directed $8 billion in customer deposits to Alameda Research; sentenced to 25 years. Personally received $1 billion in "loans" from stolen funds', href: '/entities/individuals/sam-bankman-fried' },
  { id: '2', name: 'FTX', type: 'corporation', relationship: 'Cryptocurrency exchange valued at $32 billion that collapsed in 72 hours; 134 affiliated companies filed Chapter 11 bankruptcy; software backdoor exempted Alameda from liquidation triggers', href: '/entities/corporations/ftx' },
  { id: '3', name: 'Alameda Research', type: 'corporation', relationship: 'SBF\'s hedge fund that received $8 billion in diverted FTX customer deposits; CEO Caroline Ellison cooperated with prosecutors and received two-year sentence', href: '/entities/corporations/alameda-research' },
- { id: '4', name: 'SEC', type: 'agency', relationship: 'Filed securities fraud charges against SBF but failed to detect the fraud despite SBF\'s direct lobbying of SEC officials for months before collapse', href: '/entities/agencies/sec' },
+ { id: '4', name: 'SEC', type: 'agency', relationship: 'Filed securities fraud charges against SBF but failed to detect the fraud despite SBF\'s direct lobbying of SEC officials for months before collapse', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2022-11-02',
    lastActivityDate: '2024-03-28',
@@ -651,7 +648,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2022-11-11', event: 'FTX and 134 affiliated companies file Chapter 11 bankruptcy; new CEO John Ray says he has never seen such complete failure of corporate controls in 40 years', type: 'critical' },
      { date: '2022-12-12', event: 'SBF arrested in the Bahamas at U.S. request; indicted on eight federal charges including wire fraud, securities fraud, and money laundering conspiracy', type: 'legal' },
      { date: '2023-11-02', event: 'Jury convicts SBF on all seven counts after less than five hours of deliberation; three former associates testified as cooperating witnesses', type: 'legal' },
-     { date: '2024-03-28', event: 'SBF sentenced to 25 years in federal prison; judge rejects leniency arguments and says defendant showed no remorse and committed perjury at trial', type: 'legal' },
+     { date: '2024-03-28', event: 'SBF sentenced to 25 years in federal prison; judge rejects leniency arguments and says defendant showed no remorse and committed perjury at trial', type: 'legal' }
    ],
  },
   'facebook-mental-health': {
@@ -667,7 +664,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Whistleblower Frances Haugen, a former Facebook product manager on the civic integrity team, copied tens of thousands of internal documents before leaving the company in May 2021. She provided the documents to the Wall Street Journal, the SEC, and Congress. The Journal published "The Facebook Files" series beginning September 13, 2021, revealing not only the teen mental health research but also evidence that Facebook\'s algorithm changes in 2018 (designed to promote "meaningful social interactions") actually amplified angry, divisive content because it generated more comments and shares. Internal researchers warned that the algorithm was pushing users toward extremist content, that misinformation was spreading faster than fact-checks, and that Facebook had created a two-tier accountability system where VIP users (politicians, celebrities, high-value pages) were exempt from content moderation rules under a program called XCheck that covered 5.8 million users.',
  'Haugen testified before the Senate Commerce Subcommittee on October 5, 2021, in testimony watched by over 20 million Americans. She described how Facebook repeatedly chose profit over safety: the company disbanded its civic integrity team after the 2020 election (the team Haugen worked on), rejected proposed algorithm changes that would have reduced harmful content but also reduced engagement, and failed to deploy adequate content moderation in languages other than English; a failure that contributed to real-world violence in Ethiopia, Myanmar, and India. Haugen filed eight SEC complaints alleging that Facebook misled investors about its knowledge of platform harms. She also testified before the UK Parliament, the European Parliament, and the French National Assembly.',
  'The revelations triggered enforcement and legislative action at every level. A bipartisan coalition of 41 state attorneys general, led by California, filed suit against Meta in October 2023 under the federal Children\'s Online Privacy Protection Act (COPPA), alleging Meta designed features that exploit and manipulate children. The FTC proposed new rules restricting targeted advertising to children in December 2023. The Kids Online Safety Act (KOSA), which would require platforms to prevent and mitigate harms to minors, passed the Senate 91-3 in July 2024. U.S. Surgeon General Vivek Murthy issued an advisory in May 2023 declaring social media presents "a profound risk of harm" to youth mental health, and in June 2024 called for surgeon general warning labels on social media platforms similar to those on tobacco products.',
- 'Meta\'s response has been delay, deflection, and minimal action. The company paused development of "Instagram Kids" (a version for children under 13) in September 2021 after the Haugen revelations but never formally cancelled it. It introduced parental supervision tools in 2022 that advocacy groups called cosmetic. CEO Mark Zuckerberg finally apologized to parents of children harmed by social media during a January 2024 Senate hearing, but the apology came only after Senator Josh Hawley confronted him with photos of children who died by suicide after Instagram exposure. Internal Facebook documents released during the hearing showed that the company processed only 2% of reports about underage users on Instagram. As of 2024, the algorithmic recommendation systems that researchers identified as the core mechanism of harm remain fundamentally unchanged.',
+ 'Meta\'s response has been delay, deflection, and minimal action. The company paused development of "Instagram Kids" (a version for children under 13) in September 2021 after the Haugen revelations but never formally cancelled it. It introduced parental supervision tools in 2022 that advocacy groups called cosmetic. CEO Mark Zuckerberg finally apologized to parents of children harmed by social media during a January 2024 Senate hearing, but the apology came only after Senator Josh Hawley confronted him with photos of children who died by suicide after Instagram exposure. Internal Facebook documents released during the hearing showed that the company processed only 2% of reports about underage users on Instagram. As of 2024, the algorithmic recommendation systems that researchers identified as the core mechanism of harm remain fundamentally unchanged.'
  ],
  tags: ['Facebook', 'Instagram', 'Teen Mental Health', 'Frances Haugen', 'Algorithmic Harm', 'Content Moderation', 'COPPA', 'Kids Online Safety Act'],
  sources: [
@@ -675,13 +672,13 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Frances Haugen Senate Testimony; Senate Commerce Subcommittee', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Government' },
  { title: 'U.S. Surgeon General Advisory on Social Media and Youth Mental Health', url: 'https://www.hhs.gov/surgeongeneral/priorities/youth-mental-health/social-media/index.html', type: 'Government Report' },
  { title: 'State AG Coalition Complaint Against Meta (In re: Meta Platforms)', url: 'https://oag.ca.gov/', type: 'Legal Document' },
- { title: 'Senate Judiciary Committee: Big Tech and the Online Child Sexual Exploitation Crisis (Jan 2024)', url: 'https://www.judiciary.senate.gov/', type: 'Government' },
+ { title: 'Senate Judiciary Committee: Big Tech and the Online Child Sexual Exploitation Crisis (Jan 2024)', url: 'https://www.judiciary.senate.gov/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Meta', type: 'corporation', relationship: 'Parent company of Facebook and Instagram; internal research proved the platform harmed teen mental health; executives rejected proposed safeguards; faced 41-state AG lawsuit under COPPA', href: '/entities/corporations/meta' },
  { id: '2', name: 'Mark Zuckerberg', type: 'individual', relationship: 'CEO who was briefed on internal research showing Instagram was toxic for teens; publicly disputed findings; apologized to parents of dead children only when confronted at January 2024 Senate hearing', href: '/entities/individuals/mark-zuckerberg' },
  { id: '3', name: 'Frances Haugen', type: 'individual', relationship: 'Former Facebook product manager who leaked tens of thousands of internal documents to the WSJ, SEC, and Congress; testified before U.S. Senate, UK Parliament, and European Parliament', href: '/entities/individuals/frances-haugen' },
- { id: '4', name: 'Adam Mosseri', type: 'individual', relationship: 'Head of Instagram who publicly claimed in 2020 that research showed Instagram was broadly positive for teens while internal data showed the opposite; paused Instagram Kids after exposure', href: '/entities/individuals/adam-mosseri' },
+ { id: '4', name: 'Adam Mosseri', type: 'individual', relationship: 'Head of Instagram who publicly claimed in 2020 that research showed Instagram was broadly positive for teens while internal data showed the opposite; paused Instagram Kids after exposure', href: '/entities/individuals/adam-mosseri' }
  ],
    eventOriginDate: '2021-09-13',
    lastActivityDate: '2024-07-30',
@@ -693,7 +690,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2023-05-23', event: 'U.S. Surgeon General Vivek Murthy issues advisory declaring social media presents "a profound risk of harm" to youth mental health; calls for legislative action', type: 'political' },
      { date: '2023-10-24', event: 'Bipartisan coalition of 41 state attorneys general files federal lawsuit against Meta under COPPA; alleges Meta designed features that exploit and manipulate children', type: 'legal' },
      { date: '2024-01-31', event: 'Senate Judiciary hearing on child exploitation; Zuckerberg apologizes to parents of children harmed by social media after Senator Hawley confronts him with photos of dead children', type: 'political' },
-     { date: '2024-07-30', event: 'Kids Online Safety Act passes Senate 91-3 requiring platforms to prevent and mitigate harms to minors; Surgeon General calls for tobacco-style warning labels on social media', type: 'legal' },
+     { date: '2024-07-30', event: 'Kids Online Safety Act passes Senate 91-3 requiring platforms to prevent and mitigate harms to minors; Surgeon General calls for tobacco-style warning labels on social media', type: 'legal' }
    ],
  },
   'family-separation-policy': {
@@ -709,22 +706,20 @@ const investigations_f: Record<string, InvestigationData> = {
  'Between 2017 and 2018, the U.S. government separated at least 5,556 children from their parents, according to the ACLU. Children as young as four months old were taken from their parents and placed in government shelters or foster care across the country. Many parents were deported without their children, and the government had no system for tracking or reuniting families.',
  'A 2021 NBC News investigation found that at least 3,913 children were separated under a secretive pilot program that began in July 2017; months before the official Zero Tolerance announcement. The pilot, run under the El Paso Sector, was never publicly disclosed and was designed to test the deterrent effect of taking children from parents.',
  'The Department of Health and Human Services Inspector General reported in January 2019 that thousands more children may have been separated than previously known. The government\'s own tracking systems were so inadequate that it could not identify all separated families. As of 2024, more than 1,000 parents had still not been located.',
- 'Medical professionals and child psychologists documented severe and potentially permanent psychological damage to separated children, including PTSD, depression, anxiety, and attachment disorders. The American Academy of Pediatrics called the policy "government-sanctioned child abuse." Multiple children attempted suicide while in government custody.',
+ 'Medical professionals and child psychologists documented severe and potentially permanent psychological damage to separated children, including PTSD, depression, anxiety, and attachment disorders. The American Academy of Pediatrics called the policy "government-sanctioned child abuse." Multiple children attempted suicide while in government custody.'
  ],
  tags: ['Family Separation', 'Zero Tolerance', 'Immigration', 'Child Detention', 'CBP', 'HHS', 'Trump Administration'],
  sources: [
- { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
  { title: 'Citizens for Responsibility and Ethics in Washington', url: 'https://www.citizensforethics.org/', type: 'Report' },
  { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
  { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border/', type: 'Report' },
- { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/', type: 'Investigation' },
-   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+ { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Ordered zero tolerance policy', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'DHS', type: 'agency', relationship: 'Implemented family separations', href: '/entities/agencies/dhs' },
- { id: '3', name: 'Kirstjen Nielsen', type: 'individual', relationship: 'DHS Secretary who oversaw separations', href: '/entities/individuals/kirstjen-nielsen' },
+ { id: '3', name: 'Kirstjen Nielsen', type: 'individual', relationship: 'DHS Secretary who oversaw separations', href: '/entities/individuals/kirstjen-nielsen' }
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2024-01-01',
@@ -734,7 +729,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2017-07-01', event: 'A 2021 NBC News investigation found that at least 3,913 children were separated under a secretive pilot program that began in July 2017; months before the official Zero Tolerance announcement', type: 'default' },
      { date: '2018-04-01', event: 'In April 2018, Attorney General Jeff Sessions announced a "Zero Tolerance" policy requiring criminal prosecution of all adults crossing the border illegally, including asylum seekers', type: 'default' },
      { date: '2019', event: 'The Department of Health and Human Services Inspector General reported in January 2019 that thousands more children may have been separated than previously known', type: 'default' },
-     { date: '2024', event: 'As of 2024, more than 1,000 parents had still not been located', type: 'default' },
+     { date: '2024', event: 'As of 2024, more than 1,000 parents had still not been located', type: 'default' }
    ],
  },
   'far-right': {
@@ -750,32 +745,30 @@ const investigations_f: Record<string, InvestigationData> = {
  'The transition from fringe to mainstream accelerated during the Trump era. Steve Bannon, who ran Breitbart News as a platform for the "alt-right" before joining the Trump campaign, served as White House Chief Strategist. Stephen Miller, who had documented ties to white nationalist organizations, shaped immigration policy. Trump himself repeatedly failed to condemn white supremacist violence, from Charlottesville to January 6.',
  'Donor networks funded the infrastructure. The Koch brothers\' political network, Robert Mercer\'s investments in Breitbart and Cambridge Analytica, and organizations like the Council for National Policy connected wealthy donors with far-right media and political operations. Dark money flowed through 501(c)(4) organizations to fund extremist candidates at every level of government.',
  'Online radicalization pipelines moved users from mainstream platforms to progressively more extreme content. YouTube\'s recommendation algorithm was documented by researchers to funnel viewers from conservative content to white nationalist and conspiracy content. Platforms like 4chan, 8kun, Telegram, and Gab served as incubators for violent ideologies that subsequently manifested in mass shootings.',
- 'The electoral success of far-right candidates; from local school boards to Congress; demonstrated the movement\'s mainstreaming. QAnon adherents won congressional seats. Great Replacement theory, once confined to neo-Nazi forums, was broadcast nightly on Tucker Carlson\'s Fox News show, reaching millions of viewers. The once-clear line between conservatism and extremism effectively dissolved.',
+ 'The electoral success of far-right candidates; from local school boards to Congress; demonstrated the movement\'s mainstreaming. QAnon adherents won congressional seats. Great Replacement theory, once confined to neo-Nazi forums, was broadcast nightly on Tucker Carlson\'s Fox News show, reaching millions of viewers. The once-clear line between conservatism and extremism effectively dissolved.'
  ],
  tags: ['Far Right', 'Extremism', 'White Nationalism', 'Domestic Terrorism', 'Radicalization', 'Online Extremism'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
- { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
- { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Proud Boys', type: 'organization', relationship: 'Far-right extremist group', href: '/entities/organizations/proud-boys' },
  { id: '2', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
- { id: '3', name: 'Steve Bannon', type: 'individual', relationship: 'Far-right media and political architect', href: '/entities/individuals/steve-bannon' },
+ { id: '3', name: 'Steve Bannon', type: 'individual', relationship: 'Far-right media and political architect', href: '/entities/individuals/steve-bannon' }
  ],
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2024-08-24',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2022', event: 'The Southern Poverty Law Center tracked over 1,225 hate groups operating in the United States in 2022, a number that understates the threat because much organizing has moved online.', type: 'default' },
-     { date: '2024', event: 'Subsequent developments in the far-right movement in america reveal broader systemic patterns', type: 'default' },
+     { date: '2024', event: 'Subsequent developments in the far-right movement in america reveal broader systemic patterns', type: 'default' }
    ],
  },
   'far-right-media': {
@@ -791,29 +784,27 @@ const investigations_f: Record<string, InvestigationData> = {
  'Fox News, reaching approximately 3 million nightly viewers, served as the primary mainstream amplifier. Tucker Carlson\'s show broadcast "Great Replacement" theory, a white supremacist framework, over 400 times before his firing in 2023. Internal Fox communications revealed during the Dominion lawsuit showed hosts and executives knowingly promoted content they recognized as false to retain audience share.',
  'The podcast and streaming ecosystem vastly expanded the reach. Joe Rogan\'s podcast; the most popular in the world; regularly hosted far-right figures including Alex Jones, Gavin McInnes, and Stefan Molyneux, providing them audiences of millions. The Daily Wire, founded by Ben Shapiro with Robert Mercer\'s funding, became one of the most-shared news sources on Facebook.',
  'Social media monetization created financial incentives for extremism. YouTube creators discovered that increasingly provocative content generated more views and higher advertising revenue. A 2020 study by the Institute for Strategic Dialogue found that far-right content creators on YouTube earned an estimated $3.5 million annually from advertising on videos promoting extremist ideologies.',
- 'Multiple mass shooters cited far-right media figures in their manifestos or social media posts. The Buffalo supermarket shooter, the El Paso Walmart shooter, and the Christchurch mosque shooter all referenced replacement theory content they consumed through online media. The direct pipeline from far-right media consumption to lethal violence is documented across dozens of cases.',
+ 'Multiple mass shooters cited far-right media figures in their manifestos or social media posts. The Buffalo supermarket shooter, the El Paso Walmart shooter, and the Christchurch mosque shooter all referenced replacement theory content they consumed through online media. The direct pipeline from far-right media consumption to lethal violence is documented across dozens of cases.'
  ],
  tags: ['Far Right Media', 'Propaganda', 'Radicalization', 'Social Media', 'YouTube', 'Monetized Extremism'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
  { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
- { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
- { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Mainstream platform for far-right messaging', href: '/entities/corporations/fox-news' },
  { id: '2', name: 'Steve Bannon', type: 'individual', relationship: 'Breitbart News architect', href: '/entities/individuals/steve-bannon' },
- { id: '3', name: 'Alex Jones', type: 'individual', relationship: 'InfoWars conspiracy empire', href: '/entities/individuals/alex-jones' },
+ { id: '3', name: 'Alex Jones', type: 'individual', relationship: 'InfoWars conspiracy empire', href: '/entities/individuals/alex-jones' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-01-01',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2020', event: 'A 2020 study by the Institute for Strategic Dialogue found that far-right content creators on YouTube earned an estimated $3.5 million annually from advertising on videos promoting extremist ideologies.', type: 'financial' },
-     { date: '2023', event: 'Tucker Carlson\'s show broadcast "Great Replacement" theory, a white supremacist framework, over 400 times before his firing in 2023.', type: 'default' },
+     { date: '2023', event: 'Tucker Carlson\'s show broadcast "Great Replacement" theory, a white supremacist framework, over 400 times before his firing in 2023.', type: 'default' }
      ],
  },
   'fast-food-labor': {
@@ -829,7 +820,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'McDonald\'s, the world\'s largest fast food company, generated $23.2 billion in revenue in 2023 while its median worker earned approximately $22,000 per year. CEO Chris Kempczinski received $19.2 million in total compensation; 874 times the median worker pay. The franchise model allows McDonald\'s to collect royalties while distancing itself from liability for labor conditions at individual restaurants.',
  'Wage theft in the fast food industry is systematic. The Economic Policy Institute estimates that employers steal approximately $15 billion annually from workers through unpaid overtime, off-the-clock work, and minimum wage violations. A 2017 study found that 89% of fast food workers reported experiencing at least one form of wage theft. McDonald\'s, Subway, Domino\'s, and Dunkin\' have all paid multi-million-dollar settlements for wage theft claims.',
  'Anti-union activity is aggressive and coordinated. When Starbucks workers began unionizing in 2021, the company spent over $240 million on anti-union consultants and law firms. The NLRB filed hundreds of unfair labor practice complaints against Starbucks. McDonald\'s and other chains maintain sophisticated anti-union training programs for managers, including scripts for discouraging union discussions.',
- 'The Fight for $15 movement, launched in 2012, organized fast food workers demanding a $15 minimum wage and the right to unionize. While the movement achieved minimum wage increases in several states and cities, the federal minimum wage has remained at $7.25 since 2009; its longest period without an increase since it was established in 1938. Adjusted for inflation, today\'s federal minimum wage is worth less than it was in 1968.',
+ 'The Fight for $15 movement, launched in 2012, organized fast food workers demanding a $15 minimum wage and the right to unionize. While the movement achieved minimum wage increases in several states and cities, the federal minimum wage has remained at $7.25 since 2009; its longest period without an increase since it was established in 1938. Adjusted for inflation, today\'s federal minimum wage is worth less than it was in 1968.'
  ],
  tags: ['Fast Food', 'Wage Theft', 'Labor Rights', 'Minimum Wage', 'Fight for $15', 'Worker Exploitation'],
  sources: [
@@ -838,13 +829,11 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
  { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
- { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
-   { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
+ { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Andy Puzder', type: 'individual', relationship: 'CKE CEO, labor law violator, Trump nominee', href: '/entities/individuals/andy-puzder' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal labor law enforcement authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal labor law enforcement authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1938-01-01',
    lastActivityDate: '2025-03-25',
@@ -856,7 +845,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 study found that 89% of fast food workers reported experiencing at least one form of wage theft', type: 'default' },
      { date: '2021', event: 'A 2021 study by the UC Berkeley Labor Center found that 52% of fast food workers were enrolled in at least one public assistance program, costing taxpayers an estimated $7 billion annually in food', type: 'political' },
      { date: '2021', event: 'When Starbucks workers began unionizing in 2021, the company spent over $240 million on anti-union consultants and law firms', type: 'political' },
-     { date: '2023', event: 'McDonald\'s, the world\'s largest fast food company, generated $23.2 billion in revenue in 2023 while its median worker earned approximately $22,000 per year', type: 'political' },
+     { date: '2023', event: 'McDonald\'s, the world\'s largest fast food company, generated $23.2 billion in revenue in 2023 while its median worker earned approximately $22,000 per year', type: 'political' }
    ],
  },
   'fbi-assassinations': {
@@ -872,7 +861,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'The Church Committee investigations of 1975 revealed that the FBI\'s COINTELPRO program systematically targeted Black leaders for neutralization. Director J. Edgar Hoover\'s directive to "prevent the rise of a Black messiah" authorized operations against Martin Luther King Jr., Malcolm X, and dozens of other activists. The committee documented FBI efforts to provoke violence between rival groups, plant disinformation, and create conditions for assassinations by proxy.',
  'The FBI sent Martin Luther King Jr. an anonymous letter in 1964 urging him to commit suicide, accompanied by audio recordings from surveillance of his hotel rooms. The letter, which the Church Committee confirmed came from the FBI, stated: "King, there is only one thing left for you to do. You know what it is." This occurred while the FBI simultaneously investigated death threats against King.',
  'Between 1968 and 1971, COINTELPRO operations against the Black Panther Party resulted in dozens of deaths. FBI informants and provocateurs infiltrated every major chapter. In multiple documented cases, the FBI created conditions for violence by providing false intelligence about planned attacks between rival groups, then stood back when the violence occurred.',
- 'The FBI\'s role in the assassination of Malcolm X remained clouded for decades. In 2021, the Manhattan DA\'s office vacated the convictions of two men imprisoned for 20 years for the murder, finding that the FBI and NYPD had withheld exculpatory evidence. Declassified FBI documents revealed the bureau had multiple informants in Malcolm X\'s inner circle and advance knowledge of the assassination plot.',
+ 'The FBI\'s role in the assassination of Malcolm X remained clouded for decades. In 2021, the Manhattan DA\'s office vacated the convictions of two men imprisoned for 20 years for the murder, finding that the FBI and NYPD had withheld exculpatory evidence. Declassified FBI documents revealed the bureau had multiple informants in Malcolm X\'s inner circle and advance knowledge of the assassination plot.'
  ],
  tags: ['COINTELPRO', 'FBI', 'Black Panther Party', 'Fred Hampton', 'Malcolm X', 'Martin Luther King Jr.', 'Church Committee', 'Political Assassination'],
  sources: [
@@ -881,14 +870,14 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Manhattan DA: Reinvestigation of Malcolm X Assassination', url: 'https://www.manhattanda.org/', type: 'Government Record' },
  { title: 'National Security Archive: COINTELPRO Documents', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
  { title: 'Jeffrey Haas: The Assassination of Fred Hampton', url: 'https://www.penguinrandomhouse.com/', type: 'Book' },
-   { title: 'National Archives COINTELPRO Records', url: 'https://www.archives.gov/', type: 'Reference' },
+   { title: 'National Archives COINTELPRO Records', url: 'https://www.archives.gov/', type: 'Reference' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Operated COINTELPRO to "prevent the rise of a Black messiah"; directed Fred Hampton raid, sent King suicide letter, infiltrated all major Black organizations', href: '/entities/agencies/fbi' },
  { id: '2', name: 'J. Edgar Hoover', type: 'individual', relationship: 'FBI Director who authorized COINTELPRO; personally directed surveillance and neutralization operations against Black leaders for decades', href: '/entities/individuals/j-edgar-hoover' },
  { id: '3', name: 'CIA', type: 'agency', relationship: 'Collaborated with FBI on domestic surveillance; separate CHAOS program targeting Black activists; implicated in broader assassination operations', href: '/entities/agencies/cia' },
  { id: '4', name: 'Fred Hampton', type: 'individual', relationship: 'Black Panther Party chairman assassinated in FBI-directed Chicago police raid at age 21; drugged by FBI informant William O\'Neal', href: '/entities/individuals/fred-hampton' },
- { id: '5', name: 'Church Committee', type: 'agency', relationship: 'Senate committee that exposed COINTELPRO in 1975; documented FBI\'s systematic campaign to neutralize Black leaders through infiltration, disinformation, and violence', href: '/entities/agencies/church-committee' },
+ { id: '5', name: 'Church Committee', type: 'agency', relationship: 'Senate committee that exposed COINTELPRO in 1975; documented FBI\'s systematic campaign to neutralize Black leaders through infiltration, disinformation, and violence', href: '/entities/agencies/church-committee' }
  ],
    eventOriginDate: '1956-01-01',
    lastActivityDate: '2025-05-28',
@@ -903,7 +892,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '1975', event: 'Church Committee investigations reveal full scope of COINTELPRO: FBI targeted over 2,000 organizations and individuals with surveillance, infiltration, disinformation, and provocation of violence', type: 'legal' },
      { date: '1982', event: 'Federal civil rights lawsuit over Fred Hampton assassination results in $1.85 million settlement; court finds FBI and Chicago police conspired to violate Hampton\'s civil rights', type: 'legal' },
      { date: '2006', event: 'William O\'Neal, the FBI informant who drugged Fred Hampton and provided the floor plan for the raid, had committed suicide in 1990; his story receives renewed attention through documentaries', type: 'default' },
-     { date: '2021-11', event: 'Manhattan DA vacates convictions of Muhammad Aziz and Khalil Islam, imprisoned 20+ years for Malcolm X murder, after finding FBI and NYPD withheld exculpatory evidence proving their innocence', type: 'legal' },
+     { date: '2021-11', event: 'Manhattan DA vacates convictions of Muhammad Aziz and Khalil Islam, imprisoned 20+ years for Malcolm X murder, after finding FBI and NYPD withheld exculpatory evidence proving their innocence', type: 'legal' }
    ],
  },
   'ferguson-doj': {
@@ -919,17 +908,17 @@ const investigations_f: Record<string, InvestigationData> = {
  'The DOJ found that Ferguson\'s municipal government used its police force and courts as a revenue-generating operation, targeting Black residents with a barrage of citations, fines, and fees. The city\'s budget relied on revenue from fines and forfeitures; the second-largest source of municipal income. Police performance was evaluated based on citation numbers, creating direct financial incentives for aggressive enforcement.',
  'Black residents, who comprised 67% of Ferguson\'s population, accounted for 85% of vehicle stops, 90% of citations, 93% of arrests, and 95% of jaywalking charges. African Americans were twice as likely to be searched during a traffic stop, even though searches of whites were more likely to yield contraband.',
  'The DOJ uncovered extensive evidence of racist communications among Ferguson police and court officials, including emails depicting President Obama as a chimpanzee and jokes about Black people being criminals. These communications were exchanged openly on official government email accounts, reflecting a culture where racist attitudes were normalized and unchallenged.',
- 'The Ferguson municipal court system operated as a debtor\'s prison. Residents who could not pay fines faced additional fees, arrest warrants, and jail time for failing to appear at court dates or pay accumulated penalties. The DOJ found that in 2013 alone, Ferguson issued over 32,000 arrest warrants for a city with a population of 21,000.',
+ 'The Ferguson municipal court system operated as a debtor\'s prison. Residents who could not pay fines faced additional fees, arrest warrants, and jail time for failing to appear at court dates or pay accumulated penalties. The DOJ found that in 2013 alone, Ferguson issued over 32,000 arrest warrants for a city with a population of 21,000.'
  ],
  tags: ['Police Accountability', 'Ferguson', 'DOJ', 'Racial Profiling', 'Systemic Racism', 'Revenue Policing', 'Michael Brown'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
- { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
+ { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducted pattern-or-practice investigation finding systemic civil rights violations in Ferguson Police Department', href: '/entities/agencies/doj' },
- { id: '2', name: 'Federal Bureau of Investigation', type: 'agency', relationship: 'Investigated shooting death of Michael Brown and officer Darren Wilson conduct', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'Federal Bureau of Investigation', type: 'agency', relationship: 'Investigated shooting death of Michael Brown and officer Darren Wilson conduct', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2014-08-09',
    lastActivityDate: '2015-03-01',
@@ -937,7 +926,7 @@ const investigations_f: Record<string, InvestigationData> = {
       timeline: [
      { date: '2013', event: 'The DOJ found that in 2013 alone, Ferguson issued over 32,000 arrest warrants for a city with a population of 21,000.', type: 'default' },
      { date: '2014-08', event: 'Following the August 2014 killing of Michael Brown by Officer Darren Wilson, the Department of Justice launched a pattern-or-practice investigation into the Ferguson Police Department.', type: 'default' },
-     { date: '2015-03', event: 'The resulting 105-page report, released in March 2015, documented one of the most comprehensive cases of institutionalized racism in modern American law enforcement.', type: 'default' },
+     { date: '2015-03', event: 'The resulting 105-page report, released in March 2015, documented one of the most comprehensive cases of institutionalized racism in modern American law enforcement.', type: 'default' }
      ],
  },
   'financial-crisis-profiteering': {
@@ -953,7 +942,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'John Paulson\'s hedge fund made $15 billion in 2007-2008 by betting against the housing market. Paulson worked with Goldman Sachs to create CDOs specifically designed to fail, then shorted them. Despite the SEC\'s investigation, Paulson was never charged; Goldman paid a $550 million fine (less than 14 days of revenue) and admitted no wrongdoing.',
  'The Troubled Asset Relief Program (TARP) provided $700 billion in taxpayer bailouts to the same institutions that caused the crisis. Banks used bailout funds for executive bonuses: in 2008, the year of the crash, Wall Street firms paid $18.4 billion in bonuses. Goldman Sachs received $12.9 billion through AIG\'s bailout at 100 cents on the dollar; a backdoor subsidy arranged by former Goldman CEO and then-Treasury Secretary Hank Paulson (no relation to John Paulson).',
  'After the crash, private equity firms and hedge funds bought hundreds of thousands of foreclosed homes at fire-sale prices, converting them to rental properties. Blackstone Group purchased over 80,000 single-family homes, becoming the largest landlord in the country. The same financial institutions that created the foreclosure crisis profited from buying the wreckage.',
- 'The human cost: 10 million Americans lost their homes to foreclosure. 8.7 million jobs were eliminated. Household wealth fell by $16.4 trillion. Despite the scale of the fraud, only one senior banker; Kareem Serageldin of Credit Suisse; went to prison. The Obama administration\'s DOJ, under Attorney General Eric Holder (a former Covington & Burling attorney who represented banks), declined to prosecute executives at any major institution.',
+ 'The human cost: 10 million Americans lost their homes to foreclosure. 8.7 million jobs were eliminated. Household wealth fell by $16.4 trillion. Despite the scale of the fraud, only one senior banker; Kareem Serageldin of Credit Suisse; went to prison. The Obama administration\'s DOJ, under Attorney General Eric Holder (a former Covington & Burling attorney who represented banks), declined to prosecute executives at any major institution.'
  ],
  tags: ['Financial Crisis', 'Profiteering', 'Wall Street', 'Foreclosure', 'Private Equity', 'Bailout', '2008'],
  sources: [
@@ -961,20 +950,19 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government' },
  { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
  { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
- { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Profited from crisis it helped create', href: '/entities/corporations/goldman-sachs' },
  { id: '2', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Too big to fail beneficiary', href: '/entities/corporations/jpmorgan-chase' },
- { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Bailout architect', href: '/entities/agencies/federal-reserve' },
+ { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Bailout architect', href: '/entities/agencies/federal-reserve' }
  ],
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2024-10-29',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2007', event: 'John Paulson\'s hedge fund made $15 billion in 2007-2008 by betting against the housing market.', type: 'financial' },
-     { date: '2008', event: 'Wall Street banks and hedge funds profited from the 2008 financial crisis at every stage: by creating toxic mortgage products, betting against them, receiving bailouts, then buying foreclosed properties at fire-sale', type: 'financial' },
+     { date: '2008', event: 'Wall Street banks and hedge funds profited from the 2008 financial crisis at every stage: by creating toxic mortgage products, betting against them, receiving bailouts, then buying foreclosed properties at fire-sale', type: 'financial' }
      ],
  },
   'flint-water': {
@@ -995,20 +983,18 @@ const investigations_f: Record<string, InvestigationData> = {
  'EMERGENCY MANAGER SYSTEM: Flint\'s water switch was decided by a state-appointed emergency manager who overrode elected officials. Michigan\'s emergency manager law; which disproportionately affected Black-majority cities; gave unelected appointees total control over municipal decisions. Critics called it the removal of democratic governance from Black communities.',
  'FEDERAL RESPONSE: The EPA\'s Region 5 office knew about lead contamination and failed to intervene for months. EPA Administrator Gina McCarthy later acknowledged the agency "should have been more aggressive." The EPA\'s delayed response was documented in congressional hearings. Federal emergency aid was not declared until January 2016; nearly two years after the contamination began.',
  'SETTLEMENT AND AFTERMATH: In 2021, a $626 million settlement was approved; the largest in Michigan history; with roughly 80% allocated to minors who were poisoned. The city spent over $400 million replacing lead service lines. As of 2026, the full health consequences for the estimated 12,000 children exposed to elevated lead levels are still unfolding.',
- 'RACIAL DIMENSIONS: Flint is 54% Black. Researchers noted that the emergency manager system, the dismissal of residents\' complaints, and the delayed response exhibited a pattern consistent with environmental racism. A similar contamination in a wealthy, predominantly White suburb would have triggered immediate action.',
+ 'RACIAL DIMENSIONS: Flint is 54% Black. Researchers noted that the emergency manager system, the dismissal of residents\' complaints, and the delayed response exhibited a pattern consistent with environmental racism. A similar contamination in a wealthy, predominantly White suburb would have triggered immediate action.'
  ],
  tags: ['Flint', 'Lead Poisoning', 'Environmental Racism', 'Water Contamination', 'Government Cover-Up', 'Rick Snyder', 'EPA'],
  sources: [
  { title: 'Michigan Civil Rights Commission: The Flint Water Crisis Report', url: 'https://www.michigan.gov/mdcr/0,4613,7-138--452044--,00.html', type: 'Government Report' },
  { title: 'Virginia Tech Flint Water Study', url: 'http://flintwaterstudy.org/', type: 'Academic Research' },
  { title: 'Congressional Flint Water Crisis Hearings', url: 'https://web.archive.org/web/20221226124733/https://oversight.house.gov/legislation/hearings/examining-federal-administration-of-the-safe-drinking-water-act-in-flint', type: 'Government Report' },
- { title: 'Dr. Mona Hanna-Attisha, "What the Eyes Don\'t See"', url: 'https://openlibrary.org/search?q=penguin+random+house+546379', type: 'Book' },
-   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+ { title: 'Dr. Mona Hanna-Attisha, "What the Eyes Don\'t See"', url: 'https://openlibrary.org/search?q=penguin+random+house+546379', type: 'Book' }
  ],
  affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Regional office knew about lead contamination for months; failed to enforce Safe Drinking Water Act', href: '/entities/agencies/epa' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2026-03-10',
@@ -1020,7 +1006,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2021', event: 'SETTLEMENT AND AFTERMATH: In 2021, a $626 million settlement was approved; the largest in Michigan history; with roughly 80% allocated to minors who were poisoned', type: 'financial' },
      { date: '2021', event: 'In January 2021, former Governor Rick Snyder was charged with two counts of willful neglect of duty', type: 'default' },
      { date: '2022', event: 'However, in 2022, a Michigan judge dismissed all charges against Snyder, ruling the grand jury process was invalid', type: 'legal' },
-     { date: '2026', event: 'As of 2026, the full health consequences for the estimated 12,000 children exposed to elevated lead levels are still unfolding', type: 'default' },
+     { date: '2026', event: 'As of 2026, the full health consequences for the estimated 12,000 children exposed to elevated lead levels are still unfolding', type: 'default' }
    ],
  },
   'foreign-bribery': {
@@ -1036,18 +1022,17 @@ const investigations_f: Record<string, InvestigationData> = {
  'Walmart paid $282 million in 2019 to settle FCPA charges after a New York Times investigation revealed the company had paid over $24 million in bribes to officials in Mexico, Brazil, India, and China to fast-track store permits and zoning approvals. Internal Walmart investigators had identified the bribery scheme years earlier, but senior executives shut down the investigation.',
  'Goldman Sachs paid $2.9 billion in 2020 to settle charges related to its role in the 1MDB Malaysian corruption scandal. Goldman bankers helped Malaysian officials steal $4.5 billion from a sovereign wealth fund, paying $1.6 billion in bribes. Despite the record settlement, only two Goldman employees were criminally charged.',
  'Pharmaceutical companies have been repeat FCPA offenders. Johnson & Johnson paid $70 million for bribing doctors and hospital administrators across Europe and Asia. Novartis paid $347 million for bribing doctors in Greece and South Korea. The pharmaceutical industry\'s business model in many countries relies on payments to healthcare officials that technically violate the FCPA but are treated as a cost of doing business.',
- 'Defense contractors operate in the most corruption-prone sector. Lockheed Martin\'s bribery of Japanese officials in the 1970s helped inspire the FCPA itself. More recently, Rolls-Royce paid $800 million to settle charges of bribing officials across 12 countries over three decades. The revolving door between the Pentagon and defense contractors ensures that enforcement remains gentle.',
+ 'Defense contractors operate in the most corruption-prone sector. Lockheed Martin\'s bribery of Japanese officials in the 1970s helped inspire the FCPA itself. More recently, Rolls-Royce paid $800 million to settle charges of bribing officials across 12 countries over three decades. The revolving door between the Pentagon and defense contractors ensures that enforcement remains gentle.'
  ],
  tags: ['Foreign Bribery', 'FCPA', 'Corruption', 'Corporate Crime', 'DOJ', 'SEC', 'International'],
  sources: [
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
- { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'FCPA enforcement', href: '/entities/agencies/doj' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities violations from bribery', href: '/entities/agencies/sec' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities violations from bribery', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2024-01-26',
@@ -1056,7 +1041,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '1977', event: 'The Foreign Corrupt Practices Act (FCPA), enacted in 1977 after Watergate-era revelations that over 400 U.S', type: 'default' },
      { date: '2000', event: 'Between 2000 and 2024, the DOJ and SEC brought over 500 FCPA enforcement actions resulting in more than $31 billion in penalties', type: 'political' },
      { date: '2019', event: 'Walmart paid $282 million in 2019 to settle FCPA charges after a New York Times investigation revealed the company had paid over $24 million in bribes to officials in Mexico, Brazil, India, and Chi', type: 'financial' },
-     { date: '2020', event: 'Goldman Sachs paid $2.9 billion in 2020 to settle charges related to its role in the 1MDB Malaysian corruption scandal', type: 'political' },
+     { date: '2020', event: 'Goldman Sachs paid $2.9 billion in 2020 to settle charges related to its role in the 1MDB Malaysian corruption scandal', type: 'political' }
    ],
  },
   'foreign-interference': {
@@ -1072,12 +1057,11 @@ const investigations_f: Record<string, InvestigationData> = {
  'Saudi Arabia and the UAE have spent hundreds of millions on lobbying, public relations, and political donations to shape U.S. Middle East policy. After the Khashoggi assassination, Saudi Arabia hired over two dozen American lobbying firms. The kingdom\'s sovereign wealth fund invested $2 billion with Jared Kushner\'s investment firm shortly after Kushner left the White House, despite the fund\'s screening panel flagging the investment as inappropriate.',
  'Israel\'s lobbying operation, centered on AIPAC (American Israel Public Affairs Committee), is the most powerful foreign policy lobby in Washington. AIPAC\'s affiliated super PAC spent over $100 million in the 2024 election cycle, targeting incumbent members of Congress who criticized Israeli policies. The lobby\'s influence extends to both parties and has shaped decades of unconditional U.S. support including $3.8 billion in annual military aid.',
  'Chinese influence operations increasingly targeted American institutions. The DOJ\'s "China Initiative," launched in 2018, investigated hundreds of cases of alleged Chinese espionage at universities and research institutions; though the program was criticized for racial profiling. Chinese government-linked entities funded Confucius Institutes at over 100 U.S. universities, and TikTok\'s algorithm raised concerns about Chinese Communist Party influence over American information consumption.',
- 'The broader pattern reveals a vulnerability inherent in American democracy: the openness of the political system creates attack surfaces for foreign influence. The Citizens United decision, which allowed unlimited political spending, made it easier to funnel foreign money through shell corporations and dark money networks. Enforcement of the Foreign Agents Registration Act (FARA) has been historically weak, with the DOJ bringing fewer than a dozen prosecutions per decade.',
+ 'The broader pattern reveals a vulnerability inherent in American democracy: the openness of the political system creates attack surfaces for foreign influence. The Citizens United decision, which allowed unlimited political spending, made it easier to funnel foreign money through shell corporations and dark money networks. Enforcement of the Foreign Agents Registration Act (FARA) has been historically weak, with the DOJ bringing fewer than a dozen prosecutions per decade.'
  ],
  tags: ['Foreign Interference', 'Russia', 'Saudi Arabia', 'Israel', 'China', 'FARA', 'Election Interference', 'Lobbying'],
  sources: [
  { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
- { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
  { title: 'ProPublica Electionland', url: 'https://www.propublica.org/electionland', type: 'Investigation' },
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
@@ -1090,13 +1074,11 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Human Rights Watch - China', url: 'https://www.hrw.org/asia/china-and-tibet', type: 'Report' },
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
- { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'COINTELPRO assassination operations', href: '/entities/agencies/fbi' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-08-29',
@@ -1104,7 +1086,7 @@ const investigations_f: Record<string, InvestigationData> = {
       timeline: [
      { date: '2016', event: 'Russian interference in the 2016 election was documented in exhaustive detail by the Mueller investigation, the Senate Intelligence Committee, and the intelligence community.', type: 'political' },
      { date: '2018', event: 'The DOJ\'s "China Initiative," launched in 2018, investigated hundreds of cases of alleged Chinese espionage at universities and research institutions, though the program was criticized for racial profiling.', type: 'default' },
-     { date: '2024', event: 'AIPAC\'s affiliated super PAC spent over $100 million in the 2024 election cycle, targeting incumbent members of Congress who criticized Israeli policies.', type: 'political' },
+     { date: '2024', event: 'AIPAC\'s affiliated super PAC spent over $100 million in the 2024 election cycle, targeting incumbent members of Congress who criticized Israeli policies.', type: 'political' }
      ],
  },
   'fossil-fuel-crimes': {
@@ -1120,7 +1102,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Coal mining companies have killed tens of thousands of American workers through preventable mine disasters and black lung disease. Massey Energy\'s Upper Big Branch mine explosion in 2010 killed 29 miners after the company systematically falsified safety records, intimidated federal inspectors, and ignored ventilation requirements. CEO Don Blankenship served only one year in prison; the minimum sentence for a misdemeanor conspiracy charge.',
  'Fracking operations have contaminated groundwater in communities across Pennsylvania, Texas, Oklahoma, and Colorado. The industry secured an exemption from the Safe Drinking Water Act in the 2005 Energy Policy Act (known as the "Halliburton Loophole" because VP Dick Cheney, former Halliburton CEO, championed it), allowing companies to inject toxic chemicals into the ground without EPA oversight.',
  'Oil refineries and petrochemical plants are concentrated in low-income communities and communities of color, creating "sacrifice zones" with elevated rates of cancer, respiratory disease, and birth defects. Louisiana\'s "Cancer Alley" stretch between Baton Rouge and New Orleans has cancer rates up to 50 times the national average, yet state regulators have continued issuing permits for new petrochemical facilities.',
- 'The industry\'s criminal liability is systematically underprosecuted. A 2020 analysis by the Environmental Integrity Project found that the EPA referred fewer criminal cases to the DOJ under the Trump administration than any administration since the EPA was created. Even when fines are imposed, they typically represent a fraction of a percent of corporate revenue.',
+ 'The industry\'s criminal liability is systematically underprosecuted. A 2020 analysis by the Environmental Integrity Project found that the EPA referred fewer criminal cases to the DOJ under the Trump administration than any administration since the EPA was created. Even when fines are imposed, they typically represent a fraction of a percent of corporate revenue.'
  ],
  tags: ['Fossil Fuel', 'Environmental Crime', 'Climate Fraud', 'Oil Spill', 'Pipeline', 'Carbon Emissions'],
  sources: [
@@ -1129,13 +1111,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
  { title: 'Inside Climate News - Exxon Investigation', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
  { title: 'Climate Accountability Institute', url: 'https://climateaccountability.org/', type: 'Report' },
- { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' },
-   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+ { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Climate fraud and environmental destruction', href: '/entities/corporations/exxonmobil' },
  { id: '2', name: 'BP', type: 'corporation', relationship: 'Deepwater Horizon and global pollution', href: '/entities/corporations/bp-corporation' },
- { id: '3', name: 'Chevron Corporation', type: 'corporation', relationship: 'Ecuador contamination and global operations', href: '/entities/corporations/chevron' },
+ { id: '3', name: 'Chevron Corporation', type: 'corporation', relationship: 'Ecuador contamination and global operations', href: '/entities/corporations/chevron' }
  ],
    eventOriginDate: '2005-01-01',
    lastActivityDate: '2025-05-04',
@@ -1145,7 +1126,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2005', event: 'The industry secured an exemption from the Safe Drinking Water Act in the 2005 Energy Policy Act (known as the "Halliburton Loophole" because VP Dick Cheney, former Halliburton CEO, championed it),', type: 'default' },
      { date: '2010', event: 'BP\'s Deepwater Horizon disaster spilled 210 million gallons of oil into the Gulf of Mexico in 2010, killing 11 workers and devastating marine ecosystems across five states', type: 'financial' },
      { date: '2010', event: 'Massey Energy\'s Upper Big Branch mine explosion in 2010 killed 29 miners after the company systematically falsified safety records, intimidated federal inspectors, and ignored ventilation requirements', type: 'critical' },
-     { date: '2020', event: 'A 2020 analysis by the Environmental Integrity Project found that the EPA referred fewer criminal cases to the DOJ under the Trump administration than any administration since the EPA was created', type: 'default' },
+     { date: '2020', event: 'A 2020 analysis by the Environmental Integrity Project found that the EPA referred fewer criminal cases to the DOJ under the Trump administration than any administration since the EPA was created', type: 'default' }
    ],
  },
   'fossil-fuel-lobbying': {
@@ -1161,7 +1142,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Campaign contributions ensure political loyalty. The fossil fuel industry donated over $100 million to federal candidates in the 2020 election cycle. Senator Joe Manchin, the pivotal vote who blocked climate provisions of the Build Back Better Act, received more fossil fuel money than any other senator. Manchin personally profited from coal through his family\'s Enersystems company, earning over $500,000 annually while voting on energy policy.',
  'Regulatory capture is the industry\'s most effective weapon. The American Petroleum Institute, the industry\'s primary trade group, has placed former executives throughout federal agencies. EPA administrators under Republican administrations have frequently come from industry; Scott Pruitt, Trump\'s first EPA administrator, had sued the EPA 14 times on behalf of oil and gas companies before being appointed to lead the agency.',
  'The industry funds a network of climate denial think tanks and advocacy groups. The Global Climate Coalition, Americans for Prosperity, the Heartland Institute, and dozens of other organizations received tens of millions from fossil fuel companies to produce misleading research, lobby against climate legislation, and attack climate scientists. This network delayed meaningful U.S. climate action by at least two decades.',
- 'Globally, fossil fuel subsidies exceed $7 trillion annually when accounting for unpaid environmental and health costs, according to the IMF. In the United States alone, direct and indirect subsidies to the fossil fuel industry exceed $600 billion per year. The industry\'s lobbying ensures these subsidies remain untouched while clean energy alternatives struggle for a fraction of that support.',
+ 'Globally, fossil fuel subsidies exceed $7 trillion annually when accounting for unpaid environmental and health costs, according to the IMF. In the United States alone, direct and indirect subsidies to the fossil fuel industry exceed $600 billion per year. The industry\'s lobbying ensures these subsidies remain untouched while clean energy alternatives struggle for a fraction of that support.'
  ],
  tags: ['Fossil Fuel', 'Lobbying', 'Climate Denial', 'Koch Industries', 'Oil Industry', 'Carbon Emissions', 'Dark Money'],
  sources: [
@@ -1170,13 +1151,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
  { title: 'Inside Climate News - Exxon Investigation', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
  { title: 'Climate Accountability Institute', url: 'https://climateaccountability.org/', type: 'Report' },
- { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' },
-   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+ { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Top spender on climate lobbying', href: '/entities/corporations/exxonmobil' },
  { id: '2', name: 'American Petroleum Institute', type: 'organization', relationship: 'Industry trade group coordinating lobbying', href: '/entities/organizations/american-petroleum-institute' },
- { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Recipients of fossil fuel donations', href: '/entities/agencies/congress' },
+ { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Recipients of fossil fuel donations', href: '/entities/agencies/congress' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2024-04-01',
@@ -1184,7 +1164,7 @@ const investigations_f: Record<string, InvestigationData> = {
       timeline: [
      { date: '2000', event: 'Between 2000 and 2024, oil, gas, and coal companies spent over $4.6 billion on federal lobbying, according to OpenSecrets.', type: 'financial' },
      { date: '2020', event: 'The fossil fuel industry donated over $100 million to federal candidates in the 2020 election cycle.', type: 'political' },
-     { date: '2024', event: 'Between 2000 and 2024, oil, gas, and coal companies spent over $4.6 billion on federal lobbying, according to OpenSecrets.', type: 'financial' },
+     { date: '2024', event: 'Between 2000 and 2024, oil, gas, and coal companies spent over $4.6 billion on federal lobbying, according to OpenSecrets.', type: 'financial' }
      ],
  },
   'fox-misinformation': {
@@ -1200,7 +1180,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Internal Fox text messages revealed the extent of the deception. Tucker Carlson wrote: "Sidney Powell is lying by the way. I caught her. It\'s insane." Sean Hannity texted: "I did not believe it for one second." Laura Ingraham called Sidney Powell\'s claims "insane" and "nuts." Yet all three continued promoting election fraud narratives on air because, as one Fox executive wrote, "respecting the audience" meant telling them what they wanted to hear.',
  'Rupert Murdoch, in his deposition, admitted that certain Fox hosts "endorsed" the false claims about Dominion. When asked whether Fox had a responsibility to report the truth, Murdoch testified about the network\'s financial considerations, revealing that audience retention drove editorial decisions more than factual accuracy.',
  'Smartmatic, another voting technology company, filed a $2.7 billion defamation lawsuit against Fox News that remained pending as of 2025. The Smartmatic lawsuit alleged a broader pattern of knowing falsehoods about election technology and could result in even larger damages given the scope of the claims.',
- 'The Fox misinformation pattern extends far beyond the 2020 election. Research by the Harvard Shorenstein Center documented that Fox News has consistently amplified false and misleading claims about climate change, immigration, COVID-19, crime statistics, and numerous other topics. A 2012 Fairleigh Dickinson University study found that Fox News viewers were less informed about current events than people who watched no news at all.',
+ 'The Fox misinformation pattern extends far beyond the 2020 election. Research by the Harvard Shorenstein Center documented that Fox News has consistently amplified false and misleading claims about climate change, immigration, COVID-19, crime statistics, and numerous other topics. A 2012 Fairleigh Dickinson University study found that Fox News viewers were less informed about current events than people who watched no news at all.'
  ],
  tags: ['Media & Disinformation', 'Fox News', 'Dominion', 'Smartmatic', 'Election Lies', 'Defamation', 'Rupert Murdoch'],
  sources: [
@@ -1208,13 +1188,11 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Harvard Shorenstein Center on Media', url: 'https://shorensteincenter.org/', type: 'Academic Research' },
  { title: 'Fairleigh Dickinson University PublicMind Poll', url: 'https://publicmind.fdu.edu/', type: 'Academic Research' },
  { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
- { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
- { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
- { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: '$787M Dominion settlement for election lies', href: '/entities/corporations/fox-news' },
- { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Acknowledged hosts endorsed false claims', href: '/entities/individuals/rupert-murdoch' },
+ { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Acknowledged hosts endorsed false claims', href: '/entities/individuals/rupert-murdoch' }
  ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2026-02-11',
@@ -1223,7 +1201,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2012', event: 'A 2012 Fairleigh Dickinson University study found that Fox News viewers were less informed about current events than people who watched no news at all.', type: 'default' },
      { date: '2020', event: 'The Fox misinformation pattern extends far beyond the 2020 election.', type: 'default' },
      { date: '2023', event: 'In April 2023, Fox News agreed to pay $787.5 million to settle Dominion Voting Systems\' defamation lawsuit; the largest known media defamation settlement in U.S.', type: 'default' },
-     { date: '2025', event: 'Smartmatic, another voting technology company, filed a $2.7 billion defamation lawsuit against Fox News that remained pending as of 2025.', type: 'default' },
+     { date: '2025', event: 'Smartmatic, another voting technology company, filed a $2.7 billion defamation lawsuit against Fox News that remained pending as of 2025.', type: 'default' }
    ],
  },  'fox-news-harassment': {
  title: 'Fox News Sexual Harassment',
@@ -1243,20 +1221,19 @@ const investigations_f: Record<string, InvestigationData> = {
  'ED HENRY FIRING: In 2020, Fox fired anchor Ed Henry after receiving a sexual misconduct claim. Henry was subsequently sued for rape by a former Fox employee. Additional women came forward with allegations against Henry, revealing that complaints about his behavior had circulated internally for years.',
  'CULTURA OF IMPUNITY: Female employees described a culture where sexual comments, unwanted advances, and retaliation for complaints were normalized. Women who complained were sidelined, demoted, or terminated. Women who complied with advances received favorable assignments and airtime.',
  'LEGAL AFTERMATH: In 2017, 21st Century Fox paid $90 million to shareholders who alleged the company mishandled harassment claims. Multiple lawsuits from female employees continued for years. The legal costs exceeded $200 million when settlements, legal fees, and shareholder suits were combined.',
- 'SYSTEMIC PATTERN: The Fox News harassment scandal was not about individual bad actors but an institutional culture that enabled and protected predators. From Ailes\'s hiring practices (which included assessing women\'s appearance) to the company\'s settlement-and-silence approach, the entire system was designed to facilitate and conceal harassment.',
+ 'SYSTEMIC PATTERN: The Fox News harassment scandal was not about individual bad actors but an institutional culture that enabled and protected predators. From Ailes\'s hiring practices (which included assessing women\'s appearance) to the company\'s settlement-and-silence approach, the entire system was designed to facilitate and conceal harassment.'
  ],
  tags: ['Sexual Harassment', 'Fox News', 'Roger Ailes', 'Bill O\'Reilly', 'MeToo', 'Corporate Cover-up', 'Media'],
  sources: [
  { title: 'NYT O\'Reilly Settlement Investigation', url: 'https://www.nytimes.com/2017/04/01/business/media/bill-oreilly-sexual-harassment-fox-news.html', type: 'Investigation' },
  { title: 'Carlson v. Ailes Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson.html', type: 'Court Filing' },
  { title: 'Shareholder Lawsuit Settlement', url: 'https://www.reuters.com/article/foxnews-settlement-idUSKBN1DK26I', type: 'Court Filing' },
- { title: 'Gabriel Sherman: The Loudest Voice in the Room', url: 'https://www.penguinrandomhouse.com/books/218812/the-loudest-voice-in-the-room-by-gabriel-sherman/', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Gabriel Sherman: The Loudest Voice in the Room', url: 'https://www.penguinrandomhouse.com/books/218812/the-loudest-voice-in-the-room-by-gabriel-sherman/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Institutional harassment culture, $200M+ in costs', href: '/entities/corporations/fox-news' },
  { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Praised Ailes on departure, knew of O\'Reilly settlements', href: '/entities/individuals/rupert-murdoch' },
- { id: '3', name: 'Bill O\'Reilly', type: 'individual', relationship: '$45M in harassment settlements', href: '/entities/individuals/bill-oreilly' },
+ { id: '3', name: 'Bill O\'Reilly', type: 'individual', relationship: '$45M in harassment settlements', href: '/entities/individuals/bill-oreilly' }
  ],
    eventOriginDate: '1996-10-07',
    lastActivityDate: '2026-02-20',
@@ -1266,7 +1243,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2016-09-01', event: 'Fox settles with Carlson for $20 million; Ailes departs with $40 million golden parachute', type: 'financial' },
      { date: '2017-04-01', event: 'NYT reveals O\'Reilly\'s settlements; over 60 advertisers pull from his show; Fox fires him with $25 million severance', type: 'financial' },
      { date: '2017', event: '21st Century Fox pays $90 million to shareholders who alleged the company mishandled harassment claims', type: 'financial' },
-     { date: '2020', event: 'Fox fires anchor Ed Henry after sexual misconduct claim; he is subsequently sued for rape by a former employee', type: 'default' },
+     { date: '2020', event: 'Fox fires anchor Ed Henry after sexual misconduct claim; he is subsequently sued for rape by a former employee', type: 'default' }
    ],
  },
   'fyre-festival': {
@@ -1282,19 +1259,17 @@ const investigations_f: Record<string, InvestigationData> = {
  'When attendees arrived on Great Exuma in April 2017, they found no festival. Instead of luxury villas, they encountered FEMA disaster relief tents. Instead of gourmet catering, they received cheese sandwiches in styrofoam containers. There was no music, no infrastructure, and no plan. Thousands of attendees were stranded with no transportation, no accommodations, and luggage that had been thrown from shipping containers in the dark.',
  'Organizer Billy McFarland had raised $26 million from investors using fabricated financial documents, fake revenue projections, and forged bank statements. He claimed partnerships with hotel chains and event companies that did not exist. When the festival collapsed, he launched a new ticket scam called NYC VIP Access while out on bail, defrauding additional victims of $150,000.',
  'Bahamian workers were among the worst-affected victims. Local contractors, caterers, and laborers who built the festival site were never paid for their work. Maryann Rolle, a local restaurant owner, spent $50,000 of her personal savings feeding festival workers and was never reimbursed. A GoFundMe campaign eventually raised over $200,000 for her.',
- 'McFarland was sentenced to six years in federal prison in 2018 and ordered to forfeit $26 million. He was released in 2022 and immediately announced plans for "Fyre Festival II," selling tickets starting at $499. The broader case highlighted systemic failures in influencer marketing regulation, investor due diligence, and the SEC\'s inability to detect fraud before it reaches consumers.',
+ 'McFarland was sentenced to six years in federal prison in 2018 and ordered to forfeit $26 million. He was released in 2022 and immediately announced plans for "Fyre Festival II," selling tickets starting at $499. The broader case highlighted systemic failures in influencer marketing regulation, investor due diligence, and the SEC\'s inability to detect fraud before it reaches consumers.'
  ],
  tags: ['Fyre Festival', 'Billy McFarland', 'Influencer Marketing', 'Wire Fraud', 'Consumer Fraud', 'FTC'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
- { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
-   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Billy McFarland', type: 'individual', relationship: 'Convicted fraudster, Festival organizer', href: '/entities/individuals/billy-mcfarland' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial fraud enforcement', href: '/entities/agencies/sec' },
-
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial fraud enforcement', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-01-24',
@@ -1302,7 +1277,7 @@ const investigations_f: Record<string, InvestigationData> = {
       timeline: [
      { date: '2017-04', event: 'When attendees arrived on Great Exuma in April 2017, they found no festival.', type: 'default' },
      { date: '2018', event: 'McFarland was sentenced to six years in federal prison in 2018 and ordered to forfeit $26 million.', type: 'legal' },
-     { date: '2022', event: 'He was released in 2022 and immediately announced plans for "Fyre Festival II," selling tickets starting at $499.', type: 'default' },
+     { date: '2022', event: 'He was released in 2022 and immediately announced plans for "Fyre Festival II," selling tickets starting at $499.', type: 'default' }
      ],
  },
   'foreign-election-interference-operations': {
@@ -1318,18 +1293,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'China\'s election interference operations have escalated from traditional diplomatic influence to active information warfare. The 2023 ODNI Annual Threat Assessment stated that China\'s efforts to influence US politics had "intensified" and expanded beyond federal elections to target state and local races. Chinese-linked social media accounts promoted content on platforms including TikTok, YouTube, and Twitter designed to amplify social divisions. In 2022, the DOJ charged a New York police officer (Baimadajie Angwang) with acting as a Chinese intelligence agent, spying on Tibetan Americans and reporting on their political activities. The 2024 intelligence assessment identified Chinese operations targeting congressional races and ballot initiatives related to China policy, particularly in districts with significant Asian-American populations.',
       'Iran\'s interference operations have targeted both parties and focused on destabilizing trust in democratic institutions. In 2020, Iranian hackers obtained voter registration data and sent threatening emails to Democratic voters while spoofing the Proud Boys identity; the DOJ indicted two Iranian nationals. In 2024, Iranian hackers breached the Trump campaign and offered stolen documents to media organizations (most declined to publish). Iran\'s Islamic Revolutionary Guard Corps (IRGC) has also conducted social media influence operations promoting anti-US content and amplifying domestic divisions. The ODNI assessed that Iran\'s primary goal is not to support a particular candidate but to undermine confidence in the electoral process itself.',
       'Additional foreign actors have engaged in documented interference. Saudi Arabia funneled money to US political campaigns through intermediary networks; Thomas Barrack (a Trump ally and inaugural committee chair) was charged with acting as an unregistered agent of the UAE and making false statements to the FBI. Israeli intelligence firm Psy-Group pitched a social media manipulation operation to the Trump campaign in 2016 (the campaign did not accept). North Korea\'s Lazarus Group has conducted cyber operations against election-related infrastructure. The common thread across all foreign interference is exploitation of vulnerabilities in US campaign finance law, social media platforms, and election infrastructure that domestic actors have failed to address.',
-      'The legislative response to foreign election interference has been minimal despite bipartisan intelligence assessments. The SAFE Act (Securing America\'s Federal Elections), the SHIELD Act (Stopping Harmful Interference in Elections for a Lasting Democracy), and the Freedom to Vote Act all passed the House but died in the Senate due to filibuster or partisan opposition. The only significant legislative action was the establishment of CISA (Cybersecurity and Infrastructure Security Agency) in 2018, which provides technical assistance to state election officials but cannot mandate security standards. The FEC remains chronically deadlocked; unable to enforce existing campaign finance laws against foreign money. Social media companies have reduced their election integrity teams; Meta disbanded its Civic Integrity team after the 2020 election, and Twitter/X eliminated its Trust and Safety Council under Elon Musk\'s ownership. The structural vulnerabilities that enabled 2016 interference remain largely unaddressed.',
+      'The legislative response to foreign election interference has been minimal despite bipartisan intelligence assessments. The SAFE Act (Securing America\'s Federal Elections), the SHIELD Act (Stopping Harmful Interference in Elections for a Lasting Democracy), and the Freedom to Vote Act all passed the House but died in the Senate due to filibuster or partisan opposition. The only significant legislative action was the establishment of CISA (Cybersecurity and Infrastructure Security Agency) in 2018, which provides technical assistance to state election officials but cannot mandate security standards. The FEC remains chronically deadlocked; unable to enforce existing campaign finance laws against foreign money. Social media companies have reduced their election integrity teams; Meta disbanded its Civic Integrity team after the 2020 election, and Twitter/X eliminated its Trust and Safety Council under Elon Musk\'s ownership. The structural vulnerabilities that enabled 2016 interference remain largely unaddressed.'
     ],
     tags: ['Foreign Interference', 'Russia', 'China', 'Iran', 'Election Security', 'Mueller Investigation', 'Internet Research Agency'],
     sources: [
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'ODNI Annual Threat Assessments', url: 'https://www.dni.gov', type: 'Government Record' },
-      { title: 'Mueller Investigation Report', url: 'https://www.justice.gov', type: 'Government Record' },
-      { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+      { title: 'Mueller Investigation Report', url: 'https://www.justice.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Kremlin-linked troll farm spending $1.25M/month on US-targeted social media reaching 126M Americans', href: '/entities/organizations/internet-research-agency' },
- { id: '2', name: 'FBI', type: 'agency', relationship: 'Counterintelligence investigations into foreign election interference; multiple indictments of foreign agents', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Counterintelligence investigations into foreign election interference; multiple indictments of foreign agents', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-05-02',
@@ -1344,7 +1318,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, the DOJ charged a New York police officer (Baimadajie Angwang) with acting as a Chinese intelligence agent, spying on Tibetan Americans and reporting on their political activities', type: 'default' },
      { date: '2023', event: 'The 2023 ODNI Annual Threat Assessment stated that China\'s efforts to influence US politics had "intensified" and expanded beyond federal elections to target state and local races', type: 'political' },
      { date: '2024', event: 'The 2024 intelligence assessment identified Chinese operations targeting congressional races and ballot initiatives related to China policy, particularly in districts with significant Asian-America', type: 'political' },
-     { date: '2024', event: 'In 2024, Iranian hackers breached the Trump campaign and offered stolen documents to media organizations (most declined to publish)', type: 'political' },
+     { date: '2024', event: 'In 2024, Iranian hackers breached the Trump campaign and offered stolen documents to media organizations (most declined to publish)', type: 'political' }
    ],
   },
   'financial-fraud-network-mapping': {
@@ -1360,18 +1334,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Shell company networks are the primary infrastructure of financial fraud. The Global Financial Integrity organization estimates that illicit financial flows from developing countries totaled $1.1 trillion annually between 2006 and 2015. A 2019 study by the Tax Justice Network identified the US as the second-largest financial secrecy jurisdiction in the world (behind only the Cayman Islands), with Delaware, Nevada, Wyoming, and South Dakota offering corporate formation services with minimal identification requirements. Before the Corporate Transparency Act (CTA), no US state required disclosure of the actual human beings who owned or controlled companies. Investigators documented cases where a single registered agent address in Wilmington, Delaware housed over 285,000 companies; many used solely to layer transactions and obscure beneficial ownership.',
       'The Panama Papers (April 2016) exposed 214,488 offshore entities created by Mossack Fonseca for clients in over 200 countries. The leaked documents revealed that 140 politicians and public officials; including 12 current or former world leaders; used offshore structures to hide assets. Iceland\'s Prime Minister Sigmundur David Gunnlaugsson resigned. Pakistan\'s Prime Minister Nawaz Sharif was removed from office. The investigation led to at least $1.36 billion in tax recoveries worldwide. The Pandora Papers (October 2021) expanded the scope, leaking 11.9 million documents from 14 offshore service providers and revealing the hidden wealth of 35 current and former world leaders, over 330 politicians, and numerous billionaires. Despite these revelations, no major US financial institution faced criminal prosecution, and the offshore infrastructure identified in both leaks continues to operate.',
       'The Corporate Transparency Act (CTA), signed into law in January 2021 as part of the National Defense Authorization Act, represented the most significant US anti-money laundering reform in decades. The law requires most US companies to report their beneficial owners (the actual humans who own or control the entity) to FinCEN. However, implementation has been repeatedly delayed and legally challenged. In March 2024, a federal judge in Alabama declared the CTA unconstitutional in National Small Business United v. Yellen (later reversed). The law exempts 23 categories of entities including publicly traded companies (already subject to SEC disclosure) and entities with over $5 million in revenue and 20+ employees; exemptions that critics argue create exploitable loopholes. FinCEN\'s deadline for existing companies to file was January 1, 2025; compliance costs and the legal uncertainty surrounding the CTA have generated significant industry opposition.',
-      'Financial fraud network mapping has been advanced significantly by academic researchers and open-source intelligence practitioners using network science techniques. The ICIJ\'s Offshore Leaks Database (freely searchable online) connects over 810,000 entities from multiple leak investigations. University of Oxford researchers demonstrated that machine learning applied to corporate registration data can identify shell company networks with over 85% accuracy based on structural features alone (shared addresses, directors, and formation patterns). Despite these tools, law enforcement remains resource-constrained: FinCEN has approximately 300 employees to oversee compliance by over 25,000 financial institutions. The FBI\'s Financial Crimes Section has seen budget increases but investigates fewer than 1% of the SARs filed annually. The Department of Justice\'s Kleptocracy Asset Recovery Initiative has recovered over $3 billion in stolen assets since 2010; a meaningful sum, but a fraction of estimated illicit flows.',
+      'Financial fraud network mapping has been advanced significantly by academic researchers and open-source intelligence practitioners using network science techniques. The ICIJ\'s Offshore Leaks Database (freely searchable online) connects over 810,000 entities from multiple leak investigations. University of Oxford researchers demonstrated that machine learning applied to corporate registration data can identify shell company networks with over 85% accuracy based on structural features alone (shared addresses, directors, and formation patterns). Despite these tools, law enforcement remains resource-constrained: FinCEN has approximately 300 employees to oversee compliance by over 25,000 financial institutions. The FBI\'s Financial Crimes Section has seen budget increases but investigates fewer than 1% of the SARs filed annually. The Department of Justice\'s Kleptocracy Asset Recovery Initiative has recovered over $3 billion in stolen assets since 2010; a meaningful sum, but a fraction of estimated illicit flows.'
     ],
     tags: ['Financial Fraud', 'Shell Companies', 'FinCEN Files', 'Panama Papers', 'Money Laundering', 'Beneficial Ownership', 'Corporate Transparency Act'],
     sources: [
       { title: 'ICIJ FinCEN Files Investigation', url: 'https://www.icij.org/investigations/fincen-files/', type: 'Investigative Report' },
       { title: 'ICIJ Panama Papers', url: 'https://www.icij.org/investigations/panama-papers/', type: 'Investigative Report' },
-      { title: 'FinCEN Corporate Transparency Act', url: 'https://www.fincen.gov', type: 'Government Record' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'FinCEN Corporate Transparency Act', url: 'https://www.fincen.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN has ~300 employees overseeing 25,000+ financial institutions; SAR system functions as compliance checkbox', href: '/entities/agencies/treasury' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Kleptocracy Asset Recovery Initiative has recovered $3B+ since 2010; fraction of estimated illicit flows', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Kleptocracy Asset Recovery Initiative has recovered $3B+ since 2010; fraction of estimated illicit flows', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1999-01-01',
    lastActivityDate: '2025-01-01',
@@ -1385,7 +1358,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Corporate Transparency Act (CTA), signed into law in January 2021 as part of the National Defense Authorization Act, represented the most significant US anti-money laundering reform in decades', type: 'political' },
      { date: '2021-10-01', event: 'The Pandora Papers (October 2021) expanded the scope, leaking 11.9 million documents from 14 offshore service providers and revealing the hidden wealth of 35 current and former world leaders, over', type: 'financial' },
      { date: '2024-03-01', event: 'In March 2024, a federal judge in Alabama declared the CTA unconstitutional in National Small Business United v', type: 'legal' },
-     { date: '2025', event: 'FinCEN\'s deadline for existing companies to file was January 1, 2025; compliance costs and the legal uncertainty surrounding the CTA have generated significant industry opposition', type: 'financial' },
+     { date: '2025', event: 'FinCEN\'s deadline for existing companies to file was January 1, 2025; compliance costs and the legal uncertainty surrounding the CTA have generated significant industry opposition', type: 'financial' }
    ],
   },
   'ftx-crypto-collapse-cover-up': {
@@ -1401,18 +1374,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'SBF\'s political influence operation was integral to the fraud. He donated over $70 million to political campaigns and PACs in 2021-2022, making him the second-largest individual donor to Democrats (after George Soros). His FTX co-CEO Ryan Salame donated approximately $24 million primarily to Republicans; creating a bipartisan influence network. SBF lobbied directly for cryptocurrency regulation that would have favored FTX over competitors, meeting with SEC Chair Gary Gensler, CFTC Chair Rostin Behnam, and members of Congress. His proposed "Digital Commodities Consumer Protection Act" would have placed crypto exchanges under CFTC jurisdiction (considered lighter-touch than the SEC) and potentially formalized FTX\'s market position. SBF admitted in recorded conversations with a journalist that his public image as an effective altruist was a "front" and his actual ethical framework was "whatever it takes."',
       'The investor and auditor failures in the FTX collapse were staggering. Sequoia Capital invested $214 million in FTX in 2021 after a single Zoom call with SBF (during which SBF was reportedly playing League of Legends) and published a fawning profile calling him the "future of finance." SoftBank invested $100 million. Tiger Global, the Ontario Teachers\' Pension Plan, and Singapore\'s sovereign wealth fund Temasek also invested hundreds of millions. None of these sophisticated investors detected that FTX had no independent board of directors, no CFO, minimal accounting controls, and was transferring customer funds to Alameda. The accounting firm Prager Metis (which audited FTX) was itself charged by the SEC in 2023; Armanino (which audited FTX US) withdrew and is facing lawsuits. John Ray III, the restructuring expert brought in to manage FTX\'s bankruptcy (who previously managed the Enron bankruptcy), stated: "Never in my career have I seen such a complete failure of corporate controls."',
       'The media\'s role in amplifying SBF\'s brand illustrates the failure of financial journalism. The New York Times ran favorable profiles of SBF even after the collapse, framing him as a "socially awkward math nerd" rather than a fraud suspect; drawing widespread criticism for "sympathetic" coverage. The Sequoia Capital profile was published with minimal journalistic skepticism. SBF\'s effective altruism framing (he pledged to give away most of his wealth) provided a pre-packaged narrative that journalists adopted uncritically. Meanwhile, independent crypto journalists and short-sellers who raised concerns about FTX\'s solvency and its relationship with Alameda were dismissed as conspiracy theorists or competitive critics. The pattern mirrors previous financial frauds (Theranos, WeWork, Enron) in which media proximity to powerful subjects undermines independent scrutiny.',
-      'The criminal and regulatory aftermath has been extensive but has not addressed systemic issues. SBF was convicted on all seven federal charges (wire fraud, securities fraud, money laundering, campaign finance violations) in November 2023 and sentenced to 25 years in prison in March 2024. Caroline Ellison cooperated and received a two-year sentence. Gary Wang (FTX\'s co-founder and CTO) cooperated and received no prison time. Nishad Singh (FTX\'s head of engineering) cooperated and also received no prison time. Ryan Salame received 7.5 years. The FTX bankruptcy estate has recovered approximately $14.5 billion (more than customer claims) due to cryptocurrency price appreciation; but Congress has not passed comprehensive crypto regulation. The SEC and CFTC continue to fight over jurisdiction. The fundamental question; whether customer deposits at crypto exchanges should receive the same protections as bank deposits or brokerage accounts; remains unresolved.',
+      'The criminal and regulatory aftermath has been extensive but has not addressed systemic issues. SBF was convicted on all seven federal charges (wire fraud, securities fraud, money laundering, campaign finance violations) in November 2023 and sentenced to 25 years in prison in March 2024. Caroline Ellison cooperated and received a two-year sentence. Gary Wang (FTX\'s co-founder and CTO) cooperated and received no prison time. Nishad Singh (FTX\'s head of engineering) cooperated and also received no prison time. Ryan Salame received 7.5 years. The FTX bankruptcy estate has recovered approximately $14.5 billion (more than customer claims) due to cryptocurrency price appreciation; but Congress has not passed comprehensive crypto regulation. The SEC and CFTC continue to fight over jurisdiction. The fundamental question; whether customer deposits at crypto exchanges should receive the same protections as bank deposits or brokerage accounts; remains unresolved.'
     ],
     tags: ['FTX', 'Sam Bankman-Fried', 'Crypto Fraud', 'Alameda Research', 'Effective Altruism', 'Political Donations', 'Regulatory Failure'],
     sources: [
       { title: 'DOJ FTX Indictment', url: 'https://www.justice.gov', type: 'Court Record' },
       { title: 'FTX Bankruptcy Court Filings', url: 'https://www.courtlistener.com', type: 'Court Record' },
-      { title: 'SEC FTX Enforcement Action', url: 'https://www.sec.gov', type: 'Government Record' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'SEC FTX Enforcement Action', url: 'https://www.sec.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Chair Gensler met with SBF multiple times; SEC-CFTC jurisdictional dispute left crypto exchanges unregulated', href: '/entities/agencies/sec' },
-      { id: 'central-intelligence-agency', name: 'CFTC', type: 'agency', relationship: 'Jurisdictional dispute with SEC left crypto exchanges unregulated; SBF lobbied for CFTC oversight as a lighter-touch alternative', href: '/entities/agencies/cftc' },
+      { id: 'central-intelligence-agency', name: 'CFTC', type: 'agency', relationship: 'Jurisdictional dispute with SEC left crypto exchanges unregulated; SBF lobbied for CFTC oversight as a lighter-touch alternative', href: '/entities/agencies/cftc' }
  ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-05-03',
@@ -1424,14 +1396,14 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2022', event: 'When the crypto market declined in 2022, Alameda\'s balance sheet (which was heavily concentrated in FTT; FTX\'s own token) became insolvent', type: 'default' },
      { date: '2022-11-02', event: 'A leaked Alameda balance sheet published by CoinDesk on November 2, 2022, revealed that the majority of Alameda\'s assets were FTT tokens; essentially IOUs from a sister company', type: 'default' },
      { date: '2023', event: 'The accounting firm Prager Metis (which audited FTX) was itself charged by the SEC in 2023; Armanino (which audited FTX US) withdrew and is facing lawsuits', type: 'legal' },
-     { date: '2023-11-01', event: 'SBF was convicted on all seven federal charges (wire fraud, securities fraud, money laundering, campaign finance violations) in November 2023 and sentenced to 25 years in prison in March 2024', type: 'legal' },
+     { date: '2023-11-01', event: 'SBF was convicted on all seven federal charges (wire fraud, securities fraud, money laundering, campaign finance violations) in November 2023 and sentenced to 25 years in prison in March 2024', type: 'legal' }
    ],
    moneyTrail: [
      { date: '2019-01-01', from: 'FTX customer deposits', to: 'Alameda Research', amount: '$8,000,000,000', purpose: 'Customer funds secretly diverted to sister trading firm to cover losses, make venture investments, and purchase luxury real estate', documented: true },
      { date: '2021-01-01', from: 'Sequoia Capital', to: 'FTX', amount: '$214,000,000', purpose: 'Investment after a single Zoom call with SBF (who was reportedly playing League of Legends during the pitch)', documented: true },
      { date: '2021-01-01', from: 'Sam Bankman-Fried', to: 'Political campaigns and PACs', amount: '$70,000,000', purpose: 'Second-largest individual donor to Democrats in 2021-2022 (after George Soros); also secretly funded Republican candidates', documented: true },
      { date: '2022-11-02', from: 'Alameda Research (balance sheet)', to: 'FTT token holdings (illiquid)', amount: '$5,000,000,000', purpose: 'Majority of Alameda assets were FTT tokens; essentially IOUs from sister company FTX, revealed by CoinDesk leak', documented: true },
-     { date: '2024-03-01', from: 'FTX bankruptcy estate', to: 'Creditors (ongoing recovery)', amount: '$16,000,000,000', purpose: 'Estimated customer and creditor losses; recovery efforts ongoing under new CEO John J. Ray III', documented: true },
+     { date: '2024-03-01', from: 'FTX bankruptcy estate', to: 'Creditors (ongoing recovery)', amount: '$16,000,000,000', purpose: 'Estimated customer and creditor losses; recovery efforts ongoing under new CEO John J. Ray III', documented: true }
    ],
   },
   'forced-labor-in-us-prison-system': {
@@ -1447,18 +1419,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'State prison labor systems exploit the 13th Amendment exception even more aggressively than the federal system. Six states (Texas, Georgia, Alabama, Arkansas, Mississippi, and South Carolina) pay incarcerated workers nothing at all for their labor. Louisiana\'s Angola prison (formerly the Angola plantation; built on the site of a slave plantation and named after the country from which enslaved people were taken) operates a working farm where predominantly Black incarcerated men (approximately 75%) perform agricultural labor under the supervision of armed, horseback-mounted guards; imagery that directly echoes the antebellum plantation system. California\'s incarcerated firefighters earn $5.80 to $10.24 per day plus $1 per hour during active fire duty; fighting the same fires as professional firefighters who earn $25-50 per hour; but are barred from becoming professional firefighters after release due to felony convictions (California passed AB 2147 in 2020 to create a pathway for expungement, but implementation has been limited).',
       'Private prison corporations have built business models around incarcerated labor. CoreCivic (formerly Corrections Corporation of America; revenue $1.9 billion in 2022) and GEO Group (revenue $2.4 billion in 2022) together operate approximately 200 facilities housing over 120,000 people. Both companies\' SEC filings acknowledge that their revenue depends on maintaining high incarceration rates; GEO Group\'s 10-K filing explicitly stated that "any changes with respect to" criminal sentencing laws "could affect the number of persons arrested, convicted, and sentenced, thereby potentially reducing demand for correctional facilities." Private prisons have lobbied for harsher sentencing laws; a 2016 In the Public Interest report documented that private prison contracts in 65% of cases included "lockup quotas" requiring states to keep facilities at 80-90% capacity or pay for empty beds.',
       'Corporate supply chains connected to prison labor extend into everyday consumer products. Through Prison Industry Enhancement (PIE) programs, incarcerated workers produce goods for private companies including Whole Foods (tilapia and goat cheese from Colorado prisons), Victoria\'s Secret (sewing lingerie through third-party contractors, discontinued after public exposure), McDonald\'s (packaging and uniforms), Starbucks (packaging), and Boeing (wiring components). The US military is one of the largest consumers of prison labor; UNICOR provides military uniforms, body armor components, helmet pads, and other equipment. Call centers staffed by incarcerated workers handle customer service for companies at rates far below market; workers earn pennies per hour while companies save millions on labor costs. Many consumers are unaware that products they purchase were manufactured under conditions that would be classified as forced labor if they occurred in another country.',
-      'Constitutional challenges to prison forced labor have largely failed due to the 13th Amendment\'s explicit slavery exception. However, a growing movement seeks to close the loophole. In 2022, voters in five states (Alabama, Louisiana, Oregon, Tennessee, and Vermont) approved ballot measures to remove slavery and involuntary servitude exceptions from their state constitutions. Colorado passed a similar measure in 2018. These amendments have symbolic importance but limited practical effect without implementing legislation. At the federal level, the Abolition Amendment (proposed by Senator Jeff Merkley and Representative Nikema Williams) would remove the 13th Amendment\'s punishment exception entirely; it has not advanced past committee. The UN Special Rapporteur on Contemporary Forms of Slavery issued a 2022 report explicitly characterizing US prison labor practices as meeting the international legal definition of forced labor under ILO Convention 29.',
+      'Constitutional challenges to prison forced labor have largely failed due to the 13th Amendment\'s explicit slavery exception. However, a growing movement seeks to close the loophole. In 2022, voters in five states (Alabama, Louisiana, Oregon, Tennessee, and Vermont) approved ballot measures to remove slavery and involuntary servitude exceptions from their state constitutions. Colorado passed a similar measure in 2018. These amendments have symbolic importance but limited practical effect without implementing legislation. At the federal level, the Abolition Amendment (proposed by Senator Jeff Merkley and Representative Nikema Williams) would remove the 13th Amendment\'s punishment exception entirely; it has not advanced past committee. The UN Special Rapporteur on Contemporary Forms of Slavery issued a 2022 report explicitly characterizing US prison labor practices as meeting the international legal definition of forced labor under ILO Convention 29.'
     ],
     tags: ['Prison Labor', '13th Amendment', 'Forced Labor', 'Mass Incarceration', 'UNICOR', 'Private Prisons', 'CoreCivic', 'GEO Group'],
     sources: [
       { title: 'ACLU Prison Labor Report', url: 'https://www.aclu.org', type: 'Research Study' },
       { title: 'UNICOR Annual Report', url: 'https://www.unicor.gov', type: 'Government Record' },
-      { title: 'UN Special Rapporteur on Slavery', url: 'https://www.ohchr.org', type: 'International Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'UN Special Rapporteur on Slavery', url: 'https://www.ohchr.org', type: 'International Report' }
     ],
     affiliations: [
  { id: '1', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Operates UNICOR prison labor program; $509M in net sales in FY2022; documented toxic exposure of workers', href: '/entities/agencies/bop' },
- { id: '2', name: 'CoreCivic', type: 'corporation', relationship: 'Revenue $1.9B (2022); SEC filings acknowledge dependence on high incarceration rates; lobbied for harsher sentencing', href: '/entities/corporations/corecivic' },
+ { id: '2', name: 'CoreCivic', type: 'corporation', relationship: 'Revenue $1.9B (2022); SEC filings acknowledge dependence on high incarceration rates; lobbied for harsher sentencing', href: '/entities/corporations/corecivic' }
  ],
    eventOriginDate: '1934-01-01',
    lastActivityDate: '2023-04-22',
@@ -1472,7 +1443,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2022', event: 'UNICOR generated $509 million in net sales in fiscal year 2022', type: 'financial' },
      { date: '2022', event: 'CoreCivic (formerly Corrections Corporation of America; revenue $1.9 billion in 2022) and GEO Group (revenue $2.4 billion in 2022) together operate approximately 200 facilities housing over 120,000', type: 'political' },
      { date: '2022', event: 'In 2022, voters in five states (Alabama, Louisiana, Oregon, Tennessee, and Vermont) approved ballot measures to remove slavery and involuntary servitude exceptions from their state constitutions', type: 'political' },
-     { date: '2022', event: 'The UN Special Rapporteur on Contemporary Forms of Slavery issued a 2022 report explicitly characterizing US prison labor practices as meeting the international legal definition of forced labor und', type: 'legal' },
+     { date: '2022', event: 'The UN Special Rapporteur on Contemporary Forms of Slavery issued a 2022 report explicitly characterizing US prison labor practices as meeting the international legal definition of forced labor und', type: 'legal' }
    ],
   },
   'five-eyes-intelligence-sharing-overreach': {
@@ -1488,19 +1459,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The Snowden revelations (beginning June 2013) exposed the full operational scope of Five Eyes surveillance. Key programs included: PRISM; through which the NSA collected data directly from the servers of nine US tech companies (Microsoft, Yahoo, Google, Facebook, Apple, AOL, Skype, YouTube, PalTalk) under Section 702 of FISA. TEMPORA; through which GCHQ intercepted data from 200 transatlantic fiber-optic cables, processing 600 million "telephone events" per day and storing content for 3 days and metadata for 30 days at its Bude facility in Cornwall. MUSCULAR; a joint NSA/GCHQ operation that secretly tapped the private fiber-optic links connecting Google and Yahoo data centers, collecting data outside the oversight of the FISA court. XKeyscore; an NSA system that allowed analysts to search through vast databases of emails, browsing history, and chat logs with no prior authorization required.',
       'The Five Eyes "intelligence laundering" mechanism exploits legal gaps between allied nations. Each country\'s domestic laws restrict its own intelligence agencies from conducting warrantless surveillance on its own citizens. However, nothing prevents GCHQ from collecting communications of US persons, or the NSA from collecting communications of British persons, and then sharing the results with each other. This arrangement was confirmed by Snowden documents showing that the NSA routinely shared intelligence gathered on UK citizens with GCHQ, and vice versa. Edward Snowden specifically warned: "The Five Eyes alliance exists to circumvent each nation\'s domestic surveillance laws." Former NSA whistleblower William Binney testified that the arrangement amounted to a "joint criminal enterprise" to evade constitutional protections.',
       'Five Eyes surveillance has targeted journalists, lawyers, NGOs, and political movements beyond its stated counterterrorism and national security mandate. GCHQ monitored journalists at the BBC, Reuters, the Guardian, the New York Times, Le Monde, and other outlets under a program codenamed SAMUEL PEPYS. The NSA spied on the communications of UN Secretary-General Ban Ki-moon, German Chancellor Angela Merkel, Brazilian President Dilma Rousseff, and the leaders of 35 allied nations. Australian intelligence tapped the phones of the Indonesian president and his wife during trade negotiations. New Zealand\'s GCSB conducted surveillance on pro-democracy activists in Pacific Island nations. The UK\'s Investigatory Powers Tribunal found in 2015 that GCHQ\'s bulk collection regime had been illegal for over a decade.',
-      'Legal and reform efforts have been insufficient to address Five Eyes overreach. The USA Freedom Act (2015) ended the NSA\'s bulk collection of domestic phone metadata under Section 215 of the Patriot Act, but Section 702 (which enables PRISM and related programs) was reauthorized in April 2024 with expanded authorities; including a provision that critics argue compels any service provider with access to communications equipment to assist in surveillance. The UK\'s Investigatory Powers Act (2016), known as the "Snooper\'s Charter," actually expanded GCHQ\'s legal authority for bulk surveillance and required telecommunications companies to retain customer data for 12 months. Australia\'s Assistance and Access Act (2018) requires technology companies to build backdoors into encrypted communications. None of the Five Eyes nations have implemented meaningful restrictions on intelligence sharing; the arrangement that enables domestic surveillance evasion remains fully operational.',
+      'Legal and reform efforts have been insufficient to address Five Eyes overreach. The USA Freedom Act (2015) ended the NSA\'s bulk collection of domestic phone metadata under Section 215 of the Patriot Act, but Section 702 (which enables PRISM and related programs) was reauthorized in April 2024 with expanded authorities; including a provision that critics argue compels any service provider with access to communications equipment to assist in surveillance. The UK\'s Investigatory Powers Act (2016), known as the "Snooper\'s Charter," actually expanded GCHQ\'s legal authority for bulk surveillance and required telecommunications companies to retain customer data for 12 months. Australia\'s Assistance and Access Act (2018) requires technology companies to build backdoors into encrypted communications. None of the Five Eyes nations have implemented meaningful restrictions on intelligence sharing; the arrangement that enables domestic surveillance evasion remains fully operational.'
     ],
     tags: ['Five Eyes', 'NSA', 'GCHQ', 'Snowden', 'PRISM', 'TEMPORA', 'Mass Surveillance', 'UKUSA Agreement'],
     sources: [
       { title: 'Snowden Document Archive', url: 'https://www.documentcloud.org', type: 'Archive' },
       { title: 'UK Investigatory Powers Tribunal Ruling', url: 'https://www.ipt-uk.com', type: 'Court Record' },
-      { title: 'European Parliament ECHELON Report', url: 'https://www.europarl.europa.eu', type: 'Congressional Report' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'European Parliament ECHELON Report', url: 'https://www.europarl.europa.eu', type: 'Congressional Report' }
     ],
     affiliations: [
  { id: '1', name: 'NSA', type: 'agency', relationship: 'US node of Five Eyes; operates PRISM, XKeyscore, and MUSCULAR programs; shares intelligence on allied citizens', href: '/entities/agencies/nsa' },
- { id: '2', name: 'CIA', type: 'agency', relationship: 'Central Intelligence Agency operations under investigation', href: '/entities/agencies/cia' },
-
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Central Intelligence Agency operations under investigation', href: '/entities/agencies/cia' }
  ],
    eventOriginDate: '1946-01-01',
    lastActivityDate: '2024-04-25',
@@ -1512,7 +1481,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2015', event: 'The UK\'s Investigatory Powers Tribunal found in 2015 that GCHQ\'s bulk collection regime had been illegal for over a decade', type: 'default' },
      { date: '2016', event: 'The UK\'s Investigatory Powers Act (2016), known as the "Snooper\'s Charter," actually expanded GCHQ\'s legal authority for bulk surveillance and required telecommunications companies to retain custom...', type: 'default' },
      { date: '2018', event: 'Australia\'s Assistance and Access Act (2018) requires technology companies to build backdoors into encrypted communications', type: 'default' },
-     { date: '2024-04-01', event: 'The USA Freedom Act (2015) ended the NSA\'s bulk collection of domestic phone metadata under Section 215 of the Patriot Act, but Section 702 (which enables PRISM and related programs) was reauthoriz...', type: 'default' },
+     { date: '2024-04-01', event: 'The USA Freedom Act (2015) ended the NSA\'s bulk collection of domestic phone metadata under Section 215 of the Patriot Act, but Section 702 (which enables PRISM and related programs) was reauthoriz...', type: 'default' }
    ],
   },
   'fossil-fuel-capture-of-doe': {
@@ -1528,19 +1497,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The DOE\'s budget allocation reveals captured priorities. The Office of Fossil Energy and Carbon Management received $890 million in the FY2024 budget request; the office\'s primary focus is carbon capture, utilization, and storage (CCUS) technology that the fossil fuel industry promotes as a justification for continued extraction. Despite billions in DOE funding since the early 2000s, no commercial-scale CCUS power plant operates economically without massive subsidies; the Petra Nova project in Texas (the only US power plant-attached CCUS facility) shut down in 2020 after three years of underperformance, having captured only 7% of the plant\'s total CO2 emissions rather than the projected 90%. The 45Q tax credit (expanded by the Inflation Reduction Act to $85 per ton for geological storage) has been criticized by environmental groups as a subsidy for enhanced oil recovery; approximately 70% of captured CO2 in the US is injected into oil fields to extract additional petroleum.',
       'The DOE\'s 17 national laboratories, employing approximately 45,000 scientists and engineers, have been subject to industry influence through cooperative research agreements (CRADAs) and sponsored research. ExxonMobil, Chevron, BP, and ConocoPhillips have all funded research at Sandia, Oak Ridge, Pacific Northwest, and other national labs. A 2020 investigation by the Energy and Policy Institute found that fossil fuel companies used national lab partnerships to steer research toward technologies that extend fossil fuel viability (hydrogen from natural gas, CCUS, advanced drilling techniques) rather than toward renewable energy breakthroughs. The labs\' advisory boards include industry executives whose companies benefit directly from the labs\' research directions.',
       'The DOE\'s Strategic Petroleum Reserve (SPR) and liquefied natural gas (LNG) export approvals illustrate how the department serves industry interests. The DOE approves LNG export permits; under both the Trump and Biden administrations, the department approved record volumes of LNG exports, enabling US natural gas producers to sell to higher-priced international markets while domestic prices increased. Biden paused new LNG export approvals in January 2024 for a climate review; the pause was overturned by a federal court and lifted after industry and Republican pressure. Between 2016 and 2023, US LNG exports increased from near zero to approximately 11.9 billion cubic feet per day, making the US the world\'s largest LNG exporter; a transformation enabled entirely by DOE permitting decisions.',
-      'The DOE\'s clean energy programs have been undermined by ideological hostility and industry lobbying. During the Trump administration, DOE officials directed the Office of Energy Efficiency and Renewable Energy (EERE) to cease using the phrase "clean energy" in public communications and to rebrand programs to emphasize "energy dominance" (a phrase adopted from industry talking points). The DOE proposed eliminating ARPA-E (Advanced Research Projects Agency-Energy), the agency\'s most innovative research program, in four consecutive budget proposals. EERE staff reported political appointees inserting language favorable to fossil fuels into research solicitations and blocking the release of studies whose findings contradicted industry interests. The Government Accountability Office found in 2021 that the DOE had failed to meet its statutory obligations to update energy efficiency standards for appliances, costing consumers an estimated $2.5 billion annually in higher energy bills.',
+      'The DOE\'s clean energy programs have been undermined by ideological hostility and industry lobbying. During the Trump administration, DOE officials directed the Office of Energy Efficiency and Renewable Energy (EERE) to cease using the phrase "clean energy" in public communications and to rebrand programs to emphasize "energy dominance" (a phrase adopted from industry talking points). The DOE proposed eliminating ARPA-E (Advanced Research Projects Agency-Energy), the agency\'s most innovative research program, in four consecutive budget proposals. EERE staff reported political appointees inserting language favorable to fossil fuels into research solicitations and blocking the release of studies whose findings contradicted industry interests. The Government Accountability Office found in 2021 that the DOE had failed to meet its statutory obligations to update energy efficiency standards for appliances, costing consumers an estimated $2.5 billion annually in higher energy bills.'
     ],
     tags: ['Department of Energy', 'Regulatory Capture', 'Fossil Fuel Lobbying', 'Carbon Capture', 'LNG Exports', 'Revolving Door', 'National Laboratories'],
     sources: [
       { title: 'DOE Budget Justification Documents', url: 'https://www.energy.gov', type: 'Government Record' },
       { title: 'GAO DOE Oversight Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'Energy and Policy Institute Reports', url: 'https://www.energyandpolicy.org', type: 'Research Study' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Energy and Policy Institute Reports', url: 'https://www.energyandpolicy.org', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Funded national lab research on CCUS and natural gas technologies; benefits from DOE LNG export approvals', href: '/entities/corporations/exxonmobil' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2024-01-01',
@@ -1551,7 +1518,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2020', event: 'Despite billions in DOE funding since the early 2000s, no commercial-scale CCUS power plant operates economically without massive subsidies', type: 'political' },
      { date: '2020', event: 'A 2020 investigation by the Energy and Policy Institute found that fossil fuel companies used national lab partnerships to steer research toward technologies that extend fossil fuel viability (hydr', type: 'default' },
      { date: '2021', event: 'The Government Accountability Office found in 2021 that the DOE had failed to meet its statutory obligations to update energy efficiency standards for appliances, costing consumers an estimated $2.', type: 'financial' },
-     { date: '2024', event: 'Biden paused new LNG export approvals in January 2024 for a climate review; the pause was overturned by a federal court and lifted after industry and Republican pressure', type: 'legal' },
+     { date: '2024', event: 'Biden paused new LNG export approvals in January 2024 for a climate review; the pause was overturned by a federal court and lifted after industry and Republican pressure', type: 'legal' }
    ],
   },
   'fluoride-controversy-scientific-suppression': {
@@ -1567,19 +1534,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The EPA\'s handling of fluoride research has been marked by internal conflict and suppression of dissent. In 1999, the union representing EPA scientists at the Office of Ground Water and Drinking Water (NTEU Chapter 280) voted unanimously to oppose water fluoridation, citing cancer risk data and the agency\'s failure to conduct adequate safety reviews. William Hirzy, chief scientist at the union, testified before Congress that the EPA\'s fluoride standard was not based on sound science and that the agency had been influenced by the fluoridation lobby. In 2006, a National Research Council panel commissioned by the EPA concluded that the agency\'s maximum contaminant level goal (MCLG) of 4 mg/L was not protective of health and recommended it be lowered; the EPA took no action for 18 years. EPA scientist Robert Carton called fluoridation "the greatest case of scientific fraud of this century."',
       'Judge Chen\'s September 2024 ruling in Food & Water Watch v. EPA was the first time a federal court found that fluoridation poses an unreasonable risk. The ruling stated: "The scientific evidence, when viewed as a whole, establishes that fluoride is a recognized neurotoxin at levels recently found to be relevant to the general population." The judge found that the NTP review, combined with meta-analyses by Bashash et al. (2017), Green et al. (2019), and Till et al. (2020); all conducted in populations exposed to levels at or near the US water fluoridation concentration; provided sufficient evidence of risk. The ruling ordered the EPA to take regulatory action under Section 6(a) of TSCA but did not specify what action must be taken; the EPA could lower the recommended level, require warnings, or mandate filtration. The EPA appealed.',
       'The institutional entrenchment of fluoridation makes policy change politically difficult regardless of evolving science. The CDC lists water fluoridation as one of the "ten great public health achievements of the 20th century." The American Dental Association (ADA), American Medical Association (AMA), and American Academy of Pediatrics (AAP) all endorse fluoridation. Dental organizations have spent millions lobbying for fluoridation mandates and against local opt-outs. This institutional consensus was established in the 1950s based on the original Grand Rapids, Michigan trial (1945-1955), which found that fluoridation reduced childhood dental caries by approximately 60%. However, the caries reduction attributable to water fluoridation has declined substantially as fluoride toothpaste (introduced in the 1960s) became universal; a 2015 Cochrane review found that modern evidence for fluoridation\'s benefit was of "low quality" and that most studies were conducted before fluoride toothpaste was widely available.',
-      'International practice increasingly diverges from the US position. Most developed nations do not fluoridate their water: 97% of Western Europe has rejected fluoridation (including Germany, France, the Netherlands, Sweden, Norway, Denmark, and Austria). Israel ended mandatory fluoridation in 2014 after its Minister of Health concluded the benefit-risk ratio was unfavorable. Japan fluoridates less than 1% of its water. Among developed nations, only the US, UK, Canada, Ireland, Australia, and New Zealand maintain widespread fluoridation programs. These non-fluoridating countries have experienced equivalent declines in dental caries to fluoridating countries; suggesting that the decline is primarily attributable to improved dental hygiene, fluoride toothpaste, and dietary changes rather than water fluoridation. The disconnect between the US regulatory position and international practice reflects the degree to which fluoridation in the US has become an institutional commitment rather than a science-driven policy.',
+      'International practice increasingly diverges from the US position. Most developed nations do not fluoridate their water: 97% of Western Europe has rejected fluoridation (including Germany, France, the Netherlands, Sweden, Norway, Denmark, and Austria). Israel ended mandatory fluoridation in 2014 after its Minister of Health concluded the benefit-risk ratio was unfavorable. Japan fluoridates less than 1% of its water. Among developed nations, only the US, UK, Canada, Ireland, Australia, and New Zealand maintain widespread fluoridation programs. These non-fluoridating countries have experienced equivalent declines in dental caries to fluoridating countries; suggesting that the decline is primarily attributable to improved dental hygiene, fluoride toothpaste, and dietary changes rather than water fluoridation. The disconnect between the US regulatory position and international practice reflects the degree to which fluoridation in the US has become an institutional commitment rather than a science-driven policy.'
     ],
     tags: ['Fluoride', 'NTP Review', 'EPA', 'Neurotoxicity', 'Water Fluoridation', 'IQ Decline', 'Scientific Suppression'],
     sources: [
       { title: 'Food & Water Watch v. EPA Ruling', url: 'https://www.courtlistener.com', type: 'Court Record' },
       { title: 'NTP Fluoride Monograph', url: 'https://ntp.niehs.nih.gov', type: 'Research Study' },
-      { title: 'National Research Council 2006 Fluoride Report', url: 'https://nap.nationalacademies.org', type: 'Research Study' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'National Research Council 2006 Fluoride Report', url: 'https://nap.nationalacademies.org', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Ignored 2006 NRC recommendation to lower fluoride MCLG; fought to suppress NTP neurotoxicity review; lost 2024 TSCA lawsuit', href: '/entities/agencies/epa' },
- { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
-
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '1945-01-01',
    lastActivityDate: '2025-03-08',
@@ -1593,7 +1558,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2016', event: 'The NTP\'s systematic review of fluoride neurotoxicity, initiated in 2016 and completed in draft form in 2020, reviewed 72 human studies on fluoride and neurodevelopment', type: 'default' },
      { date: '2020', event: '(2020); all conducted in populations exposed to levels at or near the US water fluoridation concentration; provided sufficient evidence of risk', type: 'default' },
      { date: '2022-05-01', event: 'The review was completed in May 2022 but the NTP withheld publication after pressure from the Department of Health and Human Services', type: 'default' },
-     { date: '2024-09-01', event: 'Judge Chen\'s September 2024 ruling in Food & Water Watch v', type: 'legal' },
+     { date: '2024-09-01', event: 'Judge Chen\'s September 2024 ruling in Food & Water Watch v', type: 'legal' }
    ],
   },
   'food-industry-nutritional-science-manipulation': {
@@ -1609,19 +1574,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Coca-Cola\'s funding of exercise science represents the most recent iteration of the industry playbook. Starting in 2014, Coca-Cola funded the Global Energy Balance Network (GEBN) at the University of Colorado, which promoted the message that lack of exercise; not diet; was the primary driver of obesity. The New York Times exposed in 2015 that Coca-Cola had provided at least $1.5 million to GEBN. Coca-Cola\'s own documents (released through FOIA) revealed that the company funded 389 research projects between 2010 and 2015 at a cost of approximately $132.8 million. An analysis published in Public Health Nutrition found that Coca-Cola-funded studies were five times more likely to find no association between sugary drinks and obesity than independently funded studies.',
       'The USDA Dietary Guidelines Advisory Committee (DGAC), which produces the Dietary Guidelines for Americans updated every five years, has been repeatedly compromised by industry influence. A 2020 BMJ investigation found that 95% of DGAC members in the 2020 cycle had financial ties to the food, pharmaceutical, or supplement industries. The National Dairy Council, National Cattlemen\'s Beef Association, and American Beverage Association all actively lobby the DGAC. The dairy industry\'s influence is particularly visible: the guidelines have consistently recommended 3 cups of dairy per day despite the fact that approximately 65% of the global adult population (and 70-95% of Asian, African, and Indigenous populations) is lactose intolerant. The guidelines\' protein recommendations consistently favor animal sources despite evidence that plant-based diets reduce heart disease, diabetes, and cancer risk.',
       'The infant formula industry\'s manipulation of nutritional science has had particularly devastating consequences. Nestle\'s promotion of formula over breastfeeding in developing countries (documented in the 1970s boycott) contributed to an estimated 1.5 million infant deaths annually according to early WHO estimates. More recently, the infant formula industry has funded research minimizing the documented benefits of breastfeeding and lobbied against WHO\'s International Code of Marketing of Breast-milk Substitutes. In 2018, the US government; under pressure from industry; threatened to withdraw military aid from Ecuador if it introduced a WHO-backed resolution promoting breastfeeding at the World Health Assembly. Abbott Nutrition, the largest US formula manufacturer ($8.1 billion in sales), spent $3.2 million on lobbying in 2022 alone.',
-      'The food industry\'s influence on research extends to the scientific publishing system itself. Industry-funded studies are systematically more likely to produce results favorable to the sponsor; a phenomenon documented across sugar research (5x more likely to find no harm), artificial sweetener research (funded studies 17x more likely to find no cancer link), and food additive safety research. The International Life Sciences Institute (ILSI); funded by food companies including Coca-Cola, Nestle, PepsiCo, and McDonald\'s; has placed scientists on WHO and FDA advisory panels who then influence food safety standards. A 2019 investigation by the BMJ found that ILSI had been "infiltrating" WHO committees for decades. The revolving door between food industry and USDA/FDA regulatory positions ensures that industry-favorable research is translated into policy: former USDA Secretary Tom Vilsack left government to become CEO of the US Dairy Export Council before returning as Biden\'s USDA Secretary.',
+      'The food industry\'s influence on research extends to the scientific publishing system itself. Industry-funded studies are systematically more likely to produce results favorable to the sponsor; a phenomenon documented across sugar research (5x more likely to find no harm), artificial sweetener research (funded studies 17x more likely to find no cancer link), and food additive safety research. The International Life Sciences Institute (ILSI); funded by food companies including Coca-Cola, Nestle, PepsiCo, and McDonald\'s; has placed scientists on WHO and FDA advisory panels who then influence food safety standards. A 2019 investigation by the BMJ found that ILSI had been "infiltrating" WHO committees for decades. The revolving door between food industry and USDA/FDA regulatory positions ensures that industry-favorable research is translated into policy: former USDA Secretary Tom Vilsack left government to become CEO of the US Dairy Export Council before returning as Biden\'s USDA Secretary.'
     ],
     tags: ['Sugar Industry', 'Dietary Guidelines', 'Coca-Cola', 'Nutritional Science', 'Food Lobbying', 'Obesity Epidemic', 'USDA'],
     sources: [
       { title: 'Kearns et al. Sugar Industry Research (JAMA Internal Medicine)', url: 'https://jamanetwork.com', type: 'Research Study' },
       { title: 'NYT Coca-Cola GEBN Investigation', url: 'https://www.nytimes.com', type: 'Investigative Report' },
-      { title: 'BMJ DGAC Conflicts Investigation', url: 'https://www.bmj.com', type: 'Research Study' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'BMJ DGAC Conflicts Investigation', url: 'https://www.bmj.com', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Industry-influenced GRAS (Generally Recognized as Safe) designations; revolving door with food corporations', href: '/entities/agencies/fda' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1967-01-01',
    lastActivityDate: '2026-01-31',
@@ -1636,7 +1599,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2018', event: 'In 2018, the US government; under pressure from industry; threatened to withdraw military aid from Ecuador if it introduced a WHO-backed resolution promoting breastfeeding at the World Health Assembly', type: 'default' },
      { date: '2019', event: 'A 2019 investigation by the BMJ found that ILSI had been "infiltrating" WHO committees for decades', type: 'default' },
      { date: '2020', event: 'A 2020 BMJ investigation found that 95% of DGAC members in the 2020 cycle had financial ties to the food, pharmaceutical, or supplement industries', type: 'default' },
-     { date: '2022', event: 'Abbott Nutrition, the largest US formula manufacturer ($8.1 billion in sales), spent $3.2 million on lobbying in 2022 alone', type: 'political' },
+     { date: '2022', event: 'Abbott Nutrition, the largest US formula manufacturer ($8.1 billion in sales), spent $3.2 million on lobbying in 2022 alone', type: 'political' }
    ],
   },
   'facial-recognition-policing-bias': {
@@ -1652,18 +1615,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Three documented wrongful arrests due to facial recognition misidentification illustrate the human cost. Robert Williams, a Black man in Detroit, was arrested in January 2020 when facial recognition matched his driver\'s license photo to a shoplifting suspect; the match was incorrect. Williams was held for 30 hours, handcuffed in front of his children, and charged before the case was dropped. Michael Oliver, also a Black man in Detroit, was arrested for robbery based on a facial recognition match; the actual perpetrator looked nothing like Oliver. Nijeer Parks, a Black man in New Jersey, was arrested based on a facial recognition match and spent 10 days in jail for a crime committed in a city he had never visited. In each case, detectives treated the facial recognition output as positive identification rather than an investigative lead requiring independent verification.',
       'Clearview AI\'s mass scraping operation represents the most extreme deployment of facial recognition technology. The company scraped over 30 billion images from social media platforms (Facebook, Instagram, Twitter, LinkedIn, Venmo) without user consent to build the world\'s largest facial recognition database. The company\'s system was used by over 600 law enforcement agencies in the US before its public exposure by the New York Times in January 2020. Clearview AI was sued by the ACLU (resulting in a 2022 settlement in which the company agreed to restrictions on selling to US businesses), fined by Australia ($14 million), UK ($9.4 million), France ($20 million), Italy ($20 million), and Greece ($20 million) for GDPR violations. Despite these penalties, the company continues to sell to US law enforcement and to the US Department of Defense.',
       'The FBI\'s facial recognition capabilities extend far beyond publicly acknowledged programs. The FBI\'s Facial Analysis, Comparison and Evaluation (FACE) services unit has access to over 641 million photos from state driver\'s license databases, passport photos, visa applications, and its own mugshot database. A 2016 Georgetown Law Center on Privacy and Technology report found that half of all American adults are in a law enforcement facial recognition database. The FBI conducted approximately 4,000 facial recognition searches per month as of 2019. A GAO audit found that the FBI had not assessed the accuracy of its facial recognition system\'s searches, had not conducted testing for racial bias, and had not published a required privacy impact assessment. ICE has accessed state DMV databases to conduct facial recognition searches on undocumented immigrants without judicial authorization.',
-      'Legislative and regulatory responses to facial recognition in policing remain fragmented. No federal law regulates law enforcement use of facial recognition. Several cities have banned government use of FRT (San Francisco, Boston, Portland, Minneapolis, and others), but these bans cover only a fraction of the US population. Virginia and Vermont enacted state-level restrictions. The European Union\'s AI Act (2024) restricts real-time facial recognition in public spaces but includes exceptions for law enforcement. In the US, the lack of federal regulation means that individual police departments set their own policies (or have none); many agencies have deployed FRT without public disclosure, without departmental policies governing its use, and without informing defendants when facial recognition was used to identify them. The defense bar has raised due process concerns about the use of a technology with documented racial bias as the basis for criminal identification.',
+      'Legislative and regulatory responses to facial recognition in policing remain fragmented. No federal law regulates law enforcement use of facial recognition. Several cities have banned government use of FRT (San Francisco, Boston, Portland, Minneapolis, and others), but these bans cover only a fraction of the US population. Virginia and Vermont enacted state-level restrictions. The European Union\'s AI Act (2024) restricts real-time facial recognition in public spaces but includes exceptions for law enforcement. In the US, the lack of federal regulation means that individual police departments set their own policies (or have none); many agencies have deployed FRT without public disclosure, without departmental policies governing its use, and without informing defendants when facial recognition was used to identify them. The defense bar has raised due process concerns about the use of a technology with documented racial bias as the basis for criminal identification.'
     ],
     tags: ['Facial Recognition', 'Clearview AI', 'Racial Bias', 'NIST', 'Wrongful Arrest', 'FBI FACE', 'Surveillance Policing'],
     sources: [
       { title: 'NIST Face Recognition Vendor Test', url: 'https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt', type: 'Government Record' },
       { title: 'Georgetown Law Perpetual Lineup Report', url: 'https://www.law.georgetown.edu', type: 'Research Study' },
-      { title: 'NYT Clearview AI Investigation', url: 'https://www.nytimes.com', type: 'Investigative Report' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'NYT Clearview AI Investigation', url: 'https://www.nytimes.com', type: 'Investigative Report' }
     ],
     affiliations: [
  { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Scraped 30B+ images from social media without consent; sold to 600+ law enforcement agencies; fined by multiple countries', href: '/entities/corporations/clearview-ai' },
- { id: '2', name: 'FBI', type: 'agency', relationship: 'FACE unit has access to 641M+ photos; GAO found no accuracy testing or racial bias assessment conducted', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'FACE unit has access to 641M+ photos; GAO found no accuracy testing or racial bias assessment conducted', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-01-01',
@@ -1676,7 +1638,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2020', event: 'Robert Williams, a Black man in Detroit, was arrested in January 2020 when facial recognition matched his driver\'s license photo to a shoplifting suspect; the match was incorrect', type: 'default' },
      { date: '2020', event: 'The company\'s system was used by over 600 law enforcement agencies in the US before its public exposure by the New York Times in January 2020', type: 'political' },
      { date: '2022', event: 'Clearview AI was sued by the ACLU (resulting in a 2022 settlement in which the company agreed to restrictions on selling to US businesses), fined by Australia ($14 million), UK ($9.', type: 'legal' },
-     { date: '2024', event: 'The European Union\'s AI Act (2024) restricts real-time facial recognition in public spaces but includes exceptions for law enforcement', type: 'political' },
+     { date: '2024', event: 'The European Union\'s AI Act (2024) restricts real-time facial recognition in public spaces but includes exceptions for law enforcement', type: 'political' }
    ],
   },
   'financial-surveillance-reporting-system': {
@@ -1692,19 +1654,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Civil asset forfeiture has been weaponized through BSA data. The IRS\'s Criminal Investigation division used CTR data to identify individuals making frequent deposits below $10,000 and seized their accounts under structuring laws; even when the money was legally earned. A 2017 Institute for Justice report documented that the IRS seized over $242 million from individuals and businesses suspected of structuring between 2005 and 2012; in most cases, the property owners were never charged with any underlying crime. Victims included Carole Hinders, an Iowa restaurant owner who had her $33,000 savings seized because she made frequent cash deposits from her cash-only business. The IRS announced in 2014 that it would curtail "legal source" structuring seizures, but the underlying law remains unchanged and local prosecutors continue to use structuring as a basis for forfeiture.',
       'The SAR system creates a de facto financial surveillance dragnet. Financial institutions filed approximately 4.6 million SARs in 2023. Banks face no legal consequence for over-reporting (filing SARs on transactions that are not actually suspicious) but face severe penalties for under-reporting; creating a powerful incentive to file SARs on any transaction that is even marginally unusual. Studies have found that the vast majority of SARs do not lead to criminal investigations; FinCEN has acknowledged that SARs are used for "intelligence" rather than as evidence. The result is a system in which Americans\' financial transactions are reported to the government based on bank employees\' subjective assessments of "suspicion" with no judicial oversight, no notification to the account holder, and no opportunity to contest the reporting.',
       'The Fourth Amendment implications of the BSA reporting system have been repeatedly challenged but largely upheld under the "third-party doctrine"; the legal theory that individuals have no reasonable expectation of privacy in information they voluntarily share with third parties (including banks). The Supreme Court established this doctrine in United States v. Miller (1976) and Smith v. Maryland (1979). However, the Court\'s 2018 decision in Carpenter v. United States (holding that cell phone location data is protected by the Fourth Amendment despite the third-party doctrine) raised questions about whether the doctrine should apply to comprehensive financial records. Justice Gorsuch\'s dissent in Carpenter explicitly questioned the third-party doctrine\'s application to bank records. Several pending cases challenge warrantless access to BSA data; but no court has yet struck down the core reporting requirements.',
-      'International financial surveillance has expanded through the Common Reporting Standard (CRS) established by the OECD. Under CRS, 117 countries automatically exchange financial account information on each other\'s tax residents. The US participates through FATCA (Foreign Account Tax Compliance Act, 2010), which requires foreign financial institutions to report accounts held by US persons to the IRS; with penalties up to 30% withholding on the institution\'s US-source income for non-compliance. FATCA has been criticized for extraterritorial overreach; foreign banks have closed accounts of US persons rather than comply with US reporting requirements. The combination of domestic BSA reporting, FATCA international reporting, and FinCEN\'s databases creates a comprehensive financial surveillance infrastructure that monitors Americans\' financial activity globally without individualized judicial authorization.',
+      'International financial surveillance has expanded through the Common Reporting Standard (CRS) established by the OECD. Under CRS, 117 countries automatically exchange financial account information on each other\'s tax residents. The US participates through FATCA (Foreign Account Tax Compliance Act, 2010), which requires foreign financial institutions to report accounts held by US persons to the IRS; with penalties up to 30% withholding on the institution\'s US-source income for non-compliance. FATCA has been criticized for extraterritorial overreach; foreign banks have closed accounts of US persons rather than comply with US reporting requirements. The combination of domestic BSA reporting, FATCA international reporting, and FinCEN\'s databases creates a comprehensive financial surveillance infrastructure that monitors Americans\' financial activity globally without individualized judicial authorization.'
     ],
     tags: ['Bank Secrecy Act', 'FinCEN', 'Financial Surveillance', 'SARs', 'CTRs', 'Civil Asset Forfeiture', 'Fourth Amendment', 'FATCA'],
     sources: [
       { title: 'FinCEN Annual Reports', url: 'https://www.fincen.gov', type: 'Government Record' },
       { title: 'Institute for Justice Forfeiture Reports', url: 'https://ij.org', type: 'Research Study' },
-      { title: 'Carpenter v. United States', url: 'https://www.supremecourt.gov', type: 'Court Record' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Carpenter v. United States', url: 'https://www.supremecourt.gov', type: 'Court Record' }
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN receives 4M+ SARs and 16M+ CTRs annually; FBI conducts 30,000+ BSA queries per year', href: '/entities/agencies/treasury' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
-
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' }
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2024-08-03',
@@ -1718,7 +1678,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 Institute for Justice report documented that the IRS seized over $242 million from individuals and businesses suspected of structuring between 2005 and 2012', type: 'financial' },
      { date: '2018', event: 'However, the Court\'s 2018 decision in Carpenter v', type: 'legal' },
      { date: '2023', event: 'Financial institutions filed approximately 4.6 million SARs in 2023', type: 'financial' },
-     { date: '2024', event: 'The FinCEN Beneficial Ownership Rule (2024) added corporate ownership reporting', type: 'default' },
+     { date: '2024', event: 'The FinCEN Beneficial Ownership Rule (2024) added corporate ownership reporting', type: 'default' }
    ],
   },
   'foreign-influence-through-media-ownership': {
@@ -1734,18 +1694,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Chinese media influence in the US combines overt state media operations with covert investment and censorship pressure. China Daily, a CCP-owned English-language newspaper, has paid over $19 million to US newspapers (including the Washington Post, New York Times, and Wall Street Journal) to publish "China Watch" advertising supplements designed to resemble editorial content. CGTN (China Global Television Network) operates a DC-based news bureau; it was required to register as a foreign agent under FARA in 2020. China\'s more consequential media influence operates through commercial pressure: Hollywood studios routinely self-censor to maintain access to the Chinese market ($7.3 billion box office in 2023). Chinese companies including Tencent (which owns stakes in Universal Music Group, Spotify, and Epic Games) and ByteDance (which owns TikTok, used by 170 million Americans) transmit cultural influence through entertainment platforms.',
       'Russia\'s RT (formerly Russia Today) operated in the US from 2005 until sanctions forced its cable distribution to end in 2022. At its peak, RT\'s YouTube channel had over 4 billion views. RT America employed legitimate American journalists while its editorial line consistently aligned with Kremlin foreign policy objectives; amplifying US social divisions, promoting anti-NATO narratives, and providing favorable coverage of Russian military operations. Sputnik, another Russian state media outlet, maintained a DC bureau. The Mueller investigation documented that RT and Sputnik played integral roles in Russia\'s 2016 election interference; RT hosted a segment featuring WikiLeaks founder Julian Assange to amplify the release of stolen DNC emails. In 2023, DOJ indicted two RT employees for covertly funding US media influencers to produce pro-Russian content; the operation involved $10 million in payments to a Tennessee-based company that produced hundreds of videos viewed millions of times.',
       'The FCC\'s foreign ownership rules (Section 310 of the Communications Act) restrict foreign ownership of broadcast licensees (TV and radio stations) to 25%, but these rules do not apply to print media, online-only publications, streaming services, or social media platforms. This gap means that foreign entities can freely acquire newspapers, magazines, websites, and digital media companies that increasingly dominate news consumption. When Japanese company SoftBank acquired a controlling stake in Sprint (which had media partnerships), the CFIUS review focused on telecommunications security but did not assess media influence implications. The consolidation of US media into six major conglomerates (Comcast, Disney, Paramount Global, Warner Bros. Discovery, Fox Corporation, and Sony) creates concentrated targets for foreign influence; a stake in one company provides leverage over dozens of outlets.',
-      'The structural vulnerability of US media to foreign influence is compounded by the collapse of local journalism. Between 2005 and 2024, over 2,900 US newspapers closed or merged, creating "news deserts" in communities across the country. The surviving outlets are often financially precarious, making them vulnerable to acquisition by entities with non-journalistic motivations. Alden Global Capital (a hedge fund) has become the second-largest newspaper owner in the US through aggressive acquisitions of distressed outlets, stripping staff and assets. While Alden is domestic, the pattern illustrates how financial distress creates vulnerability to foreign acquisition. The US has no equivalent to France\'s law requiring disclosure of media ownership, Canada\'s Investment Canada Act (which reviews foreign media acquisitions for national interest), or Australia\'s Foreign Investment Review Board; leaving American media uniquely exposed to foreign influence through ownership.',
+      'The structural vulnerability of US media to foreign influence is compounded by the collapse of local journalism. Between 2005 and 2024, over 2,900 US newspapers closed or merged, creating "news deserts" in communities across the country. The surviving outlets are often financially precarious, making them vulnerable to acquisition by entities with non-journalistic motivations. Alden Global Capital (a hedge fund) has become the second-largest newspaper owner in the US through aggressive acquisitions of distressed outlets, stripping staff and assets. While Alden is domestic, the pattern illustrates how financial distress creates vulnerability to foreign acquisition. The US has no equivalent to France\'s law requiring disclosure of media ownership, Canada\'s Investment Canada Act (which reviews foreign media acquisitions for national interest), or Australia\'s Foreign Investment Review Board; leaving American media uniquely exposed to foreign influence through ownership.'
     ],
     tags: ['Foreign Media Ownership', 'Saudi Influence', 'Chinese Media', 'RT Russia', 'Media Consolidation', 'FCC Rules', 'Information Warfare'],
     sources: [
       { title: 'DOJ FARA Filings', url: 'https://www.fara.gov', type: 'Government Record' },
       { title: 'FCC Ownership Reports', url: 'https://www.fcc.gov', type: 'Government Record' },
-      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org', type: 'Research Study' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'FCC: Foreign Ownership Rules', url: 'https://www.fcc.gov/consumers/guides/foreign-ownership-broadcast-cable-and-satellite-tv', type: 'Government Record' },
+      { title: 'Columbia Journalism Review: Who Owns the News?', url: 'https://www.cjr.org/special_report/the-new-gatekeepers.php', type: 'Research' }
     ],
     affiliations: [
- { id: '1', name: 'FCC', type: 'agency', relationship: 'Foreign ownership rules cover only broadcast stations; do not apply to print, online, streaming, or social media', href: '/entities/agencies/fcc' },
-      { id: 'department-of-justice', name: 'Department of Justice', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/doj' },
+ { id: '1', name: 'FCC', type: 'agency', relationship: 'Foreign ownership rules cover only broadcast stations; do not apply to print, online, streaming, or social media', href: '/entities/agencies/fcc' }
  ],
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2024-11-04',
@@ -1757,7 +1716,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2016', event: 'The Mueller investigation documented that RT and Sputnik played integral roles in Russia\'s 2016 election interference; RT hosted a segment featuring WikiLeaks founder Julian Assange to amplify the ...', type: 'political' },
      { date: '2020', event: 'CGTN (China Global Television Network) operates a DC-based news bureau; it was required to register as a foreign agent under FARA in 2020', type: 'default' },
      { date: '2023', event: 'China\'s more consequential media influence operates through commercial pressure: Hollywood studios routinely self-censor to maintain access to the Chinese market ($7.3 billion box office in 2023)', type: 'political' },
-     { date: '2023', event: 'In 2023, DOJ indicted two RT employees for covertly funding US media influencers to produce pro-Russian content; the operation involved $10 million in payments to a Tennessee-based company that pro', type: 'legal' },
+     { date: '2023', event: 'In 2023, DOJ indicted two RT employees for covertly funding US media influencers to produce pro-Russian content; the operation involved $10 million in payments to a Tennessee-based company that pro', type: 'legal' }
    ],
   },
   'fossil-fuel-subsidy-hidden-costs': {
@@ -1773,18 +1732,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The implicit subsidy; the unpriced health and environmental costs of fossil fuel use; dwarfs direct subsidies. A 2023 Harvard/UCL study published in Environmental Research Letters estimated that air pollution from fossil fuel combustion causes approximately 350,000 premature deaths annually in the United States alone, with total health costs of approximately $820 billion per year. These costs include premature mortality, cardiovascular and respiratory disease, cancer, childhood asthma, and neurological damage. A 2021 study in PNAS estimated that PM2.5 pollution from fossil fuel combustion was responsible for $600 billion in health damages annually in the US. The costs fall disproportionately on low-income communities and communities of color who live near power plants, refineries, and transportation corridors; effectively constituting a regressive tax paid in health outcomes rather than dollars.',
       'The fossil fuel industry\'s lobbying operation ensures subsidy preservation. Oil and gas companies spent $125 million on lobbying in 2022 according to OpenSecrets, with ExxonMobil ($11.5 million), Chevron ($9.6 million), and Koch Industries ($9.1 million) as top spenders. The industry donated $80 million to federal candidates in the 2022 cycle (75% to Republicans). The American Petroleum Institute (API), the industry\'s primary trade association, spent $13.6 million on lobbying in 2022. API\'s lobbying operation focuses on maintaining existing tax provisions, opposing carbon pricing, promoting natural gas as a "bridge fuel," and securing regulatory approvals for pipeline and LNG export projects. The industry\'s return on lobbying investment is extraordinary: for every dollar spent on federal lobbying, the fossil fuel industry receives approximately $19 in subsidies.',
       'International comparison reveals the US as an outlier in fossil fuel subsidy persistence. The European Union has committed to phasing out fossil fuel subsidies by 2025 (though implementation has been delayed). Canada has committed to eliminating "inefficient" fossil fuel subsidies (though the definition of "inefficient" is contested). G7 nations collectively pledged in 2009 to phase out fossil fuel subsidies "over the medium term"; 15 years later, subsidies have increased. The UK introduced a windfall profits tax on fossil fuel companies in 2022 (generating approximately L5 billion annually), but maintains substantial tax allowances for North Sea drilling. Among developed nations, only the US provides unlimited fossil fuel tax preferences with no sunset provisions and no serious legislative effort underway to reform them.',
-      'The Inflation Reduction Act (2022) represents the most significant US subsidy shift toward clean energy, providing approximately $369 billion in clean energy tax credits and incentives over 10 years. However, the IRA did not repeal or reform existing fossil fuel subsidies; it added clean energy incentives on top of them. The result is a subsidy environment in which fossil fuels and clean energy compete on unequal terms; but with the inequality slightly reduced. The CBO estimates that IRA clean energy provisions will reduce US emissions by approximately 40% below 2005 levels by 2030; but achieving the 50% reduction target will require additional policy measures including the elimination of fossil fuel subsidies. The IMF has estimated that eliminating global fossil fuel subsidies would reduce global CO2 emissions by 34% and prevent 1.6 million premature deaths annually; making it the single most impactful climate policy available.',
+      'The Inflation Reduction Act (2022) represents the most significant US subsidy shift toward clean energy, providing approximately $369 billion in clean energy tax credits and incentives over 10 years. However, the IRA did not repeal or reform existing fossil fuel subsidies; it added clean energy incentives on top of them. The result is a subsidy environment in which fossil fuels and clean energy compete on unequal terms; but with the inequality slightly reduced. The CBO estimates that IRA clean energy provisions will reduce US emissions by approximately 40% below 2005 levels by 2030; but achieving the 50% reduction target will require additional policy measures including the elimination of fossil fuel subsidies. The IMF has estimated that eliminating global fossil fuel subsidies would reduce global CO2 emissions by 34% and prevent 1.6 million premature deaths annually; making it the single most impactful climate policy available.'
     ],
     tags: ['Fossil Fuel Subsidies', 'IMF', 'Air Pollution Health Costs', 'Carbon Pricing', 'API Lobbying', 'Tax Expenditures', 'Inflation Reduction Act'],
     sources: [
       { title: 'IMF Fossil Fuel Subsidies Data', url: 'https://www.imf.org', type: 'Research Study' },
       { title: 'Oil Change International US Subsidies', url: 'https://priceofoil.org', type: 'Research Study' },
-      { title: 'OpenSecrets Oil & Gas Lobbying', url: 'https://www.opensecrets.org', type: 'Financial Record' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'OpenSecrets Oil & Gas Lobbying', url: 'https://www.opensecrets.org', type: 'Financial Record' }
     ],
     affiliations: [
  { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Maintains century-old fossil fuel tax provisions; has not passed subsidy reform despite repeated commitments', href: '/entities/agencies/congress' },
- { id: '2', name: 'ExxonMobil', type: 'corporation', relationship: 'Top lobbying spender ($11.5M in 2022); primary beneficiary of intangible drilling costs deduction and percentage depletion', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'ExxonMobil', type: 'corporation', relationship: 'Top lobbying spender ($11.5M in 2022); primary beneficiary of intangible drilling costs deduction and percentage depletion', href: '/entities/corporations/exxonmobil' }
  ],
    eventOriginDate: '1926-01-01',
    lastActivityDate: '2025-08-16',
@@ -1800,7 +1758,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2022', event: 'The UK introduced a windfall profits tax on fossil fuel companies in 2022 (generating approximately L5 billion annually), but maintains substantial tax allowances for North Sea drilling', type: 'political' },
      { date: '2022', event: 'The Inflation Reduction Act (2022) represents the most significant US subsidy shift toward clean energy, providing approximately $369 billion in clean energy tax credits and incentives over 10 years', type: 'political' },
      { date: '2023', event: 'A 2023 Harvard/UCL study published in Environmental Research Letters estimated that air pollution from fossil fuel combustion causes approximately 350,000 premature deaths annually in the United St', type: 'critical' },
-     { date: '2025', event: 'The European Union has committed to phasing out fossil fuel subsidies by 2025 (though implementation has been delayed)', type: 'default' },
+     { date: '2025', event: 'The European Union has committed to phasing out fossil fuel subsidies by 2025 (though implementation has been delayed)', type: 'default' }
    ],
   },
   'fracking-groundwater-contamination': {
@@ -1816,18 +1774,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The EPA\'s Pavillion, Wyoming investigation (2008-2013) represents the most damning federal evidence of fracking-related groundwater contamination. In 2011, the EPA drilled monitoring wells near Encana Corporation\'s gas operations and found synthetic chemicals associated with fracking fluids (including 2-butoxyethanol; a component of fracking fluid, glycols, and alcohols) in groundwater at depths consistent with fracking operations. The EPA issued a draft report concluding that fracking had contaminated the aquifer. In 2013, under intense industry and political pressure, the EPA handed the investigation over to the state of Wyoming; which was funded in part by Encana to conduct further testing. Wyoming\'s subsequent investigation used different testing protocols and reached different conclusions. Independent peer review by Stanford University scientists (2016) reaffirmed the EPA\'s original findings and identified additional evidence of contamination.',
       'Dimock, Pennsylvania became the most publicized fracking contamination case when residents of Carter Road reported that their drinking water had become discolored, foul-smelling, and in some cases flammable after Cabot Oil & Gas began drilling operations nearby in 2008. The Pennsylvania DEP found methane in residential water wells at levels exceeding the explosive threshold (28 mg/L). Cabot was ordered to provide bottled water and install treatment systems, then the order was lifted. The EPA conducted its own testing in 2012 and initially declared the water safe; ProPublica later reported that the EPA\'s own data showed contaminants above federal safety standards in five of eleven homes tested. A 2020 Penn State study found that private water wells within 1 km of fracking operations had methane concentrations six times higher than wells farther away.',
       'Wastewater disposal; the injection of billions of gallons of used fracking fluid into deep underground wells; has caused documented seismicity in Oklahoma, Texas, Ohio, and other states. Oklahoma experienced 907 magnitude 3.0+ earthquakes in 2015 compared to an average of 2 per year before 2009; the USGS directly attributed the increase to wastewater injection. A 5.8 magnitude earthquake near Pawnee, Oklahoma in 2016 damaged buildings and was felt across multiple states. Fracking wastewater contains naturally occurring radioactive materials (NORM) brought to the surface from shale formations, including radium-226 and radium-228; a 2020 study in Scientific Reports found that streams receiving fracking wastewater discharge had radium levels 200 times above background. Pennsylvania allowed fracking wastewater to be discharged into rivers used for drinking water until 2011.',
-      'The cumulative scale of fracking\'s water impact is staggering. Each fracked well requires approximately 1.5 to 16 million gallons of water. The US has approximately 1.7 million active oil and gas wells, with approximately 13,000 new wells fracked annually. Total water use for fracking in the US was approximately 26 billion gallons in 2022. In water-stressed regions (West Texas Permian Basin, arid portions of Colorado and Wyoming), fracking competes directly with agricultural and municipal water supplies. A 2018 Duke University study found that between 2011 and 2016, water use per well increased by up to 770% in some regions while wastewater production per well increased by up to 1,440%. Air emissions from fracking operations; including methane (an 80x more potent greenhouse gas than CO2 over 20 years), volatile organic compounds, and hazardous air pollutants; affect communities within miles of wells; a Colorado School of Public Health study found elevated cancer risk for residents within half a mile of fracking operations.',
+      'The cumulative scale of fracking\'s water impact is staggering. Each fracked well requires approximately 1.5 to 16 million gallons of water. The US has approximately 1.7 million active oil and gas wells, with approximately 13,000 new wells fracked annually. Total water use for fracking in the US was approximately 26 billion gallons in 2022. In water-stressed regions (West Texas Permian Basin, arid portions of Colorado and Wyoming), fracking competes directly with agricultural and municipal water supplies. A 2018 Duke University study found that between 2011 and 2016, water use per well increased by up to 770% in some regions while wastewater production per well increased by up to 1,440%. Air emissions from fracking operations; including methane (an 80x more potent greenhouse gas than CO2 over 20 years), volatile organic compounds, and hazardous air pollutants; affect communities within miles of wells; a Colorado School of Public Health study found elevated cancer risk for residents within half a mile of fracking operations.'
     ],
     tags: ['Fracking', 'Halliburton Loophole', 'Groundwater Contamination', 'Pavillion Wyoming', 'Dimock Pennsylvania', 'Induced Seismicity', 'Wastewater'],
     sources: [
       { title: 'EPA Hydraulic Fracturing Drinking Water Assessment', url: 'https://www.epa.gov', type: 'Government Record' },
       { title: 'USGS Induced Seismicity Research', url: 'https://www.usgs.gov', type: 'Research Study' },
-      { title: 'Stanford Pavillion Wyoming Study', url: 'https://pangea.stanford.edu', type: 'Research Study' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'Stanford Pavillion Wyoming Study', url: 'https://pangea.stanford.edu', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Revised 2016 fracking study conclusions under pressure; abandoned Pavillion investigation; exempted from SDWA enforcement by Halliburton Loophole', href: '/entities/agencies/epa' },
- { id: '2', name: 'Halliburton', type: 'corporation', relationship: 'World\'s largest fracking services company; namesake of the SDWA exemption championed by former CEO Dick Cheney', href: '/entities/corporations/halliburton' },
+ { id: '2', name: 'Halliburton', type: 'corporation', relationship: 'World\'s largest fracking services company; namesake of the SDWA exemption championed by former CEO Dick Cheney', href: '/entities/corporations/halliburton' }
  ],
    eventOriginDate: '1995-01-01',
    lastActivityDate: '2024-10-05',
@@ -1847,7 +1804,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2018', event: 'A 2018 Duke University study found that between 2011 and 2016, water use per well increased by up to 770% in some regions while wastewater production per well increased by up to 1,440%', type: 'default' },
      { date: '2020', event: 'A 2020 Penn State study found that private water wells within 1 km of fracking operations had methane concentrations six times higher than wells farther away', type: 'default' },
      { date: '2020', event: 'Fracking wastewater contains naturally occurring radioactive materials (NORM) brought to the surface from shale formations, including radium-226 and radium-228', type: 'default' },
-     { date: '2022', event: 'Total water use for fracking in the US was approximately 26 billion gallons in 2022', type: 'political' },
+     { date: '2022', event: 'Total water use for fracking in the US was approximately 26 billion gallons in 2022', type: 'political' }
    ],
   },
   'foster-care-to-trafficking-pipeline': {
@@ -1863,18 +1820,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Group homes and congregate care settings are the highest-risk placements. A 2018 study by the Connecticut Office of the Child Advocate found that 98% of child sex trafficking victims identified in the state had been placed in congregate care. Group homes concentrate vulnerable children in institutional settings with high staff turnover, limited supervision (particularly at night), and proximity to other youth who may already be involved in trafficking networks. In some documented cases, current residents have recruited new residents into trafficking. Florida\'s child welfare system reported that of 1,000 children identified as likely trafficking victims in 2019, over 85% had been in the foster care system. In 2022, a Houston, Texas group home was found to have been directly facilitating the trafficking of children in its care; staff members were complicit.',
       'Aging out of foster care at 18 (or 21 in some states) creates an acute vulnerability window. Approximately 20,000 youth age out of the US foster care system annually. Within four years of aging out, over 50% experience homelessness, only 50% are employed, fewer than 3% earn a college degree, and 25% experience incarceration. Without housing, employment support, or family connections, aged-out youth are prime trafficking targets. The Trafficking Victims Protection Act (TVPA) identifies the foster care system as a trafficking risk factor, but federal funding for transitional support programs (such as the John H. Chafee Foster Care Independence Program) provides only approximately $140 million annually for the entire population of aging-out youth; roughly $7,000 per person.',
       'The child welfare system\'s response to trafficking has been hampered by identification failures, jurisdictional fragmentation, and victim criminalization. Many states did not recognize that a child cannot "consent" to sex trafficking until recent legislative changes; prior to safe harbor laws (enacted in most states between 2010 and 2020), child trafficking victims were routinely arrested and prosecuted for prostitution. Even after safe harbor laws, enforcement is inconsistent; a 2021 report by Shared Hope International found that 15 states still had gaps in their safe harbor protections. Caseworkers are often untrained in trafficking identification; a 2020 National Child Traumatic Stress Network survey found that only 22% of child welfare agencies had specific training on sex trafficking screening. NCMEC\'s reporting system depends on voluntary participation; many child welfare agencies do not consistently report missing children to law enforcement or NCMEC.',
-      'Federal legislative responses have been incremental. The Preventing Sex Trafficking and Strengthening Families Act (2014) required state child welfare agencies to develop protocols for identifying, documenting, and serving trafficking victims and to report missing children to law enforcement within 24 hours. The Family First Prevention Services Act (2018) restricted the use of federal Title IV-E funding for congregate care (limiting placements to "qualified" settings meeting specific requirements); but implementation has been slow, with many states requesting extensions. HHS\'s Children\'s Bureau allocated $5 million for a National Trafficking Hotline integration with child welfare systems, but the funding represents a fraction of the need. The fundamental problem is that the US child welfare system is chronically underfunded ($30 billion annually for approximately 400,000 children in care), overwhelmed by caseloads (average caseworker supervises 24 cases, far above the recommended maximum of 15), and structured to react to abuse after it occurs rather than prevent it.',
+      'Federal legislative responses have been incremental. The Preventing Sex Trafficking and Strengthening Families Act (2014) required state child welfare agencies to develop protocols for identifying, documenting, and serving trafficking victims and to report missing children to law enforcement within 24 hours. The Family First Prevention Services Act (2018) restricted the use of federal Title IV-E funding for congregate care (limiting placements to "qualified" settings meeting specific requirements); but implementation has been slow, with many states requesting extensions. HHS\'s Children\'s Bureau allocated $5 million for a National Trafficking Hotline integration with child welfare systems, but the funding represents a fraction of the need. The fundamental problem is that the US child welfare system is chronically underfunded ($30 billion annually for approximately 400,000 children in care), overwhelmed by caseloads (average caseworker supervises 24 cases, far above the recommended maximum of 15), and structured to react to abuse after it occurs rather than prevent it.'
     ],
     tags: ['Foster Care', 'Child Sex Trafficking', 'NCMEC', 'Group Homes', 'Aging Out', 'Safe Harbor Laws', 'Child Welfare'],
     sources: [
       { title: 'NCMEC Missing Children Statistics', url: 'https://www.missingkids.org', type: 'Research Study' },
       { title: 'HHS Children\'s Bureau Reports', url: 'https://www.acf.hhs.gov/cb', type: 'Government Record' },
-      { title: 'Shared Hope International State Report Cards', url: 'https://sharedhope.org', type: 'Research Study' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'Shared Hope International State Report Cards', url: 'https://sharedhope.org', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'HHS', type: 'agency', relationship: 'Children\'s Bureau oversees $30B child welfare system serving 400K+ children; chronically underfunded prevention programs', href: '/entities/agencies/hhs' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'FBI Operation Cross Country found 60% of recovered child trafficking victims had been in foster care', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'FBI Operation Cross Country found 60% of recovered child trafficking victims had been in foster care', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2026-02-17',
@@ -1888,7 +1844,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2019', event: 'Florida\'s child welfare system reported that of 1,000 children identified as likely trafficking victims in 2019, over 85% had been in the foster care system', type: 'default' },
      { date: '2020', event: 'Caseworkers are often untrained in trafficking identification; a 2020 National Child Traumatic Stress Network survey found that only 22% of child welfare agencies had specific training on sex traff', type: 'default' },
      { date: '2021', event: 'Even after safe harbor laws, enforcement is inconsistent; a 2021 report by Shared Hope International found that 15 states still had gaps in their safe harbor protections', type: 'political' },
-     { date: '2022', event: 'In 2022, a Houston, Texas group home was found to have been directly facilitating the trafficking of children in its care; staff members were complicit', type: 'default' },
+     { date: '2022', event: 'In 2022, a Houston, Texas group home was found to have been directly facilitating the trafficking of children in its care; staff members were complicit', type: 'default' }
    ],
   },
   'fda-advisory-committee-conflicts': {
@@ -1904,18 +1860,16 @@ const investigations_f: Record<string, InvestigationData> = {
       'The opioid epidemic illustrates the consequences of captured advisory committees. When the FDA considered approving Purdue Pharma\'s OxyContin in 1995, the advisory committee that reviewed the application included members with financial relationships to Purdue and other opioid manufacturers. Curtis Wright, the FDA medical reviewer who oversaw OxyContin\'s approval (and approved its label claim that abuse was rare), left the FDA within two years and took a position at Purdue Pharma at a salary reportedly more than double his government pay. The FDA\'s continued approval of high-dose opioid formulations through the 2000s and 2010s occurred through advisory committee processes in which panelists had documented relationships with opioid manufacturers. A 2019 BMJ study found that of 28 advisory committee members who reviewed an opioid product, over half subsequently received payments from opioid companies.',
       'Accelerated approval pathways have compounded the advisory committee conflict problem. The FDA\'s accelerated approval program (established 1992) allows drugs for serious conditions to be approved based on surrogate endpoints (biomarkers believed to predict clinical benefit) rather than proven clinical outcomes. Advisory committees reviewing accelerated approval applications frequently include experts who receive funding from the applying company for biomarker research. The controversial 2021 approval of Aduhelm (aducanumab) for Alzheimer\'s disease exemplified the problem: the advisory committee voted nearly unanimously against approval based on ambiguous clinical data; the FDA approved it anyway over the committee\'s recommendation. Three committee members resigned in protest. Aduhelm\'s approval, priced at $56,000 per year (later reduced to $26,500), was widely criticized as prioritizing manufacturer revenue over patient benefit.',
       'Medical device advisory committees face similar conflicts. A 2016 study in JAMA Internal Medicine examined payments to physicians who served on FDA advisory committees for medical devices and found that 57% received payments from the reviewed device\'s manufacturer after the committee meeting. A 2020 BMJ study found that of 535 FDA advisors who approved medical devices between 2008 and 2014, over 160 subsequently received payments from the sponsoring company. The devices approved through compromised review processes include transvaginal mesh (approved through the 510(k) pathway without clinical trials; later linked to thousands of injuries and billions in litigation), metal-on-metal hip implants (approved through 510(k); later recalled for metallosis), and Essure permanent contraception (approved through PMA with clinical data that understated complication rates; later withdrawn from market).',
-      'Reform efforts have been incremental and insufficient. The Sunshine Act (2010), part of the ACA, requires pharmaceutical and device companies to report payments to physicians; this data (published in the CMS Open Payments database) has enabled researchers to track post-approval payments to advisory committee members. The 21st Century Cures Act (2016) expanded the FDA\'s use of "real-world evidence" for approvals but did not strengthen conflict-of-interest requirements. Consumer advocacy organizations (Public Citizen, Union of Concerned Scientists) have repeatedly petitioned the FDA to strengthen conflict screening; the FDA has instead relaxed its screening criteria over time, arguing that the pool of unconflicted experts is too small. The fundamental structural problem is that the pharmaceutical and medical device industries fund the majority of clinical research in the US; creating a landscape in which nearly every expert qualified to evaluate a product has some financial connection to its manufacturer.',
+      'Reform efforts have been incremental and insufficient. The Sunshine Act (2010), part of the ACA, requires pharmaceutical and device companies to report payments to physicians; this data (published in the CMS Open Payments database) has enabled researchers to track post-approval payments to advisory committee members. The 21st Century Cures Act (2016) expanded the FDA\'s use of "real-world evidence" for approvals but did not strengthen conflict-of-interest requirements. Consumer advocacy organizations (Public Citizen, Union of Concerned Scientists) have repeatedly petitioned the FDA to strengthen conflict screening; the FDA has instead relaxed its screening criteria over time, arguing that the pool of unconflicted experts is too small. The fundamental structural problem is that the pharmaceutical and medical device industries fund the majority of clinical research in the US; creating a landscape in which nearly every expert qualified to evaluate a product has some financial connection to its manufacturer.'
     ],
     tags: ['FDA', 'Advisory Committees', 'Conflict of Interest', 'Drug Approval', 'Opioid Crisis', 'Medical Devices', 'Accelerated Approval'],
     sources: [
       { title: 'JAMA Advisory Committee Conflict Studies', url: 'https://jamanetwork.com', type: 'Research Study' },
       { title: 'CMS Open Payments Database', url: 'https://openpaymentsdata.cms.gov', type: 'Government Record' },
-      { title: 'Science FDA Advisory Committee Investigation', url: 'https://www.science.org', type: 'Investigative Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'Science FDA Advisory Committee Investigation', url: 'https://www.science.org', type: 'Investigative Report' }
     ],
     affiliations: [
- { id: '1', name: 'FDA', type: 'agency', relationship: 'Issued 1,100+ conflict-of-interest waivers 2008-2018; approved OxyContin and Aduhelm over safety concerns', href: '/entities/agencies/fda' },
-      { id: 'department-of-health-and-human-services', name: 'Department of Health and Human Services', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/hhs' },
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Issued 1,100+ conflict-of-interest waivers 2008-2018; approved OxyContin and Aduhelm over safety concerns', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '1992-01-01',
    lastActivityDate: '2025-09-15',
@@ -1930,7 +1884,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 JAMA Internal Medicine study found that advisors with financial ties to drug sponsors were significantly more likely to vote in favor of the sponsor\'s product', type: 'political' },
      { date: '2019', event: 'A 2019 BMJ study found that of 28 advisory committee members who reviewed an opioid product, over half subsequently received payments from opioid companies', type: 'default' },
      { date: '2020', event: 'A 2020 BMJ study found that of 535 FDA advisors who approved medical devices between 2008 and 2014, over 160 subsequently received payments from the sponsoring company', type: 'default' },
-     { date: '2021', event: 'The controversial 2021 approval of Aduhelm (aducanumab) for Alzheimer\'s disease exemplified the problem: the advisory committee voted nearly unanimously against approval based on ambiguous clinical...', type: 'political' },
+     { date: '2021', event: 'The controversial 2021 approval of Aduhelm (aducanumab) for Alzheimer\'s disease exemplified the problem: the advisory committee voted nearly unanimously against approval based on ambiguous clinical...', type: 'political' }
    ],
   },
   'food-supply-chain-endocrine-disruptors': {
@@ -1946,18 +1900,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Phthalates enter the food supply primarily through food processing equipment, packaging materials, and plastic food containers. A 2021 study in the Journal of Exposure Science and Environmental Epidemiology found that fast food and highly processed food consumption was associated with 35% higher urinary phthalate levels compared to home-prepared meals. Phthalates leach from PVC tubing used in dairy production, from conveyor belt materials in food processing plants, and from plastic packaging (especially when heated). A 2023 Consumer Reports analysis tested 85 food products and found phthalates in all of them; including organic products. The FDA set a tolerance for diethylhexyl phthalate (DEHP) in food-contact materials in the 1980s but has not updated it despite subsequent evidence of low-dose endocrine disruption.',
       'PFAS ("forever chemicals") in the food supply come from multiple sources: food packaging (including microwave popcorn bags, fast-food wrappers, pizza boxes, and take-out containers), contaminated irrigation water, biosolids (sewage sludge used as agricultural fertilizer), and PFAS-containing pesticides. The FDA\'s 2019 total diet study detected PFAS in a wide range of grocery store items including chocolate cake, hot dogs, and canned tuna. PFAS levels in produce grown with biosolids in several states exceeded health advisory levels. In 2022, the EPA found PFAS contamination in treated sewage sludge applied to farmland in at least 20 states. Maine banned the land application of biosolids in 2022 after discovering widespread PFAS contamination on farms; several farms had their products condemned. The FDA has no enforceable limits on PFAS in food; it issued non-binding "action levels" for certain PFAS compounds in seafood in 2024.',
       'Pesticide residues in the food supply represent another endocrine-disrupting pathway. The USDA\'s Pesticide Data Program (PDP) detects pesticide residues in approximately 70% of produce samples tested, including many residues of endocrine-disrupting pesticides (atrazine, chlorpyrifos, 2,4-D, glyphosate). The FDA\'s tolerance levels for pesticide residues are based on acute toxicity studies and do not account for endocrine disruption at low doses; many EDCs exhibit non-monotonic dose-response curves (meaning they can cause effects at low doses that do not occur at higher doses). Glyphosate, the world\'s most widely used herbicide (approximately 300 million pounds annually in the US), has been classified as a "probable human carcinogen" by the WHO\'s IARC and has demonstrated endocrine-disrupting properties in multiple studies; but the EPA has not restricted its use. The EPA\'s Endocrine Disruptor Screening Program, mandated by Congress in 1996, took 13 years to begin screening (in 2009) and has completed Tier 1 screening for only 52 chemicals as of 2024.',
-      'The cumulative exposure problem is the critical regulatory gap. Americans are exposed to hundreds of endocrine-disrupting chemicals simultaneously through food, water, air, and consumer products. Regulatory agencies assess chemicals individually; no US regulatory framework evaluates cumulative EDC exposure. A 2020 study in The Lancet Diabetes and Endocrinology estimated that EDC exposure in the European Union costs L157 billion ($170 billion) annually in healthcare and lost productivity. A parallel US estimate by the Endocrine Society and IPEN put the US cost at $340 billion annually. The FDA\'s food safety framework was designed in 1958 for acute toxicants (chemicals that cause harm at high doses); it is fundamentally inadequate for endocrine disruptors that operate at concentrations measured in parts per trillion and interact synergistically with other chemicals.',
+      'The cumulative exposure problem is the critical regulatory gap. Americans are exposed to hundreds of endocrine-disrupting chemicals simultaneously through food, water, air, and consumer products. Regulatory agencies assess chemicals individually; no US regulatory framework evaluates cumulative EDC exposure. A 2020 study in The Lancet Diabetes and Endocrinology estimated that EDC exposure in the European Union costs L157 billion ($170 billion) annually in healthcare and lost productivity. A parallel US estimate by the Endocrine Society and IPEN put the US cost at $340 billion annually. The FDA\'s food safety framework was designed in 1958 for acute toxicants (chemicals that cause harm at high doses); it is fundamentally inadequate for endocrine disruptors that operate at concentrations measured in parts per trillion and interact synergistically with other chemicals.'
     ],
     tags: ['GRAS Loophole', 'Phthalates', 'PFAS in Food', 'Pesticide Residues', 'Endocrine Disruptors', 'Food Packaging', 'Cumulative Exposure'],
     sources: [
       { title: 'NRDC GRAS Investigation', url: 'https://www.nrdc.org', type: 'Research Study' },
       { title: 'USDA Pesticide Data Program', url: 'https://www.ams.usda.gov/datasets/pdp', type: 'Government Record' },
-      { title: 'Consumer Reports Phthalates Analysis', url: 'https://www.consumerreports.org', type: 'Research Study' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'Consumer Reports Phthalates Analysis', url: 'https://www.consumerreports.org', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'GRAS loophole allows 1,000+ chemical self-certifications without FDA review; no enforceable PFAS limits in food', href: '/entities/agencies/fda' },
- { id: '2', name: 'EPA', type: 'agency', relationship: 'Endocrine Disruptor Screening Program screened only 52 chemicals in 25 years; no cumulative exposure framework', href: '/entities/agencies/epa' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Endocrine Disruptor Screening Program screened only 52 chemicals in 25 years; no cumulative exposure framework', href: '/entities/agencies/epa' }
  ],
    eventOriginDate: '1958-01-01',
    lastActivityDate: '2024-01-01',
@@ -1974,7 +1927,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, the EPA found PFAS contamination in treated sewage sludge applied to farmland in at least 20 states', type: 'default' },
      { date: '2022', event: 'Maine banned the land application of biosolids in 2022 after discovering widespread PFAS contamination on farms; several farms had their products condemned', type: 'default' },
      { date: '2023', event: 'A 2023 Consumer Reports analysis tested 85 food products and found phthalates in all of them; including organic products', type: 'default' },
-     { date: '2024', event: 'The FDA has no enforceable limits on PFAS in food; it issued non-binding "action levels" for certain PFAS compounds in seafood in 2024', type: 'legal' },
+     { date: '2024', event: 'The FDA has no enforceable limits on PFAS in food; it issued non-binding "action levels" for certain PFAS compounds in seafood in 2024', type: 'legal' }
    ],
   },
   'forced-sterilization-historical-patterns': {
@@ -1990,19 +1943,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Native American women were disproportionately targeted by the federal Indian Health Service (IHS). A 1976 General Accounting Office (GAO) investigation found that the IHS sterilized 3,406 Native American women (25-42% of women of childbearing age in the four IHS areas studied) between 1973 and 1976 alone. Many sterilizations were performed without informed consent; women were presented with consent forms while in labor or under sedation, told their welfare benefits would be cut if they did not agree, or sterilized without their knowledge during other surgical procedures. Dr. Connie Uri, a Choctaw-Cherokee physician, first documented the pattern and brought it to Senator James Abourezk\'s attention. The revelations led to the Indian Health Care Improvement Act (1976) and federal sterilization consent regulations requiring a 72-hour waiting period; but enforcement was inconsistent and no federal officials were held accountable.',
       'African American women in the South were sterilized at rates dramatically higher than white women. The practice was so common in the South that it was known as a "Mississippi appendectomy"; doctors performed hysterectomies or tubal ligations on Black women during other surgical procedures without their knowledge or consent. Fannie Lou Hamer, the civil rights leader, was sterilized without her consent during surgery to remove a uterine tumor in 1961 in a Sunflower County, Mississippi hospital. North Carolina\'s eugenics program (which operated from 1929 to 1977 and sterilized approximately 7,600 people) disproportionately targeted Black women; African Americans constituted 40% of those sterilized despite being 25% of the state\'s population. In 2013, North Carolina became the first state to appropriate compensation ($10 million) for surviving victims of its eugenics program.',
       'Forced sterilization in California prisons continued until 2013. A Center for Investigative Reporting (CIR) investigation found that the California Department of Corrections and Rehabilitation sterilized approximately 1,400 female inmates between 1997 and 2013; approximately 144 of those procedures violated state requirements for informed consent. Former inmates reported being pressured by prison doctors to undergo tubal ligations during cesarean sections or other surgeries. Dr. James Heinrich, who performed many of the procedures, told CIR that the procedures were cost-effective; stating: "Over a 10-year period, that isn\'t a huge amount of money compared to what you save in welfare paying for these unwanted children." California passed SB 1135 in 2014 banning sterilization in state prisons except when medically necessary to save a life.',
-      'The 2020 ICE detention whistleblower revelations brought forced sterilization back to national attention. Dawn Wooten, a nurse at Irwin County Detention Center in Ocilla, Georgia, filed a complaint alleging that Dr. Mahendra Amin performed an excessive number of hysterectomies on detained immigrant women; describing him as "the uterus collector." A subsequent investigation by the DHS Office of Inspector General confirmed that Dr. Amin performed a disproportionately high rate of gynecological procedures, that informed consent practices were inadequate, and that detained women had difficulty communicating with medical staff due to language barriers. Congressional investigations corroborated patterns of unnecessary procedures. Dr. Amin denied wrongdoing. The case drew international condemnation; human rights organizations compared the practices to historical eugenics programs. ICE transferred detainees away from the facility but did not terminate its contract with LaSalle Corrections (the facility operator) until the contract expired.',
+      'The 2020 ICE detention whistleblower revelations brought forced sterilization back to national attention. Dawn Wooten, a nurse at Irwin County Detention Center in Ocilla, Georgia, filed a complaint alleging that Dr. Mahendra Amin performed an excessive number of hysterectomies on detained immigrant women; describing him as "the uterus collector." A subsequent investigation by the DHS Office of Inspector General confirmed that Dr. Amin performed a disproportionately high rate of gynecological procedures, that informed consent practices were inadequate, and that detained women had difficulty communicating with medical staff due to language barriers. Congressional investigations corroborated patterns of unnecessary procedures. Dr. Amin denied wrongdoing. The case drew international condemnation; human rights organizations compared the practices to historical eugenics programs. ICE transferred detainees away from the facility but did not terminate its contract with LaSalle Corrections (the facility operator) until the contract expired.'
     ],
     tags: ['Forced Sterilization', 'Eugenics', 'Buck v. Bell', 'Indian Health Service', 'California Prisons', 'ICE Detention', 'Reproductive Rights'],
     sources: [
       { title: 'GAO Indian Health Service Sterilization Report', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'CIR California Prison Sterilization Investigation', url: 'https://revealnews.org', type: 'Investigative Report' },
-      { title: 'DHS OIG Irwin County Investigation', url: 'https://www.oig.dhs.gov', type: 'Government Report' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'DHS OIG Irwin County Investigation', url: 'https://www.oig.dhs.gov', type: 'Government Report' }
     ],
     affiliations: [
  { id: '1', name: 'HHS', type: 'agency', relationship: 'Indian Health Service sterilized 3,400+ Native women 1973-1976; federal consent regulations inadequately enforced', href: '/entities/agencies/hhs' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2026-02-01',
@@ -2018,7 +1969,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2013', event: 'In 2013, North Carolina became the first state to appropriate compensation ($10 million) for surviving victims of its eugenics program', type: 'financial' },
      { date: '2013', event: 'Forced sterilization in California prisons continued until 2013', type: 'default' },
      { date: '2014', event: 'James Heinrich, who performed many of the procedures, told CIR that the procedures were cost-effective; stating: "Over a 10-year period, that isn\'t a huge amount of money compared to what you save ...', type: 'financial' },
-     { date: '2020', event: 'The 2020 ICE detention whistleblower revelations brought forced sterilization back to national attention', type: 'default' },
+     { date: '2020', event: 'The 2020 ICE detention whistleblower revelations brought forced sterilization back to national attention', type: 'default' }
    ],
   },
   'foreign-government-lobbyist-networks': {
@@ -2034,17 +1985,16 @@ const investigations_f: Record<string, InvestigationData> = {
       'Israel\'s influence network in the US operates primarily through domestic organizations rather than direct foreign lobbying, creating unique disclosure challenges. AIPAC (American Israel Public Affairs Committee), which does not register under FARA because it is organized as a domestic entity, spent $100 million on the 2024 election cycle through its affiliated super PAC (United Democracy Project). AIPAC\'s spending made it one of the largest outside spenders in congressional elections; it spent $14.5 million to defeat a single progressive incumbent (Jamaal Bowman, NY-16). The relationship between AIPAC and the Israeli government is not formally disclosed under FARA. Other Israel-aligned organizations including the Foundation for Defense of Democracies (FDD), Washington Institute for Near East Policy (WINEP), and Christians United for Israel (CUFI; 10 million members) amplify Israeli policy positions. A former AIPAC official, Steven Rosen, was charged under the Espionage Act for passing classified information to Israeli diplomats; charges were later dropped.',
       'China\'s lobbying and influence operations have expanded significantly. Between 2016 and 2023, Chinese government entities and their agents spent approximately $65 million on registered US lobbying. However, the more consequential Chinese influence operates through channels that FARA does not effectively capture: academic partnerships (Confucius Institutes, of which over 100 operated in US universities before most were closed under pressure), technology company lobbying (TikTok parent ByteDance spent $8.7 million on lobbying in 2023), and "elite capture" through business relationships with former US officials. The DOJ\'s "China Initiative" (2018-2022) targeted Chinese espionage and unreported foreign agency but was criticized for racial profiling of Chinese-American scientists; the initiative was disbanded after multiple high-profile cases collapsed.',
       'The FARA enforcement gap has been a structural problem since the law\'s enactment. The DOJ\'s FARA unit within the National Security Division has historically had only a handful of attorneys, and the unit has relied primarily on administrative compliance (sending advisory letters to unregistered agents) rather than criminal prosecution. Between 2006 and 2016, the DOJ brought only 7 FARA criminal cases. The Trump era exposed widespread non-compliance: Paul Manafort lobbied for Ukrainian President Viktor Yanukovych for over a decade without registering (earning over $60 million); Michael Flynn received $530,000 from Turkish interests while serving as a senior Trump campaign adviser without disclosing it; and Elliott Broidy pleaded guilty to acting as an unregistered agent of foreign governments including Malaysia and China. The GAO found in 2016 that the DOJ had never conducted a comprehensive audit of FARA compliance and had "limited assurance" that all agents were registered.',
-      'Lobbying by US allies raises questions about whether FARA\'s framework is adequate for modern influence operations. Japan, South Korea, and NATO allies all maintain substantial lobbying operations in Washington (Japan\'s registered spending has averaged $40-50 million annually). Defense contractors from allied nations (BAE Systems, Airbus, Leonardo) lobby for weapons sales to the US military. The revolving door between government service and foreign lobbying is a bipartisan phenomenon: former Senate Majority Leader Trent Lott and former Senator John Breaux co-founded a lobbying firm (Lott & Breaux) that represented the government of Turkey; former congressman Toby Moffett lobbied for the Gaddafi government in Libya. The fundamental problem is that FARA registration requirements are enforced through the DOJ\'s National Security Division; which treats foreign lobbying as a national security matter primarily when it involves adversary nations; while lobbying by allied governments receives minimal scrutiny.',
+      'Lobbying by US allies raises questions about whether FARA\'s framework is adequate for modern influence operations. Japan, South Korea, and NATO allies all maintain substantial lobbying operations in Washington (Japan\'s registered spending has averaged $40-50 million annually). Defense contractors from allied nations (BAE Systems, Airbus, Leonardo) lobby for weapons sales to the US military. The revolving door between government service and foreign lobbying is a bipartisan phenomenon: former Senate Majority Leader Trent Lott and former Senator John Breaux co-founded a lobbying firm (Lott & Breaux) that represented the government of Turkey; former congressman Toby Moffett lobbied for the Gaddafi government in Libya. The fundamental problem is that FARA registration requirements are enforced through the DOJ\'s National Security Division; which treats foreign lobbying as a national security matter primarily when it involves adversary nations; while lobbying by allied governments receives minimal scrutiny.'
     ],
     tags: ['FARA', 'Foreign Lobbying', 'Saudi Arabia', 'AIPAC', 'China', 'Influence Operations', 'Revolving Door'],
     sources: [
       { title: 'DOJ FARA Database', url: 'https://www.fara.gov', type: 'Government Record' },
       { title: 'OpenSecrets Foreign Lobbying Data', url: 'https://www.opensecrets.org', type: 'Financial Record' },
-      { title: 'GAO FARA Compliance Report', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'GAO FARA Compliance Report', url: 'https://www.gao.gov', type: 'Government Audit' }
     ],
     affiliations: [
- { id: '1', name: 'DOJ', type: 'agency', relationship: 'FARA unit has never conducted comprehensive compliance audit; brought only 7 criminal cases 2006-2016', href: '/entities/agencies/doj' },
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'FARA unit has never conducted comprehensive compliance audit; brought only 7 criminal cases 2006-2016', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1938-01-01',
    lastActivityDate: '2025-07-13',
@@ -2058,7 +2008,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2018', event: 'The DOJ\'s "China Initiative" (2018-2022) targeted Chinese espionage and unreported foreign agency but was criticized for racial profiling of Chinese-American scientists; the initiative was disbande...', type: 'default' },
      { date: '2018-10-01', event: 'The Saudi lobbying operation expanded dramatically after the murder of journalist Jamal Khashoggi in October 2018, as the Kingdom sought to mitigate diplomatic consequences', type: 'critical' },
      { date: '2023', event: 'However, the more consequential Chinese influence operates through channels that FARA does not effectively capture: academic partnerships (Confucius Institutes, of which over 100 operated in US uni', type: 'default' },
-     { date: '2024', event: 'AIPAC (American Israel Public Affairs Committee), which does not register under FARA because it is organized as a domestic entity, spent $100 million on the 2024 election cycle through its affiliat', type: 'political' },
+     { date: '2024', event: 'AIPAC (American Israel Public Affairs Committee), which does not register under FARA because it is organized as a domestic entity, spent $100 million on the 2024 election cycle through its affiliat', type: 'political' }
    ],
   },
   'financial-transaction-monitoring-overreach': {
@@ -2074,19 +2024,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The crime of "structuring" (breaking up cash transactions to avoid the $10,000 reporting threshold) has created a system of civil asset forfeiture that affects ordinary citizens who have no criminal intent. Under 31 U.S.C. Section 5324, it is a federal crime to structure transactions to evade reporting requirements, even if the underlying funds are entirely legal. The IRS has used this law to seize bank accounts of small business owners who made frequent cash deposits below $10,000 as part of their normal business operations. The Institute for Justice documented dozens of cases where the IRS seized accounts from restaurant owners, farmers, and convenience store operators without any allegation of criminal activity. In 2014-2015, the IRS seized over $43 million from 618 people suspected of structuring; in at least a third of cases, there was no evidence of illegal source income. After public outcry and congressional hearings, the IRS announced in 2014 that it would stop pursuing structuring cases without evidence of illegal source funds; but enforcement continued under other agencies.',
       'The USA PATRIOT Act of 2001 dramatically expanded financial surveillance. Section 314(a) authorizes FinCEN to compel financial institutions to search their records for accounts associated with individuals suspected of terrorism or money laundering; institutions must respond within 14 days and may not notify the account holder. Section 326 requires "Customer Identification Programs" (CIP) for all new accounts. Section 312 requires "enhanced due diligence" for correspondent accounts of foreign banks and private banking accounts of foreign political figures. The PATRIOT Act also expanded SAR filing requirements to securities firms, insurance companies, mutual funds, and casinos. The cumulative effect is a comprehensive surveillance system covering virtually all financial activity in the United States, operated not by law enforcement (which would require warrants) but by private financial institutions acting as deputized surveillance agents.',
       'The "de-banking" (or "de-risking") phenomenon is a direct consequence of the BSA/AML compliance regime. Financial institutions, facing severe penalties for compliance failures (HSBC paid $1.9 billion in 2012; Deutsche Bank paid $629 million in 2017; Wachovia paid $160 million in 2010), have responded by closing accounts of entire categories of customers deemed high-risk; including legal cannabis businesses (despite state legalization), money services businesses serving immigrant communities, nonprofit organizations operating in conflict zones, cryptocurrency businesses, and individuals in developing countries. The OCC\'s "Operation Choke Point" (2013-2017) pressured banks to drop relationships with legal but politically disfavored industries including payday lenders, gun dealers, and tobacco sellers. De-banking has been criticized as extrajudicial punishment; affected businesses and individuals lose access to the banking system without any legal proceeding, charge, or opportunity to contest the decision.',
-      'The Fourth Amendment implications of mass financial surveillance remain unresolved. In United States v. Miller (1976), the Supreme Court held that bank records are not protected by the Fourth Amendment because customers have no "reasonable expectation of privacy" in records voluntarily conveyed to a third party (the bank). This "third-party doctrine" was developed before the era of comprehensive electronic financial records and has been criticized by legal scholars and civil liberties organizations as incompatible with modern financial life. Justice Sotomayor questioned the third-party doctrine in her concurrence in United States v. Jones (2012), stating that the approach "is ill suited to the digital age." The Right to Financial Privacy Act (1978) provides some protections but exempts SAR filings entirely and allows government access to financial records with an administrative subpoena (a document issued by agencies; not judges). Proposals to raise the CTR threshold to $30,000 or index it to inflation have been introduced in Congress repeatedly but have been opposed by FinCEN and law enforcement agencies.',
+      'The Fourth Amendment implications of mass financial surveillance remain unresolved. In United States v. Miller (1976), the Supreme Court held that bank records are not protected by the Fourth Amendment because customers have no "reasonable expectation of privacy" in records voluntarily conveyed to a third party (the bank). This "third-party doctrine" was developed before the era of comprehensive electronic financial records and has been criticized by legal scholars and civil liberties organizations as incompatible with modern financial life. Justice Sotomayor questioned the third-party doctrine in her concurrence in United States v. Jones (2012), stating that the approach "is ill suited to the digital age." The Right to Financial Privacy Act (1978) provides some protections but exempts SAR filings entirely and allows government access to financial records with an administrative subpoena (a document issued by agencies; not judges). Proposals to raise the CTR threshold to $30,000 or index it to inflation have been introduced in Congress repeatedly but have been opposed by FinCEN and law enforcement agencies.'
     ],
     tags: ['Bank Secrecy Act', 'FinCEN', 'Suspicious Activity Reports', 'Structuring', 'De-Banking', 'Financial Privacy', 'Fourth Amendment'],
     sources: [
       { title: 'FinCEN Annual Report Data', url: 'https://www.fincen.gov', type: 'Government Record' },
       { title: 'Institute for Justice Asset Forfeiture Reports', url: 'https://ij.org', type: 'Legal Analysis' },
-      { title: 'Treasury Inspector General BSA Reports', url: 'https://www.treasury.gov/tigta', type: 'Government Audit' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Treasury Inspector General BSA Reports', url: 'https://www.treasury.gov/tigta', type: 'Government Audit' }
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN receives 20+ million financial surveillance reports annually; $10,000 threshold unchanged since 1970', href: '/entities/agencies/treasury' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
-
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' }
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2024-01-01',
@@ -2101,7 +2049,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2012', event: 'Jones (2012), stating that the approach "is ill suited to the digital age." The Right to Financial Privacy Act (1978) provides some protections but exempts SAR filings entirely and allows governmen', type: 'default' },
      { date: '2013', event: 'The OCC\'s "Operation Choke Point" (2013-2017) pressured banks to drop relationships with legal but politically disfavored industries including payday lenders, gun dealers, and tobacco sellers', type: 'default' },
      { date: '2014', event: 'In 2014-2015, the IRS seized over $43 million from 618 people suspected of structuring; in at least a third of cases, there was no evidence of illegal source income', type: 'financial' },
-     { date: '2014', event: 'After public outcry and congressional hearings, the IRS announced in 2014 that it would stop pursuing structuring cases without evidence of illegal source funds', type: 'political' },
+     { date: '2014', event: 'After public outcry and congressional hearings, the IRS announced in 2014 that it would stop pursuing structuring cases without evidence of illegal source funds', type: 'political' }
    ],
   },
   'foia-request-denial-patterns': {
@@ -2117,18 +2065,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Glomar responses (named after the CIA\'s refusal to confirm or deny the existence of records about the Glomar Explorer, a ship used to recover a sunken Soviet submarine) have expanded far beyond their original national security context. The CIA and NSA issue Glomar responses to a substantial percentage of FOIA requests. The response takes the form: "We can neither confirm nor deny the existence of records responsive to your request." While originally limited to cases where acknowledging the existence of records would itself reveal classified information, Glomar has been invoked by agencies including the FDA, EPA, SEC, and IRS in contexts with no national security implications. In ACLU v. CIA (2013), the D.C. Circuit rejected a Glomar response for CIA drone strike records that had been extensively discussed by senior officials including the President; holding that official acknowledgment waived the right to Glomar. But the decision\'s impact has been limited; agencies continue to issue Glomar responses even after partial official acknowledgment of the underlying programs.',
       'Processing delays function as de facto denials. The FOIA statute requires agencies to respond within 20 business days; complex requests may be placed on a "complex track" with no statutory deadline. As of 2024, the government-wide FOIA backlog exceeded 200,000 requests. The CIA\'s average processing time for complex requests exceeds 3 years. The State Department\'s processing time for Hillary Clinton\'s emails (requested in 2014) extended to 2020. The FBI\'s processing of requests related to the JFK assassination files has taken decades. The National Archives estimated that fully processing JFK records would take until 2029; 66 years after the assassination. Requesters can file FOIA lawsuits to compel production, but litigation is expensive (average costs exceed $5,000-$10,000 for a simple case) and courts frequently defer to agency timelines. The "FOIA tax" (the cost of suing to enforce the law) effectively prevents most citizens and small organizations from challenging government secrecy.',
       'Fee structures and search procedures create additional barriers. Agencies charge fees for document search, review, and duplication; fee waivers exist for requests that serve the "public interest" but agencies apply the standard inconsistently. The CIA\'s fee waiver denial rate exceeds 70%. Commercial requesters may be charged for search, review, and duplication; news media and educational requesters may be charged only for duplication; but agencies frequently misclassify requesters to charge higher fees. "No responsive records" determinations are difficult to challenge because requesters have no way to verify that the agency conducted an adequate search. In Judicial Watch v. Department of Defense (2018), the court found that the DOD had conducted an inadequate search by limiting its query to a single database when responsive records were likely to exist in multiple systems. The "cut-out" problem is also pervasive: agencies store sensitive records in compartmented systems that FOIA offices cannot access or do not know exist.',
-      'The pattern of FOIA obstruction is bipartisan and structural. The Obama administration, which promised "the most transparent administration in history," set records for censoring and denying FOIA requests in 2014 (77% of requests were censored, denied, or met with claims that records could not be found). The Trump administration issued a DOJ memorandum emphasizing that agencies should "give full and fair consideration" to all applicable exemptions before disclosing records. The Biden administration issued an Attorney General memorandum reaffirming a "presumption of openness" but FOIA denial rates did not meaningfully decrease. Structural reforms proposed by transparency advocates include: mandatory declassification timelines, penalties for bad-faith denials, FOIA ombudsman with enforcement authority, and eliminating Exemption 5\'s application to records more than 25 years old. The FOIA Advisory Committee (a federal advisory committee to the Archivist of the United States) has recommended many of these reforms; but Congress has not enacted them.',
+      'The pattern of FOIA obstruction is bipartisan and structural. The Obama administration, which promised "the most transparent administration in history," set records for censoring and denying FOIA requests in 2014 (77% of requests were censored, denied, or met with claims that records could not be found). The Trump administration issued a DOJ memorandum emphasizing that agencies should "give full and fair consideration" to all applicable exemptions before disclosing records. The Biden administration issued an Attorney General memorandum reaffirming a "presumption of openness" but FOIA denial rates did not meaningfully decrease. Structural reforms proposed by transparency advocates include: mandatory declassification timelines, penalties for bad-faith denials, FOIA ombudsman with enforcement authority, and eliminating Exemption 5\'s application to records more than 25 years old. The FOIA Advisory Committee (a federal advisory committee to the Archivist of the United States) has recommended many of these reforms; but Congress has not enacted them.'
     ],
     tags: ['FOIA', 'Exemption 5', 'Glomar Response', 'Government Secrecy', 'Processing Delays', 'Transparency', 'Classification'],
     sources: [
       { title: 'FOIA.gov Annual Reports', url: 'https://www.foia.gov', type: 'Government Record' },
       { title: 'Reporters Committee FOIA Analysis', url: 'https://www.rcfp.org', type: 'Research Study' },
-      { title: 'National Security Archive FOIA Audits', url: 'https://nsarchive.gwu.edu', type: 'Research Study' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'National Security Archive FOIA Audits', url: 'https://nsarchive.gwu.edu', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Invoked Exemption 5 over 70,000 times in FY2022; FOIA enforcement guidance favors withholding', href: '/entities/agencies/doj' },
- { id: '2', name: 'CIA', type: 'agency', relationship: 'Denies or returns ~60% of FOIA requests; average complex processing time exceeds 3 years; extensive Glomar usage', href: '/entities/agencies/cia' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Denies or returns ~60% of FOIA requests; average complex processing time exceeds 3 years; extensive Glomar usage', href: '/entities/agencies/cia' }
  ],
    eventOriginDate: '1966-01-01',
    lastActivityDate: '2025-06-04',
@@ -2140,28 +2087,9 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2016', event: 'An analysis by the Reporters Committee for Freedom of the Press found that agencies continued to invoke Exemption 5 at pre-2016 rates even after the foreseeable harm standard took effect', type: 'default' },
      { date: '2018', event: 'Department of Defense (2018), the court found that the DOD had conducted an inadequate search by limiting its query to a single database when responsive records were likely to exist in multiple sys', type: 'legal' },
      { date: '2022', event: 'The DOJ invoked Exemption 5 in over 70,000 instances in fiscal year 2022 alone', type: 'default' },
-     { date: '2024', event: 'As of 2024, the government-wide FOIA backlog exceeded 200,000 requests', type: 'default' },
+     { date: '2024', event: 'As of 2024, the government-wide FOIA backlog exceeded 200,000 requests', type: 'default' }
    ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   'fox-news-sexual-harassment': {
     title: "Fox News Sexual Harassment Scandal",
@@ -2178,21 +2106,20 @@ const investigations_f: Record<string, InvestigationData> = {
       "CORPORATE COMPLICITY: 21st Century Fox and the Murdoch family were aware of the harassment culture for years. Internal complaints were suppressed. The board commissioned an investigation by Paul, Weiss, Rifkind, Wharton & Garrison only after Carlson's lawsuit made the situation public. The investigation found a pervasive pattern of harassment and cover-up at every level.",
       "FINANCIAL ACCOUNTABILITY: Fox News and 21st Century Fox paid over $100 million in settlements to harassment victims. Gretchen Carlson received $20 million. Multiple other women received undisclosed settlements. Despite the massive payouts, no executive faced criminal prosecution. Fox's parent company saw minimal stock impact, suggesting the market had already priced in the toxic culture.",
       "LEGAL FRAMEWORK: The scandal highlighted failures in employment law enforcement. Title VII of the Civil Rights Act of 1964 prohibits workplace sexual harassment, but the use of mandatory arbitration clauses and NDAs allowed Fox to keep allegations hidden for years. The Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act was signed into law in 2022 partly as a result of cases like these.",
-      "BROADER IMPACT: The Fox News scandal was a precursor to the broader #MeToo movement that erupted in October 2017 with revelations about Harvey Weinstein. It demonstrated that even the most powerful media figures could be held accountable when victims spoke publicly. Gretchen Carlson became an advocate for ending forced arbitration and NDAs in harassment cases.",
+      "BROADER IMPACT: The Fox News scandal was a precursor to the broader #MeToo movement that erupted in October 2017 with revelations about Harvey Weinstein. It demonstrated that even the most powerful media figures could be held accountable when victims spoke publicly. Gretchen Carlson became an advocate for ending forced arbitration and NDAs in harassment cases."
     ],
     tags: ["Fox News","Sexual Harassment","Roger Ailes","Bill O'Reilly","MeToo","Gretchen Carlson","Megyn Kelly","21st Century Fox","Rupert Murdoch","Forced Arbitration","NDAs"],
     sources: [
       { title: "NYT: Bill O'Reilly Settled Sexual Harassment Claims for $45 Million", url: "https://www.nytimes.com/2017/10/21/business/media/bill-oreilly-sexual-harassment.html", type: "Investigation" },
       { title: "NYT: Fox Settled With O'Reilly Accusers — Then Renewed His Contract", url: "https://www.nytimes.com/2017/04/01/business/media/bill-oreilly-sexual-harassment-fox-news.html", type: "Investigation" },
       { title: "Gretchen Carlson v. Roger Ailes — Original Complaint", url: "https://www.documentcloud.org/documents/2994380-Gretchen-Carlson-s-Lawsuit-Against-Roger-Ailes.html", type: "Court Document" },
-      { title: "Gabriel Sherman: The Loudest Voice in the Room — Roger Ailes Biography", url: "https://www.amazon.com/Loudest-Voice-Room-Roger-America/dp/0812992857", type: "Book" },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: "Gabriel Sherman: The Loudest Voice in the Room — Roger Ailes Biography", url: "https://www.amazon.com/Loudest-Voice-Room-Roger-America/dp/0812992857", type: "Book" }
     ],
     affiliations: [
       { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Chairman of 21st Century Fox who oversaw the network during decades of systemic harassment and approved massive severance for Ailes', href: '/entities/individuals/rupert-murdoch' },
       { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Network where systemic harassment was enabled and covered up at every level for decades', href: '/entities/corporations/fox-news' },
       { id: '3', name: 'Roger Ailes', type: 'individual', relationship: 'Fox News chairman and CEO accused by 20+ women, resigned with $40M severance', href: '/entities/individuals/roger-ailes' },
-      { id: '4', name: 'Bill O\'Reilly', type: 'individual', relationship: 'Star anchor who settled harassment claims totaling $45M, fired April 2017', href: '/entities/individuals/bill-oreilly' },
+      { id: '4', name: 'Bill O\'Reilly', type: 'individual', relationship: 'Star anchor who settled harassment claims totaling $45M, fired April 2017', href: '/entities/individuals/bill-oreilly' }
     ],
     eventOriginDate: '1996-01-01',
     lastActivityDate: '2026-03-10',
@@ -2209,7 +2136,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { date: '2017-04-19', event: 'Bill O\'Reilly fired from Fox News as advertisers flee and additional accusers come forward', type: 'default' },
       { date: '2017-05-10', event: 'Fox News co-president Bill Shine resigns over his role in handling harassment complaints', type: 'default' },
       { date: '2017-05-18', event: 'Roger Ailes dies at age 77 without facing criminal charges', type: 'default' },
-      { date: '2022-03-03', event: 'Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act signed into law, partly inspired by Fox News cases', type: 'legal' },
+      { date: '2022-03-03', event: 'Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act signed into law, partly inspired by Fox News cases', type: 'legal' }
     ],
   },
   'facebook-antitrust': {
@@ -2224,24 +2151,25 @@ const investigations_f: Record<string, InvestigationData> = {
       'INSTAGRAM ACQUISITION: Facebook acquired Instagram in 2012 for $1B, despite internal documents showing Instagram was a direct competitor. Facebook executives discussed "stifling" Instagram as a threat.',
       'WHATSAPP ACQUISITION: 2014 acquisition for $19B included agreements to keep WhatsApp independent, but Facebook later integrated it, violating antitrust laws.',
       'DATA-SHARING AGREEMENTS: Facebook shared user data with partners while denying competitors access, violating Section 2 of the Sherman Act.',
-      'PLATFORM ABUSE: Facebook used its dominance to favor its own services over third-party apps.',
+      'PLATFORM ABUSE: Facebook used its dominance to favor its own services over third-party apps.'
     ],
     tags: ['Facebook', 'Antitrust', 'Monopoly', 'Meta'],
     sources: [
       { title: 'FTC v. Facebook Complaint', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=facebook', type: 'Court Document' },
-      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'FTC: FTC Sues Facebook for Illegal Monopolization', url: 'https://www.ftc.gov/news-events/news/press-releases/2020/12/ftc-sues-facebook-illegal-monopolization', type: 'Legal Document' },
+      { title: 'House Judiciary: Investigation of Competition in Digital Markets', url: 'https://judiciary.house.gov/uploadedfiles/competition_in_digital_markets.pdf', type: 'Congressional Report' },
+      { title: 'The Wall Street Journal: The Facebook Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'Mark Zuckerberg', type: 'individual', relationship: 'CEO, oversaw acquisitions', href: '/entities/individuals/mark-zuckerberg' },
-      { id: '2', name: 'Facebook', type: 'corporation', relationship: 'Defendant', href: '/entities/corporations/facebook' },
+      { id: '2', name: 'Facebook', type: 'corporation', relationship: 'Defendant', href: '/entities/corporations/facebook' }
     ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2024-11-19',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'Facebook acquired Instagram in 2012 for $1B, despite internal documents showing Instagram was a direct competitor.', type: 'default' },
-     { date: '2014', event: '2014 acquisition for $19B included agreements to keep WhatsApp independent, but Facebook later integrated it, violating antitrust laws.', type: 'default' },
+     { date: '2014', event: '2014 acquisition for $19B included agreements to keep WhatsApp independent, but Facebook later integrated it, violating antitrust laws.', type: 'default' }
    ],
   },
   'fannie-mae-fraud': {
@@ -2255,17 +2183,18 @@ const investigations_f: Record<string, InvestigationData> = {
     content: [
       'EARNINGS MANIPULATION: Used accounting tricks to meet earnings targets for executive bonuses.',
       'SEC INVESTIGATION: Led to $400M settlement and restatements.',
-      'EXECUTIVE BONUSES: Franklin Raines received $90M in bonuses based on fraudulent earnings.',
+      'EXECUTIVE BONUSES: Franklin Raines received $90M in bonuses based on fraudulent earnings.'
     ],
     tags: ['Fannie Mae', 'Accounting Fraud', 'SEC'],
     sources: [
       { title: 'SEC v. Fannie Mae', url: 'https://www.sec.gov/litigation/litreleases/lr18832.htm', type: 'SEC Release' },
       { title: 'OFHEO Special Examination of Fannie Mae', url: 'https://www.fhfa.gov/', type: 'Government Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'SEC: Fannie Mae Agrees to Pay $400 Million Penalty', url: 'https://www.sec.gov/news/press/2006-80.htm', type: 'Legal Document' },
+      { title: 'FHFA: Report of the Special Examination of Fannie Mae', url: 'https://www.fhfa.gov/sites/default/files/2024-05/specialexam_full.pdf', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'Franklin Raines', type: 'individual', relationship: 'CEO who received $90M in bonuses based on fraudulently inflated earnings', href: '/entities/individuals/franklin-raines' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Investigated and forced $6.3B earnings restatement; secured $400M civil settlement', href: '/entities/agencies/sec' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Investigated and forced $6.3B earnings restatement; secured $400M civil settlement', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2006-05-23',
@@ -2275,7 +2204,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2004-09-22', event: 'OFHEO releases damning report finding pervasive accounting violations spanning six years at Fannie Mae', type: 'legal' },
      { date: '2004-12-21', event: 'SEC forces Fannie Mae to restate $6.3 billion in earnings; CEO Franklin Raines and CFO Timothy Howard resign', type: 'financial' },
      { date: '2006-05-23', event: 'Fannie Mae pays $400M civil penalty to settle SEC charges — largest penalty against a GSE at the time', type: 'legal' },
-     { date: '2008-09-07', event: 'Federal government places Fannie Mae and Freddie Mac into conservatorship amid mortgage crisis; taxpayers ultimately backstop $187B', type: 'financial' },
+     { date: '2008-09-07', event: 'Federal government places Fannie Mae and Freddie Mac into conservatorship amid mortgage crisis; taxpayers ultimately backstop $187B', type: 'financial' }
    ],
   },
   'fbi-cointelpro-full-accounting': {
@@ -2291,19 +2220,18 @@ const investigations_f: Record<string, InvestigationData> = {
       'WAR ON BLACK LEADERSHIP: In August 1967, FBI headquarters sent a memo to field offices establishing the goal of preventing "the rise of a messiah who could unify and electrify the militant Black nationalist movement." Specific targets included Martin Luther King Jr. (surveillance from 1963 until his assassination in 1968, including an anonymous letter urging him to commit suicide), Malcolm X (infiltrated the Nation of Islam and may have facilitated conditions leading to his assassination in 1965), the Black Panther Party (233 documented COINTELPRO operations), and Fred Hampton (assassinated in a Chicago police raid on December 4, 1969, coordinated with FBI informant William O\'Neal who provided the apartment floor plan and drugged Hampton before the raid).',
       'TACTICS AND METHODS: FBI documents detail specific tactics used against American citizens: anonymous threatening letters, fabricated documents to create suspicion between groups and individuals ("snitch-jacketing"), planting false media stories, IRS harassment through fraudulent tax investigations, employment disruption through anonymous contact with employers, infiltration of organizations with agent provocateurs who incited illegal activity, the creation of fake organizations to divert support, and coordination with local police for violent raids. The FBI also maintained "ADEX" (Administrative Index) lists of Americans to be detained without trial in a national emergency - the lists included over 26,000 names as late as 1971.',
       'THE EXPOSURE AND NON-ACCOUNTABILITY: On March 8, 1971, a group calling themselves the Citizens\' Commission to Investigate the FBI burglarized the FBI\'s Media, Pennsylvania office and stole over 1,000 documents revealing COINTELPRO\'s existence. The documents were sent to journalists and members of Congress. The Church Committee\'s subsequent investigation (1975-76) confirmed the scope of FBI abuses and led to the creation of the Foreign Intelligence Surveillance Court (FISC) and institutional guidelines. However, no FBI official was ever imprisoned for COINTELPRO operations. The only prosecution - of FBI officials Mark Felt and Edward Miller for authorizing illegal break-ins against the Weather Underground - resulted in convictions that were immediately pardoned by President Reagan in 1981.',
-      'CONTINUATION UNDER NEW NAMES: Despite official termination, COINTELPRO-style operations have continued. The FBI\'s "Black Identity Extremist" classification (created 2017, renamed "Racially Motivated Violent Extremism" after public criticism) targets Black activists. The FBI\'s monitoring of Occupy Wall Street, Standing Rock protesters, Black Lives Matter, and environmental activists uses many of the same techniques documented in COINTELPRO. FBI informants and undercover agents continue to infiltrate political organizations, sometimes creating the very plots they subsequently "disrupt." Internal FBI documents obtained through FOIA show ongoing surveillance of constitutionally protected political activity.',
+      'CONTINUATION UNDER NEW NAMES: Despite official termination, COINTELPRO-style operations have continued. The FBI\'s "Black Identity Extremist" classification (created 2017, renamed "Racially Motivated Violent Extremism" after public criticism) targets Black activists. The FBI\'s monitoring of Occupy Wall Street, Standing Rock protesters, Black Lives Matter, and environmental activists uses many of the same techniques documented in COINTELPRO. FBI informants and undercover agents continue to infiltrate political organizations, sometimes creating the very plots they subsequently "disrupt." Internal FBI documents obtained through FOIA show ongoing surveillance of constitutionally protected political activity.'
     ],
     tags: ['COINTELPRO', 'FBI', 'civil-rights', 'surveillance', 'Black-Panthers', 'MLK', 'political-warfare', 'First-Amendment', 'Church-Committee'],
     sources: [
       { title: 'Church Committee Final Report: Book III - Supplementary Detailed Staff Reports on Intelligence Activities and the Rights of Americans', url: 'https://www.intelligence.senate.gov/sites/default/files/94intelligence_activities_III.pdf', type: 'Congressional Report' },
       { title: 'FBI COINTELPRO FOIA Documents', url: 'https://vault.fbi.gov/cointel-pro', type: 'Government Record' },
-      { title: 'COINTELPRO: The FBI\'s Secret War on Political Freedom by Nelson Blackstock', url: 'https://openlibrary.org/search?q=COINTELPRO', type: 'Book' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'COINTELPRO: The FBI\'s Secret War on Political Freedom by Nelson Blackstock', url: 'https://openlibrary.org/search?q=COINTELPRO', type: 'Book' }
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Created and operated COINTELPRO from 1956-1971; conducted 2,300+ operations against American citizens', href: '/entities/agencies/fbi' },
       { id: '2', name: 'J. Edgar Hoover', type: 'individual', relationship: 'FBI Director who personally directed COINTELPRO; authorized surveillance of MLK and Black Panther operations', href: '/entities/individuals/j-edgar-hoover' },
-      { id: '3', name: 'Fred Hampton', type: 'individual', relationship: 'Black Panther leader assassinated in FBI-coordinated raid on December 4, 1969', href: '/entities/individuals/fred-hampton' },
+      { id: '3', name: 'Fred Hampton', type: 'individual', relationship: 'Black Panther leader assassinated in FBI-coordinated raid on December 4, 1969', href: '/entities/individuals/fred-hampton' }
     ],
    eventOriginDate: '1956-01-01',
    lastActivityDate: '2026-02-12',
@@ -2316,7 +2244,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '1975', event: 'THE SCOPE OF OPERATIONS: FBI documents released through FOIA and the Church Committee (1975-76) reveal that COINTELPRO encompassed at least seven major programs: COINTELPRO-CPUSA (targeting the Com', type: 'default' },
      { date: '1975', event: 'The Church Committee\'s subsequent investigation (1975-76) confirmed the scope of FBI abuses and led to the creation of the Foreign Intelligence Surveillance Court (FISC) and institutional guidelines', type: 'legal' },
      { date: '1981', event: 'The only prosecution - of FBI officials Mark Felt and Edward Miller for authorizing illegal break-ins against the Weather Underground - resulted in convictions that were immediately pardoned by Pre', type: 'legal' },
-     { date: '2017', event: 'The FBI\'s "Black Identity Extremist" classification (created 2017, renamed "Racially Motivated Violent Extremism" after public criticism) targets Black activists', type: 'default' },
+     { date: '2017', event: 'The FBI\'s "Black Identity Extremist" classification (created 2017, renamed "Racially Motivated Violent Extremism" after public criticism) targets Black activists', type: 'default' }
    ],
   },
   'forced-sterilization-united-states': {
@@ -2332,20 +2260,19 @@ const investigations_f: Record<string, InvestigationData> = {
       'TARGETING OF NATIVE AMERICAN WOMEN: A 1976 Government Accountability Office investigation found that the Indian Health Service (IHS) had sterilized at least 3,406 Native American women between 1973 and 1976 - including minors as young as 11. Dr. Connie Uri, a Choctaw/Cherokee physician, documented that IHS facilities routinely sterilized women during other medical procedures without informed consent, sometimes threatening to withdraw government benefits if they refused. Some estimates place the total number of Native American women sterilized at 25-50% of all Native women of childbearing age during this period.',
       'CALIFORNIA PRISON STERILIZATIONS (2006-2010): A 2013 investigation by the Center for Investigative Reporting found that at least 148 women prisoners in California state prisons were sterilized without required state approvals between 2006 and 2010. Former inmates described being pressured into tubal ligations while in labor or told they would not receive medical care unless they consented to the procedure. The physician responsible, Dr. James Heinrich, told reporters the cost of sterilizations was "minimal compared to what you save in welfare paying for these unwanted children." California banned the practice in 2014.',
       'ICE DETENTION HYSTERECTOMIES (2020): In September 2020, nurse Dawn Wooten filed a whistleblower complaint alleging that Dr. Mahendra Amin was performing mass hysterectomies on immigrant women detained at the Irwin County Detention Center in Georgia. Detained women reported being pressured into uterine surgery they did not understand or consent to, with some having healthy uteri removed. A congressional investigation confirmed the allegations, documenting at least 57 women who underwent invasive gynecological procedures at the facility. Dr. Amin denied wrongdoing. The DHS Office of Inspector General investigation was criticized as inadequate.',
-      'STRUCTURAL IMPUNITY: Across 115 years of documented forced sterilization, criminal prosecutions have been virtually nonexistent. No government official was imprisoned for the eugenics program. No IHS official was prosecuted for sterilizing Native American women. California\'s prison sterilizations resulted in a legislative ban but no criminal charges. The ICE detention facility investigations have not resulted in criminal prosecution. Buck v. Bell has never been overturned by the Supreme Court.',
+      'STRUCTURAL IMPUNITY: Across 115 years of documented forced sterilization, criminal prosecutions have been virtually nonexistent. No government official was imprisoned for the eugenics program. No IHS official was prosecuted for sterilizing Native American women. California\'s prison sterilizations resulted in a legislative ban but no criminal charges. The ICE detention facility investigations have not resulted in criminal prosecution. Buck v. Bell has never been overturned by the Supreme Court.'
     ],
     tags: ['forced-sterilization', 'eugenics', 'human-rights', 'racism', 'medical-ethics', 'Native-Americans', 'ICE', 'prisons', 'reproductive-rights'],
     sources: [
       { title: 'Buck v. Bell, 274 U.S. 200 (1927)', url: 'https://supreme.justia.com/cases/federal/us/274/200/', type: 'Court Decision' },
       { title: 'GAO Report: Investigation of Indian Health Service Sterilization Practices (1976)', url: 'https://www.gao.gov/products/hrd-77-3', type: 'Government Audit' },
       { title: 'California State Auditor Report on Prison Sterilizations', url: 'https://www.auditor.ca.gov', type: 'Government Audit' },
-      { title: 'House Committee on Homeland Security - Irwin County Investigation', url: 'https://homeland.house.gov', type: 'Congressional Report' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'House Committee on Homeland Security - Irwin County Investigation', url: 'https://homeland.house.gov', type: 'Congressional Report' }
     ],
     affiliations: [
       { id: '1', name: 'Indian Health Service', type: 'agency', relationship: 'Sterilized at least 3,406 Native American women between 1973-1976 without proper consent' },
       { id: '2', name: 'ICE', type: 'agency', relationship: 'Oversaw detention facility where mass hysterectomies were performed on immigrant women', href: '/entities/agencies/ice' },
-      { id: '3', name: 'DHS', type: 'agency', relationship: 'Parent agency of ICE; OIG investigation into Irwin County criticized as inadequate', href: '/entities/agencies/dhs' },
+      { id: '3', name: 'DHS', type: 'agency', relationship: 'Parent agency of ICE; OIG investigation into Irwin County criticized as inadequate', href: '/entities/agencies/dhs' }
     ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2025-12-15',
@@ -2359,7 +2286,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2006', event: 'CALIFORNIA PRISON STERILIZATIONS (2006-2010): A 2013 investigation by the Center for Investigative Reporting found that at least 148 women prisoners in California state prisons were sterilized with', type: 'default' },
      { date: '2013', event: 'The state did not offer reparations until 2013, paying $10 million to an estimated 177 living survivors - just $35,000 each', type: 'financial' },
      { date: '2014', event: 'James Heinrich, told reporters the cost of sterilizations was "minimal compared to what you save in welfare paying for these unwanted children." California banned the practice in 2014', type: 'financial' },
-     { date: '2020-09-01', event: 'ICE DETENTION HYSTERECTOMIES (2020): In September 2020, nurse Dawn Wooten filed a whistleblower complaint alleging that Dr', type: 'default' },
+     { date: '2020-09-01', event: 'ICE DETENTION HYSTERECTOMIES (2020): In September 2020, nurse Dawn Wooten filed a whistleblower complaint alleging that Dr', type: 'default' }
    ],
   },
   'fcc-telecom-regulatory-capture': {
@@ -2375,18 +2302,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'NET NEUTRALITY DEATH: In December 2017, the FCC voted 3-2 along party lines to repeal the 2015 Open Internet Order, reclassifying broadband from a Title II common carrier to a Title I information service and eliminating rules prohibiting ISPs from blocking, throttling, or creating paid fast lanes. The repeal occurred despite 22 million public comments (the most in FCC history), with 83% supporting net neutrality. An investigation by the New York Attorney General found that millions of comments were fraudulently submitted using stolen identities of real Americans, including dead people - over 18 million comments were fabricated. The FCC under Pai refused to cooperate with the investigation. ISPs spent $234 million lobbying for the repeal. Without net neutrality, Comcast was caught throttling Netflix traffic, AT&T exempted its own streaming service from data caps while counting competitors\' data, and T-Mobile throttled fire department internet during California wildfires.',
       'THE $400 BILLION BROADBAND THEFT: In the 1996 Telecommunications Act, telecom companies promised to build fiber optic broadband to every American home in exchange for $400 billion in tax breaks, rate increases, and deregulation. The infrastructure was never fully built. As of 2024, 24 million Americans lack any broadband access, and 83 million live in areas with zero or one broadband provider. The FCC systematically overstated broadband coverage using flawed data: if a single household in a census block had broadband, the entire block was counted as served. This "Form 477" data was used to deny funding to underserved areas. The Broadband DATA Act (2020) required improved mapping but implementation was slow. The Infrastructure Investment and Jobs Act (2021) allocated $65 billion for broadband, but ISPs are again receiving subsidies for areas they already serve. Verizon, AT&T, and Comcast have collectively returned over $500 billion to shareholders through buybacks and dividends since 2000 while underinvesting in network buildout.',
       'MONOPOLY PRICING AND MARKET FAILURE: Americans pay an average of $68/month for broadband - the highest in the OECD. Average speeds rank 15th globally. The core problem is monopoly: 50% of Americans have access to only one broadband provider offering 100+ Mbps speeds. ISPs divide territories rather than competing, maintaining de facto monopolies enforced by lobbying state legislatures to ban municipal broadband (25 states have restrictions). Comcast, AT&T, and Charter Spectrum control access for approximately 70% of American broadband subscribers. Data caps, which have no technical justification, are imposed in most markets to extract additional revenue. When communities attempt to build their own municipal broadband (as in Chattanooga, TN, where the municipal utility EPB offers 10 Gbps for $300/month), industry lobbyists push state laws to block expansion. The FCC under Pai declined to preempt these anti-competitive state laws.',
-      'APPLICABLE LAW: The Communications Act of 1934 (47 U.S.C. 151 et seq.) established the FCC. The Telecommunications Act of 1996 (P.L. 104-104) deregulated the industry. Title II of the Communications Act (47 U.S.C. 201-276) governs common carriers. Section 706 (47 U.S.C. 1302) requires the FCC to promote broadband deployment. The Broadband DATA Act (P.L. 116-130, 2020) requires improved mapping. Infrastructure Investment and Jobs Act (P.L. 117-58, 2021) allocated $65 billion. Sherman Antitrust Act (15 U.S.C. 1-2) and Clayton Antitrust Act (15 U.S.C. 12-27) theoretically address telecom monopolies but have not been applied. 18 U.S.C. 1343 (wire fraud) could apply to the identity theft in fake net neutrality comments, but the DOJ has not prosecuted. The fundamental failure is structural: the FCC is a captured regulator that serves the industry it is supposed to oversee.',
+      'APPLICABLE LAW: The Communications Act of 1934 (47 U.S.C. 151 et seq.) established the FCC. The Telecommunications Act of 1996 (P.L. 104-104) deregulated the industry. Title II of the Communications Act (47 U.S.C. 201-276) governs common carriers. Section 706 (47 U.S.C. 1302) requires the FCC to promote broadband deployment. The Broadband DATA Act (P.L. 116-130, 2020) requires improved mapping. Infrastructure Investment and Jobs Act (P.L. 117-58, 2021) allocated $65 billion. Sherman Antitrust Act (15 U.S.C. 1-2) and Clayton Antitrust Act (15 U.S.C. 12-27) theoretically address telecom monopolies but have not been applied. 18 U.S.C. 1343 (wire fraud) could apply to the identity theft in fake net neutrality comments, but the DOJ has not prosecuted. The fundamental failure is structural: the FCC is a captured regulator that serves the industry it is supposed to oversee.'
     ],
     tags: ['FCC', 'net-neutrality', 'regulatory-capture', 'broadband', 'telecom-monopoly', 'Ajit-Pai', 'revolving-door', 'Comcast', 'AT&T'],
     sources: [
       { title: 'FCC: Restoring Internet Freedom Order (2017)', url: 'https://www.fcc.gov/restoring-internet-freedom', type: 'Government' },
       { title: 'New York Attorney General: Fake Comments Investigation', url: 'https://ag.ny.gov/', type: 'Government' },
-      { title: 'Institute for Local Self-Reliance: Broadband Competition Map', url: 'https://ilsr.org/', type: 'Research' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'Institute for Local Self-Reliance: Broadband Competition Map', url: 'https://ilsr.org/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'FCC', type: 'agency', relationship: 'Central subject - captured by industry through revolving door; killed net neutrality; overstated broadband coverage using flawed data', href: '/entities/agencies/fcc' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Antitrust Division failed to block telecom mergers creating broadband monopolies; declined to prosecute fake comment identity theft', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Antitrust Division failed to block telecom mergers creating broadband monopolies; declined to prosecute fake comment identity theft', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1934-01-01',
    lastActivityDate: '2025-11-20',
@@ -2405,7 +2331,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2020', event: '116-130, 2020) requires improved mapping', type: 'default' },
      { date: '2021', event: 'The Infrastructure Investment and Jobs Act (2021) allocated $65 billion for broadband, but ISPs are again receiving subsidies for areas they already serve', type: 'political' },
      { date: '2021', event: '117-58, 2021) allocated $65 billion', type: 'political' },
-     { date: '2024', event: 'As of 2024, 24 million Americans lack any broadband access, and 83 million live in areas with zero or one broadband provider', type: 'financial' },
+     { date: '2024', event: 'As of 2024, 24 million Americans lack any broadband access, and 83 million live in areas with zero or one broadband provider', type: 'financial' }
    ],
   },
   'fda-pharmaceutical-revolving-door': {
@@ -2421,18 +2347,16 @@ const investigations_f: Record<string, InvestigationData> = {
       'THE REVOLVING DOOR IN ACTION: Research published in the BMJ (2016) found that 10 of 11 FDA commissioners between 1960-2021 took positions linked to the pharmaceutical industry after leaving office. Examples: Scott Gottlieb (FDA commissioner 2017-2019) joined Pfizer\'s board of directors; Mark McClellan (commissioner 2002-2004) joined multiple drug company boards; Andrew von Eschenbach (commissioner 2006-2009) joined biotech and pharma boards. Below the commissioner level, the revolving door is even more active: a Science study found that FDA medical officers who reviewed drugs were significantly more likely to join the very companies whose products they had reviewed. The CDER (Center for Drug Evaluation and Research) officer in charge of opioid approvals later joined Purdue Pharma as a consultant, contributing to the approval of extended-release OxyContin whose label changes enabled mass prescribing.',
       'ACCELERATED APPROVALS AND THE EVIDENCE GAP: FDA\'s accelerated approval pathway (21 U.S.C. 356) was designed for drugs treating serious conditions with unmet medical needs, allowing approval based on surrogate endpoints (laboratory measures) rather than proven clinical benefit. Companies are required to conduct post-marketing confirmatory trials. A Harvard study found that 40% of drugs granted accelerated approval from 2009-2021 had not completed confirmatory trials, and the FDA had never withdrawn approval for failure to conduct them until 2021. The Aduhelm case (2021) was the nadir: despite the advisory committee voting 10-0 (with 1 uncertain) against approval, and multiple clinical trials failing to show cognitive benefit, the FDA approved the drug under accelerated approval for a surrogate endpoint (amyloid plaque reduction). Medicare estimated the drug would cost $29 billion annually. Three advisory committee members - including Aaron Kesselheim, David Knopman, and Joel Perlmutter - resigned in protest.',
       'OPIOID APPROVAL FAILURES: The FDA\'s role in the opioid crisis exemplifies regulatory capture. In 1995, the FDA approved OxyContin based on a single 12-week study of 159 patients. The label included a claim that the "delayed absorption" of OxyContin was "believed to reduce" the abuse potential - a claim that had no scientific basis and was written with input from Purdue Pharma. FDA medical officer Curtis Wright, who supervised the OxyContin review, left the agency and joined Purdue Pharma within two years. In 2001, the FDA approved a revised OxyContin label removing the abuse deterrence language but only after millions had become addicted. The FDA subsequently approved dozens of high-dose opioid formulations, expanded indications for chronic non-cancer pain, and delayed implementing REMS (Risk Evaluation and Mitigation Strategies) until 2012 - 17 years after OxyContin\'s approval. By then, 200,000 Americans had died from prescription opioid overdoses.',
-      'APPLICABLE LAW: Federal Food, Drug, and Cosmetic Act (21 U.S.C. 301 et seq.) governs FDA authority. PDUFA (21 U.S.C. 379h) authorizes user fees. Accelerated approval (21 U.S.C. 356) permits surrogate endpoint approvals. 21 U.S.C. 355(e) authorizes withdrawal of approval. 18 U.S.C. 208 prohibits federal employees from participating in matters where they have a financial interest. 18 U.S.C. 207 restricts post-employment lobbying (1-year cooling off for senior officials, 2 years for very senior). Ethics in Government Act (5 U.S.C. App.) requires financial disclosure. The FDARA (2017) and Consolidated Appropriations Act (2023) enhanced FDA authority over accelerated approvals. Despite these laws, enforcement is minimal: the DOJ has not prosecuted any FDA official for revolving door violations, and the FDA has withdrawn fewer than 5 accelerated approvals in the pathway\'s 30-year history.',
+      'APPLICABLE LAW: Federal Food, Drug, and Cosmetic Act (21 U.S.C. 301 et seq.) governs FDA authority. PDUFA (21 U.S.C. 379h) authorizes user fees. Accelerated approval (21 U.S.C. 356) permits surrogate endpoint approvals. 21 U.S.C. 355(e) authorizes withdrawal of approval. 18 U.S.C. 208 prohibits federal employees from participating in matters where they have a financial interest. 18 U.S.C. 207 restricts post-employment lobbying (1-year cooling off for senior officials, 2 years for very senior). Ethics in Government Act (5 U.S.C. App.) requires financial disclosure. The FDARA (2017) and Consolidated Appropriations Act (2023) enhanced FDA authority over accelerated approvals. Despite these laws, enforcement is minimal: the DOJ has not prosecuted any FDA official for revolving door violations, and the FDA has withdrawn fewer than 5 accelerated approvals in the pathway\'s 30-year history.'
     ],
     tags: ['FDA', 'revolving-door', 'PDUFA', 'accelerated-approval', 'Aduhelm', 'opioids', 'regulatory-capture', 'pharmaceutical'],
     sources: [
       { title: 'BMJ: FDA Commissioners and the Pharmaceutical Industry', url: 'https://www.bmj.com/content/354/bmj.i5055', type: 'Research' },
       { title: 'GAO: FDA Drug Safety - Improvement Needed in Post-Market Decision-Making', url: 'https://www.gao.gov/products/gao-06-402', type: 'Government Audit' },
-      { title: 'Science: FDA Reviewers and the Companies They Regulate', url: 'https://www.science.org/doi/10.1126/science.aad5927', type: 'Research' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'Science: FDA Reviewers and the Companies They Regulate', url: 'https://www.science.org/doi/10.1126/science.aad5927', type: 'Research' }
     ],
     affiliations: [
-      { id: '1', name: 'FDA', type: 'agency', relationship: 'Central subject - 65% of drug review budget from industry; 10 of 11 commissioners joined pharma; approved Aduhelm over advisory committee objections', href: '/entities/agencies/fda' },
-      { id: 'department-of-health-and-human-services', name: 'Department of Health and Human Services', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/hhs' },
+      { id: '1', name: 'FDA', type: 'agency', relationship: 'Central subject - 65% of drug review budget from industry; 10 of 11 commissioners joined pharma; approved Aduhelm over advisory committee objections', href: '/entities/agencies/fda' }
     ],
    eventOriginDate: '1960-01-01',
    lastActivityDate: '2025-10-15',
@@ -2446,7 +2370,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2016', event: 'THE REVOLVING DOOR IN ACTION: Research published in the BMJ (2016) found that 10 of 11 FDA commissioners between 1960-2021 took positions linked to the pharmaceutical industry after leaving office', type: 'default' },
      { date: '2017', event: 'Examples: Scott Gottlieb (FDA commissioner 2017-2019) joined Pfizer\'s board of directors; Mark McClellan (commissioner 2002-2004) joined multiple drug company boards; Andrew von Eschenbach (commiss...', type: 'default' },
      { date: '2017', event: 'The FDARA (2017) and Consolidated Appropriations Act (2023) enhanced FDA authority over accelerated approvals', type: 'default' },
-     { date: '2021', event: 'The Aduhelm case (2021) was the nadir: despite the advisory committee voting 10-0 (with 1 uncertain) against approval, and multiple clinical trials failing to show cognitive benefit, the FDA approv', type: 'legal' },
+     { date: '2021', event: 'The Aduhelm case (2021) was the nadir: despite the advisory committee voting 10-0 (with 1 uncertain) against approval, and multiple clinical trials failing to show cognitive benefit, the FDA approv', type: 'legal' }
    ],
   },
   'for-profit-college-student-debt-scam': {
@@ -2462,19 +2386,18 @@ const investigations_f: Record<string, InvestigationData> = {
       'CORINTHIAN AND ITT TECH COLLAPSES: Corinthian Colleges (Everest, Heald, WyoTech) enrolled 72,000 students when it collapsed in 2015 after a CFPB enforcement action and DOE finding of "substantial misrepresentations" including fabricated job placement rates (some schools claimed 90%+ placement when actual rates were under 30%). Students were left with $3.5 billion in federal loans for worthless degrees. ITT Technical Institute closed in 2016 after the SEC charged its executives with fraud and the DOE banned it from enrolling new students using federal financial aid. At its peak, ITT enrolled 55,000 students across 130 campuses. ITT\'s CEO Kevin Modany and CFO Daniel Fitzpatrick were charged with securities fraud for concealing the quality of student loan portfolios. The combined closure of Corinthian and ITT left 200,000+ students with no degree and billions in debt.',
       'VETERANS AS TARGETS: For-profit colleges aggressively targeted military veterans because GI Bill and Department of Defense tuition assistance counted toward the non-federal 10% revenue requirement. The Senate HELP Committee found that 8 for-profit companies had 32,000+ employees dedicated to recruiting, including "military-specific" recruiters. The University of Phoenix paid $191 million to settle an FTC lawsuit for deceptive military recruiting. EDMC paid $95.5 million to settle DOJ allegations of recruiting fraud. Internal documents from Vatterott Colleges revealed training materials instructing recruiters to find prospective students\' "pain points" - unemployment, divorce, abuse - and exploit them. A Government Accountability Office undercover investigation sent fake students to 15 for-profit schools: all 15 engaged in deceptive practices, and 4 encouraged prospective students to commit fraud on financial aid applications.',
       'DEVOS AND REGULATORY REVERSAL: Betsy DeVos, Trump\'s Education Secretary (2017-2021), had financial interests in a student debt collection agency (LMF WF Portfolio LLC) and the for-profit education sector. As secretary, she: halted processing of 150,000 pending borrower defense claims (students defrauded by for-profit schools seeking loan cancellation); rescinded Obama-era gainful employment regulations that required career programs to meet minimum debt-to-earnings thresholds; weakened the borrower defense rule that allowed defrauded students to seek loan forgiveness; restored recognition for the accreditor (ACICS) that had accredited Corinthian and ITT despite their fraud; and installed former for-profit college executives in senior DOE positions. A federal judge found DeVos in contempt of court for continuing to collect debts from Corinthian students despite a court order to stop.',
-      'APPLICABLE LAW: Higher Education Act (20 U.S.C. 1001 et seq.) governs federal student aid. 20 U.S.C. 1094 (program participation agreements, including 90/10 rule). 20 U.S.C. 1087e(h) (borrower defense to repayment). 15 U.S.C. 45 (FTC Act, unfair or deceptive practices). 31 U.S.C. 3729 (False Claims Act, used against schools submitting false claims for federal aid). 15 U.S.C. 1692 (FDCPA, debt collection practices). 18 U.S.C. 1341/1343 (mail fraud/wire fraud). State consumer protection statutes. The Biden administration approved $22 billion in borrower defense discharges through 2024, reaching 1.3 million borrowers defrauded by ITT, Corinthian, DeVry, Westwood, and others. Yet billions remain outstanding, and new for-profit institutions continue to operate under the same business model.',
+      'APPLICABLE LAW: Higher Education Act (20 U.S.C. 1001 et seq.) governs federal student aid. 20 U.S.C. 1094 (program participation agreements, including 90/10 rule). 20 U.S.C. 1087e(h) (borrower defense to repayment). 15 U.S.C. 45 (FTC Act, unfair or deceptive practices). 31 U.S.C. 3729 (False Claims Act, used against schools submitting false claims for federal aid). 15 U.S.C. 1692 (FDCPA, debt collection practices). 18 U.S.C. 1341/1343 (mail fraud/wire fraud). State consumer protection statutes. The Biden administration approved $22 billion in borrower defense discharges through 2024, reaching 1.3 million borrowers defrauded by ITT, Corinthian, DeVry, Westwood, and others. Yet billions remain outstanding, and new for-profit institutions continue to operate under the same business model.'
     ],
     tags: ['for-profit-colleges', 'student-debt', 'predatory-education', 'ITT-Tech', 'Corinthian', 'Betsy-DeVos', 'veterans-targeting', 'consumer-fraud'],
     sources: [
       { title: 'Senate HELP Committee: For Profit Higher Education - The Failure to Safeguard the Federal Investment', url: 'https://www.help.senate.gov/imo/media/for_profit_report/PartI.pdf', type: 'Congressional Report' },
       { title: 'CFPB: Corinthian Colleges Enforcement Action', url: 'https://www.consumerfinance.gov/enforcement/actions/corinthian-colleges/', type: 'Government' },
-      { title: 'GAO: Undercover Testing Finds Colleges Engaged in Fraud', url: 'https://www.gao.gov/products/gao-10-948t', type: 'Government Audit' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'GAO: Undercover Testing Finds Colleges Engaged in Fraud', url: 'https://www.gao.gov/products/gao-10-948t', type: 'Government Audit' }
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Distributes $40B+ annually to for-profit colleges; Obama-era enforcement reversed under DeVos; Biden admin approved $22B in fraud discharges', href: '/entities/agencies/doe' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Brought enforcement actions against University of Phoenix ($191M) and DeVry ($100M) for deceptive recruiting' },
-      { id: '3', name: 'CFPB', type: 'agency', relationship: 'Enforcement action triggered Corinthian collapse; monitors student loan servicing practices', href: '/entities/agencies/cfpb' },
+      { id: '3', name: 'CFPB', type: 'agency', relationship: 'Enforcement action triggered Corinthian collapse; monitors student loan servicing practices', href: '/entities/agencies/cfpb' }
     ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-08-20',
@@ -2485,7 +2408,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2015', event: 'CORINTHIAN AND ITT TECH COLLAPSES: Corinthian Colleges (Everest, Heald, WyoTech) enrolled 72,000 students when it collapsed in 2015 after a CFPB enforcement action and DOE finding of "substantial m', type: 'critical' },
      { date: '2016', event: 'ITT Technical Institute closed in 2016 after the SEC charged its executives with fraud and the DOE banned it from enrolling new students using federal financial aid', type: 'financial' },
      { date: '2017', event: 'DEVOS AND REGULATORY REVERSAL: Betsy DeVos, Trump\'s Education Secretary (2017-2021), had financial interests in a student debt collection agency (LMF WF Portfolio LLC) and the for-profit education ...', type: 'financial' },
-     { date: '2024', event: 'The Biden administration approved $22 billion in borrower defense discharges through 2024, reaching 1.3 million borrowers defrauded by ITT, Corinthian, DeVry, Westwood, and others', type: 'political' },
+     { date: '2024', event: 'The Biden administration approved $22 billion in borrower defense discharges through 2024, reaching 1.3 million borrowers defrauded by ITT, Corinthian, DeVry, Westwood, and others', type: 'political' }
    ],
   },
   'flint-water-crisis': {
@@ -2501,18 +2424,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Residents immediately complained about discolored, foul-smelling water. General Motors stopped using Flint water in October 2014 because it was corroding engine parts. Yet state and city officials repeatedly told residents the water was safe to drink. MDEQ spokesperson Brad Wurfel called concerns "near-hysteria." The city\'s own testing was manipulated: the MDEQ instructed residents to "pre-flush" pipes before collecting samples, a technique that artificially lowers lead readings. When EPA Region 5 scientist Miguel Del Toral wrote a June 2015 memo warning of dangerous lead levels, his superiors initially suppressed the findings.',
       'Researchers from Virginia Tech, led by Dr. Marc Edwards, independently tested Flint water and confirmed catastrophic lead contamination in September 2015. Dr. Mona Hanna-Attisha, a Flint pediatrician, published research showing that blood lead levels in Flint children had doubled and in some zip codes tripled since the water switch. State officials initially attacked both researchers, calling their work "irresponsible." Governor Rick Snyder finally acknowledged the crisis in October 2015 and reconnected Flint to Detroit water on October 16, 2015, but the damage to pipes meant lead continued leaching for years. A Legionella outbreak linked to the water switch killed at least 12 people.',
       'Under the Safe Drinking Water Act (42 U.S.C. 300f et seq.), public water systems must meet EPA standards for lead and copper. Under the Lead and Copper Rule (40 C.F.R. 141.80), systems must implement corrosion control treatment. Under 42 U.S.C. 300i-1, tampering with a public water system is a federal crime. Michigan AG Bill Schuette launched criminal investigations resulting in charges against 15 state and local officials, including Emergency Manager Darnell Earley, MDEQ Director Dan Wyant, and Health Department Director Nick Lyon. In January 2021, former Governor Rick Snyder was charged with two misdemeanor counts of willful neglect of duty. Most charges were later dismissed or reduced.',
-      'The Flint crisis exposed environmental racism at the core of American infrastructure. Flint is a majority-Black city (54%) with a poverty rate of 40%. Experts note that the crisis would not have unfolded the same way in a wealthy, white community. A $641 million settlement was reached in 2021 for Flint residents, with 80% allocated to children exposed to lead. The long-term health consequences for the estimated 12,000 children exposed to lead, including developmental delays, behavioral problems, and reduced IQ, will cost billions over their lifetimes. As of 2025, Flint has replaced over 10,000 lead service lines, but the human damage is irreversible. The crisis catalyzed national attention to the estimated 9.2 million lead service lines remaining in use across the United States.',
+      'The Flint crisis exposed environmental racism at the core of American infrastructure. Flint is a majority-Black city (54%) with a poverty rate of 40%. Experts note that the crisis would not have unfolded the same way in a wealthy, white community. A $641 million settlement was reached in 2021 for Flint residents, with 80% allocated to children exposed to lead. The long-term health consequences for the estimated 12,000 children exposed to lead, including developmental delays, behavioral problems, and reduced IQ, will cost billions over their lifetimes. As of 2025, Flint has replaced over 10,000 lead service lines, but the human damage is irreversible. The crisis catalyzed national attention to the estimated 9.2 million lead service lines remaining in use across the United States.'
     ],
     tags: ['flint', 'lead-poisoning', 'water-crisis', 'environmental-racism', 'michigan', 'government-negligence', 'safe-drinking-water-act'],
     sources: [
       { title: 'Michigan Civil Rights Commission: The Flint Water Crisis Report', url: 'https://www.michigan.gov/mdcr/commissions/civil-rights/flint-water-crisis', type: 'Government Report' },
       { title: 'Virginia Tech Flint Water Study', url: 'http://flintwaterstudy.org/', type: 'Research' },
-      { title: 'EPA OIG: Management Weaknesses Delayed Response to Flint Water Crisis', url: 'https://www.epa.gov/office-inspector-general/report-management-weaknesses-delayed-response-flint-water-crisis', type: 'Government Audit' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'EPA OIG: Management Weaknesses Delayed Response to Flint Water Crisis', url: 'https://www.epa.gov/office-inspector-general/report-management-weaknesses-delayed-response-flint-water-crisis', type: 'Government Audit' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Region 5 scientist warned of lead contamination in June 2015; findings initially suppressed by agency leadership', href: '/entities/agencies/epa' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted state officials; most charges dismissed or reduced; inadequate accountability', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted state officials; most charges dismissed or reduced; inadequate accountability', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-01-15',
@@ -2525,7 +2447,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2015-10-16', event: 'State officials initially attacked both researchers, calling their work "irresponsible." Governor Rick Snyder finally acknowledged the crisis in October 2015 and reconnected Flint to Detroit water', type: 'critical' },
      { date: '2021', event: 'A $641 million settlement was reached in 2021 for Flint residents, with 80% allocated to children exposed to lead', type: 'financial' },
      { date: '2021', event: 'In January 2021, former Governor Rick Snyder was charged with two misdemeanor counts of willful neglect of duty', type: 'default' },
-     { date: '2025', event: 'As of 2025, Flint has replaced over 10,000 lead service lines, but the human damage is irreversible', type: 'default' },
+     { date: '2025', event: 'As of 2025, Flint has replaced over 10,000 lead service lines, but the human damage is irreversible', type: 'default' }
    ],
   },
   'facebook-instagram-teen-mental-health': {
@@ -2541,18 +2463,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The internal research went further. Facebook\'s own researchers found that Instagram\'s algorithmic design actively promoted harmful content to vulnerable users. The "Explore" page and recommendation algorithms directed teens toward content about eating disorders, self-harm, and extreme dieting. Internal documents noted that teens reported being "trapped in a cycle" of engaging with content that made them feel worse but that the algorithm kept serving them more of the same content. Facebook researchers identified specific algorithmic mechanisms that amplified comparison culture, promoting images of idealized bodies, luxury lifestyles, and unattainable beauty standards. A researcher noted internally: "We make body image issues worse for one in three teen girls."',
       'Despite this knowledge, Meta made calculated business decisions to prioritize teen engagement. Internal documents revealed that the company had considered and rejected safety measures because they would reduce user engagement and revenue. When researchers proposed changes to ranking algorithms that would reduce exposure to harmful content, product teams rejected the proposals because they would decrease time spent on the platform. Meta continued developing "Instagram Kids," a version targeted at children under 13, even as its own research showed the platform\'s toxic effects on teenagers. The project was paused only after the Haugen revelations made it politically untenable.',
       'Under Children\'s Online Privacy Protection Act (COPPA) (15 U.S.C. 6501-6506), platforms cannot collect data from children under 13 without parental consent, but Instagram has been aware that millions of users under 13 access the platform with false birthdates. Under Section 230 of the Communications Decency Act (47 U.S.C. 230), platforms have broad immunity from liability for user-generated content, which Meta has argued shields it from teen mental health lawsuits. Under FTC Act Section 5, deceptive practices including false representations about safety measures are actionable. Under state consumer protection laws, 41 state attorneys general and the District of Columbia filed lawsuits against Meta in October 2023.',
-      'The consequences are measured in broken young lives. Between 2009 and 2021, the rate of sadness and hopelessness among U.S. high school students increased from 26% to 44%. Teen female suicide attempts increased by 51% between 2009 and 2021, coinciding with the rise of Instagram and social media use. Emergency room visits for self-harm among girls aged 10-14 tripled during the same period. While correlation does not equal causation, Meta\'s own internal research drew the causal link. In October 2023, 41 states sued Meta alleging that the company knowingly designed features that harm children. In 2024, the Senate Judiciary Committee grilled Mark Zuckerberg in testimony where he apologized to parents of children harmed by his platforms, but Meta has not meaningfully changed its algorithmic practices. The company generated $134 billion in revenue in 2023, overwhelmingly from advertising targeted using the same engagement-maximizing algorithms its own researchers identified as harmful.',
+      'The consequences are measured in broken young lives. Between 2009 and 2021, the rate of sadness and hopelessness among U.S. high school students increased from 26% to 44%. Teen female suicide attempts increased by 51% between 2009 and 2021, coinciding with the rise of Instagram and social media use. Emergency room visits for self-harm among girls aged 10-14 tripled during the same period. While correlation does not equal causation, Meta\'s own internal research drew the causal link. In October 2023, 41 states sued Meta alleging that the company knowingly designed features that harm children. In 2024, the Senate Judiciary Committee grilled Mark Zuckerberg in testimony where he apologized to parents of children harmed by his platforms, but Meta has not meaningfully changed its algorithmic practices. The company generated $134 billion in revenue in 2023, overwhelmingly from advertising targeted using the same engagement-maximizing algorithms its own researchers identified as harmful.'
     ],
     tags: ['facebook', 'instagram', 'meta', 'teen-mental-health', 'social-media', 'algorithm', 'frances-haugen', 'whistleblower', 'eating-disorders', 'suicide'],
     sources: [
       { title: 'Wall Street Journal: The Facebook Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
       { title: 'Senate Commerce Committee: Frances Haugen Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower/', type: 'Congressional Record' },
-      { title: 'State Attorneys General v. Meta Platforms: Complaint', url: 'https://www.ag.state.mn.us/', type: 'Legal Filing' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'State Attorneys General v. Meta Platforms: Complaint', url: 'https://www.ag.state.mn.us/', type: 'Legal Filing' }
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Fined Facebook $5B in 2019 for privacy violations; investigating COPPA violations; proposed ban on targeted advertising to children' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Received whistleblower complaint from Frances Haugen regarding Meta\'s misleading statements to investors about platform safety', href: '/entities/agencies/sec' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Received whistleblower complaint from Frances Haugen regarding Meta\'s misleading statements to investors about platform safety', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-01-15',
@@ -2565,7 +2486,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2023', event: 'The company generated $134 billion in revenue in 2023, overwhelmingly from advertising targeted using the same engagement-maximizing algorithms its own researchers identified as harmful', type: 'political' },
      { date: '2023-10-01', event: 'Under state consumer protection laws, 41 state attorneys general and the District of Columbia filed lawsuits against Meta in October 2023', type: 'legal' },
      { date: '2023-10-01', event: 'In October 2023, 41 states sued Meta alleging that the company knowingly designed features that harm children', type: 'legal' },
-     { date: '2024', event: 'In 2024, the Senate Judiciary Committee grilled Mark Zuckerberg in testimony where he apologized to parents of children harmed by his platforms, but Meta has not meaningfully changed its algorithmi', type: 'political' },
+     { date: '2024', event: 'In 2024, the Senate Judiciary Committee grilled Mark Zuckerberg in testimony where he apologized to parents of children harmed by his platforms, but Meta has not meaningfully changed its algorithmi', type: 'political' }
    ],
   },
   'fossil-fuel-subsidies-climate-deception': {
@@ -2581,18 +2502,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'THE DISINFORMATION MACHINE: The fossil fuel industry\'s climate denial campaign borrowed directly from the tobacco industry\'s playbook. The Global Climate Coalition (1989-2002, funded by Exxon, BP, Shell, and others) lobbied against the Kyoto Protocol. The American Petroleum Institute\'s 1998 internal memo outlined a plan to recruit scientists to cast doubt on climate science, with the explicit goal that "victory will be achieved when average citizens understand uncertainties in climate science." Americans for Prosperity (Koch-funded) organized opposition to cap-and-trade legislation. The Heartland Institute published materials denying climate science and distributed them to teachers. Between 1998 and 2014, fossil fuel companies and their foundations gave at least $100 million to organizations that opposed climate science or climate legislation.',
       'THE $7 TRILLION IN SUBSIDIES: The IMF estimated in 2023 that global fossil fuel subsidies totaled $7 trillion annually, or $13 million per minute, when accounting for direct subsidies and the un-priced costs of air pollution, climate damage, and other externalities. Direct U.S. federal subsidies to fossil fuels total approximately $20 billion per year, including the percentage depletion allowance (1926), the intangible drilling costs deduction (1913), and the domestic manufacturing deduction. Despite pledges by multiple presidential administrations to eliminate fossil fuel subsidies, the tax provisions have survived because the industry spends approximately $125 million annually on lobbying and campaign contributions.',
       'ENVIRONMENTAL DESTRUCTION: Beyond climate change, the fossil fuel industry is directly responsible for some of the worst environmental disasters in history. The Deepwater Horizon explosion (2010) killed 11 workers and spilled 4.9 million barrels of oil into the Gulf of Mexico. The Exxon Valdez spill (1989) devastated Prince William Sound. Coal ash spills have contaminated water supplies in dozens of communities (the 2008 Kingston Fossil Plant spill released 5.4 million cubic yards of coal ash slurry, and cleanup workers were subsequently denied health protections). Fracking has contaminated groundwater in communities across Pennsylvania, Texas, Colorado, and Wyoming. Petrochemical facilities along the Gulf Coast ("Cancer Alley") expose majority-Black communities to carcinogenic emissions at rates far exceeding health standards.',
-      'LEGAL ACCOUNTABILITY AND RESISTANCE: Multiple states and cities have filed climate liability lawsuits against fossil fuel companies, modeled on tobacco litigation. As of 2025, cases are pending in California, New York, Minnesota, and other jurisdictions. ExxonMobil has countersued, attempting to depose the attorneys and funders behind the litigation. The industry has lobbied for federal preemption to prevent state-level lawsuits. In 2023, a Vermont law requiring fossil fuel companies to pay for climate damages was the first of its kind. The EU\'s Corporate Sustainability Due Diligence Directive (2024) creates new liability exposure for fossil fuel companies operating in Europe. However, no major oil company executive has faced criminal charges for climate deception.',
+      'LEGAL ACCOUNTABILITY AND RESISTANCE: Multiple states and cities have filed climate liability lawsuits against fossil fuel companies, modeled on tobacco litigation. As of 2025, cases are pending in California, New York, Minnesota, and other jurisdictions. ExxonMobil has countersued, attempting to depose the attorneys and funders behind the litigation. The industry has lobbied for federal preemption to prevent state-level lawsuits. In 2023, a Vermont law requiring fossil fuel companies to pay for climate damages was the first of its kind. The EU\'s Corporate Sustainability Due Diligence Directive (2024) creates new liability exposure for fossil fuel companies operating in Europe. However, no major oil company executive has faced criminal charges for climate deception.'
     ],
     tags: ['fossil-fuels', 'climate-change', 'ExxonMobil', 'Chevron', 'BP', 'Shell', 'climate-denial', 'subsidies', 'disinformation', 'Cancer-Alley'],
     sources: [
       { title: 'InsideClimate News: Exxon, The Road Not Taken', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigative Journalism' },
       { title: 'IMF: Fossil Fuel Subsidies Data (2023)', url: 'https://www.imf.org/en/Topics/climate-change/energy-subsidies', type: 'International Organization' },
-      { title: 'Supran & Oreskes: Assessing ExxonMobil Global Warming Projections (Science, 2023)', url: 'https://www.science.org/doi/10.1126/science.abk0063', type: 'Academic Research' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'Supran & Oreskes: Assessing ExxonMobil Global Warming Projections (Science, 2023)', url: 'https://www.science.org/doi/10.1126/science.abk0063', type: 'Academic Research' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Enforcement varies by administration; has been repeatedly weakened by fossil fuel lobbying; failed to regulate CO2 until ordered by Supreme Court in 2007', href: '/entities/agencies/epa' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Has not pursued criminal charges against fossil fuel companies for climate deception despite tobacco precedent; enforcement limited to spill penalties', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Has not pursued criminal charges against fossil fuel companies for climate deception despite tobacco precedent; enforcement limited to spill penalties', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1913-01-01',
    lastActivityDate: '2026-03-05',
@@ -2612,7 +2532,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2023', event: 'THE $7 TRILLION IN SUBSIDIES: The IMF estimated in 2023 that global fossil fuel subsidies totaled $7 trillion annually, or $13 million per minute, when accounting for direct subsidies and the un-pr', type: 'financial' },
      { date: '2023', event: 'In 2023, a Vermont law requiring fossil fuel companies to pay for climate damages was the first of its kind', type: 'political' },
      { date: '2024', event: 'The EU\'s Corporate Sustainability Due Diligence Directive (2024) creates new liability exposure for fossil fuel companies operating in Europe', type: 'default' },
-     { date: '2025', event: 'As of 2025, cases are pending in California, New York, Minnesota, and other jurisdictions', type: 'default' },
+     { date: '2025', event: 'As of 2025, cases are pending in California, New York, Minnesota, and other jurisdictions', type: 'default' }
    ],
   },
   'food-industry-regulatory-capture': {
@@ -2628,18 +2548,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The USDA operates under the most blatant conflict of interest in federal government. The same agency that is legally mandated to promote American agricultural products — including beef, dairy, corn, and soy — is also responsible for issuing dietary guidelines that tell Americans what to eat. When USDA dietary guidelines committees have recommended reducing consumption of red meat or processed food, industry lobbying has consistently weakened or removed the recommendations. The 2020 Dietary Guidelines Advisory Committee recommended reducing sugar intake and increasing whole grains, but the final USDA guidelines were watered down after industry pressure.',
       'The FDA\'s GRAS ("Generally Recognized as Safe") loophole has allowed the food industry to introduce thousands of chemical additives into the food supply without independent safety testing. Under GRAS, a food company can hire its own scientists to review a chemical additive\'s safety, declare it safe, and begin using it in food products — without even notifying the FDA. Of approximately 10,000 additives allowed in American food, the FDA has independently reviewed only a fraction. Many additives banned in the European Union and other countries remain legal in U.S. food.',
       'Food engineering has become a science of addiction. Companies like PepsiCo, Nestlé, General Mills, and Kraft employ food scientists who optimize the "bliss point" — the precise combination of sugar, salt, fat, and texture that maximizes consumption. Ultra-processed foods, which make up 58% of calories in the American diet, are designed to override satiety signals and promote overeating. Studies show ultra-processed foods cause weight gain even when matched for calories with whole foods, suggesting mechanisms beyond simple caloric surplus. The food industry spends $14 billion annually on marketing, including $1.8 billion targeting children.',
-      'The consequences are catastrophic. 42% of American adults are obese (up from 13% in 1960). 11.6% have diabetes (up from 1% in 1960). Diet-related diseases including heart disease, cancer, stroke, and diabetes kill an estimated 678,000 Americans annually. The economic cost exceeds $1.7 trillion per year in healthcare spending and lost productivity. Communities of color and low-income communities are disproportionately affected due to food deserts, targeted marketing, and the lower cost of ultra-processed foods relative to whole foods. Despite this, Congress subsidizes corn, soy, and sugar production by $15-20 billion annually while spending less than $1 billion on specialty crop programs for fruits and vegetables.',
+      'The consequences are catastrophic. 42% of American adults are obese (up from 13% in 1960). 11.6% have diabetes (up from 1% in 1960). Diet-related diseases including heart disease, cancer, stroke, and diabetes kill an estimated 678,000 Americans annually. The economic cost exceeds $1.7 trillion per year in healthcare spending and lost productivity. Communities of color and low-income communities are disproportionately affected due to food deserts, targeted marketing, and the lower cost of ultra-processed foods relative to whole foods. Despite this, Congress subsidizes corn, soy, and sugar production by $15-20 billion annually while spending less than $1 billion on specialty crop programs for fruits and vegetables.'
     ],
     tags: ['food industry', 'regulatory capture', 'obesity', 'USDA', 'FDA', 'GRAS', 'sugar', 'processed food', 'dietary guidelines', 'food additives'],
     sources: [
       { title: 'JAMA Internal Medicine: Sugar Industry Sponsorship of Coronary Heart Disease Research', url: 'https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2548255', type: 'Academic Research' },
       { title: 'CDC: Adult Obesity Facts', url: 'https://web.archive.org/web/20220101063334/https://www.cdc.gov/obesity/data/adult.html', type: 'Government Report' },
-      { title: 'GAO: FDA Should Strengthen Its Oversight of Food Ingredients', url: 'https://www.gao.gov/products/gao-10-246', type: 'Government Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'GAO: FDA Should Strengthen Its Oversight of Food Ingredients', url: 'https://www.gao.gov/products/gao-10-246', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'GRAS loophole allows industry self-certification of food additives without FDA review; has never revoked GRAS status for any widely used additive despite emerging safety concerns', href: '/entities/agencies/fda' },
-      { id: '2', name: 'USDA', type: 'agency', relationship: 'Inherent conflict of interest in promoting agriculture while setting dietary guidelines; industry lobbying consistently weakens nutritional recommendations; $20B in subsidies favor commodity crops over health', href: '/entities/agencies/usda' },
+      { id: '2', name: 'USDA', type: 'agency', relationship: 'Inherent conflict of interest in promoting agriculture while setting dietary guidelines; industry lobbying consistently weakens nutritional recommendations; $20B in subsidies favor commodity crops over health', href: '/entities/agencies/usda' }
     ],
    eventOriginDate: '1960-01-01',
    lastActivityDate: '2025-02-25',
@@ -2648,7 +2567,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '1960', event: '42% of American adults are obese (up from 13% in 1960)', type: 'default' },
      { date: '1960', event: '11.6% have diabetes (up from 1% in 1960)', type: 'default' },
      { date: '1967', event: 'In 1967, the Sugar Research Foundation (now the Sugar Association) paid three Harvard scientists the equivalent of $50,000 in today\'s dollars to publish a review in the New England Journal of Medic...', type: 'financial' },
-     { date: '2020', event: 'The 2020 Dietary Guidelines Advisory Committee recommended reducing sugar intake and increasing whole grains, but the final USDA guidelines were watered down after industry pressure', type: 'default' },
+     { date: '2020', event: 'The 2020 Dietary Guidelines Advisory Committee recommended reducing sugar intake and increasing whole grains, but the final USDA guidelines were watered down after industry pressure', type: 'default' }
    ],
   },
   'for-profit-college-fraud': {
@@ -2664,18 +2583,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'Job placement fraud was systemic. Corinthian Colleges (Everest, Heald, WyoTech) reported job placement rates of 60-80% by counting graduates who found any employment, including at fast food restaurants, as "placed in field." The DOE found actual placement rates were below 20% for many programs. DeVry University paid $100 million to settle FTC charges that it falsely advertised that 90% of graduates seeking employment found jobs in their field within 6 months. University of Phoenix paid $191 million to settle a case over deceptive advertising about employer partnerships.',
       'The financial model was designed to maximize revenue extraction from students who would never benefit. For-profit colleges charged two to five times what community colleges charged for comparable programs. Credits rarely transferred to legitimate institutions. Programs in fields like criminal justice, medical assisting, and business administration conferred degrees that employers viewed as worthless. The colleges employed far more admissions recruiters than academic staff, maintaining student-to-recruiter ratios of 200:1 while cutting faculty to adjuncts earning $1,500-$2,000 per course.',
       'The Obama administration\'s Gainful Employment rule, finalized in 2014, would have cut federal funding to programs whose graduates consistently failed to earn enough to repay their loans. The rule threatened the business model of the entire industry. When Betsy DeVos became Education Secretary in 2017, she repealed Gainful Employment, hired former for-profit college executives to run the department\'s regulatory office, and slow-walked borrower defense claims from students who had been defrauded. Under DeVos, the department approved only 1% of borrower defense applications that the Obama administration had approved at 97%.',
-      'The collapse of major for-profit chains left devastating wreckage. ITT Tech closed in 2016 after the DOE banned it from enrolling new students on federal aid, leaving 35,000 students stranded. Corinthian Colleges collapsed in 2015 after an SEC investigation. Education Management Corporation (EDMC), backed by Goldman Sachs, paid $95 million to settle false enrollment claims. Yet the industry persists: the University of Phoenix continues operating, and new online for-profit entities have emerged that replicate the same model under different names. Total student loan debt from for-profit colleges exceeds $200 billion and climbing.',
+      'The collapse of major for-profit chains left devastating wreckage. ITT Tech closed in 2016 after the DOE banned it from enrolling new students on federal aid, leaving 35,000 students stranded. Corinthian Colleges collapsed in 2015 after an SEC investigation. Education Management Corporation (EDMC), backed by Goldman Sachs, paid $95 million to settle false enrollment claims. Yet the industry persists: the University of Phoenix continues operating, and new online for-profit entities have emerged that replicate the same model under different names. Total student loan debt from for-profit colleges exceeds $200 billion and climbing.'
     ],
     tags: ['for-profit colleges', 'student loans', 'Corinthian', 'ITT Tech', 'DeVry', 'Gainful Employment', 'Betsy DeVos', 'veterans targeting', 'borrower defense', 'education fraud'],
     sources: [
       { title: 'Senate HELP Committee: For-Profit Higher Education Investigation (Harkin Report)', url: 'https://www.help.senate.gov/imo/media/for_profit_report/PartI.pdf', type: 'Congressional Report' },
       { title: 'FTC: DeVry University Settlement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=devry', type: 'Legal Document' },
-      { title: 'DOE: Borrower Defense to Repayment Data', url: 'https://studentaid.gov/borrower-defense/', type: 'Government Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'DOE: Borrower Defense to Repayment Data', url: 'https://studentaid.gov/borrower-defense/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Gainful Employment rule repealed under DeVos; borrower defense processing dropped from 97% approval to 1%; for-profit industry executives hired into regulatory roles', href: '/entities/agencies/doe' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Settled with DeVry ($100M) and others for deceptive advertising; enforcement limited by scope of authority over educational institutions' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Settled with DeVry ($100M) and others for deceptive advertising; enforcement limited by scope of authority over educational institutions' }
     ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-28',
@@ -2684,7 +2602,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2014', event: 'The Obama administration\'s Gainful Employment rule, finalized in 2014, would have cut federal funding to programs whose graduates consistently failed to earn enough to repay their loans', type: 'default' },
      { date: '2015', event: 'Corinthian Colleges collapsed in 2015 after an SEC investigation', type: 'critical' },
      { date: '2016', event: 'ITT Tech closed in 2016 after the DOE banned it from enrolling new students on federal aid, leaving 35,000 students stranded', type: 'default' },
-     { date: '2017', event: 'When Betsy DeVos became Education Secretary in 2017, she repealed Gainful Employment, hired former for-profit college executives to run the department\'s regulatory office, and slow-walked borrower ...', type: 'financial' },
+     { date: '2017', event: 'When Betsy DeVos became Education Secretary in 2017, she repealed Gainful Employment, hired former for-profit college executives to run the department\'s regulatory office, and slow-walked borrower ...', type: 'financial' }
    ],
   },
   'factory-farming-animal-cruelty': {
@@ -2700,20 +2618,18 @@ const investigations_f: Record<string, InvestigationData> = {
       'The industry response to public exposure has not been reform but concealment. Since 2011, more than two dozen states have introduced ag-gag legislation designed to criminalize undercover investigations of agricultural facilities. These laws impose penalties ranging from fines to felony charges on individuals who photograph or record conditions inside farming operations without owner consent. Courts have struck down several ag-gag statutes on First Amendment grounds, but new versions continue to emerge with narrower drafting intended to survive constitutional challenge.',
       'Federal oversight of farm animal welfare is minimal. The Animal Welfare Act explicitly excludes farm animals from its protections. The Humane Methods of Slaughter Act covers cattle and pigs but not chickens or turkeys, which account for more than 95% of land animals killed for food. USDA inspection focuses on food safety rather than animal treatment, and inspectors report being pressured to keep processing lines running even when they observe welfare violations.',
       'Environmental and public health consequences compound the ethical concerns. Factory farms generate massive quantities of waste that contaminate groundwater, produce greenhouse gas emissions exceeding those of the entire transportation sector, and create breeding grounds for antibiotic-resistant pathogens. The routine use of medically important antibiotics in farm animals contributes to resistance that the WHO identifies as one of the top ten global public health threats.',
-      'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel. State-level ballot initiatives, such as California Proposition 12 and Massachusetts Question 3, have achieved some confinement bans, but compliance and enforcement remain contested. International comparisons reveal that the European Union banned battery cages in 2012 and gestation crates in 2013, standards the U.S. shows no federal movement toward matching.',
+      'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel. State-level ballot initiatives, such as California Proposition 12 and Massachusetts Question 3, have achieved some confinement bans, but compliance and enforcement remain contested. International comparisons reveal that the European Union banned battery cages in 2012 and gestation crates in 2013, standards the U.S. shows no federal movement toward matching.'
     ],
     tags: ['factory farming', 'animal cruelty', 'ag-gag laws', 'CAFO', 'antibiotics', 'agriculture', 'whistleblower suppression'],
     sources: [
-      { title: 'Aspca Records', url: 'https://www.aspca.org/protecting-farm-animals', type: 'Reference' },
-      { title: 'Humanesociety Records', url: 'https://www.humanesociety.org/all-our-fights/ending-factory-farming', type: 'Reference' },
-      { title: 'Sentientmedia Records', url: 'https://www.sentientmedia.org/ag-gag-laws/', type: 'Reference' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
-    
       { title: 'USDA Animal and Plant Health Inspection Service', url: 'https://www.aphis.usda.gov/', type: 'Reference' },
+      { title: 'USDA NASS: Livestock Reports', url: 'https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Livestock/index.php', type: 'Government Record' },
+      { title: 'Sentient Media: US Factory Farming Statistics', url: 'https://sentientmedia.org/u-s-factory-farming-statistics/', type: 'Research' },
+      { title: 'EPA: Animal Feeding Operations', url: 'https://www.epa.gov/npdes/animal-feeding-operations-afos', type: 'Government Record' }
     ],
     affiliations: [
       { id: '1', name: 'USDA', type: 'agency', relationship: 'Enforces Humane Methods of Slaughter Act but excludes poultry; FSIS inspectors report pressure to prioritize throughput over welfare; revolving door with industry executives undermines independence', href: '/entities/agencies/usda' },
-      { id: '2', name: 'EPA', type: 'agency', relationship: 'Regulates CAFO emissions and waste under Clean Water Act and Clean Air Act but has exempted factory farms from key reporting requirements since 2008', href: '/entities/agencies/epa' },
+      { id: '2', name: 'EPA', type: 'agency', relationship: 'Regulates CAFO emissions and waste under Clean Water Act and Clean Air Act but has exempted factory farms from key reporting requirements since 2008', href: '/entities/agencies/epa' }
     ],
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2025-02-08',
@@ -2723,7 +2639,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2012', event: 'International comparisons reveal that the European Union banned battery cages in 2012 and gestation crates in 2013, standards the U.S.', type: 'default' },
      { date: '2013', event: 'International comparisons reveal that the European Union banned battery cages in 2012 and gestation crates in 2013, standards the U.S.', type: 'default' },
      { date: '2015', event: 'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel.', type: 'financial' },
-     { date: '2024', event: 'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel.', type: 'financial' },
+     { date: '2024', event: 'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel.', type: 'financial' }
      ],
   },
   'forced-sterilization-eugenics-programs': {
@@ -2739,18 +2655,17 @@ const investigations_f: Record<string, InvestigationData> = {
       'The case of Carrie Buck illustrates the intersection of class prejudice, racial bias, and state power that drove the eugenics sterilization program. Carrie Buck was an 18-year-old white woman from Charlottesville, Virginia, who had been committed to the Virginia State Colony for Epileptics and Feebleminded after becoming pregnant. Her pregnancy was the result of rape by the nephew of her foster family, but state officials characterized her as "morally delinquent" and classified her, her mother Emma (also institutionalized), and her infant daughter Vivian as three generations of "imbeciles" to create a test case for Virginia\'s sterilization law. The case was deliberately staged by eugenics advocates: Carrie\'s court-appointed attorney, Irving Whitehead, was a former board member of the Colony and a eugenics supporter who presented a deliberately weak defense. No independent evaluation of Carrie\'s intelligence was conducted. Her daughter Vivian, the supposed "third generation of imbeciles," was assessed at 7 months old and made the honor roll at her school before dying of measles at age 8. Justice Holmes\'s opinion, including the phrase "three generations of imbeciles are enough," remains one of the most cited and condemned statements in American legal history. Buck v. Bell has never been explicitly overturned, though it has been effectively undermined by subsequent decisions including Skinner v. Oklahoma (1942), which recognized procreation as a fundamental right in the context of criminal sterilization.',
       'Racial minorities were disproportionately targeted. In North Carolina, which maintained one of the most active programs through the 1970s, Black women were sterilized at more than three times their proportion of the population. The state\'s Eugenics Board approved 7,686 sterilizations between 1929 and 1974, with social workers frequently initiating petitions against poor Black women who received public assistance. In California, which performed more sterilizations than any other state (approximately 20,000), Latino patients at state hospitals were sterilized at rates far exceeding their institutional population. A landmark 1975 lawsuit, Madrigal v. Quilligan, brought by ten Mexican-American women who were coerced into sterilization at Los Angeles County-USC Medical Center during childbirth, exposed the practice of obtaining "consent" from women in active labor or under anesthesia. The court found the women had not provided meaningful consent but did not award damages, ruling that the doctors had acted in "good faith." Native American women were targeted through Indian Health Service (IHS) hospitals. A 1976 Government Accountability Office (GAO) investigation found that IHS had sterilized 3,406 Native American women between 1973 and 1976, many without proper consent. Some women reported being told they would lose their welfare benefits or their existing children if they refused sterilization. These acts violated the constitutional right to procreation recognized in Skinner v. Oklahoma and the right to bodily autonomy protected by the Fourteenth Amendment.',
       'Forced sterilization did not end with the formal eugenics era. California performed unauthorized sterilizations on nearly 150 female inmates between 2006 and 2010. A 2013 investigation by the Center for Investigative Reporting found that physicians at California\'s state prisons had pressured and coerced incarcerated women into tubal ligations, sometimes obtaining consent minutes before surgery while the women were sedated. The California State Auditor confirmed the findings and the legislature passed SB 1135 (2014) banning sterilization in state prisons except in life-threatening situations. In 2020, a whistleblower complaint by nurse Dawn Wooten at the Irwin County Detention Center, an ICE immigration detention facility operated by the private company LaSalle Corrections in Georgia, alleged that a gynecologist, Dr. Mahendra Amin, had performed unnecessary hysterectomies and other gynecological procedures on detained immigrant women without informed consent. The DHS Inspector General investigation was inconclusive, but congressional investigators found evidence of medical procedures performed without proper consent. These continued practices demonstrate that forced sterilization is not merely a historical atrocity but an ongoing threat wherever vulnerable populations are held in institutional custody without adequate legal protections.',
-      'Accountability and reparations have been minimal. North Carolina became the first state to establish a compensation program in 2013, allocating $10 million to be divided among verified survivors, resulting in payments of approximately $20,000 per person. Virginia offered $25,000 per survivor in 2015. California established a reparations program in 2021 for both eugenics-era and prison sterilization survivors. Most of the 32 states with sterilization laws have taken no action toward compensation. No state official, physician, or social worker has ever been criminally prosecuted for performing a forced sterilization under state eugenics laws. The physicians and officials who carried out the programs acted under legal authority sanctioned by the Supreme Court in Buck v. Bell. Harry Laughlin, whose model law inspired Nazi sterilization, received an honorary doctorate from the University of Heidelberg in 1936 for his contributions to "racial hygiene." The international dimension is significant: at the Nuremberg Trials, Nazi defendants cited American eugenics laws and Buck v. Bell as precedents for their own sterilization programs. The United States has never formally acknowledged that its eugenics programs constituted crimes against humanity, despite the fact that forced sterilization is recognized as a crime against humanity under the Rome Statute (Article 7(1)(g)) and a form of genocide under the Genocide Convention (Article II(d), "imposing measures intended to prevent births within the group").',
+      'Accountability and reparations have been minimal. North Carolina became the first state to establish a compensation program in 2013, allocating $10 million to be divided among verified survivors, resulting in payments of approximately $20,000 per person. Virginia offered $25,000 per survivor in 2015. California established a reparations program in 2021 for both eugenics-era and prison sterilization survivors. Most of the 32 states with sterilization laws have taken no action toward compensation. No state official, physician, or social worker has ever been criminally prosecuted for performing a forced sterilization under state eugenics laws. The physicians and officials who carried out the programs acted under legal authority sanctioned by the Supreme Court in Buck v. Bell. Harry Laughlin, whose model law inspired Nazi sterilization, received an honorary doctorate from the University of Heidelberg in 1936 for his contributions to "racial hygiene." The international dimension is significant: at the Nuremberg Trials, Nazi defendants cited American eugenics laws and Buck v. Bell as precedents for their own sterilization programs. The United States has never formally acknowledged that its eugenics programs constituted crimes against humanity, despite the fact that forced sterilization is recognized as a crime against humanity under the Rome Statute (Article 7(1)(g)) and a form of genocide under the Genocide Convention (Article II(d), "imposing measures intended to prevent births within the group").'
     ],
     tags: ['eugenics', 'forced sterilization', 'Buck v. Bell', 'reproductive rights', 'racial targeting', 'disability rights', 'Native Americans', 'IHS', 'prison sterilization', 'crimes against humanity'],
     sources: [
       { title: 'University of Vermont: Eugenics Survey Records', url: 'https://www.uvm.edu/~eugenics/', type: 'Research Archive' },
       { title: 'PBS: The Eugenics Crusade', url: 'https://www.pbs.org/wgbh/americanexperience/films/eugenics-crusade/', type: 'Documentary' },
-      { title: 'GAO: Investigation of IHS Sterilizations (1976)', url: 'https://www.gao.gov/', type: 'Government Report' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'GAO: Investigation of IHS Sterilizations (1976)', url: 'https://www.gao.gov/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'U.S. Supreme Court', type: 'agency', relationship: 'Upheld compulsory sterilization in Buck v. Bell (1927) in an 8-1 decision; the ruling has never been explicitly overturned; Justice Holmes\'s opinion was cited by Nazi defendants at Nuremberg as precedent', href: '/entities/agencies/supreme-court' },
-      { id: '2', name: 'Indian Health Service', type: 'agency', relationship: 'GAO investigation found IHS sterilized 3,406 Native American women between 1973-1976 without proper consent; some women coerced with threats of losing welfare benefits or custody of children' },
+      { id: '2', name: 'Indian Health Service', type: 'agency', relationship: 'GAO investigation found IHS sterilized 3,406 Native American women between 1973-1976 without proper consent; some women coerced with threats of losing welfare benefits or custody of children' }
     ],
    eventOriginDate: '1907-03-09',
    lastActivityDate: '2026-03-21',
@@ -2770,7 +2685,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2014', event: 'The California State Auditor confirmed the findings and the legislature passed SB 1135 (2014) banning sterilization in state prisons except in life-threatening situations', type: 'political' },
      { date: '2015', event: 'Virginia offered $25,000 per survivor in 2015', type: 'default' },
      { date: '2020', event: 'In 2020, a whistleblower complaint by nurse Dawn Wooten at the Irwin County Detention Center, an ICE immigration detention facility operated by the private company LaSalle Corrections in Georgia, a', type: 'default' },
-     { date: '2021', event: 'California established a reparations program in 2021 for both eugenics-era and prison sterilization survivors', type: 'default' },
+     { date: '2021', event: 'California established a reparations program in 2021 for both eugenics-era and prison sterilization survivors', type: 'default' }
    ],
   },
   'fda-contaminated-blood-supply-scandal': {
@@ -2786,20 +2701,19 @@ const investigations_f: Record<string, InvestigationData> = {
       'By 1982, the evidence of blood supply contamination was clear. In July 1982, the CDC reported three cases of Pneumocystis pneumonia (a hallmark AIDS-related infection) in hemophilia patients who had no other known risk factors. On January 4, 1983, the CDC convened a meeting with blood banking organizations and pharmaceutical companies to discuss the threat. At this meeting, Dr. Bruce Evatt of the CDC presented evidence that AIDS could be transmitted through blood products and recommended immediate donor screening measures, including surrogate testing (hepatitis B core antibody testing, which correlated with HIV risk) and exclusion of high-risk donors. The blood banking industry and pharmaceutical companies resisted these recommendations. The American Red Cross, the American Association of Blood Banks, and the Council of Community Blood Centers issued a joint statement downplaying the risk and opposing donor screening. The National Hemophilia Foundation, which received substantial funding from pharmaceutical companies, initially supported the industry position. Pharmaceutical companies argued that implementing screening would reduce the plasma supply and increase costs. Internal documents from Cutter Biological, disclosed in litigation, showed that company executives explicitly weighed the cost of screening against the projected liability from lawsuits by infected patients.',
       'Perhaps the most damning aspect of the scandal was the continued sale of unheated clotting factor products overseas after safer heated products became available. By late 1984, heat treatment processes that could inactivate HIV in clotting factor concentrates had been developed and validated. Several companies began selling heated products in the United States and Europe while simultaneously continuing to sell existing stocks of unheated (potentially contaminated) products in Asia, Latin America, and other markets. Internal Cutter Biological documents obtained through lawsuits revealed that in 1984 and 1985, Cutter shipped millions of units of unheated Factor VIII concentrate to markets in Hong Kong, Malaysia, Singapore, Indonesia, Japan, and Argentina. A February 1985 internal Cutter memo discussed the decision to continue selling unheated product overseas, noting concerns about "ichorous market position" and price competition. Bayer, Cutters parent company, maintained for years that its overseas actions were consistent with the regulatory requirements of the destination countries. In Japan alone, approximately 1,800 hemophiliacs were infected with HIV through imported blood products, and the resulting scandal led to criminal prosecutions of Japanese health ministry officials (though not of the American pharmaceutical companies).',
       'The FDA response was catastrophically slow. Despite the January 1983 CDC warning, the FDA did not require HIV antibody testing of blood donations until March 1985 (the ELISA test was licensed on March 2, 1985). In the two years between the CDC warning and the implementation of testing, thousands of additional infections occurred. The FDA also failed to order a recall of existing stocks of untested or unheated blood products, allowing potentially contaminated products to remain on hospital shelves and to be administered to patients. A 1993 congressional investigation (the Ricky Ray Hemophilia Relief Fund Act hearings) documented the FDA failures in detail. When FDA inspectors found violations at plasma collection centers, including centers that collected from prisoners and IV drug users, enforcement actions were minimal and slow. The Ricky Ray Hemophilia Relief Fund Act (Public Law 105-369), passed in 1998, provided $100,000 payments to hemophilia patients who were infected with HIV through contaminated blood products, but only approximately 7,000 of the estimated 10,000 infected patients (or their surviving family members) received payments because many had already died without filing claims or could not document the source of their infection.',
-      'The legal consequences were civil settlements, not criminal prosecutions. In the United States, thousands of individual and class action lawsuits were filed against the pharmaceutical companies. Most were settled confidentially for amounts that have never been fully disclosed, though the total is estimated to exceed $1 billion. In 1997, Japan criminally charged two former executives of Green Cross Corporation (a Japanese distributor of American blood products) and a former Japanese Health Ministry official; all three were convicted. In France, in 1999, three government health officials were convicted for their role in the contaminated blood scandal. In the United Kingdom, the Infected Blood Inquiry, chaired by Sir Brian Langstaff, published its final report on May 20, 2024, finding that more than 30,000 people in the UK were infected with HIV and hepatitis C through contaminated blood and blood products between the 1970s and early 1990s, and that the government and NHS had engaged in a decades-long cover-up. The inquiry called it "not an accident" but "the result of individual, collective, and systemic failures." The UK government established a PS10 billion compensation scheme. The U.S. legal violations implicated include: 21 U.S.C. Section 351 (adulterated drugs); 21 U.S.C. Section 331 (prohibited acts under the FDCA); 18 U.S.C. Section 1343 (wire fraud, relating to sale of products known to be contaminated); and potentially 18 U.S.C. Section 1112 (involuntary manslaughter). No American pharmaceutical company executive has ever been criminally charged in connection with the contaminated blood scandal.',
+      'The legal consequences were civil settlements, not criminal prosecutions. In the United States, thousands of individual and class action lawsuits were filed against the pharmaceutical companies. Most were settled confidentially for amounts that have never been fully disclosed, though the total is estimated to exceed $1 billion. In 1997, Japan criminally charged two former executives of Green Cross Corporation (a Japanese distributor of American blood products) and a former Japanese Health Ministry official; all three were convicted. In France, in 1999, three government health officials were convicted for their role in the contaminated blood scandal. In the United Kingdom, the Infected Blood Inquiry, chaired by Sir Brian Langstaff, published its final report on May 20, 2024, finding that more than 30,000 people in the UK were infected with HIV and hepatitis C through contaminated blood and blood products between the 1970s and early 1990s, and that the government and NHS had engaged in a decades-long cover-up. The inquiry called it "not an accident" but "the result of individual, collective, and systemic failures." The UK government established a PS10 billion compensation scheme. The U.S. legal violations implicated include: 21 U.S.C. Section 351 (adulterated drugs); 21 U.S.C. Section 331 (prohibited acts under the FDCA); 18 U.S.C. Section 1343 (wire fraud, relating to sale of products known to be contaminated); and potentially 18 U.S.C. Section 1112 (involuntary manslaughter). No American pharmaceutical company executive has ever been criminally charged in connection with the contaminated blood scandal.'
     ],
     tags: ['contaminated blood', 'HIV', 'hemophilia', 'Bayer', 'Cutter Biological', 'blood products', 'hepatitis C', 'FDA failure', 'pharmaceutical fraud', 'medical tyranny', 'Ricky Ray Act', 'plasma collection', 'blood banking', 'corporate manslaughter', 'crimes against humanity', 'Infected Blood Inquiry'],
     sources: [
       { title: 'UK Infected Blood Inquiry: Final Report (2024)', url: 'https://www.infectedbloodinquiry.org.uk/', type: 'Government Report' },
       { title: 'Ricky Ray Hemophilia Relief Fund Act (Public Law 105-369)', url: 'https://www.congress.gov/bill/105th-congress/house-bill/1023', type: 'Congressional Record' },
       { title: 'National Hemophilia Foundation: History and Advocacy', url: 'https://www.hemophilia.org/', type: 'Victim Advocacy' },
-      { title: 'New York Times: Bayer Sold HIV-Risky Medicine (2003)', url: 'https://www.nytimes.com/2003/05/22/business/bayer-division-sold-risky-medicine.html', type: 'Investigative Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'New York Times: Bayer Sold HIV-Risky Medicine (2003)', url: 'https://www.nytimes.com/2003/05/22/business/bayer-division-sold-risky-medicine.html', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'Bayer AG', type: 'corporation', relationship: 'Through subsidiary Cutter Biological, manufactured and sold clotting factor concentrates from high-risk plasma pools; internal documents showed executives weighed cost of screening against lawsuit liability; continued selling unheated product overseas after safer heated product was available in the US; no executive was criminally prosecuted' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Failed to require HIV testing of blood donations until March 1985, two years after the CDC identified the contaminated blood supply risk; did not order recalls of existing contaminated product; enforcement actions against non-compliant plasma centers were minimal and slow', href: '/entities/agencies/fda' },
-      { id: '3', name: 'CDC', type: 'agency', relationship: 'Identified the blood supply risk in 1982 and issued warnings in January 1983 that were resisted by the blood banking industry and pharmaceutical companies; lacked enforcement authority to mandate the changes it recommended', href: '/entities/agencies/cdc' },
+      { id: '3', name: 'CDC', type: 'agency', relationship: 'Identified the blood supply risk in 1982 and issued warnings in January 1983 that were resisted by the blood banking industry and pharmaceutical companies; lacked enforcement authority to mandate the changes it recommended', href: '/entities/agencies/cdc' }
     ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-08-01',
@@ -2816,7 +2730,7 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '1997', event: 'In 1997, Japan criminally charged two former executives of Green Cross Corporation (a Japanese distributor of American blood products) and a former Japanese Health Ministry official', type: 'default' },
      { date: '1998', event: 'The Ricky Ray Hemophilia Relief Fund Act (Public Law 105-369), passed in 1998, provided $100,000 payments to hemophilia patients who were infected with HIV through contaminated blood products, but', type: 'political' },
      { date: '1999', event: 'In France, in 1999, three government health officials were convicted for their role in the contaminated blood scandal', type: 'legal' },
-     { date: '2024-05-20', event: 'In the United Kingdom, the Infected Blood Inquiry, chaired by Sir Brian Langstaff, published its final report on May 20, 2024, finding that more than 30,000 people in the UK were infected with HIV', type: 'default' },
+     { date: '2024-05-20', event: 'In the United Kingdom, the Infected Blood Inquiry, chaired by Sir Brian Langstaff, published its final report on May 20, 2024, finding that more than 30,000 people in the UK were infected with HIV', type: 'default' }
    ],
   },
   'facial-recognition-surveillance': {
@@ -2836,7 +2750,7 @@ const investigations_f: Record<string, InvestigationData> = {
    'Amazon lobbied against facial recognition regulation while simultaneously selling its Rekognition system to law enforcement, a conflict of interest rarely covered in media.',
    'The FBI has built one of the largest facial recognition databases in the world by incorporating state DMV photos, but has provided minimal information to Congress about the scope of the system.',
    'When members of Congress were falsely matched to mugshots by Amazon\'s system, the company blamed the testing methodology rather than acknowledging the technology\'s fundamental bias.',
-   'No federal law requires police to disclose when facial recognition was used to develop a lead, meaning the true number of wrongful arrests is likely far higher than the handful of documented cases.',
+   'No federal law requires police to disclose when facial recognition was used to develop a lead, meaning the true number of wrongful arrests is likely far higher than the handful of documented cases.'
  ],
  tags: ['military-foreign-policy', 'war', 'surveillance', 'accountability'],
  sources: [
@@ -2847,7 +2761,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { title: 'Washington Post, Porcha Woodruff Wrongful Arrest', url: 'https://www.washingtonpost.com/technology/2023/08/10/facial-recognition-arrest-detroit/', type: 'Article' },
    { title: 'NIST (Face Recognition Vendor Test) Demographic Effects', url: 'https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt', type: 'Article' },
    { title: 'The Intercept, How Police Use Facial Recognition', url: 'https://theintercept.com/2016/10/13/how-a-facial-recognition-mismatch-can-ruin-your-life/', type: 'Article' },
-   { title: 'MIT Technology Review, The Fight Against Facial Recognition', url: 'https://www.technologyreview.com/2021/02/05/1017388/activists-fighting-facial-recognition/', type: 'Article' },
+   { title: 'MIT Technology Review, The Fight Against Facial Recognition', url: 'https://www.technologyreview.com/2021/02/05/1017388/activists-fighting-facial-recognition/', type: 'Article' }
  ],
  affiliations: [
    { id: 'hoan-ton-that', name: 'Hoan Ton-That', type: 'individual', relationship: 'CEO of Clearview AI; scraped 30B+ images from the internet for facial recognition database', href: '/entities/individuals/hoan-ton-that' },
@@ -2860,7 +2774,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { id: 'richard-schwartz', name: 'Richard Schwartz', type: 'individual', relationship: 'Co-founder of Clearview AI; former Rudy Giuliani aide', href: '/entities/individuals/richard-schwartz' },
    { id: 'amazon-rekognition', name: 'Amazon (Rekognition)', type: 'individual', relationship: 'Sold facial recognition system to police; paused sales in 2020 after protests', href: '/entities/corporations/amazon' },
    { id: 'james-craig', name: 'James Craig', type: 'individual', relationship: 'Detroit Police Chief who defended facial recognition use despite wrongful arrests', href: '/entities/individuals/james-craig' },
-   { id: 'clare-garvie', name: 'Clare Garvie', type: 'individual', relationship: 'Georgetown Law researcher who documented law enforcement facial recognition use', href: '/entities/individuals/clare-garvie' },
+   { id: 'clare-garvie', name: 'Clare Garvie', type: 'individual', relationship: 'Georgetown Law researcher who documented law enforcement facial recognition use', href: '/entities/individuals/clare-garvie' }
  ],
  timeline: [
    { date: '2016', event: 'Georgetown Law study reveals half of American adults are in a law enforcement facial recognition database' },
@@ -2879,7 +2793,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: '2023', event: 'Clearview AI database grows to 30+ billion images; expands sales to international government agencies' },
    { date: '2024', event: 'No federal law regulating facial recognition exists; only a patchwork of local bans and restrictions' },
    { date: '2024', event: 'Multiple European countries fine Clearview AI for GDPR violations; company continues U.S. operations unaffected' },
-   { date: 'Ongoing', event: 'At least 7 documented wrongful arrests of Black individuals due to facial recognition; true number likely far higher' },
+   { date: 'Ongoing', event: 'At least 7 documented wrongful arrests of Black individuals due to facial recognition; true number likely far higher' }
  ],
  statutes: [
    { code: '4th Amendment, Unreasonable Search', description: 'Using facial recognition to identify individuals without warrants, probable cause, or reasonable suspicion' },
@@ -2889,7 +2803,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { code: 'Brady v. Maryland, Disclosure Obligations', description: 'Prosecutors and police failing to disclose use of facial recognition in criminal cases' },
    { code: 'Computer Fraud and Abuse Act (18 U.S.C. § 1030)', description: 'Clearview AI scraped data from websites in violation of their terms of service' },
    { code: 'GDPR, EU General Data Protection Regulation', description: 'Processing of biometric data without legal basis or consent' },
-   { code: '1st Amendment, Chilling Effect', description: 'Mass facial recognition surveillance deters exercise of free speech and assembly rights' },
+   { code: '1st Amendment, Chilling Effect', description: 'Mass facial recognition surveillance deters exercise of free speech and assembly rights' }
  ],
  defendants: [
    { name: 'Clearview AI', role: 'Scraping billions of photos from social media platforms in violation of terms of service and privacy laws', status: 'charged', notes: 'ACLU settlement bans sales to private companies; no ban on sales to government; fined in EU' },
@@ -2899,7 +2813,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'Various Police Departments', role: 'Using facial recognition without disclosure to courts, defendants, or the public', status: 'charged', notes: 'No systematic reforms; most departments have no public policy on the technology' },
    { name: 'ICE / CBP', role: 'Using facial recognition for immigration enforcement and border surveillance', status: 'charged', notes: 'Programs expanded under multiple administrations; minimal Congressional oversight' },
    { name: 'Clearview AI', role: 'Violating Illinois Biometric Information Privacy Act (BIPA)', status: 'charged', notes: 'Settlement includes ban on private sales but government use continues' },
-   { name: 'NJ State Police', role: 'Wrongful arrest and 10-day detention of Nijeer Parks based on false match', status: 'charged', notes: 'Charges dropped; Parks filed civil rights lawsuit' },
+   { name: 'NJ State Police', role: 'Wrongful arrest and 10-day detention of Nijeer Parks based on false match', status: 'charged', notes: 'Charges dropped; Parks filed civil rights lawsuit' }
  ],
   },
   'fake-electors': {
@@ -2917,7 +2831,7 @@ const investigations_f: Record<string, InvestigationData> = {
    'Trump campaign officials coordinated the scheme simultaneously across seven states, demonstrating a centralized conspiracy rather than independent state actions',
    'Some fake electors later claimed they were told the certificates were merely "contingency" documents, contradicting internal communications showing intent to deceive',
    'RNC officials were involved in organizing fake elector meetings in several states, but the full extent of national party involvement remains under investigation',
-   'After exposure, several co-conspirators negotiated plea deals and agreed to testify against remaining defendants, revealing the coordinated nature of the scheme',
+   'After exposure, several co-conspirators negotiated plea deals and agreed to testify against remaining defendants, revealing the coordinated nature of the scheme'
  ],
  tags: ['Fake Electors', 'Election Fraud', 'January 6', 'RICO', 'Electoral College', 'Trump'],
  sources: [
@@ -2926,7 +2840,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Article' },
    { title: 'Michigan AG Fake Electors Charges', url: 'https://www.michigan.gov/ag/news/press-releases/2023/07/18/ag-nessel-charges-16-individuals-as-false-electors', type: 'Article' },
    { title: 'Arizona AG Fake Electors Indictment', url: 'https://www.azag.gov/', type: 'Article' },
-   { title: 'Nevada AG Fake Electors Charges', url: 'https://ag.nv.gov/', type: 'Article' },
+   { title: 'Nevada AG Fake Electors Charges', url: 'https://ag.nv.gov/', type: 'Article' }
  ],
  affiliations: [
    { id: 'kenneth-chesebro', name: 'Kenneth Chesebro', type: 'individual', relationship: 'Architect, Wrote memos outlining scheme', href: '/entities/individuals/kenneth-chesebro' },
@@ -2935,7 +2849,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { id: 'rudy-giuliani', name: 'Rudy Giuliani', type: 'individual', relationship: 'Coordinated fake elector meetings', href: '/entities/individuals/rudy-giuliani' },
    { id: 'mark-meadows', name: 'Mark Meadows', type: 'individual', relationship: 'White House coordination', href: '/entities/individuals/mark-meadows' },
    { id: 'boris-epshteyn', name: 'Boris Epshteyn', type: 'individual', relationship: 'Coordinated state-level implementation', href: '/entities/individuals/boris-epshteyn' },
-   { id: 'mike-pence', name: 'Mike Pence', type: 'individual', relationship: 'Refused to accept fake electors on January 6', href: '/entities/individuals/mike-pence' },
+   { id: 'mike-pence', name: 'Mike Pence', type: 'individual', relationship: 'Refused to accept fake electors on January 6', href: '/entities/individuals/mike-pence' }
  ],
  timeline: [
    { date: 'Nov 3, 2020', event: 'Election Day, Biden wins all seven targeted states' },
@@ -2953,14 +2867,14 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: 'Aug 2023', event: 'Trump indicted federally for fake electors scheme' },
    { date: 'Aug 2023', event: 'Georgia RICO indictment includes fake electors charges' },
    { date: 'Oct 2023', event: 'Chesebro pleads guilty in Georgia' },
-   { date: '2024', event: 'Arizona, Michigan, Nevada file charges against fake electors' },
+   { date: '2024', event: 'Arizona, Michigan, Nevada file charges against fake electors' }
  ],
  statutes: [
    { code: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States' },
    { code: 'O.C.G.A. § 16-14-4', description: 'Georgia RICO, Pattern of racketeering activity' },
    { code: '18 U.S.C. § 1512', description: 'Obstruction of official proceeding' },
    { code: 'Forgery statutes', description: 'Creating fraudulent electoral certificates' },
-   { code: 'Election fraud statutes', description: 'Submitting false election documents' },
+   { code: 'Election fraud statutes', description: 'Submitting false election documents' }
  ],
  defendants: [
    { name: 'Kenneth Chesebro', role: 'Georgia RICO, Conspiracy to Commit Filing False Documents', status: 'convicted', notes: 'Pleaded guilty - 5 years probation (October 2023)' },
@@ -2968,7 +2882,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'Jenna Ellis', role: 'Georgia RICO, Aiding and Abetting False Statements', status: 'convicted', notes: 'Pleaded guilty - 5 years probation, $5,000 restitution (October 2023)' },
    { name: 'Scott Hall', role: 'Georgia RICO, Conspiracy to Commit Election Fraud', status: 'convicted', notes: 'Pleaded guilty - 5 years probation, 200 hours community service (September 2023)' },
    { name: 'Michigan Fake Electors (16)', role: 'Election Law Forgery, Filing False Documents', status: 'charged', notes: '16 individuals charged by Michigan AG (July 2023)' },
-   { name: 'Arizona Fake Electors', role: 'Conspiracy, Fraud, Forgery', status: 'charged', notes: 'Multiple indictments by Arizona AG (2024)' },
+   { name: 'Arizona Fake Electors', role: 'Conspiracy, Fraud, Forgery', status: 'charged', notes: 'Multiple indictments by Arizona AG (2024)' }
  ],
   },
   'family-separation': {
@@ -2991,21 +2905,21 @@ const investigations_f: Record<string, InvestigationData> = {
    'Promoted white nationalist literature and websites',
    'Pushed for faster, more aggressive separations',
    'Sought to remove legal protections for immigrant children',
-   'Proposed denying asylum to domestic violence survivors',
+   'Proposed denying asylum to domestic violence survivors'
  ],
  tags: ['political-accountability'],
  sources: [
    { title: 'HHS Inspector General Report', url: 'https://oig.hhs.gov/oei/reports/oei-BL-18-00511.pdf', type: 'Article' },
    { title: 'ACLU Family Separation Report', url: 'https://www.aclu.org/report/family-separation-by-the-numbers', type: 'Article' },
    { title: 'Ms. L v. ICE (Class Action)', url: 'https://www.aclu.org/cases/ms-l-v-ice', type: 'Article' },
-   { title: 'DHS IG Report on Child Deaths', url: 'https://www.oig.dhs.gov/sites/default/files/assets/2019-09/OIG-19-63-Sep19.pdf', type: 'Article' },
+   { title: 'DHS IG Report on Child Deaths', url: 'https://www.oig.dhs.gov/sites/default/files/assets/2019-09/OIG-19-63-Sep19.pdf', type: 'Article' }
  ],
  affiliations: [
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Ordered zero tolerance policy, signed executive order after outcry', href: '/entities/individuals/donald-trump' },
    { id: 'jeff-sessions', name: 'Jeff Sessions', type: 'individual', relationship: 'Announced zero tolerance, quoted Bible to justify separations', href: '/entities/individuals/jeff-sessions' },
    { id: 'stephen-miller', name: 'Stephen Miller', type: 'individual', relationship: 'White House advisor, chief architect of family separation policy', href: '/entities/individuals/stephen-miller' },
    { id: 'kirstjen-nielsen', name: 'Kirstjen Nielsen', type: 'individual', relationship: 'DHS Secretary, denied policy existed then defended it', href: '/entities/individuals/kirstjen-nielsen' },
-   { id: 'john-kelly', name: 'John Kelly', type: 'individual', relationship: 'Chief of Staff, proposed separation as deterrent', href: '/entities/individuals/john-kelly' },
+   { id: 'john-kelly', name: 'John Kelly', type: 'individual', relationship: 'Chief of Staff, proposed separation as deterrent', href: '/entities/individuals/john-kelly' }
  ],
  timeline: [
    { date: 'Feb 2017', event: 'DHS Secretary Kelly proposes family separation as deterrent' },
@@ -3024,7 +2938,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: 'May 2019', event: 'Three more children die in custody' },
    { date: 'Nov 2019', event: 'Stephen Miller\'s white nationalist emails leaked' },
    { date: 'Jan 2021', event: 'Biden creates task force to reunify families' },
-   { date: '2023', event: 'Hundreds of children still not reunited' },
+   { date: '2023', event: 'Hundreds of children still not reunited' }
  ],
  statutes: [
    { code: 'U.S. Const. Amend. V', description: 'Due Process Clause violations, separating children from parents without adequate process or tracking systems' },
@@ -3033,7 +2947,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { code: '8 U.S.C. § 1232', description: 'Trafficking Victims Protection Reauthorization Act violations, failure to properly process and protect unaccompanied minors' },
    { code: '18 U.S.C. § 1589', description: 'Forced labor, reports of detained children performing labor in facilities' },
    { code: 'Flores Settlement Agreement (1997)', description: 'Violation of court-ordered standards for detention of immigrant children' },
-   { code: '18 U.S.C. § 1591', description: 'Sex trafficking concerns, children placed with sponsors without adequate background checks' },
+   { code: '18 U.S.C. § 1591', description: 'Sex trafficking concerns, children placed with sponsors without adequate background checks' }
  ],
  defendants: [
    { name: 'U.S. Government (DHS/HHS)', role: 'Violation of due process rights of separated families', status: 'charged', notes: 'Ms. L v. ICE, Court ordered reunification within 30 days (June 2018)' },
@@ -3041,7 +2955,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'CBP Officers', role: 'Negligent death of children in custody', status: 'charged', notes: '7 children died in CBP custody 2018-2019; internal investigations but no criminal charges' },
    { name: 'Jeff Sessions/DOJ', role: 'Implementing zero tolerance policy without family tracking system', status: 'charged', notes: 'HHS IG found thousands more children separated than disclosed; Sessions resigned November 2018' },
    { name: 'Scott Lloyd (ORR Director)', role: 'Blocking reproductive healthcare for detained minors', status: 'charged', notes: 'Federal court held actions unconstitutional; Lloyd reassigned' },
-   { name: 'Trump Administration', role: 'Failure to reunify separated families', status: 'charged', notes: 'Biden Task Force created January 2021; hundreds still unreunited as of 2023' },
+   { name: 'Trump Administration', role: 'Failure to reunify separated families', status: 'charged', notes: 'Biden Task Force created January 2021; hundreds still unreunited as of 2023' }
  ],
   },
   'federalist-society': {
@@ -3061,7 +2975,7 @@ const investigations_f: Record<string, InvestigationData> = {
    'Samuel Alito published a preemptive defense in the Wall Street Journal before ProPublica\'s Alaska trip story was published, demonstrating he had advance knowledge of the investigation and coordinated a media strategy rather than addressing the ethical violations.',
    'The Federalist Society\'s role in judicial selection is deliberately kept informal, there are no official documents, no formal nomination lists, no paper trail. Leo communicates through phone calls and personal meetings, ensuring the capture of the judiciary leaves minimal evidence.',
    'After the Dobbs decision overturning Roe v. Wade, Federalist Society members and allies insist the decision was based on"pure legal reasoning "and" originalism"- obscuring the 40-year, billion-dollar campaign specifically designed to produce exactly this outcome.',
-   'Supreme Court Chief Justice John Roberts convened the Court to adopt a voluntary"ethics code"in November 2023; which contained no enforcement mechanism and did not require any justice to recuse or change behavior, allowing the ethical crisis to continue unchecked.',
+   'Supreme Court Chief Justice John Roberts convened the Court to adopt a voluntary"ethics code"in November 2023; which contained no enforcement mechanism and did not require any justice to recuse or change behavior, allowing the ethical crisis to continue unchecked.'
  ],
  tags: ['financial-crime', 'justice'],
  sources: [
@@ -3074,7 +2988,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { title: 'OpenSecrets -"Leonard Leo\'s Dark Money Network Analysis"', url: 'https://www.opensecrets.org/news/2023/04/leonard-leos-dark-money-network/', type: 'Article' },
    { title: 'Senate Judiciary Committee -"Subpoenas to Harlan Crow and Leonard Leo"', url: 'https://www.judiciary.senate.gov/press/dem/releases/judiciary-committee-issues-subpoenas-to-harlan-crow-and-leonard-leo', type: 'Article' },
    { title: 'The Intercept -"How Dark Money Shaped the Supreme Court"', url: 'https://theintercept.com/2022/07/01/dark-money-supreme-court-leonard-leo/', type: 'Article' },
-   { title: 'NPR -"The Federalist Society: From Fringe to Mainstream"', url: 'https://www.npr.org/2023/11/07/1211098680/the-federalist-society-supreme-court', type: 'Article' },
+   { title: 'NPR -"The Federalist Society: From Fringe to Mainstream"', url: 'https://www.npr.org/2023/11/07/1211098680/the-federalist-society-supreme-court', type: 'Article' }
  ],
  affiliations: [
    { id: 'leonard-leo', name: 'Leonard Leo', type: 'individual', relationship: 'Federalist Society Executive Vice President and de facto kingmaker of the federal judiciary. Controls a $1.6 billion dark money network through interlocking nonprofits. Personally selected and managed confirmation campaigns for all six conservative Supreme Court justices. Under investigation by DC Attorney General.', href: '/entities/individuals/leonard-leo' },
@@ -3090,7 +3004,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { id: 'edwin-meese-iii', name: 'Edwin Meese III', type: 'individual', relationship: 'Reagan Attorney General and Federalist Society founding patron. Championed "originalism" as judicial philosophy. Chair of Heritage Foundation\'s Center for Legal and Judicial Studies. Key link between Federalist Society and Project 2025.', href: '/entities/individuals/edwin-meese' },
    { id: 'harlan-crow', name: 'Harlan Crow', type: 'individual', relationship: 'Billionaire real estate developer and Federalist Society donor who gave Clarence Thomas millions in undisclosed gifts, luxury vacations, private jet flights, yacht trips, real estate, and private school tuition for Thomas\'s grandnephew.', href: '/entities/individuals/harlan-crow' },
    { id: 'ginni-thomas', name: 'Ginni Thomas', type: 'individual', relationship: 'Conservative activist and wife of Justice Thomas who lobbied to overturn the 2020 election while her husband ruled on related cases. Received payments through a Leonard Leo-connected nonprofit. Texted Mark Meadows urging"martial law."', href: '/entities/individuals/ginni-thomas' },
-   { id: 'john-yoo', name: 'John Yoo', type: 'individual', relationship: 'Federalist Society member who authored the Bush-era "Torture Memos"providing legal cover for CIA waterboarding and enhanced interrogation. Now a UC Berkeley professor, the Federalist Society as career protection for architects of illegal policy.', href: '/entities/individuals/john-yoo' },
+   { id: 'john-yoo', name: 'John Yoo', type: 'individual', relationship: 'Federalist Society member who authored the Bush-era "Torture Memos"providing legal cover for CIA waterboarding and enhanced interrogation. Now a UC Berkeley professor, the Federalist Society as career protection for architects of illegal policy.', href: '/entities/individuals/john-yoo' }
  ],
  timeline: [
    { date: '1982', event: 'Federalist Society founded at Yale Law School, Harvard Law School, and University of Chicago Law School by law students who felt legal academia was too liberal, with funding from conservative foundations' },
@@ -3114,7 +3028,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: '2022-08-22', event: 'Barre Seid donates $1.6 billion to Leo-controlled Marble Freedom Trust, the largest known dark money donation in U.S. history, giving Leo unprecedented financial power over politics and the judiciary' },
    { date: '2023-04-06', event: 'ProPublica reveals Clarence Thomas accepted decades of undisclosed luxury travel, gifts, and real estate transactions from Harlan Crow, the beginning of a series of Supreme Court ethics scandals' },
    { date: '2023-06-20', event: 'ProPublica reveals Samuel Alito accepted undisclosed luxury Alaska fishing trip from billionaire Paul Singer, then failed to recuse from Singer\'s cases, further exposing the Court\'s ethics crisis' },
-   { date: '2024-07-01', event: 'Senate Judiciary Committee issues subpoenas to Harlan Crow and Leonard Leo, both refuse to comply, asserting the Senate has no authority to investigate the Supreme Court\'s ethical failures' },
+   { date: '2024-07-01', event: 'Senate Judiciary Committee issues subpoenas to Harlan Crow and Leonard Leo, both refuse to comply, asserting the Senate has no authority to investigate the Supreme Court\'s ethical failures' }
  ],
  statutes: [
    { code: '18 U.S.C. § 201: Bribery of Public Officials', description: 'Providing luxury vacations, private jet flights, yacht trips, real estate, and tuition payments to a sitting Supreme Court justice while having cases before the Court constitutes bribery' },
@@ -3125,7 +3039,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { code: '52 U.S.C. § 30121: Foreign Money in Elections', description: 'The dark money flowing through Leo\'s anonymous donor network creates the potential for foreign money to influence judicial confirmations, the anonymity is the point' },
    { code: '18 U.S.C. § 371: Conspiracy', description: 'Coordinated, decades-long conspiracy between the Federalist Society, conservative donors, and Senate Republicans to capture the federal judiciary through dark money and norm-breaking' },
    { code: '18 U.S.C. § 1001: False Statements', description: 'Filing financial disclosure forms that omit required gifts, travel, and transactions constitutes making false statements to the federal government' },
-   { code: 'DC Charitable Solicitation Laws', description: 'DC Attorney General investigating whether Leo\'s nonprofits violated charitable solicitation requirements and engaged in self-dealing, using charity funds for political and personal purposes' },
+   { code: 'DC Charitable Solicitation Laws', description: 'DC Attorney General investigating whether Leo\'s nonprofits violated charitable solicitation requirements and engaged in self-dealing, using charity funds for political and personal purposes' }
  ],
  defendants: [
    { name: 'Leonard Leo / Dark Money Network', role: 'DC Attorney General investigation into whether Leo\'s network of nonprofits violated charitable solicitation laws and engaged in self-dealing', status: 'charged', notes: 'Investigation ongoing, Leo has refused to comply with subpoenas' },
@@ -3135,7 +3049,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'Senate Republicans (Garland Blockade)', role: 'Refused to hold hearings or vote on a Supreme Court nominee for 293 days, an unprecedented act that violated the spirit of the Constitution\'s Advice and Consent clause', status: 'charged', notes: 'No legal remedy, the theft of a Supreme Court seat has permanently altered American law' },
    { name: 'Harlan Crow', role: 'Provided millions in undisclosed gifts to a sitting Supreme Court justice while having interests before the Court, potential bribery and corruption', status: 'charged', notes: 'Subpoenaed by Senate Judiciary Committee, refused to comply' },
    { name: 'Ginni Thomas', role: 'Lobbied to overturn 2020 election while husband Justice Thomas ruled on related cases, Thomas refused to recuse from election-related cases despite his wife\'s direct involvement', status: 'charged', notes: 'No consequences, Justice Thomas has not recused from any case despite documented conflicts' },
-   { name: 'Citizens United Impact', role: 'The Citizens United decision unleashed unlimited dark money in politics, the very dark money that funds the Federalist Society\'s judicial capture operation', status: 'charged', notes: 'The decision created a self-reinforcing cycle: dark money captures courts, captured courts protect dark money' },
+   { name: 'Citizens United Impact', role: 'The Citizens United decision unleashed unlimited dark money in politics, the very dark money that funds the Federalist Society\'s judicial capture operation', status: 'charged', notes: 'The decision created a self-reinforcing cycle: dark money captures courts, captured courts protect dark money' }
  ],
   },
   'forced-sterilization': {
@@ -3155,7 +3069,7 @@ const investigations_f: Record<string, InvestigationData> = {
    'Harry Laughlin received an honorary degree from the University of Heidelberg in 1936 for his contributions to"racial hygiene"- the Nazi connection was downplayed after WWII',
    'California\'s eugenics program operated largely out of public view, the state sterilized more people than any other but received less scrutiny than Southern programs',
    'North Carolina\'s Eugenics Board minutes show social workers and officials targeting Black families specifically, the racial targeting was systematic, not incidental',
-   'Federal regulations requiring informed consent for sterilization (1974) were routinely ignored in practice, particularly in prisons and institutions for the developmentally disabled',
+   'Federal regulations requiring informed consent for sterilization (1974) were routinely ignored in practice, particularly in prisons and institutions for the developmentally disabled'
  ],
  tags: ['criminal-justice', 'justice'],
  sources: [
@@ -3167,7 +3081,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { title: 'PBS, The Eugenics Crusade: What\'s Wrong with Perfect?', url: 'https://www.pbs.org/wgbh/americanexperience/films/eugenics-crusade/', type: 'Article' },
    { title: 'California state auditor, Sterilization of Female Inmates', url: 'https://www.auditor.ca.gov/pdfs/reports/2013-120.pdf', type: 'Article' },
    { title: 'Buck v. Bell, 274 U.S. 200 (1927): Supreme Court Opinion', url: 'https://supreme.justia.com/cases/federal/us/274/200/', type: 'Article' },
-   { title: 'NPR, California Forced Sterilization Reparations', url: 'https://www.npr.org/2022/01/05/1070311271/california-forced-sterilization-reparations', type: 'Article' },
+   { title: 'NPR, California Forced Sterilization Reparations', url: 'https://www.npr.org/2022/01/05/1070311271/california-forced-sterilization-reparations', type: 'Article' }
  ],
  affiliations: [
    { id: 'harry-laughlin', name: 'Harry Laughlin', type: 'individual', relationship: 'Eugenics Record Office superintendent who drafted model sterilization law adopted by 30 states', href: '/entities/individuals/harry-laughlin' },
@@ -3180,7 +3094,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { id: 'elaine-riddick', name: 'Elaine Riddick', type: 'individual', relationship: 'Sterilized at age 14 in North Carolina, became prominent activist for survivors', href: '/entities/individuals/elaine-riddick' },
    { id: 'dr-condie', name: 'Dr. Condie', type: 'individual', relationship: 'Indian Health Service physician who performed sterilizations without informed consent', href: '/entities/individuals/dr-condie' },
    { id: 'mary-alice-relf', name: 'Mary Alice Relf', type: 'individual', relationship: '12-year-old Black girl sterilized by federally funded Alabama clinic without consent', href: '/entities/individuals/mary-alice-relf' },
-   { id: 'minnie-lee-relf', name: 'Minnie Lee Relf', type: 'individual', relationship: '14-year-old Black girl sterilized alongside her sister by Alabama clinic', href: '/entities/individuals/minnie-lee-relf' },
+   { id: 'minnie-lee-relf', name: 'Minnie Lee Relf', type: 'individual', relationship: '14-year-old Black girl sterilized alongside her sister by Alabama clinic', href: '/entities/individuals/minnie-lee-relf' }
  ],
  timeline: [
    { date: '1896', event: 'Connecticut passes first law restricting marriage of"eugenically unfit"individuals' },
@@ -3200,7 +3114,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: '2002', event: 'Oregon governor apologizes for state eugenics program, first formal state apology' },
    { date: '2013', event: 'North Carolina establishes compensation fund for sterilization survivors; $10M for estimated 7,600 victims' },
    { date: '2014', event: 'California audit reveals 148 women sterilized in state prisons 2006-2010 without proper consent' },
-   { date: '2020', event: 'Whistleblower alleges hysterectomies performed on ICE detainees at Irwin County Detention Center' },
+   { date: '2020', event: 'Whistleblower alleges hysterectomies performed on ICE detainees at Irwin County Detention Center' }
  ],
  statutes: [
    { code: '42 U.S.C. § 1983: Civil Rights', description: 'State-sponsored deprivation of bodily autonomy and reproductive rights on basis of race, disability, and poverty' },
@@ -3210,7 +3124,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'Coordinated state programs to deny reproductive rights to targeted populations' },
    { code: '18 U.S.C. § 1111: Assault/Battery', description: 'Surgical removal of reproductive organs without consent constitutes battery' },
    { code: 'Convention on the Prevention of Genocide, Article II(d)', description: 'Imposing measures intended to prevent births within a group, targeting of minorities' },
-   { code: '8th Amendment, Cruel and Unusual Punishment', description: 'Sterilization of prisoners and institutionalized persons as condition of release' },
+   { code: '8th Amendment, Cruel and Unusual Punishment', description: 'Sterilization of prisoners and institutionalized persons as condition of release' }
  ],
  defendants: [
    { name: 'Buck v. Bell (1927)', role: 'Constitutionality of forced sterilization', status: 'charged', notes: 'Supreme Court upholds 8-1; decision has NEVER been explicitly overturned' },
@@ -3220,7 +3134,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'Relf v. Weinberger', role: 'Federal funding of nonconsensual sterilizations', status: 'charged', notes: 'Federal regulations implemented requiring informed consent' },
    { name: 'Indian Health Service', role: 'Non-consensual sterilization of Native American women', status: 'charged', notes: 'GAO investigation confirmed abuses, no prosecutions' },
    { name: 'California Prisons', role: '148 unauthorized sterilizations of women inmates 2006-2010', status: 'incarcerated', notes: 'State law passed banning prison sterilization, no criminal charges' },
-   { name: 'ICE / Irwin County Detention Center', role: 'Alleged non-consensual hysterectomies on detained immigrants', status: 'charged', notes: 'DHS investigation opened, facility closed, no criminal prosecution' },
+   { name: 'ICE / Irwin County Detention Center', role: 'Alleged non-consensual hysterectomies on detained immigrants', status: 'charged', notes: 'DHS investigation opened, facility closed, no criminal prosecution' }
  ],
   },
   'fox-news-propaganda': {
@@ -3240,7 +3154,7 @@ const investigations_f: Record<string, InvestigationData> = {
    'Roger Ailes built Fox News explicitly as a Republican propaganda outlet, documents from his time as a Nixon media advisor lay out the blueprint for a partisan news network.',
    'Fox fired Tucker Carlson days after the $787.5M Dominion settlement but publicly claimed the firing was unrelated, despite overwhelming circumstantial evidence.',
    'The Murdoch family controls Fox Corporation through a dual-class share structure that allows them to maintain editorial control despite public shareholders, insulating them from accountability.',
-   'Fox\'s"opinion vs. news"distinction is used as a legal shield, but studies show viewers cannot distinguish between its "news" and "opinion" programming, and hosts routinely blur the lines.',
+   'Fox\'s"opinion vs. news"distinction is used as a legal shield, but studies show viewers cannot distinguish between its "news" and "opinion" programming, and hosts routinely blur the lines.'
  ],
  tags: ['financial-crime', 'fraud', 'war'],
  sources: [
@@ -3251,7 +3165,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { title: 'Dark Money, Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215146/dark-money-by-jane-mayer/', type: 'Article' },
    { title: 'Hoax: Donald Trump, Fox News, and the Dangerous Distortion of Truth, Brian Stelter', url: 'https://www.simonandschuster.com/books/Hoax/Brian-Stelter/9781982142452', type: 'Article' },
    { title: 'Network Propaganda, Benkler, Faris & Roberts', url: 'https://www.oxfordscholarship.com/view/10.1093/oso/9780190923624.001.0001/oso-9780190923624', type: 'Article' },
-   { title: 'PRRI Study, Fox News and Misinformation', url: 'https://www.prri.org/research/media-consumption-covid-19/', type: 'Article' },
+   { title: 'PRRI Study, Fox News and Misinformation', url: 'https://www.prri.org/research/media-consumption-covid-19/', type: 'Article' }
  ],
  affiliations: [
    { id: 'rupert-murdoch', name: 'Rupert Murdoch', type: 'individual', relationship: 'Fox Corporation chairman who admitted under oath that Fox hosts endorsed election lies', href: '/entities/individuals/rupert-murdoch' },
@@ -3264,7 +3178,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { id: 'suzanne-scott', name: 'Suzanne Scott', type: 'individual', relationship: 'Fox News CEO who oversaw the network during the election lies crisis', href: '/entities/individuals/suzanne-scott' },
    { id: 'lachlan-murdoch', name: 'Lachlan Murdoch', type: 'individual', relationship: 'Fox Corporation CEO who approved the editorial direction', href: '/entities/individuals/lachlan-murdoch' },
    { id: 'sidney-powell', name: 'Sidney Powell', type: 'individual', relationship: 'Attorney whose wild fraud claims Fox amplified despite knowing they were false', href: '/entities/individuals/sidney-powell' },
-   { id: 'dominion-voting-systems', name: 'Dominion Voting Systems', type: 'individual', relationship: 'Company whose defamation lawsuit exposed Fox\'s internal knowledge of lies', href: '/entities/corporations/dominion-voting' },
+   { id: 'dominion-voting-systems', name: 'Dominion Voting Systems', type: 'individual', relationship: 'Company whose defamation lawsuit exposed Fox\'s internal knowledge of lies', href: '/entities/corporations/dominion-voting' }
  ],
  timeline: [
    { date: 'October 1996', event: 'Fox News Channel launches under Roger Ailes with "Fair and Balanced"slogan' },
@@ -3283,7 +3197,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: 'April 18, 2023', event: 'Fox settles Dominion lawsuit for $787.5 million, largest defamation settlement in history' },
    { date: 'April 24, 2023', event: 'Tucker Carlson fired; Fox claims unrelated to settlement' },
    { date: '2023', event: 'Smartmatic\'s $2.7 billion defamation lawsuit against Fox proceeds toward trial' },
-   { date: '2024', event: 'Fox continues same editorial approach; no structural reforms implemented post-settlement' },
+   { date: '2024', event: 'Fox continues same editorial approach; no structural reforms implemented post-settlement' }
  ],
  statutes: [
    { code: 'Defamation, Actual Malice (NYT v. Sullivan Standard)', description: 'Broadcasting false statements with knowledge of their falsity or reckless disregard for truth' },
@@ -3293,7 +3207,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { code: 'Intentional Infliction of Emotional Distress', description: 'Election workers received death threats after Fox amplified false fraud claims' },
    { code: 'Conspiracy to Defraud the United States (18 U.S.C. § 371)', description: 'Coordinating with political operatives to spread false information undermining confidence in elections' },
    { code: 'Workplace Discrimination, Title VII', description: 'Systematic sexual harassment and hostile work environment for women' },
-   { code: 'Public Interest Standard, FCC', description: 'Broadcast licensees must serve the public interest; Fox stations carry programming proven to be deliberately false' },
+   { code: 'Public Interest Standard, FCC', description: 'Broadcast licensees must serve the public interest; Fox stations carry programming proven to be deliberately false' }
  ],
  defendants: [
    { name: 'Fox News / Fox Corporation', role: 'Defamation, knowingly broadcasting false claims about Dominion Voting Systems', status: 'settled', notes: 'Settled for $787.5 million, largest defamation settlement in U.S. history' },
@@ -3303,7 +3217,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'Tucker Carlson', role: 'Cited by Dominion as knowingly spreading false claims', status: 'charged', notes: 'Fired days after Dominion settlement; no personal legal consequences' },
    { name: 'Fox Corporation', role: 'Shareholder lawsuits alleging breach of fiduciary duty', status: 'charged', notes: 'Derivative suits filed arguing Murdoch family prioritized politics over shareholder value' },
    { name: 'Sidney Powell', role: 'Conspiracy to overturn 2020 election results', status: 'convicted', notes: 'Pleaded guilty in Georgia RICO case; Fox amplified her claims knowing they were false' },
-   { name: 'Fox News', role: 'FTC complaints about deceptive advertising and misleading "news" branding', status: 'charged', notes: 'No regulatory action; First Amendment protections shield editorial decisions' },
+   { name: 'Fox News', role: 'FTC complaints about deceptive advertising and misleading "news" branding', status: 'charged', notes: 'No regulatory action; First Amendment protections shield editorial decisions' }
  ],
   },
   'fred-hampton-assassination': {
@@ -3323,7 +3237,7 @@ const investigations_f: Record<string, InvestigationData> = {
    'The federal grand jury returned no indictments despite overwhelming evidence of a coordinated assassination operation',
    'O\'Neal received a bonus from the FBI after the successful raid and continued as an informant for years',
    'It took 13 years of civil litigation to achieve even a financial settlement, and no individual was ever held criminally accountable',
-   'Hampton\'s fiancée Deborah Johnson, 8 months pregnant, testified that officers shot Hampton point-blank in the head while he lay drugged in bed',
+   'Hampton\'s fiancée Deborah Johnson, 8 months pregnant, testified that officers shot Hampton point-blank in the head while he lay drugged in bed'
  ],
  tags: ['criminal-justice', 'assassination'],
  sources: [
@@ -3334,7 +3248,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { title: 'Hampton v. Hanrahan, Civil Rights Lawsuit', url: 'https://law.justia.com/cases/federal/appellate-courts/F2/600/600/330089/', type: 'Article' },
    { title: 'Church Committee Report on COINTELPRO', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', type: 'Article' },
    { title: 'William O\'Neal: The FBI Informant Who Betrayed Fred Hampton', url: 'https://www.washingtonpost.com/history/2021/02/12/william-oneal-fred-hampton-judas/', type: 'Article' },
-   { title: 'The Fred Hampton Legacy, People\'s Law Office', url: 'https://peopleslawoffice.com/issues-cases/fred-hampton-case/', type: 'Article' },
+   { title: 'The Fred Hampton Legacy, People\'s Law Office', url: 'https://peopleslawoffice.com/issues-cases/fred-hampton-case/', type: 'Article' }
  ],
  affiliations: [
    { id: 'fred-hampton', name: 'Fred Hampton', type: 'individual', relationship: 'Chairman of the Illinois Black Panther Party; assassinated at age 21 in FBI-coordinated raid', href: '/entities/individuals/fred-hampton' },
@@ -3347,7 +3261,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { id: 'bobby-rush', name: 'Bobby Rush', type: 'individual', relationship: 'Illinois Black Panther; survived by not being at the apartment; later US Congressman', href: '/entities/individuals/bobby-rush' },
    { id: 'flint-taylor', name: 'Flint Taylor', type: 'individual', relationship: 'People\'s Law Office attorney who spent 13 years pursuing civil rights lawsuit', href: '/entities/individuals/flint-taylor' },
    { id: 'fred-hampton-jr', name: 'Fred Hampton Jr.', type: 'individual', relationship: 'Son of Fred Hampton, born 25 days after his father\'s assassination; activist', href: '/entities/individuals/fred-hampton-jr' },
-   { id: 'james-davis', name: 'James Davis', type: 'individual', relationship: 'Sergeant who led the tactical team in the raid; fired shots into Hampton\'s bedroom', href: '/entities/individuals/james-davis-cpd' },
+   { id: 'james-davis', name: 'James Davis', type: 'individual', relationship: 'Sergeant who led the tactical team in the raid; fired shots into Hampton\'s bedroom', href: '/entities/individuals/james-davis-cpd' }
  ],
  timeline: [
    { date: '1948-08-30', event: 'Fred Hampton born in Blue Island, Illinois' },
@@ -3368,7 +3282,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: '1970-05-08', event: 'Federal grand jury convenes but returns no indictments against police or FBI agents' },
    { date: '1972-08-01', event: 'Charges against surviving Panthers dropped; grand jury finds raid was unjustified' },
    { date: '1982-11-01', event: 'Civil rights lawsuit settled for $1.85 million after 13 years of litigation; no admission of wrongdoing' },
-   { date: '1990-01-15', event: 'William O\'Neal commits suicide after appearing in documentary "Eyes on the Prize II"' },
+   { date: '1990-01-15', event: 'William O\'Neal commits suicide after appearing in documentary "Eyes on the Prize II"' }
  ],
  statutes: [
    { code: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'FBI conspiracy to deprive Fred Hampton of his constitutional rights through coordinated assassination' },
@@ -3378,7 +3292,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1519: Evidence Tampering/Destruction', description: 'Hanrahan presented nail heads as "Panther bullet holes"to media; crime scene evidence manipulated' },
    { code: '18 U.S.C. § 1117: Conspiracy to Murder', description: 'Coordinated plan between FBI and Chicago police to neutralize Hampton through lethal force' },
    { code: '42 U.S.C. § 1983: Civil Rights Violation', description: 'Deprivation of civil rights resulting in death, injury, and false prosecution of survivors' },
-   { code: '18 U.S.C. § 1001: False Statements', description: 'False official reports claiming the raid was met with "vicious" Panther gunfire' },
+   { code: '18 U.S.C. § 1001: False Statements', description: 'False official reports claiming the raid was met with "vicious" Panther gunfire' }
  ],
  defendants: [
    { name: 'Chicago Police officers (14)', role: 'Excessive force and murder of Fred Hampton and Mark Clark', status: 'charged', notes: 'No criminal charges, federal grand jury returned no indictments' },
@@ -3388,7 +3302,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'Surviving Panthers (7)', role: 'Attempted murder of police officers', status: 'charged', notes: 'All charges dropped, evidence showed police initiated firing' },
    { name: 'City of Chicago / Cook County / FBI', role: 'Civil rights violations (§ 1983 lawsuit)', status: 'settled', notes: 'Settled for $1.85M in 1982 after 13 years, no wrongdoing admitted' },
    { name: 'Roy Martin Mitchell', role: 'FBI handler who directed O\'Neal\'s infiltration activities', status: 'charged', notes: 'Never charged; retired from FBI with pension' },
-   { name: 'J. Edgar Hoover', role: 'Authorization of COINTELPRO assassination operation', status: 'charged', notes: 'Died 1972 before full scope was revealed; never held accountable' },
+   { name: 'J. Edgar Hoover', role: 'Authorization of COINTELPRO assassination operation', status: 'charged', notes: 'Died 1972 before full scope was revealed; never held accountable' }
  ],
   },
   'ftx-crypto-fraud': {
@@ -3408,7 +3322,7 @@ const investigations_f: Record<string, InvestigationData> = {
    'When customers demanded withdrawals in November 2022, FTX could not pay because $8 billion in customer funds had already been spent by Alameda on failed trades, real estate, and investments',
    'FTX had virtually no corporate controls: no board of directors, no CFO for most of its existence, and accounting records described as"a complete failure"by the bankruptcy administrator',
    'After the collapse, Bankman-Fried went on a media tour attempting to portray himself as a naive CEO who simply lost track of the money, prosecutors proved this was a calculated deception',
-   'Bankman-Fried attempted to tamper with witnesses by contacting Caroline Ellison via encrypted messaging apps after his arrest, leading to his bail being revoked',
+   'Bankman-Fried attempted to tamper with witnesses by contacting Caroline Ellison via encrypted messaging apps after his arrest, leading to his bail being revoked'
  ],
  tags: ['financial-crime', 'fraud'],
  sources: [
@@ -3419,7 +3333,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { title: 'FTX Bankruptcy First Day Declaration by John Ray III', url: 'https://cases.ra.kroll.com/FTX/', type: 'Article' },
    { title: 'SEC Charges Sam Bankman-Fried with Securities Fraud', url: 'https://www.sec.gov/news/press-release/2022-219', type: 'Article' },
    { title: 'Going Infinite: The Rise and Fall of a New Tycoon, Michael Lewis', url: 'https://www.penguinrandomhouse.com/books/714667/going-infinite-by-michael-lewis/', type: 'Article' },
-   { title: 'CFTC Complaint Against FTX and Bankman-Fried', url: 'https://www.cftc.gov/PressRoom/PressReleases/8638-22', type: 'Article' },
+   { title: 'CFTC Complaint Against FTX and Bankman-Fried', url: 'https://www.cftc.gov/PressRoom/PressReleases/8638-22', type: 'Article' }
  ],
  affiliations: [
    { id: 'sam-bankman-fried', name: 'Sam Bankman-Fried', type: 'individual', relationship: 'Founder and CEO of FTX; mastermind of the fraud who directed the misuse of $8 billion in customer funds', href: '/entities/individuals/sam-bankman-fried' },
@@ -3431,7 +3345,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { id: 'barbara-fried', name: 'Barbara Fried', type: 'individual', relationship: 'Stanford Law professor and Sam\'s mother; ran Mind the Gap political fundraising operation', href: '/entities/individuals/barbara-fried' },
    { id: 'john-ray-iii', name: 'John Ray III', type: 'individual', relationship: 'Restructuring expert appointed FTX CEO after collapse; previously managed Enron bankruptcy', href: '/entities/individuals/john-ray-iii' },
    { id: 'changpeng-zhao', name: 'Changpeng Zhao', type: 'individual', relationship: 'Binance CEO whose tweet about selling FTT tokens triggered FTX\'s bank run and collapse', href: '/entities/individuals/changpeng-zhao' },
-   { id: 'damian-williams', name: 'Damian Williams', type: 'individual', relationship: 'U.S. Attorney for SDNY who led the prosecution; called it"one of the biggest financial frauds in American history"', href: '/entities/individuals/damian-williams' },
+   { id: 'damian-williams', name: 'Damian Williams', type: 'individual', relationship: 'U.S. Attorney for SDNY who led the prosecution; called it"one of the biggest financial frauds in American history"', href: '/entities/individuals/damian-williams' }
  ],
  timeline: [
    { date: '2017', event: 'Sam Bankman-Fried founds Alameda Research, a quantitative cryptocurrency trading firm' },
@@ -3452,7 +3366,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { date: '2022-12-21', event: 'Caroline Ellison and Gary Wang plead guilty and agree to cooperate with prosecutors' },
    { date: '2023-10', event: 'Bankman-Fried\'s trial begins in Manhattan federal court; prosecutors present damning evidence of systematic fraud' },
    { date: '2023-11-02', event: 'Jury convicts Bankman-Fried on all seven counts after less than five hours of deliberation' },
-   { date: '2024-03-28', event: 'Bankman-Fried sentenced to 25 years in federal prison; judge calls the fraud"unprecedented in scale"' },
+   { date: '2024-03-28', event: 'Bankman-Fried sentenced to 25 years in federal prison; judge calls the fraud"unprecedented in scale"' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1343: Wire Fraud', description: 'Bankman-Fried used electronic communications to execute a scheme defrauding FTX customers of $8 billion' },
@@ -3462,7 +3376,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { code: '52 U.S.C. § 30122: Campaign Finance Violations', description: 'Directing over $100 million in illegal political contributions through straw donors' },
    { code: '18 U.S.C. § 1349: Commodities Fraud Conspiracy', description: 'Fraud in connection with the trading of cryptocurrency commodities on FTX' },
    { code: '18 U.S.C. § 981: Criminal Forfeiture', description: 'Forfeiture of all proceeds obtained through criminal activity' },
-   { code: '18 U.S.C. § 1960: Unlicensed Money Transmitting', description: 'Operating FTX as an unlicensed money services business in violation of federal law' },
+   { code: '18 U.S.C. § 1960: Unlicensed Money Transmitting', description: 'Operating FTX as an unlicensed money services business in violation of federal law' }
  ],
  defendants: [
    { name: 'Sam Bankman-Fried', role: 'Wire fraud, conspiracy, securities fraud, money laundering', status: 'convicted', notes: 'Convicted on all 7 counts; sentenced to 25 years federal prison, $11 billion forfeiture' },
@@ -3472,7 +3386,7 @@ const investigations_f: Record<string, InvestigationData> = {
    { name: 'Ryan Salame', role: 'Conspiracy to make unlawful political contributions, operating unlicensed money transmitting business', status: 'convicted', notes: 'Pled guilty; 90 months federal prison' },
    { name: 'FTX (Bankruptcy)', role: 'Customer fund misappropriation', status: 'charged', notes: 'Chapter 11 proceedings; estate recovered sufficient funds to pay customers 100%+ of claims' },
    { name: 'FTX Celebrity Endorsers', role: 'Class-action securities fraud claims', status: 'charged', notes: 'Settlements with Tom Brady ($55M), Shaquille O\'Neal, Larry David, and others' },
-   { name: 'Sullivan & Cromwell (FTX Law Firm)', role: 'Allegations of enabling FTX misconduct', status: 'charged', notes: 'Under investigation; contested by the firm' },
+   { name: 'Sullivan & Cromwell (FTX Law Firm)', role: 'Allegations of enabling FTX misconduct', status: 'charged', notes: 'Under investigation; contested by the firm' }
  ],
   },
 };

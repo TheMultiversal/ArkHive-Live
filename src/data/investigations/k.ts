@@ -17,19 +17,20 @@ const investigations_k: Record<string, InvestigationData> = {
  'COUNTERINTELLIGENCE CONCERNS: Officials worried about Kushner\'s meetings with foreign officials including the Russian ambassador, the head of a sanctioned Russian bank, and his business dealings with foreign entities.',
  'BACK CHANNEL DISCUSSIONS: Kushner discussed establishing a secret back channel to Moscow using Russian diplomatic facilities during the transition.',
  'BUSINESS ENTANGLEMENTS: Kushner family business debts and dealings with foreign entities raised conflict of interest and leverage concerns.',
- 'WHISTLEBLOWER TESTIMONY: Tricia Newbold, a White House security specialist, testified that clearances were granted to at least 25 individuals whose applications had been denied.',
+ 'WHISTLEBLOWER TESTIMONY: Tricia Newbold, a White House security specialist, testified that clearances were granted to at least 25 individuals whose applications had been denied.'
  ],
  tags: ['Security Clearance', 'Kushner', 'National Security', 'Nepotism'],
  sources: [
  { title: 'Tricia Newbold Testimony', url: 'https://oversight.house.gov/', type: 'Congressional Testimony' },
  { title: 'NY Times Reporting on Trump Order', url: 'https://www.nytimes.com/2019/02/28/us/politics/jared-kushner-security-clearance.html', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'House Oversight: Kushner Security Clearance Investigation', url: 'https://oversightdemocrats.house.gov/investigations/kushner-security-clearances', type: 'Congressional Report' },
+ { title: 'NBC News: Kushner Clearance Rejected by Career Officials', url: 'https://www.nbcnews.com/politics/donald-trump/kushner-s-security-clearance-was-rejected-career-officials-overridden-trump-n1001616', type: 'Article' }
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance despite concerns', href: '/entities/individuals/jared-kushner' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Ordered clearance granted', href: '/entities/individuals/donald-trump' },
  { id: '3', name: 'John Kelly', type: 'individual', relationship: 'Chief of Staff, documented concerns', href: '/entities/individuals/john-kelly' },
- { id: '4', name: 'CIA', type: 'agency', relationship: 'Expressed concerns about Kushner', href: '/entities/agencies/cia' },
+ { id: '4', name: 'CIA', type: 'agency', relationship: 'Expressed concerns about Kushner', href: '/entities/agencies/cia' }
  ],
    eventOriginDate: '2018-02-28',
    lastActivityDate: '2018-03-30',
@@ -41,7 +42,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2018-02-28', event: 'Trump personally intervenes to order Chief of Staff John Kelly to grant Kushner top secret clearance; Kelly documents his concerns in a contemporaneous memo', type: 'critical' },
      { date: '2019-02-28', event: 'New York Times reports Trump ordered clearance for Kushner over objections of intelligence officials; contradicting Trump\'s public claims that he had no involvement', type: 'default' },
      { date: '2019-04-01', event: 'Tricia Newbold, White House security specialist, testifies that clearances were granted to at least 25 individuals whose applications had been denied by career officials', type: 'political' },
-     { date: '2022-04-10', event: 'Kushner\'s investment firm Affinity Partners receives $2 billion from Saudi sovereign wealth fund controlled by MBS; raising questions about whether the clearance enabled the relationship', type: 'financial' },
+     { date: '2022-04-10', event: 'Kushner\'s investment firm Affinity Partners receives $2 billion from Saudi sovereign wealth fund controlled by MBS; raising questions about whether the clearance enabled the relationship', type: 'financial' }
    ],
  },
   'khashoggi-coverup': {
@@ -62,15 +63,14 @@ const investigations_k: Record<string, InvestigationData> = {
  'CONGRESSIONAL ACTION: Congress passed a resolution holding MBS responsible for the murder. Congress also tried to block arms sales to Saudi Arabia. Trump vetoed the arms sales bill.',
  'NO CONSEQUENCES: The U.S. sanctioned some Saudi operatives but not MBS. Saudi Arabia conducted a sham trial convicting scapegoats while the crown prince faced no accountability.',
  'KUSHNER\'S $2 BILLION: Six months after leaving office, Jared Kushner\'s investment firm received $2 billion from the Saudi sovereign wealth fund that MBS controls, despite the fund\'s advisors recommending against the investment.',
- 'THE MESSAGE: The cover-up demonstrated that U.S.-allied autocrats could murder journalists with impunity as long as they maintained good relations with the Trump administration.',
+ 'THE MESSAGE: The cover-up demonstrated that U.S.-allied autocrats could murder journalists with impunity as long as they maintained good relations with the Trump administration.'
  ],
  tags: ['Khashoggi', 'MBS', 'Saudi Arabia', 'Assassination', 'Cover-up', 'Kushner'],
  sources: [
  { title: 'CIA Assessment on MBS', url: 'https://www.washingtonpost.com/world/national-security/cia-concludes-saudi-crown-prince-ordered-jamal-khashoggis-assassination/2018/11/16/98c89fe6-e9b2-11e8-a939-9469f1166f9d_story.html', type: 'Intelligence Report' },
  { title: 'UN Investigation Report', url: 'https://www.ohchr.org/en/hr-bodies/hrc/sp/investigatingkhashoggi', type: 'International Investigation' },
  { title: 'Trump Statement on Saudi Arabia', url: 'https://trumpwhitehouse.archives.gov/briefings-statements/statement-president-donald-j-trump-standing-saudi-arabia/', type: 'Government Statement' },
- { title: 'Kushner $2B Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'News Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Kushner $2B Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Protected MBS, questioned CIA', href: '/entities/individuals/donald-trump' },
@@ -78,7 +78,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '3', name: 'Jared Kushner', type: 'individual', relationship: 'MBS relationship, $2B investment', href: '/entities/individuals/jared-kushner' },
  { id: '4', name: 'CIA', type: 'agency', relationship: 'Concluded MBS ordered murder', href: '/entities/agencies/cia' },
  { id: '5', name: 'State Department', type: 'agency', relationship: 'Protected Saudi relationship', href: '/entities/agencies/state-department' },
- { id: '6', name: 'Affinity Partners', type: 'corporation', relationship: 'Kushner firm receiving Saudi billions', href: '/entities/corporations/affinity-partners' },
+ { id: '6', name: 'Affinity Partners', type: 'corporation', relationship: 'Kushner firm receiving Saudi billions', href: '/entities/corporations/affinity-partners' }
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-01-18',
@@ -94,7 +94,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2020-12-23', event: 'Saudi court sentences 5 people to 20 years in prison in a sham trial widely condemned as a cover-up. The actual orchestrators, including MBS, face no accountability. Trial described as "the antithesis of justice"', type: 'political' },
      { date: '2021-02-26', event: 'Biden administration releases declassified intelligence report confirming MBS approved the operation to capture or kill Khashoggi. Despite this, Biden does not sanction MBS personally', type: 'political' },
      { date: '2022-04-10', event: 'Jared Kushner\'s investment firm Affinity Partners receives $2 billion from the Saudi sovereign wealth fund controlled by MBS, despite the fund\'s own advisory board recommending against the investment', type: 'critical' },
-     { date: '2022-07-15', event: 'Biden travels to Saudi Arabia and fist-bumps MBS, effectively normalizing relations. Khashoggi\'s fiancee and press freedom organizations condemn the meeting as a betrayal of accountability', type: 'political' },
+     { date: '2022-07-15', event: 'Biden travels to Saudi Arabia and fist-bumps MBS, effectively normalizing relations. Khashoggi\'s fiancee and press freedom organizations condemn the meeting as a betrayal of accountability', type: 'political' }
      ],
  },
   'kremlin-oligarchs': {
@@ -117,15 +117,14 @@ const investigations_k: Record<string, InvestigationData> = {
  'DEUTSCHE BANK: When American banks wouldn\'t lend to Trump, Deutsche Bank provided over $2 billion in loans. The bank was later fined for a $10 billion Russian money laundering scheme.',
  'MONEY LAUNDERING CONCERNS: Trump properties were purchased by shell companies, sometimes all-cash, in ways consistent with money laundering. A Trump Tower unit was bought by an oligarch associate then forfeited in a corruption case.',
  'SANCTIONS RELIEF: Trump consistently sought to ease sanctions on Russia. He fired officials who enforced them. His positions on Russia consistently aligned with Kremlin interests.',
- 'ONGOING INVESTIGATIONS: Financial investigations continue. Deutsche Bank records, Trump Organization tax returns, and other documents may reveal the full extent of Russian financial ties.',
+ 'ONGOING INVESTIGATIONS: Financial investigations continue. Deutsche Bank records, Trump Organization tax returns, and other documents may reveal the full extent of Russian financial ties.'
  ],
  tags: ['Russia', 'Oligarchs', 'Money Laundering', 'Trump Tower', 'Manafort', 'Deutsche Bank', 'Felix Sater'],
  sources: [
  { title: 'Senate Intelligence Committee Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', type: 'Government Report' },
  { title: 'Trump Jr. 2008 Russia Quote', url: 'https://www.washingtonpost.com/politics/heres-what-we-know-about-donald-trump-and-his-ties-to-russia/2016/07/29/1268b5ec-54e7-11e6-bbf5-957ad17b4385_story.html', type: 'News Report' },
  { title: 'BuzzFeed Felix Sater Investigation', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign', type: 'Investigation' },
- { title: 'Mueller Report, Russian Contacts', url: 'https://www.justice.gov/archives', type: 'Government Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Mueller Report, Russian Contacts', url: 'https://www.justice.gov/archives', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Decades of Russian business ties', href: '/entities/individuals/donald-trump' },
@@ -134,7 +133,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '4', name: 'Oleg Deripaska', type: 'individual', relationship: 'Putin ally owed money by Manafort', href: '/entities/individuals/oleg-deripaska' },
  { id: '5', name: 'Aras Agalarov', type: 'individual', relationship: 'Moscow pageant host, arranged Trump Tower meeting', href: '/entities/individuals/aras-agalarov' },
  { id: '6', name: 'Deutsche Bank', type: 'corporation', relationship: 'Lender despite money laundering history', href: '/entities/corporations/deutsche-bank' },
- { id: '7', name: 'Trump Organization', type: 'corporation', relationship: 'Pursued Russian deals', href: '/entities/corporations/trump-organization' },
+ { id: '7', name: 'Trump Organization', type: 'corporation', relationship: 'Pursued Russian deals', href: '/entities/corporations/trump-organization' }
  ],
    eventOriginDate: '1987-01-01',
    lastActivityDate: '2022-01-14',
@@ -144,7 +143,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2008', event: 'said in 2008:"Russians make up a pretty disproportionate cross-section of a lot of our assets', type: 'default' },
      { date: '2013', event: 'MISS UNIVERSE 2013: Trump brought the Miss Universe pageant to Moscow in 2013, hosted by oligarch Aras Agalarov', type: 'default' },
      { date: '2016', event: 'Sater later worked on the Trump Tower Moscow project during the 2016 campaign', type: 'political' },
-     { date: '2016', event: 'TRUMP TOWER MOSCOW: Throughout the 2016 campaign, Trump\'s organization pursued a Trump Tower Moscow deal', type: 'legal' },
+     { date: '2016', event: 'TRUMP TOWER MOSCOW: Throughout the 2016 campaign, Trump\'s organization pursued a Trump Tower Moscow deal', type: 'legal' }
    ],
  },
   'keystone-pipeline-controversy': {
@@ -164,20 +163,21 @@ const investigations_k: Record<string, InvestigationData> = {
  'CORPORATE INFLUENCE: TransCanada and oil industry allies spent millions lobbying Congress and funding think tanks to promote the pipeline. They hired Hillary Clinton\'s former campaign manager to lead lobbying efforts.',
  'JOBS CLAIMS DEBUNKED: Industry claimed KXL would create 42,000 jobs. State Department analysis found only 35 permanent jobs would be created. Construction jobs were temporary and many would go to non-local workers.',
  'SPILL RISKS: The original Keystone pipeline has spilled at least 22 times since 2010, including a 383,000-gallon spill in North Dakota in 2019 and a 588,000-gallon spill in Kansas in 2022.',
- 'CANCELLATION AFTERMATH: TC Energy formally terminated the project in June 2021, seeking $15 billion in damages from the U.S. under NAFTA/USMCA. The claim was later withdrawn after arbitration proved unfavorable.',
+ 'CANCELLATION AFTERMATH: TC Energy formally terminated the project in June 2021, seeking $15 billion in damages from the U.S. under NAFTA/USMCA. The claim was later withdrawn after arbitration proved unfavorable.'
  ],
  tags: ['Pipeline', 'Tar Sands', 'Indigenous Rights', 'Climate', 'TransCanada', 'Eminent Domain'],
  sources: [
  { title: 'EPA Analysis of Climate Impact', url: 'https://www.epa.gov/sites/production/files/2014-02/documents/keystone-xl-project.pdf', type: 'Government Report' },
  { title: 'Biden Executive Order Revoking Permit', url: 'http://web.archive.org/web/20250120105837/https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/', type: 'Executive Order' },
-   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+ { title: 'State Department: Keystone XL Pipeline EIS', url: 'https://www.state.gov/keystone-xl-pipeline/', type: 'Government Report' },
+ { title: 'EPA: Comments on Keystone XL Draft EIS', url: 'https://www.epa.gov/nepa/keystone-xl-project', type: 'Government Record' }
  ],
  affiliations: [
  { id: '1', name: 'TC Energy', type: 'corporation', relationship: 'Pipeline developer, formerly TransCanada', href: '/entities/corporations/tc-energy' },
  { id: '2', name: 'Department of State', type: 'agency', relationship: 'Permit authority for cross-border pipelines', href: '/entities/agencies/department-of-state' },
  { id: '3', name: 'EPA', type: 'agency', relationship: 'Environmental review authority', href: '/entities/agencies/epa' },
  { id: '4', name: 'Rosebud Sioux Tribe', type: 'organization', relationship: 'Lead tribal opposition', href: '/entities/organizations/rosebud-sioux' },
- { id: '5', name: 'American Petroleum Institute', type: 'organization', relationship: 'Industry lobbying for approval', href: '/entities/organizations/api' },
+ { id: '5', name: 'American Petroleum Institute', type: 'organization', relationship: 'Industry lobbying for approval', href: '/entities/organizations/api' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2022-01-01',
@@ -188,7 +188,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2016', event: 'STANDING ROCK CONNECTION: Opposition to KXL helped spark the Standing Rock protests against the Dakota Access Pipeline in 2016-2017', type: 'default' },
      { date: '2017', event: 'Trump approved it immediately upon taking office in 2017', type: 'default' },
      { date: '2021-01-20', event: 'Biden revoked the permit on his first day in office, January 20, 2021', type: 'default' },
-     { date: '2021-06-01', event: 'CANCELLATION AFTERMATH: TC Energy formally terminated the project in June 2021, seeking $15 billion in damages from the U.S', type: 'political' },
+     { date: '2021-06-01', event: 'CANCELLATION AFTERMATH: TC Energy formally terminated the project in June 2021, seeking $15 billion in damages from the U.S', type: 'political' }
    ],
  },
   'kashmir-suppression': {
@@ -204,7 +204,7 @@ const investigations_k: Record<string, InvestigationData> = {
  'On August 5, 2019, the Indian government revoked Article 370 of the constitution, which had guaranteed Kashmir semi-autonomous status since 1949. The revocation was accompanied by the deployment of tens of thousands of additional troops, a complete telecommunications blackout affecting 8 million people that lasted months, the arrest of thousands of political leaders and activists (including three former chief ministers), and the closure of schools, businesses, and government offices.',
  'Human rights organizations have documented systematic abuses including enforced disappearances (an estimated 8,000-10,000 since 1989), extrajudicial killings (over 70,000 civilians killed since 1989 according to Kashmiri sources), mass graves containing unidentified bodies, and the widespread use of pellet guns against protesters; which have blinded or partially blinded over 1,000 people since 2010.',
  'India has imposed the world\'s longest internet shutdown in history on Kashmir. Between August 2019 and February 2021, internet access was either completely blocked or restricted to 2G speeds, cutting Kashmiris off from e-commerce, telemedicine, remote work, and communication with family. Journalists have been arrested under anti-terror laws for reporting on conditions in the region. Foreign journalists are routinely denied access.',
- 'The international community has largely failed to address the Kashmir situation due to India\'s economic and geopolitical importance. The UN Security Council resolutions from 1948 and 1949 called for a plebiscite to determine Kashmir\'s future; a vote that has never been held. China, which controls Aksai Chin, and Pakistan, which administers Azad Kashmir, both dispute India\'s sovereignty claims. The approximately 14 million people of Indian-administered Kashmir have never been given self-determination.',
+ 'The international community has largely failed to address the Kashmir situation due to India\'s economic and geopolitical importance. The UN Security Council resolutions from 1948 and 1949 called for a plebiscite to determine Kashmir\'s future; a vote that has never been held. China, which controls Aksai Chin, and Pakistan, which administers Azad Kashmir, both dispute India\'s sovereignty claims. The approximately 14 million people of Indian-administered Kashmir have never been given self-determination.'
  ],
  tags: ['Human Rights', 'Kashmir', 'Military Occupation', 'International', 'Investigation'],
  sources: [
@@ -213,11 +213,11 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'Amnesty International India', url: 'https://www.amnesty.org/en/location/asia-and-the-pacific/south-asia/india/', type: 'Report' },
  { title: 'Jammu Kashmir Coalition of Civil Society', url: 'https://jkccs.net/', type: 'Report' },
  { title: 'International People\'s Tribunal on Kashmir', url: 'https://www.yourcommonwealth.org/', type: 'Investigation' },
- { title: 'Reporters Without Borders - India', url: 'https://rsf.org/en/country/india', type: 'Report' },
+ { title: 'Reporters Without Borders - India', url: 'https://rsf.org/en/country/india', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Narendra Modi', type: 'individual', relationship: 'Prime Minister who revoked Article 370 in 2019, escalating military occupation and communications blackout on 8 million Kashmiris', href: '/entities/individuals/narendra-modi' },
- { id: '2', name: 'Amit Shah', type: 'individual', relationship: 'Home Minister who introduced the bill revoking Kashmir\'s constitutional autonomy and oversaw the security lockdown', href: '/entities/individuals/amit-shah' },
+ { id: '2', name: 'Amit Shah', type: 'individual', relationship: 'Home Minister who introduced the bill revoking Kashmir\'s constitutional autonomy and oversaw the security lockdown', href: '/entities/individuals/amit-shah' }
  ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2022-11-04',
@@ -227,7 +227,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '1989', event: 'Human rights organizations have documented systematic abuses including enforced disappearances (an estimated 8,000-10,000 since 1989), extrajudicial killings (over 70,000 civilians killed since 198', type: 'critical' },
      { date: '1990', event: 'The Armed Forces Special Powers Act (AFSPA), in effect since 1990, grants the military sweeping powers including the authority to shoot to kill, arrest without warrant, and search any premises', type: 'default' },
      { date: '2019-08-01', event: 'Between August 2019 and February 2021, internet access was either completely blocked or restricted to 2G speeds, cutting Kashmiris off from e-commerce, telemedicine, remote work, and communication', type: 'default' },
-     { date: '2019-08-05', event: 'On August 5, 2019, the Indian government revoked Article 370 of the constitution, which had guaranteed Kashmir semi-autonomous status since 1949', type: 'default' },
+     { date: '2019-08-05', event: 'On August 5, 2019, the Indian government revoked Article 370 of the constitution, which had guaranteed Kashmir semi-autonomous status since 1949', type: 'default' }
    ],
  },
   'kenosha-shootings': {
@@ -248,19 +248,18 @@ const investigations_k: Record<string, InvestigationData> = {
  'ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges. The acquittal was celebrated by right-wing media and politicians. Conservative groups raised millions for his defense. Critics argued the verdict established a dangerous precedent allowing armed individuals to provoke confrontations then claim self-defense.',
  'POLITICAL WEAPONIZATION: Rittenhouse became a political symbol. Trump invited him to Mar-a-Lago. Republican members of Congress offered him internships. He appeared at conservative events. His case was used to argue for expanded gun rights and against the Black Lives Matter movement.',
  'VIGILANTISM CONCERNS: Legal analysts warned that the Rittenhouse acquittal would encourage armed vigilantism at protests. The message received: a civilian could arm themselves, travel to a protest, and if confronted, use lethal force with legal impunity. Similar armed responses to protests increased after the verdict.',
- 'VICTIMS\' LEGACY: Joseph Rosenbaum was 36. Anthony Huber was 26. Both were killed while unarmed (Huber had a skateboard). Their families filed wrongful death lawsuits. The focus on Rittenhouse\'s legal defense overshadowed the human cost: two men dead and a community traumatized.',
+ 'VICTIMS\' LEGACY: Joseph Rosenbaum was 36. Anthony Huber was 26. Both were killed while unarmed (Huber had a skateboard). Their families filed wrongful death lawsuits. The focus on Rittenhouse\'s legal defense overshadowed the human cost: two men dead and a community traumatized.'
  ],
  tags: ['Kenosha', 'Kyle Rittenhouse', 'Jacob Blake', 'BLM Protest', 'Vigilantism', 'Self-Defense', 'Gun Violence'],
  sources: [
  { title: 'State v. Rittenhouse Trial Records', url: 'https://www.kenoshanews.com/news/local/crime-and-courts/rittenhouse-trial/', type: 'Court Filing' },
  { title: 'Video Evidence Compilation', url: 'https://www.nytimes.com/2020/08/27/us/kyle-rittenhouse-kenosha-shooting-video.html', type: 'Video Evidence' },
- { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/opa', type: 'Government Report' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/opa', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal Jacob Blake investigation, no charges', href: '/entities/agencies/doj' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Invited Rittenhouse to Mar-a-Lago', href: '/entities/individuals/donald-trump' },
- { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Platformed Rittenhouse as hero', href: '/entities/corporations/fox-news' },
+ { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Platformed Rittenhouse as hero', href: '/entities/corporations/fox-news' }
  ],
    eventOriginDate: '2020-08-23',
    lastActivityDate: '2021-11-19',
@@ -271,7 +270,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2020-08-25', event: 'On August 25, 2020, 17-year-old Kyle Rittenhouse traveled from Antioch, Illinois, to Kenosha, Wisconsin, during protests following the police shooting of Jacob Blake.', type: 'default' },
      { date: '2021', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
      { date: '2021-11', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
-     { date: '2021-11-19', event: 'Judge Bruce Schroeder drew criticism for barring the word "victims" while allowing the deceased to be called "rioters" or "looters." ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges.', type: 'legal' },
+     { date: '2021-11-19', event: 'Judge Bruce Schroeder drew criticism for barring the word "victims" while allowing the deceased to be called "rioters" or "looters." ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges.', type: 'legal' }
    ],
  },
   'kids-for-cash': {
@@ -287,7 +286,7 @@ const investigations_k: Record<string, InvestigationData> = {
  'Judge Michael Conahan, the president judge of Luzerne County, shut down the county-owned juvenile detention facility and helped arrange a $58 million contract for PA Child Care and Western PA Child Care; privately owned facilities built by developer Robert Mericle and operated by attorney Robert Powell. Ciavarella and Conahan received $2.8 million in payments from Mericle and Powell, structured to conceal the bribery.',
  'Ciavarella\'s courtroom was a factory of injustice. Hearings lasted an average of two minutes. He denied children the right to counsel, ignored recommendations from probation officers for lenient treatment, and imposed detention sentences at rates far exceeding state and national averages. His juvenile detention rate was nearly five times the state average. Children as young as 10 were shackled and sent to facilities hours from their families.',
  'The scandal was exposed through investigative journalism by the Wilkes-Barre Citizens\' Voice and a Juvenile Law Center investigation. The Pennsylvania Supreme Court eventually vacated over 4,000 of Ciavarella\'s juvenile convictions. Ciavarella was convicted of racketeering and sentenced to 28 years in federal prison. Conahan received 17.5 years. Developer Mericle received a one-year sentence for failing to report a felony. Operator Powell received 18 months.',
- 'The impact on the children was devastating and lasting. Studies found that kids who were wrongly detained experienced higher rates of PTSD, depression, substance abuse, and criminal behavior as adults compared to peers whose cases were handled appropriately. Several children who passed through Ciavarella\'s courtroom later died by suicide. The scandal led to Pennsylvania reforms including mandatory legal representation for all juveniles, but for-profit juvenile detention continues nationwide.',
+ 'The impact on the children was devastating and lasting. Studies found that kids who were wrongly detained experienced higher rates of PTSD, depression, substance abuse, and criminal behavior as adults compared to peers whose cases were handled appropriately. Several children who passed through Ciavarella\'s courtroom later died by suicide. The scandal led to Pennsylvania reforms including mandatory legal representation for all juveniles, but for-profit juvenile detention continues nationwide.'
  ],
  tags: ['Kids for Cash', 'Judicial Corruption', 'Ciavarella', 'Conahan', 'Juvenile Justice', 'Pennsylvania', 'RICO'],
  sources: [
@@ -295,19 +294,19 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'Juvenile Law Center', url: 'https://jlc.org/', type: 'Report' },
  { title: 'Wilkes-Barre Citizens\' Voice Coverage', url: 'https://www.citizensvoice.com/', type: 'Investigation' },
  { title: 'Pennsylvania Interbranch Commission on Juvenile Justice', url: 'https://www.pacourts.us/', type: 'Government' },
- { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Mark Ciavarella', type: 'individual', relationship: 'Luzerne County judge who sentenced ~3,000 children to for-profit detention for $2.8 million in bribes, convicted of racketeering, sentenced to 28 years', href: '/entities/individuals/mark-ciavarella' },
  { id: '2', name: 'Michael Conahan', type: 'individual', relationship: 'Co-conspirator judge who shut down the county facility and arranged the for-profit contracts, sentenced to 17.5 years', href: '/entities/individuals/michael-conahan' },
- { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal racketeering prosecution of both judges under RICO', href: '/entities/agencies/doj' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal racketeering prosecution of both judges under RICO', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-04-09',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2003', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' },
-     { date: '2008', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' },
+     { date: '2008', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' }
      ],
  },
   'korematsu-case': {
@@ -323,19 +322,17 @@ const investigations_k: Record<string, InvestigationData> = {
  'Fred Korematsu, an American citizen born in Oakland, California, refused to comply with the internment order and was arrested. His case reached the Supreme Court, which ruled 6-3 in 1944 that the internment was constitutional based on "military necessity." Justice Hugo Black wrote that the order was justified by wartime security needs, not racial prejudice; despite the fact that no German Americans or Italian Americans were subjected to mass internment.',
  'The dissents in Korematsu are among the most powerful in Supreme Court history. Justice Robert Jackson warned that the decision created "a loaded weapon, ready for the hand of any authority that can bring forward a plausible claim of an urgent need." Justice Frank Murphy called the majority opinion a "legalization of racism" that fell "into the ugly abyss of racism." Their warnings proved prophetic as the case was cited to justify subsequent government overreach.',
  'In 1983, Korematsu\'s conviction was vacated after attorney Peter Irons discovered that the government had deliberately suppressed evidence. The Office of Naval Intelligence had concluded that Japanese Americans posed no security threat, but the Solicitor General concealed this from the Supreme Court. Despite this revelation, the Supreme Court decision itself was never formally overruled; it was only repudiated in dicta in Trump v. Hawaii (2018).',
- 'Congress passed the Civil Liberties Act of 1988, which formally apologized for the internment and provided $20,000 in reparations to surviving internees (approximately 82,000 people). President Reagan signed the act, acknowledging that the internment was caused by "race prejudice, war hysteria, and a failure of political leadership." The Japanese American experience remains a cautionary example of how wartime fear can override constitutional rights with the complicity of all three branches of government.',
+ 'Congress passed the Civil Liberties Act of 1988, which formally apologized for the internment and provided $20,000 in reparations to surviving internees (approximately 82,000 people). President Reagan signed the act, acknowledging that the internment was caused by "race prejudice, war hysteria, and a failure of political leadership." The Japanese American experience remains a cautionary example of how wartime fear can override constitutional rights with the complicity of all three branches of government.'
  ],
  tags: ['Japanese Internment', 'Korematsu', 'Supreme Court', 'Civil Liberties', 'Executive Order 9066', 'Wartime Injustice', 'Racial Discrimination'],
  sources: [
  { title: 'National Archives - Executive Order 9066', url: 'https://www.archives.gov/milestone-documents/executive-order-9066', type: 'Document' },
  { title: 'Densho: Japanese American Incarceration Archive', url: 'https://densho.org/', type: 'Report' },
- { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
- { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
+ { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Upheld Japanese internment', href: '/entities/agencies/supreme-court' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1941-01-01',
    lastActivityDate: '2023-06-15',
@@ -344,7 +341,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '1941-12-01', event: 'Following the attack on Pearl Harbor in December 1941, President Roosevelt issued Executive Order 9066 authorizing the military to designate "exclusion zones" from which any person could be removed', type: 'legal' },
      { date: '1944', event: 'His case reached the Supreme Court, which ruled 6-3 in 1944 that the internment was constitutional based on "military necessity.', type: 'legal' },
      { date: '1983', event: 'In 1983, Korematsu\'s conviction was vacated after attorney Peter Irons discovered that the government had deliberately suppressed evidence', type: 'legal' },
-     { date: '1988', event: 'Congress passed the Civil Liberties Act of 1988, which formally apologized for the internment and provided $20,000 in reparations to surviving internees (approximately 82,000 people)', type: 'political' },
+     { date: '1988', event: 'Congress passed the Civil Liberties Act of 1988, which formally apologized for the internment and provided $20,000 in reparations to surviving internees (approximately 82,000 people)', type: 'political' }
    ],
  },
   'kushner-saudi-deal': {
@@ -360,19 +357,19 @@ const investigations_k: Record<string, InvestigationData> = {
  'During his time in the White House, Kushner served as the primary point of contact with MBS and the Saudi government. He supported the Saudi-led blockade of Qatar, backed MBS after the murder of journalist Jamal Khashoggi when other administration officials sought consequences, and helped facilitate $110 billion in arms sales to Saudi Arabia. Kushner\'s personal WhatsApp communications with MBS raised concerns about the unauthorized sharing of classified information.',
  'The PIF\'s internal screening panel recommended against the investment, citing Kushner\'s lack of private equity experience, concerns about the fund\'s ability to generate market-rate returns, and the reputational risk of the connection to the former Trump administration. The panel was overruled by the fund\'s board, which is chaired by MBS. The $2 billion represented the majority of Affinity Partners\' initial capital.',
  'Affinity Partners\' structure generated $25 million annually in management fees for Kushner\'s firm regardless of investment performance; a guaranteed income stream from Saudi Arabia. The fund invested in Israeli and Emirati assets, potentially benefiting from the Abraham Accords that Kushner helped negotiate while in government. Critics argued the investment was effectively a deferred payment for favorable government treatment.',
- 'Congressional Democrats called for investigations, but Republican opposition blocked subpoenas. Ethics experts across the political spectrum described the arrangement as unprecedented and, at minimum, the appearance of corruption. Former White House ethics chief Walter Shaub called it "a violation of the ethical norms that preserve our democratic institutions." Similar concerns arose about deals involving Steve Mnuchin and other former Trump officials with Gulf state sovereign wealth funds.',
+ 'Congressional Democrats called for investigations, but Republican opposition blocked subpoenas. Ethics experts across the political spectrum described the arrangement as unprecedented and, at minimum, the appearance of corruption. Former White House ethics chief Walter Shaub called it "a violation of the ethical norms that preserve our democratic institutions." Similar concerns arose about deals involving Steve Mnuchin and other former Trump officials with Gulf state sovereign wealth funds.'
  ],
  tags: ['Kushner', 'Saudi Arabia', 'MBS', 'Affinity Partners', 'Corruption', 'Sovereign Wealth Fund', 'Revolving Door', 'Abraham Accords'],
  sources: [
  { title: 'NYT: Kushner\'s Firm Received $2 Billion From Saudi Fund', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'Investigation' },
  { title: 'House Oversight Committee Kushner Investigation', url: 'https://oversight.house.gov/', type: 'Government' },
  { title: 'Walter Shaub Ethics Analysis', url: 'https://www.citizensforethics.org/', type: 'Legal Analysis' },
- { title: 'ProPublica: Kushner-Saudi Relationship', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'ProPublica: Kushner-Saudi Relationship', url: 'https://www.propublica.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Launched Affinity Partners 6 months after leaving White House; received $2B from MBS-controlled fund despite screening panel objections', href: '/entities/individuals/jared-kushner' },
  { id: '2', name: 'Mohammed bin Salman', type: 'individual', relationship: 'Controls the PIF sovereign wealth fund that overruled its own screening panel to invest $2 billion in Kushner\'s firm', href: '/entities/individuals/mohammed-bin-salman' },
- { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Installed Kushner as primary MBS liaison; administration policies aligned with Saudi interests', href: '/entities/individuals/donald-trump' },
+ { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Installed Kushner as primary MBS liaison; administration policies aligned with Saudi interests', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2021-06-01',
@@ -385,7 +382,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2021-06', event: 'Kushner launches Affinity Partners, a private equity firm, six months after leaving the White House', type: 'financial' },
      { date: '2022-04-10', event: 'NYT reports Saudi PIF committed $2 billion to Affinity Partners despite its own screening panel flagging concerns about Kushner\'s inexperience and the fund\'s ability to generate returns', type: 'critical' },
      { date: '2022-06', event: 'House Oversight Committee launches investigation into Kushner\'s Saudi dealings; Republicans block subpoenas for financial records', type: 'political' },
-     { date: '2023', event: 'Affinity Partners generates $25 million annually in guaranteed management fees from the Saudi investment regardless of fund performance', type: 'financial' },
+     { date: '2023', event: 'Affinity Partners generates $25 million annually in guaranteed management fees from the Saudi investment regardless of fund performance', type: 'financial' }
    ],
  },
   'khashoggi-murder': {
@@ -405,20 +402,18 @@ const investigations_k: Record<string, InvestigationData> = {
       "BIDEN ADMINISTRATION FAILURE: Candidate Biden pledged to make Saudi Arabia a 'pariah' over the Khashoggi murder. As President, Biden released the intelligence assessment but imposed sanctions only on lower-level operatives; not MBS. In 2022, Biden traveled to Saudi Arabia and fist-bumped MBS, effectively normalizing relations. The administration later granted MBS sovereign immunity in a civil lawsuit filed by Khashoggi's fiancee.",
       "SAUDI INFLUENCE OPERATIONS: Saudi Arabia spent hundreds of millions on lobbying and PR in Washington before and after the murder. The Kingdom hired multiple American lobbying firms and cultivated relationships with think tanks, media figures, and technology companies. Saudi Arabia's Public Investment Fund made major investments in American companies; including a $3.5 billion stake in Uber and the LIV Golf partnership.",
       "PRESS FREEDOM IMPLICATIONS: The murder of a journalist working for an American newspaper inside a diplomatic facility represented an unprecedented escalation in attacks on press freedom. Khashoggi had been critical of MBS's consolidation of power, the Yemen war, and the detention of activists. His murder sent a chilling message to Saudi dissidents and journalists worldwide; criticism of MBS could be lethal even on foreign soil.",
-      "KHASHOGGI'S LEGACY: Jamal Khashoggi was named Time Magazine's Person of the Year in 2018 as part of 'The Guardians' honoring journalists who faced persecution. His murder catalyzed global awareness of Saudi repression and the dangers faced by journalists critical of authoritarian regimes. The failure of the world's most powerful nations to hold MBS accountable demonstrated that strategic interests routinely override human rights.",
+      "KHASHOGGI'S LEGACY: Jamal Khashoggi was named Time Magazine's Person of the Year in 2018 as part of 'The Guardians' honoring journalists who faced persecution. His murder catalyzed global awareness of Saudi repression and the dangers faced by journalists critical of authoritarian regimes. The failure of the world's most powerful nations to hold MBS accountable demonstrated that strategic interests routinely override human rights."
     ],
     tags: ["Jamal Khashoggi","Saudi Arabia","MBS","Assassination","Press Freedom","CIA","Arms Sales","Diplomatic Immunity"],
     sources: [
       { title: "ODNI Assessment of Khashoggi Murder", url: "https://www.dni.gov/files/ODNI/documents/assessments/Assessment-Saudi-Gov-Role-in-JK-Death-20210226v2.pdf", type: "Intelligence Report" },
       { title: "UN Special Rapporteur Report on Khashoggi", url: "https://www.ohchr.org/en/press-releases/2019/06/khashoggi-killing-un-expert-says-saudi-arabia-responsible-premeditated", type: "International Report" },
       { title: "Turkish Intelligence Transcripts", url: "https://www.aljazeera.com/tag/jamal-khashoggi/", type: "Intelligence Document" },
-      { title: "Washington Post Khashoggi Investigation", url: "https://www.washingtonpost.com/graphics/2018/world/khashoggi/", type: "Investigative Journalism" },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: "Washington Post Khashoggi Investigation", url: "https://www.washingtonpost.com/graphics/2018/world/khashoggi/", type: "Investigative Journalism" }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Concluded with high confidence that MBS ordered the assassination', href: '/entities/agencies/cia' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2018-10-02',
    lastActivityDate: '2026-03-21',
@@ -429,7 +424,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2020', event: 'Saudi Arabia held a sham trial in 2020 that sentenced five men to death (later commuted to 20 years) and acquitted senior officials.', type: 'legal' },
      { date: '2021', event: 'THE COVER-UP: Saudi Arabia s fate, to claiming he left the consulate alive, to admitting he died in a to finally acknowledging a', type: 'default' },
      { date: '2021-02', event: 'THE COVER-UP: Saudi Arabia s fate, to claiming he left the consulate alive, to admitting he died in a to finally acknowledging a', type: 'default' },
-     { date: '2022', event: 'In 2022, Biden traveled to Saudi Arabia and fist-bumped MBS, effectively normalizing relations.', type: 'default' },
+     { date: '2022', event: 'In 2022, Biden traveled to Saudi Arabia and fist-bumped MBS, effectively normalizing relations.', type: 'default' }
    ],
   },
   'koch-network-dark-money-politics': {
@@ -445,18 +440,17 @@ const investigations_k: Record<string, InvestigationData> = {
       'BLOCKING CLIMATE ACTION: Koch Industries is the largest privately held fossil fuel company in America. The Koch network has been the single most effective force preventing U.S. climate action for three decades. AFP organized opposition to the 2009 Waxman-Markey cap-and-trade bill, pressuring Republican legislators who had initially supported it to reverse their positions. The network funded climate denial organizations, sponsored professors who published industry-friendly research, and recruited Tea Party activists to attack climate science at congressional town halls. Internal Koch documents obtained by Greenpeace and later reporting show that the network spent over $145 million on climate denial between 1997 and 2018. When the Paris Agreement was adopted in 2015, the Koch network lobbied the Trump administration to withdraw, which it did in 2017.',
       'JUDICIAL CAPTURE: Working alongside the Federalist Society and Leonard Leo\'s network, the Koch political apparatus has invested heavily in reshaping the federal judiciary. The network funds judicial training programs, supports the nominations of pro-corporate judges, and underwrites litigation strategies designed to bring favorable cases before sympathetic courts. Koch-backed organizations filed amicus briefs in Citizens United, Janus v. AFSCME (gutting public sector unions), and Loper Bright v. Raimondo (overturning Chevron deference to agency expertise). The combined effect has been to create a judiciary that consistently rules in favor of deregulation, corporate rights, and limits on government authority.',
       'LABOR AND REGULATORY DESTRUCTION: The Koch network has systematically attacked labor unions and regulatory protections. AFP led campaigns for "right-to-work" laws in states including Wisconsin (2011, supporting Governor Scott Walker\'s Act 10), Michigan, Indiana, and West Virginia, dramatically reducing union membership and political power. The network has lobbied for and achieved: rollback of EPA clean air and water regulations, weakening of OSHA workplace safety standards, opposition to minimum wage increases at federal and state levels, and the promotion of regulatory "cost-benefit analysis" frameworks that systematically undervalue human health and environmental protection.',
-      'DEMOCRATIC ACCOUNTABILITY GAP: The Koch network operates almost entirely through 501(c)(4) "social welfare" organizations and 501(c)(6) trade associations that are not required to disclose their donors. Despite spending billions on political activity, the network\'s financial structure ensures that voters cannot know who is funding the campaigns and organizations that influence their elections. The IRS has effectively abandoned enforcement of the prohibition on 501(c)(4) political campaign intervention, and the FEC has deadlocked on dark money enforcement for over a decade. The FOR THE PEOPLE Act and DISCLOSE Act, which would require disclosure of dark money spending, have been blocked by senators who receive Koch network support.',
+      'DEMOCRATIC ACCOUNTABILITY GAP: The Koch network operates almost entirely through 501(c)(4) "social welfare" organizations and 501(c)(6) trade associations that are not required to disclose their donors. Despite spending billions on political activity, the network\'s financial structure ensures that voters cannot know who is funding the campaigns and organizations that influence their elections. The IRS has effectively abandoned enforcement of the prohibition on 501(c)(4) political campaign intervention, and the FEC has deadlocked on dark money enforcement for over a decade. The FOR THE PEOPLE Act and DISCLOSE Act, which would require disclosure of dark money spending, have been blocked by senators who receive Koch network support.'
     ],
     tags: ['Koch-network', 'dark-money', 'Citizens-United', 'climate-denial', 'Americans-for-Prosperity', 'deregulation', 'judicial-capture', 'labor-unions'],
     sources: [
       { title: 'Jane Mayer: Dark Money', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
       { title: 'OpenSecrets: Koch Industries Political Profile', url: 'https://www.opensecrets.org/orgs/koch-industries/summary?id=D000000186', type: 'Database' },
-      { title: 'Greenpeace: Koch Industries Climate Denial Funding', url: 'https://www.greenpeace.org/usa/fighting-climate-chaos/climate-deniers/koch-industries/', type: 'Research' },
-      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'Greenpeace: Koch Industries Climate Denial Funding', url: 'https://www.greenpeace.org/usa/fighting-climate-chaos/climate-deniers/koch-industries/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Failed to enforce prohibition on 501(c)(4) political campaign intervention; abandoned dark money enforcement after conservative backlash', href: '/entities/agencies/irs' },
-      { id: '2', name: 'FEC', type: 'agency', relationship: 'Deadlocked on dark money enforcement for over a decade; Republican commissioners block every proposed disclosure rule', href: '/entities/agencies/fec' },
+      { id: '2', name: 'FEC', type: 'agency', relationship: 'Deadlocked on dark money enforcement for over a decade; Republican commissioners block every proposed disclosure rule', href: '/entities/agencies/fec' }
     ],
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2026-02-28',
@@ -465,14 +459,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '1997', event: 'Internal Koch documents obtained by Greenpeace and later reporting show that the network spent over $145 million on climate denial between 1997 and 2018', type: 'financial' },
      { date: '2009', event: 'AFP organized opposition to the 2009 Waxman-Markey cap-and-trade bill, pressuring Republican legislators who had initially supported it to reverse their positions', type: 'political' },
      { date: '2011', event: 'AFP led campaigns for "right-to-work" laws in states including Wisconsin (2011, supporting Governor Scott Walker\'s Act 10), Michigan, Indiana, and West Virginia, dramatically reducing union members...', type: 'political' },
-     { date: '2015', event: 'When the Paris Agreement was adopted in 2015, the Koch network lobbied the Trump administration to withdraw, which it did in 2017', type: 'default' },
+     { date: '2015', event: 'When the Paris Agreement was adopted in 2015, the Koch network lobbied the Trump administration to withdraw, which it did in 2017', type: 'default' }
    ],
    moneyTrail: [
      { date: '1997-01-01', from: 'Koch network', to: 'Climate denial organizations', amount: '$145,000,000', purpose: 'Spent on climate denial between 1997-2018 per internal Koch documents obtained by Greenpeace', documented: true },
      { date: '2016-01-01', from: 'Koch Industries / Freedom Partners', to: 'Americans for Prosperity and affiliates', amount: '$400,000,000', purpose: 'Political engagement spending in the 2016 cycle, funding candidates and issue campaigns', documented: true },
      { date: '2011-01-01', from: 'AFP / Koch network', to: 'Right-to-work campaigns (WI, MI, IN, WV)', amount: '$50,000,000', purpose: 'Campaigns to pass right-to-work laws, including support for Governor Walker Act 10, dramatically reducing union membership', documented: true },
      { date: '2009-01-01', from: 'Koch network', to: 'Anti-cap-and-trade lobbying', amount: '$25,000,000', purpose: 'Organized opposition to Waxman-Markey bill, pressuring Republican legislators to reverse initial support', documented: true },
-     { date: '2022-01-01', from: 'Koch donor network (biannual summits)', to: 'Political and policy organizations', amount: '$889,000,000', purpose: 'Koch network disclosed raising $889 million budget for 2016 election cycle across all affiliated organizations', documented: true },
+     { date: '2022-01-01', from: 'Koch donor network (biannual summits)', to: 'Political and policy organizations', amount: '$889,000,000', purpose: 'Koch network disclosed raising $889 million budget for 2016 election cycle across all affiliated organizations', documented: true }
    ],
   },
   'congressional-stock-trading': {
@@ -488,18 +482,17 @@ const investigations_k: Record<string, InvestigationData> = {
       'The STOCK Act (Stop Trading on Congressional Knowledge Act), signed in 2012, was supposed to address the problem. It explicitly extended insider trading prohibitions to members and required electronic filing of financial disclosures within 45 days of any trade exceeding $1,000. Enforcement is toothless: violations are referred to Ethics Committees, which are controlled by members themselves and have never sanctioned a colleague for stock trading violations. The SEC has never brought a case against a sitting member.',
       'Financial disclosure data reveals the scope of conflicts. 97 members owned or traded stocks in companies appearing before their committees. 72 members held pharmaceutical company positions while on health committees. 45 members held defense stocks while on Armed Services or Intelligence Committees. The median net worth of a member of Congress exceeds $1 million, compared to $192,000 for the median American household.',
       'The penalties for violating disclosure requirements are laughable. Members who fail to file timely financial disclosures face a maximum fine of $200, which can be waived by the Ethics Committee and frequently is. Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences. The system relies entirely on self-reporting by the individuals it is designed to police.',
-      'Legislation to ban congressional stock trading has been introduced multiple times with bipartisan support in polls (86% of Americans favor a ban) but has never advanced. The TRUST in Congress Act and Ban Congressional Stock Trading Act die in committee each session. House and Senate leadership have blocked floor votes. The resistance cuts across party lines because the ability to trade on inside information benefits every incumbent.',
+      'Legislation to ban congressional stock trading has been introduced multiple times with bipartisan support in polls (86% of Americans favor a ban) but has never advanced. The TRUST in Congress Act and Ban Congressional Stock Trading Act die in committee each session. House and Senate leadership have blocked floor votes. The resistance cuts across party lines because the ability to trade on inside information benefits every incumbent.'
     ],
     tags: ['congressional trading', 'insider trading', 'STOCK Act', 'financial disclosure', 'conflicts of interest', 'Nancy Pelosi', 'Richard Burr', 'ethics enforcement', 'self-dealing', 'corruption'],
     sources: [
       { title: 'Unusual Whales: Congressional Trading Reports', url: 'https://unusualwhales.com/politics', type: 'Analysis' },
       { title: 'Campaign Legal Center: Congressional Financial Conflicts', url: 'https://campaignlegal.org/', type: 'Research' },
-      { title: 'Office of Government Ethics: Financial Disclosure Database', url: 'https://efds.ethics.gov/', type: 'Government Data' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Office of Government Ethics: Financial Disclosure Database', url: 'https://efds.ethics.gov/', type: 'Government Data' }
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Has theoretical authority to prosecute congressional insider trading but has never brought a case against a sitting member; STOCK Act enforcement deferred to Ethics Committees', href: '/entities/agencies/sec' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Investigated and dropped cases against Burr and Loeffler for COVID-era trades; Speech or Debate Clause creates high evidentiary bar for prosecution', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Investigated and dropped cases against Burr and Loeffler for COVID-era trades; Speech or Debate Clause creates high evidentiary bar for prosecution', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-03-05',
@@ -510,7 +503,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2020-01', event: 'In January 2020, Senator Richard Burr, then chairman of the Senate Intelligence Committee, sold $1.7 million in stocks after receiving classified COVID briefings but before the market crash.', type: 'political' },
      { date: '2021', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' },
      { date: '2023', event: 'At least 97 members traded stocks in sectors over which they had direct legislative or oversight authority in 2023 alone.', type: 'political' },
-     { date: '2024', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' },
+     { date: '2024', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' }
      ],
   },
   'kickbacks-pharmacy-benefit-managers': {
@@ -526,20 +519,18 @@ const investigations_k: Record<string, InvestigationData> = {
       'The rebate system at the heart of PBM pricing creates perverse incentives that drive up costs. Drug manufacturers pay rebates to PBMs in exchange for favorable formulary placement, meaning the PBM steers patients toward drugs with the highest rebates rather than the lowest prices. The PBM retains a portion of the rebate rather than passing it through to patients at the pharmacy counter. The result is that a drug with a list price of $500 and a $200 rebate may cost the patient more than a $300 drug with no rebate, because the PBM profits from the spread. This system incentivizes manufacturers to raise list prices to fund larger rebates.',
       'Spread pricing in government programs demonstrates the extraction mechanism most clearly. In Medicaid managed care, PBMs have been documented charging state programs significantly more than they pay pharmacies for the same prescription, pocketing the difference. State audits in Ohio, Kentucky, and other states found that PBMs retained spreads averaging 30% or more on generic drugs. Some individual prescriptions showed PBMs keeping more than they paid the pharmacy. States that investigated discovered the practice only because they commissioned unprecedented audits; PBM contracts typically prohibit pharmacies from disclosing the terms.',
       'Independent pharmacies face existential pressure from PBM practices. PBMs set reimbursement rates for pharmacies that are frequently below the cost of acquiring the drug, forcing independent pharmacies to fill prescriptions at a loss or else drop out of the network. Simultaneously, PBMs channel prescriptions to their own affiliated mail-order and specialty pharmacies, where they capture both the PBM margin and the pharmacy margin. The National Community Pharmacists Association reports that over 1,000 independent pharmacies close each year, creating pharmacy deserts in rural and low-income communities.',
-      'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies. Congressional hearings in both chambers featured bipartisan criticism of PBM executives. Yet legislative proposals to require rebate pass-through, ban spread pricing, or mandate PBM divestiture from affiliated pharmacies face overwhelming industry lobbying. The three major PBMs and their parent companies collectively spent over $80 million on federal lobbying in 2023 alone.',
+      'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies. Congressional hearings in both chambers featured bipartisan criticism of PBM executives. Yet legislative proposals to require rebate pass-through, ban spread pricing, or mandate PBM divestiture from affiliated pharmacies face overwhelming industry lobbying. The three major PBMs and their parent companies collectively spent over $80 million on federal lobbying in 2023 alone.'
     ],
     tags: ['PBM', 'pharmacy benefit manager', 'drug pricing', 'rebates', 'spread pricing', 'CVS Caremark', 'Express Scripts', 'OptumRx'],
     sources: [
-      { title: 'Ftc Records', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Reference' },
-      { title: 'Ncpa Records', url: 'https://www.ncpa.org/', type: 'Reference' },
-      { title: 'Commonwealthfund Records', url: 'https://www.commonwealthfund.org/', type: 'Reference' },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
-
       { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: 'FTC: Pharmacy Benefit Managers Report', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Government Report' },
+      { title: 'Senate Finance Committee: Insulin Pricing Investigation', url: 'https://www.finance.senate.gov/ranking-members-news/grassley-wyden-release-insulin-investigation-uncovering-the-web-of-insulin-pricing', type: 'Congressional Report' },
+      { title: 'HHS OIG: PBM Compensation Reports', url: 'https://oig.hhs.gov/reports-and-publications/featured-topics/pbms/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Launched 6(b) investigation in 2022; interim report confirmed anticompetitive practices; full enforcement action pending as industry challenges FTC authority post-Loper Bright' },
-      { id: '2', name: 'CMS', type: 'agency', relationship: 'Oversees PBMs in Medicare Part D and Medicaid managed care; proposed rebate pass-through rule delayed; spread pricing continues in many state Medicaid contracts despite documented harm', href: '/entities/agencies/cms' },
+      { id: '2', name: 'CMS', type: 'agency', relationship: 'Oversees PBMs in Medicare Part D and Medicaid managed care; proposed rebate pass-through rule delayed; spread pricing continues in many state Medicaid contracts despite documented harm', href: '/entities/agencies/cms' }
     ],
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2025-02-08',
@@ -547,7 +538,7 @@ const investigations_k: Record<string, InvestigationData> = {
       timeline: [
      { date: '2022', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' },
      { date: '2023', event: 'The three major PBMs and their parent companies collectively spent over $80 million on federal lobbying in 2023 alone.', type: 'financial' },
-     { date: '2024', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' },
+     { date: '2024', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' }
      ],
   },
   'kissinger-foreign-policy-war-crimes': {
@@ -563,18 +554,17 @@ const investigations_k: Record<string, InvestigationData> = {
       'Kissinger\'s role in the 1973 Chilean coup is extensively documented in declassified U.S. government records. Following the democratic election of socialist President Salvador Allende in 1970, President Nixon ordered the CIA to "make the economy scream" and to prevent Allende from taking office. Kissinger, as National Security Advisor, oversaw the covert program. CIA activities included: funding opposition media and political parties ($8 million between 1970 and 1973); supporting the kidnapping attempt of Chilean Army Commander-in-Chief Rene Schneider, who opposed military intervention (Schneider was killed on October 22, 1970, three days before Allende\'s inauguration); and maintaining contact with military officers plotting Allende\'s overthrow. Kissinger\'s own words, recorded in declassified meeting notes, reveal his priorities: "I don\'t see why we need to stand by and watch a country go communist due to the irresponsibility of its people." On September 11, 1973, the Chilean military, led by General Augusto Pinochet, overthrew Allende in a violent coup in which Allende died in the presidential palace. The Pinochet regime immediately began a campaign of political repression: the Rettig and Valech Commissions later documented over 3,000 killed, over 40,000 tortured, and approximately 200,000 forced into exile. The regime\'s secret police, DINA, carried out Operation Condor, a transnational assassination program that murdered political opponents in Argentina, Italy, and the United States (the car bombing of former Chilean ambassador Orlando Letelier on Embassy Row in Washington, D.C., in September 1976). Kissinger was directly briefed on Condor and did not act to prevent it. These actions violated the Organization of American States Charter (Article 19, prohibition of intervention in internal affairs), customary international law on state sovereignty, and potentially 18 U.S.C. Section 2441 (war crimes) and 18 U.S.C. Section 1116 (murder of foreign officials).',
       'On December 6, 1975, President Ford and Secretary of State Kissinger met with Indonesian dictator President Suharto in Jakarta. The following day, December 7, Indonesian forces invaded East Timor, a former Portuguese colony in the process of declaring independence. Declassified documents reveal that Ford and Kissinger were informed of the planned invasion during the meeting and gave explicit approval. Kissinger\'s primary concern, as reflected in the transcript, was not the humanitarian implications but rather the political optics: "It is important that whatever you do succeeds quickly. We would be able to influence the reaction in America if whatever happens happens after we return." The invasion and subsequent 24-year occupation of East Timor resulted in the deaths of approximately 100,000 to 180,000 East Timorese, representing between one-quarter and one-third of the pre-invasion population making it proportionally one of the worst mass atrocities of the 20th century. Indonesian forces used American-supplied weapons, and the U.S. continued military aid throughout the occupation despite congressional restrictions. The Commission for Reception, Truth and Reconciliation in East Timor (CAVR) concluded in 2005 that the United States bore "political and moral responsibility" for the invasion. Under the Arms Export Control Act (22 U.S.C. Section 2754), U.S.-supplied weapons may only be used for legitimate self-defense, not wars of aggression. The Indonesian invasion of East Timor was condemned by the UN Security Council (Resolution 384, 1975) and the General Assembly as a violation of the right to self-determination.',
       'During the 1971 Bangladesh Liberation War, the Pakistani military conducted a systematic campaign of mass killing, rape, and destruction against the Bengali population of East Pakistan (now Bangladesh) that multiple scholars and the International Crimes Tribunal of Bangladesh have classified as genocide. Archer Blood, the U.S. Consul General in Dhaka, sent a dissent cable (the "Blood Telegram") on April 6, 1971, to the State Department, describing "selective genocide" being carried out by Pakistani forces against Hindus, Bengali intellectuals, and political activists. Blood wrote: "Our government has failed to denounce the suppression of democracy. Our government has failed to denounce atrocities." Kissinger dismissed the cable and had Blood reassigned. The Nixon-Kissinger policy was to maintain support for Pakistan\'s military government because of Pakistan\'s role as an intermediary in the secret opening to China. The United States continued arms shipments to Pakistan during the genocide, in violation of arms export restrictions. When India intervened in December 1971 to stop the killing, Kissinger ordered the aircraft carrier USS Enterprise into the Bay of Bengal in an attempt to intimidate India. An estimated 300,000 to 3 million Bengalis were killed, and between 200,000 and 400,000 women were raped in what Bangladeshi authorities describe as a systematic campaign of sexual violence. Kissinger\'s active support for the Pakistani military during the genocide, including continued arms sales and diplomatic protection at the UN, constituted potential violations of the Genocide Convention (Article III(e), complicity in genocide), to which the United States had been a party since 1988 but which reflected customary international law obligations binding at the time.',
-      'Despite extensive documentation of his role in these atrocities, Kissinger faced no legal consequences during his lifetime. Multiple attempts to hold him accountable failed at every level. In 2001, French Judge Roger Le Loire sought to question Kissinger about the disappearance of French nationals in Chile under Pinochet; Kissinger declined and left the country. Argentine judge Rodolfo Canicoba Corral issued an international request for Kissinger\'s testimony regarding Operation Condor; the State Department intervened. Chilean judges sought his testimony regarding the assassination of General Schneider and the Letelier bombing; no cooperation was provided. In the United States, the families of victims filed civil suits that were dismissed on sovereign immunity and political question grounds. Christopher Hitchens\'s 2001 book "The Trial of Henry Kissinger" presented a detailed legal case for prosecution under multiple statutes, including the Alien Tort Claims Act (28 U.S.C. Section 1350), the Torture Victim Protection Act (28 U.S.C. Section 1350 note), and universal jurisdiction principles for war crimes and crimes against humanity. No prosecution was ever initiated. Kissinger continued to serve as an advisor to presidents of both parties, maintained lucrative consulting relationships with foreign governments through Kissinger Associates, and was celebrated as an elder statesman until his death at age 100 on November 29, 2023. His career illustrates that for officials at the highest levels of American power, the commission of acts that would constitute war crimes and crimes against humanity under the Rome Statute (Articles 7 and 8), the Geneva Conventions, and the Genocide Convention carries no legal consequence.',
+      'Despite extensive documentation of his role in these atrocities, Kissinger faced no legal consequences during his lifetime. Multiple attempts to hold him accountable failed at every level. In 2001, French Judge Roger Le Loire sought to question Kissinger about the disappearance of French nationals in Chile under Pinochet; Kissinger declined and left the country. Argentine judge Rodolfo Canicoba Corral issued an international request for Kissinger\'s testimony regarding Operation Condor; the State Department intervened. Chilean judges sought his testimony regarding the assassination of General Schneider and the Letelier bombing; no cooperation was provided. In the United States, the families of victims filed civil suits that were dismissed on sovereign immunity and political question grounds. Christopher Hitchens\'s 2001 book "The Trial of Henry Kissinger" presented a detailed legal case for prosecution under multiple statutes, including the Alien Tort Claims Act (28 U.S.C. Section 1350), the Torture Victim Protection Act (28 U.S.C. Section 1350 note), and universal jurisdiction principles for war crimes and crimes against humanity. No prosecution was ever initiated. Kissinger continued to serve as an advisor to presidents of both parties, maintained lucrative consulting relationships with foreign governments through Kissinger Associates, and was celebrated as an elder statesman until his death at age 100 on November 29, 2023. His career illustrates that for officials at the highest levels of American power, the commission of acts that would constitute war crimes and crimes against humanity under the Rome Statute (Articles 7 and 8), the Geneva Conventions, and the Genocide Convention carries no legal consequence.'
     ],
     tags: ['Henry Kissinger', 'Cambodia bombing', 'Chile coup', 'East Timor', 'Bangladesh genocide', 'Operation Condor', 'Pinochet', 'war crimes', 'foreign policy', 'impunity'],
     sources: [
       { title: 'National Security Archive: Kissinger Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', type: 'Government Record' },
       { title: 'Yale Cambodian Genocide Program', url: 'https://gsp.yale.edu/case-studies/cambodian-genocide-program', type: 'Research Archive' },
-      { title: 'CAVR Final Report: Chega! (East Timor)', url: 'https://www.etan.org/news/2006/cavr.htm', type: 'International Body' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'CAVR Final Report: Chega! (East Timor)', url: 'https://www.etan.org/news/2006/cavr.htm', type: 'International Body' }
     ],
     affiliations: [
       { id: '1', name: 'Henry Kissinger', type: 'individual', relationship: 'National Security Advisor and Secretary of State who authorized the secret Cambodia bombing, oversaw the Chilean coup, approved the East Timor invasion, and supported Pakistan during the Bangladesh genocide; never faced criminal prosecution; died at 100 in 2023', href: '/entities/individuals/henry-kissinger' },
-      { id: '2', name: 'CIA', type: 'agency', relationship: 'Executed covert operations in Chile including funding opposition media, supporting the Schneider kidnapping, and maintaining contact with coup plotters; participated in Operation Condor intelligence sharing with South American dictatorships', href: '/entities/agencies/cia' },
+      { id: '2', name: 'CIA', type: 'agency', relationship: 'Executed covert operations in Chile including funding opposition media, supporting the Schneider kidnapping, and maintaining contact with coup plotters; participated in Operation Condor intelligence sharing with South American dictatorships', href: '/entities/agencies/cia' }
     ],
    eventOriginDate: '1969-03-18',
    lastActivityDate: '2026-03-21',
@@ -594,7 +584,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '1975', event: 'The Indonesian invasion of East Timor was condemned by the UN Security Council (Resolution 384, 1975) and the General Assembly as a violation of the right to self-determination', type: 'default' },
      { date: '1975-12-06', event: 'On December 6, 1975, President Ford and Secretary of State Kissinger met with Indonesian dictator President Suharto in Jakarta', type: 'political' },
      { date: '1976-09-01', event: 'The regime\'s secret police, DINA, carried out Operation Condor, a transnational assassination program that murdered political opponents in Argentina, Italy, and the United States (the car bombing o...', type: 'critical' },
-     { date: '1988', event: 'Kissinger\'s active support for the Pakistani military during the genocide, including continued arms sales and diplomatic protection at the UN, constituted potential violations of the Genocide Conve...', type: 'default' },
+     { date: '1988', event: 'Kissinger\'s active support for the Pakistani military during the genocide, including continued arms sales and diplomatic protection at the UN, constituted potential violations of the Genocide Conve...', type: 'default' }
    ],
   },
   'kissinger-crimes': {
@@ -617,7 +607,7 @@ const investigations_k: Record<string, InvestigationData> = {
    'The U.S. government has never acknowledged criminal liability for the secret Cambodia bombing, despite it being conducted without Congressional authorization and in a neutral country , a clear violation of the War Powers framework',
    'Kissinger received the Nobel Peace Prize in 1973 for the Vietnam ceasefire , a war he personally escalated and whose peace talks he had sabotaged in 1968. Co-laureate Le Duc Tho refused the prize. Two Nobel Committee members resigned in protest',
    'Major U.S. media outlets consistently described Kissinger as a"statesman"and"diplomatic giant"in obituaries upon his death in 2023, largely omitting or minimizing the millions of civilian deaths attributable to his policies',
-   'The U.S. legal system\'s doctrine of sovereign immunity and political question doctrine were effectively weaponized to prevent any domestic judicial review of Kissinger\'s actions, despite abundant evidence meeting international criminal law standards',
+   'The U.S. legal system\'s doctrine of sovereign immunity and political question doctrine were effectively weaponized to prevent any domestic judicial review of Kissinger\'s actions, despite abundant evidence meeting international criminal law standards'
  ],
  tags: ['criminal-justice', 'war', 'justice'],
  sources: [
@@ -632,7 +622,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { title: 'Rolling Stone: Henry Kissinger, War Criminal Beloved by America\\u2019s Ruling Class, Finally Dies', url: 'https://www.rollingstone.com/politics/political-commentary/henry-kissinger-war-criminal-dead-1234914964/', type: 'Article' },
    { title: 'Declassified Documents: U.S. Policy in Chile (1969-1973): National Security Archive', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB8/nsaebb8i.htm', type: 'Article' },
    { title: 'Senate Select Committee (Church Committee): Covert Action in Chile 1963-1973', url: 'https://www.intelligence.senate.gov/sites/default/files/94chile.pdf', type: 'Article' },
-   { title: 'Jacobin: Henry Kissinger\\u2019s Crimes Should Never Be Forgotten', url: 'https://jacobin.com/2023/11/henry-kissinger-death-united-states-foreign-policy-war-crimes', type: 'Article' },
+   { title: 'Jacobin: Henry Kissinger\\u2019s Crimes Should Never Be Forgotten', url: 'https://jacobin.com/2023/11/henry-kissinger-death-united-states-foreign-policy-war-crimes', type: 'Article' }
  ],
  affiliations: [
    { id: 'henry-kissinger', name: 'Henry Kissinger', type: 'individual', relationship: 'National Security Advisor (1969-1975), Secretary of State (1973-1977); Chief architect of multiple genocides and coups', href: '/entities/individuals/henry-kissinger' },
@@ -650,7 +640,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { id: 'orlando-letelier', name: 'Orlando Letelier', type: 'individual', relationship: 'Chilean diplomat and Allende minister; Assassinated by Pinochet\\u2019s DINA in Washington, D.C. (1976)' },
    { id: 'christopher-hitchens', name: 'Christopher Hitchens', type: 'individual', relationship: 'Journalist and author of The Trial of Henry Kissinger (2001); Documented case for war crimes prosecution' },
    { id: 'brent-scowcroft', name: 'Brent Scowcroft', type: 'individual', relationship: 'National Security Advisor; Kissinger prot\\u00E9g\\u00E9 who continued interventionist policies' },
-   { id: 'manuel-contreras', name: 'Manuel Contreras', type: 'individual', relationship: 'Head of Chilean DINA secret police; Directed torture and assassination program under Pinochet with Kissinger\\u2019s knowledge' },
+   { id: 'manuel-contreras', name: 'Manuel Contreras', type: 'individual', relationship: 'Head of Chilean DINA secret police; Directed torture and assassination program under Pinochet with Kissinger\\u2019s knowledge' }
  ],
  timeline: [
    { date: 'Oct 1968', event: 'Kissinger secretly feeds classified intel to Nixon campaign about Vietnam peace talks, sabotaging LBJ\\u2019s Paris negotiations; a clear Logan Act violation' },
@@ -676,7 +666,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { date: '2001', event: 'Christopher Hitchens publishes The Trial of Henry Kissinger, laying out comprehensive war crimes case. French judge Roger Le Loire issues summons for Kissinger to testify about Operation Condor' },
    { date: '2001-2002', event: 'Argentine judge Rodolfo Canicoba Corral requests Kissinger\\u2019s testimony on Dirty War. Chilean judge Juan Guzm\\u00E1n issues questions about the Schneider assassination. Brazilian court issues summons. Kissinger refuses all' },
    { date: '2002', event: 'Bush appoints Kissinger to head 9/11 Commission; forced to resign within weeks due to conflicts of interest with Kissinger Associates\\u2019 client list' },
-   { date: 'Nov 29, 2023', event: 'Kissinger dies at age 100 at his home in Kent, Connecticut, having never faced trial for any of his crimes. Millions of victims received no justice' },
+   { date: 'Nov 29, 2023', event: 'Kissinger dies at age 100 at his home in Kent, Connecticut, having never faced trial for any of his crimes. Millions of victims received no justice' }
  ],
  statutes: [
    { code: 'ICC Rome Statute: Article 7: Crimes Against Humanity', description: 'Systematic attack against civilian populations: Cambodia bombing (150,000-500,000+ dead), Laos bombing (200,000+ dead), East Timor invasion support (100,000-180,000 dead)' },
@@ -688,7 +678,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { code: '18 U.S.C. \\u00A7 1116: Murder of Foreign Officials', description: 'Conspiracy in the assassination of Chilean Army Commander-in-Chief Ren\\u00E9 Schneider (October 1970) to remove obstacle to military coup' },
    { code: '18 U.S.C. \\u00A7 371: Conspiracy to Commit Offense Against the United States', description: 'Conspiracy to conceal the secret bombing of Cambodia from Congress and the American public (1969-1973). Falsified military records, dual reporting systems' },
    { code: 'OAS Inter-American Convention on Forced Disappearance of Persons', description: 'Complicity in the forced disappearance of tens of thousands across Latin America through Operation Condor coordination and diplomatic cover for participating dictatorships' },
-   { code: 'UN Convention Against Torture (CAT)', description: 'Aiding and abetting torture by providing military aid, training, and diplomatic protection to regimes known to practice systematic torture: Chile, Argentina, Brazil, Indonesia, Pakistan' },
+   { code: 'UN Convention Against Torture (CAT)', description: 'Aiding and abetting torture by providing military aid, training, and diplomatic protection to regimes known to practice systematic torture: Chile, Argentina, Brazil, Indonesia, Pakistan' }
  ],
  defendants: [
    { name: 'Henry Kissinger', role: 'French summons for testimony on Operation Condor (Judge Le Loire, 2001)', status: 'charged', notes: 'Kissinger fled Paris to avoid being served; refused to cooperate' },
@@ -700,7 +690,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { name: 'Augusto Pinochet', role: 'Genocide, torture, crimes against humanity (Spanish warrant, Judges Garz\\u00F3n/Garc\\u00E9s)', status: 'charged', notes: 'Arrested in London 1998; returned to Chile; died 2006 without conviction. Kissinger connection documented but never prosecuted' },
    { name: 'Manuel Contreras', role: 'Murder of Orlando Letelier and Ronni Moffitt (DINA, Washington D.C.)', status: 'convicted', notes: 'Convicted in Chile (1993) and U.S. (in absentia). Kissinger\\u2019s role in enabling DINA never prosecuted' },
    { name: 'Jorge Rafael Videla', role: 'Crimes against humanity, Dirty War disappearances', status: 'convicted', notes: 'Convicted 2010, life sentence. Died in prison 2013. Kissinger\\u2019s"do it quickly"encouragement entered historical record but no U.S. charges' },
-   { name: 'Richard Nixon', role: 'Conspiracy to obstruct justice (Watergate, related to Cambodia cover-up)', status: 'pardoned', notes: 'Resigned August 9, 1974. Pardoned by Ford. Cambodia bombing never prosecuted' },
+   { name: 'Richard Nixon', role: 'Conspiracy to obstruct justice (Watergate, related to Cambodia cover-up)', status: 'pardoned', notes: 'Resigned August 9, 1974. Pardoned by Ford. Cambodia bombing never prosecuted' }
  ],
   },
   'koch-network': {
@@ -720,7 +710,7 @@ const investigations_k: Record<string, InvestigationData> = {
    'Koch-funded climate denial operations spent decades manufacturing doubt about climate science, directly modeled on the tobacco industry\'s cancer denial playbook.',
    'When journalists like Jane Mayer investigated the Kochs, the network hired private investigators to dig into her personal life and attempted to plant negative stories.',
    'The Kochs rebranded their network as "Stand Together"- a feel-good name for an operation dedicated to eliminating the social safety net and environmental protections.',
-   'Koch Industries systematically stole oil from Native American reservations for years, using mismeasured gauges to underpay for crude, a Senate investigation confirmed the theft but the company faced minimal consequences.',
+   'Koch Industries systematically stole oil from Native American reservations for years, using mismeasured gauges to underpay for crude, a Senate investigation confirmed the theft but the company faced minimal consequences.'
  ],
  tags: ['financial-crime', 'environment'],
  sources: [
@@ -731,7 +721,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { title: 'Inside the Koch Brothers\' Toxic Empire, Rolling Stone', url: 'https://www.rollingstone.com/politics/politics-news/inside-the-koch-brothers-toxic-empire-164403/', type: 'Article' },
    { title: 'The Koch brothers and the Republican Party: an ideological history', url: 'https://www.theguardian.com/us-news/2016/jan/17/dark-money-review-jane-mayer-koch-brothers-ruthless-war-on-democracy', type: 'Article' },
    { title: 'Senate Report on Koch Industries\' Oil Theft from Indian Country', url: 'https://www.indian.senate.gov/hearings/oil-theft-indian-lands', type: 'Article' },
-   { title: 'Koch Industries agreed to pay record fine for oil spills', url: 'https://www.nytimes.com/2000/01/14/us/koch-industries-to-pay-record-fine-for-oil-spills-in-6-states.html', type: 'Article' },
+   { title: 'Koch Industries agreed to pay record fine for oil spills', url: 'https://www.nytimes.com/2000/01/14/us/koch-industries-to-pay-record-fine-for-oil-spills-in-6-states.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'charles-koch', name: 'Charles Koch', type: 'individual', relationship: 'CEO of Koch Industries, primary architect of the Koch political network', href: '/entities/individuals/charles-koch' },
@@ -744,7 +734,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { id: 'mike-pence', name: 'Mike Pence', type: 'individual', relationship: 'Former VP, longtime Koch network beneficiary, pushed Koch agenda in White House', href: '/entities/individuals/mike-pence' },
    { id: 'scott-walker', name: 'Scott Walker', type: 'individual', relationship: 'Former Wisconsin Governor, passed Koch-backed anti-union legislation', href: '/entities/individuals/scott-walker' },
    { id: 'betsy-devos', name: 'Betsy DeVos', type: 'individual', relationship: 'Koch network donor, Education Secretary who pushed school privatization', href: '/entities/individuals/betsy-devos' },
-   { id: 'leonard-leo', name: 'Leonard Leo', type: 'individual', relationship: 'Federalist Society co-chair, partnered with Kochs on judicial nominations', href: '/entities/individuals/leonard-leo' },
+   { id: 'leonard-leo', name: 'Leonard Leo', type: 'individual', relationship: 'Federalist Society co-chair, partnered with Kochs on judicial nominations', href: '/entities/individuals/leonard-leo' }
  ],
  timeline: [
    { date: '1977', event: 'Charles Koch founds the Cato Institute (originally the Charles Koch Foundation) to promote libertarian ideology' },
@@ -764,7 +754,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { date: '2017', event: 'Koch network delivers Trump tax cuts, the Tax Cuts and Jobs Act saves Koch Industries an estimated $1-1.4 billion annually' },
    { date: '2018', event: 'Jane Mayer\'s investigation reveals Koch network spent $889 million in 2016 election cycle' },
    { date: '2019', event: 'David Koch dies; Charles continues operations through Stand Together network rebrand' },
-   { date: '2023', event: 'Koch network backs Nikki Haley against Trump, spending tens of millions in Republican primary' },
+   { date: '2023', event: 'Koch network backs Nikki Haley against Trump, spending tens of millions in Republican primary' }
  ],
  statutes: [
    { code: '52 U.S.C. § 30121', description: 'Illegal coordination between dark money groups and political campaigns' },
@@ -774,7 +764,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { code: '42 U.S.C. § 7413', description: 'Clean Air Act violations concealing benzene and other toxic emissions' },
    { code: '18 U.S.C. § 1962 (RICO)', description: 'Pattern of racketeering through coordinated dark money and policy manipulation' },
    { code: '52 U.S.C. § 20511', description: 'Voter intimidation and suppression through misleading election communications' },
-   { code: '15 U.S.C. § 78dd-1 (FCPA)', description: 'Foreign Corrupt Practices Act violations for overseas bribery' },
+   { code: '15 U.S.C. § 78dd-1 (FCPA)', description: 'Foreign Corrupt Practices Act violations for overseas bribery' }
  ],
  defendants: [
    { name: 'Koch Industries', role: 'Benzene emissions concealment', status: 'settled', notes: 'Settled for $20 million after covering up cancer-causing emissions' },
@@ -784,7 +774,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { name: 'Koch Industries', role: 'Illegal payments to secure contracts in six countries', status: 'charged', notes: 'Internal investigation confirmed bribery; DOJ investigation quietly dropped' },
    { name: 'Freedom Partners', role: 'Dark money coordination violations', status: 'charged', notes: 'FEC deadlocked along party lines; no enforcement action' },
    { name: 'Koch-backed ALEC', role: 'Lobbying while claiming tax-exempt status', status: 'charged', notes: 'IRS complaint filed; no action taken despite evidence of direct lobbying' },
-   { name: 'Koch Industries', role: 'Formaldehyde exposure at Georgia-Pacific plants', status: 'charged', notes: 'Workers sickened; company denied responsibility; limited settlements' },
+   { name: 'Koch Industries', role: 'Formaldehyde exposure at Georgia-Pacific plants', status: 'charged', notes: 'Workers sickened; company denied responsibility; limited settlements' }
  ],
   },
 };

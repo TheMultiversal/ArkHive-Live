@@ -16,17 +16,18 @@ const investigations_w: Record<string, InvestigationData> = {
  'CONNECTIONS: The platform maps relationships between individuals, corporations, and government agencies. These connections reveal patterns of corruption that might not be visible when examining incidents in isolation.',
  'UPDATES: Investigations are updated as new information emerges. Legal proceedings, new revelations, and corrections are incorporated to maintain accuracy.',
  'CONTRIBUTING: Information submitted to the platform is researched, verified, and expanded with relevant context. Anonymous tips can be submitted securely.',
- 'MISSION: Democracy requires transparency. When the powerful operate in darkness, corruption flourishes. This platform shines light on what they would prefer remain hidden.',
+ 'MISSION: Democracy requires transparency. When the powerful operate in darkness, corruption flourishes. This platform shines light on what they would prefer remain hidden.'
  ],
  tags: ['Platform', 'Getting Started', 'How It Works', 'Methodology'],
  sources: [
  { title: 'ArkHive Platform Documentation', url: 'https://arkhive.live/about', type: 'Platform' },
  { title: 'ArkHive Methodology and Standards', url: 'https://arkhive.live/about', type: 'Platform' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'International Consortium of Investigative Journalists', url: 'https://www.icij.org/', type: 'Research' },
+ { title: 'Center for Investigative Reporting', url: 'https://revealnews.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'ArkHive', type: 'organization', relationship: 'Open-source investigative journalism platform', href: '/about' },
- { id: '2', name: 'ArkHive Community', type: 'organization', relationship: 'Collaborative investigation workspace contributors', href: '/workspaces' },
+ { id: '2', name: 'ArkHive Community', type: 'organization', relationship: 'Collaborative investigation workspace contributors', href: '/workspaces' }
  ],
    eventOriginDate: '2024-01-01',
    lastActivityDate: '2026-03-18',
@@ -35,7 +36,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2024-01-01', event: 'ArkHive platform development begins with mission to document investigations and hold power accountable', type: 'default' },
      { date: '2024-06-01', event: 'First investigation entries published; entity database and affiliation mapping system launched', type: 'default' },
      { date: '2025-01-01', event: 'Collaborative workspace feature launched allowing team-based investigation and evidence management', type: 'default' },
-     { date: '2026-03-18', event: 'Platform surpasses 1,100 investigations covering government, corporate, and institutional accountability', type: 'default' },
+     { date: '2026-03-18', event: 'Platform surpasses 1,100 investigations covering government, corporate, and institutional accountability', type: 'default' }
    ],
  },
   'water-privatization': {
@@ -56,7 +57,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'COAL ASH ROLLBACKS: EPA weakened coal ash disposal rules, allowing utilities to avoid cleaning up toxic ponds that leak arsenic, lead, and mercury into groundwater. This benefited coal companies while poisoning water supplies near 1,400 coal ash sites.',
  'NAVAJO NATION: The Navajo Nation, where 30% of residents lack running water, received minimal federal support. Uranium mining contamination persists. COVID-19 devastated communities lacking water for basic hygiene. The administration prioritized extraction over indigenous rights.',
  'PRIVATIZATION PUSH: The administration promoted public-private partnerships for water infrastructure, encouraging privatization. Private water companies have a record of rate increases, service cuts, and maintenance failures. American Water, Veolia, and others sought expanded access.',
- 'STATE PREEMPTION: Administration allies in states passed preemption laws preventing localities from restricting corporate water extraction or implementing stricter protections than weak federal standards.',
+ 'STATE PREEMPTION: Administration allies in states passed preemption laws preventing localities from restricting corporate water extraction or implementing stricter protections than weak federal standards.'
  ],
  tags: ['Water', 'Privatization', 'EPA', 'Clean Water Act', 'Environmental Justice', 'Flint', 'Nestlé', 'PFAS', 'Infrastructure'],
  sources: [
@@ -64,8 +65,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Flint Water Crisis Timeline', url: 'https://www.nrdc.org/stories/flint-water-crisis-everything-you-need-know', type: 'Investigation' },
  { title: 'EPA PFAS Study Suppression', url: 'https://www.politico.com/story/2018/05/14/emails-white-house-epa-threat-pfas-585690', type: 'News Investigation' },
  { title: 'American Society of Civil Engineers Report Card', url: 'https://infrastructurereportcard.org/cat-item/drinking-water/', type: 'Technical Report' },
- { title: 'Lead Pipe Estimates, EPA', url: 'https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water', type: 'Government Data' },
-   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+ { title: 'Lead Pipe Estimates, EPA', url: 'https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water', type: 'Government Data' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Policy direction, Infrastructure Week failures', href: '/entities/individuals/donald-trump' },
@@ -76,7 +76,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '6', name: 'Coca-Cola', type: 'corporation', relationship: 'Dasani bottled water, municipal extraction', href: '/entities/corporations/coca-cola' },
  { id: '7', name: 'PepsiCo', type: 'corporation', relationship: 'Aquafina bottled water', href: '/entities/corporations/pepsico' },
  { id: '8', name: 'American Water', type: 'corporation', relationship: 'Water privatization advocate', href: '/entities/corporations/american-water' },
- { id: '9', name: 'Duke Energy', type: 'corporation', relationship: 'Coal ash contamination sites', href: '/entities/corporations/duke-energy' },
+ { id: '9', name: 'Duke Energy', type: 'corporation', relationship: 'Coal ash contamination sites', href: '/entities/corporations/duke-energy' }
  ],
    eventOriginDate: '2014-04-25',
    lastActivityDate: '2022-02-23',
@@ -98,7 +98,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021-06', event: 'Federal judge acquits former Michigan Governor Rick Snyder on misdemeanor charges related to Flint water crisis. No senior official convicted', type: 'legal' },
      { date: '2021-08', event: 'Supreme Court in County of Maui v. Hawaii Wildlife Fund narrows Clean Water Act scope. Biden EPA begins rulemaking to restore protections', type: 'legal' },
      { date: '2021-11', event: 'Infrastructure Investment and Jobs Act allocates $55B for water infrastructure including $15B to replace lead pipes. EPA estimates 6-10 million homes still have lead service lines', type: 'political' },
-     { date: '2023-05', event: 'Supreme Court in Sackett v. EPA further guts Clean Water Act, ruling wetlands must have "continuous surface connection" to navigable waters for federal protection', type: 'critical' },
+     { date: '2023-05', event: 'Supreme Court in Sackett v. EPA further guts Clean Water Act, ruling wetlands must have "continuous surface connection" to navigable waters for federal protection', type: 'critical' }
      ],
  },
   'white-nationalism': {
@@ -121,15 +121,14 @@ const investigations_w: Record<string, InvestigationData> = {
  '"SHITHOLE COUNTRIES": Trump reportedly asked why the US accepted immigrants from "shithole countries "like Haiti and African nations rather than places like Norway, revealing his preference for white immigrants.',
  'PROUD BOYS AND OATH KEEPERS: Extremist groups like the Proud Boys flourished during Trump\'s presidency, attending his rallies and eventually leading the January 6 attack. Their leaders cited Trump as inspiration.',
  'EL PASO SHOOTING: In 2019, a white supremacist murdered 23 people at an El Paso Walmart targeting Latinos. His manifesto echoed Trump\'s rhetoric about Hispanic "invasion."Trump visited El Paso but showed little empathy.',
- 'LASTING DAMAGE: Trump normalized white nationalist rhetoric in mainstream politics. Hate crimes increased during his presidency. White supremacist groups grew in membership and visibility. The radicalization continues.',
+ 'LASTING DAMAGE: Trump normalized white nationalist rhetoric in mainstream politics. Hate crimes increased during his presidency. White supremacist groups grew in membership and visibility. The radicalization continues.'
  ],
  tags: ['White Nationalism', 'Charlottesville', 'Proud Boys', 'Stephen Miller', 'Racism', 'Extremism', 'Trump'],
  sources: [
  { title: 'Trump Charlottesville Remarks', url: 'http://web.archive.org/web/20210120075212/https://www.whitehouse.gov/briefings-statements/statement-president-trump/', type: 'Official Record' },
  { title: 'SPLC Hate Crime Report', url: 'https://www.splcenter.org/hatewatch', type: 'Research' },
  { title: 'Stephen Miller Email Leaks', url: 'https://www.splcenter.org/hatewatch/2019/11/12/stephen-millers-affinity-white-nationalism-revealed-leaked-emails', type: 'Investigation' },
- { title: 'El Paso Shooter Manifesto Analysis', url: 'https://www.nytimes.com/2019/08/04/us/politics/trump-mass-shootings.html', type: 'News Analysis' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'El Paso Shooter Manifesto Analysis', url: 'https://www.nytimes.com/2019/08/04/us/politics/trump-mass-shootings.html', type: 'News Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Amplified white nationalist rhetoric', href: '/entities/individuals/donald-trump' },
@@ -137,7 +136,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '3', name: 'Proud Boys', type: 'organization', relationship: 'Extremist group that followed Trump', href: '/entities/organizations/proud-boys' },
  { id: '4', name: 'Oath Keepers', type: 'organization', relationship: 'Militia that stormed Capitol', href: '/entities/organizations/oath-keepers' },
  { id: '5', name: 'Enrique Tarrio', type: 'individual', relationship: 'Proud Boys leader, seditious conspiracy', href: '/entities/individuals/enrique-tarrio' },
- { id: '6', name: 'Stewart Rhodes', type: 'individual', relationship: 'Oath Keepers founder, seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
+ { id: '6', name: 'Stewart Rhodes', type: 'individual', relationship: 'Oath Keepers founder, seditious conspiracy', href: '/entities/individuals/stewart-rhodes' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2023-05-26',
@@ -146,7 +145,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2016', event: 'CAMPAIGN ANNOUNCEMENT: Trump launched his 2016 campaign calling Mexican immigrants "rapists "and criminals, setting a tone of racial grievance that would define his political career', type: 'political' },
      { date: '2017-08-01', event: 'CHARLOTTESVILLE: In August 2017, white supremacists marched in Charlottesville chanting "Jews will not replace us."Counter-protester Heather Heyer was murdered when a neo-Nazi drove his car into a', type: 'critical' },
      { date: '2019', event: 'EL PASO SHOOTING: In 2019, a white supremacist murdered 23 people at an El Paso Walmart targeting Latinos', type: 'critical' },
-     { date: '2020', event: 'At the 2020 debate, asked to condemn the Proud Boys, he instead told them to "stand back and stand by," which they took as a rallying cry', type: 'default' },
+     { date: '2020', event: 'At the 2020 debate, asked to condemn the Proud Boys, he instead told them to "stand back and stand by," which they took as a rallying cry', type: 'default' }
    ],
  },
   'war-profiteering': {
@@ -169,14 +168,13 @@ const investigations_w: Record<string, InvestigationData> = {
  'PRIVATE ARMY: At the height of Iraq operations, contractors outnumbered troops. The privatization of war reduced democratic accountability. Contractors weren\'t subject to military justice.',
  'ERIK PRINCE: Blackwater founder Erik Prince proposed privatizing the Afghan war entirely. He met with Russian officials in Seychelles during the Trump transition. His sister Betsy DeVos was Trump\'s Education Secretary.',
  'ACCOUNTABILITY FAILURES: Despite documented fraud and abuse, few contractors faced consequences. Companies paid fines but remained eligible for new contracts. The system protected profiteers.',
- 'CONTINUING COSTS: Twenty years later, Americans are still paying for these wars, in dollars, in veterans\' healthcare, in damaged international reputation. The profiteers kept their money.',
+ 'CONTINUING COSTS: Twenty years later, Americans are still paying for these wars, in dollars, in veterans\' healthcare, in damaged international reputation. The profiteers kept their money.'
  ],
  tags: ['War Profiteering', 'Blackwater', 'Halliburton', 'Iraq War', 'Afghanistan', 'Contractors', 'Erik Prince'],
  sources: [
  { title: 'SIGAR Afghanistan Reports', url: 'https://web.archive.org/web/2024/https://www.sigar.mil/quarterlyreports/', type: 'Government Reports' },
  { title: 'Trump Blackwater Pardons', url: 'https://www.nytimes.com/2020/12/22/us/politics/trump-pardons-blackwater-contractors-iraq.html', type: 'News Report' },
- { title: 'Halliburton Contracts Analysis', url: 'https://www.pogo.org/analysis/2008/02/halliburton-kbr-and-iraq-war-contracting-0/', type: 'Analysis' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'Halliburton Contracts Analysis', url: 'https://www.pogo.org/analysis/2008/02/halliburton-kbr-and-iraq-war-contracting-0/', type: 'Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'Erik Prince', type: 'individual', relationship: 'Blackwater founder, Trump connections', href: '/entities/individuals/erik-prince' },
@@ -185,7 +183,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '4', name: 'Dick Cheney', type: 'individual', relationship: 'Former Halliburton CEO, VP', href: '/entities/individuals/dick-cheney' },
  { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Pardoned Blackwater war criminals', href: '/entities/individuals/donald-trump' },
  { id: '6', name: 'Pentagon', type: 'agency', relationship: 'Contract oversight failures', href: '/entities/agencies/pentagon' },
- { id: '7', name: 'Betsy DeVos', type: 'individual', relationship: 'Erik Prince\'s sister, Trump cabinet', href: '/entities/individuals/betsy-devos' },
+ { id: '7', name: 'Betsy DeVos', type: 'individual', relationship: 'Erik Prince\'s sister, Trump cabinet', href: '/entities/individuals/betsy-devos' }
  ],
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2024-09-06',
@@ -193,7 +191,7 @@ const investigations_w: Record<string, InvestigationData> = {
       timeline: [
      { date: '2007', event: 'Private military contractor Blackwater (founded by Erik Prince) committed the Nisour Square massacre in 2007, killing 17 Iraqi civilians including children.', type: 'financial' },
      { date: '2020', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' },
-     { date: '2020-12', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' },
+     { date: '2020-12', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' }
      ],
  },
   'white-nationalist-media': {
@@ -216,21 +214,20 @@ const investigations_w: Record<string, InvestigationData> = {
  'GAMING AND STREAMING: Video game communities and streaming platforms like Twitch host white nationalist recruitment. Young men, the target demographic, are reached through gaming culture that normalizes edgy racism.',
  'MEME WARFARE: White nationalists excel at creating memes that spread racist ideas in seemingly ironic packaging. Pepe the Frog, the OK hand sign, and other symbols were appropriated to spread while maintaining plausible deniability.',
  'MAINSTREAM AMPLIFICATION: When mainstream figures, politicians, pundits, celebrities, repeat white nationalist talking points, they validate and amplify them. The pipeline runs in both directions; extremist ideas become mainstream.',
- 'PLATFORM FAILURE: Despite policies against hate speech, platforms have failed to stop the pipeline. Content moderation is reactive and inadequate. Algorithms continue recommending extremist content. The business model fights safety.',
+ 'PLATFORM FAILURE: Despite policies against hate speech, platforms have failed to stop the pipeline. Content moderation is reactive and inadequate. Algorithms continue recommending extremist content. The business model fights safety.'
  ],
  tags: ['White Nationalism', 'Radicalization', 'Great Replacement', 'Mass Shootings', 'Tucker Carlson', 'Online Extremism', '4chan'],
  sources: [
  { title: 'ADL, Great Replacement Conspiracy', url: 'https://www.adl.org/resources/backgrounder/great-replacement-explainer', type: 'Research' },
  { title: 'NYT, YouTube Radicalization Study', url: 'https://www.nytimes.com/interactive/2019/06/08/technology/youtube-radical.html', type: 'Investigation' },
  { title: 'SPLC, White Nationalist Movement', url: 'https://www.splcenter.org/fighting-hate/extremist-files/ideology/white-nationalist', type: 'Research' },
- { title: 'Data & Society, Alternative Influence', url: 'https://datasociety.net/library/alternative-influence/', type: 'Research Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Data & Society, Alternative Influence', url: 'https://datasociety.net/library/alternative-influence/', type: 'Research Report' }
  ],
  affiliations: [
  { id: '1', name: 'Tucker Carlson', type: 'individual', relationship: 'Mainstreamed replacement theory on Fox', href: '/entities/individuals/tucker-carlson' },
  { id: '2', name: 'Nick Fuentes', type: 'individual', relationship: 'Groyper movement leader', href: '/entities/individuals/nick-fuentes' },
  { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Platform for replacement theory', href: '/entities/corporations/fox-corporation' },
- { id: '4', name: 'Google', type: 'corporation', relationship: 'YouTube radicalization algorithm', href: '/entities/corporations/google' },
+ { id: '4', name: 'Google', type: 'corporation', relationship: 'YouTube radicalization algorithm', href: '/entities/corporations/google' }
  ],
    eventOriginDate: '2023-01-01',
    lastActivityDate: '2024-09-30',
@@ -241,7 +238,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2019-03-15', event: 'Christchurch mosque shootings kill 51; shooter livestreamed attack; manifesto cited "great replacement" theory', type: 'critical' },
      { date: '2019-08-03', event: 'El Paso Walmart shooting kills 23; shooter posted anti-Hispanic manifesto citing "invasion" on 8chan', type: 'critical' },
      { date: '2022-05-14', event: 'Buffalo Tops supermarket shooting kills 10 Black shoppers; shooter cited replacement theory in 4chan manifesto', type: 'critical' },
-     { date: '2023-04-24', event: 'Tucker Carlson fired from Fox News after promoting great replacement theory over 400 times on air', type: 'political' },
+     { date: '2023-04-24', event: 'Tucker Carlson fired from Fox News after promoting great replacement theory over 400 times on air', type: 'political' }
    ],
  },
   'who-china': {
@@ -262,19 +259,19 @@ const investigations_w: Record<string, InvestigationData> = {
  'HUMAN-TO-HUMAN TRANSMISSION: WHO initially echoed Chinese claims of no clear evidence of human-to-human transmission, even as healthcare workers were becoming infected. This delayed recognition cost time.',
  'TEDROS DEFENSE: Defenders argue WHO has limited power over member states and must maintain relationships to have any access. Alienating China would reduce cooperation without improving outcomes.',
  'U.S. WITHDRAWAL: Trump withdrew the U.S. from WHO, blaming the organization for pandemic failures. Biden rejoined, but the episode weakened global health governance.',
- 'REFORM DEBATES: The pandemic revealed WHO\'s structural weaknesses: dependence on member state funding and cooperation, inability to conduct independent investigations, and vulnerability to political pressure.',
+ 'REFORM DEBATES: The pandemic revealed WHO\'s structural weaknesses: dependence on member state funding and cooperation, inability to conduct independent investigations, and vulnerability to political pressure.'
  ],
  tags: ['WHO', 'China', 'Tedros', 'Pandemic Response', 'Global Health', 'International Organizations'],
  sources: [
  { title: 'AP Investigation: WHO Praise of China', url: 'https://apnews.com/article/3c061794970661042b18d5aeaaed9fae', type: 'Investigation' },
  { title: 'WHO COVID-19 Timeline', url: 'https://www.who.int/news/item/27-04-2020-who-timeline---covid-19', type: 'Official Timeline' },
- { title: 'Lancet COVID-19 Commission Report', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Research' },
+ { title: 'Lancet COVID-19 Commission Report', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'WHO', type: 'organization', relationship: 'Criticized pandemic response', href: '/entities/organizations/who' },
  { id: '2', name: 'Tedros Adhanom Ghebreyesus', type: 'individual', relationship: 'WHO Director-General', href: '/entities/individuals/tedros-adhanom' },
  { id: '3', name: 'Xi Jinping', type: 'individual', relationship: 'Chinese leader during pandemic', href: '/entities/individuals/xi-jinping' },
- { id: '4', name: 'Donald Trump', type: 'individual', relationship: 'Withdrew U.S. from WHO', href: '/entities/individuals/donald-trump' },
+ { id: '4', name: 'Donald Trump', type: 'individual', relationship: 'Withdrew U.S. from WHO', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2022-01-21',
@@ -282,7 +279,7 @@ const investigations_w: Record<string, InvestigationData> = {
       timeline: [
      { date: '2020', event: 'In January 2020, WHO praised China\'s "transparency" and "commitment to sharing information" while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
      { date: '2020-01', event: 'In January 2020, WHO praised China\'s "transparency" and "commitment to sharing information" while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
-     { date: '2020-03-11', event: 'WHO waited until March 11, 2020 to declare COVID-19 a pandemic, weeks after it had clearly met criteria.', type: 'default' },
+     { date: '2020-03-11', event: 'WHO waited until March 11, 2020 to declare COVID-19 a pandemic, weeks after it had clearly met criteria.', type: 'default' }
      ],
  },
   'wuhan-lab': {
@@ -303,19 +300,19 @@ const investigations_w: Record<string, InvestigationData> = {
  'FURIN CLEAVAGE SITE: SARS-CoV-2 contains a furin cleavage site not found in the closest known relatives. This feature enhances human transmissibility. Whether it arose naturally or through research is central to the origin question.',
  'NO PROVEN INTERMEDIATE HOST: Unlike SARS-1 (civets) and MERS (camels), no intermediate animal host has been identified for SARS-CoV-2. Four years later, the natural spillover pathway remains unproven.',
  'INVESTIGATION OBSTRUCTION: China has refused to provide raw data, allow independent investigation, or make researchers available for questioning. This obstruction prevents resolving the origin question.',
- 'INTELLIGENCE ASSESSMENT: U.S. intelligence agencies are divided. The FBI and Department of Energy assess lab leak as most likely; other agencies assess natural origin or remain uncertain. None has high confidence.',
+ 'INTELLIGENCE ASSESSMENT: U.S. intelligence agencies are divided. The FBI and Department of Energy assess lab leak as most likely; other agencies assess natural origin or remain uncertain. None has high confidence.'
  ],
  tags: ['Wuhan', 'Lab Leak', 'COVID-19 Origins', 'Biosafety', 'China', 'Shi Zhengli', 'Intelligence'],
  sources: [
  { title: 'WSJ: Wuhan Lab Researchers Sick November 2019', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228', type: 'Investigation' },
  { title: 'DOE Lab Leak Assessment', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
- { title: 'ODNI COVID-19 Origin Report', url: 'https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf', type: 'Intelligence Report' },
+ { title: 'ODNI COVID-19 Origin Report', url: 'https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf', type: 'Intelligence Report' }
  ],
  affiliations: [
  { id: '1', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Potential origin site', href: '/entities/organizations/wuhan-institute-of-virology' },
  { id: '2', name: 'CCP', type: 'organization', relationship: 'Blocked investigation', href: '/entities/organizations/ccp' },
  { id: '3', name: 'EcoHealth Alliance', type: 'organization', relationship: 'Funded WIV research', href: '/entities/organizations/ecohealth-alliance' },
- { id: '4', name: 'FBI', type: 'agency', relationship: 'Assesses lab leak most likely', href: '/entities/agencies/fbi' },
+ { id: '4', name: 'FBI', type: 'agency', relationship: 'Assesses lab leak most likely', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-04-29',
@@ -323,7 +320,7 @@ const investigations_w: Record<string, InvestigationData> = {
       timeline: [
      { date: '2019', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' },
      { date: '2019-09', event: 'WIV took its virus database offline in September 2019, before the pandemic.', type: 'default' },
-     { date: '2019-11', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' },
+     { date: '2019-11', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' }
      ],
  },
   'war-crimes': {
@@ -346,28 +343,27 @@ const investigations_w: Record<string, InvestigationData> = {
  'IMPUNITY MECHANISMS: Powerful states protect their forces from accountability. The U.S. sanctions ICC officials who investigate Americans. Russia vetoes UN action. China shields allies from consequences.',
  'VICTOR\'S JUSTICE: War crimes tribunals historically prosecute the defeated. Nuremberg tried Nazi crimes; Allied bombing of civilians was not examined. This pattern persists.',
  'COMPLEMENTARITY FAILURE: The ICC is a court of last resort when national systems fail. But national systems of powerful states routinely fail to prosecute their own war crimes.',
- 'THE LAWS EXIST: International humanitarian law is comprehensive and clear. The problem isn\'t law, it\'s enforcement. War crimes continue because perpetrators face no consequences.',
+ 'THE LAWS EXIST: International humanitarian law is comprehensive and clear. The problem isn\'t law, it\'s enforcement. War crimes continue because perpetrators face no consequences.'
  ],
  tags: ['War Crimes', 'Geneva Conventions', 'International Humanitarian Law', 'ICC', 'Civilian Protection', 'Accountability'],
  sources: [
  { title: 'Geneva Conventions', url: 'https://www.icrc.org/en/war-and-law/treaties-customary-law/geneva-conventions', type: 'Legal Document' },
  { title: 'International Criminal Court', url: 'https://www.icc-cpi.int/', type: 'International Body' },
  { title: 'ICRC IHL Database', url: 'https://ihl-databases.icrc.org/en/ihl-treaties', type: 'Legal Database' },
- { title: 'Amnesty International Armed Conflict', url: 'https://www.amnesty.org/en/what-we-do/armed-conflict/', type: 'Research' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'Amnesty International Armed Conflict', url: 'https://www.amnesty.org/en/what-we-do/armed-conflict/', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'International Criminal Court', type: 'agency', relationship: 'War crimes prosecution authority', href: '/entities/agencies/icc' },
  { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'U.S. military command', href: '/entities/agencies/department-of-defense' },
  { id: '3', name: 'International Committee of the Red Cross', type: 'organization', relationship: 'Geneva Conventions guardian', href: '/entities/organizations/icrc' },
- { id: '4', name: 'United Nations', type: 'agency', relationship: 'International law enforcement', href: '/entities/agencies/united-nations' },
+ { id: '4', name: 'United Nations', type: 'agency', relationship: 'International law enforcement', href: '/entities/agencies/united-nations' }
  ],
    eventOriginDate: '2011-06-09',
    lastActivityDate: '2012-12-22',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2011', event: 'Geneva Conventions — initial events and core patterns documented', type: 'default' },
-     { date: '2020', event: 'Continued developments in geneva conventions with new evidence emerging', type: 'default' },
+     { date: '2020', event: 'Continued developments in geneva conventions with new evidence emerging', type: 'default' }
    ],
  },
   'wall-street-bailout': {
@@ -383,25 +379,26 @@ const investigations_w: Record<string, InvestigationData> = {
  'TARP: The Troubled Asset Relief Program gave $700 billion to banks. Some paid it back; much didn\'t.',
  'NO ACCOUNTABILITY: One banker went to prison. Executives kept bonuses paid with bailout money.',
  'FORECLOSURES: 10 million families lost homes. Banks illegally foreclosed with "robo-signing "and faced minimal consequences.',
- 'OCCUPY: The 2011 Occupy Wall Street movement emerged from rage at bailout injustice.',
+ 'OCCUPY: The 2011 Occupy Wall Street movement emerged from rage at bailout injustice.'
  ],
  tags: ['Wall Street', 'Bailout', '2008 Crisis', 'TARP', 'Banks', 'Foreclosure'],
  sources: [
  { title: 'Financial Crisis Inquiry Report', url: 'https://www.govinfo.gov/app/details/GPO-FCIC/', type: 'Government Report' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Government' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'SIGTARP: Special Inspector General for TARP Reports', url: 'https://www.sigtarp.gov/', type: 'Government Report' },
+ { title: 'Congressional Oversight Panel: TARP Reports', url: 'https://www.govinfo.gov/collection/congressional-oversight-panel-reports', type: 'Congressional Report' },
+ { title: 'GAO: Troubled Asset Relief Program Audit', url: 'https://www.gao.gov/products/gao-12-229', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Bailout recipient', href: '/entities/corporations/goldman-sachs' },
  { id: '2', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Bailout recipient', href: '/entities/corporations/jpmorgan-chase' },
- { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Emergency lending', href: '/entities/agencies/federal-reserve' },
+ { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Emergency lending', href: '/entities/agencies/federal-reserve' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2024-10-07',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2008-01-01', event: 'After banks crashed the economy through fraud and recklessness, they received $700 billion in taxpayer bailouts', type: 'critical' },
-     { date: '2011', event: 'The 2011 Occupy Wall Street movement emerged from rage at bailout injustice.', type: 'default' },
+     { date: '2011', event: 'The 2011 Occupy Wall Street movement emerged from rage at bailout injustice.', type: 'default' }
      ],
  },
   'worldcom-fraud': {
@@ -419,17 +416,17 @@ const investigations_w: Record<string, InvestigationData> = {
  'BANKRUPTCY: WorldCom filed the largest bankruptcy in US history at the time ($107 billion in assets). It reorganized as MCI and was later acquired by Verizon.',
  'CFO CONVICTION: Scott Sullivan pled guilty and cooperated against Ebbers. He received 5 years in prison. Other executives also faced charges.',
  'REGULATORY RESPONSE: WorldCom\'s collapse, combined with Enron, drove passage of Sarbanes-Oxley. Corporate accountability was supposed to be transformed.',
- 'LESSONS UNLEARNED: Similar frauds continued, Tyco, HealthSouth, and later the 2008 financial crisis showed corporate crime remained endemic.',
+ 'LESSONS UNLEARNED: Similar frauds continued, Tyco, HealthSouth, and later the 2008 financial crisis showed corporate crime remained endemic.'
  ],
  tags: ['WorldCom', 'Bernie Ebbers', 'Accounting Fraud', 'Sarbanes-Oxley', 'Telecom'],
  sources: [
  { title: 'SEC WorldCom Case', url: 'https://www.sec.gov/news/press/2002-94.htm', type: 'Government Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'SEC: SEC Charges WorldCom with $3.8 Billion Fraud', url: 'https://www.sec.gov/news/press/2002-2003/2002-87.htm', type: 'Legal Document' },
+ { title: 'DOJ: WorldCom CEO Ebbers Convicted', url: 'https://www.justice.gov/archive/dag/cftf/chargingdocs/ebbersindictment.pdf', type: 'Legal Document' }
  ],
  affiliations: [
  { id: '1', name: 'WorldCom', type: 'corporation', relationship: 'Collapsed fraud', href: '/entities/corporations/worldcom' },
- { id: '2', name: 'Bernard Ebbers', type: 'individual', relationship: 'CEO, 25-year sentence', href: '/entities/individuals/bernard-ebbers' },
+ { id: '2', name: 'Bernard Ebbers', type: 'individual', relationship: 'CEO, 25-year sentence', href: '/entities/individuals/bernard-ebbers' }
  ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2012-05-25',
@@ -440,7 +437,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2002-08-01', event: 'SEC files civil fraud charges against WorldCom; total fraud eventually quantified at $11 billion', type: 'legal' },
      { date: '2004-03-02', event: 'Former CFO Scott Sullivan pleads guilty and agrees to cooperate against CEO Bernie Ebbers', type: 'legal' },
      { date: '2005-03-15', event: 'Bernie Ebbers convicted of fraud, conspiracy, and filing false reports; sentenced to 25 years in federal prison', type: 'legal' },
-     { date: '2005-04-20', event: 'WorldCom reorganizes as MCI Inc. and exits bankruptcy; later acquired by Verizon', type: 'financial' },
+     { date: '2005-04-20', event: 'WorldCom reorganizes as MCI Inc. and exits bankruptcy; later acquired by Verizon', type: 'financial' }
    ],
  },
   'wagner-crimes': {
@@ -456,16 +453,14 @@ const investigations_w: Record<string, InvestigationData> = {
  'In Africa, Wagner deployed to Mali, Central African Republic, Libya, Sudan, Mozambique, and Burkina Faso, typically trading military services for access to natural resources; gold mines, oil, and diamonds. In Mali, Wagner operatives alongside the Malian army massacred an estimated 300 civilians in the town of Moura in March 2022. In the Central African Republic, UN investigators documented systematic torture, summary executions, and sexual violence by Wagner personnel.',
  'In Syria, Wagner fought alongside Assad regime forces. In February 2018, approximately 200-300 Wagner fighters were killed by U.S. forces in the Battle of Khasham when they attacked a position held by U.S.-allied Syrian Democratic Forces. Russia denied any involvement despite intercepted communications confirming the casualties. Wagner operatives were also filmed torturing and executing a Syrian prisoner with a sledgehammer, a video that later became a Wagner recruitment tool.',
  'In Ukraine, Wagner recruited heavily from Russian prisons, offering commutation of sentences in exchange for six months of combat. Prigozhin personally visited penal colonies to recruit, promising freedom to convicted murderers and rapists. Wagner forces spearheaded the assault on Bakhmut/Artemovsk, suffering an estimated 20,000-30,000 casualties in the prolonged battle. Former Wagner fighters who survived and returned to Russia committed a wave of violent crimes.',
- 'In June 2023, Prigozhin launched and then abruptly halted a mutiny against Russian military leadership, marching Wagner forces to within 200 kilometers of Moscow before standing down. Two months later, on August 23, 2023, Prigozhin was killed when his private jet exploded over Russia\'s Tver region. Western intelligence agencies assessed that the crash was ordered by Putin. Wagner\'s operations were subsequently absorbed by Russian military intelligence, continuing under different names.',
+ 'In June 2023, Prigozhin launched and then abruptly halted a mutiny against Russian military leadership, marching Wagner forces to within 200 kilometers of Moscow before standing down. Two months later, on August 23, 2023, Prigozhin was killed when his private jet exploded over Russia\'s Tver region. Western intelligence agencies assessed that the crash was ordered by Putin. Wagner\'s operations were subsequently absorbed by Russian military intelligence, continuing under different names.'
  ],
  tags: ['War Crimes', 'Wagner Group', 'Russia', 'Mercenaries', 'Africa', 'Ukraine'],
  sources: [
- { title: 'DOJ Press Releases', url: 'https://www.justice.gov/usao/pressreleases', type: 'Government' },
  { title: 'Court Records via PACER', url: 'https://www.pacer.gov/', type: 'Document' },
  { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
- { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'UN Human Rights Monitoring Mission in Ukraine', url: 'https://www.ohchr.org/en/countries/ukraine', type: 'Report' },
  { title: 'International Criminal Court - Ukraine', url: 'https://www.icc-cpi.int/ukraine', type: 'Document' },
  { title: 'Bellingcat Open Source Investigations', url: 'https://www.bellingcat.com/tag/ukraine/', type: 'Investigation' },
@@ -476,12 +471,11 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
  { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Wagner Group', type: 'organization', relationship: 'Russian private military company', href: '/entities/organizations/wagner-group' },
- { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Kremlin-backed mercenary force', href: '/entities/individuals/vladimir-putin' },
+ { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Kremlin-backed mercenary force', href: '/entities/individuals/vladimir-putin' }
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-07-16',
@@ -490,7 +484,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2018-02-01', event: 'In February 2018, approximately 200-300 Wagner fighters were killed by U.S', type: 'critical' },
      { date: '2022-03-01', event: 'In Mali, Wagner operatives alongside the Malian army massacred an estimated 300 civilians in the town of Moura in March 2022', type: 'critical' },
      { date: '2023-06-01', event: 'In June 2023, Prigozhin launched and then abruptly halted a mutiny against Russian military leadership, marching Wagner forces to within 200 kilometers of Moscow before standing down', type: 'default' },
-     { date: '2023-08-23', event: 'Two months later, on August 23, 2023, Prigozhin was killed when his private jet exploded over Russia\'s Tver region', type: 'critical' },
+     { date: '2023-08-23', event: 'Two months later, on August 23, 2023, Prigozhin was killed when his private jet exploded over Russia\'s Tver region', type: 'critical' }
    ],
  },
   'wall-street-accountability': {
@@ -506,7 +500,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Despite overwhelming evidence of fraud, no senior executive from a major Wall Street bank was criminally prosecuted. Attorney General Eric Holder acknowledged the DOJ\'s concern that prosecuting large banks could destabilize the financial system; the "too big to fail, too big to jail" doctrine. Banks paid billions in civil settlements: JPMorgan Chase ($13 billion), Bank of America ($16.65 billion), Goldman Sachs ($5.06 billion), Citigroup ($7 billion), and Morgan Stanley ($3.2 billion).',
  'The settlements, while large in absolute terms, represented a fraction of the banks\' profits and involved no admission of criminal wrongdoing. Goldman Sachs sold mortgage securities it internally called "one shitty deal" and "junk." Countrywide Financial originated loans it knew were fraudulent. HSBC laundered money for drug cartels and was fined $1.92 billion with no criminal charges. The pattern established that financial institutions could commit fraud at scale with manageable financial penalties.',
  'The revolving door between Wall Street and government ensured that regulatory capture persisted. Treasury Secretary Hank Paulson was former Goldman Sachs CEO. His successor Tim Geithner became president of the private equity firm Warburg Pincus. SEC officials routinely moved to Wall Street law firms. The Dodd-Frank Act\'s regulatory reforms were systematically weakened through lobbying; the financial industry spent over $1.5 billion on lobbying between 2008 and 2016.',
- 'The contrast between Wall Street\'s impunity and the treatment of ordinary Americans was stark. While banks received bailouts, 3.8 million families had their homes foreclosed in 2010 alone. Many foreclosures were based on fraudulent documents in the "robo-signing" scandal, where banks fabricated signatures and notarizations to expedite seizures. The message was clear: in the American justice system, the scale of your crime determined not your punishment but your immunity.',
+ 'The contrast between Wall Street\'s impunity and the treatment of ordinary Americans was stark. While banks received bailouts, 3.8 million families had their homes foreclosed in 2010 alone. Many foreclosures were based on fraudulent documents in the "robo-signing" scandal, where banks fabricated signatures and notarizations to expedite seizures. The message was clear: in the American justice system, the scale of your crime determined not your punishment but your immunity.'
  ],
  tags: ['Wall Street', 'Financial Crisis', 'Too Big to Jail', 'Bailout', 'Regulatory Capture'],
  sources: [
@@ -514,12 +508,12 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
  { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/app/details/GPO-FCIC/', type: 'Government' },
- { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
+ { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Emblematic of Wall Street impunity', href: '/entities/corporations/goldman-sachs' },
  { id: '2', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Largest bank, systemic risk', href: '/entities/corporations/jpmorgan-chase' },
- { id: '3', name: 'SEC', type: 'agency', relationship: 'Regulatory capture by Wall Street', href: '/entities/agencies/sec' },
+ { id: '3', name: 'SEC', type: 'agency', relationship: 'Regulatory capture by Wall Street', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2024-08-13',
@@ -527,7 +521,7 @@ const investigations_w: Record<string, InvestigationData> = {
       timeline: [
      { date: '2008', event: 'The 2008 financial crisis, caused by Wall Street\'s systematic packaging and sale of fraudulent mortgage-backed securities, destroyed $11 trillion in household wealth, eliminated 8.7 million jobs, and caused 10...', type: 'financial' },
      { date: '2010', event: 'While banks received bailouts, 3.8 million families had their homes foreclosed in 2010 alone.', type: 'financial' },
-     { date: '2016', event: 'The Dodd-Frank Act\'s regulatory reforms were systematically weakened through lobbying; the financial industry spent over $1.5 billion on lobbying between 2008 and 2016.', type: 'financial' },
+     { date: '2016', event: 'The Dodd-Frank Act\'s regulatory reforms were systematically weakened through lobbying; the financial industry spent over $1.5 billion on lobbying between 2008 and 2016.', type: 'financial' }
      ],
  },
   'wall-street-manipulation': {
@@ -543,7 +537,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Foreign exchange market manipulation was exposed through a series of investigations beginning in 2013. Traders at major banks colluded through online chat rooms with names like "The Cartel" and "The Bandits\' Club" to rig the daily 4 PM London "fix" that sets benchmark exchange rates used by pension funds, central banks, and corporations worldwide. Six banks paid $5.6 billion in fines. JPMorgan, Citigroup, Barclays, and Royal Bank of Scotland pleaded guilty to federal criminal charges.',
  'Commodity market manipulation included JPMorgan\'s $920 million settlement for spoofing precious metals and Treasury futures markets. Spoofing involved placing and then rapidly canceling large orders to create the illusion of market demand, moving prices in directions that benefited the bank\'s trading desk. The DOJ charged several JPMorgan traders under RICO statutes, treating the trading desk as a criminal enterprise. The scheme operated for over eight years.',
  'The pattern across these manipulations was consistent: traders at competing banks colluded to rig markets, supervisors were aware or willfully blind, compliance departments were ineffective, and the profits were enormous relative to the eventual fines. Banks treated regulatory penalties as a cost of doing business. No major bank lost its banking charter. The manipulation schemes demonstrated that global financial markets were not the "free markets" described in economic textbooks but managed environments where insiders extracted value from outsiders.',
- 'The retail consequences were real but invisible. When banks manipulated LIBOR upward, millions of homeowners paid more on their adjustable-rate mortgages. When they manipulated FX rates, pension funds received less favorable exchange rates on international investments. When they spoofed commodity markets, the prices of metals used in manufacturing fluctuated artificially. The aggregate cost to consumers and institutions ran into hundreds of billions of dollars, but the diffuse nature of the harm made accountability nearly impossible.',
+ 'The retail consequences were real but invisible. When banks manipulated LIBOR upward, millions of homeowners paid more on their adjustable-rate mortgages. When they manipulated FX rates, pension funds received less favorable exchange rates on international investments. When they spoofed commodity markets, the prices of metals used in manufacturing fluctuated artificially. The aggregate cost to consumers and institutions ran into hundreds of billions of dollars, but the diffuse nature of the harm made accountability nearly impossible.'
  ],
  tags: ['LIBOR', 'Market Manipulation', 'Financial Crime', 'Foreign Exchange', 'Spoofing'],
  sources: [
@@ -551,21 +545,21 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
  { title: 'CFTC Enforcement Actions', url: 'https://www.cftc.gov/LawRegulation/Enforcement/index.htm', type: 'Government' },
- { title: 'Financial Conduct Authority (UK)', url: 'https://www.fca.org.uk/news/press-releases', type: 'Government' },
+ { title: 'Financial Conduct Authority (UK)', url: 'https://www.fca.org.uk/news/press-releases', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Pleaded guilty to FX manipulation; $920M spoofing settlement', href: '/entities/corporations/jpmorgan-chase' },
  { id: '2', name: 'Barclays', type: 'corporation', relationship: 'First bank fined in LIBOR scandal ($453M)', href: '/entities/corporations/barclays' },
  { id: '3', name: 'Deutsche Bank', type: 'corporation', relationship: 'Largest LIBOR fine ($2.5B)', href: '/entities/corporations/deutsche-bank' },
  { id: '4', name: 'UBS', type: 'corporation', relationship: 'LIBOR manipulation ($1.5B fine)', href: '/entities/corporations/ubs' },
- { id: '5', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution of FX cartel under RICO', href: '/entities/agencies/doj' },
+ { id: '5', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution of FX cartel under RICO', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2024-09-13',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2013', event: 'Foreign exchange market manipulation was exposed through a series of investigations beginning in 2013.', type: 'default' },
-     { date: '2018', event: 'Subsequent developments in wall street market manipulation reveal broader systemic patterns', type: 'default' },
+     { date: '2018', event: 'Subsequent developments in wall street market manipulation reveal broader systemic patterns', type: 'default' }
    ],
  },
   'walmart-labor': {
@@ -581,7 +575,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Walmart\'s anti-union campaign has been one of the most aggressive in American corporate history. When meat cutters at a Jacksonville, Texas store voted to unionize in 2000, Walmart eliminated the butcher department at that store and 180 others nationwide. The company maintains a rapid-response team that deploys to stores showing signs of unionization activity. Managers are trained using materials that describe unions as threats. The company closed a store in Jonquiere, Quebec in 2005, the first Walmart in North America to unionize.',
  'Wage theft lawsuits have resulted in billions in settlements. In 2008, Walmart settled 63 class-action lawsuits for $640 million for forcing employees to work off the clock, denying meal breaks, and deleting overtime hours from timekeeping systems. Individual state settlements included $172 million in California, $65 million in Minnesota, and $54 million in Massachusetts. The pattern of violations was not accidental but systemic, driven by corporate pressure on store managers to meet labor budget targets.',
  'The Walton family, Walmart\'s founding dynasty, holds an estimated $250 billion in wealth; more than the bottom 40% of American families combined. While the family\'s wealth grew by billions annually, Walmart\'s median employee earned approximately $25,000 per year. The company\'s low-wage model has depressed wages industry-wide, as competitors match Walmart\'s labor practices to remain price-competitive. Economic studies have found that the opening of a Walmart store reduces average retail wages in the surrounding community.',
- 'Walmart\'s global supply chain has been linked to labor abuses including the 2013 Rana Plaza factory collapse in Bangladesh that killed 1,134 garment workers. While Walmart denied direct sourcing from the factory, its labels were found in the rubble. The company\'s relentless pressure on suppliers to reduce costs has been linked to factory safety shortcuts, child labor, and below-subsistence wages in developing countries. Walmart\'s "everyday low prices" are subsidized by the exploitation of workers from Arkansas to Southeast Asia.',
+ 'Walmart\'s global supply chain has been linked to labor abuses including the 2013 Rana Plaza factory collapse in Bangladesh that killed 1,134 garment workers. While Walmart denied direct sourcing from the factory, its labels were found in the rubble. The company\'s relentless pressure on suppliers to reduce costs has been linked to factory safety shortcuts, child labor, and below-subsistence wages in developing countries. Walmart\'s "everyday low prices" are subsidized by the exploitation of workers from Arkansas to Southeast Asia.'
  ],
  tags: ['Walmart', 'Labor Rights', 'Wage Theft', 'Union Suppression', 'Working Conditions', 'Worker Safety'],
  sources: [
@@ -590,13 +584,12 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
  { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'GAO Reports on Walmart and Public Assistance', url: 'https://www.gao.gov/', type: 'Government' },
- { title: 'National Employment Law Project', url: 'https://www.nelp.org/', type: 'Report' },
-   { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
+ { title: 'National Employment Law Project', url: 'https://www.nelp.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'World\'s largest private employer; systematic wage suppression and anti-union campaigns', href: '/entities/corporations/walmart' },
  { id: '2', name: 'NLRB', type: 'agency', relationship: 'Adjudicated unfair labor practice complaints against Walmart', href: '/entities/agencies/nlrb' },
- { id: '3', name: 'Walton Family', type: 'individual', relationship: '$250B+ wealth while median employee earns $25K', href: '/entities/individuals/walton-family' },
+ { id: '3', name: 'Walton Family', type: 'individual', relationship: '$250B+ wealth while median employee earns $25K', href: '/entities/individuals/walton-family' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-06-12',
@@ -606,7 +599,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2005', event: 'The company closed a store in Jonquiere, Quebec in 2005, the first Walmart in North America to unionize', type: 'default' },
      { date: '2008', event: 'In 2008, Walmart settled 63 class-action lawsuits for $640 million for forcing employees to work off the clock, denying meal breaks, and deleting overtime hours from timekeeping systems', type: 'legal' },
      { date: '2013', event: 'Walmart\'s global supply chain has been linked to labor abuses including the 2013 Rana Plaza factory collapse in Bangladesh that killed 1,134 garment workers', type: 'critical' },
-     { date: '2020', event: 'A 2020 Government Accountability Office report found that Walmart was the top employer of SNAP (food stamp) recipients in multiple states, meaning that the world\'s largest retailer paid its workers...', type: 'financial' },
+     { date: '2020', event: 'A 2020 Government Accountability Office report found that Walmart was the top employer of SNAP (food stamp) recipients in multiple states, meaning that the world\'s largest retailer paid its workers...', type: 'financial' }
    ],
  },
   'walter-scott-murder': {
@@ -622,21 +615,20 @@ const investigations_w: Record<string, InvestigationData> = {
  'Bystander Feidin Santana recorded the shooting on his cellphone from approximately 30 yards away. The video showed Slager firing repeatedly at Scott\'s back as he ran away, then walking to where Scott lay and handcuffing him without providing medical aid. The video also captured Slager picking up an object (later identified as his Taser) from where the encounter began and dropping it beside Scott\'s body; apparent evidence planting.',
  'Slager\'s initial report claimed Scott had grabbed his Taser and that he feared for his life. The Santana video completely contradicted this account. Without the video, Slager\'s narrative would likely have been accepted. The case became a defining example of how police false reports can construct justifications for unjustified killings, and how civilian video documentation had become essential for accountability.',
  'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict). Slager then pleaded guilty to federal civil rights charges in May 2017. Judge David Norton sentenced Slager to 20 years in federal prison, finding that the shooting constituted second-degree murder and that Slager had obstructed justice by making false statements. The sentence was one of the longest ever imposed on a police officer for an on-duty killing.',
- 'The city of North Charleston settled with Scott\'s family for $6.5 million. The case highlighted the role of outstanding warrants for minor offenses in creating deadly encounters between police and civilians. Scott ran because he feared arrest over child support debt; a non-violent civil matter. The militarization of routine encounters, the criminalization of poverty, and the lethal escalation of non-threatening situations combined to produce the death of an unarmed man over a broken brake light.',
+ 'The city of North Charleston settled with Scott\'s family for $6.5 million. The case highlighted the role of outstanding warrants for minor offenses in creating deadly encounters between police and civilians. Scott ran because he feared arrest over child support debt; a non-violent civil matter. The militarization of routine encounters, the criminalization of poverty, and the lethal escalation of non-threatening situations combined to produce the death of an unarmed man over a broken brake light.'
  ],
  tags: ['Police Violence', 'Walter Scott', 'Bystander Video', 'Civil Rights', 'Evidence Planting'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
  { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
- { title: 'DOJ Press Releases', url: 'https://www.justice.gov/usao/pressreleases', type: 'Government' },
  { title: 'Court Records via PACER', url: 'https://www.pacer.gov/', type: 'Document' },
- { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Walter Scott', type: 'individual', relationship: 'Unarmed Black motorist shot five times in the back by Officer Michael Slager', href: '/entities/individuals/walter-scott' },
  { id: '2', name: 'Michael Slager', type: 'individual', relationship: 'North Charleston police officer; sentenced to 20 years federal prison for civil rights violation', href: '/entities/individuals/michael-slager' },
- { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal civil rights prosecution of Slager', href: '/entities/agencies/doj' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal civil rights prosecution of Slager', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-11-20',
@@ -646,7 +638,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2015-04-04', event: 'On April 4, 2015, North Charleston police officer Michael Slager shot unarmed Walter Scott five times in the back as he ran from a traffic stop.', type: 'default' },
      { date: '2016', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict).', type: 'legal' },
      { date: '2016-12', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict).', type: 'legal' },
-     { date: '2017-05', event: 'Slager then pleaded guilty to federal civil rights charges in May 2017.', type: 'legal' },
+     { date: '2017-05', event: 'Slager then pleaded guilty to federal civil rights charges in May 2017.', type: 'legal' }
      ],
  },
   'war-on-terror-abuses': {
@@ -662,7 +654,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'The Senate report concluded that the torture program was ineffective; that the CIA "regularly and repeatedly" provided inaccurate information about the program to Congress, the White House, and the media; and that the program was far more brutal than the CIA represented. No actionable intelligence was obtained through torture that could not have been obtained through conventional interrogation. Despite this finding, no CIA official was criminally prosecuted, and the officer who destroyed videotapes of interrogation sessions was not charged.',
  'Abu Ghraib prison in Iraq became the symbol of War on Terror abuses when photographs of U.S. military personnel torturing and humiliating Iraqi detainees were published in April 2004. Images showed naked prisoners stacked in pyramids, attacked by dogs, and subjected to sexual humiliation. Eleven soldiers were convicted of crimes; the highest-ranking was a staff sergeant. No senior military or civilian official was held accountable despite evidence that the abuses reflected policies approved at higher levels.',
  'Guantanamo Bay detention facility has held approximately 780 detainees since 2002, many for over 20 years without trial. At its peak, the facility held detainees based on intelligence assessments rather than evidence that could withstand judicial scrutiny. The Supreme Court ruled in Boumediene v. Bush (2008) that detainees had habeas corpus rights, but the practical effect was limited. As of 2024, 30 detainees remained, some never charged. The facility costs approximately $540 million per year to operate; over $13 million per detainee annually.',
- 'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, showed that the government collected bulk telephone metadata on virtually every American, tapped internet cables, and monitored communications of foreign leaders including allied heads of state. The programs operated under secret court orders from the FISA Court, which approved over 99% of government requests. The surveillance state built in the name of counterterrorism represented the most extensive government monitoring of citizens in American history.',
+ 'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, showed that the government collected bulk telephone metadata on virtually every American, tapped internet cables, and monitored communications of foreign leaders including allied heads of state. The programs operated under secret court orders from the FISA Court, which approved over 99% of government requests. The surveillance state built in the name of counterterrorism represented the most extensive government monitoring of citizens in American history.'
  ],
  tags: ['War on Terror', 'CIA', 'NSA', 'Torture', 'Mass Surveillance', 'Drone Strikes', 'Rendition'],
  sources: [
@@ -671,19 +663,17 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'ACLU Surveillance Technologies', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies', type: 'Report' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
- { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/', type: 'Government' },
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
- { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated black site torture program; subjected 119+ detainees to enhanced interrogation', href: '/entities/agencies/cia' },
  { id: '2', name: 'NSA', type: 'agency', relationship: 'Mass warrantless surveillance programs revealed by Snowden', href: '/entities/agencies/nsa' },
  { id: '3', name: 'Department of Defense', type: 'agency', relationship: 'Abu Ghraib prisoner abuse; Guantanamo Bay detention', href: '/entities/agencies/department-of-defense' },
- { id: '4', name: 'DOJ', type: 'agency', relationship: 'Authorized torture memos through Office of Legal Counsel', href: '/entities/agencies/doj' },
+ { id: '4', name: 'DOJ', type: 'agency', relationship: 'Authorized torture memos through Office of Legal Counsel', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-02-09',
@@ -695,7 +685,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2008', event: 'Bush (2008) that detainees had habeas corpus rights, but the practical effect was limited', type: 'default' },
      { date: '2013', event: 'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, showed that the government collected bulk telephone metadata on virtually every American, tapped internet cables, and monit...', type: 'default' },
      { date: '2014', event: 'The Senate Intelligence Committee\'s 2014 torture report (6,700 pages, with a 525-page executive summary released) documented that the CIA subjected at least 119 detainees to waterboarding, sleep de...', type: 'political' },
-     { date: '2024', event: 'As of 2024, 30 detainees remained, some never charged', type: 'default' },
+     { date: '2024', event: 'As of 2024, 30 detainees remained, some never charged', type: 'default' }
    ],
  },
   'wartime-civil-liberties': {
@@ -711,18 +701,18 @@ const investigations_w: Record<string, InvestigationData> = {
  'The internment of 120,000 Japanese Americans during World War II remains the most egregious wartime violation of civil liberties. Executive Order 9066, signed by FDR in February 1942, authorized the forced removal and imprisonment of an entire ethnic group, two-thirds of whom were U.S. citizens. Families lost homes, businesses, and possessions. The Supreme Court upheld the internment in Korematsu v. United States (1944), a decision not formally overruled until the related Trump v. Hawaii ruling in 2018.',
  'The McCarthy era (1947-1957) destroyed thousands of careers through loyalty oaths, blacklists, and congressional investigations that targeted suspected communists. The House Un-American Activities Committee and Senator Joseph McCarthy used innuendo and guilt by association to brand artists, academics, government employees, and labor organizers as subversives. The FBI\'s COINTELPRO program (1956-1971) went further, conducting illegal surveillance, infiltration, and disruption of civil rights organizations, antiwar groups, and political dissidents.',
  'The USA PATRIOT Act, signed October 26, 2001; just 45 days after 9/11; vastly expanded government surveillance powers. National Security Letters allowed the FBI to demand records from libraries, internet providers, and financial institutions without judicial oversight. "Sneak and peek" warrants allowed searches without informing the target. The Act was passed with minimal debate; few members of Congress read the 342-page bill. Most provisions were repeatedly reauthorized over the following two decades.',
- 'The historical pattern reveals a cycle: crisis provokes fear; fear justifies suspension of rights; government agencies expand power; abuses are revealed years later; commissions denounce the violations; apologies are issued; and the legal precedents remain available for next time. Japanese internment was condemned and victims compensated in 1988. The Church Committee exposed COINTELPRO in 1975. The Senate torture report was released in 2014. But the mechanisms of surveillance and detention remain operational, available for activation at the next crisis.',
+ 'The historical pattern reveals a cycle: crisis provokes fear; fear justifies suspension of rights; government agencies expand power; abuses are revealed years later; commissions denounce the violations; apologies are issued; and the legal precedents remain available for next time. Japanese internment was condemned and victims compensated in 1988. The Church Committee exposed COINTELPRO in 1975. The Senate torture report was released in 2014. But the mechanisms of surveillance and detention remain operational, available for activation at the next crisis.'
  ],
  tags: ['Wartime Civil Liberties', 'Alien and Sedition Acts', 'PATRIOT Act', 'Japanese Internment', 'Habeas Corpus', 'First Amendment'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
- { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
-   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+ { title: 'National Archives: Executive Order 9066 (Japanese Internment)', url: 'https://www.archives.gov/milestone-documents/executive-order-9066', type: 'Government Record' },
+ { title: 'ACLU: National Security and Civil Liberties', url: 'https://www.aclu.org/issues/national-security', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Patriot Act enforcement', href: '/entities/agencies/doj' },
- { id: '2', name: 'NSA', type: 'agency', relationship: 'Warrantless surveillance programs', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'NSA', type: 'agency', relationship: 'Warrantless surveillance programs', href: '/entities/agencies/nsa' }
  ],
    eventOriginDate: '1917-01-01',
    lastActivityDate: '2024-05-11',
@@ -736,7 +726,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1975', event: 'The Church Committee exposed COINTELPRO in 1975', type: 'default' },
      { date: '1988', event: 'Japanese internment was condemned and victims compensated in 1988', type: 'default' },
      { date: '2001-10-26', event: 'The USA PATRIOT Act, signed October 26, 2001; just 45 days after 9/11; vastly expanded government surveillance powers', type: 'default' },
-     { date: '2014', event: 'The Senate torture report was released in 2014', type: 'political' },
+     { date: '2014', event: 'The Senate torture report was released in 2014', type: 'political' }
    ],
  },
   'weinstein-sexual-assault': {
@@ -756,20 +746,18 @@ const investigations_w: Record<string, InvestigationData> = {
  'LOS ANGELES CONVICTION: In December 2022, a Los Angeles jury convicted Weinstein of rape and two other sexual assault charges involving an Italian model and actress. He was sentenced to 16 years in prison. This conviction remains intact and ensures Weinstein will remain imprisoned regardless of the New York retrial outcome.',
  'BLACK CUBE OPERATIONS: Weinstein hired Black Cube, a private intelligence firm staffed by former Mossad agents, to investigate and surveil his accusers and the journalists pursuing the story. Operatives used false identities to extract information from Rose McGowan and attempted to suppress the New York Times investigation. The exposure of these tactics revealed how wealth can be weaponized against accountability.',
  'THE WEINSTEIN COMPANY COLLAPSE: The Weinstein Company filed for bankruptcy in March 2018. A $17 million settlement fund was established for accusers but was widely criticized as inadequate. Board members who had failed to act on warnings about Weinstein\'s behavior faced lawsuits. The company\'s assets were sold to Lantern Entertainment.',
- '#METOO GLOBAL IMPACT: Weinstein\'s exposure ignited the #MeToo movement, which expanded globally. Time\'s Up was founded to provide legal defense for harassment survivors. Hundreds of powerful men in entertainment, media, politics, and business were accused and faced consequences. The movement exposed that Weinstein was not an aberration but a representative of systemic structures that enabled workplace sexual violence.',
+ '#METOO GLOBAL IMPACT: Weinstein\'s exposure ignited the #MeToo movement, which expanded globally. Time\'s Up was founded to provide legal defense for harassment survivors. Hundreds of powerful men in entertainment, media, politics, and business were accused and faced consequences. The movement exposed that Weinstein was not an aberration but a representative of systemic structures that enabled workplace sexual violence.'
  ],
  tags: ['Harvey Weinstein', 'MeToo', 'Sexual Assault', 'Hollywood', 'NDA', 'Black Cube', 'Institutional Cover-Up'],
  sources: [
  { title: 'NYT: Weinstein Investigation', url: 'https://www.nytimes.com/2017/10/05/us/harvey-weinstein-harassment-allegations.html', type: 'Investigative Journalism' },
  { title: 'New Yorker: Farrow Investigation', url: 'https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories', type: 'Investigative Journalism' },
  { title: 'People v. Weinstein Court Records', url: 'https://www.nycourts.gov/press/PDFs/Weinstein-Verdict.pdf', type: 'Court Document' },
- { title: 'Ronan Farrow, "Catch and Kill"', url: 'https://www.littlebrown.com/titles/ronan-farrow/catch-and-kill/9780316486637/', type: 'Book' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Ronan Farrow, "Catch and Kill"', url: 'https://www.littlebrown.com/titles/ronan-farrow/catch-and-kill/9780316486637/', type: 'Book' }
  ],
  affiliations: [
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Serial predator convicted in New York and Los Angeles; NY conviction overturned on appeal', href: '/entities/individuals/harvey-weinstein' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2026-03-10',
@@ -780,7 +768,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2018-03-01', event: 'THE WEINSTEIN COMPANY COLLAPSE: The Weinstein Company filed for bankruptcy in March 2018', type: 'critical' },
      { date: '2020-02-01', event: 'NEW YORK CONVICTION: In February 2020, a New York jury convicted Weinstein of criminal sexual assault in the first degree and rape in the third degree', type: 'legal' },
      { date: '2022-12-01', event: 'LOS ANGELES CONVICTION: In December 2022, a Los Angeles jury convicted Weinstein of rape and two other sexual assault charges involving an Italian model and actress', type: 'legal' },
-     { date: '2024-04-01', event: 'In April 2024, the New York Court of Appeals overturned the conviction in a 4-3 decision, ruling that the trial judge improperly allowed testimony from women whose allegations were not part of the', type: 'legal' },
+     { date: '2024-04-01', event: 'In April 2024, the New York Court of Appeals overturned the conviction in a 4-3 decision, ruling that the trial judge improperly allowed testimony from women whose allegations were not part of the', type: 'legal' }
    ],
  },
   'wework-collapse': {
@@ -796,7 +784,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Neumann\'s self-dealing was extraordinary even by Silicon Valley standards. He borrowed over $740 million against his WeWork shares. He purchased buildings personally and then leased them back to WeWork, profiting from both sides. He trademarked the word "We" and charged the company $5.9 million for rights to use it (refunded after backlash). He brought his personal investment interests, including a wave-pool company, under the WeWork umbrella. His wife Rebekah was designated the person who would choose his successor if he died.',
  'WeWork\'s August 2019 IPO filing exposed the financial reality behind the hype. The prospectus revealed $1.9 billion in losses on $1.8 billion in revenue in the prior year, long-term lease obligations of $47 billion against $4 billion in lease revenue, and governance structures that gave Neumann supermajority voting control. The market reaction was swift and devastating; the planned IPO was pulled within weeks, and the valuation crashed from $47 billion to approximately $8 billion.',
  'Neumann was forced out as CEO in September 2019 but negotiated a $1.7 billion exit package from SoftBank, including a $185 million consulting fee, $500 million in stock, and a $1 billion sale of his shares. SoftBank\'s $18.5 billion investment was largely written off. The contract between Neumann\'s golden parachute and the subsequent layoff of 2,400 WeWork employees embodied the heads-I-win-tails-you-lose dynamic of venture-funded startups.',
- 'WeWork finally went public through a SPAC in October 2021 at a $9 billion valuation, a fraction of its peak. The company continued to lose money and filed for bankruptcy in November 2023, listing $18.65 billion in liabilities. SoftBank\'s cumulative losses on WeWork exceeded $14 billion. The collapse became a cautionary tale about venture capital\'s capacity to fund and inflate fundamentally unsound businesses, and about the absence of accountability for executives who destroy billions in value through incompetence and self-dealing.',
+ 'WeWork finally went public through a SPAC in October 2021 at a $9 billion valuation, a fraction of its peak. The company continued to lose money and filed for bankruptcy in November 2023, listing $18.65 billion in liabilities. SoftBank\'s cumulative losses on WeWork exceeded $14 billion. The collapse became a cautionary tale about venture capital\'s capacity to fund and inflate fundamentally unsound businesses, and about the absence of accountability for executives who destroy billions in value through incompetence and self-dealing.'
  ],
  tags: ['WeWork', 'Corporate Fraud', 'Venture Capital', 'SoftBank', 'Adam Neumann'],
  sources: [
@@ -805,13 +793,12 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
  { title: 'Financial Times Markets Coverage', url: 'https://www.ft.com/markets', type: 'Analysis' },
  { title: 'SEC Filing Archives', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Document' },
- { title: 'Bloomberg Corporate Investigations', url: 'https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles/', type: 'Investigation' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'Bloomberg Corporate Investigations', url: 'https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Adam Neumann', type: 'individual', relationship: 'WeWork co-founder and CEO; self-dealing; $1.7B exit package', href: '/entities/individuals/adam-neumann' },
  { id: '2', name: 'SoftBank', type: 'corporation', relationship: 'Invested $18.5B in WeWork; largest investor and enabler', href: '/entities/corporations/softbank' },
- { id: '3', name: 'SEC', type: 'agency', relationship: 'Securities regulation and IPO filing oversight', href: '/entities/agencies/sec' },
+ { id: '3', name: 'SEC', type: 'agency', relationship: 'Securities regulation and IPO filing oversight', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2026-02-27',
@@ -820,7 +807,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2019-08-01', event: 'WeWork\'s August 2019 IPO filing exposed the financial reality behind the hype', type: 'default' },
      { date: '2019-09-01', event: 'Neumann was forced out as CEO in September 2019 but negotiated a $1.7 billion exit package from SoftBank, including a $185 million consulting fee, $500 million in stock, and a $1 billion sale of hi', type: 'political' },
      { date: '2021-10-01', event: 'WeWork finally went public through a SPAC in October 2021 at a $9 billion valuation, a fraction of its peak', type: 'political' },
-     { date: '2023-11-01', event: 'The company continued to lose money and filed for bankruptcy in November 2023, listing $18.65 billion in liabilities', type: 'political' },
+     { date: '2023-11-01', event: 'The company continued to lose money and filed for bankruptcy in November 2023, listing $18.65 billion in liabilities', type: 'political' }
    ],
  },
   'white-supremacist-terrorism': {
@@ -836,7 +823,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018, 11 killed by Robert Bowers); the El Paso Walmart massacre (August 2019, 23 killed by Patrick Crusius, who posted an anti-immigrant manifesto); and the Tops supermarket shooting in Buffalo (May 2022, 10 killed by Payton Gendron, who targeted Black shoppers after being radicalized online).',
  'Online radicalization has become the primary pathway to white supremacist terrorism. Platforms including 4chan, 8chan/8kun, Telegram, and various forums have created an ecosystem where manifestos are shared, past attackers are celebrated as "saints," and the "great replacement" conspiracy theory (claiming white people are being deliberately replaced by non-white immigrants) circulates as established fact. The Christchurch, New Zealand attacker\'s live-streamed massacre became a template for subsequent attacks.',
  'Law enforcement response has been criticized as inadequate relative to the threat. A 2020 DHS whistleblower alleged that the Trump administration directed analysts to downplay the white supremacist terrorism threat to align with the president\'s political interests. The FBI\'s domestic terrorism resources have historically been disproportionately focused on left-wing, anarchist, and environmental extremism, despite the lethality data. After the January 6 insurrection, DHS increased its focus on domestic violent extremism.',
- 'The political dimension has complicated law enforcement response. Republican officials have resisted legislation specifically targeting white supremacist terrorism, framing it as an attack on conservative speech. The "great replacement" theory, once confined to neo-Nazi forums, has been promoted by mainstream media figures including Tucker Carlson and endorsed by Republican elected officials. The mainstreaming of white supremacist ideology has blurred the line between protected speech and incitement, complicating prevention efforts.',
+ 'The political dimension has complicated law enforcement response. Republican officials have resisted legislation specifically targeting white supremacist terrorism, framing it as an attack on conservative speech. The "great replacement" theory, once confined to neo-Nazi forums, has been promoted by mainstream media figures including Tucker Carlson and endorsed by Republican elected officials. The mainstreaming of white supremacist ideology has blurred the line between protected speech and incitement, complicating prevention efforts.'
  ],
  tags: ['White Supremacist Terrorism', 'Domestic Terrorism', 'Hate Crime', 'FBI', 'Radicalization', 'Lone Wolf'],
  sources: [
@@ -845,12 +832,11 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'ProPublica Hate Crime Investigations', url: 'https://www.propublica.org/series/documenting-hate', type: 'Investigation' },
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
- { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Classified as top domestic terror threat', href: '/entities/agencies/fbi' },
- { id: '2', name: 'DHS', type: 'agency', relationship: 'Threat assessment reports', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Threat assessment reports', href: '/entities/agencies/dhs' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2023-03-20',
@@ -863,7 +849,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2019-08', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof)', type: 'critical' },
      { date: '2020', event: 'A 2020 DHS whistleblower alleged that the Trump administration directed analysts to downplay the white supremacist terrorism threat to align with the president\'s political interests.', type: 'political' },
      { date: '2022-05', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof)', type: 'critical' },
-     { date: '2023', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities.', type: 'default' },
+     { date: '2023', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities.', type: 'default' }
      ],
  },
   'white-supremacist-violence': {
@@ -879,7 +865,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Active white supremacist organizations in the United States include the Ku Klux Klan (estimated 3,000 members across 25-30 chapters), Patriot Front, the Proud Boys, Atomwaffen Division, The Base, and hundreds of smaller neo-Nazi, white nationalist, and militia groups. The Southern Poverty Law Center tracked 733 active hate groups in 2021. These organizations recruit through social media, campus outreach, and propaganda distribution, with membership skewing younger than in previous decades.',
  'The January 6, 2021 Capitol insurrection brought white supremacist violence into the seat of American government. Participants included members of the Proud Boys, Oath Keepers, Three Percenters, and various militia groups, alongside QAnon followers and individuals displaying Confederate flags, "Camp Auschwitz" t-shirts, and other white supremacist symbols. The insurrection resulted in over 1,200 criminal cases and revealed the infiltration of extremist ideology into law enforcement and military communities.',
  'Hate crimes targeting specific communities have produced devastating attacks. The 2019 El Paso massacre targeted Hispanic shoppers near the Mexican border. The 2019 Poway synagogue shooting wounded a rabbi. The 2017 Charlottesville car attack killed counter-protester Heather Heyer. Anti-Asian hate crimes surged 339% in 2021. Anti-LGBTQ+ violence reached record levels, with the 2022 Club Q shooting in Colorado Springs killing 5 people. The Sikh temple shooting in Oak Creek, Wisconsin in 2012 killed 7 worshippers.',
- 'Law enforcement\'s relationship with white supremacist violence is complicated by documented infiltration. A 2006 FBI intelligence assessment warned that white supremacist groups were actively infiltrating law enforcement agencies. A subsequent 2015 report reaffirmed the finding. The Plain View Project documented hundreds of active-duty officers posting racist and extremist content on social media. This infiltration undermines community trust and raises questions about whether incidents of police violence against people of color have ideological dimensions beyond institutional racism.',
+ 'Law enforcement\'s relationship with white supremacist violence is complicated by documented infiltration. A 2006 FBI intelligence assessment warned that white supremacist groups were actively infiltrating law enforcement agencies. A subsequent 2015 report reaffirmed the finding. The Plain View Project documented hundreds of active-duty officers posting racist and extremist content on social media. This infiltration undermines community trust and raises questions about whether incidents of police violence against people of color have ideological dimensions beyond institutional racism.'
  ],
  tags: ['White Supremacist Violence', 'Hate Crime', 'Racial Violence', 'Extremism', 'ADL', 'SPLC'],
  sources: [
@@ -888,12 +874,11 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'ProPublica Hate Crime Investigations', url: 'https://www.propublica.org/series/documenting-hate', type: 'Investigation' },
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
- { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic terrorism investigations', href: '/entities/agencies/fbi' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2006-01-01',
    lastActivityDate: '2023-07-05',
@@ -909,7 +894,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Southern Poverty Law Center tracked 733 active hate groups in 2021', type: 'political' },
      { date: '2021', event: 'Anti-Asian hate crimes surged 339% in 2021', type: 'default' },
      { date: '2021-01-06', event: 'The January 6, 2021 Capitol insurrection brought white supremacist violence into the seat of American government', type: 'default' },
-     { date: '2022', event: 'Anti-LGBTQ+ violence reached record levels, with the 2022 Club Q shooting in Colorado Springs killing 5 people', type: 'critical' },
+     { date: '2022', event: 'Anti-LGBTQ+ violence reached record levels, with the 2022 Club Q shooting in Colorado Springs killing 5 people', type: 'critical' }
    ],
  },
   'white-supremacy': {
@@ -925,14 +910,13 @@ const investigations_w: Record<string, InvestigationData> = {
  'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography. Studies find that formerly redlined neighborhoods remain disproportionately Black, have lower property values, higher temperatures (less tree cover and more pavement), worse air quality, and less access to healthcare. The Fair Housing Act of 1968 outlawed explicit racial discrimination but did not address existing segregation or resource disparities.',
  'The criminal justice system operates as a mechanism of racial control. Despite similar rates of drug use across racial groups, Black Americans are 3.73 times more likely to be arrested for marijuana possession. Black people represent 13% of the U.S. population but 38% of the prison population. Studies controlling for offense severity, criminal history, and other factors consistently find that Black defendants receive longer sentences than white defendants for equivalent crimes. The system funnels Black men into incarceration, which then creates further barriers to employment, voting, and housing.',
  'Educational inequality is maintained through property-tax-based school funding that ensures schools in wealthy (predominantly white) districts receive significantly more resources than those in poor (predominantly Black and brown) communities. The achievement gap is more accurately described as an opportunity gap. Per-pupil spending differentials of $10,000 or more between adjacent districts are common. Predominantly non-white school districts receive $23 billion less in state and local funding than predominantly white districts serving the same number of students.',
- 'Healthcare disparities produce measurable differences in life expectancy and health outcomes. Black Americans have a life expectancy 5.5 years shorter than white Americans. Black women are 3-4 times more likely to die in childbirth than white women. The COVID-19 pandemic exposed these disparities starkly; age-adjusted mortality rates for Black Americans were 1.4 times those of white Americans. These outcomes reflect not individual behavior but structural differences in access to healthcare, environmental exposures, economic stress, and the physiological effects of chronic racism.',
+ 'Healthcare disparities produce measurable differences in life expectancy and health outcomes. Black Americans have a life expectancy 5.5 years shorter than white Americans. Black women are 3-4 times more likely to die in childbirth than white women. The COVID-19 pandemic exposed these disparities starkly; age-adjusted mortality rates for Black Americans were 1.4 times those of white Americans. These outcomes reflect not individual behavior but structural differences in access to healthcare, environmental exposures, economic stress, and the physiological effects of chronic racism.'
  ],
  tags: ['White Supremacy', 'Systemic Racism', 'Racial Justice', 'Civil Rights', 'Institutional Racism', 'Jim Crow', 'Structural Inequality'],
  sources: [
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
  { title: 'ProPublica Hate Crime Investigations', url: 'https://www.propublica.org/series/documenting-hate', type: 'Investigation' },
- { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
@@ -940,19 +924,18 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
- { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'White supremacy designated top domestic threat', href: '/entities/agencies/fbi' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1935-01-01',
    lastActivityDate: '2025-04-09',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1935', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' },
-     { date: '1968', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' },
+     { date: '1968', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' }
      ],
  },
   'wmd-lies': {
@@ -968,7 +951,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'The Bush administration created the Office of Special Plans within the Pentagon, led by Douglas Feith, to produce intelligence assessments that supported the case for war when the CIA\'s analysis was insufficiently alarming. Vice President Cheney made unprecedented personal visits to CIA headquarters to pressure analysts. The administration promoted the claim that Iraq had sought to purchase yellowcake uranium from Niger, a claim based on forged documents that the CIA had assessed as dubious.',
  'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energy, which challenged key claims about Iraq\'s nuclear program. These dissents were minimized or omitted in the public-facing version of the estimate. The administration also promoted an alleged connection between Saddam Hussein and al-Qaeda for which intelligence agencies found no evidence.',
  'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs. The programs had been abandoned under pressure from UN sanctions and inspections. The reality was the opposite of the administration\'s claims: the containment regime had worked, and the war was unnecessary.',
- 'The consequences of the lie were catastrophic. An estimated 200,000 to 600,000+ Iraqi civilians died. Over 4,400 American service members were killed and 32,000 wounded. The war cost over $2 trillion. The power vacuum created by the destruction of the Iraqi state led directly to the rise of ISIS. Iran\'s regional influence expanded dramatically. The credibility of American intelligence was damaged for a generation. No senior official was held accountable for the deception or its consequences.',
+ 'The consequences of the lie were catastrophic. An estimated 200,000 to 600,000+ Iraqi civilians died. Over 4,400 American service members were killed and 32,000 wounded. The war cost over $2 trillion. The power vacuum created by the destruction of the Iraqi state led directly to the rise of ISIS. Iran\'s regional influence expanded dramatically. The credibility of American intelligence was damaged for a generation. No senior official was held accountable for the deception or its consequences.'
  ],
  tags: ['Government Deception', 'Iraq War', 'Intelligence Fabrication', 'WMD', 'Foreign Policy'],
  sources: [
@@ -976,14 +959,14 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence - Phase II Report', url: 'https://www.intelligence.senate.gov/', type: 'Government' },
  { title: 'Iraq Survey Group (Duelfer Report)', url: 'https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Report' },
  { title: 'Commission on Intelligence Capabilities (Robb-Silberman)', url: 'https://www.govinfo.gov/', type: 'Government' },
- { title: 'The Downing Street Memo', url: 'https://nsarchive.gwu.edu/', type: 'Document' },
+ { title: 'The Downing Street Memo', url: 'https://nsarchive.gwu.edu/', type: 'Document' }
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Authorized invasion of Iraq based on fabricated WMD intelligence; maintained claims of Iraqi WMDs long after intelligence agencies concluded none existed', href: '/entities/individuals/george-w-bush' },
  { id: '2', name: 'Dick Cheney', type: 'individual', relationship: 'Made unprecedented visits to CIA headquarters to pressure analysts; promoted fabricated Iraq-al Qaeda link; chief architect of the case for war', href: '/entities/individuals/dick-cheney' },
  { id: '3', name: 'Colin Powell', type: 'individual', relationship: 'Delivered false February 2003 UN presentation asserting Iraqi WMDs; later called it "a blot" on his career', href: '/entities/individuals/colin-powell' },
  { id: '4', name: 'CIA', type: 'agency', relationship: 'Produced flawed October 2002 NIE; failed to verify Curveball source despite German intelligence warnings; provided basis for false UN presentation', href: '/entities/agencies/cia' },
- { id: '5', name: 'Douglas Feith', type: 'individual', relationship: 'Led Pentagon Office of Special Plans which produced alternative intelligence assessments to support the case for war when CIA analysis was insufficient', href: '/entities/individuals/douglas-feith' },
+ { id: '5', name: 'Douglas Feith', type: 'individual', relationship: 'Led Pentagon Office of Special Plans which produced alternative intelligence assessments to support the case for war when CIA analysis was insufficient', href: '/entities/individuals/douglas-feith' }
  ],
    eventOriginDate: '2002-10-01',
    lastActivityDate: '2019-03-10',
@@ -995,7 +978,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2003-03', event: 'U.S. invades Iraq based on fabricated WMD intelligence and alleged al-Qaeda connections.', type: 'default' },
      { date: '2004-09', event: 'Iraq Survey Group (Duelfer Report) concludes definitively that Iraq had no WMD stockpiles or active programs.', type: 'default' },
      { date: '2005-03', event: 'Robb-Silberman Commission finds intelligence community was "dead wrong" about Iraqi WMDs.', type: 'default' },
-     { date: '2008-06', event: 'Senate Intelligence Committee Phase II report finds Bush administration made public statements not supported by intelligence.', type: 'default' },
+     { date: '2008-06', event: 'Senate Intelligence Committee Phase II report finds Bush administration made public statements not supported by intelligence.', type: 'default' }
      ],
  },
   'worker-misclassification': {
@@ -1011,7 +994,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'The gig economy built its business model on misclassification. Uber, Lyft, DoorDash, Instacart, and similar platforms classify millions of workers as independent contractors despite controlling their work conditions, setting rates, monitoring performance, and disciplining or terminating workers who fail to meet company standards. Studies have found that after accounting for expenses, many gig workers earn below minimum wage. A UC Berkeley study found that Uber and Lyft drivers earned a median of $5.64 per hour after expenses.',
  'The construction industry has been plagued by misclassification for decades. A 2020 study found that up to 40% of construction workers in some states were misclassified. The practice is particularly prevalent among subcontractors who use layers of shell companies to obscure employment relationships. Misclassified construction workers lack workers\' compensation coverage; when injured on the job, they have no safety net and often cannot afford medical care. The practice also gives law-breaking contractors a competitive advantage over those who properly classify workers.',
  'State and federal governments lose an estimated $12.6 billion annually in unpaid payroll taxes due to misclassification, according to the National Employment Law Project. Social Security and Medicare trust funds are depleted by the practice. State unemployment insurance funds are underfunded because misclassifying employers do not contribute. The practice shifts the costs of workplace injuries, unemployment, and retirement from employers to taxpayers and workers themselves.',
- 'California\'s AB5 law (2020) attempted to address gig worker misclassification by codifying a stricter "ABC test" for independent contractor status. The gig companies responded by spending over $200 million on Proposition 22, which exempted them from the law; the most expensive ballot initiative in U.S. history. A California court later ruled portions of Proposition 22 unconstitutional. The battle over worker classification has become a defining labor rights issue of the 21st century, pitting corporate interests in cheap, disposable labor against workers\' fundamental rights to legal protections.',
+ 'California\'s AB5 law (2020) attempted to address gig worker misclassification by codifying a stricter "ABC test" for independent contractor status. The gig companies responded by spending over $200 million on Proposition 22, which exempted them from the law; the most expensive ballot initiative in U.S. history. A California court later ruled portions of Proposition 22 unconstitutional. The battle over worker classification has become a defining labor rights issue of the 21st century, pitting corporate interests in cheap, disposable labor against workers\' fundamental rights to legal protections.'
  ],
  tags: ['Worker Misclassification', 'Gig Economy', 'Uber', 'Independent Contractor', 'DOL', 'AB5', 'Labor Rights'],
  sources: [
@@ -1020,13 +1003,12 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
  { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
- { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
-   { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
+ { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Delivery driver misclassification; FTC and state AG investigations into Flex driver classification practices', href: '/entities/corporations/amazon-inc' },
  { id: '2', name: 'Uber', type: 'corporation', relationship: 'Built entire business model on classifying drivers as independent contractors; spent $200M on Proposition 22 to maintain misclassification in California', href: '/entities/corporations/uber' },
- { id: '3', name: 'DOL', type: 'agency', relationship: 'Department of Labor Wage and Hour Division enforcement of ABC test and independent contractor rules', href: '/entities/agencies/dol' },
+ { id: '3', name: 'DOL', type: 'agency', relationship: 'Department of Labor Wage and Hour Division enforcement of ABC test and independent contractor rules', href: '/entities/agencies/dol' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-11-17',
@@ -1037,7 +1019,7 @@ const investigations_w: Record<string, InvestigationData> = {
         { date: '2020-11', event: 'Proposition 22 passes in California after gig companies spend $200 million; exempts app-based rideshare and delivery companies from AB5.', type: 'political' },
         { date: '2021-08', event: 'Alameda County Superior Court Judge Frank Roesch rules Proposition 22 unconstitutional; ruling later partially reversed on appeal.', type: 'legal' },
         { date: '2022-06', event: 'DOL proposes new rule to replace Trump-era independent contractor test with worker-friendly economic reality test.', type: 'default' },
-        { date: '2024-03', event: 'DOL final rule on independent contractor classification takes effect, making it harder for companies to classify workers as contractors under FLSA.', type: 'default' },
+        { date: '2024-03', event: 'DOL final rule on independent contractor classification takes effect, making it harder for companies to classify workers as contractors under FLSA.', type: 'default' }
       ],
  },
   'wire-fraud-transnational-networks': {
@@ -1053,18 +1035,16 @@ const investigations_w: Record<string, InvestigationData> = {
       'MONEY MULE NETWORKS: Wire fraud proceeds must be laundered through intermediaries before reaching criminal organizers. Money mules; individuals who receive and forward stolen funds; form the critical link. Some mules are witting participants recruited through social media; others are unwitting victims of "work from home" job scams who believe they are processing legitimate payments. The DOJ\'s Operation reWired (2019) arrested 281 suspects across the U.S., Nigeria, Turkey, and other countries. Despite enforcement, the mule recruitment pipeline is effectively infinite; each takedown is quickly replaced. Cryptocurrency exchanges, particularly those with weak KYC requirements, have become increasingly important for converting wire fraud proceeds.',
       'THE ROMANCE SCAM INDUSTRY: Romance scams; in which criminals build fake romantic relationships to extract money; generated $1.3 billion in reported losses in 2022 per the FTC. Actual losses are likely several times higher because of underreporting driven by shame. The industry operates primarily from West Africa and Southeast Asia; with a growing number of "scam compounds" in Myanmar, Cambodia, and Laos where trafficked individuals are forced to operate scams under threat of violence. A single sophisticated romance scammer can maintain dozens of simultaneous relationships, each generating tens of thousands of dollars over months of manipulation.',
       'CRYPTOCURRENCY AND "PIG BUTCHERING": The fastest-growing wire fraud typology is "pig butchering" (sha zhu pan); a Chinese-originated investment scam that combines romance/friendship grooming with fake cryptocurrency investment platforms. Victims are cultivated over weeks or months before being directed to invest in platforms that display fabricated returns. When victims try to withdraw, they are told they must pay fees or taxes. Global losses from pig butchering are estimated at $75 billion since 2020. The scam compounds operating these schemes in Southeast Asia employ tens of thousands of trafficked workers from China, India, Vietnam, and other countries.',
-      'LAW ENFORCEMENT LIMITATIONS: Wire fraud prosecution faces massive structural challenges. Transactions cross multiple jurisdictions within minutes. By the time a victim reports the fraud, funds have been moved through multiple accounts and converted to cryptocurrency or cash. The FBI\'s Recovery Asset Team (RAT), created in 2018, has frozen approximately $3 billion in fraudulent transfers; but this represents a fraction of total losses. International cooperation is limited; Nigeria, where many BEC networks are based, has made high-profile arrests but conviction rates remain low. The fundamental problem is asymmetric: criminal organizations are borderless and fast-moving, while law enforcement is jurisdiction-bound and slow.',
+      'LAW ENFORCEMENT LIMITATIONS: Wire fraud prosecution faces massive structural challenges. Transactions cross multiple jurisdictions within minutes. By the time a victim reports the fraud, funds have been moved through multiple accounts and converted to cryptocurrency or cash. The FBI\'s Recovery Asset Team (RAT), created in 2018, has frozen approximately $3 billion in fraudulent transfers; but this represents a fraction of total losses. International cooperation is limited; Nigeria, where many BEC networks are based, has made high-profile arrests but conviction rates remain low. The fundamental problem is asymmetric: criminal organizations are borderless and fast-moving, while law enforcement is jurisdiction-bound and slow.'
     ],
     tags: ['Wire Fraud', 'BEC', 'Romance Scams', 'Pig Butchering', 'Money Mules', 'Cryptocurrency Fraud'],
     sources: [
       { title: 'FBI IC3: Internet Crime Report 2023', url: 'https://www.ic3.gov', type: 'Government Report' },
       { title: 'FTC: Romance Scam Data', url: 'https://www.ftc.gov', type: 'Government Report' },
-      { title: 'DOJ: Operation reWired', url: 'https://www.justice.gov', type: 'Government Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'DOJ: Operation reWired', url: 'https://www.justice.gov', type: 'Government Report' }
     ],
     affiliations: [
-      { id: '1', name: 'FBI', type: 'agency', relationship: 'IC3 receives 880,000+ complaints annually; Recovery Asset Team has frozen $3B; but recovers only a fraction of the $12.5B in annual losses', href: '/entities/agencies/fbi' },
-      { id: 'securities-and-exchange-commission', name: 'Securities and Exchange Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/sec' },
+      { id: '1', name: 'FBI', type: 'agency', relationship: 'IC3 receives 880,000+ complaints annually; Recovery Asset Team has frozen $3B; but recovers only a fraction of the $12.5B in annual losses', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2023-09-01',
@@ -1075,7 +1055,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2019', event: 'The DOJ\'s Operation reWired (2019) arrested 281 suspects across the U.S., Nigeria, Turkey, and other countries', type: 'default' },
      { date: '2020', event: 'Global losses from pig butchering are estimated at $75 billion since 2020', type: 'political' },
      { date: '2022', event: 'THE ROMANCE SCAM INDUSTRY: Romance scams; in which criminals build fake romantic relationships to extract money; generated $1.3 billion in reported losses in 2022 per the FTC', type: 'political' },
-     { date: '2023', event: 'The FBI\'s IC3 recorded $2.9 billion in BEC losses in 2023', type: 'political' },
+     { date: '2023', event: 'The FBI\'s IC3 recorded $2.9 billion in BEC losses in 2023', type: 'political' }
    ],
   },
   'war-profiteering-iraq-afghanistan': {
@@ -1091,19 +1071,18 @@ const investigations_w: Record<string, InvestigationData> = {
       'BLACKWATER AND PRIVATE MILITARY PROLIFERATION: Blackwater USA (later Xe Services, then Academi) became the symbol of privatized warfare. The company received $2.4 billion in government contracts while employing personnel who operated in legal gray zones; neither fully military nor civilian. The September 16, 2007 Nisour Square massacre, in which Blackwater guards killed 17 Iraqi civilians, led to international outrage. Four guards were eventually convicted; but President Trump pardoned all four in December 2020. Blackwater founder Erik Prince advocated replacing U.S. troops in Afghanistan with a private army under his command.',
       'THE CONTRACTING GOLD RUSH: The wars spawned an entire ecosystem of contractors profiting from the conflict. Bechtel received $2.8 billion in Iraq reconstruction contracts but completed only a fraction of promised projects. Parsons Corporation received $243 million to build 150 health clinics in Iraq; and completed only 6. CACI International and L-3 Communications provided interrogators at Abu Ghraib prison who participated in the torture of detainees; the companies faced civil lawsuits but were largely shielded from criminal prosecution. The Commission on Wartime Contracting estimated that $31-60 billion was lost to waste and fraud across both wars.',
       'AFGHANISTAN: THE $19 BILLION WASTE: The Special Inspector General for Afghanistan Reconstruction (SIGAR), led by John Sopko, documented staggering waste over two decades. The $36 million Tarakhil Power Plant in Kabul operated at 1% capacity. A $7.8 billion program to eradicate poppy cultivation saw Afghan opium production increase. The Pentagon built a $43 million gas station (vs. an estimated $500,000 cost). The Afghan military; trained and equipped at a cost of $88 billion; collapsed in 11 days when the Taliban advanced in August 2021, abandoning $7.1 billion in U.S.-supplied equipment.',
-      'THE REVOLVING DOOR: The war economy was sustained by a revolving door between the Pentagon, Congress, and defense contractors. James Mattis served on General Dynamics\' board before becoming Secretary of Defense. Mark Esper went from Raytheon\'s VP of Government Relations to Secretary of Defense. Retired generals and admirals routinely joined defense company boards within months of leaving service. Members of Congress on the Armed Services and Appropriations Committees received millions in campaign contributions from defense contractors whose contracts they approved.',
+      'THE REVOLVING DOOR: The war economy was sustained by a revolving door between the Pentagon, Congress, and defense contractors. James Mattis served on General Dynamics\' board before becoming Secretary of Defense. Mark Esper went from Raytheon\'s VP of Government Relations to Secretary of Defense. Retired generals and admirals routinely joined defense company boards within months of leaving service. Members of Congress on the Armed Services and Appropriations Committees received millions in campaign contributions from defense contractors whose contracts they approved.'
     ],
     tags: ['War Profiteering', 'Iraq War', 'Afghanistan', 'Halliburton', 'Blackwater', 'Defense Contracts'],
     sources: [
       { title: 'Commission on Wartime Contracting Report', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213815/http://www.wartimecontracting.gov/', type: 'Government Report' },
       { title: 'SIGAR Reports', url: 'https://www.sigar.mil', type: 'Government Report' },
-      { title: 'Brown University Costs of War Project', url: 'https://watson.brown.edu/costsofwar/', type: 'Research' },
-      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'Brown University Costs of War Project', url: 'https://watson.brown.edu/costsofwar/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Halliburton', type: 'corporation', relationship: '$39.5B in Iraq war contracts; $7B sole-source LOGCAP III contract awarded before invasion; $1.4B in questionable charges found by Pentagon auditors', href: '/entities/corporations/halliburton' },
       { id: '2', name: 'Dick Cheney', type: 'individual', relationship: 'Former Halliburton CEO who became VP and was primary architect of Iraq War; received $34M in deferred compensation from Halliburton while in office', href: '/entities/individuals/dick-cheney' },
-      { id: '3', name: 'Blackwater', type: 'corporation', relationship: '$2.4B in government contracts; Nisour Square massacre of 17 Iraqi civilians; guards convicted then pardoned by Trump', href: '/entities/corporations/blackwater' },
+      { id: '3', name: 'Blackwater', type: 'corporation', relationship: '$2.4B in government contracts; Nisour Square massacre of 17 Iraqi civilians; guards convicted then pardoned by Trump', href: '/entities/corporations/blackwater' }
     ],
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2022-04-06',
@@ -1113,7 +1092,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2007-09-16', event: 'The September 16, 2007 Nisour Square massacre, in which Blackwater guards killed 17 Iraqi civilians, led to international outrage.', type: 'critical' },
      { date: '2020', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020.', type: 'legal' },
      { date: '2020-12', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020.', type: 'legal' },
-     { date: '2021-08', event: 'The Afghan military; trained and equipped at a cost of $88 billion; collapsed in 11 days when the Taliban advanced in August 2021, abandoning $7.1 billion in U.S.-supplied equipment.', type: 'financial' },
+     { date: '2021-08', event: 'The Afghan military; trained and equipped at a cost of $88 billion; collapsed in 11 days when the Taliban advanced in August 2021, abandoning $7.1 billion in U.S.-supplied equipment.', type: 'financial' }
      ],
   },
   'wall-street-capture-of-sec': {
@@ -1129,18 +1108,17 @@ const investigations_w: Record<string, InvestigationData> = {
       'THE MADOFF FAILURE: The SEC\'s failure to detect Bernie Madoff\'s $64.8 billion Ponzi scheme; despite receiving credible, detailed tips from Harry Markopolos starting in 2000; exemplifies regulatory capture. Markopolos submitted a 21-page memo titled "The World\'s Largest Hedge Fund is a Fraud" in 2005. SEC examiners investigated and found nothing. The SEC\'s Inspector General later found that staff were intimidated by Madoff\'s reputation and accepted his representations at face value. Madoff himself was a former NASDAQ chairman with deep connections to the SEC.',
       'THE 2008 CRISIS AND NON-PROSECUTION: The 2008 financial crisis; caused by systematic fraud in mortgage origination, securitization, and credit ratings; resulted in $17.5 trillion in household wealth destroyed. Yet no senior executive of any major Wall Street bank was prosecuted. The SEC brought civil cases against Goldman Sachs (ABACUS, $550 million settlement), JPMorgan ($13 billion settlement), and others; but these were negotiated settlements paid by shareholders, not criminal prosecutions of the individuals responsible.',
       'UNDERFUNDING AS STRATEGY: The SEC has been systematically underfunded by Congress; with Republican members who receive substantial financial industry campaign contributions leading efforts to cut its budget. Despite U.S. securities markets growing from approximately $13 trillion to $50+ trillion in total assets, the agency\'s budget has barely kept pace with inflation. The SEC has approximately 4,600 employees to oversee 29,000+ registered entities. By comparison, JPMorgan alone has 20,000+ compliance employees.',
-      'ENFORCEMENT THEATER: The SEC\'s enforcement docket creates an appearance of vigorous regulation while systematically avoiding cases against the most powerful firms. Cases against major Wall Street banks are almost exclusively resolved through civil settlements ("neither admit nor deny" agreements) that impose fines representing a fraction of profits. JPMorgan has paid over $40 billion in regulatory fines since 2008 without any senior executive being charged. The fines are treated as a cost of doing business; factored into profitability calculations in advance.',
+      'ENFORCEMENT THEATER: The SEC\'s enforcement docket creates an appearance of vigorous regulation while systematically avoiding cases against the most powerful firms. Cases against major Wall Street banks are almost exclusively resolved through civil settlements ("neither admit nor deny" agreements) that impose fines representing a fraction of profits. JPMorgan has paid over $40 billion in regulatory fines since 2008 without any senior executive being charged. The fines are treated as a cost of doing business; factored into profitability calculations in advance.'
     ],
     tags: ['SEC Capture', 'Revolving Door', 'Wall Street', 'Madoff', 'Financial Crisis', 'Regulatory Failure'],
     sources: [
       { title: 'POGO: SEC Revolving Door Study', url: 'https://www.pogo.org', type: 'Research' },
       { title: 'SEC Inspector General: Madoff Investigation Failures', url: 'https://www.sec.gov/oig', type: 'Government Report' },
-      { title: 'Better Markets: Wall Street Enforcement Report Card', url: 'https://bettermarkets.org', type: 'Research' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Better Markets: Wall Street Enforcement Report Card', url: 'https://bettermarkets.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Subject of capture; 80% of former chairs went to work for financial industry; failed to detect $64.8B Madoff fraud despite direct tips', href: '/entities/agencies/sec' },
-      { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Revolving door pipeline; multiple former executives served at SEC; paid $550M ABACUS settlement; repeat offender with no senior prosecutions', href: '/entities/corporations/goldman-sachs' },
+      { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Revolving door pipeline; multiple former executives served at SEC; paid $550M ABACUS settlement; repeat offender with no senior prosecutions', href: '/entities/corporations/goldman-sachs' }
     ],
    eventOriginDate: '1934-01-01',
    lastActivityDate: '2022-10-15',
@@ -1150,7 +1128,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2005', event: 'Markopolos submitted a 21-page memo titled "The World\'s Largest Hedge Fund is a Fraud" in 2005', type: 'financial' },
      { date: '2006', event: 'The Project On Government Oversight (POGO) documented 419 instances of SEC alumni going to work for entities they formerly regulated between 2006 and 2010 alone', type: 'default' },
      { date: '2008', event: 'THE 2008 CRISIS AND NON-PROSECUTION: The 2008 financial crisis; caused by systematic fraud in mortgage origination, securitization, and credit ratings; resulted in $17.', type: 'political' },
-     { date: '2008', event: 'JPMorgan has paid over $40 billion in regulatory fines since 2008 without any senior executive being charged', type: 'political' },
+     { date: '2008', event: 'JPMorgan has paid over $40 billion in regulatory fines since 2008 without any senior executive being charged', type: 'political' }
    ],
   },
   'whistleblower-retaliation-systematic': {
@@ -1166,25 +1144,24 @@ const investigations_w: Record<string, InvestigationData> = {
       'FEDERAL WHISTLEBLOWER DESTRUCTION: The federal government has a documented history of destroying whistleblowers. Thomas Drake, a senior NSA executive who reported waste and illegal surveillance to the NSA Inspector General and Congress, was charged under the Espionage Act; the charges eventually collapsed to a misdemeanor, but only after years of prosecution that bankrupted him. Franz Gayl, a Marine Corps science advisor who exposed the Pentagon\'s delay in deploying mine-resistant vehicles (which cost Marines\' lives), had his security clearance revoked and was referred for psychiatric evaluation. Rick Piltz, a climate scientist at the Council on Environmental Quality, resigned after discovering that a political appointee (former oil industry lobbyist Philip Cooney) was editing climate reports to downplay science.',
       'CORPORATE RETALIATION: Corporate whistleblowers face devastation equivalent to or worse than government whistleblowers. Sherron Watkins, who warned Enron CEO Ken Lay about accounting fraud, was marginalized within the company and never received whistleblower protection because her warning went to internal management rather than an external agency. Cynthia Cooper, who exposed WorldCom\'s $3.8 billion accounting fraud, was threatened, ostracized, and received death threats. Jeffrey Wigand, who exposed Brown & Williamson\'s nicotine manipulation, was fired, had his family threatened, and was subjected to a corporate disinformation campaign. The Dodd-Frank Act\'s SEC whistleblower program (created in 2010) has improved financial incentives for securities fraud whistleblowers; but retaliation protections remain weak.',
       'THE PROTECTION GAP: Federal whistleblower protections are a patchwork of over 60 statutes; each with different coverage, procedures, deadlines, and remedies. The Whistleblower Protection Act (WPA) covers federal employees but excludes intelligence community employees, FBI agents, and contractors. The Intelligence Community Whistleblower Protection Act provides a reporting channel but no protection against retaliation. Sarbanes-Oxley protects corporate whistleblowers in publicly traded companies but has a 180-day filing deadline and requires exhausting administrative remedies before suing. The result is that many whistleblowers discover; after the fact; that they are not covered by any protection statute, or that they failed to follow the precise procedural requirements that would trigger protection.',
-      'THE CHILLING EFFECT: The visible destruction of whistleblowers serves a deliberate purpose: it deters others from speaking up. Surveys consistently find that the primary reason employees do not report observed wrongdoing is fear of retaliation. The Ethics Resource Center found that 21% of employees who reported misconduct experienced retaliation. Among those who observed but did not report misconduct, 33% cited fear of retaliation as the reason. The Government Accountability Project estimates that for every whistleblower who comes forward, dozens remain silent. The systemic destruction of whistleblowers is not merely unjust to the individuals involved; it is a mechanism through which institutional corruption perpetuates itself.',
+      'THE CHILLING EFFECT: The visible destruction of whistleblowers serves a deliberate purpose: it deters others from speaking up. Surveys consistently find that the primary reason employees do not report observed wrongdoing is fear of retaliation. The Ethics Resource Center found that 21% of employees who reported misconduct experienced retaliation. Among those who observed but did not report misconduct, 33% cited fear of retaliation as the reason. The Government Accountability Project estimates that for every whistleblower who comes forward, dozens remain silent. The systemic destruction of whistleblowers is not merely unjust to the individuals involved; it is a mechanism through which institutional corruption perpetuates itself.'
     ],
     tags: ['Whistleblower Retaliation', 'Whistleblower Protection', 'Thomas Drake', 'Government Accountability', 'Corporate Retaliation', 'Espionage Act'],
     sources: [
       { title: 'Government Accountability Project', url: 'https://whistleblower.org', type: 'Research' },
       { title: 'National Whistleblower Center', url: 'https://www.whistleblowers.org', type: 'Research' },
-      { title: 'MSPB: Whistleblower Protection Statistics', url: 'https://www.mspb.gov', type: 'Government Report' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'MSPB: Whistleblower Protection Statistics', url: 'https://www.mspb.gov', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes whistleblowers under the Espionage Act while failing to prosecute the wrongdoing they expose; Thomas Drake, Reality Winner, Daniel Hale all charged', href: '/entities/agencies/doj' },
-      { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Most prominent whistleblower in exile; exposed NSA mass surveillance; charged under Espionage Act; granted Russian citizenship', href: '/entities/individuals/edward-snowden' },
+      { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Most prominent whistleblower in exile; exposed NSA mass surveillance; charged under Espionage Act; granted Russian citizenship', href: '/entities/individuals/edward-snowden' }
     ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2023-11-14',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2010', event: 'The Dodd-Frank Act\'s SEC whistleblower program (created in 2010) has improved financial incentives for securities fraud whistleblowers; but retaliation protections remain weak.', type: 'default' },
-     { date: '2020', event: 'Continued developments in government accountability project with new evidence emerging', type: 'default' },
+     { date: '2020', event: 'Continued developments in government accountability project with new evidence emerging', type: 'default' }
    ],
   },
   'wrongful-convictions-systemic-crisis': {
@@ -1200,17 +1177,16 @@ const investigations_w: Record<string, InvestigationData> = {
       'EYEWITNESS MISIDENTIFICATION: Eyewitness misidentification is the leading cause of wrongful convictions, contributing to 69% of the 375+ DNA exonerations in the Innocence Project database. Research by cognitive psychologist Elizabeth Loftus and others has demonstrated that human memory is far less reliable than jurors assume; memory is reconstructive, susceptible to suggestion, and degrades rapidly. Cross-racial identification is particularly unreliable; studies show error rates of 30-40% in cross-racial identification vs. 10-15% within-race. Despite decades of research, most police departments have not adopted evidence-based lineup procedures (double-blind administration, sequential presentation, confidence statements) that significantly reduce misidentification.',
       'FALSE FORENSICS: Forensic science has been a major contributor to wrongful convictions. A landmark 2009 National Academy of Sciences report found that most forensic disciplines; including bite mark analysis, hair microscopy, firearm tool mark analysis, and arson investigation; lack scientific validation. The FBI\'s own review found that FBI examiners gave erroneous hair analysis testimony in 95% of cases examined; affecting over 2,500 cases, at least 35 of which resulted in death sentences. Bite mark evidence has been debunked but continues to be used in some jurisdictions. Even fingerprint analysis, long considered infallible, has an error rate; the Brandon Mayfield case demonstrated that even senior FBI examiners can make confident but completely wrong identifications.',
       'COERCED CONFESSIONS: False confessions are present in approximately 29% of DNA exonerations. The Reid Technique; the dominant interrogation method used by American police; employs psychological manipulation including isolation, sleep deprivation, lying about evidence, minimization of consequences, and implicit promises of leniency. Research demonstrates that these techniques can produce false confessions from innocent people; particularly juveniles, people with intellectual disabilities, and those experiencing mental health crises. The Central Park Five (now Exonerated Five) falsely confessed to a brutal assault after hours of interrogation as teenagers; they served 6-13 years before DNA exonerated them. Despite these documented failures, most jurisdictions still do not require recording of full interrogations.',
-      'PROSECUTORIAL MISCONDUCT: Prosecutors are the most powerful actors in the criminal justice system; they decide who to charge, what charges to bring, what evidence to disclose, and what plea offers to make. The Innocence Project found prosecutorial misconduct in approximately 30% of wrongful conviction cases. Brady violations; the failure to disclose exculpatory evidence to the defense, required by Brady v. Maryland (1963); are the most common form. Despite Brady being the law for over 60 years, prosecutors who violate it face virtually no consequences. A 2020 ProPublica investigation found over 2,000 cases in which courts found Brady violations; in fewer than 1% of cases did prosecutors face any professional discipline. Absolute prosecutorial immunity, established by the Supreme Court in Imbler v. Pachtman (1976), shields prosecutors from civil liability for misconduct committed during prosecution.',
+      'PROSECUTORIAL MISCONDUCT: Prosecutors are the most powerful actors in the criminal justice system; they decide who to charge, what charges to bring, what evidence to disclose, and what plea offers to make. The Innocence Project found prosecutorial misconduct in approximately 30% of wrongful conviction cases. Brady violations; the failure to disclose exculpatory evidence to the defense, required by Brady v. Maryland (1963); are the most common form. Despite Brady being the law for over 60 years, prosecutors who violate it face virtually no consequences. A 2020 ProPublica investigation found over 2,000 cases in which courts found Brady violations; in fewer than 1% of cases did prosecutors face any professional discipline. Absolute prosecutorial immunity, established by the Supreme Court in Imbler v. Pachtman (1976), shields prosecutors from civil liability for misconduct committed during prosecution.'
     ],
     tags: ['Wrongful Convictions', 'Innocence Project', 'Exonerations', 'Prosecutorial Misconduct', 'False Confessions', 'Forensic Science'],
     sources: [
       { title: 'National Registry of Exonerations', url: 'https://www.law.umich.edu/special/exoneration/', type: 'Database' },
       { title: 'Innocence Project', url: 'https://innocenceproject.org', type: 'Research' },
-      { title: 'NAS Report: Strengthening Forensic Science', url: 'https://www.nap.edu/catalog/12589', type: 'Research' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'NAS Report: Strengthening Forensic Science', url: 'https://www.nap.edu/catalog/12589', type: 'Research' }
     ],
     affiliations: [
-      { id: '1', name: 'DOJ', type: 'agency', relationship: 'FBI provided erroneous forensic testimony in 95% of hair analysis cases reviewed; prosecutorial misconduct in 30%+ of wrongful convictions; absolute immunity shields prosecutors from consequences', href: '/entities/agencies/doj' },
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'FBI provided erroneous forensic testimony in 95% of hair analysis cases reviewed; prosecutorial misconduct in 30%+ of wrongful convictions; absolute immunity shields prosecutors from consequences', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1963-01-01',
    lastActivityDate: '2025-10-04',
@@ -1220,7 +1196,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1976', event: 'Pachtman (1976), shields prosecutors from civil liability for misconduct committed during prosecution', type: 'legal' },
      { date: '1989', event: 'THE SCALE OF THE CRISIS: The National Registry of Exonerations has documented over 3,500 exonerations since 1989', type: 'default' },
      { date: '2009', event: 'A landmark 2009 National Academy of Sciences report found that most forensic disciplines; including bite mark analysis, hair microscopy, firearm tool mark analysis, and arson investigation', type: 'default' },
-     { date: '2020', event: 'A 2020 ProPublica investigation found over 2,000 cases in which courts found Brady violations; in fewer than 1% of cases did prosecutors face any professional discipline', type: 'legal' },
+     { date: '2020', event: 'A 2020 ProPublica investigation found over 2,000 cases in which courts found Brady violations; in fewer than 1% of cases did prosecutors face any professional discipline', type: 'legal' }
    ],
   },
   'whistleblower-prosecution-timeline': {
@@ -1236,20 +1212,19 @@ const investigations_w: Record<string, InvestigationData> = {
       'THE OBAMA ESCALATION: Despite campaigning on transparency and whistleblower protection, the Obama administration prosecuted more Espionage Act cases against whistleblowers than all previous administrations combined. Thomas Drake (NSA waste and illegal surveillance); 10 felony counts, eventually reduced to a misdemeanor. Jeffrey Sterling (CIA racial discrimination and a flawed Iran operation); convicted, sentenced to 3.5 years. John Kiriakou (CIA torture program); convicted, sentenced to 30 months; the only person imprisoned in connection with the CIA torture program. Stephen Kim (North Korea intelligence to reporter); convicted, sentenced to 13 months. Chelsea Manning (Iraq War logs, Afghan War Diary, State Department cables); convicted, sentenced to 35 years; commuted by Obama. Edward Snowden (NSA mass surveillance); charged, fled to Russia.',
       'CHELSEA MANNING: Private First Class Chelsea Manning provided WikiLeaks with the largest leak of classified material in American history: 251,287 State Department cables, 400,000 Iraq War field reports, 91,000 Afghanistan War logs, and the "Collateral Murder" video showing a U.S. Apache helicopter killing Iraqi civilians including two Reuters journalists. Manning was court-martialed, convicted of 17 charges including violations of the Espionage Act (but acquitted of "aiding the enemy"), and sentenced to 35 years; the longest sentence ever imposed for a leak to the media. Obama commuted her sentence after 7 years. Manning was subsequently jailed again for 62 days for refusing to testify before a grand jury investigating WikiLeaks.',
       'EDWARD SNOWDEN: In June 2013, Edward Snowden, an NSA contractor working for Booz Allen Hamilton, provided journalists at The Guardian, The Washington Post, and other outlets with thousands of classified documents revealing the NSA\'s global mass surveillance programs; including PRISM (collecting data from tech companies), XKeyscore (searching virtually everything a person does on the internet), and the bulk collection of Americans\' telephone metadata. Snowden was charged with two counts of violating the Espionage Act and one count of theft of government property. He has lived in exile in Russia since 2013 and was granted Russian citizenship in 2022. The surveillance programs Snowden exposed were subsequently found to have violated the law by multiple courts and review bodies.',
-      'THE ASSANGE PRECEDENT: The prosecution of Julian Assange, publisher of WikiLeaks, represents an extension of the war on whistleblowers to journalism itself. The Trump administration indicted Assange on 17 counts under the Espionage Act and one count of computer intrusion. Press freedom organizations warned that prosecuting a publisher for publishing classified information would establish a precedent that could be used against any journalist who publishes leaked government documents. The Biden administration maintained the prosecution. Assange reached a plea agreement in June 2024 after spending 5 years in Belmarsh Prison in the UK. He pleaded guilty to one count of conspiring to obtain and disclose national defense information and was sentenced to time served.',
+      'THE ASSANGE PRECEDENT: The prosecution of Julian Assange, publisher of WikiLeaks, represents an extension of the war on whistleblowers to journalism itself. The Trump administration indicted Assange on 17 counts under the Espionage Act and one count of computer intrusion. Press freedom organizations warned that prosecuting a publisher for publishing classified information would establish a precedent that could be used against any journalist who publishes leaked government documents. The Biden administration maintained the prosecution. Assange reached a plea agreement in June 2024 after spending 5 years in Belmarsh Prison in the UK. He pleaded guilty to one count of conspiring to obtain and disclose national defense information and was sentenced to time served.'
     ],
     tags: ['Espionage Act', 'Whistleblower Prosecution', 'Chelsea Manning', 'Edward Snowden', 'Julian Assange', 'Press Freedom'],
     sources: [
       { title: 'Freedom of the Press Foundation: Espionage Act Prosecutions', url: 'https://freedom.press', type: 'Research' },
       { title: 'ACLU: Whistleblower Prosecution Analysis', url: 'https://www.aclu.org', type: 'Legal Analysis' },
-      { title: 'The Guardian: NSA Files', url: 'https://www.theguardian.com/us-news/the-nsa-files', type: 'Investigative Report' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'The Guardian: NSA Files', url: 'https://www.theguardian.com/us-news/the-nsa-files', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted 8+ whistleblowers under Espionage Act during Obama administration; continued under Trump and Biden; no public interest defense allowed', href: '/entities/agencies/doj' },
       { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Charged under Espionage Act for exposing NSA mass surveillance; living in exile in Russia since 2013; surveillance he exposed was found illegal by courts', href: '/entities/individuals/edward-snowden' },
       { id: '3', name: 'Chelsea Manning', type: 'individual', relationship: 'Sentenced to 35 years for leaking Iraq/Afghanistan war documents and diplomatic cables; commuted by Obama after 7 years; jailed again for refusing grand jury testimony', href: '/entities/individuals/chelsea-manning' },
-      { id: '4', name: 'Julian Assange', type: 'individual', relationship: 'Indicted on 17 Espionage Act counts for publishing classified documents; spent 5 years in Belmarsh Prison; pleaded guilty June 2024', href: '/entities/individuals/julian-assange' },
+      { id: '4', name: 'Julian Assange', type: 'individual', relationship: 'Indicted on 17 Espionage Act counts for publishing classified documents; spent 5 years in Belmarsh Prison; pleaded guilty June 2024', href: '/entities/individuals/julian-assange' }
     ],
    eventOriginDate: '1917-01-01',
    lastActivityDate: '2025-05-19',
@@ -1258,7 +1233,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1917', event: 'THE ESPIONAGE ACT WEAPON: The Espionage Act of 1917, passed during World War I to prosecute German spies, was never intended to criminalize disclosures to the press about government misconduct', type: 'default' },
      { date: '2013', event: 'He has lived in exile in Russia since 2013 and was granted Russian citizenship in 2022', type: 'default' },
      { date: '2013-06-01', event: 'EDWARD SNOWDEN: In June 2013, Edward Snowden, an NSA contractor working for Booz Allen Hamilton, provided journalists at The Guardian, The Washington Post, and other outlets with thousands of class', type: 'default' },
-     { date: '2024-06-01', event: 'Assange reached a plea agreement in June 2024 after spending 5 years in Belmarsh Prison in the UK', type: 'default' },
+     { date: '2024-06-01', event: 'Assange reached a plea agreement in June 2024 after spending 5 years in Belmarsh Prison in the UK', type: 'default' }
    ],
   },
   'waste-management-organized-crime-ties': {
@@ -1274,17 +1249,16 @@ const investigations_w: Record<string, InvestigationData> = {
       'THE FAMILIES AND THEIR TERRITORIES: The waste cartel was divided among the Five Families of La Cosa Nostra. The Gambino family controlled much of the commercial waste hauling in Manhattan and Brooklyn through companies controlled by associates. The Genovese family controlled parts of the Bronx and Westchester County. The Lucchese family had significant interests in Long Island waste hauling. James "Jimmy Brown" Failla, a Gambino captain, was the acknowledged "boss" of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his death in 1999. The cartel was enforced through the Teamsters union; locals representing waste haulers were controlled by mob-connected officials who prevented independent operators from hiring union labor.',
       'ILLEGAL DUMPING AND ENVIRONMENTAL CRIME: Mob-connected waste companies were responsible for widespread illegal dumping of toxic and hazardous waste. In New Jersey, organized crime figures dumped toxic industrial waste in landfills, abandoned lots, and waterways throughout the state. The Kin-Buc Landfill in Edison, New Jersey; operated by mob-connected owners; became one of the worst toxic waste sites in the country. In Long Island, the Crescent Avenue dump in Islip accumulated 500,000 cubic yards of illegally dumped waste. The cost of environmental remediation at mob-connected dumpsites has exceeded hundreds of millions of dollars. It was often cheaper for companies to hire mob-connected haulers who would illegally dump waste than to pay for legal disposal; creating a market in which environmental crime was the business model.',
       'THE TRADE WASTE COMMISSION: Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking the organized crime cartel in the waste industry. The Commission required all waste hauling companies to apply for licenses and conducted background investigations that examined criminal histories, financial records, and association with organized crime figures. Of the approximately 300 companies that applied, the Commission denied or revoked licenses for companies with organized crime ties; reducing the number of licensed haulers from 300 to approximately 200. Commercial waste removal prices dropped by approximately 30-40% once the cartel was broken.',
-      'MODERN CONSOLIDATION: The breakup of the mob cartel was followed by rapid corporate consolidation of the waste industry. Waste Management Inc., Republic Services, and Waste Connections; the three largest companies; now control approximately 60% of the U.S. waste market. While these companies are not directly connected to organized crime, the monopolistic pricing dynamics persist under corporate ownership; market concentration has prevented the competitive pricing that was supposed to follow the cartel\'s demise. Critics argue that the industry has merely transitioned from criminal monopoly to corporate oligopoly. Environmental justice concerns also persist; waste facilities are disproportionately sited in low-income and minority communities.',
+      'MODERN CONSOLIDATION: The breakup of the mob cartel was followed by rapid corporate consolidation of the waste industry. Waste Management Inc., Republic Services, and Waste Connections; the three largest companies; now control approximately 60% of the U.S. waste market. While these companies are not directly connected to organized crime, the monopolistic pricing dynamics persist under corporate ownership; market concentration has prevented the competitive pricing that was supposed to follow the cartel\'s demise. Critics argue that the industry has merely transitioned from criminal monopoly to corporate oligopoly. Environmental justice concerns also persist; waste facilities are disproportionately sited in low-income and minority communities.'
     ],
     tags: ['Organized Crime', 'Waste Industry', 'Mob Cartel', 'Illegal Dumping', 'Trade Waste Commission', 'Environmental Crime'],
     sources: [
       { title: 'NYC Business Integrity Commission', url: 'https://www.nyc.gov/site/bic/index.page', type: 'Government Report' },
       { title: 'Alan Block: Space, Time and Organized Crime (3rd ed.)', url: 'https://www.routledge.com', type: 'Academic Research' },
-      { title: 'DOJ: Trade Waste Industry Prosecutions', url: 'https://www.justice.gov', type: 'Court Record' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'DOJ: Trade Waste Industry Prosecutions', url: 'https://www.justice.gov', type: 'Court Record' }
     ],
     affiliations: [
-      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted mob-connected waste hauling companies; RICO cases against Gambino and Genovese family members involved in the cartel', href: '/entities/agencies/doj' },
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted mob-connected waste hauling companies; RICO cases against Gambino and Genovese family members involved in the cartel', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2026-01-17',
@@ -1292,7 +1266,7 @@ const investigations_w: Record<string, InvestigationData> = {
       timeline: [
      { date: '1996', event: 'The New York Trade Waste Commission, established by Mayor Giuliani in 1996, found that this cartel inflated commercial waste removal costs by 40-50%', type: 'financial' },
      { date: '1999', event: 'James "Jimmy Brown" Failla, a Gambino captain, was the acknowledged "boss" of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his death in 1999.', type: 'critical' },
-     { date: '2002', event: 'Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking the organized crime cartel in the waste industry.', type: 'default' },
+     { date: '2002', event: 'Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking the organized crime cartel in the waste industry.', type: 'default' }
      ],
   },
   'wire-transfer-fraud-international-corridors': {
@@ -1308,25 +1282,23 @@ const investigations_w: Record<string, InvestigationData> = {
       'MAJOR ENFORCEMENT FAILURES: The scale of wire transfer-related money laundering discovered through enforcement actions is staggering. HSBC paid $1.9 billion in 2012 for laundering hundreds of millions for Mexican drug cartels; the bank processed $881 million in drug money through its U.S. correspondent accounts. Standard Chartered paid $1.1 billion for processing billions in Iranian transactions through its U.S. correspondent accounts. Wachovia (now Wells Fargo) was fined $160 million for laundering $378.4 billion (yes, billion) in Mexican wire transfers. Deutsche Bank paid $630 million for its role in a $10 billion Russian mirror-trading scheme. In each case, the banks paid fines as a cost of doing business; no senior executive was criminally prosecuted.',
       'HAWALA AND INFORMAL VALUE TRANSFER: Parallel to the formal banking system, informal value transfer systems (IVTS) like hawala move an estimated $100-300 billion annually outside regulated channels. Hawala brokers (hawaladars) accept funds in one country and arrange for an equivalent amount to be paid in another; no actual money crosses borders, and transactions are settled through mutual trust and periodic netting. The system is legal in most countries when properly licensed but is widely exploited for money laundering, terrorist financing, and sanctions evasion because it leaves minimal paper trail and operates outside banking AML controls.',
       'CRYPTOCURRENCY AS THE NEW CORRIDOR: Cryptocurrency has emerged as a new international value transfer corridor that operates entirely outside traditional banking and AML infrastructure. Cross-border cryptocurrency transfers require no intermediary banks, are settled in minutes, and can be routed through mixing services and privacy coins to obscure the trail. Chainalysis estimated that $22.2 billion in cryptocurrency was received by illicit addresses in 2023. North Korea\'s Lazarus Group has stolen over $3 billion in cryptocurrency to fund weapons programs. The Financial Action Task Force (FATF) has issued guidance requiring cryptocurrency exchanges to implement "travel rules" (sharing sender/recipient information); but compliance is inconsistent and enforcement varies wildly across jurisdictions.',
-      'THE REGULATORY PATCHWORK: Anti-money laundering regulation is fundamentally national; each country sets its own rules, thresholds, and enforcement priorities. The FATF sets international standards but has no enforcement authority. Mutual Legal Assistance Treaties (MLATs) enable cross-border investigations but are slow; a typical MLAT request takes 6-12 months. By contrast, illicit funds can be moved through multiple jurisdictions in minutes. The EU\'s Anti-Money Laundering Directives and the U.S. Bank Secrecy Act represent the most robust frameworks; but even these are undermined by inadequate enforcement budgets. FinCEN has approximately 300 employees; the global banking system it oversees processes trillions of dollars daily.',
+      'THE REGULATORY PATCHWORK: Anti-money laundering regulation is fundamentally national; each country sets its own rules, thresholds, and enforcement priorities. The FATF sets international standards but has no enforcement authority. Mutual Legal Assistance Treaties (MLATs) enable cross-border investigations but are slow; a typical MLAT request takes 6-12 months. By contrast, illicit funds can be moved through multiple jurisdictions in minutes. The EU\'s Anti-Money Laundering Directives and the U.S. Bank Secrecy Act represent the most robust frameworks; but even these are undermined by inadequate enforcement budgets. FinCEN has approximately 300 employees; the global banking system it oversees processes trillions of dollars daily.'
     ],
     tags: ['Wire Transfer Fraud', 'Correspondent Banking', 'SWIFT', 'Hawala', 'Cryptocurrency Laundering', 'FATF'],
     sources: [
       { title: 'FATF: Money Laundering Through the Financial System', url: 'https://www.fatf-gafi.org', type: 'International Standard' },
       { title: 'Chainalysis: Crypto Crime Report', url: 'https://www.chainalysis.com', type: 'Research' },
-      { title: 'FinCEN: Bank Secrecy Act Enforcement', url: 'https://www.fincen.gov', type: 'Government Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'FinCEN: Bank Secrecy Act Enforcement', url: 'https://www.fincen.gov', type: 'Government Report' }
     ],
     affiliations: [
-      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes wire transfer fraud and money laundering; HSBC $1.9B, Standard Chartered $1.1B, Deutsche Bank $630M; no senior banker imprisoned', href: '/entities/agencies/doj' },
-      { id: 'securities-and-exchange-commission', name: 'Securities and Exchange Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/sec' },
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes wire transfer fraud and money laundering; HSBC $1.9B, Standard Chartered $1.1B, Deutsche Bank $630M; no senior banker imprisoned', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-06-04',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'HSBC paid $1.9 billion in 2012 for laundering hundreds of millions for Mexican drug cartels; the bank processed $881 million in drug money through its U.S.', type: 'financial' },
-     { date: '2023', event: 'Chainalysis estimated that $22.2 billion in cryptocurrency was received by illicit addresses in 2023.', type: 'financial' },
+     { date: '2023', event: 'Chainalysis estimated that $22.2 billion in cryptocurrency was received by illicit addresses in 2023.', type: 'financial' }
      ],
   },
   'workplace-monitoring-technology-growth': {
@@ -1342,19 +1314,17 @@ const investigations_w: Record<string, InvestigationData> = {
       'AMAZON AS THE MODEL: Amazon represents the extreme of workplace surveillance; and the model that other companies are increasingly adopting. Warehouse workers\' every movement is tracked by scanners that measure "time off task" (TOT) in seconds; workers who fall below algorithmic productivity targets receive automated warnings. Delivery drivers are monitored by AI-powered cameras (Netradyne Driveri) that record and analyze their behavior continuously; assessing facial expressions, tracking eye movements, and scoring every maneuver. Customer service representatives are monitored by AI that analyzes call tone and sentiment. Amazon\'s monitoring systems have been linked to a warehouse injury rate that is double the industry average; workers report being unable to take bathroom breaks without affecting their productivity scores.',
       'LEGAL VACUUM: American workers have almost no legal protection against workplace surveillance. The Electronic Communications Privacy Act (ECPA) of 1986 contains a "business use exception" that permits employers to monitor communications on their systems for legitimate business purposes and a "consent exception" that permits monitoring when one party consents (typically extracted through employment agreements). Only Connecticut and Delaware require employers to notify workers about electronic monitoring; and even these laws have weak enforcement. The NLRB has attempted to address surveillance of union organizing activities; but its authority is limited and contested. The EU\'s GDPR provides significantly more worker privacy protection; European workers have a right to know what data is collected and can challenge disproportionate surveillance.',
       'BIOMETRIC SURVEILLANCE: A growing number of employers require biometric data collection from workers; including fingerprint scans, facial recognition, iris scans, and even voice prints. Biometric time clocks have replaced manual time cards at thousands of companies. Amazon uses palm scanning (Amazon One) at its facilities. Construction companies use facial recognition to track worker hours at job sites. Illinois\' Biometric Information Privacy Act (BIPA) is the strongest protection; requiring informed consent before collection and creating a private right of action that has generated hundreds of class-action lawsuits. But most states have no biometric privacy law; and employers argue that BIPA-style requirements are burdensome.',
-      'THE PRODUCTIVITY SCORE ILLUSION: Research consistently finds that invasive monitoring reduces; rather than increases; genuine productivity. A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care. Gartner found that 41% of digitally monitored employees reported decreased engagement. The surveillance measures motion and activity; not output, creativity, or quality. Workers optimize for the metrics being measured (keeping their mouse moving, staying on approved applications) rather than doing meaningful work. The $56 billion workplace surveillance industry is built on the assumption that surveillance drives productivity; an assumption contradicted by the evidence.',
+      'THE PRODUCTIVITY SCORE ILLUSION: Research consistently finds that invasive monitoring reduces; rather than increases; genuine productivity. A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care. Gartner found that 41% of digitally monitored employees reported decreased engagement. The surveillance measures motion and activity; not output, creativity, or quality. Workers optimize for the metrics being measured (keeping their mouse moving, staying on approved applications) rather than doing meaningful work. The $56 billion workplace surveillance industry is built on the assumption that surveillance drives productivity; an assumption contradicted by the evidence.'
     ],
     tags: ['Workplace Surveillance', 'Bossware', 'Employee Monitoring', 'Amazon', 'Biometric Data', 'Privacy'],
     sources: [
       { title: 'EFF: Inside the Invasive World of Bossware', url: 'https://www.eff.org/issues/workplace-surveillance', type: 'Research' },
       { title: 'Gartner: Employee Monitoring Survey', url: 'https://www.gartner.com', type: 'Research' },
-      { title: 'HBR: Electronic Monitoring and Worker Behavior', url: 'https://hbr.org', type: 'Research' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'HBR: Electronic Monitoring and Worker Behavior', url: 'https://hbr.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Model for invasive worker surveillance; tracks warehouse workers\' every movement in seconds; AI cameras monitor delivery drivers; injury rate double industry average', href: '/entities/corporations/amazon-inc' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
-
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' }
     ],
    eventOriginDate: '1986-01-01',
    lastActivityDate: '2026-01-18',
@@ -1363,7 +1333,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1986', event: 'The Electronic Communications Privacy Act (ECPA) of 1986 contains a "business use exception" that permits employers to monitor communications on their systems for legitimate business purposes and a', type: 'default' },
      { date: '2020', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
      { date: '2021', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
-     { date: '2023', event: 'A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care.', type: 'default' },
+     { date: '2023', event: 'A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care.', type: 'default' }
      ],
   },
   'water-treatment-chemical-health-effects': {
@@ -1379,20 +1349,18 @@ const investigations_w: Record<string, InvestigationData> = {
       'PFAS "FOREVER CHEMICALS": Per- and polyfluoroalkyl substances (PFAS); a class of over 14,000 synthetic chemicals that do not break down in the environment; have contaminated the drinking water of an estimated 110+ million Americans. PFAS are linked to cancer (particularly kidney and testicular), thyroid disease, immune system suppression, reproductive harm, and developmental effects in children. The chemicals were manufactured by 3M and DuPont since the 1950s; internal documents show both companies knew about health risks for decades. In June 2023, 3M agreed to pay $10.3 billion to settle lawsuits from public water systems; DuPont and its spinoffs agreed to $1.185 billion. The EPA finalized the first-ever federal PFAS drinking water standard in April 2024; setting limits of 4 parts per trillion for PFOA and PFOS. But compliance will cost an estimated $1.5 billion annually; and the rule covers only 6 of the 14,000+ PFAS compounds.',
       'CHLORINATION AND DISINFECTION BYPRODUCTS: The chlorination of drinking water; introduced in the early 1900s; is considered one of the greatest public health achievements of the 20th century; virtually eliminating waterborne diseases like cholera and typhoid. However, when chlorine reacts with naturally occurring organic matter in water; it creates over 600 disinfection byproducts (DBPs), including trihalomethanes (THMs) and haloacetic acids (HAAs). Epidemiological studies have consistently linked long-term DBP exposure to increased risks of bladder cancer (estimated 2-17% of bladder cancers attributable to DBPs), colorectal cancer, and adverse reproductive outcomes including miscarriage and low birth weight. The EPA regulates only 11 of the 600+ identified DBPs. Utilities can reduce DBPs by switching to alternative disinfectants like ozone or UV treatment; but these are more expensive and many utilities; particularly in small or rural systems serving 3,300+ communities; lack the resources to upgrade.',
       'CAMP LEJEUNE AND MILITARY CONTAMINATION: The water contamination at Marine Corps Base Camp Lejeune in North Carolina represents one of the worst drinking water disasters in U.S. history. From the 1950s through 1987; up to one million Marines, family members, and civilian workers were exposed to water contaminated with volatile organic compounds including trichloroethylene (TCE), perchloroethylene (PCE), benzene, and vinyl chloride at levels up to 3,400 times permissible limits. The contamination was linked to an off-base dry cleaner and on-base fuel leaks. Internal documents show the Marine Corps knew about the contamination as early as 1980 but did not notify residents until 1985. Studies have documented elevated rates of cancers (leukemia, kidney, liver, bladder), birth defects, and other diseases among exposed populations. The Camp Lejeune Justice Act of 2022 finally allowed victims to sue the government; over 200,000 claims have been filed.',
-      'REGULATORY FAILURE: The Safe Drinking Water Act (SDWA); enacted in 1974 and amended in 1986 and 1996; is the primary federal law governing drinking water quality. But it is chronically underfunded and structurally inadequate. The EPA regulates only 90 contaminants; out of the more than 86,000 chemicals in commercial use in the United States. The Unregulated Contaminant Monitoring Rule (UCMR) tests for a handful of new contaminants every five years; but the process from identification to regulation can take over a decade. The EPA went from 1996 to 2024 without adding a single new regulated contaminant. State revolving funds for water infrastructure are underfunded by an estimated $600 billion over the next 20 years according to the American Society of Civil Engineers. Small water systems serving fewer than 10,000 people; which account for 97% of all public water systems but often lack technical and financial capacity; are the most vulnerable to contamination and the least able to comply with new regulations.',
+      'REGULATORY FAILURE: The Safe Drinking Water Act (SDWA); enacted in 1974 and amended in 1986 and 1996; is the primary federal law governing drinking water quality. But it is chronically underfunded and structurally inadequate. The EPA regulates only 90 contaminants; out of the more than 86,000 chemicals in commercial use in the United States. The Unregulated Contaminant Monitoring Rule (UCMR) tests for a handful of new contaminants every five years; but the process from identification to regulation can take over a decade. The EPA went from 1996 to 2024 without adding a single new regulated contaminant. State revolving funds for water infrastructure are underfunded by an estimated $600 billion over the next 20 years according to the American Society of Civil Engineers. Small water systems serving fewer than 10,000 people; which account for 97% of all public water systems but often lack technical and financial capacity; are the most vulnerable to contamination and the least able to comply with new regulations.'
     ],
     tags: ['Water Contamination', 'Lead Poisoning', 'PFAS', 'Public Health', 'EPA', 'Camp Lejeune', 'Infrastructure'],
     sources: [
       { title: 'EPA PFAS Drinking Water Rule', url: 'https://www.epa.gov/pfas', type: 'Government Record' },
       { title: 'NRDC: Threats on Tap', url: 'https://www.nrdc.org/threats-tap', type: 'Research' },
       { title: 'ATSDR: Camp Lejeune Health Studies', url: 'https://www.atsdr.cdc.gov/', type: 'Government Record' },
-      { title: 'ASCE Infrastructure Report Card: Drinking Water', url: 'https://infrastructurereportcard.org', type: 'Research' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'ASCE Infrastructure Report Card: Drinking Water', url: 'https://infrastructurereportcard.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Regulates only 90 of 86,000+ chemicals in use; went 28 years without adding a new regulated contaminant; finalized first PFAS standard in 2024', href: '/entities/agencies/epa' },
-      { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
-
+      { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' }
     ],
    eventOriginDate: '1900-01-01',
    lastActivityDate: '2026-02-09',
@@ -1409,18 +1377,9 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2022', event: 'The Camp Lejeune Justice Act of 2022 finally allowed victims to sue the government; over 200,000 claims have been filed', type: 'default' },
      { date: '2023-06-01', event: 'In June 2023, 3M agreed to pay $10.3 billion to settle lawsuits from public water systems; DuPont and its spinoffs agreed to $1.185 billion', type: 'legal' },
      { date: '2024', event: 'The EPA finalized a revised Lead and Copper Rule Improvements (LCRI) in 2024 requiring all lead service lines be replaced within 10 years', type: 'political' },
-     { date: '2024-04-01', event: 'The EPA finalized the first-ever federal PFAS drinking water standard in April 2024; setting limits of 4 parts per trillion for PFOA and PFOS', type: 'default' },
+     { date: '2024-04-01', event: 'The EPA finalized the first-ever federal PFAS drinking water standard in April 2024; setting limits of 4 parts per trillion for PFOA and PFOS', type: 'default' }
    ],
   },
-
-
-
-
-
-
-
-
-
 
   'world-bank': {
     title: "World Bank: Development or Exploitation?",
@@ -1438,18 +1397,16 @@ const investigations_w: Record<string, InvestigationData> = {
       "CLIMATE CONTRADICTION: Despite positioning itself as a leader in climate finance, the Bank continued to finance fossil fuel projects. Between 2015 and 2021, the Bank Group provided over $14 billion in financing for fossil fuels, according to analysis by the Big Shift Campaign. The Bank's Development Policy Financing has been used to support fossil fuel subsidies and weaken environmental regulations in borrowing countries.",
       "POWER DYNAMICS: The World Bank's governance structure ensures that the United States and European nations maintain control. The Bank president has always been an American; a tradition dating to its founding. Voting power is weighted by financial contribution, giving wealthy nations effective veto power over policy. Developing countries; which bear the consequences of Bank policies; have limited voice in setting them.",
       "DEBT TRAPS: Developing nations accumulated unsustainable debt through Bank lending programs. The Heavily Indebted Poor Countries (HIPC) initiative provided partial relief beginning in 1996; but required additional reforms that critics described as continued conditionality. Many countries that received debt relief were subsequently encouraged to take on new debt. The cycle of borrowing, conditionality, and repayment continues to transfer resources from developing to wealthy nations.",
-      "REFORM AND RESISTANCE: Internal whistleblowers, external civil society organizations, and the Bank's own Independent Evaluation Group have documented systemic problems. Former chief economist Joseph Stiglitz criticized the Bank's approach after leaving. The Bank has adopted new environmental and social frameworks; but implementation gaps remain significant. The fundamental question remains whether an institution designed by and for wealthy nations can serve the interests of the world's poorest people.",
+      "REFORM AND RESISTANCE: Internal whistleblowers, external civil society organizations, and the Bank's own Independent Evaluation Group have documented systemic problems. Former chief economist Joseph Stiglitz criticized the Bank's approach after leaving. The Bank has adopted new environmental and social frameworks; but implementation gaps remain significant. The fundamental question remains whether an institution designed by and for wealthy nations can serve the interests of the world's poorest people."
     ],
     tags: ["World Bank","Development","Displacement","Austerity","International Finance","Structural Adjustment","Climate"],
     sources: [
       { title: "ICIJ Evicted and Abandoned Investigation", url: "https://www.icij.org/investigations/world-bank/", type: "Investigation" },
       { title: "World Bank Independent Evaluation Group", url: "https://ieg.worldbankgroup.org/", type: "Institutional" },
-      { title: "Bretton Woods Project", url: "https://www.brettonwoodsproject.org/", type: "Research" },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: "Bretton Woods Project", url: "https://www.brettonwoodsproject.org/", type: "Research" }
     ],
     affiliations: [
-      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
-      { id: 'securities-and-exchange-commission', name: 'Securities and Exchange Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/sec' },
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1944-07-01',
    lastActivityDate: '2026-03-21',
@@ -1458,7 +1415,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1996', event: 'The Heavily Indebted Poor Countries (HIPC) initiative provided partial relief beginning in 1996; but required additional reforms that critics described as continued conditionality.', type: 'default' },
      { date: '2014', event: 'Former chief economist Joseph Stiglitz criticized the Bank FORCED DISPLACEMENT: A 2015 ICIJ investigation found that World Bank-funded projects displaced an estimated 3.4 million people in the decade ending 2014.', type: 'financial' },
      { date: '2015', event: 'Former chief economist Joseph Stiglitz criticized the Bank FORCED DISPLACEMENT: A 2015 ICIJ investigation found that World Bank-funded projects displaced an estimated 3.4 million people in the decade ending 2014.', type: 'financial' },
-     { date: '2021', event: 'Between 2015 and 2021, the Bank Group provided over $14 billion in financing for fossil fuels, according to analysis by the Big Shift Campaign.', type: 'political' },
+     { date: '2021', event: 'Between 2015 and 2021, the Bank Group provided over $14 billion in financing for fossil fuels, according to analysis by the Big Shift Campaign.', type: 'political' }
    ],
   },
   'war-on-drugs-mass-incarceration': {
@@ -1474,20 +1431,19 @@ const investigations_w: Record<string, InvestigationData> = {
       'MASS INCARCERATION BY THE NUMBERS: The U.S. prison population grew from approximately 300,000 in 1972 to over 2.3 million at its peak in 2008 - a 700% increase driven primarily by drug enforcement. Drug offenses account for approximately 45% of federal prisoners. One in three Black men born in 2001 can expect to be imprisoned in their lifetime, compared to one in seventeen white men. An estimated 19 million Americans have felony convictions, and in several states, felony conviction results in permanent disenfranchisement. The collateral consequences of a drug conviction include loss of voting rights, ineligibility for public housing, disqualification from federal student loans, employment discrimination, and in some states, lifetime exclusion from food stamps.',
       'THE CIA-COCAINE CONNECTION: Investigative journalist Gary Webb published "Dark Alliance" in 1996, documenting links between CIA-backed Contra rebels in Nicaragua and crack cocaine distribution in Los Angeles through the Blandon-Meneses drug network. A 1998 CIA Inspector General report largely confirmed Webb\'s core findings: the CIA had maintained relationships with drug traffickers in Central America, the agency knew about their trafficking activities, and CIA programs had facilitated the entry of cocaine into the United States. Despite this, the major newspapers that had initially attacked Webb\'s reporting never fully acknowledged the accuracy of his findings. Webb committed suicide in 2004.',
       'THE PHARMACEUTICAL EXEMPTION: While millions of Americans have been imprisoned for possessing small amounts of street drugs, pharmaceutical companies that manufactured and distributed drugs causing far more deaths have faced minimal criminal accountability. The opioid epidemic, driven by pharmaceutical industry deception, has killed over 600,000 Americans - far exceeding deaths from all illegal drugs combined during the same period. No pharmaceutical executive has served prison time comparable to the mandatory minimum sentences imposed on low-level drug offenders. The sentencing disparity between pharmaceutical fraud and street-level drug offenses represents the war on drugs\' most glaring double standard: criminalized when Black and poor, regulated (barely) when corporate and profitable.',
-      'MILITARIZATION AND GLOBAL IMPACT: The War on Drugs militarized domestic policing through the 1033 Program (transferring military equipment to police departments) and SWAT team proliferation (from approximately 3,000 raids per year in 1981 to over 80,000 per year by 2014). Internationally, U.S. drug policy was exported through Plan Colombia ($10 billion in military aid), the Merida Initiative (Mexico), and DEA operations across 70+ countries. The results in Latin America include massive human rights abuses by U.S.-funded military units, the empowerment of increasingly violent cartels, and the displacement of millions of people. Despite spending over $1 trillion total, the War on Drugs has not reduced drug availability, increased drug purity, or decreased use among target populations.',
+      'MILITARIZATION AND GLOBAL IMPACT: The War on Drugs militarized domestic policing through the 1033 Program (transferring military equipment to police departments) and SWAT team proliferation (from approximately 3,000 raids per year in 1981 to over 80,000 per year by 2014). Internationally, U.S. drug policy was exported through Plan Colombia ($10 billion in military aid), the Merida Initiative (Mexico), and DEA operations across 70+ countries. The results in Latin America include massive human rights abuses by U.S.-funded military units, the empowerment of increasingly violent cartels, and the displacement of millions of people. Despite spending over $1 trillion total, the War on Drugs has not reduced drug availability, increased drug purity, or decreased use among target populations.'
     ],
     tags: ['war-on-drugs', 'mass-incarceration', 'racial-disparity', 'mandatory-minimums', 'CIA', 'crack-cocaine', 'sentencing', 'DEA', 'Nixon', 'criminal-justice'],
     sources: [
       { title: 'Harper\'s Magazine: Interview with John Ehrlichman on Nixon Drug Policy', url: 'https://harpers.org/archive/2016/04/legalize-it-all/', type: 'Interview' },
       { title: 'CIA Inspector General Report: Allegations of Connections Between CIA and Contras in Cocaine Trafficking', url: 'https://www.cia.gov/readingroom/', type: 'Government Audit' },
       { title: 'The Sentencing Project: Color of Justice - Racial and Ethnic Disparity in State Prisons', url: 'https://www.sentencingproject.org/publications/color-of-justice-racial-and-ethnic-disparity-in-state-prisons/', type: 'Research' },
-      { title: 'ACLU: The War on Marijuana in Black and White', url: 'https://www.aclu.org/report/war-marijuana-black-and-white', type: 'Research' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'ACLU: The War on Marijuana in Black and White', url: 'https://www.aclu.org/report/war-marijuana-black-and-white', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Primary enforcement arm of drug war; conducts operations in 70+ countries; has failed to reduce drug availability despite $50B+ budget', href: '/entities/agencies/dea' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Oversees federal drug prosecution; enforced racially disparate sentencing guidelines for decades', href: '/entities/agencies/doj' },
-      { id: '3', name: 'CIA', type: 'agency', relationship: 'Maintained relationships with drug traffickers in Central America; IG report confirmed knowledge of Contra-cocaine connections', href: '/entities/agencies/cia' },
+      { id: '3', name: 'CIA', type: 'agency', relationship: 'Maintained relationships with drug traffickers in Central America; IG report confirmed knowledge of Contra-cocaine connections', href: '/entities/agencies/cia' }
     ],
    eventOriginDate: '1968-01-01',
    lastActivityDate: '2026-04-01',
@@ -1500,7 +1456,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1998', event: 'A 1998 CIA Inspector General report largely confirmed Webb\'s core findings: the CIA had maintained relationships with drug traffickers in Central America, the agency knew about their trafficking ac...', type: 'political' },
      { date: '2001', event: 'One in three Black men born in 2001 can expect to be imprisoned in their lifetime, compared to one in seventeen white men', type: 'default' },
      { date: '2004', event: 'Webb committed suicide in 2004', type: 'default' },
-     { date: '2010', event: 'The Fair Sentencing Act of 2010 reduced the ratio to 18:1 - still not equal - and was not made retroactive until the First Step Act of 2018', type: 'legal' },
+     { date: '2010', event: 'The Fair Sentencing Act of 2010 reduced the ratio to 18:1 - still not equal - and was not made retroactive until the First Step Act of 2018', type: 'legal' }
    ],
   },
   'weapons-industry-revolving-door': {
@@ -1516,19 +1472,18 @@ const investigations_w: Record<string, InvestigationData> = {
       'THE REVOLVING DOOR: A 2021 study by the Government Accountability Project found that over 600 former senior DOD officials, including 25 former generals and admirals, had registered as lobbyists or consultants for defense contractors between 2014 and 2019. The top five defense contractors collectively employ over 700 former senior military and defense officials. Former Secretary of Defense Lloyd Austin joined the board of Raytheon (now RTX) after leaving the military and before returning to government. Former Secretary of Defense Mark Esper was a Raytheon lobbyist. Former Secretary of Defense James Mattis served on the board of General Dynamics. This revolving door ensures that procurement decisions are made by individuals with financial ties to the companies bidding on contracts.',
       'THE F-35 MONEY PIT: The F-35 Joint Strike Fighter program, manufactured by Lockheed Martin, represents the most expensive weapons system in history with a projected lifetime cost of $1.7 trillion. The program is over a decade behind schedule and billions over budget. As of 2024, the F-35 had over 800 unresolved deficiencies. The jet\'s ejection seat can kill lighter pilots, its software requires constant patches, and its sustainment costs are so high that the Air Force cannot afford to fly it as many hours as needed for pilot proficiency. Despite these failures, Lockheed Martin\'s profits have increased every year. The F-35 program is strategically distributed across 45 states, ensuring that 90 senators have constituent jobs dependent on the program\'s continuation regardless of performance.',
       'WAR PROFITEERING IN IRAQ AND AFGHANISTAN: The twenty-year War on Terror generated unprecedented contractor profits. The Commission on Wartime Contracting estimated that $31-60 billion was lost to fraud and waste in Iraq and Afghanistan contracts. KBR (formerly Halliburton subsidiary) received over $40 billion in contracts, including a no-bid contract for Iraq logistics awarded while former Halliburton CEO Dick Cheney served as Vice President. KBR was found to have provided contaminated water to U.S. troops, improperly wired facilities that electrocuted soldiers, and billed for services not rendered. Erik Prince\'s Blackwater (later Academi) employed private military contractors who operated outside military justice, culminating in the 2007 Nisour Square massacre where Blackwater guards killed 17 Iraqi civilians.',
-      'ARMS EXPORTS AND HUMANITARIAN CONSEQUENCES: The United States is the world\'s largest arms exporter, selling approximately $238 billion in weapons to foreign governments in FY2023 alone. Major recipients include Saudi Arabia (which used American weapons in Yemen, creating the world\'s worst humanitarian crisis with an estimated 377,000 deaths), Israel (which receives $3.8 billion annually in military aid), Egypt (which uses American weapons to maintain authoritarian control), and the UAE. Arms export decisions are driven by defense industry lobbying rather than human rights considerations. The State Department has approved arms sales to governments committing documented atrocities, with arms manufacturers lobbying against every proposed restriction.',
+      'ARMS EXPORTS AND HUMANITARIAN CONSEQUENCES: The United States is the world\'s largest arms exporter, selling approximately $238 billion in weapons to foreign governments in FY2023 alone. Major recipients include Saudi Arabia (which used American weapons in Yemen, creating the world\'s worst humanitarian crisis with an estimated 377,000 deaths), Israel (which receives $3.8 billion annually in military aid), Egypt (which uses American weapons to maintain authoritarian control), and the UAE. Arms export decisions are driven by defense industry lobbying rather than human rights considerations. The State Department has approved arms sales to governments committing documented atrocities, with arms manufacturers lobbying against every proposed restriction.'
     ],
     tags: ['military-industrial-complex', 'Pentagon', 'defense-contractors', 'F-35', 'revolving-door', 'war-profiteering', 'arms-exports', 'audit-failure'],
     sources: [
       { title: 'Government Accountability Office: DOD Financial Management High Risk Area', url: 'https://www.gao.gov/highrisk/dod-financial-management', type: 'Government Audit' },
       { title: 'Commission on Wartime Contracting: Transforming Wartime Contracting', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213820/http://www.wartimecontracting.gov/', type: 'Congressional Report' },
       { title: 'Project on Government Oversight: Pentagon Revolving Door Database', url: 'https://www.pogo.org/database/pentagon-revolving-door', type: 'Database' },
-      { title: 'Congressional Budget Office: F-35 Cost Estimates', url: 'https://www.cbo.gov', type: 'Government Analysis' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'Congressional Budget Office: F-35 Cost Estimates', url: 'https://www.cbo.gov', type: 'Government Analysis' }
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Failed every audit since 2018; cannot account for $3.8 trillion in assets; revolving door with contractors', href: '/entities/agencies/dod' },
-      { id: '2', name: 'CIA', type: 'agency', relationship: 'Operates classified weapons programs outside normal procurement oversight; drone programs use defense contractor platforms', href: '/entities/agencies/cia' },
+      { id: '2', name: 'CIA', type: 'agency', relationship: 'Operates classified weapons programs outside normal procurement oversight; drone programs use defense contractor platforms', href: '/entities/agencies/cia' }
     ],
    eventOriginDate: '1961-01-01',
    lastActivityDate: '2026-03-08',
@@ -1538,7 +1493,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2007', event: 'Erik Prince\'s Blackwater (later Academi) employed private military contractors who operated outside military justice, culminating in the 2007 Nisour Square massacre where Blackwater guards killed 1...', type: 'critical' },
      { date: '2018', event: 'THE UNAUDITABLE PENTAGON: Congress required the Department of Defense to undergo annual audits beginning in fiscal year 2018', type: 'political' },
      { date: '2021', event: 'THE REVOLVING DOOR: A 2021 study by the Government Accountability Project found that over 600 former senior DOD officials, including 25 former generals and admirals, had registered as lobbyists or', type: 'default' },
-     { date: '2024', event: 'As of 2024, the F-35 had over 800 unresolved deficiencies', type: 'default' },
+     { date: '2024', event: 'As of 2024, the F-35 had over 800 unresolved deficiencies', type: 'default' }
    ],
   },
   'wells-fargo-fake-accounts-scandal': {
@@ -1554,19 +1509,18 @@ const investigations_w: Record<string, InvestigationData> = {
       'The Los Angeles Times first exposed the systematic fraud in December 2013, reporting that Wells Fargo employees were opening unauthorized accounts in a high-pressure sales environment. Despite this public reporting, regulators took no meaningful action for nearly three years. The OCC, Wells Fargo\'s primary federal regulator, had received internal complaints since at least 2010. In September 2016, the CFPB, OCC, and Los Angeles City Attorney announced a combined $185 million penalty, but the public reaction to the scope of the fraud far exceeded expectations. Over 5,300 employees were terminated for participating in the scheme, but critics noted that executive leadership who designed and enforced the sales quotas faced no initial consequences.',
       'CEO John Stumpf initially blamed "bad apple" low-level employees, telling Congress the fraud was not a scheme directed from above. Internal documents contradicted this claim, showing that unrealistic sales targets were set by corporate leadership and that warnings from compliance were suppressed. Stumpf resigned on October 12, 2016. The OCC barred him from the banking industry for life in January 2020 and fined him $17.5 million personally. He was required to repay $41 million in compensation. Carrie Tolstedt, who headed the Community Banking division where the fraud was concentrated, was fined $25 million and barred from banking. Eight other executives faced sanctions.',
       'Under the Consumer Financial Protection Act (12 U.S.C. 5531), the CFPB has authority over unfair, deceptive, and abusive acts and practices. Under 12 U.S.C. 1818(e), the OCC can remove and bar individuals from banking. Under 18 U.S.C. 1344, bank fraud carries penalties of up to 30 years imprisonment, but no Wells Fargo executive was criminally charged. Under 18 U.S.C. 1028A, aggravated identity theft (using customers\' personal information without consent) carries a mandatory 2-year consecutive sentence. The Federal Reserve took the unprecedented step in 2018 of capping Wells Fargo\'s assets at their 2017 level until the bank demonstrated improved oversight, the first such sanction against a major bank.',
-      'The total cost to Wells Fargo has exceeded $4.5 billion in fines, settlements, and legal costs. The bank paid $3 billion to settle DOJ and SEC charges in 2020, $1 billion in OCC and CFPB fines in 2018, $480 million to settle a shareholder class action, and hundreds of millions more in state settlements and customer remediation. Despite these penalties, critics argue the punishment was inadequate given the scale of the fraud and that the lack of criminal prosecution of senior executives sends a message that corporate officers can direct systemic fraud with impunity. The Fed\'s asset cap remains in place as of 2025, the longest such restriction ever imposed on a major bank.',
+      'The total cost to Wells Fargo has exceeded $4.5 billion in fines, settlements, and legal costs. The bank paid $3 billion to settle DOJ and SEC charges in 2020, $1 billion in OCC and CFPB fines in 2018, $480 million to settle a shareholder class action, and hundreds of millions more in state settlements and customer remediation. Despite these penalties, critics argue the punishment was inadequate given the scale of the fraud and that the lack of criminal prosecution of senior executives sends a message that corporate officers can direct systemic fraud with impunity. The Fed\'s asset cap remains in place as of 2025, the longest such restriction ever imposed on a major bank.'
     ],
     tags: ['wells-fargo', 'fake-accounts', 'banking-fraud', 'consumer-protection', 'cfpb', 'corporate-accountability', 'regulatory-failure'],
     sources: [
       { title: 'CFPB: Wells Fargo Enforcement Action', url: 'https://www.consumerfinance.gov/enforcement/actions/wells-fargo-bank-na', type: 'Government' },
       { title: 'Senate Banking Committee: An Examination of Wells Fargo\'s Unauthorized Accounts', url: 'https://www.banking.senate.gov/hearings/an-examination-of-wells-fargos-unauthorized-accounts-and-the-regulatory-response', type: 'Congressional Report' },
-      { title: 'OCC: In the Matter of John G. Stumpf', url: 'https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-6.html', type: 'Government' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'OCC: In the Matter of John G. Stumpf', url: 'https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-6.html', type: 'Government' }
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Fined Wells Fargo $100M in 2016 and $1B in 2018; primary consumer protection enforcer', href: '/entities/agencies/cfpb' },
       { id: '2', name: 'OCC', type: 'agency', relationship: 'Primary regulator that failed to act on complaints for years; eventually barred CEO and fined executives' },
-      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Settled with Wells Fargo for $3B in 2020; no individual criminal charges against senior executives', href: '/entities/agencies/doj' },
+      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Settled with Wells Fargo for $3B in 2020; no individual criminal charges against senior executives', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1818-01-01',
    lastActivityDate: '2025-01-15',
@@ -1581,7 +1535,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2018', event: 'The Federal Reserve took the unprecedented step in 2018 of capping Wells Fargo\'s assets at their 2017 level until the bank demonstrated improved oversight, the first such sanction against a major bank', type: 'default' },
      { date: '2020', event: 'The bank paid $3 billion to settle DOJ and SEC charges in 2020, $1 billion in OCC and CFPB fines in 2018, $480 million to settle a shareholder class action, and hundreds of millions more in state s', type: 'political' },
      { date: '2020', event: 'The OCC barred him from the banking industry for life in January 2020 and fined him $17.5 million personally', type: 'financial' },
-     { date: '2025', event: 'The Fed\'s asset cap remains in place as of 2025, the longest such restriction ever imposed on a major bank', type: 'default' },
+     { date: '2025', event: 'The Fed\'s asset cap remains in place as of 2025, the longest such restriction ever imposed on a major bank', type: 'default' }
    ],
   },
   'wage-theft-americas-largest-theft': {
@@ -1597,25 +1551,24 @@ const investigations_w: Record<string, InvestigationData> = {
       'The industries with the highest rates of wage theft are those that employ the most vulnerable workers: restaurants, agriculture, construction, home health care, warehousing, janitorial services, and nail salons. A landmark 2009 survey of over 4,000 low-wage workers in three cities found that 26% were paid less than minimum wage, 76% of overtime-eligible workers were not paid the required overtime rate, and 70% of tipped workers had experienced tip theft. Immigrant workers, documented and undocumented, are particularly vulnerable because employers use the threat of deportation to suppress complaints. Women experience wage theft at higher rates than men, and Black and Latino workers at higher rates than white workers.',
       'Employee misclassification is one of the most profitable forms of wage theft. By classifying workers as independent contractors rather than employees, companies avoid paying payroll taxes, overtime, benefits, workers compensation insurance, and unemployment insurance. Studies estimate that 10-30% of employers misclassify workers, with particularly high rates in construction, trucking, and the gig economy (Uber, Lyft, DoorDash, Instacart). The IRS estimates that worker misclassification costs the federal government $7 billion annually in uncollected taxes. Companies like FedEx Ground, which classified all its drivers as independent contractors, have paid hundreds of millions in settlements without changing the fundamental business model.',
       'Under the Fair Labor Standards Act (29 U.S.C. 201 et seq.), the federal minimum wage is $7.25/hour and employers must pay 1.5x for overtime over 40 hours per week. Under state wage and hour laws, 30 states have higher minimum wages. Under the FLSA, the Department of Labor Wage and Hour Division (WHD) is responsible for enforcement, but the WHD has approximately 750 investigators for 10.6 million U.S. workplaces, meaning each investigator is responsible for over 14,000 workplaces. Under 29 U.S.C. 216(b), workers can file private lawsuits, but mandatory arbitration clauses (found in over 60% of private sector non-union employment contracts) effectively block most claims.',
-      'The enforcement gap in wage theft is staggering. If a worker steals $100 from a cash register, they face criminal prosecution and potential imprisonment. If an employer steals $100 from a worker\'s paycheck, they face, at most, a civil penalty that may take years to collect and is often less than the amount stolen. Only two states (Colorado and New York) have made wage theft a criminal offense, and criminal prosecution of wage theft remains extraordinarily rare nationwide. The fundamental imbalance reflects a system designed to protect property rights but not labor rights. The workers most vulnerable to wage theft are the same workers who can least afford it: the 44% of American workers earning less than $18 per hour.',
+      'The enforcement gap in wage theft is staggering. If a worker steals $100 from a cash register, they face criminal prosecution and potential imprisonment. If an employer steals $100 from a worker\'s paycheck, they face, at most, a civil penalty that may take years to collect and is often less than the amount stolen. Only two states (Colorado and New York) have made wage theft a criminal offense, and criminal prosecution of wage theft remains extraordinarily rare nationwide. The fundamental imbalance reflects a system designed to protect property rights but not labor rights. The workers most vulnerable to wage theft are the same workers who can least afford it: the 44% of American workers earning less than $18 per hour.'
     ],
     tags: ['wage-theft', 'labor-exploitation', 'minimum-wage', 'misclassification', 'overtime-violations', 'worker-rights', 'gig-economy', 'enforcement-gap'],
     sources: [
       { title: 'Economic Policy Institute: Wage Theft in the United States', url: 'https://www.epi.org/publication/wage-theft-2021/', type: 'Report' },
       { title: 'Department of Labor: Wage and Hour Division Enforcement Data', url: 'https://www.dol.gov/agencies/whd/data', type: 'Government Data' },
-      { title: 'National Employment Law Project: Winning Wage Justice', url: 'https://www.nelp.org/', type: 'Report' },
-      { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
+      { title: 'National Employment Law Project: Winning Wage Justice', url: 'https://www.nelp.org/', type: 'Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has ~750 investigators for 10.6M workplaces; recovers only fraction of stolen wages' },
-      { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $7B+/year in payroll tax revenue from worker misclassification; limited enforcement capacity', href: '/entities/agencies/irs' },
+      { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $7B+/year in payroll tax revenue from worker misclassification; limited enforcement capacity', href: '/entities/agencies/irs' }
     ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-01-15',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2009', event: 'A landmark 2009 survey of over 4,000 low-wage workers in three cities found that 26% were paid less than minimum wage, 76% of overtime-eligible workers were not paid the required overtime rate, and 70% of tipped', type: 'financial' },
-     { date: '2014', event: 'Subsequent developments in economic policy institute reveal broader systemic patterns', type: 'default' },
+     { date: '2014', event: 'Subsequent developments in economic policy institute reveal broader systemic patterns', type: 'default' }
    ],
   },
   'worldcom-accounting-fraud': {
@@ -1631,18 +1584,17 @@ const investigations_w: Record<string, InvestigationData> = {
       'The accounting fraud at WorldCom took two primary forms, both designed to make the company appear more profitable than it actually was. First, CFO Scott Sullivan directed the reclassification of $3.8 billion in ordinary operating expenses as capital expenditures, spreading costs over years rather than recognizing them immediately, which artificially inflated reported profits. Second, the company fabricated revenue entries, booking billions in fictitious income from corporate accounts. These manipulations violated Generally Accepted Accounting Principles (GAAP) and violated 15 U.S.C. 78j(b) (Securities Exchange Act Section 10(b)) prohibiting securities fraud, 18 U.S.C. 1343 (Wire Fraud), and 18 U.S.C. 1350 (Sarbanes-Oxley certification requirements enacted partly in response to WorldCom). The total overstatement reached $11 billion, making it the largest accounting fraud in American history at the time.',
       'The fraud was discovered not by external auditors Arthur Andersen (the same firm that failed to catch Enron fraud) but by WorldCom internal audit vice president Cynthia Cooper and her small team. In May 2002, Cooper began investigating suspicious capital expenditure entries and discovered the massive reclassification scheme. Despite pressure from Sullivan to delay her findings, Cooper reported directly to the board audit committee on June 20, 2002. The company disclosed the fraud on June 25, 2002, and filed for Chapter 11 bankruptcy on July 21, 2002, with $107 billion in assets making it the largest bankruptcy in American history at that time. Cooper was later named one of TIME magazine persons of the year for 2002.',
       'The human cost of WorldCom fraud was devastating and far-reaching. The company eliminated approximately 20,000 jobs in the bankruptcy restructuring. Employees who held WorldCom stock in their 401(k) retirement accounts lost virtually everything, as the stock that once traded at $64 per share became worthless. The Clinton, Mississippi community where WorldCom was headquartered suffered economic devastation. Shareholders lost approximately $180 billion in market value. The fraud also contributed to the broader crisis of confidence in corporate America, alongside Enron and Tyco scandals, leading to passage of the Sarbanes-Oxley Act of 2002 (Pub.L. 107-204), which imposed new corporate governance requirements, established the PCAOB to oversee auditors, and created criminal penalties for executives who certify false financial statements.',
-      'Bernie Ebbers was convicted on all counts in March 2005 -- securities fraud, conspiracy, and seven counts of filing false statements with the SEC -- and sentenced to 25 years in federal prison. CFO Scott Sullivan, who cooperated with prosecutors, received a five-year sentence. Controller David Myers and accounting directors Buford Yates and Betty Vinson also pleaded guilty and received prison sentences. Arthur Andersen, already fatally wounded by its Enron failures, saw the WorldCom scandal further confirm its abdication of audit responsibilities. The SEC imposed a $750 million civil penalty, and investors eventually recovered approximately $6.1 billion through securities class action settlements. WorldCom emerged from bankruptcy as MCI Inc. in 2004 and was subsequently acquired by Verizon in 2006. The case remains a landmark example of how concentrated executive power, weak board oversight, and conflicted auditors can enable catastrophic corporate fraud.',
+      'Bernie Ebbers was convicted on all counts in March 2005 -- securities fraud, conspiracy, and seven counts of filing false statements with the SEC -- and sentenced to 25 years in federal prison. CFO Scott Sullivan, who cooperated with prosecutors, received a five-year sentence. Controller David Myers and accounting directors Buford Yates and Betty Vinson also pleaded guilty and received prison sentences. Arthur Andersen, already fatally wounded by its Enron failures, saw the WorldCom scandal further confirm its abdication of audit responsibilities. The SEC imposed a $750 million civil penalty, and investors eventually recovered approximately $6.1 billion through securities class action settlements. WorldCom emerged from bankruptcy as MCI Inc. in 2004 and was subsequently acquired by Verizon in 2006. The case remains a landmark example of how concentrated executive power, weak board oversight, and conflicted auditors can enable catastrophic corporate fraud.'
     ],
     tags: ['worldcom', 'bernie-ebbers', 'accounting-fraud', 'telecom', 'bankruptcy', 'sarbanes-oxley', 'securities-fraud', 'enron-era'],
     sources: [
       { title: 'SEC: WorldCom Fraud Case', url: 'https://www.sec.gov/spotlight/worldcom.htm', type: 'Government Filing' },
       { title: 'Department of Justice: United States v. Bernard Ebbers', url: 'https://www.justice.gov/dag', type: 'Legal Document' },
-      { title: 'TIME: Persons of the Year 2002 - The Whistleblowers', url: 'https://time.com/', type: 'Investigative Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'TIME: Persons of the Year 2002 - The Whistleblowers', url: 'https://time.com/', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Failed to detect $11B fraud despite quarterly filing reviews; imposed $750M penalty after collapse', href: '/entities/agencies/sec' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Ebbers (25yr sentence), Sullivan (5yr), and three other executives for fraud conspiracy', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Ebbers (25yr sentence), Sullivan (5yr), and three other executives for fraud conspiracy', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2024-03-15',
@@ -1656,7 +1608,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2002-06-20', event: 'Despite pressure from Sullivan to delay her findings, Cooper reported directly to the board audit committee on June 20, 2002', type: 'default' },
      { date: '2002-06-25', event: 'The company disclosed the fraud on June 25, 2002, and filed for Chapter 11 bankruptcy on July 21, 2002, with $107 billion in assets making it the largest bankruptcy in American history at that time', type: 'political' },
      { date: '2004', event: 'in 2004 and was subsequently acquired by Verizon in 2006', type: 'default' },
-     { date: '2005-03-01', event: 'Bernie Ebbers was convicted on all counts in March 2005 -- securities fraud, conspiracy, and seven counts of filing false statements with the SEC -- and sentenced to 25 years in federal prison', type: 'legal' },
+     { date: '2005-03-01', event: 'Bernie Ebbers was convicted on all counts in March 2005 -- securities fraud, conspiracy, and seven counts of filing false statements with the SEC -- and sentenced to 25 years in federal prison', type: 'legal' }
    ],
   },
   'wirecard-german-fraud': {
@@ -1672,18 +1624,17 @@ const investigations_w: Record<string, InvestigationData> = {
       'The fraud centered on fictitious revenues attributed to third-party partners in the Philippines, Singapore, and other Asian markets. Wirecard claimed these partners processed payments on its behalf, generating billions in revenue that flowed through trustee accounts. In reality, much of this business did not exist. The company fabricated documents, forged bank statements, and created elaborate paper trails to deceive auditors at EY (Ernst & Young). Internal documents showed that Wirecard\'s genuine payment processing business was far less profitable than reported, and the company used the phantom Asian revenues to paper over losses. The scheme violated German securities laws under the WpHG (Securities Trading Act), constituting fraud under StGB 263 (German Criminal Code), Untreue (breach of trust) under StGB 266, and market manipulation under EU Market Abuse Regulation (MAR) Article 15.',
       'Financial Times journalist Dan McCrum began investigating Wirecard in 2015 after receiving whistleblower tips about accounting irregularities at Wirecard\'s Singapore operations. His reporting revealed suspicious round-tripping transactions, inflated revenues, and questionable acquisitions. Rather than investigating these allegations, Germany\'s federal financial supervisory authority BaFin took the extraordinary step of filing a criminal complaint against McCrum and other FT journalists for suspected market manipulation in 2019. BaFin also imposed a two-month ban on short-selling Wirecard shares, effectively using government power to protect the company from critical scrutiny. This regulatory failure was compounded by EY\'s audit failures over a decade of annual audits that gave Wirecard clean opinions despite the massive fraud.',
       'The collapse came swiftly in June 2020 when EY -- after years of signing off on fraudulent accounts -- finally refused to certify Wirecard\'s 2019 financial statements because it could not confirm 1.9 billion euros supposedly held in Philippine bank accounts. Philippine banks confirmed the accounts did not exist and the documents purporting to show them were forgeries. CEO Markus Braun was arrested on June 23, 2020. COO Jan Marsalek, believed to have been the operational architect of the fraud, disappeared and reportedly fled through Belarus to Russia with suspected intelligence service connections. Wirecard filed for insolvency on June 25, 2020, with reported liabilities of 3.2 billion euros. Investors lost over 20 billion euros in market value.',
-      'The Wirecard scandal triggered a complete overhaul of German financial regulation. BaFin president Felix Hufeld was forced to resign. The German government passed the FISG (Financial Market Integrity Strengthening Act) in 2021, giving BaFin new powers and imposing stronger requirements on auditors. EY faced massive lawsuits from Wirecard investors for its decade of failed audits, with potential liability in the billions. Braun\'s criminal trial began in Munich in December 2022, with charges of commercial gang fraud, market manipulation, breach of trust, and accounting fraud. Star witness Oliver Bellenhaus, who ran the Dubai subsidiary as a key enabler, provided testimony about the systematic fabrication of business. The trial has exposed how national pride in a tech champion, regulatory capture, and institutional unwillingness to believe whistleblowers combined to enable one of Europe\'s largest corporate frauds since the founding of the EU.',
+      'The Wirecard scandal triggered a complete overhaul of German financial regulation. BaFin president Felix Hufeld was forced to resign. The German government passed the FISG (Financial Market Integrity Strengthening Act) in 2021, giving BaFin new powers and imposing stronger requirements on auditors. EY faced massive lawsuits from Wirecard investors for its decade of failed audits, with potential liability in the billions. Braun\'s criminal trial began in Munich in December 2022, with charges of commercial gang fraud, market manipulation, breach of trust, and accounting fraud. Star witness Oliver Bellenhaus, who ran the Dubai subsidiary as a key enabler, provided testimony about the systematic fabrication of business. The trial has exposed how national pride in a tech champion, regulatory capture, and institutional unwillingness to believe whistleblowers combined to enable one of Europe\'s largest corporate frauds since the founding of the EU.'
     ],
     tags: ['wirecard', 'germany', 'fintech', 'accounting-fraud', 'bafin', 'ey-audit-failure', 'markus-braun', 'jan-marsalek', 'dan-mccrum'],
     sources: [
       { title: 'Financial Times: Wirecard Investigation Series by Dan McCrum', url: 'https://www.ft.com/wirecard', type: 'Investigative Report' },
       { title: 'German Federal Court of Justice: Wirecard Proceedings', url: 'https://www.bundesgerichtshof.de/', type: 'Legal Document' },
-      { title: 'European Securities and Markets Authority: Wirecard Report', url: 'https://www.esma.europa.eu/', type: 'Government Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'European Securities and Markets Authority: Wirecard Report', url: 'https://www.esma.europa.eu/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'BaFin', type: 'agency', relationship: 'German regulator attacked journalists exposing fraud; banned short-selling Wirecard stock; investigated whistleblowers instead of company' },
-      { id: '2', name: 'EY', type: 'corporation', relationship: 'Audited Wirecard for decade without detecting $2B fraud; repeatedly issued clean audit opinions on fabricated accounts' },
+      { id: '2', name: 'EY', type: 'corporation', relationship: 'Audited Wirecard for decade without detecting $2B fraud; repeatedly issued clean audit opinions on fabricated accounts' }
     ],
    eventOriginDate: '1999-01-01',
    lastActivityDate: '2024-08-10',
@@ -1698,7 +1649,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2020-06-23', event: 'CEO Markus Braun was arrested on June 23, 2020', type: 'default' },
      { date: '2020-06-25', event: 'Wirecard filed for insolvency on June 25, 2020, with reported liabilities of 3.2 billion euros', type: 'political' },
      { date: '2021', event: 'The German government passed the FISG (Financial Market Integrity Strengthening Act) in 2021, giving BaFin new powers and imposing stronger requirements on auditors', type: 'default' },
-     { date: '2022-12-01', event: 'Braun\'s criminal trial began in Munich in December 2022, with charges of commercial gang fraud, market manipulation, breach of trust, and accounting fraud', type: 'legal' },
+     { date: '2022-12-01', event: 'Braun\'s criminal trial began in Munich in December 2022, with charges of commercial gang fraud, market manipulation, breach of trust, and accounting fraud', type: 'legal' }
    ],
   },
   'water-privatization-crisis': {
@@ -1714,19 +1665,17 @@ const investigations_w: Record<string, InvestigationData> = {
       'FLINT, MICHIGAN: THE COST OF COST-CUTTING: While Flint\'s crisis (2014-2019) did not involve full privatization, it exemplifies the danger of treating water as a financial rather than public health matter. To save $5 million over two years, the city switched its water source from Detroit\'s system to the Flint River without implementing required corrosion control treatment. Lead leached from aging pipes. State-appointed emergency managers (overriding local democracy) drove the decision. The result: lead poisoning of an estimated 12,000 children, at least 12 deaths from Legionnaires\' disease, and over $600 million in remediation costs. Former Governor Rick Snyder was charged with willful neglect of duty. The crisis disproportionately affected the city\'s 54% Black population.',
       'CORPORATE ACQUISITION STRATEGIES: Private water companies have developed systematic strategies for acquiring public water systems. Pennsylvania\'s Act 12 (2016) allows private companies to purchase public water systems at prices based on the replacement cost of infrastructure (which can be multiples of book value), with the acquisition premium passed directly to existing ratepayers. This creates an incentive for cash-strapped municipalities to sell their water systems at inflated prices while citizens in the acquiring company\'s service area subsidize the purchase through rate increases. The industry has lobbied for similar "fair market value" legislation in other states. Private equity firms including KKR and Carlyle Group have invested in water utilities, viewing water infrastructure as a stable, recession-proof investment.',
       'GLOBAL CONTEXT: WATER AS A COMMODITY: The privatization of water has produced crises worldwide. In Cochabamba, Bolivia (2000), water privatization by Bechtel led to rate increases of up to 200%, triggering mass protests that resulted in deaths and the eventual reversal of privatization. In Detroit (2014), aggressive water shutoffs by the city (targeting poor, predominantly Black residents) led to a United Nations investigation that found the shutoffs constituted a violation of the human right to water. Evidence from around the world consistently shows that water privatization leads to rate increases, reduced investment in infrastructure, service disconnections for the poor, and reduced transparency.',
-      'THE INFRASTRUCTURE CRISIS: Regardless of ownership, American water infrastructure is in crisis. The American Society of Civil Engineers gives U.S. drinking water infrastructure a C-minus grade. An estimated 6 billion gallons of treated water are lost daily through leaks in aging pipes. The EPA estimates that $625 billion in water infrastructure investment is needed over the next 20 years. Lead service lines still serve an estimated 9.2 million homes. Private water companies have not proven to be better stewards of infrastructure: studies show that private companies reduce infrastructure spending in the years following acquisition while increasing rates.',
+      'THE INFRASTRUCTURE CRISIS: Regardless of ownership, American water infrastructure is in crisis. The American Society of Civil Engineers gives U.S. drinking water infrastructure a C-minus grade. An estimated 6 billion gallons of treated water are lost daily through leaks in aging pipes. The EPA estimates that $625 billion in water infrastructure investment is needed over the next 20 years. Lead service lines still serve an estimated 9.2 million homes. Private water companies have not proven to be better stewards of infrastructure: studies show that private companies reduce infrastructure spending in the years following acquisition while increasing rates.'
     ],
     tags: ['water-privatization', 'Flint', 'drinking-water', 'lead', 'corporate-control', 'human-rights', 'infrastructure', 'Veolia', 'American-Water-Works'],
     sources: [
       { title: 'Food & Water Watch: The State of Public Water in the United States', url: 'https://www.foodandwaterwatch.org/', type: 'Research' },
       { title: 'EPA: Drinking Water Infrastructure Needs Survey and Assessment', url: 'https://www.epa.gov/archive/ground-water-and-drinking-water/drinking-water-infrastructure-needs-survey-and-assessment', type: 'Government Report' },
-      { title: 'ASCE: Report Card for Americas Infrastructure - Drinking Water', url: 'https://infrastructurereportcard.org/cat-item/drinking-water-infrastructure/', type: 'Research' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'ASCE: Report Card for Americas Infrastructure - Drinking Water', url: 'https://infrastructurereportcard.org/cat-item/drinking-water-infrastructure/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Sets drinking water standards; failed to intervene in Flint for 18 months despite knowing about lead contamination; underfunded enforcement of Safe Drinking Water Act', href: '/entities/agencies/epa' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2026-02-15',
@@ -1737,7 +1686,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2014', event: 'In Detroit (2014), aggressive water shutoffs by the city (targeting poor, predominantly Black residents) led to a United Nations investigation that found the shutoffs constituted a violation of the', type: 'default' },
      { date: '2016', event: 'Pennsylvania\'s Act 12 (2016) allows private companies to purchase public water systems at prices based on the replacement cost of infrastructure (which can be multiples of book value), with the acq...', type: 'financial' },
      { date: '2020', event: 'THE COST OF PRIVATE WATER: A 2020 analysis by Food & Water Watch found that private water companies charge 59% more on average than publicly owned systems of comparable size', type: 'financial' },
-     { date: '2023', event: 'American Water Works, the largest private water utility, reported $3.7 billion in revenue in 2023 with strong profit margins', type: 'political' },
+     { date: '2023', event: 'American Water Works, the largest private water utility, reported $3.7 billion in revenue in 2023 with strong profit margins', type: 'political' }
    ],
   },
   'wage-theft-worker-exploitation': {
@@ -1753,25 +1702,24 @@ const investigations_w: Record<string, InvestigationData> = {
       'Misclassification of employees as independent contractors is one of the most widespread and profitable forms of wage theft. By classifying workers as contractors, companies avoid paying payroll taxes, overtime, benefits, and workers\' compensation. The IRS estimates that 10-30% of employers misclassify workers. Gig economy companies like Uber, Lyft, DoorDash, and Amazon Flex have built entire business models on classifying workers as contractors despite controlling their work conditions. A single company\'s misclassification can affect hundreds of thousands of workers simultaneously.',
       'Tip theft by employers costs tipped workers over $8 billion annually. Despite federal and state laws requiring that tips belong to the worker, employers commonly require illegal tip pools that include management, take a percentage of tips for "house fees," or fail to make up the difference when tipped wages plus tips fall below minimum wage. Fast food and restaurant workers — disproportionately women, immigrants, and people of color — are the most frequent victims. The Trump administration initially proposed a rule that would have legalized employer tip theft before public outcry forced reversal.',
       'Department of Labor enforcement has been systematically gutted. The Wage and Hour Division (WHD) employed 1,600 investigators in 1948 to cover 22.6 million workers. Today, WHD has approximately 780 investigators to cover 165+ million workers — meaning each investigator is responsible for 211,000 workers. The chance of any individual employer being investigated in a given year is approximately 0.1%. Even when violations are found, penalties are minimal: the average back-wage recovery per worker is approximately $1,000, and criminal prosecution of wage theft is essentially nonexistent compared to the aggressive prosecution of property crimes by individuals.',
-      'State-level enforcement varies dramatically. States with strong wage theft laws — California, New York, New Jersey — have dedicated enforcement units and treble damages provisions. Many states, particularly in the South, have no state minimum wage law, no state enforcement agency, and preempt local minimum wage ordinances. Workers in these states are entirely dependent on the underfunded federal WHD. Immigrant workers face the worst conditions: fear of deportation prevents reporting, and some employers explicitly threaten immigration enforcement against workers who complain about unpaid wages. An estimated 6 million undocumented workers are especially vulnerable to wage theft with effectively zero legal recourse.',
+      'State-level enforcement varies dramatically. States with strong wage theft laws — California, New York, New Jersey — have dedicated enforcement units and treble damages provisions. Many states, particularly in the South, have no state minimum wage law, no state enforcement agency, and preempt local minimum wage ordinances. Workers in these states are entirely dependent on the underfunded federal WHD. Immigrant workers face the worst conditions: fear of deportation prevents reporting, and some employers explicitly threaten immigration enforcement against workers who complain about unpaid wages. An estimated 6 million undocumented workers are especially vulnerable to wage theft with effectively zero legal recourse.'
     ],
     tags: ['wage theft', 'labor rights', 'minimum wage', 'overtime', 'misclassification', 'gig economy', 'tip theft', 'DOL', 'enforcement', 'immigrant workers'],
     sources: [
       { title: 'Economic Policy Institute: Wage Theft in the United States', url: 'https://www.epi.org/publication/employers-steal-billions-from-workers-paychecks-each-year/', type: 'Research' },
       { title: 'DOL: Wage and Hour Division Annual Reports', url: 'https://www.dol.gov/agencies/whd/data', type: 'Government Report' },
-      { title: 'National Employment Law Project: Winning Wage Justice', url: 'https://www.nelp.org/', type: 'Research' },
-      { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
+      { title: 'National Employment Law Project: Winning Wage Justice', url: 'https://www.nelp.org/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has fewer investigators than 1948 despite workforce tripling; recovers only fraction of stolen wages; criminal referrals nearly nonexistent' },
-      { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $15B+ annually in payroll tax revenue from worker misclassification; enforcement limited by congressional budget cuts and political pressure from gig economy lobby', href: '/entities/agencies/irs' },
+      { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $15B+ annually in payroll tax revenue from worker misclassification; enforcement limited by congressional budget cuts and political pressure from gig economy lobby', href: '/entities/agencies/irs' }
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2025-03-01',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1948', event: 'Despite the scale, enforcement is minimal: the Department of Labor\'s Wage and Hour Division has fewer investigators than at any time since 1948, even as the workforce has more than doubled.', type: 'default' },
-     { date: '2009', event: 'A 2009 landmark study of 4,387 workers in Chicago, Los Angeles, and New York found that 26% of low-wage workers were paid less than the minimum wage, 76% were not paid the legally required overtime rate, and 17%', type: 'financial' },
+     { date: '2009', event: 'A 2009 landmark study of 4,387 workers in Chicago, Los Angeles, and New York found that 26% of low-wage workers were paid less than the minimum wage, 76% were not paid the legally required overtime rate, and 17%', type: 'financial' }
      ],
   },
   'water-infrastructure-crisis': {
@@ -1787,18 +1735,17 @@ const investigations_w: Record<string, InvestigationData> = {
       'Lead service lines remain the primary source of lead in drinking water. These pipes, installed primarily before 1986, connect water mains in the street to homes. An estimated 9.2 million lead service lines serve American households. The Biden administration\'s Infrastructure Investment and Jobs Act allocated $15 billion for lead pipe replacement, but the total cost is estimated at $45-$60 billion. At current replacement rates, it would take 20+ years to eliminate all lead service lines. The EPA\'s 2024 Lead and Copper Rule Improvements require water systems to replace all lead service lines within 10 years, but funding shortfalls and workforce limitations make compliance uncertain.',
       'Jackson, Mississippi became the face of infrastructure collapse in 2022 when the O.B. Curtis water treatment plant failed during a winter storm, leaving 150,000 predominantly Black residents without running water for weeks. The crisis followed years of underfunding: Jackson\'s water system needed $2 billion in repairs, but the city lacked the tax base to finance them after decades of white flight eroded the population and property tax revenue. The state government, controlled by a white Republican majority, had denied assistance to the majority-Black city for years. The EPA issued an emergency order and the federal government eventually committed $600 million, a fraction of what was needed.',
       'Rural and Indigenous communities face the most severe water access challenges. The Indian Health Service estimates that 48% of homes on tribal lands lack adequate water infrastructure. The Navajo Nation has households where residents must haul water from distant sources, sometimes driving 100 miles round-trip. Colonias along the Texas-Mexico border, home to 400,000 residents, frequently lack piped water and sewage systems. In Appalachian communities, aging water systems built by coal companies a century ago are failing with no entity responsible for replacement. These communities are largely invisible in national water infrastructure discussions.',
-      'Water affordability has become a crisis in its own right. Water rates have increased 80% nationally since 2010, far outpacing inflation and wage growth. In cities like Detroit, Baltimore, and Cleveland, water shutoffs for nonpayment affect tens of thousands of households annually. Detroit shut off water to over 141,000 households between 2014 and 2019, prompting a UN statement that the shutoffs violated human rights. During the COVID-19 pandemic, temporary shutoff moratoriums demonstrated that universal water service was both possible and necessary, but most moratoriums expired, and shutoffs resumed. There is no federal right to water in the United States.',
+      'Water affordability has become a crisis in its own right. Water rates have increased 80% nationally since 2010, far outpacing inflation and wage growth. In cities like Detroit, Baltimore, and Cleveland, water shutoffs for nonpayment affect tens of thousands of households annually. Detroit shut off water to over 141,000 households between 2014 and 2019, prompting a UN statement that the shutoffs violated human rights. During the COVID-19 pandemic, temporary shutoff moratoriums demonstrated that universal water service was both possible and necessary, but most moratoriums expired, and shutoffs resumed. There is no federal right to water in the United States.'
     ],
     tags: ['water infrastructure', 'lead pipes', 'Flint', 'Jackson Mississippi', 'drinking water', 'EPA', 'lead contamination', 'water affordability', 'tribal water', 'PFAS'],
     sources: [
       { title: 'EPA: 7th Drinking Water Infrastructure Needs Survey', url: 'https://www.epa.gov/dwsrf/epas-7th-drinking-water-infrastructure-needs-survey-and-assessment', type: 'Government Report' },
       { title: 'ASCE: Infrastructure Report Card - Drinking Water', url: 'https://infrastructurereportcard.org/cat-item/drinking-water-infrastructure/', type: 'Research' },
-      { title: 'CDC: Blood Lead Levels in Children', url: 'https://www.cdc.gov/lead-prevention/', type: 'Government Data' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'CDC: Blood Lead Levels in Children', url: 'https://www.cdc.gov/lead-prevention/', type: 'Government Data' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: '12,000+ water systems in violation of federal standards at any time; Lead and Copper Rule updated in 2024 but enforcement depends on state implementation', href: '/entities/agencies/epa' },
-      { id: '2', name: 'IHS', type: 'agency', relationship: '48% of tribal homes lack adequate water infrastructure; chronic underfunding of Indian Health Service water programs; decades of broken treaty obligations' },
+      { id: '2', name: 'IHS', type: 'agency', relationship: '48% of tribal homes lack adequate water infrastructure; chronic underfunding of Indian Health Service water programs; decades of broken treaty obligations' }
     ],
    eventOriginDate: '1986-01-01',
    lastActivityDate: '2025-03-01',
@@ -1809,7 +1756,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2014', event: 'The Flint, Michigan water crisis that began in 2014 exposed the lethal consequences of infrastructure neglect and environmental racism', type: 'default' },
      { date: '2014', event: 'Detroit shut off water to over 141,000 households between 2014 and 2019, prompting a UN statement that the shutoffs violated human rights', type: 'political' },
      { date: '2022', event: 'Jackson, Mississippi became the face of infrastructure collapse in 2022 when the O.B', type: 'critical' },
-     { date: '2024', event: 'The EPA\'s 2024 Lead and Copper Rule Improvements require water systems to replace all lead service lines within 10 years, but funding shortfalls and workforce limitations make compliance uncertain', type: 'default' },
+     { date: '2024', event: 'The EPA\'s 2024 Lead and Copper Rule Improvements require water systems to replace all lead service lines within 10 years, but funding shortfalls and workforce limitations make compliance uncertain', type: 'default' }
    ],
   },
   'whistleblower-retaliation-patterns': {
@@ -1825,27 +1772,25 @@ const investigations_w: Record<string, InvestigationData> = {
       'Security clearance revocation represents the most devastating tool in the retaliation arsenal for intelligence and defense sector employees. Because clearance decisions are classified as discretionary personnel actions rather than punitive measures, they fall outside the scope of most whistleblower protection statutes. An employee who reports fraud or abuse within the intelligence community can lose their clearance, rendering them unemployable in their field, with no meaningful avenue for appeal. The Intelligence Community Whistleblower Protection Act provides processes for reporting but no protection against this specific mechanism of destruction.',
       'Corporate whistleblower protections vary dramatically by industry and statute. The Dodd-Frank financial whistleblower program has been remarkably successful at generating tips, paying out over $2.2 billion in awards since 2012, but the protection against retaliation exists primarily in theory. Legal battles over anti-retaliation provisions commonly take five to ten years, during which whistleblowers are blacklisted from their industries. Healthcare and defense contractor whistleblowers under the False Claims Act fare somewhat better, but employers have developed sophisticated methods of constructive termination that are difficult to prove in court.',
       'The psychological dimension of retaliation is documented but rarely addressed. Whistleblowers report rates of depression, anxiety, and PTSD comparable to combat veterans. The institutional response to disclosure typically follows a predictable pattern: initial dismissal, then investigation of the whistleblower rather than the reported wrongdoing, followed by isolation and escalating pressure to resign. Colleagues who might corroborate the disclosure withdraw support out of self-preservation, leaving the whistleblower increasingly isolated.',
-      'Structural reforms proposed by oversight organizations remain largely unimplemented. The Whistleblower Protection Enhancement Act of 2012 strengthened some federal protections but left intelligence community employees unprotected. Proposals to create a single federal Office of the Whistleblower with investigative authority, to mandate interim relief pending investigation, and to extend anti-retaliation protections to all federal employees regardless of agency have failed to advance through Congress. The gap between rhetoric celebrating whistleblowers and the reality of their treatment constitutes one of the most enduring hypocrisies in American governance.',
+      'Structural reforms proposed by oversight organizations remain largely unimplemented. The Whistleblower Protection Enhancement Act of 2012 strengthened some federal protections but left intelligence community employees unprotected. Proposals to create a single federal Office of the Whistleblower with investigative authority, to mandate interim relief pending investigation, and to extend anti-retaliation protections to all federal employees regardless of agency have failed to advance through Congress. The gap between rhetoric celebrating whistleblowers and the reality of their treatment constitutes one of the most enduring hypocrisies in American governance.'
     ],
     tags: ['whistleblower', 'retaliation', 'security clearance', 'MSPB', 'Dodd-Frank', 'False Claims Act', 'intelligence community', 'government accountability'],
     sources: [
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/whistleblower', type: 'Government' },
       { title: 'Government Accountability Office', url: 'https://www.gao.gov/products/gao-21-94', type: 'Government' },
-      { title: 'Whistleblower Records', url: 'https://whistleblower.org/resources/', type: 'Reference' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
-
       { title: 'Government Accountability Project', url: 'https://whistleblower.org/', type: 'Reference' },
+      { title: 'Government Accountability Project: Whistleblower Rights', url: 'https://whistleblower.org/', type: 'Research' },
+      { title: 'SEC: Office of the Whistleblower', url: 'https://www.sec.gov/whistleblower', type: 'Government Record' }
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Dodd-Frank whistleblower program paid $2.2B+ in awards; anti-retaliation enforcement is slow and cases take years; corporate pressure to narrow award eligibility ongoing', href: '/entities/agencies/sec' },
-      { id: '2', name: 'OSC', type: 'agency', relationship: 'Office of Special Counsel investigates federal whistleblower retaliation but has limited enforcement power; staffing inadequate for incoming case volume; intelligence community largely outside jurisdiction' },
+      { id: '2', name: 'OSC', type: 'agency', relationship: 'Office of Special Counsel investigates federal whistleblower retaliation but has limited enforcement power; staffing inadequate for incoming case volume; intelligence community largely outside jurisdiction' }
     ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-02-12',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'The Dodd-Frank financial whistleblower program has been remarkably successful at generating tips, paying out over $2.2 billion in awards since 2012, but the protection against retaliation exists primarily in theory.', type: 'financial' },
-     { date: '2017', event: 'Subsequent developments in the wilmington massacre and coup of 1898 reveal broader systemic patterns', type: 'default' },
+     { date: '2017', event: 'Subsequent developments in the wilmington massacre and coup of 1898 reveal broader systemic patterns', type: 'default' }
    ],
   },
   'wilmington-massacre-coup-1898': {
@@ -1861,18 +1806,17 @@ const investigations_w: Record<string, InvestigationData> = {
       'On the morning of November 10, 1898, a mob of approximately 2,000 armed white men assembled at the Wilmington Light Infantry armory. Led by Waddell, they marched first to the offices of The Daily Record, a Black-owned newspaper published by Alexander Manly. Manly had published an editorial in August responding to a speech by Georgia politician Rebecca Latimer Felton calling for lynching to "protect white womanhood." Manly\'s editorial suggested that some relationships between Black men and white women were consensual, a statement of fact that the white supremacist press seized upon as an intolerable outrage. The mob destroyed The Daily Record\'s printing press and burned the building to the ground. They then turned their weapons on the Black neighborhoods of Brooklyn and Manhattan in Wilmington, attacking residents in their homes and on the streets. Machine guns, including a rapid-fire Colt gun, were deployed against black residential areas. Bodies were dumped in the Cape Fear River. The Wilmington Light Infantry and the Naval Reserves, state militia units composed of white citizens, participated in the violence alongside the civilian mob. These acts constituted violations of what would later be codified as 18 U.S.C. Section 241 (conspiracy against rights), 18 U.S.C. Section 242 (deprivation of rights under color of law), and the Enforcement Acts of 1870 and 1871 (also known as the Ku Klux Klan Acts, codified at 42 U.S.C. Sections 1983 and 1985).',
       'Following the massacre, Waddell and the conspirators completed the coup. They marched to City Hall and forced Mayor Silas Wright and the biracial Board of Aldermen to resign at gunpoint. The police chief, John Melton, was expelled. Waddell installed himself as mayor and appointed a new board of aldermen composed entirely of white supremacist Democrats. The new government immediately passed ordinances restricting Black employment and movement. Over the following days, an estimated 2,100 Black residents permanently fled Wilmington, many forced onto trains at gunpoint. Among those expelled were successful Black businessmen, professionals, and civic leaders who represented Wilmington\'s thriving post-Reconstruction Black middle class. This forced displacement constituted what would today be recognized under the Rome Statute of the International Criminal Court (Article 7) as crimes against humanity, specifically (d) deportation or forcible transfer of population, (a) murder, and (h) persecution against an identifiable group on political and racial grounds. The Fourteenth Amendment\'s Equal Protection Clause and the Fifteenth Amendment\'s guarantee of voting rights were rendered meaningless.',
       'The response of state and federal authorities revealed the depth of institutional complicity. North Carolina Governor Daniel Russell, himself a Republican, did not intervene despite having the constitutional authority to deploy state militia to restore order. President William McKinley, despite receiving telegrams from Black citizens pleading for federal intervention, took no action, reportedly telling a delegation that the matter was a state concern. The Department of Justice under Attorney General John Griggs conducted no investigation. No federal charges were brought under the Enforcement Acts, which had been specifically enacted to combat exactly this type of organized racial political violence. The failure to act violated the federal government\'s obligations under the Fourteenth Amendment (Section 1, equal protection; Section 5, congressional enforcement power) and the Fifteenth Amendment (Section 1, right to vote regardless of race; Section 2, congressional enforcement power). The Supreme Court\'s prior decisions in United States v. Cruikshank (1876) and the Civil Rights Cases (1883) had already gutted federal enforcement mechanisms, creating the legal framework that made the Wilmington coup possible.',
-      'The Wilmington coup\'s legacy shaped North Carolina politics for generations. In 1899, the new Democratic legislature passed a constitutional amendment imposing a literacy test and poll tax for voting, with a "grandfather clause" exempting whites whose ancestors had voted before 1867. Black voter registration in North Carolina dropped from over 125,000 to fewer than 6,000 by 1902. The coup established the template for one-party white Democratic rule that persisted until the civil rights era. For over a century, official histories described the events as a "race riot" in which Black citizens were at fault. Only in 2000 did the state legislature commission the 1898 Wilmington Race Riot Commission, whose 480-page report (published in 2006) finally documented the events as a planned coup and massacre. The report identified the perpetrators by name, documented the conspiracy, and recommended that the state consider reparations for descendants of victims, though no reparations have been paid. In 2006, a historical marker was placed at the site of The Daily Record. Wilmington remains the only American city where a legitimately elected government was overthrown by domestic terrorism, and the perpetrators not only escaped prosecution but were celebrated as heroes in their own lifetimes.',
+      'The Wilmington coup\'s legacy shaped North Carolina politics for generations. In 1899, the new Democratic legislature passed a constitutional amendment imposing a literacy test and poll tax for voting, with a "grandfather clause" exempting whites whose ancestors had voted before 1867. Black voter registration in North Carolina dropped from over 125,000 to fewer than 6,000 by 1902. The coup established the template for one-party white Democratic rule that persisted until the civil rights era. For over a century, official histories described the events as a "race riot" in which Black citizens were at fault. Only in 2000 did the state legislature commission the 1898 Wilmington Race Riot Commission, whose 480-page report (published in 2006) finally documented the events as a planned coup and massacre. The report identified the perpetrators by name, documented the conspiracy, and recommended that the state consider reparations for descendants of victims, though no reparations have been paid. In 2006, a historical marker was placed at the site of The Daily Record. Wilmington remains the only American city where a legitimately elected government was overthrown by domestic terrorism, and the perpetrators not only escaped prosecution but were celebrated as heroes in their own lifetimes.'
     ],
     tags: ['Wilmington massacre', 'coup', 'white supremacy', 'Reconstruction', 'voter suppression', 'racial violence', 'North Carolina', '1898', 'domestic terrorism', 'Alfred Moore Waddell'],
     sources: [
       { title: '1898 Wilmington Race Riot Commission Report (2006)', url: 'https://digital.ncdcr.gov/documents/detail/1898-wilmington-race-riot-report/72009', type: 'Government Report' },
       { title: 'Zucchino, David. "Wilmington\'s Lie" (2020)', url: 'https://www.theatlantic.com/magazine/archive/2020/01/whitest-lie/603042', type: 'Investigative Report' },
-      { title: 'National Archives: Reconstruction Amendments', url: 'https://www.archives.gov/milestone-documents/14th-amendment', type: 'Government Record' },
-      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
+      { title: 'National Archives: Reconstruction Amendments', url: 'https://www.archives.gov/milestone-documents/14th-amendment', type: 'Government Record' }
     ],
     affiliations: [
       { id: '1', name: 'Alfred Moore Waddell', type: 'individual', relationship: 'Former Confederate colonel and congressman who led the armed mob, declared himself mayor after forcing elected officials to resign at gunpoint; served as mayor until 1905; never charged with any crime', href: '/entities/individuals/alfred-moore-waddell' },
-      { id: '2', name: 'Josephus Daniels', type: 'individual', relationship: 'Publisher of the Raleigh News & Observer who ran the statewide propaganda campaign inciting racial violence; later appointed Secretary of the Navy by President Woodrow Wilson in 1913', href: '/entities/individuals/josephus-daniels' },
+      { id: '2', name: 'Josephus Daniels', type: 'individual', relationship: 'Publisher of the Raleigh News & Observer who ran the statewide propaganda campaign inciting racial violence; later appointed Secretary of the Navy by President Woodrow Wilson in 1913', href: '/entities/individuals/josephus-daniels' }
     ],
    eventOriginDate: '1867-01-01',
    lastActivityDate: '2025-01-10',
@@ -1886,7 +1830,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1899', event: 'In 1899, the new Democratic legislature passed a constitutional amendment imposing a literacy test and poll tax for voting, with a "grandfather clause" exempting whites whose ancestors had voted be', type: 'political' },
      { date: '1902', event: 'Black voter registration in North Carolina dropped from over 125,000 to fewer than 6,000 by 1902', type: 'political' },
      { date: '2000', event: 'Only in 2000 did the state legislature commission the 1898 Wilmington Race Riot Commission, whose 480-page report (published in 2006) finally documented the events as a planned coup and massacre', type: 'critical' },
-     { date: '2006', event: 'In 2006, a historical marker was placed at the site of The Daily Record', type: 'default' },
+     { date: '2006', event: 'In 2006, a historical marker was placed at the site of The Daily Record', type: 'default' }
    ],
   },
   'waco-siege': {
@@ -1906,7 +1850,7 @@ const investigations_w: Record<string, InvestigationData> = {
    'Janet Reno approved the assault partly based on claims of child abuse inside the compound, claims later found to be unsubstantiated for that time period',
    'Evidence handling at the crime scene was compromised; the compound was bulldozed before independent investigators could examine it thoroughly',
    'The government\'s claim that Davidians started the fire has been disputed by survivor testimony and independent fire investigation experts',
-   'Surviving Davidians received enhanced sentences using a provision rarely applied, with the sentencing judge later expressing regret',
+   'Surviving Davidians received enhanced sentences using a provision rarely applied, with the sentencing judge later expressing regret'
  ],
  tags: ['military-foreign-policy', 'war'],
  sources: [
@@ -1917,7 +1861,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { title: 'Waco Siege, FBI Vault Records', url: 'https://vault.fbi.gov/waco-branch-davidian-compound', type: 'Article' },
    { title: 'The Waco Siege: 25 Years Later', url: 'https://www.washingtonpost.com/news/retropolis/wp/2018/04/19/the-waco-siege-25-years-later/', type: 'Article' },
    { title: 'Janet Reno\\', url: 'https://www.bbc.com/news/world-us-canada-37870226', type: 'Article' },
-   { title: 'Congressional Hearings on Waco, C-SPAN Archive', url: 'https://www.c-span.org/video/?66349-1/waco-investigation', type: 'Article' },
+   { title: 'Congressional Hearings on Waco, C-SPAN Archive', url: 'https://www.c-span.org/video/?66349-1/waco-investigation', type: 'Article' }
  ],
  affiliations: [
    { id: 'david-koresh', name: 'David Koresh', type: 'individual', relationship: 'Branch Davidian leader; killed in the fire on April 19, 1993', href: '/entities/individuals/david-koresh' },
@@ -1930,7 +1874,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { id: 'ruth-riddle', name: 'Ruth Riddle', type: 'individual', relationship: 'Branch Davidian survivor who escaped the fire with Koresh\\', href: '/entities/individuals/ruth-riddle' },
    { id: 'david-thibodeau', name: 'David Thibodeau', type: 'individual', relationship: 'Branch Davidian survivor who wrote account of life inside the compound', href: '/entities/individuals/david-thibodeau' },
    { id: 'john-danforth', name: 'John Danforth', type: 'individual', relationship: 'Former Senator appointed as special counsel to investigate; cleared government of wrongdoing', href: '/entities/individuals/john-danforth' },
-   { id: 'bill-buford', name: 'Bill Buford', type: 'individual', relationship: 'ATF Special Agent in Charge of the initial raid; wounded in the February 28 gun battle', href: '/entities/individuals/bill-buford' },
+   { id: 'bill-buford', name: 'Bill Buford', type: 'individual', relationship: 'ATF Special Agent in Charge of the initial raid; wounded in the February 28 gun battle', href: '/entities/individuals/bill-buford' }
  ],
  timeline: [
    { date: '1992-05-01', event: 'ATF begins investigation of Branch Davidians for illegal weapons and explosives' },
@@ -1951,7 +1895,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { date: '1994-02-01', event: 'Eleven surviving Davidians tried; 4 convicted of manslaughter, others acquitted' },
    { date: '1999-08-25', event: 'FBI admits it used pyrotechnic tear gas rounds, contradicting 6 years of denials' },
    { date: '1999-09-01', event: 'FLIR (infrared) footage analysis suggests possible gunfire from FBI positions during the fire' },
-   { date: '2000-07-21', event: 'Danforth Report clears government; attributes fire to Davidians; critics dispute methodology' },
+   { date: '2000-07-21', event: 'Danforth Report clears government; attributes fire to Davidians; critics dispute methodology' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1111: Murder of Federal Officers', description: 'Killing of 4 ATF agents during the initial February 28 raid' },
@@ -1961,7 +1905,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { code: 'Chemical Weapons Convention Violation', description: 'CS gas is prohibited in warfare under the CWC; used against American civilians including children' },
    { code: '18 U.S.C. § 1519: Destruction/Falsification of Records', description: 'Allegations of missing and altered evidence including FLIR footage and audio recordings' },
    { code: '42 U.S.C. § 1983: Civil Rights Violation', description: 'Excessive use of force resulting in 76 deaths including 25 children' },
-   { code: '18 U.S.C. § 2332a: Use of Weapons of Mass Destruction', description: 'CS gas delivery system using modified military vehicles against civilian structure' },
+   { code: '18 U.S.C. § 2332a: Use of Weapons of Mass Destruction', description: 'CS gas delivery system using modified military vehicles against civilian structure' }
  ],
  defendants: [
    { name: 'Surviving Branch Davidians (11)', role: 'Murder of federal agents and conspiracy', status: 'convicted', notes: '4 convicted of manslaughter; others acquitted; judge enhanced sentences controversially' },
@@ -1971,7 +1915,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'Janet Reno', role: 'Authorization of CS gas assault on compound with children', status: 'charged', notes: 'No charges; publicly stated it was her biggest regret' },
    { name: 'Richard Rogers (HRT)', role: 'Direction of final assault operations', status: 'charged', notes: 'No charges; previously involved in Ruby Ridge' },
    { name: 'John Danforth (Special Counsel)', role: 'Investigation of government actions', status: 'charged', notes: 'Cleared government of wrongdoing in 2000 report' },
-   { name: 'CS Gas decision-makers', role: 'Use of chemical weapon banned in warfare against building with children', status: 'charged', notes: 'No accountability, CS gas banned under Chemical Weapons Convention' },
+   { name: 'CS Gas decision-makers', role: 'Use of chemical weapon banned in warfare against building with children', status: 'charged', notes: 'No accountability, CS gas banned under Chemical Weapons Convention' }
  ],
   },
   'war-on-black-america': {
@@ -1991,7 +1935,7 @@ const investigations_w: Record<string, InvestigationData> = {
    'Lee Atwater\'s 1981 interview admitting the Republican Southern Strategy used coded racial appeals was kept private until leaked in 2012, 21 years after his death',
    'Exposed convict leasing records show Southern states sold Black prisoners to corporations as slave labor after the Civil War, generating revenue while maintaining racial oppression under the 13th Amendment exception',
    'The 100:1 crack-to-powder cocaine sentencing disparity was known to be racially discriminatory when enacted in 1986, but Congress maintained it for 24 years until the Fair Sentencing Act of 2010 reduced it to 18:1',
-   'Multiple mass graves from the Tulsa Race Massacre were identified but remain largely unexcavated as of 2024, with city officials resisting full investigation',
+   'Multiple mass graves from the Tulsa Race Massacre were identified but remain largely unexcavated as of 2024, with city officials resisting full investigation'
  ],
  tags: ['military-foreign-policy', 'war', 'environment', 'justice'],
  sources: [
@@ -2003,7 +1947,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { title: 'Harper\\', url: 'https://harpers.org/archive/2016/04/legalize-it-all/', type: 'Article' },
    { title: 'Tulsa Historical Society: 1921 Tulsa Race Massacre', url: 'https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/', type: 'Article' },
    { title: 'NAACP, Criminal Justice Fact Sheet', url: 'https://naacp.org/resources/criminal-justice-fact-sheet', type: 'Article' },
-   { title: 'Blackmon, Douglas, Slavery by Another Name: The Re-Enslavement of Black Americans from the Civil War to World War II', url: 'https://www.penguinrandomhouse.com/books/290182/slavery-by-another-name-by-douglas-a-blackmon/', type: 'Article' },
+   { title: 'Blackmon, Douglas, Slavery by Another Name: The Re-Enslavement of Black Americans from the Civil War to World War II', url: 'https://www.penguinrandomhouse.com/books/290182/slavery-by-another-name-by-douglas-a-blackmon/', type: 'Article' }
  ],
  affiliations: [
    { id: 'richard-nixon', name: 'Richard Nixon', type: 'individual', relationship: 'President who launched the War on Drugs explicitly targeting Black communities, confirmed by aide John Ehrlichman', href: '/entities/individuals/richard-nixon' },
@@ -2019,7 +1963,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { id: 'emmett-till', name: 'Emmett Till', type: 'individual', relationship: '14-year-old boy lynched in Mississippi in 1955; his open-casket funeral catalyzed the civil rights movement', href: '/entities/individuals/emmett-till' },
    { id: 'lee-atwater', name: 'Lee Atwater', type: 'individual', relationship: 'Republican strategist who admitted the Southern Strategy used coded racial appeals to win white voters', href: '/entities/individuals/lee-atwater' },
    { id: 'joe-arpaio', name: 'Joe Arpaio', type: 'individual', relationship: 'Maricopa County Sheriff convicted of racially profiling Latino residents; pardoned by Trump', href: '/entities/individuals/joe-arpaio' },
-   { id: 'michelle-alexander', name: 'Michelle Alexander', type: 'individual', relationship: 'Author of "The New Jim Crow"documenting mass incarceration as racial control system', href: '/entities/individuals/michelle-alexander' },
+   { id: 'michelle-alexander', name: 'Michelle Alexander', type: 'individual', relationship: 'Author of "The New Jim Crow"documenting mass incarceration as racial control system', href: '/entities/individuals/michelle-alexander' }
  ],
  timeline: [
    { date: '1619', event: 'First enslaved Africans brought to English colony at Jamestown, Virginia, beginning 246 years of chattel slavery' },
@@ -2041,7 +1985,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { date: '1994', event: 'Clinton signs Violent Crime Control Act, fueling mass incarceration; U.S. prison population doubles in a decade' },
    { date: '2013', event: 'Shelby County v. Holder guts Voting Rights Act; states immediately pass voter suppression laws targeting Black voters' },
    { date: '2020', event: 'George Floyd murdered by Minneapolis police, sparking largest civil rights protests in U.S. history' },
-   { date: '2021', event: 'Federal Reserve data confirms median white household wealth ($171K) is 10x median Black household wealth ($17K)' },
+   { date: '2021', event: 'Federal Reserve data confirms median white household wealth ($171K) is 10x median Black household wealth ($17K)' }
  ],
  statutes: [
    { code: 'UN Convention on the Prevention and Punishment of Genocide (Article II)', description: 'Deliberately inflicting conditions of life calculated to bring about physical destruction of a racial group' },
@@ -2051,7 +1995,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { code: '14th Amendment, Equal Protection Clause', description: 'Systematic denial of equal protection through redlining, segregation, sentencing disparities, and environmental racism' },
    { code: 'Fair Housing Act (42 U.S.C. § 3601)', description: 'Despite 1968 prohibition, housing discrimination continues through algorithmic bias, steering, and appraisal discrimination' },
    { code: 'International Convention on the Elimination of All Forms of Racial Discrimination', description: 'United States ratified in 1994 but UN Committee repeatedly finds ongoing systemic violations against Black Americans' },
-   { code: 'Anti-Drug Abuse Act of 1986: 100:1 Sentencing Disparity', description: 'Created sentencing rules where 5 grams of crack (used predominantly by Black Americans) equaled 500 grams of powder cocaine' },
+   { code: 'Anti-Drug Abuse Act of 1986: 100:1 Sentencing Disparity', description: 'Created sentencing rules where 5 grams of crack (used predominantly by Black Americans) equaled 500 grams of powder cocaine' }
  ],
  defendants: [
    { name: 'United States Government', role: 'Systematic enslavement, Jim Crow segregation, voter suppression, mass incarceration of Black Americans', status: 'charged', notes: 'No reparations paid; H.R. 40 reparations study bill has never passed Congress despite decades of advocacy' },
@@ -2061,7 +2005,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'Derek Chauvin', role: 'Murder of George Floyd by kneeling on his neck for 9 minutes and 29 seconds', status: 'convicted', notes: 'Convicted of second-degree murder (2021); sentenced to 22.5 years state, 21 years federal' },
    { name: 'J.W. Milam & Roy Bryant', role: 'Murder of 14-year-old Emmett Till', status: 'acquitted', notes: 'Acquitted by all-white jury in 67 minutes in 1955; later confessed to Look magazine' },
    { name: 'Federal Housing Administration', role: 'Systematic redlining denying Black families homeownership from 1934 onward', status: 'charged', notes: 'Fair Housing Act (1968) outlawed practice but never remediated the $16 trillion stolen in Black wealth' },
-   { name: 'State Voter Suppression Laws', role: 'Targeting Black voters through ID requirements, poll closures, purges after Shelby County v. Holder', status: 'charged', notes: 'Ongoing litigation; courts have struck down multiple laws as racially discriminatory' },
+   { name: 'State Voter Suppression Laws', role: 'Targeting Black voters through ID requirements, poll closures, purges after Shelby County v. Holder', status: 'charged', notes: 'Ongoing litigation; courts have struck down multiple laws as racially discriminatory' }
  ],
   },
   'war-on-drugs': {
@@ -2080,13 +2024,13 @@ const investigations_w: Record<string, InvestigationData> = {
    'DEA agents who attempted to investigate CIA-linked drug trafficking operations in Central America were reassigned, threatened with termination, or forced into early retirement',
    'The 100:1 crack-to-powder cocaine sentencing disparity was maintained for 24 years despite overwhelming evidence of racial discrimination in its application, finally reduced to 18:1 in 2010 but never equalized',
    'Civil asset forfeiture laws allowed police to seize cash, vehicles, and property without criminal conviction, creating direct financial incentives for drug enforcement that systematically corrupted policing priorities',
-   'Federal agencies suppressed and downplayed data showing that drug use rates are nearly identical across racial groups while arrest and incarceration rates for Black Americans are 3-4 times higher',
+   'Federal agencies suppressed and downplayed data showing that drug use rates are nearly identical across racial groups while arrest and incarceration rates for Black Americans are 3-4 times higher'
  ],
  tags: ['military-foreign-policy', 'war'],
  sources: [
    { title: 'Gary Webb: Dark Alliance, CIA, the Contras, and the Crack Cocaine Explosion', url: 'https://archive.org/details/darkalliance00webb', type: 'Article' },
    { title: 'CIA Inspector General Report: Allegations of Connections Between CIA and Contras in Cocaine Trafficking', url: 'https://oig.justice.gov/sites/default/files/archive/special/9712/ch01p1.htm', type: 'Article' },
-   { title: 'Kerry Committee Report: Drugs, Law Enforcement and Foreign Policy', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB113/', type: 'Article' },
+   { title: 'Kerry Committee Report: Drugs, Law Enforcement and Foreign Policy', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB113/', type: 'Article' }
  ],
  affiliations: [
    { id: 'richard-nixon', name: 'Richard Nixon', type: 'individual', relationship: 'Declared the War on Drugs in 1971. His advisor later admitted it was a racist political strategy.', href: '/entities/individuals/richard-nixon' },
@@ -2096,7 +2040,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { id: 'joe-biden', name: 'Joe Biden', type: 'individual', relationship: 'As Senator, authored the 1994 Crime Bill expanding mandatory minimums and creating"three strikes"', href: '/entities/individuals/joe-biden' },
    { id: 'bill-clinton', name: 'Bill Clinton', type: 'individual', relationship: 'Signed 1994 Crime Bill. Massively expanded federal mandatory minimums and"three strikes"provisions.', href: '/entities/individuals/bill-clinton' },
    { id: 'harry-anslinger', name: 'Harry Anslinger', type: 'individual', relationship: 'First head of Federal Bureau of Narcotics. Used explicitly racist propaganda to criminalize marijuana in the 1930s.' },
-   { id: 'gary-webb', name: 'Gary Webb', type: 'individual', relationship: 'San Jose Mercury News journalist who exposed CIA-Contra cocaine trafficking. Career destroyed. Found dead with two gunshots to the head, ruled"suicide."' },
+   { id: 'gary-webb', name: 'Gary Webb', type: 'individual', relationship: 'San Jose Mercury News journalist who exposed CIA-Contra cocaine trafficking. Career destroyed. Found dead with two gunshots to the head, ruled"suicide."' }
  ],
  timeline: [
    { date: '1937', event: 'Marijuana Tax Act criminalizes cannabis using racist propaganda targeting Mexican Americans and Black jazz musicians' },
@@ -2111,13 +2055,13 @@ const investigations_w: Record<string, InvestigationData> = {
    { date: '2010', event: 'Fair Sentencing Act reduces crack/powder disparity to 18:1 (still not equal)' },
    { date: '2016', event: 'Harper\'s Magazine publishes Ehrlichman\'s 1994 confession. Confirmation it was racial targeting.' },
    { date: '2020', event: 'Oregon decriminalizes all drug possession. Movement toward treating addiction as health issue.' },
-   { date: 'Present', event: '400,000+ Americans remain imprisoned for drug offenses. Racial disparities persist.' },
+   { date: 'Present', event: '400,000+ Americans remain imprisoned for drug offenses. Racial disparities persist.' }
  ],
  defendants: [
    { name: 'US Government', role: 'Racially motivated drug policy', status: 'charged', notes: 'Ehrlichman confession (1994/2016); No legal consequences' },
    { name: 'CIA', role: 'Facilitating Contra cocaine trafficking', status: 'charged', notes: 'CIA IG confirmed but no prosecutions. Gary Webb discredited and died.' },
    { name: 'Crack/Powder Disparity', role: 'Racially discriminatory sentencing', status: 'charged', notes: 'Reduced from 100:1 to 18:1 in 2010; still not equal' },
-   { name: '45+ million Americans', role: 'Drug offenses', status: 'incarcerated', notes: 'Arrested and processed. Millions imprisoned. Families destroyed. Communities devastated.' },
+   { name: '45+ million Americans', role: 'Drug offenses', status: 'incarcerated', notes: 'Arrested and processed. Millions imprisoned. Families destroyed. Communities devastated.' }
  ],
   },
   'water-contamination-nationwide': {
@@ -2137,7 +2081,7 @@ const investigations_w: Record<string, InvestigationData> = {
    'Jackson, Mississippi\'s water crisis was building for years as state officials diverted federal infrastructure funding away from the predominantly Black city',
    'Norfolk Southern pressured East Palestine residents to sign liability waivers in exchange for $1,000 hotel stays within days of the derailment, before contamination extent was known',
    'The EPA under Scott Pruitt and Andrew Wheeler deliberately slowed PFAS regulation, with both administrators having financial ties to industries that benefit from weak water standards',
-   'An estimated 50,000+ community water systems in the U.S. have violations of the Safe Drinking Water Act in any given year, the EPA enforces against only a tiny fraction',
+   'An estimated 50,000+ community water systems in the U.S. have violations of the Safe Drinking Water Act in any given year, the EPA enforces against only a tiny fraction'
  ],
  tags: ['military-foreign-policy', 'war', 'justice'],
  sources: [
@@ -2149,7 +2093,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { title: 'Washington Post, What Happened in East Palestine, Ohio', url: 'https://www.washingtonpost.com/nation/2023/02/15/east-palestine-ohio-train-derailment/', type: 'Article' },
    { title: 'EPA, Lead Service Line Replacement: National Inventory Results', url: 'https://www.epa.gov/ground-water-and-drinking-water/lead-service-line-replacement', type: 'Article' },
    { title: 'Mississippi Today, Jackson Water Crisis: A Failure Decades in the Making', url: 'https://mississippitoday.org/jackson-water-crisis/', type: 'Article' },
-   { title: 'EWG, Interactive Map: PFAS Contamination in the U.S.', url: 'https://www.ewg.org/interactive-maps/pfas_contamination/', type: 'Article' },
+   { title: 'EWG, Interactive Map: PFAS Contamination in the U.S.', url: 'https://www.ewg.org/interactive-maps/pfas_contamination/', type: 'Article' }
  ],
  affiliations: [
    { id: 'rick-snyder', name: 'Rick Snyder', type: 'individual', relationship: 'Michigan Governor who switched Flint\'s water source to save money, exposing 100,000 residents to lead', href: '/entities/individuals/rick-snyder' },
@@ -2164,7 +2108,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { id: 'erin-brockovich', name: 'Erin Brockovich', type: 'individual', relationship: 'Environmental activist who documented chromium-6 contamination in Hinkley, CA; continues water advocacy nationwide', href: '/entities/individuals/erin-brockovich' },
    { id: 'norfolk-southern-ceo-alan-shaw', name: 'Norfolk Southern (CEO Alan Shaw)', type: 'individual', relationship: 'Railroad company responsible for East Palestine, Ohio train derailment releasing carcinogens into water supply', href: '/entities/individuals/alan-shaw' },
    { id: '3m-company', name: '3M Company', type: 'individual', relationship: 'Manufacturer of PFAS chemicals who concealed evidence of toxicity for decades', href: '/entities/corporations/3m-company' },
-   { id: 'dupont-chemours', name: 'DuPont / Chemours', type: 'individual', relationship: 'Manufactured and dumped PFOA (C8) into waterways for decades while concealing health data', href: '/entities/corporations/dupont' },
+   { id: 'dupont-chemours', name: 'DuPont / Chemours', type: 'individual', relationship: 'Manufactured and dumped PFOA (C8) into waterways for decades while concealing health data', href: '/entities/corporations/dupont' }
  ],
  timeline: [
    { date: '1953', event: 'Camp Lejeune, NC begins drawing water from contaminated wells; Marines and families exposed to TCE, PCE, benzene, vinyl chloride' },
@@ -2184,7 +2128,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { date: '2023-FEB-03', event: 'Norfolk Southern train derailment in East Palestine, Ohio releases vinyl chloride and other carcinogens into waterways' },
    { date: '2023-JUN', event: '3M reaches $10.3 billion settlement with public water systems over PFAS contamination nationwide' },
    { date: '2024', event: 'EPA sets first-ever enforceable limits on PFAS in drinking water: 4 parts per trillion for PFOA and PFOS' },
-   { date: '2024', event: 'EPA estimates 9.2 million homes still have lead service lines; $15 billion Lead and Copper Rule funding falls far short of need' },
+   { date: '2024', event: 'EPA estimates 9.2 million homes still have lead service lines; $15 billion Lead and Copper Rule funding falls far short of need' }
  ],
  statutes: [
    { code: 'Safe Drinking Water Act (42 U.S.C. § 300f)', description: 'Federal law requiring EPA to set and enforce standards for drinking water quality, systematically under-enforced' },
@@ -2194,7 +2138,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { code: 'Lead and Copper Rule (40 CFR Part 141)', description: 'Requires water systems to control corrosivity and replace lead pipes, Flint failed to add legally required corrosion control' },
    { code: 'Civil Rights Act Title VI', description: 'Prohibits racial discrimination in programs receiving federal funding, environmental racism in water contamination disproportionately affects communities of color' },
    { code: 'Resource Conservation and Recovery Act (42 U.S.C. § 6901)', description: 'Governs disposal of solid and hazardous waste, violated by military, industrial, and agricultural polluters' },
-   { code: 'Fraud and Concealment (Common Law)', description: 'Companies including 3M and DuPont knowingly concealed evidence of PFAS toxicity from regulators and the public for decades' },
+   { code: 'Fraud and Concealment (Common Law)', description: 'Companies including 3M and DuPont knowingly concealed evidence of PFAS toxicity from regulators and the public for decades' }
  ],
  defendants: [
    { name: 'Rick Snyder (Michigan Governor)', role: 'Willful neglect of duty in Flint water crisis', status: 'charged', notes: 'Criminal charges filed in 2021; all charges dismissed in 2022 on procedural grounds' },
@@ -2204,7 +2148,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'City of Flint Officials', role: 'Involuntary manslaughter (Legionnaires\' deaths), willful neglect', status: 'charged', notes: 'Nine officials charged; $626 million settlement with residents; most charges dropped' },
    { name: 'Camp Lejeune / U.S. Government', role: 'Exposing 1 million+ to toxic water for 34 years', status: 'charged', notes: 'Camp Lejeune Justice Act (2022) allows victims to sue; claims estimated at $21+ billion' },
    { name: 'Pacific Gas & Electric (Hinkley)', role: 'Contaminating groundwater with hexavalent chromium', status: 'charged', notes: '$333 million settlement in 1996; portrayed in film Erin Brockovich' },
-   { name: 'EPA (Institutional Failure)', role: 'Failure to regulate PFAS for decades despite evidence of toxicity', status: 'charged', notes: 'First enforceable PFAS limits finally set in 2024; over 70 years after contamination began' },
+   { name: 'EPA (Institutional Failure)', role: 'Failure to regulate PFAS for decades despite evidence of toxicity', status: 'charged', notes: 'First enforceable PFAS limits finally set in 2024; over 70 years after contamination began' }
  ],
   },
   'watergate': {
@@ -2223,7 +2167,7 @@ const investigations_w: Record<string, InvestigationData> = {
    'Nixon fired Special Prosecutor Archibald Cox in the "Saturday Night Massacre"on October 20, 1973, triggering the resignations of Attorney General Elliot Richardson and Deputy AG William Ruckelshaus in a failed attempt to shut down the investigation',
    'The White House released heavily edited transcripts of presidential tape recordings, systematically omitting incriminating passages while claiming"executive privilege"to withhold the actual recordings from prosecutors',
    'Attorney General John Mitchell, while simultaneously serving as chairman of Nixon\'s reelection committee, personally approved the Watergate break-in plan and subsequently committed perjury before a grand jury to conceal his involvement',
-   'Nixon maintained publicly for over a year that he had no knowledge of the cover-up while privately directing obstruction of justice from the Oval Office, as documented extensively on the White House taping system',
+   'Nixon maintained publicly for over a year that he had no knowledge of the cover-up while privately directing obstruction of justice from the Oval Office, as documented extensively on the White House taping system'
  ],
  tags: ['environmental', 'conspiracy', 'justice'],
  sources: [
@@ -2234,7 +2178,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { title: 'All the President\'s Men, Woodward & Bernstein', url: 'https://www.simonandschuster.com/books/All-the-Presidents-Men/Carl-Bernstein/9781416589501', type: 'Article' },
    { title: 'The Final Days, Woodward & Bernstein', url: 'https://www.simonandschuster.com/books/The-Final-Days/Bob-Woodward/9780743274067', type: 'Article' },
    { title: 'Washington Post Watergate Coverage Archive', url: 'https://www.washingtonpost.com/politics/watergate/', type: 'Article' },
-   { title: 'Nixon Presidential Library: Watergate Files', url: 'https://www.nixonlibrary.gov/watergate', type: 'Article' },
+   { title: 'Nixon Presidential Library: Watergate Files', url: 'https://www.nixonlibrary.gov/watergate', type: 'Article' }
  ],
  affiliations: [
    { id: 'richard-nixon', name: 'Richard Nixon', type: 'individual', relationship: '37th President, directed the cover-up from the Oval Office', href: '/entities/individuals/richard-nixon' },
@@ -2250,7 +2194,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { id: 'bob-woodward-carl-bernstein', name: 'Bob Woodward & Carl Bernstein', type: 'individual', relationship: 'Washington Post reporters who broke the story' },
    { id: 'deep-throat-mark-felt', name: 'Deep Throat (Mark Felt)', type: 'individual', relationship: 'FBI Associate Director who secretly guided Woodward' },
    { id: 'sam-ervin', name: 'Sam Ervin', type: 'individual', relationship: 'Senate Watergate Committee Chairman' },
-   { id: 'alexander-butterfield', name: 'Alexander Butterfield', type: 'individual', relationship: 'White House aide who revealed the taping system' },
+   { id: 'alexander-butterfield', name: 'Alexander Butterfield', type: 'individual', relationship: 'White House aide who revealed the taping system' }
  ],
  timeline: [
    { date: 'June 17, 1972', event: 'Five men arrested breaking into DNC headquarters at Watergate Complex' },
@@ -2270,7 +2214,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { date: 'Aug 5, 1974', event: '"Smoking gun"tape released, remaining Republican support collapses' },
    { date: 'Aug 8, 1974', event: 'Nixon announces resignation in televised address' },
    { date: 'Aug 9, 1974', event: 'Nixon resigns. Gerald Ford becomes 38th President' },
-   { date: 'Sept 8, 1974', event: 'Ford pardons Nixon"for all offenses he has committed or may have committed"' },
+   { date: 'Sept 8, 1974', event: 'Ford pardons Nixon"for all offenses he has committed or may have committed"' }
  ],
  statutes: [
    { code: '18 U.S.C. § 371: Conspiracy to Defraud the United States', description: 'Conspiracy to obstruct the lawful functions of the DOJ, FBI, and CIA' },
@@ -2278,7 +2222,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1621: Perjury', description: 'Lying under oath to investigators and grand jury' },
    { code: '18 U.S.C. § 2511: Illegal Wiretapping', description: 'Planting listening devices in DNC headquarters' },
    { code: '18 U.S.C. § 1951: Extortion (Hobbs Act)', description: 'Using federal agencies to intimidate political opponents' },
-   { code: '26 U.S.C. § 7212: Corrupt Interference with IRS', description: 'Using IRS to target political enemies' },
+   { code: '26 U.S.C. § 7212: Corrupt Interference with IRS', description: 'Using IRS to target political enemies' }
  ],
  defendants: [
    { name: 'Richard Nixon', role: 'Named as unindicted co-conspirator; 3 articles of impeachment', status: 'pardoned', notes: 'Resigned, pardoned by Ford. Never faced trial.' },
@@ -2290,7 +2234,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'E. Howard Hunt', role: 'Conspiracy, burglary, wiretapping', status: 'convicted', notes: 'Convicted - 33 months' },
    { name: 'Charles Colson', role: 'Obstruction of justice', status: 'convicted', notes: 'Convicted - 7 months' },
    { name: 'Jeb Stuart Magruder', role: 'Conspiracy, obstruction', status: 'convicted', notes: 'Convicted - 7 months' },
-   { name: 'Donald Segretti', role: 'Campaign dirty tricks, violations of election law', status: 'convicted', notes: 'Convicted - 4½ months' },
+   { name: 'Donald Segretti', role: 'Campaign dirty tricks, violations of election law', status: 'convicted', notes: 'Convicted - 4½ months' }
  ],
   },
   'wells-fargo-fraud': {
@@ -2310,7 +2254,7 @@ const investigations_w: Record<string, InvestigationData> = {
    'Wells Fargo\'s internal investigation underreported the number of fake accounts by over a million, initial claims of 2M were later revised to 3.5M',
    'The bank\'s "Going for Gr-Eight"sales culture explicitly pressured employees to open eight accounts per customer, driving the fraud',
    'Auto insurance fraud affecting 800,000+ customers was concealed until it was exposed by subsequent investigations after the initial account scandal',
-   'Wells Fargo executives told Congress the sales targets were"goals, not quotas"- contradicted by internal communications showing termination threats for missing targets',
+   'Wells Fargo executives told Congress the sales targets were"goals, not quotas"- contradicted by internal communications showing termination threats for missing targets'
  ],
  tags: ['financial-crime', 'fraud', 'war'],
  sources: [
@@ -2321,7 +2265,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { title: 'Federal Reserve Asset Cap on Wells Fargo', url: 'https://www.federalreserve.gov/newsevents/pressreleases/enforcement20180202a.htm', type: 'Article' },
    { title: 'OCC Bans John Stumpf From Banking Industry', url: 'https://www.occ.treas.gov/news-issuances/news-releases/2020/nr-occ-2020-6.html', type: 'Article' },
    { title: 'Wells Fargo Whistleblowers Fired and Blacklisted', url: 'https://www.nytimes.com/2016/09/12/business/dealbook/fired-wells-fargo-workers-seek-a-greater-share-of-the-banks-guilt.html', type: 'Article' },
-   { title: 'Independent Board Investigation, Sales Practices Report', url: 'https://www.nytimes.com/2017/04/10/business/wells-fargo-scandal-report.html', type: 'Article' },
+   { title: 'Independent Board Investigation, Sales Practices Report', url: 'https://www.nytimes.com/2017/04/10/business/wells-fargo-scandal-report.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'john-stumpf', name: 'John Stumpf', type: 'individual', relationship: 'CEO who oversaw the fake accounts scheme; resigned in 2016; fined $17.5M and barred from banking', href: '/entities/individuals/john-stumpf' },
@@ -2334,7 +2278,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { id: 'khalid-taha', name: 'Khalid Taha', type: 'individual', relationship: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint', href: '/entities/individuals/khalid-taha' },
    { id: 'richard-cordray', name: 'Richard Cordray', type: 'individual', relationship: 'CFPB Director who levied initial $100M fine against Wells Fargo in 2016', href: '/entities/individuals/richard-cordray' },
    { id: 'thomas-curry', name: 'Thomas Curry', type: 'individual', relationship: 'OCC Comptroller who fined Wells Fargo $35M and referred executives for investigation', href: '/entities/individuals/thomas-curry' },
-   { id: 'tim-russ', name: 'Tim Russ', type: 'individual', relationship: 'Former Wells Fargo regional president who raised concerns about sales practices to senior management', href: '/entities/individuals/tim-russ' },
+   { id: 'tim-russ', name: 'Tim Russ', type: 'individual', relationship: 'Former Wells Fargo regional president who raised concerns about sales practices to senior management', href: '/entities/individuals/tim-russ' }
  ],
  timeline: [
    { date: '2002-01-01', event: 'Wells Fargo begins aggressive cross-selling strategy -"Going for Gr-Eight"(8 products per customer)' },
@@ -2355,7 +2299,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { date: '2020-02-21', event: 'Wells Fargo pays $3 billion to DOJ and SEC to settle criminal and civil investigations' },
    { date: '2020-01-23', event: 'OCC bans Stumpf from banking industry and fines him $17.5M personally' },
    { date: '2022-12-20', event: 'CFPB fines Wells Fargo additional $3.7 billion for widespread consumer abuses across multiple product lines' },
-   { date: '2024-01-01', event: 'Federal Reserve asset cap remains in place; total fines and settlements exceed $7 billion' },
+   { date: '2024-01-01', event: 'Federal Reserve asset cap remains in place; total fines and settlements exceed $7 billion' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1344: Bank Fraud', description: 'Systematic scheme to defraud bank customers by creating unauthorized financial products' },
@@ -2365,7 +2309,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { code: '15 U.S.C. § 78j(b): Securities Fraud', description: 'Misleading investors about business practices and the source of cross-selling revenue growth' },
    { code: '18 U.S.C. § 1341: Mail Fraud', description: 'Mailing unauthorized account statements and credit cards to customers who never requested them' },
    { code: 'SOX § 806: Whistleblower Retaliation', description: 'Termination and retaliation against employees who reported the unauthorized account practices' },
-   { code: '12 U.S.C. § 1818: Cease and Desist / Civil Money Penalties', description: 'OCC enforcement actions against executives for unsafe and unsound banking practices' },
+   { code: '12 U.S.C. § 1818: Cease and Desist / Civil Money Penalties', description: 'OCC enforcement actions against executives for unsafe and unsound banking practices' }
  ],
  defendants: [
    { name: 'Wells Fargo (corporate)', role: 'Unauthorized accounts, consumer fraud, deceptive practices', status: 'charged', notes: '$3B DOJ/SEC settlement; $3.7B CFPB fine; $7B+ total penalties' },
@@ -2375,7 +2319,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'Wells Fargo (Fed action)', role: 'Widespread consumer abuses', status: 'charged', notes: 'Unprecedented asset cap imposed by Federal Reserve, still in effect' },
    { name: 'Whistleblowers (multiple)', role: 'N/A - victims of retaliation', status: 'charged', notes: 'Fired, blacklisted; some received settlements after filing complaints' },
    { name: 'Wells Fargo (auto insurance)', role: 'Unauthorized auto insurance charges on 800,000+ customers', status: 'charged', notes: '$386M in refunds and remediation' },
-   { name: 'Wells Fargo (mortgage)', role: 'Improper mortgage rate-lock fees and denials', status: 'charged', notes: 'Part of $1B 2018 settlement' },
+   { name: 'Wells Fargo (mortgage)', role: 'Improper mortgage rate-lock fees and denials', status: 'charged', notes: 'Part of $1B 2018 settlement' }
  ],
   },
   'whistleblower-persecution': {
@@ -2395,7 +2339,7 @@ const investigations_w: Record<string, InvestigationData> = {
    'Daniel Hale\'s leaked documents showed that during one five-month period, nearly 90% of people killed by U.S. drone strikes were not the intended targets, the government prosecuted Hale rather than addressing the civilian casualties',
    'Reality Winner revealed Russian interference in U.S. elections (information the American public needed to know) and received the longest sentence ever imposed for a single-document leak to the media',
    'The government classifies an estimated 50 million documents per year, creating a system where nearly any disclosure of government wrongdoing can be prosecuted as espionage',
-   'Chelsea Manning was held in solitary confinement for nearly a year before trial in conditions the UN Special Rapporteur described as"cruel, inhuman, and degrading treatment"- a punishment before conviction',
+   'Chelsea Manning was held in solitary confinement for nearly a year before trial in conditions the UN Special Rapporteur described as"cruel, inhuman, and degrading treatment"- a punishment before conviction'
  ],
  tags: ['military-foreign-policy', 'war', 'surveillance'],
  sources: [
@@ -2407,7 +2351,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { title: 'John Kiriakou, Doing Time Like a Spy', url: 'https://www.johnkiriakou.com/', type: 'Article' },
    { title: 'NYT, Obama Administration Sets Record for Espionage Act Prosecutions', url: 'https://www.nytimes.com/2016/12/30/opinion/sunday/if-donald-trump-targets-journalists-thank-obama.html', type: 'Article' },
    { title: 'Julian Assange Plea Deal, DOJ Press Release', url: 'https://www.justice.gov/opa/pr/wikileaks-founder-julian-assange-charged-conspiracy-commit-computer-intrusion', type: 'Article' },
-   { title: 'Thomas Drake Case, Government Accountability Project', url: 'https://whistleblower.org/whistleblower-profiles/thomas-drake/', type: 'Article' },
+   { title: 'Thomas Drake Case, Government Accountability Project', url: 'https://whistleblower.org/whistleblower-profiles/thomas-drake/', type: 'Article' }
  ],
  affiliations: [
    { id: 'chelsea-manning', name: 'Chelsea Manning', type: 'individual', relationship: 'Army intelligence analyst who leaked classified documents to WikiLeaks exposing civilian casualties and diplomatic secrets; sentenced to 35 years, commuted after 7', href: '/entities/individuals/chelsea-manning' },
@@ -2420,7 +2364,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { id: 'james-risen', name: 'James Risen', type: 'individual', relationship: 'NYT journalist who reported on NSA warrantless wiretapping; government fought for years to force him to reveal his sources', href: '/entities/individuals/james-risen' },
    { id: 'daniel-ellsberg', name: 'Daniel Ellsberg', type: 'individual', relationship: 'Pentagon Papers leaker who later became an outspoken advocate for whistleblower protections until his death in 2023', href: '/entities/individuals/daniel-ellsberg' },
    { id: 'eric-holder', name: 'Eric Holder', type: 'individual', relationship: 'Attorney General under Obama who oversaw unprecedented number of Espionage Act prosecutions against leakers', href: '/entities/individuals/eric-holder' },
-   { id: 'julian-assange', name: 'Julian Assange', type: 'individual', relationship: 'WikiLeaks founder who published Manning\\', href: '/entities/individuals/julian-assange' },
+   { id: 'julian-assange', name: 'Julian Assange', type: 'individual', relationship: 'WikiLeaks founder who published Manning\\', href: '/entities/individuals/julian-assange' }
  ],
  timeline: [
    { date: '1917', event: 'Espionage Act signed into law during World War I to prosecute spies; later weaponized against whistleblowers' },
@@ -2440,7 +2384,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { date: '2019', event: 'Julian Assange arrested in London after Ecuador revokes his asylum; U.S. seeks extradition on 18 counts' },
    { date: '2021-07', event: 'Daniel Hale sentenced to 45 months for leaking drone war documents showing 90% of casualties were unintended' },
    { date: '2021-06', event: 'Reality Winner released after serving over 4 years; the longest sentence for an unauthorized disclosure to the media' },
-   { date: '2024-06', event: 'Julian Assange reaches plea deal, pleading guilty to one Espionage Act count; released after 5 years in Belmarsh Prison' },
+   { date: '2024-06', event: 'Julian Assange reaches plea deal, pleading guilty to one Espionage Act count; released after 5 years in Belmarsh Prison' }
  ],
  statutes: [
    { code: '18 U.S.C. § 793: Espionage Act of 1917', description: 'The primary weapon used against whistleblowers; criminalizes gathering, transmitting, or losing national defense information' },
@@ -2450,7 +2394,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1030: Computer Fraud and Abuse Act', description: 'Accessing classified computer systems to obtain information for disclosure' },
    { code: 'UCMJ Article 104: Aiding the Enemy (Military)', description: 'Military charge against Manning alleging that leaking to WikiLeaks aided foreign adversaries' },
    { code: '50 U.S.C. § 3121: Intelligence Identities Protection Act', description: 'Disclosing the identity of covert intelligence agents' },
-   { code: 'First Amendment (Theoretical Defense)', description: 'The Espionage Act does not allow defendants to argue their disclosures served the public interest, a critical flaw' },
+   { code: 'First Amendment (Theoretical Defense)', description: 'The Espionage Act does not allow defendants to argue their disclosures served the public interest, a critical flaw' }
  ],
  defendants: [
    { name: 'Chelsea Manning', role: 'Espionage Act violations, theft of government property, aiding the enemy (acquitted of last)', status: 'incarcerated', notes: '35 years military prison; sentence commuted by Obama after 7 years' },
@@ -2460,7 +2404,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'John Kiriakou', role: 'Espionage Act, disclosure of classified information about CIA operatives', status: 'incarcerated', notes: '30 months federal prison; the only person jailed in connection with CIA torture' },
    { name: 'Thomas Drake', role: 'Espionage Act (10 felony counts)', status: 'incarcerated', notes: 'All felony charges dropped; pled to misdemeanor exceeding authorized computer use; no prison time' },
    { name: 'Jeffrey Sterling', role: 'Espionage Act, unauthorized disclosure of classified information to a journalist', status: 'incarcerated', notes: '42 months federal prison' },
-   { name: 'Julian Assange', role: '18 counts including Espionage Act, conspiracy to obtain and publish classified documents', status: 'convicted', notes: 'Pled guilty to 1 count; time served (5 years Belmarsh); released June 2024' },
+   { name: 'Julian Assange', role: '18 counts including Espionage Act, conspiracy to obtain and publish classified documents', status: 'convicted', notes: 'Pled guilty to 1 count; time served (5 years Belmarsh); released June 2024' }
  ],
   },
 };

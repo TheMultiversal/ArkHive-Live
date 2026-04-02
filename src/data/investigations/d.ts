@@ -20,15 +20,14 @@ const investigations_d: Record<string, InvestigationData> = {
  'THE HARLAN CROW CONNECTION: Billionaire Harlan Crow, a Leo network donor, has provided Justice Thomas with luxury vacations, private jet travel, a house for Thomas\'s mother, and tuition for a relative, none disclosed.',
  'ETHICS CRISIS: The revelations have created an unprecedented ethics crisis at the Supreme Court. The Court has no binding ethics code. Justices refuse to recuse from cases involving their benefactors.',
  'CAPTURING STATE COURTS: Leo\'s network has expanded to state judicial elections, targeting courts that might resist the federal agenda.',
- 'THE GOAL: Leo has stated his goal is to reshape American society for decades. The judiciary (with lifetime appointments) provides the mechanism regardless of future elections.',
+ 'THE GOAL: Leo has stated his goal is to reshape American society for decades. The judiciary (with lifetime appointments) provides the mechanism regardless of future elections.'
  ],
  tags: ['Dark Money', 'Leonard Leo', 'Federalist Society', 'Supreme Court', 'Clarence Thomas', 'Judicial Capture'],
  sources: [
  { title: 'NY Times $1.6B Donation Report', url: 'https://www.nytimes.com/2022/08/22/us/politics/republican-dark-money.html', type: 'Investigation' },
  { title: 'ProPublica Thomas Investigations', url: 'https://www.propublica.org/series/supreme-court-scotus', type: 'Investigation Series' },
  { title: 'OpenSecrets Leo Network Analysis', url: 'https://www.opensecrets.org/news/2023/04/leonard-leos-dark-money-network/', type: 'Research' },
- { title: 'Senate Judiciary Ethics Investigation', url: 'https://www.judiciary.senate.gov/press/releases/durbin-whitehouse-demand-answers-from-leonard-leo-about-scheme-to-pay-ginni-thomas', type: 'Government Document' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'Senate Judiciary Ethics Investigation', url: 'https://www.judiciary.senate.gov/press/releases/durbin-whitehouse-demand-answers-from-leonard-leo-about-scheme-to-pay-ginni-thomas', type: 'Government Document' }
  ],
  affiliations: [
  { id: '1', name: 'Leonard Leo', type: 'individual', relationship: 'Network architect', href: '/entities/individuals/leonard-leo' },
@@ -36,7 +35,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '3', name: 'Ginni Thomas', type: 'individual', relationship: 'Received Leo-directed payments', href: '/entities/individuals/ginni-thomas' },
  { id: '4', name: 'Harlan Crow', type: 'individual', relationship: 'Thomas benefactor, Leo network donor', href: '/entities/individuals/harlan-crow' },
  { id: '5', name: 'Federalist Society', type: 'organization', relationship: 'Judicial vetting organization', href: '/entities/organizations/federalist-society' },
- { id: '6', name: 'Supreme Court', type: 'agency', relationship: 'Target of capture campaign', href: '/entities/agencies/supreme-court' },
+ { id: '6', name: 'Supreme Court', type: 'agency', relationship: 'Target of capture campaign', href: '/entities/agencies/supreme-court' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-08-30',
@@ -49,14 +48,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022-06-24', event: 'Leo-selected Supreme Court majority overturns Roe v. Wade in Dobbs v. Jackson, fulfilling decades of dark money investment in judicial capture', type: 'critical' },
      { date: '2023-04', event: 'ProPublica reveals Clarence Thomas received luxury trips, private jet travel, and a house purchase for his mother from Leo network donor Harlan Crow; none previously disclosed', type: 'default' },
      { date: '2023-06', event: 'Senate Judiciary Committee subpoenas Leonard Leo for records related to scheme to funnel payments to Ginni Thomas through his nonprofit network', type: 'legal' },
-     { date: '2024-11', event: 'OpenSecrets analysis shows Leo\'s network of interconnected nonprofits spent over $580 million on politics since 2014, with money flowing between entities to obscure donor origins', type: 'financial' },
+     { date: '2024-11', event: 'OpenSecrets analysis shows Leo\'s network of interconnected nonprofits spent over $580 million on politics since 2014, with money flowing between entities to obscure donor origins', type: 'financial' }
    ],
    moneyTrail: [
      { date: '2020-01-01', from: 'Unknown donors', to: 'Leonard Leo nonprofit network', amount: '$1,600,000,000', purpose: 'Dark money funneled through dozens of nonprofits to reshape the federal judiciary and advance conservative policy goals', documented: true },
      { date: '2020-01-01', from: 'Unknown donors', to: 'Sixteen Thirty Fund', amount: '$410,000,000', purpose: 'Largest progressive dark money vehicle distributed funds without disclosing donors', documented: true },
      { date: '2016-01-01', from: 'Koch Industries / Freedom Partners', to: 'Americans for Prosperity', amount: '$400,000,000', purpose: 'Political engagement spending in the 2016 election cycle', documented: true },
      { date: '2010-01-01', from: 'Dark money organizations', to: 'Federal election campaigns', amount: '$1,000,000,000', purpose: 'Total dark money spent on federal elections from 2010-2022 per Brennan Center analysis', documented: true },
-     { date: '2022-01-01', from: 'Barre Seid', to: 'Marble Freedom Trust (Leonard Leo)', amount: '$1,600,000,000', purpose: 'Single largest known political donation in US history — electronics company sale proceeds', documented: true },
+     { date: '2022-01-01', from: 'Barre Seid', to: 'Marble Freedom Trust (Leonard Leo)', amount: '$1,600,000,000', purpose: 'Single largest known political donation in US history — electronics company sale proceeds', documented: true }
    ],
  },
   'doj-politicization': {
@@ -79,7 +78,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'INVESTIGATING THE INVESTIGATORS: Barr appointed John Durham to investigate the origins of the Russia investigation, a years-long effort that produced minimal results while creating headlines Trump used politically.',
  'POST-ELECTION CORRUPTION: After losing the 2020 election, Trump pressured DOJ to declare fraud and "leave the rest to me and the Republican congressmen."Acting AG Jeffrey Rosen refused. Trump considered installing Jeffrey Clark, who would do his bidding.',
  'THE PATTERN: Trump viewed DOJ not as an independent law enforcement agency but as a tool for protecting himself and punishing enemies. He demanded personal loyalty over legal obligation.',
- 'LASTING DAMAGE: The politicization undermined DOJ credibility and independence. Career officials were sidelined. Political interference became normalized. Restoring institutional integrity remains challenging.',
+ 'LASTING DAMAGE: The politicization undermined DOJ credibility and independence. Career officials were sidelined. Political interference became normalized. Restoring institutional integrity remains challenging.'
  ],
  tags: ['DOJ', 'Bill Barr', 'Jeff Sessions', 'Mueller', 'Obstruction', 'Abuse of Power', 'Trump'],
  sources: [
@@ -87,8 +86,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'House Judiciary Barr Investigation', url: 'http://web.archive.org/web/20220826062911/https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=3097', type: 'Congressional Report' },
  { title: 'DOJ IG Reports', url: 'https://oig.justice.gov/reports', type: 'Government Reports' },
  { title: 'Berman Testimony and Book', url: 'https://www.penguinrandomhouse.com/books/703281/holding-the-line-by-geoffrey-berman/', type: 'Primary Source' },
- { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Congressional Report' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Congressional Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Directed politicization, demanded prosecutions', href: '/entities/individuals/donald-trump' },
@@ -98,7 +96,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '5', name: 'Michael Flynn', type: 'individual', relationship: 'Beneficiary of case dismissal effort, pardon', href: '/entities/individuals/michael-flynn' },
  { id: '6', name: 'James Comey', type: 'individual', relationship: 'Fired for Russia investigation', href: '/entities/individuals/james-comey' },
  { id: '7', name: 'DOJ', type: 'agency', relationship: 'Institution politicized under Trump', href: '/entities/agencies/doj' },
- { id: '8', name: 'FBI', type: 'agency', relationship: 'Director fired, agency attacked', href: '/entities/agencies/fbi' },
+ { id: '8', name: 'FBI', type: 'agency', relationship: 'Director fired, agency attacked', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-01-14',
@@ -111,7 +109,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-02-11', event: 'Barr overrides career prosecutors to reduce Roger Stone\'s sentencing recommendation after Trump tweets. All four prosecutors withdraw from the case in protest', type: 'critical' },
      { date: '2020-06-20', event: 'Trump fires SDNY U.S. Attorney Geoffrey Berman, who was investigating Trump allies including Giuliani. Berman ensures his deputy (not a Trump loyalist) succeeds him', type: 'political' },
      { date: '2020-12-27', event: 'Trump pressures Acting AG Jeffrey Rosen to declare election fraud and "leave the rest to me and the Republican congressmen." Rosen refuses. Trump considers installing Jeffrey Clark', type: 'critical' },
-     { date: '2022-12-22', event: 'January 6 Committee final report documents Trump\'s systematic efforts to weaponize DOJ, including pressuring officials to overturn election results and install a loyalist as AG', type: 'legal' },
+     { date: '2022-12-22', event: 'January 6 Committee final report documents Trump\'s systematic efforts to weaponize DOJ, including pressuring officials to overturn election results and install a loyalist as AG', type: 'legal' }
    ],
  },
   'dhs-violations': {
@@ -134,15 +132,14 @@ const investigations_d: Record<string, InvestigationData> = {
  'SOLITARY CONFINEMENT: Immigration detainees, including those with mental illness, were placed in solitary confinement for extended periods. Such treatment constitutes torture under international standards.',
  'COVID IN DETENTION: ICE continued deportation flights during COVID, spreading the virus to countries with limited healthcare. Detention facilities became hotspots. Detainees could not socially distance.',
  'WHISTLEBLOWER RETALIATION: DHS employees who reported abuses faced retaliation. The culture discouraged reporting misconduct. Problems festered without accountability.',
- 'LASTING TRAUMA: Children separated from parents suffered lasting psychological damage. Studies found elevated rates of PTSD, anxiety, and depression. The cruelty was the point, designed to deter future migration.',
+ 'LASTING TRAUMA: Children separated from parents suffered lasting psychological damage. Studies found elevated rates of PTSD, anxiety, and depression. The cruelty was the point, designed to deter future migration.'
  ],
  tags: ['DHS', 'Immigration', 'Family Separation', 'ICE', 'CBP', 'Child Detention', 'Human Rights'],
  sources: [
  { title: 'ProPublica CBP Facebook Groups', url: 'https://www.propublica.org/article/secret-border-patrol-facebook-group-agents-joke-about-migrant-deaths-post-sexist-memes', type: 'Investigation' },
  { title: 'ICE Detention Death Data', url: 'https://www.ice.gov/detain/detention-management', type: 'Government Data' },
  { title: 'Physician for Human Rights Family Separation', url: 'https://phr.org/our-work/resources/there-is-no-one-here-to-protect-you/', type: 'Research' },
- { title: 'Georgia ICE Hysterectomy Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Legal Filing' },
-   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+ { title: 'Georgia ICE Hysterectomy Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Legal Filing' }
  ],
  affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Implemented cruel border policies', href: '/entities/agencies/dhs' },
@@ -151,7 +148,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '4', name: 'Kirstjen Nielsen', type: 'individual', relationship: 'DHS Secretary, defended family separation', href: '/entities/individuals/kirstjen-nielsen' },
  { id: '5', name: 'Stephen Miller', type: 'individual', relationship: 'Architect of cruel immigration policies', href: '/entities/individuals/stephen-miller' },
  { id: '6', name: 'Donald Trump', type: 'individual', relationship: 'Ordered deterrence through cruelty', href: '/entities/individuals/donald-trump' },
- { id: '7', name: 'Jeff Sessions', type: 'individual', relationship: 'Announced zero tolerance policy', href: '/entities/individuals/jeff-sessions' },
+ { id: '7', name: 'Jeff Sessions', type: 'individual', relationship: 'Announced zero tolerance policy', href: '/entities/individuals/jeff-sessions' }
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2022-05-04',
@@ -162,7 +159,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2018-06-20', event: 'After national outcry over images of children in cages, Trump signs executive order purportedly ending family separation. Thousands of children remain separated with no reunification system', type: 'political' },
      { date: '2018-12', event: 'Jakelin Caal Maquin (7) and Felipe Gomez Alonzo (8) die within weeks of each other in DHS custody in December 2018, exposing dangerous conditions for children in Border Patrol facilities', type: 'critical' },
      { date: '2019-06', event: 'Reports emerge of migrant children held in overcrowded Clint, Texas facility without soap, toothbrushes, or adequate food. DHS lawyer argues in court that the government is not required to provide these items', type: 'default' },
-     { date: '2021-01', event: 'DHS Inspector General reports document systemic failures in medical care, overcrowding, and conditions of confinement across CBP and ICE facilities', type: 'legal' },
+     { date: '2021-01', event: 'DHS Inspector General reports document systemic failures in medical care, overcrowding, and conditions of confinement across CBP and ICE facilities', type: 'legal' }
      ],
  },
   'dobbs-aftermath': {
@@ -185,7 +182,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'RAPE AND INCEST: Most bans lack exceptions for rape and incest, forcing survivors to carry pregnancies resulting from assault. A 10-year-old rape victim in Ohio had to travel to Indiana for care.',
  'TRAVEL FOR CARE: Women in ban states must travel hundreds of miles to access care. This requires money, time off work, and childcare many don\'t have. The burden falls hardest on poor women and women of color.',
  'MEDICAL TRAINING: Doctors cannot learn abortion procedures in ban states. OB-GYN residency programs are affected. The next generation of doctors is being trained without essential skills.',
- 'STATE-BY-STATE CHAOS: The patchwork of state laws creates confusion. What\'s legal in one state is felony in another. Women and doctors navigate an impossible legal landscape.',
+ 'STATE-BY-STATE CHAOS: The patchwork of state laws creates confusion. What\'s legal in one state is felony in another. Women and doctors navigate an impossible legal landscape.'
  ],
  tags: ['Dobbs', 'Abortion', 'Reproductive Rights', 'Maternal Healthcare', 'Roe v Wade', 'IVF', 'Women\'s Health'],
  sources: [
@@ -193,8 +190,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'Kate Cox Texas Case', url: 'https://www.nytimes.com/2023/12/11/us/kate-cox-abortion-texas.html', type: 'News Report' },
  { title: 'Alabama IVF Ruling', url: 'https://www.nytimes.com/2024/02/16/us/alabama-ruling-embryo-ivf.html', type: 'News Report' },
  { title: 'Guttmacher State Policy Tracker', url: 'https://www.guttmacher.org/state-policy', type: 'Research' },
- { title: 'ACOG Statement on Abortion Bans', url: 'https://www.acog.org/advocacy/abortion-is-essential-healthcare', type: 'Medical Organization' },
-   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+ { title: 'ACOG Statement on Abortion Bans', url: 'https://www.acog.org/advocacy/abortion-is-essential-healthcare', type: 'Medical Organization' }
  ],
  affiliations: [
  { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Overturned Roe v. Wade', href: '/entities/agencies/supreme-court' },
@@ -204,7 +200,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '5', name: 'Brett Kavanaugh', type: 'individual', relationship: 'Vote to overturn Roe', href: '/entities/individuals/brett-kavanaugh' },
  { id: '6', name: 'Neil Gorsuch', type: 'individual', relationship: 'Vote to overturn Roe', href: '/entities/individuals/neil-gorsuch' },
  { id: '7', name: 'Donald Trump', type: 'individual', relationship: 'Appointed three justices who overturned Roe', href: '/entities/individuals/donald-trump' },
- { id: '8', name: 'Federalist Society', type: 'organization', relationship: 'Vetted justices who overturned Roe', href: '/entities/organizations/federalist-society' },
+ { id: '8', name: 'Federalist Society', type: 'organization', relationship: 'Vetted justices who overturned Roe', href: '/entities/organizations/federalist-society' }
  ],
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2022-07-24',
@@ -217,7 +213,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023-12-11', event: 'Kate Cox, a Texas woman with a fatal fetal abnormality threatening her fertility, flees to another state for care after the Texas Supreme Court blocks her from obtaining an abortion', type: 'critical' },
      { date: '2024-02-16', event: 'Alabama Supreme Court rules frozen embryos are "children" under state law, forcing IVF clinics to shut down temporarily and threatening fertility treatment access nationwide', type: 'legal' },
      { date: '2024-09', event: 'ProPublica reveals Amber Thurman died of sepsis in Georgia after doctors delayed a routine D&C procedure for 20 hours, fearing prosecution under the state\'s six-week abortion ban', type: 'critical' },
-     { date: '2024-11', event: 'Voters in seven states pass abortion-rights ballot measures in the November election; abortion rights prevail in every state where it appears on the ballot, including red states', type: 'political' },
+     { date: '2024-11', event: 'Voters in seven states pass abortion-rights ballot measures in the November election; abortion rights prevail in every state where it appears on the ballot, including red states', type: 'political' }
    ],
  },
   'doj-corruption': {
@@ -238,20 +234,19 @@ const investigations_d: Record<string, InvestigationData> = {
  'SECOND TERM THREATS: Trump has promised to use DOJ to prosecute political enemies including Biden, prosecutors who charged him, and journalists. The threat of full politicization is explicit.',
  'HISTORICAL CONTEXT: Nixon\'s Saturday Night Massacre and Bush\'s U.S. Attorney firings were previous politicization episodes. Trump has gone further in explicitly treating DOJ as a political weapon.',
  'INSTITUTIONAL DAMAGE: Career DOJ personnel face impossible choices: follow unlawful orders, resist and be fired, or resign and leave the institution to worse actors. Each option has costs.',
- 'RULE OF LAW: Prosecutorial independence is foundational to rule of law. When the president controls prosecutions, the law becomes a tool of power rather than a constraint on it.',
+ 'RULE OF LAW: Prosecutorial independence is foundational to rule of law. When the president controls prosecutions, the law becomes a tool of power rather than a constraint on it.'
  ],
  tags: ['DOJ', 'Justice Department', 'Political Weaponization', 'Trump', 'Barr', 'Rule of Law', 'Prosecutorial Independence'],
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Stone Case Prosecutor Resignations', url: 'https://www.nytimes.com/2020/02/11/us/politics/roger-stone-sentencing.html', type: 'News Report' },
- { title: 'Inspector General Reports', url: 'https://oig.justice.gov/reports', type: 'Government' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'Inspector General Reports', url: 'https://oig.justice.gov/reports', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Politicized DOJ, obstructed justice', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'William Barr', type: 'individual', relationship: 'Enabled politicization as AG', href: '/entities/individuals/william-barr' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Subject of politicization', href: '/entities/agencies/doj' },
- { id: '4', name: 'James Comey', type: 'individual', relationship: 'Fired FBI Director', href: '/entities/individuals/james-comey' },
+ { id: '4', name: 'James Comey', type: 'individual', relationship: 'Fired FBI Director', href: '/entities/individuals/james-comey' }
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2023-11-13',
@@ -264,7 +259,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-05-07', event: 'DOJ moves to drop prosecution of Michael Flynn despite his guilty plea; an unprecedented reversal after Barr installs outside prosecutor to review the case', type: 'legal' },
      { date: '2020-06-20', event: 'Trump fires SDNY U.S. Attorney Geoffrey Berman who was investigating Trump allies. Barr initially lies about Berman\'s resignation before Berman publicly refuses to leave', type: 'political' },
      { date: '2020-12-27', event: 'Trump tells Acting AG Rosen to "just say the election was corrupt and leave the rest to me." Rosen refuses. Trump nearly installs Jeffrey Clark, who would have declared fraud', type: 'critical' },
-     { date: '2022-12', event: 'January 6 Committee documents full scope of DOJ politicization including Trump\'s attempt to install a loyalist to weaponize the department against election results', type: 'legal' },
+     { date: '2022-12', event: 'January 6 Committee documents full scope of DOJ politicization including Trump\'s attempt to install a loyalist to weaponize the department against election results', type: 'legal' }
    ],
  },
   'dakota-access-pipeline': {
@@ -287,7 +282,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'SPILLS AND LEAKS: The pipeline has leaked multiple times, including a 383,000-gallon spill in 2017. Each incident validates the concerns protesters raised about water contamination risks.',
  'SUPPRESSION OF DISSENT: In response to pipeline protests, states passed laws criminalizing pipeline protests with enhanced penalties. The fossil fuel industry used Standing Rock to justify suppressing future protests.',
  'CLIMATE CONTEXT: Dakota Access locks in decades of fossil fuel infrastructure at a moment requiring rapid decarbonization. The pipeline\'s approval prioritized short-term profits over climate necessity.',
- 'INDIGENOUS RIGHTS: Standing Rock highlighted how Indigenous rights are systematically violated for corporate interests. Consultation requirements are ignored; treaties are broken; water and land are sacrificed for profit.',
+ 'INDIGENOUS RIGHTS: Standing Rock highlighted how Indigenous rights are systematically violated for corporate interests. Consultation requirements are ignored; treaties are broken; water and land are sacrificed for profit.'
  ],
  tags: ['Dakota Access', 'Standing Rock', 'Pipeline', 'Indigenous Rights', 'Water Protectors', 'Energy Transfer', 'Climate'],
  sources: [
@@ -295,15 +290,14 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'The Intercept, TigerSwan Documents', url: 'https://theintercept.com/series/oil-and-water/', type: 'Investigation' },
  { title: 'Army Corps Environmental Review', url: 'https://www.usace.army.mil/', type: 'Government Documents' },
  { title: 'Court Rulings on DAPL', url: 'http://web.archive.org/web/20230108055647/https://earthjustice.org/case/dakota-access-pipeline', type: 'Legal Documents' },
- { title: 'UN Human Rights on Standing Rock', url: 'https://www.ohchr.org/en/press-releases/2016/11/standing-rock-sioux-protests-un-expert-calls-necessary-measures-prevent', type: 'International' },
-   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+ { title: 'UN Human Rights on Standing Rock', url: 'https://www.ohchr.org/en/press-releases/2016/11/standing-rock-sioux-protests-un-expert-calls-necessary-measures-prevent', type: 'International' }
  ],
  affiliations: [
  { id: '1', name: 'Energy Transfer Partners', type: 'corporation', relationship: 'Pipeline owner and operator', href: '/entities/corporations/energy-transfer' },
  { id: '2', name: 'Standing Rock Sioux Tribe', type: 'organization', relationship: 'Led opposition to pipeline', href: '/entities/organizations/standing-rock' },
  { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Approved pipeline by executive order', href: '/entities/individuals/donald-trump' },
  { id: '4', name: 'TigerSwan', type: 'corporation', relationship: 'Private security contractor', href: '/entities/corporations/tigerswan' },
- { id: '5', name: 'Army Corps of Engineers', type: 'agency', relationship: 'Permit authority', href: '/entities/agencies/army-corps' },
+ { id: '5', name: 'Army Corps of Engineers', type: 'agency', relationship: 'Permit authority', href: '/entities/agencies/army-corps' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2020-01-01',
@@ -313,7 +307,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2016', event: 'OBAMA PAUSE: In late 2016, the Army Corps of Engineers paused the project to consider alternative routes and conduct environmental review', type: 'default' },
      { date: '2017', event: 'SPILLS AND LEAKS: The pipeline has leaked multiple times, including a 383,000-gallon spill in 2017', type: 'default' },
      { date: '2017-06-01', event: 'The pipeline was completed and began operating in June 2017', type: 'default' },
-     { date: '2020', event: 'A 2020 ruling ordered the pipeline shut down pending environmental review, but an appeals court allowed continued operation', type: 'legal' },
+     { date: '2020', event: 'A 2020 ruling ordered the pipeline shut down pending environmental review, but an appeals court allowed continued operation', type: 'legal' }
    ],
  },
   'drone-assassinations': {
@@ -332,7 +326,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'CIVILIAN MASSACRES: The drone program has produced dozens of documented mass casualty events targeting civilians. On December 17, 2009, a U.S. cruise missile and cluster bomb strike on al-Majalah, Yemen killed 41 civilians including 21 children and 14 women. The Obama administration initially denied involvement; WikiLeaks cables later proved U.S. responsibility. On March 17, 2011, a drone strike on a jirga (tribal council meeting) in Datta Khel, Pakistan killed between 26 and 44 people, nearly all civilians. On December 12, 2013, a U.S. drone struck a wedding procession in Radaa, Yemen, killing 12 and wounding 15. Survivors testified the convoy was clearly a wedding, with vehicles decorated and music playing. On August 29, 2021, as the U.S. withdrew from Afghanistan, a drone strike targeting an "imminent ISIS threat" killed 10 civilians including 7 children from the Ahmadi family. The military initially defended the strike as "righteous"; an investigation found the target was an aid worker loading water containers.',
  'DOUBLE TAP AND FIRST RESPONDERS: Multiple investigations have documented the practice of "double tap" strikes, in which a drone fires on a target, then fires again minutes later when rescuers and first responders arrive to help the wounded. This tactic, which constitutes a war crime under the Geneva Conventions, has been documented by the Bureau of Investigative Journalism, Reprieve, and the Stanford/NYU "Living Under Drones" report. The psychological effect on civilian populations has been devastating. Residents of drone-targeted areas in Pakistan\'s tribal regions reported avoiding attending funerals, sending children to school, or gathering in public spaces for fear of being struck. The Stanford/NYU report described communities in a state of constant terror.',
  'LEGAL BLACK HOLE: The legal framework for the drone program rests on: (1) the 2001 Authorization for Use of Military Force, which authorized force against those who "planned, authorized, committed, or aided" the 9/11 attacks but has been stretched to cover groups that did not exist in 2001; (2) classified Office of Legal Counsel memos, particularly David Barron\'s 2010 memo authorizing the killing of American citizens, which redefined "imminent threat" to not require evidence of a specific planned attack; (3) the 2001 and 2002 AUMFs, which successive administrations have used to justify strikes in at least 22 countries; and (4) presidential policy guidance documents that set targeting standards but are not legally binding and can be revoked by any president (as Trump did). No court has meaningfully reviewed the program. The FISA Court has no role. Congress receives classified briefings but cannot publicly discuss what they learn.',
- 'ACCOUNTABILITY: NONE: No U.S. official has faced any legal consequence for civilian deaths in drone strikes. No family of a civilian victim has received compensation through any legal process (occasional "condolence payments" are made but carry no admission of wrongdoing). The Trump administration revoked the Obama-era requirement to publicly report estimated civilian casualties. The Biden administration reinstated some reporting but narrowed the geographic scope. Government civilian casualty counts have been consistently contradicted by independent investigations showing civilian tolls 3 to 10 times higher. The Ahmadi family, whose 10 members including 7 children were killed in the August 2021 Kabul strike, were initially told they would receive compensation and relocation assistance; as of 2025, they have received neither.',
+ 'ACCOUNTABILITY: NONE: No U.S. official has faced any legal consequence for civilian deaths in drone strikes. No family of a civilian victim has received compensation through any legal process (occasional "condolence payments" are made but carry no admission of wrongdoing). The Trump administration revoked the Obama-era requirement to publicly report estimated civilian casualties. The Biden administration reinstated some reporting but narrowed the geographic scope. Government civilian casualty counts have been consistently contradicted by independent investigations showing civilian tolls 3 to 10 times higher. The Ahmadi family, whose 10 members including 7 children were killed in the August 2021 Kabul strike, were initially told they would receive compensation and relocation assistance; as of 2025, they have received neither.'
  ],
  tags: ['Drones', 'Assassination', 'War Crimes', 'CIA', 'JSOC', 'Obama', 'Trump', 'Biden', 'Signature Strikes', 'AUMF', 'Extrajudicial Killing'],
  sources: [
@@ -344,7 +338,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'New York Times: "The Kill Chain" Drone Strike Investigation', url: 'https://www.nytimes.com/interactive/2021/12/18/us/airstrikes-pentagon-records-civilian-deaths.html', type: 'Investigation' },
  { title: 'ACLU Drone Strike FOIA Litigation', url: 'https://www.aclu.org/issues/national-security/targeted-killing', type: 'Legal' },
  { title: 'New America Foundation: Drone Strike Database', url: 'https://www.newamerica.org/international-security/reports/americas-counterterrorism-wars/', type: 'Database' },
- { title: 'Amnesty International: "Will I Be Next?" U.S. Drone Strikes in Pakistan', url: 'https://www.amnesty.org/en/documents/asa33/013/2013/en/', type: 'NGO Report' },
+ { title: 'Amnesty International: "Will I Be Next?" U.S. Drone Strikes in Pakistan', url: 'https://www.amnesty.org/en/documents/asa33/013/2013/en/', type: 'NGO Report' }
  ],
  affiliations: [
  { id: 'cia', name: 'CIA', type: 'agency', relationship: 'Operates drone program in countries where U.S. is not formally at war (Pakistan, Yemen, Somalia) under covert action authority. Pioneered signature strikes. Systematically underreported civilian casualties.', href: '/entities/agencies/cia' },
@@ -352,7 +346,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: 'barack-obama', name: 'Barack Obama', type: 'individual', relationship: 'Expanded drone strikes tenfold over Bush. Personally approved kills in weekly "Terror Tuesday" meetings. Authorized killing of American citizens without trial. Created the "Disposition Matrix."', href: '/entities/individuals/barack-obama' },
  { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Further expanded drone strikes while revoking transparency requirements. Authorized Soleimani killing. Rescinded Obama-era civilian casualty reporting.', href: '/entities/individuals/donald-trump' },
  { id: 'george-w-bush', name: 'George W. Bush', type: 'individual', relationship: 'Initiated the drone program post-9/11. First confirmed drone kill outside a war zone: Yemen, November 2002.', href: '/entities/individuals/george-w-bush' },
- { id: 'john-brennan', name: 'John Brennan', type: 'individual', relationship: 'Obama\'s counterterrorism advisor who managed the drone program. Later CIA Director (2013-2017). Called drone program "legal, ethical, and wise."' },
+ { id: 'john-brennan', name: 'John Brennan', type: 'individual', relationship: 'Obama\'s counterterrorism advisor who managed the drone program. Later CIA Director (2013-2017). Called drone program "legal, ethical, and wise."' }
  ],
    eventOriginDate: '2002-11-03',
    lastActivityDate: '2026-03-29',
@@ -377,7 +371,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019', event: 'Trump-era drone strikes in Somalia exceed entire Obama-era total. Civilian casualty oversight removed' },
      { date: '2020-01-03', event: 'U.S. drone kills Iranian General Qasem Soleimani at Baghdad airport, nearly triggering war with Iran', type: 'critical' },
      { date: '2021-08-29', event: 'Drone strike on "imminent ISIS threat" in Kabul kills 10 civilians including 7 children from Ahmadi family. Military initially calls it "righteous"', type: 'critical' },
-     { date: '2021-12-18', event: 'NY Times investigation reveals Pentagon covered up pattern of civilian casualties. Documents show thousands of previously unreported civilian deaths' },
+     { date: '2021-12-18', event: 'NY Times investigation reveals Pentagon covered up pattern of civilian casualties. Documents show thousands of previously unreported civilian deaths' }
    ],
  },
   'democratic-backsliding': {
@@ -393,7 +387,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'Voter suppression has become a systematic strategy rather than an aberration. Following the Supreme Court\'s 2013 Shelby County v. Holder decision gutting the Voting Rights Act\'s preclearance requirement, states previously subject to federal oversight immediately enacted restrictive voting laws. Between 2013 and 2024, at least 29 states passed over 90 new laws making it harder to vote, according to the Brennan Center for Justice. These include strict photo ID requirements that disproportionately affect minority voters, purges of voter rolls that remove eligible voters, closure of polling places in minority communities (Texas closed over 750 polling sites between 2012 and 2018), restrictions on mail-in voting, and criminalization of voter registration assistance. Georgia\'s 2021 Election Integrity Act made it illegal to provide food or water to voters waiting in line. The cumulative effect is a system that makes voting significantly harder for Black, Latino, young, and low-income Americans.',
  'Gerrymandering has allowed the Republican Party to maintain legislative power vastly disproportionate to its vote share. After the 2010 REDMAP (Redistricting Majority Project) initiative, Republicans drew congressional maps that locked in structural advantages in states including Wisconsin, North Carolina, Ohio, and Texas. In the 2018 Wisconsin state assembly elections, Democrats won 54% of the statewide vote but only 36% of assembly seats. The Supreme Court\'s 2019 Rucho v. Common Cause decision declared partisan gerrymandering claims nonjusticiable in federal courts, effectively giving state legislatures unchecked power to draw maps that predetermine election outcomes. Combined with Senate malapportionment (Wyoming\'s 580,000 residents get the same Senate representation as California\'s 39 million), Electoral College distortion, and the House cap at 435 members since 1929, the structural architecture of American government now enables minority rule at nearly every level.',
  'Judicial capture through dark money represents perhaps the most durable mechanism of democratic erosion. Leonard Leo\'s network, funded by a $1.6 billion donation from electronics magnate Barre Seid (the largest known political donation in American history), has effectively controlled federal judicial selection since the George W. Bush administration. The Federalist Society vets candidates; Leo\'s constellation of nonprofits runs confirmation campaigns. Three Trump appointees, all selected through this pipeline, provided the majority to overturn Roe v. Wade (Dobbs), gut the administrative state (Loper Bright), eliminate affirmative action (SFFA v. Harvard), expand gun rights (Bruen), and restrict voting rights (Brnovich v. DNC). The Court operates without a binding ethics code while justices receive undisclosed gifts from Leo network donors. With lifetime appointments, this captured judiciary will shape American law for decades regardless of election outcomes.',
- 'Election denial has become a defining feature of one of America\'s two major parties, shattering the norm of peaceful power transfer that had held since 1800. Following the 2020 election, Donald Trump and his allies filed over 60 lawsuits (losing all but one trivial case), pressured state officials to "find" votes, attempted to install a loyalist attorney general to declare fraud, organized fake electors in seven states, and incited a violent attack on the U.S. Capitol to prevent certification. Rather than repudiating this, the Republican Party has embraced election denial as a core identity: over 370 Republican candidates who denied the 2020 election results ran for office in 2022, with many winning seats that give them control over future election administration. Project 2025, a detailed governing blueprint produced by the Heritage Foundation, proposes eliminating civil service protections, placing loyalists throughout the executive branch, and consolidating presidential power in ways that democracy scholars describe as authoritarian. The peaceful transfer of power, once America\'s most fundamental democratic norm, can no longer be assumed.',
+ 'Election denial has become a defining feature of one of America\'s two major parties, shattering the norm of peaceful power transfer that had held since 1800. Following the 2020 election, Donald Trump and his allies filed over 60 lawsuits (losing all but one trivial case), pressured state officials to "find" votes, attempted to install a loyalist attorney general to declare fraud, organized fake electors in seven states, and incited a violent attack on the U.S. Capitol to prevent certification. Rather than repudiating this, the Republican Party has embraced election denial as a core identity: over 370 Republican candidates who denied the 2020 election results ran for office in 2022, with many winning seats that give them control over future election administration. Project 2025, a detailed governing blueprint produced by the Heritage Foundation, proposes eliminating civil service protections, placing loyalists throughout the executive branch, and consolidating presidential power in ways that democracy scholars describe as authoritarian. The peaceful transfer of power, once America\'s most fundamental democratic norm, can no longer be assumed.'
  ],
  tags: ['Democratic Backsliding', 'Voter Suppression', 'Gerrymandering', 'Judicial Capture', 'Election Denial', 'Shelby County', 'Project 2025', 'V-Dem'],
  sources: [
@@ -402,14 +396,14 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'Brennan Center: Voting Laws Roundup', url: 'https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup-2023', type: 'Research' },
  { title: 'Shelby County v. Holder, 570 U.S. 529 (2013)', url: 'https://supreme.justia.com/cases/federal/us/570/529/', type: 'Court Filing' },
  { title: 'Rucho v. Common Cause, 588 U.S. ___ (2019)', url: 'https://supreme.justia.com/cases/federal/us/588/18-422/', type: 'Court Filing' },
- { title: 'Project 2025: Mandate for Leadership', url: 'https://www.project2025.org/', type: 'Primary Source' },
+ { title: 'Project 2025: Mandate for Leadership', url: 'https://www.project2025.org/', type: 'Primary Source' }
  ],
  affiliations: [
  { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Gutted Voting Rights Act in Shelby County (2013), declared partisan gerrymandering nonjusticiable in Rucho (2019), overturned Roe and weakened administrative state through dark-money-captured majority', href: '/entities/agencies/supreme-court' },
  { id: '2', name: 'Leonard Leo', type: 'individual', relationship: 'Architect of judicial capture through Federalist Society and $1.6B dark money network. Controlled federal judicial selection since Bush era', href: '/entities/individuals/leonard-leo' },
  { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Refused to accept 2020 election results, incited January 6 Capitol attack, promoted election denial as party orthodoxy, appointed three Leo-selected Supreme Court justices', href: '/entities/individuals/donald-trump' },
  { id: '4', name: 'Heritage Foundation', type: 'organization', relationship: 'Produced Project 2025 blueprint for consolidating executive power and dismantling civil service protections', href: '/entities/organizations/heritage-foundation' },
- { id: '5', name: 'Federalist Society', type: 'organization', relationship: 'Vets all Republican judicial nominees; pipeline for the judicial capture strategy that has reshaped American law', href: '/entities/organizations/federalist-society' },
+ { id: '5', name: 'Federalist Society', type: 'organization', relationship: 'Vets all Republican judicial nominees; pipeline for the judicial capture strategy that has reshaped American law', href: '/entities/organizations/federalist-society' }
  ],
    eventOriginDate: '2013-06-25',
    lastActivityDate: '2025-05-04',
@@ -422,7 +416,7 @@ const investigations_d: Record<string, InvestigationData> = {
         { date: '2021-01-06', event: 'Violent attack on U.S. Capitol to prevent certification of 2020 election. Center for Systemic Peace briefly reclassifies U.S. as "anocracy." Over 1,200 charged', type: 'critical' },
         { date: '2022-06-24', event: 'Dark-money-captured Supreme Court majority overturns Roe v. Wade in Dobbs, demonstrating the power of judicial capture to override majority public opinion', type: 'critical' },
         { date: '2023', event: 'V-Dem Institute data shows U.S. democratic quality continuing to decline across multiple dimensions including freedom of expression, judicial independence, and electoral integrity', type: 'default' },
-        { date: '2025-01', event: 'Project 2025 implementation begins: mass firings of civil servants, installation of loyalists across agencies, consolidation of executive power. Democracy scholars warn of authoritarian trajectory', type: 'critical' },
+        { date: '2025-01', event: 'Project 2025 implementation begins: mass firings of civil servants, installation of loyalists across agencies, consolidation of executive power. Democracy scholars warn of authoritarian trajectory', type: 'critical' }
       ],
  },
   'daniel-shaver-police-killing': {
@@ -443,19 +437,17 @@ const investigations_d: Record<string, InvestigationData> = {
  'REHIRED FOR PENSION: In August 2018, the Mesa Police Department temporarily rehired Brailsford specifically so he could apply for an accidental disability pension of $31,000 per year for PTSD he claimed to have developed from the shooting. He was 28 years old at the time.',
  'SGT. LANGLEY FLED: Charles Langley, the sergeant who gave the contradictory commands and was not charged, retired and moved to the Philippines shortly after the shooting. He was never held accountable for his role in creating the lethal situation.',
  'FAMILY LAWSUIT: Shaver\'s wife filed a wrongful death lawsuit against the City of Mesa, settling for an undisclosed amount. The family has advocated for police reform and increased accountability for officers who use excessive force.',
- 'SYSTEMIC IMPLICATIONS: The Shaver case illustrates how police are rarely convicted even when killings are captured on video. The rehiring for pension benefits demonstrated how departments protect officers who kill. The case became a touchstone for police reform advocates across the political spectrum.',
+ 'SYSTEMIC IMPLICATIONS: The Shaver case illustrates how police are rarely convicted even when killings are captured on video. The rehiring for pension benefits demonstrated how departments protect officers who kill. The case became a touchstone for police reform advocates across the political spectrum.'
  ],
  tags: ['Police Violence', 'Mesa PD', 'Daniel Shaver', 'Body Camera', 'Excessive Force', 'Police Accountability'],
  sources: [
  { title: 'Mesa PD Body Camera Footage', url: 'https://www.washingtonpost.com/news/post-nation/wp/2017/12/08/jury-acquits-former-mesa-officer-phillip-brailsford-in-fatal-2016-shooting/', type: 'News Report' },
  { title: 'Brailsford Pension Rehire', url: 'https://www.azcentral.com/story/news/local/mesa/2019/07/10/mesa-police-officer-philip-brailsford-rehired-pension-daniel-shaver-shooting/1698540001/', type: 'News Report' },
- { title: 'Court Records: State v. Brailsford', url: 'https://www.superiorcourt.maricopa.gov/docket/CriminalCourtCases/', type: 'Court Filing' },
-   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+ { title: 'Court Records: State v. Brailsford', url: 'https://www.superiorcourt.maricopa.gov/docket/CriminalCourtCases/', type: 'Court Filing' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal civil rights charges filed', href: '/entities/agencies/doj' },
- { id: '2', name: 'FBI', type: 'agency', relationship: 'Federal investigation authority for mass violence incidents', href: '/entities/agencies/fbi' },
-
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Federal investigation authority for mass violence incidents', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2022-05-26',
@@ -466,7 +458,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017-10', event: 'Brailsford\'s second-degree murder trial begins. Judge rules the "YOU\'RE FUCKED" dust cover inscription inadmissible, and body camera footage is sealed from public view during proceedings', type: 'legal' },
      { date: '2017-12-07', event: 'Jury acquits Brailsford of both second-degree murder and reckless manslaughter. Body camera footage released publicly after the verdict provokes national outrage', type: 'critical' },
      { date: '2018-08', event: 'Mesa PD temporarily rehires Brailsford so he can apply for a $31,000/year PTSD disability pension from the killing. He is 28 years old', type: 'default' },
-     { date: '2019-07', event: 'Shaver\'s wife settles wrongful death lawsuit against the City of Mesa for an undisclosed amount. Sgt. Charles Langley, who gave the contradictory commands, has fled to the Philippines', type: 'legal' },
+     { date: '2019-07', event: 'Shaver\'s wife settles wrongful death lawsuit against the City of Mesa for an undisclosed amount. Sgt. Charles Langley, who gave the contradictory commands, has fled to the Philippines', type: 'legal' }
      ],
  },
   'defense-tech-oligarchy': {
@@ -483,7 +475,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'Elon Musk\'s SpaceX holds over $3.5 billion in Department of Defense contracts and operates the Starshield satellite network for classified military communications. Simultaneously, Musk\'s appointment to lead the Department of Government Efficiency (DOGE) gave him access to sensitive government systems while maintaining active defense contracts; a conflict of interest unprecedented in American history.',
  'Anduril Industries, founded by Palmer Luckey with backing from Thiel\'s Founders Fund, has built autonomous weapons systems and border surveillance towers for the Department of Defense and DHS. The company reached a $14 billion valuation by 2024, with virtually no public accountability for the lethal autonomous systems it develops.',
  'The revolving door between Silicon Valley and the Pentagon has accelerated dramatically. Former defense officials join tech companies as advisors, while tech executives receive security clearances and advisory roles. This merger eliminates the traditional separation between the military and the private sector, concentrating lethal technology decisions in the hands of individuals accountable to shareholders rather than citizens.',
- 'Unlike traditional defense contractors subject to decades of regulatory frameworks, these tech companies often classify their tools as "software" to avoid weapons export controls and congressional oversight. The result is a parallel defense establishment that operates with less transparency, fewer checks, and greater political influence than the military-industrial complex Eisenhower warned about.',
+ 'Unlike traditional defense contractors subject to decades of regulatory frameworks, these tech companies often classify their tools as "software" to avoid weapons export controls and congressional oversight. The result is a parallel defense establishment that operates with less transparency, fewer checks, and greater political influence than the military-industrial complex Eisenhower warned about.'
  ],
  tags: ['Defense Technology', 'Tech Oligarchy', 'Palantir', 'DOGE', 'Military-Industrial Complex', 'Surveillance', 'Silicon Valley'],
  sources: [
@@ -495,13 +487,12 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'The Markup Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
  { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
- { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
-   { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Defense surveillance contractor', href: '/entities/corporations/palantir' },
  { id: '2', name: 'Peter Thiel', type: 'individual', relationship: 'Palantir co-founder, tech oligarch', href: '/entities/individuals/peter-thiel' },
- { id: '3', name: 'Elon Musk', type: 'individual', relationship: 'SpaceX defense contracts, DOGE', href: '/entities/individuals/elon-musk' },
+ { id: '3', name: 'Elon Musk', type: 'individual', relationship: 'SpaceX defense contracts, DOGE', href: '/entities/individuals/elon-musk' }
  ],
    eventOriginDate: '2024-01-01',
    lastActivityDate: '2024-11-19',
@@ -512,7 +503,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022-04', event: 'SpaceX secures Starshield contract for classified military satellite communications, expanding Elon Musk\'s role as a critical node in national defense infrastructure', type: 'default' },
      { date: '2023-08', event: 'Anduril Industries wins Army contract for counter-drone systems, adding to its growing portfolio of autonomous weapons systems and border surveillance technology', type: 'default' },
      { date: '2024', event: 'Anduril reaches $14 billion valuation. Palantir exceeds $50 billion market cap. Combined defense tech startup sector exceeds $100 billion in government contract value', type: 'financial' },
-     { date: '2024-11', event: 'Musk appointed to lead Department of Government Efficiency (DOGE), gaining access to sensitive government systems while maintaining active SpaceX defense contracts; an unprecedented conflict of interest', type: 'critical' },
+     { date: '2024-11', event: 'Musk appointed to lead Department of Government Efficiency (DOGE), gaining access to sensitive government systems while maintaining active SpaceX defense contracts; an unprecedented conflict of interest', type: 'critical' }
    ],
  },
   'disinformation': {
@@ -529,21 +520,19 @@ const investigations_d: Record<string, InvestigationData> = {
  'Social media platforms architected their algorithms to reward engagement over accuracy, creating systems that systematically amplify false and inflammatory content. Facebook\'s own internal research, leaked by whistleblower Frances Haugen in 2021, showed the company knew its algorithms promoted misinformation and hate speech but prioritized growth metrics over safety interventions.',
  'Political operatives adapted disinformation techniques for domestic campaigns. Cambridge Analytica harvested data from 87 million Facebook users to build psychological profiles for targeted political messaging. Steve Bannon, the firm\'s former vice president, described the strategy as "flooding the zone with shit" to overwhelm citizens\' ability to distinguish truth from fabrication.',
  'The rise of AI-generated deepfakes and synthetic media has accelerated the crisis. By 2025, AI tools could generate photorealistic video of public figures saying things they never said, audio clones that fooled family members, and fabricated documents indistinguishable from originals. The cost of producing convincing disinformation dropped to near zero while the cost of verification remained high.',
- 'The cumulative effect has been a collapse of shared reality. Gallup polling shows trust in mass media fell from 72% in 1976 to 32% in 2024. Simultaneously, partisan information silos have created populations that cannot agree on basic facts; a precondition for democratic collapse that authoritarian movements have historically exploited.',
+ 'The cumulative effect has been a collapse of shared reality. Gallup polling shows trust in mass media fell from 72% in 1976 to 32% in 2024. Simultaneously, partisan information silos have created populations that cannot agree on basic facts; a precondition for democratic collapse that authoritarian movements have historically exploited.'
  ],
  tags: ['Disinformation', 'Fake News', 'Social Media', 'Propaganda', 'Deepfakes', 'Information Warfare', 'Media Literacy'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
  { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
- { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
- { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Facebook', type: 'corporation', relationship: 'Primary platform for disinformation spread', href: '/entities/corporations/meta-platforms' },
- { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation broadcaster', href: '/entities/corporations/fox-news' },
+ { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation broadcaster', href: '/entities/corporations/fox-news' }
  ],
    eventOriginDate: '1976-01-01',
    lastActivityDate: '2025-07-07',
@@ -554,7 +543,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2018-03', event: 'Cambridge Analytica scandal revealed: the firm harvested data from 87 million Facebook users to build psychological profiles for targeted political messaging in the 2016 election', type: 'critical' },
      { date: '2021-10-05', event: 'Facebook whistleblower Frances Haugen testifies before Congress that the company knew its algorithms promoted misinformation and hate speech but prioritized growth metrics over safety', type: 'critical' },
      { date: '2023-04', event: 'Fox News pays $787.5 million to settle Dominion Voting Systems defamation lawsuit after internal communications prove hosts knowingly broadcast false election fraud claims', type: 'financial' },
-     { date: '2024', event: 'AI-generated deepfakes proliferate including a robocall mimicking President Biden\'s voice sent to thousands of New Hampshire voters. Cost of producing convincing disinformation drops to near zero', type: 'default' },
+     { date: '2024', event: 'AI-generated deepfakes proliferate including a robocall mimicking President Biden\'s voice sent to thousands of New Hampshire voters. Cost of producing convincing disinformation drops to near zero', type: 'default' }
    ],
  },
   'domestic-extremism': {
@@ -571,7 +560,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'Anti-government militia movements experienced explosive growth after 2020. The Oath Keepers, Proud Boys, Three Percenters, and Boogaloo movement recruited heavily from military veterans and law enforcement. DOJ prosecutions following January 6 revealed that active-duty and former military personnel were disproportionately represented among participants.',
  'Online radicalization pipelines accelerated recruitment. Platforms like 4chan, 8kun, Telegram, Gab, and later Twitter/X under relaxed moderation policies created ecosystems where extremist ideology could spread unchecked. Multiple mass shooters posted manifestos to these platforms before their attacks, and other users celebrated the violence.',
  'Law enforcement response has been criticized as inadequate and asymmetric. A 2021 Brennan Center report documented that FBI domestic terrorism investigations disproportionately targeted racial justice protesters and environmental activists while deprioritizing white supremacist threats. Internal DHS whistleblowers alleged that political appointees suppressed intelligence reports identifying white supremacist violence as the primary domestic threat.',
- 'The sovereign citizen movement, constitutionalist militias, and accelerationist networks have continued to grow despite prosecutions. FBI Director Christopher Wray testified in 2023 that domestic terrorism cases had more than doubled since 2020, with the bureau maintaining approximately 2,700 active investigations.',
+ 'The sovereign citizen movement, constitutionalist militias, and accelerationist networks have continued to grow despite prosecutions. FBI Director Christopher Wray testified in 2023 that domestic terrorism cases had more than doubled since 2020, with the bureau maintaining approximately 2,700 active investigations.'
  ],
  tags: ['Domestic Terrorism', 'White Supremacy', 'Far-Right Extremism', 'January 6', 'Radicalization', 'Anti-Government'],
  sources: [
@@ -582,13 +571,13 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'DHS Homeland Threat Assessment', url: 'https://www.dhs.gov/publication/homeland-threat-assessment', type: 'Government' },
  { title: 'ProPublica Hate Crime Investigations', url: 'https://www.propublica.org/series/documenting-hate', type: 'Investigation' },
  { title: 'Brennan Center for Justice Domestic Terrorism', url: 'https://www.brennancenter.org/issues/protect-liberty-security/domestic-terrorism', type: 'Report' },
- { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
+ { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Maintains 2,700+ active domestic terrorism investigations; identified DVE as top threat', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DHS', type: 'agency', relationship: 'Threat assessments name racially motivated violent extremism as most lethal domestic threat', href: '/entities/agencies/dhs' },
  { id: '3', name: 'Proud Boys', type: 'organization', relationship: 'Convicted of seditious conspiracy for January 6 Capitol attack', href: '/entities/organizations/proud-boys' },
- { id: '4', name: 'Oath Keepers', type: 'organization', relationship: 'Stewart Rhodes convicted of seditious conspiracy; 18-year sentence', href: '/entities/organizations/oath-keepers' },
+ { id: '4', name: 'Oath Keepers', type: 'organization', relationship: 'Stewart Rhodes convicted of seditious conspiracy; 18-year sentence', href: '/entities/organizations/oath-keepers' }
  ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2026-02-01',
@@ -599,7 +588,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020', event: 'Anti-government militia movements experience explosive growth. Oath Keepers, Proud Boys, Three Percenters, and Boogaloo movement recruit heavily from military veterans and law enforcement', type: 'default' },
      { date: '2021', event: 'Brennan Center report documents FBI domestic terrorism investigations disproportionately targeting racial justice protesters and environmental activists while deprioritizing white supremacist threats', type: 'default' },
      { date: '2021-01-06', event: 'Thousands storm the U.S. Capitol to prevent certification of the 2020 election. Proud Boys and Oath Keepers leaders later convicted of seditious conspiracy', type: 'critical' },
-     { date: '2023', event: 'FBI Director Christopher Wray testifies that domestic terrorism cases have more than doubled since 2020, with the bureau maintaining approximately 2,700 active investigations', type: 'default' },
+     { date: '2023', event: 'FBI Director Christopher Wray testifies that domestic terrorism cases have more than doubled since 2020, with the bureau maintaining approximately 2,700 active investigations', type: 'default' }
    ],
  },
   'domestic-terrorism-in-america': {
@@ -620,15 +609,14 @@ const investigations_d: Record<string, InvestigationData> = {
  'JANUARY 6 2021: Thousands stormed the U.S. Capitol in an attempt to stop the certification of the 2020 election. Five people died. Over 1,200 have been charged. The Proud Boys and Oath Keepers leaders were convicted of seditious conspiracy.',
  'ONLINE RADICALIZATION: The pipeline from mainstream platforms to extremist content accelerated rapidly. Algorithms on YouTube, Facebook, and Twitter directed users toward increasingly radical content. 8chan/8kun, Gab, Telegram, and other platforms hosted explicit calls to violence.',
  'LAW ENFORCEMENT BLIND SPOT: A 2009 DHS report warning about right-wing extremism was retracted after conservative political backlash. The FBI infiltrates far-right groups at lower rates than Muslim communities despite the higher domestic body count. The lack of a domestic terrorism statute limits prosecution tools.',
- 'ACCELERATIONISM: A growing movement within far-right extremism advocates for deliberate acts of mass violence to accelerate the collapse of multiracial democracy. This ideology, promoted through anonymous online networks, has inspired multiple mass shooters who published manifestos referencing prior attacks.',
+ 'ACCELERATIONISM: A growing movement within far-right extremism advocates for deliberate acts of mass violence to accelerate the collapse of multiracial democracy. This ideology, promoted through anonymous online networks, has inspired multiple mass shooters who published manifestos referencing prior attacks.'
  ],
  tags: ['Domestic Terrorism', 'White Supremacy', 'Far-Right', 'Mass Shootings', 'January 6', 'Radicalization'],
  sources: [
  { title: 'DHS Domestic Terrorism Threat Assessment', url: 'https://www.dhs.gov/sites/default/files/publications/2020_10_06_homeland-threat-assessment.pdf', type: 'Government Report' },
  { title: 'ADL Murder & Extremism Report', url: 'https://www.adl.org/resources', type: 'Research Study' },
  { title: 'FBI Director Congressional Testimony on DVE', url: 'https://www.fbi.gov/news/testimony', type: 'Congressional Record' },
- { title: '2009 DHS Right-Wing Extremism Report', url: 'https://web.archive.org/web/20241228115719/https://fas.org/irp/eprint/rightwing.pdf', type: 'Government Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: '2009 DHS Right-Wing Extremism Report', url: 'https://web.archive.org/web/20241228115719/https://fas.org/irp/eprint/rightwing.pdf', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Caseload doubled, resource imbalance with international terrorism', href: '/entities/agencies/fbi' },
@@ -636,7 +624,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '3', name: 'Proud Boys', type: 'organization', relationship: 'Seditious conspiracy convictions for January 6', href: '/entities/organizations/proud-boys' },
  { id: '4', name: 'Oath Keepers', type: 'organization', relationship: 'Seditious conspiracy convictions for January 6', href: '/entities/organizations/oath-keepers' },
  { id: '5', name: 'Fox News', type: 'corporation', relationship: 'Tucker Carlson promoted Great Replacement theory', href: '/entities/corporations/fox-news' },
- { id: '6', name: 'Donald Trump', type: 'individual', relationship: '"Very fine people on both sides" after Charlottesville', href: '/entities/individuals/donald-trump' },
+ { id: '6', name: 'Donald Trump', type: 'individual', relationship: '"Very fine people on both sides" after Charlottesville', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-01-21',
@@ -652,7 +640,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-10-06', event: 'DHS publishes Homeland Threat Assessment naming racially and ethnically motivated violent extremism (REMVE) as the "most persistent and lethal threat" in the domestic terrorism landscape', type: 'political' },
      { date: '2021-01-06', event: 'Thousands storm the U.S. Capitol in an attempt to stop certification of the 2020 election. Five people die. Over 1,200 charged. Proud Boys and Oath Keepers leaders convicted of seditious conspiracy', type: 'critical' },
      { date: '2022-05-14', event: 'White supremacist Payton Gendron murders 10 Black people at a grocery store in Buffalo, New York. He livestreamed the attack and cited the "Great Replacement" conspiracy theory in a 180-page manifesto', type: 'critical' },
-     { date: '2023', event: 'FBI Director testifies that domestic terrorism caseload has more than doubled since 2020. ADL data shows right-wing extremists committed 75% of all domestic extremist murders between 2012-2021', type: 'default' },
+     { date: '2023', event: 'FBI Director testifies that domestic terrorism caseload has more than doubled since 2020. ADL data shows right-wing extremists committed 75% of all domestic extremist murders between 2012-2021', type: 'default' }
    ],
  },
   'donor-crimes': {
@@ -668,7 +656,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'Lev Parnas and Igor Fruman, associates of Rudy Giuliani, were convicted of funneling foreign money into U.S. political campaigns. They used shell companies and straw donors to channel donations from a Russian businessman to Republican candidates and PACs, including a $325,000 donation to the pro-Trump America First Action super PAC.',
  'The Sackler family, owners of Purdue Pharma, donated hundreds of millions to universities, museums, and political causes while their company fueled the opioid crisis that killed over 500,000 Americans. Their philanthropic donations helped shield them from accountability and bought political influence that delayed regulatory action against OxyContin.',
  'Norman Braman, Jeffrey Epstein, Allen Stanford, and numerous other donors with criminal histories leveraged their political contributions to gain access, influence, and in some cases, leniency. Stanford, who ran a $7 billion Ponzi scheme, donated millions to both parties and received personal meetings with members of Congress who then pressured the SEC to ease its investigation.',
- 'The Citizens United decision in 2010 opened floodgates for dark money, making it nearly impossible to trace the origins of political donations. Super PACs and 501(c)(4) organizations became conduits for anonymous money, with total dark money spending exceeding $1 billion in the 2020 election cycle alone. The FEC, chronically underfunded and politically deadlocked, has proven unable or unwilling to enforce existing campaign finance laws.',
+ 'The Citizens United decision in 2010 opened floodgates for dark money, making it nearly impossible to trace the origins of political donations. Super PACs and 501(c)(4) organizations became conduits for anonymous money, with total dark money spending exceeding $1 billion in the 2020 election cycle alone. The FEC, chronically underfunded and politically deadlocked, has proven unable or unwilling to enforce existing campaign finance laws.'
  ],
  tags: ['Dark Money', 'Campaign Finance', 'Political Donors', 'Corruption', 'Pay-to-Play', 'Citizens United'],
  sources: [
@@ -676,15 +664,13 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
  { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
- { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
  { title: 'ProPublica Electionland', url: 'https://www.propublica.org/electionland', type: 'Investigation' },
  { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
- { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'FEC', type: 'agency', relationship: 'Failed to enforce campaign finance laws', href: '/entities/agencies/fec' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecution of illegal donors', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecution of illegal donors', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-05-09',
@@ -692,7 +678,7 @@ const investigations_d: Record<string, InvestigationData> = {
       timeline: [
      { date: '2010', event: 'The Citizens United decision in 2010 opened floodgates for dark money, making it nearly impossible to trace the origins of political donations.', type: 'default' },
      { date: '2020', event: 'Super PACs and 501(c)(4) organizations became conduits for anonymous money, with total dark money spending exceeding $1 billion in the 2020 election cycle alone.', type: 'political' },
-     { date: '2022', event: 'His donations made him one of the largest political donors in the 2022 election cycle before his fraud empire collapsed.', type: 'political' },
+     { date: '2022', event: 'His donations made him one of the largest political donors in the 2022 election cycle before his fraud empire collapsed.', type: 'political' }
      ],
  },
   'drone-strike-program': {
@@ -709,20 +695,20 @@ const investigations_d: Record<string, InvestigationData> = {
  'Anwar al-Awlaki, a U.S. citizen, was killed by a drone strike in Yemen in September 2011 without due process. Two weeks later, his 16-year-old son Abdulrahman, also an American citizen, was killed in a separate strike. The Obama administration never formally explained the legal basis for killing a minor American citizen. Under the Trump administration, al-Awlaki\'s 8-year-old daughter Nawar was killed during a 2017 raid in Yemen.',
  'The Trump administration loosened drone strike rules significantly, revoking an Obama-era executive order requiring public reporting of civilian casualties and expanding the CIA\'s authority to conduct strikes independently. Drone strikes in Somalia tripled under Trump, and strikes in Yemen increased by 300%. The relaxed rules allowed "signature strikes" targeting groups of military-age males based on behavioral patterns rather than confirmed identities.',
  'A 2021 New York Times investigation based on classified Pentagon documents revealed that a U.S. drone strike in Kabul on August 29, 2021 killed 10 Afghan civilians, including 7 children, in what the military initially claimed was a "righteous strike" against an ISIS-K operative. The target was an aid worker loading water jugs into his car. No one was disciplined for the strike.',
- 'Leaked classified documents known as "The Drone Papers," published by The Intercept in 2015, revealed that during one five-month period of operations in Afghanistan, nearly 90% of the people killed in drone strikes were not the intended targets. The documents showed the military designated unknown victims as "enemies killed in action" unless posthumous evidence proved otherwise.',
+ 'Leaked classified documents known as "The Drone Papers," published by The Intercept in 2015, revealed that during one five-month period of operations in Afghanistan, nearly 90% of the people killed in drone strikes were not the intended targets. The documents showed the military designated unknown victims as "enemies killed in action" unless posthumous evidence proved otherwise.'
  ],
  tags: ['Military Operations', 'Investigation', 'Accountability', 'War Crimes'],
  sources: [
  { title: 'Bureau of Investigative Journalism Drone Strike Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Investigative' },
  { title: 'The Drone Papers - The Intercept', url: 'https://theintercept.com/drone-papers/', type: 'Investigative' },
- { title: 'New York Times Kabul Strike Investigation', url: 'https://www.nytimes.com/2021/09/10/world/asia/us-air-strike-drone-kabul-afghanistan-isis.html', type: 'Investigative' },
+ { title: 'New York Times Kabul Strike Investigation', url: 'https://www.nytimes.com/2021/09/10/world/asia/us-air-strike-drone-kabul-afghanistan-isis.html', type: 'Investigative' }
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated parallel drone strike program outside military chain of command', href: '/entities/agencies/cia' },
  { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'JSOC conducted majority of targeted killing operations', href: '/entities/agencies/dod' },
  { id: '3', name: 'General Atomics', type: 'corporation', relationship: 'Manufacturer of MQ-9 Reaper and MQ-1 Predator drones' },
  { id: '4', name: 'Barack Obama', type: 'individual', relationship: 'Expanded and formalized the targeted killing program', href: '/entities/individuals/barack-obama' },
- { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Loosened strike rules, revoked civilian casualty reporting', href: '/entities/individuals/donald-trump' },
+ { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Loosened strike rules, revoked civilian casualty reporting', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-04-26',
@@ -735,7 +721,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017-01-29', event: 'Trump-authorized SEAL raid in Yemen kills 8-year-old Nawar al-Awlaki, the third generation of one American family killed by their own government', type: 'critical' },
      { date: '2017-03', event: 'Trump revokes Obama-era civilian casualty reporting requirements and expands CIA strike authority. Drone strikes in Somalia triple the entire Obama-era total', type: 'political' },
      { date: '2020-01-03', event: 'U.S. drone kills Iranian General Qasem Soleimani at Baghdad airport, nearly triggering open war with Iran', type: 'critical' },
-     { date: '2021-08-29', event: 'Drone strike on "imminent ISIS threat" in Kabul kills 10 civilians including 7 children from the Ahmadi family. Military initially calls it "righteous." No one disciplined', type: 'critical' },
+     { date: '2021-08-29', event: 'Drone strike on "imminent ISIS threat" in Kabul kills 10 civilians including 7 children from the Ahmadi family. Military initially calls it "righteous." No one disciplined', type: 'critical' }
    ],
  },  'drug-price-gouging': {
  title: 'Pharmaceutical Drug Price Gouging',
@@ -755,21 +741,20 @@ const investigations_d: Record<string, InvestigationData> = {
  'LOBBYING MACHINE: The pharmaceutical industry spent $356 million on lobbying in 2021, more than any other industry. PhRMA, the trade group, deploys an army of lobbyists outnumbering members of Congress. Industry donations flow to members of both parties who vote against drug pricing reform.',
  'MEDICARE NEGOTIATION BLOCKED: For decades, Congress prohibited Medicare from negotiating drug prices, a provision worth hundreds of billions to the pharmaceutical industry. The 2022 Inflation Reduction Act allowed negotiation for just 10 drugs initially, a fraction of the problem.',
  'GLOBAL PRICE COMPARISON: Americans pay 256% more for brand-name drugs than citizens of 32 other OECD nations. The same vial of Humira costs $5,800 in the U.S. and $1,100 in Germany. The disparity exists because other nations negotiate prices while the U.S. allows companies to set whatever price the market will bear.',
- 'EXECUTIVE COMPENSATION: Pharmaceutical CEO compensation averaged $16.3 million in 2021. The 10 highest-paid pharma executives collectively earned over $350 million. This compensation is funded by American patients who pay the highest drug prices in the world.',
+ 'EXECUTIVE COMPENSATION: Pharmaceutical CEO compensation averaged $16.3 million in 2021. The 10 highest-paid pharma executives collectively earned over $350 million. This compensation is funded by American patients who pay the highest drug prices in the world.'
  ],
  tags: ['Pharma', 'Drug Pricing', 'Insulin', 'EpiPen', 'Patent Abuse', 'Medicare', 'Lobbying'],
  sources: [
  { title: 'House Oversight Drug Pricing Investigation', url: 'https://oversight.house.gov/', type: 'Congressional Record' },
  { title: 'FTC Report on PBMs', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Government Report' },
  { title: 'RAND Drug Price Comparison Study', url: 'https://www.rand.org/pubs/research_reports/RRA788-1.html', type: 'Research Study' },
- { title: 'T1International Insulin Rationing Survey', url: 'https://www.t1international.com/access-survey/', type: 'Research Study' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'T1International Insulin Rationing Survey', url: 'https://www.t1international.com/access-survey/', type: 'Research Study' }
  ],
  affiliations: [
  { id: '1', name: 'Pfizer', type: 'corporation', relationship: 'Major drug price increases, lobbying against reform', href: '/entities/corporations/pfizer' },
  { id: '2', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Patent thickets on key drugs', href: '/entities/corporations/johnson-and-johnson' },
  { id: '3', name: 'Congress', type: 'agency', relationship: 'Blocked Medicare negotiation for decades', href: '/entities/agencies/congress' },
- { id: '4', name: 'FDA', type: 'agency', relationship: 'Slow generic approval process benefits brand monopolies', href: '/entities/agencies/fda' },
+ { id: '4', name: 'FDA', type: 'agency', relationship: 'Slow generic approval process benefits brand monopolies', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2024-01-01',
@@ -784,7 +769,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017-03', event: 'Shkreli convicted of securities fraud and sentenced to 7 years; House Oversight Committee launches sweeping investigation into pharmaceutical drug pricing across the industry', type: 'legal' },
      { date: '2019', event: 'AbbVie\'s Humira; protected by 165 patents forming a "patent thicket"; generates over $19 billion in annual U.S. sales at $5,800 per injection while costing $1,100 in Germany for the identical drug', type: 'financial' },
      { date: '2021', event: 'Pharmaceutical industry spends $356 million on lobbying; more than any other industry. CEO compensation averages $16.3 million. The top 10 pharma executives collectively earn over $350 million', type: 'financial' },
-     { date: '2022-08', event: 'Inflation Reduction Act signed; allows Medicare to negotiate prices on just 10 drugs initially. Eli Lilly, Novo Nordisk, and Sanofi announce insulin price caps around $35 after years of public pressure', type: 'legal' },
+     { date: '2022-08', event: 'Inflation Reduction Act signed; allows Medicare to negotiate prices on just 10 drugs initially. Eli Lilly, Novo Nordisk, and Sanofi announce insulin price caps around $35 after years of public pressure', type: 'legal' }
    ],
  },
   'dupont-crimes': {
@@ -801,7 +786,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'A court-mandated independent science panel (the C8 Science Panel) studied 69,000 exposed residents over seven years and found "probable links" between C8 exposure and six diseases: kidney cancer, testicular cancer, thyroid disease, ulcerative colitis, high cholesterol, and pregnancy-induced hypertension. DuPont settled over 3,500 personal injury lawsuits for $670 million.',
  'DuPont\'s PFAS chemicals are now known as "forever chemicals" because they do not break down in the environment. PFAS contamination has been detected in the blood of 98% of Americans and in drinking water systems serving over 100 million people. The EPA set its first enforceable PFAS drinking water limits in 2024; over 60 years after DuPont knew the chemicals were dangerous.',
  'Beyond PFAS, DuPont\'s history of environmental crime spans decades. The company was responsible for widespread contamination from its Chambers Works facility in New Jersey, mercury pollution from its Belle, West Virginia plant, and exposure of workers to carcinogenic chemicals at multiple facilities. DuPont spun off its chemical liabilities into a subsidiary called Chemours in 2015, which environmental advocates called a deliberate attempt to shield the parent company from cleanup costs.',
- 'In 2023, DuPont, Chemours, and Corteva (another DuPont spinoff) agreed to pay $1.185 billion to settle PFAS contamination claims from U.S. public water systems. 3M separately agreed to pay up to $12.5 billion for its role in PFAS contamination. Total industry liability for PFAS cleanup is estimated to exceed $100 billion.',
+ 'In 2023, DuPont, Chemours, and Corteva (another DuPont spinoff) agreed to pay $1.185 billion to settle PFAS contamination claims from U.S. public water systems. 3M separately agreed to pay up to $12.5 billion for its role in PFAS contamination. Total industry liability for PFAS cleanup is estimated to exceed $100 billion.'
  ],
  tags: ['DuPont', 'PFAS', 'Chemical Contamination', 'Corporate Crime', 'Environmental Pollution', 'Teflon', 'C8'],
  sources: [
@@ -810,12 +795,11 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
- { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
-   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'DuPont', type: 'corporation', relationship: 'Concealed PFAS contamination for decades', href: '/entities/corporations/dupont' },
- { id: '2', name: 'EPA', type: 'agency', relationship: 'Failed to regulate PFAS chemicals', href: '/entities/agencies/epa' },
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Failed to regulate PFAS chemicals', href: '/entities/agencies/epa' }
  ],
    eventOriginDate: '1960-01-01',
    lastActivityDate: '2025-07-17',
@@ -824,7 +808,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '1984', event: 'Internal DuPont studies had found C8 in the blood of 100% of tested workers and in the local community\'s water supply as early as 1984', type: 'default' },
      { date: '2015', event: 'DuPont spun off its chemical liabilities into a subsidiary called Chemours in 2015, which environmental advocates called a deliberate attempt to shield the parent company from cleanup costs', type: 'financial' },
      { date: '2023', event: 'In 2023, DuPont, Chemours, and Corteva (another DuPont spinoff) agreed to pay $1.185 billion to settle PFAS contamination claims from U.S', type: 'political' },
-     { date: '2024', event: 'The EPA set its first enforceable PFAS drinking water limits in 2024; over 60 years after DuPont knew the chemicals were dangerous', type: 'default' },
+     { date: '2024', event: 'The EPA set its first enforceable PFAS drinking water limits in 2024; over 60 years after DuPont knew the chemicals were dangerous', type: 'default' }
    ],
  },
   'disinformation-warfare-infrastructure': {
@@ -840,19 +824,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'China\'s disinformation infrastructure operates at a scale that dwarfs Russian operations. The "50 Cent Army" (wumao); named for the alleged per-post payment; is estimated to include 2 million part-time and full-time government-directed commentators who produce an estimated 448 million social media posts annually within China, according to a 2017 Harvard study by Gary King. Externally, the Chinese Communist Party operates "wolf warrior" diplomatic accounts on Twitter/X and other platforms, manages a network of state media outlets (CGTN, Xinhua, People\'s Daily) that operate in dozens of languages, and has been linked to coordinated inauthentic behavior campaigns identified by Meta, Twitter, and Google on topics including Hong Kong protests, Xinjiang, Taiwan, and COVID-19 origins.',
       'The Pentagon\'s own information warfare operations were exposed in August 2022 when the Stanford Internet Observatory and Graphika identified a network of fake social media accounts promoting US military interests on Twitter, Facebook, and Instagram. The accounts; which used AI-generated profile photos and posted in Arabic, Farsi, and Central Asian languages; promoted the US military presence in the Middle East and criticized Russia, China, and Iran. Meta and Twitter removed approximately 150 accounts linked to the network. The Pentagon\'s Central Command (CENTCOM) acknowledged "information operations" but declined to discuss specifics. The revelation undermined US credibility in calling out foreign disinformation, demonstrating that the American military had adopted the same tactics it publicly condemned.',
       'Private sector disinformation-for-hire has become a global industry. Team Jorge; an Israeli disinformation operation exposed by a consortium of journalists in 2023; offered election manipulation services to clients worldwide using a software suite called AIMS that managed thousands of fake social media accounts with AI-generated profiles. The Archimedes Group, also Israeli, was caught by Facebook running disinformation campaigns targeting elections in Africa and Southeast Asia. In India, political parties hire "IT cells" that coordinate hashtag campaigns, troll attacks on journalists, and viral WhatsApp misinformation. In the Philippines, troll farms supporting political candidates operated from Manila offices with hundreds of employees. The commodification of disinformation means that any government, political party, or corporation with a budget of a few hundred thousand dollars can purchase a full-service influence operation.',
-      'AI-generated content has eliminated the remaining technical barriers to disinformation at scale. Large language models can produce persuasive text in any language and style. Deepfake video technology can create convincing footage of public figures saying things they never said. Voice cloning can replicate any person\'s speech patterns from minutes of sample audio. In 2024, an AI-generated robocall mimicking President Biden\'s voice was sent to thousands of New Hampshire voters urging them not to vote in the primary. The cost of generating synthetic disinformation content has fallen from thousands of dollars per piece (human-created) to fractions of a cent (AI-generated). Platform detection systems; themselves based on AI; are in a perpetual arms race with generation tools, and detection consistently lags behind generation capability. The fundamental challenge is that disinformation is now cheaper to produce than it is to debunk.',
+      'AI-generated content has eliminated the remaining technical barriers to disinformation at scale. Large language models can produce persuasive text in any language and style. Deepfake video technology can create convincing footage of public figures saying things they never said. Voice cloning can replicate any person\'s speech patterns from minutes of sample audio. In 2024, an AI-generated robocall mimicking President Biden\'s voice was sent to thousands of New Hampshire voters urging them not to vote in the primary. The cost of generating synthetic disinformation content has fallen from thousands of dollars per piece (human-created) to fractions of a cent (AI-generated). Platform detection systems; themselves based on AI; are in a perpetual arms race with generation tools, and detection consistently lags behind generation capability. The fundamental challenge is that disinformation is now cheaper to produce than it is to debunk.'
     ],
     tags: ['Disinformation', 'Information Warfare', 'Internet Research Agency', 'Pentagon IO', 'AI-Generated Content', 'Troll Farms'],
     sources: [
       { title: 'Mueller Report Vol. I', url: 'https://www.justice.gov/archives', type: 'Government Record' },
       { title: 'Stanford Internet Observatory Pentagon IO Report', url: 'https://cyber.fsi.stanford.edu', type: 'Research Study' },
       { title: 'Harvard Study on Chinese 50 Cent Army', url: 'https://gking.harvard.edu', type: 'Research Study' },
-      { title: 'Meta Coordinated Inauthentic Behavior Reports', url: 'https://about.fb.com/news/tag/coordinated-inauthentic-behavior', type: 'Research Study' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'Meta Coordinated Inauthentic Behavior Reports', url: 'https://about.fb.com/news/tag/coordinated-inauthentic-behavior', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'CENTCOM operated fake social media accounts promoting US military interests; removed by Meta and Twitter in 2022', href: '/entities/agencies/pentagon' },
- { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Russian IRA operations; counterintelligence role in foreign influence campaigns', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Russian IRA operations; counterintelligence role in foreign influence campaigns', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-01-01',
@@ -863,7 +846,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017', event: 'Harvard study by Gary King estimates China\'s "50 Cent Army" (wumao) includes 2 million part-time and full-time government-directed commentators producing an estimated 448 million social media posts annually', type: 'default' },
      { date: '2022-08', event: 'Stanford Internet Observatory and Graphika expose Pentagon CENTCOM fake social media accounts promoting US military interests in Arabic, Farsi, and Central Asian languages. Meta and Twitter remove approximately 150 accounts', type: 'critical' },
      { date: '2023', event: 'Team Jorge, an Israeli disinformation-for-hire operation, exposed by journalist consortium. The group offered election manipulation services worldwide using AIMS software managing thousands of fake accounts with AI-generated profiles', type: 'political' },
-     { date: '2024', event: 'AI-generated robocall mimicking President Biden\'s voice sent to thousands of New Hampshire voters urging them not to vote in the primary. Cost of synthetic disinformation drops to fractions of a cent per piece', type: 'political' },
+     { date: '2024', event: 'AI-generated robocall mimicking President Biden\'s voice sent to thousands of New Hampshire voters urging them not to vote in the primary. Cost of synthetic disinformation drops to fractions of a cent per piece', type: 'political' }
    ],
   },
   'deutsche-bank-money-laundering': {
@@ -879,20 +862,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'Deutsche Bank served as a critical correspondent bank for Danske Bank\'s Estonian branch; the node through which approximately $230 billion in suspicious transactions from Russia, Azerbaijan, and other former Soviet states flowed between 2007 and 2015 in what became the largest money laundering scandal in European history. Deutsche Bank processed Danske Estonia\'s dollar-denominated transactions and served as its gateway to the US financial system. Despite multiple internal warnings and a 2013 JP Morgan decision to terminate its correspondent relationship with Danske Estonia due to money laundering concerns, Deutsche Bank continued the relationship. The bank belatedly terminated correpsondent banking with Danske Estonia in 2015 only after the scale of the problem became undeniable. Deutsche Bank paid $186 million to the Federal Reserve in 2023 for its role.',
       'Deutsche Bank\'s relationship with Jeffrey Epstein began around 2013 and continued until 2018; five years after Epstein\'s 2008 conviction for soliciting prostitution from a minor and his placement on the sex offender registry. Internal Deutsche Bank communications obtained during the New York DFS investigation showed that relationship managers expressed concerns about Epstein and that the bank\'s compliance function was aware of the risks, but the account was maintained because Epstein was a profitable client who brought high-net-worth referrals. The bank processed hundreds of transactions for Epstein totaling tens of millions of dollars, including payments to young women and suspected accomplices. The New York Department of Financial Services fined Deutsche Bank $150 million in July 2020 for "significant compliance failures" in the Epstein relationship.',
       'Deutsche Bank provided over $2 billion in loans to Donald Trump and the Trump Organization over two decades; a relationship that persisted even as other major banks refused to lend to Trump after multiple bankruptcies and lawsuits. The loans included financing for the Trump International Hotel in Washington, DC, the Doral golf resort, and the Trump International Hotel and Tower in Chicago. Congressional investigators sought Deutsche Bank\'s records related to Trump\'s finances, leading to a Supreme Court battle over subpoena authority (Trump v. Deutsche Bank AG, 2020). The Manhattan District Attorney\'s investigation obtained Deutsche Bank records that contributed to the Trump Organization\'s fraud conviction. Deutsche Bank\'s willingness to lend to Trump when no other institution would remains unexplained; theories ranging from Russian co-signed guarantees to simple risk management failures have never been definitively resolved.',
-      'Deutsche Bank\'s pattern of violations extends well beyond these headline cases. The bank paid $2.5 billion in fines for its role in the LIBOR manipulation scandal (2015). It paid $7.2 billion to settle mortgage-backed securities fraud charges with the DOJ (2017). It was fined $258 million for violating US sanctions against Iran, Syria, Libya, Myanmar, and Sudan (2015). It paid $220 million to settle allegations of rigging ISDAfix, a benchmark interest rate (2018). The bank\'s total fines and settlements since 2008 exceed $18 billion. Despite this record, Deutsche Bank has never been designated a "systemically important" threat warranting serious structural intervention. No senior executive has faced criminal prosecution for overseeing a bank that functioned as the world\'s most reliable financial intermediary for illicit money flows. The bank continues to operate with approximately $1.4 trillion in assets.',
+      'Deutsche Bank\'s pattern of violations extends well beyond these headline cases. The bank paid $2.5 billion in fines for its role in the LIBOR manipulation scandal (2015). It paid $7.2 billion to settle mortgage-backed securities fraud charges with the DOJ (2017). It was fined $258 million for violating US sanctions against Iran, Syria, Libya, Myanmar, and Sudan (2015). It paid $220 million to settle allegations of rigging ISDAfix, a benchmark interest rate (2018). The bank\'s total fines and settlements since 2008 exceed $18 billion. Despite this record, Deutsche Bank has never been designated a "systemically important" threat warranting serious structural intervention. No senior executive has faced criminal prosecution for overseeing a bank that functioned as the world\'s most reliable financial intermediary for illicit money flows. The bank continues to operate with approximately $1.4 trillion in assets.'
     ],
     tags: ['Money Laundering', 'Deutsche Bank', 'Russian Mirror Trades', 'Danske Bank', 'Jeffrey Epstein', 'LIBOR'],
     sources: [
       { title: 'NYDFS Deutsche Bank Epstein Consent Order', url: 'https://www.dfs.ny.gov', type: 'Government Record' },
       { title: 'DOJ Deutsche Bank Settlements', url: 'https://www.justice.gov', type: 'Court Document' },
       { title: 'FCA Mirror Trades Enforcement', url: 'https://www.fca.org.uk', type: 'Government Record' },
-      { title: 'Federal Reserve Danske Bank Enforcement Action', url: 'https://www.federalreserve.gov', type: 'Government Record' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Federal Reserve Danske Bank Enforcement Action', url: 'https://www.federalreserve.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: '$7.2 billion MBS fraud settlement; $258 million sanctions violations; no criminal prosecution of executives', href: '/entities/agencies/doj' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
-
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2025-07-29',
@@ -910,7 +891,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017', event: 'The bank paid $630 million in fines to US and UK regulators in January 2017; no individual executive was criminally charged', type: 'financial' },
      { date: '2018', event: 'It paid $220 million to settle allegations of rigging ISDAfix, a benchmark interest rate (2018)', type: 'financial' },
      { date: '2020-07-01', event: 'The New York Department of Financial Services fined Deutsche Bank $150 million in July 2020 for "significant compliance failures" in the Epstein relationship', type: 'financial' },
-     { date: '2023', event: 'Deutsche Bank paid $186 million to the Federal Reserve in 2023 for its role', type: 'financial' },
+     { date: '2023', event: 'Deutsche Bank paid $186 million to the Federal Reserve in 2023 for its role', type: 'financial' }
    ],
    moneyTrail: [
      { date: '2011-01-01', from: 'Russian clients', to: 'Deutsche Bank Moscow → Deutsche Bank London', amount: '$10,000,000,000', purpose: 'Mirror trading scheme: simultaneous buy/sell orders in rubles and dollars to launder money out of Russia', documented: true },
@@ -920,7 +901,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017-01-01', from: 'Deutsche Bank', to: 'US / UK regulators', amount: '$630,000,000', purpose: 'Fines for Russian mirror trading scheme — no individual executives criminally charged', documented: true },
      { date: '2015-01-01', from: 'Deutsche Bank', to: 'US Treasury (OFAC)', amount: '$258,000,000', purpose: 'Fines for violating sanctions against Iran, Syria, Libya, Myanmar, and Sudan', documented: true },
      { date: '2020-07-01', from: 'Deutsche Bank', to: 'NY Dept of Financial Services', amount: '$150,000,000', purpose: 'Fine for compliance failures in Jeffrey Epstein banking relationship (2013-2018)', documented: true },
-     { date: '2023-01-01', from: 'Deutsche Bank', to: 'Federal Reserve', amount: '$186,000,000', purpose: 'Additional fine related to compliance and money laundering failures', documented: true },
+     { date: '2023-01-01', from: 'Deutsche Bank', to: 'Federal Reserve', amount: '$186,000,000', purpose: 'Additional fine related to compliance and money laundering failures', documented: true }
    ],
   },
   'domestic-servitude-hidden-victims': {
@@ -936,19 +917,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'Diplomatic households represent a particularly egregious category. Foreign diplomats hold A-1 and A-2 visas that confer varying degrees of immunity from criminal prosecution under the Vienna Convention on Diplomatic Relations. Domestic workers employed by diplomats receive A-3 or G-5 visas that tie their legal status to their employer; if they leave, they become undocumented. Between 2010 and 2023, the State Department received over 60 formal complaints from domestic workers alleging trafficking, wage theft, and physical abuse by diplomatic employers. A landmark 2008 case involved Vishranthamma Swarna, an Indian domestic worker held in forced labor by a Kuwaiti diplomat in New York; the diplomat claimed immunity, and the case was dismissed. Congress passed the William Wilberforce Trafficking Victims Protection Reauthorization Act, which theoretically protects trafficking victims regardless of their employers\' diplomatic status, but enforcement remains extremely rare because the State Department prioritizes diplomatic relations over worker protection.',
       'The A-3/G-5 visa program has been described by advocacy organizations as "a trafficking pipeline." Workers on these visas cannot change employers, cannot extend their stay independently, and lose legal status immediately if they leave. Their employers control their housing, food, transportation, and communication. A 2015 GAO report found that the State Department failed to adequately screen A-3/G-5 visa applicants for trafficking indicators, did not conduct private interviews with workers separate from their employers, and had no systematic mechanism for tracking worker welfare after visa issuance. Between 2013 and 2019, the State Department issued approximately 3,500 A-3/G-5 visas with virtually no compliance monitoring.',
       'Suburban wealthy households across the US hold domestic workers in conditions meeting the federal definition of forced labor. The Trafficking Victims Protection Act of 2000 defines forced labor as work obtained through force, fraud, or coercion. Common coercion methods include threats of deportation, physical violence, withholding of food, restriction of movement, confiscation of identification documents, and threats against family members in the worker\'s home country. A 2019 case in Virginia involved a Saudi couple who held a Filipina domestic worker for 12 years; paying her nothing, confiscating her passport, and forbidding her from leaving the house or using a phone. She escaped with the help of a neighbor. Maximum federal sentences for forced labor (18 U.S.C. section 1589) are 20 years, but median sentences in domestic servitude cases are 3-5 years.',
-      'Prosecution and victim protection remain grossly inadequate. DOJ\'s Human Trafficking Prosecution Unit brought fewer than 20 domestic servitude cases annually between 2015 and 2023. Victims who escape face immediate immigration consequences; while T-visas (trafficking victim visas) exist, USCIS approved only approximately 1,800 T-visa applications in FY2022 against a statutory cap of 5,000, and the application process takes 18-24 months during which victims have no stable legal status. Many victims are reluctant to report because they fear deportation, distrust law enforcement, or believe (often correctly) that their employer\'s wealth and connections will protect them. The National Domestic Workers Alliance, which advocates for the estimated 2.2 million domestic workers in the US, has pushed for state-level Domestic Workers\' Bills of Rights; as of 2024, 10 states and two municipalities have enacted such laws, but federal domestic worker protections remain among the weakest in the developed world.',
+      'Prosecution and victim protection remain grossly inadequate. DOJ\'s Human Trafficking Prosecution Unit brought fewer than 20 domestic servitude cases annually between 2015 and 2023. Victims who escape face immediate immigration consequences; while T-visas (trafficking victim visas) exist, USCIS approved only approximately 1,800 T-visa applications in FY2022 against a statutory cap of 5,000, and the application process takes 18-24 months during which victims have no stable legal status. Many victims are reluctant to report because they fear deportation, distrust law enforcement, or believe (often correctly) that their employer\'s wealth and connections will protect them. The National Domestic Workers Alliance, which advocates for the estimated 2.2 million domestic workers in the US, has pushed for state-level Domestic Workers\' Bills of Rights; as of 2024, 10 states and two municipalities have enacted such laws, but federal domestic worker protections remain among the weakest in the developed world.'
     ],
     tags: ['Domestic Servitude', 'Human Trafficking', 'Forced Labor', 'Diplomatic Immunity', 'Visa Abuse', 'Domestic Workers'],
     sources: [
       { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Research Study' },
       { title: 'GAO Report on A-3/G-5 Visa Program', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'DOJ Human Trafficking Prosecution Reports', url: 'https://www.justice.gov/humantrafficking', type: 'Government Record' },
-      { title: 'National Domestic Workers Alliance Research', url: 'https://www.domesticworkers.org', type: 'Research Study' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'National Domestic Workers Alliance Research', url: 'https://www.domesticworkers.org', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Fewer than 20 domestic servitude prosecutions annually; Human Trafficking Prosecution Unit chronically under-resourced', href: '/entities/agencies/doj' },
- { id: '2', name: 'DHS', type: 'agency', relationship: 'A-3/G-5 visa program oversight; T-visa processing delays of 18-24 months', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'A-3/G-5 visa program oversight; T-visa processing delays of 18-24 months', href: '/entities/agencies/dhs' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-09-10',
@@ -962,7 +942,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2015', event: 'A 2015 GAO report found that the State Department failed to adequately screen A-3/G-5 visa applicants for trafficking indicators, did not conduct private interviews with workers separate from their', type: 'default' },
      { date: '2015', event: 'DOJ\'s Human Trafficking Prosecution Unit brought fewer than 20 domestic servitude cases annually between 2015 and 2023', type: 'default' },
      { date: '2019', event: 'A 2019 case in Virginia involved a Saudi couple who held a Filipina domestic worker for 12 years; paying her nothing, confiscating her passport, and forbidding her from leaving the house or using a', type: 'political' },
-     { date: '2024', event: 'The National Domestic Workers Alliance, which advocates for the estimated 2.2 million domestic workers in the US, has pushed for state-level Domestic Workers\' Bills of Rights; as of 2024, 10 states...', type: 'political' },
+     { date: '2024', event: 'The National Domestic Workers Alliance, which advocates for the estimated 2.2 million domestic workers in the US, has pushed for state-level Domestic Workers\' Bills of Rights; as of 2024, 10 states...', type: 'political' }
    ],
   },
   'drug-trafficking-supply-chain-analysis': {
@@ -978,19 +958,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'Mexican cartels; principally the Sinaloa Cartel and Cartel Jalisco Nueva Generacion (CJNG); operate the synthesis laboratories and control distribution into the United States. The Sinaloa Cartel\'s fentanyl operation is centered in Culiacan, Sinaloa and surrounding areas, where DEA estimates dozens of industrial-scale labs produce thousands of kilograms of fentanyl annually. The cartel employs chemists recruited from Mexican universities to synthesize fentanyl from precursors using relatively straightforward chemical processes. The finished product is pressed into counterfeit pills (typically imitating Oxycodone M30 tablets or Xanax bars) using industrial tablet presses; the DEA seized over 60 million fentanyl pills in 2023. A single counterfeit pill costs approximately $0.50-$1.00 to produce in Mexico and sells for $5-$30 on American streets; a markup of 1,000% or more.',
       'The primary trafficking corridor moves fentanyl through ports of entry on the US-Mexico border, not through the desert crossings that dominate political discourse. DEA data consistently shows that over 90% of fentanyl seizures occur at official ports of entry, concealed in vehicles and commercial trucks driven by US citizens or legal residents. The Nogales, Arizona port; the busiest produce crossing on the border; is a major vector. Fentanyl is hidden in vehicle compartments, mixed with legitimate cargo, and occasionally dissolved in liquid form for transport in commercial containers. The volume of legitimate cross-border commerce (approximately $1.8 billion daily) makes comprehensive inspection physically impossible; CBP inspects roughly 2% of commercial vehicles crossing the border.',
       'Domestic distribution networks operate through decentralized cells. Upon crossing the border, fentanyl is typically moved to hub cities; Phoenix, Los Angeles, Houston, Dallas, Atlanta, and Chicago; where it is distributed to regional networks. Distribution increasingly occurs through social media platforms; Snapchat, Instagram, and TikTok are used to advertise counterfeit pills, with transactions completed through encrypted messaging and deliveries made by drivers using GPS coordinates. The DEA\'s "One Pill Can Kill" campaign highlights that laboratory analysis finds approximately 6 in 10 counterfeit pills seized contain a potentially lethal dose of fentanyl (2 milligrams or more). The shift from heroin to fentanyl has been driven entirely by economics; fentanyl is 50-100 times more potent by weight than heroin, meaning a single kilogram of fentanyl has the equivalent effect of 50-100 kilograms of heroin, dramatically reducing transportation and concealment costs.',
-      'US government response has been fragmented across agencies with competing priorities. The DEA focuses on dismantling trafficking organizations through investigations and extradition. CBP focuses on interdiction at the border. The State Department focuses on diplomatic pressure on China and Mexico. ONDCP coordinates policy but lacks operational authority. Despite spending over $35 billion annually on drug enforcement, the US government has failed to meaningfully reduce fentanyl supply; overdose deaths increased from 14,000 (2010) to over 70,000 (2023). Critics argue that supply-side enforcement is structurally incapable of stopping a substance so potent that a year\'s US supply fits in a few shipping containers, and that demand reduction through treatment, harm reduction (naloxone distribution, drug checking services), and safe supply programs offers the only realistic path to reducing deaths.',
+      'US government response has been fragmented across agencies with competing priorities. The DEA focuses on dismantling trafficking organizations through investigations and extradition. CBP focuses on interdiction at the border. The State Department focuses on diplomatic pressure on China and Mexico. ONDCP coordinates policy but lacks operational authority. Despite spending over $35 billion annually on drug enforcement, the US government has failed to meaningfully reduce fentanyl supply; overdose deaths increased from 14,000 (2010) to over 70,000 (2023). Critics argue that supply-side enforcement is structurally incapable of stopping a substance so potent that a year\'s US supply fits in a few shipping containers, and that demand reduction through treatment, harm reduction (naloxone distribution, drug checking services), and safe supply programs offers the only realistic path to reducing deaths.'
     ],
     tags: ['Fentanyl', 'Drug Trafficking', 'Sinaloa Cartel', 'Chinese Precursors', 'Opioid Crisis', 'DEA'],
     sources: [
       { title: 'DEA National Drug Threat Assessment', url: 'https://www.dea.gov/drug-information', type: 'Government Record' },
       { title: 'CDC WONDER Overdose Mortality Data', url: 'https://wonder.cdc.gov', type: 'Government Record' },
-      { title: 'CRS Fentanyl Supply Chain Reports', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'CRS Fentanyl Supply Chain Reports', url: 'https://crsreports.congress.gov', type: 'Congressional Report' }
     ],
     affiliations: [
  { id: '1', name: 'DEA', type: 'agency', relationship: 'Primary enforcement agency; seized 60 million fentanyl pills in 2023 but supply continues to increase', href: '/entities/agencies/dea' },
- { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
-
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-07-17',
@@ -999,7 +977,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2010', event: 'Despite spending over $35 billion annually on drug enforcement, the US government has failed to meaningfully reduce fentanyl supply; overdose deaths increased from 14,000 (2010) to over 70,000 (2023)', type: 'critical' },
      { date: '2019', event: 'Before 2019, Chinese labs produced finished fentanyl and shipped it directly to US consumers via international mail', type: 'default' },
      { date: '2019-05-01', event: 'After China scheduled fentanyl as a class in May 2019, production shifted to precursor chemicals; the building blocks from which fentanyl is synthesized', type: 'default' },
-     { date: '2023', event: 'The finished product is pressed into counterfeit pills (typically imitating Oxycodone M30 tablets or Xanax bars) using industrial tablet presses; the DEA seized over 60 million fentanyl pills in 2023', type: 'legal' },
+     { date: '2023', event: 'The finished product is pressed into counterfeit pills (typically imitating Oxycodone M30 tablets or Xanax bars) using industrial tablet presses; the DEA seized over 60 million fentanyl pills in 2023', type: 'legal' }
    ],
   },
   'depopulation-agendas-exposed': {
@@ -1015,20 +993,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'The Indian Health Service (IHS) conducted one of the most systematic sterilization campaigns in American history during the 1960s-1970s. A 1976 Government Accountability Office investigation found that IHS had sterilized 3,406 Native American women at just four of its twelve service areas between 1973 and 1976. Extrapolating to all service areas, researchers estimated that 25-50% of Native American women of childbearing age were sterilized during this period. Consent procedures were routinely violated; women were asked to sign consent forms while in labor, forms were written in English for non-English speakers, and in some cases sterilizations were performed without any documented consent. Dr. Connie Pinkerton-Uri, a Choctaw-Cherokee physician, first documented the pattern and brought it to congressional attention. Senator James Abourezk held hearings, and the resulting Guidelines for Sterilization (1979) established informed consent protections; but no IHS official was ever prosecuted, and no reparations were paid to victims.',
       'Puerto Rico was the site of extensive population control experimentation. Between the 1930s and 1970s, approximately one-third of Puerto Rican women of childbearing age were sterilized; the highest rate in the world. The program was driven by a combination of US colonial policy, Malthusian population theories, and pharmaceutical industry testing. Puerto Rico served as a testing ground for the birth control pill in the 1950s; Dr. Gregory Pincus conducted trials on impoverished Puerto Rican women using hormone doses far higher than those eventually approved, causing serious side effects that were minimized in published research. Sterilization was promoted through government-funded clinics, employer incentive programs, and social pressure. Many women were sterilized during cesarean sections without separate informed consent. The operation became so normalized it was colloquially known as "la operacion"; the title of a 1982 documentary that brought the program to international attention.',
       'California\'s prison system continued non-consensual sterilizations into the 21st century. A 2013 investigation by the Center for Investigative Reporting found that doctors under contract with the California Department of Corrections and Rehabilitation performed approximately 150 tubal ligations on female inmates between 2006 and 2010, often without proper informed consent. Inmates reported being pressured to agree to sterilization during pregnancy or immediately after giving birth while under anesthesia. Dr. James Heinrich, who performed many of the procedures, told reporters the cost was "nothing compared to what you save in welfare" for the women\'s future children. California passed SB 1135 in 2014 banning sterilizations in prisons except for medical necessity. Governor Gavin Newsom signed a reparations program for surviving victims of the state\'s historical eugenics program in 2021; budgeted at $4.5 million for an estimated 600 living survivors.',
-      'In September 2020, whistleblower Dawn Wooten, a nurse at the Irwin County Detention Center (a private ICE facility in Georgia operated by LaSalle Corrections), filed a complaint alleging that Dr. Mahendra Amin had performed an unusually high number of hysterectomies on detained immigrant women, some without proper informed consent or clear medical justification. Congressional investigators documented at least 17 women who underwent gynecological procedures they did not understand or consent to. The DHS Office of Inspector General investigation, completed in 2022, found Amin performed procedures "at a notably higher rate" than would be expected and identified consent documentation failures. However, the OIG stopped short of finding systematic forced sterilization. Amin denied wrongdoing. ICE terminated its contract with Irwin County Detention Center in May 2021, but no criminal charges resulted from the investigation.',
+      'In September 2020, whistleblower Dawn Wooten, a nurse at the Irwin County Detention Center (a private ICE facility in Georgia operated by LaSalle Corrections), filed a complaint alleging that Dr. Mahendra Amin had performed an unusually high number of hysterectomies on detained immigrant women, some without proper informed consent or clear medical justification. Congressional investigators documented at least 17 women who underwent gynecological procedures they did not understand or consent to. The DHS Office of Inspector General investigation, completed in 2022, found Amin performed procedures "at a notably higher rate" than would be expected and identified consent documentation failures. However, the OIG stopped short of finding systematic forced sterilization. Amin denied wrongdoing. ICE terminated its contract with Irwin County Detention Center in May 2021, but no criminal charges resulted from the investigation.'
     ],
     tags: ['Forced Sterilization', 'Eugenics', 'Reproductive Rights', 'Native American Rights', 'ICE Detention', 'Population Control'],
     sources: [
       { title: 'GAO Indian Health Service Sterilization Report (1976)', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'Buck v. Bell 274 U.S. 200 (1927)', url: 'https://www.supremecourt.gov', type: 'Court Document' },
       { title: 'CIR California Prison Sterilization Investigation', url: 'https://www.revealnews.org', type: 'Investigative Report' },
-      { title: 'DHS OIG Irwin County Investigation', url: 'https://www.oig.dhs.gov', type: 'Government Audit' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'DHS OIG Irwin County Investigation', url: 'https://www.oig.dhs.gov', type: 'Government Audit' }
     ],
     affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'ICE detention centers under investigation for unauthorized gynecological procedures on detained women', href: '/entities/agencies/dhs' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2022-10-06',
@@ -1046,7 +1022,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-09-01', event: 'In September 2020, whistleblower Dawn Wooten, a nurse at the Irwin County Detention Center (a private ICE facility in Georgia operated by LaSalle Corrections), filed a complaint alleging that Dr', type: 'default' },
      { date: '2021', event: 'Governor Gavin Newsom signed a reparations program for surviving victims of the state\'s historical eugenics program in 2021; budgeted at $4.5 million for an estimated 600 living survivors', type: 'financial' },
      { date: '2021-05-01', event: 'ICE terminated its contract with Irwin County Detention Center in May 2021, but no criminal charges resulted from the investigation', type: 'default' },
-     { date: '2022', event: 'The DHS Office of Inspector General investigation, completed in 2022, found Amin performed procedures "at a notably higher rate" than would be expected and identified consent documentation failures', type: 'default' },
+     { date: '2022', event: 'The DHS Office of Inspector General investigation, completed in 2022, found Amin performed procedures "at a notably higher rate" than would be expected and identified consent documentation failures', type: 'default' }
    ],
   },
   'du-weapons-health-effects-suppression': {
@@ -1062,19 +1038,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'Veterans\' health data has been systematically contested and minimized. A 1993 study by the Armed Forces Radiobiology Research Institute found that DU fragments embedded in soldiers\' tissue caused elevated uranium levels in urine decades after exposure. The VA\'s own Gulf War Veterans\' Health Registry tracked approximately 606,000 Gulf War veterans; of whom roughly one-third reported chronic health symptoms including fatigue, joint pain, respiratory problems, and neurological issues collectively labeled "Gulf War Illness." A 2008 study published in the Journal of Toxicology and Environmental Health found that DU-exposed veterans had significantly elevated rates of morphological abnormalities in their children. However, the Pentagon\'s official position, maintained through a series of RAND Corporation and Institute of Medicine reviews, is that DU exposure at battlefield levels does not pose significant health risks; a conclusion contested by independent researchers who note that these reviews relied primarily on occupational uranium exposure data rather than battlefield aerosolization scenarios.',
       'Iraqi civilian health data from DU-contaminated areas is devastating. Studies conducted by Iraqi physicians and international researchers in Basra; where some of the heaviest DU bombardment occurred; documented a 7-fold increase in childhood leukemia rates between 1990 and 2001. A 2010 study published in the International Journal of Environmental Research and Public Health found that Fallujah; a city subjected to two major US assaults in 2004; had cancer rates higher than Hiroshima and Nagasaki survivors, with particularly elevated rates of childhood leukemia, brain tumors, and congenital heart defects. Birth defect rates in Fallujah were documented at 14.7% of births in 2010, compared to a global baseline of approximately 2-3%. While DU is not the only potential cause (white phosphorus, conventional munitions, and environmental contamination from military operations are confounding factors), the geographic correlation between DU use and health effects is consistent across multiple independent studies.',
       'The Pentagon has actively restricted research access. When the World Health Organization and the Iraqi Ministry of Health conducted a joint study of congenital birth defects in Iraq (published 2012), the WHO delayed publication for two years and ultimately released a report that acknowledged elevated birth defect rates but declined to attribute them to specific causes. Internal WHO communications obtained through FOIA showed pressure from member states (including the US) to avoid language implicating military munitions. The Pentagon has declined to provide comprehensive DU expenditure maps showing exactly where DU rounds were fired, citing operational security for what are now 20-30 year old battlefield records. Contamination assessments conducted by the UN Environment Programme in the Balkans (where DU was used in 1994-95 and 1999) confirmed persistent soil and groundwater contamination at impact sites.',
-      'International efforts to restrict or ban DU weapons have been consistently blocked by the US, UK, and France; the three NATO nuclear powers that produce and stockpile DU munitions. UN General Assembly resolutions calling for a moratorium on DU weapons have been passed repeatedly since 2007, with increasing support (155 nations voting in favor in 2022), but the resolutions are non-binding. Belgium banned DU weapons in 2007 and Costa Rica in 2011. The International Coalition to Ban Uranium Weapons, supported by organizations in 30 countries, has advocated for a legally binding treaty. The US position; articulated through State Department representatives at UN forums; is that DU is a conventional weapon, not a weapon of mass destruction, and that existing international humanitarian law adequately governs its use. This position ignores the persistent environmental contamination that continues to harm civilian populations decades after hostilities end.',
+      'International efforts to restrict or ban DU weapons have been consistently blocked by the US, UK, and France; the three NATO nuclear powers that produce and stockpile DU munitions. UN General Assembly resolutions calling for a moratorium on DU weapons have been passed repeatedly since 2007, with increasing support (155 nations voting in favor in 2022), but the resolutions are non-binding. Belgium banned DU weapons in 2007 and Costa Rica in 2011. The International Coalition to Ban Uranium Weapons, supported by organizations in 30 countries, has advocated for a legally binding treaty. The US position; articulated through State Department representatives at UN forums; is that DU is a conventional weapon, not a weapon of mass destruction, and that existing international humanitarian law adequately governs its use. This position ignores the persistent environmental contamination that continues to harm civilian populations decades after hostilities end.'
     ],
     tags: ['Depleted Uranium', 'Gulf War', 'Veterans Health', 'War Crimes', 'Pentagon', 'Environmental Contamination'],
     sources: [
       { title: 'UNEP Post-Conflict Environmental Assessment Reports', url: 'https://www.unep.org', type: 'Research Study' },
       { title: 'VA Gulf War Veterans Health Registry', url: 'https://www.va.gov', type: 'Government Record' },
       { title: 'International Journal of Environmental Research (Fallujah Study)', url: 'https://www.mdpi.com/journal/ijerph', type: 'Research Study' },
-      { title: 'Armed Forces Radiobiology Research Institute Reports', url: 'https://www.usuhs.edu', type: 'Research Study' },
-      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'Armed Forces Radiobiology Research Institute Reports', url: 'https://www.usuhs.edu', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Deployed 300+ tons of DU munitions; maintains DU poses no significant health risk while restricting research access', href: '/entities/agencies/pentagon' },
- { id: '2', name: 'CIA', type: 'agency', relationship: 'Intelligence assessments of DU health effects in Iraq remain classified', href: '/entities/agencies/cia' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Intelligence assessments of DU health effects in Iraq remain classified', href: '/entities/agencies/cia' }
  ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-06-20',
@@ -1090,7 +1065,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2008', event: 'The VA\'s own Gulf War Veterans\' Health Registry tracked approximately 606,000 Gulf War veterans; of whom roughly one-third reported chronic health symptoms including fatigue, joint pain, respirator...', type: 'default' },
      { date: '2010', event: 'A 2010 study published in the International Journal of Environmental Research and Public Health found that Fallujah; a city subjected to two major US assaults in 2004', type: 'default' },
      { date: '2010', event: 'Birth defect rates in Fallujah were documented at 14.7% of births in 2010, compared to a global baseline of approximately 2-3%', type: 'default' },
-     { date: '2012', event: 'When the World Health Organization and the Iraqi Ministry of Health conducted a joint study of congenital birth defects in Iraq (published 2012), the WHO delayed publication for two years and ultim', type: 'default' },
+     { date: '2012', event: 'When the World Health Organization and the Iraqi Ministry of Health conducted a joint study of congenital birth defects in Iraq (published 2012), the WHO delayed publication for two years and ultim', type: 'default' }
    ],
   },
   'drug-price-gouging-insulin-crisis': {
@@ -1106,18 +1081,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'The mechanism enabling insulin price gouging is the pharmacy benefit manager (PBM) rebate system. Insulin manufacturers set high list prices and then pay rebates of 50-70% to PBMs (primarily Express Scripts/Cigna, CVS Caremark, and OptumRx/UnitedHealth) in exchange for preferred formulary placement. The rebates flow to PBMs and insurers, not to patients. Uninsured patients and those with high-deductible health plans pay the full list price. This system creates a perverse incentive: manufacturers raise list prices to fund larger rebates that PBMs demand; PBMs demand larger rebates because they profit from the spread between list price and net price. The Federal Trade Commission\'s 2024 interim staff report on PBMs found that the three largest PBMs control approximately 80% of the market and have leveraged their position to inflate drug prices while extracting billions in rebates and administrative fees.',
       'The human cost is measured in preventable deaths. The CDC estimates that 37.3 million Americans have diabetes, with approximately 8.4 million requiring insulin. A 2019 study published in JAMA Internal Medicine found that 25% of insulin users reported cost-related insulin underuse; skipping doses, taking less than prescribed, or delaying refills. Alec Smith, a 26-year-old Minnesota man, died of diabetic ketoacidosis in June 2017; three days after aging off his mother\'s insurance and finding that his insulin would cost $1,300 per month out of pocket. His story became a rallying point for insulin pricing reform. Minnesota passed the "Alec Smith Insulin Affordability Act" in 2020, creating an emergency insulin access program. But the fundamental pricing structure remained unchanged nationally until 2022.',
       'Legislative and regulatory responses have been slow and limited. The Inflation Reduction Act of 2022 capped insulin copays at $35 per month for Medicare beneficiaries; a significant victory affecting approximately 3.4 million Medicare insulin users. However, the cap does not apply to the uninsured or to most privately insured individuals. In March 2023, Eli Lilly voluntarily announced it would cap out-of-pocket insulin costs at $35 and reduce list prices by 70%. Novo Nordisk and Sanofi followed with similar announcements. These reductions, while welcome, came only after decades of price gouging, congressional investigations, and public outrage; and do not address the structural PBM rebate system that enabled the crisis.',
-      'Class action lawsuits and state attorney general investigations have targeted the pricing conspiracy. A consolidated multidistrict litigation case (In re Insulin Pricing Litigation, D.N.J.) alleged that the three manufacturers coordinated price increases through the PBM rebate system. Multiple state attorneys general filed suit; Arkansas won a $107.5 million verdict against pharmacy benefit managers in 2023. The FTC\'s investigation into PBM practices, initiated in 2022, has produced interim reports documenting how PBMs use rebates, spread pricing, and formulary manipulation to inflate drug costs. However, the fundamental patent and regulatory barriers that prevent generic insulin competition remain: insulin analogues are classified as biologics, requiring abbreviated new drug applications that cost $150 million or more and take 4-8 years; effectively preventing the kind of generic competition that reduced the cost of off-patent small-molecule drugs.',
+      'Class action lawsuits and state attorney general investigations have targeted the pricing conspiracy. A consolidated multidistrict litigation case (In re Insulin Pricing Litigation, D.N.J.) alleged that the three manufacturers coordinated price increases through the PBM rebate system. Multiple state attorneys general filed suit; Arkansas won a $107.5 million verdict against pharmacy benefit managers in 2023. The FTC\'s investigation into PBM practices, initiated in 2022, has produced interim reports documenting how PBMs use rebates, spread pricing, and formulary manipulation to inflate drug costs. However, the fundamental patent and regulatory barriers that prevent generic insulin competition remain: insulin analogues are classified as biologics, requiring abbreviated new drug applications that cost $150 million or more and take 4-8 years; effectively preventing the kind of generic competition that reduced the cost of off-patent small-molecule drugs.'
     ],
     tags: ['Insulin Pricing', 'Drug Price Gouging', 'Eli Lilly', 'Novo Nordisk', 'PBMs', 'Diabetes', 'Pharmaceutical Cartel'],
     sources: [
       { title: 'FTC PBM Interim Staff Report', url: 'https://www.ftc.gov', type: 'Government Record' },
       { title: 'JAMA Internal Medicine Insulin Underuse Study', url: 'https://jamanetwork.com', type: 'Research Study' },
-      { title: 'Senate Finance Committee Insulin Investigation', url: 'https://www.finance.senate.gov', type: 'Congressional Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'Senate Finance Committee Insulin Investigation', url: 'https://www.finance.senate.gov', type: 'Congressional Report' }
     ],
     affiliations: [
  { id: '1', name: 'Eli Lilly', type: 'corporation', relationship: 'Increased Humalog price 585% from 2009-2017; controls approximately 30% of US insulin market', href: '/entities/corporations/eli-lilly' },
- { id: '2', name: 'FDA', type: 'agency', relationship: 'Biosimilar insulin approval process takes 4-8 years and costs $150M+, preventing generic competition', href: '/entities/agencies/fda' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Biosimilar insulin approval process takes 4-8 years and costs $150M+, preventing generic competition', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '1921-01-01',
    lastActivityDate: '2025-11-25',
@@ -1135,7 +1109,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022', event: 'The FTC\'s investigation into PBM practices, initiated in 2022, has produced interim reports documenting how PBMs use rebates, spread pricing, and formulary manipulation to inflate drug costs', type: 'financial' },
      { date: '2023', event: 'Multiple state attorneys general filed suit; Arkansas won a $107.5 million verdict against pharmacy benefit managers in 2023', type: 'legal' },
      { date: '2023-03-01', event: 'In March 2023, Eli Lilly voluntarily announced it would cap out-of-pocket insulin costs at $35 and reduce list prices by 70%', type: 'financial' },
-     { date: '2024', event: 'The Federal Trade Commission\'s 2024 interim staff report on PBMs found that the three largest PBMs control approximately 80% of the market and have leveraged their position to inflate drug prices w...', type: 'default' },
+     { date: '2024', event: 'The Federal Trade Commission\'s 2024 interim staff report on PBMs found that the three largest PBMs control approximately 80% of the market and have leveraged their position to inflate drug prices w...', type: 'default' }
    ],
   },
   'drone-warfare-civilian-casualties': {
@@ -1151,19 +1125,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'The New York Times\' "Civilian Casualty Files" project, published in December 2021, analyzed over 1,300 confidential Pentagon assessment documents covering air strikes in Iraq, Syria, and Afghanistan. The investigation found that since 2014, the US air campaign against ISIS and related targets killed civilians far more frequently than the Pentagon acknowledged. Of hundreds of cases where the military concluded no civilians were killed, the Times found credible evidence of civilian deaths in dozens. The military failed to visit strike sites, interview survivors, or conduct meaningful post-strike assessments in the vast majority of cases. Drone operators relied on overhead surveillance that could not distinguish combatants from civilians, and pre-strike intelligence was frequently wrong; targeting the wrong building, the wrong vehicle, or misidentifying civilian gatherings as militant meetings.',
       'Specific incidents illustrate the systemic pattern. On August 29, 2021; the final US strike in Afghanistan during the withdrawal; a Reaper drone killed Zemari Ahmadi, an aid worker for a US-based education nonprofit, along with nine members of his family including seven children. The Pentagon initially called the strike a "righteous strike" against an ISIS-K operative. An NYT investigation revealed within weeks that Ahmadi had been loading water containers, not explosives, into his car. The Pentagon eventually acknowledged the error and called it a "tragic mistake." No one was disciplined. In Baghuz, Syria in March 2019, a US strike killed approximately 70 people; mostly women and children; at a riverside encampment. The military initially denied any strikes in the area. An Air Force lawyer flagged potential war crimes; the case was buried for two years until revealed by the Times.',
       'The legal framework governing drone strikes has been constructed to minimize accountability. The 2001 Authorization for Use of Military Force (AUMF); a 60-word congressional resolution; has been stretched to authorize strikes against groups that did not exist on 9/11 in countries the US has never declared war against. The CIA\'s drone program operates under Title 50 covert action authorities that require only presidential findings and Gang of Eight congressional notification; not public reporting. Executive orders establishing civilian casualty mitigation procedures (Obama\'s Presidential Policy Guidance in 2013, Trump\'s loosening of those restrictions in 2017, Biden\'s updated policy in 2022) are classified. The US government does not acknowledge the existence of CIA strike programs in Pakistan and Yemen. Victims\' families have no legal recourse; courts have consistently dismissed lawsuits under the state secrets privilege and political question doctrine.',
-      'Independent monitoring organizations have attempted to fill the accountability vacuum. The Bureau of Investigative Journalism, Airwars, and the New America Foundation maintain databases tracking US air strikes and civilian casualties. Airwars estimates that the US-led coalition\'s air campaign against ISIS (2014-present) killed between 8,000 and 13,000 civilians in Iraq and Syria. The Bureau estimates US drone strikes in Pakistan killed between 424 and 969 civilians between 2004 and 2018. In Yemen, estimates range from 160 to 500 civilian drone strike deaths. Each of these figures is multiple times higher than the Pentagon\'s acknowledged numbers. The fundamental accountability gap is structural: the military investigates itself, classification prevents external review, and the legal framework has been engineered to prevent judicial oversight of targeting decisions.',
+      'Independent monitoring organizations have attempted to fill the accountability vacuum. The Bureau of Investigative Journalism, Airwars, and the New America Foundation maintain databases tracking US air strikes and civilian casualties. Airwars estimates that the US-led coalition\'s air campaign against ISIS (2014-present) killed between 8,000 and 13,000 civilians in Iraq and Syria. The Bureau estimates US drone strikes in Pakistan killed between 424 and 969 civilians between 2004 and 2018. In Yemen, estimates range from 160 to 500 civilian drone strike deaths. Each of these figures is multiple times higher than the Pentagon\'s acknowledged numbers. The fundamental accountability gap is structural: the military investigates itself, classification prevents external review, and the legal framework has been engineered to prevent judicial oversight of targeting decisions.'
     ],
     tags: ['Drone Strikes', 'Civilian Casualties', 'War on Terror', 'CIA Drone Program', 'Pentagon', 'AUMF'],
     sources: [
       { title: 'NYT Civilian Casualty Files', url: 'https://www.nytimes.com/spotlight/civilian-casualty-files/', type: 'Investigative Report' },
       { title: 'Bureau of Investigative Journalism Drone Strike Database', url: 'https://www.thebureauinvestigates.com', type: 'Research Study' },
       { title: 'Airwars Civilian Casualty Tracking', url: 'https://airwars.org', type: 'Research Study' },
-      { title: 'The Intercept Drone Papers', url: 'https://theintercept.com/drone-papers', type: 'Investigative Report' },
-      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'The Intercept Drone Papers', url: 'https://theintercept.com/drone-papers', type: 'Investigative Report' }
     ],
     affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated parallel drone program under Title 50 covert action authorities with minimal oversight', href: '/entities/agencies/cia' },
- { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Undercounted civilian deaths by 5-10x according to independent investigations; failed to conduct post-strike assessments', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Undercounted civilian deaths by 5-10x according to independent investigations; failed to conduct post-strike assessments', href: '/entities/agencies/pentagon' }
  ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-10-30',
@@ -1179,7 +1152,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2015', event: 'A leaked 2015 document obtained by The Intercept revealed that during one five-month period of operations in Afghanistan (Operation Haymaker), nearly 90% of people killed in drone strikes were not', type: 'critical' },
      { date: '2019-03-01', event: 'In Baghuz, Syria in March 2019, a US strike killed approximately 70 people; mostly women and children; at a riverside encampment', type: 'critical' },
      { date: '2021-08-29', event: 'On August 29, 2021; the final US strike in Afghanistan during the withdrawal; a Reaper drone killed Zemari Ahmadi, an aid worker for a US-based education nonprofit, along with nine members of his f', type: 'critical' },
-     { date: '2021-12-01', event: 'The New York Times\' "Civilian Casualty Files" project, published in December 2021, analyzed over 1,300 confidential Pentagon assessment documents covering air strikes in Iraq, Syria, and Afghanistan', type: 'default' },
+     { date: '2021-12-01', event: 'The New York Times\' "Civilian Casualty Files" project, published in December 2021, analyzed over 1,300 confidential Pentagon assessment documents covering air strikes in Iraq, Syria, and Afghanistan', type: 'default' }
    ],
   },
   'depleted-uranium-battlefield-legacy': {
@@ -1195,20 +1168,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'The health data from Basra, Iraq\'s second-largest city and the area of heaviest DU use during the 1991 Gulf War, is alarming. Dr. Jawad Al-Ali, the chief oncologist at Basra\'s main hospital, documented a seven-fold increase in cancer registrations between 1990 and 2001. Childhood leukemia cases at Basra\'s children\'s hospital increased from approximately 6 per year in 1990 to over 70 per year by 2001. Birth defects reported at materitity wards in Basra showed similar increases; congenital heart defects, neural tube defects, and limb reduction deformities became dramatically more common. A 2012 study published in Environmental Contamination and Toxicology measured uranium, lead, and mercury levels in hair samples from Basra residents and found concentrations significantly elevated compared to control populations.',
       'Fallujah, the site of major US military operations in April and November 2004, has experienced some of the most extreme health effects. A 2010 study by Chris Busby and colleagues, published in the International Journal of Environmental Research and Public Health, surveyed 711 Fallujah households and found infant mortality at 80 per 1,000 live births (compared to 19 per 1,000 in neighboring Jordan), elevated cancer rates at 4.2 times expected levels, and a dramatic alteration in the birth sex ratio (suggesting genetic damage). The study\'s authors noted that the health effects exceeded those documented in Hiroshima survivors. While the study has been criticized for methodological limitations (self-reported data, small sample size), multiple subsequent studies have confirmed elevated rates of birth defects and cancer in Fallujah, including a 2014 study in the BMJ Open and a 2018 study in Environmental Pollution.',
       'US veterans of the Gulf Wars continue to fight for recognition and care. The VA\'s depleted uranium surveillance program has monitored a cohort of approximately 80 veterans with embedded DU fragments since 1993. These veterans show elevated uranium in urine and some evidence of renal and genetic effects, but the VA maintains that the cohort is "too small for definitive conclusions." The broader Gulf War Illness program; affecting an estimated 175,000-250,000 of the 697,000 Gulf War veterans; has been criticized by the Research Advisory Committee on Gulf War Veterans\' Illnesses for inadequate research funding and institutional resistance to acknowledging environmental causes. VA claims for conditions potentially linked to DU exposure (kidney disease, respiratory illness, certain cancers) are routinely denied without individualized assessment of DU exposure history.',
-      'International legal efforts to address the legacy of DU weapons have failed to produce remediation or compensation. Iraq filed a formal complaint with the International Court of Justice in 2009 seeking environmental remediation and health compensation from coalition nations; the case was not heard. The International Committee of the Red Cross has called for greater transparency in DU weapons use and for states that use DU to assist with post-conflict cleanup. The US and UK have consistently rejected legal liability, arguing that DU is a lawful conventional weapon and that no causal link between battlefield DU exposure and civilian health effects has been "established" to the standards they set. The evidentiary bar the US demands; controlled epidemiological studies in active conflict zones with populations displaced by war; is functionally impossible to meet, which appears to be the point.',
+      'International legal efforts to address the legacy of DU weapons have failed to produce remediation or compensation. Iraq filed a formal complaint with the International Court of Justice in 2009 seeking environmental remediation and health compensation from coalition nations; the case was not heard. The International Committee of the Red Cross has called for greater transparency in DU weapons use and for states that use DU to assist with post-conflict cleanup. The US and UK have consistently rejected legal liability, arguing that DU is a lawful conventional weapon and that no causal link between battlefield DU exposure and civilian health effects has been "established" to the standards they set. The evidentiary bar the US demands; controlled epidemiological studies in active conflict zones with populations displaced by war; is functionally impossible to meet, which appears to be the point.'
     ],
     tags: ['Depleted Uranium', 'Iraq War', 'Fallujah', 'Basra', 'Environmental Contamination', 'Veterans Health', 'Birth Defects'],
     sources: [
       { title: 'UNEP Balkans DU Assessments', url: 'https://www.unep.org', type: 'Research Study' },
       { title: 'Busby et al. Fallujah Health Study', url: 'https://www.mdpi.com/journal/ijerph', type: 'Research Study' },
       { title: 'VA DU Surveillance Program Reports', url: 'https://www.va.gov', type: 'Government Record' },
-      { title: 'Research Advisory Committee on Gulf War Veterans Illnesses', url: 'https://www.va.gov/rac-gwvi', type: 'Government Record' },
-      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'Research Advisory Committee on Gulf War Veterans Illnesses', url: 'https://www.va.gov/rac-gwvi', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Refuses to provide DU strike location data for Iraqi remediation; rejects liability for civilian health effects', href: '/entities/agencies/pentagon' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2026-01-12',
@@ -1224,7 +1195,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2010', event: 'A 2010 study by Chris Busby and colleagues, published in the International Journal of Environmental Research and Public Health, surveyed 711 Fallujah households and found infant mortality at 80 per', type: 'political' },
      { date: '2012', event: 'A 2012 study published in Environmental Contamination and Toxicology measured uranium, lead, and mercury levels in hair samples from Basra residents and found concentrations significantly elevated', type: 'default' },
      { date: '2014', event: 'While the study has been criticized for methodological limitations (self-reported data, small sample size), multiple subsequent studies have confirmed elevated rates of birth defects and cancer in', type: 'political' },
-     { date: '2025', event: 'UNEP recommended immediate cleanup of contaminated sites; as of 2025, some Balkan sites remain unremediated', type: 'default' },
+     { date: '2025', event: 'UNEP recommended immediate cleanup of contaminated sites; as of 2025, some Balkan sites remain unremediated', type: 'default' }
    ],
   },
   'deepfake-technology-weaponization': {
@@ -1240,19 +1211,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'Nonconsensual intimate imagery (NCII) constitutes the overwhelming majority of deepfake content. A 2019 Sensity AI report found that 96% of deepfake videos online were pornographic, and 99% of those targeted women. The victims are disproportionately public figures; actresses, journalists, politicians; but the technology has increasingly been used against private individuals, including minors. In February 2024, AI-generated explicit images of Taylor Swift circulated on X (formerly Twitter), accumulating 47 million views before being removed. In Almendralejo, Spain, in September 2023, AI-generated nude images of over 20 teenage girls from a local school circulated via WhatsApp; created by classmates using a free app. Only 10 US states had laws specifically addressing deepfake NCII as of January 2024; federal legislation (the DEFIANCE Act) was introduced but had not been enacted.',
       'Financial fraud using deepfake technology has reached alarming scale. In February 2024, a Hong Kong finance worker was tricked into transferring $25 million after a video call in which deepfake technology was used to impersonate the company\'s CFO and multiple other colleagues. In 2020, criminals used voice cloning to impersonate a UAE bank director and authorize a $35 million transfer. The FBI\'s Internet Crime Complaint Center reported a sharp increase in deepfake-enabled business email compromise and identity fraud schemes beginning in 2022. CyberArk researchers demonstrated in 2023 that AI could clone a voice well enough to bypass voice authentication systems used by major banks. The total cost of deepfake-enabled fraud is difficult to quantify, but Juniper Research estimated it would exceed $25 billion annually by 2024.',
       'State-sponsored deepfake operations represent the most strategically dangerous application. Russian military intelligence (GRU) units, including those linked to the Internet Research Agency\'s successor organizations, have deployed deepfake videos targeting Ukrainian President Zelensky (a fake "surrender" video circulated in March 2022), European leaders, and NATO officials. China\'s propaganda apparatus has used AI-generated news anchors and fake personas across social media platforms to amplify pro-Beijing narratives. Iran\'s state media has distributed manipulated video of protests. In US elections, deepfake robocalls impersonating President Biden were used in the January 2024 New Hampshire primary, telling voters to stay home. The call was traced to political consultant Steve Kramer, who was subsequently charged with voter suppression and impersonation.',
-      'Detection and policy responses lag far behind the technology. Academic detection tools (developed at USC, Berkeley, DARPA\'s MediFor program) achieve 90-99% accuracy in lab conditions but struggle with real-world deepfakes that have been compressed, re-encoded, or modified. Social media platforms have varying policies; Meta requires labeling of AI-generated content, YouTube removes misleading deepfakes of candidates before elections, but enforcement is inconsistent and delayed. The EU\'s AI Act (effective 2024) requires transparency labeling for deepfakes. China enacted deepfake regulations in January 2023 requiring consent and labeling. The US approach remains fragmented; no comprehensive federal legislation exists, though executive orders from 2023 directed NIST to develop detection standards. The fundamental challenge is asymmetric: generating a convincing deepfake takes seconds, while detecting one requires specialized analysis, and the window for viral spread closes long before detection occurs.',
+      'Detection and policy responses lag far behind the technology. Academic detection tools (developed at USC, Berkeley, DARPA\'s MediFor program) achieve 90-99% accuracy in lab conditions but struggle with real-world deepfakes that have been compressed, re-encoded, or modified. Social media platforms have varying policies; Meta requires labeling of AI-generated content, YouTube removes misleading deepfakes of candidates before elections, but enforcement is inconsistent and delayed. The EU\'s AI Act (effective 2024) requires transparency labeling for deepfakes. China enacted deepfake regulations in January 2023 requiring consent and labeling. The US approach remains fragmented; no comprehensive federal legislation exists, though executive orders from 2023 directed NIST to develop detection standards. The fundamental challenge is asymmetric: generating a convincing deepfake takes seconds, while detecting one requires specialized analysis, and the window for viral spread closes long before detection occurs.'
     ],
     tags: ['Deepfakes', 'AI-Generated Media', 'Nonconsensual Pornography', 'Election Interference', 'Voice Cloning', 'Fraud'],
     sources: [
       { title: 'Sensity AI Deepfake Report', url: 'https://sensity.ai', type: 'Research Study' },
       { title: 'FBI IC3 Reports on Deepfake Fraud', url: 'https://www.ic3.gov', type: 'Government Record' },
-      { title: 'DARPA MediFor Program', url: 'https://www.darpa.mil', type: 'Government Record' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'DARPA MediFor Program', url: 'https://www.darpa.mil', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Warned of exponentially growing deepfake threat in 2021; investigating deepfake-enabled financial fraud schemes', href: '/entities/agencies/fbi' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
-
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' }
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-05-20',
@@ -1272,7 +1241,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2024', event: 'Early deepfakes required thousands of training images and powerful computing resources; by 2024, commercially available apps can generate convincing face swaps from a single photograph in minutes', type: 'default' },
      { date: '2024', event: 'By 2024, estimates placed the total at several hundred thousand; though the actual number is likely far higher since many are distributed through private channels', type: 'default' },
      { date: '2024', event: 'The total cost of deepfake-enabled fraud is difficult to quantify, but Juniper Research estimated it would exceed $25 billion annually by 2024', type: 'political' },
-     { date: '2024', event: 'The EU\'s AI Act (effective 2024) requires transparency labeling for deepfakes', type: 'default' },
+     { date: '2024', event: 'The EU\'s AI Act (effective 2024) requires transparency labeling for deepfakes', type: 'default' }
    ],
   },
   'dna-database-privacy-violations': {
@@ -1288,19 +1257,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'The Golden State Killer case transformed the relationship between consumer genetics and law enforcement. In April 2018, investigators uploaded a crime scene DNA profile to GEDmatch, an open-source genetic genealogy platform, and identified third and fourth cousins of the unknown suspect. Genealogist Barbara Rae-Venter constructed family trees from these distant matches and identified Joseph James DeAngelo, who was arrested and ultimately convicted of 13 murders and 50 rapes. The technique; known as investigative genetic genealogy (IGG); has since been used in over 500 cases. But the legal framework is almost nonexistent. GEDmatch changed its terms of service in 2019 to require users to opt in to law enforcement searches, but was subsequently acquired by Verogen, a forensic genomics company. FamilyTreeDNA secretly allowed FBI access to its database beginning in 2018 before disclosing the arrangement. The 40+ million Americans who submitted DNA to consumer companies did not consent to having their genetic information used for law enforcement searches of their relatives.',
       'The 23andMe data breach and subsequent bankruptcy raised existential questions about genetic data security. In October 2023, 23andMe disclosed that hackers had accessed genetic and ancestry data of approximately 6.9 million users through credential-stuffing attacks. The stolen data included DNA-relative matching results, ancestry information, and in some cases health predisposition reports. In March 2025, 23andMe filed for bankruptcy protection, raising the specter of its database of 15 million genetic profiles being sold as a corporate asset. State attorneys general from multiple states issued warnings to consumers about their data. California AG Rob Bonta urged customers to delete their data before any acquisition. The case highlighted a fundamental vulnerability: genetic data is immutable. Unlike passwords or credit card numbers, DNA cannot be changed when it is compromised.',
       'Familial DNA searching; a technique distinct from genetic genealogy that involves partial matching within CODIS itself; raises additional civil liberties concerns. At least 12 states formally permit familial searching within their forensic DNA databases. The technique identifies partial DNA matches that suggest a close biological relative (parent, sibling, child) of the unknown profile may be in the database. This means the DNA of family members who have themselves never been arrested or convicted is effectively being searched by proxy. Studies have shown that familial searching disproportionately affects Black Americans, who are overrepresented in CODIS due to racial disparities in the criminal justice system. A 2020 analysis by the Electronic Frontier Foundation found that due to the databases\' racial composition, a Black American is approximately 4.5 times more likely than a white American to have a close relative\'s DNA in CODIS.',
-      'The legal framework governing DNA databases has failed to keep pace with technological capability. The Genetic Information Nondiscrimination Act (GINA, 2008) prohibits genetic discrimination in employment and health insurance but does not address law enforcement use, consumer privacy, or data security. The Fourth Amendment\'s application to genetic searching is unsettled; the Supreme Court\'s Carpenter v. United States (2018) ruling on cell phone location data privacy has not been extended to genetic data. Several states have enacted genetic privacy laws (Maryland, Montana, Illinois), but most provide minimal protections. The fundamental tension is irreconcilable: genetic genealogy is enormously effective at solving violent crimes (cold case rape and murder cases that had been unsolved for decades), but it functions by searching the DNA of millions of people who are not suspects and did not consent to the search. The legal doctrine of "third-party consent" (volunteering your DNA to GEDmatch means you\'ve consented to searches) leaves relatives with no recourse; they never submitted their DNA anywhere.',
+      'The legal framework governing DNA databases has failed to keep pace with technological capability. The Genetic Information Nondiscrimination Act (GINA, 2008) prohibits genetic discrimination in employment and health insurance but does not address law enforcement use, consumer privacy, or data security. The Fourth Amendment\'s application to genetic searching is unsettled; the Supreme Court\'s Carpenter v. United States (2018) ruling on cell phone location data privacy has not been extended to genetic data. Several states have enacted genetic privacy laws (Maryland, Montana, Illinois), but most provide minimal protections. The fundamental tension is irreconcilable: genetic genealogy is enormously effective at solving violent crimes (cold case rape and murder cases that had been unsolved for decades), but it functions by searching the DNA of millions of people who are not suspects and did not consent to the search. The legal doctrine of "third-party consent" (volunteering your DNA to GEDmatch means you\'ve consented to searches) leaves relatives with no recourse; they never submitted their DNA anywhere.'
     ],
     tags: ['CODIS', 'DNA Databases', 'Genetic Privacy', 'GEDmatch', '23andMe', 'Forensic Genealogy', 'Familial DNA Searching'],
     sources: [
       { title: 'FBI CODIS Statistics', url: 'https://www.fbi.gov/services/laboratory/biometric-analysis/codis', type: 'Government Record' },
       { title: 'Maryland v. King Supreme Court Decision', url: 'https://www.supremecourt.gov', type: 'Court Record' },
-      { title: 'EFF Genetic Privacy Research', url: 'https://www.eff.org', type: 'Policy Analysis' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'EFF Genetic Privacy Research', url: 'https://www.eff.org', type: 'Policy Analysis' }
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Operates CODIS with 22M+ profiles; secretly accessed FamilyTreeDNA database beginning in 2018', href: '/entities/agencies/fbi' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
-
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' }
  ],
    eventOriginDate: '1994-01-01',
    lastActivityDate: '2025-03-01',
@@ -1316,7 +1283,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 analysis by the Electronic Frontier Foundation found that due to the databases\' racial composition, a Black American is approximately 4.5 times more likely than a white American to have a cl...', type: 'political' },
      { date: '2023-10-01', event: 'In October 2023, 23andMe disclosed that hackers had accessed genetic and ancestry data of approximately 6.9 million users through credential-stuffing attacks', type: 'critical' },
      { date: '2024', event: 'As of 2024, CODIS contains over 22 million offender profiles and over 5 million arrestee profiles', type: 'financial' },
-     { date: '2025-03-01', event: 'In March 2025, 23andMe filed for bankruptcy protection, raising the specter of its database of 15 million genetic profiles being sold as a corporate asset', type: 'financial' },
+     { date: '2025-03-01', event: 'In March 2025, 23andMe filed for bankruptcy protection, raising the specter of its database of 15 million genetic profiles being sold as a corporate asset', type: 'financial' }
    ],
   },
   'deforestation-corporate-responsibility': {
@@ -1332,19 +1299,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'Brazil\'s Amazon rainforest has lost approximately 17% of its original forest cover, with cattle ranching responsible for an estimated 80% of Amazon deforestation. Between 2019 and 2022, during the Bolsonaro administration, Amazon deforestation surged 75% compared to the previous four-year period, reaching 13,000 square kilometers in 2021; the highest rate in 15 years. JBS, the world\'s largest meat company (annual revenue over $65 billion), has been repeatedly linked to illegal deforestation. A 2020 Amnesty International investigation traced JBS cattle purchases to ranches operating illegally within Indigenous territories and protected areas in the Amazon. JBS committed to full supply chain monitoring by 2025, but audits by the Brazilian federal prosecutors\' office (MPF) found that JBS lacked traceability for approximately 50% of its indirect cattle suppliers as of 2023.',
       'Soy production, primarily for animal feed, is a major driver of deforestation in Brazil\'s Cerrado savanna and the Gran Chaco region of Paraguay and Argentina. The Cerrado; the world\'s most biodiverse savanna, home to 5% of the planet\'s species; has lost approximately 50% of its native vegetation, primarily to soy and cattle. The Amazon Soy Moratorium (2006) successfully reduced soy-driven deforestation in the Amazon biome, but shifted pressure to the Cerrado, which lacks equivalent protections. Cargill, Bunge, ADM, and Louis Dreyfus Company control approximately 75% of Brazilian soy exports. Cargill committed to eliminating deforestation from its supply chains by 2030 but has resisted applying the commitment to the Cerrado, where deforestation rates for soy continue to accelerate.',
       'The EU Deforestation Regulation (EUDR), adopted in June 2023, represented the most ambitious attempt to address commodity-driven deforestation through trade policy. The regulation requires importers of cattle, cocoa, coffee, palm oil, rubber, soy, and wood to prove that products were not produced on land deforested after December 31, 2020. Companies must conduct due diligence including geolocation data for production plots. However, implementation was delayed from December 2024 to December 2025 after heavy industry lobbying. The regulation faces enforcement challenges: satellite monitoring can detect forest clearing but cannot always attribute it to specific supply chains; smallholder farmers (who produce 40% of global palm oil) lack the GPS mapping capacity to comply; and trading intermediaries can simply redirect deforestation-linked commodities to less regulated markets in China, India, and the Middle East.',
-      'The financial system enables deforestation by providing capital to companies that destroy forests. A 2023 analysis by Global Witness found that between 2016 and 2022, the world\'s 30 largest banks provided $154 billion in financing to companies linked to tropical deforestation; with JPMorgan Chase, HSBC, and Rabobank among the top funders. Investor engagement through initiatives like the Investor Policy Dialogue on Deforestation (IPDD) has produced commitments but not measurable reductions in deforestation financing. Carbon credit schemes and REDD+ programs (paying forest communities not to deforest) have been undermined by fraudulent credits; a 2023 investigation by The Guardian, Die Zeit, and SourceMaterial found that over 90% of Verra-certified rainforest offset credits did not represent real carbon reductions. The fundamental dynamic is one of cost externalization: the economic value of cleared land for agriculture exceeds the economic value of standing forest under current market conditions, and enforcement of forest protection laws in producer countries remains weak.',
+      'The financial system enables deforestation by providing capital to companies that destroy forests. A 2023 analysis by Global Witness found that between 2016 and 2022, the world\'s 30 largest banks provided $154 billion in financing to companies linked to tropical deforestation; with JPMorgan Chase, HSBC, and Rabobank among the top funders. Investor engagement through initiatives like the Investor Policy Dialogue on Deforestation (IPDD) has produced commitments but not measurable reductions in deforestation financing. Carbon credit schemes and REDD+ programs (paying forest communities not to deforest) have been undermined by fraudulent credits; a 2023 investigation by The Guardian, Die Zeit, and SourceMaterial found that over 90% of Verra-certified rainforest offset credits did not represent real carbon reductions. The fundamental dynamic is one of cost externalization: the economic value of cleared land for agriculture exceeds the economic value of standing forest under current market conditions, and enforcement of forest protection laws in producer countries remains weak.'
     ],
     tags: ['Deforestation', 'Palm Oil', 'Amazon Rainforest', 'Supply Chain Traceability', 'JBS', 'Cargill', 'EUDR'],
     sources: [
       { title: 'Global Forest Watch', url: 'https://www.globalforestwatch.org', type: 'Research Study' },
       { title: 'Amnesty International JBS Investigation', url: 'https://www.amnesty.org', type: 'Investigative Report' },
-      { title: 'Global Witness Deforestation Finance Report', url: 'https://www.globalwitness.org', type: 'Investigative Report' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'Global Witness Deforestation Finance Report', url: 'https://www.globalwitness.org', type: 'Investigative Report' }
     ],
     affiliations: [
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Committed to zero deforestation in 2010; independent audits found ongoing sourcing from deforestation-linked palm oil suppliers through 2023', href: '/entities/corporations/nestle' },
- { id: '2', name: 'EPA', type: 'agency', relationship: 'Environmental regulation and enforcement authority', href: '/entities/agencies/epa' },
-
+ { id: '2', name: 'EPA', type: 'agency', relationship: 'Environmental regulation and enforcement authority', href: '/entities/agencies/epa' }
  ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-12-27',
@@ -1360,7 +1325,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'Carbon credit schemes and REDD+ programs (paying forest communities not to deforest) have been undermined by fraudulent credits', type: 'financial' },
      { date: '2023-06-01', event: 'The EU Deforestation Regulation (EUDR), adopted in June 2023, represented the most ambitious attempt to address commodity-driven deforestation through trade policy', type: 'default' },
      { date: '2024-12-01', event: 'However, implementation was delayed from December 2024 to December 2025 after heavy industry lobbying', type: 'default' },
-     { date: '2025', event: 'JBS committed to full supply chain monitoring by 2025, but audits by the Brazilian federal prosecutors\' office (MPF) found that JBS lacked traceability for approximately 50% of its indirect cattle ...', type: 'legal' },
+     { date: '2025', event: 'JBS committed to full supply chain monitoring by 2025, but audits by the Brazilian federal prosecutors\' office (MPF) found that JBS lacked traceability for approximately 50% of its indirect cattle ...', type: 'legal' }
    ],
   },
   'data-broker-industry-expos': {
@@ -1376,18 +1341,16 @@ const investigations_d: Record<string, InvestigationData> = {
       'Government purchase of commercially available data has created a warrantless surveillance backdoor around the Fourth Amendment. A 2021 DHS Inspector General report revealed that Customs and Border Protection (CBP), Immigration and Customs Enforcement (ICE), and the Secret Service purchased commercial cell phone location data from Venntel and Babel Street to track individuals without obtaining warrants. The IRS purchased location data from Venntel to investigate tax fraud. The Defense Intelligence Agency acknowledged buying smartphone location data to track people worldwide. Senator Ron Wyden\'s office documented that the NSA purchased web browsing data from data brokers without court orders. In Carpenter v. United States (2018), the Supreme Court ruled that the government needs a warrant to access historical cell phone location data from carriers; but the ruling does not clearly apply to commercially purchased data, which the government argues is voluntarily shared.',
       'The data broker industry has enabled and profited from predatory targeting of vulnerable populations. A 2013 Senate Commerce Committee investigation found data brokers selling lists titled "Suffering Seniors" (elderly people with specific health ailments), "Rural and Barely Making It" (low-income rural families), and "Ethnic Second-City Strugglers" (minority families in urban areas). These lists were purchased by payday lenders, for-profit colleges, and telemarketing scammers targeting financially distressed individuals. In 2014, the FTC found that one broker, LeapLab, sold the personal information of payday loan applicants to entities that drained consumers\' bank accounts without authorization. The total consumer losses from data broker-enabled fraud are difficult to quantify but certainly reach billions of dollars annually.',
       'Health data brokerage has expanded dramatically despite HIPAA protections. While HIPAA restricts disclosure of data by healthcare providers and insurers, it does not apply to health data collected by apps, wearables, web searches, or retail purchases. Companies like IMS Health (now IQVIA) collect prescription data from pharmacies and sell it to pharmaceutical companies for marketing purposes; the Supreme Court upheld this practice in Sorrell v. IMS Health (2011). Period-tracking apps, mental health apps, and fitness trackers collect intimately detailed health information governed only by their own privacy policies. After the Dobbs decision overturning Roe v. Wade (2022), privacy advocates warned that location data showing visits to reproductive health clinics, combined with health app data, could be used to identify and prosecute people seeking abortions in restrictive states. Google announced it would auto-delete location data near abortion clinics, but third-party data brokers faced no such obligation.',
-      'Regulatory efforts have been limited and fragmented. The FTC has issued three major reports on data brokers (2012, 2014, 2021), each calling for comprehensive legislation that Congress has not enacted. Vermont became the first state to require data broker registration in 2018; its registry revealed over 575 registered data brokers, likely a fraction of the total industry. California\'s CCPA (2020) and CPRA (2023) gave consumers limited rights to opt out of data sales, but the process requires contacting each broker individually; and there are hundreds. The proposed American Data Privacy and Protection Act (ADPPA) would establish federal data minimization requirements and broker registration, but has stalled in Congress since 2022. The EU\'s GDPR has forced some data brokers to restrict operations in Europe, but US-based brokers continue to operate with minimal constraint domestically. The FTC\'s enforcement actions; including a $391.5 million settlement with Google over location tracking in 2022 and a $5 billion settlement with Facebook in 2019; have been criticized as insufficient deterrents against companies whose business models depend on data exploitation.',
+      'Regulatory efforts have been limited and fragmented. The FTC has issued three major reports on data brokers (2012, 2014, 2021), each calling for comprehensive legislation that Congress has not enacted. Vermont became the first state to require data broker registration in 2018; its registry revealed over 575 registered data brokers, likely a fraction of the total industry. California\'s CCPA (2020) and CPRA (2023) gave consumers limited rights to opt out of data sales, but the process requires contacting each broker individually; and there are hundreds. The proposed American Data Privacy and Protection Act (ADPPA) would establish federal data minimization requirements and broker registration, but has stalled in Congress since 2022. The EU\'s GDPR has forced some data brokers to restrict operations in Europe, but US-based brokers continue to operate with minimal constraint domestically. The FTC\'s enforcement actions; including a $391.5 million settlement with Google over location tracking in 2022 and a $5 billion settlement with Facebook in 2019; have been criticized as insufficient deterrents against companies whose business models depend on data exploitation.'
     ],
     tags: ['Data Brokers', 'Surveillance', 'Acxiom', 'LexisNexis', 'Location Data', 'Government Surveillance', 'FTC'],
     sources: [
       { title: 'Senate Commerce Committee Data Broker Report', url: 'https://www.commerce.senate.gov', type: 'Congressional Report' },
       { title: 'FTC Data Broker Reports', url: 'https://www.ftc.gov', type: 'Government Record' },
-      { title: 'DHS Inspector General Report on Data Purchases', url: 'https://www.oig.dhs.gov', type: 'Government Audit' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'DHS Inspector General Report on Data Purchases', url: 'https://www.oig.dhs.gov', type: 'Government Audit' }
     ],
     affiliations: [
- { id: '1', name: 'FTC', type: 'agency', relationship: 'Issued three reports calling for data broker regulation; enforcement actions criticized as insufficient deterrents', href: '/entities/agencies/federal-trade-commission' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
+ { id: '1', name: 'FTC', type: 'agency', relationship: 'Issued three reports calling for data broker regulation; enforcement actions criticized as insufficient deterrents', href: '/entities/agencies/federal-trade-commission' }
  ],
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2025-04-04',
@@ -1404,7 +1367,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021', event: 'A 2021 DHS Inspector General report revealed that Customs and Border Protection (CBP), Immigration and Customs Enforcement (ICE), and the Secret Service purchased commercial cell phone location dat', type: 'default' },
      { date: '2022', event: 'Wade (2022), privacy advocates warned that location data showing visits to reproductive health clinics, combined with health app data, could be used to identify and prosecute people seeking abortio', type: 'default' },
      { date: '2022', event: 'The proposed American Data Privacy and Protection Act (ADPPA) would establish federal data minimization requirements and broker registration, but has stalled in Congress since 2022', type: 'political' },
-     { date: '2022', event: 'The FTC\'s enforcement actions; including a $391.5 million settlement with Google over location tracking in 2022 and a $5 billion settlement with Facebook in 2019; have been criticized as insufficie...', type: 'political' },
+     { date: '2022', event: 'The FTC\'s enforcement actions; including a $391.5 million settlement with Google over location tracking in 2022 and a $5 billion settlement with Facebook in 2019; have been criticized as insufficie...', type: 'political' }
    ],
   },
   'death-penalty-innocence-cases': {
@@ -1420,17 +1383,16 @@ const investigations_d: Record<string, InvestigationData> = {
       'Prosecutorial misconduct is the most common factor in wrongful capital convictions. A 2020 study published in the Proceedings of the National Academy of Sciences estimated that at least 4.1% of death sentences in the United States are imposed on innocent people. A separate study by the Innocence Project found that prosecutorial misconduct contributed to 78% of cases where death row prisoners were later exonerated. The misconduct takes predictable forms: suppression of exculpatory evidence (Brady violations), use of testimony from jailhouse informants who received undisclosed benefits, knowing presentation of false forensic testimony, and racial discrimination in jury selection (Batson violations). Prosecutors are virtually never disciplined for misconduct that leads to wrongful capital convictions; a 2020 study by the Innocence Project found that of 660 documented cases of prosecutorial misconduct contributing to wrongful convictions, only one prosecutor was disciplined by a state bar.',
       'Forensic science failures have been central to numerous wrongful capital convictions. Cameron Todd Willingham was executed in Texas in 2004 for arson murder; post-execution review by leading fire scientists concluded that the arson evidence was based on discredited methodology and the fire was likely accidental. The National Academy of Sciences\' landmark 2009 report, "Strengthening Forensic Science in the United States," found that most forensic disciplines; including bite mark analysis, hair microscopy, blood spatter analysis, and arson investigation; lacked scientific validation. Bite mark evidence, in particular, has contributed to at least 35 wrongful convictions, including multiple death sentences. Keith Allen Harward spent 33 years in Virginia prison based on bite mark testimony before DNA exoneration in 2016. The Texas Forensic Science Commission found that faulty forensic testimony contributed to at least 24 wrongful convictions in the state.',
       'Racial bias pervades the capital punishment system at every level. Black Americans constitute 13% of the US population but 42% of death row inmates and 34% of those executed since 1977. The race of the victim is an even stronger predictor: a Baldus study found that defendants in Georgia whose victims were white were 4.3 times more likely to receive a death sentence than those whose victims were Black. The Supreme Court acknowledged this disparity in McCleskey v. Kemp (1987) but ruled it was constitutionally insufficient to invalidate the death penalty absent proof of intentional discrimination in the specific case. Philadelphia\'s capital system is illustrative; a 2019 study found that Black defendants were 1.8 times more likely to receive death sentences than white defendants after controlling for case characteristics. The combination of appointed defense counsel with inadequate resources; Alabama had no public defender system at all until 2011; prosecutorial discretion, and all-white jury selection in cases with Black defendants creates compounding racial bias.',
-      'The political and legal barriers to reform remain formidable despite mounting evidence of systemic error. The Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA) severely restricted federal habeas corpus review, the primary mechanism by which wrongful convictions are identified. AEDPA requires petitioners to demonstrate that state courts\' decisions were not merely wrong but "unreasonable"; a standard that courts interpret to insulate even clearly erroneous capital convictions from federal review. The Supreme Court has further restricted access to DNA testing (District Attorney\'s Office v. Osborne, 2009) and limited the grounds for ineffective assistance of counsel claims. Congress has never enacted a federal moratorium on executions despite bipartisan support for reform. The Innocence Protection Act of 2004 provided limited post-conviction DNA testing access but has been underutilized due to procedural barriers. Meanwhile, exonerations continue to occur primarily through the work of pro bono attorneys, law school innocence projects, and investigative journalists rather than through any systematic institutional mechanism.',
+      'The political and legal barriers to reform remain formidable despite mounting evidence of systemic error. The Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA) severely restricted federal habeas corpus review, the primary mechanism by which wrongful convictions are identified. AEDPA requires petitioners to demonstrate that state courts\' decisions were not merely wrong but "unreasonable"; a standard that courts interpret to insulate even clearly erroneous capital convictions from federal review. The Supreme Court has further restricted access to DNA testing (District Attorney\'s Office v. Osborne, 2009) and limited the grounds for ineffective assistance of counsel claims. Congress has never enacted a federal moratorium on executions despite bipartisan support for reform. The Innocence Protection Act of 2004 provided limited post-conviction DNA testing access but has been underutilized due to procedural barriers. Meanwhile, exonerations continue to occur primarily through the work of pro bono attorneys, law school innocence projects, and investigative journalists rather than through any systematic institutional mechanism.'
     ],
     tags: ['Death Penalty', 'Wrongful Convictions', 'Prosecutorial Misconduct', 'Forensic Science', 'Racial Bias', 'Innocence Project'],
     sources: [
       { title: 'Death Penalty Information Center Exonerations', url: 'https://deathpenaltyinfo.org', type: 'Research Study' },
       { title: 'National Academy of Sciences Forensic Science Report', url: 'https://nap.nationalacademies.org', type: 'Research Study' },
-      { title: 'PNAS Wrongful Conviction Rate Study', url: 'https://www.pnas.org', type: 'Research Study' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'PNAS Wrongful Conviction Rate Study', url: 'https://www.pnas.org', type: 'Research Study' }
     ],
     affiliations: [
- { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal death penalty prosecutions; AEDPA restrictions on habeas corpus have prevented correction of wrongful convictions', href: '/entities/agencies/doj' },
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal death penalty prosecutions; AEDPA restrictions on habeas corpus have prevented correction of wrongful convictions', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1973-01-01',
    lastActivityDate: '2026-01-26',
@@ -1450,7 +1412,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019', event: 'Philadelphia\'s capital system is illustrative; a 2019 study found that Black defendants were 1.8 times more likely to receive death sentences than white defendants after controlling for case charac...', type: 'legal' },
      { date: '2020', event: 'A 2020 study published in the Proceedings of the National Academy of Sciences estimated that at least 4.1% of death sentences in the United States are imposed on innocent people', type: 'legal' },
      { date: '2020', event: 'Prosecutors are virtually never disciplined for misconduct that leads to wrongful capital convictions; a 2020 study by the Innocence Project found that of 660 documented cases of prosecutorial misc', type: 'legal' },
-     { date: '2023', event: 'The list grows regularly: five death row exonerations occurred in 2023 alone', type: 'critical' },
+     { date: '2023', event: 'The list grows regularly: five death row exonerations occurred in 2023 alone', type: 'critical' }
    ],
   },
   'defense-contractor-fraud-and-waste': {
@@ -1466,20 +1428,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'The F-35 Joint Strike Fighter program exemplifies systemic defense procurement failure. Lockheed Martin\'s F-35 is the most expensive weapons system in history, with total lifecycle costs estimated at $1.7 trillion. The program has experienced over $183 billion in cost overruns from its original estimates. As of 2024, F-35s suffered from 871 known defects, including problems with the ejection seat (deemed unsafe for pilots under 136 pounds), oxygen system, and software. Engine sustainment costs are 70% higher than projected. Mission-capable rates hover around 55%; meaning nearly half of delivered aircraft cannot perform their primary missions at any given time. Despite this record, Lockheed Martin\'s F-35 contract has never faced penalty or restructuring; the company earned $17.7 billion in F-35 revenue in 2023 alone.',
       'The revolving door between the Pentagon, Congress, and defense contractors institutionalizes conflicts of interest. A 2021 study by the Project on Government Oversight (POGO) found that 672 former senior government officials; including generals, admirals, senior procurement officials, and members of Congress; moved to work for the top 20 defense contractors between 2004 and 2019. Former Defense Secretary Mark Esper joined the boards of multiple defense and technology firms upon leaving office. Former Defense Secretary James Mattis served on the board of General Dynamics before and after his tenure. Former members of the Senate and House Armed Services Committees routinely join defense contractor boards or lobbying firms. This revolving door ensures that the officials who award contracts, the officials who oversee them, and the executives who receive them are drawn from the same professional network.',
       'The Pentagon\'s failure to pass a financial audit is unprecedented in the federal government. The Department of Defense received its first mandatory comprehensive audit in 2018 and failed. It failed again in 2019, 2020, 2021, 2022, 2023, and 2024. The 2023 audit found that the Pentagon could not account for approximately 61% of its $3.8 trillion in assets. The DoD Inspector General has reported that accounting systems are so fragmented; the Pentagon operates over 2,000 distinct financial systems, many of which cannot communicate with each other; that accurate financial reporting is structurally impossible. A 2016 study by Mark Skidmore and Catherine Austin Fitts at Michigan State University found $21 trillion in unsupported journal voucher adjustments in Army and HUD accounts between 1998 and 2015; adjustments that represent accounting entries without supporting documentation.',
-      'Wartime contracting in Iraq and Afghanistan amplified fraud and waste to extraordinary levels. The Commission on Wartime Contracting in Iraq and Afghanistan (a bipartisan congressional commission) estimated in its 2011 final report that between $31 billion and $60 billion of the $206 billion spent on contracted operations was lost to waste and fraud. KBR (formerly Kellogg Brown & Root, a Halliburton subsidiary) received over $40 billion in Iraq contracts, including a $7 billion logistics contract (LOGCAP III) that the Army\'s own auditors found had $553 million in unreasonable costs. In Afghanistan, billions in reconstruction contracts produced hospitals with no running water, schools with no students, and roads that dissolved in the first rain. The Special Inspector General for Afghanistan Reconstruction (SIGAR) documented over $19 billion in waste and fraud across 700+ reports before the Afghan government fell in 2021.',
+      'Wartime contracting in Iraq and Afghanistan amplified fraud and waste to extraordinary levels. The Commission on Wartime Contracting in Iraq and Afghanistan (a bipartisan congressional commission) estimated in its 2011 final report that between $31 billion and $60 billion of the $206 billion spent on contracted operations was lost to waste and fraud. KBR (formerly Kellogg Brown & Root, a Halliburton subsidiary) received over $40 billion in Iraq contracts, including a $7 billion logistics contract (LOGCAP III) that the Army\'s own auditors found had $553 million in unreasonable costs. In Afghanistan, billions in reconstruction contracts produced hospitals with no running water, schools with no students, and roads that dissolved in the first rain. The Special Inspector General for Afghanistan Reconstruction (SIGAR) documented over $19 billion in waste and fraud across 700+ reports before the Afghan government fell in 2021.'
     ],
     tags: ['Defense Spending', 'Contractor Fraud', 'F-35', 'Pentagon Audit', 'Revolving Door', 'False Claims Act', 'Wartime Contracting'],
     sources: [
       { title: 'DOJ False Claims Act Statistics', url: 'https://www.justice.gov/civil', type: 'Government Record' },
       { title: 'GAO F-35 Program Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'POGO Revolving Door Database', url: 'https://www.pogo.org', type: 'Research Study' },
-      { title: 'SIGAR Quarterly Reports', url: 'https://www.sigar.mil', type: 'Government Audit' },
-      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'SIGAR Quarterly Reports', url: 'https://www.sigar.mil', type: 'Government Audit' }
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Has failed every annual financial audit since 2018; cannot account for 61% of its $3.8 trillion in assets', href: '/entities/agencies/pentagon' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-11-29',
@@ -1496,7 +1456,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'RTX (formerly Raytheon) agreed to pay over $950 million in 2023 to settle fraud charges involving defective pricing, bribing Qatari officials, and improperly exporting defense technology', type: 'financial' },
      { date: '2023', event: 'Despite this record, Lockheed Martin\'s F-35 contract has never faced penalty or restructuring; the company earned $17.7 billion in F-35 revenue in 2023 alone', type: 'political' },
      { date: '2023', event: 'The 2023 audit found that the Pentagon could not account for approximately 61% of its $3.8 trillion in assets', type: 'default' },
-     { date: '2024', event: 'As of 2024, F-35s suffered from 871 known defects, including problems with the ejection seat (deemed unsafe for pilots under 136 pounds), oxygen system, and software', type: 'default' },
+     { date: '2024', event: 'As of 2024, F-35s suffered from 871 known defects, including problems with the ejection seat (deemed unsafe for pilots under 136 pounds), oxygen system, and software', type: 'default' }
    ],
   },
   'drug-war-racial-disparities': {
@@ -1512,18 +1472,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'Marijuana enforcement illustrates racial disparities at the state and local level. The ACLU\'s 2013 report "The War on Marijuana in Black and White" analyzed arrest data from every county in the United States and found that Black Americans were 3.73 times more likely to be arrested for marijuana possession than white Americans despite comparable usage rates. A 2020 follow-up found that the disparity had actually worsened in many jurisdictions; in some counties, the ratio exceeded 10:1. In New York City between 2014 and 2020, 94% of those arrested for marijuana offenses were Black or Latino despite making up approximately 54% of the city\'s population. These arrests have cascading consequences: criminal records affect employment, housing, education access, child custody, and immigration status. An estimated 40,000 people remained incarcerated for marijuana offenses in 2023 despite legalization in 24 states.',
       'The opioid crisis (predominantly affecting white communities) revealed starkly different enforcement priorities. When crack cocaine devastated Black communities in the 1980s and 1990s, the policy response was criminalization: mandatory minimums, three-strikes laws, and mass incarceration. When opioids killed over 500,000 predominantly white Americans between 1999 and 2020, the policy response was medicalization: expanded access to naloxone, medication-assisted treatment, drug courts, and harm reduction programs. The Comprehensive Addiction and Recovery Act of 2016 (CARA) funded treatment and prevention programs; a legislative response never offered during the crack epidemic. The disparity is quantifiable: a 2020 study in Drug and Alcohol Dependence found that white heroin users were 77% more likely than Black heroin users to be admitted to treatment programs rather than incarcerated.',
       'Mass incarceration driven by drug enforcement has devastated Black communities economically and socially. The US prison population grew from approximately 300,000 in 1972 to 2.3 million by 2019; a 667% increase driven primarily by drug offenses and the sentencing enhancements that accompany them. Black Americans are incarcerated at 5.1 times the rate of white Americans. An estimated 1 in 3 Black men born in 2001 will be imprisoned at some point in their lifetime (compared to 1 in 17 white men) according to the Bureau of Justice Statistics. The economic cost includes not only the $81 billion annual cost of incarceration but an estimated $87 billion in lost earnings by formerly incarcerated people annually. Children with incarcerated parents are 6 times more likely to be incarcerated themselves, creating intergenerational cycles of contact with the criminal justice system.',
-      'Reform efforts have been incremental and unevenly implemented. The First Step Act of 2018 reduced some mandatory minimums and made the Fair Sentencing Act retroactive, benefiting approximately 3,500 federal inmates; but it does not apply to state prisons, where 87% of drug prisoners are held. Prosecutorial discretion; the power of individual prosecutors to decide what charges to file and what plea deals to offer; remains the largest driver of sentencing disparities, and is the least regulated aspect of the criminal justice system. A 2019 study by the Vera Institute found that prosecutorial charging decisions accounted for 65% of the racial disparity in federal drug sentences. Attorney General Eric Holder\'s 2013 "Smart on Crime" initiative directed federal prosecutors to avoid charging mandatory minimums for low-level nonviolent drug offenders; the policy was rescinded by Attorney General Jeff Sessions in 2017. No structural reform has addressed the fundamental racial asymmetry: communities of color are policed more heavily, their residents arrested more frequently, charged more aggressively, and sentenced more harshly for conduct that is equally prevalent across racial demographics.',
+      'Reform efforts have been incremental and unevenly implemented. The First Step Act of 2018 reduced some mandatory minimums and made the Fair Sentencing Act retroactive, benefiting approximately 3,500 federal inmates; but it does not apply to state prisons, where 87% of drug prisoners are held. Prosecutorial discretion; the power of individual prosecutors to decide what charges to file and what plea deals to offer; remains the largest driver of sentencing disparities, and is the least regulated aspect of the criminal justice system. A 2019 study by the Vera Institute found that prosecutorial charging decisions accounted for 65% of the racial disparity in federal drug sentences. Attorney General Eric Holder\'s 2013 "Smart on Crime" initiative directed federal prosecutors to avoid charging mandatory minimums for low-level nonviolent drug offenders; the policy was rescinded by Attorney General Jeff Sessions in 2017. No structural reform has addressed the fundamental racial asymmetry: communities of color are policed more heavily, their residents arrested more frequently, charged more aggressively, and sentenced more harshly for conduct that is equally prevalent across racial demographics.'
     ],
     tags: ['War on Drugs', 'Mass Incarceration', 'Racial Disparities', 'Crack Cocaine Sentencing', 'Marijuana Arrests', 'Criminal Justice Reform'],
     sources: [
       { title: 'ACLU War on Marijuana Report', url: 'https://www.aclu.org', type: 'Research Study' },
       { title: 'US Sentencing Commission Racial Disparities Report', url: 'https://www.ussc.gov', type: 'Government Record' },
-      { title: 'Bureau of Justice Statistics Drug Offender Data', url: 'https://bjs.ojp.gov', type: 'Government Record' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Bureau of Justice Statistics Drug Offender Data', url: 'https://bjs.ojp.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal drug prosecution policies; Smart on Crime initiative rescinded by Sessions; 19.1% sentencing disparity documented', href: '/entities/agencies/doj' },
- { id: '2', name: 'DEA', type: 'agency', relationship: 'Enforcement patterns show consistent racial targeting; higher arrest rates in Black communities despite equal drug use rates', href: '/entities/agencies/dea' },
+ { id: '2', name: 'DEA', type: 'agency', relationship: 'Enforcement patterns show consistent racial targeting; higher arrest rates in Black communities despite equal drug use rates', href: '/entities/agencies/dea' }
  ],
    eventOriginDate: '1971-01-01',
    lastActivityDate: '2026-01-11',
@@ -1543,7 +1502,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2018', event: 'The First Step Act of 2018 reduced some mandatory minimums and made the Fair Sentencing Act retroactive, benefiting approximately 3,500 federal inmates', type: 'legal' },
      { date: '2019', event: 'A 2019 study by the Vera Institute found that prosecutorial charging decisions accounted for 65% of the racial disparity in federal drug sentences', type: 'legal' },
      { date: '2020', event: 'A 2020 follow-up found that the disparity had actually worsened in many jurisdictions; in some counties, the ratio exceeded 10:1', type: 'default' },
-     { date: '2020', event: 'The disparity is quantifiable: a 2020 study in Drug and Alcohol Dependence found that white heroin users were 77% more likely than Black heroin users to be admitted to treatment programs rather tha', type: 'default' },
+     { date: '2020', event: 'The disparity is quantifiable: a 2020 study in Drug and Alcohol Dependence found that white heroin users were 77% more likely than Black heroin users to be admitted to treatment programs rather tha', type: 'default' }
    ],
   },
   'drug-patent-abuse-consumer-impact': {
@@ -1559,18 +1518,16 @@ const investigations_d: Record<string, InvestigationData> = {
       'Pay-for-delay agreements (reverse payment settlements) involve brand-name manufacturers paying generic companies to delay market entry, effectively splitting monopoly profits between the two while consumers continue paying inflated prices. The FTC estimated in 2010 that pay-for-delay deals cost consumers $3.5 billion annually. In FTC v. Actavis (2013), the Supreme Court ruled that such agreements could violate antitrust law and were subject to a "rule of reason" analysis; but did not categorically ban them. Since the Actavis decision, pay-for-delay deals have evolved into more complex arrangements including authorized generic licenses, supply agreements, and private-label deals that are harder to identify and challenge. The FTC has continued to file enforcement actions, but the number of identifiable pay-for-delay deals has increased, with 180+ such agreements identified between 2006 and 2021.',
       'Product hopping (also called "evergreening") involves making minor, often clinically insignificant modifications to a drug; such as changing from capsule to tablet, switching from immediate-release to extended-release, or combining with an existing generic drug; and then shifting patients to the new patented version before generic competitors enter the market. AstraZeneca converted Prilosec (omeprazole) to Nexium (esomeprazole; the S-isomer of the same molecule) and spent $500 million marketing the virtually identical drug, generating $6 billion annually while Prilosec went generic. Forest Laboratories converted Namenda (memantine; for Alzheimer\'s) from twice-daily to once-daily formulation and attempted to force patients to switch before generics became available; the strategy was blocked by a Second Circuit court ruling in 2015. Warner Chilcott converted Doryx (doxycycline) through four formulation changes to maintain exclusivity.',
       'The Hatch-Waxman Act of 1984, intended to balance patent protection with generic competition, has been gamed through the "citizen petition" process and 30-month stays. Brand manufacturers file citizen petitions with the FDA raising safety or bioequivalence concerns about pending generic applications, triggering delays that can extend exclusivity by months or years. The FDA found that 81% of citizen petitions filed to block generic entry were ultimately denied, indicating that most were filed in bad faith for delay purposes. The 30-month stay provision; which automatically delays generic approval when a brand manufacturer files a patent infringement suit; provides another tool for delay. Generic companies seeking FDA approval through Abbreviated New Drug Applications (ANDAs) must certify that they do not infringe existing patents; the brand manufacturer can then trigger a 30-month stay by filing suit, regardless of the merits.',
-      'The consumer cost of patent abuse is massive and measurable. Generic drugs typically cost 80-95% less than their brand-name equivalents. The Association for Accessible Medicines estimated that generic and biosimilar drugs saved the US healthcare system $408 billion in 2022. Each year of delayed generic entry for a blockbuster drug can cost consumers $1-5 billion. The insulin market illustrates the endgame: Eli Lilly\'s Humalog was first patented in 1993 and faced no generic competition until 2020 due to successive patent filings. Gilead\'s Sovaldi/Harvoni (hepatitis C cure) was priced at $84,000-$94,500 per course of treatment; protected by patent thickets that blocked competition for years. The CREATES Act of 2019 addressed one narrow abuse; brand manufacturers refusing to sell samples needed for generic bioequivalence testing; but left the broader patent abuse infrastructure intact. Comprehensive patent reform, including limits on continuation patents and presumptions against secondary patents that do not represent genuine innovation, has been proposed repeatedly but blocked by pharmaceutical industry lobbying exceeding $370 million annually.',
+      'The consumer cost of patent abuse is massive and measurable. Generic drugs typically cost 80-95% less than their brand-name equivalents. The Association for Accessible Medicines estimated that generic and biosimilar drugs saved the US healthcare system $408 billion in 2022. Each year of delayed generic entry for a blockbuster drug can cost consumers $1-5 billion. The insulin market illustrates the endgame: Eli Lilly\'s Humalog was first patented in 1993 and faced no generic competition until 2020 due to successive patent filings. Gilead\'s Sovaldi/Harvoni (hepatitis C cure) was priced at $84,000-$94,500 per course of treatment; protected by patent thickets that blocked competition for years. The CREATES Act of 2019 addressed one narrow abuse; brand manufacturers refusing to sell samples needed for generic bioequivalence testing; but left the broader patent abuse infrastructure intact. Comprehensive patent reform, including limits on continuation patents and presumptions against secondary patents that do not represent genuine innovation, has been proposed repeatedly but blocked by pharmaceutical industry lobbying exceeding $370 million annually.'
     ],
     tags: ['Patent Thickets', 'Pay-for-Delay', 'Evergreening', 'Generic Competition', 'Drug Monopolies', 'Humira', 'FTC'],
     sources: [
       { title: 'FTC Pay-for-Delay Reports', url: 'https://www.ftc.gov', type: 'Government Record' },
       { title: 'I-MAK Patent Overpatenting Analysis', url: 'https://www.i-mak.org', type: 'Research Study' },
-      { title: 'FTC v. Actavis Supreme Court Decision', url: 'https://www.supremecourt.gov', type: 'Court Record' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'FTC v. Actavis Supreme Court Decision', url: 'https://www.supremecourt.gov', type: 'Court Record' }
     ],
     affiliations: [
- { id: '1', name: 'FDA', type: 'agency', relationship: 'Generic drug approval process exploited through citizen petitions and 30-month stays; found 81% of blocking petitions filed in bad faith', href: '/entities/agencies/fda' },
-      { id: 'department-of-health-and-human-services', name: 'Department of Health and Human Services', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/hhs' },
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Generic drug approval process exploited through citizen petitions and 30-month stays; found 81% of blocking petitions filed in bad faith', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '1984-01-01',
    lastActivityDate: '2026-02-19',
@@ -1586,7 +1543,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022', event: 'AbbVie\'s Humira (adalimumab), the world\'s best-selling drug ($21 billion in US revenue in 2022), was protected by over 130 patents; many filed years after the original compound patent expired', type: 'political' },
      { date: '2022', event: 'The Association for Accessible Medicines estimated that generic and biosimilar drugs saved the US healthcare system $408 billion in 2022', type: 'political' },
      { date: '2023', event: 'A 2023 I-MAK analysis found that the top 12 best-selling drugs in the US were protected by an average of 74 patents each, with expected monopoly periods averaging 38 years from FDA approval', type: 'default' },
-     { date: '2023', event: 'This patent wall blocked biosimilar competition in the United States until January 2023; seven years after biosimilars became available in Europe', type: 'default' },
+     { date: '2023', event: 'This patent wall blocked biosimilar competition in the United States until January 2023; seven years after biosimilars became available in Europe', type: 'default' }
    ],
   },
   'drug-recall-delay-responsibility': {
@@ -1602,18 +1559,16 @@ const investigations_d: Record<string, InvestigationData> = {
       'The FDA\'s structural inability to force timely recalls is a root cause of these failures. Unlike the Consumer Product Safety Commission (which can mandate product recalls), the FDA\'s authority to compel drug recalls was historically limited. Until the FDA Amendments Act of 2007 (FDAAA), the agency could only "request" that a manufacturer recall a drug; it could not order one. Even after FDAAA granted mandatory recall authority, the FDA has almost never used it; preferring to negotiate voluntary recalls. The Office of Surveillance and Epidemiology (OSE), the FDA division responsible for monitoring drugs after approval, has been chronically underfunded relative to the Office of New Drugs (which approves them). A 2006 Institute of Medicine report found that the FDA lacked the authority, resources, and organizational culture to adequately monitor drug safety post-approval. Internal FDA scientists who raised safety concerns about approved drugs described institutional retaliation; David Graham testified before Congress that his superiors attempted to suppress his Vioxx safety findings.',
       'The Zantac (ranitidine) contamination case illustrates how the FDA delays action even when contamination is unambiguous. In September 2019, Valisure, an independent pharmacy, detected the carcinogen NDMA (N-Nitrosodimethylamine) in ranitidine tablets at levels exceeding 3 million nanograms per tablet; over 36,000 times the FDA\'s acceptable daily intake limit. Valisure filed a citizen petition requesting immediate recall. The FDA initially dismissed the findings, announcing in November 2019 that NDMA levels were "acceptable" and that no recall was necessary. Only after additional testing; and significant public pressure; did the FDA request voluntary recalls in April 2020. By that time, ranitidine had been one of the world\'s most-used drugs for over 35 years, with an estimated 15 million active US prescriptions. Multidistrict litigation in the Southern District of Florida consolidated over 100,000 individual lawsuits alleging that ranitidine manufacturers knew or should have known about NDMA formation.',
       'The NDMA contamination crisis extended far beyond Zantac, revealing systemic quality failures in generic drug manufacturing. Beginning in 2018, the FDA detected NDMA and related nitrosamines in widely used blood pressure medications (valsartan, losartan, irbesartan) manufactured primarily at facilities in China and India. Over 1,100 lots of contaminated medications were recalled between 2018 and 2023. The contamination was traced to changes in manufacturing processes at facilities including Zhejiang Huahai Pharmaceutical (China) and Hetero Labs (India) that produced the impurities as byproducts. The FDA\'s foreign facility inspection program; responsible for overseeing the approximately 80% of active pharmaceutical ingredients manufactured outside the United States; had conducted only a fraction of the inspections that domestic facilities receive. A 2019 GAO report found that the FDA inspected foreign drug facilities once every 11 years on average versus once every 2.7 years for domestic facilities.',
-      'The pattern continues with ongoing cases. The FDA\'s 2023 guidance on nitrosamine impurities in medications acknowledged that the problem is industry-wide; affecting potentially hundreds of medications manufactured with contamination-prone processes. Johnson & Johnson\'s Risperdal (risperidone) was marketed aggressively for off-label uses in children and elderly patients for years before the FDA required warnings about gynecomastia and metabolic effects; J&J paid over $2.5 billion in legal settlements. Bayer\'s Essure permanent birth control device received over 47,000 adverse event reports before being withdrawn in 2018; the FDA had initially fast-tracked its approval and resisted calls for additional safety reviews. The fundamental tension is structural: the FDA relies on manufacturers\' clinical trial data for approval, the same manufacturers fund 75% of the FDA\'s drug review budget through user fees (PDUFA), and post-market safety monitoring receives a fraction of the resources devoted to new drug approvals. The incentive structure rewards rapid approval and delays withdrawal.',
+      'The pattern continues with ongoing cases. The FDA\'s 2023 guidance on nitrosamine impurities in medications acknowledged that the problem is industry-wide; affecting potentially hundreds of medications manufactured with contamination-prone processes. Johnson & Johnson\'s Risperdal (risperidone) was marketed aggressively for off-label uses in children and elderly patients for years before the FDA required warnings about gynecomastia and metabolic effects; J&J paid over $2.5 billion in legal settlements. Bayer\'s Essure permanent birth control device received over 47,000 adverse event reports before being withdrawn in 2018; the FDA had initially fast-tracked its approval and resisted calls for additional safety reviews. The fundamental tension is structural: the FDA relies on manufacturers\' clinical trial data for approval, the same manufacturers fund 75% of the FDA\'s drug review budget through user fees (PDUFA), and post-market safety monitoring receives a fraction of the resources devoted to new drug approvals. The incentive structure rewards rapid approval and delays withdrawal.'
     ],
     tags: ['Vioxx', 'Zantac', 'NDMA Contamination', 'Drug Recalls', 'FDA Oversight', 'Pharmaceutical Safety', 'Post-Market Surveillance'],
     sources: [
       { title: 'David Graham Congressional Testimony on Vioxx', url: 'https://www.finance.senate.gov', type: 'Congressional Report' },
       { title: 'Institute of Medicine FDA Report', url: 'https://nap.nationalacademies.org', type: 'Research Study' },
-      { title: 'GAO Foreign Drug Facility Inspection Report', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'GAO Foreign Drug Facility Inspection Report', url: 'https://www.gao.gov', type: 'Government Audit' }
     ],
     affiliations: [
- { id: '1', name: 'FDA', type: 'agency', relationship: 'Initially dismissed NDMA contamination findings; inspects foreign drug facilities once every 11 years vs 2.7 years for domestic', href: '/entities/agencies/fda' },
-      { id: 'department-of-health-and-human-services', name: 'Department of Health and Human Services', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/hhs' },
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Initially dismissed NDMA contamination findings; inspects foreign drug facilities once every 11 years vs 2.7 years for domestic', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '1999-01-01',
    lastActivityDate: '2025-01-21',
@@ -1631,7 +1586,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019-09-01', event: 'In September 2019, Valisure, an independent pharmacy, detected the carcinogen NDMA (N-Nitrosodimethylamine) in ranitidine tablets at levels exceeding 3 million nanograms per tablet', type: 'financial' },
      { date: '2019-11-01', event: 'The FDA initially dismissed the findings, announcing in November 2019 that NDMA levels were "acceptable" and that no recall was necessary', type: 'legal' },
      { date: '2020-04-01', event: 'Only after additional testing; and significant public pressure; did the FDA request voluntary recalls in April 2020', type: 'default' },
-     { date: '2023', event: 'The FDA\'s 2023 guidance on nitrosamine impurities in medications acknowledged that the problem is industry-wide; affecting potentially hundreds of medications manufactured with contamination-prone ...', type: 'default' },
+     { date: '2023', event: 'The FDA\'s 2023 guidance on nitrosamine impurities in medications acknowledged that the problem is industry-wide; affecting potentially hundreds of medications manufactured with contamination-prone ...', type: 'default' }
    ],
   },
   'digital-advertising-surveillance-pipeline': {
@@ -1647,18 +1602,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'Google\'s advertising surveillance infrastructure is the most extensive. Google\'s ad network reaches over 90% of internet users worldwide. Google Search processes 8.5 billion searches daily, each generating intent signals fed into advertising profiles. Google Analytics is installed on approximately 55% of all websites, tracking user behavior across millions of domains. The Chrome browser (65% global market share) provides browsing data. Android (72% global mobile OS share) provides location, app usage, and device data. Gmail scans incoming and outgoing emails for advertising signals. YouTube tracks viewing behavior across 2.5 billion monthly users. Google\'s 2022 annual report disclosed $224 billion in advertising revenue; representing 79% of Alphabet\'s total revenue. The DOJ\'s antitrust case against Google (filed October 2020) alleged that Google maintains monopoly power in general search and search advertising through exclusive default agreements with Apple and other device manufacturers; paying Apple an estimated $15 billion annually for default search status.',
       'Meta Platforms\' (Facebook/Instagram/WhatsApp) surveillance advertising model collects data from approximately 3.7 billion monthly active users across its family of apps. Meta\'s tracking pixel is embedded on approximately 30% of the web\'s most popular websites, enabling cross-site behavioral tracking. The company\'s "Custom Audiences" tool allows advertisers to upload customer lists (email addresses, phone numbers) and target those individuals with ads; effectively creating a surveillance-for-hire service. Meta\'s "Lookalike Audiences" tool uses algorithmic profiling to identify users who resemble existing customer lists; a form of predictive behavioral targeting. Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Meta was aware its advertising-driven recommendation algorithms amplified divisive content, promoted eating disorder content to teenage girls, and facilitated the spread of misinformation; but chose not to fix these issues because engagement-driven content maximized advertising revenue.',
       'The national security implications of advertising surveillance have become a major concern. A 2023 investigation by The Wall Street Journal revealed that Near Intelligence, a data broker, collected location data from advertising bid streams and sold it to the US Defense Department. Senator Ron Wyden\'s investigation found that the NSA purchased web browsing metadata from advertising data brokers. The ODNI (Office of the Director of National Intelligence) commissioned a 2022 report acknowledging that commercially available data purchased from advertising and data broker ecosystems provides intelligence capabilities that would otherwise require court authorization. Foreign intelligence services also exploit the RTB system; a 2023 report by the Tracking Exposed project documented how Russian entities purchased bid stream data to track Ukrainian refugees across Europe. The fundamental design of RTB; broadcasting intimate personal data to thousands of unknown recipients; makes it inherently incompatible with privacy or security.',
-      'Regulatory responses have varied dramatically by jurisdiction. The EU\'s GDPR has been used to challenge RTB; the Belgian Data Protection Authority ruled in 2022 that the IAB Europe\'s Transparency and Consent Framework (the legal basis for most European RTB activity) violated GDPR. Google announced it would deprecate third-party cookies in Chrome (the primary technical mechanism for cross-site tracking) but repeatedly delayed the deprecation and ultimately abandoned the plan in 2024, opting instead for a user-choice prompt. Apple\'s App Tracking Transparency (ATT) framework, introduced in iOS 14.5 (2021), required apps to request permission before tracking users across other apps and websites; approximately 75% of users opted out, costing Meta an estimated $10 billion in annual revenue. The US has no comprehensive federal privacy law. The proposed American Privacy Rights Act (APRA) would restrict targeted advertising based on sensitive categories but faces heavy industry opposition from the $600+ billion global digital advertising industry.',
+      'Regulatory responses have varied dramatically by jurisdiction. The EU\'s GDPR has been used to challenge RTB; the Belgian Data Protection Authority ruled in 2022 that the IAB Europe\'s Transparency and Consent Framework (the legal basis for most European RTB activity) violated GDPR. Google announced it would deprecate third-party cookies in Chrome (the primary technical mechanism for cross-site tracking) but repeatedly delayed the deprecation and ultimately abandoned the plan in 2024, opting instead for a user-choice prompt. Apple\'s App Tracking Transparency (ATT) framework, introduced in iOS 14.5 (2021), required apps to request permission before tracking users across other apps and websites; approximately 75% of users opted out, costing Meta an estimated $10 billion in annual revenue. The US has no comprehensive federal privacy law. The proposed American Privacy Rights Act (APRA) would restrict targeted advertising based on sensitive categories but faces heavy industry opposition from the $600+ billion global digital advertising industry.'
     ],
     tags: ['Programmatic Advertising', 'Real-Time Bidding', 'Google', 'Meta', 'Surveillance Capitalism', 'Ad Tech', 'RTB'],
     sources: [
       { title: 'ICCL RTB Data Broadcast Report', url: 'https://www.iccl.ie', type: 'Research Study' },
       { title: 'DOJ v. Google Antitrust Complaint', url: 'https://www.justice.gov', type: 'Court Record' },
-      { title: 'Frances Haugen Facebook Papers', url: 'https://www.wsj.com', type: 'Investigative Report' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'Frances Haugen Facebook Papers', url: 'https://www.wsj.com', type: 'Investigative Report' }
     ],
     affiliations: [
  { id: '1', name: 'Google', type: 'corporation', relationship: 'Controls the largest advertising surveillance network; $224B in ad revenue; DOJ antitrust case alleges search monopoly maintenance', href: '/entities/corporations/google' },
- { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Tracks 3.7B users; internal documents showed awareness that ad algorithms amplified harmful content', href: '/entities/corporations/meta-platforms' },
+ { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Tracks 3.7B users; internal documents showed awareness that ad algorithms amplified harmful content', href: '/entities/corporations/meta-platforms' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-07-12',
@@ -1673,7 +1627,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022', event: 'The EU\'s GDPR has been used to challenge RTB; the Belgian Data Protection Authority ruled in 2022 that the IAB Europe\'s Transparency and Consent Framework (the legal basis for most European RTB act...', type: 'default' },
      { date: '2023', event: 'A 2023 investigation by The Wall Street Journal revealed that Near Intelligence, a data broker, collected location data from advertising bid streams and sold it to the US Defense Department', type: 'default' },
      { date: '2023', event: 'Foreign intelligence services also exploit the RTB system; a 2023 report by the Tracking Exposed project documented how Russian entities purchased bid stream data to track Ukrainian refugees across', type: 'default' },
-     { date: '2024', event: 'Google announced it would deprecate third-party cookies in Chrome (the primary technical mechanism for cross-site tracking) but repeatedly delayed the deprecation and ultimately abandoned the plan', type: 'default' },
+     { date: '2024', event: 'Google announced it would deprecate third-party cookies in Chrome (the primary technical mechanism for cross-site tracking) but repeatedly delayed the deprecation and ultimately abandoned the plan', type: 'default' }
    ],
   },
   'drug-supply-chain-vulnerability-analysis': {
@@ -1689,18 +1643,16 @@ const investigations_d: Record<string, InvestigationData> = {
       'China\'s dominance of the API market represents a strategic vulnerability. China produces approximately 40% of the world\'s APIs and an estimated 80-90% of certain critical drugs including heparin (blood thinner), penicillin, vitamins, and acetaminophen. The 2008 heparin contamination crisis; in which adulterated heparin from Chinese manufacturer Changzhou SPL caused 81 deaths in the United States; demonstrated the dangers of concentrated foreign supply. Chinese manufacturers substituted oversulfated chondroitin sulfate for genuine heparin, and the adulteration was not detected by the FDA or Baxter International (the US distributor) until patients began dying. In 2020, early in the COVID-19 pandemic, China temporarily restricted exports of personal protective equipment and placed export controls on APIs; a demonstration of the leverage that supply chain dominance provides.',
       'The COVID-19 pandemic exposed critical drug shortage vulnerabilities across multiple categories. Shortages of sedatives (propofol, fentanyl, midazolam) used for intubated patients in ICUs became acute in March-April 2020 as demand surged and supply chains disrupted. Hydroxychloroquine shortages followed speculative demand (the API was manufactured primarily in India, which imposed an export ban). India\'s nationwide COVID lockdown in March 2020 disrupted pharmaceutical manufacturing and shipping for weeks. Shortages of contrast media used in CT scans; produced primarily at a single GE Healthcare facility in Shanghai; became critical in May 2022 when a COVID lockdown shut the plant. Cancer drug shortages, which had been growing for years, became acute: cisplatin and carboplatin (critical chemotherapy agents) reached critical shortage levels in 2023 due to manufacturing concentration at a small number of facilities.',
       'The pharmaceutical industry\'s response to supply chain vulnerability has been dominated by rhetoric rather than reshoring. The Trump administration\'s 2020 executive order directing federal agencies to "Buy American" for essential medicines has not been enforced meaningfully. The Biden administration\'s 2021 supply chain review identified pharmaceuticals as a critical sector but proposed incremental measures. The CHIPS and Science Act (2022) provided $52 billion in semiconductor manufacturing subsidies but no equivalent program exists for pharmaceutical manufacturing. Civica Rx, a nonprofit generic pharmaceutical company founded in 2018, has invested in domestic manufacturing of essential generics and biosimilars; but its production capacity covers only a fraction of US needs. The estimated cost of establishing comprehensive domestic API manufacturing capacity ranges from $10-50 billion; a fraction of annual defense spending but far more than any existing or proposed pharmaceutical reshoring program.',
-      'Quality failures at foreign manufacturing facilities compound the supply vulnerability. Katherine Eban\'s 2019 investigation "Bottle of Lies" documented systemic fraud at Indian generic drug manufacturers, including data fabrication, testing only favorable samples, and deliberate deception of FDA inspectors. Ranbaxy Laboratories (then India\'s largest generic manufacturer) pleaded guilty in 2013 to seven federal felonies for filing false drug quality data with the FDA. Zhejiang Huahai Pharmaceutical (China) produced the contaminated valsartan that led to worldwide recalls of the blood pressure medication in 2018. The FDA\'s 2019 import alert database listed over 50 Indian pharmaceutical facilities subject to import restrictions for quality violations. The fundamental problem is that the FDA\'s inspection model was designed for a primarily domestic industry; the agency lacks the resources, legal authority, and diplomatic leverage to effectively regulate thousands of facilities in countries where regulatory frameworks differ, corruption is endemic, and governments view pharmaceutical manufacturing as a strategic industry to be protected rather than scrutinized.',
+      'Quality failures at foreign manufacturing facilities compound the supply vulnerability. Katherine Eban\'s 2019 investigation "Bottle of Lies" documented systemic fraud at Indian generic drug manufacturers, including data fabrication, testing only favorable samples, and deliberate deception of FDA inspectors. Ranbaxy Laboratories (then India\'s largest generic manufacturer) pleaded guilty in 2013 to seven federal felonies for filing false drug quality data with the FDA. Zhejiang Huahai Pharmaceutical (China) produced the contaminated valsartan that led to worldwide recalls of the blood pressure medication in 2018. The FDA\'s 2019 import alert database listed over 50 Indian pharmaceutical facilities subject to import restrictions for quality violations. The fundamental problem is that the FDA\'s inspection model was designed for a primarily domestic industry; the agency lacks the resources, legal authority, and diplomatic leverage to effectively regulate thousands of facilities in countries where regulatory frameworks differ, corruption is endemic, and governments view pharmaceutical manufacturing as a strategic industry to be protected rather than scrutinized.'
     ],
     tags: ['Drug Supply Chain', 'API Manufacturing', 'China Dependency', 'Drug Shortages', 'FDA Inspections', 'Reshoring', 'Heparin Contamination'],
     sources: [
       { title: 'GAO Foreign Drug Manufacturing Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'FDA Drug Shortage Database', url: 'https://www.fda.gov/drugs/', type: 'Government Record' },
-      { title: 'Katherine Eban, "Bottle of Lies"', url: 'https://www.penguinrandomhouse.com', type: 'Investigative Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'Katherine Eban, "Bottle of Lies"', url: 'https://www.penguinrandomhouse.com', type: 'Investigative Report' }
     ],
     affiliations: [
- { id: '1', name: 'FDA', type: 'agency', relationship: 'Inspects foreign drug facilities once every 11 years; unable to identify all foreign establishments in the drug supply chain', href: '/entities/agencies/fda' },
-      { id: 'department-of-health-and-human-services', name: 'Department of Health and Human Services', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/hhs' },
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Inspects foreign drug facilities once every 11 years; unable to identify all foreign establishments in the drug supply chain', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-04-30',
@@ -1720,7 +1672,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-03-01', event: 'India\'s nationwide COVID lockdown in March 2020 disrupted pharmaceutical manufacturing and shipping for weeks', type: 'default' },
      { date: '2020-04-01', event: 'Shortages of sedatives (propofol, fentanyl, midazolam) used for intubated patients in ICUs became acute in March-April 2020 as demand surged and supply chains disrupted', type: 'default' },
      { date: '2021', event: 'The Biden administration\'s 2021 supply chain review identified pharmaceuticals as a critical sector but proposed incremental measures', type: 'default' },
-     { date: '2022', event: 'The CHIPS and Science Act (2022) provided $52 billion in semiconductor manufacturing subsidies but no equivalent program exists for pharmaceutical manufacturing', type: 'political' },
+     { date: '2022', event: 'The CHIPS and Science Act (2022) provided $52 billion in semiconductor manufacturing subsidies but no equivalent program exists for pharmaceutical manufacturing', type: 'political' }
    ],
   },
   'dark-money-in-local-elections': {
@@ -1736,19 +1688,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'District attorney races have become a primary battleground for dark money spending. George Soros\'s network of political action committees spent over $40 million supporting reform-minded DA candidates between 2015 and 2023 in cities including Philadelphia, San Francisco, St. Louis, Los Angeles, and Chicago. These campaigns helped elect Larry Krasner (Philadelphia), Chesa Boudin (San Francisco; later recalled), Kim Gardner (St. Louis; resigned under threat of removal), and George Gascón (Los Angeles). Opposing spending from law enforcement unions, the Republican State Leadership Committee, and conservative donors often matched or exceeded progressive spending. In the 2022 recall of Chesa Boudin, outside groups spent $7.2 million; dwarfing all previous San Francisco DA campaign spending. The political manipulation works in both directions: dark money from both progressive and conservative sources distorts local criminal justice policy in ways that reflect donor priorities rather than community preferences.',
       'School board races have attracted unprecedented levels of outside spending since 2020. The conservative 1776 Project PAC, founded in 2021, spent over $1 million in school board races across dozens of states in the 2021 and 2022 election cycles, targeting candidates who opposed curriculum changes related to race and gender. Moms for Liberty, classified as an extremist organization by the Southern Poverty Law Center, received significant funding from conservative donors including the Heritage Foundation network and helped elect over 100 school board candidates in 2022. On the progressive side, organizations funded by the National Education Association and American Federation of Teachers spent millions in school board races to support candidates aligned with union priorities. In Jefferson County, Colorado, a single 2015 school board race attracted over $1 million in outside spending; more than the total spending in the county\'s previous three school board elections combined.',
       'Judicial elections have been particularly vulnerable to dark money influence due to the direct relationship between judicial decisions and donor interests. The Brennan Center for Justice documented $97 million in outside spending on state supreme court races from 2000 to 2020, with dark money accounting for an increasing share. In 2023, the Wisconsin Supreme Court race attracted over $51 million in total spending, making it the most expensive judicial election in US history. The contest; which determined the ideological balance of the court on issues including redistricting, abortion rights, and election law; drew contributions from national organizations on both sides. The American Petroleum Institute, US Chamber of Commerce, and Republican Attorneys General Association have spent millions on judicial races involving judges who would hear corporate regulatory and environmental cases. This spending creates what legal scholars describe as a "legitimacy crisis" for the judiciary: judges who reach the bench through effectively purchased elections are perceived as beholden to their financial backers.',
-      'The regulatory framework for local election spending is weaker than for federal races. The FEC has jurisdiction only over federal elections. State and local campaign finance laws vary enormously; some states require robust disclosure of independent expenditure sources, while others have minimal requirements. Even where disclosure laws exist, enforcement is often weak. The IRS, responsible for overseeing 501(c)(4) political activity, conducts minimal auditing of dark money groups\' political spending percentages. The DISCLOSE Act; which would require disclosure of donors contributing over $10,000 to organizations engaging in election spending; has been introduced in Congress repeatedly since 2010 but has never passed. The Supreme Court\'s reasoning in Citizens United assumed that disclosure requirements would provide adequate transparency; but the Court\'s subsequent refusal to hear challenges to dark money structures has allowed the anonymous spending infrastructure to expand unchecked. At the local level, where journalism is declining and oversight capacity is minimal, dark money operates with near-total impunity.',
+      'The regulatory framework for local election spending is weaker than for federal races. The FEC has jurisdiction only over federal elections. State and local campaign finance laws vary enormously; some states require robust disclosure of independent expenditure sources, while others have minimal requirements. Even where disclosure laws exist, enforcement is often weak. The IRS, responsible for overseeing 501(c)(4) political activity, conducts minimal auditing of dark money groups\' political spending percentages. The DISCLOSE Act; which would require disclosure of donors contributing over $10,000 to organizations engaging in election spending; has been introduced in Congress repeatedly since 2010 but has never passed. The Supreme Court\'s reasoning in Citizens United assumed that disclosure requirements would provide adequate transparency; but the Court\'s subsequent refusal to hear challenges to dark money structures has allowed the anonymous spending infrastructure to expand unchecked. At the local level, where journalism is declining and oversight capacity is minimal, dark money operates with near-total impunity.'
     ],
     tags: ['Dark Money', 'Citizens United', 'School Board Elections', 'DA Races', 'Judicial Elections', 'Political Spending', 'Campaign Finance'],
     sources: [
       { title: 'OpenSecrets Dark Money Tracker', url: 'https://www.opensecrets.org/dark-money', type: 'Financial Analysis' },
       { title: 'Brennan Center Judicial Elections Reports', url: 'https://www.brennancenter.org', type: 'Research Study' },
-      { title: 'FEC Independent Expenditure Reports', url: 'https://www.fec.gov', type: 'Government Record' },
-      { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+      { title: 'FEC Independent Expenditure Reports', url: 'https://www.fec.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'FEC', type: 'agency', relationship: 'Jurisdiction limited to federal elections; unable to regulate dark money in local races where influence is greatest', href: '/entities/agencies/fec' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-05-25',
@@ -1764,7 +1714,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021', event: 'The conservative 1776 Project PAC, founded in 2021, spent over $1 million in school board races across dozens of states in the 2021 and 2022 election cycles, targeting candidates who opposed curric', type: 'political' },
      { date: '2022', event: 'In the 2022 recall of Chesa Boudin, outside groups spent $7.2 million; dwarfing all previous San Francisco DA campaign spending', type: 'political' },
      { date: '2022', event: 'Moms for Liberty, classified as an extremist organization by the Southern Poverty Law Center, received significant funding from conservative donors including the Heritage Foundation network and hel', type: 'political' },
-     { date: '2023', event: 'In 2023, the Wisconsin Supreme Court race attracted over $51 million in total spending, making it the most expensive judicial election in US history', type: 'legal' },
+     { date: '2023', event: 'In 2023, the Wisconsin Supreme Court race attracted over $51 million in total spending, making it the most expensive judicial election in US history', type: 'legal' }
    ],
   },
   'domestic-worker-visa-abuse-networks': {
@@ -1780,19 +1730,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'Diplomatic immunity has provided near-total impunity for abusers. The Vienna Convention on Diplomatic Relations (1961) grants foreign diplomats immunity from criminal prosecution and most civil suits in the host country. When domestic workers report abuse by diplomatic employers, the most the US government can do is request that the sending country waive immunity (which almost never happens) or declare the diplomat persona non grata (which is reserved for the most egregious cases). In 2009, a Tanzanian diplomat in the US was accused of trafficking two domestic workers; confiscating their passports, paying them $100 per month for round-the-clock labor, and threatening them with deportation. The case was dismissed due to diplomatic immunity. In 2015, an Indian diplomat in New York was charged with visa fraud and underpaying her domestic worker; the case created a diplomatic crisis before being resolved through partial immunity waiver. The State Department has acknowledged the pattern but maintained that diplomatic immunity must be respected as a cornerstone of international relations.',
       'The J-1 au pair program, while structured differently, shares vulnerability to exploitation. Approximately 20,000 au pairs enter the US annually through J-1 cultural exchange visas, sponsored by State Department-designated agencies (Cultural Care Au Pair, Au Pair in America, etc.). Au pairs are supposed to work a maximum of 45 hours per week for 2 years and receive a weekly stipend of $195.75 (equivalent to approximately $4.35 per hour;  below minimum wage). A 2017 class-action lawsuit against 15 au pair sponsor agencies alleged antitrust conspiracy to suppress au pair wages. Many families exceed the 45-hour limit; a 2019 survey by the International Institute of New Jersey found that 70% of au pairs reported working more than 45 hours weekly. Au pairs who report exploitation to their sponsor agencies are sometimes repatriated rather than reassigned; the agencies have a financial incentive to protect host family relationships over au pair welfare.',
       'Human trafficking prosecutions involving domestic workers remain rare despite documented prevalence. The Trafficking Victims Protection Act (TVPA, 2000) defines forced labor as labor obtained through force, fraud, or coercion; a standard met in many documented domestic worker cases. However, DOJ initiated only 103 forced labor cases between 2000 and 2020 (an average of 5 per year), a fraction of estimated prevalence. The National Human Trafficking Hotline received over 8,500 reports involving domestic work between 2012 and 2022. Barriers to prosecution include: victims fear deportation and retaliation; evidence is contained within private residences; diplomatic immunity shields many perpetrators; and labor exploitation cases are deprioritized relative to sex trafficking cases by both DOJ and media. The T-visa program for trafficking victims is underutilized; the annual cap of 5,000 T-visas has never been reached, suggesting systemic barriers to victim identification and application.',
-      'Structural reforms have been proposed but face opposition from both diplomatic communities and the domestic labor industry. The Diplomatic Immunity Act would modify US implementation of the Vienna Convention to exclude trafficking and severe abuse from diplomatic immunity protections; the legislation has not advanced. The National Domestic Workers\' Bill of Rights, first proposed in 2019, would extend federal labor protections (minimum wage, overtime, workplace safety) to domestic workers, who are currently excluded from most provisions of the Fair Labor Standards Act and the National Labor Relations Act; exclusions that date to the 1930s New Deal era, when they were explicitly designed to exclude Black domestic workers and agricultural workers from labor protections. Nine states and two cities have passed domestic worker bills of rights as of 2024, but federal legislation remains stalled. The International Labour Organization\'s Convention 189 (Domestic Workers Convention, 2011) establishes international standards for domestic worker protections; the United States has not ratified it.',
+      'Structural reforms have been proposed but face opposition from both diplomatic communities and the domestic labor industry. The Diplomatic Immunity Act would modify US implementation of the Vienna Convention to exclude trafficking and severe abuse from diplomatic immunity protections; the legislation has not advanced. The National Domestic Workers\' Bill of Rights, first proposed in 2019, would extend federal labor protections (minimum wage, overtime, workplace safety) to domestic workers, who are currently excluded from most provisions of the Fair Labor Standards Act and the National Labor Relations Act; exclusions that date to the 1930s New Deal era, when they were explicitly designed to exclude Black domestic workers and agricultural workers from labor protections. Nine states and two cities have passed domestic worker bills of rights as of 2024, but federal legislation remains stalled. The International Labour Organization\'s Convention 189 (Domestic Workers Convention, 2011) establishes international standards for domestic worker protections; the United States has not ratified it.'
     ],
     tags: ['Domestic Workers', 'Visa Abuse', 'Forced Labor', 'Diplomatic Immunity', 'A-3 Visa', 'Au Pairs', 'Human Trafficking'],
     sources: [
       { title: 'GAO A-3/G-5 Visa Report', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Research Study' },
-      { title: 'International Labour Organization Convention 189', url: 'https://www.ilo.org', type: 'International Treaty' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'International Labour Organization Convention 189', url: 'https://www.ilo.org', type: 'International Treaty' }
     ],
     affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Oversees visa programs that tie workers to employers; T-visa cap for trafficking victims never reached due to identification barriers', href: '/entities/agencies/dhs' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1930-01-01',
    lastActivityDate: '2025-01-31',
@@ -1809,30 +1757,9 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 class-action lawsuit against 15 au pair sponsor agencies alleged antitrust conspiracy to suppress au pair wages', type: 'legal' },
      { date: '2019', event: 'Many families exceed the 45-hour limit; a 2019 survey by the International Institute of New Jersey found that 70% of au pairs reported working more than 45 hours weekly', type: 'default' },
      { date: '2019', event: 'The National Domestic Workers\' Bill of Rights, first proposed in 2019, would extend federal labor protections (minimum wage, overtime, workplace safety) to domestic workers, who are currently exclu...', type: 'political' },
-     { date: '2024', event: 'Nine states and two cities have passed domestic worker bills of rights as of 2024, but federal legislation remains stalled', type: 'political' },
+     { date: '2024', event: 'Nine states and two cities have passed domestic worker bills of rights as of 2024, but federal legislation remains stalled', type: 'political' }
    ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   'drug-pricing-crisis': {
     title: "Drug Pricing Crisis",
@@ -1850,19 +1777,17 @@ const investigations_d: Record<string, InvestigationData> = {
       "PATENT EVERGREENING: Pharmaceutical companies extend monopoly protection by making minor modifications to drugs approaching patent expiration; new dosage forms, new delivery mechanisms, or new combinations with existing drugs. AbbVie filed 165 patents on Humira to create a 'patent thicket' that delayed generic competition for years beyond the original patent's expiration. Humira generated $21 billion in annual sales at price points averaging $77,000 per year per patient.",
       "DRUG PRICE COMPARISON: Americans pay pharmaceutical prices that are indefensible by any economic logic. The same drugs manufactured by the same companies in the same factories cost a fraction of U.S. prices in other wealthy nations. Harvoni (hepatitis C) costs $94,500 in the U.S. versus $46,000 in the UK versus $16,861 in India. Enbrel (rheumatoid arthritis) costs $6,000+ per injection in the U.S. versus $1,017 in Switzerland. The difference is entirely attributable to U.S. regulatory and legal frameworks that protect prices.",
       "PBM MIDDLEMEN: Pharmacy Benefit Managers; CVS Caremark, Express Scripts, and OptumRx; negotiate drug prices between manufacturers and health plans. Despite their stated purpose of reducing costs, PBMs have been documented retaining rebates rather than passing them to patients. The FTC's 2024 investigation found that PBMs' practices increased out-of-pocket costs for patients even as list prices remained high. The three largest PBMs control approximately 80% of the market.",
-      "THE INFLATION REDUCTION ACT: For the first time, the 2022 IRA authorized Medicare to negotiate prices on a limited number of drugs. The initial list of 10 drugs includes Eliquis, Jardiance, Xarelto, and others. Negotiated prices took effect in 2026 and are expected to save $25 billion over a decade. However, the program is limited in scope; it does not apply to private insurance, covers only drugs that have been on the market for 9-13 years, and was immediately challenged in court by pharmaceutical companies.",
+      "THE INFLATION REDUCTION ACT: For the first time, the 2022 IRA authorized Medicare to negotiate prices on a limited number of drugs. The initial list of 10 drugs includes Eliquis, Jardiance, Xarelto, and others. Negotiated prices took effect in 2026 and are expected to save $25 billion over a decade. However, the program is limited in scope; it does not apply to private insurance, covers only drugs that have been on the market for 9-13 years, and was immediately challenged in court by pharmaceutical companies."
     ],
     tags: ["Drug Pricing","Pharmaceutical","Insulin","Healthcare","Lobbying","Patent","PBM","Inflation Reduction Act"],
     sources: [
       { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/hearings", type: "Government Report" },
       { title: "FTC Pay-for-Delay Report", url: "https://www.ftc.gov/policy/reports", type: "Government Report" },
-      { title: "RAND International Drug Price Comparison", url: "https://www.rand.org/pubs/research_reports/RR2956.html", type: "Research" },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: "RAND International Drug Price Comparison", url: "https://www.rand.org/pubs/research_reports/RR2956.html", type: "Research" }
     ],
     affiliations: [
       { id: '1', name: 'PhRMA', type: 'corporation', relationship: 'Pharmaceutical lobbying group spent $373 million in 2022; employs 1,500+ lobbyists and has successfully blocked drug pricing reform for decades', href: '/entities/corporations/phrma' },
-      { id: '2', name: 'FDA', type: 'agency', relationship: 'Regulates drug approvals and labeling but lacks authority to control drug prices; approves generics through ANDA process often delayed by patent thickets', href: '/entities/agencies/fda' },
-
+      { id: '2', name: 'FDA', type: 'agency', relationship: 'Regulates drug approvals and labeling but lacks authority to control drug prices; approves generics through ANDA process often delayed by patent thickets', href: '/entities/agencies/fda' }
     ],
    eventOriginDate: '2015-09-10',
    lastActivityDate: '2026-03-21',
@@ -1873,7 +1798,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2015-09-11', event: 'Martin Shkreli\'s Turing Pharmaceuticals raises Daraprim price from $13.50 to $750 per pill overnight, sparking national outrage and congressional hearings', type: 'critical' },
      { date: '2022', event: 'Pharmaceutical industry spends $373 million lobbying Congress; Inflation Reduction Act signed, authorizing Medicare drug price negotiation for the first time', type: 'political' },
      { date: '2024', event: 'FTC investigation finds pharmacy benefit managers (PBMs) increased patient out-of-pocket costs despite negotiated rebates', type: 'default' },
-     { date: '2026', event: 'First Medicare-negotiated drug prices take effect; expected to save $25 billion over a decade', type: 'financial' },
+     { date: '2026', event: 'First Medicare-negotiated drug prices take effect; expected to save $25 billion over a decade', type: 'financial' }
    ],
   },
   'domestic-terrorism': {
@@ -1893,19 +1818,18 @@ const investigations_d: Record<string, InvestigationData> = {
       "MILITIA AND ANTI-GOVERNMENT MOVEMENTS: The militia movement experienced a resurgence under the Obama and Biden administrations. Groups including the Three Percenters, Boogaloo movement, and QAnon-adjacent organizations have been implicated in plots against government officials, including the 2020 plot to kidnap Michigan Governor Gretchen Whitmer. The January 6 insurrection brought militia organizations into the Capitol itself.",
       "LAW ENFORCEMENT GAPS: Unlike international terrorism, there is no federal domestic terrorism criminal statute. Domestic terrorists are charged with other offenses (murder, weapons violations, hate crimes); making it difficult to track, prosecute, and resource the threat appropriately. Multiple bills to create a domestic terrorism statute have been introduced and stalled in Congress.",
       "INFILTRATION OF LAW ENFORCEMENT: An FBI intelligence assessment has warned that white supremacist groups have actively sought to infiltrate law enforcement agencies. A 2006 FBI report documented 'ghost skins'; extremists who join police departments to exploit their positions. The Brennan Center identified at least 100 law enforcement officials with ties to extremist groups between 2019 and 2022.",
-      "STOCHASTIC TERRORISM: Political figures and media personalities use rhetoric that does not explicitly call for violence but predictably inspires it. When a politician publicly demonizes a specific group or names specific individuals as enemies, violence against those targets follows. The connection between political rhetoric and subsequent attacks has been documented by researchers at multiple universities.",
+      "STOCHASTIC TERRORISM: Political figures and media personalities use rhetoric that does not explicitly call for violence but predictably inspires it. When a politician publicly demonizes a specific group or names specific individuals as enemies, violence against those targets follows. The connection between political rhetoric and subsequent attacks has been documented by researchers at multiple universities."
     ],
     tags: ["Domestic Terrorism","White Supremacy","Militia","Extremism","FBI","Great Replacement","Online Radicalization"],
     sources: [
       { title: "DHS Domestic Terrorism Threat Assessment", url: "https://www.dhs.gov/publication/homeland-threat-assessment", type: "Government Report" },
       { title: "FBI Domestic Terrorism Investigations Data", url: "https://www.fbi.gov/investigate/terrorism", type: "Government" },
       { title: "Anti-Defamation League Murder and Extremism Report", url: "https://www.adl.org/resources", type: "Research" },
-      { title: "Brennan Center: Law Enforcement and Extremism", url: "https://www.brennancenter.org/our-work/research-reports", type: "Research" },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: "Brennan Center: Law Enforcement and Extremism", url: "https://www.brennancenter.org/our-work/research-reports", type: "Research" }
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Identifies domestic violent extremism as top terrorism threat but resources remain disproportionately focused on international threats', href: '/entities/agencies/fbi' },
-      { id: '2', name: 'Department of Homeland Security', type: 'agency', relationship: 'Published threat assessments identifying white supremacist extremism as greatest domestic terrorism threat', href: '/entities/agencies/dhs' },
+      { id: '2', name: 'Department of Homeland Security', type: 'agency', relationship: 'Published threat assessments identifying white supremacist extremism as greatest domestic terrorism threat', href: '/entities/agencies/dhs' }
     ],
    eventOriginDate: '1995-04-19',
    lastActivityDate: '2026-03-21',
@@ -1922,7 +1846,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020', event: 'FBI Director Christopher Wray testified to Congress in 2021 that the number of domestic terrorism investigations had more than doubled since 2020.', type: 'political' },
      { date: '2021', event: 'FBI Director Christopher Wray testified to Congress in 2021 that the number of domestic terrorism investigations had more than doubled since 2020.', type: 'political' },
      { date: '2022', event: 'The Charleston church shooting (2015; 9 killed), the Charlottesville car attack (2017; 1 killed, 35 injured), the Pittsburgh Tree of Life synagogue shooting (2018; 11 killed), the El Paso Walmart shooting (2019', type: 'critical' },
-     { date: '2025', event: 'THE ACCELERATION: From 2015 to 2025, the pace and lethality of domestic terrorism escalated dramatically.', type: 'default' },
+     { date: '2025', event: 'THE ACCELERATION: From 2015 to 2025, the pace and lethality of domestic terrorism escalated dramatically.', type: 'default' }
    ],
   },
   'daniel-shaver-killing': {
@@ -1942,18 +1866,17 @@ const investigations_d: Record<string, InvestigationData> = {
       "THE PENSION: In August 2018, Brailsford was quietly rehired by the Mesa Police Department for 42 days; specifically so he could apply for accidental disability retirement. He now receives a pension of approximately $2,500 per month for life for PTSD; from the shooting he committed. The rehiring was not disclosed to the public until records requests revealed it.",
       "SERGEANT LANGLEY: Charles Langley, who gave the impossible commands, was never charged. He retired from the Mesa Police Department, moved to the Philippines, and has never publicly addressed the killing. Multiple use-of-force experts who reviewed the footage stated that Langley's commands were unreasonable, contradictory, and created the conditions that led to Shaver's death.",
       "LAETITIA SHAVER: Daniel Shaver's widow, Laetitia Shaver, and their two daughters filed a wrongful death lawsuit. The City of Mesa settled for $1.5 million without admitting fault. Laetitia Shaver has spoken publicly about the trauma of watching the footage and the injustice of Brailsford receiving a pension for killing her husband.",
-      "SYSTEMIC PATTERN: The Shaver killing exemplifies multiple systemic failures: the militarization of routine police encounters, the impossibility of holding officers criminally accountable, the role of contradictory commands in creating pretexts for lethal force, and the financial rewards officers receive even after unjustified killings.",
+      "SYSTEMIC PATTERN: The Shaver killing exemplifies multiple systemic failures: the militarization of routine police encounters, the impossibility of holding officers criminally accountable, the role of contradictory commands in creating pretexts for lethal force, and the financial rewards officers receive even after unjustified killings."
     ],
     tags: ["Police Violence","Daniel Shaver","Use of Force","Police Accountability","Philip Brailsford","Mesa Police"],
     sources: [
       { title: "Mesa PD Body Camera Footage", url: "https://www.azcentral.com/story/news/local/mesa/2017/12/08/daniel-shaver-philip-brailsford-mesa-police-shooting/933873001/", type: "Video Evidence" },
       { title: "Court Records: State v. Brailsford", url: "https://www.maricopa.gov/", type: "Court Document" },
-      { title: "Washington Post Investigation", url: "https://www.washingtonpost.com/investigations/2020/07/09/daniel-shaver-killing/", type: "Investigative Journalism" },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: "Washington Post Investigation", url: "https://www.washingtonpost.com/investigations/2020/07/09/daniel-shaver-killing/", type: "Investigative Journalism" }
     ],
     affiliations: [
       { id: '1', name: 'Mesa Police Department', type: 'agency', relationship: 'Employed Brailsford, rehired him post-acquittal for 42 days to secure his disability pension', href: '/entities/agencies/doj' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal civil rights investigation into the shooting; no federal charges were brought', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal civil rights investigation into the shooting; no federal charges were brought', href: '/entities/agencies/doj' }
     ],
     eventOriginDate: '2016-01-18',
     lastActivityDate: '2026-03-10',
@@ -1966,7 +1889,7 @@ const investigations_d: Record<string, InvestigationData> = {
       { date: '2017-12-08', event: 'Body camera footage released to the public; goes viral, sparking nationwide outrage', type: 'default' },
       { date: '2018-07', event: 'City of Mesa settles wrongful death lawsuit with Laetitia Shaver and her two daughters for $1.5 million', type: 'financial' },
       { date: '2018-08', event: 'Brailsford quietly rehired by Mesa PD for 42 days to apply for accidental disability pension; receives ~$2,500/month for life for PTSD from the shooting he committed', type: 'financial' },
-      { date: '2019-07', event: 'Sergeant Charles Langley, who gave the contradictory commands, is revealed to have retired and moved to the Philippines without facing any charges', type: 'default' },
+      { date: '2019-07', event: 'Sergeant Charles Langley, who gave the contradictory commands, is revealed to have retired and moved to the Philippines without facing any charges', type: 'default' }
     ],
   },
   'dark-money-networks': {
@@ -1983,19 +1906,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'The Sixteen Thirty Fund, created by Arabella Advisors, spent $141 million in 2020 without disclosing donors. The fund supported progressive causes but hid corporate and foundation funding. Arabella manages eight funds that spent $1.7 billion since 2013.',
       'Foreign influence operates through U.S. subsidiaries. Huawei and ZTE funded think tanks and campaigns. Russian oligarchs contributed through American cutouts. The Foreign Agents Registration Act covers overt agents but not subtle influence operations.',
       'State-level dark money exploded after Citizens United. In Wisconsin, the Club for Growth spent $10 million in 2011 recalls without disclosing donors. In Florida, the Committee of 100 spent $2 million influencing judicial elections.',
-      '501(c)(3) charities engage in political activity. The NRA Foundation spent millions on lobbying while claiming tax-exempt status. The Brennan Center documented $1.7 billion in dark money spending between 2008-2014.',
+      '501(c)(3) charities engage in political activity. The NRA Foundation spent millions on lobbying while claiming tax-exempt status. The Brennan Center documented $1.7 billion in dark money spending between 2008-2014.'
     ],
     tags: ['Dark Money', 'Political Spending', '501(c)(4)', 'Koch Network', 'Election Influence', 'Foreign Influence'],
     sources: [
       { title: 'OpenSecrets Dark Money Database', url: 'https://www.opensecrets.org', type: 'Financial Data' },
       { title: 'Brennan Center Dark Money Report', url: 'https://www.brennancenter.org', type: 'Research' },
-      { title: 'Arabella Advisors Network Analysis', url: 'https://www.capitalresearch.org', type: 'Research' },
-      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'Arabella Advisors Network Analysis', url: 'https://www.capitalresearch.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Koch Brothers', type: 'individual', relationship: 'Dark money network founders', href: '/entities/individuals/koch-brothers' },
       { id: '2', name: 'Arabella Advisors', type: 'organization', relationship: 'Manages Sixteen Thirty Fund' },
-      { id: '3', name: 'U.S. Chamber of Commerce', type: 'organization', relationship: 'Dark money spending', href: '/entities/organizations/us-chamber-of-commerce' },
+      { id: '3', name: 'U.S. Chamber of Commerce', type: 'organization', relationship: 'Dark money spending', href: '/entities/organizations/us-chamber-of-commerce' }
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-10-10',
@@ -2008,7 +1930,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2012', event: 'The network influenced 2012 elections and continues operating', type: 'political' },
      { date: '2012', event: 'Judicial Watch identified 200+ dark money groups spending $300 million in 2012', type: 'financial' },
      { date: '2013', event: 'Arabella manages eight funds that spent $1.7 billion since 2013', type: 'political' },
-     { date: '2020', event: 'The Sixteen Thirty Fund, created by Arabella Advisors, spent $141 million in 2020 without disclosing donors', type: 'financial' },
+     { date: '2020', event: 'The Sixteen Thirty Fund, created by Arabella Advisors, spent $141 million in 2020 without disclosing donors', type: 'financial' }
    ],
   },
   'data-privacy-erosion': {
@@ -2025,19 +1947,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'The NSA collects phone metadata under Section 215 of the Patriot Act, later ruled unconstitutional. The program collected records of all U.S. calls for years. Edward Snowden\'s revelations showed broader surveillance including internet communications.',
       'Data brokers sell personal information to anyone who can pay. Acxiom maintains profiles on 700 million people worldwide. The data includes shopping habits, political affiliations, and health information. This data is used for targeted advertising and political micro-targeting.',
       'Facial recognition technology enables mass surveillance. Clearview AI scraped 3 billion photos from social media for police use. The company faced lawsuits but continues operating. Governments deploy facial recognition at airports, protests, and public spaces.',
-      'GDPR in Europe provides stronger protections than U.S. laws. The CCPA in California is weaker and rarely enforced. Tech companies lobby against comprehensive federal privacy legislation, spending millions annually to maintain the status quo.',
+      'GDPR in Europe provides stronger protections than U.S. laws. The CCPA in California is weaker and rarely enforced. Tech companies lobby against comprehensive federal privacy legislation, spending millions annually to maintain the status quo.'
     ],
     tags: ['Data Privacy', 'Surveillance', 'Tech Companies', 'Government Surveillance', 'Cambridge Analytica', 'Facial Recognition'],
     sources: [
       { title: 'Facebook Cambridge Analytica Report', url: 'https://www.nytimes.com', type: 'Investigation' },
       { title: 'NSA Surveillance Documents', url: 'https://www.theguardian.com', type: 'Leaked Documents' },
-      { title: 'Clearview AI Lawsuit', url: 'https://www.aclu.org', type: 'Legal Action' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'Clearview AI Lawsuit', url: 'https://www.aclu.org', type: 'Legal Action' }
     ],
     affiliations: [
       { id: '1', name: 'Facebook', type: 'corporation', relationship: 'Data harvesting scandal', href: '/entities/corporations/facebook' },
       { id: '2', name: 'Google', type: 'corporation', relationship: 'Location tracking', href: '/entities/corporations/google' },
-      { id: '3', name: 'NSA', type: 'agency', relationship: 'Mass surveillance programs', href: '/entities/agencies/nsa' },
+      { id: '3', name: 'NSA', type: 'agency', relationship: 'Mass surveillance programs', href: '/entities/agencies/nsa' }
     ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-09-20',
@@ -2048,7 +1969,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2018-03', event: 'New York Times and Observer exposed the Cambridge Analytica scandal; Facebook stock lost $120 billion; Zuckerberg testified before Congress', type: 'critical' },
      { date: '2020-01', event: 'New York Times investigation exposed Clearview AI scraping billions of photos from social media for facial recognition sold to law enforcement without public knowledge', type: 'default' },
      { date: '2022-05', event: 'ACLU settlement forced Clearview AI to stop selling its facial recognition database to private companies; Illinois Biometric Information Privacy Act proved critical', type: 'legal' },
-     { date: '2024-04', event: 'Congress voted to reauthorize Section 702 of FISA despite reform efforts; privacy advocates warned the expansion allowed warrantless surveillance of Americans\' communications', type: 'political' },
+     { date: '2024-04', event: 'Congress voted to reauthorize Section 702 of FISA despite reform efforts; privacy advocates warned the expansion allowed warrantless surveillance of Americans\' communications', type: 'political' }
    ],
   },
   'defense-contracting-fraud': {
@@ -2065,26 +1986,25 @@ const investigations_d: Record<string, InvestigationData> = {
       'Failed programs waste billions. The Expeditionary Fighting Vehicle was canceled after $3 billion in development costs. The Future Combat Systems program wasted $20 billion on vehicles never deployed. The Comanche helicopter program cost $7 billion before cancellation.',
       'Lockheed Martin charged $600 for hammers and $10,000 for toilet seats in the 1980s. The company paid $4.8 million in fines but continued receiving contracts. Current audits show similar overcharging persists.',
       'The revolving door creates conflicts. Former Defense Secretary William Cohen became a lobbyist for defense firms. Former Pentagon officials join contractor boards. This ensures favorable procurement decisions and continued funding for failed programs.',
-      'Congressional pork spending adds waste. The defense budget includes projects in every district regardless of military need. Lawmakers trade votes for funding in their states. The process prioritizes jobs over effectiveness.',
+      'Congressional pork spending adds waste. The defense budget includes projects in every district regardless of military need. Lawmakers trade votes for funding in their states. The process prioritizes jobs over effectiveness.'
     ],
     tags: ['Defense Contracting', 'Cost Overruns', 'Military Waste', 'F-35', 'Lockheed Martin', 'Pentagon'],
     sources: [
       { title: 'Project on Government Oversight', url: 'https://www.pogo.org', type: 'Research' },
       { title: 'GAO Defense Contract Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'Commission on Wartime Contracting', url: 'https://www.wartimecontracting.gov', type: 'Government Report' },
-      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'Commission on Wartime Contracting', url: 'https://www.wartimecontracting.gov', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'Lockheed Martin', type: 'corporation', relationship: 'F-35 contractor, overcharging', href: '/entities/corporations/lockheed-martin' },
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Procurement waste', href: '/entities/agencies/pentagon' },
-      { id: '3', name: 'GAO', type: 'agency', relationship: 'Audits defense waste' },
+      { id: '3', name: 'GAO', type: 'agency', relationship: 'Audits defense waste' }
     ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-08-05',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1980-01-01', event: 'The defense budget wastes billions on cost overruns, failed programs, and unnecessary weapons', type: 'default' },
-     { date: '2025-01', event: 'Commission on Wartime Contracting — Current status: monitoring continues with active documentation', type: 'default' },
+     { date: '2025-01', event: 'Commission on Wartime Contracting — Current status: monitoring continues with active documentation', type: 'default' }
    ],
   },
   'darfur-genocide': {
@@ -2105,7 +2025,7 @@ const investigations_d: Record<string, InvestigationData> = {
       'The African Union deployed peacekeeping forces (AMIS) in 2004, later replaced by the UN-AU Hybrid Operation in Darfur (UNAMID) in 2007. However, the mission was chronically underfunded, restricted by the Sudanese government, and unable to protect civilians. UNAMID troops were themselves attacked - in 2007, 10 AU peacekeepers were killed in an ambush at Haskanita.',
       'The international response was widely criticized as inadequate. China and Russia blocked stronger UN Security Council action due to economic interests (China was Sudan\'s largest oil trading partner). The African Union was reluctant to confront a member state. The "Responsibility to Protect" (R2P) doctrine, endorsed at the 2005 World Summit partly in response to Darfur, failed its first real test.',
       'Internally displaced person (IDP) camps in Darfur grew to house 2.5 million people in conditions of extreme deprivation. Aid workers faced attacks, kidnapping, and expulsion - in 2009, al-Bashir expelled 13 international aid organizations after the ICC warrant was issued, cutting off services to over 1 million people in apparent retaliation.',
-      'Applicable law violations include: Convention on the Prevention and Punishment of the Crime of Genocide (1948), Rome Statute Articles 6 (genocide), 7 (crimes against humanity), and 8 (war crimes), the four Geneva Conventions and Additional Protocols, the African Charter on Human and Peoples\' Rights, Convention against Torture, and UN Security Council Resolutions 1556, 1564, 1591, and 1593 (which referred the situation to the ICC).',
+      'Applicable law violations include: Convention on the Prevention and Punishment of the Crime of Genocide (1948), Rome Statute Articles 6 (genocide), 7 (crimes against humanity), and 8 (war crimes), the four Geneva Conventions and Additional Protocols, the African Charter on Human and Peoples\' Rights, Convention against Torture, and UN Security Council Resolutions 1556, 1564, 1591, and 1593 (which referred the situation to the ICC).'
     ],
     tags: ['genocide', 'darfur', 'sudan', 'janjaweed', 'al-bashir', 'ICC', 'ethnic-cleansing', 'mass-rape', 'forced-displacement', 'crimes-against-humanity', 'african-union', 'responsibility-to-protect'],
     sources: [
@@ -2113,12 +2033,11 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'UN International Commission of Inquiry on Darfur - Report to the Secretary-General', url: 'https://web.archive.org/web/20241229085221/https://www.un.org/News/dh/sudan/com_inq_darfur.pdf', type: 'report' },
       { title: 'Human Rights Watch - Darfur Reports', url: 'https://www.hrw.org/africa/sudan', type: 'report' },
       { title: 'US State Department - Documenting Atrocities in Darfur', url: 'https://2001-2009.state.gov/g/drl/rls/36028.htm', type: 'government' },
-      { title: 'Physicians for Human Rights - Darfur Investigation', url: 'https://phr.org/our-work/resources/darfur-assault-on-survival/', type: 'report' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Physicians for Human Rights - Darfur Investigation', url: 'https://phr.org/our-work/resources/darfur-assault-on-survival/', type: 'report' }
     ],
     affiliations: [
       { id: '1', name: 'Omar al-Bashir', type: 'individual', relationship: 'President of Sudan who directed genocide; ICC arrest warrant for genocide, crimes against humanity, and war crimes', href: '/entities/individuals/omar-al-bashir' },
-      { id: '2', name: 'United Nations', type: 'organization', relationship: 'Security Council referred situation to ICC but failed to enforce warrants; peacekeeping undermined by member state obstruction', href: '/entities/organizations/united-nations' },
+      { id: '2', name: 'United Nations', type: 'organization', relationship: 'Security Council referred situation to ICC but failed to enforce warrants; peacekeeping undermined by member state obstruction', href: '/entities/organizations/united-nations' }
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -2133,7 +2052,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2009', event: 'The ICC issued arrest warrants for President Omar al-Bashir in 2009 (crimes against humanity, war crimes) and 2010 (genocide) - charges include genocide by killing, genocide by causing serious bodi', type: 'legal' },
      { date: '2009', event: 'Aid workers faced attacks, kidnapping, and expulsion - in 2009, al-Bashir expelled 13 international aid organizations after the ICC warrant was issued, cutting off services to over 1 million people', type: 'legal' },
      { date: '2019', event: 'Al-Bashir remained in power until overthrown in 2019 and has not been surrendered to the ICC as of 2024', type: 'default' },
-     { date: '2020', event: 'Other ICC indictees include Ahmad Harun (former Minister of State for the Interior), Ali Kushayb (Janjaweed militia leader, surrendered 2020, trial ongoing), and Abdel Raheem Muhammad Hussein (form', type: 'legal' },
+     { date: '2020', event: 'Other ICC indictees include Ahmad Harun (former Minister of State for the Interior), Ali Kushayb (Janjaweed militia leader, surrendered 2020, trial ongoing), and Abdel Raheem Muhammad Hussein (form', type: 'legal' }
    ],
   },
   'doj-two-tiered-justice-system': {
@@ -2149,19 +2068,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'DEFERRED PROSECUTION AGREEMENTS: THE CORPORATE GET-OUT-OF-JAIL CARD: DOJ increasingly uses deferred prosecution agreements (DPAs) and non-prosecution agreements (NPAs) for corporate crimes. Under these agreements, companies pay fines, promise to reform, and avoid criminal records. If they comply during a probation period (typically 2-3 years), charges are dismissed. A 2015 analysis found that the same companies repeatedly violated DPA terms without consequence: HSBC received a DPA in 2012 for laundering money for Mexican drug cartels and sanctioned nations, then violated its terms, and still had the agreement extended rather than terminated. Boeing received a DPA in 2021 for fraud related to the 737 MAX crashes that killed 346 people; DOJ later found Boeing violated the agreement but negotiated a new plea deal rather than proceeding to trial.',
       'POLICE KILLINGS AND FEDERAL INACTION: Despite approximately 1,100 people killed by police annually in the United States, federal civil rights prosecutions under 18 U.S.C. 242 (deprivation of rights under color of law) are extraordinarily rare - averaging fewer than 50 cases per year, with convictions in only a handful. The "willfulness" requirement means prosecutors must prove officers acted with specific intent to violate constitutional rights, not merely that they used excessive force. This effectively requires proof of racial animus or sadistic intent. DOJ pattern-or-practice investigations of police departments (under 14141) have proven more effective but are politically dependent: the Obama DOJ opened 25 investigations; the Trump DOJ opened none and sought to withdraw from existing consent decrees.',
       'INTELLIGENCE AGENCY IMPUNITY: No CIA officer has been prosecuted for participating in the enhanced interrogation program that the Senate Intelligence Committee documented as torture. The sole prosecution related to CIA torture was of John Kiriakou, the whistleblower who revealed it. CIA officers who destroyed 92 videotapes of interrogations (potentially constituting obstruction of justice and destruction of evidence) faced no charges. DOJ\'s "preliminary review" of CIA activities found no prosecutable cases. Gina Haspel, who oversaw a torture site and ordered tape destruction, was confirmed as CIA Director. Similarly, no NSA official has been prosecuted for mass warrantless surveillance of Americans. James Clapper, the Director of National Intelligence, testified to Congress that the NSA did "not wittingly" collect data on millions of Americans - a statement proven false by the Snowden revelations - and was never prosecuted for perjury.',
-      'THE STATISTICS OF INEQUALITY: DOJ\'s own data reveals the disparity. Federal conviction rates exceed 99% for drug and immigration offenses, with defendants pressured into guilty pleas by mandatory minimum sentencing threats. But conviction rates for corporate fraud, white-collar crime, and public corruption are far lower, and sentences far lighter. A 2022 analysis found that the average federal sentence for a fraud offense involving losses under $1 million was 23 months, while the average sentence for a crack cocaine offense involving less than 28 grams was 65 months. Black defendants receive sentences approximately 19% longer than white defendants for the same offenses after controlling for criminal history and other factors.',
+      'THE STATISTICS OF INEQUALITY: DOJ\'s own data reveals the disparity. Federal conviction rates exceed 99% for drug and immigration offenses, with defendants pressured into guilty pleas by mandatory minimum sentencing threats. But conviction rates for corporate fraud, white-collar crime, and public corruption are far lower, and sentences far lighter. A 2022 analysis found that the average federal sentence for a fraud offense involving losses under $1 million was 23 months, while the average sentence for a crack cocaine offense involving less than 28 grams was 65 months. Black defendants receive sentences approximately 19% longer than white defendants for the same offenses after controlling for criminal history and other factors.'
     ],
     tags: ['DOJ', 'two-tiered-justice', 'corporate-impunity', 'financial-crisis', 'police-accountability', 'deferred-prosecution', 'racial-disparity', 'intelligence-immunity'],
     sources: [
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Congressional Report' },
       { title: 'U.S. Sentencing Commission Annual Report and Sourcebook', url: 'https://www.ussc.gov/research', type: 'Government Data' },
-      { title: 'Corporate Prosecution Registry - University of Virginia School of Law', url: 'https://corporate-prosecution-registry.com/', type: 'Database' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Corporate Prosecution Registry - University of Virginia School of Law', url: 'https://corporate-prosecution-registry.com/', type: 'Database' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Operates two-tiered prosecution system; zero Wall Street executives jailed after 2008; DPA framework enables corporate impunity', href: '/entities/agencies/doj' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigative arm of DOJ; resource allocation reflects prosecutorial priorities - more agents assigned to drug enforcement than white-collar crime', href: '/entities/agencies/fbi' },
-      { id: '3', name: 'SEC', type: 'agency', relationship: 'Civil enforcement complements DOJ criminal; neither admit nor deny settlements prevent accountability', href: '/entities/agencies/sec' },
+      { id: '3', name: 'SEC', type: 'agency', relationship: 'Civil enforcement complements DOJ criminal; neither admit nor deny settlements prevent accountability', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2026-04-02',
@@ -2170,7 +2088,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2008', event: 'THE 2008 CRISIS: ZERO ACCOUNTABILITY FOR SYSTEM-DESTROYING FRAUD: The Financial Crisis Inquiry Commission documented pervasive fraud throughout the mortgage industry: banks knowingly sold toxic mor', type: 'financial' },
      { date: '2015', event: 'A 2015 analysis found that the same companies repeatedly violated DPA terms without consequence: HSBC received a DPA in 2012 for laundering money for Mexican drug cartels and sanctioned nations, th', type: 'default' },
      { date: '2021', event: 'Boeing received a DPA in 2021 for fraud related to the 737 MAX crashes that killed 346 people; DOJ later found Boeing violated the agreement but negotiated a new plea deal rather than proceeding to', type: 'critical' },
-     { date: '2022', event: 'A 2022 analysis found that the average federal sentence for a fraud offense involving losses under $1 million was 23 months, while the average sentence for a crack cocaine offense involving less th', type: 'legal' },
+     { date: '2022', event: 'A 2022 analysis found that the average federal sentence for a fraud offense involving losses under $1 million was 23 months, while the average sentence for a crack cocaine offense involving less th', type: 'legal' }
    ],
   },
   'deepwater-horizon-bp-disaster': {
@@ -2186,18 +2104,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'BP had a documented history of safety violations predating the disaster. The company\'s Texas City refinery explosion in 2005 killed 15 workers, and a 2006 pipeline rupture in Prudhoe Bay, Alaska spilled 200,000 gallons of crude oil. OSHA cited BP for 760 "egregious willful" safety violations at Texas City, more than any other company in OSHA history. Internal BP documents revealed a corporate culture that prioritized cost reduction over safety. BP was $58 million over budget and 43 days behind schedule on the Macondo well at the time of the explosion. Multiple decisions to cut costs and save time contributed directly to the blowout.',
       'The oil spilled for 87 days before the well was finally capped on July 15, 2010. An estimated 134 million gallons (3.19 million barrels) of crude oil contaminated the Gulf, devastating marine ecosystems, fisheries, and tourism across five Gulf states. BP applied approximately 1.84 million gallons of Corexit dispersant, breaking up surface oil slicks but creating toxic underwater plumes whose long-term effects remain poorly understood. The National Commission on the BP Deepwater Horizon Oil Spill found that the disaster was preventable and resulted from systemic management failures by BP, Transocean, and Halliburton, along with inadequate government regulation.',
       'Under the Clean Water Act (33 U.S.C. 1321), the maximum civil penalty for oil spills is $4,300 per barrel ($1,100 for negligence). Under the Oil Pollution Act of 1990 (33 U.S.C. 2701 et seq.), responsible parties are liable for all cleanup costs and economic damages. Under 18 U.S.C. 1111-1115, the deaths of 11 workers constituted potential felony manslaughter. BP pleaded guilty to 11 counts of manslaughter, one count of obstruction of Congress, and violations of the Clean Water and Migratory Bird Treaty Acts. The company paid $4.5 billion in criminal fines and penalties, the largest criminal resolution in U.S. history at the time. Two BP supervisors were acquitted of manslaughter charges.',
-      'BP\'s total financial liability exceeded $65 billion, including $20.8 billion in a 2016 settlement with the federal government and five Gulf states (the largest environmental settlement in U.S. history), $4.5 billion in criminal penalties, and billions more in cleanup costs and private claims. Despite these payments, no senior BP executive was imprisoned. The two well-site leaders charged with manslaughter were acquitted at trial. A BP engineer was convicted of obstruction for deleting text messages about the flow rate but had his conviction overturned on appeal. The revolving door between the Minerals Management Service (MMS, now BSEE) and the oil industry had created a culture of regulatory capture where inspectors accepted gifts from companies they regulated and in some cases allowed oil companies to fill in their own inspection reports.',
+      'BP\'s total financial liability exceeded $65 billion, including $20.8 billion in a 2016 settlement with the federal government and five Gulf states (the largest environmental settlement in U.S. history), $4.5 billion in criminal penalties, and billions more in cleanup costs and private claims. Despite these payments, no senior BP executive was imprisoned. The two well-site leaders charged with manslaughter were acquitted at trial. A BP engineer was convicted of obstruction for deleting text messages about the flow rate but had his conviction overturned on appeal. The revolving door between the Minerals Management Service (MMS, now BSEE) and the oil industry had created a culture of regulatory capture where inspectors accepted gifts from companies they regulated and in some cases allowed oil companies to fill in their own inspection reports.'
     ],
     tags: ['deepwater-horizon', 'bp', 'oil-spill', 'gulf-of-mexico', 'environmental-disaster', 'corporate-manslaughter', 'clean-water-act'],
     sources: [
       { title: 'National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling', url: 'https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf', type: 'Government Report' },
       { title: 'DOJ: BP Exploration and Production Inc. Agrees to Plead Guilty', url: 'https://www.justice.gov/opa', type: 'Legal' },
-      { title: 'CSB: Investigation Report - Macondo Blowout and Explosion', url: 'https://www.csb.gov/macondo-blowout-and-explosion/', type: 'Government Report' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'CSB: Investigation Report - Macondo Blowout and Explosion', url: 'https://www.csb.gov/macondo-blowout-and-explosion/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secured $4.5B criminal plea and $20.8B civil settlement; no senior executives imprisoned', href: '/entities/agencies/doj' },
-      { id: '2', name: 'EPA', type: 'agency', relationship: 'Oversaw cleanup and dispersant application; banned BP from federal contracts (later lifted)', href: '/entities/agencies/epa' },
+      { id: '2', name: 'EPA', type: 'agency', relationship: 'Oversaw cleanup and dispersant application; banned BP from federal contracts (later lifted)', href: '/entities/agencies/epa' }
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-01-15',
@@ -2207,7 +2124,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2005', event: 'The company\'s Texas City refinery explosion in 2005 killed 15 workers, and a 2006 pipeline rupture in Prudhoe Bay, Alaska spilled 200,000 gallons of crude oil', type: 'critical' },
      { date: '2010-04-20', event: 'The Macondo well blowout on April 20, 2010 killed 11 workers and injured 17 others aboard the Transocean-owned, BP-operated drilling rig in the Gulf of Mexico, 41 miles off the Louisiana coast', type: 'critical' },
      { date: '2010-07-15', event: 'The oil spilled for 87 days before the well was finally capped on July 15, 2010', type: 'default' },
-     { date: '2016', event: 'BP\'s total financial liability exceeded $65 billion, including $20.8 billion in a 2016 settlement with the federal government and five Gulf states (the largest environmental settlement in U.S', type: 'political' },
+     { date: '2016', event: 'BP\'s total financial liability exceeded $65 billion, including $20.8 billion in a 2016 settlement with the federal government and five Gulf states (the largest environmental settlement in U.S', type: 'political' }
    ],
   },
   'dupont-teflon-pfoa-coverup': {
@@ -2223,18 +2140,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'For decades, DuPont discharged approximately 1.7 million pounds of PFOA into the Ohio River and surrounding groundwater, contaminating the drinking water of over 100,000 people in the mid-Ohio Valley. Cattle farmer Wilbur Tennant first raised alarms in the late 1990s when his cows began dying with blackened teeth, tumors, and lesions after grazing near a DuPont-owned landfill. Attorney Robert Bilott, who took Tennant\'s case, uncovered thousands of internal DuPont documents proving the company had known about PFOA\'s dangers for decades. DuPont\'s own medical officer had written in 1991 that PFOA should be classified as a confirmed human carcinogen.',
       'In 2001, Bilott filed a class action lawsuit on behalf of the contaminated community. The resulting settlement funded the C8 Science Panel, an independent epidemiological study of 69,000 community members exposed to PFOA-contaminated water. After seven years of research (2005-2012), the Science Panel found "probable links" between PFOA exposure and six diseases: kidney cancer, testicular cancer, ulcerative colitis, thyroid disease, pregnancy-induced hypertension (preeclampsia), and high cholesterol. Of the approximately 3,500 individual lawsuits that followed, DuPont ultimately paid over $670 million in settlements. The first three cases that went to trial all resulted in verdicts against DuPont: $1.6 million, $5.1 million, and $12.5 million.',
       'Under the Toxic Substances Control Act (15 U.S.C. 2601 et seq.), manufacturers must report substantial risk information to the EPA. Under TSCA Section 8(e), companies must immediately notify the EPA of information suggesting a chemical presents a substantial risk of injury to health. The EPA found that DuPont violated Section 8(e) by failing to report PFOA health and environmental data. In 2005, the EPA fined DuPont $16.5 million, the largest administrative fine in EPA history at the time, but a pittance compared to DuPont\'s profits from Teflon (approximately $1 billion per year). Under the Resource Conservation and Recovery Act (42 U.S.C. 6901 et seq.), DuPont\'s dumping of PFOA into waterways and landfills constituted illegal disposal of hazardous waste.',
-      'PFOA belongs to the PFAS (per- and polyfluoroalkyl substances) family of over 12,000 synthetic chemicals known as "forever chemicals" because they never break down in the environment. Today, PFAS contamination has been detected in the blood of 98% of Americans and in drinking water systems serving over 110 million people nationwide. DuPont spun off its PFOA liabilities into a company called Chemours in 2015, attempting to shield itself from future lawsuits. In June 2023, DuPont, Chemours, and Corteva agreed to pay $1.185 billion to settle claims from U.S. public water systems, but estimates suggest full PFAS cleanup costs could exceed $400 billion nationally. No DuPont executive has ever been criminally charged.',
+      'PFOA belongs to the PFAS (per- and polyfluoroalkyl substances) family of over 12,000 synthetic chemicals known as "forever chemicals" because they never break down in the environment. Today, PFAS contamination has been detected in the blood of 98% of Americans and in drinking water systems serving over 110 million people nationwide. DuPont spun off its PFOA liabilities into a company called Chemours in 2015, attempting to shield itself from future lawsuits. In June 2023, DuPont, Chemours, and Corteva agreed to pay $1.185 billion to settle claims from U.S. public water systems, but estimates suggest full PFAS cleanup costs could exceed $400 billion nationally. No DuPont executive has ever been criminally charged.'
     ],
     tags: ['dupont', 'pfoa', 'teflon', 'forever-chemicals', 'pfas', 'cancer', 'water-contamination', 'corporate-coverup', 'environmental-crime'],
     sources: [
       { title: 'EPA: DuPont PFOA Settlement', url: 'https://www.epa.gov/archive/enforcement/dupont-washington-works-settlement', type: 'Government' },
       { title: 'C8 Science Panel: Probable Link Reports', url: 'http://www.c8sciencepanel.org/prob_link.html', type: 'Scientific Study' },
-      { title: 'The Intercept: The Teflon Toxin (Investigative Series)', url: 'https://theintercept.com/collections/the-teflon-toxin/', type: 'Investigation' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'The Intercept: The Teflon Toxin (Investigative Series)', url: 'https://theintercept.com/collections/the-teflon-toxin/', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Fined DuPont $16.5M (largest TSCA fine at the time) for failing to report PFOA health data; took 50+ years to set drinking water limits for PFAS', href: '/entities/agencies/epa' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined criminal prosecution of DuPont executives despite documented evidence of decades-long concealment of known carcinogen', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined criminal prosecution of DuPont executives despite documented evidence of decades-long concealment of known carcinogen', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1951-01-01',
    lastActivityDate: '2025-01-15',
@@ -2247,7 +2163,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2005', event: 'After seven years of research (2005-2012), the Science Panel found "probable links" between PFOA exposure and six diseases: kidney cancer, testicular cancer, ulcerative colitis, thyroid disease, pr', type: 'default' },
      { date: '2005', event: 'In 2005, the EPA fined DuPont $16.5 million, the largest administrative fine in EPA history at the time, but a pittance compared to DuPont\'s profits from Teflon (approximately $1 billion per year)', type: 'political' },
      { date: '2015', event: 'DuPont spun off its PFOA liabilities into a company called Chemours in 2015, attempting to shield itself from future lawsuits', type: 'legal' },
-     { date: '2023-06-01', event: 'In June 2023, DuPont, Chemours, and Corteva agreed to pay $1.185 billion to settle claims from U.S', type: 'political' },
+     { date: '2023-06-01', event: 'In June 2023, DuPont, Chemours, and Corteva agreed to pay $1.185 billion to settle claims from U.S', type: 'political' }
    ],
   },
   'drone-program-civilian-casualties': {
@@ -2263,18 +2179,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'SIGNATURE STRIKES AND PATTERN OF LIFE: Beyond targeted killings of specific individuals, the CIA and JSOC conducted "signature strikes" targeting groups of military-age males whose behavior patterns were deemed suspicious, without knowing their identities. The Obama administration further expanded the program with the controversial "disposition matrix" (a database of kill-or-capture targets) and adopted a method of counting civilian casualties that classified all military-age males in strike zones as "enemy combatants" unless posthumous evidence proved otherwise. This counting method systematically undercounted civilian deaths and, as leaked NSC documents confirmed, was designed to produce politically favorable casualty statistics.',
       'KILLING AMERICAN CITIZENS WITHOUT TRIAL: On September 30, 2011, a CIA drone strike in Yemen killed Anwar al-Awlaki, a U.S. citizen designated as an al-Qaeda operative. Two weeks later, his 16-year-old son Abdulrahman al-Awlaki, also a U.S. citizen, was killed in a separate strike. In 2015, a strike killed another U.S. citizen, Ahmed Farouq. In 2017, a raid authorized by President Trump killed Nawar al-Awlaki, Anwar\'s eight-year-old daughter. The legal basis for killing citizens without trial rests on a classified OLC memo that the ACLU obtained in redacted form, which argued that due process could be satisfied without judicial review. No court has reviewed the constitutionality of this claim in a contested proceeding.',
       'THE LEGAL BLACK HOLE: The drone program operates under multiple overlapping legal authorities: the 2001 Authorization for Use of Military Force (AUMF), Article II presidential commander-in-chief powers, and, for CIA operations, covert action authorities. The FISA Court has no jurisdiction over targeting decisions. Congressional oversight is limited and classified. The executive branch serves as prosecutor, judge, jury, and executioner. Every administration from Bush through Biden has expanded the geographic scope of drone strikes. The only quasi-judicial review is an internal executive branch process that the ACLU has called "fundamentally incompatible with the rule of law."',
-      'ZERO ACCOUNTABILITY: Despite documented civilian casualties numbering in the thousands, no U.S. military member or CIA officer has been disciplined, much less prosecuted, for wrongful drone killings. The Defense Department investigated the August 2021 Kabul strike that killed 10 Afghan civilians, including seven children, and concluded that no disciplinary action was warranted. Condolence payments to civilian victims\' families have been negligible. Lawsuits by families of U.S. citizens killed (Al-Aulaqi v. Obama, Al-Aulaqi v. Panetta) were dismissed on state secrets and political question grounds. The program continues with no legal mechanism for external review, correction, or accountability.',
+      'ZERO ACCOUNTABILITY: Despite documented civilian casualties numbering in the thousands, no U.S. military member or CIA officer has been disciplined, much less prosecuted, for wrongful drone killings. The Defense Department investigated the August 2021 Kabul strike that killed 10 Afghan civilians, including seven children, and concluded that no disciplinary action was warranted. Condolence payments to civilian victims\' families have been negligible. Lawsuits by families of U.S. citizens killed (Al-Aulaqi v. Obama, Al-Aulaqi v. Panetta) were dismissed on state secrets and political question grounds. The program continues with no legal mechanism for external review, correction, or accountability.'
     ],
     tags: ['drone-strikes', 'civilian-casualties', 'targeted-killing', 'CIA', 'JSOC', 'AUMF', 'war-on-terror', 'extrajudicial-killing', 'Yemen', 'Pakistan'],
     sources: [
       { title: 'New York Times: The Civilian Casualty Files', url: 'https://www.nytimes.com/interactive/2021/12/18/us/airstrikes-pentagon-records-civilian-deaths.html', type: 'Investigation' },
       { title: 'Bureau of Investigative Journalism: Drone Warfare Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Database' },
-      { title: 'The Intercept: The Drone Papers', url: 'https://theintercept.com/drone-papers/', type: 'Investigation' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'The Intercept: The Drone Papers', url: 'https://theintercept.com/drone-papers/', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated parallel drone program in Pakistan, Yemen, and Somalia under covert action authority; conducted signature strikes on unidentified targets', href: '/entities/agencies/cia' },
-      { id: '2', name: 'DOD', type: 'agency', relationship: 'JSOC conducts targeted killings; Pentagon investigated Kabul strike killing 10 civilians including 7 children and found no one at fault', href: '/entities/agencies/dod' },
+      { id: '2', name: 'DOD', type: 'agency', relationship: 'JSOC conducts targeted killings; Pentagon investigated Kabul strike killing 10 civilians including 7 children and found no one at fault', href: '/entities/agencies/dod' }
     ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2026-03-05',
@@ -2287,7 +2202,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2016', event: 'A 2016 analysis by the Intercept of classified documents ("The Drone Papers") revealed that during a five-month operation in northeastern Afghanistan, nearly 90% of those killed were not the intend', type: 'critical' },
      { date: '2017', event: 'In 2017, a raid authorized by President Trump killed Nawar al-Awlaki, Anwar\'s eight-year-old daughter', type: 'critical' },
      { date: '2021', event: 'A New York Times investigation ("The Civilian Casualty Files," 2021) obtained Pentagon documents revealing that airstrikes classified as having zero civilian casualties had in fact killed hundreds', type: 'critical' },
-     { date: '2021-08-01', event: 'The Defense Department investigated the August 2021 Kabul strike that killed 10 Afghan civilians, including seven children, and concluded that no disciplinary action was warranted', type: 'critical' },
+     { date: '2021-08-01', event: 'The Defense Department investigated the August 2021 Kabul strike that killed 10 Afghan civilians, including seven children, and concluded that no disciplinary action was warranted', type: 'critical' }
    ],
   },
   'domestic-surveillance-state': {
@@ -2303,18 +2218,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'Section 702 of the Foreign Intelligence Surveillance Act, ostensibly designed to target foreign communications, has become a backdoor for warrantless surveillance of Americans. The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone. A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects without proper justification.',
       'The surveillance extends far beyond intelligence agencies. Local police departments across the country have acquired military-grade surveillance technology including Stingray cell-site simulators that intercept phone calls, automatic license plate readers that track vehicle movements, facial recognition systems with documented racial bias, and predictive policing algorithms that target minority communities. The Department of Homeland Security operates fusion centers that aggregate data from federal, state, and local agencies, creating comprehensive dossiers on individuals who have never been accused of any crime.',
       'The legal architecture enabling mass surveillance has been constructed through classified legal opinions, secret courts, and legislative manipulations. The USA PATRIOT Act\'s Section 215 was secretly interpreted to authorize bulk collection of all Americans\' phone records — an interpretation so extreme that the law\'s author, Rep. Jim Sensenbrenner, called it "an abuse of the act." The FISA Amendments Act repeatedly renewed with bipartisan support despite documented violations. National Security Letters allow the FBI to demand records from companies with gag orders preventing disclosure of the demand\'s existence.',
-      'Whistleblowers who exposed illegal surveillance have been prosecuted while the architects of unconstitutional programs face no accountability. Thomas Drake, William Binney, and J. Kirk Wiebe reported NSA waste and constitutionality concerns through proper channels and were retaliated against. Edward Snowden remains in exile in Russia. Meanwhile, James Clapper, Director of National Intelligence, lied under oath to Congress denying mass surveillance existed and was never charged with perjury. The surveillance state continues expanding with no meaningful reform.',
+      'Whistleblowers who exposed illegal surveillance have been prosecuted while the architects of unconstitutional programs face no accountability. Thomas Drake, William Binney, and J. Kirk Wiebe reported NSA waste and constitutionality concerns through proper channels and were retaliated against. Edward Snowden remains in exile in Russia. Meanwhile, James Clapper, Director of National Intelligence, lied under oath to Congress denying mass surveillance existed and was never charged with perjury. The surveillance state continues expanding with no meaningful reform.'
     ],
     tags: ['NSA', 'surveillance', 'PRISM', 'Section 702', 'FISA', 'Snowden', 'Fourth Amendment', 'warrantless wiretapping', 'Stingray', 'facial recognition', 'fusion centers'],
     sources: [
       { title: 'ODNI: FISA Section 702 Annual Transparency Report', url: 'https://www.dni.gov/index.php/ic-legal-reference-book/fisa-amendments-act', type: 'Government Report' },
       { title: 'PCLOB: Report on the Surveillance Program Operated Under Section 702', url: 'https://www.pclob.gov/reports/', type: 'Government Report' },
-      { title: 'The Intercept: The Snowden Archive', url: 'https://theintercept.com/snowden/', type: 'Investigation' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'The Intercept: The Snowden Archive', url: 'https://theintercept.com/snowden/', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operates mass collection programs including PRISM and UPSTREAM; collected metadata on all domestic phone calls; monitors internet backbone', href: '/entities/agencies/nsa' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 3.4 million warrantless searches of Americans in Section 702 database; uses National Security Letters with gag orders', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 3.4 million warrantless searches of Americans in Section 702 database; uses National Security Letters with gag orders', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-03-01',
@@ -2322,7 +2236,7 @@ const investigations_d: Record<string, InvestigationData> = {
       timeline: [
      { date: '2013', event: 'The program, exposed by NSA whistleblower Edward Snowden in 2013, operates through Section 702 of FISA, Executive Order 12333, and secret FISC court orders that have been described by the court\'s own judges as...', type: 'legal' },
      { date: '2021', event: 'The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone.', type: 'financial' },
-     { date: '2023', event: 'A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects', type: 'political' },
+     { date: '2023', event: 'A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects', type: 'political' }
      ],
   },
   'disability-benefits-denial-machine': {
@@ -2338,18 +2252,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'The backlog is staggering. As of 2024, over 1.1 million claims are pending at some stage of the process. The average wait for an ALJ hearing exceeds 18 months in most offices and can reach 3-4 years in some regions. During this waiting period, claimants have no income from the disability program, no Medicare (which begins only after 24 months of disability benefit receipt), and are legally prohibited from performing substantial gainful activity (working above $1,550/month). Many become homeless, rely on family members, or die. The SSA\'s own actuaries estimate 10,000 claimants die annually while awaiting decisions.',
       'ALJ variation is one of the most studied and least addressed problems in the system. A 2023 analysis of ALJ decision data found approval rates ranging from 17% to 97% among judges hearing cases in the same office. A claimant in one hearing room might be approved while an identical case in the next room is denied. This variation persists despite training, quality review, and policy guidance. The reasons are structural: ALJs have decisional independence, the standards for disability are subjective ("unable to perform substantial gainful activity"), and the vocational guidelines that judges apply were written in 1978 and reference jobs like "nut sorter" and "dowel inspector" that barely exist.',
       'The SSA has been deliberately underfunded for over a decade. Operating costs have been cut 14% in inflation-adjusted terms since 2010 while the population served has grown. Field offices have been closed (64 since 2010), phone wait times average 35 minutes, and 43% of calls to the national 800 number receive a busy signal. The workforce has shrunk by 13% while workloads have increased. Budget cuts have hit DDS offices particularly hard, contributing to the initial denial rate as underpaid, overworked examiners rush through complex medical files.',
-      'Representative payees present another systemic failure within the disability system. When beneficiaries are deemed unable to manage their own finances, SSA appoints representative payees, including family members, organizations, and professional payees, to manage their benefits. GAO investigations have found that SSA fails to conduct adequate background checks, does not monitor payees effectively, and has allowed convicted felons to serve as payees. An estimated $1 billion in benefits has been misused by representative payees, and the actual figure is likely much higher due to minimal auditing.',
+      'Representative payees present another systemic failure within the disability system. When beneficiaries are deemed unable to manage their own finances, SSA appoints representative payees, including family members, organizations, and professional payees, to manage their benefits. GAO investigations have found that SSA fails to conduct adequate background checks, does not monitor payees effectively, and has allowed convicted felons to serve as payees. An estimated $1 billion in benefits has been misused by representative payees, and the actual figure is likely much higher due to minimal auditing.'
     ],
     tags: ['disability', 'Social Security', 'SSDI', 'SSI', 'denial rates', 'ALJ', 'backlog', 'representative payees', 'SSA', 'benefits'],
     sources: [
       { title: 'SSA OIG: Disability Determination Backlogs', url: 'https://oig.ssa.gov/', type: 'Government Report' },
       { title: 'GAO: Social Security Disability - Actions Needed to Address Backlog', url: 'https://www.gao.gov/', type: 'Government Report' },
-      { title: 'National Academies: Evaluation of SSA Disability Programs', url: 'https://nap.nationalacademies.org/', type: 'Research' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'National Academies: Evaluation of SSA Disability Programs', url: 'https://nap.nationalacademies.org/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'SSA', type: 'agency', relationship: 'Operates the disability determination system; 65% initial denial rate; 10,000 die annually waiting; budget cut 14% in real terms since 2010' },
-      { id: '2', name: 'GAO', type: 'agency', relationship: 'Multiple reports documenting ALJ variation, representative payee abuse, and processing backlogs; recommendations largely unimplemented' },
+      { id: '2', name: 'GAO', type: 'agency', relationship: 'Multiple reports documenting ALJ variation, representative payee abuse, and processing backlogs; recommendations largely unimplemented' }
     ],
    eventOriginDate: '1978-01-01',
    lastActivityDate: '2025-02-25',
@@ -2359,7 +2272,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2010', event: 'Operating costs have been cut 14% in inflation-adjusted terms since 2010 while the population served has grown', type: 'financial' },
      { date: '2010', event: 'Field offices have been closed (64 since 2010), phone wait times average 35 minutes, and 43% of calls to the national 800 number receive a busy signal', type: 'default' },
      { date: '2023', event: 'A 2023 analysis of ALJ decision data found approval rates ranging from 17% to 97% among judges hearing cases in the same office', type: 'legal' },
-     { date: '2024', event: 'As of 2024, over 1.1 million claims are pending at some stage of the process', type: 'financial' },
+     { date: '2024', event: 'As of 2024, over 1.1 million claims are pending at some stage of the process', type: 'financial' }
    ],
   },
   'domestic-violence-system-failures': {
@@ -2375,20 +2288,18 @@ const investigations_d: Record<string, InvestigationData> = {
       'Law enforcement response patterns reveal systemic dismissal of intimate partner violence. Police departments have historically classified domestic violence calls as low priority, and officer attitudes toward these cases remain shaped by cultural minimization. Studies consistently show that officers are more likely to arrest when the suspect is a stranger than when the suspect is an intimate partner, even controlling for injury severity. The widespread adoption of mandatory arrest policies, intended to remove officer discretion, has had the unintended consequence of increasing dual arrests where victims are charged alongside their abusers.',
       'Protective orders, the primary civil remedy available to survivors, suffer from a massive enforcement gap. An estimated 50% of protective orders are violated, yet violation prosecution rates are below 10% in most jurisdictions. Judges in some states can issue protective orders only if physical violence has already occurred, excluding survivors experiencing stalking, coercive control, or escalating threats. The firearms provisions of protective orders, which should prohibit respondents from possessing weapons, are rarely enforced because no systematic mechanism exists to collect surrendered firearms.',
       'The shelter system operates far below the capacity required. The National Network to End Domestic Violence conducts an annual census that consistently finds shelters turning away between 9,000 and 12,000 requests for housing on a single day due to lack of space. Rural areas face particularly acute shortages, with some survivors needing to travel hundreds of miles to reach the nearest shelter. Federal funding through the Violence Against Women Act covers only a fraction of shelter operating costs, and reauthorization has become increasingly politicized.',
-      'Lethal outcomes follow predictable patterns that the system routinely fails to interrupt. Research identifies consistent risk factors, including prior strangulation, access to firearms, escalation in frequency and severity, and separation attempts, that correlate with homicide. Lethality assessment tools exist and have been validated, but most jurisdictions either do not use them or do not act on their results. On average, a domestic violence victim contacts seven different agencies or organizations before receiving effective help, a gauntlet that the most dangerous abusers know how to outlast.',
+      'Lethal outcomes follow predictable patterns that the system routinely fails to interrupt. Research identifies consistent risk factors, including prior strangulation, access to firearms, escalation in frequency and severity, and separation attempts, that correlate with homicide. Lethality assessment tools exist and have been validated, but most jurisdictions either do not use them or do not act on their results. On average, a domestic violence victim contacts seven different agencies or organizations before receiving effective help, a gauntlet that the most dangerous abusers know how to outlast.'
     ],
     tags: ['domestic violence', 'protective orders', 'law enforcement', 'shelter system', 'VAWA', 'intimate partner violence', 'lethality assessment'],
     sources: [
       { title: 'Ncadv Records', url: 'https://ncadv.org/statistics', type: 'Reference' },
-      { title: 'Nnedv Records', url: 'https://nnedv.org/content/domestic-violence-counts/', type: 'Reference' },
-      { title: 'Bjs Records', url: 'https://bjs.ojp.gov/', type: 'Reference' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
-
-      { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'DOJ Bureau of Justice Statistics: Intimate Partner Violence', url: 'https://bjs.ojp.gov/topics/crime/intimate-partner-violence', type: 'Government Report' },
+      { title: 'National Domestic Violence Hotline: Statistics', url: 'https://www.thehotline.org/stakeholders/domestic-violence-statistics/', type: 'Research' },
+      { title: 'NCADV: Domestic Violence National Statistics', url: 'https://ncadv.org/STATISTICS', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Administers VAWA grants and Office on Violence Against Women; consent decrees in cities like New Orleans addressed DV response failures; enforcement varies dramatically by administration', href: '/entities/agencies/doj' },
-      { id: '2', name: 'HHS', type: 'agency', relationship: 'Funds Family Violence Prevention and Services Act programs; shelter grant funding has not kept pace with need; data systems for tracking DV across agencies remain fragmented', href: '/entities/agencies/hhs' },
+      { id: '2', name: 'HHS', type: 'agency', relationship: 'Funds Family Violence Prevention and Services Act programs; shelter grant funding has not kept pace with need; data systems for tracking DV across agencies remain fragmented', href: '/entities/agencies/hhs' }
     ],
    eventOriginDate: '1994-09-13',
    lastActivityDate: '2025-02-01',
@@ -2399,7 +2310,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2005', event: 'Supreme Court rules in Castle Rock v. Gonzales that police have no constitutional duty to enforce restraining orders, even when violation results in the murder of three children', type: 'critical' },
      { date: '2013', event: 'VAWA reauthorized, extending protections to Native American tribes, LGBTQ individuals, and immigrants; tribal courts gain jurisdiction over non-Native offenders', type: 'legal' },
      { date: '2020', event: 'COVID-19 lockdowns trigger documented surge in domestic violence; the UN calls it a "shadow pandemic" as shelter capacity proves catastrophically inadequate', type: 'critical' },
-     { date: '2022', event: 'VAWA reauthorized with expanded provisions for stalking, cybercrimes, and firearms surrender requirements', type: 'legal' },
+     { date: '2022', event: 'VAWA reauthorized with expanded provisions for stalking, cybercrimes, and firearms surrender requirements', type: 'legal' }
    ],
   },
   'drone-strikes-civilian-casualties': {
@@ -2415,18 +2326,17 @@ const investigations_d: Record<string, InvestigationData> = {
       'The civilian death toll has been systematically undercounted through a classification methodology that presumes guilt. The Obama administration adopted a practice of counting all "military-age males" killed in strike zones as "enemies killed in action" unless explicit evidence posthumously proved their innocence, a standard that inverted the presumption of innocence and guaranteed an undercount of civilian casualties. Internal military documents leaked to The Intercept in 2015 (the "Drone Papers") revealed that during one five-month operation in Afghanistan, nearly 90% of those killed in drone strikes were not the intended targets. The Bureau of Investigative Journalism, Airwars, and the New America Foundation have maintained independent databases documenting strikes and casualties that consistently show civilian death counts far exceeding official U.S. government figures. A 2021 New York Times investigation of a specific strike in Kabul on August 29, 2021, which killed 10 civilians including 7 children from the Ahmadi family (the youngest being 2-year-old Malika), proved that the Pentagon\'s initial claim that the strike hit an ISIS-K operative was entirely false. The target was an aid worker loading water containers into his car. General Kenneth McKenzie acknowledged the strike was "a tragic mistake" but no one was disciplined or charged. Under international humanitarian law (IHL), including the Geneva Conventions\' Additional Protocol I (Articles 48, 51, 57), attacks must distinguish between combatants and civilians, must be proportionate, and require precautions to minimize civilian harm.',
       'The "signature strike" methodology represents the most legally problematic category of drone operations. Unlike "personality strikes" that target named individuals based on intelligence assessments, signature strikes target individuals based on patterns of behavior observed via surveillance, without knowing who the targets are. The criteria for what constitutes targetable "signatures" are classified, but reporting indicates they include patterns such as loading materials into vehicles, gathering in groups in areas of suspected militant activity, or being of military age in a targeted location. The legal basis for killing unnamed individuals in countries where the U.S. is not at war based solely on their observed behavior is contested by virtually every international law scholar who has examined the question. The UN Special Rapporteur on Extrajudicial, Summary or Arbitrary Executions, Philip Alston, concluded in a 2010 report that signature strikes are impossible to reconcile with the requirement of distinction under IHL. His successor, Christof Heyns, stated in 2012 that the U.S. drone program\'s lack of transparency made it impossible to assess compliance with international law and that "if other states were to claim the broad-based authority that the United States does, to kill people anywhere, anytime, the result would be chaos."',
       'The human impact extends far beyond the individuals killed. Research by Stanford Law School and New York University\'s Global Justice Clinic documented the psychological toll on communities in Pakistan\'s tribal regions who live under constant drone surveillance. Residents reported anxiety, PTSD, sleep disorders, and a pervasive fear that paralyzes daily life. Children are afraid to go to school when drones are overhead. Funerals and community gatherings are avoided because of documented "double-tap" strikes in which a second drone strike targets first responders and mourners arriving at the site of an initial strike. Medical professionals in Yemen and Pakistan have reported reluctance to respond to strike sites out of fear of being targeted. This pattern of targeting rescuers constitutes a potential war crime under IHL, which protects medical and humanitarian personnel (Additional Protocol I, Articles 12 and 15). The Stimson Center, a mainstream Washington defense policy think tank, concluded in 2014 that the drone program may be counterproductive, generating more militants through civilian casualties and community outrage than it eliminates through targeted killings.',
-      'Accountability mechanisms are virtually nonexistent. Congress has exercised almost no oversight of the drone program. The 2001 AUMF has never been updated despite its application to conflicts, countries, and organizations far removed from its original authorization. The executive branch has resisted all efforts to subject lethal operations to judicial review, arguing that targeting decisions are unreviewable executive actions. President Obama issued Presidential Policy Guidance (PPG) in 2013 establishing standards including "near certainty" that civilians would not be harmed, but President Trump revoked this guidance in 2017, replacing it with classified Principles, Standards, and Procedures (PSP) that reportedly lowered the threshold for strikes and expanded the categories of targetable individuals. President Biden partially restored Obama-era standards but retained significant executive discretion. The Kabul strike that killed 10 civilians demonstrated that even the most clearly documented cases of error result in no accountability: the DOD investigation concluded the strike violated no laws, no one was punished, and the Pentagon initially offered condolence payments of $20,000 per family member, later raised to undisclosed amounts after public outrage. Compensation for civilian casualties across the entire program globally has been sporadic, inadequate, and dependent on media exposure rather than institutional accountability. The program represents the most significant expansion of unchecked executive power to kill since the founding of the republic.',
+      'Accountability mechanisms are virtually nonexistent. Congress has exercised almost no oversight of the drone program. The 2001 AUMF has never been updated despite its application to conflicts, countries, and organizations far removed from its original authorization. The executive branch has resisted all efforts to subject lethal operations to judicial review, arguing that targeting decisions are unreviewable executive actions. President Obama issued Presidential Policy Guidance (PPG) in 2013 establishing standards including "near certainty" that civilians would not be harmed, but President Trump revoked this guidance in 2017, replacing it with classified Principles, Standards, and Procedures (PSP) that reportedly lowered the threshold for strikes and expanded the categories of targetable individuals. President Biden partially restored Obama-era standards but retained significant executive discretion. The Kabul strike that killed 10 civilians demonstrated that even the most clearly documented cases of error result in no accountability: the DOD investigation concluded the strike violated no laws, no one was punished, and the Pentagon initially offered condolence payments of $20,000 per family member, later raised to undisclosed amounts after public outrage. Compensation for civilian casualties across the entire program globally has been sporadic, inadequate, and dependent on media exposure rather than institutional accountability. The program represents the most significant expansion of unchecked executive power to kill since the founding of the republic.'
     ],
     tags: ['drone strikes', 'civilian casualties', 'targeted killing', 'AUMF', 'Pakistan', 'Yemen', 'extrajudicial killing', 'signature strikes', 'War on Terror', 'accountability'],
     sources: [
       { title: 'The Bureau of Investigative Journalism: Drone Warfare Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Investigative Report' },
       { title: 'The Intercept: The Drone Papers (2015)', url: 'https://theintercept.com/drone-papers/', type: 'Investigative Report' },
-      { title: 'New York Times: Investigation of Kabul Drone Strike (2021)', url: 'https://www.nytimes.com/2021/09/10/world/asia/us-air-strike-drone-kabul-afghanistan-isis.html', type: 'Investigative Report' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'New York Times: Investigation of Kabul Drone Strike (2021)', url: 'https://www.nytimes.com/2021/09/10/world/asia/us-air-strike-drone-kabul-afghanistan-isis.html', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated parallel drone program in Pakistan and Yemen outside military chain of command; strikes were classified as covert actions not subject to military rules of engagement or public disclosure requirements', href: '/entities/agencies/cia' },
-      { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'Conducted thousands of strikes through JSOC and conventional forces; systematically undercounted civilian casualties; Kabul strike investigation found no laws violated despite killing 10 civilians including 7 children', href: '/entities/agencies/department-of-defense' },
+      { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'Conducted thousands of strikes through JSOC and conventional forces; systematically undercounted civilian casualties; Kabul strike investigation found no laws violated despite killing 10 civilians including 7 children', href: '/entities/agencies/department-of-defense' }
     ],
    eventOriginDate: '2001-10-07',
    lastActivityDate: '2026-03-21',
@@ -2442,7 +2352,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2013', event: 'President Obama issued Presidential Policy Guidance (PPG) in 2013 establishing standards including "near certainty" that civilians would not be harmed, but President Trump revoked this guidance in', type: 'legal' },
      { date: '2014', event: 'The Stimson Center, a mainstream Washington defense policy think tank, concluded in 2014 that the drone program may be counterproductive, generating more militants through civilian casualties and c', type: 'default' },
      { date: '2015', event: 'Internal military documents leaked to The Intercept in 2015 (the "Drone Papers") revealed that during one five-month operation in Afghanistan, nearly 90% of those killed in drone strikes were not t', type: 'critical' },
-     { date: '2021-08-29', event: 'A 2021 New York Times investigation of a specific strike in Kabul on August 29, 2021, which killed 10 civilians including 7 children from the Ahmadi family (the youngest being 2-year-old Malika), p', type: 'critical' },
+     { date: '2021-08-29', event: 'A 2021 New York Times investigation of a specific strike in Kabul on August 29, 2021, which killed 10 civilians including 7 children from the Ahmadi family (the youngest being 2-year-old Malika), p', type: 'critical' }
    ],
   },
   'des-diethylstilbestrol-pharmaceutical-disaster': {
@@ -2458,20 +2368,19 @@ const investigations_d: Record<string, InvestigationData> = {
       'In 1953, Dr. William Dieckmann of the University of Chicago published a rigorous double-blind, placebo-controlled study of 1,646 pregnant women in the American Journal of Obstetrics and Gynecology. The Dieckmann study conclusively demonstrated that DES provided no benefit whatsoever in preventing miscarriage; in fact, women who took DES had slightly higher rates of miscarriage, premature birth, and neonatal death than the control group. Despite this definitive evidence, pharmaceutical companies continued to market DES for use in pregnancy for another 18 years. Not a single company voluntarily updated its labeling to reflect the Dieckmann findings. The FDA took no enforcement action. Physicians continued to prescribe DES to pregnant women throughout the 1950s and 1960s. Some pharmaceutical advertisements from this era promised DES would produce "bigger, stronger babies." By the time DES was pulled from use in pregnancy in 1971, an estimated 5 to 10 million American women and their children had been exposed.',
       'In April 1971, Dr. Arthur Herbst, Dr. Howard Ulfelder, and Dr. David Poskanzer published a landmark paper in the New England Journal of Medicine documenting a clear association between maternal DES use and clear-cell adenocarcinoma of the vagina and cervix in young women. They identified eight cases of this extraordinarily rare cancer in women under 22, seven of whose mothers had taken DES during the first trimester. A national registry was established and eventually documented over 800 cases of DES-related clear-cell adenocarcinoma. About two-thirds of all DES daughters (women exposed in utero) also developed structural reproductive tract abnormalities, including T-shaped uterus, cervical ridges and hoods, and fallopian tube abnormalities. DES daughters experience significantly elevated rates of infertility (33-39%), ectopic pregnancy, spontaneous abortion, cervical incompetence, and preterm delivery. In 2011, the NCI-funded DES Follow-Up Study published long-term data showing that DES daughters had a 2.5 times higher risk of breast cancer after age 40. DES sons, men exposed in utero, were found to have elevated rates of testicular cancer, epididymal cysts, and reproductive abnormalities.',
       'The legal battles over DES have been among the longest-running pharmaceutical litigations in U.S. history. Because over 200 companies manufactured DES and because records identifying which company produced the specific pills an individual patient took were often lost over the decades, courts were forced to develop new legal doctrines. In Sindell v. Abbott Laboratories (1980), the California Supreme Court established the theory of "market share liability," holding that when a plaintiff could not identify the specific manufacturer of a fungible product that caused harm, all manufacturers could be held liable in proportion to their market share. This landmark ruling opened the door to DES litigation that had previously been impossible. DES lawsuits continued for decades. In 2013, a Boston jury awarded $2 million to a DES granddaughter who developed clear-cell adenocarcinoma, establishing that pharmaceutical companies owed a duty of care beyond the immediate consumer. However, the vast majority of DES-affected individuals have received no compensation. Many cases were barred by statutes of limitations, and courts in several states rejected the market share liability approach. The Eli Lilly Company, the largest DES producer, earning over 90% of all DES-related claims settlements, has argued that it complied with all regulatory requirements of the era.',
-      'The legal and regulatory failures include: the FDAs failure to withdraw approval for DES in pregnancy after the 1953 Dieckmann study proved it ineffective; the failure of all 200+ manufacturers to update their labeling between 1953 and 1971; the FDAs 1971 advisory, which was only a Drug Bulletin recommendation (not a formal recall or withdrawal), allowing existing supplies on pharmacy shelves to continue being dispensed; the absence of any federal investigation into why the drug continued to be marketed for 18 years after being proven useless; and the lack of criminal prosecution under 21 U.S.C. Section 331 (misbranding) and 21 U.S.C. Section 352 (false or misleading labeling). The broader legal principles violated include the duty to warn under products liability law (Restatement (Second) of Torts Section 402A); the drug manufacturers post-marketing surveillance obligation under 21 CFR Part 314.80; and the ethical principle of non-maleficence. As of 2025, DES remains the clearest documented example of a pharmaceutical disaster spanning three generations: the mothers who took the drug, the sons and daughters exposed in utero, and the grandchildren who now show elevated health risks. The FDA maintains that approximately 5-10 million Americans were exposed to DES, and health monitoring of this population continues through NCI-funded studies.',
+      'The legal and regulatory failures include: the FDAs failure to withdraw approval for DES in pregnancy after the 1953 Dieckmann study proved it ineffective; the failure of all 200+ manufacturers to update their labeling between 1953 and 1971; the FDAs 1971 advisory, which was only a Drug Bulletin recommendation (not a formal recall or withdrawal), allowing existing supplies on pharmacy shelves to continue being dispensed; the absence of any federal investigation into why the drug continued to be marketed for 18 years after being proven useless; and the lack of criminal prosecution under 21 U.S.C. Section 331 (misbranding) and 21 U.S.C. Section 352 (false or misleading labeling). The broader legal principles violated include the duty to warn under products liability law (Restatement (Second) of Torts Section 402A); the drug manufacturers post-marketing surveillance obligation under 21 CFR Part 314.80; and the ethical principle of non-maleficence. As of 2025, DES remains the clearest documented example of a pharmaceutical disaster spanning three generations: the mothers who took the drug, the sons and daughters exposed in utero, and the grandchildren who now show elevated health risks. The FDA maintains that approximately 5-10 million Americans were exposed to DES, and health monitoring of this population continues through NCI-funded studies.'
     ],
     tags: ['DES', 'diethylstilbestrol', 'pharmaceutical fraud', 'pregnancy drug', 'clear-cell adenocarcinoma', 'DES daughters', 'DES sons', 'birth defects', 'intergenerational harm', 'medical tyranny', 'FDA failure', 'market share liability', 'Sindell v. Abbott', 'drug safety', 'endocrine disruptor'],
     sources: [
       { title: 'CDC: DES (Diethylstilbestrol) Overview and Health Exposure Risks', url: 'https://www.cdc.gov/', type: 'Government Record' },
       { title: 'NCI: DES Follow-Up Study and Cancer Risk Data', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/des-fact-sheet', type: 'Government Record' },
       { title: 'DES Action USA: Advocacy and Exposure Registry', url: 'https://www.desaction.org/', type: 'Victim Advocacy' },
-      { title: 'NEJM: Herbst, Ulfelder, and Poskanzer (1971) - Adenocarcinoma and Prenatal DES Exposure', url: 'https://www.nejm.org/doi/full/10.1056/NEJM197104222841604', type: 'Medical Literature' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'NEJM: Herbst, Ulfelder, and Poskanzer (1971) - Adenocarcinoma and Prenatal DES Exposure', url: 'https://www.nejm.org/doi/full/10.1056/NEJM197104222841604', type: 'Medical Literature' }
     ],
     affiliations: [
       { id: '1', name: 'Eli Lilly and Company', type: 'corporation', relationship: 'Largest DES manufacturer, responsible for estimated 90%+ of DES-related claims settlements; continued to aggressively market DES to pregnant women for 18 years after a definitive study proved it was ineffective; no executive was ever criminally prosecuted', href: '/entities/corporations/eli-lilly' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Approved DES for pregnancy use; failed to withdraw approval after the 1953 Dieckmann study proved the drug ineffective and potentially harmful; issued only a non-binding Drug Bulletin advisory in 1971 rather than a formal recall; allowed existing supplies to continue being dispensed', href: '/entities/agencies/fda' },
-      { id: '3', name: 'Arthur Herbst', type: 'individual', relationship: 'University of Chicago physician who identified the link between maternal DES use and clear-cell adenocarcinoma in young women in 1971, leading to the end of DES use in pregnancy; established the national DES cancer registry', href: '/entities/individuals/arthur-herbst' },
+      { id: '3', name: 'Arthur Herbst', type: 'individual', relationship: 'University of Chicago physician who identified the link between maternal DES use and clear-cell adenocarcinoma in young women in 1971, leading to the end of DES use in pregnancy; established the national DES cancer registry', href: '/entities/individuals/arthur-herbst' }
     ],
    eventOriginDate: '1938-01-01',
    lastActivityDate: '2025-06-01',
@@ -2485,7 +2394,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '1980', event: 'Abbott Laboratories (1980), the California Supreme Court established the theory of "market share liability," holding that when a plaintiff could not identify the specific manufacturer of a fungible', type: 'legal' },
      { date: '2011', event: 'In 2011, the NCI-funded DES Follow-Up Study published long-term data showing that DES daughters had a 2.5 times higher risk of breast cancer after age 40', type: 'default' },
      { date: '2013', event: 'In 2013, a Boston jury awarded $2 million to a DES granddaughter who developed clear-cell adenocarcinoma, establishing that pharmaceutical companies owed a duty of care beyond the immediate consumer', type: 'financial' },
-     { date: '2025', event: 'As of 2025, DES remains the clearest documented example of a pharmaceutical disaster spanning three generations: the mothers who took the drug, the sons and daughters exposed in utero, and the gran', type: 'default' },
+     { date: '2025', event: 'As of 2025, DES remains the clearest documented example of a pharmaceutical disaster spanning three generations: the mothers who took the drug, the sons and daughters exposed in utero, and the gran', type: 'default' }
    ],
   },
   'dark-money-politics': {
@@ -2505,7 +2414,7 @@ const investigations_d: Record<string, InvestigationData> = {
    'Congress has blocked every attempt at campaign finance reform since Citizens United, the DISCLOSE Act has failed repeatedly due to Republican filibuster, despite majority support.',
    'The"independent expenditure"fiction (Super PACs openly coordinate with campaigns through shared consultants, former staffers, and public signal strategies) is treated as legal by the FEC.',
    'Corporate donors hide behind trade associations like the U.S. Chamber of Commerce, which spends hundreds of millions on elections without disclosing which corporations paid.',
-   'State-level dark money networks mirror the federal system, with even less oversight, billions flow into state legislative and judicial races with zero disclosure in many states.',
+   'State-level dark money networks mirror the federal system, with even less oversight, billions flow into state legislative and judicial races with zero disclosure in many states.'
  ],
  tags: ['financial-crime'],
  sources: [
@@ -2518,7 +2427,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { title: 'The Washington Post -"$1.6 Billion Donation to Leo Group Is Largest Known Dark Money Gift"', url: 'https://www.washingtonpost.com/politics/2022/08/22/dark-money-donation-leonard-leo/', type: 'Article' },
    { title: 'Campaign Legal Center, Exposed: The Dark Money ATM of the Conservative Movement', url: 'https://campaignlegal.org/update/exposed-dark-money-atm-conservative-movement', type: 'Article' },
    { title: 'Shelby County v. Holder, Supreme Court Opinion (570 U.S. 529)', url: 'https://supreme.justia.com/cases/federal/us/570/529/', type: 'Article' },
-   { title: 'Senate Finance Committee, Investigation of NRA and Foreign Funding', url: 'https://www.finance.senate.gov/ranking-members-news/wyden-nra-investigation', type: 'Article' },
+   { title: 'Senate Finance Committee, Investigation of NRA and Foreign Funding', url: 'https://www.finance.senate.gov/ranking-members-news/wyden-nra-investigation', type: 'Article' }
  ],
  affiliations: [
    { id: 'charles-koch', name: 'Charles Koch', type: 'individual', relationship: 'Co-founder of Koch Industries; architect of the Koch donor network spending $889M+ per election cycle to reshape American politics and policy', href: '/entities/individuals/charles-koch' },
@@ -2534,7 +2443,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'bradley-smith', name: 'Bradley Smith', type: 'individual', relationship: 'Former FEC Chairman who systematically weakened campaign finance enforcement and advocacy for deregulation of political spending', href: '/entities/individuals/bradley-smith' },
    { id: 'harlan-crow', name: 'Harlan Crow', type: 'individual', relationship: 'Billionaire real estate magnate who spent lavishly on Supreme Court Justice Clarence Thomas while having interests before the Court', href: '/entities/individuals/harlan-crow' },
    { id: 'timothy-mellon', name: 'Timothy Mellon', type: 'individual', relationship: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024; largest single donation in U.S. history', href: '/entities/individuals/timothy-mellon' },
-   { id: 'peter-thiel', name: 'Peter Thiel', type: 'individual', relationship: 'Tech billionaire who spent $30M+ to install hand-picked Senate candidates including J.D. Vance and Blake Masters', href: '/entities/individuals/peter-thiel' },
+   { id: 'peter-thiel', name: 'Peter Thiel', type: 'individual', relationship: 'Tech billionaire who spent $30M+ to install hand-picked Senate candidates including J.D. Vance and Blake Masters', href: '/entities/individuals/peter-thiel' }
  ],
  timeline: [
    { date: '1976-01-30', event: 'Buckley v. Valeo: Supreme Court rules that spending money on elections is a form of protected speech, striking down expenditure limits' },
@@ -2553,7 +2462,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: '2022-06-24', event: 'Dobbs v. Jackson: Overturns Roe v. Wade, culmination of decades of dark money spending to capture the judiciary' },
    { date: '2023-04-20', event: 'ProPublica reveals Leonard Leo directed $1.6B in dark money through network of front groups to reshape courts' },
    { date: '2024-02-08', event: 'FEC reports show outside spending in 2024 cycle on track to exceed $4 billion, most ever' },
-   { date: '2024-07-01', event: 'Timothy Mellon donates $150M to pro-Trump Super PAC, largest single donation in American history' },
+   { date: '2024-07-01', event: 'Timothy Mellon donates $150M to pro-Trump Super PAC, largest single donation in American history' }
  ],
  statutes: [
    { code: '52 U.S.C. § 30121: Foreign Money in Elections', description: 'Prohibition on foreign nationals contributing to U.S. elections, alleged violations through NRA and other conduits' },
@@ -2564,7 +2473,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 371: Conspiracy to Defraud the United States', description: 'Coordinated schemes between dark money groups, campaigns, and donors to circumvent campaign finance laws' },
    { code: '18 U.S.C. § 1956: Money Laundering', description: 'Layering political donations through multiple shell organizations to obscure the original source of funds' },
    { code: '26 U.S.C. § 7206: Tax Fraud', description: 'Claiming tax-exempt status for organizations whose primary purpose is political campaign intervention' },
-   { code: '52 U.S.C. § 30116: Excessive Contributions', description: 'Circumventing contribution limits through coordinated spending between Super PACs and campaigns' },
+   { code: '52 U.S.C. § 30116: Excessive Contributions', description: 'Circumventing contribution limits through coordinated spending between Super PACs and campaigns' }
  ],
  defendants: [
    { name: 'Dinesh D\'Souza', role: 'Illegal straw donor scheme, funneled $20,000 through others to Senate candidate', status: 'convicted', notes: 'Pleaded guilty; sentenced to probation. Later pardoned by Trump.' },
@@ -2574,7 +2483,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Americans for Prosperity', role: 'Koch-funded group spent hundreds of millions on elections while claiming social welfare nonprofit status', status: 'charged', notes: 'No enforcement action; IRS targeting controversy provided political cover' },
    { name: 'Judicial Crisis Network', role: 'Spent $35M+ on Supreme Court confirmation battles without disclosing donors', status: 'charged', notes: 'No legal consequences; rebranded as Concord Fund and continued operations' },
    { name: 'John Roberts / Citizens United Majority', role: 'Overturning century of campaign finance precedent based on fiction that corporate spending cannot corrupt', status: 'charged', notes: 'No accountability; decision remains law of the land' },
-   { name: 'Sam Bankman-Fried', role: 'Illegal straw donations of $100M+ to political campaigns using customer funds', status: 'convicted', notes: 'Convicted on fraud and campaign finance charges; sentenced to 25 years' },
+   { name: 'Sam Bankman-Fried', role: 'Illegal straw donations of $100M+ to political campaigns using customer funds', status: 'convicted', notes: 'Convicted on fraud and campaign finance charges; sentenced to 25 years' }
  ],
   },
   'death-penalty-injustice': {
@@ -2594,7 +2503,7 @@ const investigations_d: Record<string, InvestigationData> = {
    'The Trump administration\'s rush to execute 13 federal prisoners in 6 months (2020-2021) overrode pending clemency petitions, intellectual disability claims, and COVID-19 outbreaks among legal teams',
    'George Stinney Jr., a 14-year-old Black boy, was executed in 1944 after a trial lasting less than a day with an all-white jury, no defense witnesses, and no appeals, his conviction was not vacated until 70 years later',
    'Studies estimate that at least 4.1% of death row defendants are innocent (PNAS, 2014), meaning the U.S. has almost certainly executed dozens of innocent people since 1976',
-   'Death row exonerees often receive no compensation - 18 states have no wrongful conviction compensation statutes, and those that do often cap payments far below the value of decades lost',
+   'Death row exonerees often receive no compensation - 18 states have no wrongful conviction compensation statutes, and those that do often cap payments far below the value of decades lost'
  ],
  tags: ['government-accountability', 'justice'],
  sources: [
@@ -2606,7 +2515,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { title: 'New Yorker, Trial by Fire: Did Texas Execute an Innocent Man?', url: 'https://www.newyorker.com/magazine/2009/09/07/trial-by-fire', type: 'Article' },
    { title: 'Prejean, Helen, Dead Man Walking (book)', url: 'https://www.penguinrandomhouse.com/books/155170/dead-man-walking-by-helen-prejean/', type: 'Article' },
    { title: 'Death Penalty Information Center, Race and the Death Penalty', url: 'https://deathpenaltyinfo.org/policy-issues/race', type: 'Article' },
-   { title: 'Bureau of Justice Statistics, Capital Punishment', url: 'https://bjs.ojp.gov/topics/corrections/capital-punishment', type: 'Article' },
+   { title: 'Bureau of Justice Statistics, Capital Punishment', url: 'https://bjs.ojp.gov/topics/corrections/capital-punishment', type: 'Article' }
  ],
  affiliations: [
    { id: 'cameron-todd-willingham', name: 'Cameron Todd Willingham', type: 'individual', relationship: 'Executed in Texas in 2004 for arson murder despite strong evidence of innocence; fire science debunked prosecution case', href: '/entities/individuals/cameron-todd-willingham' },
@@ -2620,7 +2529,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'kirk-bloodsworth', name: 'Kirk Bloodsworth', type: 'individual', relationship: 'First American death row inmate exonerated by DNA evidence in 1993', href: '/entities/individuals/kirk-bloodsworth' },
    { id: 'george-stinney-jr', name: 'George Stinney Jr.', type: 'individual', relationship: 'Youngest person executed in the U.S. in the 20th century; 14-year-old Black boy executed in South Carolina in 1944', href: '/entities/individuals/george-stinney-jr' },
    { id: 'kalief-browder', name: 'Kalief Browder', type: 'individual', relationship: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty', href: '/entities/individuals/kalief-browder' },
-   { id: 'walter-mcmillian', name: 'Walter McMillian', type: 'individual', relationship: 'Wrongfully sentenced to death in Alabama for a murder he didn\'t commit; exonerated by Bryan Stevenson in 1993', href: '/entities/individuals/walter-mcmillian' },
+   { id: 'walter-mcmillian', name: 'Walter McMillian', type: 'individual', relationship: 'Wrongfully sentenced to death in Alabama for a murder he didn\'t commit; exonerated by Bryan Stevenson in 1993', href: '/entities/individuals/walter-mcmillian' }
  ],
  timeline: [
    { date: '1972', event: 'Furman v. Georgia: Supreme Court effectively halts all executions, finding death penalty applied arbitrarily and capriciously' },
@@ -2640,7 +2549,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: '2015', event: 'Anthony Ray Hinton freed from Alabama death row after 30 years; conviction based on flawed ballistics testimony' },
    { date: '2020', event: 'Federal government resumes executions after 17-year hiatus, executing 13 people in 6 months under Trump administration' },
    { date: '2022', event: 'Number of death row exonerations reaches 190; one exoneration for approximately every 8.3 executions' },
-   { date: '2023', event: 'Studies show at least 4.1% of death sentences are imposed on innocent defendants (PNAS)' },
+   { date: '2023', event: 'Studies show at least 4.1% of death sentences are imposed on innocent defendants (PNAS)' }
  ],
  statutes: [
    { code: '8th Amendment, Cruel and Unusual Punishment', description: 'Botched executions, execution of the innocent, intellectually disabled, and juveniles constitute cruel and unusual punishment' },
@@ -2650,7 +2559,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { code: 'International Covenant on Civil and Political Rights (Article 6)', description: 'Right to life protections and restrictions on death penalty; U.S. is the only Western democracy that retains capital punishment' },
    { code: 'UN Convention on the Rights of the Child (Article 37)', description: 'Prohibits death penalty for offenses committed by persons below 18; U.S. violated until 2005' },
    { code: 'Junk Science / Wrongful Conviction', description: 'Death sentences based on discredited forensic methods: arson"science,"bite mark analysis, hair microscopy, and flawed ballistics' },
-   { code: 'Due Process (5th/14th Amendment)', description: 'Death row inmates spend an average of 18+ years awaiting execution; prolonged confinement itself may constitute punishment' },
+   { code: 'Due Process (5th/14th Amendment)', description: 'Death row inmates spend an average of 18+ years awaiting execution; prolonged confinement itself may constitute punishment' }
  ],
  defendants: [
    { name: 'State of Texas (Willingham case)', role: 'Executing an innocent man despite evidence of innocence', status: 'charged', notes: 'Governor Perry dissolved the Texas Forensic Science Commission investigation; no accountability' },
@@ -2660,7 +2569,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Alabama (Walter McMillian)', role: 'Framing innocent man for murder based on coerced testimony', status: 'charged', notes: 'Exonerated in 1993; prosecution had concealed evidence; no prosecutors or police disciplined' },
    { name: 'Federal Government (2020 executions)', role: 'Resuming federal executions after 17-year moratorium', status: 'charged', notes: '13 people executed July 2020-January 2021; multiple had claims of intellectual disability or innocence' },
    { name: 'Various (Death Row Exonerations)', role: 'Wrongful conviction of 190+ people sentenced to death', status: 'charged', notes: '190+ exonerations since 1973; victims spent average of 11 years on death row before exoneration' },
-   { name: 'Pharmaceutical & Drug Companies', role: 'Supplying execution drugs despite medical ethics prohibitions', status: 'charged', notes: 'States have passed secrecy laws hiding drug suppliers; multiple lawsuits challenging constitutionality' },
+   { name: 'Pharmaceutical & Drug Companies', role: 'Supplying execution drugs despite medical ethics prohibitions', status: 'charged', notes: 'States have passed secrecy laws hiding drug suppliers; multiple lawsuits challenging constitutionality' }
  ],
   },
   'deepwater-horizon': {
@@ -2680,7 +2589,7 @@ const investigations_d: Record<string, InvestigationData> = {
    'BP distributed millions of gallons of the chemical dispersant Corexit, which scientists warned was toxic, to make the oil slick less visible on the surface rather than removing it',
    'Internal BP emails showed company officials discussing"who cares, it\'s done, end of story, will probably be fine"in response to warnings about the number of centralizers',
    'BP initially blamed Transocean and Halliburton exclusively; investigations revealed the disaster resulted from decisions made by all three companies',
-   'The Coast Guard allowed BP to control media access to affected areas, preventing journalists from documenting the full extent of environmental damage',
+   'The Coast Guard allowed BP to control media access to affected areas, preventing journalists from documenting the full extent of environmental damage'
  ],
  tags: ['criminal-justice', 'war', 'environment'],
  sources: [
@@ -2691,7 +2600,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { title: 'Federal Judge Rules BP"Grossly Negligent"', url: 'https://www.nytimes.com/2014/09/05/business/bp-negligent-in-2010-oil-spill-judge-rules.html', type: 'Article' },
    { title: 'Chemical Safety Board Investigation Report', url: 'https://www.csb.gov/macondo-blowout-and-explosion/', type: 'Article' },
    { title: 'Transocean Settlement: $1.4 Billion', url: 'https://www.justice.gov/opa/pr/transocean-pleads-guilty-agrees-pay-14-billion-criminal-and-civil-penalties', type: 'Article' },
-   { title: 'New York Times: The Spill, A Deep Dive Investigation', url: 'https://www.nytimes.com/interactive/2010/06/27/us/20100627-deepwater-horizon.html', type: 'Article' },
+   { title: 'New York Times: The Spill, A Deep Dive Investigation', url: 'https://www.nytimes.com/interactive/2010/06/27/us/20100627-deepwater-horizon.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'tony-hayward', name: 'Tony Hayward', type: 'individual', relationship: 'BP CEO who said "I\'d like my life back"during the disaster; resigned amid public outrage', href: '/entities/individuals/tony-hayward' },
@@ -2704,7 +2613,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'mike-williams', name: 'Mike Williams', type: 'individual', relationship: 'Transocean chief electronics technician; key survivor witness who testified about safety failures', href: '/entities/individuals/mike-williams' },
    { id: 'jesse-gagliano', name: 'Jesse Gagliano', type: 'individual', relationship: 'Halliburton cementing engineer who warned BP about insufficient centralizers', href: '/entities/individuals/jesse-gagliano' },
    { id: 'thad-allen', name: 'Thad Allen', type: 'individual', relationship: 'Coast Guard Admiral who served as National Incident Commander for the federal response', href: '/entities/individuals/thad-allen' },
-   { id: 'ken-salazar', name: 'Ken Salazar', type: 'individual', relationship: 'Interior Secretary who reorganized the failed Minerals Management Service after the disaster', href: '/entities/individuals/ken-salazar' },
+   { id: 'ken-salazar', name: 'Ken Salazar', type: 'individual', relationship: 'Interior Secretary who reorganized the failed Minerals Management Service after the disaster', href: '/entities/individuals/ken-salazar' }
  ],
  timeline: [
    { date: '2009-10-06', event: 'BP begins drilling the Macondo Prospect well (Mississippi Canyon Block 252) in the Gulf of Mexico' },
@@ -2725,7 +2634,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: '2012-11-15', event: 'BP pleads guilty to 11 counts of felony manslaughter and agrees to pay $4.5 billion' },
    { date: '2014-09-04', event: 'Federal judge rules BP was"grossly negligent "and" reckless"- triggering maximum Clean Water Act penalties' },
    { date: '2015-10-05', event: 'BP agrees to pay $20.8 billion, largest environmental settlement in U.S. history' },
-   { date: '2016-04-04', event: 'Federal judge gives final approval to BP settlement; total liability exceeds $65 billion' },
+   { date: '2016-04-04', event: 'Federal judge gives final approval to BP settlement; total liability exceeds $65 billion' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1115: Seaman\'s Manslaughter', description: 'Death of 11 workers due to misconduct, negligence, and inattention to duties aboard a vessel' },
@@ -2735,7 +2644,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { code: '33 U.S.C. § 2701: Oil Pollution Act (OPA)', description: 'Liability for oil spill cleanup costs and natural resource damages' },
    { code: '18 U.S.C. § 1001: False Statements', description: 'Making materially false statements to Congress and federal investigators about oil flow rate' },
    { code: '42 U.S.C. § 9601: CERCLA (Superfund)', description: 'Release of hazardous substances into the environment requiring comprehensive cleanup' },
-   { code: '18 U.S.C. § 371: Conspiracy', description: 'Conspiracy to make false statements and obstruct official proceedings' },
+   { code: '18 U.S.C. § 371: Conspiracy', description: 'Conspiracy to make false statements and obstruct official proceedings' }
  ],
  defendants: [
    { name: 'BP (corporate)', role: '11 counts felony manslaughter, 1 count felony obstruction, environmental crimes', status: 'charged', notes: '$4.5B criminal fine, largest in U.S. history at the time' },
@@ -2745,7 +2654,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Kurt Mix', role: 'Obstruction of justice, deleting evidence', status: 'convicted', notes: 'Convicted; sentenced to 6 months probation' },
    { name: 'Transocean', role: 'CWA violations, rig safety failures', status: 'charged', notes: '$1.4B criminal and civil settlement' },
    { name: 'Halliburton', role: 'Destruction of evidence (post-incident cement testing)', status: 'convicted', notes: 'Pleaded guilty to destruction of evidence; $200K fine; $55M to National Fish and Wildlife Foundation' },
-   { name: 'MOEX Offshore', role: 'CWA violations as minority well partner', status: 'charged', notes: '$90M civil settlement' },
+   { name: 'MOEX Offshore', role: 'CWA violations as minority well partner', status: 'charged', notes: '$90M civil settlement' }
  ],
   },
   'defamation': {
@@ -2766,7 +2675,7 @@ const investigations_d: Record<string, InvestigationData> = {
    'Giuliani filed for bankruptcy to avoid paying the $148M judgment to Freeman and Moss',
    'Fox News attempted to characterize its election fraud coverage as protected opinion rather than factual claims despite on-air presentations as"news"',
    'Witnesses in the Dominion case revealed a systematic pattern of editorial decisions prioritizing ratings over truth',
-   'Several defendants attempted to destroy or withhold electronic communications showing knowledge that claims were false',
+   'Several defendants attempted to destroy or withhold electronic communications showing knowledge that claims were false'
  ],
  tags: ['election-integrity', 'conspiracy'],
  sources: [
@@ -2777,7 +2686,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { title: 'Alex Jones Sandy Hook Defamation Judgment', url: 'https://www.washingtonpost.com/media/2022/10/12/alex-jones-sandy-hook-damages/', type: 'Article' },
    { title: 'Smartmatic $2.7B Lawsuit Against Fox News', url: 'https://www.bbc.com/news/world-us-canada-55973883', type: 'Article' },
    { title: 'Fox News Internal Messages Reveal Knowledge of Election Lie Falsity', url: 'https://www.cnn.com/2023/03/08/media/fox-news-dominion-private-messages/index.html', type: 'Article' },
-   { title: 'The Weaponization of Defamation in American Politics', url: 'https://www.theatlantic.com/ideas/archive/2023/04/fox-news-dominion-settlement-defamation/673813/', type: 'Article' },
+   { title: 'The Weaponization of Defamation in American Politics', url: 'https://www.theatlantic.com/ideas/archive/2023/04/fox-news-dominion-settlement-defamation/673813/', type: 'Article' }
  ],
  affiliations: [
    { id: 'e-jean-carroll', name: 'E. Jean Carroll', type: 'individual', relationship: 'Writer and journalist who accused Trump of sexual assault; awarded $88.3M in defamation judgment', href: '/entities/individuals/e-jean-carroll' },
@@ -2791,7 +2700,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'mike-lindell', name: 'Mike Lindell', type: 'individual', relationship: 'MyPillow CEO who spread false election fraud claims about Dominion and Smartmatic', href: '/entities/individuals/mike-lindell' },
    { id: 'alex-jones', name: 'Alex Jones', type: 'individual', relationship: 'Infowars host ordered to pay $1.5B for defaming Sandy Hook families', href: '/entities/individuals/alex-jones' },
    { id: 'dominion-voting-systems', name: 'Dominion Voting Systems', type: 'individual', relationship: 'Voting technology company targeted by false election fraud claims', href: '/entities/corporations/dominion-voting-systems' },
-   { id: 'smartmatic', name: 'Smartmatic', type: 'individual', relationship: 'Voting technology company with pending $2.7B defamation suit against Fox News', href: '/entities/corporations/smartmatic' },
+   { id: 'smartmatic', name: 'Smartmatic', type: 'individual', relationship: 'Voting technology company with pending $2.7B defamation suit against Fox News', href: '/entities/corporations/smartmatic' }
  ],
  timeline: [
    { date: '2019-06-21', event: 'E. Jean Carroll publishes essay accusing Trump of sexual assault in a Bergdorf Goodman dressing room in the mid-1990s' },
@@ -2810,7 +2719,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: '2023-06-14', event: 'Fox News settles Dominion defamation suit for $787.5 million, largest media defamation settlement in US history' },
    { date: '2024-01-26', event: 'Jury awards E. Jean Carroll $83.3 million in damages in second defamation trial against Trump' },
    { date: '2023-12-15', event: 'Giuliani found liable for defaming Freeman and Moss; ordered to pay $148 million in damages' },
-   { date: '2023-08-04', event: 'Alex Jones ordered to pay $1.5 billion for Sandy Hook defamation after years of calling the massacre a hoax' },
+   { date: '2023-08-04', event: 'Alex Jones ordered to pay $1.5 billion for Sandy Hook defamation after years of calling the massacre a hoax' }
  ],
  statutes: [
    { code: '28 U.S.C. § 4101: SPEECH Act', description: 'Federal framework governing defamation claims involving public figures and matters of public concern' },
@@ -2821,7 +2730,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { code: '52 U.S.C. § 20511: Voter Intimidation', description: 'Intimidation of election officials through false public accusations and incitement of harassment' },
    { code: 'Intentional Infliction of Emotional Distress', description: 'Extreme and outrageous conduct causing severe emotional harm to defamation targets' },
    { code: 'Civil Conspiracy, Common Law', description: 'Coordinated agreement between multiple parties to spread known falsehoods for political gain' },
-   { code: '47 U.S.C. § 230 Considerations', description: 'Platform liability questions for amplification of defamatory content through social media' },
+   { code: '47 U.S.C. § 230 Considerations', description: 'Platform liability questions for amplification of defamatory content through social media' }
  ],
  defendants: [
    { name: 'Donald Trump', role: 'Defamation of E. Jean Carroll', status: 'charged', notes: 'Found liable - $88.3M total damages' },
@@ -2831,7 +2740,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Sidney Powell', role: 'Defamation of Dominion Voting Systems', status: 'settled', notes: 'Settled, undisclosed amount' },
    { name: 'Mike Lindell', role: 'Defamation of Dominion Voting Systems', status: 'pending', notes: 'Pending - $1.3B lawsuit' },
    { name: 'Smartmatic v. Fox News', role: 'Defamation of Smartmatic', status: 'pending', notes: 'Pending - $2.7B lawsuit' },
-   { name: 'OAN / Newsmax', role: 'Defamation of Dominion / Smartmatic', status: 'charged', notes: 'Settlements and ongoing litigation' },
+   { name: 'OAN / Newsmax', role: 'Defamation of Dominion / Smartmatic', status: 'charged', notes: 'Settlements and ongoing litigation' }
  ],
   },
   'deutsche-bank': {
@@ -2849,14 +2758,14 @@ const investigations_d: Record<string, InvestigationData> = {
    'Val Broeksmit, who provided thousands of internal Deutsche Bank documents to the FBI, was found dead in Los Angeles in 2022 under circumstances that remain under investigation',
    'The bank continued lending to Trump even after he defaulted on loans and sued them for $3 billion, raising questions about the true nature of the relationship',
    'Deutsche Bank\'s wealth management division simultaneously handled accounts for Trump and Russian oligarchs sanctioned after 2014',
-   'Internal suspicious activity reports about Trump transactions were flagged by bank employees but reportedly not forwarded to Treasury Department officials',
+   'Internal suspicious activity reports about Trump transactions were flagged by bank employees but reportedly not forwarded to Treasury Department officials'
  ],
  tags: ['financial-crime', 'fraud'],
  sources: [
    { title: 'Deutsche Bank and Trump: A Timeline', url: 'https://www.nytimes.com/2020/02/04/magazine/deutsche-bank-trump.html', type: 'Article' },
    { title: 'House Subpoenas for Deutsche Bank Records', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/507', type: 'Article' },
    { title: 'Deutsche Bank $670M Russia Fine', url: 'https://www.justice.gov/opa/pr/deutsche-bank-agrees-pay-over-41-million-resolve-foreign-corrupt-practices-act', type: 'Article' },
-   { title: 'Dark Towers: Deutsche Bank Book', url: 'https://www.harpercollins.com/products/dark-towers-david-enrich', type: 'Article' },
+   { title: 'Dark Towers: Deutsche Bank Book', url: 'https://www.harpercollins.com/products/dark-towers-david-enrich', type: 'Article' }
  ],
  affiliations: [
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Borrower with history of defaults', href: '/entities/individuals/donald-trump' },
@@ -2866,7 +2775,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'allen-weisselberg', name: 'Allen Weisselberg', type: 'individual', relationship: 'CFO who provided financials to bank', href: '/entities/individuals/allen-weisselberg' },
    { id: 'rosemary-vrablic', name: 'Rosemary Vrablic', type: 'individual', relationship: 'Deutsche Bank private banker for Trump', href: '/entities/individuals/rosemary-vrablic' },
    { id: 'dominic-scalzi', name: 'Dominic Scalzi', type: 'individual', relationship: 'Deutsche Bank relationship manager' },
-   { id: 'val-broeksmit', name: 'Val Broeksmit', type: 'individual', relationship: 'Provided Deutsche Bank documents to FBI' },
+   { id: 'val-broeksmit', name: 'Val Broeksmit', type: 'individual', relationship: 'Provided Deutsche Bank documents to FBI' }
  ],
  timeline: [
    { date: '1998', event: 'First major Deutsche Bank loan to Trump; $125M for 40 Wall Street' },
@@ -2883,13 +2792,13 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: '2021', event: 'Deutsche Bank cuts ties with Trump after January 6' },
    { date: '2022', event: 'Val Broeksmit (bank whistleblower) found dead' },
    { date: '2023', event: 'NY AG fraud case reveals inflated financial statements to bank' },
-   { date: '2024', event: 'Trump ordered to pay $454M in NY fraud case' },
+   { date: '2024', event: 'Trump ordered to pay $454M in NY fraud case' }
  ],
  statutes: [
    { code: 'Bank Fraud (18 U.S.C. § 1344)', description: 'Submitting false financial statements to obtain loans' },
    { code: 'Money Laundering', description: 'Potential flow of Russian funds through loans' },
    { code: 'Executive Law 63(12)', description: 'NY fraudulent business practices' },
-   { code: 'False Statements', description: 'Lying about asset values to secure loans' },
+   { code: 'False Statements', description: 'Lying about asset values to secure loans' }
  ],
  defendants: [
    { name: 'Deutsche Bank', role: 'Russian Mirror Trading Scheme', status: 'charged', notes: '$630 million fine paid to U.S. and UK regulators (2017)' },
@@ -2897,7 +2806,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Allen Weisselberg', role: 'Tax Fraud, Provided false financials to bank', status: 'convicted', notes: 'Pleaded guilty, sentenced to 5 months at Rikers Island' },
    { name: 'Trump Organization', role: 'Fraud in Financial Statements to Deutsche Bank', status: 'charged', notes: '$454 million civil judgment (February 2024)' },
    { name: 'Rosemary Vrablic', role: 'Ethics Violations, Personal investments alongside clients', status: 'charged', notes: 'Resigned from Deutsche Bank (2020)' },
-   { name: 'Deutsche Bank', role: 'FOREX Manipulation', status: 'charged', notes: '$258 million fine to CFTC and regulators (2015)' },
+   { name: 'Deutsche Bank', role: 'FOREX Manipulation', status: 'charged', notes: '$258 million fine to CFTC and regulators (2015)' }
  ],
   },
   'dominion-defamation': {
@@ -2915,7 +2824,7 @@ const investigations_d: Record<string, InvestigationData> = {
    'Fox News chose to continue airing false claims to prevent viewer migration to Newsmax and OAN after those networks embraced pro-Trump election narratives',
    'Internal Fox communications revealed that editorial decisions were driven by ratings concerns rather than factual accuracy',
    'Giuliani continued spreading lies about election workers Ruby Freeman and Shaye Moss even after the claims were thoroughly debunked by multiple investigations',
-   'Fox settled for $787.5 million but refused to issue an on-air apology or correction, denying viewers the truth about the false claims aired on the network',
+   'Fox settled for $787.5 million but refused to issue an on-air apology or correction, denying viewers the truth about the false claims aired on the network'
  ],
  tags: ['election-integrity'],
  sources: [
@@ -2923,7 +2832,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { title: 'Dominion v. Fox, Court Documents', url: 'https://www.courtlistener.com/docket/59581927/us-dominion-inc-v-fox-news-network-llc/', type: 'Article' },
    { title: 'Giuliani Defamation Judgment', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', type: 'Article' },
    { title: 'Murdoch Deposition Excerpts', url: 'https://www.nytimes.com/2023/02/27/business/media/fox-news-dominion-rupert-murdoch.html', type: 'Article' },
-   { title: 'Fox Internal Communications', url: 'https://www.nytimes.com/2023/02/16/business/media/fox-dominion-lawsuit-tucker-carlson.html', type: 'Article' },
+   { title: 'Fox Internal Communications', url: 'https://www.nytimes.com/2023/02/16/business/media/fox-dominion-lawsuit-tucker-carlson.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'rudy-giuliani', name: 'Rudy Giuliani', type: 'individual', relationship: 'Primary spreader of Dominion lies, owed $148M', href: '/entities/individuals/rudy-giuliani' },
@@ -2933,7 +2842,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'maria-bartiromo', name: 'Maria Bartiromo', type: 'individual', relationship: 'First to air Powell\\', href: '/entities/individuals/maria-bartiromo' },
    { id: 'lou-dobbs', name: 'Lou Dobbs', type: 'individual', relationship: 'Repeatedly aired false Dominion claims', href: '/entities/individuals/lou-dobbs' },
    { id: 'rupert-murdoch', name: 'Rupert Murdoch', type: 'individual', relationship: 'Admitted Fox hosts "endorsed" false claims', href: '/entities/individuals/rupert-murdoch' },
-   { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Original source of election fraud claims', href: '/entities/individuals/donald-trump' },
+   { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Original source of election fraud claims', href: '/entities/individuals/donald-trump' }
  ],
  timeline: [
    { date: 'Nov 3, 2020', event: 'Election Day, Biden wins' },
@@ -2951,13 +2860,13 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: 'Apr 18, 2023', event: 'Fox settles for $787.5 million (no apology)' },
    { date: 'Aug 2023', event: 'Giuliani found liable for defamation' },
    { date: 'Dec 2023', event: 'Jury awards $148 million against Giuliani' },
-   { date: 'Dec 2023', event: 'Giuliani files for bankruptcy' },
+   { date: 'Dec 2023', event: 'Giuliani files for bankruptcy' }
  ],
  statutes: [
    { code: 'Defamation per se', description: 'False statements damaging reputation' },
    { code: 'Business disparagement', description: 'False statements harming business' },
    { code: 'Conspiracy', description: 'Coordinated effort to spread false claims' },
-   { code: 'Intentional infliction of emotional distress', description: 'Against Ruby Freeman, Shaye Moss' },
+   { code: 'Intentional infliction of emotional distress', description: 'Against Ruby Freeman, Shaye Moss' }
  ],
  defendants: [
    { name: 'Fox News', role: 'Defamation (Dominion Voting Systems)', status: 'charged', notes: '$787.5 million settlement, largest defamation settlement in U.S. history (April 2023)' },
@@ -2965,7 +2874,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Rudy Giuliani', role: 'Bankruptcy proceedings', status: 'charged', notes: 'Filed Chapter 11 bankruptcy after $148M judgment (December 2023)' },
    { name: 'Sidney Powell', role: 'Georgia RICO charges related to election lies', status: 'convicted', notes: 'Pleaded guilty - 6 years probation (October 2023)' },
    { name: 'Newsmax', role: 'Defamation (Smartmatic lawsuit)', status: 'charged', notes: '$40 million settlement (March 2025)' },
-   { name: 'OAN', role: 'Defamation (Smartmatic lawsuit)', status: 'charged', notes: 'Litigation ongoing' },
+   { name: 'OAN', role: 'Defamation (Smartmatic lawsuit)', status: 'charged', notes: 'Litigation ongoing' }
  ],
   },
   'drone-assassination-program': {
@@ -2984,7 +2893,7 @@ const investigations_d: Record<string, InvestigationData> = {
    'The August 2021 Kabul drone strike that killed aid worker Zemari Ahmadi and 9 family members was initially described by Pentagon spokesman John Kirby as a"righteous strike."General Mark Milley called it"righteous."Only after NYT investigation proved the target was carrying water, not explosives, did the military admit error, and still no one was punished.',
    'The Obama administration fought in court to prevent release of the legal memos justifying the killing of American citizens. When finally released under court order, the memos revealed an expansive theory of executive power to kill anyone deemed a threat, with the President serving as judge, jury, and executioner.',
    'CIA routinely engaged in"signature strikes"- hitting targets based on suspicious behavior patterns detected by surveillance algorithms rather than confirmed identities. The U.S. government killed hundreds of people without even knowing who they were, then classified them as combatants after their deaths.',
-   'Multiple whistleblowers including Daniel Hale (sentenced to 45 months in prison) and Brandon Bryant revealed that drone strike intelligence was often based on cell phone metadata rather than direct visual confirmation, meaning the government frequently killed whoever was carrying a particular phone, not a confirmed target.',
+   'Multiple whistleblowers including Daniel Hale (sentenced to 45 months in prison) and Brandon Bryant revealed that drone strike intelligence was often based on cell phone metadata rather than direct visual confirmation, meaning the government frequently killed whoever was carrying a particular phone, not a confirmed target.'
  ],
  tags: ['criminal-justice', 'assassination', 'war'],
  sources: [
@@ -2997,7 +2906,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { title: 'Between a Drone and Al-Qaeda: The Civilian Cost of U.S. Targeted Killings in Yemen, Human Rights Watch', url: 'https://www.hrw.org/report/2013/10/22/between-drone-and-al-qaeda/civilian-cost-us-targeted-killings-yemen', type: 'Article' },
    { title: 'DOJ White Paper: Lawfulness of a Lethal Operation Against a U.S. Citizen', url: 'https://fas.org/irp/eprint/doj-lethal.pdf', type: 'Article' },
    { title: 'Daniel Hale Sentencing, Drone Whistleblower Gets 45 Months', url: 'https://www.nytimes.com/2021/07/27/us/politics/daniel-hale-drone-leak-sentence.html', type: 'Article' },
-   { title: 'Recommendation of the UN Special Rapporteur on Extrajudicial Killings', url: 'https://www.ohchr.org/en/special-procedures/sr-executions', type: 'Article' },
+   { title: 'Recommendation of the UN Special Rapporteur on Extrajudicial Killings', url: 'https://www.ohchr.org/en/special-procedures/sr-executions', type: 'Article' }
  ],
  affiliations: [
    { id: 'barack-obama', name: 'Barack Obama', type: 'individual', relationship: 'President who dramatically expanded drone program, personally approved kill list targets during "Terror Tuesday"meetings, authorized killing of U.S. citizens without trial', href: '/entities/individuals/barack-obama' },
@@ -3014,7 +2923,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'john-yoo', name: 'John Yoo', type: 'individual', relationship: 'DOJ Office of Legal Counsel attorney who authored legal memos authorizing targeted killings and"enhanced interrogation"as part of the same executive authority framework', href: '/entities/individuals/john-yoo' },
    { id: 'eric-holder', name: 'Eric Holder', type: 'individual', relationship: 'Attorney General who provided legal justification for killing U.S. citizens abroad, argued due process does not necessarily mean judicial process', href: '/entities/individuals/eric-holder' },
    { id: 'gina-haspel', name: 'Gina Haspel', type: 'individual', relationship: 'CIA official who oversaw drone operations and later became CIA Director under Trump, continued the program without reform', href: '/entities/individuals/gina-haspel' },
-   { id: 'stanley-mcchrystal', name: 'Stanley McChrystal', type: 'individual', relationship: 'JSOC Commander who ran parallel assassination program in Afghanistan, later admitted drone strikes created more enemies than they eliminated', href: '/entities/individuals/stanley-mcchrystal' },
+   { id: 'stanley-mcchrystal', name: 'Stanley McChrystal', type: 'individual', relationship: 'JSOC Commander who ran parallel assassination program in Afghanistan, later admitted drone strikes created more enemies than they eliminated', href: '/entities/individuals/stanley-mcchrystal' }
  ],
  timeline: [
    { date: 'November 2001', event: 'CIA Predator drone kills al-Qaeda military chief Mohammed Atef near Kabul, first drone strike killing a high-value target' },
@@ -3036,7 +2945,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: 'January 29, 2017', event: 'Trump-era SEAL raid in Yemen kills 8-year-old Nawar al-Awlaki (Anwar\'s daughter) along with 25 civilians including 9 children under age 13' },
    { date: 'March 2017', event: 'Trump removes Obama-era requirement for high-level vetting of drone strikes, loosening rules of engagement across multiple theaters' },
    { date: 'September 2019', event: 'U.S. drone strike in Afghanistan kills 30 pine nut farmers resting after a day\'s harvest, military initially claims all were ISIS fighters' },
-   { date: 'August 29, 2021', event: 'U.S. drone strike in Kabul kills aid worker Zemari Ahmadi and 9 family members including 7 children during Afghan withdrawal. Pentagon initially claims it was a"righteous strike"against ISIS-K. Investigation proves the target was loading water containers, not explosives' },
+   { date: 'August 29, 2021', event: 'U.S. drone strike in Kabul kills aid worker Zemari Ahmadi and 9 family members including 7 children during Afghan withdrawal. Pentagon initially claims it was a"righteous strike"against ISIS-K. Investigation proves the target was loading water containers, not explosives' }
  ],
  statutes: [
    { code: 'U.S. Constitution: 5th Amendment', description: 'No person shall be deprived of life without due process of law. The targeted killing of U.S. citizens al-Awlaki (father and son) without any judicial process violated the most fundamental constitutional guarantee' },
@@ -3047,7 +2956,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { code: 'Executive Order 12333: Prohibition on Assassination', description: 'President Ford\'s 1976 executive order banning political assassinations. The drone program effectively circumvented this by redefining targeted killings as"self-defense"rather than assassination' },
    { code: 'Torture Victim Protection Act (28 U.S.C. § 1350)', description: '"Double-tap"strikes (deliberately targeting rescuers and first responders arriving at the scene of an initial strike) constitute a deliberate strategy to maximize casualties and terrorize populations' },
    { code: '18 U.S.C. § 1119: Foreign Murder of U.S. Nationals', description: 'Federal law criminalizing the killing of U.S. nationals abroad. The government killed multiple American citizens without criminal charges, indictments, or trial' },
-   { code: 'UN Charter Article 2(4): Prohibition on Use of Force', description: 'Drone strikes conducted in sovereign nations without consent (Pakistan, Yemen, Somalia) violate the prohibition on use of force against the territorial integrity of other states' },
+   { code: 'UN Charter Article 2(4): Prohibition on Use of Force', description: 'Drone strikes conducted in sovereign nations without consent (Pakistan, Yemen, Somalia) violate the prohibition on use of force against the territorial integrity of other states' }
  ],
  defendants: [
    { name: 'Barack Obama', role: 'Authorized extrajudicial killing of U.S. citizens; expanded signature strikes', status: 'charged', notes: 'No charges filed, program remains classified executive action' },
@@ -3057,7 +2966,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Al-Aulaqi v. Obama (2010)', role: 'ACLU/CCR lawsuit challenging the right to assassinate U.S. citizens', status: 'charged', notes: 'Dismissed, court ruled father lacked standing to sue on behalf of son' },
    { name: 'Al-Aulaqi v. Panetta (2014)', role: 'Wrongful death suit for Anwar, Abdulrahman, and Samir Khan', status: 'charged', notes: 'Dismissed, court ruled targeted killings are"political questions"beyond judicial review' },
    { name: 'Kabul Drone Strike (2021)', role: 'Killing of 10 civilians including 7 children in mistaken strike', status: 'charged', notes: 'Pentagon investigation found no violation of law, no disciplinary action taken' },
-   { name: 'Faisal bin Ali Jaber v. Germany', role: 'Yemeni engineer challenged use of Ramstein Air Base for drone relay', status: 'charged', notes: 'German court ruled Germany must ensure U.S. drone operations comply with international law' },
+   { name: 'Faisal bin Ali Jaber v. Germany', role: 'Yemeni engineer challenged use of Ramstein Air Base for drone relay', status: 'charged', notes: 'German court ruled Germany must ensure U.S. drone operations comply with international law' }
  ],
   },
   'dupont-pfas-poisoning': {
@@ -3077,7 +2986,7 @@ const investigations_d: Record<string, InvestigationData> = {
    'DuPont spun off Chemours in 2015, transferring billions in PFAS cleanup liabilities to the new company, a corporate restructuring designed to shield DuPont shareholders from accountability',
    'Internal emails showed DuPont executives comparing PFAS contamination to the tobacco and asbestos scandals, they knew the scope of the crisis but continued operations',
    'After farmer Wilbur Tennant reported livestock deaths, DuPont\'s initial response was to discredit him and suggest his farming practices were to blame, not chemical contamination',
-   'The EPA\'s initial $16.5 million fine in 2004 amounted to less than 2% of DuPont\'s annual C8 profits, critics called it a cost of doing business rather than a punishment',
+   'The EPA\'s initial $16.5 million fine in 2004 amounted to less than 2% of DuPont\'s annual C8 profits, critics called it a cost of doing business rather than a punishment'
  ],
  tags: ['environmental'],
  sources: [
@@ -3088,7 +2997,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { title: 'EPA Final PFAS Drinking Water Standards', url: 'https://www.epa.gov/newsreleases/biden-harris-administration-finalizes-first-ever-national-drinking-water-standard', type: 'Article' },
    { title: 'DuPont PFOA Consent Order, EPA', url: 'https://www.epa.gov/enforcement/dupont-washington-works-consent-order', type: 'Article' },
    { title: '3M $10.3 Billion PFAS Settlement', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/3m-reaches-103-bln-settlement-forever-chemicals-us-water-supplies-2023-06-22/', type: 'Article' },
-   { title: 'Dark Waters (Film): Based on Robert Bilott\'s Fight Against DuPont', url: 'https://www.imdb.com/title/tt9071322/', type: 'Article' },
+   { title: 'Dark Waters (Film): Based on Robert Bilott\'s Fight Against DuPont', url: 'https://www.imdb.com/title/tt9071322/', type: 'Article' }
  ],
  affiliations: [
    { id: 'robert-bilott', name: 'Robert Bilott', type: 'individual', relationship: 'Environmental attorney who spent 20+ years fighting DuPont; uncovered the PFAS cover-up through corporate documents', href: '/entities/individuals/robert-bilott' },
@@ -3100,7 +3009,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { id: 'bruce-karrh', name: 'Bruce Karrh', type: 'individual', relationship: 'DuPont\'s Vice President of Safety, Health and Environmental Affairs; oversaw internal toxicity studies', href: '/entities/individuals/bruce-karrh' },
    { id: 'gerald-kennedy', name: 'Gerald Kennedy', type: 'individual', relationship: 'DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried', href: '/entities/individuals/gerald-kennedy' },
    { id: 'rob-bilott', name: 'Rob Bilott', type: 'individual', relationship: 'Filed landmark class action that led to C8 Science Panel studying 70,000 exposed residents', href: '/entities/individuals/rob-bilott' },
-   { id: 'mark-ruffalo', name: 'Mark Ruffalo', type: 'individual', relationship: 'Actor and activist who portrayed Robert Bilott in "Dark Waters"- brought international attention to PFAS contamination', href: '/entities/individuals/mark-ruffalo' },
+   { id: 'mark-ruffalo', name: 'Mark Ruffalo', type: 'individual', relationship: 'Actor and activist who portrayed Robert Bilott in "Dark Waters"- brought international attention to PFAS contamination', href: '/entities/individuals/mark-ruffalo' }
  ],
  timeline: [
    { date: '1938', event: 'Teflon (PTFE) accidentally discovered by DuPont chemist Roy Plunkett; PFAS chemicals central to its production' },
@@ -3119,7 +3028,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { date: '2015', event: 'DuPont spins off Chemours as a separate company, transferring PFAS liabilities, critics call it a"liability dump"' },
    { date: '2017', event: 'Over 3,500 personal injury lawsuits against DuPont settled for $671 million following bellwether trial victories' },
    { date: '2021', event: 'EPA announces PFAS Strategic Roadmap; begins process to set enforceable drinking water limits' },
-   { date: '2024', event: 'EPA finalizes first-ever national drinking water standards for PFAS at 4 parts per trillion for PFOA and PFOS' },
+   { date: '2024', event: 'EPA finalizes first-ever national drinking water standards for PFAS at 4 parts per trillion for PFOA and PFOS' }
  ],
  statutes: [
    { code: '15 U.S.C. § 2607: Toxic Substances Control Act (TSCA) Reporting', description: 'DuPont failed to report substantial risk information about C8 to the EPA for decades' },
@@ -3129,7 +3038,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { code: 'State Tort Law, Fraudulent Concealment', description: 'Actively hiding internal toxicity studies and environmental monitoring data from regulators and public' },
    { code: '18 U.S.C. § 1001: False Statements', description: 'Providing misleading information to the EPA about the safety profile of C8/PFOA' },
    { code: 'State Environmental Statutes (Various)', description: 'Violation of state-level clean water and toxic substance disclosure requirements' },
-   { code: '42 U.S.C. § 300f: Safe Drinking Water Act', description: 'Contamination of public drinking water systems with PFAS above safe levels' },
+   { code: '42 U.S.C. § 300f: Safe Drinking Water Act', description: 'Contamination of public drinking water systems with PFAS above safe levels' }
  ],
  defendants: [
    { name: 'DuPont', role: 'Failure to report known health risks to EPA under TSCA', status: 'charged', notes: '$16.5 million EPA fine in 2004; largest administrative fine in EPA history at the time' },
@@ -3139,7 +3048,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'DuPont / Corteva / Chemours', role: 'Nationwide PFAS contamination', status: 'charged', notes: 'Joint $1.185 billion settlement with U.S. water providers in 2023' },
    { name: 'Various PFAS Manufacturers', role: 'Aqueous film-forming foam (AFFF) contamination', status: 'charged', notes: 'Multidistrict litigation ongoing, over 6,000 consolidated cases' },
    { name: 'DuPont (Bellwether Trials)', role: 'Cancer caused by C8 exposure', status: 'charged', notes: 'Juries found for plaintiffs in all three bellwether trials with verdicts of $1.6M, $5.6M, and $12.5M' },
-   { name: 'Chemours', role: 'Illegal discharge of GenX into Cape Fear River, NC', status: 'charged', notes: 'Consent order requiring $13 million remediation and ongoing monitoring' },
+   { name: 'Chemours', role: 'Illegal discharge of GenX into Cape Fear River, NC', status: 'charged', notes: 'Consent order requiring $13 million remediation and ongoing monitoring' }
  ],
   },
 };

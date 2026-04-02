@@ -15,19 +15,19 @@ const investigations_o: Record<string, InvestigationData> = {
  'On January 6, 2021, Oath Keepers members formed a military-style "stack" formation and breached the Capitol building. Prosecutors presented evidence that Rhodes had organized weapons caches at a Virginia hotel (the "Quick Reaction Force"), communicated tactical plans through encrypted messaging, and spent thousands on firearms, ammunition, and tactical equipment in the weeks before the attack. Rhodes was at the Capitol directing operations but did not enter the building himself.',
  'In November 2022, Stewart Rhodes was convicted of seditious conspiracy; the first such conviction in over 30 years. He was sentenced to 18 years in federal prison, the longest sentence of any January 6 defendant. Co-defendant Kelly Meggs received 12 years. The seditious conspiracy convictions established that January 6 was not merely a riot but included organized elements that sought to prevent the constitutional transfer of power through force.',
  'The Oath Keepers\' membership included active law enforcement officers, military personnel, and local elected officials across the country. A 2022 leak of the organization\'s membership database revealed over 38,000 members, including hundreds of current and former law enforcement officers and dozens of elected officials. The infiltration of extremist ideology into law enforcement and military ranks represents an ongoing national security concern.',
- 'The prosecution of the Oath Keepers demonstrated both the severity of the January 6 conspiracy and the limits of accountability. While leaders received significant sentences, thousands of rank-and-file members who participated in the broader movement faced no consequences. The organization\'s recruitment model; targeting veterans and law enforcement by appealing to their oath of service; represents a template that other extremist organizations continue to replicate.',
+ 'The prosecution of the Oath Keepers demonstrated both the severity of the January 6 conspiracy and the limits of accountability. While leaders received significant sentences, thousands of rank-and-file members who participated in the broader movement faced no consequences. The organization\'s recruitment model; targeting veterans and law enforcement by appealing to their oath of service; represents a template that other extremist organizations continue to replicate.'
  ],
  tags: ['Oath Keepers', 'Seditious Conspiracy', 'Stewart Rhodes', 'January 6', 'Domestic Extremism', 'Paramilitary', 'Law Enforcement Infiltration', 'Capitol Attack'],
  sources: [
  { title: 'DOJ: U.S. v. Rhodes et al. (Seditious Conspiracy)', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', type: 'Court Document' },
  { title: 'SPLC: Oath Keepers Profile', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/oath-keepers', type: 'Research' },
  { title: 'ADL: Oath Keepers Investigation', url: 'https://www.adl.org/resources/backgrounder/oath-keepers', type: 'Research' },
- { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
+ { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Paramilitary group whose leader was convicted of seditious conspiracy for planning to use force to prevent the transfer of presidential power', href: '/entities/organizations/oath-keepers' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Rhodes and Oath Keepers members for seditious conspiracy; secured the first such convictions in over 30 years', href: '/entities/agencies/doj' },
- { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Oath Keepers acted in his name on January 6; later pardoned convicted January 6 defendants', href: '/entities/individuals/donald-trump' },
+ { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Oath Keepers acted in his name on January 6; later pardoned convicted January 6 defendants', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-03-15',
@@ -40,7 +40,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2022-01-13', event: 'Stewart Rhodes arrested and charged with seditious conspiracy; DOJ alleges he organized a conspiracy to oppose the transfer of presidential power through force', type: 'legal' },
      { date: '2022-09', event: 'Leaked Oath Keepers membership database reveals 38,000+ members including hundreds of current and former law enforcement officers and dozens of elected officials', type: 'political' },
      { date: '2022-11-29', event: 'Rhodes convicted of seditious conspiracy after an 8-week trial; the first seditious conspiracy conviction in over 30 years. Co-defendant Kelly Meggs also convicted', type: 'legal' },
-     { date: '2023-05-25', event: 'Rhodes sentenced to 18 years in federal prison; the longest sentence of any January 6 defendant. Meggs receives 12 years', type: 'legal' },
+     { date: '2023-05-25', event: 'Rhodes sentenced to 18 years in federal prison; the longest sentence of any January 6 defendant. Meggs receives 12 years', type: 'legal' }
    ],
  },
   'obesity-epidemic': {
@@ -56,7 +56,7 @@ const investigations_o: Record<string, InvestigationData> = {
  'The food industry engineers ultra-processed products to maximize consumption through precise combinations of sugar, fat, and salt that activate dopamine reward pathways similar to addictive substances. Internal industry documents, obtained through litigation by Michael Moss and others, showed that companies like Frito-Lay, Coca-Cola, and Nestle conduct extensive research to identify the "bliss point" of their products; the precise formulation that maximizes craving and consumption.',
  'The food and beverage industry spends approximately $14 billion annually on advertising, with the majority promoting ultra-processed foods. Children see an average of 13 food advertisements per day, overwhelmingly for candy, sugary drinks, fast food, and snacks. The industry has defeated or weakened every major attempt to regulate food marketing to children, including voluntary guidelines proposed by four federal agencies in 2011 that were abandoned after industry lobbying.',
  'Federal agricultural policy subsidizes the production of corn, soybeans, and wheat; the primary inputs for ultra-processed food. Between 1995 and 2020, the U.S. government paid over $400 billion in agricultural subsidies, with the majority going to commodity crops used in processed food production. Fruits and vegetables receive minimal subsidies. The result is that a calorie of soda costs a fraction of a calorie of fresh produce, making unhealthy eating the economically rational choice for low-income families.',
- 'Obesity-related medical costs in the United States total approximately $173 billion annually. The food industry\'s strategy of personalizing responsibility ("just eat less and exercise more") has been effective in blocking systemic reform. Attempts to implement soda taxes, restrict marketing to children, improve school lunch standards, and require front-of-package nutrition labeling have all been fought by an industry that spends more on lobbying than the tobacco industry.',
+ 'Obesity-related medical costs in the United States total approximately $173 billion annually. The food industry\'s strategy of personalizing responsibility ("just eat less and exercise more") has been effective in blocking systemic reform. Attempts to implement soda taxes, restrict marketing to children, improve school lunch standards, and require front-of-package nutrition labeling have all been fought by an industry that spends more on lobbying than the tobacco industry.'
  ],
  tags: ['Obesity', 'Food Industry', 'Public Health', 'Ultra-Processed Food', 'Agricultural Subsidies', 'FDA', 'USDA', 'Corporate Lobbying'],
  sources: [
@@ -64,12 +64,12 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
  { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
  { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
- { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
+ { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate ultra-processed food marketing and addictive formulations', href: '/entities/agencies/fda' },
  { id: '2', name: 'USDA', type: 'agency', relationship: 'Administers $400B+ in agricultural subsidies favoring commodity crops used in processed food', href: '/entities/agencies/usda' },
- { id: '3', name: 'Coca-Cola', type: 'corporation', relationship: 'Funded research to downplay sugar role in obesity; lobbied against soda taxes', href: '/entities/corporations/coca-cola' },
+ { id: '3', name: 'Coca-Cola', type: 'corporation', relationship: 'Funded research to downplay sugar role in obesity; lobbied against soda taxes', href: '/entities/corporations/coca-cola' }
  ],
    eventOriginDate: '1962-01-01',
    lastActivityDate: '2026-02-13',
@@ -77,7 +77,7 @@ const investigations_o: Record<string, InvestigationData> = {
    timeline: [
      { date: '1962', event: 'The prevalence of obesity among American adults has risen from 13% in 1962 to 42% in 2023.', type: 'default' },
      { date: '1995', event: 'Between 1995 and 2020, the U.S.', type: 'default' },
-     { date: '2011', event: 'The industry has defeated or weakened every major attempt to regulate food marketing to children, including voluntary guidelines proposed by four federal agencies in 2011 that were abandoned after industry lobbying.', type: 'default' },
+     { date: '2011', event: 'The industry has defeated or weakened every major attempt to regulate food marketing to children, including voluntary guidelines proposed by four federal agencies in 2011 that were abandoned after industry lobbying.', type: 'default' }
    ],
  },  'ohio-state-abuse': {
  title: 'Ohio State University Abuse',
@@ -97,19 +97,18 @@ const investigations_o: Record<string, InvestigationData> = {
  'LAWSUITS AND SETTLEMENTS: Over 300 former students filed lawsuits against Ohio State. A federal judge initially dismissed some claims as time-barred. After appeals and prolonged litigation, Ohio State reached settlements totaling over $60 million. Many survivors criticized the amounts as insufficient given decades of institutional failure.',
  'COMPARISON TO LARRY NASSAR: The Strauss case drew parallels to Larry Nassar\'s abuse at Michigan State. Both involved team doctors who abused athletes, institutional coverups, and hundreds of victims. Both cases exposed how the culture of deference to sports medicine professionals created conditions for predation.',
  'CONGRESSIONAL SCRUTINY: The case drew attention to Jim Jordan\'s role during his tenure as wrestling coach. Democrats called for investigations into what Jordan knew and when. Jordan\'s elevation to Speaker of the House in 2023 renewed scrutiny, with critics arguing that accountability for the cover-up was never fully achieved.',
- 'NCAA AND UNIVERSITY ACCOUNTABILITY: The Strauss case raised broader questions about NCAA oversight of athlete welfare. The culture of protecting institutional reputation over student safety was implicated not only at Ohio State but across college athletics. Despite the scope of the abuse, no individual university administrator faced criminal charges.',
+ 'NCAA AND UNIVERSITY ACCOUNTABILITY: The Strauss case raised broader questions about NCAA oversight of athlete welfare. The culture of protecting institutional reputation over student safety was implicated not only at Ohio State but across college athletics. Despite the scope of the abuse, no individual university administrator faced criminal charges.'
  ],
  tags: ['Institutional Abuse', 'Ohio State', 'Richard Strauss', 'Jim Jordan', 'Sexual Abuse', 'Cover-up', 'College Athletics'],
  sources: [
  { title: 'Perkins Coie Independent Investigation Report', url: 'https://compliance.osu.edu/strauss-investigation.html', type: 'Investigation' },
  { title: 'DOJ Review of Strauss Allegations', url: 'https://www.nytimes.com/2019/05/17/us/ohio-state-sexual-abuse.html', type: 'News Report' },
  { title: 'Ohio State Strauss Settlement', url: 'https://www.dispatch.com/', type: 'News Report' },
- { title: 'Congressional Inquiry into Jim Jordan', url: 'https://www.cnn.com/2020/03/06/politics/jim-jordan-ohio-state/index.html', type: 'News Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Congressional Inquiry into Jim Jordan', url: 'https://www.cnn.com/2020/03/06/politics/jim-jordan-ohio-state/index.html', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'Ohio State', type: 'corporation', relationship: 'Employed Strauss for 20 years despite complaints', href: '/entities/corporations/ohio-state' },
- { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Assistant wrestling coach accused of knowing about abuse', href: '/entities/individuals/jim-jordan' },
+ { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Assistant wrestling coach accused of knowing about abuse', href: '/entities/individuals/jim-jordan' }
  ],
    eventOriginDate: '1978-01-01',
    lastActivityDate: '2025-07-16',
@@ -122,7 +121,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2005', event: 'Strauss died by suicide in 2005; never disciplined by Ohio State', type: 'critical' },
      { date: '2018', event: 'Ohio State commissioned Perkins Coie to conduct independent investigation after abuse allegations surfaced publicly', type: 'political' },
      { date: '2019-05-01', event: 'Perkins Coie 232-page report concluded university officials knew of complaints as early as 1979 and failed to act', type: 'default' },
-     { date: '2023', event: 'Jim Jordan elevated to Speaker of the House; renewed scrutiny of what he knew about Strauss abuse', type: 'political' },
+     { date: '2023', event: 'Jim Jordan elevated to Speaker of the House; renewed scrutiny of what he knew about Strauss abuse', type: 'political' }
    ],
  },
   'okc-bombing': {
@@ -138,20 +137,20 @@ const investigations_o: Record<string, InvestigationData> = {
  'McVeigh, a Gulf War veteran, was motivated by far-right anti-government ideology and specifically by anger over the federal government\'s handling of the 1992 Ruby Ridge standoff and the 1993 Waco siege. He timed the bombing for the second anniversary of the Waco fire that killed 76 people. McVeigh was deeply influenced by "The Turner Diaries," a white supremacist novel that depicts a truck bombing of a federal building as part of a racial revolution.',
  'McVeigh was arrested 90 minutes after the bombing during a traffic stop in Perry, Oklahoma. He was tried, convicted, and executed by lethal injection on June 11, 2001; the first federal execution in 38 years. Co-conspirator Terry Nichols was convicted of involuntary manslaughter and conspiracy and sentenced to life without parole. Michael Fortier, who had advance knowledge of the plot, received 12 years in exchange for his testimony.',
  'Questions about additional conspirators have persisted for decades. Multiple witnesses reported seeing McVeigh with unidentified individuals before the bombing. The FBI investigated over 1,000 leads regarding a potential "John Doe #2" but officially concluded that only McVeigh and Nichols were involved. Investigative journalists and some families of victims have argued that connections to far-right militia groups and white supremacist organizations were inadequately investigated.',
- 'The bombing led to the Antiterrorism and Effective Death Penalty Act of 1996, which expanded federal law enforcement powers and restricted habeas corpus appeals. However, the attack did not produce sustained attention to domestic right-wing terrorism. Resources and political focus shifted overwhelmingly to international Islamic terrorism after 9/11, despite FBI assessments that domestic extremism remained a significant and growing threat; a blind spot that persisted through the January 6, 2021 Capitol attack.',
+ 'The bombing led to the Antiterrorism and Effective Death Penalty Act of 1996, which expanded federal law enforcement powers and restricted habeas corpus appeals. However, the attack did not produce sustained attention to domestic right-wing terrorism. Resources and political focus shifted overwhelmingly to international Islamic terrorism after 9/11, despite FBI assessments that domestic extremism remained a significant and growing threat; a blind spot that persisted through the January 6, 2021 Capitol attack.'
  ],
  tags: ['Oklahoma City Bombing', 'Domestic Terrorism', 'Timothy McVeigh', 'Terry Nichols', 'Far-Right Extremism', 'Anti-Government'],
  sources: [
  { title: 'Oklahoma City National Memorial & Museum', url: 'https://memorialmuseum.com/', type: 'Archive' },
  { title: 'FBI: Oklahoma City Bombing Case', url: 'https://www.fbi.gov/history/famous-cases/oklahoma-city-bombing', type: 'Government' },
  { title: 'DOJ: McVeigh Trial Records', url: 'https://www.justice.gov/archives', type: 'Court Filing' },
- { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
+ { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' }
  ],
  affiliations: [
       { id: '1', name: 'Timothy McVeigh', type: 'individual', relationship: 'Primary bomber; Gulf War veteran radicalized by far-right ideology; executed June 2001', href: '/entities/individuals/timothy-mcveigh' },
       { id: '2', name: 'Terry Nichols', type: 'individual', relationship: 'Co-conspirator who helped acquire bomb materials; sentenced to life without parole', href: '/entities/individuals/terry-nichols' },
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Investigated bombing; questioned about adequacy of investigation into additional conspirators', href: '/entities/agencies/fbi' },
-      { id: '4', name: 'DOJ', type: 'agency', relationship: 'Prosecuted McVeigh (death penalty) and Nichols (life); led to Antiterrorism Act of 1996', href: '/entities/agencies/doj' },
+      { id: '4', name: 'DOJ', type: 'agency', relationship: 'Prosecuted McVeigh (death penalty) and Nichols (life); led to Antiterrorism Act of 1996', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1995-04-19',
    lastActivityDate: '2025-04-28',
@@ -162,7 +161,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1996', event: 'The bombing led to the Antiterrorism and Effective Death Penalty Act of 1996, which expanded federal law enforcement powers and restricted habeas corpus appeals', type: 'legal' },
      { date: '2001-06-11', event: 'He was tried, convicted, and executed by lethal injection on June 11, 2001; the first federal execution in 38 years', type: 'legal' },
      { date: '2001-09-11', event: 'history until September 11, 2001', type: 'default' },
-     { date: '2021-01-06', event: 'Resources and political focus shifted overwhelmingly to international Islamic terrorism after 9/11, despite FBI assessments that domestic extremism remained a significant and growing threat', type: 'default' },
+     { date: '2021-01-06', event: 'Resources and political focus shifted overwhelmingly to international Islamic terrorism after 9/11, despite FBI assessments that domestic extremism remained a significant and growing threat', type: 'default' }
    ],
  },
   'opioid-distribution-networks': {
@@ -183,22 +182,21 @@ const investigations_o: Record<string, InvestigationData> = {
  'AMERISOURCEBERGEN: AmerisourceBergen agreed to approximately $6.4 billion in the national opioid settlement. The company\'s subsidiary, now Cencora, had been cited for repeated failures to report suspicious orders. Whistleblowers described a culture where compliance was subordinated to sales targets.',
  'PHARMACY CHAINS: CVS, Walgreens, and Walmart pharmacies dispensed billions of opioid pills despite red flags. A 2023 trial resulted in CVS, Walgreens, and Walmart being found liable for contributing to the opioid epidemic in two Ohio counties. Walmart was ordered to create a $3.1 billion fund. Major pharmacy chains collectively settled for over $10 billion.',
  'DEATH TOLL: The opioid epidemic has killed over 500,000 Americans since 1999. Overdose deaths peaked at over 80,000 annually in the 2020s, largely driven by the shift from prescription opioids to illicit fentanyl. The distribution pipeline that created widespread addiction was fed by the same companies now paying settlements.',
- 'SETTLEMENT ACCOUNTABILITY: The $26 billion national settlement with the three major distributors and Johnson & Johnson was the largest opioid settlement in history but represented a fraction of the cost to communities. Settlement funds are directed to treatment, prevention, and harm reduction programs, but oversight of spending has been inconsistent across states.',
+ 'SETTLEMENT ACCOUNTABILITY: The $26 billion national settlement with the three major distributors and Johnson & Johnson was the largest opioid settlement in history but represented a fraction of the cost to communities. Settlement funds are directed to treatment, prevention, and harm reduction programs, but oversight of spending has been inconsistent across states.'
  ],
  tags: ['Opioid Crisis', 'Drug Distribution', 'McKesson', 'Cardinal Health', 'DEA', 'Corporate Crime'],
  sources: [
  { title: 'Washington Post: DEA Opioid Database', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Investigation' },
  { title: 'McKesson DEA Settlement', url: 'https://www.justice.gov/opa/pr/mckesson-agrees-pay-record-150-million-settlement-failure-report-suspicious-orders', type: 'Court Filing' },
  { title: 'National Opioid Settlement', url: 'https://nationalopioidsettlement.com/', type: 'Settlement Document' },
- { title: 'Washington Post/60 Minutes: DEA Enforcement Investigation', url: 'https://www.washingtonpost.com/investigations/the-drug-industry-s-triumph-over-the-dea/2017/10/15/352aa7fc-ae3e-11e7-a908-a3470754bbb9_story.html', type: 'Investigation' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'Washington Post/60 Minutes: DEA Enforcement Investigation', url: 'https://www.washingtonpost.com/investigations/the-drug-industry-s-triumph-over-the-dea/2017/10/15/352aa7fc-ae3e-11e7-a908-a3470754bbb9_story.html', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'McKesson', type: 'corporation', relationship: 'Largest distributor; paid $150M penalty, $7.9B settlement', href: '/entities/corporations/mckesson' },
  { id: '2', name: 'Cardinal Health', type: 'corporation', relationship: 'Shipped massive quantities ignoring suspicious orders', href: '/entities/corporations/cardinal-health' },
  { id: '3', name: 'AmerisourceBergen', type: 'corporation', relationship: 'Repeated failures to report suspicious orders', href: '/entities/corporations/amerisourcebergen' },
  { id: '4', name: 'DEA', type: 'agency', relationship: 'Enforcement powers gutted by industry-backed legislation', href: '/entities/agencies/dea' },
- { id: '5', name: 'Congress', type: 'agency', relationship: 'Passed law weakening DEA enforcement at industry request', href: '/entities/agencies/congress' },
+ { id: '5', name: 'Congress', type: 'agency', relationship: 'Passed law weakening DEA enforcement at industry request', href: '/entities/agencies/congress' }
  ],
    eventOriginDate: '1999-01-01',
    lastActivityDate: '2024-03-19',
@@ -211,7 +209,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2017', event: 'McKesson paid $150 million in 2017 for failing to report suspicious orders, the largest civil penalty in DEA history at that time', type: 'financial' },
      { date: '2017', event: 'DEA ENFORCEMENT GUTTED: A 2017 joint investigation by the Washington Post and 60 Minutes revealed that the pharmaceutical industry lobbied Congress to weaken DEA enforcement powers', type: 'political' },
      { date: '2017', event: 'MCKESSON: The nation\'s largest drug distributor paid $150 million in 2017 penalties and later agreed to a $7.9 billion national settlement', type: 'political' },
-     { date: '2023', event: 'A 2023 trial resulted in CVS, Walgreens, and Walmart being found liable for contributing to the opioid epidemic in two Ohio counties', type: 'legal' },
+     { date: '2023', event: 'A 2023 trial resulted in CVS, Walgreens, and Walmart being found liable for contributing to the opioid epidemic in two Ohio counties', type: 'legal' }
    ],
  },
   'offshore-tax-haven-architecture': {
@@ -227,19 +225,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'THE PANAMA PAPERS REVELATION: In April 2016, the International Consortium of Investigative Journalists published the Panama Papers; 11.5 million documents leaked from Mossack Fonseca, a Panamanian law firm that had created more than 214,000 shell companies in 21 tax havens. The documents exposed offshore holdings linked to 12 current or former world leaders, 128 politicians, and numerous billionaires. Iceland\'s Prime Minister Sigmundur Gunnlaugsson resigned within days. Pakistan\'s Nawaz Sharif was later removed from office. Yet in most jurisdictions, the revelations produced headlines but no prosecutions.',
       'ENABLERS INDUSTRY: The offshore system depends on an industry of enablers; law firms, accounting firms, banks, and corporate service providers that create and manage the structures hiding wealth. The Big Four accounting firms (Deloitte, PwC, EY, and KPMG) collectively operate thousands of shell companies in tax havens and advise clients on aggressive tax structures. Banks including Credit Suisse, UBS, and HSBC have paid billions in fines for facilitating tax evasion and money laundering through offshore accounts; yet the business model remains profitable enough to absorb penalties as a cost of doing business.',
       'AMERICAN HYPOCRISY: While the United States pressures other nations on tax transparency, states like Delaware, Nevada, South Dakota, and Wyoming have become global secrecy havens in their own right. Delaware hosts over 1.5 million corporate entities; more than its population. South Dakota\'s trust industry holds over $360 billion in assets with perpetual dynasty trusts that can shelter wealth indefinitely. The Pandora Papers revealed that the United States has become the world\'s second-largest secrecy jurisdiction after Switzerland; American states offer the same financial opacity that the U.S. government condemns in Caribbean and Pacific island nations.',
-      'ENFORCEMENT ARCHITECTURE: The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021. The Corporate Transparency Act of 2021 mandated a beneficial ownership registry, but implementation has been delayed and challenged in court. International initiatives like the OECD\'s Common Reporting Standard have improved information sharing between nations, but the United States has not joined the CRS; instead maintaining its own FATCA system that demands information from other countries while sharing far less in return. The fundamental architecture; where wealth can move at the speed of light while enforcement moves through bureaucratic channels; ensures the system\'s survival.',
+      'ENFORCEMENT ARCHITECTURE: The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021. The Corporate Transparency Act of 2021 mandated a beneficial ownership registry, but implementation has been delayed and challenged in court. International initiatives like the OECD\'s Common Reporting Standard have improved information sharing between nations, but the United States has not joined the CRS; instead maintaining its own FATCA system that demands information from other countries while sharing far less in return. The fundamental architecture; where wealth can move at the speed of light while enforcement moves through bureaucratic channels; ensures the system\'s survival.'
     ],
     tags: ['Tax Evasion', 'Shell Companies', 'Panama Papers', 'Secrecy Jurisdictions', 'Financial Crime', 'Money Laundering'],
     sources: [
       { title: 'ICIJ Panama Papers Database', url: 'https://www.icij.org/investigations/panama-papers/', type: 'Investigative Report' },
       { title: 'Tax Justice Network Financial Secrecy Index', url: 'https://taxjustice.net/fsi/', type: 'Policy Research' },
       { title: 'ICIJ Pandora Papers', url: 'https://www.icij.org/investigations/pandora-papers/', type: 'Investigative Report' },
-      { title: 'Senate Finance Committee Tax Haven Hearings', url: 'https://www.finance.senate.gov/', type: 'Congressional Record' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Senate Finance Committee Tax Haven Hearings', url: 'https://www.finance.senate.gov/', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Chronically underfunded enforcement; lost 600+ agents 2010-2021; unable to pursue complex offshore cases', href: '/entities/agencies/irs' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities enforcement limited by shell company opacity and multi-jurisdictional complexity', href: '/entities/agencies/sec' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities enforcement limited by shell company opacity and multi-jurisdictional complexity', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2022-03-24',
@@ -247,7 +244,7 @@ const investigations_o: Record<string, InvestigationData> = {
       timeline: [
      { date: '2010', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' },
      { date: '2016-04', event: 'In April 2016, the International Consortium of Investigative Journalists published the Panama Papers; 11.5 million documents leaked from Mossack Fonseca, a Panamanian law firm that had created more than 214,000 shell', type: 'financial' },
-     { date: '2021', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' },
+     { date: '2021', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' }
      ],
   },
   'organized-crime-in-construction-industry': {
@@ -263,19 +260,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'UNION INFILTRATION: Organized crime\'s grip on construction depended on controlling labor unions. The Laborers\' International Union of North America (LIUNA), the International Brotherhood of Teamsters, and several building trades locals were heavily infiltrated by mob associates who used their positions to extort contractors, steal from pension and welfare funds, and enforce no-show jobs. The Genovese family controlled Local 6A of the Cement and Concrete Workers Union for decades; its leadership was a succession of mob appointees who skimmed dues and pension contributions from thousands of workers.',
       'RICO PROSECUTIONS: The 1986 "Commission" trial prosecuted by Rudolph Giuliani convicted the bosses of all five New York Mafia families under RICO, breaking the Concrete Club. Subsequent prosecutions targeted union locals individually; the DOJ\'s civil RICO suit against the Laborers\' Union in 1995 led to court-appointed oversight. The International Brotherhood of Teamsters operated under federal consent decree from 1989 to 2020. These interventions disrupted traditional mob control but did not eliminate organized crime\'s presence in construction.',
       'MODERN EVOLUTION: After the major RICO prosecutions, organized crime adapted. Traditional mob families shifted from direct control to influence through associates and front companies. New organized crime groups; including Russian, Albanian, and Asian organizations; moved into construction fraud. Common modern schemes include payroll fraud (misclassifying workers as independent contractors to avoid taxes and insurance), workers\' compensation fraud, and prevailing wage theft. A 2020 New York State report estimated that construction fraud costs the state $8.6 billion annually in lost revenue.',
-      'PERSISTENT CORRUPTION: Despite decades of prosecutions, construction remains vulnerable to organized crime. The industry\'s structure; with layers of subcontractors, cash transactions, and project-based hiring; creates opportunities for exploitation. Undocumented workers are particularly vulnerable to wage theft and unsafe conditions because they cannot report abuses without risking deportation. The New York City Department of Investigation continues to uncover mob-connected firms winning public contracts through front companies and straw owners.',
+      'PERSISTENT CORRUPTION: Despite decades of prosecutions, construction remains vulnerable to organized crime. The industry\'s structure; with layers of subcontractors, cash transactions, and project-based hiring; creates opportunities for exploitation. Undocumented workers are particularly vulnerable to wage theft and unsafe conditions because they cannot report abuses without risking deportation. The New York City Department of Investigation continues to uncover mob-connected firms winning public contracts through front companies and straw owners.'
     ],
     tags: ['Organized Crime', 'Construction Fraud', 'RICO', 'Union Corruption', 'Concrete Club', 'Labor Racketeering'],
     sources: [
       { title: 'DOJ RICO Commission Trial Records', url: 'https://www.justice.gov/', type: 'Court Record' },
       { title: 'NYC Department of Investigation Reports', url: 'https://www1.nyc.gov/site/doi/', type: 'Government Audit' },
       { title: 'New York State Organized Crime Task Force', url: 'https://ag.ny.gov/', type: 'Government Report' },
-      { title: 'Selwyn Raab: Five Families', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Selwyn Raab: Five Families', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' }
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Led RICO investigations against Mafia construction rackets; Commission trial convicted all five family bosses', href: '/entities/agencies/fbi' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil RICO suits against corrupt unions; Laborers and Teamsters consent decrees', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil RICO suits against corrupt unions; Laborers and Teamsters consent decrees', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2020-01-01',
@@ -284,7 +280,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1986', event: 'RICO PROSECUTIONS: The 1986 "Commission" trial prosecuted by Rudolph Giuliani convicted the bosses of all five New York Mafia families under RICO, breaking the Concrete Club', type: 'legal' },
      { date: '1989', event: 'The International Brotherhood of Teamsters operated under federal consent decree from 1989 to 2020', type: 'default' },
      { date: '1995', event: 'Subsequent prosecutions targeted union locals individually; the DOJ\'s civil RICO suit against the Laborers\' Union in 1995 led to court-appointed oversight', type: 'legal' },
-     { date: '2020', event: 'A 2020 New York State report estimated that construction fraud costs the state $8.6 billion annually in lost revenue', type: 'political' },
+     { date: '2020', event: 'A 2020 New York State report estimated that construction fraud costs the state $8.6 billion annually in lost revenue', type: 'political' }
    ],
   },
   'operation-chaos-domestic-spying': {
@@ -300,20 +296,19 @@ const investigations_o: Record<string, InvestigationData> = {
       'SCOPE AND METHODS: At its peak, CHAOS maintained files on over 300,000 American citizens and organizations in a computerized database; the CIA\'s HYDRA system; that indexed 7,200 individuals by name. CIA operatives were embedded within anti-war organizations, student groups, the women\'s liberation movement, Black Power organizations, and environmental groups. Agents attended meetings, identified leaders, photographed participants, and reported on organizational activities and plans. The program also involved the interception and opening of mail through the related HTLINGUAL program, which photographed over 215,000 pieces of first-class mail between 1952 and 1973.',
       'INTERAGENCY COLLABORATION: CHAOS did not operate in isolation. It coordinated extensively with the FBI\'s COINTELPRO program, sharing intelligence on domestic targets. The NSA\'s MINARET program provided signals intelligence on American citizens at the request of CHAOS operatives. The Army\'s Military Intelligence units conducted their own domestic surveillance of civilian protesters. This network of interagency domestic spying represented a systematic violation of Americans\' constitutional rights by multiple branches of the intelligence and military establishment.',
       'THE FAMILY JEWELS: The program\'s exposure began with the "Family Jewels"; a 693-page compilation of CIA activities that potentially violated its charter, assembled by CIA Director James Schlesinger in 1973. Investigative journalist Seymour Hersh published a front-page New York Times story in December 1974 revealing the CIA\'s domestic spying. This triggered the Church Committee investigation in the Senate and the Pike Committee in the House; the most comprehensive congressional examination of intelligence abuses in American history.',
-      'FAILURE OF REFORM: The Church Committee\'s findings led to Executive Order 11905 (Ford) and later Executive Order 12333 (Reagan), which nominally restricted domestic intelligence operations. The Foreign Intelligence Surveillance Act of 1978 created the FISA Court to provide judicial oversight. However, critics argue these reforms were largely self-policed by the intelligence community. The post-9/11 expansion of surveillance authority; including the NSA\'s warrantless wiretapping, bulk metadata collection, and the FBI\'s monitoring of Black Lives Matter and environmental activists; demonstrated that the fundamental dynamic exposed by CHAOS; using national security as justification for monitoring domestic political dissent; persists under different names and legal frameworks.',
+      'FAILURE OF REFORM: The Church Committee\'s findings led to Executive Order 11905 (Ford) and later Executive Order 12333 (Reagan), which nominally restricted domestic intelligence operations. The Foreign Intelligence Surveillance Act of 1978 created the FISA Court to provide judicial oversight. However, critics argue these reforms were largely self-policed by the intelligence community. The post-9/11 expansion of surveillance authority; including the NSA\'s warrantless wiretapping, bulk metadata collection, and the FBI\'s monitoring of Black Lives Matter and environmental activists; demonstrated that the fundamental dynamic exposed by CHAOS; using national security as justification for monitoring domestic political dissent; persists under different names and legal frameworks.'
     ],
     tags: ['CIA', 'Domestic Surveillance', 'Operation CHAOS', 'Church Committee', 'COINTELPRO', 'Intelligence Abuse', 'Vietnam War'],
     sources: [
       { title: 'Church Committee Final Report', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Congressional Record' },
       { title: 'CIA Family Jewels Documents', url: 'https://www.cia.gov/readingroom/collection/family-jewels', type: 'Declassified Document' },
       { title: 'National Security Archive: Operation CHAOS', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
-      { title: 'Seymour Hersh NYT Investigation (1974)', url: 'https://www.nytimes.com/', type: 'Investigative Report' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'Seymour Hersh NYT Investigation (1974)', url: 'https://www.nytimes.com/', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated CHAOS in violation of its charter; compiled files on 300,000+ Americans; infiltrated domestic movements', href: '/entities/agencies/cia' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Coordinated with CIA through COINTELPRO; shared intelligence on domestic political targets', href: '/entities/agencies/fbi' },
-      { id: '3', name: 'NSA', type: 'agency', relationship: 'MINARET program provided signals intelligence on American citizens at CHAOS request', href: '/entities/agencies/nsa' },
+      { id: '3', name: 'NSA', type: 'agency', relationship: 'MINARET program provided signals intelligence on American citizens at CHAOS request', href: '/entities/agencies/nsa' }
     ],
    eventOriginDate: '1947-01-01',
    lastActivityDate: '2025-07-19',
@@ -324,7 +319,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1967-08-01', event: 'Helms established the Special Operations Group in August 1967 under counterintelligence chief James Angleton', type: 'default' },
      { date: '1973', event: 'THE FAMILY JEWELS: The program\'s exposure began with the "Family Jewels"; a 693-page compilation of CIA activities that potentially violated its charter, assembled by CIA Director James Schlesinger...', type: 'default' },
      { date: '1974-12-01', event: 'Investigative journalist Seymour Hersh published a front-page New York Times story in December 1974 revealing the CIA\'s domestic spying', type: 'default' },
-     { date: '1978', event: 'The Foreign Intelligence Surveillance Act of 1978 created the FISA Court to provide judicial oversight', type: 'legal' },
+     { date: '1978', event: 'The Foreign Intelligence Surveillance Act of 1978 created the FISA Court to provide judicial oversight', type: 'legal' }
    ],
   },
   'operation-mockingbird-media-infiltration': {
@@ -340,20 +335,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'KEY OPERATIVES: Carl Bernstein\'s 1977 Rolling Stone article "The CIA and the Media" documented the extent of media infiltration. Publisher Philip Graham of the Washington Post served as a key CIA asset. Joseph Alsop, one of America\'s most influential columnists, collaborated with the agency for years. CBS President William Paley granted the CIA access to CBS correspondents and provided cover for CIA employees. Henry Luce, publisher of Time and Life magazines, cooperated with the CIA on stories and provided credentials. The relationships were often voluntary; journalists saw themselves as serving patriotic Cold War objectives.',
       'PROPAGANDA OPERATIONS: Mockingbird assets planted stories favorable to CIA objectives in the American and international press. The agency funded and operated media outlets abroad through front organizations; including Radio Free Europe, Radio Liberty, and numerous foreign-language publications. Domestically, the CIA used journalist assets to discredit critics of American foreign policy, promote favorable coverage of coups in Guatemala and Iran, and suppress stories that might embarrass the agency. Books were commissioned, reviewed favorably, and promoted through CIA-connected publishing contacts.',
       'CHURCH COMMITTEE EXPOSURE: The Church Committee\'s investigation in 1975-1976 exposed Mockingbird alongside other CIA abuses. CIA Director George H.W. Bush announced in 1976 that the CIA would no longer recruit journalists from American news organizations as paid agents. However, the order contained significant loopholes; it did not prohibit voluntary relationships, did not cover stringers or freelancers, and did not apply to foreign correspondents of American organizations. Senate intelligence committee investigators believed the CIA\'s claimed reforms were cosmetic rather than substantive.',
-      'LASTING DAMAGE: The revelation of Operation Mockingbird permanently damaged public trust in media independence and created a template for conspiracy theories about media manipulation that persists today. The program demonstrated that the boundary between journalism and intelligence was deliberately and systematically blurred by both the CIA and willing media executives. The question of whether similar relationships continue; through less formal arrangements, revolving doors between intelligence and media, and the intelligence community\'s cultivation of "trusted" journalists as sources; remains unresolved and largely uninvestigated since the Church Committee era.',
+      'LASTING DAMAGE: The revelation of Operation Mockingbird permanently damaged public trust in media independence and created a template for conspiracy theories about media manipulation that persists today. The program demonstrated that the boundary between journalism and intelligence was deliberately and systematically blurred by both the CIA and willing media executives. The question of whether similar relationships continue; through less formal arrangements, revolving doors between intelligence and media, and the intelligence community\'s cultivation of "trusted" journalists as sources; remains unresolved and largely uninvestigated since the Church Committee era.'
     ],
     tags: ['CIA', 'Media Manipulation', 'Operation Mockingbird', 'Propaganda', 'Church Committee', 'Cold War', 'Press Freedom'],
     sources: [
       { title: 'Church Committee Final Report Vol. 1', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Congressional Record' },
       { title: 'Carl Bernstein: The CIA and the Media (Rolling Stone 1977)', url: 'https://www.rollingstone.com/', type: 'Investigative Report' },
       { title: 'National Security Archive: CIA and the Media', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
-      { title: 'CIA FOIA Reading Room', url: 'https://www.cia.gov/readingroom/', type: 'Declassified Document' },
-      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
+      { title: 'CIA FOIA Reading Room', url: 'https://www.cia.gov/readingroom/', type: 'Declassified Document' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated Mockingbird; recruited 400+ journalists; infiltrated major news organizations for propaganda purposes', href: '/entities/agencies/cia' },
-      { id: '2', name: 'FCC', type: 'agency', relationship: 'Federal Communications Commission media regulation', href: '/entities/agencies/fcc' },
-
+      { id: '2', name: 'FCC', type: 'agency', relationship: 'Federal Communications Commission media regulation', href: '/entities/agencies/fcc' }
     ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2023-01-15',
@@ -362,7 +355,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1975', event: 'The Church Committee\'s 1975 investigation documented that the CIA maintained relationships with over 400 American journalists who carried out assignments for the agency; from planting specific stor...', type: 'default' },
      { date: '1975', event: 'CHURCH COMMITTEE EXPOSURE: The Church Committee\'s investigation in 1975-1976 exposed Mockingbird alongside other CIA abuses', type: 'default' },
      { date: '1976', event: 'Bush announced in 1976 that the CIA would no longer recruit journalists from American news organizations as paid agents', type: 'financial' },
-     { date: '1977', event: 'KEY OPERATIVES: Carl Bernstein\'s 1977 Rolling Stone article "The CIA and the Media" documented the extent of media infiltration', type: 'default' },
+     { date: '1977', event: 'KEY OPERATIVES: Carl Bernstein\'s 1977 Rolling Stone article "The CIA and the Media" documented the extent of media infiltration', type: 'default' }
    ],
   },
   'operation-northwoods-false-flag-planning': {
@@ -381,7 +374,7 @@ const investigations_o: Record<string, InvestigationData> = {
       'KENNEDY\'S REJECTION AND LEMNITZER\'S REMOVAL: President John F. Kennedy rejected the Northwoods proposals outright. Neither Kennedy nor Secretary of Defense Robert McNamara authorized any element of the plan. McNamara later confirmed he dismissed the proposals immediately. Kennedy\'s rejection was consistent with his broader resistance to military and CIA pressure for direct action against Cuba, including his refusal to provide air cover during the Bay of Pigs and his back-channel negotiations with the Soviet Union during the Cuban Missile Crisis. Shortly after the Northwoods meeting, Kennedy removed General Lyman Lemnitzer as Chairman of the Joint Chiefs of Staff, reassigning him to become Supreme Allied Commander of NATO, a prestigious position but one that removed him from the center of American military decision-making. Kennedy appointees later described the Northwoods episode as emblematic of the military establishment\'s dangerous overreach.',
       'THE BROADER CONTEXT: MONGOOSE AND THE CUBA OBSESSION: Operation Northwoods did not exist in isolation. It was one component of the broader Operation Mongoose, a comprehensive covert program authorized by the Kennedy administration to destabilize and overthrow the Castro government. Mongoose included economic sabotage, assassination plots against Castro (involving the CIA and the Mafia), propaganda campaigns, and military contingency planning. The Northwoods proposals represented the military\'s contribution to this campaign, but their willingness to attack American citizens went far beyond anything contemplated in the civilian-directed Mongoose framework. The episode illustrated the fundamental tension between civilian control of the military and the military\'s institutional imperative to solve problems through force.',
       'DECLASSIFICATION AND PUBLIC EXPOSURE: The Northwoods documents were declassified in 1997 as part of the John F. Kennedy Assassination Records Review Board\'s comprehensive effort to release government records potentially related to the Kennedy assassination. The documents attracted little attention at the time. Investigative journalist and former ABC News producer James Bamford brought widespread public attention to Northwoods in his 2001 book "Body of Secrets: Anatomy of the Ultra-Secret National Security Agency." The release occurred just months before the September 11, 2001 attacks, lending the documents a new and uncomfortable resonance. The significance of Northwoods lies not in what was ultimately done, as Kennedy rejected the plan, but in what was seriously, formally, and unanimously proposed at the highest level of American military command.',
-      'HISTORICAL SIGNIFICANCE: Operation Northwoods remains the most thoroughly documented instance of senior U.S. military officials proposing false flag terrorist operations against American citizens. The documents exist in the National Archives and have been verified by every historian and journalist who has examined them. They demonstrate that false flag operations against American citizens were not a conspiracy theory but a documented military planning option that reached the desk of the Secretary of Defense with the formal, unanimous endorsement of the Joint Chiefs of Staff. Northwoods stands as a permanent reminder that institutional checks, civilian oversight of the military, independent media, and an informed public, are not abstractions but essential safeguards against the willingness of powerful institutions to sacrifice citizens for geopolitical objectives.',
+      'HISTORICAL SIGNIFICANCE: Operation Northwoods remains the most thoroughly documented instance of senior U.S. military officials proposing false flag terrorist operations against American citizens. The documents exist in the National Archives and have been verified by every historian and journalist who has examined them. They demonstrate that false flag operations against American citizens were not a conspiracy theory but a documented military planning option that reached the desk of the Secretary of Defense with the formal, unanimous endorsement of the Joint Chiefs of Staff. Northwoods stands as a permanent reminder that institutional checks, civilian oversight of the military, independent media, and an informed public, are not abstractions but essential safeguards against the willingness of powerful institutions to sacrifice citizens for geopolitical objectives.'
     ],
     tags: ['False Flag', 'Operation Northwoods', 'Joint Chiefs', 'Cuba', 'JFK', 'Military Planning', 'Declassified', 'Operation Mongoose', 'Lemnitzer'],
     sources: [
@@ -389,13 +382,13 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'JFK Assassination Records Review Board (National Archives)', url: 'https://www.archives.gov/research/jfk', type: 'Government Record' },
       { title: 'James Bamford: Body of Secrets (2001)', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
       { title: 'National Security Archive: Operation Mongoose Records', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
-      { title: 'Church Committee: Alleged Assassination Plots Involving Foreign Leaders (1975)', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Congressional Record' },
+      { title: 'Church Committee: Alleged Assassination Plots Involving Foreign Leaders (1975)', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Joint Chiefs of Staff unanimously proposed false flag attacks on American citizens, sinking U.S. ships, and bombing American cities', href: '/entities/agencies/pentagon' },
       { id: '2', name: 'CIA', type: 'agency', relationship: 'Involved through Operation Mongoose and proprietary organizations used in the drone aircraft false flag plan', href: '/entities/agencies/cia' },
       { id: '3', name: 'John F. Kennedy', type: 'individual', relationship: 'Rejected Northwoods proposals and removed Chairman Lemnitzer from Joint Chiefs; maintained civilian control over military', href: '/entities/individuals/john-f-kennedy' },
-      { id: '4', name: 'Lyman Lemnitzer', type: 'individual', relationship: 'Chairman of the Joint Chiefs who signed and championed the Northwoods false flag memorandum; removed by Kennedy', href: '/entities/individuals/lyman-lemnitzer' },
+      { id: '4', name: 'Lyman Lemnitzer', type: 'individual', relationship: 'Chairman of the Joint Chiefs who signed and championed the Northwoods false flag memorandum; removed by Kennedy', href: '/entities/individuals/lyman-lemnitzer' }
     ],
    eventOriginDate: '1962-03-13',
    lastActivityDate: '2025-10-31',
@@ -409,7 +402,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1962-10-16', event: 'Cuban Missile Crisis began; Kennedy\'s restraint and back-channel negotiations contrasted sharply with the military\'s Northwoods-era aggressiveness.', type: 'default' },
      { date: '1975', event: 'Church Committee investigated CIA assassination plots and covert operations against Cuba, providing broader context for the Northwoods era.', type: 'political' },
      { date: '1997', event: 'Northwoods documents declassified by the JFK Assassination Records Review Board as part of comprehensive release of government records.', type: 'default' },
-     { date: '2001-04-24', event: 'James Bamford published "Body of Secrets," bringing widespread public and media attention to the declassified Northwoods documents for the first time.', type: 'default' },
+     { date: '2001-04-24', event: 'James Bamford published "Body of Secrets," bringing widespread public and media attention to the declassified Northwoods documents for the first time.', type: 'default' }
      ],
   },
   'operation-paperclip-nazi-scientist-import': {
@@ -428,7 +421,7 @@ const investigations_o: Record<string, InvestigationData> = {
       'THE CHEMICAL WEAPONS PIPELINE: The U.S. Army\'s Chemical Corps aggressively recruited German chemical weapons experts through Paperclip. Scientists who had developed nerve agents including tabun and sarin, who had tested these agents on concentration camp prisoners, and who had planned for mass deployment of chemical weapons were brought to facilities including Edgewood Arsenal in Maryland and Dugway Proving Ground in Utah. Their expertise contributed directly to the U.S. chemical weapons stockpile during the Cold War. Some Paperclip scientists participated in classified Army programs testing chemical and biological agents on unwitting American servicemembers, a practice that continued into the 1970s.',
       'INSTITUTIONAL COMPLICITY: Multiple U.S. government agencies facilitated Paperclip while fully aware of the recruits\' backgrounds. The State Department initially resisted on moral and legal grounds but was overruled by the military establishment. The FBI conducted background investigations but accepted the sanitized JIOA files as authoritative. The Army\'s Intelligence Division actively collaborated in record falsification. The CIA, while running its own separate Nazi recruitment programs through Operations BLOODSTONE and RUSTY, shared intelligence with JIOA. The recruitment of Nazi scientists was not a rogue operation by a few officers but a deliberate, multi-agency policy pursued at the highest levels of the national security establishment with full knowledge of the moral compromise involved.',
       'SCALE AND DURATION: Operation Paperclip recruited over 1,600 scientists, engineers, and technicians between 1945 and 1959, far exceeding its original scope. The recruits and their families were settled across the United States, primarily at military installations, defense contractors, and eventually academic institutions and NASA facilities. They contributed to programs in rocketry, aeronautics, aviation medicine, chemical and biological weapons, submarine technology, radar, and intelligence operations. The program\'s alumni populated the upper ranks of the American defense-industrial complex for decades. At its peak, Paperclip scientists held positions at every major NASA center, at the Army\'s Redstone Arsenal, at defense contractors including Lockheed and Boeing, and at university research programs funded by the Department of Defense.',
-      'ACCOUNTABILITY AND HISTORICAL RECKONING: The Office of Special Investigations, established within the DOJ in 1979 specifically to identify Nazi war criminals living in the United States, found and initiated proceedings against several Paperclip scientists. Beyond Rudolph\'s denaturalization, OSI investigated Hubertus Strughold but he died in 1986 before proceedings were completed. His name was removed from the Strughold Award in Space Medicine in 2013 after renewed scrutiny. The full scope of JIOA\'s records falsification was not publicly understood until historian Linda Hunt obtained documents through FOIA requests in the 1980s, publishing her findings in "Secret Agenda" in 1991. Annie Jacobsen\'s 2014 book "Operation Paperclip" drew on newly declassified records to further document the program. Classified Paperclip files continue to be released incrementally through the National Archives, suggesting the full story remains incompletely known.',
+      'ACCOUNTABILITY AND HISTORICAL RECKONING: The Office of Special Investigations, established within the DOJ in 1979 specifically to identify Nazi war criminals living in the United States, found and initiated proceedings against several Paperclip scientists. Beyond Rudolph\'s denaturalization, OSI investigated Hubertus Strughold but he died in 1986 before proceedings were completed. His name was removed from the Strughold Award in Space Medicine in 2013 after renewed scrutiny. The full scope of JIOA\'s records falsification was not publicly understood until historian Linda Hunt obtained documents through FOIA requests in the 1980s, publishing her findings in "Secret Agenda" in 1991. Annie Jacobsen\'s 2014 book "Operation Paperclip" drew on newly declassified records to further document the program. Classified Paperclip files continue to be released incrementally through the National Archives, suggesting the full story remains incompletely known.'
     ],
     tags: ['Operation Paperclip', 'Nazi Scientists', 'Cold War', 'War Crimes', 'Record Falsification', 'JIOA', 'Wernher von Braun', 'Slave Labor', 'Chemical Weapons'],
     sources: [
@@ -437,13 +430,13 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Annie Jacobsen: Operation Paperclip (2014)', url: 'https://www.littlebrown.com/', type: 'Investigative Book' },
       { title: 'DOJ Office of Special Investigations: Nazi War Criminals in the U.S.', url: 'https://www.justice.gov/', type: 'Government Report' },
       { title: 'National Security Archive: Nazi War Criminals Declassified', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
-      { title: 'Nuremberg Trial Proceedings (Yale Lillian Goldman Law Library)', url: 'https://avalon.law.yale.edu/subject_menus/imt.asp', type: 'Primary Document' },
+      { title: 'Nuremberg Trial Proceedings (Yale Lillian Goldman Law Library)', url: 'https://avalon.law.yale.edu/subject_menus/imt.asp', type: 'Primary Document' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Ran parallel Nazi recruitment through Operations BLOODSTONE and RUSTY; shielded Paperclip scientists from prosecution', href: '/entities/agencies/cia' },
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'JIOA under the Joint Chiefs systematically falsified records to import 1,600+ Nazi scientists, directly violating Truman\'s directive', href: '/entities/agencies/pentagon' },
       { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed dozens of Paperclip scientists including von Braun (Saturn V director) and Rudolph (later denaturalized for war crimes)', href: '/entities/agencies/nasa' },
-      { id: '4', name: 'DOJ', type: 'agency', relationship: 'Office of Special Investigations (est. 1979) identified and denaturalized Paperclip scientists with war crimes involvement', href: '/entities/agencies/doj' },
+      { id: '4', name: 'DOJ', type: 'agency', relationship: 'Office of Special Investigations (est. 1979) identified and denaturalized Paperclip scientists with war crimes involvement', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1945-05-08',
    lastActivityDate: '2024-06-05',
@@ -458,7 +451,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1979', event: 'DOJ established Office of Special Investigations to identify Nazi war criminals in the U.S.; began investigating Paperclip scientists.', type: 'legal' },
      { date: '1984', event: 'Arthur Rudolph surrendered U.S. citizenship and returned to Germany rather than face denaturalization proceedings for his role managing V-2 slave labor factory.', type: 'legal' },
      { date: '1991', event: 'Linda Hunt published "Secret Agenda" documenting JIOA\'s systematic falsification of Paperclip scientists\' security files using FOIA-obtained documents.', type: 'default' },
-     { date: '2013', event: 'Hubertus Strughold\'s name removed from prestigious Space Medicine award after renewed evidence of involvement in Dachau medical experiments.', type: 'default' },
+     { date: '2013', event: 'Hubertus Strughold\'s name removed from prestigious Space Medicine award after renewed evidence of involvement in Dachau medical experiments.', type: 'default' }
      ],
   },
   'operation-condor-latin-america-terror': {
@@ -474,18 +467,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'U.S. INVOLVEMENT: The United States provided critical support to Condor through the CIA and military intelligence. National Security Adviser Henry Kissinger was briefed on Condor operations and authorized continued support. Declassified State Department cables show that U.S. Ambassador to Chile David Popper warned Washington about Condor\'s assassination plans in 1976, but Kissinger\'s office delayed sending a demarche opposing the killings. The CIA trained South American intelligence officers at the School of the Americas in Fort Benning, Georgia; and provided communications equipment and organizational support to Condor networks.',
       'SCALE OF ATROCITY: Across the Condor nations, an estimated 60,000-80,000 people were killed and 400,000 were imprisoned. In Argentina alone, the "Dirty War" (1976-1983) resulted in an estimated 30,000 "desaparecidos" (disappeared persons). Victims were kidnapped, tortured in clandestine detention centers, and often killed by being drugged and thrown from aircraft into the Atlantic Ocean; the "death flights." Pregnant detainees were kept alive until they gave birth, then killed; their babies were given to military families. An estimated 500 children were stolen from disappeared parents.',
       'TRANSNATIONAL ASSASSINATIONS: Condor\'s most brazen operation occurred on September 21, 1976, when a car bomb in Washington, D.C. killed former Chilean ambassador Orlando Letelier and his American colleague Ronni Moffitt. The assassination was ordered by Chilean dictator Augusto Pinochet and carried out by DINA agent Michael Townley. The Letelier assassination on American soil embarrassed the Ford administration, which had been quietly supporting Condor. Other high-profile Condor assassinations included former Uruguayan legislators Zelmar Michelini and Hector Gutierrez Ruiz, murdered in Buenos Aires in 1976.',
-      'ACCOUNTABILITY AND LEGACY: Trials have been conducted in multiple Condor nations; Argentine courts convicted hundreds of former military officers. In 2016, an Italian court convicted 24 former South American officials in absentia for their roles in Operation Condor. In Chile, Pinochet was indicted in 1998 by Spanish judge Baltasar Garzon but never tried due to claimed health issues; he died in 2006. Henry Kissinger has never been charged despite documented evidence of his role. Declassified U.S. documents continue to be released through the National Security Archive, progressively revealing the depth of American complicity in systematic state terrorism.',
+      'ACCOUNTABILITY AND LEGACY: Trials have been conducted in multiple Condor nations; Argentine courts convicted hundreds of former military officers. In 2016, an Italian court convicted 24 former South American officials in absentia for their roles in Operation Condor. In Chile, Pinochet was indicted in 1998 by Spanish judge Baltasar Garzon but never tried due to claimed health issues; he died in 2006. Henry Kissinger has never been charged despite documented evidence of his role. Declassified U.S. documents continue to be released through the National Security Archive, progressively revealing the depth of American complicity in systematic state terrorism.'
     ],
     tags: ['Operation Condor', 'State Terrorism', 'Latin America', 'Kissinger', 'Pinochet', 'Dirty War', 'CIA', 'Disappearances'],
     sources: [
       { title: 'National Security Archive: Operation Condor', url: 'https://nsarchive.gwu.edu/project/southern-cone-documentation-project', type: 'Archive' },
       { title: 'Italian Court Condor Verdict (2016)', url: 'https://www.reuters.com/', type: 'Court Record' },
       { title: 'State Dept Declassified Cables', url: 'https://history.state.gov/historicaldocuments', type: 'Declassified Document' },
-      { title: 'John Dinges: The Condor Years', url: 'https://thenewpress.com/', type: 'Investigative Book' },
+      { title: 'John Dinges: The Condor Years', url: 'https://thenewpress.com/', type: 'Investigative Book' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Provided intelligence support, training, and communications equipment to Condor dictatorships', href: '/entities/agencies/cia' },
-      { id: '2', name: 'Henry Kissinger', type: 'individual', relationship: 'Authorized continued U.S. support for Condor; delayed warnings about assassination plans', href: '/entities/individuals/henry-kissinger' },
+      { id: '2', name: 'Henry Kissinger', type: 'individual', relationship: 'Authorized continued U.S. support for Condor; delayed warnings about assassination plans', href: '/entities/individuals/henry-kissinger' }
     ],
    eventOriginDate: '1975-01-01',
    lastActivityDate: '2022-09-16',
@@ -497,7 +490,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1976', event: 'Other high-profile Condor assassinations included former Uruguayan legislators Zelmar Michelini and Hector Gutierrez Ruiz, murdered in Buenos Aires in 1976', type: 'critical' },
      { date: '1976-09-21', event: 'TRANSNATIONAL ASSASSINATIONS: Condor\'s most brazen operation occurred on September 21, 1976, when a car bomb in Washington, D.C', type: 'critical' },
      { date: '1998', event: 'In Chile, Pinochet was indicted in 1998 by Spanish judge Baltasar Garzon but never tried due to claimed health issues; he died in 2006', type: 'legal' },
-     { date: '2016', event: 'In 2016, an Italian court convicted 24 former South American officials in absentia for their roles in Operation Condor', type: 'legal' },
+     { date: '2016', event: 'In 2016, an Italian court convicted 24 former South American officials in absentia for their roles in Operation Condor', type: 'legal' }
    ],
   },
   'operation-gladio-stay-behind-networks': {
@@ -513,18 +506,17 @@ const investigations_o: Record<string, InvestigationData> = {
       'THE ITALIAN CONNECTION: Italy\'s Gladio network was the most extensively documented and most deeply implicated in domestic terrorism. Italian Prime Minister Giulio Andreotti confirmed Gladio\'s existence in October 1990, triggering investigations across Europe. The Italian network was linked to a series of far-right terrorist attacks known as the "Years of Lead" (1969-1988), including the 1969 Piazza Fontana bombing (17 killed), the 1974 Piazza della Loggia bombing (8 killed), the 1980 Bologna railway station bombing (85 killed), and the 1984 Rapido 904 bombing (15 killed).',
       'STRATEGY OF TENSION: Italian parliamentary investigations concluded that Gladio\'s Italian network participated in a "strategy of tension"; using terrorist attacks attributed to left-wing groups to create public fear and prevent the Italian Communist Party from gaining power through democratic elections. Far-right extremists recruited into Gladio conducted bombings that were initially blamed on leftist organizations. This false flag strategy was designed to push Italian voters toward conservative and anti-communist parties. The Propaganda Due (P2) Masonic lodge, exposed in 1981, served as a parallel network connecting Gladio operatives, military intelligence, Mafia figures, and politicians.',
       'BELGIAN STAY-BEHIND: Belgium\'s stay-behind network was linked to the "Brabant massacres" of 1982-1985, a series of violent supermarket robberies that killed 28 people and were never fully solved. Parliamentary investigations revealed that the Belgian gendarmerie, military intelligence, and civilian networks were deeply intertwined with far-right organizations. Belgian Senator Roger Lallemand\'s investigation found that the stay-behind network operated with minimal governmental oversight and maintained connections to neo-fascist groups;.',
-      'EXPOSURE AND NON-ACCOUNTABILITY: When Andreotti\'s 1990 revelation triggered a cascade of admissions across Europe, the European Parliament passed a resolution on November 22, 1990, condemning the networks and demanding full investigations. However, meaningful accountability was largely absent. In most countries, investigations were obstructed by intelligence agencies or produced inconclusive results. The CIA has never acknowledged its role in specific terrorist operations linked to stay-behind networks. In Italy, trials of Gladio-connected individuals produced convictions that were later overturned on appeal. The fundamental question; whether NATO and the CIA directed or facilitated terrorist attacks against European civilians to manipulate democratic politics; has never received a definitive official answer.',
+      'EXPOSURE AND NON-ACCOUNTABILITY: When Andreotti\'s 1990 revelation triggered a cascade of admissions across Europe, the European Parliament passed a resolution on November 22, 1990, condemning the networks and demanding full investigations. However, meaningful accountability was largely absent. In most countries, investigations were obstructed by intelligence agencies or produced inconclusive results. The CIA has never acknowledged its role in specific terrorist operations linked to stay-behind networks. In Italy, trials of Gladio-connected individuals produced convictions that were later overturned on appeal. The fundamental question; whether NATO and the CIA directed or facilitated terrorist attacks against European civilians to manipulate democratic politics; has never received a definitive official answer.'
     ],
     tags: ['Operation Gladio', 'NATO', 'Stay-Behind', 'Strategy of Tension', 'False Flag', 'Bologna Bombing', 'CIA', 'Cold War'],
     sources: [
       { title: 'European Parliament Resolution on Gladio (1990)', url: 'https://www.europarl.europa.eu/', type: 'Government Record' },
       { title: 'Italian Parliamentary Commission on Terrorism', url: 'https://www.senato.it/', type: 'Government Report' },
       { title: 'Daniele Ganser: NATO\'s Secret Armies', url: 'https://www.routledge.com/', type: 'Academic Research' },
-      { title: 'National Security Archive: Gladio Documents', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
+      { title: 'National Security Archive: Gladio Documents', url: 'https://nsarchive.gwu.edu/', type: 'Archive' }
     ],
     affiliations: [
-      { id: '1', name: 'CIA', type: 'agency', relationship: 'Established and funded stay-behind networks across 16+ European nations; linked to strategy of tension', href: '/entities/agencies/cia' },
-      { id: 'department-of-justice', name: 'Department of Justice', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/doj' },
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Established and funded stay-behind networks across 16+ European nations; linked to strategy of tension', href: '/entities/agencies/cia' }
     ],
    eventOriginDate: '1940-01-01',
    lastActivityDate: '2022-12-23',
@@ -534,7 +526,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1981', event: 'The Propaganda Due (P2) Masonic lodge, exposed in 1981, served as a parallel network connecting Gladio operatives, military intelligence, Mafia figures, and politicians', type: 'default' },
      { date: '1982', event: 'BELGIAN STAY-BEHIND: Belgium\'s stay-behind network was linked to the "Brabant massacres" of 1982-1985, a series of violent supermarket robberies that killed 28 people and were never fully solved', type: 'critical' },
      { date: '1990-10-01', event: 'Italian Prime Minister Giulio Andreotti confirmed Gladio\'s existence in October 1990, triggering investigations across Europe', type: 'political' },
-     { date: '1990-11-22', event: 'EXPOSURE AND NON-ACCOUNTABILITY: When Andreotti\'s 1990 revelation triggered a cascade of admissions across Europe, the European Parliament passed a resolution on November 22, 1990, condemning the n...', type: 'default' },
+     { date: '1990-11-22', event: 'EXPOSURE AND NON-ACCOUNTABILITY: When Andreotti\'s 1990 revelation triggered a cascade of admissions across Europe, the European Parliament passed a resolution on November 22, 1990, condemning the n...', type: 'default' }
    ],
   },
   'operation-fast-and-furious-gun-walking': {
@@ -550,19 +542,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'BRIAN TERRY\'S DEATH: On December 14, 2010, Border Patrol Agent Brian Terry was killed in a firefight with cartel bandits near Nogales, Arizona. Two AK-47-type rifles found at the scene were traced to Operation Fast and Furious. Terry\'s death catalyzed the investigation that exposed the entire operation. ATF whistleblower John Dodson contacted Senator Charles Grassley\'s office and CBS News reporter Sharyl Attkisson, providing evidence that the ATF had knowingly allowed weapons to cross into Mexico.',
       'SCOPE OF CARNAGE: The walked weapons were linked to at least 200 deaths in Mexico and the United States beyond Agent Terry. Firearms from Fast and Furious were recovered at crime scenes across Mexico for years after the operation ended. In 2019, a gun traced to the operation was found at the scene of a 2012 massacre at a Mexican beauty salon that killed 10 people. Mexican government officials expressed fury when the operation was exposed; the U.S. had deliberately armed the cartels devastating their country without informing Mexican authorities.',
       'COVER-UP AND CONTEMPT: When Congress investigated, Attorney General Eric Holder initially denied knowledge of the gun-walking tactics. Internal DOJ communications later showed that Holder had been briefed on Fast and Furious in multiple memoranda. The DOJ provided incomplete and misleading information to Congress, later withdrawing a February 2011 letter that falsely denied gun walking had occurred. In June 2012, the House of Representatives held Holder in contempt of Congress for refusing to produce subpoenaed documents; President Obama invoked executive privilege to shield the materials. It was the first time a sitting Attorney General was held in contempt.',
-      'ACCOUNTABILITY FAILURE: An Inspector General investigation found 14 ATF and DOJ officials bore responsibility for Fast and Furious, citing failures at every level. ATF Acting Director Kenneth Melson was reassigned. Several ATF supervisors were removed or reassigned but not fired. No senior DOJ official was prosecuted or terminated. The straw buyer who purchased the weapon that killed Brian Terry, Jaime Avila, was sentenced to 57 months in prison; the only significant criminal sentence. The operation represented a catastrophic failure of judgment that armed violent cartels and cost lives; yet meaningful accountability for the decision-makers who approved and concealed it remained elusive.',
+      'ACCOUNTABILITY FAILURE: An Inspector General investigation found 14 ATF and DOJ officials bore responsibility for Fast and Furious, citing failures at every level. ATF Acting Director Kenneth Melson was reassigned. Several ATF supervisors were removed or reassigned but not fired. No senior DOJ official was prosecuted or terminated. The straw buyer who purchased the weapon that killed Brian Terry, Jaime Avila, was sentenced to 57 months in prison; the only significant criminal sentence. The operation represented a catastrophic failure of judgment that armed violent cartels and cost lives; yet meaningful accountability for the decision-makers who approved and concealed it remained elusive.'
     ],
     tags: ['ATF', 'Gun Walking', 'Fast and Furious', 'Brian Terry', 'Mexican Cartels', 'Eric Holder', 'Congressional Contempt'],
     sources: [
       { title: 'DOJ Inspector General Report on Fast and Furious', url: 'https://oig.justice.gov/', type: 'Government Audit' },
       { title: 'House Oversight Committee Fast and Furious Report', url: 'https://oversight.house.gov/', type: 'Congressional Record' },
       { title: 'Senate Judiciary Committee Investigation', url: 'https://www.judiciary.senate.gov/', type: 'Congressional Record' },
-      { title: 'ATF Whistleblower Testimony', url: 'https://www.grassley.senate.gov/', type: 'Congressional Testimony' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'ATF Whistleblower Testimony', url: 'https://www.grassley.senate.gov/', type: 'Congressional Testimony' }
     ],
     affiliations: [
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Ran gun-walking operation allowing 2,000+ firearms to reach Mexican cartels; lost track of 1,400 weapons', href: '/entities/agencies/atf' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Oversight failure; AG Holder held in contempt; provided misleading information to Congress', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Oversight failure; AG Holder held in contempt; provided misleading information to Congress', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2023-08-25',
@@ -572,7 +563,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2010-12-14', event: 'BRIAN TERRY\'S DEATH: On December 14, 2010, Border Patrol Agent Brian Terry was killed in a firefight with cartel bandits near Nogales, Arizona', type: 'critical' },
      { date: '2011-02-01', event: 'The DOJ provided incomplete and misleading information to Congress, later withdrawing a February 2011 letter that falsely denied gun walking had occurred', type: 'political' },
      { date: '2012-06-01', event: 'In June 2012, the House of Representatives held Holder in contempt of Congress for refusing to produce subpoenaed documents; President Obama invoked executive privilege to shield the materials', type: 'political' },
-     { date: '2019', event: 'In 2019, a gun traced to the operation was found at the scene of a 2012 massacre at a Mexican beauty salon that killed 10 people', type: 'critical' },
+     { date: '2019', event: 'In 2019, a gun traced to the operation was found at the scene of a 2012 massacre at a Mexican beauty salon that killed 10 people', type: 'critical' }
    ],
   },
   'operation-pbsuccess-guatemala-coup': {
@@ -588,19 +579,19 @@ const investigations_o: Record<string, InvestigationData> = {
       'THE COUP OPERATION: The CIA launched PBSUCCESS in August 1953 with a $2.7 million budget (later expanded). The operation recruited a force of approximately 480 Guatemalan exiles led by Colonel Carlos Castillo Armas and trained them in Honduras and Nicaragua. CIA pilots flew aircraft that bombed Guatemala City, creating the impression of a larger invasion force. A clandestine radio station, "La Voz de la Liberacion," broadcast disinformation to demoralize the military and public. The psychological warfare campaign was more decisive than the military action; when the Guatemalan army refused to fight and Arbenz\'s attempts to arm civilian militias failed, he resigned on June 27, 1954.',
       'AFTERMATH AND DICTATORSHIP: Castillo Armas seized power, reversed all land reforms, disenfranchised illiterate voters (the majority of the indigenous population), and launched a purge of suspected communists. His assassination in 1957 was followed by a succession of military governments. In 1960, a failed military uprising against the government evolved into a guerrilla movement, beginning a civil war that would last 36 years and claim approximately 200,000 lives.',
       'GENOCIDE OF MAYA POPULATIONS: During the early 1980s, under dictator Efrain Rios Montt, the Guatemalan military conducted a scorched-earth campaign against indigenous Maya communities suspected of supporting guerrillas. The UN-sponsored Historical Clarification Commission (CEH) concluded in 1999 that the military committed genocide against Mayan populations; documenting 626 massacres, the complete destruction of 440 villages, and the killing of approximately 200,000 people (83% indigenous Maya). Rios Montt was convicted of genocide by a Guatemalan court in 2013, though the conviction was later overturned on procedural grounds.',
-      'DECLASSIFICATION AND LEGACY: CIA documents on PBSUCCESS were declassified beginning in 1997 through the National Security Archive. In 1999, President Clinton acknowledged that U.S. support for Guatemalan military dictatorships was "wrong." The Guatemala coup became the template for subsequent CIA regime change operations, including in Iran, the Congo, Chile, and elsewhere. The operation demonstrated that the CIA could overthrow democratic governments with minimal military force through psychological warfare, economic pressure, and the cultivation of local proxies; a model that would be replicated with varying degrees of success and catastrophic long-term consequences across the developing world.',
+      'DECLASSIFICATION AND LEGACY: CIA documents on PBSUCCESS were declassified beginning in 1997 through the National Security Archive. In 1999, President Clinton acknowledged that U.S. support for Guatemalan military dictatorships was "wrong." The Guatemala coup became the template for subsequent CIA regime change operations, including in Iran, the Congo, Chile, and elsewhere. The operation demonstrated that the CIA could overthrow democratic governments with minimal military force through psychological warfare, economic pressure, and the cultivation of local proxies; a model that would be replicated with varying degrees of success and catastrophic long-term consequences across the developing world.'
     ],
     tags: ['Operation PBSUCCESS', 'Guatemala', 'CIA', 'United Fruit Company', 'Coup', 'Genocide', 'Maya', 'Cold War'],
     sources: [
       { title: 'CIA Declassified PBSUCCESS Records', url: 'https://www.cia.gov/readingroom/', type: 'Declassified Document' },
       { title: 'UN Historical Clarification Commission (CEH)', url: 'https://www.undp.org/', type: 'International Report' },
       { title: 'National Security Archive: Guatemala', url: 'https://nsarchive.gwu.edu/project/guatemala-project', type: 'Archive' },
-      { title: 'Stephen Schlesinger: Bitter Fruit', url: 'https://www.hup.harvard.edu/', type: 'Investigative Book' },
+      { title: 'Stephen Schlesinger: Bitter Fruit', url: 'https://www.hup.harvard.edu/', type: 'Investigative Book' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated 1954 coup with $2.7M+ budget; trained exile force; ran propaganda campaign; overthrew democratic government', href: '/entities/agencies/cia' },
       { id: '2', name: 'United Fruit Company', type: 'corporation', relationship: 'Corporate beneficiary of coup; had extensive connections to Eisenhower administration through Dulles brothers', href: '/entities/corporations/united-fruit-company' },
-      { id: '3', name: 'Henry Kissinger', type: 'individual', relationship: 'Later supported Guatemalan military governments as NSA/Secretary of State', href: '/entities/individuals/henry-kissinger' },
+      { id: '3', name: 'Henry Kissinger', type: 'individual', relationship: 'Later supported Guatemalan military governments as NSA/Secretary of State', href: '/entities/individuals/henry-kissinger' }
     ],
    eventOriginDate: '1951-01-01',
    lastActivityDate: '2022-08-21',
@@ -615,7 +606,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1997', event: 'DECLASSIFICATION AND LEGACY: CIA documents on PBSUCCESS were declassified beginning in 1997 through the National Security Archive', type: 'default' },
      { date: '1999', event: 'The UN-sponsored Historical Clarification Commission (CEH) concluded in 1999 that the military committed genocide against Mayan populations', type: 'critical' },
      { date: '1999', event: 'In 1999, President Clinton acknowledged that U.S', type: 'political' },
-     { date: '2013', event: 'Rios Montt was convicted of genocide by a Guatemalan court in 2013, though the conviction was later overturned on procedural grounds', type: 'legal' },
+     { date: '2013', event: 'Rios Montt was convicted of genocide by a Guatemalan court in 2013, though the conviction was later overturned on procedural grounds', type: 'legal' }
    ],
   },
   'opioid-crisis-manufacturer-liability': {
@@ -631,20 +622,19 @@ const investigations_o: Record<string, InvestigationData> = {
       'THE SACKLER FAMILY: The Sackler family, which privately owned Purdue Pharma, extracted over $10 billion from the company between 2008 and 2018 as the crisis intensified. Family members including Richard Sackler, who personally oversaw OxyContin\'s launch, directed the aggressive marketing strategies. Emails showed Richard Sackler describing plans to blame addicts for the crisis, writing that abusers should be the "culprits and the problem" rather than the company. Despite their central role in creating the epidemic, no Sackler family member has faced criminal prosecution.',
       'JOHNSON & JOHNSON\'S RAW MATERIAL EMPIRE: Johnson & Johnson\'s subsidiary Tasmanian Alkaloids was the dominant supplier of the raw opiate materials used by other manufacturers. J&J\'s Janssen Pharmaceuticals also marketed its own opioid, Duragesic (fentanyl patches). Through these dual roles; as supplier of raw materials and marketer of finished products; J&J had unique insight into and profit from the full scope of the opioid market\'s explosive growth. J&J agreed to pay $5 billion in the national opioid settlement.',
       'CORRUPTED MEDICAL SCIENCE: Manufacturers funded and promoted the "Pain as the Fifth Vital Sign" campaign through the American Pain Society and the Joint Commission, which began requiring hospitals to assess and treat pain more aggressively. Purdue funded over 20,000 pain-related educational programs attended by physicians. Key opinion leaders (KOLs) were paid to promote opioids at medical conferences and in continuing medical education. The Federation of State Medical Boards issued guidelines, funded by Purdue, stating that undertreating pain was a greater risk than prescribing opioids; effectively pressuring doctors to prescribe more.',
-      'SETTLEMENTS WITHOUT ACCOUNTABILITY: Purdue Pharma pleaded guilty to federal felony charges twice; in 2007 (paying $600 million) and in 2020 (agreeing to $8.3 billion). The 2007 plea involved three executives who pleaded guilty to misdemeanor misbranding; none served prison time. The national opioid settlement totaled approximately $50 billion across manufacturers, distributors, and pharmacies; a fraction of the estimated $1 trillion+ total economic cost. The Sackler family agreed to pay approximately $6 billion for immunity from future civil lawsuits. Purdue entered bankruptcy and was dissolved. The contrast between the scale of death and the absence of criminal accountability for decision-makers remains one of the most striking features of American corporate regulation.',
+      'SETTLEMENTS WITHOUT ACCOUNTABILITY: Purdue Pharma pleaded guilty to federal felony charges twice; in 2007 (paying $600 million) and in 2020 (agreeing to $8.3 billion). The 2007 plea involved three executives who pleaded guilty to misdemeanor misbranding; none served prison time. The national opioid settlement totaled approximately $50 billion across manufacturers, distributors, and pharmacies; a fraction of the estimated $1 trillion+ total economic cost. The Sackler family agreed to pay approximately $6 billion for immunity from future civil lawsuits. Purdue entered bankruptcy and was dissolved. The contrast between the scale of death and the absence of criminal accountability for decision-makers remains one of the most striking features of American corporate regulation.'
     ],
     tags: ['Opioid Crisis', 'Purdue Pharma', 'Sackler Family', 'OxyContin', 'Johnson & Johnson', 'Pharmaceutical Fraud', 'Addiction'],
     sources: [
       { title: 'DOJ Purdue Pharma Plea Agreement', url: 'https://www.justice.gov/', type: 'Court Record' },
       { title: 'Massachusetts AG Sackler Lawsuit Filings', url: 'https://www.mass.gov/news/ag-healey-files-amended-opioids-complaint', type: 'Court Record' },
       { title: 'Patrick Radden Keefe: Empire of Pain', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
-      { title: 'Senate HELP Committee Opioid Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'Senate HELP Committee Opioid Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with misleading "less addictive" label; revolving door with pharma industry', href: '/entities/agencies/fda' },
       { id: '2', name: 'DEA', type: 'agency', relationship: 'Enforcement powers weakened by pharmaceutical industry lobbying; failed to impose adequate quotas', href: '/entities/agencies/dea' },
-      { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Supplied raw opiate materials through Tasmanian Alkaloids; marketed fentanyl patches; $5B settlement', href: '/entities/corporations/johnson-and-johnson' },
+      { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Supplied raw opiate materials through Tasmanian Alkaloids; marketed fentanyl patches; $5B settlement', href: '/entities/corporations/johnson-and-johnson' }
     ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-12-19',
@@ -653,7 +643,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1996', event: 'PURDUE PHARMA\'S DECEPTION: Purdue Pharma launched OxyContin in 1996 with the central marketing claim that its extended-release formulation provided "less than 1%" addiction risk; a claim derived fr...', type: 'default' },
      { date: '2007', event: 'SETTLEMENTS WITHOUT ACCOUNTABILITY: Purdue Pharma pleaded guilty to federal felony charges twice; in 2007 (paying $600 million) and in 2020 (agreeing to $8.3 billion)', type: 'legal' },
      { date: '2007', event: 'The 2007 plea involved three executives who pleaded guilty to misdemeanor misbranding; none served prison time', type: 'legal' },
-     { date: '2008', event: 'THE SACKLER FAMILY: The Sackler family, which privately owned Purdue Pharma, extracted over $10 billion from the company between 2008 and 2018 as the crisis intensified', type: 'political' },
+     { date: '2008', event: 'THE SACKLER FAMILY: The Sackler family, which privately owned Purdue Pharma, extracted over $10 billion from the company between 2008 and 2018 as the crisis intensified', type: 'political' }
    ],
   },
   'operation-ajax-iran-coup-1953': {
@@ -669,18 +659,17 @@ const investigations_o: Record<string, InvestigationData> = {
       'THE COUP OPERATION: CIA officer Kermit Roosevelt Jr. (grandson of Theodore Roosevelt) directed the operation from inside Iran. The CIA spent approximately $1 million funding anti-Mossadegh propaganda, bribing journalists, religious leaders, politicians, and military officers, and organizing street mobs. The first coup attempt on August 15, 1953 failed when Mossadegh learned of the plot; the Shah fled to Rome. Roosevelt improvised a second attempt on August 19, organizing paid mobs to create chaos in Tehran while bribed military units arrested Mossadegh and seized key installations. Mossadegh was arrested, tried by a military court, and sentenced to three years in prison followed by house arrest until his death in 1967.',
       'THE SHAH\'S DICTATORSHIP: With Mossadegh removed, the Shah consolidated authoritarian power. A new oil consortium gave American companies 40% of Iranian oil (previously 0%), with Britain retaining 40%. The Shah\'s secret police, SAVAK; trained by the CIA and Israeli Mossad; became one of the most feared intelligence agencies in the Middle East, employing systematic torture and operating an extensive surveillance network. The Shah modernized Iran\'s infrastructure while crushing all political dissent, creating the conditions for explosive revolutionary change.',
       'THE ISLAMIC REVOLUTION CONNECTION: The 1979 Islamic Revolution that overthrew the Shah was a direct consequence of the 1953 coup. By destroying Iran\'s democratic institutions and secular political opposition, the coup ensured that when Iranians finally revolted against the Shah\'s dictatorship, the only organized opposition force was the religious establishment led by Ayatollah Ruhollah Khomeini. The seizure of the U.S. Embassy and the 444-day hostage crisis that followed were explicitly framed by Iranian revolutionaries as retribution for the 1953 coup. The CIA\'s short-term success in 1953 created the geopolitical crisis that has defined U.S.-Iran relations for over four decades.',
-      'BELATED ACKNOWLEDGMENT: The CIA did not officially acknowledge its role in the coup until 2013, when declassified documents confirmed the agency\'s operational role. In 2000, Secretary of State Madeleine Albright acknowledged American involvement, stating that the coup was "clearly a setback for Iran\'s political development." The full CIA history of the operation, written in 1954 by Donald Wilber, was obtained by the New York Times in 2000. It remains the most extensively documented CIA covert regime change operation; and a case study in how intelligence operations driven by corporate and geopolitical interests can produce catastrophic unintended consequences spanning generations.',
+      'BELATED ACKNOWLEDGMENT: The CIA did not officially acknowledge its role in the coup until 2013, when declassified documents confirmed the agency\'s operational role. In 2000, Secretary of State Madeleine Albright acknowledged American involvement, stating that the coup was "clearly a setback for Iran\'s political development." The full CIA history of the operation, written in 1954 by Donald Wilber, was obtained by the New York Times in 2000. It remains the most extensively documented CIA covert regime change operation; and a case study in how intelligence operations driven by corporate and geopolitical interests can produce catastrophic unintended consequences spanning generations.'
     ],
     tags: ['Operation Ajax', 'Iran', 'CIA', 'MI6', 'Mossadegh', 'Oil Nationalization', 'Shah', 'Islamic Revolution', 'Cold War'],
     sources: [
       { title: 'CIA Declassified Ajax Documents (2013)', url: 'https://www.cia.gov/readingroom/', type: 'Declassified Document' },
       { title: 'Donald Wilber CIA History (NYT 2000)', url: 'https://www.nytimes.com/', type: 'Declassified Document' },
       { title: 'National Security Archive: Iran', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
-      { title: 'Ervand Abrahamian: The Coup', url: 'https://thenewpress.com/', type: 'Academic Research' },
+      { title: 'Ervand Abrahamian: The Coup', url: 'https://thenewpress.com/', type: 'Academic Research' }
     ],
     affiliations: [
-      { id: '1', name: 'CIA', type: 'agency', relationship: 'Directed Operation Ajax; spent $1M+ on propaganda, bribes, and mob organization; orchestrated overthrow of democratic government', href: '/entities/agencies/cia' },
-      { id: 'department-of-justice', name: 'Department of Justice', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/doj' },
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Directed Operation Ajax; spent $1M+ on propaganda, bribes, and mob organization; orchestrated overthrow of democratic government', href: '/entities/agencies/cia' }
     ],
    eventOriginDate: '1908-01-01',
    lastActivityDate: '2025-02-14',
@@ -694,7 +683,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1967', event: 'Mossadegh was arrested, tried by a military court, and sentenced to three years in prison followed by house arrest until his death in 1967', type: 'legal' },
      { date: '1979', event: 'THE ISLAMIC REVOLUTION CONNECTION: The 1979 Islamic Revolution that overthrew the Shah was a direct consequence of the 1953 coup', type: 'default' },
      { date: '2000', event: 'In 2000, Secretary of State Madeleine Albright acknowledged American involvement, stating that the coup was "clearly a setback for Iran\'s political development." The full CIA history of the operati...', type: 'default' },
-     { date: '2013', event: 'BELATED ACKNOWLEDGMENT: The CIA did not officially acknowledge its role in the coup until 2013, when declassified documents confirmed the agency\'s operational role', type: 'political' },
+     { date: '2013', event: 'BELATED ACKNOWLEDGMENT: The CIA did not officially acknowledge its role in the coup until 2013, when declassified documents confirmed the agency\'s operational role', type: 'political' }
    ],
   },
   'ocean-pollution-industrial-scale': {
@@ -710,19 +699,17 @@ const investigations_o: Record<string, InvestigationData> = {
       'DEAD ZONES AND AGRICULTURAL RUNOFF: Over 500 oceanic dead zones; areas where oxygen levels are too low to support marine life; have been identified worldwide, covering more than 245,000 square kilometers. The Gulf of Mexico dead zone, fueled by agricultural runoff from the Mississippi River basin, regularly exceeds 15,000 square kilometers. Nitrogen and phosphorus from fertilizers, concentrated animal feeding operations, and municipal sewage create algal blooms that consume oxygen as they decompose. The dead zone in the Baltic Sea is the largest in the world and has been expanding for decades despite international agreements to reduce nutrient inputs.',
       'INDUSTRIAL AND CHEMICAL CONTAMINATION: Industrial facilities discharge heavy metals, persistent organic pollutants, and chemical waste into waterways that ultimately reach the ocean. The Fukushima nuclear disaster released radioactive water that Japan began discharging into the Pacific in 2023. Mercury from coal-fired power plants accumulates in marine food chains; making tuna, swordfish, and other top predators dangerous for human consumption. PFAS ("forever chemicals") have been detected in marine organisms worldwide, from polar bears to deep-sea fish. Legacy contamination from decades of industrial dumping persists in sediments that continue releasing toxins.',
       'DEEP-SEA MINING THREAT: The International Seabed Authority is considering permits for deep-sea mining of polymetallic nodules containing cobalt, nickel, and manganese. Mining would involve vacuuming nodules from the abyssal plain at depths of 4,000-6,000 meters; destroying ecosystems that have evolved over millions of years and are almost entirely unstudied. Sediment plumes from mining operations would blanket vast areas of the ocean floor. Scientists have warned that deep-sea mining could cause irreversible damage to ecosystems we barely understand; yet commercial pressure driven by demand for battery metals is pushing toward rapid exploitation.',
-      'REGULATORY FAILURE: Ocean pollution governance is fragmented across international bodies, national regulations, and voluntary agreements. The UN\'s International Maritime Organization regulates shipping but has limited enforcement capacity. The London Convention prohibits ocean dumping but exempts many forms of waste. No binding international treaty addresses plastic pollution comprehensively, though negotiations began in 2022. In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020. The fundamental problem; oceans belong to no single nation yet absorb pollution from all of them; ensures that accountability gaps persist.',
+      'REGULATORY FAILURE: Ocean pollution governance is fragmented across international bodies, national regulations, and voluntary agreements. The UN\'s International Maritime Organization regulates shipping but has limited enforcement capacity. The London Convention prohibits ocean dumping but exempts many forms of waste. No binding international treaty addresses plastic pollution comprehensively, though negotiations began in 2022. In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020. The fundamental problem; oceans belong to no single nation yet absorb pollution from all of them; ensures that accountability gaps persist.'
     ],
     tags: ['Ocean Pollution', 'Plastic Waste', 'Dead Zones', 'Marine Ecosystem', 'Deep-Sea Mining', 'Agricultural Runoff', 'Environmental Crime'],
     sources: [
       { title: 'NOAA Marine Debris Research', url: 'https://marinedebris.noaa.gov/', type: 'Government Report' },
       { title: 'UN Environment Programme Marine Litter Report', url: 'https://www.unep.org/', type: 'International Report' },
       { title: 'Science: Global Ocean Dead Zones', url: 'https://www.science.org/', type: 'Academic Research' },
-      { title: 'Ocean Conservancy Annual Reports', url: 'https://oceanconservancy.org/', type: 'Policy Research' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'Ocean Conservancy Annual Reports', url: 'https://oceanconservancy.org/', type: 'Policy Research' }
     ],
     affiliations: [
-      { id: '1', name: 'EPA', type: 'agency', relationship: 'Weakened Clean Water Act enforcement; 50% decline in enforcement actions 2006-2020', href: '/entities/agencies/epa' },
-      { id: 'department-of-justice', name: 'Department of Justice', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/doj' },
+      { id: '1', name: 'EPA', type: 'agency', relationship: 'Weakened Clean Water Act enforcement; 50% decline in enforcement actions 2006-2020', href: '/entities/agencies/epa' }
     ],
    eventOriginDate: '2006-01-01',
    lastActivityDate: '2024-01-09',
@@ -731,7 +718,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2006', event: 'In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020.', type: 'default' },
      { date: '2020', event: 'In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020.', type: 'default' },
      { date: '2022', event: 'No binding international treaty addresses plastic pollution comprehensively, though negotiations began in 2022.', type: 'default' },
-     { date: '2023', event: 'The Fukushima nuclear disaster released radioactive water that Japan began discharging into the Pacific in 2023.', type: 'critical' },
+     { date: '2023', event: 'The Fukushima nuclear disaster released radioactive water that Japan began discharging into the Pacific in 2023.', type: 'critical' }
      ],
   },
   'oil-spill-cover-up-history': {
@@ -747,20 +734,19 @@ const investigations_o: Record<string, InvestigationData> = {
       'DEEPWATER HORIZON DECEPTION: During the 2010 Deepwater Horizon disaster, BP initially estimated the flow rate at 1,000 barrels per day. The actual rate was later determined to be approximately 60,000 barrels per day; a factor of 60 undercount. BP resisted independent measurement of the flow rate and used its control of access to the disaster site to manage information. The company applied nearly 2 million gallons of Corexit dispersant, much of it at the wellhead, which didn\'t eliminate the oil but sank it below the surface; where it was less visible to cameras but equally devastating to deep-water ecosystems. Independent scientists were denied access to the spill site for weeks.',
       'HEALTH IMPACT SUPPRESSION: Both Exxon and BP engaged in systematic efforts to minimize documented health impacts on workers and communities. BP\'s cleanup workers were initially denied respiratory protection. Studies funded by BP found minimal long-term health effects, while independent research documented significantly elevated rates of respiratory illness, neurological symptoms, and mental health disorders among cleanup workers and coastal residents. The National Institute of Environmental Health Sciences\' GuLF STUDY; the largest study of oil spill workers; found significantly elevated risks of respiratory symptoms, depression, and PTSD among Deepwater Horizon workers.',
       'NIGERIA AND THE DEVELOPING WORLD: While American spills receive media attention, the Niger Delta has experienced the equivalent of an Exxon Valdez spill every year for over 50 years. Shell and other oil companies operating in Nigeria have spilled an estimated 1.89 million barrels in the Niger Delta since 1976; contaminating farmland, fishing waters, and drinking water for millions of people. Shell consistently blamed sabotage and theft for spills that communities attributed to corroded infrastructure and negligent maintenance. United Nations Environment Programme studies found benzene contamination in community drinking water at levels 900 times above WHO guidelines.',
-      'SYSTEMIC LIABILITY AVOIDANCE: The oil industry has developed sophisticated legal and public relations strategies to minimize spill liability. Companies fund their own environmental studies designed to show minimal impact, delay litigation until communities run out of resources, and structure corporate entities to shield parent companies from subsidiary liability. The Oil Pollution Act of 1990, passed after Exxon Valdez, capped liability at $75 million for offshore facilities; a cap that BP technically exceeded but that illustrates the industry\'s success in limiting legal exposure. The industry spends approximately $200 million annually on lobbying and has successfully blocked proposals for mandatory spill prevention equipment that would reduce but not eliminate catastrophic failures.',
+      'SYSTEMIC LIABILITY AVOIDANCE: The oil industry has developed sophisticated legal and public relations strategies to minimize spill liability. Companies fund their own environmental studies designed to show minimal impact, delay litigation until communities run out of resources, and structure corporate entities to shield parent companies from subsidiary liability. The Oil Pollution Act of 1990, passed after Exxon Valdez, capped liability at $75 million for offshore facilities; a cap that BP technically exceeded but that illustrates the industry\'s success in limiting legal exposure. The industry spends approximately $200 million annually on lobbying and has successfully blocked proposals for mandatory spill prevention equipment that would reduce but not eliminate catastrophic failures.'
     ],
     tags: ['Oil Spill', 'Exxon Valdez', 'Deepwater Horizon', 'BP', 'Shell', 'Corporate Cover-Up', 'Environmental Crime', 'Niger Delta'],
     sources: [
       { title: 'National Commission on the BP Deepwater Horizon', url: 'https://www.govinfo.gov/', type: 'Government Report' },
       { title: 'NIEHS GuLF STUDY', url: 'https://gulfstudy.nih.gov/', type: 'Academic Research' },
       { title: 'UNEP Niger Delta Environmental Assessment', url: 'https://www.unep.org/', type: 'International Report' },
-      { title: 'Congressional Research Service: Oil Spill Liability', url: 'https://crsreports.congress.gov/', type: 'Congressional Report' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'Congressional Research Service: Oil Spill Liability', url: 'https://crsreports.congress.gov/', type: 'Congressional Report' }
     ],
     affiliations: [
       { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Exxon Valdez spill; spent 20 years reducing $5B punitive damages to $507M; funded minimizing health studies', href: '/entities/corporations/exxonmobil' },
       { id: '2', name: 'BP', type: 'corporation', relationship: 'Deepwater Horizon; underreported flow rate by 60x; applied 2M gallons dispersant to hide oil; denied worker protections', href: '/entities/corporations/bp-corporation' },
-      { id: '3', name: 'EPA', type: 'agency', relationship: 'Approved Corexit dispersant use despite toxicity concerns; inadequate long-term monitoring of spill impacts', href: '/entities/agencies/epa' },
+      { id: '3', name: 'EPA', type: 'agency', relationship: 'Approved Corexit dispersant use despite toxicity concerns; inadequate long-term monitoring of spill impacts', href: '/entities/agencies/epa' }
     ],
    eventOriginDate: '1976-01-01',
    lastActivityDate: '2020-08-14',
@@ -770,7 +756,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1989-03-24', event: 'EXXON VALDEZ COVER-UP: When the Exxon Valdez ran aground on March 24, 1989, spilling 11 million gallons of crude oil into Prince William Sound, Exxon initially claimed the spill was manageable and', type: 'financial' },
      { date: '1990', event: 'The Oil Pollution Act of 1990, passed after Exxon Valdez, capped liability at $75 million for offshore facilities; a cap that BP technically exceeded but that illustrates the industry\'s success in ...', type: 'financial' },
      { date: '2008', event: 'A jury awarded $5 billion in punitive damages, which Exxon spent 20 years appealing until the Supreme Court reduced the amount to $507 million in 2008', type: 'legal' },
-     { date: '2010', event: 'DEEPWATER HORIZON DECEPTION: During the 2010 Deepwater Horizon disaster, BP initially estimated the flow rate at 1,000 barrels per day', type: 'default' },
+     { date: '2010', event: 'DEEPWATER HORIZON DECEPTION: During the 2010 Deepwater Horizon disaster, BP initially estimated the flow rate at 1,000 barrels per day', type: 'default' }
    ],
   },
   'operation-mockingbird-modern-successors': {
@@ -786,19 +772,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'STRATEGIC LEAK ARCHITECTURE: The modern intelligence-media relationship operates through strategic unauthorized disclosures rather than formal recruitment. Intelligence officials selectively leak classified information to trusted journalists to advance institutional objectives; whether building public support for operations, undermining political adversaries, or responding to perceived threats. The leaks surrounding the Russia investigation, the WikiLeaks prosecutions, and foreign surveillance programs all demonstrated how intelligence agencies use media relationships strategically while officially condemning unauthorized disclosures.',
       'SOCIAL MEDIA ERA: Declassified documents and whistleblower revelations have shown intelligence community involvement in social media content moderation. The "Twitter Files" released in 2022-2023 revealed regular communications between FBI agents and Twitter employees about content flagging. The Stanford Internet Observatory and similar entities received funding from intelligence-connected sources while advising platforms on content moderation. The DHS\'s Disinformation Governance Board, announced and quickly withdrawn in 2022, demonstrated the government\'s interest in formally managing online narratives.',
       'NATIONAL SECURITY JOURNALISM: A class of "national security journalists" has emerged who depend on intelligence community sources for access and scoops. This dependency creates inherent conflicts; reporters who publish stories embarrassing to the intelligence community risk losing the access their careers depend on. The prosecution of whistleblowers under the Espionage Act (more under Obama than all previous presidents combined) while strategic leaks by senior officials go unpunished creates a two-tier system where only government-approved disclosures flow to the media.',
-      'INSTITUTIONAL PERSISTENCE: CIA Director William Casey reportedly told a congressional committee in 1981 that the CIA\'s disinformation program would be complete "when everything the American public believes is false." While the quote\'s provenance is debated, the intelligence community\'s documented history of media manipulation; from Mockingbird to modern social media influence; demonstrates that the machinery for shaping public narratives never disappeared. It adapted to new technologies and media landscapes while operating through less formal but potentially more effective mechanisms than the direct recruitment of the Mockingbird era.',
+      'INSTITUTIONAL PERSISTENCE: CIA Director William Casey reportedly told a congressional committee in 1981 that the CIA\'s disinformation program would be complete "when everything the American public believes is false." While the quote\'s provenance is debated, the intelligence community\'s documented history of media manipulation; from Mockingbird to modern social media influence; demonstrates that the machinery for shaping public narratives never disappeared. It adapted to new technologies and media landscapes while operating through less formal but potentially more effective mechanisms than the direct recruitment of the Mockingbird era.'
     ],
     tags: ['Media Manipulation', 'Intelligence Community', 'CIA', 'FBI', 'Social Media', 'National Security State', 'Propaganda'],
     sources: [
       { title: 'Twitter Files Releases (2022-2023)', url: 'https://twitterfiles.com/', type: 'Primary Document' },
       { title: 'The Intercept: Intelligence and Media', url: 'https://theintercept.com/', type: 'Investigative Report' },
       { title: 'Columbia Journalism Review: National Security Reporting', url: 'https://www.cjr.org/', type: 'Media Analysis' },
-      { title: 'Senate Intelligence Committee Annual Reports', url: 'https://www.intelligence.senate.gov/', type: 'Congressional Record' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'Senate Intelligence Committee Annual Reports', url: 'https://www.intelligence.senate.gov/', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical media influence through Mockingbird; modern relationships through revolving door and strategic leaks', href: '/entities/agencies/cia' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Regular communications with social media platforms for content flagging; documented in Twitter Files', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Regular communications with social media platforms for content flagging; documented in Twitter Files', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-07-24',
@@ -807,7 +792,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1981', event: 'INSTITUTIONAL PERSISTENCE: CIA Director William Casey reportedly told a congressional committee in 1981 that the CIA\'s disinformation program would be complete "when everything the American public ...', type: 'political' },
      { date: '2016', event: 'THE REVOLVING DOOR: Following the 2016 election and the rise of "Russiagate" coverage, cable news networks hired an unprecedented number of former intelligence officials as paid contributors', type: 'political' },
      { date: '2022', event: 'The "Twitter Files" released in 2022-2023 revealed regular communications between FBI agents and Twitter employees about content flagging', type: 'default' },
-     { date: '2022', event: 'The DHS\'s Disinformation Governance Board, announced and quickly withdrawn in 2022, demonstrated the government\'s interest in formally managing online narratives', type: 'default' },
+     { date: '2022', event: 'The DHS\'s Disinformation Governance Board, announced and quickly withdrawn in 2022, demonstrated the government\'s interest in formally managing online narratives', type: 'default' }
    ],
   },
   'off-label-drug-promotion-violations': {
@@ -823,20 +808,19 @@ const investigations_o: Record<string, InvestigationData> = {
       'RECORD SETTLEMENTS: The penalties for off-label promotion have been among the largest in corporate legal history. GlaxoSmithKline paid $3 billion in 2012 for promoting Paxil for children (unapproved), Wellbutrin for weight loss and sexual dysfunction (unapproved), and Avandia while suppressing safety data. Pfizer paid $2.3 billion in 2009 for promoting Bextra for surgical pain (unapproved) and other drugs. Johnson & Johnson paid $2.2 billion in 2013 for promoting Risperdal for elderly dementia patients and children (both unapproved). Abbott Laboratories paid $1.5 billion in 2012 for promoting Depakote for agitation in elderly dementia patients.',
       'HARM TO PATIENTS: Off-label promotion has caused direct patient harm. Risperdal, promoted for elderly dementia patients, was found to increase their risk of death. Johnson & Johnson also concealed evidence that Risperdal caused gynecomastia (breast growth) in boys. Pfizer\'s Bextra, promoted for surgical pain management, was ultimately withdrawn from the market due to cardiovascular risks. AstraZeneca promoted its antipsychotic Seroquel for insomnia, anxiety, and depression; none FDA-approved; while the drug carried risks of diabetes, weight gain, and metabolic syndrome.',
       'COST OF DOING BUSINESS: Despite billions in fines, off-label promotion remains rational from a corporate perspective because the revenue generated exceeds the penalties. Pfizer\'s $2.3 billion fine for Bextra represented approximately two and a half weeks of company revenue. No pharmaceutical CEO has been sentenced to prison for off-label promotion. Companies routinely sign Corporate Integrity Agreements pledging not to repeat violations, then violate them. Pfizer has paid settlements for off-label promotion multiple times; the 2009 settlement was its fourth such penalty, and it signed a new Corporate Integrity Agreement each time.',
-      'SYSTEMIC ENABLERS: The off-label promotion system depends on an ecosystem of enablers. Pharmaceutical companies fund continuing medical education (CME) programs that promote off-label uses under the guise of education. Key opinion leaders (KOLs); physicians paid by drug companies; present at conferences and publish papers supporting off-label uses. Medical journals publish industry-funded studies designed to support off-label prescribing. Ghostwritten articles; where pharmaceutical company employees write papers published under physicians\' names; have been documented in multiple whistleblower cases. The FDA\'s enforcement capacity is limited; it cannot prevent physicians from prescribing off-label, and its ability to police corporate promotion is constrained by First Amendment legal challenges from the industry.',
+      'SYSTEMIC ENABLERS: The off-label promotion system depends on an ecosystem of enablers. Pharmaceutical companies fund continuing medical education (CME) programs that promote off-label uses under the guise of education. Key opinion leaders (KOLs); physicians paid by drug companies; present at conferences and publish papers supporting off-label uses. Medical journals publish industry-funded studies designed to support off-label prescribing. Ghostwritten articles; where pharmaceutical company employees write papers published under physicians\' names; have been documented in multiple whistleblower cases. The FDA\'s enforcement capacity is limited; it cannot prevent physicians from prescribing off-label, and its ability to police corporate promotion is constrained by First Amendment legal challenges from the industry.'
     ],
     tags: ['Off-Label Promotion', 'Pharmaceutical Fraud', 'FDA', 'Patient Safety', 'Corporate Settlements', 'Pfizer', 'GlaxoSmithKline'],
     sources: [
       { title: 'DOJ Pharma Fraud Settlements', url: 'https://www.justice.gov/', type: 'Court Record' },
       { title: 'FDA Off-Label Promotion Guidance', url: 'https://www.fda.gov/', type: 'Government Report' },
       { title: 'Public Citizen: Pharmaceutical Industry Criminal Fines', url: 'https://www.citizen.org/', type: 'Policy Research' },
-      { title: 'ProPublica: Dollars for Docs', url: 'https://www.propublica.org/', type: 'Investigative Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'ProPublica: Dollars for Docs', url: 'https://www.propublica.org/', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Limited enforcement capacity; regulatory authority challenged by First Amendment arguments from pharma industry', href: '/entities/agencies/fda' },
       { id: '2', name: 'Pfizer', type: 'corporation', relationship: 'Paid $2.3B for Bextra off-label promotion (2009); its fourth such settlement; signed repeated Corporate Integrity Agreements', href: '/entities/corporations/pfizer' },
-      { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Paid $2.2B for promoting Risperdal off-label for elderly and children; concealed gynecomastia risk in boys', href: '/entities/corporations/johnson-and-johnson' },
+      { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Paid $2.2B for promoting Risperdal off-label for elderly and children; concealed gynecomastia risk in boys', href: '/entities/corporations/johnson-and-johnson' }
     ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-09-27',
@@ -846,7 +830,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2009', event: 'Pfizer has paid settlements for off-label promotion multiple times; the 2009 settlement was its fourth such penalty, and it signed a new Corporate Integrity Agreement each time', type: 'financial' },
      { date: '2012', event: 'GlaxoSmithKline paid $3 billion in 2012 for promoting Paxil for children (unapproved), Wellbutrin for weight loss and sexual dysfunction (unapproved), and Avandia while suppressing safety data', type: 'political' },
      { date: '2012', event: 'Abbott Laboratories paid $1.5 billion in 2012 for promoting Depakote for agitation in elderly dementia patients', type: 'political' },
-     { date: '2013', event: 'Johnson & Johnson paid $2.2 billion in 2013 for promoting Risperdal for elderly dementia patients and children (both unapproved)', type: 'political' },
+     { date: '2013', event: 'Johnson & Johnson paid $2.2 billion in 2013 for promoting Risperdal for elderly dementia patients and children (both unapproved)', type: 'political' }
    ],
   },
   'online-radicalization-pipeline-architecture': {
@@ -862,19 +846,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'FACEBOOK\'S GROUP PROBLEM: Facebook\'s group recommendation system actively suggested extremist groups to users who joined related communities. Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own researchers found the platform\'s algorithms were "exploiting the human brain\'s attraction to divisiveness" and that 64% of all extremist group joins were due to Facebook\'s recommendation tools. The platform\'s groups served as organizational infrastructure for the January 6 insurrection; the "Stop the Steal" group gained over 300,000 members in 48 hours before Facebook shut it down.',
       'MASS VIOLENCE CONNECTION: Multiple mass shooters and terrorists were radicalized through online platforms. The Christchurch, New Zealand shooter (51 killed) was radicalized on 8chan and live-streamed the attack on Facebook. The El Paso Walmart shooter (23 killed) posted a manifesto on 8chan minutes before the attack. The Buffalo supermarket shooter (10 killed) was radicalized on Discord and 4chan. The Pittsburgh Tree of Life synagogue shooter (11 killed) was active on Gab. In each case, platform algorithms or community structures facilitated the progression from grievance to ideology to operational planning.',
       'PLATFORM KNOWLEDGE AND INACTION: Internal documents from Meta, Google, and Twitter (now X) show that these companies were aware their platforms facilitated radicalization but prioritized engagement metrics over safety. Facebook\'s 2018 internal research found that 1 in 3 German Facebook users who joined an extremist group did so because of Facebook\'s recommendations. YouTube\'s own researchers warned that the recommendation algorithm created "filter bubbles" that could lead to radicalization. In both cases, meaningful changes were delayed or diluted because reducing extreme content would reduce engagement; and engagement drove advertising revenue.',
-      'REGULATORY VACUUM: Despite mounting evidence of algorithmic radicalization, no comprehensive U.S. legislation addresses the role of recommendation algorithms in extremism. Section 230 of the Communications Decency Act shields platforms from liability for user-generated content and; courts have generally held; for algorithmic amplification of that content. The EU\'s Digital Services Act (2022) requires platforms to assess and mitigate systemic risks including radicalization, representing the most significant regulatory response. In the U.S., congressional hearings have produced visibility but not legislation, and the platforms\' $70 million annual lobbying expenditure has helped prevent binding regulation of algorithmic amplification.',
+      'REGULATORY VACUUM: Despite mounting evidence of algorithmic radicalization, no comprehensive U.S. legislation addresses the role of recommendation algorithms in extremism. Section 230 of the Communications Decency Act shields platforms from liability for user-generated content and; courts have generally held; for algorithmic amplification of that content. The EU\'s Digital Services Act (2022) requires platforms to assess and mitigate systemic risks including radicalization, representing the most significant regulatory response. In the U.S., congressional hearings have produced visibility but not legislation, and the platforms\' $70 million annual lobbying expenditure has helped prevent binding regulation of algorithmic amplification.'
     ],
     tags: ['Online Radicalization', 'Algorithm', 'YouTube', 'Facebook', 'Mass Shootings', 'Extremism', 'Section 230', 'QAnon'],
     sources: [
       { title: 'Frances Haugen Facebook Files', url: 'https://www.wsj.com/articles/facebook-files-11632268660', type: 'Whistleblower Document' },
       { title: 'NYU Stern Center for Business and Human Rights', url: 'https://bhr.stern.nyu.edu/', type: 'Academic Research' },
       { title: 'Chaslot: YouTube Algorithm Study', url: 'https://algotransparency.org/', type: 'Academic Research' },
-      { title: 'Senate Commerce Committee Tech Hearings', url: 'https://www.commerce.senate.gov/', type: 'Congressional Record' },
-      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
+      { title: 'Senate Commerce Committee Tech Hearings', url: 'https://www.commerce.senate.gov/', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation algorithm systematically directed users toward extremist content; company delayed safety changes to protect engagement', href: '/entities/corporations/google' },
-      { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook groups facilitated radicalization; 64% of extremist group joins from recommendations; Stop the Steal infrastructure', href: '/entities/corporations/meta-platforms' },
+      { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook groups facilitated radicalization; 64% of extremist group joins from recommendations; Stop the Steal infrastructure', href: '/entities/corporations/meta-platforms' }
     ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-07-20',
@@ -883,7 +866,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2018', event: 'Facebook\'s 2018 internal research found that 1 in 3 German Facebook users who joined an extremist group did so because of Facebook\'s recommendations', type: 'default' },
      { date: '2019', event: 'A 2019 study found that users who watched conservative political content were progressively recommended conspiracy theories, white nationalist material, and extremist propaganda', type: 'default' },
      { date: '2021', event: 'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own researchers found the platform\'s algorithms were "exploiting the human brain\'s attraction to divisiven...', type: 'default' },
-     { date: '2022', event: 'The EU\'s Digital Services Act (2022) requires platforms to assess and mitigate systemic risks including radicalization, representing the most significant regulatory response', type: 'default' },
+     { date: '2022', event: 'The EU\'s Digital Services Act (2022) requires platforms to assess and mitigate systemic risks including radicalization, representing the most significant regulatory response', type: 'default' }
    ],
   },
   'online-platform-trafficking-facilitation': {
@@ -899,19 +882,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'SOCIAL MEDIA RECRUITMENT: Traffickers use social media platforms to identify, groom, and recruit victims; particularly minors. A 2021 report by the Human Trafficking Institute found that Facebook was used in 59% of online sex trafficking recruitment cases involving minors. Instagram, Snapchat, and TikTok have also been used for recruitment. Traffickers target vulnerable users; runaways, foster youth, those expressing loneliness or financial desperation; through direct messages and false promises of relationships, modeling opportunities, or employment. Platform detection and removal of trafficking content remains inconsistent.',
       'FOSTA-SESTA AND ITS CONSEQUENCES: The Allow States and Victims to Fight Online Sex Trafficking Act (FOSTA) and Stop Enabling Sex Traffickers Act (SESTA), signed into law in 2018, created exceptions to Section 230 immunity for platforms that knowingly facilitate sex trafficking. The laws drove trafficking off mainstream platforms but had significant unintended consequences; sex workers who had used platforms like Craigslist for safer client screening were pushed into more dangerous street-based work. Public health organizations reported that the laws made it harder to reach trafficking victims and sex workers with services. The debate between platform accountability and harm reduction remains unresolved.',
       'ENCRYPTED MESSAGING AND DARK WEB: Trafficking operations increasingly use encrypted messaging platforms (WhatsApp, Telegram, Signal) and dark web marketplaces to coordinate operations beyond law enforcement detection. Telegram channels selling access to trafficking victims have been documented by researchers and journalists. Dark web forums facilitate both sex trafficking and labor trafficking, including the sale of stolen identities used to traffic workers into forced labor. Law enforcement capabilities to investigate encrypted trafficking networks are limited, and end-to-end encryption debates pit child safety concerns against privacy rights.',
-      'LABOR TRAFFICKING ONLINE: While sex trafficking dominates public attention, online platforms also facilitate labor trafficking. Fraudulent job listings on legitimate platforms recruit victims into forced labor in agriculture, construction, domestic service, and manufacturing. Visa fraud schemes are advertised on foreign-language social media groups. Gig economy platforms have been implicated in labor exploitation; where the line between extreme exploitation and trafficking blurs. The International Labour Organization estimates 27.6 million people are in forced labor worldwide; online platforms facilitate recruitment for a significant and growing portion of these cases.',
+      'LABOR TRAFFICKING ONLINE: While sex trafficking dominates public attention, online platforms also facilitate labor trafficking. Fraudulent job listings on legitimate platforms recruit victims into forced labor in agriculture, construction, domestic service, and manufacturing. Visa fraud schemes are advertised on foreign-language social media groups. Gig economy platforms have been implicated in labor exploitation; where the line between extreme exploitation and trafficking blurs. The International Labour Organization estimates 27.6 million people are in forced labor worldwide; online platforms facilitate recruitment for a significant and growing portion of these cases.'
     ],
     tags: ['Human Trafficking', 'Backpage', 'FOSTA-SESTA', 'Social Media', 'Section 230', 'Sex Trafficking', 'Forced Labor', 'Online Exploitation'],
     sources: [
       { title: 'DOJ Backpage Indictment and Trial', url: 'https://www.justice.gov/', type: 'Court Record' },
       { title: 'Human Trafficking Institute Federal Cases Report', url: 'https://www.traffickinginstitute.org/', type: 'Policy Research' },
       { title: 'NCMEC CyberTipline Data', url: 'https://www.missingkids.org/', type: 'Government Report' },
-      { title: 'Senate Permanent Subcommittee on Investigations: Backpage', url: 'https://www.hsgac.senate.gov/', type: 'Congressional Record' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'Senate Permanent Subcommittee on Investigations: Backpage', url: 'https://www.hsgac.senate.gov/', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Backpage operators; enforces FOSTA-SESTA; coordinates federal anti-trafficking task forces', href: '/entities/agencies/doj' },
-      { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook used in 59% of online minor sex trafficking recruitment cases per Human Trafficking Institute', href: '/entities/corporations/meta-platforms' },
+      { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook used in 59% of online minor sex trafficking recruitment cases per Human Trafficking Institute', href: '/entities/corporations/meta-platforms' }
     ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2023-01-01',
@@ -919,26 +901,9 @@ const investigations_o: Record<string, InvestigationData> = {
       timeline: [
      { date: '2018', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' },
      { date: '2021', event: 'A 2021 report by the Human Trafficking Institute found that Facebook was used in 59% of online sex trafficking recruitment cases involving minors.', type: 'default' },
-     { date: '2023', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' },
+     { date: '2023', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' }
      ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   'oxford-shooting': {
     title: "Oxford High School Shooting & Parental Accountability",
@@ -956,18 +921,16 @@ const investigations_o: Record<string, InvestigationData> = {
       "THE CRUMBLEY TRIALS: James and Jennifer Crumbley were tried separately in early 2024. Both were convicted on all four counts of involuntary manslaughter. Jennifer testified that gun storage was her husband's responsibility; James blamed the school for not alerting him to the severity of his son's behavior. Each was sentenced to 10-15 years in prison. The convictions were the first time parents were held criminally liable for a mass shooting committed by their child.",
       "ETHAN CRUMBLEY'S SENTENCING: Ethan Crumbley pleaded guilty to 24 charges including first-degree murder and terrorism. In December 2023, he was sentenced to life in prison without the possibility of parole. He was 15 at the time of the crime. Michigan law permitted the judge to impose a juvenile sentence with the possibility of release at 25; but the judge determined that the severity of the crime and Crumbley's demonstrated dangerousness warranted the maximum sentence.",
       "SCHOOL LIABILITY: Investigations revealed that Oxford Community Schools had multiple opportunities to intervene. In addition to the morning-of-shooting worksheet, teachers had reported concerning behavior including searching for ammunition on his phone during class. The school did not search Crumbley's backpack (which contained the gun), did not pull him from class, and returned him to the general population. Families of victims sued the school district.",
-      "LEGAL PRECEDENT: The Crumbley convictions created a new legal framework for parental accountability in gun violence. Prosecutors in other jurisdictions have cited the case when pursuing charges against parents whose children committed shootings. The precedent raises significant questions about the scope of parental liability, the definition of gross negligence, and whether criminal prosecution is the appropriate mechanism for addressing irresponsible gun storage.",
+      "LEGAL PRECEDENT: The Crumbley convictions created a new legal framework for parental accountability in gun violence. Prosecutors in other jurisdictions have cited the case when pursuing charges against parents whose children committed shootings. The precedent raises significant questions about the scope of parental liability, the definition of gross negligence, and whether criminal prosecution is the appropriate mechanism for addressing irresponsible gun storage."
     ],
     tags: ["School Shooting","Oxford","Parental Accountability","Gun Violence","Ethan Crumbley","Legal Precedent"],
     sources: [
       { title: "Oakland County Court Records", url: "https://www.oakgov.com/courts", type: "Court Document" },
       { title: "Oakland County Prosecutor Press Releases", url: "https://www.oakgov.com/prosecutor", type: "Government" },
-      { title: "Detroit Free Press Investigation", url: "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting", type: "Investigation" },
-      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
+      { title: "Detroit Free Press Investigation", url: "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting", type: "Investigation" }
     ],
     affiliations: [
-      { id: '1', name: 'FBI', type: 'agency', relationship: 'Federal investigation authority for mass violence incidents', href: '/entities/agencies/fbi' },
-      { id: 'bureau-of-alcohol-tobacco-firearms-and-explosives', name: 'Bureau of Alcohol Tobacco Firearms and Explosives', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/atf' },
+      { id: '1', name: 'FBI', type: 'agency', relationship: 'Federal investigation authority for mass violence incidents', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '2021-11-30',
    lastActivityDate: '2026-03-21',
@@ -978,7 +941,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2021-11-30', event: 'On November 30, 2021, Ethan Crumbley, 15, killed four students and wounded seven others at Oxford High School in Michigan.', type: 'critical' },
      { date: '2023', event: 'In December 2023, he was sentenced to life in prison without the possibility of parole.', type: 'legal' },
      { date: '2023-12', event: 'In December 2023, he was sentenced to life in prison without the possibility of parole.', type: 'legal' },
-     { date: '2024', event: 'THE CRUMBLEY TRIALS: James and Jennifer Crumbley were tried separately in early 2024.', type: 'default' },
+     { date: '2024', event: 'THE CRUMBLEY TRIALS: James and Jennifer Crumbley were tried separately in early 2024.', type: 'default' }
    ],
   },
   'oversight-abuse': {
@@ -997,18 +960,19 @@ const investigations_o: Record<string, InvestigationData> = {
       "POLITICAL THEATER: Congressional hearings have increasingly become performance opportunities designed for social media clips rather than fact-finding. Members use their five-minute questioning periods for speeches and gotcha moments. Committee chairs schedule hearings to coincide with news cycles and political objectives. The hearing format; with members asking questions they already know the answers to; produces theater rather than investigation.",
       "PROTECTING THE POWERFUL: The flip side of weaponized oversight is the absence of oversight when it would be politically uncomfortable. Congress failed to seriously investigate the 2008 financial crisis, was slow to investigate the intelligence failures that led to the Iraq War, and Republican leadership blocked consideration of the January 6 commission before the Select Committee was formed.",
       "CONTEMPT OF CONGRESS: The contempt of Congress power has been applied inconsistently based on partisan allegiance. Republicans pursued contempt against Attorney General Eric Holder and Steve Bannon was prosecuted for defying a January 6 subpoena. But numerous Trump administration officials who defied congressional subpoenas faced no consequences; demonstrating that enforcement depends on political will rather than legal obligation.",
-      "INSTITUTIONAL DAMAGE: The weaponization of oversight has degraded Congress's ability to perform its Constitutional function. Witnesses are less willing to cooperate knowing they may be attacked for political purposes. Executive branch officials assert increasingly broad claims of privilege. Public trust in congressional investigations has collapsed. The oversight tools designed to hold power accountable now serve to shield it.",
+      "INSTITUTIONAL DAMAGE: The weaponization of oversight has degraded Congress's ability to perform its Constitutional function. Witnesses are less willing to cooperate knowing they may be attacked for political purposes. Executive branch officials assert increasingly broad claims of privilege. Public trust in congressional investigations has collapsed. The oversight tools designed to hold power accountable now serve to shield it."
     ],
     tags: ["Congressional Oversight","Political Weaponization","Abuse of Power","Benghazi","Impeachment","Accountability"],
     sources: [
       { title: "Congressional Record", url: "https://www.congress.gov/congressional-record", type: "Government Document" },
       { title: "Brennan Center: Congressional Oversight Analysis", url: "https://www.brennancenter.org/", type: "Research" },
-      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'GAO: Government Accountability Office Reports Database', url: 'https://www.gao.gov/reports-testimonies', type: 'Government Record' },
+      { title: 'POGO: Project On Government Oversight Federal Oversight', url: 'https://www.pogo.org/investigations', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Kevin McCarthy', type: 'individual', relationship: 'Admitted on Fox News that Benghazi committee was designed to damage Hillary Clinton\'s poll numbers', href: '/entities/individuals/kevin-mccarthy' },
       { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Chair of Weaponization Subcommittee accused of using oversigth to interfere with DOJ investigations', href: '/entities/individuals/jim-jordan' },
-      { id: '3', name: 'James Comer', type: 'individual', relationship: 'Chair of House Oversight Committee who led the Biden investigations', href: '/entities/individuals/james-comer' },
+      { id: '3', name: 'James Comer', type: 'individual', relationship: 'Chair of House Oversight Committee who led the Biden investigations', href: '/entities/individuals/james-comer' }
     ],
     eventOriginDate: '2012-09-11',
     lastActivityDate: '2026-03-10',
@@ -1021,7 +985,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { date: '2021-05-19', event: 'House Republicans block creation of bipartisan January 6 commission', type: 'political' },
       { date: '2023-01-10', event: 'House Republicans create Select Subcommittee on Weaponization of the Federal Government, chaired by Jim Jordan', type: 'political' },
       { date: '2023-01-12', event: 'House Oversight Committee under James Comer opens investigation into Biden family business dealings', type: 'political' },
-      { date: '2024-08-19', event: 'House Oversight Committee concludes Biden investigation without evidence of presidential wrongdoing', type: 'political' },
+      { date: '2024-08-19', event: 'House Oversight Committee concludes Biden investigation without evidence of presidential wrongdoing', type: 'political' }
     ],
   },
   'operation-chaos': {
@@ -1040,17 +1004,17 @@ const investigations_o: Record<string, InvestigationData> = {
       "TARGETS: CHAOS targeted a wide range of Americans: civil rights leaders including Martin Luther King Jr.'s associates; anti-war activists including members of Students for a Democratic Society; journalists who reported critically on the war; and congressional staff members. The program's fundamental premise; that domestic dissent must be directed by foreign powers; was never supported by evidence; repeated assessments found no significant foreign control.",
       "THE CHURCH COMMITTEE: The program was exposed by the Church Committee (formally the Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities) in 1975. Senator Frank Church and his committee documented not only CHAOS but a sweeping range of intelligence community abuses including assassination plots, drug experiments, and warrantless surveillance. The committee's final reports remain the most comprehensive public accounting of intelligence community overreach.",
       "EXECUTIVE ORDER 12333: In response to the Church Committee's findings, President Gerald Ford issued Executive Order 11905 restricting intelligence activities; later replaced by President Reagan's Executive Order 12333, which remains the primary legal framework governing intelligence operations. Critics argue that 12333's restrictions are largely self-policed by the intelligence community and that significant domestic surveillance continued under different legal authorities; particularly after 9/11.",
-      "LEGACY: The lessons of CHAOS were largely forgotten after September 11, 2001. The NSA's warrantless wiretapping program, bulk metadata collection revealed by Edward Snowden, and the FBI's monitoring of Black Lives Matter activists and environmental groups demonstrated that domestic surveillance of political movements; particularly movements challenging government policy; continued under new names and legal frameworks.",
+      "LEGACY: The lessons of CHAOS were largely forgotten after September 11, 2001. The NSA's warrantless wiretapping program, bulk metadata collection revealed by Edward Snowden, and the FBI's monitoring of Black Lives Matter activists and environmental groups demonstrated that domestic surveillance of political movements; particularly movements challenging government policy; continued under new names and legal frameworks."
     ],
     tags: ["CIA","Domestic Surveillance","Operation CHAOS","Church Committee","Anti-War","COINTELPRO","Intelligence Abuse"],
     sources: [
       { title: "Church Committee Final Report", url: "https://www.intelligence.senate.gov/resources/intelligence-related-commissions", type: "Government Report" },
       { title: "CIA Family Jewels Documents", url: "https://www.cia.gov/readingroom/collection/family-jewels", type: "Declassified Documents" },
-      { title: "National Security Archive: Intelligence Oversight", url: "https://nsarchive.gwu.edu/", type: "Research" },
+      { title: "National Security Archive: Intelligence Oversight", url: "https://nsarchive.gwu.edu/", type: "Research" }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated CHAOS in violation of its charter prohibition on domestic operations; compiled files on 300,000+ Americans', href: '/entities/agencies/cia' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Coordinated with CIA through COINTELPRO to surveil and disrupt domestic political movements', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Coordinated with CIA through COINTELPRO to surveil and disrupt domestic political movements', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '1967-08-15',
    lastActivityDate: '2026-03-21',
@@ -1061,7 +1025,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1973', event: 'HTLINGUAL mail-opening program exposed; CIA had opened and photographed over 215,000 pieces of first-class mail since 1952', type: 'default' },
      { date: '1974', event: 'Operation CHAOS officially terminated after indexing 7,200 citizens in computerized database', type: 'default' },
      { date: '1975', event: 'Church Committee exposes CHAOS and other intelligence abuses; Senator Frank Church documents sweeping range of intelligence community overreach', type: 'political' },
-     { date: '2001-09-11', event: 'Post-9/11 expansion of domestic surveillance programs echoes CHAOS-era practices under new legal authorities including the PATRIOT Act', type: 'political' },
+     { date: '2001-09-11', event: 'Post-9/11 expansion of domestic surveillance programs echoes CHAOS-era practices under new legal authorities including the PATRIOT Act', type: 'political' }
    ],
   },
   'opioid-distribution': {
@@ -1080,19 +1044,17 @@ const investigations_o: Record<string, InvestigationData> = {
       "THE HUMAN COST: Opioid overdoses killed over 600,000 Americans between 1999 and 2023. Communities in West Virginia, Ohio, Kentucky, and across Appalachia were devastated; losing significant portions of their working-age population. Foster care systems were overwhelmed by children whose parents were addicted or dead. Opioid-related neonatal abstinence syndrome affected thousands of newborns annually. The crisis was concentrated in communities that were already economically distressed.",
       "THE PIVOT TO HEROIN AND FENTANYL: When prescribing restrictions finally reduced the supply of pharmaceutical opioids, addicted patients turned to heroin; which was cheaper and more readily available. Mexican cartels; recognizing the demand; flooded markets with cheap heroin and then with synthetic fentanyl; which is 50-100 times more potent than morphine. Fentanyl now accounts for the majority of opioid overdose deaths; a crisis that originated with legal pharmaceuticals.",
       "$26 BILLION SETTLEMENT: In 2022, the Big Three distributors agreed to pay $21 billion to state and local governments over 18 years as part of a $26 billion consolidated settlement that also included Johnson & Johnson (which paid $5 billion). The settlement amounts to a fraction of the estimated economic cost of the opioid crisis; with some estimates placing the total cost above $1 trillion. No executives were criminally prosecuted.",
-      "LOCAL IMPACT: Individual communities face devastation that settlement money cannot repair. Huntington, West Virginia; a city of 46,000; saw 26 overdoses in a single four-hour period in August 2016. The Cabell County morgue ran out of space for bodies. Schools adapted to children arriving hungry because parents spent food money on pills. First responders developed PTSD from administering naloxone to the same individuals repeatedly; sometimes daily.",
+      "LOCAL IMPACT: Individual communities face devastation that settlement money cannot repair. Huntington, West Virginia; a city of 46,000; saw 26 overdoses in a single four-hour period in August 2016. The Cabell County morgue ran out of space for bodies. Schools adapted to children arriving hungry because parents spent food money on pills. First responders developed PTSD from administering naloxone to the same individuals repeatedly; sometimes daily."
     ],
     tags: ["Opioid Crisis","Drug Distribution","McKesson","AmerisourceBergen","Cardinal Health","DEA","Fentanyl","Overdose"],
     sources: [
       { title: "DEA ARCOS Database (WaPo Analysis)", url: "https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/", type: "Investigation" },
       { title: "Charleston Gazette-Mail Investigation", url: "https://www.wvgazettemail.com/news/health/drug-firms-poured-780m-painkillers-into-wv-amid-rise-of-overdoses/article_99026dad-8ed5-5075-90fa-adb906a36214.html", type: "Investigation" },
-      { title: "National Opioid Settlement Tracker", url: "https://www.opioidsettlementtracker.com/", type: "Legal" },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: "National Opioid Settlement Tracker", url: "https://www.opioidsettlementtracker.com/", type: "Legal" }
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement capability undermined by pharmaceutical industry lobbying; 2016 law stripped key enforcement powers', href: '/entities/agencies/dea' },
-      { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
-
+      { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' }
     ],
    eventOriginDate: '2006-01-01',
    lastActivityDate: '2026-03-21',
@@ -1104,7 +1066,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2016', event: 'The 2016 Ensuring Patient Access and Effective Drug Enforcement Act; written with industry input and passed through Congress with little debate', type: 'political' },
      { date: '2016-08', event: 'Huntington, West Virginia; a city of 46,000; saw 26 overdoses in a single four-hour period in August 2016.', type: 'default' },
      { date: '2022', event: '$26 BILLION SETTLEMENT: In 2022, the Big Three distributors agreed to pay $21 billion to state and local governments over 18 years as part of a $26 billion consolidated settlement that also included Johnson & Johnson', type: 'legal' },
-     { date: '2023', event: 'Opioid overdoses killed over 600,000 Americans between 1999 and 2023.', type: 'critical' },
+     { date: '2023', event: 'Opioid overdoses killed over 600,000 Americans between 1999 and 2023.', type: 'critical' }
    ],
   },
   'opioid-crisis-corporate-mass-murder': {
@@ -1120,19 +1082,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'The opioid epidemic was not an accident; it was a deliberate marketing strategy. Purdue hired over 1,000 sales representatives who targeted the highest-prescribing doctors. The company created "pain as the fifth vital sign" campaigns through front organizations, pushing the medical establishment to treat pain aggressively with opioids. Purdue paid key opinion leaders (doctors) hundreds of thousands of dollars to promote OxyContin at conferences and in publications. When concerns about addiction arose, Purdue\'s internal messaging instructed representatives to tell doctors that addiction from OxyContin was rare ("less than 1%"), a claim unsupported by evidence. McKinsey & Company provided consulting advice on how to "turbocharge" OxyContin sales, including strategies to target high-prescribing doctors in the most affected areas.',
       'The distributors were equally culpable. Three companies, McKesson, Cardinal Health, and AmerisourceBergen, distributed approximately 75% of all prescription drugs in America and shipped billions of opioid pills to pharmacies they knew or should have known were filling suspicious orders. Between 2006 and 2014, distributors shipped 76 billion opioid pills across America. A single pharmacy in Kermit, West Virginia (population 382) received 9 million hydrocodone pills in two years. The companies ignored their "suspicious order monitoring" obligations under the Controlled Substances Act and profited enormously: the three distributors are each Fortune 15 companies with combined revenues exceeding $600 billion annually.',
       'Under the Controlled Substances Act (21 U.S.C. 801 et seq.), manufacturers and distributors of controlled substances must maintain quotas, report suspicious orders, and ensure drugs are not diverted. Purdue Pharma pleaded guilty to federal criminal charges in 2007 (paying $635 million) and again in 2020 (paying $8.3 billion). Under the False Claims Act (31 U.S.C. 3729), the government recovered billions from pharmaceutical companies for fraudulent marketing. Under state consumer protection laws, over 3,000 lawsuits were filed by states, cities, counties, and tribal nations. In 2022, the three major distributors settled for $21 billion. Johnson & Johnson settled for $5 billion. The Sackler family agreed to pay $6 billion for personal immunity from future lawsuits.',
-      'The opioid crisis represents the deadliest corporate fraud in American history. More Americans have died from opioid overdoses than in every war the United States has fought combined. The Sackler family, whose name adorned galleries at the Metropolitan Museum of Art, the Louvre, and the Smithsonian, made their fortune by selling addiction and death. No member of the Sackler family has faced criminal prosecution. No senior executive at McKesson, Cardinal Health, or AmerisourceBergen has been imprisoned. The settlements, while massive in aggregate, represent a fraction of the industry\'s profits and an immeasurably small fraction of the human cost. The opioid crisis continues: in 2023, over 80,000 Americans died from opioid overdoses, with illicit fentanyl now the primary driver.',
+      'The opioid crisis represents the deadliest corporate fraud in American history. More Americans have died from opioid overdoses than in every war the United States has fought combined. The Sackler family, whose name adorned galleries at the Metropolitan Museum of Art, the Louvre, and the Smithsonian, made their fortune by selling addiction and death. No member of the Sackler family has faced criminal prosecution. No senior executive at McKesson, Cardinal Health, or AmerisourceBergen has been imprisoned. The settlements, while massive in aggregate, represent a fraction of the industry\'s profits and an immeasurably small fraction of the human cost. The opioid crisis continues: in 2023, over 80,000 Americans died from opioid overdoses, with illicit fentanyl now the primary driver.'
     ],
     tags: ['opioid-crisis', 'purdue-pharma', 'sackler-family', 'oxycontin', 'pharmaceutical-fraud', 'corporate-mass-murder', 'addiction', 'overdose'],
     sources: [
       { title: 'DOJ: Purdue Pharma Criminal Resolution', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-fraud-and-kickback-conspiracies', type: 'Government Records' },
       { title: 'DEA ARCOS Database Analysis (Washington Post)', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Database' },
-      { title: 'Congressional Investigation: Purdue Pharma and Sackler Family', url: 'https://oversight.house.gov/', type: 'Congressional Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'Congressional Investigation: Purdue Pharma and Sackler Family', url: 'https://oversight.house.gov/', type: 'Congressional Report' }
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement powers stripped by 2016 Ensuring Patient Access Act; distribution enforcement chronically underfunded', href: '/entities/agencies/dea' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with label claiming lower abuse potential; failed to require adequate safety studies', href: '/entities/agencies/fda' },
-      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Secured Purdue guilty pleas in 2007 and 2020; no criminal charges against Sackler family members', href: '/entities/agencies/doj' },
+      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Secured Purdue guilty pleas in 2007 and 2020; no criminal charges against Sackler family members', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-01-15',
@@ -1143,7 +1104,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2006', event: 'Between 2006 and 2014, distributors shipped 76 billion opioid pills across America', type: 'political' },
      { date: '2007', event: 'Purdue Pharma pleaded guilty to federal criminal charges in 2007 (paying $635 million) and again in 2020 (paying $8.3 billion)', type: 'legal' },
      { date: '2022', event: 'In 2022, the three major distributors settled for $21 billion', type: 'political' },
-     { date: '2023', event: 'The opioid crisis continues: in 2023, over 80,000 Americans died from opioid overdoses, with illicit fentanyl now the primary driver', type: 'critical' },
+     { date: '2023', event: 'The opioid crisis continues: in 2023, over 80,000 Americans died from opioid overdoses, with illicit fentanyl now the primary driver', type: 'critical' }
    ],
    moneyTrail: [
      { date: '1996-01-01', from: 'OxyContin sales', to: 'Purdue Pharma / Sackler family', amount: '$35,000,000,000', purpose: 'Total OxyContin revenue from 1996-2020 while over 500,000 Americans died from opioid overdoses', documented: true },
@@ -1151,7 +1112,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2020-01-01', from: 'Purdue Pharma', to: 'US Department of Justice (settlement)', amount: '$8,300,000,000', purpose: 'Second criminal guilty plea; company admitted to impeding DEA efforts and paying kickbacks to doctors', documented: true },
      { date: '2022-01-01', from: 'McKesson, Cardinal Health, AmerisourceBergen', to: 'National opioid settlement', amount: '$21,000,000,000', purpose: 'Three major distributors settled lawsuits for shipping 76 billion opioid pills across America without adequate controls', documented: true },
      { date: '2021-01-01', from: 'Sackler family (personal transfers)', to: 'Offshore accounts / trusts', amount: '$10,400,000,000', purpose: 'Sackler family withdrew over $10.4 billion from Purdue Pharma before bankruptcy, shielding personal wealth from victims', documented: true },
-     { date: '2006-01-01', from: 'Opioid distributors', to: 'US pharmacies (76B pills)', amount: '$76,000,000,000', purpose: 'Estimated wholesale value of 76 billion opioid pills shipped between 2006-2014 into communities across America', documented: true },
+     { date: '2006-01-01', from: 'Opioid distributors', to: 'US pharmacies (76B pills)', amount: '$76,000,000,000', purpose: 'Estimated wholesale value of 76 billion opioid pills shipped between 2006-2014 into communities across America', documented: true }
    ],
   },
   'operation-condor-cia-latin-america': {
@@ -1167,17 +1128,17 @@ const investigations_o: Record<string, InvestigationData> = {
       'U.S. COMPLICITY: Declassified CIA, State Department, and DIA documents establish conclusively that the U.S. government was aware of Operation Condor from its inception. A September 1976 DIA cable described the operation in detail. The CIA maintained close relationships with intelligence chiefs of participating nations, including Chile\'s Manuel Contreras (who was a paid CIA asset) and Argentina\'s military junta. The U.S. provided training to Latin American military officers at the School of the Americas in Fort Benning, Georgia, where curricula included interrogation techniques, counterinsurgency, and "handling" of dissidents. Secretary of State Henry Kissinger was briefed on Operation Condor and, in a documented meeting on June 11, 1976, signaled support for the Argentine junta\'s "dirty war" while advising them to act quickly before Congress imposed human rights restrictions.',
       'THE DIRTY WAR IN ARGENTINA: Argentina\'s military junta (1976-1983) conducted the most systematic campaign of state terror under the Condor umbrella. An estimated 30,000 people were "disappeared" by the Argentine military and intelligence services. Victims were kidnapped from homes, workplaces, and streets, taken to clandestine detention centers (including the notorious ESMA naval mechanics school), tortured, and killed. In the "death flights," unconscious prisoners were thrown alive from military aircraft into the Rio de la Plata and the Atlantic Ocean. Babies born to imprisoned mothers were stolen and given to military families. As late as 2024, the Grandmothers of the Plaza de Mayo continued locating stolen children (now adults) through DNA databases.',
       'CHILE UNDER PINOCHET: The September 11, 1973 CIA-backed coup that overthrew democratically elected President Salvador Allende established Augusto Pinochet\'s dictatorship, which killed at least 3,197 people and tortured over 40,000. The DINA (secret police) under Manuel Contreras conducted assassinations worldwide: former Chilean Ambassador Orlando Letelier was killed by a DINA car bomb in Washington, D.C. on September 21, 1976, along with his American colleague Ronni Moffitt. The Rettig Commission and Valech Commission documented systematic use of electric shock, sexual violence, mock executions, and prolonged detention in concentration camps (including at the Colonia Dignidad compound run by fugitive German pedophile Paul Schafer). The CIA\'s own documents confirm it supported the coup and provided intelligence to the Pinochet regime.',
-      'JUSTICE DELAYED: Accountability for Operation Condor has been slow and incomplete. In 2016, an Italian court convicted officials from Argentina, Chile, Bolivia, Peru, and Uruguay for their roles in Plan Condor operations targeting Italian citizens, sentencing most to life in prison in absentia. Argentine courts convicted over 1,000 former military and security officials for crimes against humanity. Chilean courts convicted Pinochet-era officials. However, many participants died before facing justice. Henry Kissinger was never prosecuted despite documented complicity. The School of the Americas (renamed WHINSEC in 2001) continues to operate. The CIA\'s full role remains partially classified, with thousands of documents still withheld.',
+      'JUSTICE DELAYED: Accountability for Operation Condor has been slow and incomplete. In 2016, an Italian court convicted officials from Argentina, Chile, Bolivia, Peru, and Uruguay for their roles in Plan Condor operations targeting Italian citizens, sentencing most to life in prison in absentia. Argentine courts convicted over 1,000 former military and security officials for crimes against humanity. Chilean courts convicted Pinochet-era officials. However, many participants died before facing justice. Henry Kissinger was never prosecuted despite documented complicity. The School of the Americas (renamed WHINSEC in 2001) continues to operate. The CIA\'s full role remains partially classified, with thousands of documents still withheld.'
     ],
     tags: ['Operation-Condor', 'CIA', 'Latin-America', 'dirty-war', 'Pinochet', 'Argentina', 'Chile', 'state-terror', 'forced-disappearances', 'Kissinger'],
     sources: [
       { title: 'National Security Archive: Operation Condor Declassified Documents', url: 'https://nsarchive.gwu.edu/', type: 'Document Archive' },
       { title: 'Comision Nacional sobre la Desaparicion de Personas (CONADEP): Nunca Mas Report', url: 'https://www.desaparecidos.org/nuncamas/web/english/library/nevagain/nevagain_001.htm', type: 'Government Report' },
-      { title: 'Peter Kornbluh: The Pinochet File', url: 'https://nsarchive.gwu.edu/', type: 'Book' },
+      { title: 'Peter Kornbluh: The Pinochet File', url: 'https://nsarchive.gwu.edu/', type: 'Book' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Supported 1973 Chilean coup; maintained paid relationship with DINA chief Contreras; provided intelligence to Condor member states; trained officers at School of Americas', href: '/entities/agencies/cia' },
-      { id: '2', name: 'DOD', type: 'agency', relationship: 'Operated School of the Americas training Latin American military in counterinsurgency and interrogation; DIA documented awareness of Condor operations', href: '/entities/agencies/dod' },
+      { id: '2', name: 'DOD', type: 'agency', relationship: 'Operated School of the Americas training Latin American military in counterinsurgency and interrogation; DIA documented awareness of Condor operations', href: '/entities/agencies/dod' }
     ],
    eventOriginDate: '1973-01-01',
    lastActivityDate: '2026-02-20',
@@ -1191,7 +1152,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1976-09-21', event: 'on September 21, 1976, along with his American colleague Ronni Moffitt', type: 'default' },
      { date: '2001', event: 'The School of the Americas (renamed WHINSEC in 2001) continues to operate', type: 'default' },
      { date: '2016', event: 'In 2016, an Italian court convicted officials from Argentina, Chile, Bolivia, Peru, and Uruguay for their roles in Plan Condor operations targeting Italian citizens, sentencing most to life in pris', type: 'legal' },
-     { date: '2024', event: 'As late as 2024, the Grandmothers of the Plaza de Mayo continued locating stolen children (now adults) through DNA databases', type: 'default' },
+     { date: '2024', event: 'As late as 2024, the Grandmothers of the Plaza de Mayo continued locating stolen children (now adults) through DNA databases', type: 'default' }
    ],
   },
   'opioid-distribution-supply-chain-complicity': {
@@ -1207,18 +1168,17 @@ const investigations_o: Record<string, InvestigationData> = {
       'The Washington Post and Charleston Gazette-Mail obtained DEA data showing that between 2006 and 2012, distributors shipped 76 billion oxycodone and hydrocodone pills across the United States. West Virginia, with a population of 1.8 million, received 780 million pills — 433 for every man, woman, and child. Mingo County, WV (population 25,000) received 203 million pills over a decade. A pharmacy in Kermit, WV (population 392) received 9 million hydrocodone pills in just 2 years. The distributors\' own monitoring systems flagged these orders as suspicious, but the orders were approved and shipped anyway because they were profitable.',
       'The DEA — the agency charged with regulating controlled substance distribution — was systematically neutered by the industry it regulated. In 2016, the "Ensuring Patient Access and Effective Drug Enforcement Act" was quietly passed by Congress, stripping the DEA of its most effective enforcement tool: the ability to immediately suspend a distributor\'s license. The bill was championed by Representative Tom Marino (later nominated as Drug Czar before withdrawing) and drafted in part by industry lobbyists. A 60 Minutes/Washington Post investigation revealed the bill\'s legislative history and its devastating impact on DEA enforcement.',
       'The individual pharmacies that dispensed millions of pills operated as "pill mills" — clinics and pharmacies where doctors prescribed and pharmacists dispensed massive quantities of opioids with minimal medical justification. Pain clinics in Florida, Kentucky, Ohio, and West Virginia attracted patients from across the country. Doctors wrote prescriptions for hundreds of pills at a time. Pharmacists filled prescriptions for patients who were visibly intoxicated. The entire system — from manufacturer to distributor to pharmacy to patient — prioritized profit over human life at every stage.',
-      'The $21 billion settlement by the Big Three distributors (2022) represents one of the largest legal settlements in American history but is spread over 18 years and amounts to approximately 2% of the companies\' combined annual revenue during the relevant period. The settlement requires no admission of wrongdoing. No executive at any of the three companies has faced criminal charges. Meanwhile, the opioid crisis has transitioned from prescription pills to heroin and fentanyl, with overdose deaths exceeding 80,000 per year. American life expectancy declined for the first time in a century, driven in significant part by opioid deaths primarily among working-class white communities in rural America.',
+      'The $21 billion settlement by the Big Three distributors (2022) represents one of the largest legal settlements in American history but is spread over 18 years and amounts to approximately 2% of the companies\' combined annual revenue during the relevant period. The settlement requires no admission of wrongdoing. No executive at any of the three companies has faced criminal charges. Meanwhile, the opioid crisis has transitioned from prescription pills to heroin and fentanyl, with overdose deaths exceeding 80,000 per year. American life expectancy declined for the first time in a century, driven in significant part by opioid deaths primarily among working-class white communities in rural America.'
     ],
     tags: ['opioid crisis', 'McKesson', 'Cardinal Health', 'AmerisourceBergen', 'pill mills', 'DEA', 'drug distributors', 'overdose deaths', 'West Virginia', 'pharmaceutical'],
     sources: [
       { title: 'Washington Post: DEA ARCOS Database (Opioid Shipment Data)', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Investigation' },
       { title: 'DEA: McKesson Settlement Agreement', url: 'https://www.dea.gov/', type: 'Legal Document' },
-      { title: '60 Minutes/Washington Post: The Drug Industry\'s Triumph Over the DEA', url: 'https://www.washingtonpost.com/investigations/the-drug-industrys-triumph-over-the-dea/2016/10/15/b17f3a6a-8cb3-11e6-875e-2c1bfe943b66_story.html', type: 'Investigation' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: '60 Minutes/Washington Post: The Drug Industry\'s Triumph Over the DEA', url: 'https://www.washingtonpost.com/investigations/the-drug-industrys-triumph-over-the-dea/2016/10/15/b17f3a6a-8cb3-11e6-875e-2c1bfe943b66_story.html', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement authority stripped by 2016 legislation drafted by industry lobbyists; fined McKesson twice for same violations; allowed billions of suspicious pills to flow', href: '/entities/agencies/dea' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Negotiated $21B distributor settlement with no criminal charges against executives; prioritized financial settlement over individual accountability', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Negotiated $21B distributor settlement with no criminal charges against executives; prioritized financial settlement over individual accountability', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2006-01-01',
    lastActivityDate: '2025-02-20',
@@ -1227,7 +1187,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2006', event: 'The Washington Post and Charleston Gazette-Mail obtained DEA data showing that between 2006 and 2012, distributors shipped 76 billion oxycodone and hydrocodone pills across the United States', type: 'political' },
      { date: '2016', event: 'In 2016, the "Ensuring Patient Access and Effective Drug Enforcement Act" was quietly passed by Congress, stripping the DEA of its most effective enforcement tool: the ability to immediately suspen', type: 'political' },
      { date: '2017', event: 'McKesson alone was fined $150 million by the DEA in 2017 for failing to report suspicious orders — its second settlement, after a $13.25 million fine in 2008 for the same violations', type: 'financial' },
-     { date: '2022', event: 'The $21 billion settlement by the Big Three distributors (2022) represents one of the largest legal settlements in American history but is spread over 18 years and amounts to approximately 2% of th', type: 'political' },
+     { date: '2022', event: 'The $21 billion settlement by the Big Three distributors (2022) represents one of the largest legal settlements in American history but is spread over 18 years and amounts to approximately 2% of th', type: 'political' }
    ],
   },
   'pesticide-science-suppression': {
@@ -1243,18 +1203,17 @@ const investigations_o: Record<string, InvestigationData> = {
       'Three landmark jury verdicts between 2018 and 2019 found that Roundup caused non-Hodgkin lymphoma. Dewayne Johnson, a school groundskeeper with terminal cancer, was awarded $289 million (reduced to $78 million). Edwin Hardeman received $80 million. Alva and Alberta Pilliod received $2 billion (reduced to $87 million). In total, Bayer (which acquired Monsanto in 2018) has set aside $10.9 billion to settle approximately 100,000 claims. Despite the verdicts, the EPA has maintained that glyphosate is "not likely to be carcinogenic," a finding that the Monsanto Papers revealed was influenced by industry-coordinated pressure.',
       'Neonicotinoid pesticides represent an ecological crisis of staggering proportions. Introduced in the 1990s, neonicotinoids (imidacloprid, clothianidin, thiamethoxam) became the world\'s most widely used insecticides. They are systemic, meaning they permeate every part of the plant including pollen and nectar. Bees exposed to neonicotinoids suffer impaired navigation, foraging ability, and immune function. U.S. beekeepers lost 48% of their managed honey bee colonies in the 2022-2023 season. The EU banned outdoor use of three neonicotinoids in 2018, but the EPA has not followed suit despite its own risk assessments finding harm to pollinators.',
       'Chlorpyrifos, an organophosphate pesticide manufactured by Dow (now Corteva), exemplifies regulatory capture. EPA scientists concluded in 2015 that chlorpyrifos at any exposure level posed unacceptable risks to children\'s brain development. In 2017, EPA Administrator Scott Pruitt, who had received campaign contributions from Dow, reversed the proposed ban. The Ninth Circuit Court of Appeals ordered EPA to ban the pesticide in 2021, and the Biden EPA finally banned food uses in 2022, more than 20 years after scientific consensus established its dangers to children.',
-      'The economic model of agrochemical regulation ensures that corporations set the terms. Companies fund 100% of the safety studies submitted to EPA for pesticide registration and choose the laboratories that conduct them. EPA does not conduct independent testing. The registration process relies on trade-secret data that independent scientists cannot access or verify. When independent studies contradict industry-funded studies, EPA typically sides with industry. The revolving door between EPA and the agrochemical industry ensures alignment: at least 12 senior EPA pesticide officials have moved to industry positions since 2010.',
+      'The economic model of agrochemical regulation ensures that corporations set the terms. Companies fund 100% of the safety studies submitted to EPA for pesticide registration and choose the laboratories that conduct them. EPA does not conduct independent testing. The registration process relies on trade-secret data that independent scientists cannot access or verify. When independent studies contradict industry-funded studies, EPA typically sides with industry. The revolving door between EPA and the agrochemical industry ensures alignment: at least 12 senior EPA pesticide officials have moved to industry positions since 2010.'
     ],
     tags: ['pesticides', 'glyphosate', 'Roundup', 'Monsanto', 'Bayer', 'neonicotinoids', 'bee colony collapse', 'chlorpyrifos', 'ghostwriting', 'science suppression'],
     sources: [
       { title: 'U.S. Right to Know: Monsanto Papers', url: 'https://usrtk.org/pesticides/monsanto-papers/', type: 'Investigation' },
       { title: 'IARC: Glyphosate Monograph', url: 'https://monographs.iarc.who.int/', type: 'Research' },
-      { title: 'EPA: Neonicotinoid Risk Assessments', url: 'https://www.epa.gov/pollinator-protection/epa-actions-protect-pollinators', type: 'Government Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'EPA: Neonicotinoid Risk Assessments', url: 'https://www.epa.gov/pollinator-protection/epa-actions-protect-pollinators', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Maintains glyphosate is not likely carcinogenic despite jury verdicts and IARC classification; failed to ban neonicotinoids despite own risk findings; chlorpyrifos ban delayed 20+ years', href: '/entities/agencies/epa' },
-      { id: '2', name: 'USDA', type: 'agency', relationship: 'Promotes pesticide-intensive agriculture through crop subsidies and extension services; Pesticide Data Program detects residues but does not regulate them', href: '/entities/agencies/usda' },
+      { id: '2', name: 'USDA', type: 'agency', relationship: 'Promotes pesticide-intensive agriculture through crop subsidies and extension services; Pesticide Data Program detects residues but does not regulate them', href: '/entities/agencies/usda' }
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-02-20',
@@ -1267,7 +1226,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2018', event: 'In total, Bayer (which acquired Monsanto in 2018) has set aside $10.9 billion to settle approximately 100,000 claims', type: 'political' },
      { date: '2018', event: 'The EU banned outdoor use of three neonicotinoids in 2018, but the EPA has not followed suit despite its own risk assessments finding harm to pollinators', type: 'default' },
      { date: '2021', event: 'The Ninth Circuit Court of Appeals ordered EPA to ban the pesticide in 2021, and the Biden EPA finally banned food uses in 2022, more than 20 years after scientific consensus established its danger', type: 'legal' },
-     { date: '2022', event: 'beekeepers lost 48% of their managed honey bee colonies in the 2022-2023 season', type: 'default' },
+     { date: '2022', event: 'beekeepers lost 48% of their managed honey bee colonies in the 2022-2023 season', type: 'default' }
    ],
   },
   'opioid-settlement-fund-misuse': {
@@ -1283,20 +1242,18 @@ const investigations_o: Record<string, InvestigationData> = {
       'Despite these mechanisms, early spending reports reveal widespread diversion. A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures with no connection to addiction treatment. Some localities deposited settlement funds into general revenue accounts. In several states, legislative leaders redirected funds to offset existing budget obligations rather than creating new treatment capacity.',
       'The structural weakness is accountability. While the settlement creates recommended spending categories (treatment, harm reduction, prevention, criminal justice reform), enforcement mechanisms vary by state. Some states created independent oversight boards with authority to review and approve spending. Others left disbursement decisions entirely to county commissioners or city councils with no addiction expertise and strong incentives to fill budget gaps. The absence of a federal enforcement mechanism means compliance is voluntary in practice.',
       'The tobacco master settlement of 1998 provides a cautionary precedent. Of the $206 billion tobacco settlement, less than 3% was spent on smoking cessation and prevention. States used the funds to fill budget holes, build roads, and even subsidize tobacco farming. The opioid settlement was explicitly structured to avoid this outcome, but the same political dynamics are reasserting themselves. Local officials face immediate budget pressures that outweigh the diffuse, long-term benefits of addiction infrastructure.',
-      'Treatment access remains catastrophically inadequate even as settlement funds begin flowing. An estimated 22 million Americans need substance use disorder treatment but cannot access it. Rural counties devastated by opioids frequently have no certified treatment providers within 100 miles. Workforce shortages mean that even funded programs cannot hire staff. The irony is acute: billions are theoretically available for treatment in communities where treatment infrastructure does not exist and would require years and sustained investment to build, exactly the kind of investment that diverted settlement funds will never provide.',
+      'Treatment access remains catastrophically inadequate even as settlement funds begin flowing. An estimated 22 million Americans need substance use disorder treatment but cannot access it. Rural counties devastated by opioids frequently have no certified treatment providers within 100 miles. Workforce shortages mean that even funded programs cannot hire staff. The irony is acute: billions are theoretically available for treatment in communities where treatment infrastructure does not exist and would require years and sustained investment to build, exactly the kind of investment that diverted settlement funds will never provide.'
     ],
     tags: ['opioid settlement', 'addiction treatment', 'fund diversion', 'public health', 'Purdue Pharma', 'tobacco settlement', 'substance abuse'],
     sources: [
-      { title: 'Kff Records', url: 'https://www.kff.org/', type: 'Reference' },
-      { title: 'Statnews Records', url: 'https://www.statnews.com/', type: 'Reference' },
-      { title: 'Nationalopioidsettlement Records', url: 'https://nationalopioidsettlement.com/', type: 'Reference' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
-
       { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: 'National Opioid Settlement: Implementation Status', url: 'https://nationalopioidsettlement.com/', type: 'Legal Document' },
+      { title: 'KFF: How Are States Using Opioid Settlement Funds?', url: 'https://www.kff.org/other/issue-brief/tracking-the-opioid-crisis/', type: 'Research' },
+      { title: 'Johns Hopkins: Opioid Settlement Tracker', url: 'https://opioidprinciples.jhsph.edu/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Negotiated separate federal settlements with Purdue Pharma and distributors; no federal enforcement mechanism for state-level spending compliance; DEA data enabled the crisis through inadequate quota controls', href: '/entities/agencies/doj' },
-      { id: '2', name: 'HHS', type: 'agency', relationship: 'SAMHSA administers separate federal addiction treatment grants; settlement funds overlap with but do not replace existing programs; opioid treatment gap remains over 20 million people', href: '/entities/agencies/hhs' },
+      { id: '2', name: 'HHS', type: 'agency', relationship: 'SAMHSA administers separate federal addiction treatment grants; settlement funds overlap with but do not replace existing programs; opioid treatment gap remains over 20 million people', href: '/entities/agencies/hhs' }
     ],
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-02-18',
@@ -1305,7 +1262,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1998', event: 'The tobacco master settlement of 1998 provides a cautionary precedent.', type: 'legal' },
      { date: '1999', event: 'The opioid epidemic has killed over 600,000 Americans since 1999, driven by pharmaceutical companies that aggressively marketed highly addictive painkillers while concealing their risks.', type: 'critical' },
      { date: '2023', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures', type: 'legal' },
-     { date: '2024', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures', type: 'legal' },
+     { date: '2024', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures', type: 'legal' }
      ],
   },
   'operation-paperclip-nazi-scientists': {
@@ -1321,20 +1278,19 @@ const investigations_o: Record<string, InvestigationData> = {
       'Wernher von Braun was the most prominent Paperclip recruit and became the public face of Americas space program. As technical director of the Nazi V-2 rocket program at Peenemunde and the underground Mittelwerk factory, von Braun held the rank of SS-Sturmbannfuhrer (major) in the Schutzstaffel. The Mittelwerk factory, located inside a converted mine in the Harz Mountains, was operated by slave laborers from the Mittelbau-Dora concentration camp. An estimated 60,000 prisoners were forced to build V-2 rockets in appalling conditions; at least 20,000 died from starvation, disease, beatings, hangings, and exhaustion. Von Braun visited the Mittelwerk facility repeatedly and was present while slave laborers worked in conditions of extreme brutality. Former prisoners testified that they saw von Braun witnessing beatings and hangings. Von Braun later claimed he was unaware of the worst conditions, but his SS personnel file, obtained by the BBC in 2002, included a letter recommending that he approve the transfer of additional slave laborers from Buchenwald. In the United States, the JIOA classified von Braun as "not a war criminal" and granted him a security clearance. He became director of NASAs Marshall Space Flight Center and the principal architect of the Saturn V rocket that took Americans to the Moon. He received the National Medal of Science in 1975 and died in 1977 without ever facing criminal investigation.',
       'Hubertus Strughold, recruited under Paperclip and named the "Father of Space Medicine" by the U.S. Air Force, presents one of the most disturbing cases. During the war, Strughold directed the Luftwaffe Institute of Aviation Medicine in Berlin. Researchers under his oversight, including Dr. Sigmund Rascher, conducted freezing and pressure experiments on prisoners at the Dachau concentration camp. Prisoners were submerged in ice water until they died of hypothermia or placed in low-pressure chambers simulating extreme altitudes until they suffered fatal embolisms, all to test the limits of human survival for the Luftwaffe. Strughold was listed as an attendee at the 1942 Nuremberg conference on medical experiments at which the Dachau results were presented. Despite this record, JIOA sanitized his file and he was brought to the United States in 1947. He was appointed founding director of the Air Force School of Aviation Medicine at Randolph Air Force Base and later served as chief scientist at NASAs Aerospace Medical Division. The Strughold Award, given annually by the Space Medicine Branch of the Aerospace Medical Association, was named in his honor in 1963; it was renamed in 2013 after renewed scrutiny of his Nazi-era record. Strughold became a U.S. citizen and died in 1986 without prosecution.',
       'Arthur Rudolph, another key Paperclip recruit, served as operations director of the Mittelwerk V-2 factory where at least 20,000 slave laborers perished. Rudolph was directly responsible for production quotas that intensified the exploitation of prisoners. A 1945 U.S. Army intelligence report identified Rudolph as "100% Nazi, dangerous type, security threat." Despite this assessment, his JIOA file was rewritten and he was brought to the United States. Rudolph became project director of the Saturn V rocket program at NASA, receiving the NASA Distinguished Service Medal for his work. His case was reopened in 1982 by the Office of Special Investigations (OSI), the Justice Departments Nazi war crimes unit. Facing denaturalization proceedings, Rudolph voluntarily renounced his U.S. citizenship in 1984 and returned to Germany rather than face a public trial. The German government investigated him but determined there was "insufficient evidence" for prosecution. Other Paperclip recruits who were later investigated by the OSI include Walter Schreiber, who fled to Argentina in 1952 after his involvement in Nazi medical experiments was exposed; Herbert Axster, a Mittelwerk administrator; and Kurt Blome, the deputy head of the Nazi biological weapons program who was acquitted at the Nuremberg Doctors Trial and subsequently hired by the U.S. Army Chemical Corps in 1951.',
-      'The legal and ethical framework violated includes: the Moscow Declaration of 1943, in which the United States, Britain, and the Soviet Union pledged to hold Nazi war criminals accountable; Executive Order 9604 (1945), establishing the U.S. commitment to the Nuremberg Tribunal; the Nuremberg Principles (1950), particularly Principle VI defining war crimes and crimes against humanity; the 1907 Hague Convention, Article 6 (prohibition of forced labor of prisoners); the Geneva Convention Relative to the Protection of Civilian Persons in Time of War (Fourth Geneva Convention, 1949), Articles 31 and 32 (prohibition of coercion and of measures causing physical suffering); 18 U.S.C. Section 1001 (fraud against the United States, applicable to JIOA officials who falsified the scientists records); the Immigration and Nationality Act of 1952, Section 212(a)(3)(E) (inadmissibility of persons who participated in Nazi persecution); and 8 U.S.C. Section 1451 (revocation of naturalization procured by concealment of material facts). The full scope of Operation Paperclip was only revealed through decades of FOIA litigation, most comprehensively documented by journalist Annie Jacobsen in 2014 using newly declassified records. As of 2025, the United States has never formally apologized for Operation Paperclip, and no JIOA official was ever disciplined for falsifying the scientists records.',
+      'The legal and ethical framework violated includes: the Moscow Declaration of 1943, in which the United States, Britain, and the Soviet Union pledged to hold Nazi war criminals accountable; Executive Order 9604 (1945), establishing the U.S. commitment to the Nuremberg Tribunal; the Nuremberg Principles (1950), particularly Principle VI defining war crimes and crimes against humanity; the 1907 Hague Convention, Article 6 (prohibition of forced labor of prisoners); the Geneva Convention Relative to the Protection of Civilian Persons in Time of War (Fourth Geneva Convention, 1949), Articles 31 and 32 (prohibition of coercion and of measures causing physical suffering); 18 U.S.C. Section 1001 (fraud against the United States, applicable to JIOA officials who falsified the scientists records); the Immigration and Nationality Act of 1952, Section 212(a)(3)(E) (inadmissibility of persons who participated in Nazi persecution); and 8 U.S.C. Section 1451 (revocation of naturalization procured by concealment of material facts). The full scope of Operation Paperclip was only revealed through decades of FOIA litigation, most comprehensively documented by journalist Annie Jacobsen in 2014 using newly declassified records. As of 2025, the United States has never formally apologized for Operation Paperclip, and no JIOA official was ever disciplined for falsifying the scientists records.'
     ],
     tags: ['Operation Paperclip', 'Nazi scientists', 'Wernher von Braun', 'JIOA', 'war crimes', 'Hubertus Strughold', 'Arthur Rudolph', 'V-2 rockets', 'Mittelbau-Dora', 'Mittelwerk', 'NASA', 'Cold War', 'forced labor', 'human experimentation', 'crimes against humanity', 'Nuremberg'],
     sources: [
       { title: 'National Archives: Records of the Joint Intelligence Objectives Agency (JIOA)', url: 'https://www.archives.gov/iwg/declassified-records/rg-330-defense-secretary', type: 'Government Record' },
       { title: 'CIA FOIA: Operation Paperclip Declassified Records', url: 'https://www.cia.gov/readingroom/collection/nazi-war-crimes-and-japanese-imperial-government-records', type: 'Government Record' },
       { title: 'National Air and Space Museum: Wernher von Braun Biographical Archive', url: 'https://airandspace.si.edu/', type: 'Research Archive' },
-      { title: 'Mittelbau-Dora Concentration Camp Memorial: History', url: 'https://web.archive.org/web/20230323194743/https://www.buchenwald.de/en/896/', type: 'Memorial Archive' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'Mittelbau-Dora Concentration Camp Memorial: History', url: 'https://web.archive.org/web/20230323194743/https://www.buchenwald.de/en/896/', type: 'Memorial Archive' }
     ],
     affiliations: [
       { id: '1', name: 'Joint Intelligence Objectives Agency', type: 'agency', relationship: 'Planned and executed Operation Paperclip; systematically falsified security evaluations to circumvent presidential directives; overrode State Department and FBI objections; no JIOA officer was ever disciplined' },
       { id: '2', name: 'Wernher von Braun', type: 'individual', relationship: 'SS-Sturmbannfuhrer and technical director of the V-2 program that used 60,000 slave laborers from Mittelbau-Dora; became director of NASA Marshall Space Flight Center and architect of the Saturn V rocket; received the National Medal of Science; never investigated for war crimes by the United States', href: '/entities/individuals/wernher-von-braun' },
-      { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed dozens of Paperclip scientists in senior positions; von Braun directed the Saturn V program; Strughold served as chief scientist of Aerospace Medical Division; Rudolph managed the Saturn V production; NASA awarded Distinguished Service Medals to individuals later investigated for war crimes' },
+      { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed dozens of Paperclip scientists in senior positions; von Braun directed the Saturn V program; Strughold served as chief scientist of Aerospace Medical Division; Rudolph managed the Saturn V production; NASA awarded Distinguished Service Medals to individuals later investigated for war crimes' }
     ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2025-05-01',
@@ -1354,7 +1310,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1982', event: 'His case was reopened in 1982 by the Office of Special Investigations (OSI), the Justice Departments Nazi war crimes unit', type: 'default' },
      { date: '1984', event: 'citizenship in 1984 and returned to Germany rather than face a public trial', type: 'legal' },
      { date: '1986', event: 'citizen and died in 1986 without prosecution', type: 'critical' },
-     { date: '2002', event: 'Von Braun later claimed he was unaware of the worst conditions, but his SS personnel file, obtained by the BBC in 2002, included a letter recommending that he approve the transfer of additional sla', type: 'default' },
+     { date: '2002', event: 'Von Braun later claimed he was unaware of the worst conditions, but his SS personnel file, obtained by the BBC in 2002, included a letter recommending that he approve the transfer of additional sla', type: 'default' }
    ],
   },
   'operation-midnight-climax-lsd-experiments': {
@@ -1370,18 +1326,16 @@ const investigations_o: Record<string, InvestigationData> = {
       'GEORGE HUNTER WHITE: White was a colorful and ruthless narcotics agent who had worked for the Office of Strategic Services during World War II. He maintained detailed diaries of Midnight Climax operations, writing candidly about dosing unwitting subjects and observing their reactions. In a letter discovered after his death, White wrote: "I was a very minor missionary, actually a heretic, but I toiled wholeheartedly in the vineyards because it was fun, fun, fun. Where else could a red-blooded American boy lie, kill, cheat, steal, rape, and pillage with the sanction and blessing of the All-Highest?" The letter provided a rare candid admission of the program\'s lawlessness.',
       'SCOPE AND VICTIMS: The exact number of people drugged during Midnight Climax is unknown. The program operated for over a decade, and no records were kept of victim identities. Subjects included American citizens with no connection to intelligence or national security. The selection was entirely random; men who happened to be in certain bars and who were attracted to the prostitutes became test subjects. Many experienced severe psychological reactions to the LSD, including paranoia, hallucinations, and panic. There is no evidence that any victim was ever provided medical care, follow-up, or notification of what had been done to them.',
       'EXPOSURE: The program was first partially revealed during the 1975 Church Committee and Rockefeller Commission investigations. Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered. Journalist Seymour Hersh\'s reporting in the New York Times helped bring the broader MKUltra program, including Midnight Climax, to public attention. Despite the revelations, no CIA officer was prosecuted. Sidney Gottlieb was granted immunity in exchange for testimony. George Hunter White had died in 1975.',
-      'LEGAL AND ETHICAL VIOLATIONS: Midnight Climax violated multiple laws including: federal statutes prohibiting the administration of drugs without consent; state assault and battery laws; the Fourth Amendment prohibition on unreasonable searches; the Nuremberg Code requirement for voluntary informed consent in human experimentation; and CIA regulations prohibiting domestic operations against U.S. citizens. The program represented the intersection of intelligence overreach, sexual exploitation, and chemical experimentation on the American public. No victim has ever been formally identified, notified, or compensated.',
+      'LEGAL AND ETHICAL VIOLATIONS: Midnight Climax violated multiple laws including: federal statutes prohibiting the administration of drugs without consent; state assault and battery laws; the Fourth Amendment prohibition on unreasonable searches; the Nuremberg Code requirement for voluntary informed consent in human experimentation; and CIA regulations prohibiting domestic operations against U.S. citizens. The program represented the intersection of intelligence overreach, sexual exploitation, and chemical experimentation on the American public. No victim has ever been formally identified, notified, or compensated.'
     ],
     tags: ['Operation Midnight Climax', 'MKUltra', 'CIA', 'LSD', 'Human Experimentation', 'Sidney Gottlieb', 'George Hunter White', 'Intelligence Abuse'],
     sources: [
       { title: 'Senate Select Committee on Intelligence: MKULTRA Hearings, 1977', url: 'https://www.intelligence.senate.gov/', type: 'Government Report' },
       { title: 'Church Committee Final Report', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Government Report' },
-      { title: 'CIA FOIA: MKUltra Collection', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Declassified Documents' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'CIA FOIA: MKUltra Collection', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Declassified Documents' }
     ],
     affiliations: [
-      { id: '1', name: 'CIA', type: 'agency', relationship: 'Funded and directed Operation Midnight Climax safe houses where unwitting American citizens were drugged with LSD', href: '/entities/agencies/cia' },
-      { id: 'department-of-justice', name: 'Department of Justice', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/doj' },
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Funded and directed Operation Midnight Climax safe houses where unwitting American citizens were drugged with LSD', href: '/entities/agencies/cia' }
     ],
     eventOriginDate: '1954-01-01',
     lastActivityDate: '1966-12-31',
@@ -1391,7 +1345,7 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1966', event: 'The program ran from 1954 to 1966 and involved an unknown number of victims who were never informed they had been experimented upon.', type: 'default' },
      { date: '1973', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' },
      { date: '1975', event: 'The program was first partially revealed during the 1975 Church Committee and Rockefeller Commission investigations.', type: 'default' },
-     { date: '1977', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' },
+     { date: '1977', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' }
    ],
   },
   'oath-keepers-sedition': {
@@ -1410,7 +1364,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'After January 6, Rhodes texted that members should have"brought rifles"and discussed further plans for armed resistance against the government',
    'Rhodes met with Proud Boys leadership on January 5 at an underground parking garage, coordinating what prosecutors described as a joint plan to use force',
    'Multiple Oath Keepers members attempted to destroy evidence by deleting encrypted communications and Signal messages after the attack',
-   'Despite seditious conspiracy convictions carrying combined sentences exceeding 53 years, some far-right media figures continued to downplay the attack as legitimate protest',
+   'Despite seditious conspiracy convictions carrying combined sentences exceeding 53 years, some far-right media figures continued to downplay the attack as legitimate protest'
  ],
  tags: ['military-foreign-policy', 'war', 'conspiracy'],
  sources: [
@@ -1420,7 +1374,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'Seditious Conspiracy Verdict Coverage', url: 'https://www.nytimes.com/2022/11/29/us/politics/oath-keepers-stewart-rhodes-seditious-conspiracy.html', type: 'Article' },
    { title: 'Signal Communications and Trial Evidence', url: 'https://www.npr.org/2022/10/03/1126550834/oath-keepers-trial-jan-6-seditious-conspiracy', type: 'Article' },
    { title: 'Proud Boys & Oath Keepers Coordination on Jan. 5', url: 'https://www.nytimes.com/2023/01/04/us/politics/proud-boys-oath-keepers-jan-6.html', type: 'Article' },
-   { title: 'Stewart Rhodes Sentencing Hearing', url: 'https://www.washingtonpost.com/dc-md-va/2023/05/25/stewart-rhodes-oath-keepers-sentencing/', type: 'Article' },
+   { title: 'Stewart Rhodes Sentencing Hearing', url: 'https://www.washingtonpost.com/dc-md-va/2023/05/25/stewart-rhodes-oath-keepers-sentencing/', type: 'Article' }
  ],
  affiliations: [
    { id: 'stewart-rhodes', name: 'Stewart Rhodes', type: 'individual', relationship: 'Founder, Coordinated attack, positioned armed QRF teams', href: '/entities/individuals/stewart-rhodes' },
@@ -1429,7 +1383,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'jessica-watkins', name: 'Jessica Watkins', type: 'individual', relationship: 'Ohio Chapter Leader, Led tactical team', href: '/entities/individuals/jessica-watkins' },
    { id: 'thomas-caldwell', name: 'Thomas Caldwell', type: 'individual', relationship: 'Logistics coordinator, Planned QRF staging' },
    { id: 'roger-stone', name: 'Roger Stone', type: 'individual', relationship: 'Oath Keepers provided security, coordination alleged', href: '/entities/individuals/roger-stone' },
-   { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Rhodes sought pardon, offered militia as "Trump\\', href: '/entities/individuals/donald-trump' },
+   { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Rhodes sought pardon, offered militia as "Trump\\', href: '/entities/individuals/donald-trump' }
  ],
  timeline: [
    { date: 'March 2009', event: 'Stewart Rhodes founds Oath Keepers' },
@@ -1449,14 +1403,14 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: 'Jan 6, Evening', event: 'Rhodes texts:"We should have brought rifles"' },
    { date: 'Jan 2022', event: 'Rhodes arrested on seditious conspiracy charges' },
    { date: 'Nov 2022', event: 'Rhodes convicted of seditious conspiracy' },
-   { date: 'May 2023', event: 'Rhodes sentenced to 18 years in prison' },
+   { date: 'May 2023', event: 'Rhodes sentenced to 18 years in prison' }
  ],
  statutes: [
    { code: '18 U.S.C. § 2384', description: 'Seditious conspiracy' },
    { code: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct an official proceeding' },
    { code: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of an official proceeding' },
    { code: '18 U.S.C. § 372', description: 'Conspiracy to prevent officer from discharging duties' },
-   { code: '18 U.S.C. § 1512(c)(1)', description: 'Tampering with documents' },
+   { code: '18 U.S.C. § 1512(c)(1)', description: 'Tampering with documents' }
  ],
  defendants: [
    { name: 'Stewart Rhodes', role: 'Seditious Conspiracy + Obstruction', status: 'incarcerated', notes: '18 years federal prison (May 2023); longest sentence for Oath Keeper leader' },
@@ -1465,7 +1419,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Kenneth Harrelson', role: 'Conspiracy to Obstruct + Civil Disorder', status: 'incarcerated', notes: '4 years federal prison' },
    { name: 'Thomas Caldwell', role: 'Conspiracy to Obstruct Official Proceeding', status: 'incarcerated', notes: '14 months federal prison' },
    { name: 'Roberto Minuta', role: 'Seditious Conspiracy', status: 'incarcerated', notes: '4.5 years federal prison' },
-   { name: 'Edward Vallejo', role: 'Seditious Conspiracy, QRF coordinator', status: 'incarcerated', notes: '3 years federal prison' },
+   { name: 'Edward Vallejo', role: 'Seditious Conspiracy, QRF coordinator', status: 'incarcerated', notes: '3 years federal prison' }
  ],
   },
   'obstruction-of-justice': {
@@ -1484,7 +1438,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'Trump provided incomplete and potentially false written answers to Mueller\'s questions, while refusing to submit to an in-person interview despite repeated requests',
    'After the investigation, Trump pardoned virtually every associate convicted of crimes related to obstructing the investigation, effectively rewarding their silence',
    'Barr held a press conference 90 minutes before releasing the redacted Mueller Report to frame the narrative, using the phrase"no collusion"four times despite it not being a legal term Mueller investigated',
-   'The White House asserted blanket immunity for former officials like Don McGahn to prevent them from testifying before Congress about the obstruction documented in the Mueller Report',
+   'The White House asserted blanket immunity for former officials like Don McGahn to prevent them from testifying before Congress about the obstruction documented in the Mueller Report'
  ],
  tags: ['intelligence-covert-operations', 'justice'],
  sources: [
@@ -1492,7 +1446,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'Comey Senate Testimony', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf', type: 'Congressional Testimony' },
    { title: 'McGahn Testimony Notes', url: 'http://web.archive.org/web/20220919234432/https://judiciary.house.gov/news/documentsingle.aspx?DocumentID=4887', type: 'Congressional Document' },
    { title: 'Lester Holt Interview', url: 'https://www.nbcnews.com/news/us-news/trump-reveals-he-asked-comey-whether-he-was-under-investigation-n757821', type: 'Interview Transcript' },
-   { title: 'Pardon Power Analysis', url: 'https://www.lawfareblog.com/trump-pardon-roundup', type: 'Legal Analysis' },
+   { title: 'Pardon Power Analysis', url: 'https://www.lawfareblog.com/trump-pardon-roundup', type: 'Legal Analysis' }
  ],
  affiliations: [
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Principal, Directed obstruction campaign', href: '/entities/individuals/donald-trump' },
@@ -1501,7 +1455,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'paul-manafort', name: 'Paul Manafort', type: 'individual', relationship: 'Campaign Chair, Pardoned for witness tampering', href: '/entities/individuals/paul-manafort' },
    { id: 'michael-cohen', name: 'Michael Cohen', type: 'individual', relationship: 'Personal Attorney, Testified about obstruction efforts', href: '/entities/individuals/michael-cohen' },
    { id: 'don-mcgahn', name: 'Don McGahn', type: 'individual', relationship: 'White House Counsel, Refused to fire Mueller', href: '/entities/individuals/don-mcgahn' },
-   { id: 'william-barr', name: 'William Barr', type: 'individual', relationship: 'AG, Misrepresented Mueller findings', href: '/entities/individuals/william-barr' },
+   { id: 'william-barr', name: 'William Barr', type: 'individual', relationship: 'AG, Misrepresented Mueller findings', href: '/entities/individuals/william-barr' }
  ],
  timeline: [
    { date: 'January 6, 2017', event: 'Intelligence community briefs Trump on Russian interference' },
@@ -1517,7 +1471,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: 'April 18, 2019', event: 'Redacted Mueller Report released; 10 obstruction instances' },
    { date: 'July 24, 2019', event: 'Mueller testifies before Congress' },
    { date: 'November 2020', event: 'Trump pardons Flynn after election loss' },
-   { date: 'December 2020', event: 'Trump pardons Manafort, Stone, others' },
+   { date: 'December 2020', event: 'Trump pardons Manafort, Stone, others' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1512(b)', description: 'Witness tampering, corruptly persuading witnesses to withhold testimony, alter documents, or evade legal process' },
@@ -1526,7 +1480,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1001', description: 'False statements, making materially false statements to federal investigators and Congress' },
    { code: '18 U.S.C. § 1503', description: 'Obstruction of justice, corruptly endeavoring to influence, obstruct, or impede the due administration of justice' },
    { code: '18 U.S.C. § 3', description: 'Accessory after the fact, pardoning co-conspirators who refused to cooperate with investigations' },
-   { code: '2 U.S.C. § 192', description: 'Contempt of Congress, directing subordinates to defy congressional subpoenas' },
+   { code: '2 U.S.C. § 192', description: 'Contempt of Congress, directing subordinates to defy congressional subpoenas' }
  ],
  defendants: [
    { name: 'Roger Stone', role: 'Obstruction of proceedings, witness tampering, making false statements to Congress', status: 'convicted', notes: 'Convicted on 7 felony counts (November 2019); sentenced to 40 months; commuted then pardoned by Trump' },
@@ -1535,7 +1489,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'George Papadopoulos', role: 'Making false statements to FBI about Russia contacts', status: 'convicted', notes: 'Pleaded guilty, served 12 days in prison; pardoned by Trump December 2020' },
    { name: 'Michael Cohen', role: 'Making false statements to Congress about Trump Tower Moscow', status: 'convicted', notes: 'Pleaded guilty, sentenced to 3 years (December 2018)' },
    { name: 'Steve Bannon', role: 'Contempt of Congress for defying January 6 Committee subpoena', status: 'convicted', notes: 'Convicted July 2022; sentenced to 4 months in prison' },
-   { name: 'Donald Trump', role: 'Federal obstruction and classified documents charges (Special Counsel Jack Smith)', status: 'indicted', notes: 'Indicted on 40 federal counts (2023); case dismissed after election (2025)' },
+   { name: 'Donald Trump', role: 'Federal obstruction and classified documents charges (Special Counsel Jack Smith)', status: 'indicted', notes: 'Indicted on 40 federal counts (2023); case dismissed after election (2025)' }
  ],
   },
   'october-surprise-1980': {
@@ -1555,7 +1509,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'Secret Service records that could have confirmed or denied George H.W. Bush\'s presence at alleged Paris meetings were incomplete and contradictory',
    'Ben Barnes kept silent for over 40 years about his role in carrying messages for Connally, only coming forward in 2023 after weighing his conscience',
    'Iranian President Abolhassan Banisadr repeatedly stated that the Reagan campaign negotiated with Iran, but U.S. media largely dismissed his testimony as unreliable',
-   'Key documents related to the October Surprise remain classified or were destroyed during the Iran-Contra document shredding operation led by Oliver North',
+   'Key documents related to the October Surprise remain classified or were destroyed during the Iran-Contra document shredding operation led by Oliver North'
  ],
  tags: ['election-integrity', 'conspiracy'],
  sources: [
@@ -1566,7 +1520,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'National Security Archive, The October Surprise Documents', url: 'https://nsarchive.gwu.edu/briefing-book/iran/2023-01-19/october-surprise-x-files', type: 'Article' },
    { title: 'Congressional Research Service, Iran Hostage Crisis: October Surprise Allegations', url: 'https://www.congress.gov/', type: 'Article' },
    { title: 'New Republic, The October Surprise Case Is Back', url: 'https://newrepublic.com/article/171180/october-surprise-reagan-iran-hostage', type: 'Article' },
-   { title: 'Washington Post, Former Texas politician says he went to Iran to help Reagan win in 1980', url: 'https://www.washingtonpost.com/politics/2023/03/18/reagan-iran-hostages-october-surprise/', type: 'Article' },
+   { title: 'Washington Post, Former Texas politician says he went to Iran to help Reagan win in 1980', url: 'https://www.washingtonpost.com/politics/2023/03/18/reagan-iran-hostages-october-surprise/', type: 'Article' }
  ],
  affiliations: [
    { id: 'ronald-reagan', name: 'Ronald Reagan', type: 'individual', relationship: '1980 Republican presidential candidate who benefited from the delayed hostage release', href: '/entities/individuals/ronald-reagan' },
@@ -1580,7 +1534,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'gary-sick', name: 'Gary Sick', type: 'individual', relationship: 'Carter NSC official who published "October Surprise"documenting the conspiracy', href: '/entities/individuals/gary-sick' },
    { id: 'robert-mcfarlane', name: 'Robert McFarlane', type: 'individual', relationship: 'Reagan NSC advisor who later facilitated Iran-Contra arms-for-hostages deals', href: '/entities/individuals/robert-mcfarlane' },
    { id: 'cyrus-hashemi', name: 'Cyrus Hashemi', type: 'individual', relationship: 'Iranian arms dealer who allegedly served as intermediary; died mysteriously in London in 1986', href: '/entities/individuals/cyrus-hashemi' },
-   { id: 'lee-hamilton', name: 'Lee Hamilton', type: 'individual', relationship: 'Chair of House Task Force that investigated and controversially dismissed October Surprise allegations', href: '/entities/individuals/lee-hamilton' },
+   { id: 'lee-hamilton', name: 'Lee Hamilton', type: 'individual', relationship: 'Chair of House Task Force that investigated and controversially dismissed October Surprise allegations', href: '/entities/individuals/lee-hamilton' }
  ],
  timeline: [
    { date: '1979-NOV-04', event: 'Iranian students seize U.S. Embassy in Tehran, taking 52 American diplomats and citizens hostage' },
@@ -1599,7 +1553,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: '1991', event: 'Gary Sick publishes "October Surprise: America\'s Hostages in Iran and the Election of Ronald Reagan,"laying out evidence' },
    { date: '1993', event: 'House Task Force under Lee Hamilton investigates and controversially concludes allegations are"not credible"- later disputed' },
    { date: '2023-MAR', event: 'Ben Barnes publicly confesses to New York Times that he accompanied Connally to Middle East to relay message to delay hostage release' },
-   { date: '2023', event: 'Newly declassified documents provide additional evidence supporting the October Surprise theory' },
+   { date: '2023', event: 'Newly declassified documents provide additional evidence supporting the October Surprise theory' }
  ],
  statutes: [
    { code: 'Logan Act (18 U.S.C. § 953)', description: 'Prohibits unauthorized citizens from negotiating with foreign governments regarding disputes with the United States' },
@@ -1609,7 +1563,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: 'Obstruction of Congress (18 U.S.C. § 1505)', description: 'Obstruction of proceedings before Congressional committees investigating the October Surprise' },
    { code: 'Hostage Act (18 U.S.C. § 1203)', description: 'Taking or detaining hostages; extending captivity of hostages for political purposes' },
    { code: 'Conspiracy to Commit Election Fraud', description: 'Coordinated effort to manipulate presidential election outcome through secret foreign negotiations' },
-   { code: 'Misprision of Felony (18 U.S.C. § 4)', description: 'Having knowledge of a felony and concealing it from authorities' },
+   { code: 'Misprision of Felony (18 U.S.C. § 4)', description: 'Having knowledge of a felony and concealing it from authorities' }
  ],
  defendants: [
    { name: 'William Casey', role: 'Alleged conspiracy to commit treason by negotiating with a foreign adversary', status: 'charged', notes: 'Died of brain tumor in May 1987 before Iran-Contra testimony; never charged for October Surprise' },
@@ -1619,7 +1573,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Oliver North', role: 'Conspiracy, obstruction, document destruction in Iran-Contra', status: 'convicted', notes: 'Convicted on 3 felony counts; convictions vacated on appeal due to immunized testimony' },
    { name: 'Robert McFarlane', role: 'Withholding information from Congress on Iran-Contra', status: 'convicted', notes: 'Pleaded guilty to 4 misdemeanor counts; pardoned by Bush Sr. in 1992' },
    { name: 'Caspar Weinberger', role: 'Perjury and obstruction regarding Iran-Contra', status: 'pardoned', notes: 'Indicted but pardoned by George H.W. Bush before trial in 1992' },
-   { name: 'Lee Hamilton Investigation', role: 'Failure to adequately investigate October Surprise allegations', status: 'charged', notes: 'Criticized for insufficient investigation; key witnesses not called; time constraints artificially imposed' },
+   { name: 'Lee Hamilton Investigation', role: 'Failure to adequately investigate October Surprise allegations', status: 'charged', notes: 'Criticized for insufficient investigation; key witnesses not called; time constraints artificially imposed' }
  ],
   },
   'operation-condor': {
@@ -1638,7 +1592,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'Argentina\'s military junta developed the"death flights"program: drugging political prisoners with pentothal, loading them onto military aircraft, and throwing them alive into the Atlantic Ocean. Military chaplains told pilots and soldiers this was a "Christian death"because the prisoners would die painlessly. The Catholic Church hierarchy in Argentina knew and remained largely silent.',
    'The systematic theft of babies from captive mothers was a deliberate policy: pregnant political prisoners were kept alive long enough to give birth, then murdered. Their babies were given to military families or regime supporters. Over 500 babies were stolen. The Grandmothers of the Plaza de Mayo have identified approximately 130 as of 2024.',
    'The U.S. State Department classified key documents about Operation Condor for decades. When forced to declassify in 2000 and 2010, the released documents confirmed that the CIA and State Department knew about the mass killings from the very beginning and chose not only to do nothing but to actively support and enable the perpetrators.',
-   'Paraguay\'s "Archives of Terror,"discovered in 1992, contained 700,000 pages of documentation including photographs of torture victims, lists of murdered and disappeared persons, and records of cross-border coordination. The archives proved that the operation was far more systematic and extensive than previously acknowledged, and that U.S. intelligence agencies were deeply embedded in the network.',
+   'Paraguay\'s "Archives of Terror,"discovered in 1992, contained 700,000 pages of documentation including photographs of torture victims, lists of murdered and disappeared persons, and records of cross-border coordination. The archives proved that the operation was far more systematic and extensive than previously acknowledged, and that U.S. intelligence agencies were deeply embedded in the network.'
  ],
  tags: ['criminal-justice', 'assassination'],
  sources: [
@@ -1652,7 +1606,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'U.S. Department of State, Chile Declassification Project (24,000 documents)', url: 'https://foia.state.gov/Search/Results.aspx?collection=CHILE', type: 'Article' },
    { title: 'A Lexicon of Terror: Argentina and the Legacies of Torture, Marguerite Feitlowitz', url: 'https://global.oup.com/academic/product/a-lexicon-of-terror-9780199744695', type: 'Article' },
    { title: 'Amnesty International, Operation Condor: Former Head of Secret Police Gets 20 Years', url: 'https://www.amnesty.org/en/latest/news/2016/05/operation-condor-former-head-secret-police/', type: 'Article' },
-   { title: 'Inter-American Commission on Human Rights, Report on Argentina (OEA/Ser.L/V/II.49)', url: 'https://www.cidh.oas.org/countryrep/Argentina80eng/toc.htm', type: 'Article' },
+   { title: 'Inter-American Commission on Human Rights, Report on Argentina (OEA/Ser.L/V/II.49)', url: 'https://www.cidh.oas.org/countryrep/Argentina80eng/toc.htm', type: 'Article' }
  ],
  affiliations: [
    { id: 'henry-kissinger', name: 'Henry Kissinger', type: 'individual', relationship: 'U.S. Secretary of State who personally approved Operation Condor, told Argentine junta to finish repression quickly"before Congress gets back,"blocked human rights protests, and gave Chilean coup the"', href: '/entities/individuals/henry-kissinger' },
@@ -1670,7 +1624,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'leopoldo-galtieri', name: 'Leopoldo Galtieri', type: 'individual', relationship: 'Argentine military junta leader (1981-1982) who continued Dirty War disappearances and orchestrated the Falklands War to distract from domestic repression', href: '/entities/individuals/leopoldo-galtieri' },
    { id: 'vernon-walters', name: 'Vernon Walters', type: 'individual', relationship: 'CIA Deputy Director who served as liaison between U.S. intelligence and South American military dictatorships, personally met with junta leaders to coordinate Condor activities', href: '/entities/individuals/vernon-walters' },
    { id: 'robert-scherrer', name: 'Robert Scherrer', type: 'individual', relationship: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network, his reports were largely ignored', href: '/entities/individuals/robert-scherrer' },
-   { id: 'michael-townley', name: 'Michael Townley', type: 'individual', relationship: 'American-born DINA agent who built and planted the car bomb that killed Orlando Letelier in Washington D.C. Convicted but received reduced sentence of 5 years for cooperation. Given new identity under', href: '/entities/individuals/michael-townley' },
+   { id: 'michael-townley', name: 'Michael Townley', type: 'individual', relationship: 'American-born DINA agent who built and planted the car bomb that killed Orlando Letelier in Washington D.C. Convicted but received reduced sentence of 5 years for cooperation. Given new identity under', href: '/entities/individuals/michael-townley' }
  ],
  timeline: [
    { date: '1964', event: 'CIA-backed military coup in Brazil overthrows democratically elected President João Goulart, installing 21-year military dictatorship, setting the template for regional coups' },
@@ -1692,7 +1646,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: '1998', event: 'Pinochet arrested in London on Spanish warrant for crimes against humanity. Held for 503 days before being released on"health grounds"- returned to Chile, never stood full trial' },
    { date: '2000-2010', event: 'Videla, Massera, and other Argentine junta members convicted and sentenced. Videla receives life in prison. Argentina\\' },
    { date: '2010', event: 'U.S. State Department releases 4,677 previously classified documents on Chile and human rights, confirming U.S. knowledge and support of Operation Condor from its inception' },
-   { date: '2016', event: 'Argentine federal court convicts 15 former military officers of conspiracy in Operation Condor, including Reynaldo Bignone (last Argentine dictator). Court rules Condor was a criminal conspiracy, not a legitimate military operation' },
+   { date: '2016', event: 'Argentine federal court convicts 15 former military officers of conspiracy in Operation Condor, including Reynaldo Bignone (last Argentine dictator). Court rules Condor was a criminal conspiracy, not a legitimate military operation' }
  ],
  statutes: [
    { code: 'Rome Statute, Crimes Against Humanity (Article 7)', description: 'Systematic and widespread attack against civilian populations including murder, torture, enforced disappearance, and persecution. Operation Condor constitutes one of the most documented cases of crimes against humanity in the Western Hemisphere' },
@@ -1703,7 +1657,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: 'U.S. Foreign Assistance Act § 502B', description: 'Prohibits U.S. security assistance to governments engaged in gross violations of internationally recognized human rights. The U.S. continued providing military aid, training (School of the Americas), and intelligence support to Condor regimes despite documented atrocities' },
    { code: '18 U.S.C. § 2332 (Terrorism / 18 U.S.C. § 1116) Murder of Internationally Protected Person', description: 'The assassination of Chilean Ambassador Orlando Letelier by a car bomb in Washington, D.C. was an act of state-sponsored terrorism on U.S. soil. An internationally protected diplomat was murdered by a foreign intelligence service operating inside the United States' },
    { code: 'Alien Tort Statute (28 U.S.C. § 1350)', description: 'Federal courts have jurisdiction over violations of the law of nations. Multiple lawsuits brought against Condor perpetrators in U.S. courts, establishing that foreign officials can be held liable for torture and extrajudicial killing' },
-   { code: 'Inter-American Convention on Forced Disappearance of Persons', description: 'Regional treaty criminalizing enforced disappearance. Condor states systematically violated the right to life, liberty, and security by maintaining networks of secret prisons where victims were tortured and killed without any judicial process' },
+   { code: 'Inter-American Convention on Forced Disappearance of Persons', description: 'Regional treaty criminalizing enforced disappearance. Condor states systematically violated the right to life, liberty, and security by maintaining networks of secret prisons where victims were tortured and killed without any judicial process' }
  ],
  defendants: [
    { name: 'Jorge Rafael Videla (Argentina)', role: 'Crimes against humanity, murder, torture, kidnapping, systematic theft of babies', status: 'convicted', notes: 'Convicted, sentenced to life in prison. Died in prison April 2013' },
@@ -1713,7 +1667,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Michael Townley (DINA/U.S.)', role: 'Murder of Orlando Letelier and Ronni Moffitt via car bomb in Washington D.C.', status: 'charged', notes: 'Plea deal, sentenced to only 5 years despite admitting to murder. Given new identity under witness protection' },
    { name: 'Henry Kissinger (U.S.)', role: 'Complicity in Operation Condor assassinations, blocking human rights warnings, supporting military coups', status: 'charged', notes: 'Never charged. French and Argentine judges sought his testimony, he refused. Died November 2023 at age 100 with total impunity' },
    { name: 'Operation Condor Trial (Argentina, 2016)', role: 'Criminal conspiracy across six nations to kidnap, torture, and murder political opponents', status: 'convicted', notes: '15 former officials convicted. Court ruled Condor constituted a transnational criminal conspiracy. Sentences ranged from 8-25 years' },
-   { name: 'Reynaldo Bignone (Argentina)', role: 'Last Argentine dictator, crimes against humanity, baby theft, forced disappearances', status: 'convicted', notes: 'Convicted and sentenced to 25 years in Operation Condor trial. Died in prison March 2018' },
+   { name: 'Reynaldo Bignone (Argentina)', role: 'Last Argentine dictator, crimes against humanity, baby theft, forced disappearances', status: 'convicted', notes: 'Convicted and sentenced to 25 years in Operation Condor trial. Died in prison March 2018' }
  ],
   },
   'operation-fast-and-furious': {
@@ -1733,7 +1687,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'DOJ Inspector General found 14 officials responsible but recommended only administrative action, not criminal prosecution',
    'Internal emails showed ATF officials discussing using gun violence statistics inflated by walked weapons to push for stricter gun regulations',
    'The death of Agent Brian Terry was initially kept separate from Fast and Furious reporting, ATF did not immediately disclose weapons at scene were from the operation',
-   'Mexican government was not informed about the operation, weapons were tracked only through serial numbers after recovery at crime scenes',
+   'Mexican government was not informed about the operation, weapons were tracked only through serial numbers after recovery at crime scenes'
  ],
  tags: ['criminal-justice'],
  sources: [
@@ -1744,7 +1698,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'Senate Judiciary Committee, Grassley Fast and Furious Documents', url: 'https://www.grassley.senate.gov/issues-legislation/fast-furious', type: 'Article' },
    { title: 'Congressional Research Service, ATF Gunwalking Programs', url: 'https://sgp.fas.org/crs/misc/R42036.pdf', type: 'Article' },
    { title: 'John Dodson, The Unarmed Truth (Whistleblower Memoir)', url: 'https://www.simonandschuster.com/books/The-Unarmed-Truth/John-Dodson/9781476727554', type: 'Article' },
-   { title: 'Washington Post, Holder Held in Contempt', url: 'https://www.washingtonpost.com/politics/holder-held-in-contempt-of-congress/2012/06/28/gJQAMgWm8V_story.html', type: 'Article' },
+   { title: 'Washington Post, Holder Held in Contempt', url: 'https://www.washingtonpost.com/politics/holder-held-in-contempt-of-congress/2012/06/28/gJQAMgWm8V_story.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'eric-holder', name: 'Eric Holder', type: 'individual', relationship: 'Attorney General, held in contempt of Congress for withholding documents', href: '/entities/individuals/eric-holder' },
@@ -1757,7 +1711,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'brian-terry', name: 'Brian Terry', type: 'individual', relationship: 'US Border Patrol Agent murdered with Fast and Furious weapons', href: '/entities/individuals/brian-terry' },
    { id: 'jaime-zapata', name: 'Jaime Zapata', type: 'individual', relationship: 'ICE Agent murdered in Mexico, weapons linked to similar operations', href: '/entities/individuals/jaime-zapata' },
    { id: 'darrell-issa', name: 'Darrell Issa', type: 'individual', relationship: 'House Oversight Committee Chairman who led congressional investigation', href: '/entities/individuals/darrell-issa' },
-   { id: 'chuck-grassley', name: 'Chuck Grassley', type: 'individual', relationship: 'Senate Judiciary Committee ranking member who pressed for accountability', href: '/entities/individuals/chuck-grassley' },
+   { id: 'chuck-grassley', name: 'Chuck Grassley', type: 'individual', relationship: 'Senate Judiciary Committee ranking member who pressed for accountability', href: '/entities/individuals/chuck-grassley' }
  ],
  timeline: [
    { date: 'October 2009', event: 'Operation Fast and Furious begins under ATF Phoenix Field Division' },
@@ -1777,7 +1731,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: 'June 28, 2012', event: 'House votes 255-67 to hold Attorney General Eric Holder in contempt of Congress' },
    { date: 'September 2012', event: 'DOJ Inspector General report finds 14 officials responsible for failures' },
    { date: 'January 2016', event: 'Federal judge rules DOJ must release Fast and Furious documents withheld under executive privilege' },
-   { date: '2020', event: 'Fast and Furious weapons continue to surface at crime scenes in Mexico' },
+   { date: '2020', event: 'Fast and Furious weapons continue to surface at crime scenes in Mexico' }
  ],
  statutes: [
    { code: '18 U.S.C. § 922(a)(6): Straw Purchasing', description: 'ATF knowingly facilitated over 2,000 illegal straw purchases of firearms' },
@@ -1787,7 +1741,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 2: Aiding and Abetting', description: 'ATF personnel aided illegal firearms trafficking by deliberately allowing sales' },
    { code: '22 U.S.C. § 2778: Arms Export Control Act', description: 'Illegal export of weapons to Mexico without proper authorization' },
    { code: '18 U.S.C. § 371: Conspiracy', description: 'Multi-agency conspiracy to facilitate illegal firearms trafficking' },
-   { code: '18 U.S.C. § 1111: Murder (Accessory)', description: 'Government-supplied weapons used to kill Agent Brian Terry and hundreds of Mexican nationals' },
+   { code: '18 U.S.C. § 1111: Murder (Accessory)', description: 'Government-supplied weapons used to kill Agent Brian Terry and hundreds of Mexican nationals' }
  ],
  defendants: [
    { name: 'Eric Holder', role: 'Contempt of Congress', status: 'charged', notes: 'Held in contempt, no criminal prosecution by DOJ' },
@@ -1797,7 +1751,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Heraclio Osorio-Arellanes', role: 'Murder of Brian Terry', status: 'convicted', notes: 'Extradited from Mexico, convicted' },
    { name: 'ATF Officials', role: 'Allowing firearms to walk to cartels', status: 'charged', notes: 'Reassigned but not criminally charged' },
    { name: 'Jaime Avila Jr.', role: 'Straw purchasing firearms (including gun used to kill Terry)', status: 'convicted', notes: 'Convicted - 57 months prison' },
-   { name: 'DOJ Officials', role: 'Providing false information to Congress', status: 'charged', notes: 'No criminal charges filed' },
+   { name: 'DOJ Officials', role: 'Providing false information to Congress', status: 'charged', notes: 'No criminal charges filed' }
  ],
   },
   'operation-gladio': {
@@ -1818,7 +1772,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'The strategy of tension deliberately created chaos to justify authoritarian crackdowns and prevent left-wing electoral victories',
    'European Parliament\'s 1990 resolution condemning Gladio was largely ignored by member state governments who refused further investigation',
    'NATO Secretary General Manfred Wörner acknowledged stay-behind armies existed but refused to provide details, citing alliance security',
-   'Bologna bombing investigations took 40 years to reach final convictions, with intelligence agencies obstructing at every stage',
+   'Bologna bombing investigations took 40 years to reach final convictions, with intelligence agencies obstructing at every stage'
  ],
  tags: ['military-foreign-policy', 'war'],
  sources: [
@@ -1829,7 +1783,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'Philip Willan, Puppetmasters: The Political Use of Terrorism in Italy', url: 'https://www.amazon.com/Puppetmasters-Political-Use-Terrorism-Italy/dp/0595246974', type: 'Article' },
    { title: 'Stuart Christie, Stefano delle Chiaie: Portrait of a Black Terrorist', url: 'https://archive.org/details/StefanoDelleChiaie', type: 'Article' },
    { title: 'Swiss Federal Council, Report on Swiss Stay-Behind Organization P-26', url: 'https://www.admin.ch/gov/en/start/documentation.html', type: 'Article' },
-   { title: 'Richard Cottrell, Gladio: NATO\'s Dagger at the Heart of Europe', url: 'https://www.amazon.com/GLADIO-NATOs-Dagger-Heart-Europe/dp/1615776583', type: 'Article' },
+   { title: 'Richard Cottrell, Gladio: NATO\'s Dagger at the Heart of Europe', url: 'https://www.amazon.com/GLADIO-NATOs-Dagger-Heart-Europe/dp/1615776583', type: 'Article' }
  ],
  affiliations: [
    { id: 'giulio-andreotti', name: 'Giulio Andreotti', type: 'individual', relationship: 'Italian Prime Minister who confirmed Gladio\'s existence in 1990', href: '/entities/individuals/giulio-andreotti' },
@@ -1842,7 +1796,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'aldo-moro', name: 'Aldo Moro', type: 'individual', relationship: 'Italian PM kidnapped and murdered, Gladio linked to failed rescue', href: '/entities/individuals/aldo-moro' },
    { id: 'giuseppe-santovito', name: 'Giuseppe Santovito', type: 'individual', relationship: 'Head of SISMI (Italian military intelligence), P2 member', href: '/entities/individuals/giuseppe-santovito' },
    { id: 'felice-casson', name: 'Felice Casson', type: 'individual', relationship: 'Italian judge who uncovered Gladio through Peteano bombing investigation', href: '/entities/individuals/felice-casson' },
-   { id: 'daniele-ganser', name: 'Daniele Ganser', type: 'individual', relationship: 'Swiss historian who documented Gladio across Europe', href: '/entities/individuals/daniele-ganser' },
+   { id: 'daniele-ganser', name: 'Daniele Ganser', type: 'individual', relationship: 'Swiss historian who documented Gladio across Europe', href: '/entities/individuals/daniele-ganser' }
  ],
  timeline: [
    { date: '1947-1948', event: 'CIA begins establishing stay-behind networks in Italy to counter communist electoral gains' },
@@ -1861,7 +1815,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: '1990-1992', event: 'Parliamentary investigations launched in Belgium, Switzerland, Italy, and other NATO countries' },
    { date: '1995', event: 'Belgian parliamentary commission confirms existence of secret army network' },
    { date: '2000', event: 'Italian parliamentary commission concludes Gladio was responsible for strategy of tension' },
-   { date: '2005', event: 'Daniele Ganser publishes comprehensive academic study documenting Gladio\'s NATO Secret Armies' },
+   { date: '2005', event: 'Daniele Ganser publishes comprehensive academic study documenting Gladio\'s NATO Secret Armies' }
  ],
  statutes: [
    { code: 'Italian Penal Code Art. 285: Devastation and Massacre', description: 'Multiple bombing attacks targeting civilians in public spaces' },
@@ -1871,7 +1825,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: 'Italian Penal Code Art. 378: Aiding After the Fact', description: 'Systematic diversion of investigations to protect perpetrators' },
    { code: 'NATO Treaty Violation', description: 'Subversion of defensive alliance for domestic political manipulation' },
    { code: 'Italian Constitution Art. 18', description: 'Secret armed organizations prohibited under Italian Constitution' },
-   { code: '18 U.S.C. § 2331: International Terrorism', description: 'Violent acts intended to intimidate civilian populations and influence government policy' },
+   { code: '18 U.S.C. § 2331: International Terrorism', description: 'Violent acts intended to intimidate civilian populations and influence government policy' }
  ],
  defendants: [
    { name: 'Valerio Fioravanti & Francesca Mambro', role: 'Bologna station bombing (85 killed)', status: 'convicted', notes: 'Convicted, life imprisonment' },
@@ -1881,7 +1835,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Giulio Andreotti', role: 'Association with Mafia (related investigation)', status: 'acquitted', notes: 'Acquitted after lengthy trial' },
    { name: 'SISMI Officers', role: 'Concealing Gladio weapons caches', status: 'charged', notes: 'Minimal accountability, agency restructured' },
    { name: 'CIA/NATO Officials', role: 'Funding and coordinating secret terrorist networks', status: 'charged', notes: 'No prosecutions, sovereign immunity claimed' },
-   { name: 'Gilberto Cavallini', role: 'Bologna bombing complicity', status: 'convicted', notes: 'Convicted in 2020; life imprisonment' },
+   { name: 'Gilberto Cavallini', role: 'Bologna bombing complicity', status: 'convicted', notes: 'Convicted in 2020; life imprisonment' }
  ],
   },
   'operation-mockingbird': {
@@ -1900,7 +1854,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'CIA Director George H.W. Bush issued a 1976 policy "prohibiting" paid journalist relationships but included a loophole allowing the CIA Director to personally approve exceptions at his sole discretion',
    'The full scope of Operation Mockingbird was never officially disclosed; the Church Committee estimated over 50 US journalists were direct CIA assets, while Carl Bernstein\'s independent investigation identified more than 400',
    'CIA officials systematically misled Congress about the extent of media infiltration during multiple oversight hearings throughout the 1970s and beyond',
-   'CIA destroyed or reclassified key documents related to media operations before the Church Committee could review them, making full historical accountability impossible',
+   'CIA destroyed or reclassified key documents related to media operations before the Church Committee could review them, making full historical accountability impossible'
  ],
  tags: ['intelligence-covert-operations'],
  sources: [
@@ -1909,7 +1863,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'CIA Family Jewels (declassified documents on media operations)', url: 'https://www.cia.gov/readingroom/collection/family-jewels', type: 'Article' },
    { title: 'Frances Stonor Saunders: The Cultural Cold War: The CIA and the World of Arts and Letters', url: 'https://thenewpress.com/books/cultural-cold-war', type: 'Article' },
    { title: 'Hugh Wilford: The Mighty Wurlitzer: How the CIA Played America', url: 'https://www.hup.harvard.edu/books/9780674026810', type: 'Article' },
-   { title: 'Deborah Davis: Katharine the Great (Washington Post and CIA)', url: 'https://archive.org/details/katharinegreatka00davi', type: 'Article' },
+   { title: 'Deborah Davis: Katharine the Great (Washington Post and CIA)', url: 'https://archive.org/details/katharinegreatka00davi', type: 'Article' }
  ],
  affiliations: [
    { id: 'frank-wisner', name: 'Frank Wisner', type: 'individual', relationship: 'CIA Office of Policy Coordination chief who created and ran Mockingbird, called his media network "Wisner\'s Wurlitzer"' },
@@ -1919,7 +1873,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'philip-graham', name: 'Philip Graham', type: 'individual', relationship: 'Washington Post publisher and key Mockingbird recruit. Helped CIA recruit other journalists.' },
    { id: 'william-paley', name: 'William Paley', type: 'individual', relationship: 'CBS president who allowed CIA to use CBS for cover and propaganda' },
    { id: 'henry-luce', name: 'Henry Luce', type: 'individual', relationship: 'Time/Life founder who provided CIA cover for agents posing as Time correspondents' },
-   { id: 'carl-bernstein', name: 'Carl Bernstein', type: 'individual', relationship: 'Journalist who exposed Mockingbird in landmark 1977 Rolling Stone investigation' },
+   { id: 'carl-bernstein', name: 'Carl Bernstein', type: 'individual', relationship: 'Journalist who exposed Mockingbird in landmark 1977 Rolling Stone investigation' }
  ],
  timeline: [
    { date: '1948', event: 'Frank Wisner appointed head of Office of Policy Coordination, begins recruiting journalists' },
@@ -1933,7 +1887,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: '1975', event: 'Church Committee investigates CIA media manipulation' },
    { date: '1976', event: 'CIA Director George H.W. Bush issues policy "prohibiting" paid journalist relationships (widely ignored)' },
    { date: '1977', event: 'Carl Bernstein publishes "The CIA and the Media"in Rolling Stone, names 400+ journalist assets' },
-   { date: '2014', event: 'German journalist Udo Ulfkotte publishes "Bought Journalists"alleging CIA media manipulation continues in Europe' },
+   { date: '2014', event: 'German journalist Udo Ulfkotte publishes "Bought Journalists"alleging CIA media manipulation continues in Europe' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1001: False Statements', description: 'CIA officials lying to Congress about the scope and nature of journalist recruitment and propaganda operations' },
@@ -1941,13 +1895,13 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: '50 U.S.C. § 3024: Intelligence Community Oversight Violations', description: 'Failure to disclose covert domestic media manipulation programs to congressional oversight committees as legally required' },
    { code: '22 U.S.C. § 1461: Smith-Mundt Act (Domestic Propaganda Prohibition)', description: 'CIA directing propaganda produced for foreign audiences at domestic American audiences through US media outlets' },
    { code: '18 U.S.C. § 1505: Obstruction of Congressional Investigations', description: 'CIA stonewalling Church Committee inquiries by withholding documents and misrepresenting the scope of media operations' },
-   { code: 'First Amendment, Freedom of the Press', description: 'Government co-option of the free press undermines the constitutional guarantee of an independent press serving as check on government power' },
+   { code: 'First Amendment, Freedom of the Press', description: 'Government co-option of the free press undermines the constitutional guarantee of an independent press serving as check on government power' }
  ],
  defendants: [
    { name: 'CIA / US Government', role: 'Subversion of free press / First Amendment violations', status: 'charged', notes: 'Church Committee documented abuses, NO criminal charges filed against any CIA officer' },
    { name: 'Richard Helms', role: 'Lying to Congress about CIA operations (including media)', status: 'charged', notes: 'Pled no contest to misdemeanor - $2,000 fine, 2-year suspended sentence (1977)' },
    { name: 'CIA', role: 'Executive Order restrictions on media relationships', status: 'charged', notes: 'EO 12333 (1981) nominally restricts CIA media use, enforcement is self-policed by CIA itself' },
-   { name: 'No individual', role: 'First Amendment violations', status: 'charged', notes: 'NO person was EVER criminally prosecuted for Operation Mockingbird' },
+   { name: 'No individual', role: 'First Amendment violations', status: 'charged', notes: 'NO person was EVER criminally prosecuted for Operation Mockingbird' }
  ],
   },
   'operation-northwoods': {
@@ -1967,7 +1921,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'The plan to"develop a Communist Cuban terror campaign in the Miami area"specified real violence including"exploding a few plastic bombs in carefully chosen spots"- demonstrating willingness to injure or kill American civilians',
    'One scenario called for hijacking a civilian airliner or creating a elaborate deception with a drone aircraft to simulate the shoot-down of a passenger plane, complete with fake passengers and a staged crash site',
    'The existence of Northwoods was virtually unknown to the American public until James Bamford\'s 2001 book, meaning the government successfully concealed it for nearly 40 years despite its extraordinary implications',
-   'Operation Northwoods was not an isolated idea, it was developed within the larger Operation Mongoose program that included over 30 plans for sabotage, assassination, and destabilization against Cuba, all approved at the highest levels',
+   'Operation Northwoods was not an isolated idea, it was developed within the larger Operation Mongoose program that included over 30 plans for sabotage, assassination, and destabilization against Cuba, all approved at the highest levels'
  ],
  tags: ['criminal-justice', 'assassination', 'war'],
  sources: [
@@ -1979,7 +1933,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'Church Committee, Alleged Assassination Plots Involving Foreign Leaders (Senate Report)', url: 'https://www.intelligence.senate.gov/sites/default/files/94465.pdf', type: 'Article' },
    { title: 'Mary Ferrell Foundation, Operation Northwoods Archive', url: 'https://www.maryferrell.org/pages/Operation_Northwoods.html', type: 'Article' },
    { title: 'U.S. Department of State, Foreign Relations of the United States, Cuba 1961-1963', url: 'https://history.state.gov/historicaldocuments/frus1961-63v10', type: 'Article' },
-   { title: 'Washington Post, Pentagon Proposed Pretexts for Cuba Invasion in 1962', url: 'https://www.washingtonpost.com/archive/politics/2001/04/29/pentagon-proposed-pretexts-for-cuba-invasion-in-1962/77e94c77-5594-41f4-8e6a-3f0d621a1cb7/', type: 'Article' },
+   { title: 'Washington Post, Pentagon Proposed Pretexts for Cuba Invasion in 1962', url: 'https://www.washingtonpost.com/archive/politics/2001/04/29/pentagon-proposed-pretexts-for-cuba-invasion-in-1962/77e94c77-5594-41f4-8e6a-3f0d621a1cb7/', type: 'Article' }
  ],
  affiliations: [
    { id: 'lyman-lemnitzer', name: 'Lyman Lemnitzer', type: 'individual', relationship: 'Chairman of the Joint Chiefs of Staff who signed off on the Northwoods proposal; removed from his position by Kennedy shortly after', href: '/entities/individuals/lyman-lemnitzer' },
@@ -1991,7 +1945,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'allen-dulles', name: 'Allen Dulles', type: 'individual', relationship: 'Former CIA Director fired by Kennedy after the Bay of Pigs; had overseen earlier anti-Cuba operations that set the stage for Northwoods', href: '/entities/individuals/allen-dulles' },
    { id: 'fidel-castro', name: 'Fidel Castro', type: 'individual', relationship: 'Cuban leader who was the target of the proposed operation; the U.S. government attempted to assassinate him at least 638 times', href: '/entities/individuals/fidel-castro' },
    { id: 'james-bamford', name: 'James Bamford', type: 'individual', relationship: 'Journalist and author who brought Northwoods to widespread public attention in his 2001 book "Body of Secrets"', href: '/entities/individuals/james-bamford' },
-   { id: 'earle-wheeler', name: 'Earle Wheeler', type: 'individual', relationship: 'Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War', href: '/entities/individuals/earle-wheeler' },
+   { id: 'earle-wheeler', name: 'Earle Wheeler', type: 'individual', relationship: 'Army Chief of Staff and JCS member at the time; later became JCS Chairman during the Vietnam War', href: '/entities/individuals/earle-wheeler' }
  ],
  timeline: [
    { date: '1959-01', event: 'Cuban Revolution succeeds; Fidel Castro takes power; U.S. begins plotting regime change' },
@@ -2011,7 +1965,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: '1997-11', event: 'Operation Northwoods documents declassified by the JFK Assassination Records Review Board and released to the National Archives' },
    { date: '2001-04', event: 'James Bamford publishes "Body of Secrets,"bringing Northwoods to widespread public attention for the first time' },
    { date: '2004', event: 'National Security Archive at George Washington University publishes the full Northwoods documents online' },
-   { date: '2017-10', event: 'Additional Northwoods-related documents released as part of the JFK files declassification under the 1992 Act' },
+   { date: '2017-10', event: 'Additional Northwoods-related documents released as part of the JFK files declassification under the 1992 Act' }
  ],
  statutes: [
    { code: '18 U.S.C. § 2331: Domestic Terrorism', description: 'The Northwoods proposals (bombings, shootings, hijackings on U.S. soil) meet every element of the federal definition of domestic terrorism' },
@@ -2021,7 +1975,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1001: False Statements', description: 'The proposals called for manufacturing false evidence, fabricating intelligence, and creating fake casualty reports to blame Cuba' },
    { code: 'UCMJ Article 94: Mutiny or Sedition', description: 'Senior military officials proposing unauthorized violence against American citizens arguably constitutes sedition under military law' },
    { code: 'UCMJ Article 134: General Article (Conduct Unbecoming)', description: 'Proposing the murder of American citizens for political purposes is conduct unbecoming officers of the United States military' },
-   { code: 'International Law, Crime of Aggression', description: 'Manufacturing false pretexts for military invasion constitutes the crime of aggression under international law' },
+   { code: 'International Law, Crime of Aggression', description: 'Manufacturing false pretexts for military invasion constitutes the crime of aggression under international law' }
  ],
  defendants: [
    { name: 'Lyman Lemnitzer', role: 'Proposing false flag terrorist attacks against American citizens', status: 'charged', notes: 'Not prosecuted; reassigned to NATO; received multiple honors including the Presidential Medal of Freedom' },
@@ -2031,7 +1985,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'William Craig', role: 'Authoring the Northwoods memorandum containing specific false flag attack plans', status: 'charged', notes: 'Never publicly identified by mainstream media until decades later; no consequences' },
    { name: 'CIA Operatives', role: 'Cuba assassination plots and covert destabilization operations under Mongoose', status: 'charged', notes: 'Exposed by Church Committee in 1975; no criminal prosecutions resulted' },
    { name: 'Department of Defense', role: 'Institutional responsibility for developing plans to attack American citizens', status: 'charged', notes: 'Documents classified for 35 years; released only under special legislative mandate' },
-   { name: 'U.S. Government', role: 'Systematic cover-up of the Northwoods proposal and related anti-Cuba operations', status: 'charged', notes: 'Declassification in 1997 came too late for any legal accountability; all principals dead or retired' },
+   { name: 'U.S. Government', role: 'Systematic cover-up of the Northwoods proposal and related anti-Cuba operations', status: 'charged', notes: 'Declassification in 1997 came too late for any legal accountability; all principals dead or retired' }
  ],
   },
   'operation-paperclip': {
@@ -2051,7 +2005,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'Hubertus Strughold was honored as the "Father of Space Medicine"by the USAF despite documented links to the Dachau freezing and altitude experiments, his portrait was only quietly removed from the USAF School of Aerospace Medicine in 2006',
    'When Arthur Rudolph was finally investigated for slave labor in the 1980s, rather than face trial he was allowed to quietly renounce his citizenship and leave, avoiding any public accounting of NASA\'s Nazi connections',
    'The full scope of Operation Paperclip remained classified for decades; documents were only substantially declassified starting in the 2000s, by which time nearly all participants were dead',
-   'The program was not limited to rocket scientists, the U.S. also recruited Nazi intelligence officers, chemical weapons experts, biological warfare specialists, and aviation medicine doctors who had conducted experiments on prisoners',
+   'The program was not limited to rocket scientists, the U.S. also recruited Nazi intelligence officers, chemical weapons experts, biological warfare specialists, and aviation medicine doctors who had conducted experiments on prisoners'
  ],
  tags: ['military-foreign-policy', 'war', 'justice'],
  sources: [
@@ -2063,7 +2017,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: 'Smithsonian Magazine, The Nazis Next Door', url: 'https://www.smithsonianmag.com/smart-news/why-us-government-brought-nazi-scientists-america-after-world-war-ii-180961110/', type: 'Article' },
    { title: 'BBC, Operation Paperclip: Nazi Scientists and the Cold War', url: 'https://www.bbc.com/news/magazine-32563957', type: 'Article' },
    { title: 'New York Times, U.S. Used Nazis as Cold War Spies', url: 'https://www.nytimes.com/2014/10/27/us/in-cold-war-us-spy-agencies-used-1000-nazis.html', type: 'Article' },
-   { title: 'Holocaust Encyclopedia, The Doctors Trial', url: 'https://encyclopedia.ushmm.org/content/en/article/the-doctors-trial-the-medical-case-of-the-subsequent-nuremberg-proceedings', type: 'Article' },
+   { title: 'Holocaust Encyclopedia, The Doctors Trial', url: 'https://encyclopedia.ushmm.org/content/en/article/the-doctors-trial-the-medical-case-of-the-subsequent-nuremberg-proceedings', type: 'Article' }
  ],
  affiliations: [
    { id: 'wernher-von-braun', name: 'Wernher von Braun', type: 'individual', relationship: 'Former SS officer and Nazi rocket scientist; used slave labor from Dora-Mittelbau concentration camp to build V-2 rockets; became director of NASA\'s Marshall Space Flight Center', href: '/entities/individuals/wernher-von-braun' },
@@ -2075,7 +2029,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { id: 'reinhard-gehlen', name: 'Reinhard Gehlen', type: 'individual', relationship: 'Nazi intelligence chief who created the Gehlen Organization, which became West Germany\'s BND with CIA funding and oversight', href: '/entities/individuals/reinhard-gehlen' },
    { id: 'allen-dulles', name: 'Allen Dulles', type: 'individual', relationship: 'OSS officer and later CIA Director who championed the use of former Nazis in U.S. intelligence operations during the Cold War', href: '/entities/individuals/allen-dulles' },
    { id: 'harry-s-truman', name: 'Harry S. Truman', type: 'individual', relationship: 'President who approved Paperclip but explicitly prohibited entry of"active supporters of Nazi militarism"- an order the JIOA systematically violated', href: '/entities/individuals/harry-truman' },
-   { id: 'bosquet-wev', name: 'Bosquet Wev', type: 'individual', relationship: 'JIOA director who oversaw the creation of fraudulent dossiers and security reports to circumvent Truman\'s anti-Nazi directive', href: '/entities/individuals/bosquet-wev' },
+   { id: 'bosquet-wev', name: 'Bosquet Wev', type: 'individual', relationship: 'JIOA director who oversaw the creation of fraudulent dossiers and security reports to circumvent Truman\'s anti-Nazi directive', href: '/entities/individuals/bosquet-wev' }
  ],
  timeline: [
    { date: '1945-05', event: 'Germany surrenders; Allied forces begin capturing German scientists and seizing research facilities and technology' },
@@ -2095,7 +2049,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: '1984', event: 'Arthur Rudolph (Saturn V program manager) renounces U.S. citizenship and returns to Germany when investigated for slave labor at Mittelwerk' },
    { date: '1985', event: 'First major exposé of Operation Paperclip published by Linda Hunt in the Bulletin of the Atomic Scientists' },
    { date: '2006', event: 'CIA releases documents confirming the agency\'s use of former Nazis as Cold War assets, including in Operation Paperclip' },
-   { date: '2010', event: 'National Archives declassifies thousands of Paperclip documents revealing the extent of dossier falsification and Nazi connections' },
+   { date: '2010', event: 'National Archives declassifies thousands of Paperclip documents revealing the extent of dossier falsification and Nazi connections' }
  ],
  statutes: [
    { code: 'Nuremberg Principles, War Crimes', description: 'Many Paperclip recruits participated in or were complicit in war crimes as defined by the Nuremberg Tribunal' },
@@ -2105,7 +2059,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: 'Geneva Convention, Prisoner Labor', description: 'Use of concentration camp prisoners for forced labor in weapons production violated international law' },
    { code: 'Fraud Against the United States', description: 'JIOA officials committed fraud by creating false security dossiers and lying to other government agencies' },
    { code: 'Obstruction of Justice', description: 'U.S. agencies actively blocked investigations into Paperclip scientists\' wartime activities for decades' },
-   { code: 'Moral Accountability', description: 'The U.S. government prioritized military-technological advantage over justice for millions of Nazi victims' },
+   { code: 'Moral Accountability', description: 'The U.S. government prioritized military-technological advantage over justice for millions of Nazi victims' }
  ],
  defendants: [
    { name: 'Wernher von Braun', role: 'SS membership and use of concentration camp slave labor at Mittelbau-Dora', status: 'charged', notes: 'Never prosecuted; became national hero; received National Medal of Science' },
@@ -2115,7 +2069,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Walter Schreiber', role: 'Oversight of human medical experiments in concentration camps', status: 'charged', notes: 'Brought to U.S.; exposed by journalist Drew Pearson; quietly relocated to Argentina' },
    { name: 'Georg Rickhey', role: 'Management of Mittelwerk factory using slave labor', status: 'acquitted', notes: 'Returned to Germany for trial; acquitted due to lack of witness testimony' },
    { name: 'Reinhard Gehlen', role: 'Head of Nazi military intelligence on the Eastern Front', status: 'charged', notes: 'Never prosecuted; CIA funded his intelligence organization; became head of West German BND' },
-   { name: 'JIOA Officials', role: 'Systematic falsification of security dossiers to circumvent presidential orders', status: 'charged', notes: 'No personnel ever disciplined or prosecuted for creating fraudulent records' },
+   { name: 'JIOA Officials', role: 'Systematic falsification of security dossiers to circumvent presidential orders', status: 'charged', notes: 'No personnel ever disciplined or prosecuted for creating fraudulent records' }
  ],
   },
   'opioid-crisis': {
@@ -2134,7 +2088,7 @@ const investigations_o: Record<string, InvestigationData> = {
    'Kellyanne Conway was named opioid response coordinator despite having no public health experience, turning the response into a communications exercise rather than a public health intervention',
    'The administration resisted efforts to increase access to medication-assisted treatment (MAT) like methadone and buprenorphine, which are the evidence-based gold standard for opioid addiction treatment',
    'DEA enforcement actions against pharmaceutical distributors dropped significantly during the Trump administration, even as overdose deaths reached record highs',
-   'The administration focused messaging on border enforcement and illegal fentanyl while largely ignoring the role of legally prescribed opioids and pharmaceutical industry malfeasance in creating the epidemic',
+   'The administration focused messaging on border enforcement and illegal fentanyl while largely ignoring the role of legally prescribed opioids and pharmaceutical industry malfeasance in creating the epidemic'
  ],
  tags: ['corporate-accountability'],
  sources: [
@@ -2142,13 +2096,13 @@ const investigations_o: Record<string, InvestigationData> = {
    { title: '60 Minutes: The Whistleblower', url: 'https://www.cbsnews.com/news/ex-dea-agent-opioid-crisis-fueled-by-drug-industry-and-congress/', type: 'Investigation' },
    { title: 'CDC Overdose Death Data', url: 'https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm', type: 'Government Data' },
    { title: 'HHS Opioid Epidemic History', url: 'https://www.hhs.gov/opioids/about-the-epidemic/index.html', type: 'Government Report' },
-   { title: 'OpenSecrets: Pharma Lobbying', url: 'https://www.opensecrets.org/industries/lobbying.php?ind=H04', type: 'Research' },
+   { title: 'OpenSecrets: Pharma Lobbying', url: 'https://www.opensecrets.org/industries/lobbying.php?ind=H04', type: 'Research' }
  ],
  affiliations: [
    { id: 'alex-azar', name: 'Alex Azar', type: 'individual', relationship: 'HHS Secretary, Former Eli Lilly exec', href: '/entities/individuals/alex-azar' },
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'President, Appointed pharma-friendly regulators', href: '/entities/individuals/donald-trump' },
    { id: 'tom-marino', name: 'Tom Marino', type: 'individual', relationship: 'Failed drug czar nominee, Protected distributors', href: '/entities/individuals/tom-marino' },
-   { id: 'kellyanne-conway', name: 'Kellyanne Conway', type: 'individual', relationship: 'Opioid response coordinator, PR focus', href: '/entities/individuals/kellyanne-conway' },
+   { id: 'kellyanne-conway', name: 'Kellyanne Conway', type: 'individual', relationship: 'Opioid response coordinator, PR focus', href: '/entities/individuals/kellyanne-conway' }
  ],
  timeline: [
    { date: '1999', event: 'Opioid epidemic begins accelerating' },
@@ -2164,7 +2118,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { date: '2019', event: 'Purdue Pharma files for bankruptcy' },
    { date: '2020', event: 'Record 93,000+ overdose deaths (COVID impact)' },
    { date: 'October 2020', event: 'DOJ announces Purdue settlement' },
-   { date: '2021', event: 'Deaths exceed 100,000 annually' },
+   { date: '2021', event: 'Deaths exceed 100,000 annually' }
  ],
  statutes: [
    { code: '21 U.S.C. § 843(a)(7)', description: 'Controlled Substances Act, failure to report suspicious orders of opioids by pharmaceutical distributors' },
@@ -2172,7 +2126,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States, coordinated scheme to mislead regulators about addiction risks' },
    { code: '42 U.S.C. § 1320a-7b', description: 'Anti-Kickback Statute violations, pharmaceutical companies paying doctors to prescribe opioids' },
    { code: '21 U.S.C. § 824', description: 'DEA registration suspension authority, weakened by Ensuring Patient Access Act championed by Marino' },
-   { code: '18 U.S.C. § 1957', description: 'Monetary transactions in property derived from specified unlawful activity, Sackler family transfers of Purdue profits' },
+   { code: '18 U.S.C. § 1957', description: 'Monetary transactions in property derived from specified unlawful activity, Sackler family transfers of Purdue profits' }
  ],
  defendants: [
    { name: 'Purdue Pharma', role: 'Conspiracy to defraud the United States and violate anti-kickback laws', status: 'convicted', notes: 'Pleaded guilty to federal charges; $8.3 billion settlement (2020); dissolved in bankruptcy' },
@@ -2181,7 +2135,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Cardinal Health', role: 'Failure to maintain effective controls against diversion of controlled substances', status: 'charged', notes: 'Part of $26 billion distributor settlement with states (2022)' },
    { name: 'AmerisourceBergen', role: 'Failure to report suspicious orders of controlled substances', status: 'charged', notes: 'Part of $26 billion distributor settlement with states (2022)' },
    { name: 'Tom Marino', role: 'Championing legislation weakening DEA enforcement while receiving pharma donations', status: 'charged', notes: 'Withdrew as drug czar nominee October 2017; resigned from Congress January 2019' },
-   { name: 'Johnson & Johnson', role: 'Deceptive marketing of opioid raw materials and finished products', status: 'charged', notes: '$5 billion settlement with states (2022)' },
+   { name: 'Johnson & Johnson', role: 'Deceptive marketing of opioid raw materials and finished products', status: 'charged', notes: '$5 billion settlement with states (2022)' }
  ],
   },
 };

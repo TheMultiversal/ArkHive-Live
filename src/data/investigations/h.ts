@@ -20,7 +20,7 @@ const investigations_h: Record<string, InvestigationData> = {
  'RESEARCH PUBLICATION CONTROL: Gates Foundation funding of health journals and academic institutions creates potential conflicts. Research contradicting Foundation priorities may face publication barriers. The Foundation shapes what knowledge is produced and disseminated.',
  'AGRICULTURAL HEALTH INTERSECTION: Gates Foundation agricultural programs (promoting GMOs, synthetic fertilizers, and specific crop varieties) intersect with health. Critics argue these programs benefit agribusiness investors while not addressing underlying food insecurity causes.',
  'GAVI VACCINE ALLIANCE: Gates Foundation co-founded and funds GAVI, which purchases and distributes vaccines globally. While this has expanded vaccination, it also creates a market for pharmaceutical company products in which the Foundation holds investments.',
- 'DEMOCRATIC DEFICIT: The most fundamental critique: health decisions should be made by affected populations through democratic processes, not by billionaire philanthropists. The Gates model of technocratic intervention bypasses democratic input and accountability.',
+ 'DEMOCRATIC DEFICIT: The most fundamental critique: health decisions should be made by affected populations through democratic processes, not by billionaire philanthropists. The Gates model of technocratic intervention bypasses democratic input and accountability.'
  ],
  tags: ['Global Health', 'WHO', 'Gates Foundation', 'Vaccines', 'Health Policy', 'Accountability', 'GAVI', 'Polio'],
  sources: [
@@ -28,12 +28,12 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'Lancet Analysis of Gates Foundation', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)60885-0/fulltext', type: 'Academic' },
  { title: 'GAVI Funding Structure', url: 'https://www.gavi.org/investing-gavi/funding', type: 'Official Source' },
  { title: 'Global Health Watch Reports', url: 'https://www.ghwatch.org/', type: 'Report' },
- { title: 'Politico - Bill Gates Global Health Power', url: 'https://www.politico.eu/article/bill-gates-who-global-health-covid/', type: 'Investigation' },
+ { title: 'Politico - Bill Gates Global Health Power', url: 'https://www.politico.eu/article/bill-gates-who-global-health-covid/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Bill Gates', type: 'individual', relationship: 'Co-chair of the Bill & Melinda Gates Foundation since 2000; after Melinda\'s 2024 departure became sole decision-maker over the world\'s largest private foundation ($75B endowment) shaping health policy for billions', href: '/entities/individuals/bill-gates' },
  { id: '2', name: 'WHO', type: 'organization', relationship: 'Receives over $500 million annually from Gates Foundation, making it the second-largest WHO funder; this funding dependency gives an unelected private foundation extraordinary influence over global health priorities', href: '/entities/organizations/who' },
- { id: '3', name: 'CDC', type: 'agency', relationship: 'Receives Gates Foundation funding for disease surveillance and vaccine programs; institutional dependency creates accountability concerns similar to WHO relationship', href: '/entities/agencies/cdc' },
+ { id: '3', name: 'CDC', type: 'agency', relationship: 'Receives Gates Foundation funding for disease surveillance and vaccine programs; institutional dependency creates accountability concerns similar to WHO relationship', href: '/entities/agencies/cdc' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2023-12-17',
@@ -45,7 +45,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2017-01-20', event: 'Trump administration reduces US funding to WHO; Gates Foundation influence over WHO grows proportionally larger as it fills the funding gap', type: 'critical' },
      { date: '2020-03-11', event: 'WHO declares COVID-19 pandemic; Gates Foundation positions on vaccine IP, distribution strategy, and COVAX framework shape global response; initial opposition to patent waivers criticized', type: 'critical' },
      { date: '2021-05-05', event: 'Bill and Melinda Gates announce divorce; raises questions about governance of Foundation and concentration of control over global health spending', type: 'default' },
-     { date: '2024-05-13', event: 'Melinda French Gates departs Foundation entirely; Bill Gates becomes sole trustee of $75 billion endowment, concentrating unprecedented private power over global health', type: 'default' },
+     { date: '2024-05-13', event: 'Melinda French Gates departs Foundation entirely; Bill Gates becomes sole trustee of $75 billion endowment, concentrating unprecedented private power over global health', type: 'default' }
    ],
  },
   'helsinki-summit': {
@@ -64,19 +64,18 @@ const investigations_h: Record<string, InvestigationData> = {
  'WALK-BACK ATTEMPT: The next day, Trump claimed he meant to say "wouldn\'t "instead of "would," a claim no one found credible given his fulsome praise of Putin.',
  'INTELLIGENCE COMMUNITY: Director of National Intelligence Dan Coats had just days earlier stated Russia continued to target U.S. elections. Trump contradicted his own appointee.',
  'PATTERN: Helsinki fit a pattern of Trump refusing to criticize Putin, questioning NATO, and advancing Russian foreign policy goals.',
- 'UNANSWERED QUESTIONS: What was discussed in the private meeting remains unknown. Trump went to extraordinary lengths to prevent disclosure of his Putin conversations.',
+ 'UNANSWERED QUESTIONS: What was discussed in the private meeting remains unknown. Trump went to extraordinary lengths to prevent disclosure of his Putin conversations.'
  ],
  tags: ['Russia', 'Putin', 'Helsinki', 'Intelligence', 'National Security', 'Treason'],
  sources: [
  { title: 'Full Press Conference Video', url: 'https://www.c-span.org/video/?448333-1/president-trump-russian-president-putin-hold-joint-news-conference', type: 'Primary Source' },
  { title: 'ODNI Assessment', url: 'https://www.dni.gov/files/documents/ICA_2017_01.pdf', type: 'Government Report' },
- { title: 'Interpreter Notes Reporting', url: 'https://www.washingtonpost.com/world/national-security/trump-has-concealed-details-of-his-face-to-face-encounters-with-putin-from-senior-officials-in-administration/2019/01/12/65f6686c-1434-11e9-b6ad-9cfd62dbb0a8_story.html', type: 'Investigation' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'Interpreter Notes Reporting', url: 'https://www.washingtonpost.com/world/national-security/trump-has-concealed-details-of-his-face-to-face-encounters-with-putin-from-senior-officials-in-administration/2019/01/12/65f6686c-1434-11e9-b6ad-9cfd62dbb0a8_story.html', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Sided with Putin over US intelligence', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Russian President, denied interference', href: '/entities/individuals/vladimir-putin' },
- { id: '3', name: 'Dan Coats', type: 'individual', relationship: 'DNI, publicly contradicted by Trump', href: '/entities/individuals/dan-coats' },
+ { id: '3', name: 'Dan Coats', type: 'individual', relationship: 'DNI, publicly contradicted by Trump', href: '/entities/individuals/dan-coats' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-06-26',
@@ -87,7 +86,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2019-01', event: 'Washington Post reported Trump went to extraordinary lengths to conceal details of his conversations with Putin, including taking interpreter\'s notes after meetings', type: 'default' },
      { date: '2019-04', event: 'Mueller Report documented 140+ contacts between Trump campaign and Russia-linked individuals; concluded Russia intervened "in sweeping and systematic fashion" to help Trump', type: 'legal' },
      { date: '2020-08', event: 'Senate Intelligence Committee bipartisan report confirmed Russia targeted Trump campaign and Paul Manafort shared polling data with Russian intelligence-linked operatives', type: 'political' },
-     { date: '2021-03', event: 'ODNI declassified assessment confirming Putin authorized influence operations in 2020 election cycle; contents of private Trump-Putin meetings remain unknown', type: 'default' },
+     { date: '2021-03', event: 'ODNI declassified assessment confirming Putin authorized influence operations in 2020 election cycle; contents of private Trump-Putin meetings remain unknown', type: 'default' }
    ],
  },
   'hedge-fund-predation': {
@@ -110,21 +109,20 @@ const investigations_h: Record<string, InvestigationData> = {
  'TAX AVOIDANCE: Hedge fund managers benefit from the"carried interest "loophole, paying capital gains rates (lower) on what is effectively ordinary income. This single loophole costs billions annually and persists due to lobbying.',
  'PENSION FUND EXTRACTION: Pension funds, seeking higher returns, invest heavily in hedge funds despite evidence that hedge funds underperform simple index funds. Hedge managers extract billions in fees from retirement savings.',
  'REGULATORY CAPTURE: Hedge funds spend heavily on lobbying and employ former regulators. The SEC rarely challenges hedge fund practices. When enforcement occurs, fines are typically far less than profits gained from violations.',
- 'SYSTEMIC RISK: Hedge funds are so large and interconnected that their failures can threaten the financial system. Long-Term Capital Management\'s 1998 collapse required a Federal Reserve-organized bailout. The risk hasn\'t gone away.',
+ 'SYSTEMIC RISK: Hedge funds are so large and interconnected that their failures can threaten the financial system. Long-Term Capital Management\'s 1998 collapse required a Federal Reserve-organized bailout. The risk hasn\'t gone away.'
  ],
  tags: ['Hedge Funds', 'Short Selling', 'Wall Street', 'GameStop', 'Financial Predation', 'Market Manipulation', 'Carried Interest'],
  sources: [
  { title: 'SEC, Hedge Fund Oversight', url: 'https://www.sec.gov/spotlight/hedgefunds.htm', type: 'Government Resource' },
  { title: 'GameStop Congressional Hearing', url: 'http://web.archive.org/web/20221209105844/https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107', type: 'Congressional' },
  { title: 'NYT, How Private Equity Killed Toys R Us', url: 'https://www.nytimes.com/2018/03/15/business/toys-r-us-bankruptcy.html', type: 'Investigation' },
- { title: 'Flash Boys by Michael Lewis', url: 'https://wwnorton.com/books/9780393351590', type: 'Book' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Flash Boys by Michael Lewis', url: 'https://wwnorton.com/books/9780393351590', type: 'Book' }
  ],
  affiliations: [
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Major hedge fund, GameStop involvement', href: '/entities/corporations/citadel' },
  { id: '2', name: 'Elliott Management', type: 'corporation', relationship: 'Aggressive activist fund', href: '/entities/corporations/elliott-management' },
  { id: '3', name: 'Paul Singer', type: 'individual', relationship: 'Elliott founder, vulture capitalist', href: '/entities/individuals/paul-singer' },
- { id: '4', name: 'SEC', type: 'agency', relationship: 'Weak regulatory oversight', href: '/entities/agencies/sec' },
+ { id: '4', name: 'SEC', type: 'agency', relationship: 'Weak regulatory oversight', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '1992-01-01',
    lastActivityDate: '2025-08-03',
@@ -133,7 +131,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '1992', event: 'CURRENCY ATTACKS: George Soros famously "broke the Bank of England "in 1992, profiting $1 billion by attacking the British pound', type: 'critical' },
      { date: '1998', event: 'Long-Term Capital Management\'s 1998 collapse required a Federal Reserve-organized bailout', type: 'critical' },
      { date: '2021', event: 'GameStop investors exposed the practice in 2021', type: 'default' },
-     { date: '2021', event: 'GAMESTOP SAGA: In January 2021, retail investors coordinated to buy GameStop stock, squeezing short-selling hedge funds', type: 'default' },
+     { date: '2021', event: 'GAMESTOP SAGA: In January 2021, retail investors coordinated to buy GameStop stock, squeezing short-selling hedge funds', type: 'default' }
    ],
  },
   'hate-crimes': {
@@ -152,7 +150,7 @@ const investigations_h: Record<string, InvestigationData> = {
  'Anti-LGBTQ+ hate crimes, particularly targeting transgender individuals, have risen sharply since 2020, correlating with a wave of anti-transgender legislation across Republican-controlled states. The Human Rights Campaign declared a "national state of emergency" for LGBTQ+ Americans in 2023. The Pulse nightclub shooting in Orlando on June 12, 2016, killed 49 people in what was the deadliest mass shooting in American history at that time and the deadliest attack on LGBTQ+ people in U.S. history. The Club Q shooting in Colorado Springs on November 19, 2022, killed five people and wounded 17 at an LGBTQ+ nightclub. Both shooters had documented histories of extremist views that were not investigated prior to the attacks.',
  'Mass casualty hate crimes have increased in both frequency and lethality, with perpetrators increasingly publishing manifestos, livestreaming attacks, and explicitly citing previous hate crime attackers as inspiration. The "Great Replacement" conspiracy theory, the false claim that white populations are being deliberately replaced through immigration, has been cited in the manifestos of the Christchurch shooter (51 killed, 2019), the El Paso Walmart shooter (23 killed, targeting Latinos, 2019), the Buffalo Tops supermarket shooter (10 killed, targeting Black shoppers, 2022), and the Poway synagogue shooter (1 killed, 2019). The Buffalo shooter explicitly livestreamed his attack on Twitch and published a 180-page manifesto citing the Christchurch attack. This network of ideologically connected attacks represents a transnational white supremacist terrorist movement that law enforcement has been slow to recognize and combat.',
  'Law enforcement response remains systematically inadequate. A 2019 ProPublica investigation found that approximately 85% of police agencies reported zero hate crimes in their jurisdiction, a statistical impossibility in a country with 250,000 annual incidents. Many departments lack hate crime units, bias crime training, or standardized protocols for identifying bias motivation. Officers frequently downgrade hate crimes to simple assaults or property crimes to avoid the complexity of proving bias motivation. The DOJ Civil Rights Division has only approximately 50 attorneys dedicated to hate crimes for the entire country. Between 2010 and 2023, the DOJ brought fewer than 200 federal hate crime prosecutions despite tens of thousands of documented incidents.',
- 'The Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act of 2009 expanded federal jurisdiction to cover crimes motivated by sexual orientation, gender identity, and disability, and removed the requirement that victims be engaged in a federally protected activity. But the law has been sparingly used. Federal prosecution requires approval from the Attorney General or a designee, creating a bottleneck. State-level prosecution varies enormously: Arkansas, South Carolina, and Wyoming still lack hate crime statutes. Where statutes exist, sentencing enhancements are modest, and prosecutors frequently decline to pursue hate crime charges because proving bias motivation beyond a reasonable doubt adds complexity to cases that can be prosecuted as ordinary assaults. The result is a legal framework that exists on paper but fails catastrophically in practice.',
+ 'The Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act of 2009 expanded federal jurisdiction to cover crimes motivated by sexual orientation, gender identity, and disability, and removed the requirement that victims be engaged in a federally protected activity. But the law has been sparingly used. Federal prosecution requires approval from the Attorney General or a designee, creating a bottleneck. State-level prosecution varies enormously: Arkansas, South Carolina, and Wyoming still lack hate crime statutes. Where statutes exist, sentencing enhancements are modest, and prosecutors frequently decline to pursue hate crime charges because proving bias motivation beyond a reasonable doubt adds complexity to cases that can be prosecuted as ordinary assaults. The result is a legal framework that exists on paper but fails catastrophically in practice.'
  ],
  tags: ['Hate Crimes', 'White Supremacy', 'Antisemitism', 'Anti-Asian Violence', 'Anti-LGBTQ', 'Mass Shootings', 'FBI Reporting', 'Civil Rights'],
  sources: [
@@ -162,12 +160,12 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'ADL Audit of Antisemitic Incidents 2023', url: 'https://www.adl.org/resources/report/audit-antisemitic-incidents-united-states-2023', type: 'Research' },
  { title: 'Stop AAPI Hate National Report', url: 'https://stopaapihate.org/national-report/', type: 'Research' },
  { title: 'DOJ Hate Crimes Prosecution Case Summaries', url: 'https://www.justice.gov/crt/hate-crime-laws', type: 'Government' },
- { title: 'Human Rights Campaign State of Emergency Report', url: 'https://www.hrc.org/', type: 'Research' },
+ { title: 'Human Rights Campaign State of Emergency Report', url: 'https://www.hrc.org/', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Collects voluntary hate crime statistics from law enforcement, investigates federal hate crimes, but captures fewer than 5% of actual incidents', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division prosecutes federal hate crimes but brought fewer than 200 cases in 13 years despite tens of thousands of documented incidents', href: '/entities/agencies/doj' },
- { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Passed the Matthew Shepard Act (2009), COVID-19 Hate Crimes Act (2021), but enforcement funding remains inadequate', href: '/entities/agencies/congress' },
+ { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Passed the Matthew Shepard Act (2009), COVID-19 Hate Crimes Act (2021), but enforcement funding remains inadequate', href: '/entities/agencies/congress' }
  ],
    eventOriginDate: '1990-04-23',
    lastActivityDate: '2025-07-08',
@@ -182,7 +180,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2019-08-03', event: 'El Paso Walmart shooter kills 23 people, targeting Latinos with a "Great Replacement" manifesto. The attack is prosecuted as both a hate crime and domestic terrorism', type: 'critical' },
      { date: '2021-03-16', event: 'Atlanta spa shootings kill eight people, six of them Asian women. Congress passes the COVID-19 Hate Crimes Act in May 2021 in response to the surge in anti-Asian violence', type: 'critical' },
      { date: '2022-05-14', event: 'Buffalo Tops supermarket shooter kills 10 Black shoppers in a livestreamed attack, publishing a 180-page manifesto citing the Christchurch and El Paso shooters', type: 'critical' },
-     { date: '2023', event: 'ADL documents 8,873 antisemitic incidents, the highest since 1979. FBI reports 11,634 hate crime incidents, also a record, though actual incidents are estimated at 50 times higher', type: 'default' },
+     { date: '2023', event: 'ADL documents 8,873 antisemitic incidents, the highest since 1979. FBI reports 11,634 hate crime incidents, also a record, though actual incidents are estimated at 50 times higher', type: 'default' }
    ],
  },  'healthcare-capture': {
  title: 'Healthcare Regulatory Capture',
@@ -202,21 +200,20 @@ const investigations_h: Record<string, InvestigationData> = {
  'PRIVATE EQUITY IN HEALTHCARE: Private equity firms have acquired physician practices, nursing homes, hospitals, and mental health facilities. Studies show PE ownership is associated with higher costs, worse outcomes, and increased mortality in nursing homes. Regulatory agencies have not adapted to this new ownership model.',
  'CMS PAYMENT STRUCTURE: The Centers for Medicare and Medicaid Services payment structure incentivizes procedures over prevention, expensive treatments over cost-effective ones, and volume over value. Industry lobbying has prevented meaningful payment reform that would reduce profits.',
  'OPIOID REGULATORY FAILURE: The FDA approved OxyContin based on inadequate evidence and approved misleading labels suggesting it was less addictive than other opioids. DEA production quotas were set based on industry requests rather than medical need. The regulatory failure enabled an epidemic killing over 500,000 Americans.',
- 'MANAGED CARE GAMING: Insurance companies use prior authorization, narrow networks, surprise billing denial, and claims rejection to increase profits. Studies show 30-40% of denied claims are overturned on appeal, suggesting systematic denial as a cost-reduction strategy that harms patients who don\'t appeal.',
+ 'MANAGED CARE GAMING: Insurance companies use prior authorization, narrow networks, surprise billing denial, and claims rejection to increase profits. Studies show 30-40% of denied claims are overturned on appeal, suggesting systematic denial as a cost-reduction strategy that harms patients who don\'t appeal.'
  ],
  tags: ['Healthcare', 'Regulatory Capture', 'FDA', 'Pharma Lobbying', 'Insurance', 'Revolving Door', 'Corporate Corruption'],
  sources: [
  { title: 'Science Magazine FDA Revolving Door Study', url: 'https://www.science.org/doi/10.1126/science.aaz9344', type: 'Research Study' },
  { title: 'OpenSecrets Healthcare Lobbying Data', url: 'https://www.opensecrets.org/federal-lobbying/industries', type: 'Research Study' },
- { title: 'Senate Finance Committee Opioid Investigation', url: 'https://www.finance.senate.gov/imo/media/doc/Bipartisan%20Staff%20Report.pdf', type: 'Congressional Record' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'Senate Finance Committee Opioid Investigation', url: 'https://www.finance.senate.gov/imo/media/doc/Bipartisan%20Staff%20Report.pdf', type: 'Congressional Record' }
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Revolving door with industry, captured approval process', href: '/entities/agencies/fda' },
  { id: '2', name: 'Pfizer', type: 'corporation', relationship: 'Hired former FDA commissioners, massive lobbying', href: '/entities/corporations/pfizer' },
  { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Board includes former regulators', href: '/entities/corporations/johnson-and-johnson' },
  { id: '4', name: 'Congress', type: 'agency', relationship: 'Controlled by industry campaign donations', href: '/entities/agencies/congress' },
- { id: '5', name: 'UnitedHealth Group', type: 'corporation', relationship: 'Largest health insurer, systematic claim denials', href: '/entities/corporations/unitedhealth-group' },
+ { id: '5', name: 'UnitedHealth Group', type: 'corporation', relationship: 'Largest health insurer, systematic claim denials', href: '/entities/corporations/unitedhealth-group' }
  ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-10-20',
@@ -229,7 +226,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2021', event: 'PhRMA and member companies spent $356 million and deployed 1,835 lobbyists — more than three for every member of Congress — to influence healthcare legislation', type: 'financial' },
      { date: '2021', event: 'Health insurance companies spent $174 million lobbying Congress. UnitedHealth Group alone reported $113 billion revenue while denying 32% of in-network claims', type: 'financial' },
      { date: '2022', event: 'Inflation Reduction Act allowed Medicare to negotiate prices on just 10 drugs starting 2026 — decades after every other developed nation implemented drug price controls', type: 'political' },
-     { date: '2023', event: 'Investigation revealed FDA approved 73% of novel drugs through accelerated pathways requiring only surrogate endpoints, with 40% lacking confirmatory evidence of clinical benefit years later', type: 'default' },
+     { date: '2023', event: 'Investigation revealed FDA approved 73% of novel drugs through accelerated pathways requiring only surrogate endpoints, with 40% lacking confirmatory evidence of clinical benefit years later', type: 'default' }
    ],
  },
   'hedge-fund-corruption': {
@@ -245,7 +242,7 @@ const investigations_h: Record<string, InvestigationData> = {
  'Short-and-distort schemes, where hedge funds take short positions then publish negative research to drive down stock prices, operate in a regulatory gray zone. Muddy Waters, Hindenburg Research, and similar short-seller firms have exposed genuine fraud at companies like Wirecard and Nikola, but other funds have used misleading research to manipulate prices for profit. The line between legitimate research and market manipulation remains poorly defined and rarely enforced.',
  'The carried interest loophole allows hedge fund managers to pay a 20% capital gains tax rate on their income instead of the 37% ordinary income rate that applies to most workers. This single provision costs the Treasury an estimated $13 billion annually. Despite bipartisan recognition that the loophole is indefensible, the hedge fund industry\'s lobbying power has defeated every attempt to close it.',
  'Archegos Capital Management\'s collapse in March 2021 demonstrated the systemic risk hedge funds pose. Bill Hwang\'s family office used total return swaps to build $36 billion in concentrated positions in a handful of stocks without disclosure. When the positions collapsed, prime broker Credit Suisse lost $5.5 billion. Hwang was convicted of racketeering, securities fraud, and wire fraud in 2024.',
- 'Renaissance Technologies\' Medallion Fund, the most profitable hedge fund in history, generated over $100 billion in profits while using a tax structure the IRS alleged was abusive. The firm used complex basket options to convert short-term trading gains into long-term capital gains, saving billions in taxes. The Senate investigated the scheme in 2014 but no enforcement action resulted.',
+ 'Renaissance Technologies\' Medallion Fund, the most profitable hedge fund in history, generated over $100 billion in profits while using a tax structure the IRS alleged was abusive. The firm used complex basket options to convert short-term trading gains into long-term capital gains, saving billions in taxes. The Senate investigated the scheme in 2014 but no enforcement action resulted.'
  ],
  tags: ['Hedge Funds', 'Financial Crime', 'Tax Evasion', 'Carried Interest', 'Market Manipulation', 'Shadow Banking', 'Archegos', 'Renaissance Technologies'],
  sources: [
@@ -254,13 +251,13 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'ProPublica: The Secret IRS Files (Hedge Fund Tax Avoidance)', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'DOJ: Bill Hwang Archegos Indictment and Conviction', url: 'https://www.justice.gov/usao-sdny', type: 'Legal Document' },
  { title: 'Financial Times: Renaissance Technologies Tax Strategy', url: 'https://www.ft.com/', type: 'Investigation' },
- { title: 'SEC Annual Report: Investment Adviser Examinations', url: 'https://www.sec.gov/about/annual-report', type: 'Government Report' },
+ { title: 'SEC Annual Report: Investment Adviser Examinations', url: 'https://www.sec.gov/about/annual-report', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Examines only 10-15% of registered investment advisors annually, leaving most hedge funds uninspected for years', href: '/entities/agencies/sec' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Bill Hwang for racketeering and securities fraud; rarely brings criminal charges against hedge fund executives', href: '/entities/agencies/doj' },
  { id: '3', name: 'IRS', type: 'agency', relationship: 'Investigated Renaissance Technologies basket options tax scheme but took no enforcement action despite Senate findings', href: '/entities/agencies/irs' },
- { id: '4', name: 'United States Congress', type: 'agency', relationship: 'Senate investigated hedge fund tax evasion (2014) and carried interest loophole but failed to close it despite bipartisan recognition', href: '/entities/agencies/congress' },
+ { id: '4', name: 'United States Congress', type: 'agency', relationship: 'Senate investigated hedge fund tax evasion (2014) and carried interest loophole but failed to close it despite bipartisan recognition', href: '/entities/agencies/congress' }
  ],
    eventOriginDate: '2004-01-01',
    lastActivityDate: '2024-07-01',
@@ -274,7 +271,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2017', event: 'Carried interest loophole survives the Tax Cuts and Jobs Act despite Trump campaign promises to eliminate it. The hedge fund industry spent over $100 million lobbying against closure', type: 'financial' },
      { date: '2021-03', event: 'Archegos Capital Management collapses after Bill Hwang builds $36 billion in concentrated positions using total return swaps without disclosure. Credit Suisse loses $5.5 billion', type: 'critical' },
      { date: '2022', event: 'Inflation Reduction Act includes a provision to partially close the carried interest loophole but the final version is stripped out after lobbying by the hedge fund industry', type: 'political' },
-     { date: '2024-02', event: 'Bill Hwang convicted of racketeering, securities fraud, and wire fraud for the Archegos collapse. Sentenced to 18 years in prison in one of the few criminal prosecutions of a hedge fund executive', type: 'legal' },
+     { date: '2024-02', event: 'Bill Hwang convicted of racketeering, securities fraud, and wire fraud for the Archegos collapse. Sentenced to 18 years in prison in one of the few criminal prosecutions of a hedge fund executive', type: 'legal' }
      ],
  },
   'hedge-fund-manipulation': {
@@ -290,7 +287,7 @@ const investigations_h: Record<string, InvestigationData> = {
  'SAC Capital Advisors, founded by Steven Cohen, paid $1.8 billion in 2013 to settle insider trading charges; the largest such penalty in history. The SEC found that SAC\'s "edge" came from systematically obtaining non-public information from corporate insiders. Despite the firm\'s guilty plea, Cohen himself was never criminally charged and returned to managing outside money through Point72 Asset Management after a two-year ban.',
  'Coordinated short campaigns target specific companies by combining short positions with public negative research, media placement, and social media amplification. While short selling can expose fraud (as with Enron), research by Professor Owen Lamont of Yale found that short-selling hedge funds frequently target fundamentally sound companies and use misleading analysis to drive stock prices below intrinsic value.',
  'Dark pool trading allows hedge funds to execute large trades away from public exchanges, reducing price impact for institutional investors but creating information asymmetries that disadvantage retail traders. A 2014 investigation by New York Attorney General Eric Schneiderman found that Barclays\' dark pool gave high-frequency trading firms preferential access, contradicting its marketing to institutional clients.',
- 'The revolving door between hedge funds and regulators ensures lenient enforcement. Former SEC officials regularly join hedge funds after leaving government. Robert Khuzami, who headed SEC enforcement during the financial crisis, joined the law firm that represented numerous hedge funds. This pattern creates institutional reluctance to pursue aggressive cases against firms that may be future employers.',
+ 'The revolving door between hedge funds and regulators ensures lenient enforcement. Former SEC officials regularly join hedge funds after leaving government. Robert Khuzami, who headed SEC enforcement during the financial crisis, joined the law firm that represented numerous hedge funds. This pattern creates institutional reluctance to pursue aggressive cases against firms that may be future employers.'
  ],
  tags: ['Market Manipulation', 'Spoofing', 'Insider Trading', 'Dark Pools', 'SAC Capital', 'Short Selling', 'Revolving Door', 'Financial Crime'],
  sources: [
@@ -298,12 +295,12 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'SEC: Spoofing and Layering Enforcement Actions', url: 'https://www.sec.gov/spotlight/marketstructure', type: 'Government' },
  { title: 'NY Attorney General: Barclays Dark Pool Investigation', url: 'https://ag.ny.gov/press-release', type: 'Legal Document' },
  { title: 'Senate Banking Committee: High-Frequency Trading Hearing', url: 'https://www.banking.senate.gov/hearings', type: 'Congressional Record' },
- { title: 'Owen Lamont (Yale): Short-Selling Research', url: 'https://faculty.som.yale.edu/', type: 'Research' },
+ { title: 'Owen Lamont (Yale): Short-Selling Research', url: 'https://faculty.som.yale.edu/', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Inadequate hedge fund oversight; former officials regularly join hedge funds after leaving government, creating institutional reluctance to pursue aggressive cases', href: '/entities/agencies/sec' },
  { id: '2', name: 'Citadel', type: 'corporation', relationship: 'Market-making and dark pool operations; subject of market manipulation allegations during GameStop trading frenzy', href: '/entities/corporations/citadel' },
- { id: '3', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution authority for securities fraud, insider trading, and market manipulation; brought case against SAC Capital', href: '/entities/agencies/doj' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution authority for securities fraud, insider trading, and market manipulation; brought case against SAC Capital', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2010-07-21',
    lastActivityDate: '2025-11-24',
@@ -316,7 +313,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2018', event: 'Point72 Asset Management (Steven Cohen\'s successor to SAC Capital) returns to managing outside money after the two-year ban, despite the firm\'s unprecedented insider trading settlement', type: 'financial' },
      { date: '2021-01', event: 'GameStop trading frenzy raises questions about market manipulation by hedge funds; Citadel\'s dual role as market maker and hedge fund investor draws Congressional scrutiny', type: 'political' },
      { date: '2022', event: 'JPMorgan Chase pays $920 million to settle DOJ and CFTC spoofing charges, the largest spoofing penalty in history. Traders on the precious metals desk placed hundreds of thousands of fraudulent orders', type: 'financial' },
-     { date: '2023', event: 'Hindenburg Research publishes short report on Adani Group, wiping $150 billion from the Indian conglomerate\'s market cap. Debate intensifies over whether activist short selling is market manipulation or public service', type: 'default' },
+     { date: '2023', event: 'Hindenburg Research publishes short report on Adani Group, wiping $150 billion from the Indian conglomerate\'s market cap. Debate intensifies over whether activist short selling is market manipulation or public service', type: 'default' }
    ],
  },  'hollywood-abuse': {
  title: 'Hollywood Sexual Abuse and Power',
@@ -336,19 +333,17 @@ const investigations_h: Record<string, InvestigationData> = {
  'METOO MOVEMENT: The October 2017 New York Times and New Yorker investigations exposing Weinstein launched the global #MeToo movement. Within months, over 200 powerful men across industries were publicly accused. The movement permanently shifted cultural norms around believing survivors and holding power accountable.',
  'AGENCY COMPLICITY: Talent agencies including CAA, WME, and ICM were accused of enabling abuse by maintaining relationships with known predators and failing to protect clients. In some cases, agencies directly facilitated meetings between clients and known harassers.',
  'NDA INDUSTRIAL COMPLEX: The entertainment industry pioneered the use of NDAs to silence sexual abuse survivors. Standard employment contracts included binding arbitration clauses. Settlement agreements included non-disclosure and non-disparagement provisions that made it legally dangerous for survivors to speak.',
- 'STRUCTURAL REFORM: Post-MeToo, the industry adopted new guidelines including intimacy coordinators on sets, revised confidentiality policies, and sexual harassment training. However, power imbalances remain, enforcement is uneven, and the fundamental dynamic of powerful gatekeepers and vulnerable aspirants persists.',
+ 'STRUCTURAL REFORM: Post-MeToo, the industry adopted new guidelines including intimacy coordinators on sets, revised confidentiality policies, and sexual harassment training. However, power imbalances remain, enforcement is uneven, and the fundamental dynamic of powerful gatekeepers and vulnerable aspirants persists.'
  ],
  tags: ['Hollywood', 'Sexual Assault', 'Weinstein', 'MeToo', 'Entertainment Industry', 'Casting Couch', 'Power Abuse'],
  sources: [
  { title: 'NY Times Weinstein Investigation', url: 'https://www.nytimes.com/2017/10/05/us/harvey-weinstein-harassment-allegations.html', type: 'Investigation' },
  { title: 'Ronan Farrow New Yorker Investigation', url: 'https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories', type: 'Investigation' },
- { title: 'CBS Moonves Investigation Report', url: 'https://www.nytimes.com/2018/12/04/business/media/les-moonves-cbs-sexual-misconduct.html', type: 'News Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'CBS Moonves Investigation Report', url: 'https://www.nytimes.com/2018/12/04/business/media/les-moonves-cbs-sexual-misconduct.html', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Parallel harassment culture in media industry', href: '/entities/corporations/fox-news' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2017-10-05',
    lastActivityDate: '2025-04-20',
@@ -359,7 +354,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2017-10-05', event: 'New York Times published Jodi Kantor and Megan Twohey\'s investigation revealing decades of sexual harassment settlements by Harvey Weinstein, triggering the global #MeToo movement', type: 'critical' },
      { date: '2018', event: 'CBS CEO Les Moonves forced out after accusations from 12 women. He was fired in 2018 and fought for his $120 million severance package, which CBS ultimately denied', type: 'financial' },
      { date: '2020', event: 'Harvey Weinstein convicted of criminal sexual assault and rape in New York, sentenced to 23 years. Over 80 women had accused him by this point', type: 'default' },
-     { date: '2023', event: 'New York appeals court overturned Weinstein\'s 2020 conviction on procedural grounds, ruling the trial judge improperly allowed testimony about prior uncharged conduct', type: 'default' },
+     { date: '2023', event: 'New York appeals court overturned Weinstein\'s 2020 conviction on procedural grounds, ruling the trial judge improperly allowed testimony about prior uncharged conduct', type: 'default' }
    ],
  },
   'housing-crisis': {
@@ -375,19 +370,18 @@ const investigations_h: Record<string, InvestigationData> = {
  'Corporate and institutional investors have transformed the housing market. Between 2020 and 2024, institutional investors purchased over $100 billion in single-family homes, often outbidding individual buyers with all-cash offers and algorithmic pricing. Invitation Homes (created from Blackstone\'s post-2008 buying spree), American Homes 4 Rent, and similar entities own over 300,000 single-family rental homes, using their market power to increase rents while reducing maintenance.',
  'Exclusionary zoning in wealthy communities blocks affordable housing construction through single-family-only requirements, minimum lot sizes, parking mandates, and lengthy approval processes. Research by the Hamilton Project estimates that restrictive land use regulations reduce economic output by $1.6 trillion annually by preventing workers from living near productive employment centers. These regulations have explicitly racist origins rooted in post-1968 efforts to maintain residential segregation.',
  'Homelessness has reached crisis levels. The January 2023 Point-in-Time count found 653,104 people experiencing homelessness on a single night; the highest number since counting began in 2007. Chronic homelessness increased 77% between 2015 and 2023. States and cities have responded increasingly with criminalization; sweeping encampments, arresting people for sleeping outdoors; rather than addressing the shortage of affordable housing.',
- 'Federal housing policy has systematically favored homeowners over renters and wealthy over poor. The mortgage interest deduction costs the federal government approximately $25 billion annually, with benefits flowing overwhelmingly to high-income households. Meanwhile, only one in four eligible families receives federal rental assistance due to chronic underfunding. The Section 8 waiting list exceeds 10 million households nationwide.',
+ 'Federal housing policy has systematically favored homeowners over renters and wealthy over poor. The mortgage interest deduction costs the federal government approximately $25 billion annually, with benefits flowing overwhelmingly to high-income households. Meanwhile, only one in four eligible families receives federal rental assistance due to chronic underfunding. The Section 8 waiting list exceeds 10 million households nationwide.'
  ],
  tags: ['Housing Crisis', 'Subprime Mortgage', 'Foreclosure', 'Predatory Lending', 'Homelessness', 'Wall Street', 'Redlining'],
  sources: [
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
- { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Created Invitation Homes, largest single-family corporate landlord, from post-2008 foreclosure purchases', href: '/entities/corporations/blackstone-group' },
  { id: '2', name: 'HUD', type: 'agency', relationship: 'Federal housing policy and enforcement authority' },
- { id: '3', name: 'DOJ', type: 'agency', relationship: 'Fair housing enforcement and antitrust oversight', href: '/entities/agencies/doj' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Fair housing enforcement and antitrust oversight', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1968-01-01',
    lastActivityDate: '2024-01-01',
@@ -397,7 +391,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2008', event: 'Invitation Homes (created from Blackstone\'s post-2008 buying spree), American Homes 4 Rent, and similar entities own over 300,000 single-family rental homes, using their market power to increase re...', type: 'default' },
      { date: '2015', event: 'Chronic homelessness increased 77% between 2015 and 2023', type: 'default' },
      { date: '2020', event: 'Between 2020 and 2024, institutional investors purchased over $100 billion in single-family homes, often outbidding individual buyers with all-cash offers and algorithmic pricing', type: 'political' },
-     { date: '2023', event: 'The January 2023 Point-in-Time count found 653,104 people experiencing homelessness on a single night; the highest number since counting began in 2007', type: 'default' },
+     { date: '2023', event: 'The January 2023 Point-in-Time count found 653,104 people experiencing homelessness on a single night; the highest number since counting began in 2007', type: 'default' }
    ],
  },
   'housing-financialization': {
@@ -413,18 +407,17 @@ const investigations_h: Record<string, InvestigationData> = {
  'The financialization model prioritizes returns over habitability. A 2022 investigation by the Atlanta Journal-Constitution found that corporate landlords filed evictions at rates 2-3 times higher than individual landlords. Invitation Homes charged residents mandatory fees for "smart home" technology, pest control, and other services that inflated effective rents. Maintenance response times averaged weeks or months for urgent repairs.',
  'Short-term rental platforms compounded the crisis. By 2023, Airbnb listed over 1.1 million properties in the United States. Research by the Economic Policy Institute found that in many cities, the conversion of long-term rental housing to short-term vacation rentals reduced available housing stock by 4-8%, pushing rents higher for remaining units. Cities like Barcelona, Amsterdam, and New York attempted restrictions, but enforcement proved difficult.',
  'Real estate investment trusts (REITs) and private equity firms have expanded into manufactured housing, student housing, senior living, and affordable housing tax credit projects. When private equity firm Carlyle Group acquired a portfolio of manufactured home communities, lot rents increased 50-70% within two years. Residents, who own their homes but not the land, had no alternative but to pay or abandon their homes.',
- 'The U.N. Special Rapporteur on adequate housing has warned that the financialization of housing is a global human rights crisis. When housing is treated primarily as a commodity and financial instrument rather than a human need, the result is systematic displacement of lower-income populations. In the United States, the bottom 50% of income earners now spend an average of 42% of their income on housing; well above the 30% standard considered affordable.',
+ 'The U.N. Special Rapporteur on adequate housing has warned that the financialization of housing is a global human rights crisis. When housing is treated primarily as a commodity and financial instrument rather than a human need, the result is systematic displacement of lower-income populations. In the United States, the bottom 50% of income earners now spend an average of 42% of their income on housing; well above the 30% standard considered affordable.'
  ],
  tags: ['Housing Financialization', 'Private Equity', 'Corporate Landlords', 'Blackstone', 'Rent Crisis', 'Wall Street Landlords'],
  sources: [
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
- { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
-   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+ { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Largest corporate landlord', href: '/entities/corporations/blackstone-group' },
- { id: '2', name: 'Federal Reserve', type: 'agency', relationship: 'Low interest rates fueled housing speculation', href: '/entities/agencies/federal-reserve' },
+ { id: '2', name: 'Federal Reserve', type: 'agency', relationship: 'Low interest rates fueled housing speculation', href: '/entities/agencies/federal-reserve' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-01-02',
@@ -432,7 +425,7 @@ const investigations_h: Record<string, InvestigationData> = {
       timeline: [
      { date: '2008', event: 'After the 2008 financial crisis, Blackstone Group spent $10 billion purchasing over 80,000 foreclosed single-family homes through its Invitation Homes subsidiary, creating the largest single-family landlord in the', type: 'financial' },
      { date: '2022', event: 'A 2022 investigation by the Atlanta Journal-Constitution found that corporate landlords filed evictions at rates 2-3 times higher than individual landlords.', type: 'default' },
-     { date: '2023', event: 'By 2023, Airbnb listed over 1.1 million properties in the United States.', type: 'financial' },
+     { date: '2023', event: 'By 2023, Airbnb listed over 1.1 million properties in the United States.', type: 'financial' }
      ],
  },
   'human-trafficking': {
@@ -453,21 +446,20 @@ const investigations_h: Record<string, InvestigationData> = {
  'EPSTEIN TRAFFICKING NETWORK: Jeffrey Epstein operated a sex trafficking network involving dozens of underage girls. His connections to powerful figures including politicians, billionaires, and royalty enabled his operation. His 2008 plea deal, negotiated by Alexander Acosta, was condemned as a sweetheart deal that betrayed victims.',
  'MASSAGE PARLOR TRAFFICKING: An estimated 9,000 illicit massage businesses operate in the U.S., many involving trafficking victims from China and South Korea. Workers face debt bondage, confinement, and coerced sex work. Law enforcement has historically arrested victims rather than targeting their traffickers.',
  'FOSTER CARE TO TRAFFICKING PIPELINE: The National Center for Missing and Exploited Children found that 86% of likely child sex trafficking victims who were reported missing were in foster care at the time. The child welfare system\'s instability makes youth vulnerable to traffickers who offer false promises of stability.',
- 'DETECTION AND PROSECUTION FAILURES: Despite the scale of trafficking, prosecution rates remain extremely low. Less than 0.04% of estimated trafficking situations result in convictions. Law enforcement training is inadequate. Victim identification protocols are lacking. Many trafficking victims are arrested as criminals rather than identified as victims.',
+ 'DETECTION AND PROSECUTION FAILURES: Despite the scale of trafficking, prosecution rates remain extremely low. Less than 0.04% of estimated trafficking situations result in convictions. Law enforcement training is inadequate. Victim identification protocols are lacking. Many trafficking victims are arrested as criminals rather than identified as victims.'
  ],
  tags: ['Human Trafficking', 'Modern Slavery', 'Sex Trafficking', 'Labor Trafficking', 'Supply Chain', 'Immigration', 'Epstein'],
  sources: [
  { title: 'ILO Global Estimates of Modern Slavery', url: 'https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---ipec/documents/publication/wcms_854733.pdf', type: 'International Report' },
  { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Research Study' },
  { title: 'State Department Trafficking in Persons Report', url: 'https://web.archive.org/web/20241231212516/https://www.state.gov/trafficking-in-persons-report//', type: 'Government Report' },
- { title: 'DOJ Human Trafficking Prosecution Data', url: 'https://www.justice.gov/humantrafficking', type: 'Government Report' },
-   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+ { title: 'DOJ Human Trafficking Prosecution Data', url: 'https://www.justice.gov/humantrafficking', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal trafficking prosecutions, low conviction rate', href: '/entities/agencies/doj' },
  { id: '2', name: 'ICE', type: 'agency', relationship: 'Enforcement deters victim reporting', href: '/entities/agencies/ice' },
  { id: '3', name: 'DHS', type: 'agency', relationship: 'Blue Campaign anti-trafficking efforts', href: '/entities/agencies/dhs' },
- { id: '4', name: 'State Department', type: 'agency', relationship: 'Trafficking in Persons annual report', href: '/entities/agencies/state-department' },
+ { id: '4', name: 'State Department', type: 'agency', relationship: 'Trafficking in Persons annual report', href: '/entities/agencies/state-department' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2014-06-04',
@@ -478,7 +470,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2013', event: 'Coalition of Immokalee Workers\' Fair Food Program documented slavery convictions in Florida agriculture; DOJ prosecuted six forced labor cases in tomato fields since 1997', type: 'legal' },
      { date: '2018-04', event: 'Congress passed FOSTA-SESTA shutting down Backpage.com; critics argued the law pushed sex trafficking underground, making victims harder to identify and rescue', type: 'political' },
      { date: '2019-07', event: 'Epstein arrested on federal sex trafficking charges; found dead in Manhattan federal jail under suspicious circumstances; investigations into his network of enablers continued', type: 'critical' },
-     { date: '2022', event: 'National Human Trafficking Hotline received over 51,000 reports; DOJ secured only 315 trafficking convictions despite estimated 400,000+ victims in the U.S.', type: 'default' },
+     { date: '2022', event: 'National Human Trafficking Hotline received over 51,000 reports; DOJ secured only 315 trafficking convictions despite estimated 400,000+ victims in the U.S.', type: 'default' }
    ],
  },
   'hedge-fund-market-manipulation': {
@@ -494,18 +486,16 @@ const investigations_h: Record<string, InvestigationData> = {
       'Spoofing and layering; placing orders intended to be canceled before execution; create false impressions of market depth and manipulate prices. The practice was explicitly prohibited by the Dodd-Frank Act in 2010, but enforcement has targeted primarily individual traders rather than institutional hedge funds. The most prominent case involved Navinder Singh Sarao, a British day trader who used spoofing algorithms and was charged with contributing to the 2010 Flash Crash (which briefly erased $1 trillion in market value). Sarao operated from his parents\' house in suburban London; yet institutional firms employing similar techniques with far greater market impact have faced minimal enforcement. Tower Research Capital paid $67.4 million in 2019 to settle spoofing charges; the CFTC has brought approximately 40 spoofing cases since 2010, but most involve individual traders rather than major hedge funds.',
       'Dark pools (private trading venues not visible to the public market) enable hedge funds to execute large trades without revealing their intentions; but also facilitate manipulation by hiding trading activity from price discovery. There are approximately 50 dark pools in the US, handling roughly 40% of equity trading volume. Hedge funds use dark pools to accumulate or distribute positions without moving the market price, then execute trades on lit exchanges to move prices in their favor. Barclays paid $70 million in 2016 to settle charges that it misled investors about how its dark pool operated; specifically, Barclays had told clients it would protect them from high-frequency traders, while actually favoring HFT firms that paid for access. Credit Suisse paid $84.3 million for similar dark pool misrepresentations.',
       'Coordinated trading among hedge funds occurs through "idea dinners," industry conferences, and private messaging. While sharing investment ideas is legal, coordinating trading activity to move prices is market manipulation. The line between the two is difficult for regulators to police. The SEC investigated whether hedge funds coordinated their trading during the 2008 bear market to drive down the prices of financial stocks (including Bear Stearns and Lehman Brothers), but no charges resulted. More recently, investigators have examined whether hedge funds used encrypted messaging platforms (Signal, WhatsApp) to coordinate short selling of meme stocks. A 2023 Bloomberg investigation found that several prominent hedge fund managers shared identical short positions and traded in lockstep; but proving coordination requires evidence of explicit agreements, which encrypted communications make difficult to obtain.',
-      'The regulatory failure to address hedge fund manipulation is structural. The SEC\'s Division of Enforcement has approximately 1,400 staff covering the entire securities industry; the number of examiners assigned to hedge funds is a fraction of what would be needed to monitor thousands of active funds. The SEC\'s penalty structure is also inadequate; hedge funds that manipulate markets to generate hundreds of millions in profits face fines of millions; a fraction of their gains. The SEC\'s "neither admit nor deny" settlement framework allows funds to pay penalties without acknowledging wrongdoing, preventing the creation of a public record of manipulation. Additionally, hedge fund political contributions and lobbying ($60+ million annually) flow to members of congressional committees that oversee the SEC\'s budget, creating misaligned incentives for aggressive enforcement.',
+      'The regulatory failure to address hedge fund manipulation is structural. The SEC\'s Division of Enforcement has approximately 1,400 staff covering the entire securities industry; the number of examiners assigned to hedge funds is a fraction of what would be needed to monitor thousands of active funds. The SEC\'s penalty structure is also inadequate; hedge funds that manipulate markets to generate hundreds of millions in profits face fines of millions; a fraction of their gains. The SEC\'s "neither admit nor deny" settlement framework allows funds to pay penalties without acknowledging wrongdoing, preventing the creation of a public record of manipulation. Additionally, hedge fund political contributions and lobbying ($60+ million annually) flow to members of congressional committees that oversee the SEC\'s budget, creating misaligned incentives for aggressive enforcement.'
     ],
     tags: ['Hedge Fund Manipulation', 'Short-and-Distort', 'Spoofing', 'Dark Pools', 'SEC Enforcement', 'Coordinated Trading', 'Market Structure'],
     sources: [
       { title: 'SEC Enforcement Actions Database', url: 'https://www.sec.gov/litigation', type: 'Government Record' },
       { title: 'CFTC Spoofing Enforcement Actions', url: 'https://www.cftc.gov', type: 'Government Record' },
-      { title: 'Bloomberg Hedge Fund Coordination Investigation', url: 'https://www.bloomberg.com', type: 'Investigative Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Bloomberg Hedge Fund Coordination Investigation', url: 'https://www.bloomberg.com', type: 'Investigative Report' }
     ],
     affiliations: [
- { id: '1', name: 'SEC', type: 'agency', relationship: 'Brings fewer than 50 market manipulation cases annually; "neither admit nor deny" settlements prevent public accountability', href: '/entities/agencies/sec' },
-      { id: 'central-intelligence-agency', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/cia' },
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Brings fewer than 50 market manipulation cases annually; "neither admit nor deny" settlements prevent public accountability', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-01-01',
@@ -517,7 +507,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2016', event: 'Barclays paid $70 million in 2016 to settle charges that it misled investors about how its dark pool operated; specifically, Barclays had told clients it would protect them from high-frequency trad', type: 'financial' },
      { date: '2019', event: 'Tower Research Capital paid $67.4 million in 2019 to settle spoofing charges; the CFTC has brought approximately 40 spoofing cases since 2010, but most involve individual traders rather than major', type: 'financial' },
      { date: '2023', event: 'In 2023, the DOJ charged Anson Funds and others in the first major prosecution of a short-and-distort scheme, alleging that participants coordinated short positions, published misleading research,', type: 'financial' },
-     { date: '2023', event: 'A 2023 Bloomberg investigation found that several prominent hedge fund managers shared identical short positions and traded in lockstep', type: 'default' },
+     { date: '2023', event: 'A 2023 Bloomberg investigation found that several prominent hedge fund managers shared identical short positions and traded in lockstep', type: 'default' }
    ],
   },
   'human-trafficking-global-networks': {
@@ -533,18 +523,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'Sex trafficking in the United States is facilitated by online platforms, hotels, and transportation networks. The National Human Trafficking Hotline received over 51,000 reports in 2022; sex trafficking accounted for the majority of reported cases. Backpage.com (seized by the DOJ in 2018) facilitated an estimated 75% of online sex trafficking ads before its shutdown; its founders were convicted of facilitating sex trafficking and money laundering. After Backpage\'s closure, trafficking migrated to social media platforms (Instagram, Snapchat, TikTok), dating apps, and encrypted messaging. FOSTA-SESTA (2018) made platforms liable for facilitating sex trafficking, but critics argue the law pushed trafficking underground.',
       'The US agricultural sector relies heavily on trafficked and exploited labor. The Coalition of Immokalee Workers documented decades of forced labor in Florida\'s tomato fields; the DOJ prosecuted multiple cases in which farm labor contractors held workers in conditions of servitude through debt bondage, threats, and violence. Between 1997 and 2014, the DOJ prosecuted nine slavery operations in Florida agriculture alone. H-2A visa workers are particularly vulnerable because their legal status is tied to a specific employer; if they leave an abusive employer, they become undocumented.',
       'Child trafficking intersects with the foster care system and unaccompanied minor refugee population. NCMEC reported that 68% of children reported missing who were likely sex trafficking victims in 2022 were in the care of child welfare systems. In 2023, the New York Times reported that HHS\'s Office of Refugee Resettlement had lost contact with approximately 85,000 unaccompanied children after placement. Some were found working in meatpacking plants, construction, and food processing; the Labor Department found children as young as 13 working overnight shifts at slaughterhouses.',
-      'Trafficking networks often operate with institutional complicity. US military bases overseas have been documented as demand sites for sex trafficking. Diplomatic personnel have been identified in trafficking cases; the A-3/G-5 visa program for domestic workers employed by diplomats has been repeatedly associated with labor trafficking, as diplomatic immunity prevents prosecution. Large-scale trafficking in Gulf states (UAE, Saudi Arabia, Qatar) uses workers from South and Southeast Asia in forced labor conditions; the 2022 Qatar World Cup construction was associated with an estimated 6,500 migrant worker deaths.',
+      'Trafficking networks often operate with institutional complicity. US military bases overseas have been documented as demand sites for sex trafficking. Diplomatic personnel have been identified in trafficking cases; the A-3/G-5 visa program for domestic workers employed by diplomats has been repeatedly associated with labor trafficking, as diplomatic immunity prevents prosecution. Large-scale trafficking in Gulf states (UAE, Saudi Arabia, Qatar) uses workers from South and Southeast Asia in forced labor conditions; the 2022 Qatar World Cup construction was associated with an estimated 6,500 migrant worker deaths.'
     ],
     tags: ['Human Trafficking', 'Forced Labor', 'Sex Trafficking', 'Supply Chain', 'TVPA', 'Child Trafficking', 'Agricultural Workers'],
     sources: [
       { title: 'State Department TIP Report', url: 'https://web.archive.org/web/20241231212516/https://www.state.gov/trafficking-in-persons-report/', type: 'Government Report' },
       { title: 'ILO Global Estimates of Modern Slavery', url: 'https://www.ilo.org', type: 'Research Study' },
-      { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Research Study' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Leads federal anti-trafficking task forces; Operation Cross Country recovers child trafficking victims annually', href: '/entities/agencies/fbi' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Secures ~500 federal trafficking convictions annually; prosecuted Backpage founders', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Secures ~500 federal trafficking convictions annually; prosecuted Backpage founders', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2024-02-23',
@@ -558,7 +547,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'The National Human Trafficking Hotline received over 51,000 reports in 2022; sex trafficking accounted for the majority of reported cases', type: 'default' },
      { date: '2022', event: 'NCMEC reported that 68% of children reported missing who were likely sex trafficking victims in 2022 were in the care of child welfare systems', type: 'default' },
      { date: '2022', event: 'Large-scale trafficking in Gulf states (UAE, Saudi Arabia, Qatar) uses workers from South and Southeast Asia in forced labor conditions', type: 'default' },
-     { date: '2023', event: 'In 2023, the New York Times reported that HHS\'s Office of Refugee Resettlement had lost contact with approximately 85,000 unaccompanied children after placement', type: 'financial' },
+     { date: '2023', event: 'In 2023, the New York Times reported that HHS\'s Office of Refugee Resettlement had lost contact with approximately 85,000 unaccompanied children after placement', type: 'financial' }
    ],
   },
   'human-smuggling-cartel-operations': {
@@ -574,18 +563,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'Mass casualty events have exposed the lethal conditions of cartel-controlled smuggling. In June 2022, 53 migrants died in an abandoned tractor-trailer in San Antonio, Texas; the deadliest smuggling incident in US history. The trailer\'s refrigeration system had failed, and temperatures inside exceeded 150 degrees Fahrenheit. In January 2023, 40 migrants died in a fire at an immigration detention center in Ciudad Juarez, Mexico; witnesses said guards did not open the cells. Drownings in the Rio Grande claim hundreds of lives annually; the IOM documented over 700 deaths on the US-Mexico migration route in 2022 alone.',
       'Cartel smuggling operations rely on systematic corruption of Mexican law enforcement and immigration officials. Migrants traveling through Mexico report paying bribes to Instituto Nacional de Migracion agents, state and local police, and military checkpoints. Between 2004 and 2023, over 200 CBP officers and Border Patrol agents were arrested for corruption including accepting bribes to allow smuggling, sharing intelligence with cartels, and directly participating in trafficking. A 2019 inspector general report found that CBP\'s internal affairs division was inadequately staffed.',
       'Chinese and Indian migrant smuggling networks have expanded dramatically. Chinese snakeheads charge $50,000-$70,000 per person; the route involves flying to a Latin American country then traveling overland through Central America and Mexico. CBP encounters with Chinese nationals at the southern border increased 6,000% between FY2021 and FY2024. Indian smuggling networks charge $25,000-$50,000 and route migrants through Central America or the Caribbean. These networks must coordinate with (and pay) Mexican cartels for border crossing access.',
-      'US enforcement against human smuggling faces structural limitations. HSI conducts smuggling investigations but most prosecutions target low-level smugglers (drivers, stash house operators) rather than cartel logistics coordinators. Demand-side factors; including strong US labor markets, limited legal immigration pathways, and conditions in origin countries; drive migration regardless of enforcement levels. The estimated undocumented population in the US (approximately 11 million) includes millions who initially entered legally and overstayed visas; border smuggling is only one entry pathway.',
+      'US enforcement against human smuggling faces structural limitations. HSI conducts smuggling investigations but most prosecutions target low-level smugglers (drivers, stash house operators) rather than cartel logistics coordinators. Demand-side factors; including strong US labor markets, limited legal immigration pathways, and conditions in origin countries; drive migration regardless of enforcement levels. The estimated undocumented population in the US (approximately 11 million) includes millions who initially entered legally and overstayed visas; border smuggling is only one entry pathway.'
     ],
     tags: ['Human Smuggling', 'Sinaloa Cartel', 'CJNG', 'Border Security', 'Cartel Corruption', 'Migrant Deaths', 'CBP Corruption'],
     sources: [
       { title: 'HSI Human Smuggling Reports', url: 'https://www.ice.gov/hsi', type: 'Government Report' },
       { title: 'IOM Missing Migrants Project', url: 'https://missingmigrants.iom.int', type: 'Research Study' },
-      { title: 'CBP IG Corruption Reports', url: 'https://www.oig.dhs.gov', type: 'Government Audit' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'CBP IG Corruption Reports', url: 'https://www.oig.dhs.gov', type: 'Government Audit' }
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'HSI leads smuggling investigations; CBP has had 200+ agents arrested for corruption since 2004', href: '/entities/agencies/dhs' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecutes smuggling cases but primarily targets low-level operatives rather than cartel leadership', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecutes smuggling cases but primarily targets low-level operatives rather than cartel leadership', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2004-01-01',
    lastActivityDate: '2025-01-26',
@@ -595,7 +583,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2019', event: 'A 2019 inspector general report found that CBP\'s internal affairs division was inadequately staffed', type: 'default' },
      { date: '2022', event: 'Drownings in the Rio Grande claim hundreds of lives annually; the IOM documented over 700 deaths on the US-Mexico migration route in 2022 alone', type: 'critical' },
      { date: '2022-06-01', event: 'In June 2022, 53 migrants died in an abandoned tractor-trailer in San Antonio, Texas; the deadliest smuggling incident in US history', type: 'critical' },
-     { date: '2023', event: 'In January 2023, 40 migrants died in a fire at an immigration detention center in Ciudad Juarez, Mexico; witnesses said guards did not open the cells', type: 'critical' },
+     { date: '2023', event: 'In January 2023, 40 migrants died in a fire at an immigration detention center in Ciudad Juarez, Mexico; witnesses said guards did not open the cells', type: 'critical' }
    ],
   },
   'hospital-price-transparency-failures': {
@@ -611,19 +599,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'Compliance has been abysmal. A July 2022 study published in JAMA found that only 24.5% of a random sample of 5,239 hospitals had published the required machine-readable files. A 2023 analysis by PatientRightsAdvocate.org found that only 24.5% of hospitals were in "meaningful compliance." Hospitals have evaded the rule through multiple strategies: publishing files in formats that are technically machine-readable but practically unusable (extremely large files, inconsistent naming conventions, missing data fields), publishing only a subset of services, and omitting payer-specific negotiated rates (the most valuable information for price comparison). Some hospitals published files that contained only gross charges (the inflated "chargemaster" prices that virtually no one pays).',
       'The price data from compliant hospitals has revealed staggering variation. A RAND Corporation study found that commercial insurance pays hospitals an average of 247% of Medicare rates nationally; but the range spans from 141% to over 400% of Medicare at individual hospitals. The same MRI at two hospitals within 10 miles of each other can cost $500 at one and $5,000 at the other. A 2023 analysis found that within a single hospital, the negotiated rate for the same procedure could vary by 10x depending on the insurer. This variation is not driven by quality differences; studies have found no correlation between hospital prices and outcomes. The variation reflects market power; hospitals in concentrated markets charge dramatically higher prices.',
       'CMS enforcement has been minimal. As of 2024, CMS had issued warning letters to approximately 730 hospitals and imposed civil monetary penalties on only about a dozen. The maximum annual penalty ($2 million for hospitals with 500+ beds, scaled down for smaller hospitals) is meaningless for institutions generating hundreds of millions in revenue; HCA Healthcare (the largest for-profit hospital chain) reported $64 billion in revenue in 2023. The penalty for a 500-bed hospital amounts to less than $5,500 per day; roughly what the hospital charges for a single patient room. Critics including Senator Ron Wyden and the Buyers Alliance have called for penalties tied to a percentage of revenue (1-3%) to create meaningful incentive for compliance.',
-      'The insurance industry has also resisted transparency. Under the related Transparency in Coverage Rule (effective July 2022), health insurers are required to publish machine-readable files containing negotiated rates with every in-network provider. The resulting data releases have been enormous (some insurer files exceed 1 terabyte) and practically inaccessible to consumers. Research organizations that have analyzed the data (including Turquoise Health and Rand) have found that the files reveal the full extent of arbitrary and anti-competitive pricing; but the complexity of the data means that the transparency has not yet translated into consumer price shopping or competitive pressure on prices. The fundamental problem remains: healthcare is consumed in emergencies, under physician direction, and through insurance intermediaries; conditions that prevent the price competition that transparency was intended to enable.',
+      'The insurance industry has also resisted transparency. Under the related Transparency in Coverage Rule (effective July 2022), health insurers are required to publish machine-readable files containing negotiated rates with every in-network provider. The resulting data releases have been enormous (some insurer files exceed 1 terabyte) and practically inaccessible to consumers. Research organizations that have analyzed the data (including Turquoise Health and Rand) have found that the files reveal the full extent of arbitrary and anti-competitive pricing; but the complexity of the data means that the transparency has not yet translated into consumer price shopping or competitive pressure on prices. The fundamental problem remains: healthcare is consumed in emergencies, under physician direction, and through insurance intermediaries; conditions that prevent the price competition that transparency was intended to enable.'
     ],
     tags: ['Hospital Price Transparency', 'CMS Rule', 'Price Variation', 'AHA', 'Chargemaster', 'Insurance Negotiated Rates', 'Healthcare Costs'],
     sources: [
       { title: 'JAMA Hospital Price Transparency Study', url: 'https://jamanetwork.com', type: 'Research Study' },
       { title: 'PatientRightsAdvocate.org Compliance Reports', url: 'https://www.patientrightsadvocate.org', type: 'Research Study' },
-      { title: 'CMS Hospital Price Transparency Rule', url: 'https://www.cms.gov', type: 'Government Record' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'CMS Hospital Price Transparency Rule', url: 'https://www.cms.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'CMS', type: 'agency', relationship: 'Issued price transparency mandate but penalized only ~12 hospitals; maximum $2M annual penalty is trivial for billion-dollar institutions', href: '/entities/agencies/cms' },
- { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
-
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-09-23',
@@ -636,7 +622,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 analysis by PatientRightsAdvocate.org found that only 24.5% of hospitals were in "meaningful compliance." Hospitals have evaded the rule through multiple strategies: publishing files in form', type: 'default' },
      { date: '2023', event: 'A 2023 analysis found that within a single hospital, the negotiated rate for the same procedure could vary by 10x depending on the insurer', type: 'default' },
      { date: '2023', event: 'The maximum annual penalty ($2 million for hospitals with 500+ beds, scaled down for smaller hospitals) is meaningless for institutions generating hundreds of millions in revenue', type: 'financial' },
-     { date: '2024', event: 'As of 2024, CMS had issued warning letters to approximately 730 hospitals and imposed civil monetary penalties on only about a dozen', type: 'legal' },
+     { date: '2024', event: 'As of 2024, CMS had issued warning letters to approximately 730 hospitals and imposed civil monetary penalties on only about a dozen', type: 'legal' }
    ],
   },
   'hotel-industry-trafficking-complicity-report': {
@@ -652,18 +638,16 @@ const investigations_h: Record<string, InvestigationData> = {
       'The legal landscape shifted dramatically starting in 2019 when courts began allowing TVPRA lawsuits to proceed against hotel corporations. In A.B. v. Marriott International (2020), a federal court found sufficient evidence that Marriott could be liable for trafficking at a franchised property where staff ignored obvious signs. Similar cases proceeded against Hilton, Wyndham, Choice Hotels, Red Roof Inn, and others. A landmark 2021 ruling in H.H. v. G6 Hospitality (the parent of Motel 6) allowed a class action to proceed, with plaintiffs alleging that G6 had actual knowledge of trafficking at multiple properties and took no meaningful action. The case cited internal communications showing corporate awareness of the problem dating back years.',
       'Industry response has been characterized by pledges without meaningful action. The American Hotel & Lodging Association (AHLA) launched its No Room for Trafficking campaign in 2012, providing training materials and encouraging members to train staff. However, compliance is voluntary and unaudited. A 2022 investigation by ProPublica found that fewer than 30% of hotel properties had provided any anti-trafficking training to front-desk and housekeeping staff. Where training existed, it was often a brief online module completed during onboarding and never revisited. The franchise model (where brands license their names to independently owned and operated properties) creates accountability gaps; brands claim franchisees are responsible for operations, while franchisees claim the brand sets inadequate standards.',
       'The indicators of trafficking that hotel staff encounter are well-documented and unmistakable: guests paying exclusively in cash for extended stays; Do Not Disturb signs displayed for days at a time; excessive foot traffic to a single room (sometimes dozens of visitors per day); rooms with excessive trash, condoms, or drugs; guests who appear malnourished, fearful, or unable to speak freely; a controlling companion who handles all financial transactions; requests for rooms near exits or on the ground floor. Yet lawsuit after lawsuit documents hotel staff who observed these signs for weeks or months without reporting to management or law enforcement. In some cases, hotel managers confronted with reports from other guests about suspicious activity simply moved the trafficker to a different room.',
-      'Legislative responses have varied. Some states (including California, Texas, and Florida) have enacted hotel-specific anti-trafficking statutes requiring training and reporting. California SB 970 (2018) requires hotel employees to complete a 20-minute training course approved by the Department of Justice on recognizing and responding to human trafficking. Texas HB 29 (2019) created civil liability for hotels that fail to post anti-trafficking notices. At the federal level, the HOTEL Act (proposed but not passed as of 2024) would mandate that all hotels receiving federal contracts establish anti-trafficking training programs. Advocates including Shared Hope International and the National Center for Missing and Exploited Children argue that mandatory training with enforcement; not voluntary industry pledges; is the only approach that will meaningfully reduce hotel-based trafficking.',
+      'Legislative responses have varied. Some states (including California, Texas, and Florida) have enacted hotel-specific anti-trafficking statutes requiring training and reporting. California SB 970 (2018) requires hotel employees to complete a 20-minute training course approved by the Department of Justice on recognizing and responding to human trafficking. Texas HB 29 (2019) created civil liability for hotels that fail to post anti-trafficking notices. At the federal level, the HOTEL Act (proposed but not passed as of 2024) would mandate that all hotels receiving federal contracts establish anti-trafficking training programs. Advocates including Shared Hope International and the National Center for Missing and Exploited Children argue that mandatory training with enforcement; not voluntary industry pledges; is the only approach that will meaningfully reduce hotel-based trafficking.'
     ],
     tags: ['Hotel Trafficking', 'TVPRA', 'Marriott', 'Hilton', 'Wyndham', 'AHLA', 'Sex Trafficking Venues', 'Franchise Accountability'],
     sources: [
       { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Investigative Report' },
       { title: 'ProPublica Hotel Training Investigation', url: 'https://www.propublica.org', type: 'Investigative Report' },
-      { title: 'DOJ Anti-Trafficking Resources', url: 'https://www.justice.gov', type: 'Government Record' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'DOJ Anti-Trafficking Resources', url: 'https://www.justice.gov', type: 'Government Record' }
     ],
     affiliations: [
- { id: '1', name: 'DOJ', type: 'agency', relationship: 'Enforces TVPRA civil and criminal liability provisions; approves California SB 970 hotel training curriculum', href: '/entities/agencies/doj' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Enforces TVPRA civil and criminal liability provisions; approves California SB 970 hotel training curriculum', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-02-04',
@@ -677,7 +661,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2020', event: 'Marriott International (2020), a federal court found sufficient evidence that Marriott could be liable for trafficking at a franchised property where staff ignored obvious signs', type: 'legal' },
      { date: '2021', event: 'A landmark 2021 ruling in H.H', type: 'legal' },
      { date: '2022', event: 'A 2022 investigation by ProPublica found that fewer than 30% of hotel properties had provided any anti-trafficking training to front-desk and housekeeping staff', type: 'political' },
-     { date: '2024', event: 'At the federal level, the HOTEL Act (proposed but not passed as of 2024) would mandate that all hotels receiving federal contracts establish anti-trafficking training programs', type: 'default' },
+     { date: '2024', event: 'At the federal level, the HOTEL Act (proposed but not passed as of 2024) would mandate that all hotels receiving federal contracts establish anti-trafficking training programs', type: 'default' }
    ],
   },
   'health-data-privacy-violation-patterns': {
@@ -693,19 +677,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'The health app data gap represents the most significant privacy vulnerability. A 2019 BMJ study found that 79% of health apps shared user data with third parties. The FTC has jurisdiction over health apps under Section 5 (unfair or deceptive acts) and the Health Breach Notification Rule, but enforcement has been minimal. In 2023, the FTC fined BetterHelp $7.8 million for sharing therapy patient data with Facebook, Snapchat, and Criteo for advertising purposes; BetterHelp had promised users their data would remain private. The FTC also fined GoodRx $1.5 million for sharing prescription data with Facebook and Google. Flo Health settled FTC charges in 2021 after sharing period and fertility tracking data with Facebook and Google despite privacy promises. These cases represent only the most egregious violations that attracted regulator attention; the vast majority of health app data sharing proceeds unreported and unregulated.',
       'The post-Dobbs reproductive data crisis has made health data privacy a matter of criminal legal exposure for millions of women. In states that have banned or restricted abortion, prosecutors could theoretically subpoena period tracking apps, search engine histories, location data showing visits to abortion clinics, and pharmacy records for abortion medications. In 2023, a Nebraska mother and daughter were prosecuted partly based on Facebook messages about obtaining abortion pills; the messages were obtained via a search warrant served on Meta. Google announced it would automatically delete location history for visits to abortion clinics and other sensitive locations; but privacy advocates noted that the policy was self-policed with no independent verification. President Biden signed Executive Order 14076 (July 2022) directing HHS to strengthen reproductive privacy protections, but the resulting guidance was limited and legally non-binding.',
       'Data broker sales of health information represent a massive unregulated market. A 2023 Duke University study found that data brokers openly advertised and sold lists of individuals categorized by health conditions including depression, anxiety, HIV/AIDS, substance use disorders, and cancer. Researchers were able to purchase datasets containing names, addresses, and health conditions of hundreds of thousands of individuals for as little as $0.12 per person. The data originated from health apps, pharmacy loyalty programs, consumer surveys, and insurance claims data that had been "de-identified" under HIPAA safe harbor standards but could be easily re-identified through combination with other commercially available datasets. No federal law prohibits the purchase, sale, or use of this data by entities that are not HIPAA-covered.',
-      'Genetic data represents a unique privacy risk because it is immutable and implicates entire family networks. 23andMe held genetic data on over 14 million customers when it filed for bankruptcy in 2024; raising immediate questions about whether the genetic database would be sold as a corporate asset. The Genetic Information Nondiscrimination Act (GINA) of 2008 prohibits genetic discrimination in employment and health insurance but does not cover life insurance, disability insurance, or long-term care insurance. Law enforcement agencies have used genetic genealogy databases (including GEDmatch and FamilyTreeDNA) to identify suspects through their relatives; the technique was first used publicly in the Golden State Killer case (2018). No federal consent requirement exists for law enforcement access to genetic databases; and some companies have changed their terms of service to permit such access without informing existing users.',
+      'Genetic data represents a unique privacy risk because it is immutable and implicates entire family networks. 23andMe held genetic data on over 14 million customers when it filed for bankruptcy in 2024; raising immediate questions about whether the genetic database would be sold as a corporate asset. The Genetic Information Nondiscrimination Act (GINA) of 2008 prohibits genetic discrimination in employment and health insurance but does not cover life insurance, disability insurance, or long-term care insurance. Law enforcement agencies have used genetic genealogy databases (including GEDmatch and FamilyTreeDNA) to identify suspects through their relatives; the technique was first used publicly in the Golden State Killer case (2018). No federal consent requirement exists for law enforcement access to genetic databases; and some companies have changed their terms of service to permit such access without informing existing users.'
     ],
     tags: ['HIPAA', 'Health Apps', 'Data Brokers', 'Reproductive Privacy', 'Dobbs', 'Genetic Privacy', 'HHS OCR', 'BetterHelp', '23andMe'],
     sources: [
       { title: 'HHS Office for Civil Rights Enforcement Data', url: 'https://www.hhs.gov/ocr', type: 'Government Record' },
       { title: 'FTC Health Privacy Enforcement Actions', url: 'https://www.ftc.gov', type: 'Government Record' },
-      { title: 'Duke University Data Broker Study', url: 'https://techpolicy.sanford.duke.edu', type: 'Research Study' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'Duke University Data Broker Study', url: 'https://techpolicy.sanford.duke.edu', type: 'Research Study' }
     ],
     affiliations: [
  { id: '1', name: 'HHS', type: 'agency', relationship: 'Office for Civil Rights oversees HIPAA enforcement with roughly 200 staff covering 700,000+ entities; chronically underfunded at $39M annually', href: '/entities/agencies/hhs' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
-
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' }
  ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-05-12',
@@ -722,14 +704,9 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, the FTC fined BetterHelp $7.8 million for sharing therapy patient data with Facebook, Snapchat, and Criteo for advertising purposes', type: 'financial' },
      { date: '2023', event: 'In 2023, a Nebraska mother and daughter were prosecuted partly based on Facebook messages about obtaining abortion pills; the messages were obtained via a search warrant served on Meta', type: 'default' },
      { date: '2023', event: 'A 2023 Duke University study found that data brokers openly advertised and sold lists of individuals categorized by health conditions including depression, anxiety, HIV/AIDS, substance use disorder', type: 'default' },
-     { date: '2024', event: '23andMe held genetic data on over 14 million customers when it filed for bankruptcy in 2024; raising immediate questions about whether the genetic database would be sold as a corporate asset', type: 'financial' },
+     { date: '2024', event: '23andMe held genetic data on over 14 million customers when it filed for bankruptcy in 2024; raising immediate questions about whether the genetic database would be sold as a corporate asset', type: 'financial' }
    ],
   },
-
-
-
-
-
 
   'healthcare-profiteering': {
     title: "Healthcare Profiteering",
@@ -748,18 +725,16 @@ const investigations_h: Record<string, InvestigationData> = {
       "PRIOR AUTHORIZATION: Insurance companies require prior authorization for an estimated 33% of medical services; forcing doctors to seek approval before providing care. The average physician spends 14 hours per week on prior authorization paperwork. An AMA survey found that 94% of physicians reported care delays due to prior authorization, and 33% reported that prior authorization had led to a serious adverse event for a patient including hospitalization, disability, or death.",
       "SURPRISE BILLING AND PRICE OPACITY: Until the No Surprises Act took effect in 2022, patients routinely received bills for thousands of dollars from out-of-network providers at in-network hospitals. Even after the law, hospitals and insurers fight over payment rates through an arbitration process that critics say favors higher prices. Hospital price transparency rules; requiring posted prices; have been defied by the majority of hospitals with minimal enforcement.",
       "COMPARISON WITH PEER NATIONS: The United States spends approximately $12,500 per capita on healthcare; nearly twice the next most expensive country. Despite this spending, the U.S. has lower life expectancy, higher infant mortality, and worse chronic disease outcomes than comparable nations that spend half as much and provide universal coverage. Every peer nation; including the UK, Canada, France, Germany, Japan, and Australia; insures all residents at lower cost with better outcomes.",
-      "LOBBYING AND POLITICAL CAPTURE: The health insurance and pharmaceutical industries collectively spend over $700 million annually on federal lobbying; more than any other sector. Industry contributions flow to members of both parties who sit on committees with jurisdiction over healthcare policy. The revolving door between Congress, agencies like CMS, and industry ensures that regulatory policy reflects industry preferences. The single-payer option was removed from consideration during ACA drafting due to industry opposition.",
+      "LOBBYING AND POLITICAL CAPTURE: The health insurance and pharmaceutical industries collectively spend over $700 million annually on federal lobbying; more than any other sector. Industry contributions flow to members of both parties who sit on committees with jurisdiction over healthcare policy. The revolving door between Congress, agencies like CMS, and industry ensures that regulatory policy reflects industry preferences. The single-payer option was removed from consideration during ACA drafting due to industry opposition."
     ],
     tags: ["Healthcare","Insurance","Medical Debt","Profiteering","UnitedHealth","PBM","Hospital Consolidation"],
     sources: [
       { title: "CMS National Health Expenditure Data", url: "https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata", type: "Government Data" },
       { title: "KFF Health Costs Survey", url: "https://www.kff.org/health-costs/", type: "Research" },
-      { title: "FTC PBM Interim Report", url: "https://www.ftc.gov/reports/pharmacy-benefit-managers-report", type: "Government Report" },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: "FTC PBM Interim Report", url: "https://www.ftc.gov/reports/pharmacy-benefit-managers-report", type: "Government Report" }
     ],
     affiliations: [
-      { id: '1', name: 'FDA', type: 'agency', relationship: 'Federal healthcare regulatory authority', href: '/entities/agencies/fda' },
-      { id: 'department-of-health-and-human-services', name: 'Department of Health and Human Services', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/hhs' },
+      { id: '1', name: 'FDA', type: 'agency', relationship: 'Federal healthcare regulatory authority', href: '/entities/agencies/fda' }
     ],
    eventOriginDate: '2010-03-23',
    lastActivityDate: '2026-03-21',
@@ -768,7 +743,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'HCA Healthcare; the largest for-profit hospital chain; reported $5.2 billion in net income in 2022 while cutting nurse staffing ratios.', type: 'financial' },
      { date: '2023', event: 'CEO Andrew Witty earned $22 million in 2023 while the company denied millions of claims.', type: 'financial' },
      { date: '2024', event: 'MEDICAL BANKRUPTCY: Two-thirds of all American bankruptcies', type: 'critical' },
-     { date: '2024-12', event: 'MEDICAL BANKRUPTCY: Two-thirds of all American bankruptcies', type: 'critical' },
+     { date: '2024-12', event: 'MEDICAL BANKRUPTCY: Two-thirds of all American bankruptcies', type: 'critical' }
    ],
   },
   'heroin-trafficking': {
@@ -787,7 +762,7 @@ const investigations_h: Record<string, InvestigationData> = {
       'The CIA actively suppressed evidence of its complicity. When Alfred McCoy, a Yale graduate student, traveled to Southeast Asia in 1971 to research his doctoral thesis, the CIA attempted to prevent publication of his findings. The agency pressured Harper & Row not to publish the book, sent agents to interview his sources after his departure, and attempted to discredit his research. McCoy published "The Politics of Heroin in Southeast Asia" in 1972 despite these efforts, providing the first comprehensive documentation of CIA involvement in the drug trade.',
       'The heroin pipeline continued and expanded after Vietnam. When the covert war in Laos wound down, the drug trafficking networks the CIA had built simply redirected. Former CIA assets in the Golden Triangle, including Khun Sa, the "Opium King of the Golden Triangle" who commanded a 20,000-man army, continued operating without interference. By the 1980s, the same institutional dynamics that facilitated heroin trafficking in Southeast Asia would repeat in Central America with cocaine, where CIA-backed Contra rebels trafficked drugs with agency knowledge, as documented by the Kerry Committee.',
       'The Kerry Committee investigation (1986-1989), led by Senator John Kerry, was the first Congressional inquiry to formally document CIA involvement in drug trafficking. The committee\'s 1989 report found that "the U.S. government\'s war on drugs was undermined by the disposition of parts of its foreign policy apparatus to support and protect drug dealers" and that "senior U.S. policy makers were not combating the flow of cocaine into the United States but rather were aware of and, in some cases, protected drug traffickers." The findings applied to both Southeast Asia and Central America.',
-      'The 1998 CIA Inspector General report, released under pressure from Congressional inquiries triggered by journalist Gary Webb\'s "Dark Alliance" series, acknowledged for the first time that the CIA was aware of drug trafficking by its assets and partners. The report confirmed that the CIA had intervened to protect traffickers from law enforcement and had failed to report drug trafficking by its assets to the DEA. However, no individual was ever held accountable, no criminal charges were brought, and the institutional culture that enabled the trafficking was never reformed.',
+      'The 1998 CIA Inspector General report, released under pressure from Congressional inquiries triggered by journalist Gary Webb\'s "Dark Alliance" series, acknowledged for the first time that the CIA was aware of drug trafficking by its assets and partners. The report confirmed that the CIA had intervened to protect traffickers from law enforcement and had failed to report drug trafficking by its assets to the DEA. However, no individual was ever held accountable, no criminal charges were brought, and the institutional culture that enabled the trafficking was never reformed.'
     ],
     tags: ['CIA', 'Heroin', 'Vietnam War', 'Drug Trafficking', 'Air America', 'Golden Triangle', 'Vang Pao', 'Kerry Committee'],
     sources: [
@@ -795,12 +770,12 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Kerry Committee Report: Drugs, Law Enforcement, and Foreign Policy (1989)', url: 'https://nsarchive.gwu.edu/briefing-book/iran/2018-04-13/kerry-committee-report-drugs-law-enforcement-foreign-policy', type: 'Congressional Record' },
       { title: 'CIA Inspector General Report: Allegations of CIA Drug Trafficking (1998)', url: 'https://www.cia.gov/readingroom/collection/cocaine-contras-and-covert-operations', type: 'Government Report' },
       { title: 'National Security Archive: CIA and Drug Trafficking Documents', url: 'https://nsarchive.gwu.edu/briefing-book/iran/2018-04-13/', type: 'Declassified' },
-      { title: 'Senate Foreign Relations Committee Investigation Records', url: 'https://www.intelligence.senate.gov/publications', type: 'Congressional Record' },
+      { title: 'Senate Foreign Relations Committee Investigation Records', url: 'https://www.intelligence.senate.gov/publications', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Facilitated heroin trafficking through Air America airline, protected warlord allies who were major producers, suppressed evidence of involvement', href: '/entities/agencies/cia' },
       { id: '2', name: 'DEA', type: 'agency', relationship: 'Drug enforcement undermined by CIA protection of trafficking allies; CIA failed to report known drug trafficking to DEA', href: '/entities/agencies/dea' },
-      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Never brought criminal charges despite documented CIA complicity in drug trafficking confirmed by Inspector General and Kerry Committee', href: '/entities/agencies/doj' },
+      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Never brought criminal charges despite documented CIA complicity in drug trafficking confirmed by Inspector General and Kerry Committee', href: '/entities/agencies/doj' }
     ],
     eventOriginDate: '1965-01-01',
     lastActivityDate: '1998-12-01',
@@ -815,7 +790,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { date: '1975', event: 'Fall of Saigon ends the Vietnam War; Air America ceases operations after two decades of covert activity', type: 'political' },
       { date: '1986', event: 'Senate Foreign Relations Committee begins investigating allegations of CIA involvement in drug trafficking through the Kerry Committee', type: 'legal' },
       { date: '1989', event: 'Kerry Committee report confirms that U.S. foreign policy and CIA operations facilitated drug trafficking in Central America and Southeast Asia', type: 'legal' },
-      { date: '1998', event: 'CIA Inspector General publishes report acknowledging agency awareness of drug trafficking by its assets and partners', type: 'default' },
+      { date: '1998', event: 'CIA Inspector General publishes report acknowledging agency awareness of drug trafficking by its assets and partners', type: 'default' }
     ],
   },
   'holocaust-denial': {
@@ -834,7 +809,7 @@ const investigations_h: Record<string, InvestigationData> = {
       'The internet and social media dramatically amplified Holocaust denial while complicating enforcement of denial laws. YouTube hosted Holocaust denial content for years before banning it in 2019, after research showed its recommendation algorithm actively promoted denial videos to users watching Holocaust-related content. Facebook reversed its position on allowing denial content in October 2020, after years of defending it as a form of free expression. Twitter (now X) has been inconsistent in enforcing policies against denial content. In 2023, the ADL documented 8,873 antisemitic incidents in the United States, the highest since tracking began in 1979, with Holocaust denial and distortion as a persistent component of online antisemitism.',
       'Holocaust distortion, a subtler form than outright denial, has become increasingly prevalent. Distortion includes efforts to blame victims, to minimize the central role of antisemitism, to equate the suffering of perpetrators with that of victims, and to invoke the Holocaust through inappropriate analogies that trivialize the genocide. In Eastern Europe, governments in Poland and Hungary have promoted narratives that emphasize national victimhood and downplay collaboration. Poland\'s 2018 law (later amended) criminalized attributing Nazi crimes to the Polish nation, drawing international criticism for chilling Holocaust research and survivor testimony about Polish complicity. Hungary under Viktor Orban erected a memorial to the German occupation that appeared to absolve Hungary of responsibility for deporting 437,000 Jews to Auschwitz in 1944.',
       'The United Nations General Assembly passed Resolution 61/255 in 2007 condemning Holocaust denial "without reservation" and urging member states to reject denial. The International Holocaust Remembrance Alliance (IHRA) adopted a working definition of antisemitism in 2016 that includes "denying the fact, scope, mechanisms, or intentionality of the genocide of the Jewish people" and "accusing Jews or Israel of exaggerating the Holocaust." The definition has been adopted or endorsed by over 40 countries and hundreds of institutions, though debates continue about its application to criticism of Israeli government policies.',
-      'The persistence of Holocaust denial in the face of overwhelming evidence demonstrates how organized disinformation campaigns can sustain demonstrably false narratives across generations. The same techniques used by Holocaust deniers, including cherry-picking evidence, exploiting genuine historical complexity, attacking survivor credibility, and wrapping propaganda in the language of academic inquiry, have been adopted by deniers of other genocides including the Armenian genocide, the Rwandan genocide, and the Srebrenica massacre. Understanding Holocaust denial as a template for organized historical denialism is essential for combating denial of documented atrocities worldwide.',
+      'The persistence of Holocaust denial in the face of overwhelming evidence demonstrates how organized disinformation campaigns can sustain demonstrably false narratives across generations. The same techniques used by Holocaust deniers, including cherry-picking evidence, exploiting genuine historical complexity, attacking survivor credibility, and wrapping propaganda in the language of academic inquiry, have been adopted by deniers of other genocides including the Armenian genocide, the Rwandan genocide, and the Srebrenica massacre. Understanding Holocaust denial as a template for organized historical denialism is essential for combating denial of documented atrocities worldwide.'
     ],
     tags: ['Holocaust', 'Denial', 'Antisemitism', 'Historical Revisionism', 'Genocide Denial', 'Institute for Historical Review', 'David Irving', 'Social Media'],
     sources: [
@@ -843,11 +818,11 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Yad Vashem: Holocaust Denial Research', url: 'https://www.yadvashem.org/holocaust/holocaust-deniers.html', type: 'Research' },
       { title: 'IHRA Working Definition of Antisemitism', url: 'https://www.holocaustremembrance.com/resources/working-definitions-charters/working-definition-antisemitism', type: 'Government Report' },
       { title: 'ADL Audit of Antisemitic Incidents', url: 'https://www.adl.org/resources/report/audit-antisemitic-incidents-united-states', type: 'Research' },
-      { title: 'Richard Evans: Lying About Hitler (2002)', url: 'https://www.amazon.com/Lying-About-Hitler-History-Holocaust/dp/0465021530', type: 'Book' },
+      { title: 'Richard Evans: Lying About Hitler (2002)', url: 'https://www.amazon.com/Lying-About-Hitler-History-Holocaust/dp/0465021530', type: 'Book' }
     ],
     affiliations: [
       { id: '1', name: 'Adolf Hitler', type: 'individual', relationship: 'Nazi leader whose regime systematically murdered six million Jews; denial movement seeks to rehabilitate Nazi legacy', href: '/entities/individuals/adolf-hitler' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Office of Special Investigations (now HRSP) investigated and deported Holocaust perpetrators living in the US; has not specifically targeted organized denial networks', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Office of Special Investigations (now HRSP) investigated and deported Holocaust perpetrators living in the US; has not specifically targeted organized denial networks', href: '/entities/agencies/doj' }
     ],
     eventOriginDate: '1945-05-08',
     lastActivityDate: '2024-01-27',
@@ -862,7 +837,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { date: '1990', event: 'France passes the Gayssot Act criminalizing Holocaust denial; multiple European countries follow with similar legislation', type: 'legal' },
       { date: '2000', event: 'David Irving loses libel case against Deborah Lipstadt; British court rules Irving is a Holocaust denier who deliberately falsified historical evidence', type: 'legal' },
       { date: '2007', event: 'United Nations General Assembly passes resolution condemning Holocaust denial and urging member states to reject denial of the Holocaust as a historical event', type: 'political' },
-      { date: '2024-01-27', event: 'International Holocaust Remembrance Day; denial and revisionism persist on social media platforms despite content moderation efforts', type: 'default' },
+      { date: '2024-01-27', event: 'International Holocaust Remembrance Day; denial and revisionism persist on social media platforms despite content moderation efforts', type: 'default' }
     ],
   },
   'holodomor-ukraine-famine': {
@@ -882,20 +857,18 @@ const investigations_h: Record<string, InvestigationData> = {
       'The famine was deliberately concealed from the outside world. Western journalists were barred from Ukraine. Walter Duranty, the New York Times Moscow correspondent, notoriously denied the famine, writing "There is no famine or actual starvation nor is there likely to be" in a dispatch that won praise from Soviet authorities. British journalist Gareth Jones smuggled himself into Ukraine and published eyewitness reports of mass starvation, which were dismissed by other correspondents under Soviet pressure.',
       'The Holodomor destroyed Ukrainian rural society and national identity - its intended purpose. An estimated 3.5 to 7.5 million Ukrainians died (contemporary research by the Ukrainian Institute of National Remembrance estimates 3.9 million direct deaths, with 600,000 unborn losses). The ethnic Ukrainian population of the hardest-hit regions declined by 20-25%. Stalin subsequently resettled ethnic Russians into depopulated Ukrainian villages, changing the demographic composition of eastern Ukraine.',
       'The Soviet government denied the Holodomor for decades. Only in 1990, under glasnost, did the Soviet Congress of People\'s Deputies acknowledge the famine occurred. Ukraine, after independence in 1991, began systematic documentation. The Ukrainian parliament declared the Holodomor a genocide in 2006. As of 2024, over 30 countries have recognized it as genocide, including Canada, Australia, and the European Parliament.',
-      'Applicable international law (retroactive analysis): the Holodomor constitutes genocide under the 1948 Convention on the Prevention and Punishment of the Crime of Genocide (Article II(c) - deliberately inflicting conditions of life calculated to bring about physical destruction of a national group). It also constitutes crimes against humanity (extermination, persecution, forced transfer) and violations of the Universal Declaration of Human Rights.',
+      'Applicable international law (retroactive analysis): the Holodomor constitutes genocide under the 1948 Convention on the Prevention and Punishment of the Crime of Genocide (Article II(c) - deliberately inflicting conditions of life calculated to bring about physical destruction of a national group). It also constitutes crimes against humanity (extermination, persecution, forced transfer) and violations of the Universal Declaration of Human Rights.'
     ],
     tags: ['holodomor', 'ukraine', 'genocide', 'famine', 'stalin', 'soviet-union', 'collectivization', 'crimes-against-humanity', 'mass-starvation', 'cover-up', 'OGPU'],
     sources: [
       { title: 'Ukrainian Institute of National Remembrance - Holodomor Research', url: 'https://uinp.gov.ua/', type: 'government' },
       { title: 'Holodomor Research and Education Consortium', url: 'https://holodomor.ca/', type: 'academic' },
       { title: 'Timothy Snyder - Bloodlands: Europe Between Hitler and Stalin', url: 'https://www.timothysnyder.org/books/bloodlands', type: 'book' },
-      { title: 'Robert Conquest - The Harvest of Sorrow', url: 'https://global.oup.com/academic/product/the-harvest-of-sorrow-9780195051803', type: 'book' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Robert Conquest - The Harvest of Sorrow', url: 'https://global.oup.com/academic/product/the-harvest-of-sorrow-9780195051803', type: 'book' }
     ],
     affiliations: [
       { id: '1', name: 'Joseph Stalin', type: 'individual', relationship: 'Soviet dictator who ordered and directed the famine through forced collectivization and grain confiscation policies', href: '/entities/individuals/joseph-stalin' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1929-01-01',
    lastActivityDate: '2024-12-15',
@@ -911,7 +884,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '1990', event: 'Only in 1990, under glasnost, did the Soviet Congress of People\'s Deputies acknowledge the famine occurred', type: 'political' },
      { date: '1991', event: 'Ukraine, after independence in 1991, began systematic documentation', type: 'default' },
      { date: '2006', event: 'The Ukrainian parliament declared the Holodomor a genocide in 2006', type: 'default' },
-     { date: '2024', event: 'As of 2024, over 30 countries have recognized it as genocide, including Canada, Australia, and the European Parliament', type: 'default' },
+     { date: '2024', event: 'As of 2024, over 30 countries have recognized it as genocide, including Canada, Australia, and the European Parliament', type: 'default' }
    ],
   },
   'hud-corruption-housing-crisis-betrayal': {
@@ -927,19 +900,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'THE $70 BILLION PUBLIC HOUSING CRISIS: America\'s 1.1 million public housing units have a $70 billion capital repair backlog that grows by $3.4 billion annually. HUD\'s own inspection system (REAC) has been criticized by the GAO and HUD OIG for failing to identify and address dangerous conditions. Residents live with mold, lead paint, vermin infestations, broken elevators, failing heating systems, and structural deficiencies. The Nycha system in New York City alone has a $40 billion repair backlog affecting 400,000 residents. A federal monitor appointed in 2019 found lead paint in 4,200+ apartments with children under 6 after NYCHA falsely certified compliance with federal lead safety rules. In Chicago, the CHA demolished 17,000 public housing units through the "Plan for Transformation" (2000), displacing tens of thousands of predominantly Black residents with promises of replacement units that were never fully built. The RAD (Rental Assistance Demonstration) program converts public housing to private management - critics argue this accelerates privatization and eventual loss of affordable units.',
       'SECTION 8 FAILURE: The Housing Choice Voucher (Section 8) program serves 2.3 million families but leaves 75% of eligible families without assistance due to insufficient funding. Waitlists are closed in most major cities. When the Los Angeles Housing Authority opened its waitlist in 2017 for the first time in 13 years, 600,000 people applied for 20,000 slots. The average wait in New York City is 10+ years. Voucher holders face additional barriers: source of income discrimination (legal in states without protections), landlord refusal (36% of voucher holders fail to use vouchers before they expire), and payment standards set below market rents. Fair Market Rent calculations by HUD systemically underestimate actual rents in high-cost areas. The result: voucher families are concentrated in high-poverty, segregated neighborhoods - reinforcing the very patterns the program was designed to address.',
       'THE LIHTC WALL STREET TAX SHELTER: The Low-Income Housing Tax Credit (26 U.S.C. 42) is the primary federal mechanism for building affordable housing, generating approximately $10 billion annually in tax credits that are sold to investors (primarily banks fulfilling Community Reinvestment Act obligations) through syndication intermediaries. The syndication process is extraordinarily inefficient: syndicators and investors extract 25-30% of the credits\' value as fees, legal costs, and guaranteed returns before a single unit of housing is built. A dollar of LIHTC subsidy produces roughly 70 cents of housing. The program has produced 3.6 million units since 1986, but many LIHTC properties convert to market rate after the 15-30 year affordability period expires. Developers game the allocation system, and state housing finance agencies that award credits have documented corruption: in several states, political donors received preferential credit allocations.',
-      'APPLICABLE LAW: United States Housing Act of 1937 (42 U.S.C. 1437 et seq.) established public housing. Housing and Community Development Act of 1974 (42 U.S.C. 5301 et seq.) created Section 8. Fair Housing Act (42 U.S.C. 3601-3619) prohibits housing discrimination. LIHTC (26 U.S.C. 42). McKinney-Vento Homeless Assistance Act (42 U.S.C. 11301 et seq.). Lead-Based Paint Hazard Reduction Act (42 U.S.C. 4851-4856). False Claims Act (31 U.S.C. 3729) applies to public housing authorities making false certifications. 18 U.S.C. 1001 (false statements to federal agencies). HUD OIG has identified $105 billion in questioned costs and unsupported costs since 2000, but referrals for criminal prosecution remain rare. The fundamental failure is political: Congress has never funded Section 8 at levels sufficient to serve all eligible families, and public housing capital funding has been cut by 50% since 2000.',
+      'APPLICABLE LAW: United States Housing Act of 1937 (42 U.S.C. 1437 et seq.) established public housing. Housing and Community Development Act of 1974 (42 U.S.C. 5301 et seq.) created Section 8. Fair Housing Act (42 U.S.C. 3601-3619) prohibits housing discrimination. LIHTC (26 U.S.C. 42). McKinney-Vento Homeless Assistance Act (42 U.S.C. 11301 et seq.). Lead-Based Paint Hazard Reduction Act (42 U.S.C. 4851-4856). False Claims Act (31 U.S.C. 3729) applies to public housing authorities making false certifications. 18 U.S.C. 1001 (false statements to federal agencies). HUD OIG has identified $105 billion in questioned costs and unsupported costs since 2000, but referrals for criminal prosecution remain rare. The fundamental failure is political: Congress has never funded Section 8 at levels sufficient to serve all eligible families, and public housing capital funding has been cut by 50% since 2000.'
     ],
     tags: ['HUD', 'public-housing', 'Section-8', 'LIHTC', 'Ben-Carson', 'housing-crisis', 'lead-paint', 'NYCHA', 'affordable-housing'],
     sources: [
       { title: 'HUD OIG: Semiannual Reports to Congress', url: 'https://www.hudoig.gov/reports-publications/semiannual-reports', type: 'Government Audit' },
       { title: 'National Low Income Housing Coalition: The Gap', url: 'https://nlihc.org/gap', type: 'Research' },
-      { title: 'GAO: Public Housing - HUD Should Strengthen Oversight of Physical Conditions', url: 'https://www.gao.gov/products/gao-18-259', type: 'Government Audit' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'GAO: Public Housing - HUD Should Strengthen Oversight of Physical Conditions', url: 'https://www.gao.gov/products/gao-18-259', type: 'Government Audit' }
     ],
     affiliations: [
       { id: '1', name: 'HUD', type: 'agency', relationship: 'Central subject - $70B repair backlog, Section 8 waitlists exceeding 10 years, OIG identified $105B in questioned and unsupported costs' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1937-01-01',
    lastActivityDate: '2025-09-15',
@@ -953,7 +924,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2000', event: 'The fundamental failure is political: Congress has never funded Section 8 at levels sufficient to serve all eligible families, and public housing capital funding has been cut by 50% since 2000', type: 'political' },
      { date: '2017', event: 'THE CARSON ERA: HUD SECRETARY AS SYMBOLIC NEGLECT: Ben Carson, a neurosurgeon with no housing policy experience, was appointed HUD Secretary in 2017', type: 'political' },
      { date: '2017', event: 'When the Los Angeles Housing Authority opened its waitlist in 2017 for the first time in 13 years, 600,000 people applied for 20,000 slots', type: 'default' },
-     { date: '2019', event: 'A federal monitor appointed in 2019 found lead paint in 4,200+ apartments with children under 6 after NYCHA falsely certified compliance with federal lead safety rules', type: 'political' },
+     { date: '2019', event: 'A federal monitor appointed in 2019 found lead paint in 4,200+ apartments with children under 6 after NYCHA falsely certified compliance with federal lead safety rules', type: 'political' }
    ],
   },
   'halliburton-military-contractor-fraud': {
@@ -969,18 +940,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'The Defense Contract Audit Agency (DCAA) identified $1.4 billion in "questioned costs" from KBR\'s LOGCAP invoices, including billing the government $45 per case of soda, charging $100 per bag of laundry, and overbilling $61 million for truck convoy operations by reporting empty trucks as full loads. Whistleblowers reported that KBR burned brand-new $85,000 trucks rather than perform minor repairs, served spoiled food to troops at inflated prices, and billed for meals never served to soldiers. Former KBR employees testified to Congress that supervisors instructed them to "icharged work" (charge the government for work not performed or materials not delivered).',
       'Among the most disturbing findings were KBR\'s water treatment operations. A KBR water specialist, Ben Carter, testified that he found the water his company was supposed to treat at Camp Ramadi was contaminated with bacteria at levels twice the maximum safety threshold, including coliform bacteria (indicating fecal contamination). Despite his warnings, KBR management told him to do nothing. Internal Army documents revealed that KBR-treated water made soldiers sick at multiple bases. Separately, KBR\'s faulty electrical work in military facilities directly caused the electrocution deaths of at least 18 U.S. service members, including Staff Sgt. Ryan Maseth, who was electrocuted in his shower in January 2008 due to an ungrounded water pump.',
       'Under the False Claims Act (31 U.S.C. 3729-3733), whistleblowers can file qui tam lawsuits against government contractors who defraud the government. Under the Anti-Kickback Act (41 U.S.C. 8702), it is a criminal offense to give or receive kickbacks in connection with government contracts. Under 18 U.S.C. 1001, knowingly making false statements to federal agencies carries up to five years imprisonment. Despite billions in identified fraud, KBR paid only $579 million in settlements and fines, a fraction of its profits. No senior Halliburton or KBR executive served prison time. Dick Cheney was never investigated for his role in directing contracts to his former company.',
-      'The Halliburton scandal exemplifies the broader crisis in military contractor accountability. The Commission on Wartime Contracting in Iraq and Afghanistan, a bipartisan congressional commission, concluded in 2011 that waste, fraud, and abuse in wartime contracting cost taxpayers between $31 billion and $60 billion. The Pentagon\'s own audit found that it could not account for $21 billion in payments to contractors in Iraq. Yet the Department of Defense continues to rely on private contractors for services previously performed by uniformed personnel, with approximately $400 billion annually going to defense contractors. The revolving door between contractor executive suites and Pentagon offices remains wide open.',
+      'The Halliburton scandal exemplifies the broader crisis in military contractor accountability. The Commission on Wartime Contracting in Iraq and Afghanistan, a bipartisan congressional commission, concluded in 2011 that waste, fraud, and abuse in wartime contracting cost taxpayers between $31 billion and $60 billion. The Pentagon\'s own audit found that it could not account for $21 billion in payments to contractors in Iraq. Yet the Department of Defense continues to rely on private contractors for services previously performed by uniformed personnel, with approximately $400 billion annually going to defense contractors. The revolving door between contractor executive suites and Pentagon offices remains wide open.'
     ],
     tags: ['halliburton', 'kbr', 'military-contractor', 'iraq-war', 'no-bid-contracts', 'dick-cheney', 'defense-fraud', 'electrocution-deaths', 'war-profiteering'],
     sources: [
       { title: 'Commission on Wartime Contracting: Final Report to Congress', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213820/http://www.wartimecontracting.gov/', type: 'Congressional Report' },
       { title: 'DCAA: Audit Reports on KBR LOGCAP Contracts', url: 'https://www.dcaa.mil/', type: 'Government Audit' },
-      { title: 'DOJ: KBR Settlement Agreements', url: 'https://www.justice.gov/civil', type: 'Government' },
-      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'DOJ: KBR Settlement Agreements', url: 'https://www.justice.gov/civil', type: 'Government' }
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Awarded $39.5B+ in contracts to Halliburton/KBR; DCAA identified $1.4B in questioned costs but collected fraction', href: '/entities/agencies/dod' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Settled fraud claims for $579M total across multiple cases; declined criminal prosecution of senior executives', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Settled fraud claims for $579M total across multiple cases; declined criminal prosecution of senior executives', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-01-15',
@@ -989,7 +959,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2001', event: 'The company\'s former CEO, Dick Cheney, served as Vice President from 2001 to 2009 and continued to receive deferred compensation from Halliburton (between $150,000 and $2 million annually) througho...', type: 'political' },
      { date: '2003', event: 'Halliburton, through its subsidiary Kellogg Brown and Root (KBR), became the largest private military contractor in Iraq and Afghanistan, receiving over $39.', type: 'political' },
      { date: '2008', event: 'Ryan Maseth, who was electrocuted in his shower in January 2008 due to an ungrounded water pump', type: 'political' },
-     { date: '2011', event: 'The Commission on Wartime Contracting in Iraq and Afghanistan, a bipartisan congressional commission, concluded in 2011 that waste, fraud, and abuse in wartime contracting cost taxpayers between $3', type: 'political' },
+     { date: '2011', event: 'The Commission on Wartime Contracting in Iraq and Afghanistan, a bipartisan congressional commission, concluded in 2011 that waste, fraud, and abuse in wartime contracting cost taxpayers between $3', type: 'political' }
    ],
   },
   'homeland-security-mission-creep': {
@@ -1005,19 +975,18 @@ const investigations_h: Record<string, InvestigationData> = {
       'PORTLAND 2020: THE DOMESTIC DEPLOYMENT: In July 2020, DHS deployed agents from CBP\'s BORTAC (Border Patrol Tactical Unit), ICE, and the Federal Protective Service to Portland, Oregon, ostensibly to protect a federal courthouse during racial justice protests. Agents in camouflage and tactical gear, wearing no visible identification, seized protesters off streets and placed them in unmarked rental vans. DHS Acting Secretary Chad Wolf authorized the deployment over the objections of Oregon\'s governor and Portland\'s mayor. The DHS Inspector General later found that agents violated agency policies and that intelligence reports were compiled on journalists covering the protests. The operation was expanded to other cities under "Operation Legend" and "Operation Diligent Valor."',
       'THE CONSTITUTION-FREE ZONE: CBP claims authority under 8 U.S.C. 1357 to operate immigration checkpoints and conduct searches within 100 miles of any external boundary of the United States, including coastlines. This "border zone" encompasses roughly 200 million Americans, two-thirds of the total population, and includes entire states (Connecticut, Delaware, Florida, Hawaii, Maine, Massachusetts, New Hampshire, New Jersey, Rhode Island). Within this zone, CBP conducts vehicle stops, demand identification, and search electronic devices at border crossings without warrants or probable cause. In 2023, a federal court ruled that CBP\'s warrantless device searches at the border require at least reasonable suspicion, but the ruling\'s scope remains contested.',
       'IMMIGRATION ENFORCEMENT EXCESS: DHS\'\'s immigration apparatus has been documented engaging in systematic abuse. The DHS OIG has repeatedly found dangerous overcrowding, inadequate medical care, and inhumane conditions in detention facilities. ICE\'s 287(g) program deputizes local law enforcement to act as immigration agents, leading to racial profiling and community distrust. In 2018-2019, the family separation policy resulted in over 5,500 children being separated from their parents at the border, with some still unaccounted for years later. A 2023 DHS OIG report found that ICE failed to provide adequate medical care to detainees, contributing to at least 45 deaths in custody since 2018.',
-      'ACCOUNTABILITY VACUUM: DHS operates with minimal effective oversight. The department has cycled through acting secretaries (avoiding Senate confirmation), the DHS Inspector General\'s office has been understaffed and under-resourced, and the DHS Privacy Office has repeatedly been overruled by operational components. Congressional oversight is fragmented across over 100 committees and subcommittees. Whistleblower protections within DHS are weak: multiple employees who reported abuse or waste have faced retaliation. The Government Accountability Office has issued hundreds of recommendations for DHS reforms, with a compliance rate below 70%. The fundamental tension between DHS\'s vast authorities and its minimal accountability mechanisms has never been resolved.',
+      'ACCOUNTABILITY VACUUM: DHS operates with minimal effective oversight. The department has cycled through acting secretaries (avoiding Senate confirmation), the DHS Inspector General\'s office has been understaffed and under-resourced, and the DHS Privacy Office has repeatedly been overruled by operational components. Congressional oversight is fragmented across over 100 committees and subcommittees. Whistleblower protections within DHS are weak: multiple employees who reported abuse or waste have faced retaliation. The Government Accountability Office has issued hundreds of recommendations for DHS reforms, with a compliance rate below 70%. The fundamental tension between DHS\'s vast authorities and its minimal accountability mechanisms has never been resolved.'
     ],
     tags: ['DHS', 'civil-liberties', 'surveillance', 'border-patrol', 'ICE', 'Portland', 'immigration', 'mission-creep', 'constitutional-rights'],
     sources: [
       { title: 'DHS Office of Inspector General: Multiple Reports on CBP and ICE Operations', url: 'https://www.oig.dhs.gov/', type: 'Government Audit' },
       { title: 'ACLU: The Constitution in the 100-Mile Border Zone', url: 'https://www.aclu.org/other/constitution-100-mile-border-zone', type: 'Research' },
-      { title: 'Oregon DOJ: Investigation of Federal Actions in Portland', url: 'https://www.doj.state.or.us/', type: 'Government Report' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'Oregon DOJ: Investigation of Federal Actions in Portland', url: 'https://www.doj.state.or.us/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Parent department operating $60B budget with minimal oversight; deployed agents against protesters; compiled intelligence on journalists', href: '/entities/agencies/dhs' },
       { id: '2', name: 'ICE', type: 'agency', relationship: 'Purchased surveillance data without warrants; operated facilities with documented inhumane conditions; 45+ detainee deaths since 2018', href: '/entities/agencies/ice' },
-      { id: '3', name: 'CBP', type: 'agency', relationship: 'Claims warrantless search authority over 200M Americans in 100-mile border zone; deployed BORTAC tactical unit against Portland protesters', href: '/entities/agencies/cbp' },
+      { id: '3', name: 'CBP', type: 'agency', relationship: 'Claims warrantless search authority over 200M Americans in 100-mile border zone; deployed BORTAC tactical unit against Portland protesters', href: '/entities/agencies/cbp' }
     ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2026-01-20',
@@ -1027,7 +996,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2020', event: 'The DHS Intelligence & Analysis office has compiled intelligence reports on journalists and protesters, including a 2020 operation that tracked journalists covering the Portland protests', type: 'default' },
      { date: '2020-07-01', event: 'PORTLAND 2020: THE DOMESTIC DEPLOYMENT: In July 2020, DHS deployed agents from CBP\'s BORTAC (Border Patrol Tactical Unit), ICE, and the Federal Protective Service to Portland, Oregon, ostensibly to...', type: 'default' },
      { date: '2023', event: 'In 2023, a federal court ruled that CBP\'s warrantless device searches at the border require at least reasonable suspicion, but the ruling\'s scope remains contested', type: 'legal' },
-     { date: '2023', event: 'A 2023 DHS OIG report found that ICE failed to provide adequate medical care to detainees, contributing to at least 45 deaths in custody since 2018', type: 'critical' },
+     { date: '2023', event: 'A 2023 DHS OIG report found that ICE failed to provide adequate medical care to detainees, contributing to at least 45 deaths in custody since 2018', type: 'critical' }
    ],
   },
   'healthcare-industry-price-gouging': {
@@ -1043,18 +1012,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'Pharmaceutical price gouging is the most visible symptom. Insulin, which costs $2-$5 to manufacture, was priced at $275-$600 per vial in the U.S. before recent reforms, while costing $13-$30 in Canada and Europe. The same pattern holds across drug categories: Americans pay 2-3 times more for prescription medications than any other country. Pharmaceutical companies spend more on marketing and lobbying than on research — the industry spent $6.3 billion on lobbying from 1998-2023, more than any other sector. Drug companies routinely engage in patent evergreening, pay-for-delay deals, and other anticompetitive practices to maintain monopoly pricing.',
       'Hospital pricing operates in deliberate opacity. The same procedure can cost $1,000 at one hospital and $100,000 at another, with prices hidden from patients until after treatment. Despite the 2021 Hospital Price Transparency Rule, a CMS study found 71% of hospitals are not in compliance. The chargemaster system allows hospitals to set arbitrary prices — a single Tylenol tablet can be billed at $15-$50. Surprise billing, where patients receive unexpected bills from out-of-network providers during in-network hospital visits, affects one in five emergency room visits and one in six elective surgeries.',
       'The health insurance industry operates as a toll collector between patients and care. Insurance company CEOs earn $15-$25+ million annually. UnitedHealth Group, the largest insurer, reported $22.4 billion in profit in 2023 while denying claims at increasing rates. Prior authorization requirements delay and deny care — the American Medical Association found 94% of physicians report care delays due to prior authorization, and 33% report it has led to a serious adverse event for a patient. Insurance companies employ algorithms to automatically deny claims, with some reporting denial rates above 30%.',
-      'The human cost is staggering. Approximately 100 million Americans carry medical debt. Medical debt is the leading cause of bankruptcy, contributing to an estimated 530,000 families filing for bankruptcy annually. An estimated 26,000-45,000 Americans die each year due to lack of health insurance. GoFundMe\'s CEO has stated the platform essentially functions as an alternative healthcare system, with one-third of all campaigns related to medical expenses. The pharmaceutical and health insurance industries spent a combined $1.1 billion on federal lobbying from 2020-2023 to maintain this system.',
+      'The human cost is staggering. Approximately 100 million Americans carry medical debt. Medical debt is the leading cause of bankruptcy, contributing to an estimated 530,000 families filing for bankruptcy annually. An estimated 26,000-45,000 Americans die each year due to lack of health insurance. GoFundMe\'s CEO has stated the platform essentially functions as an alternative healthcare system, with one-third of all campaigns related to medical expenses. The pharmaceutical and health insurance industries spent a combined $1.1 billion on federal lobbying from 2020-2023 to maintain this system.'
     ],
     tags: ['healthcare', 'pharmaceutical', 'price gouging', 'insulin', 'medical debt', 'insurance denial', 'hospital billing', 'lobbying', 'drug pricing'],
     sources: [
       { title: 'CMS: National Health Expenditure Data 2023', url: 'https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata', type: 'Government Report' },
       { title: 'Commonwealth Fund: Mirror, Mirror 2024', url: 'https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024', type: 'Research' },
-      { title: 'Senate HELP Committee: Price of Insulin Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Report' },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: 'Senate HELP Committee: Price of Insulin Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Report' }
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves drugs and devices but cannot negotiate prices; revolving door with pharma industry; 46% of FDA budget comes from industry user fees', href: '/entities/agencies/fda' },
-      { id: '2', name: 'CMS', type: 'agency', relationship: 'Administers Medicare/Medicaid covering 150M+ Americans; only recently gained limited drug price negotiation authority through IRA', href: '/entities/agencies/cms' },
+      { id: '2', name: 'CMS', type: 'agency', relationship: 'Administers Medicare/Medicaid covering 150M+ Americans; only recently gained limited drug price negotiation authority through IRA', href: '/entities/agencies/cms' }
     ],
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-03-15',
@@ -1064,7 +1032,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2020', event: 'The pharmaceutical and health insurance industries spent a combined $1.1 billion on federal lobbying from 2020-2023 to maintain this system', type: 'political' },
      { date: '2021', event: 'Despite the 2021 Hospital Price Transparency Rule, a CMS study found 71% of hospitals are not in compliance', type: 'default' },
      { date: '2023', event: 'The American healthcare system is the most expensive in the world by a massive margin — $4.3 trillion in 2023, representing 17.', type: 'default' },
-     { date: '2023', event: 'UnitedHealth Group, the largest insurer, reported $22.4 billion in profit in 2023 while denying claims at increasing rates', type: 'political' },
+     { date: '2023', event: 'UnitedHealth Group, the largest insurer, reported $22.4 billion in profit in 2023 while denying claims at increasing rates', type: 'political' }
    ],
   },
   'hospice-fraud-end-of-life-exploitation': {
@@ -1080,25 +1048,24 @@ const investigations_h: Record<string, InvestigationData> = {
       'The Senate Finance Committee\'s 2022 investigation found systemic patterns of fraud. Companies aggressively recruited patients who were not terminally ill, particularly from nursing homes and assisted living facilities where vulnerable seniors could be easily convinced or pressured to enroll. Once enrolled in hospice, patients must forgo curative treatment for their terminal diagnosis, a devastating trade-off when the patient is not actually dying. Some patients were kept on hospice for years, with companies billing as long as they survived, while providing only one or two brief nurse visits per week.',
       'The profit margins in for-profit hospice are extraordinary, averaging 17-20% compared to 2-4% for most healthcare services. This margin is achieved by enrolling the "right" patients (those with long, stable conditions like dementia who will survive on hospice for months or years) and providing as little care as possible. Private equity acquisition of hospice companies has surged, with firms attracted by the predictable Medicare revenue stream and opportunities to cut costs. Kindred at Home, the largest hospice provider, was acquired by Humana for $5.7 billion.',
       'Families are often the collateral damage of hospice fraud. When a patient is inappropriately enrolled in hospice, they lose access to curative treatments that could extend or improve their life. Families may not understand that hospice enrollment means forgoing treatment. In cases where patients do not decline as expected, some hospices "live discharge" them, cutting off pain management and support services abruptly. Conversely, some families report that hospice aides never show up, medications are not delivered, and patients suffer in pain because the company collected the daily rate without providing the promised services.',
-      'CMS oversight of the hospice industry has been grossly inadequate. Hospice surveys occur on average every 6.5 years, meaning many fraudulent operations run for years before any inspection. Only 1% of hospices are decertified annually despite widespread known problems. The OIG has identified $6 billion in improper Medicare hospice payments in a single year. Criminal prosecutions have increased but barely scratch the surface: the DOJ obtained a $75 million settlement from SouthernCare after discovering the company enrolled patients in hospice service who were ineligible, but such cases represent a tiny fraction of the estimated fraud.',
+      'CMS oversight of the hospice industry has been grossly inadequate. Hospice surveys occur on average every 6.5 years, meaning many fraudulent operations run for years before any inspection. Only 1% of hospices are decertified annually despite widespread known problems. The OIG has identified $6 billion in improper Medicare hospice payments in a single year. Criminal prosecutions have increased but barely scratch the surface: the DOJ obtained a $75 million settlement from SouthernCare after discovering the company enrolled patients in hospice service who were ineligible, but such cases represent a tiny fraction of the estimated fraud.'
     ],
     tags: ['hospice fraud', 'Medicare', 'end-of-life', 'for-profit healthcare', 'elder exploitation', 'CMS', 'private equity', 'Senate investigation', 'OIG', 'nursing homes'],
     sources: [
       { title: 'Senate Finance Committee: Hospice Industry Investigation', url: 'https://www.finance.senate.gov/', type: 'Congressional Report' },
       { title: 'HHS OIG: Vulnerabilities in the Medicare Hospice Program', url: 'https://oig.hhs.gov/', type: 'Government Report' },
-      { title: 'ProPublica: Dying for Profit (Hospice Investigation)', url: 'https://www.propublica.org/', type: 'Investigation' },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: 'ProPublica: Dying for Profit (Hospice Investigation)', url: 'https://www.propublica.org/', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Surveys hospices on average every 6.5 years; decertifies only 1% annually; $6 billion in improper payments identified by OIG in a single year', href: '/entities/agencies/cms' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Increased hospice fraud prosecutions through False Claims Act; $75M SouthernCare settlement; criminal cases growing but resources insufficient', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Increased hospice fraud prosecutions through False Claims Act; $75M SouthernCare settlement; criminal cases growing but resources insufficient', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-02-15',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2000', event: 'For-profit hospices grew from 30% of all hospices in 2000 to over 75% today.', type: 'financial' },
-     { date: '2022', event: 'A landmark 2022 Senate Finance Committee investigation found that many for-profit hospices enroll patients who are not terminally ill, provide little to no actual care, bill Medicare for services never delivered, and', type: 'political' },
+     { date: '2022', event: 'A landmark 2022 Senate Finance Committee investigation found that many for-profit hospices enroll patients who are not terminally ill, provide little to no actual care, bill Medicare for services never delivered, and', type: 'political' }
      ],
   },
   'homelessness-criminalization': {
@@ -1114,18 +1081,17 @@ const investigations_h: Record<string, InvestigationData> = {
       'The Grants Pass v. Johnson decision of 2024 was a turning point. The Ninth Circuit had held in Martin v. Boise (2018) that punishing people for sleeping outside when no shelter is available violated the Eighth Amendment\'s prohibition on cruel and unusual punishment. The Supreme Court reversed this in a 6-3 decision, holding that anti-camping ordinances are general conduct regulations, not status-based punishments, and therefore do not violate the Eighth Amendment. Justice Sotomayor\'s dissent described the decision as "punishing people for being poor" and noted that criminalizing sleeping when shelter is unavailable "makes it a crime to be a human being."',
       'The economics of criminalization are irrational. Incarceration costs $30,000-$100,000 per person per year (averaging $40,000), while emergency room visits by homeless individuals cost $5,000-$10,000 each (many visit 3-5 times annually). By contrast, permanent supportive housing costs $12,000-$18,000 per person per year and has been shown to reduce emergency room visits by 61%, hospitalizations by 77%, and jail bookings by 76%. Houston\'s homelessness reduction program, which housed 25,000 people between 2011 and 2023, saved the city $1.5 billion in emergency and criminal justice costs.',
       'The housing affordability crisis is the primary driver of homelessness, not personal failure. The National Low Income Housing Coalition found a shortage of 7.3 million affordable rental units for extremely low-income renters. In no state can a full-time minimum wage worker afford a two-bedroom apartment at fair market rent. Median rents have increased 30% since 2019. Federal housing assistance reaches only 1 in 4 eligible households due to funding limitations. The waiting list for Section 8 vouchers averages 2.5 years nationally and exceeds 5 years in many cities.',
-      'Encampment sweeps, the most visible form of criminalization, destroy what little stability homeless individuals have. When cities clear encampments, residents lose medications, identification documents, personal possessions, phones, and the social connections that help them survive. A study in Portland found that 72% of people displaced by sweeps returned to the same area within days because alternative shelter was unavailable. Sweeps do not reduce homelessness; they simply relocate it while destroying trust between homeless individuals and the service providers trying to help them.',
+      'Encampment sweeps, the most visible form of criminalization, destroy what little stability homeless individuals have. When cities clear encampments, residents lose medications, identification documents, personal possessions, phones, and the social connections that help them survive. A study in Portland found that 72% of people displaced by sweeps returned to the same area within days because alternative shelter was unavailable. Sweeps do not reduce homelessness; they simply relocate it while destroying trust between homeless individuals and the service providers trying to help them.'
     ],
     tags: ['homelessness', 'criminalization', 'Grants Pass', 'encampment sweeps', 'housing affordability', 'Section 8', 'permanent supportive housing', 'anti-camping', 'poverty', 'incarceration'],
     sources: [
       { title: 'HUD: Annual Homeless Assessment Report (AHAR)', url: 'https://www.huduser.gov/portal/sites/default/files/pdf/2023-AHAR-Part-1.pdf', type: 'Government Report' },
       { title: 'Supreme Court: Grants Pass v. Johnson (2024)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
-      { title: 'NLIHC: Gap Report - Housing Shortage', url: 'https://nlihc.org/gap', type: 'Research' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'NLIHC: Gap Report - Housing Shortage', url: 'https://nlihc.org/gap', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'HUD', type: 'agency', relationship: 'Reports 653,000 homeless on any given night; Section 8 waitlists average 2.5 years; only 1 in 4 eligible households receive federal housing assistance' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Under Obama filed statements of interest opposing criminalization of homelessness; position reversed under Trump; Biden DOJ was silent on Grants Pass', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Under Obama filed statements of interest opposing criminalization of homelessness; position reversed under Trump; Biden DOJ was silent on Grants Pass', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2025-03-01',
@@ -1134,7 +1100,7 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2011', event: 'Houston\'s homelessness reduction program, which housed 25,000 people between 2011 and 2023, saved the city $1.5 billion in emergency and criminal justice costs', type: 'political' },
      { date: '2018', event: 'Boise (2018) that punishing people for sleeping outside when no shelter is available violated the Eighth Amendment\'s prohibition on cruel and unusual punishment', type: 'default' },
      { date: '2019', event: 'Median rents have increased 30% since 2019', type: 'default' },
-     { date: '2024', event: 'Johnson decision of 2024 was a turning point', type: 'default' },
+     { date: '2024', event: 'Johnson decision of 2024 was a turning point', type: 'default' }
    ],
   },
   'haiti-exploitation': {
@@ -1154,7 +1120,7 @@ const investigations_h: Record<string, InvestigationData> = {
    'Only 2.9% of USAID earthquake relief contracts went to Haitian companies, the remaining 97.1% went to Beltway contractors and international firms, but this was rarely reported.',
    'The Caracol Industrial Park, the Clinton Foundation\'s flagship Haiti project, was built on prime agricultural land, displaced farming families, and created a fraction of the 65,000 jobs promised.',
    'CIA funding and support for the FRAPH paramilitary group that terrorized Haiti after the 1991 coup was not acknowledged until years later through declassified documents.',
-   'France\'s $21 billion independence debt (effectively forcing formerly enslaved people to compensate their former slaveholders) is rarely discussed as a root cause of Haiti\'s poverty.',
+   'France\'s $21 billion independence debt (effectively forcing formerly enslaved people to compensate their former slaveholders) is rarely discussed as a root cause of Haiti\'s poverty.'
  ],
  tags: ['Haiti', 'US Imperialism', 'Clinton Foundation', 'Cholera', 'Disaster Capitalism', 'Wage Suppression', 'Military Occupation', 'Duvalier'],
  sources: [
@@ -1165,7 +1131,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { title: 'Clinton Foundation Haiti Contracts, Government Accountability Institute', url: 'https://www.g-a-i.org/wp-content/uploads/2016/08/Follow-the-Money.pdf', type: 'Article' },
    { title: 'The Ransom: Haiti, France, and the Price of Independence, New York Times', url: 'https://www.nytimes.com/2022/05/20/world/americas/haiti-history-colonized-france.html', type: 'Article' },
    { title: 'Written in Blood: The Story of the Haitian People, Robert Heinl', url: 'https://www.amazon.com/Written-Blood-Story-Haitian-People/dp/0761831770', type: 'Article' },
-   { title: 'Damming the Flood: Haiti and the Politics of Containment, Peter Hallward', url: 'https://www.versobooks.com/books/275-damming-the-flood', type: 'Article' },
+   { title: 'Damming the Flood: Haiti and the Politics of Containment, Peter Hallward', url: 'https://www.versobooks.com/books/275-damming-the-flood', type: 'Article' }
  ],
  affiliations: [
    { id: 'bill-clinton', name: 'Bill Clinton', type: 'individual', relationship: 'UN Special Envoy to Haiti; co-chair of Interim Haiti Recovery Commission; Clinton Foundation accused of exploiting recovery', href: '/entities/individuals/bill-clinton' },
@@ -1179,7 +1145,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { id: 'cheryl-mills', name: 'Cheryl Mills', type: 'individual', relationship: 'Clinton Foundation chief of staff; managed Haiti contracts directing funds to Clinton allies', href: '/entities/individuals/cheryl-mills' },
    { id: 'gilbert-bigio', name: 'Gilbert Bigio', type: 'individual', relationship: 'Haiti\'s wealthiest oligarch; benefited from sweatshop labor and disaster contracts', href: '/entities/individuals/gilbert-bigio' },
    { id: 'michel-martelly', name: 'Michel Martelly', type: 'individual', relationship: 'President installed with Clinton support (2011-2016); accused of corruption and ties to Duvalierists', href: '/entities/individuals/michel-martelly' },
-   { id: 'roger-noriega', name: 'Roger Noriega', type: 'individual', relationship: 'Assistant Secretary of State who orchestrated 2004 coup against Aristide', href: '/entities/individuals/roger-noriega' },
+   { id: 'roger-noriega', name: 'Roger Noriega', type: 'individual', relationship: 'Assistant Secretary of State who orchestrated 2004 coup against Aristide', href: '/entities/individuals/roger-noriega' }
  ],
  timeline: [
    { date: '1804', event: 'Haiti wins independence, first successful slave revolution in history; Western powers immediately seek to punish the new Black republic' },
@@ -1201,7 +1167,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { date: '2015', event: 'Caracol Industrial Park (Clinton Foundation/State Dept flagship project) creates fraction of promised jobs, displaces farmers' },
    { date: '2016', event: 'UN finally acknowledges role in cholera epidemic after years of denial; promises compensation that never fully materializes' },
    { date: '2021', event: 'President Jovenel Moïse assassinated; evidence suggests ties to US-based mercenaries and political rivals' },
-   { date: '2024', event: 'Haiti in state of collapse with gang violence; decades of foreign intervention have destroyed institutional capacity' },
+   { date: '2024', event: 'Haiti in state of collapse with gang violence; decades of foreign intervention have destroyed institutional capacity' }
  ],
  statutes: [
    { code: 'Crimes Against Humanity, Forced Labor', description: 'US military occupation imposed corvée (forced labor) system on Haitian peasants to build roads and infrastructure' },
@@ -1211,7 +1177,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { code: 'Labor Exploitation, Wage Suppression', description: 'US State Department actively pressured Haiti to keep minimum wage at poverty levels for American corporations' },
    { code: 'Violations of Self-Determination, UN Charter Article 1', description: 'Repeated US interventions overthrowing or installing Haitian governments' },
    { code: 'Economic Coercion, Odious Debt', description: 'France\'s forced independence debt and US-imposed structural adjustment programs deliberately impoverished Haiti' },
-   { code: 'Cultural Destruction, Forced Constitutional Change', description: 'US rewrote Haitian constitution during occupation to allow foreign land ownership, overturning 1804 independence protections' },
+   { code: 'Cultural Destruction, Forced Constitutional Change', description: 'US rewrote Haitian constitution during occupation to allow foreign land ownership, overturning 1804 independence protections' }
  ],
  defendants: [
    { name: 'United Nations (MINUSTAH)', role: 'Introduction of cholera through negligent waste disposal by peacekeepers', status: 'charged', notes: 'UN invoked immunity for years; finally acknowledged"moral responsibility"in 2016; $400M trust fund established but barely funded' },
@@ -1221,7 +1187,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { name: 'France', role: 'Extortion of $21 billion independence debt from formerly enslaved people', status: 'charged', notes: 'Haiti finally paid off debt in 1947 - 122 years of payments; no restitution from France' },
    { name: 'Emmanuel "Toto" Constant', role: 'Leading FRAPH paramilitary death squad responsible for thousands of killings', status: 'convicted', notes: 'Lived freely in US for years; convicted of mortgage fraud 2008; finally deported to Haiti 2020' },
    { name: 'USAID', role: 'Directing 97.1% of earthquake relief contracts to non-Haitian firms', status: 'charged', notes: 'No accountability; Inspector General reports noted concerns but no action taken' },
-   { name: 'Hanes / Levi\'s', role: 'Lobbying through State Department to suppress Haitian minimum wage', status: 'charged', notes: 'No legal consequences; WikiLeaks cables documented State Department intervention on their behalf' },
+   { name: 'Hanes / Levi\'s', role: 'Lobbying through State Department to suppress Haitian minimum wage', status: 'charged', notes: 'No legal consequences; WikiLeaks cables documented State Department intervention on their behalf' }
  ],
   },
   'health-insurance-deaths': {
@@ -1242,7 +1208,7 @@ const investigations_h: Record<string, InvestigationData> = {
    'The"revolving door"between the insurance industry and government regulators ensures industry-friendly oversight. Former CMS administrators, FDA officials, and HHS secretaries routinely move to lucrative private industry positions after leaving government.',
    'Medical debt collection practices (including lawsuits, wage garnishment, and credit destruction) are deliberately designed to extract maximum payment from financially devastated patients. Hospitals, many of them"nonprofit,"sue thousands of their own patients annually.',
    'Insulin, a century-old drug that costs $3-$6 to manufacture, is priced at $300+ per vial in the United States. Three companies (Eli Lilly, Novo Nordisk, and Sanofi) control 90% of the global insulin market and have been found to coordinate price increases.',
-   'The insurance industry has systematically opposed mental health parity laws and, when forced to comply, has used narrower provider networks, higher prior authorization barriers, and lower reimbursement rates to effectively deny mental healthcare while technically meeting legal requirements.',
+   'The insurance industry has systematically opposed mental health parity laws and, when forced to comply, has used narrower provider networks, higher prior authorization barriers, and lower reimbursement rates to effectively deny mental healthcare while technically meeting legal requirements.'
  ],
  tags: ['civil-liberties'],
  sources: [
@@ -1255,7 +1221,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { title: 'AMA: 2023 Prior Authorization Physician Survey, Harms and Delays', url: 'https://www.ama-assn.org/system/files/prior-authorization-survey.pdf', type: 'Article' },
    { title: 'T1International: Insulin Rationing in the United States', url: 'https://www.t1international.com/insulin-and-supply-survey/', type: 'Article' },
    { title: 'Wendell Potter,"Deadly Spin: An Insurance Company Insider Speaks Out"', url: 'https://www.simonandschuster.com/books/Deadly-Spin/Wendell-Potter/9781608192816', type: 'Article' },
-   { title: 'New York Times: A Hospital Charged $18,000 for a Cough. This Is Our Healthcare System.', url: 'https://www.nytimes.com/interactive/2019/09/26/health/hospitals-emergency-room-cost.html', type: 'Article' },
+   { title: 'New York Times: A Hospital Charged $18,000 for a Cough. This Is Our Healthcare System.', url: 'https://www.nytimes.com/interactive/2019/09/26/health/hospitals-emergency-room-cost.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'andrew-witty', name: 'Andrew Witty', type: 'individual', relationship: 'CEO of UnitedHealth Group, the largest health insurance company in the world with $371.6B in revenue (2023). UnitedHealth\'s subsidiary Optum employs more physicians than any other entity in the U.S., creating a vertical monopoly over both insurance and care delivery.', href: '/entities/individuals/andrew-witty' },
@@ -1271,7 +1237,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { id: 'john-kapoor', name: 'John Kapoor', type: 'individual', relationship: 'Founder and former Chairman of Insys Therapeutics. Convicted of racketeering for bribing doctors to prescribe a powerful fentanyl spray to patients who did not need it, including cancer patients, contributing to the opioid epidemic.', href: '/entities/individuals/john-kapoor' },
    { id: 'alex-gorsky', name: 'Alex Gorsky', type: 'individual', relationship: 'Former CEO of Johnson & Johnson (2012-2022). J&J knew for decades that its talc-based baby powder contained asbestos and caused cancer. The company used a "Texas two-step"bankruptcy maneuver to limit victim payouts to $8.9 billion.', href: '/entities/individuals/alex-gorsky' },
    { id: 'stephen-hemsley', name: 'Stephen Hemsley', type: 'individual', relationship: 'Former CEO of UnitedHealth Group (2006-2017). Oversaw UnitedHealth\'s transformation into a healthcare monopoly acquiring physician practices, pharmacy benefit managers, and data analytics firms while tightening claim denials. Compensation exceeded $300M during tenure.', href: '/entities/individuals/stephen-hemsley' },
-   { id: 'karen-lynch', name: 'Karen Lynch', type: 'individual', relationship: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy, a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.', href: '/entities/individuals/karen-lynch' },
+   { id: 'karen-lynch', name: 'Karen Lynch', type: 'individual', relationship: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy, a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.', href: '/entities/individuals/karen-lynch' }
  ],
  timeline: [
    { date: '1929', event: 'Baylor Hospital in Dallas creates the first group hospital insurance plan, the precursor to Blue Cross. Healthcare begins its transformation from a public good to a commercial product.' },
@@ -1291,7 +1257,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { date: '2023', event: 'ProPublica investigation reveals Cigna\'s system of automatically denying claims using an algorithm, with doctors rejecting claims at a rate of 60,000 per day without reviewing patient files.' },
    { date: '2023', event: 'UnitedHealth Group reports $22.4B in profit. The top five insurers report combined profits exceeding $40B. Insurance CEO compensation totals over $150M combined while an estimated 27.6 million Americans remain uninsured.' },
    { date: '2024', event: 'The American Medical Association reports that 34% of physicians say prior authorization delays have led to serious adverse events for their patients, including hospitalization and death. The average practice spends 14 hours per week on prior authorization paperwork.' },
-   { date: 'December 4, 2024', event: 'UnitedHealthcare CEO Brian Thompson shot and killed in Manhattan. The suspect\'s bullet casings are engraved with"deny,""defend,"and"depose"- the insurance industry\'s notorious playbook for avoiding claims. Public response reveals deep rage against the industry.' },
+   { date: 'December 4, 2024', event: 'UnitedHealthcare CEO Brian Thompson shot and killed in Manhattan. The suspect\'s bullet casings are engraved with"deny,""defend,"and"depose"- the insurance industry\'s notorious playbook for avoiding claims. Public response reveals deep rage against the industry.' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1347: Healthcare Fraud', description: 'Insurance companies systematically deny legitimate claims, delay prior authorizations, and use algorithmic denial systems designed to avoid paying for covered medical care, constituting a scheme to defraud policyholders of benefits they have paid for.' },
@@ -1302,7 +1268,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { code: '42 U.S.C. § 300gg, ACA Violations', description: 'Insurance companies have systematically violated ACA requirements including essential health benefits mandates, mental health parity requirements, and prohibitions on rescission through creative reinterpretation and inadequate enforcement.' },
    { code: '18 U.S.C. § 1341/1343: Mail/Wire Fraud', description: 'Insurance companies make material misrepresentations about coverage, benefits, and provider networks to sell policies, then systematically deny claims for care that policyholders reasonably believed was covered.' },
    { code: '18 U.S.C. § 1951: Hobbs Act (Extortion)', description: 'The system of employer-sponsored insurance (where loss of employment means loss of healthcare) functions as economic coercion, trapping workers in jobs under threat of losing access to life-sustaining medical treatment.' },
-   { code: '15 U.S.C. § 13: Robinson-Patman Act (Price Discrimination)', description: 'Pharmaceutical companies charge American consumers 2-3 times what they charge patients in other countries for identical medications, constituting price discrimination enabled by the lobbied prohibition on Medicare negotiation and drug importation.' },
+   { code: '15 U.S.C. § 13: Robinson-Patman Act (Price Discrimination)', description: 'Pharmaceutical companies charge American consumers 2-3 times what they charge patients in other countries for identical medications, constituting price discrimination enabled by the lobbied prohibition on Medicare negotiation and drug importation.' }
  ],
  defendants: [
    { name: 'Columbia/HCA (Rick Scott, CEO)', role: 'Largest Medicare fraud in history, systematic overbilling, kickbacks, and false claims', status: 'charged', notes: '$1.7B settlement. Rick Scott personally took the Fifth 75 times. Never charged. Became Governor and Senator.' },
@@ -1312,7 +1278,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { name: 'Martin Shkreli / Turing Pharmaceuticals', role: 'Price gouging of life-saving medication (Daraprim: $13.50 to $750)', status: 'convicted', notes: 'Convicted of securities fraud (separate matter). Barred from pharmaceutical industry. Drug pricing remains legal.' },
    { name: 'Mylan / Heather Bresch', role: 'EpiPen price gouging (500%+ increase) and Medicaid rebate fraud', status: 'charged', notes: '$465M DOJ settlement for misclassifying EpiPen to underpay Medicaid rebates. No personal charges against Bresch.' },
    { name: 'Cigna', role: 'Algorithm-based claim denials without medical review, rejecting 60,000 claims per day', status: 'pending', notes: 'Class action lawsuits pending. No executive charged. Practice continues industry-wide.' },
-   { name: 'UnitedHealth Group', role: 'Monopolistic practices, systematic claim denials, and vertical integration eliminating competition', status: 'charged', notes: 'DOJ antitrust investigation ongoing. No charges to date. Company continues acquiring competitors.' },
+   { name: 'UnitedHealth Group', role: 'Monopolistic practices, systematic claim denials, and vertical integration eliminating competition', status: 'charged', notes: 'DOJ antitrust investigation ongoing. No charges to date. Company continues acquiring competitors.' }
  ],
   },
   'hush-money': {
@@ -1331,7 +1297,7 @@ const investigations_h: Record<string, InvestigationData> = {
    'The payment to Karen McDougal was structured through AMI to avoid campaign finance disclosure requirements, with the story permanently killed',
    'Despite public denials of any knowledge, Hope Hicks testified that Trump was aware of and deeply concerned about the stories\' impact on his campaign',
    'Cohen\'s reimbursement was grossed up to $420,000 to cover taxes and include a bonus, all disguised in Trump Organization records as a legal retainer',
-   'First Republic Bank filed a Suspicious Activity Report (SAR) on the Essential Consultants LLC transaction but the election occurred before investigation',
+   'First Republic Bank filed a Suspicious Activity Report (SAR) on the Essential Consultants LLC transaction but the election occurred before investigation'
  ],
  tags: ['financial-crime', 'fraud'],
  sources: [
@@ -1345,7 +1311,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { title: 'Verdict Sheet (34 Guilty)', url: 'https://www.nycourts.gov/', type: 'Court Record' },
    { title: 'Essential Consultants LLC Delaware Filing', url: 'https://icis.corp.delaware.gov/', type: 'Corporate Filing' },
    { title: 'First Republic Bank SAR (referenced in testimony)', url: '#', type: 'Financial Record' },
-   { title: 'Trump Organization Tax Fraud Verdict', url: 'https://www.manhattanda.org/', type: 'Related Case' },
+   { title: 'Trump Organization Tax Fraud Verdict', url: 'https://www.manhattanda.org/', type: 'Related Case' }
  ],
  affiliations: [
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Defendant. Directed payments, signed falsified checks, ultimate beneficiary of scheme.', href: '/entities/individuals/donald-trump' },
@@ -1358,7 +1324,7 @@ const investigations_h: Record<string, InvestigationData> = {
    { id: 'keith-davidson', name: 'Keith Davidson', type: 'individual', relationship: 'Attorney for Daniels and McDougal. Negotiated NDAs and payment terms.', href: '/entities/individuals/keith-davidson' },
    { id: 'dylan-howard', name: 'Dylan Howard', type: 'individual', relationship: 'Editor-in-Chief, National Enquirer. Executed catch and kill operations.', href: '/entities/individuals' },
    { id: 'jeffrey-mcconney', name: 'Jeffrey McConney', type: 'individual', relationship: 'Trump Org Controller. Created false ledger entries.', href: '/entities/individuals' },
-   { id: 'deborah-tarasoff', name: 'Deborah Tarasoff', type: 'individual', relationship: 'Trump Org Accounts Payable Supervisor. Processed false invoices.', href: '/entities/individuals' },
+   { id: 'deborah-tarasoff', name: 'Deborah Tarasoff', type: 'individual', relationship: 'Trump Org Accounts Payable Supervisor. Processed false invoices.', href: '/entities/individuals' }
  ],
  timeline: [
    { date: '2006', event: 'Alleged affair between Trump and Stormy Daniels at Lake Tahoe golf tournament' },
@@ -1390,14 +1356,14 @@ const investigations_h: Record<string, InvestigationData> = {
    { date: 'May 28, 2024', event: 'Jury begins deliberations' },
    { date: 'May 30, 2024', event: 'GUILTY verdict on all 34 counts after 9.5 hours deliberation' },
    { date: 'Jul 11, 2024', event: 'Sentencing postponed pending Supreme Court immunity decision' },
-   { date: 'Sep 2024', event: 'Sentencing further delayed due to appeals' },
+   { date: 'Sep 2024', event: 'Sentencing further delayed due to appeals' }
  ],
  defendants: [
    { name: 'Donald Trump', role: '34 Counts Falsifying Business Records (1st Degree)', status: 'convicted', notes: 'Guilty on all 34 counts (May 30, 2024). First former president convicted of felonies. Sentencing delayed.' },
    { name: 'Michael Cohen', role: 'Campaign Finance Violations, Tax Fraud, Lying to Congress', status: 'incarcerated', notes: '3 years federal prison (December 2018). Served 13 months before COVID release.' },
    { name: 'Allen Weisselberg', role: 'Tax Fraud (Trump Org scheme), Perjury (this case)', status: 'charged', notes: 'Tax fraud: 5 months Rikers (2022). Perjury: 5 months Rikers (2024).' },
    { name: 'AMI / David Pecker', role: 'Campaign Finance Violations via catch and kill', status: 'charged', notes: 'Non-prosecution agreement (December 2018) in exchange for cooperation.' },
-   { name: 'Trump Organization (2 LLCs)', role: '17 Felonies: Tax Fraud, Falsifying Records, Conspiracy', status: 'convicted', notes: 'Convicted all counts (December 2022). $1.61 million fine.' },
+   { name: 'Trump Organization (2 LLCs)', role: '17 Felonies: Tax Fraud, Falsifying Records, Conspiracy', status: 'convicted', notes: 'Convicted all counts (December 2022). $1.61 million fine.' }
  ],
   },
 };

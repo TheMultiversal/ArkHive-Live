@@ -22,14 +22,13 @@ const investigations_2: Record<string, InvestigationData> = {
  'THE DISSENTERS: Justice John Paul Stevens wrote:"Although we may never know with complete certainty the identity of the winner of this year\'s Presidential election, the identity of the loser is perfectly clear. It is the Nation\'s confidence in the judge as an impartial guardian of the rule of law."',
  'MEDIA RECOUNTS: Subsequent media-sponsored recounts reached varying conclusions depending on which ballots were counted and what standards applied. Several scenarios showed Gore winning. The most comprehensive count suggested Gore won under most recount methodologies.',
  'CONSEQUENCES: Bush\'s presidency brought the Iraq War (based on lies), Hurricane Katrina failures, the 2008 financial crisis, and Supreme Court appointments that later overturned Roe v. Wade. None of this was democratically chosen.',
- 'LASTING DAMAGE: Bush v. Gore damaged public trust in the Supreme Court\'s impartiality and established that the Court would intervene in elections to benefit Republicans. It foreshadowed future judicial power grabs.',
+ 'LASTING DAMAGE: Bush v. Gore damaged public trust in the Supreme Court\'s impartiality and established that the Court would intervene in elections to benefit Republicans. It foreshadowed future judicial power grabs.'
  ],
  tags: ['2000 Election', 'Bush v Gore', 'Supreme Court', 'Florida Recount', 'Katherine Harris', 'Stolen Election'],
  sources: [
  { title: 'Bush v. Gore Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', type: 'Court Decision' },
  { title: 'Florida Recount Study, NORC', url: 'https://www.norc.org/Research/Projects/Pages/florida-ballot-project.aspx', type: 'Academic Research' },
- { title: 'Felon Voter Purge Analysis', url: 'https://www.usccr.gov/pubs/vote2000/report/ch5.htm', type: 'Government Report' },
-   { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+ { title: 'Felon Voter Purge Analysis', url: 'https://www.usccr.gov/pubs/vote2000/report/ch5.htm', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Beneficiary of Court intervention', href: '/entities/individuals/george-w-bush' },
@@ -37,7 +36,7 @@ const investigations_2: Record<string, InvestigationData> = {
  { id: '3', name: 'Katherine Harris', type: 'individual', relationship: 'Secretary of State, Bush campaign co-chair', href: '/entities/individuals/katherine-harris' },
  { id: '4', name: 'Jeb Bush', type: 'individual', relationship: 'Florida Governor, brother', href: '/entities/individuals/jeb-bush' },
  { id: '5', name: 'Supreme Court', type: 'agency', relationship: 'Stopped recount, decided election', href: '/entities/agencies/supreme-court' },
- { id: '6', name: 'Antonin Scalia', type: 'individual', relationship: 'Key vote to stop count', href: '/entities/individuals/antonin-scalia' },
+ { id: '6', name: 'Antonin Scalia', type: 'individual', relationship: 'Key vote to stop count', href: '/entities/individuals/antonin-scalia' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2026-01-12',
@@ -46,7 +45,7 @@ const investigations_2: Record<string, InvestigationData> = {
      { date: '2000-11-07', event: 'ELECTION NIGHT: On November 7, 2000, the presidential race came down to Florida\'s 25 electoral votes', type: 'political' },
      { date: '2000-11-22', event: 'BROOKS BROTHERS RIOT: On November 22, 2000, Republican operatives staged a violent protest at the Miami-Dade County election office, forcing the canvassing board to stop its recount', type: 'political' },
      { date: '2000-12-12', event: 'Supreme Court rules 5-4 in Bush v. Gore to halt Florida recount, effectively awarding presidency to George W. Bush along partisan lines', type: 'legal' },
-     { date: '2008', event: 'Bush presidency brought the Iraq War (based on false WMD claims), Hurricane Katrina failures, the 2008 financial crisis, and Supreme Court appointments that later overturned Roe v. Wade', type: 'legal' },
+     { date: '2008', event: 'Bush presidency brought the Iraq War (based on false WMD claims), Hurricane Katrina failures, the 2008 financial crisis, and Supreme Court appointments that later overturned Roe v. Wade', type: 'legal' }
    ],
  },
   '2020-election-overturn': {
@@ -63,7 +62,7 @@ const investigations_2: Record<string, InvestigationData> = {
  'DOJ CORRUPTION ATTEMPT: Trump held at least nine meetings with Acting Attorney General Jeffrey Rosen and Deputy AG Richard Donoghue between December 2020 and January 2021, demanding the DOJ announce it had found voter fraud. When Rosen refused, Trump attempted to install Jeffrey Clark (a mid-level environmental lawyer with no election expertise) as Acting AG. Clark had drafted a letter to Georgia officials falsely stating the DOJ had "identified significant concerns" about election irregularities. In a dramatic January 3, 2021 Oval Office meeting, White House Counsel Pat Cipollone, Rosen, Donoghue, and senior DOJ leadership threatened mass resignation if Clark was installed. Trump backed down only when told every senior DOJ official would resign simultaneously.',
  'PENCE PRESSURE: Trump publicly and privately pressured Vice President Pence to either reject certified electoral votes or send them back to state legislatures during the January 6 joint session of Congress. John Eastman wrote two memos outlining a theory that the Vice President had unilateral authority to reject electoral votes, a theory rejected by every constitutional scholar and by Pence\'s own counsel Greg Jacob. On the morning of January 6, Trump called Pence and told him "you can either go down in history as a patriot... or you can go down in history as a p---y." When Pence issued his letter refusing to obstruct the certification, Trump attacked him on Twitter, leading to rioters chanting "Hang Mike Pence" while constructing a gallows outside the Capitol.',
  'JANUARY 6 ATTACK: After a rally where Trump told supporters to "fight like hell" and march to the Capitol, thousands stormed the building, overwhelming police lines and breaching both chambers of Congress. The attack caused the first interruption of the peaceful transfer of presidential power in American history. Five people died in connection with the attack. Over 140 law enforcement officers were injured. The mob came within 40 feet of Vice President Pence. Members of Congress hid under desks and donned gas masks. Trump watched the violence unfold on television for 187 minutes before issuing a statement telling rioters to go home, during which time he rejected requests from aides, family members, and congressional allies to intervene.',
- 'LEGAL RECKONING: As of 2025, over 1,200 January 6 defendants have been convicted of federal crimes, with sentences ranging from probation to 22 years (for Oath Keepers leader Stewart Rhodes, convicted of seditious conspiracy). The Georgia RICO case resulted in 19 initial indictments. Sidney Powell and Kenneth Chesebro pled guilty. Jenna Ellis pled guilty. Scott Hall pled guilty. Trump was federally indicted on four counts by Special Counsel Jack Smith in August 2023, but the case was dropped after Trump won the 2024 presidential election. The Georgia case remains pending but proceedings have slowed significantly. John Eastman was disbarred in California in 2024. Rudy Giuliani was disbarred in New York and DC and hit with a $148 million defamation judgment by Dominion Voting Systems election workers.',
+ 'LEGAL RECKONING: As of 2025, over 1,200 January 6 defendants have been convicted of federal crimes, with sentences ranging from probation to 22 years (for Oath Keepers leader Stewart Rhodes, convicted of seditious conspiracy). The Georgia RICO case resulted in 19 initial indictments. Sidney Powell and Kenneth Chesebro pled guilty. Jenna Ellis pled guilty. Scott Hall pled guilty. Trump was federally indicted on four counts by Special Counsel Jack Smith in August 2023, but the case was dropped after Trump won the 2024 presidential election. The Georgia case remains pending but proceedings have slowed significantly. John Eastman was disbarred in California in 2024. Rudy Giuliani was disbarred in New York and DC and hit with a $148 million defamation judgment by Dominion Voting Systems election workers.'
  ],
  tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference', 'RICO', 'Insurrection', 'Seditious Conspiracy'],
  sources: [
@@ -76,7 +75,7 @@ const investigations_2: Record<string, InvestigationData> = {
  { title: 'Eastman Memos on Pence Authority (leaked)', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Primary Document' },
  { title: 'Brennan Center for Justice: January 6 Legal Tracker', url: 'https://www.brennancenter.org/', type: 'Legal Analysis' },
  { title: 'NPR: Timeline of the January 6 Capitol Attack', url: 'https://www.npr.org/2022/01/05/1070199411/a-timeline-of-how-the-jan-6-attack-unfolded-including-who-said-what-and-when', type: 'Timeline' },
- { title: 'Lawfare: Legal Analysis of Election Overturn Efforts', url: 'https://www.lawfaremedia.org/', type: 'Legal Analysis' },
+ { title: 'Lawfare: Legal Analysis of Election Overturn Efforts', url: 'https://www.lawfaremedia.org/', type: 'Legal Analysis' }
  ],
  affiliations: [
  { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Orchestrated the entire conspiracy. Pressured state officials, DOJ, VP Pence. Incited January 6 mob. Federally indicted on 4 counts (case dropped). Georgia RICO defendant.', href: '/entities/individuals/donald-trump' },
@@ -88,7 +87,7 @@ const investigations_2: Record<string, InvestigationData> = {
  { id: 'kenneth-chesebro', name: 'Kenneth Chesebro', type: 'individual', relationship: 'Architect of the fake electors legal strategy. Authored memos detailing scheme. Pled guilty in Georgia RICO case.' },
  { id: 'mike-pence', name: 'Mike Pence', type: 'individual', relationship: 'Vice President who refused to obstruct certification despite extreme pressure. Came within 40 feet of rioters at the Capitol.', href: '/entities/individuals/mike-pence' },
  { id: 'brad-raffensperger', name: 'Brad Raffensperger', type: 'individual', relationship: 'Georgia Secretary of State who refused Trump\'s demand to "find 11,780 votes." Recorded the call and made it public.' },
- { id: 'stewart-rhodes', name: 'Stewart Rhodes', type: 'individual', relationship: 'Oath Keepers leader convicted of seditious conspiracy. Sentenced to 18 years, longest January 6 sentence.' },
+ { id: 'stewart-rhodes', name: 'Stewart Rhodes', type: 'individual', relationship: 'Oath Keepers leader convicted of seditious conspiracy. Sentenced to 18 years, longest January 6 sentence.' }
  ],
    eventOriginDate: '2020-11-03',
    lastActivityDate: '2025-07-15',
@@ -119,7 +118,7 @@ const investigations_2: Record<string, InvestigationData> = {
      { date: '2024-07-01', event: 'Supreme Court grants broad presidential immunity in Trump v. United States, effectively shielding many alleged acts', type: 'critical' },
      { date: '2024-11-05', event: 'Trump wins 2024 presidential election. Federal case dropped per DOJ policy against prosecuting a sitting president', type: 'critical' },
      { date: '2024-11', event: 'John Eastman disbarred in California for his role in the election overturn scheme' },
-     { date: '2025', event: 'Georgia RICO case remains pending but proceedings severely slowed. Over 1,200 January 6 defendants convicted of federal crimes' },
+     { date: '2025', event: 'Georgia RICO case remains pending but proceedings severely slowed. Over 1,200 January 6 defendants convicted of federal crimes' }
    ],
  },
   '2016-election': {
@@ -140,7 +139,7 @@ const investigations_2: Record<string, InvestigationData> = {
    'ROGER STONE AND WIKILEAKS: Political operative Roger Stone served as an intermediary between the Trump campaign and WikiLeaks. Stone communicated with Guccifer 2.0 (a GRU persona) and told senior Trump campaign officials he had advance knowledge of WikiLeaks releases. He was convicted of lying to Congress, witness tampering, and obstruction. Trump commuted his sentence and later pardoned him.',
    'MUELLER INVESTIGATION RESULTS: Special Counsel Robert Mueller\'s 22-month investigation resulted in 34 indictments (including 26 Russian nationals), 7 guilty pleas (Flynn, Manafort, Gates, Cohen, Papadopoulos, Pinedo, van der Zwaan), and 199 criminal charges. The investigation also generated 14 referrals to other prosecutors. Despite documenting over 140 contacts between the Trump campaign and Russian operatives, Mueller did not establish a criminal conspiracy, though the report explicitly stated it "does not exonerate" Trump on obstruction.',
    'SENATE INTELLIGENCE COMMITTEE: The bipartisan Senate Intelligence Committee released a five-volume, 1,313-page report confirming Russian interference and detailing the Trump campaign\'s receptivity to it. Volume 5 identified Manafort as a "grave counterintelligence threat" and confirmed Kilimnik\'s intelligence ties. The committee found that Russia\'s interference was "the most serious challenge to the integrity of our election process" and warned of ongoing threats.',
-   'OBSTRUCTION PATTERN: The Mueller Report documented at least 10 episodes of potential obstruction by Trump, including firing FBI Director James Comey, attempting to fire Mueller, ordering White House Counsel Don McGahn to create a false record about the firing attempt, dangling pardons for witnesses, and publicly attacking cooperating witnesses while praising those who refused to cooperate. Mueller declined to make a prosecutorial judgment due to the OLC opinion against indicting a sitting president.',
+   'OBSTRUCTION PATTERN: The Mueller Report documented at least 10 episodes of potential obstruction by Trump, including firing FBI Director James Comey, attempting to fire Mueller, ordering White House Counsel Don McGahn to create a false record about the firing attempt, dangling pardons for witnesses, and publicly attacking cooperating witnesses while praising those who refused to cooperate. Mueller declined to make a prosecutorial judgment due to the OLC opinion against indicting a sitting president.'
  ],
  tags: ['Election Security', 'GRU', 'Russia', 'Mueller Investigation', 'Internet Research Agency', 'WikiLeaks', 'Trump Tower Meeting', 'Foreign Interference', 'Manafort', 'Flynn'],
  sources: [
@@ -151,7 +150,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { title: 'ODNI: Intelligence Community Assessment on Russian Activities (ICA 2017-01D)', url: 'https://www.dni.gov/files/documents/ICA_2017_01.pdf', type: 'Intelligence Assessment' },
    { title: 'Senate Judiciary Committee: Trump Tower Meeting Transcripts', url: 'https://www.judiciary.senate.gov/press/rep/releases/chairman-grassley-releases-trump-tower-meeting-transcripts', type: 'Congressional Record' },
    { title: 'New Knowledge: Disinformation Report to Senate Intelligence Committee', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf', type: 'Research Report' },
-   { title: 'Roger Stone Indictment and Trial Record', url: 'https://www.justice.gov/file/1124706/dl', type: 'Court Document' },
+   { title: 'Roger Stone Indictment and Trial Record', url: 'https://www.justice.gov/file/1124706/dl', type: 'Court Document' }
  ],
  affiliations: [
    { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Over 140 campaign-Russia contacts documented; 10 obstruction episodes', href: '/entities/individuals/donald-trump' },
@@ -163,7 +162,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { id: '7', name: 'Internet Research Agency', type: 'corporation', relationship: '$1.25M/month social media warfare operation reaching 126M Americans', href: '/entities/corporations/internet-research-agency' },
    { id: '8', name: 'GRU (Russian Military Intelligence)', type: 'organization', relationship: 'Units 26165 and 74455 conducted hacking and weaponized releases', href: '/entities/organizations/gru' },
    { id: '9', name: 'WikiLeaks', type: 'organization', relationship: 'Published stolen DNC/Podesta emails at strategically timed intervals', href: '/entities/organizations/wikileaks' },
-   { id: '10', name: 'FBI', type: 'agency', relationship: 'Crossfire Hurricane investigation; Comey fired for Russia probe', href: '/entities/agencies/fbi' },
+   { id: '10', name: 'FBI', type: 'agency', relationship: 'Crossfire Hurricane investigation; Comey fired for Russia probe', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2015-07-01',
    lastActivityDate: '2025-12-12',
@@ -191,7 +190,7 @@ const investigations_2: Record<string, InvestigationData> = {
      { date: '2019-04-18', event: 'Redacted Mueller Report released publicly; documents 10 obstruction episodes, states it "does not exonerate" Trump', type: 'legal' },
      { date: '2019-11-15', event: 'Roger Stone convicted on all 7 counts by a federal jury in Washington, D.C.', type: 'legal' },
      { date: '2020-02-20', event: 'Stone sentenced to 40 months; Trump commutes sentence in July 2020, pardons in December 2020', type: 'legal' },
-     { date: '2020-08', event: 'Senate Intelligence Committee releases Volume 5: "Russian Active Measures Campaigns and Interference in the 2016 U.S. Election"', type: 'political' },
+     { date: '2020-08', event: 'Senate Intelligence Committee releases Volume 5: "Russian Active Measures Campaigns and Interference in the 2016 U.S. Election"', type: 'political' }
    ],
  },
  'pandemic-profiteering-covid-corruption': {
@@ -207,18 +206,17 @@ const investigations_2: Record<string, InvestigationData> = {
    'Congressional insider trading during the pandemic revealed the moral bankruptcy at the highest levels. On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity. In the weeks that followed, Senator Richard Burr sold $1.7 million in stocks before the market crashed. Senator Kelly Loeffler sold millions in holdings. Both publicly downplayed the threat while privately protecting their portfolios. The DOJ investigated but did not bring charges against any senator. The STOCK Act, supposedly banning congressional insider trading, proved unenforceable.',
    'Pharmaceutical profiteering turned taxpayer-funded research into the largest windfall in pharmaceutical history. The U.S. government provided $30 billion in funding for COVID vaccine development through Operation Warp Speed. Moderna received $2.5 billion in direct funding and its executives sold $1 billion in stock during the pandemic. Pfizer, while not receiving direct development funding, benefited from a $1.95 billion advance purchase commitment that guaranteed a market. When these companies set prices at $110-$130 per dose (retail) — far exceeding manufacturing costs of $2-$5 per dose — the government had no price controls despite having funded the research.',
    'PPE and medical supply procurement was corrupted by political interference and cronyism. The Trump administration\'s Project Airbridge prioritized politically connected companies over established medical supply chains. Contracts worth hundreds of millions were awarded to companies with no experience in medical supplies. A company run by a former White House aide received a $3.5 million contract for ventilators despite having no medical device experience. States were forced to compete against each other and the federal government on the open market, driving up prices. Governor Cuomo described it as "being on eBay with 50 other states."',
-   'The pandemic Inspectors General — the primary oversight mechanism — were systematically neutralized. Trump fired the intelligence community IG who forwarded the whistleblower complaint, removed the SIGPR chair overseeing pandemic spending within days of his appointment, and the Pandemic Response Accountability Committee\'s special inspector general position was left vacant for 14 months as the first $3+ trillion flowed out. When oversight finally ramped up, the scale of fraud was so massive that prosecutors could only target the most egregious cases. As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud.',
+   'The pandemic Inspectors General — the primary oversight mechanism — were systematically neutralized. Trump fired the intelligence community IG who forwarded the whistleblower complaint, removed the SIGPR chair overseeing pandemic spending within days of his appointment, and the Pandemic Response Accountability Committee\'s special inspector general position was left vacant for 14 months as the first $3+ trillion flowed out. When oversight finally ramped up, the scale of fraud was so massive that prosecutors could only target the most egregious cases. As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud.'
   ],
   tags: ['COVID-19', 'pandemic', 'PPP fraud', 'insider trading', 'pharmaceutical profiteering', 'Moderna', 'Pfizer', 'PPE', 'inspector general', 'corruption'],
   sources: [
    { title: 'Pandemic Response Accountability Committee: Top Challenges Reports', url: 'https://www.pandemicoversight.gov/', type: 'Government Report' },
    { title: 'SBA OIG: Inspection of SBA\'s Implementation of PPP', url: 'https://www.sba.gov/document/report-21-02-inspection-sbas-implementation-paycheck-protection-program/', type: 'Government Report' },
-   { title: 'ProPublica: Tracking PPP and Pandemic Spending', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Investigation' },
-    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+   { title: 'ProPublica: Tracking PPP and Pandemic Spending', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Investigation' }
   ],
   affiliations: [
    { id: '1', name: 'SBA', type: 'agency', relationship: 'Disbursed $800B in PPP with inadequate verification; estimated $200B in fraud; processing speed prioritized over fraud prevention' },
-   { id: '2', name: 'DOJ', type: 'agency', relationship: 'Charged 3,500+ PPP fraud defendants but recovered fraction of losses; declined to prosecute congressional insider trading; pandemic fraud task force overwhelmed by scale', href: '/entities/agencies/doj' },
+   { id: '2', name: 'DOJ', type: 'agency', relationship: 'Charged 3,500+ PPP fraud defendants but recovered fraction of losses; declined to prosecute congressional insider trading; pandemic fraud task force overwhelmed by scale', href: '/entities/agencies/doj' }
   ],
   eventOriginDate: '2020-01-01',
   lastActivityDate: '2025-03-10',
@@ -226,7 +224,7 @@ const investigations_2: Record<string, InvestigationData> = {
       timeline: [
      { date: '2020', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity.', type: 'political' },
      { date: '2020-01-24', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity.', type: 'political' },
-     { date: '2025', event: 'As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud.', type: 'financial' },
+     { date: '2025', event: 'As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud.', type: 'financial' }
      ],
  },
   '2008-financial-crisis': {
@@ -247,7 +245,7 @@ const investigations_2: Record<string, InvestigationData> = {
    'Banks systematically engaged in"robo-signing"- executing fraudulent foreclosure documents without review, to accelerate the seizure of homes. When exposed, the government negotiated the $25B National Mortgage Settlement that allowed banks to credit phantom "relief" as compliance.',
    'Eric Holder returned to his former law firm Covington & Burling (which represents most major Wall Street banks) after leaving the DOJ, completing the revolving door that ensured no prosecutions.',
    'The Dodd-Frank Act was systematically weakened through industry lobbying before passage and regulatory capture afterward. By 2018, key provisions were rolled back entirely, including Volcker Rule restrictions on the very banks bailed out in 2008.',
-   'Internal bank emails and documents revealed in civil litigation showed executives knew the products were"shit"(Goldman),"nuclear holocaust"(Citigroup), and"total crap"(S&P), yet no criminal charges were brought based on this evidence.',
+   'Internal bank emails and documents revealed in civil litigation showed executives knew the products were"shit"(Goldman),"nuclear holocaust"(Citigroup), and"total crap"(S&P), yet no criminal charges were brought based on this evidence.'
  ],
  tags: ['financial-crime', 'fraud'],
  sources: [
@@ -261,7 +259,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { title: 'Inside Job (Documentary): Academy Award-Winning Film on the Financial Crisis', url: 'https://www.imdb.com/title/tt1645089/', type: 'Article' },
    { title: 'Michael Lewis,"The Big Short: Inside the Doomsday Machine"', url: 'https://wwnorton.com/books/the-big-short/', type: 'Article' },
    { title: 'Center for Responsible Lending: Lost Ground, Disparities in Subprime Lending', url: 'https://www.responsiblelending.org/mortgage-lending/research-analysis/lost-ground-2011.html', type: 'Article' },
-   { title: 'PBS Frontline: The Untouchables, Why Wall Street Executives Were Never Prosecuted', url: 'https://www.pbs.org/wgbh/frontline/documentary/untouchables/', type: 'Article' },
+   { title: 'PBS Frontline: The Untouchables, Why Wall Street Executives Were Never Prosecuted', url: 'https://www.pbs.org/wgbh/frontline/documentary/untouchables/', type: 'Article' }
  ],
  affiliations: [
    { id: 'hank-paulson', name: 'Hank Paulson', type: 'individual', relationship: 'U.S. Treasury Secretary (2006-2009). Former Goldman Sachs CEO. Designed and implemented the $700B TARP bailout that rescued his former firm and Wall Street peers. His $700M Goldman holdings were liquidated tax-free upon entering government.', href: '/entities/individuals/hank-paulson' },
@@ -280,7 +278,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { id: 'warren-buffett', name: 'Warren Buffett', type: 'individual', relationship: 'Berkshire Hathaway CEO. Invested $5B in Goldman Sachs at the height of the crisis, earning $3.7B in profits. Called derivatives"financial weapons of mass destruction"while profiting from the system that produced them.', href: '/entities/individuals/warren-buffett' },
    { id: 'barack-obama', name: 'Barack Obama', type: 'individual', relationship: '44th President. Received more Wall Street campaign donations than any previous candidate. His administration chose to bail out banks rather than homeowners, prosecuting zero top executives despite evidence of systematic fraud.', href: '/entities/individuals/barack-obama' },
    { id: 'george-w-bush', name: 'George W. Bush', type: 'individual', relationship: '43rd President. Signed the Emergency Economic Stabilization Act creating TARP. His administration\'s deregulatory policies and SEC enforcement failures enabled the fraud that caused the crisis.', href: '/entities/individuals/george-w-bush' },
-   { id: 'eric-holder', name: 'Eric Holder', type: 'individual', relationship: 'Attorney General (2009-2015). Coined the doctrine that banks were"too big to jail."Former Covington & Burling partner who returned to the firm after DOJ, representing the same banks he declined to prosecute.', href: '/entities/individuals/eric-holder' },
+   { id: 'eric-holder', name: 'Eric Holder', type: 'individual', relationship: 'Attorney General (2009-2015). Coined the doctrine that banks were"too big to jail."Former Covington & Burling partner who returned to the firm after DOJ, representing the same banks he declined to prosecute.', href: '/entities/individuals/eric-holder' }
  ],
  timeline: [
    { date: '1999', event: 'Gramm-Leach-Bliley Act repeals Glass-Steagall, eliminating the Depression-era firewall between commercial and investment banking, enabling banks to gamble with depositor funds.' },
@@ -303,7 +301,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { date: 'January 2010', event: 'Financial Crisis Inquiry Commission holds public hearings. Former Citigroup CEO Chuck Prince\'s quote becomes emblematic:"As long as the music is playing, you\'ve got to get up and dance."' },
    { date: 'July 2010', event: 'Dodd-Frank Wall Street Reform Act signed. Critics call it inadequate, it does not break up"too big to fail"banks, which emerge larger and more concentrated than before the crisis.' },
    { date: '2012-2016', event: 'Major banks pay $150B+ in combined settlements. Goldman: $5.06B. JPMorgan: $13B. Bank of America: $16.65B. Citigroup: $7B. Morgan Stanley: $3.2B. No top executives criminally charged.' },
-   { date: '2013', event: 'Attorney General Eric Holder tells Congress some banks are"too big to jail"- admitting the DOJ\'s policy of protecting Wall Street executives from criminal prosecution.' },
+   { date: '2013', event: 'Attorney General Eric Holder tells Congress some banks are"too big to jail"- admitting the DOJ\'s policy of protecting Wall Street executives from criminal prosecution.' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1348: Securities Fraud', description: 'Wall Street banks knowingly packaged defective mortgages into securities, secured fraudulent ratings, and sold them to investors as safe investments while simultaneously betting against them.' },
@@ -314,7 +312,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 371: Conspiracy to Defraud the United States', description: 'The coordinated effort by Wall Street executives at multiple institutions to circumvent financial regulations, mislead regulators, and conceal the true risk of their activities from government oversight.' },
    { code: '15 U.S.C. § 78j(b): SEC Rule 10b-5 Violations', description: 'Material misrepresentations and omissions in the sale of securities, including the failure to disclose adverse selection of mortgage pools, inflated appraisals, and internal risk assessments.' },
    { code: '12 U.S.C. § 1833a: FIRREA (Financial Institutions Reform)', description: 'Fraud affecting federally insured financial institutions. The DOJ used this statute for civil settlements but declined to pursue criminal charges against individuals under the same statute.' },
-   { code: '18 U.S.C. § 1519: Destruction of Records (Sarbanes-Oxley)', description: 'Banks destroyed and altered internal documents, communications, and risk assessments that would have demonstrated knowledge of fraud in mortgage-backed securities.' },
+   { code: '18 U.S.C. § 1519: Destruction of Records (Sarbanes-Oxley)', description: 'Banks destroyed and altered internal documents, communications, and risk assessments that would have demonstrated knowledge of fraud in mortgage-backed securities.' }
  ],
  defendants: [
    { name: 'Goldman Sachs', role: 'Selling toxic CDOs while secretly betting against them (ABACUS scandal)', status: 'charged', notes: '$5.06B settlement. SEC charged one mid-level trader (Fabrice Tourre). No senior executive prosecuted.' },
@@ -326,7 +324,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { name: 'S&P / Moody\'s (Rating Agencies)', role: 'Issuing fraudulent AAA ratings on securities they knew were toxic', status: 'charged', notes: 'S&P paid $1.5B to settle government and state lawsuits. Moody\'s paid $864M. No executives charged.' },
    { name: 'Kareem Serageldin (Credit Suisse)', role: 'Hiding $100M in losses on mortgage-backed securities', status: 'incarcerated', notes: 'Only Wall Street banker to serve prison time for crisis-related fraud. Sentenced to 30 months.' },
    { name: 'Dick Fuld (Lehman Brothers)', role: 'Misleading investors through Repo 105 transactions hiding $50B in liabilities', status: 'charged', notes: 'Never charged criminally. SEC did not pursue him. Lehman examiner found"colorable claims"of fraud.' },
-   { name: 'AIG / Joseph Cassano', role: 'Writing $440B in credit default swaps with inadequate reserves, requiring $182B bailout', status: 'charged', notes: 'Cassano investigated, never charged. Received $315M in compensation before and after the crisis.' },
+   { name: 'AIG / Joseph Cassano', role: 'Writing $440B in credit default swaps with inadequate reserves, requiring $182B bailout', status: 'charged', notes: 'Cassano investigated, never charged. Received $315M in compensation before and after the crisis.' }
  ],
   },
 };

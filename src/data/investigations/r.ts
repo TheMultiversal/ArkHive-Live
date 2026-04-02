@@ -22,14 +22,13 @@ const investigations_r: Record<string, InvestigationData> = {
  'HHS AND PHARMA: HHS officials with pharmaceutical industry ties oversaw drug pricing policy. Despite promises to lower drug prices, the administration\'s policies often benefited industry.',
  'USDA UNDER PERDUE: Sonny Perdue moved USDA research agencies out of Washington, causing mass staff exodus. Research on climate change impacts on agriculture was suppressed. Industry-friendly policies advanced.',
  'DOL UNDER ACOSTA: Alex Acosta (who had given Jeffrey Epstein a sweetheart plea deal) ran the Labor Department. Worker protections declined. Overtime rules were weakened. Enforcement dropped.',
- 'THE PATTERN: Across agencies, Trump appointed industry insiders who implemented industry wish lists. Regulations protecting health, safety, environment, and consumers were systematically dismantled.',
+ 'THE PATTERN: Across agencies, Trump appointed industry insiders who implemented industry wish lists. Regulations protecting health, safety, environment, and consumers were systematically dismantled.'
  ],
  tags: ['Regulatory Capture', 'EPA', 'OSHA', 'CFPB', 'Scott Pruitt', 'Deregulation', 'Corporate Corruption'],
  sources: [
  { title: 'NYT Trump Environmental Rollbacks Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Database' },
  { title: 'EPA Pruitt Ethics Investigations', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
- { title: 'GAO Regulatory Reports', url: 'https://www.gao.gov/topics/regulatory-policy', type: 'Government Reports' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'GAO Regulatory Reports', url: 'https://www.gao.gov/topics/regulatory-policy', type: 'Government Reports' }
  ],
  affiliations: [
  { id: '1', name: 'Scott Pruitt', type: 'individual', relationship: 'EPA head, industry ties, ethics scandals', href: '/entities/individuals/scott-pruitt' },
@@ -39,7 +38,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { id: '5', name: 'OSHA', type: 'agency', relationship: 'Enforcement gutted', href: '/entities/agencies/osha' },
  { id: '6', name: 'CFPB', type: 'agency', relationship: 'Consumer protection undermined', href: '/entities/agencies/cfpb' },
  { id: '7', name: 'Donald Trump', type: 'individual', relationship: 'Appointed industry insiders', href: '/entities/individuals/donald-trump' },
- { id: '8', name: 'Koch Industries', type: 'corporation', relationship: 'Major deregulation beneficiary', href: '/entities/corporations/koch-industries' },
+ { id: '8', name: 'Koch Industries', type: 'corporation', relationship: 'Major deregulation beneficiary', href: '/entities/corporations/koch-industries' }
  ],
    eventOriginDate: '2017-06-19',
    lastActivityDate: '2024-09-26',
@@ -52,7 +51,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2020-04-28', event: 'Trump executive order keeps meatpacking plants open during COVID; OSHA issues zero emergency standards as thousands of workers infected', type: 'default' },
      { date: '2020-06', event: 'NYT tracker documents 100+ environmental rules rolled back under Trump; affecting air pollution, drilling, wildlife, and water protections', type: 'default' },
      { date: '2021-01-20', event: 'Biden executive orders begin reversing Trump deregulation; EPA, OSHA, and CFPB ordered to review all rollbacks', type: 'political' },
-     { date: '2024-06-28', event: 'Supreme Court overturns Chevron deference in Loper Bright; empowers courts to reject agency expertise, further weakening regulatory authority', type: 'legal' },
+     { date: '2024-06-28', event: 'Supreme Court overturns Chevron deference in Loper Bright; empowers courts to reject agency expertise, further weakening regulatory authority', type: 'legal' }
    ],
  },
   'russian-money-laundering': {
@@ -75,7 +74,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'DEUTSCHE BANK: After other banks refused to lend to Trump due to defaults, Deutsche Bank provided hundreds of millions in loans. Deutsche Bank has faced massive fines for laundering Russian money through its systems.',
  'MISSING TAX RETURNS: Trump\'s refusal to release tax returns prevented scrutiny of Russian income sources. When obtained by journalists, the returns showed massive losses and complex arrangements hiding income sources.',
  'TREASURY FINCEN FILES: FinCEN files leaked in 2020 showed suspicious activity reports involving Trump-connected transactions. Banks flagged concerning patterns that were never fully investigated.',
- 'LACK OF INVESTIGATION: Despite obvious red flags, no comprehensive investigation of Trump Organization Russian money laundering has been completed. The pattern of suspicious transactions remains largely unexamined.',
+ 'LACK OF INVESTIGATION: Despite obvious red flags, no comprehensive investigation of Trump Organization Russian money laundering has been completed. The pattern of suspicious transactions remains largely unexamined.'
  ],
  tags: ['Russia', 'Money Laundering', 'Trump Organization', 'Felix Sater', 'Bayrock', 'Deutsche Bank', 'Oligarchs'],
  sources: [
@@ -83,8 +82,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Reuters Sater Investigation', url: 'https://www.reuters.com/investigates/', type: 'Investigation' },
  { title: 'Trump Palm Beach Sale Analysis', url: 'https://www.mcclatchydc.com/news/nation-world/national/article135243694.html', type: 'News Report' },
  { title: 'FinCEN Files Trump Transactions', url: 'https://web.archive.org/web/20211001000000*/buzzfeednews.com/article/jasonleopold/fincen-files*', type: 'Investigation' },
- { title: 'Deutsche Bank Russian Laundering', url: 'https://www.nytimes.com/2017/01/30/business/deutsche-bank-fined-for-helping-russians-launder-10-billion.html', type: 'News Report' },
-   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+ { title: 'Deutsche Bank Russian Laundering', url: 'https://www.nytimes.com/2017/01/30/business/deutsche-bank-fined-for-helping-russians-launder-10-billion.html', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Properties used for suspicious transactions', href: '/entities/individuals/donald-trump' },
@@ -93,7 +91,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { id: '4', name: 'Dmitry Rybolovlev', type: 'individual', relationship: 'Paid $95M for mansion', href: '/entities/individuals/dmitry-rybolovlev' },
  { id: '5', name: 'Deutsche Bank', type: 'corporation', relationship: 'Lender with Russian laundering history', href: '/entities/corporations/deutsche-bank' },
  { id: '6', name: 'Donald Trump Jr.', type: 'individual', relationship: 'Admitted Russian money" pouring in"', href: '/entities/individuals/donald-trump-jr' },
- { id: '7', name: 'Bayrock Group', type: 'corporation', relationship: 'Sater company partnered with Trump', href: '/entities/corporations/bayrock-group' },
+ { id: '7', name: 'Bayrock Group', type: 'corporation', relationship: 'Sater company partnered with Trump', href: '/entities/corporations/bayrock-group' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-01-10',
@@ -103,14 +101,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2008', event: 'PALM BEACH MANSION: In 2008, Russian oligarch Dmitry Rybolovlev bought Trump\'s Palm Beach mansion for $95 million; $54 million more than Trump paid four years earlier, during a real estate crash', type: 'critical' },
      { date: '2016', event: 'RYBOLOVLEV MYSTERY: Rybolovlev\'s plane was spotted near Trump\'s plane during the 2016 campaign in multiple cities', type: 'political' },
      { date: '2016', event: 'TRUMP TOWER MOSCOW: Throughout the 2016 campaign, Trump Organization pursued a Trump Tower Moscow deal involving Russian financing', type: 'legal' },
-     { date: '2020', event: 'TREASURY FINCEN FILES: FinCEN files leaked in 2020 showed suspicious activity reports involving Trump-connected transactions', type: 'default' },
+     { date: '2020', event: 'TREASURY FINCEN FILES: FinCEN files leaked in 2020 showed suspicious activity reports involving Trump-connected transactions', type: 'default' }
    ],
    moneyTrail: [
      { date: '2008-01-01', from: 'Dmitry Rybolovlev', to: 'Donald Trump (Palm Beach mansion)', amount: '$95,000,000', purpose: 'Russian oligarch paid $54M above market value during a real estate crash for a mansion Trump bought for $41M four years earlier', documented: true },
      { date: '2016-01-01', from: 'Trump Organization', to: 'Trump Tower Moscow project (proposed)', amount: '$300,000,000', purpose: 'Proposed Trump Tower Moscow valued at $300M+ pursued throughout 2016 campaign with Russian government-connected financing; contradicting public denials', documented: false },
      { date: '2013-01-01', from: 'Bayrock Group / Felix Sater', to: 'Trump SoHo and other developments', amount: '$250,000,000', purpose: 'Bayrock, led by convicted felon Felix Sater with ties to Russian organized crime, partnered with Trump on multiple developments', documented: true },
      { date: '2008-01-01', from: 'Russian buyers', to: 'Trump properties (Florida condos)', amount: '$98,000,000', purpose: 'A Reuters investigation found that at least 63 Russians bought $98.4M in Trump properties in South Florida', documented: true },
-     { date: '2020-01-01', from: 'Trump-connected accounts (flagged)', to: 'Various recipients', amount: '$2,000,000,000', purpose: 'FinCEN Files revealed suspicious activity reports on $2T+ in transactions across all banks; multiple reports involved Trump-connected entities', documented: false },
+     { date: '2020-01-01', from: 'Trump-connected accounts (flagged)', to: 'Various recipients', amount: '$2,000,000,000', purpose: 'FinCEN Files revealed suspicious activity reports on $2T+ in transactions across all banks; multiple reports involved Trump-connected entities', documented: false }
    ],
  },
   'russia-disinformation': {
@@ -133,7 +131,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'DOMESTIC AMPLIFICATION: American media figures and politicians amplified Russian disinformation, often unknowingly. Fox News, Trump, and others repeated IRA-generated talking points.',
  'PLATFORM FAILURES: Social media companies failed to detect and stop the operations despite warnings. Their advertising-driven business models incentivized engagement, which disinformation provides.',
  'CONGRESSIONAL RESPONSE: Congress held hearings but took limited action. Section 230 protections shield platforms from liability. Meaningful reform has not passed.',
- 'ONGOING THREAT: U.S. intelligence continues to warn of Russian disinformation targeting elections. The 2024 election saw renewed operations. The threat is permanent.',
+ 'ONGOING THREAT: U.S. intelligence continues to warn of Russian disinformation targeting elections. The 2024 election saw renewed operations. The threat is permanent.'
  ],
  tags: ['Russia', 'IRA', 'Disinformation', 'Troll Farm', 'Prigozhin', 'Social Media', 'Election Interference'],
  sources: [
@@ -141,8 +139,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Senate Intelligence Committee Report Vol. 2', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf', type: 'Government Report' },
  { title: 'Facebook IRA Disclosure', url: 'https://about.fb.com/news/2017/10/hard-questions-russian-ads/', type: 'Company Statement' },
  { title: 'Oxford Internet Institute Analysis', url: 'https://comprop.oii.ox.ac.uk/research/ira-political-polarization/', type: 'Academic Research' },
- { title: 'Mueller Report, Russian Social Media', url: 'https://www.justice.gov/archives', type: 'Government Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Mueller Report, Russian Social Media', url: 'https://www.justice.gov/archives', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Conducted disinformation operations', href: '/entities/organizations/internet-research-agency' },
@@ -151,7 +148,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { id: '4', name: 'Facebook', type: 'corporation', relationship: 'Platform exploited, 126M Americans reached', href: '/entities/corporations/facebook' },
  { id: '5', name: 'Twitter', type: 'corporation', relationship: 'Platform exploited by bots', href: '/entities/corporations/twitter' },
  { id: '6', name: 'Robert Mueller', type: 'individual', relationship: 'Indicted IRA operatives', href: '/entities/individuals/robert-mueller' },
- { id: '7', name: 'GRU', type: 'agency', relationship: 'Russian military intelligence', href: '/entities/agencies/gru' },
+ { id: '7', name: 'GRU', type: 'agency', relationship: 'Russian military intelligence', href: '/entities/agencies/gru' }
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-01-13',
@@ -160,7 +157,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2018', event: 'Mueller indicted Prigozhin and others in 2018', type: 'legal' },
      { date: '2018-02-01', event: 'MUELLER INDICTMENTS: In February 2018, Mueller indicted 13 Russian nationals and 3 Russian companies for election interference', type: 'legal' },
      { date: '2023', event: 'Prigozhin later led the Wagner Group mercenary army before his mysterious death in 2023', type: 'critical' },
-     { date: '2024', event: 'The 2024 election saw renewed operations', type: 'political' },
+     { date: '2024', event: 'The 2024 election saw renewed operations', type: 'political' }
    ],
  },
   'religious-right': {
@@ -183,7 +180,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'EDUCATION WARS: Christian nationalists have captured school boards, banned books, and attacked public education. The goal: replacing secular education with religious instruction and eliminating discussion of race, gender, and sexuality.',
  'LGBTQ+ TARGETING: The movement\'s current focus is eliminating LGBTQ+ rights. Anti-trans legislation,"Don\'t Say Gay "bills, and attacks on marriage equality are coordinated through Christian nationalist networks.',
  'TRUMP EMBRACE: Despite Trump\'s personal life contradicting every "family value "they claimed to support, Christian nationalists embraced him as an instrument of God. He delivered judges and policies; they delivered votes.',
- 'THE THREAT: Christian nationalism rejects the separation of church and state, pluralism, and religious equality. Its ascendance threatens the religious liberty of everyone who doesn\'t share their specific beliefs.',
+ 'THE THREAT: Christian nationalism rejects the separation of church and state, pluralism, and religious equality. Its ascendance threatens the religious liberty of everyone who doesn\'t share their specific beliefs.'
  ],
  tags: ['Christian Nationalism', 'Religious Right', 'Federalist Society', 'ADF', 'FRC', 'Project 2025', 'Dominionism'],
  sources: [
@@ -191,8 +188,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'SPLC Profile: Alliance Defending Freedom', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/alliance-defending-freedom', type: 'Organization Profile' },
  { title: 'SPLC Profile: Family Research Council', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/family-research-council', type: 'Organization Profile' },
  { title: 'Project 2025 Document', url: 'https://www.project2025.org/', type: 'Policy Document' },
- { title: 'Council for National Policy Exposed', url: 'https://www.splcenter.org/hatewatch/2016/05/17/council-national-policy-behind-curtain', type: 'Investigation' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'Council for National Policy Exposed', url: 'https://www.splcenter.org/hatewatch/2016/05/17/council-national-policy-behind-curtain', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Legal arm of Christian nationalism', href: '/entities/organizations/alliance-defending-freedom' },
@@ -201,14 +197,14 @@ const investigations_r: Record<string, InvestigationData> = {
  { id: '4', name: 'Federalist Society', type: 'organization', relationship: 'Judicial capture network', href: '/entities/organizations/federalist-society' },
  { id: '5', name: 'Leonard Leo', type: 'individual', relationship: 'Dark money, judicial appointments', href: '/entities/individuals/leonard-leo' },
  { id: '6', name: 'Donald Trump', type: 'individual', relationship: 'Delivered judges and policies', href: '/entities/individuals/donald-trump' },
- { id: '7', name: 'Mike Johnson', type: 'individual', relationship: 'House Speaker, Christian nationalist', href: '/entities/individuals/mike-johnson' },
+ { id: '7', name: 'Mike Johnson', type: 'individual', relationship: 'House Speaker, Christian nationalist', href: '/entities/individuals/mike-johnson' }
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-01-01',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1981', event: 'Founded in 1981, it has quietly coordinated conservative strategy for decades.', type: 'default' },
-     { date: '2025', event: 'PROJECT 2025: Heritage Foundation\'s plan for a second Trump term, shaped by Christian nationalist priorities, calls for using government power to impose traditional values, restrict reproductive rights, and roll back...', type: 'default' },
+     { date: '2025', event: 'PROJECT 2025: Heritage Foundation\'s plan for a second Trump term, shaped by Christian nationalist priorities, calls for using government power to impose traditional values, restrict reproductive rights, and roll back...', type: 'default' }
      ],
  },
   'rendition': {
@@ -231,15 +227,14 @@ const investigations_r: Record<string, InvestigationData> = {
  'LEGAL BLACK HOLE: Rendition victims had no legal rights, no lawyers, no charges, no trials, no ability to contest their detention. They existed in a legal black hole created by deliberate U.S. policy.',
  'INNOCENT VICTIMS: An unknown number of rendition victims were innocent or held on thin evidence. Without legal process, mistaken identity and false accusations couldn\'t be challenged until it was too late.',
  'NO ACCOUNTABILITY: Despite documented kidnapping, torture, and innocent victims, no CIA officer or official has faced prosecution. Victims seeking justice in U.S. courts have been blocked by "state secrets "claims.',
- 'ONGOING QUESTIONS: The full scope of the rendition program remains classified. How many were rendered? How many were innocent? How many died? The U.S. government continues to hide the truth.',
+ 'ONGOING QUESTIONS: The full scope of the rendition program remains classified. How many were rendered? How many were innocent? How many died? The U.S. government continues to hide the truth.'
  ],
  tags: ['Rendition', 'CIA', 'Torture', 'Kidnapping', 'Black Sites', 'Human Rights', 'Bush Administration'],
  sources: [
  { title: 'European Parliament Rendition Investigation', url: 'https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+TA+P6-TA-2007-0032+0+DOC+XML+V0//EN', type: 'Government Report' },
  { title: 'ACLU Rendition Documentation', url: 'https://www.aclu.org/issues/national-security/torture/extraordinary-rendition', type: 'Legal Analysis' },
  { title: 'El-Masri v. Macedonia (European Court)', url: 'https://hudoc.echr.coe.int/eng?i=001-115621', type: 'Court Decision' },
- { title: 'Ghost Plane by Stephen Grey', url: 'https://www.stmartins.com/books/9780312360238/ghost-plane', type: 'Book' },
-   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+ { title: 'Ghost Plane by Stephen Grey', url: 'https://www.stmartins.com/books/9780312360238/ghost-plane', type: 'Book' }
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated rendition program', href: '/entities/agencies/cia' },
@@ -247,7 +242,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { id: '3', name: 'George Tenet', type: 'individual', relationship: 'CIA Director during program', href: '/entities/individuals/george-tenet' },
  { id: '4', name: 'Maher Arar', type: 'individual', relationship: 'Innocent victim, tortured in Syria', href: '/entities/individuals/maher-arar' },
  { id: '5', name: 'Khaled El-Masri', type: 'individual', relationship: 'Innocent victim, wrong man', href: '/entities/individuals/khaled-el-masri' },
- { id: '6', name: 'Jeppesen Dataplan', type: 'corporation', relationship: 'Provided flight planning for renditions', href: '/entities/corporations/jeppesen-dataplan' },
+ { id: '6', name: 'Jeppesen Dataplan', type: 'corporation', relationship: 'Provided flight planning for renditions', href: '/entities/corporations/jeppesen-dataplan' }
  ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2022-05-20',
@@ -263,7 +258,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2007-02-14', event: 'European Parliament investigation concludes more than 50 countries participated in extraordinary rendition through hosting black sites, allowing airspace/refueling, or directly capturing victims', type: 'political' },
      { date: '2009-01-22', event: 'President Obama signs executive order closing CIA black sites and prohibiting torture. However, no one is ever prosecuted for the rendition program. The order does not ban all forms of rendition', type: 'political' },
      { date: '2012-12-13', event: 'European Court of Human Rights rules in El-Masri v. Macedonia that Macedonia violated El-Masri\'s rights, marking the first international court ruling confirming CIA rendition details', type: 'default' },
-     { date: '2014-12-09', event: 'Senate Intelligence Committee releases 500-page executive summary of 6,700-page torture report. It documents rendition as integral to the CIA detention and interrogation program', type: 'critical' },
+     { date: '2014-12-09', event: 'Senate Intelligence Committee releases 500-page executive summary of 6,700-page torture report. It documents rendition as integral to the CIA detention and interrogation program', type: 'critical' }
    ],
  },
   'republican-dark-money': {
@@ -286,15 +281,14 @@ const investigations_r: Record<string, InvestigationData> = {
  'THE ASYMMETRY: While Democrats also use some dark money vehicles, Republican-aligned dark money dramatically exceeds Democratic. The Koch network alone rivals the spending of either major party.',
  'FOREIGN MONEY CONCERNS: Dark money\'s opacity raises foreign influence concerns. Without disclosure, there\'s no way to verify money isn\'t ultimately from foreign sources. The NRA, for instance, received Russian money that may have reached political accounts.',
  'REFORM BLOCKED: Legislation requiring dark money disclosure has passed the House repeatedly but died in the Senate to Republican opposition. The beneficiaries of dark money ensure it remains dark.',
- 'THE PRICE OF DEMOCRACY: American democracy is being purchased by anonymous billionaires. Voters don\'t know who\'s funding the ads they see. The voice of money drowns out the voice of citizens. This is corruption, legalized.',
+ 'THE PRICE OF DEMOCRACY: American democracy is being purchased by anonymous billionaires. Voters don\'t know who\'s funding the ads they see. The voice of money drowns out the voice of citizens. This is corruption, legalized.'
  ],
  tags: ['Dark Money', 'Koch Network', 'Leonard Leo', 'Citizens United', 'Donors Trust', 'Political Corruption', 'Campaign Finance'],
  sources: [
  { title: 'OpenSecrets, Dark Money Database', url: 'https://www.opensecrets.org/dark-money', type: 'Database' },
  { title: 'NYT: $1.6 Billion Leo Donation', url: 'https://www.nytimes.com/2022/08/22/us/politics/republican-dark-money.html', type: 'Investigation' },
  { title: 'Donors Trust Tax Filings', url: 'https://www.donorstrust.org/', type: 'Tax Records' },
- { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' }
  ],
  affiliations: [
  { id: '1', name: 'Charles Koch', type: 'individual', relationship: 'Built political funding network', href: '/entities/individuals/charles-koch' },
@@ -302,14 +296,14 @@ const investigations_r: Record<string, InvestigationData> = {
  { id: '3', name: 'Donors Trust', type: 'organization', relationship: 'Dark money conduit', href: '/entities/organizations/donors-trust' },
  { id: '4', name: 'Federalist Society', type: 'organization', relationship: 'Leo\'s judicial network', href: '/entities/organizations/federalist-society' },
  { id: '5', name: 'Heritage Foundation', type: 'organization', relationship: 'Dark money recipient', href: '/entities/organizations/heritage-foundation' },
- { id: '6', name: 'Americans for Prosperity', type: 'organization', relationship: 'Koch political arm', href: '/entities/organizations/americans-for-prosperity' },
+ { id: '6', name: 'Americans for Prosperity', type: 'organization', relationship: 'Koch political arm', href: '/entities/organizations/americans-for-prosperity' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-01-29',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2010', event: 'CITIZENS UNITED UNLEASHED: The 2010 Citizens United decision allowed unlimited political spending by corporations and nonprofits.', type: 'default' },
-     { date: '2022', event: 'In 2022, electronics billionaire Barre Seid gave Leo\'s Marble Freedom Trust $1.6 billion, the largest political donation ever.', type: 'financial' },
+     { date: '2022', event: 'In 2022, electronics billionaire Barre Seid gave Leo\'s Marble Freedom Trust $1.6 billion, the largest political donation ever.', type: 'financial' }
      ],
  },
   'russian-disinformation': {
@@ -332,22 +326,21 @@ const investigations_r: Record<string, InvestigationData> = {
  'PLATFORM FAILURES: Social media companies were slow to recognize and respond to Russian operations. Their business model, engagement above all, made them perfect vectors for disinformation. Even after 2016, response remained inadequate.',
  'ONGOING THREAT: Russian operations continue. They\'ve targeted every subsequent U.S. election. They exploit domestic divisions in real-time. The threat has become permanent, requiring permanent vigilance.',
  'AMERICAN AMPLIFIERS: Russian disinformation succeeds partly because Americans amplify it. Politicians, media figures, and ordinary citizens share content without knowing its origin. The line between foreign propaganda and domestic extremism blurs.',
- 'ASYMMETRIC WARFARE: Russia can\'t match American military power, but disinformation is cheap. A few million dollars buys influence operations that rival Super PAC spending. It\'s the most cost-effective warfare in history.',
+ 'ASYMMETRIC WARFARE: Russia can\'t match American military power, but disinformation is cheap. A few million dollars buys influence operations that rival Super PAC spending. It\'s the most cost-effective warfare in history.'
  ],
  tags: ['Russia', 'Disinformation', 'Internet Research Agency', 'Election Interference', 'GRU', 'Social Media', 'Putin'],
  sources: [
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Congressional Report' },
  { title: 'Mueller Report, Russian Interference', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'DOJ IRA Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
- { title: 'DOJ GRU Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'DOJ GRU Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/download', type: 'Court Filing' }
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered interference campaign', href: '/entities/individuals/vladimir-putin' },
  { id: '2', name: 'GRU', type: 'agency', relationship: 'Military intelligence, conducted hacking', href: '/entities/agencies/gru' },
  { id: '3', name: 'Internet Research Agency', type: 'organization', relationship: 'Conducted social media operations', href: '/entities/organizations/internet-research-agency' },
  { id: '4', name: 'FBI', type: 'agency', relationship: 'Investigated Russian interference', href: '/entities/agencies/fbi' },
- { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Beneficiary of interference', href: '/entities/individuals/donald-trump' },
+ { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Beneficiary of interference', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2017-10-16',
@@ -356,7 +349,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2016', event: '2016 ELECTION INTERFERENCE: Russian operatives created Facebook groups with millions of followers, organized real-world rallies, and purchased thousands of political ads', type: 'political' },
      { date: '2016', event: 'EVOLUTION AFTER 2016: Russian disinformation didn\'t stop after 2016', type: 'default' },
      { date: '2016', event: 'Even after 2016, response remained inadequate', type: 'default' },
-     { date: '2017', event: 'INTELLIGENCE COMMUNITY ASSESSMENT: In January 2017, U.S', type: 'default' },
+     { date: '2017', event: 'INTELLIGENCE COMMUNITY ASSESSMENT: In January 2017, U.S', type: 'default' }
    ],
  },
   'russian-intel-ops': {
@@ -379,29 +372,28 @@ const investigations_r: Record<string, InvestigationData> = {
  'FAILURES OF COUNTERINTELLIGENCE: Despite knowing about Russian operations, U.S. counterintelligence has struggled to stop them. Political considerations complicate response. The Trump administration downplayed Russian threats. Penetrations may remain undiscovered.',
  'GRU BOUNTIES ALLEGATIONS: Reports alleged GRU offered Taliban bounties for killing American soldiers in Afghanistan. The intelligence was disputed, but the allegation itself illustrated the range of hostile Russian activities.',
  'ESCALATION RISKS: Russian intelligence operations have grown more brazen, using chemical weapons in the UK, massive cyber attacks, election interference. Each unanswered aggression invites escalation.',
- 'PERMANENT CONFLICT: Russia views itself as in permanent conflict with the West. Intelligence operations are a key battlefield, deniable, cost-effective, and difficult to deter. This is the new normal.',
+ 'PERMANENT CONFLICT: Russia views itself as in permanent conflict with the West. Intelligence operations are a key battlefield, deniable, cost-effective, and difficult to deter. This is the new normal.'
  ],
  tags: ['Russia', 'GRU', 'FSB', 'SVR', 'Cyber Operations', 'Espionage', 'Intelligence', 'SolarWinds'],
  sources: [
  { title: 'CISA, Russian State-Sponsored Cyber Threats', url: 'https://www.cisa.gov/russia', type: 'Government Advisory' },
  { title: 'NSA/FBI/CISA Joint Advisory on GRU', url: 'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2708348/', type: 'Government Advisory' },
  { title: 'DOJ GRU Indictments', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware', type: 'Court Filing' },
- { title: 'SolarWinds Hack Analysis', url: 'https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor', type: 'Technical Analysis' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'SolarWinds Hack Analysis', url: 'https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor', type: 'Technical Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'GRU', type: 'agency', relationship: 'Military intelligence, cyber and active measures', href: '/entities/agencies/gru' },
  { id: '2', name: 'FSB', type: 'agency', relationship: 'Domestic and foreign intelligence', href: '/entities/agencies/fsb' },
  { id: '3', name: 'Vladimir Putin', type: 'individual', relationship: 'Former FSB director, orders operations', href: '/entities/individuals/vladimir-putin' },
  { id: '4', name: 'NSA', type: 'agency', relationship: 'Tracks Russian cyber operations', href: '/entities/agencies/nsa' },
- { id: '5', name: 'FBI', type: 'agency', relationship: 'Counterintelligence responsibility', href: '/entities/agencies/fbi' },
+ { id: '5', name: 'FBI', type: 'agency', relationship: 'Counterintelligence responsibility', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-02-26',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2016', event: 'Beyond 2016, Russian intelligence has targeted every U.S.', type: 'default' },
-     { date: '2020', event: 'In 2020, Russian intelligence (likely SVR) compromised SolarWinds software updates, gaining access to 18,000 organizations including multiple U.S.', type: 'default' },
+     { date: '2020', event: 'In 2020, Russian intelligence (likely SVR) compromised SolarWinds software updates, gaining access to 18,000 organizations including multiple U.S.', type: 'default' }
      ],
  },
   'royal-coverup': {
@@ -422,26 +414,27 @@ const investigations_r: Record<string, InvestigationData> = {
  'MEDIA MANAGEMENT: The Royal Family has extensive relationships with British media to manage coverage. Critical coverage is discouraged; photographers and reporters depend on access.',
  'LEGAL IMMUNITY: The monarch has legal immunity from prosecution. While other royals can theoretically be prosecuted, institutional pressure makes this practically impossible.',
  'REPUBLIC QUESTIONS: Andrew\'s scandal raised questions about whether hereditary privilege and modern accountability can coexist. Why should accident of birth provide protection from law?',
- 'ONGOING QUESTIONS: Andrew has never faced criminal investigation despite credible accusations. The settlement bought silence, not justice. Victims of royal-adjacent predators face unique barriers.',
+ 'ONGOING QUESTIONS: Andrew has never faced criminal investigation despite credible accusations. The settlement bought silence, not justice. Victims of royal-adjacent predators face unique barriers.'
  ],
  tags: ['Royal Family', 'Prince Andrew', 'Epstein', 'Coverup', 'British Monarchy', 'Institutional Protection'],
  sources: [
  { title: 'BBC Newsnight Andrew Interview', url: 'https://www.bbc.com/news/uk-50449339', type: 'Interview' },
-      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'The Guardian: Prince Andrew and Virginia Giuffre Settlement', url: 'https://www.theguardian.com/uk-news/2022/feb/15/prince-andrew-virginia-giuffre-settle-civil-sexual-assault-case', type: 'Article' },
+ { title: 'BBC: The Royal Family Controversies', url: 'https://www.bbc.com/news/uk-63580722', type: 'Article' },
+ { title: 'Republic UK: Royal Finances Investigation', url: 'https://www.republic.org.uk/the_royal_finances', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'Prince Andrew', type: 'individual', relationship: 'Accused, settled lawsuit', href: '/entities/individuals/prince-andrew' },
  { id: '2', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Close associate', href: '/entities/individuals/jeffrey-epstein' },
  { id: '3', name: 'British Royal Family', type: 'organization', relationship: 'Protected Andrew from accountability', href: '/entities/organizations/british-royal-family' },
- { id: '4', name: 'Virginia Giuffre', type: 'individual', relationship: 'Accuser, settlement recipient', href: '/entities/individuals/virginia-giuffre' },
+ { id: '4', name: 'Virginia Giuffre', type: 'individual', relationship: 'Accuser, settlement recipient', href: '/entities/individuals/virginia-giuffre' }
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2021-01-12',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2008', event: 'Prince Andrew maintained a close relationship with Jeffrey Epstein even after Epstein\'s 2008 conviction.', type: 'legal' },
-     { date: '2019', event: 'Andrew\'s 2019 BBC interview to explain his Epstein relationship was catastrophic.', type: 'default' },
+     { date: '2019', event: 'Andrew\'s 2019 BBC interview to explain his Epstein relationship was catastrophic.', type: 'default' }
      ],
  },
   'russia-investigation': {
@@ -458,20 +451,19 @@ const investigations_r: Record<string, InvestigationData> = {
  'TRUMP CAMPAIGN CONTACTS: The investigation identified over 100 contacts between Trump campaign associates and Russian-linked individuals. These included the June 9, 2016 Trump Tower meeting where Donald Trump Jr., Jared Kushner, and Paul Manafort met with a Russian lawyer promising "dirt on Hillary Clinton"; Paul Manafort sharing internal campaign polling data with Konstantin Kilimnik, a Russian intelligence-linked operative; and Michael Flynn\'s conversations with Russian Ambassador Sergey Kislyak about sanctions during the transition.',
  'OBSTRUCTION OF JUSTICE: Volume II of the Mueller Report analyzed 10 episodes of potential obstruction of justice by President Trump, including firing James Comey, attempting to fire Mueller, directing White House Counsel Don McGahn to deny that Trump had ordered Mueller\'s removal, and dangling pardons for cooperating witnesses. Mueller concluded that OLC policy prevented indicting a sitting president, but explicitly stated the report "does not exonerate" Trump.',
  'SENATE INTELLIGENCE COMMITTEE: The Republican-led Senate Intelligence Committee conducted its own investigation and released a nearly 1,000-page bipartisan report in August 2020 confirming Russian interference, documenting Paul Manafort\'s ties to Russian intelligence, and concluding that Russia posed a "grave counterintelligence threat" through its contacts with Trump associates.',
- 'AFTERMATH: Despite the documented findings, the investigation became deeply polarized. Attorney General William Barr issued a four-page summary of the Mueller Report before its release that was widely criticized as misleading. Mueller publicly stated Barr\'s letter "did not fully capture the context, nature, and substance" of his work. Trump claimed "total exoneration" despite the report\'s explicit statement to the contrary.',
+ 'AFTERMATH: Despite the documented findings, the investigation became deeply polarized. Attorney General William Barr issued a four-page summary of the Mueller Report before its release that was widely criticized as misleading. Mueller publicly stated Barr\'s letter "did not fully capture the context, nature, and substance" of his work. Trump claimed "total exoneration" despite the report\'s explicit statement to the contrary.'
  ],
  tags: ['Russia', 'Trump', 'Mueller', '2016 Election', 'Obstruction of Justice', 'Foreign Interference', 'Paul Manafort', 'Michael Flynn'],
  sources: [
  { title: 'Mueller Report (Full Text)', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Senate Intelligence Committee Russia Report (Volume 5)', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
- { title: 'DOJ Special Counsel Indictments Index', url: 'https://www.justice.gov/archives', type: 'Government Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'DOJ Special Counsel Indictments Index', url: 'https://www.justice.gov/archives', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject of obstruction investigation; 10 episodes of potential obstruction documented by Mueller', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Paul Manafort', type: 'individual', relationship: 'Trump campaign chairman convicted of financial crimes; shared internal polling data with Russian intelligence-linked operative', href: '/entities/individuals/paul-manafort' },
  { id: '3', name: 'Michael Flynn', type: 'individual', relationship: 'National Security Advisor who pleaded guilty to lying to FBI about contacts with Russian ambassador', href: '/entities/individuals/michael-flynn' },
- { id: '4', name: 'FBI', type: 'agency', relationship: 'Initiated counterintelligence investigation into Trump-Russia contacts; Director Comey fired for pursuing it', href: '/entities/agencies/fbi' },
+ { id: '4', name: 'FBI', type: 'agency', relationship: 'Initiated counterintelligence investigation into Trump-Russia contacts; Director Comey fired for pursuing it', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-10-31',
@@ -484,7 +476,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2018-02-16', event: 'Mueller indicts 13 Russian nationals and 3 Russian entities for conspiracy to defraud the U.S. through social media interference', type: 'legal' },
      { date: '2019-03-22', event: 'Mueller delivers his final report to Attorney General William Barr after 22 months of investigation', type: 'legal' },
      { date: '2019-04-18', event: 'Redacted Mueller Report released publicly; documents 10 episodes of potential obstruction and explicitly states it "does not exonerate" Trump', type: 'legal' },
-     { date: '2020-08-18', event: 'Bipartisan Senate Intelligence Committee releases Volume 5 confirming Russian interference and Manafort\'s Russian intelligence ties', type: 'default' },
+     { date: '2020-08-18', event: 'Bipartisan Senate Intelligence Committee releases Volume 5 confirming Russian interference and Manafort\'s Russian intelligence ties', type: 'default' }
    ],
  },
   'russian-election-interference': {
@@ -505,15 +497,14 @@ const investigations_r: Record<string, InvestigationData> = {
  'The Senate Intelligence Committee conducted a parallel, bipartisan investigation spanning over three years and producing a five-volume, nearly 1,000-page report. Volume 5, released in August 2020, confirmed the counterintelligence threat posed by Manafort sharing polling data with Kilimnik and documented extensive contacts between the campaign and Russian-linked individuals. The committee unanimously concluded that Russia conducted an "unprecedented, multi-faceted attack on our election."',
  'The sanctions response evolved across administrations. The Obama administration expelled 35 Russian diplomats and sanctioned the GRU and FSB in December 2016. Additional sanctions were imposed under the Countering America Adversaries Through Sanctions Act (CAATSA) in 2017, though the Trump administration was criticized for slow implementation. Treasury Department sanctions targeted Prigozhin, the IRA, GRU officers, and associated entities.',
  'Russian interference tactics evolved and continued beyond 2016. Intelligence assessments confirmed ongoing operations in the 2018 midterms and 2020 presidential election, with expanded use of proxy websites, co-opted U.S. individuals, and more sophisticated social media manipulation designed to evade platform detection. The GRU also targeted election infrastructure in all 50 states, though no vote tallies were altered.',
- 'The consequences of the interference extended far beyond the election itself. Public trust in democratic institutions eroded as polarization deepened. Social media companies faced unprecedented scrutiny and regulatory pressure. The episode exposed critical vulnerabilities in U.S. election security, campaign finance transparency, and the capacity of foreign adversaries to weaponize information in the digital age.',
+ 'The consequences of the interference extended far beyond the election itself. Public trust in democratic institutions eroded as polarization deepened. Social media companies faced unprecedented scrutiny and regulatory pressure. The episode exposed critical vulnerabilities in U.S. election security, campaign finance transparency, and the capacity of foreign adversaries to weaponize information in the digital age.'
  ],
  tags: ['Russia', '2016 Election', 'Hacking', 'Disinformation', 'GRU', 'Mueller Investigation', 'IRA', 'Cyber Warfare', 'Foreign Interference', 'WikiLeaks'],
  sources: [
  { title: 'Mueller Report: Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives', type: 'Government' },
  { title: 'Senate Intelligence Committee Volume 5: Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
  { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/archives', type: 'Legal' },
- { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/archives', type: 'Legal' },
-   { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+ { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/archives', type: 'Legal' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Campaign benefited from Russian interference, 140+ contacts documented', href: '/entities/individuals/donald-trump' },
@@ -523,7 +514,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { id: '5', name: 'GRU', type: 'agency', relationship: 'Russian military intelligence units hacked DNC and Clinton campaign', href: '/entities/agencies/gru' },
  { id: '6', name: 'Paul Manafort', type: 'individual', relationship: 'Trump campaign chairman who shared polling data with Russian intelligence', href: '/entities/individuals/paul-manafort' },
  { id: '7', name: 'Michael Flynn', type: 'individual', relationship: 'National Security Advisor who discussed sanctions with Russian ambassador', href: '/entities/individuals/michael-flynn' },
- { id: '8', name: 'CIA', type: 'agency', relationship: 'Intelligence Community assessment of Russian interference', href: '/entities/agencies/cia' },
+ { id: '8', name: 'CIA', type: 'agency', relationship: 'Intelligence Community assessment of Russian interference', href: '/entities/agencies/cia' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2023-09-14',
@@ -538,7 +529,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2017-05-17', event: 'Special Counsel Robert Mueller was appointed on May 17, 2017 to investigate Russian interference and potential coordination with the Trump campaign', type: 'political' },
      { date: '2018', event: 'Intelligence assessments confirmed ongoing operations in the 2018 midterms and 2020 presidential election, with expanded use of proxy websites, co-opted U.S', type: 'political' },
      { date: '2019-04-01', event: 'The Mueller Report, released in April 2019, concluded that Russia interfered in the election "in sweeping and systematic fashion" but did not establish that members of the Trump campaign "conspired', type: 'political' },
-     { date: '2020-08-01', event: 'Volume 5, released in August 2020, confirmed the counterintelligence threat posed by Manafort sharing polling data with Kilimnik and documented extensive contacts between the campaign and Russian-l', type: 'political' },
+     { date: '2020-08-01', event: 'Volume 5, released in August 2020, confirmed the counterintelligence threat posed by Manafort sharing polling data with Kilimnik and documented extensive contacts between the campaign and Russian-l', type: 'political' }
    ],
  },
   'r-kelly-sex-crimes': {
@@ -559,19 +550,18 @@ const investigations_r: Record<string, InvestigationData> = {
  'The Eastern District of New York trial began in August 2021. Prosecutors presented testimony from 11 accusers and dozens of supporting witnesses who described Kelly controlling every aspect of victims lives, including when they could eat, sleep, or use the bathroom, requiring them to call him "Daddy," and filming sexual encounters without consent. On September 27, 2021, the jury convicted Kelly on all nine counts, including one count of racketeering and eight counts of violations of the Mann Act.',
  'Kelly was sentenced to 30 years in federal prison on June 29, 2022 by Judge Ann Donnelly. In the separate Northern District of Illinois case, Kelly was convicted in September 2022 on six of 13 counts, including three counts of child pornography and three counts of enticement of minors. He was sentenced to an additional 20 years, to be served concurrently. Kelly was also convicted on state charges in Chicago in February 2023.',
  'The case exposed catastrophic failures across the music industry, the legal system, and media institutions. Record labels including Jive Records and RCA Records continued promoting Kelly despite public knowledge of the allegations. Industry figures who collaborated with Kelly faced minimal scrutiny for decades. The case became a defining example of how fame, wealth, and systemic racism in how authorities treat Black victims enabled prolonged patterns of abuse.',
- 'Multiple associates were charged in connection with Kelly crimes. Derrel McDavid, Kelly former business manager, was acquitted of helping conceal evidence. Robert Sylvester Kelly associate Donnell Russell was convicted of threatening a screening of "Surviving R. Kelly" and witness tampering. The cases prompted renewed legislative attention to statute of limitation reforms for sex crimes and the duties of institutions to investigate allegations against high-profile figures.',
+ 'Multiple associates were charged in connection with Kelly crimes. Derrel McDavid, Kelly former business manager, was acquitted of helping conceal evidence. Robert Sylvester Kelly associate Donnell Russell was convicted of threatening a screening of "Surviving R. Kelly" and witness tampering. The cases prompted renewed legislative attention to statute of limitation reforms for sex crimes and the duties of institutions to investigate allegations against high-profile figures.'
  ],
  tags: ['Sex Trafficking', 'Child Sexual Exploitation', 'Racketeering', 'Music Industry', 'Abuse', 'R. Kelly', 'RICO', 'Surviving R. Kelly'],
  sources: [
  { title: 'DOJ Press Release: R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny', type: 'Government' },
  { title: 'Jim DeRogatis: Soulless: The Case Against R. Kelly', url: 'https://web.archive.org/web/20211001000000*/buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly*', type: 'News' },
- { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny', type: 'Legal' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny', type: 'Legal' }
  ],
  affiliations: [
  { id: '1', name: 'R. Kelly', type: 'individual', relationship: 'Defendant convicted of sex trafficking and racketeering', href: '/entities/individuals/r-kelly' },
  { id: '2', name: 'FBI', type: 'agency', relationship: 'Led federal investigation and arrests', href: '/entities/agencies/fbi' },
- { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution in two districts', href: '/entities/agencies/doj' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution in two districts', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2023-06-29',
@@ -588,7 +578,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021-09-27', event: 'On September 27, 2021, the jury convicted Kelly on all nine counts, including one count of racketeering and eight counts of violations of the Mann Act', type: 'legal' },
      { date: '2022-06-29', event: 'Kelly was sentenced to 30 years in federal prison on June 29, 2022 by Judge Ann Donnelly', type: 'legal' },
      { date: '2022-09-01', event: 'In the separate Northern District of Illinois case, Kelly was convicted in September 2022 on six of 13 counts, including three counts of child pornography and three counts of enticement of minors', type: 'legal' },
-     { date: '2023-02-01', event: 'Kelly was also convicted on state charges in Chicago in February 2023', type: 'legal' },
+     { date: '2023-02-01', event: 'Kelly was also convicted on state charges in Chicago in February 2023', type: 'legal' }
    ],
  },
   'rabaa-massacre': {
@@ -604,7 +594,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Human Rights Watch documented the killing of at least 1,000 people in a single day, calling it "the worst mass unlawful killings in modern Egyptian history" and "one of the world\'s largest killings of demonstrators in a single day in recent history." The Egyptian government\'s official death toll of 632 is widely considered an undercount. Bodies were burned, removed in garbage trucks, and dumped in unmarked locations to conceal the true toll.',
  'Evidence gathered by international investigators showed that the killings were premeditated and systematic. Security forces blocked exits from the protest camps, set fire to the field hospital where wounded protesters were being treated, and shot people as they attempted to flee. Snipers were positioned on surrounding buildings. The operation was planned and authorized at the highest levels of the military government led by General Abdel Fattah el-Sisi.',
  'The international response was muted. The United States briefly suspended some military aid but resumed the full $1.3 billion annual package within months. No Egyptian official has been held accountable for the massacre. Instead, el-Sisi consolidated power, won the presidency in a stage-managed election, and presided over the worst human rights crackdown in Egypt\'s modern history; jailing an estimated 60,000 political prisoners.',
- 'The Rabaa massacre demonstrated the international community\'s willingness to tolerate mass killings when perpetrated by strategic allies. Egypt\'s military government received continued support from the United States, Saudi Arabia, the UAE, and European nations. The four-finger Rabaa hand sign became a symbol of pro-democracy resistance across the Middle East, but the failure of accountability emboldened authoritarian governments throughout the region.',
+ 'The Rabaa massacre demonstrated the international community\'s willingness to tolerate mass killings when perpetrated by strategic allies. Egypt\'s military government received continued support from the United States, Saudi Arabia, the UAE, and European nations. The four-finger Rabaa hand sign became a symbol of pro-democracy resistance across the Middle East, but the failure of accountability emboldened authoritarian governments throughout the region.'
  ],
  tags: ['Crimes Against Humanity', 'Egypt', 'Military Massacre', 'State Violence', 'Pro-Democracy', 'el-Sisi', 'Accountability Failure', 'Extrajudicial Killing'],
  sources: [
@@ -612,13 +602,13 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Amnesty International: Egypt Rabaa Investigations', url: 'https://www.amnesty.org/en/latest/news/2014/01/egypt-anniversary-rabaa-massacre/', type: 'Report' },
  { title: 'Carnegie Endowment: Egyptian Military and State Power', url: 'https://carnegieendowment.org/research/middle-east/', type: 'Analysis' },
  { title: 'OHCHR: Egypt Human Rights Situation', url: 'https://www.ohchr.org/en/countries/egypt', type: 'Government' },
- { title: 'WikiThawra: Egyptian Revolution Casualty Documentation', url: 'https://wikithawra.wordpress.com/', type: 'Archive' },
+ { title: 'WikiThawra: Egyptian Revolution Casualty Documentation', url: 'https://wikithawra.wordpress.com/', type: 'Archive' }
  ],
  affiliations: [
  { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Defense Minister who ordered the Rabaa dispersal; became president in 2014 stage-managed election', href: '/entities/individuals/abdel-fattah-el-sisi' },
  { id: '2', name: 'Egyptian Armed Forces', type: 'agency', relationship: 'Military forces that carried out the systematic killing of at least 1,000 protesters using snipers, APCs, and bulldozers', href: '/entities/agencies/egyptian-armed-forces' },
  { id: '3', name: 'Muslim Brotherhood', type: 'organization', relationship: 'Political party of deposed President Morsi; supporters constituted the majority of massacre victims', href: '/entities/organizations/muslim-brotherhood' },
- { id: '4', name: 'Human Rights Watch', type: 'organization', relationship: 'Documented the massacre in the landmark "All According to Plan" report finding likely crimes against humanity', href: '/entities/organizations/human-rights-watch' },
+ { id: '4', name: 'Human Rights Watch', type: 'organization', relationship: 'Documented the massacre in the landmark "All According to Plan" report finding likely crimes against humanity', href: '/entities/organizations/human-rights-watch' }
  ],
    eventOriginDate: '2013-08-14',
    lastActivityDate: '2026-03-29',
@@ -633,7 +623,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2014-05-28', event: 'El-Sisi wins presidential election with 96.9% of vote in a contest with no real opposition; turnout disputed', type: 'political' },
      { date: '2014-08-12', event: 'Human Rights Watch releases 195-page "All According to Plan" report documenting the massacre as premeditated and systematic', type: 'critical' },
      { date: '2018-08-14', event: 'Fifth anniversary of Rabaa massacre; an estimated 60,000+ political prisoners held in Egyptian jails; zero accountability', type: 'default' },
-     { date: '2023-08-14', event: 'Tenth anniversary; U.S. continues full $1.3 billion annual military aid to Egypt despite no accountability for the massacre', type: 'default' },
+     { date: '2023-08-14', event: 'Tenth anniversary; U.S. continues full $1.3 billion annual military aid to Egypt despite no accountability for the massacre', type: 'default' }
    ],
  },
   'radicalization': {
@@ -652,7 +642,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Deradicalization efforts are underfunded and fragmented. The United States has no comprehensive strategy for online deradicalization, and programs that exist receive a fraction of the budget allocated to international counterterrorism. Former extremists who run deradicalization programs (like Shannon Martinez of Free Radicals Project and Christian Picciolini of Free Radicals) report that early intervention is effective but that resources are directed toward prosecution rather than prevention.',
  'Specific attack cases demonstrate the consistent pattern. Anders Breivik (Norway, 2011) was radicalized through European counter-jihad forums and compiled a 1,500-page manifesto referencing dozens of online sources before killing 77 people. The Christchurch shooter (2019) livestreamed his attack on Facebook; the video was shared hundreds of thousands of times before removal. The Buffalo shooter (2022) was radicalized on 4chan\'s /pol/ board, where "Great Replacement" ideology is standard discourse. Patrick Crusius posted his manifesto on 8chan minutes before killing 23 people at an El Paso Walmart in 2019.',
  'Stochastic terrorism, the use of mass communication to incite random acts of violence through statistical certainty without direct instruction, has become a defining feature of the radicalization landscape. Media figures and politicians who demonize specific groups create a statistical probability that some audience members will act violently. When Tucker Carlson promoted "Great Replacement" rhetoric on Fox News over 400 times, the Christchurch and Buffalo shooters both referenced the same theory. The connection between rhetoric and violence is documented but accountability remains nearly nonexistent.',
- 'The policy response has been fragmented and inadequate. Section 230 of the Communications Decency Act shields platforms from liability for user content. The EU\'s Digital Services Act (2022) imposes stronger content moderation requirements but enforcement is nascent. Meanwhile, extremist content migrates to smaller, less regulated platforms: after being banned from mainstream sites, communities have thrived on Gab, Parler, 4chan, 8kun, and Telegram. Deplatforming works in reducing reach but does not eliminate radicalization; it displaces it to spaces with even less moderation and more concentrated extremism.',
+ 'The policy response has been fragmented and inadequate. Section 230 of the Communications Decency Act shields platforms from liability for user content. The EU\'s Digital Services Act (2022) imposes stronger content moderation requirements but enforcement is nascent. Meanwhile, extremist content migrates to smaller, less regulated platforms: after being banned from mainstream sites, communities have thrived on Gab, Parler, 4chan, 8kun, and Telegram. Deplatforming works in reducing reach but does not eliminate radicalization; it displaces it to spaces with even less moderation and more concentrated extremism.'
  ],
  tags: ['Online Radicalization', 'Algorithm', 'Extremism', 'White Supremacy', 'Stochastic Terrorism', 'Great Replacement', 'Domestic Terrorism', 'Platform Accountability'],
  sources: [
@@ -661,14 +651,14 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'ADL H.E.A.T. Map: Hate, Extremism, Antisemitism, Terrorism', url: 'https://www.adl.org/resources/tools-to-track-hate/heat-map', type: 'Archive' },
  { title: 'Global Network on Extremism & Technology (GNET)', url: 'https://gnet-research.org/', type: 'Research' },
  { title: 'Senate Commerce Committee: Social Media and Radicalization Hearings', url: 'https://www.commerce.senate.gov/', type: 'Government' },
- { title: 'University of Chicago Project on Security & Threats (CPOST)', url: 'https://cpost.uchicago.edu/', type: 'Research' },
+ { title: 'University of Chicago Project on Security & Threats (CPOST)', url: 'https://cpost.uchicago.edu/', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic radicalization investigations; has warned of growing right-wing extremist threat since 2009 DHS report', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DHS', type: 'agency', relationship: 'Radicalization prevention programs; 2009 right-wing extremism report retracted after political backlash', href: '/entities/agencies/dhs' },
  { id: '3', name: 'Meta', type: 'corporation', relationship: 'Facebook platform used to livestream Christchurch attack; algorithmic amplification of divisive content documented by internal research', href: '/entities/corporations/meta' },
  { id: '4', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation algorithm documented as radicalization pipeline by Mozilla, ADL, and independent researchers', href: '/entities/corporations/google' },
- { id: '5', name: 'Telegram', type: 'corporation', relationship: 'Primary encrypted platform for extremist organizing; hosts thousands of white supremacist and accelerationist channels', href: '/entities/corporations/telegram' },
+ { id: '5', name: 'Telegram', type: 'corporation', relationship: 'Primary encrypted platform for extremist organizing; hosts thousands of white supremacist and accelerationist channels', href: '/entities/corporations/telegram' }
  ],
    eventOriginDate: '2011-07-22',
    lastActivityDate: '2026-03-29',
@@ -683,7 +673,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2019-08-03', event: 'Patrick Crusius kills 23 at El Paso Walmart; posts "Great Replacement" manifesto on 8chan minutes before attack', type: 'critical' },
      { date: '2022-05-14', event: 'Payton Gendron kills 10 at Tops supermarket in Buffalo; radicalized entirely on 4chan /pol/ board, livestreams on Twitch', type: 'critical' },
      { date: '2022-11-19', event: 'EU Digital Services Act takes effect, imposing content moderation requirements on large platforms; enforcement remains limited', type: 'legal' },
-     { date: '2023-10-07', event: 'ADL reports antisemitic incidents surge 388% in month following Hamas attack, driven significantly by online radicalization and algorithmic amplification', type: 'default' },
+     { date: '2023-10-07', event: 'ADL reports antisemitic incidents surge 388% in month following Hamas attack, driven significantly by online radicalization and algorithmic amplification', type: 'default' }
    ],
  },
   'religious-abuse': {
@@ -699,7 +689,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'The Southern Baptist Convention, the largest Protestant denomination in the U.S., was rocked by a 2022 investigation revealing that SBC leaders maintained a secret list of over 700 accused abusers while publicly opposing accountability measures. Leaders described abuse victims as a "satanic scheme" to distract from the church\'s mission. Unlike the Catholic Church\'s hierarchical structure, the SBC\'s congregational autonomy model allowed accused pastors to move between churches without detection.',
  'Jehovah\'s Witnesses maintain a "two-witness rule" that requires two witnesses to an act of sexual abuse before church discipline is imposed; a nearly impossible standard for a crime that usually occurs in private. An Australian Royal Commission found that the organization had records of 1,006 alleged abusers, none of whom had been reported to police. Victims who speak publicly are disfellowshipped (excommunicated), losing all contact with their community and family.',
  'Mormon institutional abuse encompasses both sexual abuse by leaders and the church\'s systematic concealment through a hotline operated by the law firm Kirton McConkie. AP reporting in 2022 revealed that bishops who called the hotline after receiving abuse disclosures were routinely told not to report to police, even in states with mandatory reporting requirements. The legal strategy prioritized the church\'s liability exposure over child protection.',
- 'Financial exploitation in religious contexts includes prosperity gospel churches that extract billions from followers with promises of divine financial returns, and organizations like the Church of Scientology that charge members hundreds of thousands of dollars for courses while using coercive practices to prevent departure. The legal structures of religious organizations, including tax exemptions and First Amendment protections, make accountability uniquely difficult to achieve.',
+ 'Financial exploitation in religious contexts includes prosperity gospel churches that extract billions from followers with promises of divine financial returns, and organizations like the Church of Scientology that charge members hundreds of thousands of dollars for courses while using coercive practices to prevent departure. The legal structures of religious organizations, including tax exemptions and First Amendment protections, make accountability uniquely difficult to achieve.'
  ],
  tags: ['Religious Abuse', 'Institutional Abuse', 'Clergy', 'Cover-up', 'Mandatory Reporting', 'Survivor Advocacy'],
  sources: [
@@ -710,13 +700,11 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'Americans United for Separation', url: 'https://www.au.org/', type: 'Report' },
  { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law.html', type: 'Archive' },
- { title: 'The Conversation - Religion', url: 'https://theconversation.com/us/topics/religion-702', type: 'Analysis' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'The Conversation - Religion', url: 'https://theconversation.com/us/topics/religion-702', type: 'Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal institutional abuse investigation and prosecution', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal institutional abuse investigation and prosecution', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2023-06-29',
@@ -726,7 +714,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2004', event: 'A 2004 John Jay College study found that 4,392 U.S', type: 'default' },
      { date: '2018', event: 'Subsequent investigations in Pennsylvania (a 2018 grand jury documenting over 1,000 victims across six dioceses), Australia (a Royal Commission finding institutional abuse in 4,444 cases), and Irel', type: 'default' },
      { date: '2022', event: 'The Southern Baptist Convention, the largest Protestant denomination in the U.S., was rocked by a 2022 investigation revealing that SBC leaders maintained a secret list of over 700 accused abusers', type: 'default' },
-     { date: '2022', event: 'AP reporting in 2022 revealed that bishops who called the hotline after receiving abuse disclosures were routinely told not to report to police, even in states with mandatory reporting requirements', type: 'default' },
+     { date: '2022', event: 'AP reporting in 2022 revealed that bishops who called the hotline after receiving abuse disclosures were routinely told not to report to police, even in states with mandatory reporting requirements', type: 'default' }
    ],
  },
   'religious-right-legal': {
@@ -742,19 +730,19 @@ const investigations_r: Record<string, InvestigationData> = {
  'The religious right\'s legal strategy mirrors the NAACP Legal Defense Fund\'s approach of carefully selecting cases that build incrementally toward constitutional change. ADF and allied organizations identify sympathetic plaintiffs, fund litigation through the appeals process, and coordinate amicus briefs from dozens of aligned organizations. The strategy has resulted in an expanding doctrine of religious exemptions from generally applicable laws.',
  'The Becket Fund for Religious Liberty successfully argued Burwell v. Hobby Lobby (2014), establishing that closely held corporations have religious liberty rights that can exempt them from federal regulations requiring contraception coverage. The ruling created a precedent for corporate religious exemptions that has been expanded in subsequent cases to cover LGBTQ+ employment protections, public health measures, and non-discrimination requirements.',
  'The Federalist Society\'s judicial pipeline ensures that judges sympathetic to religious liberty arguments dominate the federal bench. Every Supreme Court justice nominated by Presidents Trump and George W. Bush had connections to the Federalist Society. The result is a judiciary increasingly receptive to claims that religious beliefs should override generally applicable law; from anti-discrimination statutes to public health requirements.',
- 'The religious right\'s legal victories are supported by substantial dark money infrastructure. The National Christian Foundation, the largest donor-advised fund in the evangelical world, has directed over $12 billion since its founding. Funds flow to litigation organizations, think tanks, and political advocacy groups that coordinate strategy across the legal, legislative, and electoral spheres. The opacity of donor-advised funds means that the ultimate sources of funding are undisclosed.',
+ 'The religious right\'s legal victories are supported by substantial dark money infrastructure. The National Christian Foundation, the largest donor-advised fund in the evangelical world, has directed over $12 billion since its founding. Funds flow to litigation organizations, think tanks, and political advocacy groups that coordinate strategy across the legal, legislative, and electoral spheres. The opacity of donor-advised funds means that the ultimate sources of funding are undisclosed.'
  ],
  tags: ['Religious Right', 'Alliance Defending Freedom', 'Federalist Society', 'Supreme Court', 'LGBTQ+ Rights', 'Dark Money', 'Judicial Capture', 'Reproductive Rights'],
  sources: [
  { title: 'SPLC: Alliance Defending Freedom Profile', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/alliance-defending-freedom', type: 'Research' },
  { title: 'ProPublica: Dark Money and Courts', url: 'https://www.propublica.org/series/dark-money-in-the-courts', type: 'Investigation' },
  { title: 'OpenSecrets: National Christian Foundation', url: 'https://www.opensecrets.org/orgs/national-christian-charitable-foundation/summary', type: 'Financial Data' },
- { title: 'Americans United for Separation of Church and State', url: 'https://www.au.org/', type: 'Report' },
+ { title: 'Americans United for Separation of Church and State', url: 'https://www.au.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Federalist Society', type: 'corporation', relationship: 'Judicial pipeline ensuring sympathetic judges dominate federal bench', href: '/entities/corporations/federalist-society' },
  { id: '2', name: 'Leonard Leo', type: 'individual', relationship: 'Directed over $1.6 billion in dark money to reshape the federal judiciary', href: '/entities/individuals/leonard-leo' },
- { id: '3', name: 'Alliance Defending Freedom', type: 'corporation', relationship: 'Largest religious liberty litigation organization; $100M+ annual budget; won Dobbs, 303 Creative, Kennedy', href: '/entities/corporations/alliance-defending-freedom' },
+ { id: '3', name: 'Alliance Defending Freedom', type: 'corporation', relationship: 'Largest religious liberty litigation organization; $100M+ annual budget; won Dobbs, 303 Creative, Kennedy', href: '/entities/corporations/alliance-defending-freedom' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2022-05-26',
@@ -765,7 +753,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2020-07-08', event: 'Our Lady of Guadalupe School v. Morrissey-Berru expands ministerial exception; religious employers gain broad authority to fire teachers', type: 'legal' },
      { date: '2022-06-24', event: 'Dobbs v. Jackson overturns Roe v. Wade; ADF-backed case achieves the religious right\'s decades-long objective', type: 'legal' },
      { date: '2022-06-27', event: 'Kennedy v. Bremerton School District allows public school coach to lead prayers on field; erodes church-state separation precedent', type: 'legal' },
-     { date: '2023-06-30', event: '303 Creative v. Elenis allows businesses to refuse services for same-sex weddings on free speech grounds; ADF argued the case', type: 'legal' },
+     { date: '2023-06-30', event: '303 Creative v. Elenis allows businesses to refuse services for same-sex weddings on free speech grounds; ADF argued the case', type: 'legal' }
    ],
  },
   'restitution-evasion': {
@@ -781,17 +769,17 @@ const investigations_r: Record<string, InvestigationData> = {
  'Asset concealment techniques include transferring property to family members or trusts before charges are filed, moving funds to offshore jurisdictions, converting cash to cryptocurrency, and using complex corporate structures to obscure ownership. Bernie Madoff\'s family transferred millions before his arrest. Allen Stanford hid assets across multiple Caribbean jurisdictions. The DOJ\'s asset forfeiture division is overwhelmed relative to the scale of concealed assets.',
  'The contrast with debt collection from poor defendants is stark. Courts aggressively collect fines, fees, and restitution from low-income defendants; ordering wage garnishment, suspending driver\'s licenses, and imprisoning people for failure to pay. A Brennan Center study found that criminal justice debt affecting poor defendants averaged $13,600, and that collection efforts cost more than they recovered in many jurisdictions.',
  'Bernie Madoff\'s $17.5 billion restitution order; the largest in history; has seen approximately $14 billion recovered through the work of trustee Irving Picard, but the recovery came largely through litigation against banks and feeder funds, not from Madoff himself. Most Ponzi scheme restitution orders recover pennies on the dollar. Tom Petters ($3.65 billion), Allen Stanford ($6.7 billion), and Scott Rothstein ($1.2 billion) all left victims with minimal recovery.',
- 'Federal prosecutors lack both the mandate and resources to aggressively pursue restitution collection. The DOJ\'s Financial Litigation Unit has limited staff and competing priorities. Judges rarely hold non-paying defendants in contempt for restitution evasion. The system effectively creates a two-tier structure where wealthy criminals treat restitution orders as paper obligations while poor defendants are jailed for unpaid court costs.',
+ 'Federal prosecutors lack both the mandate and resources to aggressively pursue restitution collection. The DOJ\'s Financial Litigation Unit has limited staff and competing priorities. Judges rarely hold non-paying defendants in contempt for restitution evasion. The system effectively creates a two-tier structure where wealthy criminals treat restitution orders as paper obligations while poor defendants are jailed for unpaid court costs.'
  ],
  tags: ['Restitution Evasion', 'White-Collar Crime', 'Asset Concealment', 'Criminal Justice', 'Wealth Inequality', 'Ponzi Schemes', 'Federal Courts'],
  sources: [
  { title: 'Bureau of Justice Statistics: Federal Justice', url: 'https://bjs.ojp.gov/topics/courts-sentencing', type: 'Government Data' },
  { title: 'Brennan Center: Criminal Justice Debt', url: 'https://www.brennancenter.org/our-work/research-reports/criminal-justice-debt', type: 'Research' },
  { title: 'GAO: Federal Criminal Restitution', url: 'https://www.gao.gov/products/gao-18-203', type: 'Government Report' },
- { title: 'DOJ Asset Forfeiture Program', url: 'https://www.justice.gov/afp', type: 'Government Source' },
+ { title: 'DOJ Asset Forfeiture Program', url: 'https://www.justice.gov/afp', type: 'Government Source' }
  ],
  affiliations: [
- { id: '1', name: 'DOJ', type: 'agency', relationship: 'Financial Litigation Unit tasked with collecting $100B+ in outstanding federal restitution', href: '/entities/agencies/doj' },
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Financial Litigation Unit tasked with collecting $100B+ in outstanding federal restitution', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-06-02',
@@ -802,7 +790,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2018-04', event: 'GAO report finds over $100 billion in federal criminal restitution outstanding; collection rate below 7% for white-collar cases', type: 'default' },
      { date: '2019-12', event: 'Madoff trustee Irving Picard recovers $14.4 billion through lawsuits against banks and feeder funds; most large Ponzi victims still receive pennies on dollar', type: 'financial' },
      { date: '2021-06', event: 'Brennan Center study documents two-tier system; poor defendants jailed for $13,600 average debt while wealthy offenders treat orders as paper obligations', type: 'default' },
-     { date: '2023-09', event: 'Federal courts report continued growth in unpaid restitution; DOJ Financial Litigation Unit remains understaffed relative to caseload', type: 'default' },
+     { date: '2023-09', event: 'Federal courts report continued growth in unpaid restitution; DOJ Financial Litigation Unit remains understaffed relative to caseload', type: 'default' }
    ],
  },
   'right-wing-disinfo': {
@@ -818,21 +806,19 @@ const investigations_r: Record<string, InvestigationData> = {
  'The 2020 election disinformation campaign demonstrates the ecosystem\'s power. Despite over 60 court cases finding no evidence of widespread fraud, polls consistently showed that approximately 70% of Republican voters believed the election was stolen. The lie was manufactured by Trump\'s inner circle, amplified by right-wing media, funded by dark money organizations, and defended by Republican politicians who privately acknowledged Biden\'s victory.',
  'COVID-19 disinformation promoted through right-wing media contributed to approximately 230,000 preventable American deaths between January and September 2021 alone, according to a study published in The Lancet. Fox News promoted vaccine hesitancy while simultaneously requiring vaccination for its own employees. Right-wing media figures promoted ivermectin, hydroxychloroquine, and other unproven treatments while undermining public health measures.',
  'Dark money organizations fund the disinformation infrastructure. The Donors Trust and Donors Capital Fund have distributed over $1 billion to conservative organizations including those that produce and distribute disinformation. The Koch network, Mercer family, Bradley Foundation, and other funders support think tanks, media outlets, and organizations that produce content designed to look like research but serve political and corporate interests.',
- 'Social media platforms have been unable or unwilling to effectively counter this ecosystem. Facebook\'s own research showed that its algorithm amplified divisive and misleading content from right-wing sources at higher rates than other content. Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes.',
+ 'Social media platforms have been unable or unwilling to effectively counter this ecosystem. Facebook\'s own research showed that its algorithm amplified divisive and misleading content from right-wing sources at higher rates than other content. Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes.'
  ],
  tags: ['Right Wing Disinformation', 'Conspiracy Theory', 'QAnon', 'Social Media', 'Radicalization', 'Online Extremism'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
  { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
- { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
- { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation platform', href: '/entities/corporations/fox-news' },
- { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Primary source of election disinformation', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Primary source of election disinformation', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-08-03',
@@ -841,7 +827,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2020', event: 'The 2020 election disinformation campaign demonstrates the ecosystem\'s power.', type: 'political' },
      { date: '2021', event: 'COVID-19 disinformation promoted through right-wing media contributed to approximately 230,000 preventable American deaths between January and September 2021 alone, according to a study published in The Lancet.', type: 'default' },
      { date: '2021-09', event: 'COVID-19 disinformation promoted through right-wing media contributed to approximately 230,000 preventable American deaths between January and September 2021 alone, according to a study published in The Lancet.', type: 'default' },
-     { date: '2022', event: 'Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes.', type: 'default' },
+     { date: '2022', event: 'Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes.', type: 'default' }
      ],
  },
   'right-wing-media': {
@@ -857,22 +843,20 @@ const investigations_r: Record<string, InvestigationData> = {
  'Conservative talk radio, dominated by figures like Rush Limbaugh (who reached 15 million weekly listeners before his death in 2021), Sean Hannity, and Mark Levin, serves as a daily reinforcement mechanism for right-wing messaging. The repeal of the Fairness Doctrine in 1987 under President Reagan eliminated the requirement for broadcasters to present balanced viewpoints, enabling the rise of partisan programming. Sinclair Broadcast Group owns or operates 185 television stations reaching 40% of American households and requires local affiliates to air conservative commentary.',
  'The economic model of right-wing media depends on audience outrage and fear. Fox News generates approximately $2.5 billion in annual revenue through a combination of advertising and cable carriage fees. The network\'s most profitable programming; primetime opinion shows; consistently features content designed to provoke emotional reactions rather than inform. Studies published in the American Economic Review found that Fox News viewership shifts voting patterns rightward by approximately 3-8 percentage points.',
  'Digital right-wing media has expanded the ecosystem dramatically. The Daily Wire (founded by Ben Shapiro), Breitbart News, The Blaze, Newsmax, and One America News Network collectively reach tens of millions of Americans. These outlets operate with minimal editorial standards and frequently promote conspiracy theories, culture war narratives, and attacks on mainstream journalism. Facebook data shows that right-wing content consistently generates the highest engagement on the platform.',
- 'The consolidation of right-wing media has created what researchers call an "epistemic crisis"; a situation where a significant portion of the population operates within an information environment disconnected from verifiable reality. Harvard\'s Berkman Klein Center found that the right-wing media ecosystem is far more insular than its left-wing counterpart, with fewer connections to mainstream outlets and greater amplification of false narratives. This asymmetry poses fundamental challenges to democratic governance.',
+ 'The consolidation of right-wing media has created what researchers call an "epistemic crisis"; a situation where a significant portion of the population operates within an information environment disconnected from verifiable reality. Harvard\'s Berkman Klein Center found that the right-wing media ecosystem is far more insular than its left-wing counterpart, with fewer connections to mainstream outlets and greater amplification of false narratives. This asymmetry poses fundamental challenges to democratic governance.'
  ],
  tags: ['Right Wing Media', 'Fox News', 'Sinclair', 'Talk Radio', 'Media Polarization', 'Propaganda'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
  { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
- { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
- { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominant conservative media outlet', href: '/entities/corporations/fox-news' },
  { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Conservative media mogul', href: '/entities/individuals/rupert-murdoch' },
- { id: '3', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Local news conservative messaging', href: '/entities/corporations/sinclair' },
+ { id: '3', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Local news conservative messaging', href: '/entities/corporations/sinclair' }
  ],
    eventOriginDate: '1987-01-01',
    lastActivityDate: '2026-01-07',
@@ -881,7 +865,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1987', event: 'The repeal of the Fairness Doctrine in 1987 under President Reagan eliminated the requirement for broadcasters to present balanced viewpoints, enabling the rise of partisan programming', type: 'political' },
      { date: '1996', event: 'Fox News, founded by Rupert Murdoch and Roger Ailes in 1996, transformed American media by creating a 24-hour cable news network explicitly designed to serve conservative audiences and the Republic', type: 'default' },
      { date: '2021', event: 'Conservative talk radio, dominated by figures like Rush Limbaugh (who reached 15 million weekly listeners before his death in 2021), Sean Hannity, and Mark Levin, serves as a daily reinforcement me', type: 'critical' },
-     { date: '2023', event: 'The Dominion Voting Systems defamation lawsuit (settled for $787.5 million in 2023) exposed internal communications showing Fox hosts and executives knowingly promoted false election fraud claims', type: 'legal' },
+     { date: '2023', event: 'The Dominion Voting Systems defamation lawsuit (settled for $787.5 million in 2023) exposed internal communications showing Fox hosts and executives knowingly promoted false election fraud claims', type: 'legal' }
    ],
  },
   'rothstein-ponzi': {
@@ -897,20 +881,18 @@ const investigations_r: Record<string, InvestigationData> = {
  'The scheme funded an extraordinary lifestyle and political influence operation. Rothstein purchased a $5 million yacht, multiple luxury vehicles, and a $2.4 million watch collection. He donated millions to political campaigns and hosted fundraisers for candidates including Governor Charlie Crist and Senator John McCain. His 70th-floor office in the Bank of America building was adorned with photos of himself with politicians and celebrities. He allegedly maintained connections to organized crime figures who helped intimidate potential whistleblowers.',
  'The fraud unraveled in October 2009 when investors attempting to redeem $57 million in settlements discovered that TD Bank accounts supposedly holding their funds were empty. Rothstein briefly fled to Morocco with approximately $16 million in cash but returned voluntarily after four days and began cooperating with federal authorities. His law firm collapsed overnight, leaving hundreds of employees suddenly jobless and numerous clients without representation.',
  'Rothstein was sentenced to 50 years in federal prison in June 2010 after pleading guilty to five federal charges including RICO conspiracy, money laundering, and wire fraud. His cooperation led to the conviction of nearly a dozen co-conspirators, including his wife Kim Rothstein (who hid jewelry from federal seizure), several members of his law firm, and TD Bank employees who facilitated the scheme by providing fabricated bank documents.',
- 'TD Bank paid $67 million in settlements for its role in the fraud after evidence showed that bank employees at multiple levels helped Rothstein create fraudulent account documents and maintain the illusion of legitimate escrow accounts. The case exposed how financial institutions can facilitate massive fraud through lax oversight, complicit employees, and a relationship-banking culture that prioritizes revenue over compliance.',
+ 'TD Bank paid $67 million in settlements for its role in the fraud after evidence showed that bank employees at multiple levels helped Rothstein create fraudulent account documents and maintain the illusion of legitimate escrow accounts. The case exposed how financial institutions can facilitate massive fraud through lax oversight, complicit employees, and a relationship-banking culture that prioritizes revenue over compliance.'
  ],
  tags: ['Ponzi Scheme', 'Scott Rothstein', 'Attorney Fraud', 'Wire Fraud', 'Florida', 'Legal Ethics'],
  sources: [
  { title: 'SEC Enforcement Actions - Ponzi Schemes', url: 'https://www.sec.gov/spotlight/enf-actions-ponzi.shtml', type: 'Government' },
  { title: 'FBI Financial Crimes Report', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government' },
- { title: 'DOJ Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
- { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of $1.2 billion Ponzi scheme', href: '/entities/agencies/doj' },
- { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigation into fraud and corruption', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigation into fraud and corruption', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2005-01-01',
    lastActivityDate: '2026-01-15',
@@ -919,7 +901,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2005', event: 'Scott Rothstein, the managing shareholder of Rothstein Rosenfeldt Adler (one of the largest law firms in South Florida), ran a $1.', type: 'financial' },
      { date: '2009', event: 'Scott Rothstein, the managing shareholder of Rothstein Rosenfeldt Adler (one of the largest law firms in South Florida), ran a $1.', type: 'financial' },
      { date: '2009-10', event: 'The fraud unraveled in October 2009 when investors attempting to redeem $57 million in settlements discovered that TD Bank accounts supposedly holding their funds were empty.', type: 'financial' },
-     { date: '2010-06', event: 'Rothstein was sentenced to 50 years in federal prison in June 2010 after pleading guilty to five federal charges including RICO conspiracy, money laundering, and wire fraud.', type: 'legal' },
+     { date: '2010-06', event: 'Rothstein was sentenced to 50 years in federal prison in June 2010 after pleading guilty to five federal charges including RICO conspiracy, money laundering, and wire fraud.', type: 'legal' }
      ],
  },
   'roundup-cancer': {
@@ -935,19 +917,19 @@ const investigations_r: Record<string, InvestigationData> = {
  'Monsanto maintained the safety of its product through a systematic campaign of scientific fraud and regulatory capture. The company ghostwrote scientific studies that were then published under the names of independent academics, creating the appearance of independent scientific consensus. Internal emails show executives discussing plans to "ghostwrite" a key toxicology paper published in 2000 that concluded glyphosate was not genotoxic.',
  'The EPA\'s relationship with Monsanto was compromised by regulatory capture. Internal documents revealed that EPA official Jess Rowland helped Monsanto kill a Department of Health and Human Services review of glyphosate; telling a Monsanto executive "I deserve a medal" for the effort. When IARC issued its carcinogenicity finding, Monsanto coordinated with EPA officials to discredit the assessment and ensure the EPA maintained its "not likely to be carcinogenic" classification.',
  'The first major trial in 2018 awarded groundskeeper Dewayne "Lee" Johnson $289 million (later reduced to $78 million) after a jury found that Monsanto\'s Roundup products caused his terminal non-Hodgkin lymphoma and that the company acted with "malice." Subsequent trials resulted in verdicts of $80 million (Edwin Hardeman) and $2 billion (Alva and Alberta Pilliod, later reduced). Bayer, which acquired Monsanto for $63 billion in 2018, has set aside over $16 billion to resolve approximately 125,000 claims.',
- 'Despite the litigation, Roundup remains on the market worldwide with no warning label about cancer risk. Monsanto/Bayer\'s attack on independent science included hiring intelligence firms to surveil journalists and activists, maintaining "hit lists" of scientists to discredit, and running front organizations disguised as farmer advocacy groups. The case represents one of the most documented examples of a corporation knowingly selling a carcinogenic product while systematically suppressing evidence of its danger.',
+ 'Despite the litigation, Roundup remains on the market worldwide with no warning label about cancer risk. Monsanto/Bayer\'s attack on independent science included hiring intelligence firms to surveil journalists and activists, maintaining "hit lists" of scientists to discredit, and running front organizations disguised as farmer advocacy groups. The case represents one of the most documented examples of a corporation knowingly selling a carcinogenic product while systematically suppressing evidence of its danger.'
  ],
  tags: ['Roundup', 'Glyphosate', 'Monsanto', 'Bayer', 'Cancer', 'EPA', 'Pesticide', 'Mass Tort'],
  sources: [
- { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'IARC/WHO: Glyphosate Monograph (2015)', url: 'https://monographs.iarc.who.int/wp-content/uploads/2018/07/mono112-10.pdf', type: 'Research Study' },
+ { title: 'Federal Court: Roundup Products Liability Litigation', url: 'https://www.cand.uscourts.gov/judges/chhabria-vince-vc/roundup-products-liability-litigation/', type: 'Court Document' }
  ],
  affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Manufactured Roundup, concealed cancer link', href: '/entities/corporations/monsanto' },
  { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Acquired Monsanto, $10B+ in settlements', href: '/entities/corporations/bayer-ag' },
- { id: '3', name: 'EPA', type: 'agency', relationship: 'Ruled glyphosate not carcinogenic despite evidence', href: '/entities/agencies/epa' },
+ { id: '3', name: 'EPA', type: 'agency', relationship: 'Ruled glyphosate not carcinogenic despite evidence', href: '/entities/agencies/epa' }
  ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2019-10-12',
@@ -956,7 +938,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2000', event: 'Internal emails show executives discussing plans to "ghostwrite" a key toxicology paper published in 2000 that concluded glyphosate was not genotoxic', type: 'default' },
      { date: '2015', event: 'In 2015, the World Health Organization\'s International Agency for Research on Cancer (IARC) classified glyphosate as "probably carcinogenic to humans," finding sufficient evidence of cancer in expe...', type: 'default' },
      { date: '2018', event: 'The first major trial in 2018 awarded groundskeeper Dewayne "Lee" Johnson $289 million (later reduced to $78 million) after a jury found that Monsanto\'s Roundup products caused his terminal non-Hod...', type: 'legal' },
-     { date: '2018', event: 'Bayer, which acquired Monsanto for $63 billion in 2018, has set aside over $16 billion to resolve approximately 125,000 claims', type: 'political' },
+     { date: '2018', event: 'Bayer, which acquired Monsanto for $63 billion in 2018, has set aside over $16 billion to resolve approximately 125,000 claims', type: 'political' }
    ],
  },
   'russia-ukraine-war': {
@@ -972,13 +954,12 @@ const investigations_r: Record<string, InvestigationData> = {
  'The human cost has been staggering. By 2024, U.S. intelligence estimated over 500,000 total casualties (killed and wounded) on both sides. The UN has documented over 10,000 civilian deaths, though actual figures are believed to be considerably higher. Over 14 million Ukrainians have been displaced; 6.5 million as refugees to other countries and 7.5 million internally. An estimated 19,000 Ukrainian children have been forcibly deported to Russia, which the ICC has classified as a war crime.',
  'Documented Russian war crimes include the massacre at Bucha (where satellite imagery and forensic evidence confirmed the execution of hundreds of civilians during Russian occupation), systematic attacks on civilian infrastructure including hospitals, schools, and the Mariupol Drama Theatre where "children" was written in large letters visible from the air. Russia has conducted over 1,000 strikes against Ukrainian energy infrastructure, weaponizing winter temperatures against the civilian population.',
  'The war triggered a restructuring of global energy markets. Europe\'s dependence on Russian natural gas (40% of supply before the invasion) was exposed as a strategic vulnerability. Energy prices spiked globally, with European natural gas prices increasing by over 400%. Major energy companies including Shell, BP, and TotalEnergies reported record profits while consumers faced energy poverty. The U.S. became the world\'s largest LNG exporter as Europe diversified away from Russian supply.',
- 'The conflict has generated enormous profits for defense contractors. The U.S. has provided over $75 billion in military aid to Ukraine, with major contracts flowing to Lockheed Martin (Javelins, HIMARS), Raytheon (Stinger missiles, Patriot systems), and other defense firms. Defense industry stocks outperformed the broader market significantly. The war reinvigorated NATO, prompted Finland and Sweden to join the alliance, and spurred European nations to increase defense spending toward the 2% GDP target.',
+ 'The conflict has generated enormous profits for defense contractors. The U.S. has provided over $75 billion in military aid to Ukraine, with major contracts flowing to Lockheed Martin (Javelins, HIMARS), Raytheon (Stinger missiles, Patriot systems), and other defense firms. Defense industry stocks outperformed the broader market significantly. The war reinvigorated NATO, prompted Finland and Sweden to join the alliance, and spurred European nations to increase defense spending toward the 2% GDP target.'
  ],
  tags: ['Russia-Ukraine War', 'Putin', 'NATO', 'War Crimes', 'Bucha', 'International Law', 'Sanctions'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
- { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'UN Human Rights Monitoring Mission in Ukraine', url: 'https://www.ohchr.org/en/countries/ukraine', type: 'Report' },
  { title: 'International Criminal Court - Ukraine', url: 'https://www.icc-cpi.int/ukraine', type: 'Document' },
  { title: 'Bellingcat Open Source Investigations', url: 'https://www.bellingcat.com/tag/ukraine/', type: 'Investigation' },
@@ -986,12 +967,11 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Initiated invasion of Ukraine', href: '/entities/individuals/vladimir-putin' },
- { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Ukraine military aid coordination', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Ukraine military aid coordination', href: '/entities/agencies/pentagon' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-25',
@@ -999,7 +979,7 @@ const investigations_r: Record<string, InvestigationData> = {
       timeline: [
      { date: '2014', event: 'The invasion followed eight years of conflict in eastern Ukraine after Russia\'s 2014 annexation of Crimea and backing of separatist forces in Donetsk and Luhansk.', type: 'default' },
      { date: '2022', event: 'Russia\'s full-scale invasion of Ukraine on February 24, 2022, has caused hundreds of thousands of casualties, displaced over 14 million people, reshaped global energy markets, and generated documented war crimes...', type: 'financial' },
-     { date: '2022-02-24', event: 'Russia\'s full-scale invasion of Ukraine on February 24, 2022, has caused hundreds of thousands of casualties, displaced over 14 million people, reshaped global energy markets, and generated documented war crimes...', type: 'financial' },
+     { date: '2022-02-24', event: 'Russia\'s full-scale invasion of Ukraine on February 24, 2022, has caused hundreds of thousands of casualties, displaced over 14 million people, reshaped global energy markets, and generated documented war crimes...', type: 'financial' }
      ],
  },
   'russian-influence': {
@@ -1015,24 +995,23 @@ const investigations_r: Record<string, InvestigationData> = {
  'Russia\'s financial influence operates through oligarch networks and opaque financial structures. The U.S. Treasury\'s FinCEN Files revealed billions in suspicious transactions flowing through Western banks from Russian sources. In the UK, the Intelligence and Security Committee\'s "Russia Report" (2020) documented how Russian money had become deeply embedded in British politics, finance, and society; describing London as a "laundromat" for Russian oligarch wealth.',
  'The Internet Research Agency (IRA) and its successors operate industrial-scale disinformation factories. Based in St. Petersburg with a monthly budget estimated at $1.25 million, the IRA employed hundreds of operatives who created fake social media accounts, planted stories in Western media, organized real-world protests on opposing sides of divisive issues, and created entire fake media outlets. After the IRA was sanctioned, operations shifted to other entities including the Wagner Group\'s media arm.',
  'Russia cultivates sympathetic politicians through a combination of financial incentives, intelligence operations, and ideological alignment. The DOJ has charged multiple individuals with acting as unregistered foreign agents for Russia. In Europe, parties across the political spectrum; from Marine Le Pen\'s National Rally (which received a $9.4 million loan from a Russian bank) to members of Germany\'s AfD and Schroeder\'s post-chancellorship work for Gazprom; have maintained close ties to Moscow.',
- 'Africa has become an increasingly important theater for Russian influence operations. The Wagner Group (now Africa Corps under Russian military command) has deployed to Mali, Central African Republic, Burkina Faso, Libya, Sudan, and Mozambique, exchanging military support for mining concessions and political influence. Russian disinformation campaigns in Africa promote anti-Western sentiment and pro-Russian narratives through social media, local media partnerships, and astroturf organizations.',
+ 'Africa has become an increasingly important theater for Russian influence operations. The Wagner Group (now Africa Corps under Russian military command) has deployed to Mali, Central African Republic, Burkina Faso, Libya, Sudan, and Mozambique, exchanging military support for mining concessions and political influence. Russian disinformation campaigns in Africa promote anti-Western sentiment and pro-Russian narratives through social media, local media partnerships, and astroturf organizations.'
  ],
  tags: ['Russia', 'Putin', 'GRU', 'Election Interference', 'Disinformation', 'Cyber Warfare', 'Covert Operations'],
  sources: [
  { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
- { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
  { title: 'ProPublica Electionland', url: 'https://www.propublica.org/electionland', type: 'Investigation' },
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
- { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Directed Russian influence operations including 2016 U.S. election interference, European destabilization campaigns, and Africa Corps deployments', href: '/entities/individuals/vladimir-putin' },
  { id: '2', name: 'GRU', type: 'agency', relationship: 'Russian military intelligence; conducted DNC hack, Macron email hack, Bundestag hack, and Skripal poisoning', href: '/entities/agencies/gru' },
- { id: '3', name: 'DOJ', type: 'agency', relationship: 'Indicted 13 IRA operatives and 12 GRU officers for 2016 election interference; enforces FARA', href: '/entities/agencies/doj' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Indicted 13 IRA operatives and 12 GRU officers for 2016 election interference; enforces FARA', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-02-13',
@@ -1040,7 +1019,7 @@ const investigations_r: Record<string, InvestigationData> = {
       timeline: [
      { date: '2016', event: 'Russian influence operations extend far beyond the documented interference in the 2016 U.S.', type: 'default' },
      { date: '2017', event: 'European intelligence agencies have identified Russian influence campaigns targeting elections in France (Macron email hack 2017), Germany (Bundestag hack, AfD support), the United Kingdom (Brexit campaign funding),', type: 'political' },
-     { date: '2020', event: 'In the UK, the Intelligence and Security Committee\'s "Russia Report" (2020) documented how Russian money had become deeply embedded in British politics, finance, and society, describing London as a "laundromat" for...', type: 'default' },
+     { date: '2020', event: 'In the UK, the Intelligence and Security Committee\'s "Russia Report" (2020) documented how Russian money had become deeply embedded in British politics, finance, and society, describing London as a "laundromat" for...', type: 'default' }
      ],
  },
   'russian-war-crimes': {
@@ -1056,13 +1035,12 @@ const investigations_r: Record<string, InvestigationData> = {
  'In Syria (2015-present), Russian and Syrian forces conducted systematic attacks on hospitals and medical facilities. The New York Times, using flight logs and open-source intelligence, confirmed Russian aircraft were responsible for repeated strikes on at least four hospitals in a 12-hour period in May 2019. Physicians for Human Rights documented over 600 attacks on medical facilities during the Syrian conflict. Russia also used cluster munitions and incendiary weapons in civilian areas.',
  'The ICC issued arrest warrants for Russian President Vladimir Putin and Children\'s Rights Commissioner Maria Lvova-Belova on March 17, 2023, for the unlawful deportation of Ukrainian children. Ukraine\'s government identified approximately 19,000 children forcibly transferred to Russia or Russian-occupied territory. Evidence shows these children were placed in Russian families, given new identities, and in some cases adopted; meeting the legal definition of genocide under the UN Convention.',
  'In Ukraine, the Bucha massacre of March-April 2022 became the defining atrocity of the war. After Russian withdrawal from the Kyiv suburb, investigators found bodies of hundreds of civilians with evidence of execution (hands bound, shot in the head), sexual violence, and torture. Russia initially denied responsibility but satellite imagery from Maxar Technologies confirmed bodies were present in streets during Russian occupation. The UN Human Rights Monitoring Mission has documented over 900 cases of summary execution of civilians.',
- 'Russia has systematically blocked international accountability through its UN Security Council veto. Russia has vetoed or threatened to veto every Security Council resolution related to Syrian accountability, Ukraine referrals to the ICC, and establishment of international tribunals. This has prompted innovative legal responses including the creation of the Ukraine-specific International Centre for the Prosecution of the Crime of Aggression and universal jurisdiction prosecutions in European national courts.',
+ 'Russia has systematically blocked international accountability through its UN Security Council veto. Russia has vetoed or threatened to veto every Security Council resolution related to Syrian accountability, Ukraine referrals to the ICC, and establishment of international tribunals. This has prompted innovative legal responses including the creation of the Ukraine-specific International Centre for the Prosecution of the Crime of Aggression and universal jurisdiction prosecutions in European national courts.'
  ],
  tags: ['War Crimes', 'Crimes Against Humanity', 'International Law', 'Ukraine', 'Syria', 'Chechnya'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
- { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'UN Human Rights Monitoring Mission in Ukraine', url: 'https://www.ohchr.org/en/countries/ukraine', type: 'Report' },
  { title: 'International Criminal Court - Ukraine', url: 'https://www.icc-cpi.int/ukraine', type: 'Document' },
  { title: 'Bellingcat Open Source Investigations', url: 'https://www.bellingcat.com/tag/ukraine/', type: 'Investigation' },
@@ -1070,13 +1048,11 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'ICC arrest warrant for war crimes', href: '/entities/individuals/vladimir-putin' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1994-01-01',
    lastActivityDate: '2023-07-23',
@@ -1086,7 +1062,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2015', event: 'In Syria (2015-present), Russian and Syrian forces conducted systematic attacks on hospitals and medical facilities', type: 'critical' },
      { date: '2019-05-01', event: 'The New York Times, using flight logs and open-source intelligence, confirmed Russian aircraft were responsible for repeated strikes on at least four hospitals in a 12-hour period in May 2019', type: 'political' },
      { date: '2022-04-01', event: 'In Ukraine, the Bucha massacre of March-April 2022 became the defining atrocity of the war', type: 'critical' },
-     { date: '2023-03-17', event: 'The ICC issued arrest warrants for Russian President Vladimir Putin and Children\'s Rights Commissioner Maria Lvova-Belova on March 17, 2023, for the unlawful deportation of Ukrainian children', type: 'legal' },
+     { date: '2023-03-17', event: 'The ICC issued arrest warrants for Russian President Vladimir Putin and Children\'s Rights Commissioner Maria Lvova-Belova on March 17, 2023, for the unlawful deportation of Ukrainian children', type: 'legal' }
    ],
  },
   'ryanair-hijacking': {
@@ -1102,7 +1078,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Protasevich, who ran the NEXTA Telegram channel (which had coordinated protest activities during the 2020 uprising), was arrested along with his girlfriend Sofia Sapega upon landing. He later appeared in state media in what was widely recognized as a forced confession, showing visible signs of distress and possible coercion. Protasevich was sentenced to 8 years in prison, later commuted to house arrest, while Sapega was sentenced to 6 years.',
  'The International Civil Aviation Organization (ICAO) investigation concluded that the bomb threat was deliberately fabricated by Belarusian authorities, that the decision to divert the aircraft was made at the highest levels of government, and that the MiG-29 scramble was planned before the fake bomb threat was communicated to the pilot. The investigation found that Belarusian KGB agents had boarded the flight in Athens specifically to monitor Protasevich.',
  'The international response included EU-wide sanctions on Belarus, a ban on Belarusian airlines from EU airspace, and recommendations for airlines to avoid Belarusian airspace entirely. The U.S., UK, Canada, and other nations imposed additional sanctions. However, Belarus\'s patron Russia shielded the Lukashenko regime from meaningful consequences, continuing to provide economic subsidies and blocking UN Security Council action.',
- 'The incident was described by international law experts as unprecedented; the first time a state had forced down a civilian aircraft in peacetime to arrest a dissident. It exposed the vulnerability of international civil aviation to state manipulation and raised questions about the adequacy of existing legal frameworks (the 1944 Chicago Convention and 1971 Montreal Convention) to deter state-sponsored air piracy. The precedent raised concerns about the safety of dissidents and journalists traveling through or near authoritarian airspace.',
+ 'The incident was described by international law experts as unprecedented; the first time a state had forced down a civilian aircraft in peacetime to arrest a dissident. It exposed the vulnerability of international civil aviation to state manipulation and raised questions about the adequacy of existing legal frameworks (the 1944 Chicago Convention and 1971 Montreal Convention) to deter state-sponsored air piracy. The precedent raised concerns about the safety of dissidents and journalists traveling through or near authoritarian airspace.'
  ],
  tags: ['State Terrorism', 'Belarus', 'Lukashenko', 'Air Piracy', 'Press Freedom', 'Roman Protasevich', 'ICAO', 'International Law'],
  sources: [
@@ -1110,14 +1086,14 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'EU Council: Sanctions Against Belarus', url: 'https://www.consilium.europa.eu/en/policies/sanctions/restrictive-measures-against-belarus/', type: 'Government' },
  { title: 'Reporters Without Borders: Belarus Press Freedom', url: 'https://rsf.org/en/country/belarus', type: 'Report' },
  { title: 'BBC News: Ryanair Plane Belarus Coverage', url: 'https://www.bbc.com/news/world-europe-57239180', type: 'Investigation' },
- { title: 'AP News: Roman Protasevich Arrest and Trial', url: 'https://apnews.com/hub/belarus', type: 'Investigation' },
+ { title: 'AP News: Roman Protasevich Arrest and Trial', url: 'https://apnews.com/hub/belarus', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Belarusian president who authorized the forced diversion of a civilian aircraft to arrest a dissident journalist', href: '/entities/individuals/alexander-lukashenko' },
  { id: '2', name: 'Roman Protasevich', type: 'individual', relationship: 'Journalist and NEXTA Telegram channel operator arrested after state-sponsored hijacking; sentenced to 8 years', href: '/entities/individuals/roman-protasevich' },
  { id: '3', name: 'Belarusian KGB', type: 'agency', relationship: 'Intelligence agency that planned the operation; agents boarded the flight in Athens to monitor Protasevich', href: '/entities/agencies/belarusian-kgb' },
  { id: '4', name: 'ICAO', type: 'organization', relationship: 'International Civil Aviation Organization that investigated the incident and confirmed fabricated bomb threat', href: '/entities/organizations/icao' },
- { id: '5', name: 'EU', type: 'organization', relationship: 'Imposed comprehensive sanctions on Belarus including airline bans and economic restrictions', href: '/entities/organizations/eu' },
+ { id: '5', name: 'EU', type: 'organization', relationship: 'Imposed comprehensive sanctions on Belarus including airline bans and economic restrictions', href: '/entities/organizations/eu' }
  ],
    eventOriginDate: '2021-05-23',
    lastActivityDate: '2026-03-29',
@@ -1132,7 +1108,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021-06-14', event: 'Protasevich appears in state-media "interview" showing visible signs of coercion; widely condemned internationally as forced confession', type: 'default' },
      { date: '2022-01-25', event: 'ICAO fact-finding investigation report confirms bomb threat was fabricated by Belarusian authorities and KGB agents monitored Protasevich on the flight', type: 'legal' },
      { date: '2023-05-25', event: 'Protasevich sentenced to 8 years imprisonment; Sapega sentenced to 6 years. Both sentences condemned by human rights organizations', type: 'legal' },
-     { date: '2024-01-01', event: 'Belarus continues to hold dozens of journalists and political prisoners; remains one of the worst press freedom environments globally per RSF', type: 'default' },
+     { date: '2024-01-01', event: 'Belarus continues to hold dozens of journalists and political prisoners; remains one of the worst press freedom environments globally per RSF', type: 'default' }
    ],
  },
   'rico-enterprise-criminal-networks': {
@@ -1148,18 +1124,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'EVOLVING CRIMINAL ENTERPRISES: Modern criminal networks have adapted to evade RICO prosecution by decentralizing their operations and using technology to obscure organizational structure. Mexican cartels operate through cellular networks where individual cells have limited knowledge of the broader organization. Cybercrime syndicates operate across national borders; making jurisdiction a constant challenge. Cryptocurrency and dark web marketplaces have created new forms of criminal enterprise that do not fit neatly into RICO\'s framework; which was designed for hierarchical organizations with identifiable leadership structures.',
       'CIVIL RICO AND CORPORATE CRIME: RICO\'s civil provisions (Section 1964) allow private parties to sue for treble damages when injured by a pattern of racketeering activity. This has been used against corporations engaged in systematic fraud: tobacco companies (for concealing health risks), pharmaceutical companies (for marketing schemes), and financial institutions (for mortgage fraud). The treble damages provision creates powerful incentives for private enforcement. However, civil RICO has also been criticized for being used as a litigation weapon in ordinary business disputes.',
       'RICO AGAINST POLICE AND GOVERNMENT: RICO has been applied to corrupt police departments and government agencies. The Rampart scandal in the LAPD led to civil RICO litigation against the city. Corrupt police units in Philadelphia, Chicago, and New Orleans have been targeted as criminal enterprises. RICO has been used against corrupt judges (Operation Greylord in Chicago convicted 92 officials), prison gangs (the Aryan Brotherhood case resulted in multiple death penalty verdicts), and even the FIFA soccer organization (the 2015 indictment charged 47 individuals and entities).',
-      'PROSECUTORIAL CONCERNS: Critics argue that RICO\'s broad language gives prosecutors excessive power. The "pattern of racketeering" requirement; just two predicate offenses within ten years; sweeps in conduct that may not reflect organized criminal activity. Defense attorneys have argued that RICO allows guilt by association and permits prosecutors to introduce prejudicial evidence about co-conspirators\' crimes. The statute\'s forfeiture provisions; allowing seizure of assets before conviction; have been criticized as punitive and subject to abuse. Despite these concerns, RICO remains the federal government\'s most effective tool for prosecuting complex criminal organizations.',
+      'PROSECUTORIAL CONCERNS: Critics argue that RICO\'s broad language gives prosecutors excessive power. The "pattern of racketeering" requirement; just two predicate offenses within ten years; sweeps in conduct that may not reflect organized criminal activity. Defense attorneys have argued that RICO allows guilt by association and permits prosecutors to introduce prejudicial evidence about co-conspirators\' crimes. The statute\'s forfeiture provisions; allowing seizure of assets before conviction; have been criticized as punitive and subject to abuse. Despite these concerns, RICO remains the federal government\'s most effective tool for prosecuting complex criminal organizations.'
     ],
     tags: ['RICO', 'Organized Crime', 'Criminal Enterprise', 'Mafia', 'Prosecutorial Power', 'Civil RICO'],
     sources: [
       { title: 'DOJ: RICO Act Overview', url: 'https://www.justice.gov/criminal/criminal-ocgs', type: 'Government Record' },
       { title: 'United States v. Salerno (Commission Case)', url: 'https://www.law.cornell.edu', type: 'Court Record' },
-      { title: 'G. Robert Blakey: RICO Legislative History', url: 'https://www.law.cornell.edu', type: 'Research' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'G. Robert Blakey: RICO Legislative History', url: 'https://www.law.cornell.edu', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Primary enforcement authority for RICO; used the statute to dismantle the Five Families and prosecute modern criminal enterprises', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Lead investigative agency for RICO enterprise investigations; developed evidence for the Commission Case and subsequent organized crime prosecutions', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Lead investigative agency for RICO enterprise investigations; developed evidence for the Commission Case and subsequent organized crime prosecutions', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '1964-01-01',
    lastActivityDate: '2025-04-07',
@@ -1167,7 +1142,7 @@ const investigations_r: Record<string, InvestigationData> = {
       timeline: [
      { date: '1964', event: 'RICO\'s civil provisions (Section 1964) allow private parties to sue for treble damages when injured by a pattern of racketeering activity.', type: 'default' },
      { date: '1986', event: 'THE COMMISSION CASE: RICO\'s most famous application came in 1986, when U.S.', type: 'default' },
-     { date: '2015', event: 'RICO has been used against corrupt judges (Operation Greylord in Chicago convicted 92 officials), prison gangs (the Aryan Brotherhood case resulted in multiple death penalty verdicts), and even the FIFA soccer', type: 'legal' },
+     { date: '2015', event: 'RICO has been used against corrupt judges (Operation Greylord in Chicago convicted 92 officials), prison gangs (the Aryan Brotherhood case resulted in multiple death penalty verdicts), and even the FIFA soccer', type: 'legal' }
      ],
   },
   'russian-oligarch-us-asset-networks': {
@@ -1183,18 +1158,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'SHELL COMPANY NETWORKS: Until the Corporate Transparency Act (CTA) of 2021; which faces ongoing legal challenges; the United States did not require disclosure of the beneficial owners of LLCs and corporations. This made states like Delaware, Nevada, Wyoming, and South Dakota preferred jurisdictions for Russian oligarchs creating opaque ownership structures. The FinCEN Files leak in 2020 revealed that major banks processed over $2 trillion in suspicious transactions; including significant flows connected to Russian oligarchs; while filing Suspicious Activity Reports that were largely ignored by regulators.',
       'SANCTIONS EVASION: Following Russia\'s 2022 invasion of Ukraine, the U.S. imposed sanctions on hundreds of Russian oligarchs and entities. The REPO Task Force identified over $30 billion in sanctioned Russian assets globally; including superyachts, private jets, real estate, and financial accounts. However, enforcement revealed the difficulty of tracing assets hidden behind layers of shell companies, nominees, and trusts in multiple jurisdictions. Oligarchs like Roman Abramovich, Alisher Usmanov, and Viktor Vekselberg had decades to establish complex ownership structures designed to survive exactly this kind of pressure.',
       'ENABLERS AND FACILITATORS: Russian oligarch asset networks depend on a network of American enablers; including real estate brokers, lawyers, accountants, wealth managers, art dealers, and private bankers; who facilitate the placement and layering of potentially illicit funds. Unlike banks, most of these professionals are not subject to anti-money-laundering (AML) reporting requirements. The American Bar Association has successfully lobbied against subjecting lawyers to AML rules; arguing attorney-client privilege. This "enabler ecosystem" ensures that oligarch money continues to flow into the American economy despite sanctions.',
-      'SYSTEMIC VULNERABILITY: The penetration of Russian oligarch money into the U.S. economy is not a bug; it is a feature of American financial architecture. The United States benefits from capital inflows that support real estate prices, art markets, and financial markets. Major financial institutions earn substantial fees from high-net-worth clients regardless of the source of their wealth. Political donations from oligarch-connected entities and individuals influence U.S. policy. The fundamental tension between America\'s role as a global haven for capital and its stated commitment to combating kleptocracy remains unresolved.',
+      'SYSTEMIC VULNERABILITY: The penetration of Russian oligarch money into the U.S. economy is not a bug; it is a feature of American financial architecture. The United States benefits from capital inflows that support real estate prices, art markets, and financial markets. Major financial institutions earn substantial fees from high-net-worth clients regardless of the source of their wealth. Political donations from oligarch-connected entities and individuals influence U.S. policy. The fundamental tension between America\'s role as a global haven for capital and its stated commitment to combating kleptocracy remains unresolved.'
     ],
     tags: ['Russian Oligarchs', 'Money Laundering', 'Sanctions Evasion', 'Shell Companies', 'Real Estate', 'Kleptocracy'],
     sources: [
       { title: 'FinCEN Files: Leaked Suspicious Activity Reports', url: 'https://www.icij.org/investigations/fincen-files/', type: 'Investigative Report' },
       { title: 'Treasury REPO Task Force Reports', url: 'https://home.treasury.gov', type: 'Government Report' },
-      { title: 'BuzzFeed/Reuters: Trump-Russia Real Estate', url: 'https://www.buzzfeednews.com', type: 'Investigative Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'BuzzFeed/Reuters: Trump-Russia Real Estate', url: 'https://www.buzzfeednews.com', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'Treasury Department', type: 'agency', relationship: 'REPO Task Force identified $30B+ in sanctioned Russian assets; Geographic Targeting Orders cover only select markets', href: '/entities/agencies/treasury' },
-      { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'At least 77 Trump-branded properties purchased by Russian-connected shell companies per BuzzFeed/Reuters investigation', href: '/entities/corporations/trump-organization' },
+      { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'At least 77 Trump-branded properties purchased by Russian-connected shell companies per BuzzFeed/Reuters investigation', href: '/entities/corporations/trump-organization' }
     ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2026-02-21',
@@ -1203,7 +1177,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 BuzzFeed News/Reuters investigation found that at least 77 Trump-branded properties were purchased by Russian-connected LLCs', type: 'default' },
      { date: '2020', event: 'The FinCEN Files leak in 2020 revealed that major banks processed over $2 trillion in suspicious transactions; including significant flows connected to Russian oligarchs', type: 'default' },
      { date: '2021', event: 'SHELL COMPANY NETWORKS: Until the Corporate Transparency Act (CTA) of 2021; which faces ongoing legal challenges; the United States did not require disclosure of the beneficial owners of LLCs and c', type: 'default' },
-     { date: '2022', event: 'SANCTIONS EVASION: Following Russia\'s 2022 invasion of Ukraine, the U.S', type: 'default' },
+     { date: '2022', event: 'SANCTIONS EVASION: Following Russia\'s 2022 invasion of Ukraine, the U.S', type: 'default' }
    ],
   },
   'revolving-door-lobbyist-pipeline': {
@@ -1219,26 +1193,24 @@ const investigations_r: Record<string, InvestigationData> = {
       'THE BILLY TAUZIN MODEL: The revolving door\'s most notorious example is Representative Billy Tauzin (R-LA), who as chairman of the House Energy and Commerce Committee shepherded the Medicare Modernization Act of 2003 through Congress. The law included a provision explicitly prohibiting Medicare from negotiating drug prices; a gift worth hundreds of billions to the pharmaceutical industry. Within months of the bill\'s passage, Tauzin resigned from Congress and became president of PhRMA, the pharmaceutical industry\'s lobbying group, at a salary of $2 million per year. His successor, Tom Scully, who had administered Medicare, also joined a private equity firm focused on healthcare.',
       'REGULATORY REVOLVING DOOR: The Securities and Exchange Commission serves as perhaps the clearest example of regulatory capture through the revolving door. A 2013 study found that SEC attorneys who later took jobs at law firms representing Wall Street were more lenient toward potential violators. Former SEC chairs have joined major financial institutions: Mary Jo White returned to Debevoise & Plimpton (defending corporations); Jay Clayton joined Apollo Global Management; Christopher Cox joined private equity. The pattern repeats across every major regulator: FCC commissioners join telecom companies, EPA administrators join energy firms, Pentagon officials join defense contractors.',
       'THE COOLING-OFF LOOPHOLE: Federal law imposes a one-year lobbying ban on former House members and a two-year ban on former senators. However, these restrictions are trivially circumvented. Former officials can immediately join lobbying firms as "strategic advisors" or "senior counselors" who provide "strategic advice" to clients without technically "lobbying." They can lobby the executive branch while their ban covers only Congress, and vice versa. Former staff members face even fewer restrictions. The result is that cooling-off periods are largely symbolic; former officials continue to sell access and influence from day one.',
-      'SYSTEMIC IMPACT: The revolving door shapes policy outcomes across every sector of the economy. Defense spending remains inflated because Pentagon officials know their post-service careers depend on maintaining good relationships with contractors. Financial regulation remains weak because SEC and CFTC officials know their future employers will be the banks they regulate. Environmental standards remain lenient because EPA officials know that energy companies offer lucrative consulting positions. Healthcare costs remain the highest in the world partly because HHS officials know the pharmaceutical and insurance industries will reward compliant regulators. The revolving door does not just reward corruption after the fact; it incentivizes regulatory capture during service.',
+      'SYSTEMIC IMPACT: The revolving door shapes policy outcomes across every sector of the economy. Defense spending remains inflated because Pentagon officials know their post-service careers depend on maintaining good relationships with contractors. Financial regulation remains weak because SEC and CFTC officials know their future employers will be the banks they regulate. Environmental standards remain lenient because EPA officials know that energy companies offer lucrative consulting positions. Healthcare costs remain the highest in the world partly because HHS officials know the pharmaceutical and insurance industries will reward compliant regulators. The revolving door does not just reward corruption after the fact; it incentivizes regulatory capture during service.'
     ],
     tags: ['Revolving Door', 'Lobbying', 'Regulatory Capture', 'Government Corruption', 'K Street', 'Influence Peddling'],
     sources: [
       { title: 'OpenSecrets: Revolving Door Database', url: 'https://www.opensecrets.org/revolving', type: 'Financial Analysis' },
       { title: 'POGO: Revolving Door Reports', url: 'https://www.pogo.org', type: 'Research' },
-      { title: 'Lobbying Disclosure Act Database', url: 'https://disclosurespreview.house.gov/', type: 'Government Record' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Lobbying Disclosure Act Database', url: 'https://disclosurespreview.house.gov/', type: 'Government Record' }
     ],
     affiliations: [
       { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Over 60% of departing members become lobbyists or "strategic advisors"; cooling-off periods trivially circumvented', href: '/entities/agencies/congress' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution authority for government corruption', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution authority for government corruption', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2024-09-29',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2003', event: 'The revolving door\'s most notorious example is Representative Billy Tauzin (R-LA), who as chairman of the House Energy and Commerce Committee shepherded the Medicare Modernization Act of 2003 through Congress.', type: 'political' },
-     { date: '2013', event: 'A 2013 study found that SEC attorneys who later took jobs at law firms representing Wall Street were more lenient toward potential violators.', type: 'default' },
+     { date: '2013', event: 'A 2013 study found that SEC attorneys who later took jobs at law firms representing Wall Street were more lenient toward potential violators.', type: 'default' }
      ],
   },
   'regulatory-capture-federal-agencies': {
@@ -1254,18 +1226,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'THE SEC AND WALL STREET: The Securities and Exchange Commission has repeatedly failed to act on evidence of fraud by major financial institutions. The SEC received credible warnings about Bernie Madoff\'s Ponzi scheme from Harry Markopolos starting in 2000 but took no action for nearly a decade; during which Madoff stole an additional $50 billion. Prior to the 2008 financial crisis, SEC staff identified problems with mortgage-backed securities at major banks but enforcement was blocked by political appointees. A 2013 study by the Project on Government Oversight found that over 400 former SEC employees had filed almost 800 representations to appear before the agency on behalf of private clients within two years of leaving.',
       'THE EPA AND CHEMICAL INDUSTRY: The Environmental Protection Agency has been repeatedly captured by the industries it regulates. Under the Toxic Substances Control Act (TSCA), the EPA failed to ban asbestos even after the agency\'s own scientists determined it was a carcinogen causing thousands of deaths annually. Of approximately 80,000 chemicals in commercial use, the EPA has required testing for only about 200 and has restricted only five under TSCA\'s original provisions. Industry lobbyists have systematically weakened EPA enforcement through budget cuts; the agency\'s enforcement budget has declined by approximately 30% in real terms since 2010.',
       'THE USDA AND MEATPACKING: The United States Department of Agriculture has been captured by the meatpacking industry it inspects. The "Big Four" meatpackers (Tyson, JBS, Cargill, National Beef) control over 80% of the U.S. beef market and exert outsized influence over USDA policy. Line speeds in processing plants have been increased despite worker safety concerns. During COVID-19, the USDA allowed plants to continue operating despite massive outbreaks; at least 59,000 meatpacking workers were infected and 269 died. USDA inspection capacity has been reduced; with the agency piloting programs that shift inspection responsibilities to company employees.',
-      'THE STRUCTURAL MECHANISM: Regulatory capture operates through five reinforcing channels: (1) the revolving door; where regulators know their future employment depends on industry relationships; (2) information asymmetry, where agencies depend on the industries they regulate for technical expertise; (3) political pressure, where congressional allies of industry defund and destaff agencies; (4) lobbying and litigation, where industries deploy massive resources to shape rules and challenge enforcement; and (5) cultural capture, where regulators adopt the worldview and priorities of the industries they interact with daily. These mechanisms ensure that regulatory agencies systematically prioritize industry interests over public welfare.',
+      'THE STRUCTURAL MECHANISM: Regulatory capture operates through five reinforcing channels: (1) the revolving door; where regulators know their future employment depends on industry relationships; (2) information asymmetry, where agencies depend on the industries they regulate for technical expertise; (3) political pressure, where congressional allies of industry defund and destaff agencies; (4) lobbying and litigation, where industries deploy massive resources to shape rules and challenge enforcement; and (5) cultural capture, where regulators adopt the worldview and priorities of the industries they interact with daily. These mechanisms ensure that regulatory agencies systematically prioritize industry interests over public welfare.'
     ],
     tags: ['Regulatory Capture', 'FAA', 'SEC', 'EPA', 'USDA', 'Boeing', 'Industry Influence'],
     sources: [
       { title: 'POGO: Captured Agency Reports', url: 'https://www.pogo.org', type: 'Research' },
       { title: 'House Transportation Committee: Boeing 737 MAX Investigation', url: 'https://transportation.house.gov', type: 'Congressional Report' },
-      { title: 'SEC OIG: Investigation of Failure to Uncover Madoff', url: 'https://www.sec.gov/oig', type: 'Government Audit' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'SEC OIG: Investigation of Failure to Uncover Madoff', url: 'https://www.sec.gov/oig', type: 'Government Audit' }
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Ignored Madoff warnings for nearly a decade; 400+ former employees represented private clients before the agency within two years of leaving', href: '/entities/agencies/sec' },
-      { id: '2', name: 'EPA', type: 'agency', relationship: 'Failed to regulate 80,000+ commercial chemicals; enforcement budget reduced 30% since 2010; captured by chemical and fossil fuel industries', href: '/entities/agencies/epa' },
+      { id: '2', name: 'EPA', type: 'agency', relationship: 'Failed to regulate 80,000+ commercial chemicals; enforcement budget reduced 30% since 2010; captured by chemical and fossil fuel industries', href: '/entities/agencies/epa' }
     ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2022-04-20',
@@ -1274,7 +1245,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2000', event: 'The SEC received credible warnings about Bernie Madoff\'s Ponzi scheme from Harry Markopolos starting in 2000 but took no action for nearly a decade; during which Madoff stole an additional $50 billion', type: 'political' },
      { date: '2008', event: 'Prior to the 2008 financial crisis, SEC staff identified problems with mortgage-backed securities at major banks but enforcement was blocked by political appointees', type: 'default' },
      { date: '2010', event: 'Industry lobbyists have systematically weakened EPA enforcement through budget cuts; the agency\'s enforcement budget has declined by approximately 30% in real terms since 2010', type: 'default' },
-     { date: '2013', event: 'A 2013 study by the Project on Government Oversight found that over 400 former SEC employees had filed almost 800 representations to appear before the agency on behalf of private clients within two', type: 'default' },
+     { date: '2013', event: 'A 2013 study by the Project on Government Oversight found that over 400 former SEC employees had filed almost 800 representations to appear before the agency on behalf of private clients within two', type: 'default' }
    ],
   },
   'restaurant-industry-money-laundering': {
@@ -1290,18 +1261,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'GHOST RESTAURANTS AND SHELL OPERATIONS: Criminal organizations create restaurants that exist primarily as laundering vehicles. These establishments may serve minimal food while reporting substantial revenues. In 2019, Italian authorities working with the FBI dismantled a Ndrangheta money laundering network that operated dozens of restaurants and pizzerias across the eastern United States; laundering proceeds from cocaine trafficking through fake receipts and inflated food costs. Similar networks have been identified involving Mexican cartel money laundered through taquerias and Chinese underground banking operations using Chinese restaurants as fronts.',
       'SUPPLY CHAIN LAUNDERING: Restaurant supply chains provide additional laundering opportunities. Criminals create food supply companies that issue inflated invoices to restaurants they control. The restaurant pays the inflated price; the supply company returns the excess as "rebates" or through other channels; and the money emerges clean. This technique was central to the Gambino crime family\'s operations in New York, where they controlled waste hauling, linen services, and food supply companies that served restaurants throughout the city. The complexity of restaurant supply chains makes these transactions extremely difficult to trace.',
       'FRANCHISE AND CHAIN EXPLOITATION: Franchise restaurant operations create additional laundering opportunities. Criminal organizations purchase multiple franchise locations; using them to process illicit funds through exaggerated cash sales across numerous locations. The high turnover and failure rate of franchise restaurants provides cover for rapid acquisition and disposal of locations. Federal prosecutors have identified cases where drug trafficking organizations purchased dozens of fast-food franchise locations; using them as a distributed laundering network that was far harder to detect than a single large operation.',
-      'DETECTION CHALLENGES: Restaurant money laundering is extremely difficult for law enforcement to detect and prosecute. Unlike banking transactions; which generate electronic records and are subject to Bank Secrecy Act reporting requirements; restaurant cash transactions leave minimal paper trails. The legitimate variability in restaurant revenues (seasonal fluctuations, event-driven spikes, new menu items) provides cover for artificial inflation. IRS Criminal Investigation devotes limited resources to restaurant-sector cases because they are labor-intensive and produce relatively small individual case values; even though the aggregate volume is enormous.',
+      'DETECTION CHALLENGES: Restaurant money laundering is extremely difficult for law enforcement to detect and prosecute. Unlike banking transactions; which generate electronic records and are subject to Bank Secrecy Act reporting requirements; restaurant cash transactions leave minimal paper trails. The legitimate variability in restaurant revenues (seasonal fluctuations, event-driven spikes, new menu items) provides cover for artificial inflation. IRS Criminal Investigation devotes limited resources to restaurant-sector cases because they are labor-intensive and produce relatively small individual case values; even though the aggregate volume is enormous.'
     ],
     tags: ['Money Laundering', 'Restaurant Industry', 'Organized Crime', 'Cash Business', 'Tax Evasion', 'Financial Crime'],
     sources: [
       { title: 'FinCEN: Cash-Intensive Business Guidance', url: 'https://www.fincen.gov', type: 'Government Report' },
       { title: 'IRS Criminal Investigation: Money Laundering Cases', url: 'https://www.irs.gov/compliance/criminal-investigation', type: 'Government Record' },
-      { title: 'FBI: Organized Crime and Money Laundering', url: 'https://www.fbi.gov/investigate/organized-crime', type: 'Government Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'FBI: Organized Crime and Money Laundering', url: 'https://www.fbi.gov/investigate/organized-crime', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes restaurant-based money laundering; dismantled Ndrangheta network operating dozens of restaurants as laundering fronts', href: '/entities/agencies/doj' },
-      { id: '2', name: 'IRS', type: 'agency', relationship: 'Criminal Investigation division handles restaurant-sector tax evasion and money laundering cases', href: '/entities/agencies/irs' },
+      { id: '2', name: 'IRS', type: 'agency', relationship: 'Criminal Investigation division handles restaurant-sector tax evasion and money laundering cases', href: '/entities/agencies/irs' }
     ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-10-21',
@@ -1312,7 +1282,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2019-07', event: 'Italian authorities and FBI dismantle Ndrangheta money laundering network operating dozens of restaurants and pizzerias across eastern United States', type: 'legal' },
      { date: '2021-03', event: 'DOJ indicts operators of sham restaurant network in Los Angeles laundering Mexican cartel drug proceeds through inflated cash receipts', type: 'legal' },
      { date: '2022-11', event: 'IRS Criminal Investigation reports restaurant-sector money laundering cases increased 23% post-pandemic as delivery app platforms created new fraud vectors', type: 'financial' },
-     { date: '2024-02', event: 'Treasury Department proposes enhanced beneficial ownership reporting requirements for cash-intensive businesses including restaurants', type: 'default' },
+     { date: '2024-02', event: 'Treasury Department proposes enhanced beneficial ownership reporting requirements for cash-intensive businesses including restaurants', type: 'default' }
    ],
   },
   'redaction-abuse-in-public-documents': {
@@ -1328,18 +1298,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'FOIA WEAPONIZATION: The Freedom of Information Act, enacted in 1966 and amended multiple times, provides nine exemptions that agencies routinely interpret as broadly as possible. Exemption 1 (classified information) is applied to documents that agencies classified specifically to avoid FOIA disclosure. Exemption 5 (deliberative process) is used to conceal internal discussions about policy decisions. Exemption 7 (law enforcement) shields information about government misconduct during investigations. Average FOIA processing times have increased to over 200 days; and backlog at major agencies exceeds 100,000 requests. The CIA, NSA, and FBI are the worst offenders; routinely taking years to process requests and producing heavily redacted documents.',
       'DOCUMENTED ABUSE CASES: The CIA classified information about its torture program specifically to prevent disclosure; when the Senate Intelligence Committee\'s Torture Report was finally released, the executive summary was heavily redacted and the full 6,700-page report remains classified. The FBI classified COINTELPRO documents that revealed illegal surveillance of Martin Luther King Jr. and other civil rights leaders. The NSA classified evidence of its warrantless wiretapping program that was exposed by the New York Times in 2005. In each case, the classification served to protect agencies from accountability for illegal conduct rather than to protect national security.',
       'THE GLOMAR RESPONSE: The CIA pioneered the "Glomar response"; neither confirming nor denying the existence of requested records; in response to a 1976 FOIA request about the Glomar Explorer ship. This response has since been adopted by numerous agencies as a blanket tool to avoid disclosure. Courts have generally deferred to agency claims about the need for secrecy; applying the "mosaic theory" that individual pieces of information, even if seemingly innocuous, might reveal classified patterns when combined. This theory gives agencies effectively unlimited power to withhold information.',
-      'REFORM EFFORTS: Multiple reform laws have attempted to address over-classification and FOIA abuse. Executive Order 13526 (Obama, 2009) established a National Declassification Center and set 25-year automatic declassification timelines. The FOIA Improvement Act of 2016 codified a "foreseeable harm" standard requiring agencies to demonstrate that disclosure would cause specific harm. The Public Interest Declassification Board has recommended fundamental reforms including reducing the number of classification authorities and creating a classification challenge mechanism. However, each reform has been undermined by agency resistance and the fundamental incentive structure that rewards secrecy over transparency.',
+      'REFORM EFFORTS: Multiple reform laws have attempted to address over-classification and FOIA abuse. Executive Order 13526 (Obama, 2009) established a National Declassification Center and set 25-year automatic declassification timelines. The FOIA Improvement Act of 2016 codified a "foreseeable harm" standard requiring agencies to demonstrate that disclosure would cause specific harm. The Public Interest Declassification Board has recommended fundamental reforms including reducing the number of classification authorities and creating a classification challenge mechanism. However, each reform has been undermined by agency resistance and the fundamental incentive structure that rewards secrecy over transparency.'
     ],
     tags: ['Over-Classification', 'FOIA', 'Government Secrecy', 'Redaction', 'National Security', 'Transparency'],
     sources: [
       { title: 'ISOO: Annual Reports to the President on Classification', url: 'https://www.archives.gov/isoo', type: 'Government Report' },
       { title: 'Moynihan Commission on Government Secrecy', url: 'https://www.gpo.gov', type: 'Congressional Report' },
-      { title: 'National Security Archive FOIA Audits', url: 'https://nsarchive.gwu.edu', type: 'Research' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'National Security Archive FOIA Audits', url: 'https://nsarchive.gwu.edu', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Oversees FOIA compliance across federal agencies; Office of Information Policy interprets exemptions as broadly as possible', href: '/entities/agencies/doj' },
-      { id: '2', name: 'CIA', type: 'agency', relationship: 'Pioneered the Glomar response; classified torture program to avoid accountability; among the worst FOIA compliance records', href: '/entities/agencies/cia' },
+      { id: '2', name: 'CIA', type: 'agency', relationship: 'Pioneered the Glomar response; classified torture program to avoid accountability; among the worst FOIA compliance records', href: '/entities/agencies/cia' }
     ],
    eventOriginDate: '1966-01-01',
    lastActivityDate: '2022-10-16',
@@ -1350,7 +1319,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1997', event: 'Multiple government commissions have concluded that the system is broken: the Moynihan Commission (1997) found that secrecy had become "a form of government regulation" that "conceals both the acti', type: 'default' },
      { date: '2005', event: 'The NSA classified evidence of its warrantless wiretapping program that was exposed by the New York Times in 2005', type: 'default' },
      { date: '2009', event: 'Executive Order 13526 (Obama, 2009) established a National Declassification Center and set 25-year automatic declassification timelines', type: 'political' },
-     { date: '2016', event: 'The FOIA Improvement Act of 2016 codified a "foreseeable harm" standard requiring agencies to demonstrate that disclosure would cause specific harm', type: 'default' },
+     { date: '2016', event: 'The FOIA Improvement Act of 2016 codified a "foreseeable harm" standard requiring agencies to demonstrate that disclosure would cause specific harm', type: 'default' }
    ],
   },
   'real-estate-money-laundering-corridors': {
@@ -1366,18 +1335,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'THE MIAMI CORRIDOR: South Florida is the epicenter of real estate money laundering in the United States. A 2017 investigation by the Miami Herald found that $1.6 billion in Miami-Dade County real estate was purchased by anonymous LLCs linked to individuals from countries with high corruption risk. The Sunny Isles Beach area; with its concentration of luxury condominiums marketed to Latin American and Russian buyers; has earned the nickname "Little Moscow." Venezuelan kleptocrats, Brazilian corruption figures, and Colombian drug money have all been traced to Miami properties. Despite the GTO program, enforcement remains minimal.',
       'THE NEW YORK MARKET: Manhattan luxury real estate has served as a money laundering vehicle for decades. A 2015 New York Times investigation found that shell companies had purchased most of the condominiums in the Time Warner Center; with buyers including associates of corrupt foreign officials, sanctioned individuals, and suspected criminals. One unit was purchased by an LLC linked to a Russian oligarch; another by a company connected to a former Colombian intelligence official accused of money laundering. The GTO program in New York covers purchases above $300,000 in Manhattan; but excludes Brooklyn, Queens, and commercial properties.',
       'TITLE INSURANCE AND REAL ESTATE PROFESSIONALS: Title insurance companies, real estate agents, and lawyers serve as the gatekeepers of real estate transactions; yet they face minimal anti-money-laundering obligations. The National Association of Realtors (NAR) has lobbied successfully against BSA requirements for real estate agents; arguing that they would be burdensome. The American Bar Association has similarly resisted AML requirements for lawyers involved in real estate transactions. FinCEN proposed rules in 2024 that would require certain real estate professionals to identify beneficial owners in non-financed purchases; but the rules face industry opposition and uncertain implementation timelines.',
-      'THE CORPORATE TRANSPARENCY ACT: The Corporate Transparency Act (CTA), enacted in 2021, requires most LLCs and corporations to disclose their beneficial owners to FinCEN. This represents a fundamental shift in U.S. transparency policy. However, the law has faced legal challenges; a federal district court initially ruled it unconstitutional (National Small Business United v. Yellen), though the ruling was subsequently stayed. Even if fully implemented, the CTA\'s effectiveness depends on enforcement resources. FinCEN\'s Beneficial Ownership Information (BOI) database must be maintained, verified, and made accessible to law enforcement; a massive undertaking for an already under-resourced agency.',
+      'THE CORPORATE TRANSPARENCY ACT: The Corporate Transparency Act (CTA), enacted in 2021, requires most LLCs and corporations to disclose their beneficial owners to FinCEN. This represents a fundamental shift in U.S. transparency policy. However, the law has faced legal challenges; a federal district court initially ruled it unconstitutional (National Small Business United v. Yellen), though the ruling was subsequently stayed. Even if fully implemented, the CTA\'s effectiveness depends on enforcement resources. FinCEN\'s Beneficial Ownership Information (BOI) database must be maintained, verified, and made accessible to law enforcement; a massive undertaking for an already under-resourced agency.'
     ],
     tags: ['Real Estate', 'Money Laundering', 'Shell Companies', 'All-Cash Purchases', 'FinCEN', 'Corporate Transparency Act'],
     sources: [
       { title: 'Treasury GTO Data and Reports', url: 'https://www.fincen.gov/', type: 'Government Report' },
       { title: 'New York Times: Towers of Secrecy', url: 'https://www.nytimes.com/news-event/shell-company-towers-of-secrecy-real-estate', type: 'Investigative Report' },
-      { title: 'Global Financial Integrity: Illicit Financial Flows in Real Estate', url: 'https://gfintegrity.org', type: 'Research' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Global Financial Integrity: Illicit Financial Flows in Real Estate', url: 'https://gfintegrity.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Kleptocracy Asset Recovery Initiative has seized properties linked to corrupt foreign officials; enforcement limited relative to scale', href: '/entities/agencies/doj' },
-      { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'Properties extensively purchased by anonymous shell companies; Trump-branded buildings identified as frequent vehicles for suspicious transactions', href: '/entities/corporations/trump-organization' },
+      { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'Properties extensively purchased by anonymous shell companies; Trump-branded buildings identified as frequent vehicles for suspicious transactions', href: '/entities/corporations/trump-organization' }
     ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-05-10',
@@ -1386,7 +1354,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2015', event: 'A 2015 New York Times investigation found that shell companies had purchased most of the condominiums in the Time Warner Center', type: 'default' },
      { date: '2017', event: 'A 2017 investigation by the Miami Herald found that $1.6 billion in Miami-Dade County real estate was purchased by anonymous LLCs linked to individuals from countries with high corruption risk', type: 'political' },
      { date: '2021', event: 'THE CORPORATE TRANSPARENCY ACT: The Corporate Transparency Act (CTA), enacted in 2021, requires most LLCs and corporations to disclose their beneficial owners to FinCEN', type: 'default' },
-     { date: '2024', event: 'FinCEN proposed rules in 2024 that would require certain real estate professionals to identify beneficial owners in non-financed purchases', type: 'default' },
+     { date: '2024', event: 'FinCEN proposed rules in 2024 that would require certain real estate professionals to identify beneficial owners in non-financed purchases', type: 'default' }
    ],
   },
   'retail-facial-recognition-deployment': {
@@ -1402,25 +1370,24 @@ const investigations_r: Record<string, InvestigationData> = {
       'CLEARVIEW AI AND THE SCRAPING SCANDAL: Clearview AI, whose technology is used by numerous retailers and over 3,100 law enforcement agencies, built its database by scraping over 30 billion photos from social media platforms, news sites, and other public sources without consent. The company\'s technology matches faces captured by retail cameras against this massive database; effectively deanonymizing shoppers in real time. Multiple lawsuits, including a class action settlement in Illinois for $52 million under the state\'s Biometric Information Privacy Act (BIPA), have challenged Clearview\'s practices. Despite this, the company continues operating and expanding.',
       'RACIAL BIAS AND MISIDENTIFICATION: The National Institute of Standards and Technology (NIST) published extensive testing of commercial facial recognition systems finding significant demographic disparities. Many algorithms had false positive rates 10-100 times higher for Black and East Asian faces compared to White male faces. In retail contexts, this means Black shoppers are disproportionately flagged as "matches" for shoplifting suspects. In 2020, Robert Williams, a Black man in Detroit, was wrongfully arrested based on a faulty facial recognition match from a retail theft investigation. At least six cases of wrongful arrest based on facial recognition misidentification have been publicly documented.',
       'LAW ENFORCEMENT SHARING: Retail facial recognition systems frequently share data with law enforcement agencies; creating a privatized surveillance network that circumvents Fourth Amendment protections. When police request facial recognition data from retailers, no warrant is required because the data is held by a private company. Some retailers have integrated their systems directly with local police departments; providing real-time alerts when flagged individuals enter stores. This public-private surveillance partnership means that a person can be tracked across multiple retail locations, identified, and reported to police without any judicial oversight.',
-      'REGULATORY LANDSCAPE: Only three states; Illinois (BIPA), Texas, and Washington; have biometric privacy laws, though the strength of enforcement varies dramatically. Illinois\'s BIPA, which provides a private right of action with statutory damages of $1,000-$5,000 per violation, has produced significant settlements: Facebook paid $650 million and Google paid $100 million for biometric data violations. The European Union\'s GDPR and proposed AI Act provide stronger protections. At the federal level, no comprehensive biometric privacy law exists. Industry lobbying groups; including the Retail Industry Leaders Association and the Chamber of Commerce; have fought against biometric privacy legislation at both state and federal levels.',
+      'REGULATORY LANDSCAPE: Only three states; Illinois (BIPA), Texas, and Washington; have biometric privacy laws, though the strength of enforcement varies dramatically. Illinois\'s BIPA, which provides a private right of action with statutory damages of $1,000-$5,000 per violation, has produced significant settlements: Facebook paid $650 million and Google paid $100 million for biometric data violations. The European Union\'s GDPR and proposed AI Act provide stronger protections. At the federal level, no comprehensive biometric privacy law exists. Industry lobbying groups; including the Retail Industry Leaders Association and the Chamber of Commerce; have fought against biometric privacy legislation at both state and federal levels.'
     ],
     tags: ['Facial Recognition', 'Biometric Privacy', 'Retail Surveillance', 'Clearview AI', 'Racial Bias', 'BIPA'],
     sources: [
       { title: 'NIST: Face Recognition Vendor Test (FRVT)', url: 'https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt', type: 'Research' },
       { title: 'Fight for the Future: Ban Facial Recognition', url: 'https://www.banfacialrecognition.com', type: 'Policy Research' },
-      { title: 'ACLU: Facial Recognition Litigation', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies/face-recognition-technology', type: 'Legal Document' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'ACLU: Facial Recognition Litigation', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies/face-recognition-technology', type: 'Legal Document' }
     ],
     affiliations: [
       { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Scraped 30B+ photos to build facial recognition database used by retailers and 3,100+ law enforcement agencies; $52M BIPA settlement', href: '/entities/corporations/clearview-ai' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Maintains Next Generation Identification database with 640M+ photos; accesses retail facial recognition data without warrants', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Maintains Next Generation Identification database with 640M+ photos; accesses retail facial recognition data without warrants', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-07-12',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2020', event: 'In 2020, Robert Williams, a Black man in Detroit, was wrongfully arrested based on a faulty facial recognition match from a retail theft investigation.', type: 'default' },
-     { date: '2023', event: 'A 2023 survey by the advocacy group Fight for the Future found that approximately 70% of the top 100 U.S.', type: 'default' },
+     { date: '2023', event: 'A 2023 survey by the advocacy group Fight for the Future found that approximately 70% of the top 100 U.S.', type: 'default' }
      ],
   },
   'redistricting-manipulation-court-cases': {
@@ -1436,19 +1403,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'RACIAL GERRYMANDERING: While the Court retreated from policing partisan gerrymandering, racial gerrymandering remains justiciable under the Equal Protection Clause and the Voting Rights Act. In Allen v. Milligan (2023), the Court (5-4, with Roberts joining liberals) struck down Alabama\'s congressional map that packed Black voters into a single district despite comprising 27% of the state\'s population; entitling them to two majority-minority districts. However, enforcement remains uneven. After the Shelby County v. Holder (2013) decision gutted the Voting Rights Act\'s preclearance requirement, states that were previously covered; including Texas, Georgia, North Carolina, and Mississippi; implemented maps that diluted minority voting power.',
       'THE TECHNOLOGY ESCALATION: Modern gerrymandering bears little resemblance to its historical predecessors. Redistricting consultants now use sophisticated mapping software combined with voter data, consumer behavior data, and demographic projections to draw maps with surgical precision. Thomas Hofeller, the Republican Party\'s chief redistricting strategist until his death in 2018, developed techniques that could predict election outcomes with near-certainty based on district composition. His hard drives, discovered after his death, revealed that he had studied using citizenship question data to "be advantageous to Republicans and Non-Hispanic Whites"; connecting redistricting manipulation to the Trump administration\'s attempt to add a citizenship question to the 2020 Census.',
       'OPERATION REDMAP: The Republican State Leadership Committee\'s "REDMAP" (Redistricting Majority Project) invested $30 million in 2010 state legislative races specifically to control redistricting after the 2010 Census. The strategy was extraordinarily successful: by winning state legislatures in Pennsylvania, Ohio, Michigan, Wisconsin, North Carolina, and other swing states, Republicans drew maps that locked in congressional majorities even when Democrats won more total votes statewide. In the 2012 elections, Democratic House candidates received 1.4 million more votes nationally but Republicans retained a 33-seat House majority; largely due to gerrymandered maps.',
-      'INDEPENDENT COMMISSIONS AND REFORM: Arizona, California, Colorado, Michigan, and Virginia have adopted independent redistricting commissions that remove map-drawing authority from partisan legislators. California\'s Citizens Redistricting Commission, adopted by ballot initiative in 2008 (Proposition 11) and expanded in 2010 (Proposition 20), is widely regarded as a model. However, most states still allow partisan legislators to draw their own districts. Congressional efforts to mandate independent commissions; including the For the People Act and the Freedom to Vote Act; have been blocked by Senate filibuster. The result is a patchwork system where some states have competitive elections while others have maps designed to predetermine outcomes.',
+      'INDEPENDENT COMMISSIONS AND REFORM: Arizona, California, Colorado, Michigan, and Virginia have adopted independent redistricting commissions that remove map-drawing authority from partisan legislators. California\'s Citizens Redistricting Commission, adopted by ballot initiative in 2008 (Proposition 11) and expanded in 2010 (Proposition 20), is widely regarded as a model. However, most states still allow partisan legislators to draw their own districts. Congressional efforts to mandate independent commissions; including the For the People Act and the Freedom to Vote Act; have been blocked by Senate filibuster. The result is a patchwork system where some states have competitive elections while others have maps designed to predetermine outcomes.'
     ],
     tags: ['Gerrymandering', 'Redistricting', 'Voting Rights', 'Rucho v. Common Cause', 'REDMAP', 'Electoral Manipulation'],
     sources: [
       { title: 'Rucho v. Common Cause, 588 U.S. (2019)', url: 'https://www.supremecourt.gov/opinions/18pdf/18-422_9ol1.pdf', type: 'Court Record' },
       { title: 'Brennan Center: Redistricting Analysis', url: 'https://www.brennancenter.org/issues/gerrymandering-fair-representation', type: 'Research' },
-      { title: 'FiveThirtyEight: The Atlas of Redistricting', url: 'https://projects.fivethirtyeight.com/redistricting-maps/', type: 'Research' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'FiveThirtyEight: The Atlas of Redistricting', url: 'https://projects.fivethirtyeight.com/redistricting-maps/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Rucho v. Common Cause (2019) declared partisan gerrymandering non-justiciable; effectively legalized unlimited partisan map manipulation', href: '/entities/agencies/supreme-court' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-01-01',
@@ -1461,17 +1426,9 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2018', event: 'Thomas Hofeller, the Republican Party\'s chief redistricting strategist until his death in 2018, developed techniques that could predict election outcomes with near-certainty based on district compo...', type: 'critical' },
      { date: '2019', event: 'Common Cause (2019), the Supreme Court ruled 5-4 that partisan gerrymandering claims present political questions beyond the reach of federal courts', type: 'legal' },
      { date: '2020', event: 'His hard drives, discovered after his death, revealed that he had studied using citizenship question data to "be advantageous to Republicans and Non-Hispanic Whites"', type: 'critical' },
-     { date: '2023', event: 'Milligan (2023), the Court (5-4, with Roberts joining liberals) struck down Alabama\'s congressional map that packed Black voters into a single district despite comprising 27% of the state\'s populat...', type: 'legal' },
+     { date: '2023', event: 'Milligan (2023), the Court (5-4, with Roberts joining liberals) struck down Alabama\'s congressional map that packed Black voters into a single district despite comprising 27% of the state\'s populat...', type: 'legal' }
    ],
   },
-
-
-
-
-
-
-
-
 
   'reagan-crimes': {
     title: "Reagan Administration Crimes",
@@ -1491,19 +1448,18 @@ const investigations_r: Record<string, InvestigationData> = {
       "THE PARDONS: On Christmas Eve 1992, outgoing President George H.W. Bush pardoned six Iran-Contra figures; including former Defense Secretary Caspar Weinberger, whose trial was about to begin and who had notes that implicated Bush himself. Walsh called the pardons 'the last act of the cover-up.' The pardons effectively ended investigations that were moving toward documenting the full scope of White House involvement.",
       "WILLIAM CASEY'S ROLE: CIA Director William Casey was the central architect of the covert operations. He expanded CIA involvement in Central America, established the arms pipeline to Iran, and reportedly authorized the drug-trafficking relationships. Casey died of a brain tumor in May 1987; days after he was scheduled to testify before Congress; taking his secrets with him.",
       "LEGACY OF IMPUNITY: Iran-Contra established the precedent that executive branch officials could violate federal law, lie to Congress, destroy evidence, and face no meaningful consequences. Several Iran-Contra figures; including Elliott Abrams, John Negroponte, and Otto Reich; returned to government positions in subsequent Republican administrations, including the George W. Bush and Trump administrations.",
-      "THE CRACK EPIDEMIC'S TOLL: The crack cocaine epidemic devastated Black communities throughout the 1980s and 1990s. Mandatory minimum sentencing laws, which treated crack (prevalent in Black communities) 100 times more harshly than powder cocaine (prevalent in White communities), resulted in mass incarceration. The Reagan administration's War on Drugs targeted the victims of a crisis that CIA-connected operatives helped create.",
+      "THE CRACK EPIDEMIC'S TOLL: The crack cocaine epidemic devastated Black communities throughout the 1980s and 1990s. Mandatory minimum sentencing laws, which treated crack (prevalent in Black communities) 100 times more harshly than powder cocaine (prevalent in White communities), resulted in mass incarceration. The Reagan administration's War on Drugs targeted the victims of a crisis that CIA-connected operatives helped create."
     ],
     tags: ["Reagan","Iran-Contra","CIA","Central America","Government Corruption","Crack Cocaine","Death Squads","Oliver North"],
     sources: [
       { title: "Walsh Iran-Contra Report", url: "https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/", type: "Government Report" },
       { title: "CIA Inspector General Drug Report (1998)", url: "https://www.cia.gov/readingroom/", type: "Government Report" },
       { title: "Gary Webb, 'Dark Alliance'", url: "https://en.wikipedia.org/wiki/Dark_Alliance", type: "Investigative Journalism" },
-      { title: "National Security Archive Iran-Contra Documents", url: "https://nsarchive.gwu.edu/", type: "Declassified Documents" },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: "National Security Archive Iran-Contra Documents", url: "https://nsarchive.gwu.edu/", type: "Declassified Documents" }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated covert arms shipments to Iran and Contras; maintained relationships with drug traffickers; supported Central American death squads', href: '/entities/agencies/cia' },
-      { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Independent Counsel Walsh investigated; convictions overturned; pardons ended accountability', href: '/entities/agencies/doj' },
+      { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Independent Counsel Walsh investigated; convictions overturned; pardons ended accountability', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1981-01-20',
    lastActivityDate: '2026-03-21',
@@ -1516,7 +1472,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1987-05', event: 'Casey died of a brain tumor in May 1987; days after he was scheduled to testify before Congress; taking his secrets with him.', type: 'political' },
      { date: '1992', event: 'THE PARDONS: On Christmas Eve 1992, outgoing President', type: 'legal' },
      { date: '1996', event: 's 1996 series documented how CIA-connected Nicaraguan Contra drug traffickers; including Oscar Danilo Blandon and Norwin Meneses; funneled tons of cocaine into Los Angeles, where it was converted into crack and sold', type: 'default' },
-     { date: '1998', event: 'The CIA Inspector General\'s 1998 report confirmed that the agency had relationships with Contra groups involved in drug trafficking and failed to report drug crimes to the DOJ.', type: 'default' },
+     { date: '1998', event: 'The CIA Inspector General\'s 1998 report confirmed that the agency had relationships with Contra groups involved in drug trafficking and failed to report drug crimes to the DOJ.', type: 'default' }
    ],
   },
   'rwandan-genocide': {
@@ -1537,7 +1493,7 @@ const investigations_r: Record<string, InvestigationData> = {
       'The International Criminal Tribunal for Rwanda (ICTR), established in November 1994 in Arusha, Tanzania, indicted 93 individuals and convicted 62. Key convictions include Prime Minister Jean Kambanda (the first head of government convicted of genocide), Colonel Theoneste Bagosora (the alleged mastermind), and media figures Ferdinand Nahimana, Jean-Bosco Barayagwiza, and Hassan Ngeze for using RTLM and Kangura newspaper to incite genocide.',
       'Sexual violence was used as a systematic weapon of genocide. The ICTR estimated that between 250,000 and 500,000 women were raped during the genocide. In the landmark Akayesu case (1998), the ICTR for the first time in international law defined rape as an act of genocide when committed with intent to destroy an ethnic group.',
       'The genocide left Rwanda devastated - nearly one million dead, two million displaced internally, and two million Hutu refugees who fled to neighboring countries fearing RPF reprisals. The aftermath destabilized the entire Great Lakes region, contributing to the First and Second Congo Wars that collectively killed an estimated 5.4 million people.',
-      'Violations of international law include: the 1948 Convention on the Prevention and Punishment of the Crime of Genocide (Articles II and III), the Geneva Conventions of 1949, the Rome Statute of the International Criminal Court (Articles 6, 7, and 8), and customary international humanitarian law. The failure to intervene by the UN, US, France, and Belgium constitutes complicity under Article III(e) of the Genocide Convention.',
+      'Violations of international law include: the 1948 Convention on the Prevention and Punishment of the Crime of Genocide (Articles II and III), the Geneva Conventions of 1949, the Rome Statute of the International Criminal Court (Articles 6, 7, and 8), and customary international humanitarian law. The failure to intervene by the UN, US, France, and Belgium constitutes complicity under Article III(e) of the Genocide Convention.'
     ],
     tags: ['genocide', 'rwanda', 'tutsi', 'hutu', 'interahamwe', 'ICTR', 'united-nations-failure', 'crimes-against-humanity', 'sexual-violence', 'machete', 'RTLM', 'radio-propaganda', 'ethnic-cleansing', 'mass-atrocity'],
     sources: [
@@ -1545,8 +1501,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch - Leave None to Tell the Story: Genocide in Rwanda', url: 'https://www.hrw.org/reports/1999/rwanda/', type: 'report' },
       { title: 'PBS Frontline - Ghosts of Rwanda', url: 'https://www.pbs.org/wgbh/pages/frontline/shows/ghosts/', type: 'documentary' },
       { title: 'National Security Archive - US Policy During the Genocide', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB53/', type: 'government' },
-      { title: 'Dallaire, Romeo. Shake Hands with the Devil. Carroll and Graf, 2004.', url: 'https://openlibrary.org/works/OL3918651W/Shake_Hands_with_the_Devil', type: 'book' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Dallaire, Romeo. Shake Hands with the Devil. Carroll and Graf, 2004.', url: 'https://openlibrary.org/works/OL3918651W/Shake_Hands_with_the_Devil', type: 'book' }
     ],
     affiliations: [
       { id: '1', name: 'Theoneste Bagosora', type: 'individual', relationship: 'Alleged chief architect of the genocide; convicted by ICTR of genocide, crimes against humanity, and war crimes', href: '/entities/individuals/theoneste-bagosora' },
@@ -1554,7 +1509,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { id: '3', name: 'Paul Kagame', type: 'individual', relationship: 'RPF leader who led military campaign that ended the genocide; later became president; accused of own human rights violations', href: '/entities/individuals/paul-kagame' },
       { id: '4', name: 'Bill Clinton', type: 'individual', relationship: 'US President who chose not to intervene; later called it the biggest failure of his presidency', href: '/entities/individuals/bill-clinton' },
       { id: '5', name: 'United Nations', type: 'organization', relationship: 'Failed to authorize intervention despite advance warnings; reduced peacekeeping forces during genocide', href: '/entities/organizations/united-nations' },
-      { id: '6', name: 'Romeo Dallaire', type: 'individual', relationship: 'UN Force Commander who warned of genocide; pleaded for reinforcements that never came', href: '/entities/individuals/romeo-dallaire' },
+      { id: '6', name: 'Romeo Dallaire', type: 'individual', relationship: 'UN Force Commander who warned of genocide; pleaded for reinforcements that never came', href: '/entities/individuals/romeo-dallaire' }
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -1566,7 +1521,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1994-01-11', event: 'UN peacekeeping commander General Romeo Dallaire had warned UN headquarters months before the genocide, sending the famous "Genocide Fax" on January 11, 1994, detailing informant intelligence about', type: 'default' },
      { date: '1994-04-06', event: 'On April 6, 1994, a plane carrying Rwandan President Juvenal Habyarimana was shot down near Kigali airport - the trigger for the genocide', type: 'political' },
      { date: '1994-11-01', event: 'The International Criminal Tribunal for Rwanda (ICTR), established in November 1994 in Arusha, Tanzania, indicted 93 individuals and convicted 62', type: 'legal' },
-     { date: '1998', event: 'In the landmark Akayesu case (1998), the ICTR for the first time in international law defined rape as an act of genocide when committed with intent to destroy an ethnic group', type: 'political' },
+     { date: '1998', event: 'In the landmark Akayesu case (1998), the ICTR for the first time in international law defined rape as an act of genocide when committed with intent to destroy an ethnic group', type: 'political' }
    ],
   },
   'rohingya-genocide': {
@@ -1586,7 +1541,7 @@ const investigations_r: Record<string, InvestigationData> = {
       'The international response included a case filed by The Gambia at the International Court of Justice (ICJ) in November 2019 under the Genocide Convention. In January 2020, the ICJ ordered provisional measures requiring Myanmar to prevent genocidal acts against the Rohingya. Myanmar has failed to comply. The International Criminal Court (ICC) authorized investigation of crimes of deportation and persecution since Myanmar\'s actions forced Rohingya into ICC member state Bangladesh.',
       'Facebook played a documented role in facilitating the genocide. A UN report found that Facebook was a "useful instrument for those seeking to spread hate" and that the platform was used to incite violence against the Rohingya through coordinated disinformation campaigns. Facebook later admitted it was "too slow to prevent misinformation and hate" in Myanmar.',
       'As of 2024, approximately 960,000 Rohingya refugees remain in overcrowded camps in Cox\'s Bazar, Bangladesh, with no prospect of safe return. Approximately 600,000 Rohingya still in Myanmar face continued persecution, movement restrictions, and violence. The February 2021 military coup in Myanmar, led by Min Aung Hlaing himself, has further eliminated any prospect of justice or accountability.',
-      'Applicable international law violations include: Convention on the Prevention and Punishment of the Crime of Genocide (1948), Articles 6 (genocide), 7 (crimes against humanity), and 8 (war crimes) of the Rome Statute, the four Geneva Conventions of 1949, the Convention against Torture, the Convention on the Elimination of All Forms of Racial Discrimination, and the Universal Declaration of Human Rights.',
+      'Applicable international law violations include: Convention on the Prevention and Punishment of the Crime of Genocide (1948), Articles 6 (genocide), 7 (crimes against humanity), and 8 (war crimes) of the Rome Statute, the four Geneva Conventions of 1949, the Convention against Torture, the Convention on the Elimination of All Forms of Racial Discrimination, and the Universal Declaration of Human Rights.'
     ],
     tags: ['genocide', 'rohingya', 'myanmar', 'ethnic-cleansing', 'sexual-violence', 'tatmadaw', 'military-junta', 'ICJ', 'ICC', 'mass-displacement', 'facebook', 'rakhine-state', 'stateless-people'],
     sources: [
@@ -1594,13 +1549,12 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'ICJ - Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v. Myanmar)', url: 'https://www.icj-cij.org/case/178', type: 'legal' },
       { title: 'Human Rights Watch - Massacre by the River: Tula Toli', url: 'https://www.hrw.org/asia/myanmar-burma', type: 'report' },
       { title: 'Medecins Sans Frontieres - Mortality Survey Results', url: 'https://www.msf.org/myanmarbangladesh-msf-surveys-estimate-least-6700-rohingya-were-killed-during-attacks-myanmar', type: 'report' },
-      { title: 'Fortify Rights - They Gave Them Long Swords', url: 'https://www.fortifyrights.org/mly-inv-rep-2018-07-19/', type: 'report' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Fortify Rights - They Gave Them Long Swords', url: 'https://www.fortifyrights.org/mly-inv-rep-2018-07-19/', type: 'report' }
     ],
     affiliations: [
       { id: '1', name: 'Min Aung Hlaing', type: 'individual', relationship: 'Commander-in-Chief of Myanmar military; identified by UN for prosecution for genocide; later led 2021 coup', href: '/entities/individuals/min-aung-hlaing' },
       { id: '2', name: 'Aung San Suu Kyi', type: 'individual', relationship: 'State Counsellor who defended military actions at ICJ; failed to use civilian authority to prevent genocide' },
-      { id: '3', name: 'Facebook', type: 'corporation', relationship: 'Platform used to spread anti-Rohingya hate speech and coordinate violence; admitted failure to prevent misuse', href: '/entities/corporations/facebook' },
+      { id: '3', name: 'Facebook', type: 'corporation', relationship: 'Platform used to spread anti-Rohingya hate speech and coordinate violence; admitted failure to prevent misuse', href: '/entities/corporations/facebook' }
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -1613,7 +1567,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2019-11-01', event: 'The international response included a case filed by The Gambia at the International Court of Justice (ICJ) in November 2019 under the Genocide Convention', type: 'legal' },
      { date: '2020', event: 'In January 2020, the ICJ ordered provisional measures requiring Myanmar to prevent genocidal acts against the Rohingya', type: 'default' },
      { date: '2021-02-01', event: 'The February 2021 military coup in Myanmar, led by Min Aung Hlaing himself, has further eliminated any prospect of justice or accountability', type: 'default' },
-     { date: '2024', event: 'As of 2024, approximately 960,000 Rohingya refugees remain in overcrowded camps in Cox\'s Bazar, Bangladesh, with no prospect of safe return', type: 'default' },
+     { date: '2024', event: 'As of 2024, approximately 960,000 Rohingya refugees remain in overcrowded camps in Cox\'s Bazar, Bangladesh, with no prospect of safe return', type: 'default' }
    ],
   },
   'robinhood-gamestop-market-manipulation': {
@@ -1629,18 +1583,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'On January 28, 2021, Robinhood and other brokerages halted buying of GameStop, AMC, Nokia, BlackBerry, and other stocks targeted by retail investors. Critically, they restricted only buying; selling remained permitted, which predictably crashed prices. Robinhood CEO Vlad Tenev initially claimed the decision was entirely about clearinghouse deposit requirements from the DTCC (Depository Trust and Clearing Corporation), but internal communications later revealed that Robinhood executives discussed the restrictions with Citadel Securities (their primary payment-for-order-flow partner) before implementing them. GameStop fell from $483 to $112 in five trading days.',
       'The payment-for-order-flow (PFOF) business model at the center of the controversy means Robinhood does not charge commissions but instead routes customer orders to market makers like Citadel Securities, which pay for the privilege of executing those orders. Citadel Securities pays Robinhood approximately $700 million annually and processes about 40% of all U.S. retail stock trades. This creates an inherent conflict of interest: Robinhood\'s real customer is Citadel, not the retail investors using the app. Meanwhile, Citadel the hedge fund (separate from but affiliated with Citadel Securities) had just invested $2 billion in Melvin Capital, which was being destroyed by the GameStop squeeze.',
       'Under the Securities Exchange Act of 1934 (15 U.S.C. 78a et seq.), Section 9(a)(2) prohibits market manipulation including schemes to artificially affect securities prices. Under SEC Rule 15c3-3 (17 CFR 240.15c3-3), broker-dealers must maintain adequate customer protection reserves. Under FINRA rules, brokers owe duties of best execution and fair dealing to customers. Robinhood paid $70 million in FINRA fines in June 2021 (the largest FINRA fine ever at that time) for widespread harm to customers including misleading information, system outages, and options trading approvals to ineligible customers.',
-      'The broader scandal exposed a two-tiered market: hedge funds can short over 100% of a company\'s float (naked shorting that is theoretically illegal), fail to deliver shares for weeks without consequence, and access dark pools and high-frequency trading infrastructure. When retail investors used publicly available information to take the opposite side of a trade, the system shut them out. The House Financial Services Committee held hearings but passed no meaningful legislation. The SEC published a report that acknowledged the buy restrictions but proposed no enforcement actions against Robinhood or Citadel. Melvin Capital eventually closed in May 2022 after cumulative losses of over $12 billion. No criminal charges were filed against any party.',
+      'The broader scandal exposed a two-tiered market: hedge funds can short over 100% of a company\'s float (naked shorting that is theoretically illegal), fail to deliver shares for weeks without consequence, and access dark pools and high-frequency trading infrastructure. When retail investors used publicly available information to take the opposite side of a trade, the system shut them out. The House Financial Services Committee held hearings but passed no meaningful legislation. The SEC published a report that acknowledged the buy restrictions but proposed no enforcement actions against Robinhood or Citadel. Melvin Capital eventually closed in May 2022 after cumulative losses of over $12 billion. No criminal charges were filed against any party.'
     ],
     tags: ['gamestop', 'robinhood', 'market-manipulation', 'payment-for-order-flow', 'citadel', 'short-selling', 'retail-investors', 'wall-street'],
     sources: [
       { title: 'SEC Staff Report: Equity and Options Market Structure Conditions (GameStop)', url: 'https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf', type: 'Government Report' },
       { title: 'House Financial Services Committee: Game Stopped? Hearings', url: 'https://financialservices.house.gov/', type: 'Congressional Record' },
-      { title: 'FINRA: Robinhood Financial LLC $70M Settlement', url: 'https://www.finra.org/media-center/newsreleases', type: 'Enforcement Action' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'FINRA: Robinhood Financial LLC $70M Settlement', url: 'https://www.finra.org/media-center/newsreleases', type: 'Enforcement Action' }
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Published staff report acknowledging trading restrictions but took no enforcement action against Robinhood or Citadel; failed to address naked shorting', href: '/entities/agencies/sec' },
-      { id: '2', name: 'FINRA', type: 'agency', relationship: 'Fined Robinhood $70M (record at the time) for widespread customer harm but did not address the specific buy restriction decision' },
+      { id: '2', name: 'FINRA', type: 'agency', relationship: 'Fined Robinhood $70M (record at the time) for widespread customer harm but did not address the specific buy restriction decision' }
     ],
    eventOriginDate: '1934-01-01',
    lastActivityDate: '2025-01-15',
@@ -1650,7 +1603,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021', event: 'The GameStop short squeeze of January 2021 began when users of the Reddit forum r/WallStreetBets identified that hedge funds, primarily Melvin Capital and Citron Research, had shorted over 140% of', type: 'default' },
      { date: '2021-01-28', event: 'On January 28, 2021, Robinhood and other brokerages halted buying of GameStop, AMC, Nokia, BlackBerry, and other stocks targeted by retail investors', type: 'default' },
      { date: '2021-06-01', event: 'Robinhood paid $70 million in FINRA fines in June 2021 (the largest FINRA fine ever at that time) for widespread harm to customers including misleading information, system outages, and options trad', type: 'financial' },
-     { date: '2022-05-01', event: 'Melvin Capital eventually closed in May 2022 after cumulative losses of over $12 billion', type: 'political' },
+     { date: '2022-05-01', event: 'Melvin Capital eventually closed in May 2022 after cumulative losses of over $12 billion', type: 'political' }
    ],
   },
   'religious-institution-abuse-cover-ups': {
@@ -1666,18 +1619,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'THE HIERARCHY OF CONCEALMENT: Internal Vatican documents obtained through litigation and leaks reveal that the cover-up was not the work of rogue bishops but reflected institutional policy. The "Crimen sollicitationis" instruction (1962, updated 2001) required that sexual abuse allegations be handled through secret canonical process with all participants sworn to "pontifical secrecy" under penalty of excommunication. Cardinal Bernard Law of Boston systematically reassigned predator priests who then reoffended (he resigned in disgrace but was given a prestigious position at a Roman basilica). Cardinal Theodore McCarrick rose to become one of the most powerful figures in the American Church despite decades of known abuse of seminarians and minors. Pope John Paul II and Pope Benedict XVI received documented reports of abuse but failed to reform the system. Pope Francis has implemented some reforms but has resisted calls for full accountability.',
       'BEYOND CATHOLICISM: SOUTHERN BAPTISTS AND OTHERS: The Southern Baptist Convention\'s 2022 independent investigation revealed that SBC leaders had maintained a secret list of 703 pastors and other leaders credibly accused of abuse while publicly claiming the denomination\'s decentralized structure made accountability impossible. The investigation found that SBC leaders actively resisted survivor advocacy, stonewalled reform efforts, and as recently as 2019 used resources to oppose abuse tracking proposals. Jehovah\'s Witnesses maintain databases of accused abusers but refuse to report to secular authorities under their "two-witness rule." Australia\'s Royal Commission found that the Witnesses had records of 1,006 accused child sex abusers, none of whom had been reported to police. Mormon, Orthodox Jewish, Amish, and evangelical communities have all faced similar revelations.',
       'LEGAL SHIELDS AND STATUTES OF LIMITATIONS: Religious institutions have spent hundreds of millions of dollars lobbying against statute of limitations reform for child sex abuse. In 2019, when New York passed the Child Victims Act extending the statute of limitations, the Catholic Church launched an aggressive campaign against it. Institutions have filed for bankruptcy to limit litigation exposure (over 30 U.S. Catholic dioceses have filed for bankruptcy). Religious liberty exemptions in some states create loopholes that allow religious organizations to avoid mandatory reporting requirements. Charitable immunity doctrines have been used to cap damages. The cumulative effect has been to systematically deny victims access to justice while institutions retain their tax-exempt status and public trust.',
-      'THE ONGOING CRISIS: Despite decades of exposure, child abuse in religious institutions continues. A 2023 Maryland Attorney General investigation found abuse of over 600 children by 156 Catholic clergy. DOJ investigations are ongoing in multiple states. The Vatican\'s own data shows new credible accusations continuing to be filed. The fundamental conflict between institutional self-preservation and child safety has not been resolved. Religious institutions continue to resist mandatory reporting laws, external auditing, and the removal of statute of limitations barriers. An estimated 80% of child sexual abuse victims never report, and in religious contexts where the abuser holds spiritual authority, the barriers to disclosure are even higher.',
+      'THE ONGOING CRISIS: Despite decades of exposure, child abuse in religious institutions continues. A 2023 Maryland Attorney General investigation found abuse of over 600 children by 156 Catholic clergy. DOJ investigations are ongoing in multiple states. The Vatican\'s own data shows new credible accusations continuing to be filed. The fundamental conflict between institutional self-preservation and child safety has not been resolved. Religious institutions continue to resist mandatory reporting laws, external auditing, and the removal of statute of limitations barriers. An estimated 80% of child sexual abuse victims never report, and in religious contexts where the abuser holds spiritual authority, the barriers to disclosure are even higher.'
     ],
     tags: ['religious-abuse', 'Catholic-Church', 'child-abuse', 'cover-up', 'Southern-Baptists', 'institutional-abuse', 'statute-of-limitations', 'clergy-abuse'],
     sources: [
       { title: 'John Jay College: The Nature and Scope of Sexual Abuse of Minors by Catholic Priests (2004)', url: 'http://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf', type: 'Academic Research' },
       { title: 'Guidepost Solutions: Southern Baptist Convention Sexual Abuse Investigation Report', url: 'https://www.sataskforce.net/', type: 'Independent Investigation' },
-      { title: 'Royal Commission into Institutional Responses to Child Sexual Abuse (Australia)', url: 'https://www.childabuseroyalcommission.gov.au/', type: 'Government Commission' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Royal Commission into Institutional Responses to Child Sexual Abuse (Australia)', url: 'https://www.childabuseroyalcommission.gov.au/', type: 'Government Commission' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Investigating Catholic dioceses in multiple states; historically deferred to local prosecutors who were reluctant to pursue cases against religious institutions', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated interstate transport of minors for abuse; coordinated with INTERPOL on cross-border clergy abuse cases involving U.S. perpetrators', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated interstate transport of minors for abuse; coordinated with INTERPOL on cross-border clergy abuse cases involving U.S. perpetrators', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '1962-01-01',
    lastActivityDate: '2026-03-12',
@@ -1690,7 +1642,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2019', event: 'In 2019, when New York passed the Child Victims Act extending the statute of limitations, the Catholic Church launched an aggressive campaign against it', type: 'political' },
      { date: '2021', event: 'France\'s CIASE commission (2021) estimated 330,000 victims', type: 'default' },
      { date: '2022', event: 'BEYOND CATHOLICISM: SOUTHERN BAPTISTS AND OTHERS: The Southern Baptist Convention\'s 2022 independent investigation revealed that SBC leaders had maintained a secret list of 703 pastors and other le...', type: 'default' },
-     { date: '2023', event: 'A 2023 Maryland Attorney General investigation found abuse of over 600 children by 156 Catholic clergy', type: 'default' },
+     { date: '2023', event: 'A 2023 Maryland Attorney General investigation found abuse of over 600 children by 156 Catholic clergy', type: 'default' }
    ],
   },
   'real-estate-housing-crisis-exploitation': {
@@ -1706,18 +1658,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'Algorithmic rent-setting through RealPage\'s revenue management software represents what the DOJ has characterized as an illegal price-fixing scheme. RealPage\'s software aggregates real-time pricing data from competing landlords and recommends rent prices to all of them simultaneously — enabling coordinated rent increases without direct collusion. A ProPublica investigation found that the software could increase rents by 14.5% in markets where it was widely adopted. In August 2024, the DOJ filed suit against RealPage, alleging the software facilitated price-fixing affecting millions of renters.',
       'Corporate landlords have introduced a new model of exploitation. Unlike individual landlords with community ties, institutional property managers maximize extraction through automated rent increases, aggressive eviction policies, excessive fee structures (application fees, pet fees, late fees, convenience fees), and deferred maintenance that degrades housing quality. Invitation Homes, the largest single-family rental company (80,000+ homes), has been sued repeatedly for charging tenants for maintenance that was never performed and filed eviction proceedings within days of a missed payment.',
       'Homelessness has reached crisis levels with 582,000 Americans unhoused on any given night in 2023, a 12% increase from the prior year and the highest level since tracking began. This occurs while an estimated 16 million housing units sit vacant across the country. Local zoning laws, often championed by existing homeowners to protect property values, restrict construction of multi-family housing and affordable units. NIMBYism, restrictive zoning, and exclusionary land-use policies contribute more to the housing shortage than any other factor.',
-      'Predatory practices targeting vulnerable populations continue unabated. Contract-for-deed arrangements, which provide none of the protections of traditional mortgages and have been called the new subprime lending, disproportionately target Black and immigrant communities. Rent-to-own schemes charge 2-3x the home\'s value while buyers accumulate no equity until final payment. Mobile home park acquisitions by private equity firms result in aggressive lot rent increases that effectively confiscate residents\' investments in their homes, which cannot be economically moved.',
+      'Predatory practices targeting vulnerable populations continue unabated. Contract-for-deed arrangements, which provide none of the protections of traditional mortgages and have been called the new subprime lending, disproportionately target Black and immigrant communities. Rent-to-own schemes charge 2-3x the home\'s value while buyers accumulate no equity until final payment. Mobile home park acquisitions by private equity firms result in aggressive lot rent increases that effectively confiscate residents\' investments in their homes, which cannot be economically moved.'
     ],
     tags: ['housing crisis', 'corporate landlords', 'RealPage', 'algorithmic pricing', 'Wall Street', 'homelessness', 'rent extraction', 'zoning', 'predatory lending', 'Blackstone'],
     sources: [
       { title: 'DOJ: United States v. RealPage - Antitrust Complaint', url: 'https://www.justice.gov/', type: 'Legal Document' },
       { title: 'HUD: Annual Homelessness Assessment Report 2023', url: 'https://www.huduser.gov/portal/sites/default/files/pdf/2023-AHAR-Part-1.pdf', type: 'Government Report' },
-      { title: 'ProPublica: RealPage Rent-Setting Investigation', url: 'https://www.propublica.org/series/rent-barons', type: 'Investigation' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'ProPublica: RealPage Rent-Setting Investigation', url: 'https://www.propublica.org/series/rent-barons', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed antitrust suit against RealPage for algorithmic rent-fixing; historically slow to address housing market manipulation', href: '/entities/agencies/doj' },
-      { id: '2', name: 'HUD', type: 'agency', relationship: 'Administers Section 8 and public housing with $70B+ backlog in maintenance; Fair Housing enforcement budget chronically underfunded' },
+      { id: '2', name: 'HUD', type: 'agency', relationship: 'Administers Section 8 and public housing with $70B+ backlog in maintenance; Fair Housing enforcement budget chronically underfunded' }
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-02-28',
@@ -1725,7 +1676,7 @@ const investigations_r: Record<string, InvestigationData> = {
       timeline: [
      { date: '2008', event: 'Since the 2008 financial crisis — which was itself caused by predatory mortgage lending — institutional investors have purchased over 400,000 single-family homes, driving up prices and converting ownership homes into', type: 'critical' },
      { date: '2023', event: 'Homelessness has reached crisis levels with 582,000 Americans unhoused on any given night in 2023, a 12% increase from the prior year and the highest level since tracking began.', type: 'critical' },
-     { date: '2024-08', event: 'In August 2024, the DOJ filed suit against RealPage, alleging the software facilitated price-fixing affecting millions of renters.', type: 'default' },
+     { date: '2024-08', event: 'In August 2024, the DOJ filed suit against RealPage, alleging the software facilitated price-fixing affecting millions of renters.', type: 'default' }
      ],
   },
   'railroad-deregulation-safety': {
@@ -1741,18 +1692,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'The East Palestine disaster illustrated every systemic failure simultaneously. On February 3, 2023, a Norfolk Southern train carrying hazardous materials derailed in East Palestine, Ohio, releasing vinyl chloride, butyl acrylate, and other toxins. Norfolk Southern then conducted a "controlled release" (intentional burn) of vinyl chloride that created a massive plume of hydrogen chloride and phosgene, a World War I chemical weapon. Residents within a mile were evacuated; those within five miles were advised to shelter in place. The NTSB found that a failing wheel bearing caused the derailment and that Norfolk Southern\'s detection system identified the overheating bearing but crew were not alerted in time. The train was 151 cars long.',
       'Train lengths have increased dramatically as railroads pursue efficiency over safety. The average freight train has grown from 70 cars in 2000 to over 100 cars today, with some trains exceeding 3 miles in length. Longer trains experience greater forces on curves, take longer to stop, and are more difficult to inspect. There is no federal limit on train length. The FRA has studied the issue but has not issued regulations. Meanwhile, the industry successfully lobbied against a proposed rule requiring two-person train crews, with the final rule in 2024 largely preserving the status quo for existing operations.',
       'Railroad inspection relies on 19th-century methods supplemented by inadequate technology. FRA employs approximately 400 inspectors to oversee 140,000 miles of track, 1.6 million freight cars, and 25,000 locomotives. Visual inspections remain the primary method. Wayside detection systems that can identify overheating bearings, dragging equipment, and shifted loads are deployed inconsistently by the railroads and are not federally mandated. The technology exists to prevent most derailments. Positive Train Control (PTC), mandated by Congress in 2008 and not fully implemented until 2020 (12 years late), prevents certain types of collisions but does not prevent track-condition or equipment-failure derailments.',
-      'The Surface Transportation Board (STB), which regulates railroad economic activity, has been captured by the industry it supervises. Railroad lobbying exceeds $50 million annually. Industry PACs contributed $6.5 million to federal candidates in the 2022 cycle alone. Norfolk Southern CEO Alan Shaw visited Congress in the weeks following East Palestine, and the company subsequently increased lobbying spending. The Railway Safety Act, introduced after East Palestine, would require two-person crews, mandate wayside detection, and limit train lengths, but has stalled in Congress after aggressive industry opposition. Norfolk Southern was fined $600,000 by the FRA for East Palestine, representing approximately 0.005% of its annual revenue.',
+      'The Surface Transportation Board (STB), which regulates railroad economic activity, has been captured by the industry it supervises. Railroad lobbying exceeds $50 million annually. Industry PACs contributed $6.5 million to federal candidates in the 2022 cycle alone. Norfolk Southern CEO Alan Shaw visited Congress in the weeks following East Palestine, and the company subsequently increased lobbying spending. The Railway Safety Act, introduced after East Palestine, would require two-person crews, mandate wayside detection, and limit train lengths, but has stalled in Congress after aggressive industry opposition. Norfolk Southern was fined $600,000 by the FRA for East Palestine, representing approximately 0.005% of its annual revenue.'
     ],
     tags: ['railroad safety', 'East Palestine', 'Norfolk Southern', 'PSR', 'derailment', 'FRA', 'train length', 'stock buybacks', 'regulatory capture', 'hazmat'],
     sources: [
       { title: 'NTSB: East Palestine Derailment Investigation Report', url: 'https://www.ntsb.gov/', type: 'Government Report' },
       { title: 'FRA: Accident/Incident Data', url: 'https://safetydata.fra.dot.gov/', type: 'Government Data' },
-      { title: 'STB: Railroad Performance Metrics', url: 'https://www.stb.gov/', type: 'Government Data' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'STB: Railroad Performance Metrics', url: 'https://www.stb.gov/', type: 'Government Data' }
     ],
     affiliations: [
       { id: '1', name: 'FRA', type: 'agency', relationship: '400 inspectors for 140,000 miles of track; fined Norfolk Southern $600K for East Palestine (0.005% of revenue); no authority to limit train length' },
-      { id: '2', name: 'NTSB', type: 'agency', relationship: 'Investigated East Palestine and identified systemic failures; recommendations are non-binding; has called for wayside detection mandates since 2017', href: '/entities/agencies/ntsb' },
+      { id: '2', name: 'NTSB', type: 'agency', relationship: 'Investigated East Palestine and identified systemic failures; recommendations are non-binding; has called for wayside detection mandates since 2017', href: '/entities/agencies/ntsb' }
     ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-02-18',
@@ -1763,7 +1713,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2015', event: 'Precision Scheduled Railroading (PSR) was developed by the late Hunter Harrison and adopted by virtually every Class I railroad between 2015 and 2020', type: 'default' },
      { date: '2022', event: 'Industry PACs contributed $6.5 million to federal candidates in the 2022 cycle alone', type: 'financial' },
      { date: '2023-02-03', event: 'On February 3, 2023, a Norfolk Southern train carrying hazardous materials derailed in East Palestine, Ohio, releasing vinyl chloride, butyl acrylate, and other toxins', type: 'default' },
-     { date: '2024', event: 'Meanwhile, the industry successfully lobbied against a proposed rule requiring two-person train crews, with the final rule in 2024 largely preserving the status quo for existing operations', type: 'default' },
+     { date: '2024', event: 'Meanwhile, the industry successfully lobbied against a proposed rule requiring two-person train crews, with the final rule in 2024 largely preserving the status quo for existing operations', type: 'default' }
    ],
   },
   'robocall-fraud-epidemic': {
@@ -1779,20 +1729,18 @@ const investigations_r: Record<string, InvestigationData> = {
       'Financial losses from phone-based fraud are staggering and growing. The FTC reported consumer losses from phone scams exceeding $10 billion in 2023, but actual losses are likely four times higher because most victims do not report. Seniors are disproportionately targeted by impersonation scams, with victims over 60 losing a median of $9,000 per incident. The most destructive schemes involve tech support fraud, government impersonation, and romance scams that combine phone calls with online manipulation to extract life savings.',
       'Technological countermeasures have proven inadequate. The STIR/SHAKEN caller ID authentication framework, mandated by the FCC in 2021, was designed to verify that calls originate from legitimate numbers. However, scammers adapted by routing calls through small carriers that have not implemented the standard or by using foreign origination points beyond U.S. jurisdiction. Call-blocking apps reduce nuisance calls for their users but cannot prevent the calls from being placed, and they generate false positives that block legitimate communications.',
       'Enforcement faces a jurisdiction problem that may be structurally unsolvable. The majority of fraudulent robocalls originate from outside the United States, primarily from call centers in India, Pakistan, and several African nations. The FCC can fine domestic violators, and the DOJ can pursue criminal cases, but international enforcement depends on cooperation from foreign governments that have limited incentive or capacity to act. Operation Disconnect, a 2024 joint international enforcement sweep, shut down several major call centers but barely dented overall volume.',
-      'The telecommunications industry itself bears responsibility for enabling the ecosystem. Voice-over-IP technology reduced the cost of placing calls to fractions of a cent, but carriers profited from terminating robocall traffic and were slow to implement blocking unless compelled. Gateway carriers that funnel international robocalls into the U.S. network operate with minimal oversight. The FCC has begun targeting these gateway providers, but new ones emerge as quickly as old ones are shut down. Consumer advocates argue that carriers should be held financially liable for delivering verified illegal robocalls to end users, a proposal the industry strenuously opposes.',
+      'The telecommunications industry itself bears responsibility for enabling the ecosystem. Voice-over-IP technology reduced the cost of placing calls to fractions of a cent, but carriers profited from terminating robocall traffic and were slow to implement blocking unless compelled. Gateway carriers that funnel international robocalls into the U.S. network operate with minimal oversight. The FCC has begun targeting these gateway providers, but new ones emerge as quickly as old ones are shut down. Consumer advocates argue that carriers should be held financially liable for delivering verified illegal robocalls to end users, a proposal the industry strenuously opposes.'
     ],
     tags: ['robocalls', 'phone fraud', 'telecommunications', 'FCC', 'STIR/SHAKEN', 'elder fraud', 'scams', 'consumer protection'],
     sources: [
       { title: 'Fcc Records', url: 'https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts', type: 'Reference' },
-      { title: 'Ftc Records', url: 'https://www.ftc.gov/news-events/data-visualizations', type: 'Reference' },
-      { title: 'Robocallindex Records', url: 'https://robocallindex.com/', type: 'Reference' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
-
-      { title: 'Consumer Financial Protection Bureau', url: 'https://www.consumerfinance.gov/enforcement/', type: 'Reference' },
+      { title: 'FCC: Combating Illegal Robocalls', url: 'https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts', type: 'Government Record' },
+      { title: 'FTC: National Do Not Call Registry Data', url: 'https://www.ftc.gov/policy/reports/policy-reports/commission-staff-reports/national-do-not-call-registry-data-book', type: 'Government Report' },
+      { title: 'YouMail Robocall Index', url: 'https://robocallindex.com/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'FCC', type: 'agency', relationship: 'Mandated STIR/SHAKEN; fined major robocallers hundreds of millions (largely uncollectable); began targeting gateway carriers in 2024 but fines collected remain below 1% of amounts assessed', href: '/entities/agencies/fcc' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Operates Do Not Call Registry with 250M+ numbers; brings enforcement actions but cannot keep pace with volume; consumer complaint data shows call volume unaffected by fines' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Operates Do Not Call Registry with 250M+ numbers; brings enforcement actions but cannot keep pace with volume; consumer complaint data shows call volume unaffected by fines' }
     ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2025-01-28',
@@ -1801,7 +1749,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021', event: 'The STIR/SHAKEN caller ID authentication framework, mandated by the FCC in 2021, was designed to verify that calls originate from legitimate numbers', type: 'default' },
      { date: '2023', event: 'The FTC reported consumer losses from phone scams exceeding $10 billion in 2023, but actual losses are likely four times higher because most victims do not report', type: 'political' },
      { date: '2024', event: 'Industry trackers estimate that Americans received over 50 billion robocalls in 2024, roughly 150 calls per person per year', type: 'political' },
-     { date: '2024', event: 'Operation Disconnect, a 2024 joint international enforcement sweep, shut down several major call centers but barely dented overall volume', type: 'default' },
+     { date: '2024', event: 'Operation Disconnect, a 2024 joint international enforcement sweep, shut down several major call centers but barely dented overall volume', type: 'default' }
    ],
   },
   'red-summer-1919-racial-massacres': {
@@ -1817,18 +1765,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'The Elaine Massacre in Phillips County, Arkansas (September 30 to October 7, 1919) was the deadliest single incident of Red Summer and one of the worst episodes of racial violence in American history. Black sharecroppers had organized a union, the Progressive Farmers and Household Union of America, to demand fair accounting from white plantation owners who systematically cheated them on crop settlements. On the night of September 30, white men fired upon a church where union members were meeting. In the ensuing chaos, a white man was killed. Governor Charles Brough called in approximately 500 federal troops from Camp Pike, who joined white vigilante mobs in a systematic campaign of murder against Black residents across the county. An estimated 100 to 237 Black men, women, and children were killed over the following week (some estimates range as high as 800), while only 5 white people died. No white person was ever charged with a crime. Instead, 122 Black men were arrested and tortured into confessions: electric shocks, beatings, and threats of lynching were used to extract statements. Twelve Black men were sentenced to death and 67 to prison terms of up to 21 years. The NAACP appealed the cases, and the Supreme Court ruled in Moore v. Dempsey (1923) that mob-dominated trials violated the Due Process Clause of the Fourteenth Amendment, one of the first times the Court applied due process protections to state criminal proceedings.',
       'The Chicago Race Riot (July 27 to August 3, 1919) killed 38 people (23 Black, 15 white), injured over 500, and left over 1,000 Black families homeless after their homes were burned. The violence was triggered when 17-year-old Eugene Williams was stoned while swimming in Lake Michigan and drowned after crossing an invisible racial boundary in the water. Police refused to arrest the white man identified by witnesses. The violence that followed involved organized white "athletic clubs" that functioned as paramilitary gangs, including Ragen\'s Colts, which operated with the tacit approval of local Democratic Party politicians. These gangs systematically attacked Black neighborhoods, pulled Black workers from streetcars and beat them, and firebombed homes. The Illinois state militia was finally deployed after four days, but predominantly patrolled Black neighborhoods and disarmed Black residents while allowing white mobs to continue operating. The Chicago Commission on Race Relations, established afterward, produced a landmark 1922 report documenting systematic failures of police protection and active police participation in anti-Black violence, but its recommendations for reform were largely ignored.',
       'In Washington, D.C. (July 19-22, 1919), white servicemen and civilians, inflamed by sensationalized newspaper reports of alleged Black crimes, rampaged through Black neighborhoods for four days, attacking Black men and women on the streets and entering homes. The Metropolitan Police did little to intervene and in some documented cases joined the attacks. President Wilson, who was in the White House throughout the violence, did not publicly address the attacks or deploy federal forces to protect citizens in the nation\'s capital until the fourth day. Black residents organized armed self-defense, which the press characterized as a "Negro uprising" rather than a response to white aggression. Similar patterns repeated in Knoxville, Tennessee (August 30-31), where a white mob stormed the county jail attempting to lynch a Black prisoner, then attacked the Black neighborhood of Mechanicsville; in Omaha, Nebraska (September 28-29), where a mob of thousands lynched Will Brown, burned his body, and then attacked the city\'s Black community; and in over 20 other locations. In virtually every case, police either failed to respond, actively participated, or focused enforcement on Black communities defending themselves.',
-      'The aftermath of Red Summer reinforced the absolute impunity enjoyed by perpetrators of racial mass violence. No white mob participant was convicted of murder in any Red Summer incident. In Elaine, only Black defendants faced prosecution. In Chicago, 17 Black men and 4 white men were initially indicted for murder, but juries refused to convict white defendants. In Omaha, no one was prosecuted for the lynching of Will Brown despite the presence of thousands of witnesses and photographic evidence of the mob. The federal government\'s response was to increase surveillance of Black organizations rather than to protect Black citizens. J. Edgar Hoover, then a young official in the Bureau of Investigation, wrote a report in 1919 arguing that Black radicalism, not white violence, was the threat to national order. This framing would define the FBI\'s approach to race for the next half century, culminating in COINTELPRO. The legal framework that enabled this impunity included the Supreme Court\'s decision in United States v. Cruikshank (1876), which held that the Fourteenth Amendment did not authorize federal prosecution of private individuals who violated the civil rights of Black citizens, effectively leaving enforcement to state governments that had no interest in protecting Black lives. This combination of white mob violence, police complicity, prosecutorial inaction, and federal indifference represented a systematic failure to provide equal protection under the law as guaranteed by the Fourteenth Amendment (Section 1) and the Enforcement Acts of 1870-1871 (18 U.S.C. Sections 241-242, derived from the Ku Klux Klan Acts).',
+      'The aftermath of Red Summer reinforced the absolute impunity enjoyed by perpetrators of racial mass violence. No white mob participant was convicted of murder in any Red Summer incident. In Elaine, only Black defendants faced prosecution. In Chicago, 17 Black men and 4 white men were initially indicted for murder, but juries refused to convict white defendants. In Omaha, no one was prosecuted for the lynching of Will Brown despite the presence of thousands of witnesses and photographic evidence of the mob. The federal government\'s response was to increase surveillance of Black organizations rather than to protect Black citizens. J. Edgar Hoover, then a young official in the Bureau of Investigation, wrote a report in 1919 arguing that Black radicalism, not white violence, was the threat to national order. This framing would define the FBI\'s approach to race for the next half century, culminating in COINTELPRO. The legal framework that enabled this impunity included the Supreme Court\'s decision in United States v. Cruikshank (1876), which held that the Fourteenth Amendment did not authorize federal prosecution of private individuals who violated the civil rights of Black citizens, effectively leaving enforcement to state governments that had no interest in protecting Black lives. This combination of white mob violence, police complicity, prosecutorial inaction, and federal indifference represented a systematic failure to provide equal protection under the law as guaranteed by the Fourteenth Amendment (Section 1) and the Enforcement Acts of 1870-1871 (18 U.S.C. Sections 241-242, derived from the Ku Klux Klan Acts).'
     ],
     tags: ['Red Summer', '1919', 'racial violence', 'Elaine Massacre', 'Chicago Race Riot', 'lynching', 'white supremacy', 'NAACP', 'Moore v Dempsey', 'police complicity'],
     sources: [
       { title: 'Equal Justice Initiative: Reconstruction in America Report', url: 'https://eji.org/report/reconstruction-in-america/', type: 'Research' },
       { title: 'National Archives: Records of the Elaine Race Massacre', url: 'https://www.archives.gov/', type: 'Government Record' },
-      { title: 'Chicago Commission on Race Relations Report (1922)', url: 'https://www.loc.gov/collections/', type: 'Government Report' },
-      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
+      { title: 'Chicago Commission on Race Relations Report (1922)', url: 'https://www.loc.gov/collections/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'Bureau of Investigation (FBI)', type: 'agency', relationship: 'Surveilled Black civil rights organizations as subversive threats instead of investigating white mob violence; J. Edgar Hoover\'s 1919 report framed Black demands for equality as radicalism; this orientation persisted for decades through COINTELPRO', href: '/entities/agencies/fbi' },
-      { id: '2', name: 'Woodrow Wilson', type: 'individual', relationship: 'President who resegregated federal offices, screened Klan-glorifying "Birth of a Nation" at the White House, failed to deploy forces to protect Black citizens in D.C. during four days of mob violence, and provided no federal response to the nationwide campaign of racial terror', href: '/entities/individuals/woodrow-wilson' },
+      { id: '2', name: 'Woodrow Wilson', type: 'individual', relationship: 'President who resegregated federal offices, screened Klan-glorifying "Birth of a Nation" at the White House, failed to deploy forces to protect Black citizens in D.C. during four days of mob violence, and provided no federal response to the nationwide campaign of racial terror', href: '/entities/individuals/woodrow-wilson' }
     ],
    eventOriginDate: '1870-01-01',
    lastActivityDate: '2025-01-10',
@@ -1843,7 +1790,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1919-08-03', event: 'The Chicago Race Riot (July 27 to August 3, 1919) killed 38 people (23 Black, 15 white), injured over 500, and left over 1,000 Black families homeless after their homes were burned', type: 'critical' },
      { date: '1919-10-07', event: 'The Elaine Massacre in Phillips County, Arkansas (September 30 to October 7, 1919) was the deadliest single incident of Red Summer and one of the worst episodes of racial violence in American history', type: 'critical' },
      { date: '1922', event: 'The Chicago Commission on Race Relations, established afterward, produced a landmark 1922 report documenting systematic failures of police protection and active police participation in anti-Black v', type: 'default' },
-     { date: '1923', event: 'Dempsey (1923) that mob-dominated trials violated the Due Process Clause of the Fourteenth Amendment, one of the first times the Court applied due process protections to state criminal proceedings', type: 'legal' },
+     { date: '1923', event: 'Dempsey (1923) that mob-dominated trials violated the Due Process Clause of the Fourteenth Amendment, one of the first times the Court applied due process protections to state criminal proceedings', type: 'legal' }
    ],
   },
   'radium-girls-industrial-poisoning': {
@@ -1859,18 +1806,17 @@ const investigations_r: Record<string, InvestigationData> = {
       'By 1922, dial painters at the Orange factory began showing alarming symptoms. Mollie Maggia, one of the first victims, developed a severe toothache in 1922. When her dentist extracted the tooth, her jawbone came with it. Her jaw literally crumbled in the dentist hands. Maggia died on September 12, 1922, at age 24. Her death certificate listed syphilis as the cause of death, a diagnosis that her family found devastating and that was almost certainly deliberate. U.S. Radium had retained a medical consultant, Dr. Frederick Flinn of Columbia University, who was secretly on the company payroll. Flinn examined multiple sick workers and repeatedly certified them as being in "fine health" even as they were visibly dying. In a later investigation, it was revealed that Flinn had no medical degree, was not a licensed physician, and was being paid directly by U.S. Radium to produce favorable medical assessments. The company also hired Dr. Frederick Hoffman, a prominent insurance statistician, who initially investigated the illnesses independently and connected them to radium, but shifted his position after being hired as a consultant by the industry. By 1924, at least nine dial painters had died, and dozens more were seriously ill.',
       'In 1925, an independent pathologist, Dr. Harrison Martland, the chief medical examiner of Essex County, New Jersey, conducted his own investigation. Martland performed autopsies on deceased dial painters and conducted tests on living workers, discovering that their bodies were so radioactive that their breath could fog a photographic plate. Martland published his findings in 1925, establishing the definitive link between radium ingestion and the workers diseases. He identified a new condition, "radium jaw" (now classified as radium necrosis of the jaw), and documented the bone cancers that radium caused. Despite Martlands published evidence, U.S. Radium continued to deny responsibility and continued to employ lip-pointing until at least 1926. The Radium Dial Company in Illinois went even further: when workers in Ottawa began dying in the late 1920s and early 1930s, the company president, Joseph Kelly, hired his own medical expert to testify that the womens illnesses were caused by factors other than radium. Company records later subpoenaed in litigation revealed that management had known by 1925 of the connection between radium and the workers illnesses.',
       'Five New Jersey dial painters, Grace Fryer, Edna Hussman, Katherine Schaub, and sisters Quinta McDonald and Albina Larice, filed suit against U.S. Radium Corporation in 1927. Their case was repeatedly delayed by the company legal team, which understood that several of the plaintiffs were dying and might not survive to testify at trial. Finding an attorney willing to take the case was itself a major obstacle; the first attorneys the women approached were either unwilling to challenge U.S. Radium or were connected to the company. Raymond Berry, a young attorney, finally agreed to represent them. By the time the case was moving toward trial in 1928, two of the five women could no longer raise their arms to take the oath, and one could not walk unassisted. The case attracted national media attention, with newspaper coverage generating widespread public sympathy. In June 1928, the case was settled: each woman received $10,000 (approximately $180,000 in 2025 dollars) plus a $600 annual pension and all medical expenses. All five women died within a few years of the settlement. The case of the Radium Girls, as they became known in the press, established the legal precedent that employers could be held liable for occupational diseases, not just workplace accidents.',
-      'The legacy of the Radium Girls case extends far beyond the individual settlements. Their fight led to the establishment of new occupational safety standards: in 1949, the Atomic Energy Commission set the first regulatory body burden limit for radium in the human body (0.1 micrograms). Their case was a key catalyst for the passage of workers compensation laws that incorporated occupational disease coverage, the creation of the Occupational Safety and Health Administration (OSHA) in 1970, and the development of the industrial toxicology discipline. The Radium GirlsSociety legal battles also established the "right to sue" for occupational illness, a precedent that was cited in subsequent asbestos, lead poisoning, and chemical exposure lawsuits. The legal violations included: common law negligence and gross negligence; fraudulent concealment (the companies knowingly hid the dangers from workers); battery (the instruction to lip-point constituted intentional harmful contact); fraud (hiring doctors to misdiagnose dying workers); and conspiracy to obstruct justice (systematic suppression and fabrication of medical evidence). Under modern law, the conduct would violate OSHA regulations (29 CFR Part 1910.1096, ionizing radiation), the Toxic Substances Control Act (15 U.S.C. Sections 2601-2697), and potentially 18 U.S.C. Section 1112 (involuntary manslaughter). No U.S. Radium or Radium Dial Company executive was ever criminally prosecuted.',
+      'The legacy of the Radium Girls case extends far beyond the individual settlements. Their fight led to the establishment of new occupational safety standards: in 1949, the Atomic Energy Commission set the first regulatory body burden limit for radium in the human body (0.1 micrograms). Their case was a key catalyst for the passage of workers compensation laws that incorporated occupational disease coverage, the creation of the Occupational Safety and Health Administration (OSHA) in 1970, and the development of the industrial toxicology discipline. The Radium GirlsSociety legal battles also established the "right to sue" for occupational illness, a precedent that was cited in subsequent asbestos, lead poisoning, and chemical exposure lawsuits. The legal violations included: common law negligence and gross negligence; fraudulent concealment (the companies knowingly hid the dangers from workers); battery (the instruction to lip-point constituted intentional harmful contact); fraud (hiring doctors to misdiagnose dying workers); and conspiracy to obstruct justice (systematic suppression and fabrication of medical evidence). Under modern law, the conduct would violate OSHA regulations (29 CFR Part 1910.1096, ionizing radiation), the Toxic Substances Control Act (15 U.S.C. Sections 2601-2697), and potentially 18 U.S.C. Section 1112 (involuntary manslaughter). No U.S. Radium or Radium Dial Company executive was ever criminally prosecuted.'
     ],
     tags: ['Radium Girls', 'uranium', 'radiation poisoning', 'occupational disease', 'U.S. Radium Corporation', 'Radium Dial Company', 'Grace Fryer', 'industrial poisoning', 'workplace safety', 'OSHA', 'medical tyranny', 'corporate crime', 'womens rights', 'radium necrosis', 'Harrison Martland'],
     sources: [
       { title: 'National Museum of Nuclear Science and History: The Radium Girls', url: 'https://www.nuclearmuseum.org/', type: 'Museum Archive' },
       { title: 'Illinois EPA: Ottawa Radium Dial Superfund Site', url: 'https://www.epa.gov/superfund', type: 'Government Record' },
-      { title: 'New Jersey Department of Environmental Protection: US Radium Site History', url: 'https://www.nj.gov/dep/', type: 'Government Record' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'New Jersey Department of Environmental Protection: US Radium Site History', url: 'https://www.nj.gov/dep/', type: 'Government Record' }
     ],
     affiliations: [
       { id: '1', name: 'U.S. Radium Corporation', type: 'corporation', relationship: 'Knowingly exposed workers to lethal radiation from 1917 onward; instructed workers to lip-point brushes while executives used lead screens; hired fraudulent medical experts to misdiagnose dying workers with syphilis; fought all legal claims; no executive was ever criminally prosecuted' },
-      { id: '2', name: 'Grace Fryer', type: 'individual', relationship: 'Lead plaintiff in the 1927 lawsuit against U.S. Radium Corporation; spent two years finding an attorney willing to take the case; her legal battle established the precedent for occupational disease liability in American law; died of radiation poisoning in 1933 at age 34', href: '/entities/individuals/grace-fryer' },
+      { id: '2', name: 'Grace Fryer', type: 'individual', relationship: 'Lead plaintiff in the 1927 lawsuit against U.S. Radium Corporation; spent two years finding an attorney willing to take the case; her legal battle established the precedent for occupational disease liability in American law; died of radiation poisoning in 1933 at age 34', href: '/entities/individuals/grace-fryer' }
     ],
    eventOriginDate: '1901-01-01',
    lastActivityDate: '2025-05-01',
@@ -1889,7 +1835,7 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1928', event: 'By the time the case was moving toward trial in 1928, two of the five women could no longer raise their arms to take the oath, and one could not walk unassisted', type: 'legal' },
      { date: '1928-06-01', event: 'In June 1928, the case was settled: each woman received $10,000 (approximately $180,000 in 2025 dollars) plus a $600 annual pension and all medical expenses', type: 'default' },
      { date: '1949', event: 'Their fight led to the establishment of new occupational safety standards: in 1949, the Atomic Energy Commission set the first regulatory body burden limit for radium in the human body (0.', type: 'default' },
-     { date: '1970', event: 'Their case was a key catalyst for the passage of workers compensation laws that incorporated occupational disease coverage, the creation of the Occupational Safety and Health Administration (OSHA)', type: 'political' },
+     { date: '1970', event: 'Their case was a key catalyst for the passage of workers compensation laws that incorporated occupational disease coverage, the creation of the Occupational Safety and Health Administration (OSHA)', type: 'political' }
    ],
   },
   'redlining-housing-discrimination': {
@@ -1909,7 +1855,7 @@ const investigations_r: Record<string, InvestigationData> = {
    'After the Fair Housing Act was passed, HUD Secretary George Romney\'s attempts to enforce it were actively blocked by President Nixon, who feared losing white suburban voters',
    'Appraisal industry standards embedded racial bias, Black-owned homes were consistently appraised at lower values than identical white-owned homes, a practice that continues today',
    'Banks developed"reverse redlining"in the 2000s; targeting Black borrowers for predatory subprime loans rather than denying them credit outright',
-   'The racial wealth gap is presented as a natural market outcome rather than the direct result of a century of deliberate federal policy choices',
+   'The racial wealth gap is presented as a natural market outcome rather than the direct result of a century of deliberate federal policy choices'
  ],
  tags: ['civil-rights'],
  sources: [
@@ -1920,7 +1866,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { title: 'DOJ, Countrywide Fair Lending Settlement', url: 'https://www.justice.gov/opa/pr/justice-department-reaches-335-million-settlement-resolve-allegations-lending-discrimination', type: 'Article' },
    { title: 'Federal Reserve, Disparities in Wealth by Race and Ethnicity', url: 'https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html', type: 'Article' },
    { title: 'Ta-Nehisi Coates, The Case for Reparations (The Atlantic)', url: 'https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/', type: 'Article' },
-   { title: 'NCRC, HOLC Redlining and Present-Day Health Outcomes', url: 'https://ncrc.org/holc-health/', type: 'Article' },
+   { title: 'NCRC, HOLC Redlining and Present-Day Health Outcomes', url: 'https://ncrc.org/holc-health/', type: 'Article' }
  ],
  affiliations: [
    { id: 'robert-moses', name: 'Robert Moses', type: 'individual', relationship: 'NYC construction coordinator who designed highways to destroy Black neighborhoods', href: '/entities/individuals/robert-moses' },
@@ -1933,7 +1879,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { id: 'george-romney', name: 'George Romney', type: 'individual', relationship: 'HUD Secretary who tried to enforce fair housing, overruled by Nixon', href: '/entities/individuals/george-romney' },
    { id: 'angelo-mozilo', name: 'Angelo Mozilo', type: 'individual', relationship: 'Countrywide Financial CEO, company disproportionately targeted Black borrowers with predatory loans', href: '/entities/individuals/angelo-mozilo' },
    { id: 'richard-rothstein', name: 'Richard Rothstein', type: 'individual', relationship: 'Author of The Color of Law, documented government role in segregation', href: '/entities/individuals/richard-rothstein' },
-   { id: 'keeanga-yamahtta-taylor', name: 'Keeanga-Yamahtta Taylor', type: 'individual', relationship: 'Scholar who documented predatory inclusion in Black housing markets', href: '/entities/individuals/keeanga-yamahtta-taylor' },
+   { id: 'keeanga-yamahtta-taylor', name: 'Keeanga-Yamahtta Taylor', type: 'individual', relationship: 'Scholar who documented predatory inclusion in Black housing markets', href: '/entities/individuals/keeanga-yamahtta-taylor' }
  ],
  timeline: [
    { date: '1933', event: 'Home Owners\' Loan Corporation (HOLC) created as part of New Deal' },
@@ -1953,7 +1899,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { date: '2004-2008', event: 'Subprime mortgage crisis devastates Black wealth, predatory loans concentrated in formerly redlined areas' },
    { date: '2012', event: 'DOJ settles with Countrywide Financial for $335M; largest fair lending settlement in history' },
    { date: '2018', event: 'Studies confirm formerly redlined neighborhoods still have lower life expectancy, higher pollution, fewer resources' },
-   { date: '2021', event: 'FHFA acknowledges algorithmic bias in home appraisals continues to undervalue Black-owned homes' },
+   { date: '2021', event: 'FHFA acknowledges algorithmic bias in home appraisals continues to undervalue Black-owned homes' }
  ],
  statutes: [
    { code: 'Fair Housing Act: 42 U.S.C. § 3601', description: 'Systematic discrimination in sale, rental, and financing of housing based on race' },
@@ -1963,7 +1909,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { code: 'Home Mortgage Disclosure Act: 12 U.S.C. § 2801', description: 'Lending data reveals systematic racial disparities in mortgage approval rates' },
    { code: '42 U.S.C. § 1982: Civil Rights Act of 1866', description: 'All citizens have equal right to purchase and lease property' },
    { code: 'ECOA: 15 U.S.C. § 1691', description: 'Algorithmic bias in modern mortgage lending continues discriminatory patterns' },
-   { code: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'Government-industry conspiracy to deny housing rights to Black Americans' },
+   { code: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'Government-industry conspiracy to deny housing rights to Black Americans' }
  ],
  defendants: [
    { name: 'Shelley v. Kraemer (1948)', role: 'Enforcement of racial restrictive covenants', status: 'charged', notes: 'Supreme Court ruled covenants unenforceable, but FHA continued discrimination' },
@@ -1973,7 +1919,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { name: 'Bank of America', role: 'Discriminatory lending practices', status: 'charged', notes: '$335M settlement for Countrywide practices' },
    { name: 'Real Estate Industry', role: 'Systematic steering of Black buyers away from white neighborhoods', status: 'charged', notes: 'Individual lawsuits, industry practices continued for decades after Fair Housing Act' },
    { name: 'HUD under Nixon', role: 'Deliberately refusing to enforce Fair Housing Act', status: 'charged', notes: 'George Romney\'s fair housing efforts overruled by Nixon, no accountability' },
-   { name: 'Multiple Municipalities', role: 'Exclusionary zoning as tool of segregation', status: 'charged', notes: 'Ongoing litigation, most zoning restrictions remain in place' },
+   { name: 'Multiple Municipalities', role: 'Exclusionary zoning as tool of segregation', status: 'charged', notes: 'Ongoing litigation, most zoning restrictions remain in place' }
  ],
   },
   'rfk-assassination': {
@@ -1993,7 +1939,7 @@ const investigations_r: Record<string, InvestigationData> = {
    'The LAPD suppressed 2,400 crime scene photographs for two decades, releasing them only after prolonged legal battles',
    'William Harper\'s criminalist analysis concluding bullets came from two different weapons was dismissed without independent verification',
    'Sirhan has consistently stated he has no memory of the shooting, leading researchers to theorize he may have been hypnotically programmed',
-   'The LAPD destroyed over 2,400 witness interview records that were deemed"not relevant"to the case',
+   'The LAPD destroyed over 2,400 witness interview records that were deemed"not relevant"to the case'
  ],
  tags: ['criminal-justice', 'assassination'],
  sources: [
@@ -2004,7 +1950,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { title: 'RFK Jr. Visits Sirhan in Prison, Says He Didn\'t Kill His Father', url: 'https://www.nytimes.com/2021/03/26/us/rfk-assassination-sirhan.html', type: 'Article' },
    { title: 'Sirhan Parole Hearing and Governor\'s Denial', url: 'https://apnews.com/article/sirhan-sirhan-rfk-assassination-parole-denied-4e4667b7ec66e15dd6b442d7cc1a4b77', type: 'Article' },
    { title: 'Acoustic Evidence of Second Gunman in RFK Assassination', url: 'https://www.theguardian.com/world/2008/feb/22/usa', type: 'Article' },
-   { title: 'The Robert F. Kennedy Assassination Archives', url: 'https://www.maryferrell.org/pages/RFK_Assassination.html', type: 'Article' },
+   { title: 'The Robert F. Kennedy Assassination Archives', url: 'https://www.maryferrell.org/pages/RFK_Assassination.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'robert-f-kennedy', name: 'Robert F. Kennedy', type: 'individual', relationship: 'US Senator and presidential candidate assassinated June 5, 1968', href: '/entities/individuals/robert-f-kennedy' },
@@ -2017,7 +1963,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { id: 'robert-houghton', name: 'Robert Houghton', type: 'individual', relationship: 'LAPD Chief of Detectives who oversaw investigation and ordered evidence destruction', href: '/entities/individuals/robert-houghton' },
    { id: 'paul-schrade', name: 'Paul Schrade', type: 'individual', relationship: 'Kennedy aide wounded in the shooting; spent decades campaigning for Sirhan\'s release', href: '/entities/individuals/paul-schrade' },
    { id: 'laurence-teeter', name: 'Laurence Teeter', type: 'individual', relationship: 'Sirhan\'s attorney who argued hypnotic programming and second gunman theories', href: '/entities/individuals/laurence-teeter' },
-   { id: 'dan-moldea', name: 'Dan Moldea', type: 'individual', relationship: 'Investigative journalist who initially supported second gunman theory, later reversed position', href: '/entities/individuals/dan-moldea' },
+   { id: 'dan-moldea', name: 'Dan Moldea', type: 'individual', relationship: 'Investigative journalist who initially supported second gunman theory, later reversed position', href: '/entities/individuals/dan-moldea' }
  ],
  timeline: [
    { date: '1968-06-04', event: 'Robert Kennedy wins California Democratic presidential primary election' },
@@ -2038,7 +1984,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { date: '2011-04-28', event: 'Attorneys file petition for new investigation based on acoustic evidence of second gunman' },
    { date: '2016-02-22', event: 'Paul Schrade, wounded by Sirhan, states at parole hearing that Sirhan did not shoot Kennedy' },
    { date: '2021-03-26', event: 'RFK Jr. publicly states he does not believe Sirhan killed his father; visits Sirhan in prison' },
-   { date: '2022-01-13', event: 'California parole board recommends Sirhan\'s release after 53 years; Governor Newsom denies parole' },
+   { date: '2022-01-13', event: 'California parole board recommends Sirhan\'s release after 53 years; Governor Newsom denies parole' }
  ],
  statutes: [
    { code: 'California Penal Code § 187: Murder', description: 'Premeditated murder of a presidential candidate; Sirhan convicted despite questions about his role as actual shooter' },
@@ -2048,7 +1994,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'Potential conspiracy to assassinate a presidential candidate, depriving citizens of their right to choose leaders' },
    { code: 'California Penal Code § 135: Destroying Evidence', description: 'Willful destruction of physical evidence material to a capital murder case' },
    { code: '18 U.S.C. § 1001: False Statements', description: 'False official reports regarding number of bullets and bullet impacts at crime scene' },
-   { code: '18 U.S.C. § 371: Conspiracy', description: 'Conspiracy between multiple parties to assassinate a presidential candidate' },
+   { code: '18 U.S.C. § 371: Conspiracy', description: 'Conspiracy between multiple parties to assassinate a presidential candidate' }
  ],
  defendants: [
    { name: 'Sirhan Sirhan', role: 'First-degree murder of Robert F. Kennedy', status: 'convicted', notes: 'Convicted 1969; death sentence commuted to life; still imprisoned' },
@@ -2058,7 +2004,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { name: 'Sirhan, Parole', role: 'Parole recommendation after 53 years', status: 'charged', notes: 'Board recommended release 2022; Governor Newsom denied' },
    { name: 'Thomas Kranz investigation', role: 'Reinvestigation ordered by LA County', status: 'charged', notes: 'Concluded no second gunman, methodology disputed' },
    { name: 'FBI', role: 'Failure to conduct independent federal investigation', status: 'charged', notes: 'Deferred to LAPD; no independent review conducted' },
-   { name: 'Unknown second gunman', role: 'Murder of Robert F. Kennedy', status: 'charged', notes: 'Forensic evidence supports existence; never identified or charged' },
+   { name: 'Unknown second gunman', role: 'Murder of Robert F. Kennedy', status: 'charged', notes: 'Forensic evidence supports existence; never identified or charged' }
  ],
   },
   'roe-v-wade-overturn': {
@@ -2077,7 +2023,7 @@ const investigations_r: Record<string, InvestigationData> = {
    'Mitch McConnell invented a "rule" that Supreme Court vacancies shouldn\'t be filled in election years to block Garland, then abandoned that rule when it suited him to confirm Barrett.',
    'Post-Dobbs, state legislatures have attempted to criminalize travel for abortion, punish those who help people access care, and even surveil menstrual tracking data.',
    'The maternal mortality impact of Dobbs has been systematically downplayed by anti-abortion groups and sympathetic media, even as emergency rooms report turning away women in crisis.',
-   'Clarence Thomas\'s Dobbs concurrence explicitly calling for overturning Griswold (contraception), Lawrence (sodomy laws), and Obergefell (marriage equality) was dismissed as"just one justice\'s opinion"- but reveals the broader agenda.',
+   'Clarence Thomas\'s Dobbs concurrence explicitly calling for overturning Griswold (contraception), Lawrence (sodomy laws), and Obergefell (marriage equality) was dismissed as"just one justice\'s opinion"- but reveals the broader agenda.'
  ],
  tags: ['financial-crime'],
  sources: [
@@ -2088,7 +2034,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { title: 'The Role of Dark Money in Overturning Roe, OpenSecrets', url: 'https://www.opensecrets.org/news/2022/06/dark-money-plays-pivotal-role-in-overturning-roe-v-wade/', type: 'Article' },
    { title: 'Women Denied Emergency Care After Dobbs, ProPublica', url: 'https://www.propublica.org/article/texas-abortion-ban-emergency-rooms-pregnant-women', type: 'Article' },
    { title: 'The Stolen Supreme Court Seat and Its Consequences, Brennan Center', url: 'https://www.brennancenter.org/our-work/analysis-opinion/unprecedented-unaccountable-undoing-roe', type: 'Article' },
-   { title: 'How the Religious Right Built the Infrastructure to Overturn Roe, Politico', url: 'https://www.politico.com/news/magazine/2022/06/24/how-the-anti-abortion-movement-got-to-this-moment-00042192', type: 'Article' },
+   { title: 'How the Religious Right Built the Infrastructure to Overturn Roe, Politico', url: 'https://www.politico.com/news/magazine/2022/06/24/how-the-anti-abortion-movement-got-to-this-moment-00042192', type: 'Article' }
  ],
  affiliations: [
    { id: 'samuel-alito', name: 'Samuel Alito', type: 'individual', relationship: 'Supreme Court Justice, authored the Dobbs majority opinion overturning Roe', href: '/entities/individuals/samuel-alito' },
@@ -2101,7 +2047,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { id: 'susan-collins', name: 'Susan Collins', type: 'individual', relationship: 'Senator who voted for Kavanaugh after his"settled law"assurance, later expressed shock', href: '/entities/individuals/susan-collins' },
    { id: 'marjorie-dannenfelser', name: 'Marjorie Dannenfelser', type: 'individual', relationship: 'President of Susan B. Anthony Pro-Life America, led anti-abortion political lobbying', href: '/entities/individuals/marjorie-dannenfelser' },
    { id: 'thomas-dobbs', name: 'Thomas Dobbs', type: 'individual', relationship: 'Mississippi State Health Officer, named defendant in Dobbs v. Jackson', href: '/entities/individuals/thomas-dobbs' },
-   { id: 'lynn-fitch', name: 'Lynn Fitch', type: 'individual', relationship: 'Mississippi Attorney General who argued for overturning Roe before the Supreme Court', href: '/entities/individuals/lynn-fitch' },
+   { id: 'lynn-fitch', name: 'Lynn Fitch', type: 'individual', relationship: 'Mississippi Attorney General who argued for overturning Roe before the Supreme Court', href: '/entities/individuals/lynn-fitch' }
  ],
  timeline: [
    { date: '1973-01-22', event: 'Roe v. Wade decided 7-2, establishing constitutional right to abortion under the 14th Amendment' },
@@ -2121,7 +2067,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { date: '2022-06-24', event: 'Dobbs v. Jackson decided 6-3, overturning Roe v. Wade and Planned Parenthood v. Casey' },
    { date: '2022-06', event: 'Trigger laws immediately ban abortion in 13 states; chaos in emergency rooms as doctors fear prosecution' },
    { date: '2023', event: 'Reports of women denied miscarriage care, forced to carry nonviable pregnancies; maternal mortality rises' },
-   { date: '2024', event: 'Abortion rights ballot measures pass in multiple states; legal landscape remains fractured and chaotic' },
+   { date: '2024', event: 'Abortion rights ballot measures pass in multiple states; legal landscape remains fractured and chaotic' }
  ],
  statutes: [
    { code: 'U.S. Constitution, 14th Amendment (Equal Protection)', description: 'Denial of bodily autonomy disproportionately affecting women, particularly those in poverty and communities of color' },
@@ -2131,7 +2077,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { code: 'State criminal abortion statutes', description: 'Criminalization of healthcare, doctors face prosecution for providing standard medical care' },
    { code: 'U.S. Constitution, 9th Amendment', description: 'Unenumerated rights, the right to privacy and bodily autonomy underpinning Roe for 49 years' },
    { code: '42 U.S.C. § 1983', description: 'Deprivation of civil rights, state enforcement of abortion bans causing medical harm and death' },
-   { code: '18 U.S.C. § 241', description: 'Conspiracy against rights, coordinated dark money campaign to eliminate constitutional right through captured judiciary' },
+   { code: '18 U.S.C. § 241', description: 'Conspiracy against rights, coordinated dark money campaign to eliminate constitutional right through captured judiciary' }
  ],
  defendants: [
    { name: 'Dobbs v. Jackson Women\'s Health Organization', role: 'Constitutionality of Mississippi 15-week abortion ban', status: 'charged', notes: 'Supreme Court 6-3 overturned Roe v. Wade and Planned Parenthood v. Casey' },
@@ -2141,7 +2087,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { name: 'FDA / Mifepristone access', role: 'Attempt to restrict FDA-approved medication abortion nationwide', status: 'charged', notes: 'FDA v. Alliance for Hippocratic Medicine, Supreme Court unanimously rejected challenge on standing (2024)' },
    { name: 'Kavanaugh / Gorsuch / Barrett nominations', role: 'Misleading Senate testimony about respect for Roe as precedent', status: 'charged', notes: 'No perjury charges despite apparent deception; Senate has no enforcement mechanism' },
    { name: 'Merrick Garland nomination theft', role: 'Constitutional violation in refusing to hold hearings on nominated justice', status: 'charged', notes: 'No legal remedy; McConnell\'s unprecedented obstruction succeeded without consequence' },
-   { name: 'State trigger law challenges', role: 'Pre-Dobbs laws triggered without democratic deliberation', status: 'charged', notes: 'Most trigger bans upheld; some modified based on state constitutional challenges' },
+   { name: 'State trigger law challenges', role: 'Pre-Dobbs laws triggered without democratic deliberation', status: 'charged', notes: 'Most trigger bans upheld; some modified based on state constitutional challenges' }
  ],
   },
   'ruby-ridge': {
@@ -2161,7 +2107,7 @@ const investigations_r: Record<string, InvestigationData> = {
    'Larry Potts, who approved the unconstitutional ROE, was promoted to FBI Deputy Director before the scandal forced his demotion',
    'The original ATF case was built on entrapment, an informant had to repeatedly persuade Weaver to modify the shotguns',
    'Weaver\'s failure to appear for trial was partly caused by the court sending the wrong date, yet the government used it to justify a full military operation',
-   'The state manslaughter charge against Horiuchi was dismissed on the grounds of federal supremacy, federal agents cannot be prosecuted for actions taken in the line of duty',
+   'The state manslaughter charge against Horiuchi was dismissed on the grounds of federal supremacy, federal agents cannot be prosecuted for actions taken in the line of duty'
  ],
  tags: ['criminal-justice', 'surveillance'],
  sources: [
@@ -2172,7 +2118,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { title: 'The Ruby Ridge Siege, FBI Vault Records', url: 'https://vault.fbi.gov/ruby-ridge-records', type: 'Article' },
    { title: 'Idaho v. Horiuchi, Manslaughter Charge Dismissal', url: 'https://law.justia.com/cases/federal/appellate-courts/F3/253/359/545826/', type: 'Article' },
    { title: 'Every Knee Shall Bow, The Ruby Ridge Story', url: 'https://www.latimes.com/archives/la-xpm-1995-08-20-bk-37239-story.html', type: 'Article' },
-   { title: 'Randy Weaver, Ruby Ridge Survivor, Dies at 74', url: 'https://www.nytimes.com/2022/05/12/us/randy-weaver-dead-ruby-ridge.html', type: 'Article' },
+   { title: 'Randy Weaver, Ruby Ridge Survivor, Dies at 74', url: 'https://www.nytimes.com/2022/05/12/us/randy-weaver-dead-ruby-ridge.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'randy-weaver', name: 'Randy Weaver', type: 'individual', relationship: 'Former Green Beret and Ruby Ridge homestead owner; entrapped by ATF informant', href: '/entities/individuals/randy-weaver' },
@@ -2185,7 +2131,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { id: 'larry-potts', name: 'Larry Potts', type: 'individual', relationship: 'FBI Deputy Director who approved the modified rules of engagement; promoted then demoted', href: '/entities/individuals/larry-potts' },
    { id: 'gerry-spence', name: 'Gerry Spence', type: 'individual', relationship: 'Defense attorney who represented Randy Weaver and won acquittal on all major charges', href: '/entities/individuals/gerry-spence' },
    { id: 'kenneth-fadeley', name: 'Kenneth Fadeley', type: 'individual', relationship: 'ATF informant who entrapped Weaver into selling modified shotguns', href: '/entities/individuals/kenneth-fadeley' },
-   { id: 'bo-gritz', name: 'Bo Gritz', type: 'individual', relationship: 'Former Green Beret who negotiated Weaver\'s surrender; helped end the standoff', href: '/entities/individuals/bo-gritz' },
+   { id: 'bo-gritz', name: 'Bo Gritz', type: 'individual', relationship: 'Former Green Beret who negotiated Weaver\'s surrender; helped end the standoff', href: '/entities/individuals/bo-gritz' }
  ],
  timeline: [
    { date: '1989-07-01', event: 'ATF informant Kenneth Fadeley befriends Randy Weaver at Aryan Nations gathering' },
@@ -2206,7 +2152,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { date: '1994-01-01', event: 'DOJ Office of Professional Responsibility begins investigation of FBI conduct' },
    { date: '1995-06-15', event: 'Senate Judiciary Committee holds hearings on Ruby Ridge; condemns FBI\'s rules of engagement' },
    { date: '1995-08-15', event: 'Federal government settles with Weaver family for $3.1 million, no admission of wrongdoing' },
-   { date: '1997-08-21', event: 'Boundary County, Idaho, indicts Lon Horiuchi for involuntary manslaughter; case later dismissed on federal supremacy grounds' },
+   { date: '1997-08-21', event: 'Boundary County, Idaho, indicts Lon Horiuchi for involuntary manslaughter; case later dismissed on federal supremacy grounds' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1111: Murder', description: 'Killing of Vicki Weaver by FBI sniper while she was unarmed and holding her infant' },
@@ -2216,7 +2162,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { code: '42 U.S.C. § 1983: Civil Rights Violation', description: 'Use of excessive force resulting in death of unarmed woman and 14-year-old child' },
    { code: '18 U.S.C. § 1512: Witness Tampering', description: 'FBI officials altered and destroyed documents related to the rules of engagement after the incident' },
    { code: 'Fourth Amendment Violation', description: 'Unreasonable seizure through use of deadly force without imminent threat justification' },
-   { code: '18 U.S.C. § 1001: False Statements', description: 'FBI officials provided misleading testimony about rules of engagement and chain of command' },
+   { code: '18 U.S.C. § 1001: False Statements', description: 'FBI officials provided misleading testimony about rules of engagement and chain of command' }
  ],
  defendants: [
    { name: 'Randy Weaver', role: 'Murder, assault, conspiracy, firearms violations', status: 'acquitted', notes: 'Acquitted of all charges except failure to appear; sentenced to 18 months (time served)' },
@@ -2226,7 +2172,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { name: 'Richard Rogers', role: 'Command of HRT with modified shoot-on-sight rules', status: 'charged', notes: 'No charges; later commanded FBI operations at Waco' },
    { name: 'Federal Government', role: 'Wrongful death of Vicki and Samuel Weaver', status: 'settled', notes: 'Settled for $3.1M - $1M to Randy, $100K to each surviving child' },
    { name: 'FBI (institutional)', role: 'Unconstitutional rules of engagement', status: 'charged', notes: 'Senate investigation condemned ROE; DOJ found FBI violated policies' },
-   { name: 'ATF', role: 'Entrapment of Randy Weaver', status: 'charged', notes: 'Entrapment defense nearly succeeded at trial; no ATF accountability' },
+   { name: 'ATF', role: 'Entrapment of Randy Weaver', status: 'charged', notes: 'Entrapment defense nearly succeeded at trial; no ATF accountability' }
  ],
   },
   'russian-interference': {
@@ -2252,7 +2198,7 @@ const investigations_r: Record<string, InvestigationData> = {
    'Trump campaign welcomed and expected to benefit from Russian interference',
    '140+ contacts between Trump campaign/transition team and Russian nationals',
    'Trump attempted to obstruct investigation at least 10 times',
-   'Mueller did not exonerate Trump on obstruction ("if we had confidence that the President clearly did not commit a crime, we would have said so")',
+   'Mueller did not exonerate Trump on obstruction ("if we had confidence that the President clearly did not commit a crime, we would have said so")'
  ],
  tags: ['election-integrity'],
  sources: [
@@ -2260,7 +2206,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { title: 'Mueller Report (Volume II, Obstruction)', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Article' },
    { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', type: 'Article' },
    { title: 'ICA: Russian Activities and Intentions', url: 'https://www.dni.gov/files/documents/ICA_2017_01.pdf', type: 'Article' },
-   { title: 'Trump-Russia Contacts (documented)', url: 'https://www.themoscowproject.org/collusion-timeline/', type: 'Article' },
+   { title: 'Trump-Russia Contacts (documented)', url: 'https://www.themoscowproject.org/collusion-timeline/', type: 'Article' }
  ],
  affiliations: [
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Beneficiary of interference, obstructed investigation', href: '/entities/individuals/donald-trump' },
@@ -2269,7 +2215,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { id: 'michael-flynn', name: 'Michael Flynn', type: 'individual', relationship: 'National Security Advisor, lied about Kislyak calls', href: '/entities/individuals/michael-flynn' },
    { id: 'roger-stone', name: 'Roger Stone', type: 'individual', relationship: 'Coordinated with WikiLeaks on stolen emails', href: '/entities/individuals/roger-stone' },
    { id: 'george-papadopoulos', name: 'George Papadopoulos', type: 'individual', relationship: 'Foreign policy advisor, Russia contacts triggered FBI investigation', href: '/entities/individuals/george-papadopoulos' },
-   { id: 'michael-cohen', name: 'Michael Cohen', type: 'individual', relationship: 'Personal lawyer, pursued Trump Tower Moscow during campaign', href: '/entities/individuals/michael-cohen' },
+   { id: 'michael-cohen', name: 'Michael Cohen', type: 'individual', relationship: 'Personal lawyer, pursued Trump Tower Moscow during campaign', href: '/entities/individuals/michael-cohen' }
  ],
  timeline: [
    { date: 'Jun 2015', event: 'Trump announces presidential campaign' },
@@ -2290,7 +2236,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { date: 'Jul 2018', event: 'Helsinki summit: Trump sides with Putin over U.S. intelligence' },
    { date: 'Apr 2019', event: 'Mueller Report released (redacted)' },
    { date: 'Jul 2019', event: 'Mueller testifies:"not an exoneration"of Trump' },
-   { date: 'Aug 2020', event: 'Senate Intelligence Committee confirms Russia helped Trump' },
+   { date: 'Aug 2020', event: 'Senate Intelligence Committee confirms Russia helped Trump' }
  ],
  defendants: [
    { name: 'Paul Manafort', role: 'Tax Fraud, Bank Fraud, Conspiracy', status: 'pardoned', notes: '7.5 years federal prison, Pardoned by Trump (December 2020)' },
@@ -2306,7 +2252,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { name: 'Roger Stone', role: '', status: 'charged', notes: '40 months' },
    { name: 'Michael Cohen', role: '', status: 'charged', notes: '3 years' },
    { name: 'George Papadopoulos', role: '', status: 'charged', notes: '14 days' },
-   { name: 'Rick Gates', role: '', status: 'charged', notes: '45 days' },
+   { name: 'Rick Gates', role: '', status: 'charged', notes: '45 days' }
  ],
   },
   'rwanda-genocide-inaction': {
@@ -2325,7 +2271,7 @@ const investigations_r: Record<string, InvestigationData> = {
    'Clinton\'s 1998"apology"in Rwanda was carefully worded to avoid admitting direct US responsibility, he spent only 3.5 hours on the ground with Air Force One engines running.',
    'France\'s Operation Turquoise, presented as humanitarian intervention, created a safe zone that many génocidaires used to escape to Zaire (now DRC) with their weapons.',
    'After the genocide, the US blocked efforts to have the ICTR funded at levels that would allow rapid prosecution, delaying justice for survivors.',
-   'The full extent of US intelligence awareness before and during the genocide remains classified, key documents have never been declassified despite repeated requests.',
+   'The full extent of US intelligence awareness before and during the genocide remains classified, key documents have never been declassified despite repeated requests.'
  ],
  tags: ['military-foreign-policy', 'war'],
  sources: [
@@ -2336,7 +2282,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { title: 'Report of the Independent Inquiry into the Actions of the United Nations During the 1994 Genocide in Rwanda', url: 'https://www.un.org/en/ga/search/view_doc.asp?symbol=S/1999/1257', type: 'Article' },
    { title: 'Clinton\\', url: 'http://news.bbc.co.uk/2/hi/africa/714025.stm', type: 'Article' },
    { title: 'Bystanders to Genocide, The Atlantic', url: 'https://www.theatlantic.com/magazine/archive/2001/09/bystanders-to-genocide/304571/', type: 'Article' },
-   { title: 'ICTR Legacy, United Nations Mechanism for International Criminal Tribunals', url: 'https://unictr.irmct.org/', type: 'Article' },
+   { title: 'ICTR Legacy, United Nations Mechanism for International Criminal Tribunals', url: 'https://unictr.irmct.org/', type: 'Article' }
  ],
  affiliations: [
    { id: 'bill-clinton', name: 'Bill Clinton', type: 'individual', relationship: 'US President who failed to authorize intervention and later called Rwanda his"biggest regret"', href: '/entities/individuals/bill-clinton' },
@@ -2349,7 +2295,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { id: 'th-oneste-bagosora', name: 'Théoneste Bagosora', type: 'individual', relationship: 'Rwandan military official considered the mastermind of the genocide', href: '/entities/individuals/theoneste-bagosora' },
    { id: 'juv-nal-habyarimana', name: 'Juvénal Habyarimana', type: 'individual', relationship: 'Rwandan President whose assassination triggered the genocide', href: '/entities/individuals/juvenal-habyarimana' },
    { id: 'paul-kagame', name: 'Paul Kagame', type: 'individual', relationship: 'RPF leader who ended the genocide; became President of Rwanda', href: '/entities/individuals/paul-kagame' },
-   { id: 'prudence-bushnell', name: 'Prudence Bushnell', type: 'individual', relationship: 'Deputy Assistant Secretary of State who advocated action but was overruled', href: '/entities/individuals/prudence-bushnell' },
+   { id: 'prudence-bushnell', name: 'Prudence Bushnell', type: 'individual', relationship: 'Deputy Assistant Secretary of State who advocated action but was overruled', href: '/entities/individuals/prudence-bushnell' }
  ],
  timeline: [
    { date: '1990-10', event: 'Rwandan Patriotic Front (RPF) invades Rwanda from Uganda; civil war begins between Hutu government and Tutsi-led RPF' },
@@ -2368,7 +2314,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { date: '1994-07-04', event: 'RPF captures Kigali; genocide effectively ends after 100 days and approximately 800,000 dead' },
    { date: '1994-11', event: 'International Criminal Tribunal for Rwanda (ICTR) established in Arusha, Tanzania' },
    { date: '1998-03', event: 'Clinton visits Rwanda for 3.5 hours, offers partial apology while engine running on Air Force One' },
-   { date: '2004', event: 'Dallaire publishes "Shake Hands with the Devil,"detailing the UN and US failures in devastating detail' },
+   { date: '2004', event: 'Dallaire publishes "Shake Hands with the Devil,"detailing the UN and US failures in devastating detail' }
  ],
  statutes: [
    { code: 'Convention on the Prevention and Punishment of the Crime of Genocide (1948)', description: 'The US ratified this convention and was legally obligated to act to prevent genocide, the State Department deliberately avoided the word to evade this obligation' },
@@ -2378,7 +2324,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { code: 'Geneva Conventions, Common Article 3', description: 'Protections for civilians in non-international armed conflicts, violated on massive scale' },
    { code: '18 U.S.C. § 1505 (Obstruction)', description: 'US government obstructed international efforts to respond to genocide through blocking Security Council action' },
    { code: 'Universal Declaration of Human Rights, Article 3', description: 'Right to life, liberty, and security of person, collectively denied to 800,000 Rwandans' },
-   { code: 'International humanitarian law', description: 'Obligation of the international community to protect civilian populations from genocide' },
+   { code: 'International humanitarian law', description: 'Obligation of the international community to protect civilian populations from genocide' }
  ],
  defendants: [
    { name: 'Théoneste Bagosora', role: 'Genocide, crimes against humanity', status: 'convicted', notes: 'Convicted by ICTR in 2008; sentenced to life imprisonment (reduced to 35 years on appeal)' },
@@ -2388,7 +2334,7 @@ const investigations_r: Record<string, InvestigationData> = {
    { name: 'United States Government', role: 'Failure to prevent genocide under 1948 Convention', status: 'charged', notes: 'No accountability; Clinton offered partial apology in 1998 but no official was punished' },
    { name: 'United Nations', role: 'Failure to protect, reducing peacekeeping force during active genocide', status: 'charged', notes: 'UN report (1999) acknowledged failure; Kofi Annan expressed"deep remorse"' },
    { name: 'France (Operation Turquoise)', role: 'Complicity in protecting génocidaires through safe zone', status: 'charged', notes: 'French commission (2021) acknowledged"heavy responsibilities"but cleared France of direct complicity' },
-   { name: 'Belgian Government', role: 'Withdrawal of peacekeepers during genocide', status: 'charged', notes: 'Belgium apologized for withdrawal that emboldened killers; no formal accountability' },
+   { name: 'Belgian Government', role: 'Withdrawal of peacekeepers during genocide', status: 'charged', notes: 'Belgium apologized for withdrawal that emboldened killers; no formal accountability' }
  ],
   },
 };

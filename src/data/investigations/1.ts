@@ -13,25 +13,25 @@ const investigations_1: Record<string, InvestigationData> = {
  content: [
  'Ivan Boesky paid $100 million in fines after admitting to insider trading in 1986. His cooperation led to the prosecution of Michael Milken.',
  'Michael Milken, the "junk bond king," was indicted on 98 counts of racketeering and securities fraud. He pleaded guilty to six felonies and paid $600 million in fines.',
- 'The scandals exposed systemic corruption on Wall Street and led to the passage of the Insider Trading Sanctions Act and stricter SEC enforcement.',
+ 'The scandals exposed systemic corruption on Wall Street and led to the passage of the Insider Trading Sanctions Act and stricter SEC enforcement.'
  ],
  tags: ['Insider Trading', 'Ivan Boesky', 'Michael Milken', 'SEC Enforcement', 'Junk Bonds', 'Wall Street 1980s'],
  sources: [
  { title: 'SEC Insider Trading Cases', url: 'https://www.sec.gov/spotlight/insidertrading/cases.shtml', type: 'Government' },
  { title: 'Bloomberg Markets Coverage', url: 'https://www.bloomberg.com/markets', type: 'Analysis' },
- { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
+ { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Securities fraud enforcement; brought landmark insider trading prosecutions', href: '/entities/agencies/sec' },
  { id: '2', name: 'Ivan Boesky', type: 'individual', relationship: 'Insider trader who paid $100M fine in 1986; cooperated against Milken', href: '/entities/individuals/ivan-boesky' },
- { id: '3', name: 'Michael Milken', type: 'individual', relationship: 'Junk bond king; indicted on 98 counts; pleaded guilty to 6 felonies; $600M fine', href: '/entities/individuals/michael-milken' },
+ { id: '3', name: 'Michael Milken', type: 'individual', relationship: 'Junk bond king; indicted on 98 counts; pleaded guilty to 6 felonies; $600M fine', href: '/entities/individuals/michael-milken' }
  ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2014-06-15',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1980-01-01', event: 'Wall Street insider trading ring involving Ivan Boesky, Michael Milken, and others that defined an era of financial excess and regulatory', type: 'financial' },
-     { date: '1986', event: 'Ivan Boesky paid $100 million in fines after admitting to insider trading in 1986.', type: 'financial' },
+     { date: '1986', event: 'Ivan Boesky paid $100 million in fines after admitting to insider trading in 1986.', type: 'financial' }
      ],
  },
   '1mdb-scandal': {
@@ -47,7 +47,7 @@ const investigations_1: Record<string, InvestigationData> = {
  'Goldman Sachs played a central enabling role by underwriting three bond issuances in 2012 and 2013 totaling $6.5 billion for 1MDB, earning approximately $600 million in fees and revenue; an extraordinary amount that was itself evidence of the unusual nature of the deals. Goldman banker Tim Leissner personally received $73.4 million in kickbacks. Leissner pleaded guilty to conspiracy to launder money and violate foreign bribery laws. Roger Ng, another Goldman banker, was convicted at trial in April 2023. Goldman Sachs itself entered a deferred prosecution agreement in October 2020, paying $2.9 billion in penalties across the U.S., U.K., Singapore, Hong Kong, and Malaysia; the largest penalty in the bank\'s 151-year history.',
  'The stolen funds financed an astonishing spending spree that became central to the DOJ\'s civil forfeiture cases. Jho Low purchased the superyacht Equanimity ($250 million), a Bombardier Global 5000 jet, a $39 million Bombardier Global Express jet, a $35 million Piccadilly penthouse in London, a $30.6 million Park Lane penthouse in New York, Van Gogh and Monet paintings worth $100+ million, and $27.3 million in jewelry from Lorraine Schwartz for model Miranda Kerr (who later returned it to the Malaysian government). Red Granite Pictures, co-founded by Najib\'s stepson Riza Aziz, used $100+ million in 1MDB funds to produce "The Wolf of Wall Street," "Dumb and Dumber To," and "Daddy\'s Home"; the DOJ described this as "spending stolen money to make a movie about spending stolen money."',
  'Malaysian Prime Minister Najib Razak received $681 million directly into his personal bank account at AmBank. When journalists exposed this in 2015, he initially claimed it was a "political donation" from the Saudi royal family. The Malaysian Anti-Corruption Commission (MACC) investigated but its findings were suppressed; Attorney General Abdul Gani Patail was removed from office mid-investigation and replaced with Apandi Ali, who promptly cleared Najib of wrongdoing. After Najib lost the 2018 election, the new government reopened the investigation. In July 2020, Najib was convicted on seven counts of abuse of power, criminal breach of trust, and money laundering, and sentenced to 12 years in prison and fined RM210 million ($47.7 million). His final appeal was rejected by the Federal Court in August 2022.',
- 'The U.S. Department of Justice filed the largest kleptocracy civil forfeiture action in its history, seeking to recover more than $1.7 billion in assets traceable to 1MDB funds. The investigation, led by the DOJ\'s Kleptocracy Asset Recovery Initiative, spanned multiple countries and uncovered how funds were laundered through the U.S. financial system. Swiss authorities froze hundreds of millions in bank accounts; Singapore shut down BSI Bank and Falcon Private Bank for facilitating 1MDB transactions and imprisoned multiple bankers. Jho Low remains a fugitive believed to be in China or Macau. In total, more than $1.2 billion in assets have been recovered or are subject to forfeiture proceedings.',
+ 'The U.S. Department of Justice filed the largest kleptocracy civil forfeiture action in its history, seeking to recover more than $1.7 billion in assets traceable to 1MDB funds. The investigation, led by the DOJ\'s Kleptocracy Asset Recovery Initiative, spanned multiple countries and uncovered how funds were laundered through the U.S. financial system. Swiss authorities froze hundreds of millions in bank accounts; Singapore shut down BSI Bank and Falcon Private Bank for facilitating 1MDB transactions and imprisoned multiple bankers. Jho Low remains a fugitive believed to be in China or Macau. In total, more than $1.2 billion in assets have been recovered or are subject to forfeiture proceedings.'
  ],
  tags: ['Financial Crime', 'Fraud', 'Kleptocracy', 'Goldman Sachs', 'Malaysia', 'Money Laundering'],
  sources: [
@@ -56,14 +56,14 @@ const investigations_1: Record<string, InvestigationData> = {
  { title: 'The Edge Malaysia: 1MDB Coverage', url: 'https://www.theedgemarkets.com/categories/1mdb', type: 'Investigation' },
  { title: 'Malaysian Anti-Corruption Commission: 1MDB Proceedings', url: 'https://www.sprm.gov.my/', type: 'Government' },
  { title: 'Monetary Authority of Singapore: 1MDB-related Supervisory Actions', url: 'https://www.mas.gov.sg/', type: 'Government' },
- { title: 'Tom Wright and Bradley Hope: Billion Dollar Whale', url: 'https://openlibrary.org/works/OL19739362W', type: 'Book' },
+ { title: 'Tom Wright and Bradley Hope: Billion Dollar Whale', url: 'https://openlibrary.org/works/OL19739362W', type: 'Book' }
  ],
  affiliations: [
  { id: 'doj', name: 'DOJ', type: 'agency', relationship: 'Filed largest kleptocracy forfeiture action in history; Kleptocracy Asset Recovery Initiative recovered $1.2B+ in assets', href: '/entities/agencies/doj' },
  { id: 'goldman-sachs', name: 'Goldman Sachs', type: 'corporation', relationship: 'Underwrote $6.5B in bonds earning $600M in fees; paid $2.9B global penalty; bankers Leissner (guilty plea) and Ng (convicted at trial)', href: '/entities/corporations/goldman-sachs' },
  { id: 'najib-razak', name: 'Najib Razak', type: 'individual', relationship: 'Former Malaysian PM who received $681M directly into personal account; convicted on 7 counts; sentenced to 12 years', href: '/entities/individuals/najib-razak' },
  { id: 'jho-low', name: 'Jho Low', type: 'individual', relationship: 'Mastermind financier who orchestrated the theft of $4.5B through shell companies; fugitive believed to be in China', href: '/entities/individuals/jho-low' },
- { id: 'tim-leissner', name: 'Tim Leissner', type: 'individual', relationship: 'Former Goldman Sachs partner who received $73.4M in kickbacks; pleaded guilty to conspiracy', href: '/entities/individuals/tim-leissner' },
+ { id: 'tim-leissner', name: 'Tim Leissner', type: 'individual', relationship: 'Former Goldman Sachs partner who received $73.4M in kickbacks; pleaded guilty to conspiracy', href: '/entities/individuals/tim-leissner' }
  ],
    eventOriginDate: '2009-09-29',
    lastActivityDate: '2023-08-04',
@@ -78,7 +78,7 @@ const investigations_1: Record<string, InvestigationData> = {
      { date: 'July 2020', event: 'Najib Razak convicted on 7 counts of abuse of power, criminal breach of trust, and money laundering; sentenced to 12 years' },
      { date: 'October 2020', event: 'Goldman Sachs enters deferred prosecution agreement, paying $2.9 billion in global penalties; largest in bank\'s 151-year history' },
      { date: 'April 2023', event: 'Roger Ng convicted at trial in Brooklyn federal court for his role in the 1MDB scheme' },
-     { date: 'August 2022', event: 'Malaysian Federal Court rejects Najib\'s final appeal; 12-year sentence upheld' },
+     { date: 'August 2022', event: 'Malaysian Federal Court rejects Najib\'s final appeal; 12-year sentence upheld' }
    ],
  },
  'financial-crisis-accountability-failure': {
@@ -97,7 +97,7 @@ const investigations_1: Record<string, InvestigationData> = {
    'TOO BIG TO JAIL: Attorney General Eric Holder explicitly stated in 2013 Senate testimony that some financial institutions were so large that prosecution "will have a negative impact on the national economy, perhaps even the global economy." DOJ settled with virtually every major bank through deferred prosecution agreements and corporate fines: JPMorgan Chase ($13B), Bank of America ($16.65B), Goldman Sachs ($5.06B), Citigroup ($7B), Morgan Stanley ($3.2B), Deutsche Bank ($7.2B). The banks paid $150+ billion in combined settlements but admitted no wrongdoing (or agreed to carefully worded "statement of facts" that stopped short of criminal admissions). The only Wall Street executive imprisoned was Kareem Serageldin, a mid-level Credit Suisse trader who mismarked bonds -- the lone scapegoat for industry-wide fraud. Lanny Breuer, the DOJ Criminal Division chief, admitted in a PBS Frontline interview that he considered "collateral consequences" (impact on innocent employees and shareholders) before declining to prosecute. After leaving DOJ, Holder returned to Covington & Burling, his former law firm that represented many of the banks he chose not to prosecute. Breuer went to the same firm.',
    'THE FINANCIAL CRISIS INQUIRY COMMISSION: The FCIC, established by Congress in 2009, concluded in its 2011 final report that: "The crisis was avoidable and was caused by widespread failures in financial regulation and supervision, dramatic failures of corporate governance and risk management at many systemically important financial institutions, a combination of excessive borrowing, risky investments, and lack of transparency, ill preparation by the government, and systemic breaches in accountability and ethics at all levels." The FCIC referred 11 cases to the DOJ for potential criminal prosecution, including senior executives at Goldman Sachs, Citigroup, AIG, Fannie Mae, Freddie Mac, and Countrywide. The DOJ declined to prosecute every single referral. The Senate Permanent Subcommittee on Investigations, chaired by Carl Levin, issued a 635-page bipartisan report documenting fraud at Goldman Sachs, Deutsche Bank, Washington Mutual, and the rating agencies, referring findings to DOJ. Again: zero prosecutions of senior executives.',
    'THE FORECLOSURE FRAUD: As if the original crimes were not enough, banks then committed additional fraud in foreclosing on homeowners. The "robo-signing" scandal revealed that banks had fabricated, backdated, and forged hundreds of thousands of foreclosure documents. Bank of America employees testified they signed 400 foreclosure affidavits per day without reading them. GMAC/Ally Financial executive Jeffrey Stephan testified he signed 10,000 affidavits per month. Banks foreclosed on homeowners who were current on payments, on active-duty military members protected by the Servicemembers Civil Relief Act, and even on houses they did not hold the mortgage on. The penalty: a $25 billion multi-bank settlement with no criminal charges, and a pittance of $1,480 to $125,000 per affected homeowner.',
-   'THE AFTERMATH: BIGGER THAN EVER: By every measure, the crisis made the problem worse. The six largest U.S. banks held $6.8 trillion in assets in 2006; by 2012, the same banks held $9.6 trillion -- a 41% increase. JPMorgan Chase, which received a $25 billion bailout, used the crisis to acquire Bear Stearns and Washington Mutual at bargain prices, becoming the nation\'s largest bank. The Dodd-Frank Wall Street Reform Act of 2010 created the Consumer Financial Protection Bureau and imposed new capital requirements, but the act was progressively weakened by lobbying; in 2018, Congress exempted most banks from its provisions. Holder\'s DOJ set the precedent that financial institutions above a certain size are immune from criminal prosecution. The crisis destroyed $11 trillion in household wealth, including $3.3 trillion in home equity. Black and Hispanic families lost 53% and 66% of their wealth respectively. The median white family\'s wealth fell 16%. The crisis was not a natural disaster. It was a crime. And the criminals were rewarded.',
+   'THE AFTERMATH: BIGGER THAN EVER: By every measure, the crisis made the problem worse. The six largest U.S. banks held $6.8 trillion in assets in 2006; by 2012, the same banks held $9.6 trillion -- a 41% increase. JPMorgan Chase, which received a $25 billion bailout, used the crisis to acquire Bear Stearns and Washington Mutual at bargain prices, becoming the nation\'s largest bank. The Dodd-Frank Wall Street Reform Act of 2010 created the Consumer Financial Protection Bureau and imposed new capital requirements, but the act was progressively weakened by lobbying; in 2018, Congress exempted most banks from its provisions. Holder\'s DOJ set the precedent that financial institutions above a certain size are immune from criminal prosecution. The crisis destroyed $11 trillion in household wealth, including $3.3 trillion in home equity. Black and Hispanic families lost 53% and 66% of their wealth respectively. The median white family\'s wealth fell 16%. The crisis was not a natural disaster. It was a crime. And the criminals were rewarded.'
   ],
   tags: ['financial crisis', '2008', 'Wall Street', 'bailout', 'TARP', 'Goldman Sachs', 'CDO', 'credit ratings', 'Too Big to Fail', 'mortgage fraud', 'accountability', 'predatory lending', 'robo-signing', 'FCIC', 'Eric Holder', 'Dodd-Frank'],
   sources: [
@@ -108,8 +108,7 @@ const investigations_1: Record<string, InvestigationData> = {
    { title: 'PBS Frontline: "The Untouchables" (DOJ decision not to prosecute)', url: 'https://www.pbs.org/wgbh/frontline/documentary/untouchables/', type: 'Documentary' },
    { title: 'Michael Lewis: "The Big Short" (inside the CDO market)', url: 'https://openlibrary.org/works/OL15358691W', type: 'Book' },
    { title: 'DOJ: Financial Fraud Enforcement Task Force Settlements', url: 'https://www.justice.gov/archives/fraudprevention/civil-enforcement-actions', type: 'Government' },
-   { title: 'SIGTARP: Special Inspector General for TARP Quarterly Reports', url: 'https://www.sigtarp.gov/', type: 'Government Oversight' },
-   { title: 'SEC Litigation Releases: Crisis-Related Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+   { title: 'SIGTARP: Special Inspector General for TARP Quarterly Reports', url: 'https://www.sigtarp.gov/', type: 'Government Oversight' }
   ],
   affiliations: [
    { id: 'doj', name: 'DOJ', type: 'agency', relationship: 'AG Holder declared banks "too big to jail." Declined all 11 FCIC criminal referrals. Zero senior executives prosecuted. Settled with deferred prosecution agreements. Holder and Criminal Division chief Breuer both returned to bank defense firm Covington & Burling.', href: '/entities/agencies/doj' },
@@ -119,7 +118,7 @@ const investigations_1: Record<string, InvestigationData> = {
    { id: 'jpmorgan-chase', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Received $25B bailout. Paid $13B settlement -- largest in history. Used crisis to acquire Bear Stearns and WaMu at bargain prices, becoming nation\'s largest bank. CEO Dimon remained in position throughout.', href: '/entities/corporations/jpmorgan-chase' },
    { id: 'eric-holder', name: 'Eric Holder', type: 'individual', relationship: 'As AG, declared banks "too big to jail." Declined all FCIC criminal referrals. After DOJ, returned to Covington & Burling, which represented the banks he chose not to prosecute.', href: '/entities/individuals/eric-holder' },
    { id: 'angelo-mozilo', name: 'Angelo Mozilo', type: 'individual', relationship: 'Countrywide Financial CEO. Called his own products "toxic" in emails while selling them. Sold $140M in stock before collapse. SEC settled for $67.5M. Never criminally charged.' },
-   { id: 'henry-paulson', name: 'Henry Paulson', type: 'individual', relationship: 'Treasury Secretary and former Goldman Sachs CEO (took home $700M from Goldman). Designed $700B TARP bailout. Held secret meeting with Goldman board during crisis while serving as Treasury Secretary.' },
+   { id: 'henry-paulson', name: 'Henry Paulson', type: 'individual', relationship: 'Treasury Secretary and former Goldman Sachs CEO (took home $700M from Goldman). Designed $700B TARP bailout. Held secret meeting with Goldman board during crisis while serving as Treasury Secretary.' }
   ],
   eventOriginDate: '2007-04-02',
   lastActivityDate: '2025-02-20',
@@ -148,7 +147,7 @@ const investigations_1: Record<string, InvestigationData> = {
      { date: '2013-03-06', event: 'AG Holder tells Senate: some banks are so large that prosecution "will have a negative impact on the national economy." The doctrine of "too big to jail" is official', type: 'critical' },
      { date: '2014-11-19', event: 'Goldman Sachs settles with DOJ for $5.06B. JPMorgan settles for $13B. Combined bank settlements exceed $150B. Zero senior executives charged in any case' },
      { date: '2015-01-29', event: 'DOJ announces Holder will step down. He returns to Covington & Burling, which represents JPMorgan, Goldman, Bank of America, and other banks he declined to prosecute' },
-     { date: '2018', event: 'Congress passes Economic Growth Act exempting banks with less than $250B in assets from Dodd-Frank oversight. Silicon Valley Bank and Signature Bank will fail in 2023 under relaxed rules' },
+     { date: '2018', event: 'Congress passes Economic Growth Act exempting banks with less than $250B in assets from Dodd-Frank oversight. Silicon Valley Bank and Signature Bank will fail in 2023 under relaxed rules' }
    ],
  },
 };

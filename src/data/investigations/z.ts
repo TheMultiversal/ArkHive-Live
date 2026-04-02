@@ -19,7 +19,7 @@ const investigations_z: Record<string, InvestigationData> = {
       'HUMAN COST: While Mobutu lived in extraordinary luxury, Zaire\'s infrastructure collapsed. Roads, hospitals, schools, and government services disintegrated. Life expectancy plummeted. By the 1990s, civil servants went unpaid for months, the military looted its own citizens, and the health system had effectively ceased to function. Mobutu\'s deliberate destruction of state institutions created the conditions for the catastrophic wars that followed his fall.',
       'POLITICAL REPRESSION: Mobutu maintained power through a combination of co-optation, division, and violence. Political opponents were imprisoned, tortured, or killed. The 1992 Lubumbashi massacre saw soldiers kill hundreds of student protesters. The security apparatus, trained and equipped by Western allies, was used primarily to suppress domestic opposition rather than defend the country.',
       'THE FALL: Mobutu\'s fall came in 1997 when Laurent-Desire Kabila\'s rebel forces, backed by Rwanda and Uganda, marched across the country meeting little resistance from a demoralized army. Mobutu fled to Morocco, where he died of prostate cancer months later. The country he left behind was in ruins, its institutions gutted, its treasury empty, its people among the poorest on earth.',
-      'ASSET RECOVERY FAILURE: Efforts to recover Mobutu\'s stolen assets have been largely unsuccessful. Swiss authorities froze some accounts but most assets were transferred or hidden before seizure. Billions remain unaccounted for decades later. The failure to recover stolen wealth mirrors the broader failure of the international system to hold kleptocrats and their Western enablers accountable.',
+      'ASSET RECOVERY FAILURE: Efforts to recover Mobutu\'s stolen assets have been largely unsuccessful. Swiss authorities froze some accounts but most assets were transferred or hidden before seizure. Billions remain unaccounted for decades later. The failure to recover stolen wealth mirrors the broader failure of the international system to hold kleptocrats and their Western enablers accountable.'
     ],
     tags: ['kleptocracy', 'cia', 'cold-war', 'africa', 'embezzlement', 'world-bank', 'swiss-banks', 'mineral-wealth', 'mobutu', 'congo', 'lumumba'],
     sources: [
@@ -28,7 +28,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { title: 'CIA and the Congo: Declassified Documents', url: 'https://nsarchive.gwu.edu/briefing-book/intelligence/2021-11-18/cia-congo-lumumba', type: 'Government Archive' },
       { title: 'Senate Church Committee: Alleged Assassination Plots', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Congressional Report' },
       { title: 'World Bank Independent Evaluation Group: Zaire/DRC', url: 'https://ieg.worldbankgroup.org/', type: 'International Report' },
-      { title: 'Stolen Asset Recovery Initiative (StAR)', url: 'https://star.worldbank.org/', type: 'Research' },
+      { title: 'Stolen Asset Recovery Initiative (StAR)', url: 'https://star.worldbank.org/', type: 'Research' }
     ],
     affiliations: [
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Backed Mobutu from the 1960s Congo Crisis through the Cold War; involved in Lumumba assassination; provided direct financial and military support for 30+ years', href: '/entities/agencies/cia' },
@@ -36,7 +36,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { id: 'mobutu', name: 'Mobutu Sese Seko', type: 'individual', relationship: 'Dictator of Zaire (1965-1997) who embezzled an estimated $5 billion while his country collapsed', href: '/entities/individuals/mobutu-sese-seko' },
       { id: 'lumumba', name: 'Patrice Lumumba', type: 'individual', relationship: 'Democratically elected Congolese prime minister assassinated with CIA and Belgian involvement in 1961, clearing the path for Mobutu', href: '/entities/individuals/patrice-lumumba' },
       { id: 'belgium', name: 'Belgium', type: 'organization', relationship: 'Former colonial power that participated in Lumumba assassination and maintained economic exploitation through Mobutu era', href: '/entities/organizations/belgium' },
-      { id: 'france', name: 'France', type: 'organization', relationship: 'Deployed military forces to rescue Mobutu regime during Shaba crises; maintained close diplomatic and financial ties', href: '/entities/organizations/france' },
+      { id: 'france', name: 'France', type: 'organization', relationship: 'Deployed military forces to rescue Mobutu regime during Shaba crises; maintained close diplomatic and financial ties', href: '/entities/organizations/france' }
     ],
     eventOriginDate: '1960-06-30',
     lastActivityDate: '2025-12-15',
@@ -50,7 +50,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { date: '1982-01-01', event: 'Internal IMF memo acknowledges Zaire\'s finances are "catastrophic" but lending continues; Mobutu diverts estimated 15-20% of national budget to personal accounts annually', type: 'financial' },
       { date: '1983-09-29', event: 'President Reagan hosts Mobutu at the White House, calling him "a voice of good sense and goodwill" despite documented corruption and human rights abuses', type: 'political' },
       { date: '1997-05-16', event: 'Mobutu flees as Kabila\'s forces take Kinshasa; dies of prostate cancer in Morocco on September 7, 1997, leaving a country in ruins and $5 billion in stolen assets', type: 'political' },
-      { date: '2001-11-16', event: 'Swiss authorities freeze Mobutu family accounts but most stolen assets had already been transferred; billions remain unrecovered decades later', type: 'financial' },
+      { date: '2001-11-16', event: 'Swiss authorities freeze Mobutu family accounts but most stolen assets had already been transferred; billions remain unrecovered decades later', type: 'financial' }
     ],
   },
   'zero-dark-thirty-torture-debate': {
@@ -70,7 +70,7 @@ const investigations_z: Record<string, InvestigationData> = {
       'DESTROYED EVIDENCE: In 2005, CIA officer Jose Rodriguez ordered the destruction of 92 videotapes documenting waterboarding sessions at a secret black site in Thailand, despite a court order and Congressional requests to preserve them. The tapes would have shown the reality of "enhanced interrogation," which bore no resemblance to the clinical depiction in the film. A Special Counsel investigation found insufficient evidence to prosecute the destruction.',
       'PROPAGANDA PRECEDENT: The CIA-Hollywood relationship exposed by Zero Dark Thirty was not new but unprecedented in scope. The CIA has a dedicated entertainment liaison office that shapes portrayals of the agency in film and television. Former CIA officers have documented how the agency uses entertainment media to build public support for controversial programs. The film became the most visible example of this influence operation.',
       'CULTURAL IMPACT: Zero Dark Thirty grossed $132 million worldwide, won the Academy Award for Sound Editing, and shaped public understanding of the bin Laden operation for millions of viewers. By depicting torture as effective, the film legitimized practices that international law prohibits absolutely. Polls showed viewers of the film were more likely to believe torture produced useful intelligence.',
-      'ACCOUNTABILITY GAP: No CIA officer was held accountable for providing classified information to filmmakers, destroying interrogation tapes, or misleading Congress about torture effectiveness. The officials who managed the propaganda operation and the torture program itself were promoted rather than punished. The film\'s narrative became the dominant story while the 6,700-page Senate report remains mostly classified.',
+      'ACCOUNTABILITY GAP: No CIA officer was held accountable for providing classified information to filmmakers, destroying interrogation tapes, or misleading Congress about torture effectiveness. The officials who managed the propaganda operation and the torture program itself were promoted rather than punished. The film\'s narrative became the dominant story while the 6,700-page Senate report remains mostly classified.'
     ],
     tags: ['cia', 'torture', 'enhanced-interrogation', 'hollywood', 'propaganda', 'senate-intelligence', 'bin-laden', 'zero-dark-thirty', 'black-sites', 'accountability'],
     sources: [
@@ -78,13 +78,13 @@ const investigations_z: Record<string, InvestigationData> = {
       { title: 'Senate Feinstein Letter to Sony Pictures', url: 'https://www.feinstein.senate.gov/public/', type: 'Congressional Record' },
       { title: 'CIA Inspector General Report on Destroyed Tapes', url: 'https://www.cia.gov/readingroom/', type: 'Government Report' },
       { title: 'ACLU FOIA: CIA Communications with Filmmakers', url: 'https://www.aclu.org/issues/national-security/torture', type: 'Legal Document' },
-      { title: 'National Security Archive: CIA Torture Documents', url: 'https://nsarchive.gwu.edu/', type: 'Government Archive' },
+      { title: 'National Security Archive: CIA Torture Documents', url: 'https://nsarchive.gwu.edu/', type: 'Government Archive' }
     ],
     affiliations: [
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Provided unprecedented access to filmmakers, shaped the film\'s pro-torture narrative, destroyed interrogation evidence, and misled Congress about torture effectiveness', href: '/entities/agencies/cia' },
       { id: 'senate-intel', name: 'Senate Intelligence Committee', type: 'agency', relationship: 'Conducted the 6,700-page investigation concluding torture was ineffective; partially declassified findings in 2014', href: '/entities/agencies/senate-intelligence-committee' },
       { id: 'feinstein', name: 'Dianne Feinstein', type: 'individual', relationship: 'Committee chair who wrote to Sony calling the film "grossly inaccurate" and fought for declassification of the torture report', href: '/entities/individuals/dianne-feinstein' },
-      { id: 'rodriguez', name: 'Jose Rodriguez', type: 'individual', relationship: 'CIA officer who ordered destruction of 92 interrogation videotapes despite court order; never prosecuted', href: '/entities/individuals/jose-rodriguez' },
+      { id: 'rodriguez', name: 'Jose Rodriguez', type: 'individual', relationship: 'CIA officer who ordered destruction of 92 interrogation videotapes despite court order; never prosecuted', href: '/entities/individuals/jose-rodriguez' }
     ],
     eventOriginDate: '2002-01-01',
     lastActivityDate: '2025-08-20',
@@ -96,7 +96,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { date: '2012-06-01', event: 'DOD Inspector General investigation reveals Leon Panetta disclosed classified bin Laden raid information at a ceremony attended by the filmmakers', type: 'legal' },
       { date: '2012-12-19', event: 'Zero Dark Thirty released, depicting CIA torture as instrumental in locating bin Laden; Senators Feinstein, Levin, and McCain write to Sony calling the depiction "grossly inaccurate"', type: 'political' },
       { date: '2014-12-09', event: 'Senate Intelligence Committee releases 500-page executive summary of its 6,700-page torture report, finding "enhanced interrogation was not effective in acquiring intelligence"', type: 'legal' },
-      { date: '2015-06-02', event: 'CIA Inspector General investigation into tape destruction finds "insufficient evidence" to prosecute despite clear violation of preservation orders', type: 'legal' },
+      { date: '2015-06-02', event: 'CIA Inspector General investigation into tape destruction finds "insufficient evidence" to prosecute despite clear violation of preservation orders', type: 'legal' }
     ],
   },
   'zuckerberg-meta-surveillance': {
@@ -111,19 +111,18 @@ const investigations_z: Record<string, InvestigationData> = {
       'The Cambridge Analytica scandal revealed that Facebook allowed a political data firm connected to Steve Bannon to harvest personal data from 87 million users without their consent. The data was used to build psychological profiles for targeted political advertising during the 2016 US presidential election and the Brexit referendum. Facebook knew about the breach for two years before it became public.',
       'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own research showed Instagram was harmful to teenage mental health, particularly among teenage girls, but the company suppressed the findings and continued prioritizing engagement metrics. The documents also showed the platform amplified divisive content because it generated more engagement.',
       'A UN fact-finding mission found that Facebook played a "determining role" in the genocide of Rohingya Muslims in Myanmar, where military-linked accounts used the platform to spread hate speech and coordinate violence that killed over 10,000 people. Facebook had only a handful of content moderators who spoke Burmese.',
-      'Meta has paid over $5 billion in FTC fines, faced antitrust lawsuits from the federal government and 48 state attorneys general, and been subject to investigations in the EU, UK, Australia, and numerous other countries. Despite this, the company continues to expand its data collection through new products including VR headsets, smart glasses, and AI systems trained on user data.',
+      'Meta has paid over $5 billion in FTC fines, faced antitrust lawsuits from the federal government and 48 state attorneys general, and been subject to investigations in the EU, UK, Australia, and numerous other countries. Despite this, the company continues to expand its data collection through new products including VR headsets, smart glasses, and AI systems trained on user data.'
     ],
     tags: ['surveillance', 'data-privacy', 'cambridge-analytica', 'social-media', 'antitrust', 'mental-health', 'genocide', 'myanmar'],
     sources: [
       { title: 'The Facebook Files, Wall Street Journal Investigation', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
       { title: 'FTC $5 Billion Settlement with Facebook', url: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook', type: 'Government Record' },
       { title: 'UN Myanmar Report on Facebook\'s Role', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', type: 'International Report' },
-      { title: 'Frances Haugen Senate Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower/', type: 'Congressional Hearing' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'Frances Haugen Senate Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower/', type: 'Congressional Hearing' }
     ],
     affiliations: [
       { id: 'mark-zuckerberg', name: 'Mark Zuckerberg', type: 'individual', relationship: 'Founder, CEO, and controlling shareholder', href: '/entities/individuals/mark-zuckerberg' },
-      { id: 'cambridge-analytica', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Harvested 87 million user profiles', href: '/entities/corporations/cambridge-analytica' },
+      { id: 'cambridge-analytica', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Harvested 87 million user profiles', href: '/entities/corporations/cambridge-analytica' }
     ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2026-02-01',
@@ -135,7 +134,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { date: '2019-07-24', event: 'FTC imposes record $5 billion fine on Facebook for privacy violations; critics call it a "parking ticket" for a company with $56 billion in annual revenue', type: 'legal' },
       { date: '2021-10-05', event: 'Whistleblower Frances Haugen testifies before Senate with internal documents showing Facebook knew Instagram harmed teen mental health but suppressed findings', type: 'political' },
       { date: '2022-02-02', event: 'Meta stock crashes 26% in single day after revelations about declining user growth; company continues expanding data collection through VR headsets and smart glasses', type: 'financial' },
-      { date: '2024-01-01', event: '48 state attorneys general and FTC pursue antitrust action against Meta; European regulators levy additional billions in fines under GDPR for systematic privacy violations', type: 'legal' },
+      { date: '2024-01-01', event: '48 state attorneys general and FTC pursue antitrust action against Meta; European regulators levy additional billions in fines under GDPR for systematic privacy violations', type: 'legal' }
     ],
   },
 };

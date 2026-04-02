@@ -18,15 +18,14 @@ const investigations_u: Record<string, InvestigationData> = {
  'BLACK LEDGER: Ukrainian investigators discovered the "Black Ledger "showing $12.7 million in undisclosed cash payments designated for Manafort from the Party of Regions.',
  'OLIGARCH CONNECTIONS: Manafort had relationships with Russian oligarch Oleg Deripaska (owed him money, offered campaign briefings) and Ukrainian oligarch Dmitry Firtash (extradition case).',
  'GATES COOPERATION: Deputy campaign manager Rick Gates pleaded guilty and cooperated extensively, providing testimony about the Ukraine schemes and other matters.',
- 'FARA ENFORCEMENT: The Mueller investigation reinvigorated FARA enforcement. Previously rarely prosecuted, FARA violations became a focus, leading to charges against multiple individuals.',
+ 'FARA ENFORCEMENT: The Mueller investigation reinvigorated FARA enforcement. Previously rarely prosecuted, FARA violations became a focus, leading to charges against multiple individuals.'
  ],
  tags: ['Ukraine', 'FARA', 'Manafort', 'Foreign Agents', 'Russia', 'Yanukovych', 'Kilimnik'],
  sources: [
  { title: 'Mueller Report Vol. I', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Treasury Kilimnik Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0126', type: 'Government Document' },
  { title: 'Senate Intelligence Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
- { title: 'Manafort EDVA Conviction', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', type: 'Court Records' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Manafort EDVA Conviction', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', type: 'Court Records' }
  ],
  affiliations: [
  { id: '1', name: 'Paul Manafort', type: 'individual', relationship: 'Primary Ukraine consultant', href: '/entities/individuals/paul-manafort' },
@@ -34,7 +33,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { id: '3', name: 'Konstantin Kilimnik', type: 'individual', relationship: 'Russian intelligence, received polling data', href: '/entities/individuals/konstantin-kilimnik' },
  { id: '4', name: 'Viktor Yanukovych', type: 'individual', relationship: 'Pro-Russian Ukrainian president', href: '/entities/individuals/viktor-yanukovych' },
  { id: '5', name: 'Oleg Deripaska', type: 'individual', relationship: 'Russian oligarch, Manafort debt', href: '/entities/individuals/oleg-deripaska' },
- { id: '6', name: 'Donald Trump', type: 'individual', relationship: 'Hired Manafort as campaign chair', href: '/entities/individuals/donald-trump' },
+ { id: '6', name: 'Donald Trump', type: 'individual', relationship: 'Hired Manafort as campaign chair', href: '/entities/individuals/donald-trump' }
  ],
    eventOriginDate: '2004-01-01',
    lastActivityDate: '2025-02-23',
@@ -43,7 +42,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2004', event: 'Paul Manafort begins advising pro-Russian Ukrainian President Viktor Yanukovych and the Party of Regions; earns $65M+ over the next decade', type: 'political' },
      { date: '2014-02', event: 'Yanukovych flees Ukraine after the Maidan revolution; Russia subsequently invades Crimea; Manafort\'s primary client network collapses', type: 'critical' },
      { date: '2016', event: 'Ukrainian "Black Ledger" reveals $12.7 million in undisclosed cash payments designated for Manafort from the Party of Regions', type: 'financial' },
-     { date: '2017-10-30', event: 'Mueller indicts Manafort and Rick Gates for money laundering, unregistered foreign lobbying, and false statements; reinvigorates FARA enforcement', type: 'legal' },
+     { date: '2017-10-30', event: 'Mueller indicts Manafort and Rick Gates for money laundering, unregistered foreign lobbying, and false statements; reinvigorates FARA enforcement', type: 'legal' }
      ],
  },
   'usps-interference': {
@@ -62,17 +61,18 @@ const investigations_u: Record<string, InvestigationData> = {
  'TRUMP\'S ADMISSION: Trump admitted on Fox Business that he was blocking postal funding to prevent mail-in voting:"They need that money in order to have the post office work so it can take all of these millions of ballots."',
  'MAIL DELAYS: First-class mail on-time delivery dropped from 92% to 64% in some areas. Medications, bills, and ballots were delayed.',
  'COURT INTERVENTIONS: Federal judges ordered DeJoy to restore service. He nominally complied while changes remained in effect.',
- 'AFTERMATH: DeJoy remains Postmaster General as of 2026. The USPS board structure makes it difficult for even a new president to remove him quickly.',
+ 'AFTERMATH: DeJoy remains Postmaster General as of 2026. The USPS board structure makes it difficult for even a new president to remove him quickly.'
  ],
  tags: ['USPS', 'DeJoy', 'Mail Voting', 'Election Interference', '2020 Election', 'Sorting Machines'],
  sources: [
  { title: 'Trump Fox Business Admission', url: 'https://www.forbes.com/sites/alisondurkee/2020/08/13/trump-admits-hes-blocking-usps-funding-to-stop-mail-in-voting/', type: 'News' },
  { title: 'Sorting Machine Removal', url: 'https://www.washingtonpost.com/business/2020/08/20/postal-service-mail-sorting-machines/', type: 'Investigation' },
-   { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+ { title: 'USPS OIG: Mail Delivery Operational Changes Reports', url: 'https://www.uspsoig.gov/reports/audit-reports/', type: 'Government Report' },
+ { title: 'House Oversight: Postmaster General DeJoy Investigation', url: 'https://oversight.house.gov/landing/usps/', type: 'Congressional Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Admitted blocking USPS funding', href: '/entities/individuals/donald-trump' },
- { id: '2', name: 'Louis DeJoy', type: 'individual', relationship: 'Postmaster General, implemented changes', href: '/entities/individuals/louis-dejoy' },
+ { id: '2', name: 'Louis DeJoy', type: 'individual', relationship: 'Postmaster General, implemented changes', href: '/entities/individuals/louis-dejoy' }
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2026-03-18',
@@ -81,7 +81,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2020-05', event: 'Louis DeJoy appointed Postmaster General; Trump mega-donor with no postal experience and investments in USPS competitors', type: 'political' },
      { date: '2020-08-13', event: 'Trump admitted on Fox Business he was blocking USPS funding to prevent mail-in voting; over 670 high-speed sorting machines removed or disabled', type: 'critical' },
      { date: '2020-10', event: 'Federal judges ordered DeJoy to restore postal service; first-class mail on-time delivery had fallen from 92% to 64% in some areas', type: 'legal' },
-     { date: '2026', event: 'DeJoy remains Postmaster General; USPS board structure prevents easy removal even by new presidents', type: 'default' },
+     { date: '2026', event: 'DeJoy remains Postmaster General; USPS board structure prevents easy removal even by new presidents', type: 'default' }
      ],
  },
   'undocumented-workers': {
@@ -100,7 +100,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'SANDRA DIAZ: Sandra Diaz, a Costa Rican immigrant, worked at Trump National Bedminster while undocumented and later became a legal permanent resident. She described an environment of fear where workers were terrified to speak up about mistreatment, wage issues, or safety violations because their immigration status gave management total control. Diaz later became an outspoken advocate, testifying to the gap between Trump\'s anti-immigrant rhetoric and his business practices.',
  'THE PURGE OF 2019: After the New York Times and Washington Post published their investigations in December 2018 and January 2019, the Trump Organization began systematically firing undocumented workers across its properties. At least a dozen workers were fired from Bedminster alone. Workers described being called into offices, told their documents had "problems," and being immediately terminated, often without final paychecks, severance, or any acknowledgment of years of loyal service. Some workers alleged that evidence of their employment, including records of hours worked, was destroyed or altered.',
  'THE SCOPE OF EXPLOITATION: At least five Trump-branded properties, including golf courses in New Jersey, New York, and Florida, were identified as having employed undocumented workers. The number of affected workers across all Trump Organization properties remains unknown, as the company never conducted or disclosed a comprehensive audit. Legal experts noted that the pattern, employing undocumented workers while the owner campaigned against undocumented immigration, created potential liability under federal labor and immigration law, including the Immigration Reform and Control Act of 1986, which prohibits knowingly hiring unauthorized workers.',
- 'NO ACCOUNTABILITY: Despite the documented evidence of systematic employment of undocumented workers across multiple properties over many years, no Trump Organization executives were charged with immigration-related violations. The company issued vague statements about implementing E-Verify going forward but faced no federal investigation. Workers who came forward risked deportation by exposing their own status, while the executives who hired and exploited them faced no consequences. Anibal Romero, the immigration attorney representing multiple workers, called it "modern day slavery where workers are used and abused and then tossed out like garbage."',
+ 'NO ACCOUNTABILITY: Despite the documented evidence of systematic employment of undocumented workers across multiple properties over many years, no Trump Organization executives were charged with immigration-related violations. The company issued vague statements about implementing E-Verify going forward but faced no federal investigation. Workers who came forward risked deportation by exposing their own status, while the executives who hired and exploited them faced no consequences. Anibal Romero, the immigration attorney representing multiple workers, called it "modern day slavery where workers are used and abused and then tossed out like garbage."'
  ],
  tags: ['Undocumented Workers', 'Immigration', 'Bedminster', 'Trump Golf', 'Hypocrisy', 'E-Verify', 'Worker Exploitation', 'Document Fraud'],
  sources: [
@@ -108,12 +108,12 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Washington Post: More Workers Come Forward', url: 'https://www.washingtonpost.com/politics/more-undocumented-workers-say-they-worked-at-trump-golf-course/2019/01/26/a9491c4c-2073-11e9-8e21-59a09ff1e2a1_story.html', type: 'Investigation' },
  { title: 'NY Times: Victorina Morales Interview', url: 'https://www.nytimes.com/2018/12/06/us/trump-bedminster-golf-undocumented-workers.html', type: 'Primary Source' },
  { title: 'NJ Attorney General: Workplace Exploitation Guidance', url: 'https://www.njoag.gov/', type: 'Government' },
- { title: 'USCIS: E-Verify Program Data', url: 'https://www.e-verify.gov/', type: 'Government' },
+ { title: 'USCIS: E-Verify Program Data', url: 'https://www.e-verify.gov/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Owner of properties that systematically employed undocumented workers while campaigning on anti-immigrant platform', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Trump Organization', type: 'corporation', relationship: 'Systematically employed undocumented workers at golf courses and hotels; fired workers after press exposure', href: '/entities/corporations/trump-organization' },
- { id: '3', name: 'ICE', type: 'agency', relationship: 'Federal immigration enforcement agency that did not investigate Trump Organization despite documented violations', href: '/entities/agencies/ice' },
+ { id: '3', name: 'ICE', type: 'agency', relationship: 'Federal immigration enforcement agency that did not investigate Trump Organization despite documented violations', href: '/entities/agencies/ice' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2023-05-11',
@@ -126,7 +126,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2019-01-26', event: 'Washington Post reported additional undocumented workers at multiple Trump properties; pattern of exploitation documented across at least five locations.', type: 'default' },
      { date: '2019-02-01', event: 'Trump Organization began systematic firing of undocumented workers across properties; workers reported being terminated without final pay or severance.', type: 'default' },
      { date: '2019-03-01', event: 'At least a dozen workers fired from Bedminster alone; Trump Organization announced it would implement E-Verify at all properties going forward.', type: 'default' },
-     { date: '2019-12-01', event: 'Despite documented evidence of systematic employment violations at multiple properties, no federal investigation opened; no executives charged.', type: 'legal' },
+     { date: '2019-12-01', event: 'Despite documented evidence of systematic employment violations at multiple properties, no federal investigation opened; no executives charged.', type: 'legal' }
      ],
  },
   'uae-influence': {
@@ -149,7 +149,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'ABRAHAM ACCORDS: The UAE normalization with Israel was presented as a diplomatic breakthrough. In reality, it formalized existing cooperation, rewarded UAE with F-35 sales, and required no Israeli concessions on Palestinian rights, serving UAE and Israeli interests over peace.',
  'THINK TANK INFLUENCE: UAE money flowed to Washington think tanks including the Middle East Institute, Atlantic Council, and others. This funding shaped expert discourse, provided cover for UAE policies, and created a bench of UAE-friendly voices.',
  'MERCENARY OPERATIONS: The UAE hired American contractors, including former Navy SEALs, for assassination operations in Yemen. Erik Prince\'s companies have extensive UAE contracts. American expertise served Emirati covert operations.',
- 'CONTINUING INFLUENCE: Despite the Barrack prosecution, UAE influence in Washington continues. The structural advantages, money, access, aligned interests with parts of the establishment, persist beyond any single administration.',
+ 'CONTINUING INFLUENCE: Despite the Barrack prosecution, UAE influence in Washington continues. The structural advantages, money, access, aligned interests with parts of the establishment, persist beyond any single administration.'
  ],
  tags: ['UAE', 'Mohammed bin Zayed', 'Tom Barrack', 'Foreign Lobbying', 'Jared Kushner', 'Qatar Blockade', 'Abraham Accords'],
  sources: [
@@ -157,7 +157,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Washington Post: Kushner-MBZ Relationship', url: 'https://www.washingtonpost.com/world/national-security/kushner-and-the-saudis/2018/03/27/', type: 'Investigation' },
  { title: 'FARA Filings: UAE Lobbying Disclosures', url: 'https://www.fara.us/', type: 'Government Records' },
  { title: 'DOJ: United States v. Thomas Barrack (Indictment)', url: 'https://www.justice.gov/', type: 'Court Record' },
- { title: 'AP: UAE Hired American Mercenaries for Assassination Program', url: 'https://apnews.com/', type: 'Investigation' },
+ { title: 'AP: UAE Hired American Mercenaries for Assassination Program', url: 'https://apnews.com/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Mohammed bin Zayed', type: 'individual', relationship: 'UAE leader, directed influence campaign', href: '/entities/individuals/mohammed-bin-zayed' },
@@ -165,7 +165,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { id: '3', name: 'Jared Kushner', type: 'individual', relationship: 'Close relationship with MBZ, policy influence', href: '/entities/individuals/jared-kushner' },
  { id: '4', name: 'Donald Trump', type: 'individual', relationship: 'Implemented UAE-aligned policies', href: '/entities/individuals/donald-trump' },
  { id: '5', name: 'Erik Prince', type: 'individual', relationship: 'UAE contractor, Seychelles meeting', href: '/entities/individuals/erik-prince' },
- { id: '6', name: 'George Nader', type: 'individual', relationship: 'UAE emissary to Trump circle', href: '/entities/individuals/george-nader' },
+ { id: '6', name: 'George Nader', type: 'individual', relationship: 'UAE emissary to Trump circle', href: '/entities/individuals/george-nader' }
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-07-07',
@@ -180,7 +180,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2020-09-15', event: 'Abraham Accords signed normalizing UAE-Israel relations; UAE rewarded with F-35 fighter jet sale worth $23 billion; no Israeli concessions on Palestinian rights required.', type: 'political' },
      { date: '2021-07-20', event: 'Tom Barrack, Trump inaugural committee chair, arrested and charged with acting as unregistered UAE agent; alleged to have used access to advance UAE interests.', type: 'legal' },
      { date: '2022-04-01', event: 'Kushner\'s firm Affinity Partners received $2 billion from Saudi Arabia\'s sovereign wealth fund despite advisory board objections about due diligence and inexperience.', type: 'financial' },
-     { date: '2022-11-04', event: 'Tom Barrack acquitted of acting as unregistered UAE agent; jury found insufficient evidence that he acted at UAE\'s direction despite documented contacts with Emirati officials.', type: 'legal' },
+     { date: '2022-11-04', event: 'Tom Barrack acquitted of acting as unregistered UAE agent; jury found insufficient evidence that he acted at UAE\'s direction despite documented contacts with Emirati officials.', type: 'legal' }
      ],
  },
   'us-backed-dictators': {
@@ -203,23 +203,20 @@ const investigations_u: Record<string, InvestigationData> = {
  'EGYPT, MUBARAK: Hosni Mubarak received billions in U.S. aid while running a police state for 30 years. He was Washington\'s key Arab ally until protesters forced him out in 2011.',
  'SAUDI ARABIA: The U.S.-Saudi relationship epitomizes prioritizing interests over values. Saudi Arabia executes dissidents, oppresses women, exports extremism, and murdered Jamal Khashoggi, while receiving unconditional American support.',
  'LASTING CONSEQUENCES: U.S. support for dictators creates lasting anti-American sentiment. Iranian hostility traces to 1953. Latin American distrust stems from decades of backing right-wing death squads."Why do they hate us?"has historical answers.',
- 'CURRENT CONTINUITY: The pattern continues. The U.S. supports authoritarian governments in Egypt, Saudi Arabia, UAE, and elsewhere when they serve American interests. Democracy promotion remains rhetorical rather than actual policy.',
+ 'CURRENT CONTINUITY: The pattern continues. The U.S. supports authoritarian governments in Egypt, Saudi Arabia, UAE, and elsewhere when they serve American interests. Democracy promotion remains rhetorical rather than actual policy.'
  ],
  tags: ['U.S. Foreign Policy', 'Dictators', 'Cold War', 'CIA', 'Iran', 'Chile', 'Saudi Arabia', 'Human Rights'],
  sources: [
  { title: 'Killing Hope, William Blum', url: 'https://williamblum.org/books/killing-hope', type: 'Book' },
  { title: 'The Jakarta Method', url: 'https://www.publicaffairsbooks.com/titles/vincent-bevins/the-jakarta-method/9781541742406/', type: 'Book' },
- { title: 'CIA Covert Operations Declassified', url: 'https://www.cia.gov/readingroom/', type: 'Primary Documents' },
- { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Research Archive' },
- { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/', type: 'Reports' },
-   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+ { title: 'CIA Covert Operations Declassified', url: 'https://www.cia.gov/readingroom/', type: 'Primary Documents' }
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Installed and supported dictators', href: '/entities/agencies/cia' },
  { id: '2', name: 'State Department', type: 'agency', relationship: 'Provided diplomatic support', href: '/entities/agencies/state-department' },
  { id: '3', name: 'Augusto Pinochet', type: 'individual', relationship: 'U.S.-backed Chilean dictator', href: '/entities/individuals/augusto-pinochet' },
  { id: '4', name: 'Mohammad Reza Pahlavi', type: 'individual', relationship: 'U.S.-installed Iranian Shah', href: '/entities/individuals/shah-pahlavi' },
- { id: '5', name: 'Saudi Arabia', type: 'organization', relationship: 'Current U.S.-backed autocracy', href: '/entities/organizations/saudi-arabia' },
+ { id: '5', name: 'Saudi Arabia', type: 'organization', relationship: 'Current U.S.-backed autocracy', href: '/entities/organizations/saudi-arabia' }
  ],
    eventOriginDate: '1936-01-01',
    lastActivityDate: '2025-12-22',
@@ -235,7 +232,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '1979', event: 'When he fell in 1979, anti-American sentiment exploded', type: 'default' },
      { date: '1980', event: 'His successor Chun Doo-hwan massacred pro-democracy protesters at Gwangju in 1980 while America looked away', type: 'critical' },
      { date: '1990', event: 'Pinochet killed thousands, tortured tens of thousands, and ruled until 1990', type: 'critical' },
-     { date: '2011', event: 'He was Washington\'s key Arab ally until protesters forced him out in 2011', type: 'default' },
+     { date: '2011', event: 'He was Washington\'s key Arab ally until protesters forced him out in 2011', type: 'default' }
    ],
  },
   'uber-scandals': {
@@ -254,7 +251,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'DRIVER EXPLOITATION AND THE GIG ECONOMY: Uber\'s business model depended on classifying its 3.5 million drivers worldwide as independent contractors rather than employees, denying them minimum wage protections, health insurance, unemployment insurance, workers\' compensation, and the right to collective bargaining. Studies by the Economic Policy Institute and MIT found that after accounting for vehicle expenses, insurance, fuel, maintenance, and depreciation, many Uber drivers earned well below the minimum wage, with some earning as little as $3.37 per hour in net income. Uber\'s dynamic pricing algorithm could slash driver pay without notice or negotiation.',
  'PROPOSITION 22: THE $200 MILLION CAMPAIGN: Uber, Lyft, DoorDash, and other gig companies spent over $200 million on California\'s Proposition 22 in November 2020, the most expensive ballot measure campaign in U.S. history. The measure, which passed 59-41, exempted app-based transportation and delivery companies from California\'s AB5 law that would have reclassified their workers as employees. The campaign deployed misleading advertising, including messages suggesting drivers themselves opposed employee classification. A California Superior Court judge ruled Proposition 22 unconstitutional in August 2021, finding the legislature\'s power to set workers\' compensation standards could not be overridden by ballot measure, but the ruling was partially reversed on appeal.',
  'THE UBER FILES: The "Uber Files" leak in July 2022, comprising over 124,000 internal documents obtained by The Guardian and shared with the International Consortium of Investigative Journalists, revealed the full scope of Uber\'s conduct. Executives including Kalanick deliberately used violence against Uber drivers by taxi industry opponents as a public relations strategy, with Kalanick writing "violence guarantee[s] success" when told of attacks in France. The documents showed Uber secretly lobbied world leaders including French President Emmanuel Macron (who privately helped Uber during his time as economy minister), then-Vice President Joe Biden, and German Chancellor Olaf Scholz. Uber operated kill switches to destroy evidence during government raids on offices in Amsterdam, Montreal, and other cities.',
- 'REGULATORY CONSEQUENCES: The fallout from Uber\'s conduct was global but uneven. Transport for London revoked Uber\'s operating license in 2017 (later restored with conditions). The European Court of Justice ruled in 2017 that Uber was a transport service, not a technology platform, subjecting it to transportation regulations throughout the EU. Multiple countries including Denmark, Hungary, and Bulgaria effectively banned UberPop. In the U.S., the FTC investigated Uber\'s privacy practices, the DOJ conducted criminal investigations, and the SEC investigated the company\'s disclosures to investors. Kalanick was not criminally charged but was forced to sell $2.5 billion in Uber stock after his departure.',
+ 'REGULATORY CONSEQUENCES: The fallout from Uber\'s conduct was global but uneven. Transport for London revoked Uber\'s operating license in 2017 (later restored with conditions). The European Court of Justice ruled in 2017 that Uber was a transport service, not a technology platform, subjecting it to transportation regulations throughout the EU. Multiple countries including Denmark, Hungary, and Bulgaria effectively banned UberPop. In the U.S., the FTC investigated Uber\'s privacy practices, the DOJ conducted criminal investigations, and the SEC investigated the company\'s disclosures to investors. Kalanick was not criminally charged but was forced to sell $2.5 billion in Uber stock after his departure.'
  ],
  tags: ['Corporate Crime', 'Greyball', 'Data Breach', 'Gig Economy', 'Travis Kalanick', 'Worker Exploitation', 'Uber Files', 'Regulatory Evasion'],
  sources: [
@@ -265,14 +262,14 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Holder Report on Uber Workplace Culture', url: 'https://www.covington.com/', type: 'Investigation Report' },
  { title: 'FTC: Uber Privacy Settlement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/152-3054-uber-technologies-inc', type: 'Government' },
  { title: 'California Proposition 22 Campaign Finance Records', url: 'https://www.fppc.ca.gov/', type: 'Government Record' },
- { title: 'ICIJ: The Uber Files - Global Investigation', url: 'https://www.icij.org/investigations/uber-files/', type: 'Investigation' },
+ { title: 'ICIJ: The Uber Files - Global Investigation', url: 'https://www.icij.org/investigations/uber-files/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Travis Kalanick', type: 'individual', relationship: 'CEO (2010-2017) who built Uber through systematic law-breaking, directed Greyball and evidence destruction programs', href: '/entities/individuals/travis-kalanick' },
  { id: '2', name: 'Dara Khosrowshahi', type: 'individual', relationship: 'CEO (2017-present) who disclosed concealed data breach and attempted corporate culture reform', href: '/entities/individuals/dara-khosrowshahi' },
  { id: '3', name: 'Uber Technologies', type: 'corporation', relationship: 'Company central to all scandals; paid $148M data breach settlement, $200M+ on Prop 22', href: '/entities/corporations/uber' },
  { id: '4', name: 'DOJ', type: 'agency', relationship: 'Opened criminal investigations into Greyball; prosecuted CSO Joe Sullivan for breach coverup', href: '/entities/agencies/doj' },
- { id: '5', name: 'FTC', type: 'agency', relationship: 'Investigated and settled privacy violations related to data breach and rider tracking', href: '/entities/agencies/ftc' },
+ { id: '5', name: 'FTC', type: 'agency', relationship: 'Investigated and settled privacy violations related to data breach and rider tracking', href: '/entities/agencies/ftc' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2026-01-02',
@@ -288,7 +285,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2017-11-21', event: 'New CEO Khosrowshahi disclosed year-old data breach coverup; CSO Joe Sullivan and deputy fired; $148M settlement with all 50 states followed.', type: 'financial' },
      { date: '2020-11-03', event: 'California Proposition 22 passed after $200M+ campaign by gig companies, exempting app-based drivers from employee classification under AB5.', type: 'political' },
      { date: '2022-07-10', event: 'The Guardian and ICIJ published the Uber Files: 124,000+ internal documents revealing global lobbying, evidence destruction, and exploitation of driver violence.', type: 'default' },
-     { date: '2022-10-05', event: 'Joe Sullivan convicted of obstruction and concealment of a felony for data breach coverup; first conviction of a corporate executive for hiding a breach.', type: 'legal' },
+     { date: '2022-10-05', event: 'Joe Sullivan convicted of obstruction and concealment of a felony for data breach coverup; first conviction of a corporate executive for hiding a breach.', type: 'legal' }
    ],
  },
   'ukraine-policy': {
@@ -304,11 +301,10 @@ const investigations_u: Record<string, InvestigationData> = {
  'The bipartisan consensus shattered when Trump withheld $391 million in congressionally appropriated military aid to Ukraine in the summer of 2019, conditioning its release on Ukrainian President Zelensky\'s public announcement of investigations into Joe Biden and the 2016 election. The scheme was orchestrated through Rudy Giuliani and involved the recall of Ambassador Marie Yovanovitch, who had resisted the pressure campaign. The resulting whistleblower complaint led to Trump\'s first impeachment.',
  'Following Russia\'s full-scale invasion in February 2022, the Biden administration led a coalition providing over $75 billion in military, economic, and humanitarian aid to Ukraine through 2024. The aid included HIMARS rocket systems, Patriot air defense, Abrams tanks, and F-16 fighter jets. However, Republican opposition grew, with a $60 billion aid package delayed for six months in Congress as Trump allies argued against continued support.',
  'The Trump second administration (2025-) reversed U.S. Ukraine policy dramatically. The administration pressured Ukraine to accept territorial concessions to Russia, suspended military aid shipments, and pursued direct negotiations with Putin that excluded Ukraine. The policy reversal undermined the NATO alliance, emboldened Russian aggression, and raised questions about whether Trump\'s longstanding reluctance to confront Russia reflected a geopolitical calculation or personal financial and political motivations.',
- 'The Ukraine policy saga exposed the vulnerability of U.S. foreign policy to presidential corruption and domestic political manipulation. A country fighting for its survival became a political football in American domestic politics. The weaponization of military aid for personal political benefit, the politicization of intelligence assessments about Russian interference, and the eventual abandonment of a democratic ally under invasion illustrated how unchecked presidential power can subordinate national security to personal interests.',
+ 'The Ukraine policy saga exposed the vulnerability of U.S. foreign policy to presidential corruption and domestic political manipulation. A country fighting for its survival became a political football in American domestic politics. The weaponization of military aid for personal political benefit, the politicization of intelligence assessments about Russian interference, and the eventual abandonment of a democratic ally under invasion illustrated how unchecked presidential power can subordinate national security to personal interests.'
  ],
  tags: ['Ukraine', 'Foreign Policy', 'Impeachment', 'Military Aid', 'Zelensky', 'Trump', 'Quid Pro Quo'],
  sources: [
- { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
  { title: 'Citizens for Responsibility and Ethics in Washington', url: 'https://www.citizensforethics.org/', type: 'Report' },
  { title: 'House Judiciary Committee Records', url: 'https://judiciary.house.gov/', type: 'Government' },
@@ -321,12 +317,11 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'International Criminal Court - Ukraine', url: 'https://www.icc-cpi.int/ukraine', type: 'Document' },
  { title: 'Bellingcat Open Source Investigations', url: 'https://www.bellingcat.com/tag/ukraine/', type: 'Investigation' },
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
- { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
-   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Ukraine aid controversy', href: '/entities/individuals/donald-trump' },
- { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Military aid coordination', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Military aid coordination', href: '/entities/agencies/pentagon' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-06-16',
@@ -336,7 +331,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2018', event: 'The Trump administration, despite Trump\'s personal reluctance, was pressured by Congress into approving $47 million in Javelin anti-tank missiles in 2018, a key escalation in U.S', type: 'political' },
      { date: '2019', event: 'The bipartisan consensus shattered when Trump withheld $391 million in congressionally appropriated military aid to Ukraine in the summer of 2019, conditioning its release on Ukrainian President Ze', type: 'political' },
      { date: '2022-02-01', event: 'Following Russia\'s full-scale invasion in February 2022, the Biden administration led a coalition providing over $75 billion in military, economic, and humanitarian aid to Ukraine through 2024', type: 'political' },
-     { date: '2025', event: 'The Trump second administration (2025-) reversed U.S', type: 'default' },
+     { date: '2025', event: 'The Trump second administration (2025-) reversed U.S', type: 'default' }
    ],
  },
   'ukraine-war': {
@@ -356,7 +351,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'GLOBAL ECONOMIC SHOCKWAVES: The economic consequences extended far beyond the battlefield. Disruption of Ukrainian grain exports through the Black Sea, where Ukraine was the world\'s fourth-largest grain exporter, triggered food price spikes and humanitarian crises in Africa and the Middle East. A UN-brokered Black Sea Grain Initiative temporarily restored exports but Russia withdrew in July 2023. European energy markets were upended as countries scrambled to replace Russian natural gas, which had supplied approximately 40% of EU gas imports. Germany reversed decades of energy policy, reopened coal plants, and built LNG import terminals. Global defense spending surged, with NATO members accelerating toward the 2% GDP target. Finland and Sweden abandoned decades of neutrality to join NATO, fundamentally reshaping European security.',
  'THE WEAPONS PIPELINE AND WESTERN SUPPORT: The United States and NATO allies provided over $100 billion in military, economic, and humanitarian assistance to Ukraine through 2024. The weapons pipeline escalated from Javelin anti-tank missiles and Stinger anti-aircraft systems in the war\'s early days to HIMARS precision rocket systems (which transformed the battlefield), Patriot air defense batteries, Leopard 2 and Challenger 2 tanks, Bradley fighting vehicles, and ultimately F-16 fighter jets. Each escalation was preceded by intense debate about Russian "red lines" and nuclear escalation risks. Russia\'s nuclear threats, while never carried out, constrained Western decision-making and illustrated how nuclear deterrence could serve as a shield for conventional aggression.',
  'THE INTERNATIONAL ORDER UNDER STRESS: The conflict exposed the structural limitations of the international order in preventing aggression by a nuclear-armed permanent member of the UN Security Council. Russia\'s veto power rendered the Security Council impotent on the core issue. The International Criminal Court issued an arrest warrant for Putin for the deportation of Ukrainian children, but enforcement remained impossible against a leader of a nuclear state. The UN General Assembly repeatedly condemned the invasion by overwhelming margins (141-5 in March 2022) but lacked enforcement mechanisms. The war demonstrated that rules-based international order was only as strong as the willingness of major powers to enforce it, with profound implications for Taiwan, the Korean Peninsula, and global security architecture.',
- 'THE FROZEN CONFLICT RISK: By late 2024, the war risked settling into a frozen conflict with no clear path to resolution. Russia occupied approximately 18% of Ukrainian territory (including Crimea and parts of Donetsk, Luhansk, Zaporizhzhia, and Kherson oblasts). Ukraine\'s 2023 summer counteroffensive made limited gains against heavily fortified Russian defenses. Western support faced growing political headwinds, with a $60 billion U.S. aid package delayed six months in Congress. The war\'s human cost continued to mount: combined military casualties (killed and wounded) were estimated to exceed one million by late 2024. The destruction of $150+ billion in Ukrainian infrastructure, the demographic crisis from displacement and casualties, and the environmental damage from mining and bombardment would take decades to address even after the fighting ends.',
+ 'THE FROZEN CONFLICT RISK: By late 2024, the war risked settling into a frozen conflict with no clear path to resolution. Russia occupied approximately 18% of Ukrainian territory (including Crimea and parts of Donetsk, Luhansk, Zaporizhzhia, and Kherson oblasts). Ukraine\'s 2023 summer counteroffensive made limited gains against heavily fortified Russian defenses. Western support faced growing political headwinds, with a $60 billion U.S. aid package delayed six months in Congress. The war\'s human cost continued to mount: combined military casualties (killed and wounded) were estimated to exceed one million by late 2024. The destruction of $150+ billion in Ukrainian infrastructure, the demographic crisis from displacement and casualties, and the environmental damage from mining and bombardment would take decades to address even after the fighting ends.'
  ],
  tags: ['Russia-Ukraine War', 'Putin', 'Zelensky', 'NATO', 'War Crimes', 'European Security', 'Energy Crisis', 'Displacement'],
  sources: [
@@ -367,14 +362,14 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Human Rights Watch: Ukraine War Documentation', url: 'https://www.hrw.org/europe/central-asia/ukraine', type: 'Report' },
  { title: 'Royal United Services Institute (RUSI) Ukraine Reports', url: 'https://rusi.org/', type: 'Analysis' },
  { title: 'Kiel Institute: Ukraine Support Tracker', url: 'https://www.ifw-kiel.de/topics/war-against-ukraine/ukraine-support-tracker/', type: 'Data' },
- { title: 'UN General Assembly Resolutions on Ukraine', url: 'https://www.un.org/', type: 'Document' },
+ { title: 'UN General Assembly Resolutions on Ukraine', url: 'https://www.un.org/', type: 'Document' }
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered the full-scale invasion of Ukraine; ICC arrest warrant issued for child deportation', href: '/entities/individuals/vladimir-putin' },
  { id: '2', name: 'Volodymyr Zelensky', type: 'individual', relationship: 'Ukrainian president leading wartime defense and international coalition for support', href: '/entities/individuals/volodymyr-zelensky' },
  { id: '3', name: 'NATO', type: 'organization', relationship: 'Provided $100B+ in military aid; expanded to include Finland and Sweden in response to invasion', href: '/entities/organizations/nato' },
  { id: '4', name: 'Pentagon', type: 'agency', relationship: 'Coordinated massive weapons pipeline including HIMARS, Patriots, and F-16s to Ukraine', href: '/entities/agencies/pentagon' },
- { id: '5', name: 'Wagner Group', type: 'organization', relationship: 'Russian mercenary force that led the bloody Battle of Bakhmut; estimated 20,000 fighters killed', href: '/entities/organizations/wagner-group' },
+ { id: '5', name: 'Wagner Group', type: 'organization', relationship: 'Russian mercenary force that led the bloody Battle of Bakhmut; estimated 20,000 fighters killed', href: '/entities/organizations/wagner-group' }
  ],
    eventOriginDate: '2014-02-27',
    lastActivityDate: '2024-11-23',
@@ -389,7 +384,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2023-03-17', event: 'ICC issued arrest warrant for Vladimir Putin for the war crime of forced deportation of Ukrainian children to Russia.', type: 'political' },
      { date: '2023-05-20', event: 'Russia captured Bakhmut after 9-month battle; Wagner Group reportedly suffered 20,000 killed; Ukraine lost estimated 20,000 defenders.', type: 'critical' },
      { date: '2023-06-06', event: 'Ukraine launched summer counteroffensive against heavily fortified Russian defensive lines in Zaporizhzhia; limited territorial gains amid dense minefields.', type: 'default' },
-     { date: '2024-04-24', event: '$60.8 billion U.S. Ukraine aid package passed after six-month delay in Congress; signaled growing political divisions over continued support.', type: 'political' },
+     { date: '2024-04-24', event: '$60.8 billion U.S. Ukraine aid package passed after six-month delay in Congress; signaled growing political divisions over continued support.', type: 'political' }
      ],
  },
   'ukraine-war-crimes': {
@@ -410,7 +405,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'TORTURE AND SEXUAL VIOLENCE: Russian occupation forces operated systematic torture facilities documented independently by the UN Human Rights Monitoring Mission, the OSCE, and Ukrainian prosecutors. Facilities were identified in Kherson, Izium, Balakliya, and throughout occupied Donetsk and Luhansk. Former detainees described electric shocks applied to genitals, severe beatings, waterboarding, stress positions, mock executions, and sexual violence. In the Kherson region alone, over 40 torture sites were identified after liberation. The UN Commission of Inquiry on Ukraine concluded that war crimes and crimes against humanity were committed across occupied territories. Over 900 cases of conflict-related sexual violence were formally documented by early 2024, with organizations estimating the actual number to be orders of magnitude higher.',
  'IZIUM MASS GRAVES: The liberation of Izium in Kharkiv Oblast in September 2022 revealed one of the war\'s largest mass burial sites. Ukrainian authorities exhumed 447 bodies from a forest burial ground, including 30 showing signs of torture, strangulation, or gunshot wounds. Among the dead were children and elderly civilians. Many bore evidence of violent death inconsistent with combat, including broken bones, rope marks, and castration. The Izium discoveries confirmed a pattern: wherever Russian forces retreated, evidence of systematic brutality emerged.',
  'CLUSTER MUNITIONS AND MINES: Russian forces extensively used cluster munitions in populated areas, a practice prohibited by the Convention on Cluster Munitions (though neither Russia nor Ukraine has ratified it). The Kramatorsk railway station attack on April 8, 2022, killed at least 59 civilians, including 7 children, using a Tochka-U missile carrying cluster bomblets. Thousands of civilians waited at the station for evacuation trains. Russia also deployed vast minefields across southern and eastern Ukraine, making the country one of the most mine-contaminated in the world. The State Emergency Service of Ukraine estimated that approximately 174,000 square kilometers, roughly 30% of the country, was potentially contaminated with mines and unexploded ordnance.',
- 'ACCOUNTABILITY EFFORTS: The accountability mechanisms have faced profound structural challenges. The ICC issued arrest warrants for Putin and Lvova-Belova but Russia does not recognize the court\'s jurisdiction, and Putin\'s travel has been restricted to countries unlikely to enforce the warrant. A special tribunal for the crime of aggression has been proposed by the European Parliament and supported by Ukraine but not yet established, as aggression falls outside the ICC\'s jurisdiction over non-member states. Ukraine\'s Office of the Prosecutor General has opened over 130,000 war crimes proceedings. Eurojust, the EU\'s judicial cooperation agency, established a Joint Investigation Team with Ukraine, Poland, and Lithuania. The Atrocity Crimes Advisory Group, supported by the EU, provides expertise to Ukrainian prosecutors. Despite this unprecedented documentation effort, leveraging satellite imagery, open-source intelligence, intercepted communications, and survivor testimony, the gap between documentation and accountability remains vast, with no mechanism capable of compelling Russian compliance.',
+ 'ACCOUNTABILITY EFFORTS: The accountability mechanisms have faced profound structural challenges. The ICC issued arrest warrants for Putin and Lvova-Belova but Russia does not recognize the court\'s jurisdiction, and Putin\'s travel has been restricted to countries unlikely to enforce the warrant. A special tribunal for the crime of aggression has been proposed by the European Parliament and supported by Ukraine but not yet established, as aggression falls outside the ICC\'s jurisdiction over non-member states. Ukraine\'s Office of the Prosecutor General has opened over 130,000 war crimes proceedings. Eurojust, the EU\'s judicial cooperation agency, established a Joint Investigation Team with Ukraine, Poland, and Lithuania. The Atrocity Crimes Advisory Group, supported by the EU, provides expertise to Ukrainian prosecutors. Despite this unprecedented documentation effort, leveraging satellite imagery, open-source intelligence, intercepted communications, and survivor testimony, the gap between documentation and accountability remains vast, with no mechanism capable of compelling Russian compliance.'
  ],
  tags: ['War Crimes', 'Bucha Massacre', 'Russia-Ukraine War', 'ICC', 'Forced Deportation', 'Torture', 'Civilian Targeting', 'International Humanitarian Law'],
  sources: [
@@ -423,13 +418,13 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'AP Investigation: Mariupol Theatre Bombing', url: 'https://apnews.com/article/russia-ukraine-mariupol-theater-bombing', type: 'Investigation' },
  { title: 'Yale HRL Conflict Observatory - Filtration Operations', url: 'https://hub.conflictobservatory.org/', type: 'Research' },
  { title: 'Maxar Technologies Satellite Imagery', url: 'https://www.maxar.com/open-data/ukraine', type: 'Primary Evidence' },
- { title: 'OSCE Moscow Mechanism Reports on Ukraine', url: 'https://www.osce.org/', type: 'Report' },
+ { title: 'OSCE Moscow Mechanism Reports on Ukraine', url: 'https://www.osce.org/', type: 'Report' }
  ],
  affiliations: [
       { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'ICC arrest warrant for unlawful deportation of Ukrainian children; ordered invasion enabling systematic war crimes', href: '/entities/individuals/vladimir-putin' },
       { id: '2', name: 'Russian Armed Forces', type: 'organization', relationship: 'Committed documented war crimes including mass executions, torture, sexual violence, and deliberate civilian targeting', href: '/entities/organizations/russian-armed-forces' },
       { id: '3', name: 'Volodymyr Zelensky', type: 'individual', relationship: 'Ukrainian president documenting and prosecuting Russian war crimes; over 130,000 proceedings opened', href: '/entities/individuals/volodymyr-zelensky' },
-      { id: '4', name: 'International Criminal Court', type: 'organization', relationship: 'Issued arrest warrants for Putin and Lvova-Belova for child deportation war crimes', href: '/entities/organizations/international-criminal-court' },
+      { id: '4', name: 'International Criminal Court', type: 'organization', relationship: 'Issued arrest warrants for Putin and Lvova-Belova for child deportation war crimes', href: '/entities/organizations/international-criminal-court' }
     ],
    eventOriginDate: '2022-02-24',
    lastActivityDate: '2025-05-09',
@@ -444,7 +439,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-09-15', event: 'Liberation of Izium revealed mass burial site with 447 bodies, including 30 showing evidence of torture, strangulation, and execution.', type: 'critical' },
      { date: '2022-10-10', event: 'Russia began systematic campaign of missile and drone strikes targeting Ukraine\'s civilian energy infrastructure before winter.', type: 'default' },
      { date: '2023-03-17', event: 'ICC issued arrest warrants for Vladimir Putin and Maria Lvova-Belova for the war crime of unlawful deportation of Ukrainian children.', type: 'political' },
-     { date: '2024-01-15', event: 'Ukraine\'s Prosecutor General reported over 130,000 war crimes proceedings opened; Eurojust Joint Investigation Team expanded documentation efforts.', type: 'legal' },
+     { date: '2024-01-15', event: 'Ukraine\'s Prosecutor General reported over 130,000 war crimes proceedings opened; Eurojust Joint Investigation Team expanded documentation efforts.', type: 'legal' }
      ],
  },
   'usa-gymnastics-abuse': {
@@ -463,7 +458,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'THE KAROLYI RANCH: The Karolyi Ranch in Huntsville, Texas, operated by legendary coaches Bela and Martha Karolyi, served as the official national team training center from 2001 to 2018. Multiple gymnasts described it as a site of systematic abuse, not only by Nassar but through a training culture of extreme physical and emotional cruelty. Athletes described being weighed daily, publicly shamed for eating, trained through serious injuries, and denied medical treatment that might interrupt training schedules. Nassar\'s abuse was enabled by a closed, authoritarian culture where athletes were taught that suffering was a prerequisite for Olympic success and questioning authority was grounds for removal from the team. The ranch was closed in 2018 following the scandal.',
  'SENTENCING AND SETTLEMENTS: Nassar was sentenced to 40 to 175 years in Michigan state prison in January 2018 by Judge Rosemarie Aquilina after 156 victims delivered impact statements over seven days in the largest victim statement hearing in U.S. history. He had previously been sentenced to 60 years in federal prison on child sexual abuse material charges. Michigan State University paid $500 million to settle claims from over 332 victims. USA Gymnastics declared Chapter 11 bankruptcy in December 2018 and reached a $380 million settlement with survivors in 2021. The U.S. Olympic and Paralympic Committee contributed $34 million to the settlement. The total financial liability exceeded $900 million.',
  'INSTITUTIONAL COLLAPSE AND REFORM: The scandal led to the complete replacement of USA Gymnastics leadership, including the resignation of every board member. Michigan State University president Lou Anna Simon resigned (later acquitted of charges related to the investigation). MSU athletic director Mark Hollis resigned. Gymnastics coach Kathie Klages was convicted of lying to police about her knowledge of Nassar\'s abuse. The U.S. Olympic Committee CEO Scott Blackmun resigned. Congress passed the SafeSport Authorization Act of 2017, creating the U.S. Center for SafeSport as an independent body to investigate abuse in Olympic sports. The Empowering Olympic, Paralympic, and Amateur Athletes Act of 2020 strengthened oversight and required the USOPC to implement athlete safety protocols.',
- 'THE SYSTEMIC LESSON: The Nassar case became a landmark study in how institutional incentives to protect reputation, revenue, and prestige enable serial abusers to operate for decades in plain sight. Every institution that interacted with Nassar, USA Gymnastics, Michigan State, the USOC, and the FBI, prioritized its own interests over the safety of child athletes. Survivors, led by Aly Raisman, Simone Biles, McKayla Maroney, and Maggie Nichols ("Athlete A"), testified before Congress and forced accountability through sheer persistence. The case demonstrated that institutional reform only occurs when survivors refuse to be silenced and when public pressure makes continued inaction politically untenable.',
+ 'THE SYSTEMIC LESSON: The Nassar case became a landmark study in how institutional incentives to protect reputation, revenue, and prestige enable serial abusers to operate for decades in plain sight. Every institution that interacted with Nassar, USA Gymnastics, Michigan State, the USOC, and the FBI, prioritized its own interests over the safety of child athletes. Survivors, led by Aly Raisman, Simone Biles, McKayla Maroney, and Maggie Nichols ("Athlete A"), testified before Congress and forced accountability through sheer persistence. The case demonstrated that institutional reform only occurs when survivors refuse to be silenced and when public pressure makes continued inaction politically untenable.'
  ],
  tags: ['Sexual Abuse', 'Larry Nassar', 'USA Gymnastics', 'Michigan State', 'FBI Failure', 'Olympic Sports', 'Institutional Coverup', 'SafeSport'],
  sources: [
@@ -473,14 +468,14 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Netflix: Athlete A Documentary', url: 'https://www.netflix.com/', type: 'Documentary' },
  { title: 'Senate Judiciary Committee: FBI Failures Hearing (Sept 2021)', url: 'https://www.judiciary.senate.gov/', type: 'Congressional Record' },
  { title: 'Michigan Attorney General: MSU Investigation Records', url: 'https://www.michigan.gov/ag/', type: 'Government' },
- { title: 'USA Gymnastics Bankruptcy Court Filings', url: 'https://www.uscourts.gov/', type: 'Court Record' },
+ { title: 'USA Gymnastics Bankruptcy Court Filings', url: 'https://www.uscourts.gov/', type: 'Court Record' }
  ],
  affiliations: [
  { id: '1', name: 'Larry Nassar', type: 'individual', relationship: 'Team doctor who sexually abused 500+ gymnasts over three decades while USA Gymnastics, MSU, and FBI failed to act', href: '/entities/individuals/larry-nassar' },
  { id: '2', name: 'FBI', type: 'agency', relationship: 'Indianapolis field office delayed investigation for 14+ months; agent made false statements; 70+ additional victims during delay', href: '/entities/agencies/fbi' },
  { id: '3', name: 'Michigan State University', type: 'organization', relationship: 'Employed Nassar 1997-2016; dismissed complaints in 1997, 1998, 2000, 2004, 2014; paid $500M settlement', href: '/entities/organizations/michigan-state-university' },
  { id: '4', name: 'USA Gymnastics', type: 'organization', relationship: 'Received abuse reports from 1994; delayed FBI notification; declared bankruptcy; $380M settlement', href: '/entities/organizations/usa-gymnastics' },
- { id: '5', name: 'U.S. Olympic Committee', type: 'organization', relationship: 'Failed oversight obligations; CEO resigned; contributed $34M to settlement; reformed under Congressional pressure', href: '/entities/organizations/usoc' },
+ { id: '5', name: 'U.S. Olympic Committee', type: 'organization', relationship: 'Failed oversight obligations; CEO resigned; contributed $34M to settlement; reformed under Congressional pressure', href: '/entities/organizations/usoc' }
  ],
    eventOriginDate: '1986-01-01',
    lastActivityDate: '2025-04-29',
@@ -497,7 +492,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2018-01-24', event: 'Nassar sentenced to 40-175 years in state prison after seven-day victim hearing; Judge Aquilina: "I just signed your death warrant."', type: 'legal' },
      { date: '2018-12-05', event: 'USA Gymnastics filed Chapter 11 bankruptcy under weight of lawsuits; eventually reached $380M settlement with 500+ survivors.', type: 'financial' },
      { date: '2021-07-14', event: 'DOJ Inspector General released 119-page report calling FBI\'s handling "fundamental failures" and "inexcusable"; DOJ declined to prosecute agents.', type: 'legal' },
-     { date: '2021-09-15', event: 'Simone Biles, Aly Raisman, McKayla Maroney, and Maggie Nichols testified before Senate Judiciary Committee about FBI failures.', type: 'political' },
+     { date: '2021-09-15', event: 'Simone Biles, Aly Raisman, McKayla Maroney, and Maggie Nichols testified before Senate Judiciary Committee about FBI failures.', type: 'political' }
    ],
  },
   'uvalde-shooting': {
@@ -517,7 +512,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'THE DPS COVERUP: The Texas Department of Public Safety, led by Director Steven McCraw, initially praised the law enforcement response. As the scale of the failure became clear, DPS shifted blame entirely to Arredondo and Uvalde CISD police while minimizing the fact that dozens of DPS troopers were present in the hallway within minutes and also failed to act. McCraw told the Texas Senate that the response was an "abject failure" but DPS conducted no internal investigation of its own officers for months. Internal DPS communications, obtained through public records requests, revealed efforts to manage public perception and avoid accountability. Seven DPS officers were eventually referred for formal investigation, but the pattern of institutional self-protection was clear.',
  'THE COMMUNITY DEVASTATED: Uvalde, a small, predominantly Hispanic community of approximately 16,000 people, was shattered. Nineteen families buried children aged 9 to 11 in the weeks following the massacre. Teacher Irma Garcia\'s husband, Joe Garcia, suffered a fatal heart attack two days after her death; his family said he died of a broken heart, making the death toll effectively 22. The community\'s grief was compounded by the law enforcement failures. Families discovered that officers had stood yards away from their dying children for over an hour. Some parents had attempted to enter the school themselves and were detained, handcuffed, pepper-sprayed, and tasered by officers enforcing a perimeter while taking no action against the gunman.',
  'LEGISLATIVE AFTERMATH: The Uvalde massacre occurred just ten days after the May 14 Buffalo supermarket shooting that killed 10 Black shoppers. The two mass shootings within weeks led to the passage of the Bipartisan Safer Communities Act, signed by President Biden on June 25, 2022, the first federal gun safety legislation in nearly 30 years. The law\'s provisions were modest: enhanced background checks for buyers under 21, incentive funding for state crisis intervention (red flag) programs, closing the "boyfriend loophole" for domestic violence offenders, and $750 million for community mental health. Gun control advocates noted the law would not have prevented the Uvalde shooting. Texas passed no state-level gun restrictions.',
- 'THE POLITICAL OBSCENITY: The NRA held its annual convention in Houston, 280 miles from Uvalde, just three days after the massacre. Trump, Ted Cruz, and other Republican leaders spoke at the convention while families in Uvalde planned funerals. Governor Abbott initially attended a post-shooting press conference and appeared emotional, but within days shifted to defending gun rights and blaming mental health. Abbott declined to call a special legislative session on gun safety. The contrast between mass grief and political inaction crystallized the American gun crisis: polling consistently showed 60-70% public support for stronger gun regulations, but the political system remained captured by the gun industry lobby and the NRA\'s influence over Republican primary elections.',
+ 'THE POLITICAL OBSCENITY: The NRA held its annual convention in Houston, 280 miles from Uvalde, just three days after the massacre. Trump, Ted Cruz, and other Republican leaders spoke at the convention while families in Uvalde planned funerals. Governor Abbott initially attended a post-shooting press conference and appeared emotional, but within days shifted to defending gun rights and blaming mental health. Abbott declined to call a special legislative session on gun safety. The contrast between mass grief and political inaction crystallized the American gun crisis: polling consistently showed 60-70% public support for stronger gun regulations, but the political system remained captured by the gun industry lobby and the NRA\'s influence over Republican primary elections.'
  ],
  tags: ['Gun Violence', 'Mass Shooting', 'Uvalde', 'Police Failure', 'School Shooting', 'NRA', 'Law Enforcement Accountability', 'Active Shooter Response'],
  sources: [
@@ -526,13 +521,13 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Texas Tribune: Uvalde Investigation Coverage', url: 'https://www.texastribune.org/series/uvalde-texas-school-shooting/', type: 'Investigation' },
  { title: 'ProPublica/Texas Tribune: 77 Minutes Investigation', url: 'https://www.propublica.org/article/uvalde-emt-medical-response', type: 'Investigation' },
  { title: 'Gun Violence Archive: 2022 Mass Shootings', url: 'https://www.gunviolencearchive.org/', type: 'Data' },
- { title: 'Uvalde CISD and City Body Camera Footage (released via FOIA)', url: 'https://www.uvaldeleaks.com/', type: 'Primary Evidence' },
+ { title: 'Uvalde CISD and City Body Camera Footage (released via FOIA)', url: 'https://www.uvaldeleaks.com/', type: 'Primary Evidence' }
  ],
  affiliations: [
  { id: '1', name: 'NRA', type: 'corporation', relationship: 'Held annual convention in Houston 3 days after massacre; lobbied against gun restrictions; donated to politicians blocking reform', href: '/entities/corporations/nra' },
  { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Passed limited Bipartisan Safer Communities Act in June 2022, first federal gun legislation in 30 years', href: '/entities/agencies/congress' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Conducted 575-page Critical Incident Review documenting cascading law enforcement failures during 77-minute delayed response', href: '/entities/agencies/doj' },
- { id: '4', name: 'Texas Department of Public Safety', type: 'agency', relationship: 'Dozens of DPS troopers present in hallway during 77-minute failure; agency later attempted to shift blame and avoid accountability', href: '/entities/agencies/texas-dps' },
+ { id: '4', name: 'Texas Department of Public Safety', type: 'agency', relationship: 'Dozens of DPS troopers present in hallway during 77-minute failure; agency later attempted to shift blame and avoid accountability', href: '/entities/agencies/texas-dps' }
  ],
    eventOriginDate: '2022-05-24',
    lastActivityDate: '2025-11-30',
@@ -547,7 +542,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-07-17', event: 'Texas House investigative committee released interim report documenting "systemic failures" and "egregiously poor decision making" during 77-minute delay.', type: 'legal' },
      { date: '2022-10-01', event: 'Pete Arredondo formally fired as Uvalde CISD police chief after being placed on leave; faced no criminal charges for months.', type: 'legal' },
      { date: '2024-01-18', event: 'DOJ released 575-page Critical Incident Review finding "cascading failures" by all responding agencies; described officers standing in hallway with shields doing nothing.', type: 'legal' },
-     { date: '2024-06-27', event: 'Pete Arredondo and former officer Adrian Gonzales indicted on child endangerment charges; first criminal charges stemming from the botched police response.', type: 'legal' },
+     { date: '2024-06-27', event: 'Pete Arredondo and former officer Adrian Gonzales indicted on child endangerment charges; first criminal charges stemming from the botched police response.', type: 'legal' }
      ],
  },
   'uyghur-genocide': {
@@ -566,7 +561,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'FORCED LABOR AND GLOBAL SUPPLY CHAINS: Forced labor programs systematically transfer Uyghurs from camps to factories producing goods for global supply chains, effectively creating a coerced labor pipeline. An estimated 80,000+ Uyghurs have been transferred to factories across China under "labor transfer" programs. The Australian Strategic Policy Institute identified 82 global brands potentially receiving goods from factories using Uyghur forced labor, including Apple, Nike, Volkswagen, Samsung, and Amazon. The Uyghur Forced Labor Prevention Act, signed by President Biden in December 2021, created a rebuttable presumption that all goods from Xinjiang are produced with forced labor, banning their import into the United States. U.S. Customs and Border Protection has blocked over $2 billion in imports under the act. However, the complexity of global manufacturing supply chains, particularly in cotton (Xinjiang produces 85% of China\'s cotton), polysilicon for solar panels, and tomato products, makes full enforcement extremely difficult.',
  'THE SURVEILLANCE STATE: Xinjiang has become the world\'s most surveilled region, serving as a testing ground for technologies later exported globally. The region is blanketed with facial recognition cameras, checkpoints equipped with iris scanners, and Wi-Fi sniffers that extract data from smartphones. Uyghurs are required to install spyware on their phones. DNA, blood type, iris scans, and voice recordings are collected from all residents aged 12-65. A "predictive policing" platform developed by Chinese tech companies aggregates surveillance data to flag individuals for detention based on algorithmic assessments of "extremism risk," including behaviors such as praying, avoiding alcohol, or having family abroad. The companies involved, including Hikvision, Dahua, SenseTime, and Megvii, have been placed on U.S. export restriction lists.',
  'INTERNATIONAL RESPONSE AND IMPUNITY: The U.S. State Department under both Trump and Biden administrations formally determined that China is committing genocide against the Uyghurs. The parliaments of the UK, Canada, the Netherlands, Belgium, the Czech Republic, and Lithuania passed motions declaring the situation a genocide. France\'s National Assembly declared it crimes against humanity. The UN Human Rights Office\'s September 2022 assessment, released in the final minutes of then-Commissioner Michelle Bachelet\'s term (reportedly delayed for over a year under Chinese diplomatic pressure), found "serious human rights violations" that "may constitute international crimes, in particular crimes against humanity." Despite this documentation, China\'s veto power as a permanent member of the UN Security Council has prevented any binding international action.',
- 'THE ACCOUNTABILITY GAP: No nation has imposed consequences commensurate with the scale of documented atrocities. The U.S. imposed targeted sanctions on Chinese officials under the Global Magnitsky Act and restrictions on technology exports. The EU imposed sanctions on four Chinese officials in March 2021, its first China sanctions in 30 years, prompting retaliatory Chinese sanctions that were far broader. The 2022 Beijing Winter Olympics proceeded despite calls for a diplomatic boycott, with the U.S. and several allies declining to send official delegations but not pulling athletes. Major corporations continue to operate in China and source from Xinjiang-linked supply chains. The Uyghur Tribunal, an independent people\'s tribunal chaired by Sir Geoffrey Nice QC (former Milosevic prosecutor), concluded in December 2021 that China had committed genocide against the Uyghurs. But without enforcement mechanisms, documentation has not translated into accountability.',
+ 'THE ACCOUNTABILITY GAP: No nation has imposed consequences commensurate with the scale of documented atrocities. The U.S. imposed targeted sanctions on Chinese officials under the Global Magnitsky Act and restrictions on technology exports. The EU imposed sanctions on four Chinese officials in March 2021, its first China sanctions in 30 years, prompting retaliatory Chinese sanctions that were far broader. The 2022 Beijing Winter Olympics proceeded despite calls for a diplomatic boycott, with the U.S. and several allies declining to send official delegations but not pulling athletes. Major corporations continue to operate in China and source from Xinjiang-linked supply chains. The Uyghur Tribunal, an independent people\'s tribunal chaired by Sir Geoffrey Nice QC (former Milosevic prosecutor), concluded in December 2021 that China had committed genocide against the Uyghurs. But without enforcement mechanisms, documentation has not translated into accountability.'
  ],
  tags: ['Genocide', 'Uyghur', 'Xinjiang', 'Concentration Camps', 'Forced Sterilization', 'Forced Labor', 'Mass Surveillance', 'China'],
  sources: [
@@ -579,13 +574,13 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Uyghur Human Rights Project Reports', url: 'https://uhrp.org/reports/', type: 'Report' },
  { title: 'AP Investigation: China Cuts Uyghur Births with IUDs, Abortion, Sterilization', url: 'https://apnews.com/article/ap-top-news-international-news-weekend-reads-china-health-269b3de1af34e17c1941a514f78d764c', type: 'Investigation' },
  { title: 'Uyghur Tribunal Judgment (December 2021)', url: 'https://uyghurtribunal.com/wp-content/uploads/2022/01/Uyghur-Tribunal-Judgment-9th-Dec-21.pdf', type: 'Legal Document' },
- { title: 'BuzzFeed News: Xinjiang Detention Camp Satellite Analysis', url: 'https://www.buzzfeednews.com/article/meghara/china-new-internment-camps-xinjiang-uighurs-muslims', type: 'Investigation' },
+ { title: 'BuzzFeed News: Xinjiang Detention Camp Satellite Analysis', url: 'https://www.buzzfeednews.com/article/meghara/china-new-internment-camps-xinjiang-uighurs-muslims', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Xi Jinping', type: 'individual', relationship: 'CCP General Secretary who directed "absolutely no mercy" policy; oversaw construction of camp system from 2017', href: '/entities/individuals/xi-jinping' },
  { id: '2', name: 'Chinese Communist Party', type: 'organization', relationship: 'Party-state apparatus operating detention camps, forced labor, and sterilization programs holding 1-1.8 million Uyghurs', href: '/entities/organizations/chinese-communist-party' },
  { id: '3', name: 'Chen Quanguo', type: 'individual', relationship: 'Xinjiang Party Secretary (2016-2021) who implemented mass detention system; ordered "round up everyone who should be rounded up"', href: '/entities/individuals/chen-quanguo' },
- { id: '4', name: 'Hikvision', type: 'corporation', relationship: 'Chinese surveillance technology company providing facial recognition cameras across Xinjiang; U.S. export-restricted', href: '/entities/corporations/hikvision' },
+ { id: '4', name: 'Hikvision', type: 'corporation', relationship: 'Chinese surveillance technology company providing facial recognition cameras across Xinjiang; U.S. export-restricted', href: '/entities/corporations/hikvision' }
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2026-01-29',
@@ -600,7 +595,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2021-12-09', event: 'Uyghur Tribunal (independent UK-based tribunal) issued judgment that China committed genocide; chaired by Sir Geoffrey Nice QC, former Milosevic prosecutor.', type: 'legal' },
      { date: '2021-12-23', event: 'Uyghur Forced Labor Prevention Act signed into law; created rebuttable presumption that all Xinjiang goods involve forced labor; $2B+ in imports blocked.', type: 'political' },
      { date: '2022-05-24', event: 'Xinjiang Police Files leaked: thousands of detainee photographs, shoot-to-kill orders, and internal speeches revealing the systematic nature of persecution.', type: 'critical' },
-     { date: '2022-08-31', event: 'UN OHCHR published Xinjiang assessment finding "serious human rights violations" constituting potential "crimes against humanity" -- released in final minutes of Commissioner\'s term.', type: 'political' },
+     { date: '2022-08-31', event: 'UN OHCHR published Xinjiang assessment finding "serious human rights violations" constituting potential "crimes against humanity" -- released in final minutes of Commissioner\'s term.', type: 'political' }
    ],
  },
   'union-pension-fund-fraud-schemes': {
@@ -616,19 +611,17 @@ const investigations_u: Record<string, InvestigationData> = {
       'MODERN MULTIEMPLOYER CRISIS: The Central States Fund never recovered from its organized crime era. By 2016, it was projected to run out of money by 2025; affecting 400,000 workers and retirees. Under the Multiemployer Pension Reform Act (MPRA) of 2014, the fund proposed cutting benefits by up to 60% for current retirees. The Treasury Department rejected the cuts as insufficient. Central States became the poster child for the broader multiemployer pension crisis: of approximately 1,400 multiemployer plans, the PBGC estimated that over 200 were in \"critical and declining\" status; meaning they would become insolvent within 20 years. The aggregate underfunding of multiemployer plans exceeded $757 billion.',
       'THE BUTCH LEWIS ACT AND $86 BILLION BAILOUT: The 2021 American Rescue Plan included the Special Financial Assistance (SFA) program; named for the Butch Lewis Act after a Teamster who died advocating for pension protection. The program allocated $86 billion in taxpayer funds to bail out financially troubled multiemployer plans. Central States received $35.8 billion; the largest single allocation. The International Brotherhood of Teamsters plan received $1.1 billion. The United Mine Workers plan received $1.1 billion. Critics argued the bailout rewarded decades of mismanagement and fraud with taxpayer money; supporters argued that workers who paid into these plans their entire careers had no responsibility for the mismanagement and deserved their promised benefits.',
       'PATTERNS OF FRAUD: Beyond the Teamsters, union pension fraud takes multiple forms. Fiduciary fraud involves trustees making investments that benefit themselves or associates rather than plan participants; including sweetheart loans, real estate deals, and investments in companies owned by union officials. Fee skimming involves pension consultants, investment managers, and service providers charging excessive fees; sometimes through kickback arrangements with trustees. Phantom participants involve inflating plan membership to increase employer contributions that are then siphoned off. The DOL\'s Employee Benefits Security Administration (EBSA) conducts approximately 750 civil investigations and 250 criminal investigations per year related to employee benefit plan fraud; recovering over $1 billion annually.',
-      'STRUCTURAL VULNERABILITIES: Union pension funds are structurally vulnerable to fraud and mismanagement because of their governance model. Trustees are typically union officials with no investment expertise; appointed through political processes rather than meritocratic selection. The same trustees who negotiate employer contribution rates also oversee how those contributions are invested; creating conflicts of interest. ERISA (1974) established fiduciary standards and the PBGC as a backstop, but enforcement has been chronically underfunded. The DOL\'s EBSA has approximately 400 investigators responsible for overseeing 722,000 retirement plans, 2.5 million health plans, and $12 trillion in assets; an impossible oversight ratio that guarantees most fraud goes undetected.',
+      'STRUCTURAL VULNERABILITIES: Union pension funds are structurally vulnerable to fraud and mismanagement because of their governance model. Trustees are typically union officials with no investment expertise; appointed through political processes rather than meritocratic selection. The same trustees who negotiate employer contribution rates also oversee how those contributions are invested; creating conflicts of interest. ERISA (1974) established fiduciary standards and the PBGC as a backstop, but enforcement has been chronically underfunded. The DOL\'s EBSA has approximately 400 investigators responsible for overseeing 722,000 retirement plans, 2.5 million health plans, and $12 trillion in assets; an impossible oversight ratio that guarantees most fraud goes undetected.'
     ],
     tags: ['Pension Fund Fraud', 'Teamsters', 'Central States Fund', 'Multiemployer Pensions', 'PBGC', 'Butch Lewis Act'],
     sources: [
       { title: 'PBGC: Multiemployer Program Statistics', url: 'https://www.pbgc.gov', type: 'Government Report' },
       { title: 'DOL EBSA: Enforcement Statistics', url: 'https://www.dol.gov/agencies/ebsa', type: 'Government Report' },
-      { title: 'Senate HELP Committee: Pension Crisis Hearings', url: 'https://www.help.senate.gov', type: 'Congressional Record' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Senate HELP Committee: Pension Crisis Hearings', url: 'https://www.help.senate.gov', type: 'Congressional Record' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Teamsters pension fraud cases; oversaw consent decree governing union from 1989-2015; criminal investigations into fiduciary breaches', href: '/entities/agencies/doj' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
-
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-05-02',
@@ -638,7 +631,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '1983', event: 'Allen Dorfman, a close Hoffa associate who served as the fund\'s "consultant" (effectively its investment manager), was murdered in 1983 shortly before he was scheduled to testify about mob influence', type: 'critical' },
      { date: '2014', event: 'Under the Multiemployer Pension Reform Act (MPRA) of 2014, the fund proposed cutting benefits by up to 60% for current retirees', type: 'default' },
      { date: '2016', event: 'By 2016, it was projected to run out of money by 2025; affecting 400,000 workers and retirees', type: 'default' },
-     { date: '2021', event: 'THE BUTCH LEWIS ACT AND $86 BILLION BAILOUT: The 2021 American Rescue Plan included the Special Financial Assistance (SFA) program', type: 'critical' },
+     { date: '2021', event: 'THE BUTCH LEWIS ACT AND $86 BILLION BAILOUT: The 2021 American Rescue Plan included the Special Financial Assistance (SFA) program', type: 'critical' }
    ],
   },
 
@@ -660,19 +653,17 @@ const investigations_u: Record<string, InvestigationData> = {
       "INSTITUTIONAL LIES: In the immediate aftermath, Texas DPS and other officials provided a false narrative. They initially claimed Ramos was confronted by a school resource officer (false), that the door was locked (not verified), and that officers acted heroically. The Texas House Investigative Committee report and DOJ critical incident review systematically dismantled these claims.",
       "TEXAS DPS COVER-UP: Texas DPS Director Steven McCraw initially praised the law enforcement response. As evidence of the failures emerged, DPS shifted blame to Arredondo while downplaying its own officers\' inaction. A DPS Inspector General investigation found that 91 DPS personnel responded and none attempted to breach. McCraw was eventually fired by Governor Abbott for covering up the agency\'s failures.",
       "DOJ CRITICAL INCIDENT REVIEW: The DOJ\'s January 2024 report concluded that the law enforcement response was 'a failure' at every level. The report found 'cascading failures of leadership, decision-making, communication, and equipment' and determined that lives could have been saved with a faster breach. It made 65 recommendations for improving active shooter response.",
-      "THE FAMILIES: Families of the victims have become powerful advocates for gun reform and police accountability. They have sued the city, the school district, the gun manufacturer, and the social media platform where Ramos made threats. Teacher Irma Garcia\'s husband Joe Garcia died of a heart attack two days after the shooting; his family says he died of a broken heart. The community of Uvalde has been permanently scarred.",
+      "THE FAMILIES: Families of the victims have become powerful advocates for gun reform and police accountability. They have sued the city, the school district, the gun manufacturer, and the social media platform where Ramos made threats. Teacher Irma Garcia\'s husband Joe Garcia died of a heart attack two days after the shooting; his family says he died of a broken heart. The community of Uvalde has been permanently scarred."
     ],
     tags: ["Uvalde","School Shooting","Police Failure","Gun Violence","Robb Elementary","Active Shooter","Pete Arredondo"],
     sources: [
       { title: "Texas House Investigative Committee Report", url: "https://house.texas.gov/uvalde", type: "Government Report" },
       { title: "DOJ Critical Incident Review", url: "https://www.justice.gov/", type: "Government Report" },
-      { title: "Texas Tribune Uvalde Investigation", url: "https://www.texastribune.org/series/uvalde-texas-school-shooting/", type: "Investigative Journalism" },
-      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
+      { title: "Texas Tribune Uvalde Investigation", url: "https://www.texastribune.org/series/uvalde-texas-school-shooting/", type: "Investigative Journalism" }
     ],
     affiliations: [
       { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Conducted critical incident review finding cascading failures at every level of law enforcement response', href: '/entities/agencies/doj' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2022-05-24',
    lastActivityDate: '2026-03-21',
@@ -683,7 +674,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-08', event: 'Arredondo was fired in August 2022 and indicted on 29 counts of child endangerment in June 2024.', type: 'legal' },
      { date: '2024', event: 'DOJ CRITICAL INCIDENT REVIEW: The DOJ\'s January 2024 report concluded that the law enforcement response was inadequate at every level.', type: 'default' },
      { date: '2024-01', event: 'DOJ CRITICAL INCIDENT REVIEW: The DOJ\'s January 2024 report concluded that the law enforcement response was inadequate at every level.', type: 'default' },
-     { date: '2024-06', event: 'Arredondo was fired in August 2022 and indicted on 29 counts of child endangerment in June 2024.', type: 'legal' },
+     { date: '2024-06', event: 'Arredondo was fired in August 2022 and indicted on 29 counts of child endangerment in June 2024.', type: 'legal' }
    ],
   },
   'us-prison-industrial-complex': {
@@ -699,18 +690,17 @@ const investigations_u: Record<string, InvestigationData> = {
       'The private prison industry is dominated by two corporations: CoreCivic (formerly CCA, the Corrections Corporation of America) and GEO Group, which together operate approximately 120 facilities housing over 80,000 inmates. These companies have spent over $25 million on lobbying and campaign contributions since 2000. Their business model depends on maintaining high incarceration rates: their SEC filings explicitly list "reductions in crime rates" and "relaxation of enforcement" as risk factors. GEO Group donated $250,000 to a Trump super PAC and subsequently received a $110 million contract. CoreCivic\'s founder, Tom Beasley, was chairman of the Tennessee Republican Party.',
       'Every aspect of incarceration has been monetized. Securus Technologies and Global Tel Link (GTL) hold monopoly contracts for prison phone services, charging families up to $1 per minute for calls. JPay charges prisoners up to $12.99 per money transfer. Prison commissaries mark up basic necessities by 200-300%. Prison labor pays inmates as little as $0.12 per hour (and in five states, nothing) to produce goods for private companies and government agencies. Aramark and Trinity Services Group provide prison food that has been documented to include spoiled meat, maggot-infested food, and meals below minimum caloric requirements. Cash bail systems keep approximately 470,000 unconvicted people in jail at any given time simply because they are too poor to pay.',
       'Under the 13th Amendment, slavery is explicitly permitted "as a punishment for crime," the constitutional basis for prison labor. Under 42 U.S.C. 1983, prisoners can sue for civil rights violations, but the Prison Litigation Reform Act (PLRA, 42 U.S.C. 1997e) created barriers to filing suit. The Eighth Amendment prohibits cruel and unusual punishment, but courts have set high bars for conditions claims. Under the GEO Group\'s contracts, guaranteed minimum occupancy rates (often 80-90%) effectively require states to keep prisons full or pay for empty beds. The DOJ under both Obama and Biden moved to phase out federal private prison contracts, but Trump reversed this direction.',
-      'Mass incarceration is the defining civil rights crisis of our time. It has devastated Black and Latino communities, separated millions of children from parents, created permanent second-class citizens through felony disenfranchisement and collateral consequences, and cost taxpayers over $80 billion annually in direct expenses and an estimated $285 billion in indirect costs. The system does not reduce crime: states that have reduced incarceration have seen crime continue to decline. What it does is generate profits for the corporations that have built their business models on human caging. Every person locked in a private prison cell is revenue. Every phone call from an incarcerated mother to her child is revenue. Every package of ramen noodles marked up 300% in a commissary is revenue. The American prison system is not broken; it is working exactly as designed.',
+      'Mass incarceration is the defining civil rights crisis of our time. It has devastated Black and Latino communities, separated millions of children from parents, created permanent second-class citizens through felony disenfranchisement and collateral consequences, and cost taxpayers over $80 billion annually in direct expenses and an estimated $285 billion in indirect costs. The system does not reduce crime: states that have reduced incarceration have seen crime continue to decline. What it does is generate profits for the corporations that have built their business models on human caging. Every person locked in a private prison cell is revenue. Every phone call from an incarcerated mother to her child is revenue. Every package of ramen noodles marked up 300% in a commissary is revenue. The American prison system is not broken; it is working exactly as designed.'
     ],
     tags: ['mass-incarceration', 'private-prisons', 'prison-industrial-complex', 'corecivic', 'geo-group', 'criminal-justice', 'racial-inequality', 'cash-bail'],
     sources: [
       { title: 'Bureau of Justice Statistics: Prisoners Series', url: 'https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps-program', type: 'Government Data' },
       { title: 'The Sentencing Project: Trends in U.S. Incarceration', url: 'https://www.sentencingproject.org/', type: 'Database' },
-      { title: 'Prison Policy Initiative: Mass Incarceration: The Whole Pie', url: 'https://www.prisonpolicy.org/reports/pie2024.html', type: 'Report' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Prison Policy Initiative: Mass Incarceration: The Whole Pie', url: 'https://www.prisonpolicy.org/reports/pie2024.html', type: 'Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'BOP operates 122 federal prisons; Obama ordered phase-out of private prisons; Trump reversed; Biden reinstated', href: '/entities/agencies/doj' },
-      { id: '2', name: 'DHS', type: 'agency', relationship: 'ICE operates immigration detention through private prison contracts; GEO Group and CoreCivic hold majority of beds', href: '/entities/agencies/dhs' },
+      { id: '2', name: 'DHS', type: 'agency', relationship: 'ICE operates immigration detention through private prison contracts; GEO Group and CoreCivic hold majority of beds', href: '/entities/agencies/dhs' }
     ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-01-15',
@@ -719,7 +709,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '1983', event: '1983, prisoners can sue for civil rights violations, but the Prison Litigation Reform Act (PLRA, 42 U.S.C', type: 'default' },
      { date: '1994', event: 'The mass incarceration era began in the 1970s with the War on Drugs and escalated through the 1994 Crime Bill, three-strikes laws, mandatory minimums, and truth-in-sentencing requirements', type: 'legal' },
      { date: '2000', event: 'These companies have spent over $25 million on lobbying and campaign contributions since 2000', type: 'political' },
-     { date: '2024', event: 'As of 2024, approximately 2 million Americans are incarcerated in federal prisons, state prisons, local jails, immigration detention, juvenile facilities, and other correctional institutions', type: 'financial' },
+     { date: '2024', event: 'As of 2024, approximately 2 million Americans are incarcerated in federal prisons, state prisons, local jails, immigration detention, juvenile facilities, and other correctional institutions', type: 'financial' }
    ],
   },
   'uber-greyball-obstruction-of-justice': {
@@ -735,18 +725,17 @@ const investigations_u: Record<string, InvestigationData> = {
       'The Greyball tool was just one component of a broader strategy of regulatory defiance. Uber launched in new cities without obtaining required permits or licenses, deliberately violating transportation regulations and then using its large user base to pressure local governments into accommodation. The company operated an internal program called "VTOS" (Violation of Terms of Service) that provided the policy framework for Greyball and other evasion tools. Former employees described a culture where breaking local laws was expected and celebrated if it advanced growth targets. These practices potentially violated 18 U.S.C. 1503 (Obstruction of Justice), 18 U.S.C. 1343 (Wire Fraud), state and local transportation laws in dozens of jurisdictions, and the Computer Fraud and Abuse Act (18 U.S.C. 1030) for accessing and manipulating regulatory data.',
       'In November 2017, Uber\'s new CEO Dara Khosrowshahi disclosed that the company had concealed a massive data breach from October 2016 in which hackers accessed personal information of 57 million Uber riders and drivers worldwide, including names, email addresses, phone numbers, and 600,000 driver license numbers. Rather than disclosing the breach as required by law, then-CEO Kalanick and CSO Joe Sullivan authorized a $100,000 payment to the hackers through Uber\'s bug bounty program, disguising the extortion payment as a legitimate security reward. Sullivan was later convicted of federal obstruction charges for the coverup -- one of the first times a corporate security executive faced criminal prosecution for hiding a data breach. The breach concealment violated state breach notification laws in all 50 states and the FTC\'s requirements for reasonable data security.',
       'The toxic corporate culture under Kalanick extended far beyond regulatory evasion. A February 2017 blog post by former engineer Susan Fowler described systematic sexual harassment, discrimination, and HR complicity at Uber. An independent investigation by former Attorney General Eric Holder confirmed widespread organizational dysfunction. Uber\'s treatment of drivers -- classified as independent contractors to avoid employment protections and benefits -- has been challenged in courts worldwide. In the UK, the Supreme Court ruled in 2021 that Uber drivers were workers entitled to minimum wage and holiday pay. The company\'s aggressive pricing algorithms and surge pricing during emergencies drew accusations of price gouging. Uber also used competitive intelligence tools to track rivals, including a program called "Hell" that monitored Lyft driver activity.',
-      'The cumulative legal and financial consequences have been enormous. In 2018, Uber paid $148 million to settle the data breach across all 50 states. In 2023, the company paid $1.7 billion to settle an age discrimination lawsuit brought by drivers. In the Netherlands, Uber was fined 290 million euros for GDPR violations related to driver data transfers. Various cities and countries have banned or restricted Uber operations. Joe Sullivan\'s criminal conviction for the breach coverup was upheld and he received a 3-year probation sentence. In total, Uber has paid over $2.5 billion in global fines, settlements, and regulatory penalties. The DOJ\'s investigation into Greyball led to a deferred prosecution agreement. Despite all this, Uber ultimately succeeded in its core strategy: it became so embedded in urban transportation that regulators largely accommodated rather than eliminated the service. Travis Kalanick departed with billions in Uber stock. The case demonstrates how well-funded technology companies can break laws faster than governments can enforce them, pay penalties as a cost of doing business, and ultimately reshape regulatory frameworks to accommodate their violations.',
+      'The cumulative legal and financial consequences have been enormous. In 2018, Uber paid $148 million to settle the data breach across all 50 states. In 2023, the company paid $1.7 billion to settle an age discrimination lawsuit brought by drivers. In the Netherlands, Uber was fined 290 million euros for GDPR violations related to driver data transfers. Various cities and countries have banned or restricted Uber operations. Joe Sullivan\'s criminal conviction for the breach coverup was upheld and he received a 3-year probation sentence. In total, Uber has paid over $2.5 billion in global fines, settlements, and regulatory penalties. The DOJ\'s investigation into Greyball led to a deferred prosecution agreement. Despite all this, Uber ultimately succeeded in its core strategy: it became so embedded in urban transportation that regulators largely accommodated rather than eliminated the service. Travis Kalanick departed with billions in Uber stock. The case demonstrates how well-funded technology companies can break laws faster than governments can enforce them, pay penalties as a cost of doing business, and ultimately reshape regulatory frameworks to accommodate their violations.'
     ],
     tags: ['uber', 'greyball', 'travis-kalanick', 'data-breach', 'obstruction-of-justice', 'gig-economy', 'regulatory-evasion', 'sexual-harassment', 'big-tech'],
     sources: [
       { title: 'New York Times: How Uber Deceives the Authorities Worldwide', url: 'https://www.nytimes.com/2017/03/03/technology/uber-greyball-program-evade-authorities.html', type: 'Investigative Report' },
       { title: 'DOJ: United States v. Joseph Sullivan - Uber Data Breach Coverup', url: 'https://www.justice.gov/usao-ndca/pr/former-chief-security-officer-uber-convicted-federal-charges-covering-data-breach', type: 'Legal Document' },
-      { title: 'The Guardian: Uber Files - Leaked Documents Investigation', url: 'https://www.theguardian.com/news/series/uber-files', type: 'Investigative Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'The Guardian: Uber Files - Leaked Documents Investigation', url: 'https://www.theguardian.com/news/series/uber-files', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Investigated Greyball; convicted CSO Sullivan for breach coverup; deferred prosecution agreement for regulatory obstruction', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated data security practices; required 20-year consent decree for privacy and security improvements after breach' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated data security practices; required 20-year consent decree for privacy and security improvements after breach' }
     ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-09-15',
@@ -757,7 +746,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2017-11-01', event: 'In November 2017, Uber\'s new CEO Dara Khosrowshahi disclosed that the company had concealed a massive data breach from October 2016 in which hackers accessed personal information of 57 million Uber...', type: 'financial' },
      { date: '2018', event: 'In 2018, Uber paid $148 million to settle the data breach across all 50 states', type: 'financial' },
      { date: '2021', event: 'In the UK, the Supreme Court ruled in 2021 that Uber drivers were workers entitled to minimum wage and holiday pay', type: 'legal' },
-     { date: '2023', event: 'In 2023, the company paid $1.7 billion to settle an age discrimination lawsuit brought by drivers', type: 'legal' },
+     { date: '2023', event: 'In 2023, the company paid $1.7 billion to settle an age discrimination lawsuit brought by drivers', type: 'legal' }
    ],
   },
   'us-backed-coups-regime-change': {
@@ -773,18 +762,17 @@ const investigations_u: Record<string, InvestigationData> = {
       'GUATEMALA 1954 AND CENTRAL AMERICAN DESTABILIZATION: Operation PBSUCCESS overthrew Guatemala\'s democratically elected President Jacobo Arbenz on June 27, 1954, after he implemented land reform that threatened United Fruit Company\'s holdings. CIA Director Allen Dulles and Secretary of State John Foster Dulles both had financial ties to United Fruit. The resulting military dictatorships conducted a 36-year civil war (1960-1996) that killed over 200,000 people, with a UN truth commission finding that 93% of atrocities were committed by U.S.-backed government forces and that acts of genocide were committed against Mayan communities. The CIA trained and supported the Guatemalan military throughout. In Honduras (2009), the U.S. provided tacit support for a military coup against President Manuel Zelaya, with Secretary of State Clinton\'s State Department declining to formally designate it a coup (which would have required cutting military aid).',
       'THE INDONESIAN MASS KILLINGS (1965-66): The CIA supported the Indonesian military\'s seizure of power from President Sukarno, providing lists of alleged communist party members to the Indonesian army. In the ensuing mass killings (October 1965-March 1966), an estimated 500,000-1,000,000 people were massacred by the military and affiliated militias. Declassified U.S. embassy cables obtained by the National Security Archive confirm that American officials provided the Indonesian army with lists of PKI (Communist Party) leaders and tracked the progress of the killings. Ambassador Marshall Green described the U.S. role as providing "moral and material support." General Suharto, who came to power through the crisis, ruled as a dictator for 32 years with continuous U.S. support, overseeing the deaths of an additional 100,000-300,000 in the invasion and occupation of East Timor.',
       'COLD WAR THROUGH WAR ON TERROR: The pattern continued across decades: the CIA backed Mobutu\'s seizure of power in the Congo (1961-65), supported the Brazilian military coup (1964), intervened in the Dominican Republic (1965), backed the Greek military junta (1967-74), supported Pinochet\'s coup in Chile (1973), funded the Contras in Nicaragua (1980s), armed mujahideen in Afghanistan (1980s, creating the conditions for the Taliban\'s rise), and supported questionable regime changes in Haiti (2004) and Libya (2011). In Iraq, the CIA supported Saddam Hussein\'s rise to power in 1963, then supported him again in the Iran-Iraq War, before invading twice (1991, 2003). The 2003 invasion, based on fabricated WMD intelligence, killed an estimated 185,000-208,000 Iraqi civilians and created conditions for the rise of ISIS.',
-      'ELECTION INTERFERENCE: AMERICA\'S PARALLEL TRACK: While publicly condemning foreign election interference, the United States has intervened in at least 81 foreign elections between 1946 and 2000, according to a Carnegie Mellon database. Methods included funding preferred candidates, spreading disinformation, covert media manipulation, and direct vote tampering. The Reagan administration funded the Italian Christian Democrats against the Communist Party. The Clinton administration supported Boris Yeltsin\'s 1996 re-election campaign. The NED (National Endowment for Democracy, founded 1983) and USAID have funded pro-U.S. civil society organizations and media outlets worldwide as vehicles for political influence. While not all interventions were malicious, the scale of U.S. election interference makes domestic outrage over Russian interference in 2016 deeply hypocritical.',
+      'ELECTION INTERFERENCE: AMERICA\'S PARALLEL TRACK: While publicly condemning foreign election interference, the United States has intervened in at least 81 foreign elections between 1946 and 2000, according to a Carnegie Mellon database. Methods included funding preferred candidates, spreading disinformation, covert media manipulation, and direct vote tampering. The Reagan administration funded the Italian Christian Democrats against the Communist Party. The Clinton administration supported Boris Yeltsin\'s 1996 re-election campaign. The NED (National Endowment for Democracy, founded 1983) and USAID have funded pro-U.S. civil society organizations and media outlets worldwide as vehicles for political influence. While not all interventions were malicious, the scale of U.S. election interference makes domestic outrage over Russian interference in 2016 deeply hypocritical.'
     ],
     tags: ['CIA', 'regime-change', 'coups', 'Iran', 'Guatemala', 'Chile', 'Indonesia', 'foreign-policy', 'Cold-War', 'imperialism'],
     sources: [
       { title: 'National Security Archive: CIA Coup Collections', url: 'https://nsarchive.gwu.edu/', type: 'Document Archive' },
       { title: 'CIA FOIA Reading Room: Declassified Documents on Covert Operations', url: 'https://www.cia.gov/readingroom/', type: 'Government Archive' },
-      { title: 'Dov Levin: Partisan Electoral Interventions by the Great Powers Database', url: 'https://doi.org/10.1177/0738894216661190', type: 'Academic Research' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'Dov Levin: Partisan Electoral Interventions by the Great Powers Database', url: 'https://doi.org/10.1177/0738894216661190', type: 'Academic Research' }
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated coups in Iran, Guatemala, Chile, and supported regime change in 60+ countries; provided kill lists in Indonesia; armed proxy forces', href: '/entities/agencies/cia' },
-      { id: '2', name: 'DOD', type: 'agency', relationship: 'Military interventions, training of foreign security forces, School of the Americas operations', href: '/entities/agencies/dod' },
+      { id: '2', name: 'DOD', type: 'agency', relationship: 'Military interventions, training of foreign security forces, School of the Americas operations', href: '/entities/agencies/dod' }
     ],
    eventOriginDate: '1946-01-01',
    lastActivityDate: '2026-02-15',
@@ -803,7 +791,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '1996', event: 'The Clinton administration supported Boris Yeltsin\'s 1996 re-election campaign', type: 'political' },
      { date: '2003', event: 'The 2003 invasion, based on fabricated WMD intelligence, killed an estimated 185,000-208,000 Iraqi civilians and created conditions for the rise of ISIS', type: 'critical' },
      { date: '2013', event: 'The CIA officially acknowledged its role in the coup in 2013 with the release of declassified documents', type: 'default' },
-     { date: '2016', event: 'election interference makes domestic outrage over Russian interference in 2016 deeply hypocritical', type: 'political' },
+     { date: '2016', event: 'election interference makes domestic outrage over Russian interference in 2016 deeply hypocritical', type: 'political' }
    ],
   },
   'union-busting-labor-rights-destruction': {
@@ -819,18 +807,17 @@ const investigations_u: Record<string, InvestigationData> = {
       'Amazon\'s anti-union campaign represents the most expensive and sophisticated effort in modern labor history. When workers at the JFK8 warehouse on Staten Island voted to unionize in 2022 — the first successful Amazon union vote — the company had already spent over $14 million on anti-union consultants. Amazon held mandatory captive audience meetings multiple times per week, stationed managers with union-avoidance talking points at every break room, and fired or disciplined multiple union supporters. The NLRB found Amazon committed numerous unfair labor practices but the penalties were limited to posting notices and reinstating fired workers.',
       'Starbucks has become the subject of the most NLRB complaints in a single organizing campaign since the board\'s creation. Workers at 400+ Starbucks stores voted to unionize starting in late 2021. Starbucks responded by firing over 200 union supporters (many later ordered reinstated by the NLRB), permanently closing unionized stores, withholding wage increases and benefits from unionized locations, and refusing to bargain in good faith. After 3+ years, Starbucks had not reached a single collective bargaining agreement with any of the 400+ unionized stores.',
       'The National Labor Relations Act, passed in 1935, promised workers the right to organize and bargain collectively. Ninety years later, the law has been so weakened by amendments, court decisions, and regulatory neglect that it effectively protects employers, not workers. The NLRA provides no monetary penalties for firing workers for union activity — the only remedy is reinstatement and back pay, which arrives years after the fact and averages less than $4,000 per worker. Appellate courts overturn NLRB decisions at a high rate. The PRO Act, which would have imposed meaningful penalties and banned captive audience meetings, passed the House in 2021 but died in the Senate.',
-      'Right-to-work laws, enacted in 27 states, prohibit union security agreements and allow workers to benefit from union-negotiated wages and conditions without paying dues — a "free rider" problem designed to financially starve unions. Research shows right-to-work laws reduce union membership by 5-10 percentage points and reduce average wages by 3.1% ($1,558 per year) for all workers, not just union members. The decline of unions directly correlates with the rise in income inequality: the share of income going to the top 10% began rising in the early 1980s precisely as union membership declined. Countries with strong unions — Denmark, Sweden, Germany — have both higher median wages and lower inequality.',
+      'Right-to-work laws, enacted in 27 states, prohibit union security agreements and allow workers to benefit from union-negotiated wages and conditions without paying dues — a "free rider" problem designed to financially starve unions. Research shows right-to-work laws reduce union membership by 5-10 percentage points and reduce average wages by 3.1% ($1,558 per year) for all workers, not just union members. The decline of unions directly correlates with the rise in income inequality: the share of income going to the top 10% began rising in the early 1980s precisely as union membership declined. Countries with strong unions — Denmark, Sweden, Germany — have both higher median wages and lower inequality.'
     ],
     tags: ['union busting', 'labor rights', 'NLRB', 'Amazon', 'Starbucks', 'anti-union', 'right to work', 'PRO Act', 'captive audience', 'wage inequality'],
     sources: [
       { title: 'Economic Policy Institute: Unlawful Employer Interference in Union Elections', url: 'https://www.epi.org/publication/unlawful-employer-interference/', type: 'Research' },
       { title: 'NLRB: Starbucks Unfair Labor Practice Complaints', url: 'https://www.nlrb.gov/', type: 'Government Filing' },
-      { title: 'BLS: Union Membership Annual Survey', url: 'https://www.bls.gov/news.release/union2.nr0.htm', type: 'Government Report' },
-      { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
+      { title: 'BLS: Union Membership Annual Survey', url: 'https://www.bls.gov/news.release/union2.nr0.htm', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'NLRB', type: 'agency', relationship: 'Primary enforcement body for labor rights; remedies limited to reinstatement and back pay; no punitive damages or criminal penalties; chronically underfunded with 30% fewer staff than 2010' },
-      { id: '2', name: 'DOL', type: 'agency', relationship: 'Bureau of Labor Statistics tracks union membership; OLMS monitors union finances but does not investigate employer violations; anti-union consultant disclosure rules weakened' },
+      { id: '2', name: 'DOL', type: 'agency', relationship: 'Bureau of Labor Statistics tracks union membership; OLMS monitors union finances but does not investigate employer violations; anti-union consultant disclosure rules weakened' }
     ],
    eventOriginDate: '1935-01-01',
    lastActivityDate: '2025-02-15',
@@ -839,7 +826,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '1935', event: 'The National Labor Relations Act, passed in 1935, promised workers the right to organize and bargain collectively', type: 'default' },
      { date: '2021', event: 'Workers at 400+ Starbucks stores voted to unionize starting in late 2021', type: 'political' },
      { date: '2021', event: 'The PRO Act, which would have imposed meaningful penalties and banned captive audience meetings, passed the House in 2021 but died in the Senate', type: 'critical' },
-     { date: '2022', event: 'When workers at the JFK8 warehouse on Staten Island voted to unionize in 2022 — the first successful Amazon union vote — the company had already spent over $14 million on anti-union consultants', type: 'political' },
+     { date: '2022', event: 'When workers at the JFK8 warehouse on Staten Island voted to unionize in 2022 — the first successful Amazon union vote — the company had already spent over $14 million on anti-union consultants', type: 'political' }
    ],
   },
   'cryptocurrency-manipulation-fraud': {
@@ -855,18 +842,17 @@ const investigations_u: Record<string, InvestigationData> = {
       'Stablecoins, marketed as safe dollar-pegged assets, have repeatedly proven to be anything but. Tether (USDT), the largest stablecoin with $83 billion in circulation, has never provided a full independent audit of its reserves. Internal documents obtained by the New York Attorney General revealed that Tether had covered up $850 million in losses and that its reserves included risky investments far from the "fully backed by dollars" claim. Terraform Labs\' UST stablecoin, which used an algorithmic mechanism rather than actual dollar reserves, collapsed in May 2022, erasing $40 billion in value and triggering cascading failures across the crypto ecosystem.',
       'Celebrity-endorsed cryptocurrency scams have targeted retail investors with devastating results. Kim Kardashian paid $1.26 million to settle SEC charges for promoting EthereumMax without disclosing she was paid $250,000. Floyd Mayweather, DJ Khaled, and others promoted ICOs (Initial Coin Offerings) that turned out to be fraudulent. "Rug pulls," where token creators hype a project, pump the price, and then disappear with investor funds, cost investors $2.8 billion in 2021 alone. The FBI has identified cryptocurrency as the fastest-growing category of investment fraud, with losses exceeding $3.9 billion in 2023.',
       'The environmental toll of cryptocurrency has been staggering. Bitcoin mining consumed an estimated 150 terawatt-hours of electricity in 2023, more than the entire country of Argentina. Mining operations concentrated in areas with cheap electricity, often from coal-fired plants, contributing an estimated 65 million tons of CO2 annually. After China banned mining in 2021, operations relocated to Texas, Kentucky, and New York, straining local power grids and increasing electricity costs for residential customers. Ethereum\'s transition to proof-of-stake in 2022 reduced its energy consumption by 99.9%, but Bitcoin has made no such change.',
-      'The cryptocurrency lobby has become one of the most powerful in Washington. The industry spent $85 million on lobbying and campaign contributions in the 2024 election cycle. Coinbase funded the Fairshake super PAC with $50 million. The industry\'s goal is legislation that classifies most cryptocurrencies as commodities (regulated by the CFTC, which is more permissive) rather than securities (regulated by the SEC, which requires disclosure and investor protection). SEC Chair Gary Gensler\'s enforcement actions against exchanges were met with an industry-funded campaign to remove him. The revolving door between crypto firms and government has accelerated.',
+      'The cryptocurrency lobby has become one of the most powerful in Washington. The industry spent $85 million on lobbying and campaign contributions in the 2024 election cycle. Coinbase funded the Fairshake super PAC with $50 million. The industry\'s goal is legislation that classifies most cryptocurrencies as commodities (regulated by the CFTC, which is more permissive) rather than securities (regulated by the SEC, which requires disclosure and investor protection). SEC Chair Gary Gensler\'s enforcement actions against exchanges were met with an industry-funded campaign to remove him. The revolving door between crypto firms and government has accelerated.'
     ],
     tags: ['cryptocurrency', 'FTX', 'Sam Bankman-Fried', 'Tether', 'stablecoin', 'Bitcoin', 'fraud', 'rug pull', 'SEC', 'crypto lobbying'],
     sources: [
       { title: 'DOJ: United States v. Samuel Bankman-Fried', url: 'https://www.justice.gov/', type: 'Legal Document' },
       { title: 'Chainalysis: Crypto Crime Report 2024', url: 'https://www.chainalysis.com/', type: 'Research' },
-      { title: 'SEC: Crypto Assets and Enforcement Actions', url: 'https://www.sec.gov/spotlight/cybersecurity', type: 'Government Report' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'SEC: Crypto Assets and Enforcement Actions', url: 'https://www.sec.gov/spotlight/cybersecurity', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Filed enforcement actions against Coinbase, Binance, and others; classified most tokens as securities; industry lobbying to remove chair Gensler succeeded after 2024 election', href: '/entities/agencies/sec' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Convicted Bankman-Fried (25 years), Terraform Do Kwon, and Binance CZ; cryptocurrency fraud prosecution unit expanding but resource-constrained', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Convicted Bankman-Fried (25 years), Terraform Do Kwon, and Binance CZ; cryptocurrency fraud prosecution unit expanding but resource-constrained', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2025-03-01',
@@ -879,7 +865,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-05-01', event: 'Terraform Labs\' UST stablecoin, which used an algorithmic mechanism rather than actual dollar reserves, collapsed in May 2022, erasing $40 billion in value and triggering cascading failures across ...', type: 'critical' },
      { date: '2023', event: 'The FBI has identified cryptocurrency as the fastest-growing category of investment fraud, with losses exceeding $3.9 billion in 2023', type: 'political' },
      { date: '2023', event: 'Bitcoin mining consumed an estimated 150 terawatt-hours of electricity in 2023, more than the entire country of Argentina', type: 'political' },
-     { date: '2024', event: 'The industry spent $85 million on lobbying and campaign contributions in the 2024 election cycle', type: 'political' },
+     { date: '2024', event: 'The industry spent $85 million on lobbying and campaign contributions in the 2024 election cycle', type: 'political' }
    ],
   },
   'utility-shutoff-deaths': {
@@ -895,20 +881,18 @@ const investigations_u: Record<string, InvestigationData> = {
       'No federal statute prohibits utility shutoffs, and state protections vary dramatically. Some states impose winter moratoriums on heating disconnections, but summer heat protections are far less common despite rising temperatures making heat exposure increasingly lethal. Medical protection provisions exist in many states but typically require extensive documentation, physician certification, and renewal every 30 to 90 days, creating bureaucratic barriers that the sickest and most vulnerable patients are least able to navigate. Many protections apply only to regulated utilities, exempting municipal systems and rural cooperatives.',
       'The COVID-19 pandemic temporary moratoriums revealed both the scale of the problem and the utility industry response. When federal and state shutoff moratoriums expired in 2021 and 2022, utilities initiated a wave of disconnections that affected an estimated 20 million households. Arrearages accumulated during the pandemic totaled approximately $20 billion. Rather than negotiating reasonable repayment plans, many utilities required full balance payment before reconnection, disproportionately punishing the lowest-income customers who had the least ability to pay.',
       'Rate structures themselves embed inequality. Utility pricing often includes fixed charges that represent a larger percentage of low-income household bills, and tiered rate structures in some jurisdictions charge higher per-unit rates to small users. The result is that low-income households pay a higher effective rate per kilowatt-hour than wealthier customers. The LIHEAP program, the primary federal assistance for utility costs, is funded at levels that serve only 20% of eligible households, with average benefits covering less than half of annual heating costs.',
-      'Regulatory capture shapes the shutoff landscape. State public utility commissions, which set the rules governing disconnection, are heavily influenced by the industries they regulate. Consumer advocates are chronically underfunded in rate cases and rulemaking proceedings. The National Association of Regulatory Utility Commissioners has resisted calls for uniform shutoff protections, citing state autonomy. Meanwhile, utility company profits and executive compensation have risen consistently even as disconnection rates climb, suggesting that the cost of uncollectible accounts is already built into rates paid by all customers.',
+      'Regulatory capture shapes the shutoff landscape. State public utility commissions, which set the rules governing disconnection, are heavily influenced by the industries they regulate. Consumer advocates are chronically underfunded in rate cases and rulemaking proceedings. The National Association of Regulatory Utility Commissioners has resisted calls for uniform shutoff protections, citing state autonomy. Meanwhile, utility company profits and executive compensation have risen consistently even as disconnection rates climb, suggesting that the cost of uncollectible accounts is already built into rates paid by all customers.'
     ],
     tags: ['utility shutoffs', 'energy poverty', 'heat deaths', 'hypothermia', 'LIHEAP', 'disconnection', 'public utilities', 'consumer protection'],
     sources: [
-      { title: 'Nclc Records', url: 'https://www.nclc.org/issues/', type: 'Reference' },
-      { title: 'Liheapch Records', url: 'https://liheapch.acf.hhs.gov/', type: 'Reference' },
-      { title: 'Aceee Records', url: 'https://www.aceee.org/research-report/u2006', type: 'Reference' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
-
       { title: 'Energy Information Administration', url: 'https://www.eia.gov/', type: 'Reference' },
+      { title: 'LIHEAP: Low Income Home Energy Assistance Data', url: 'https://liheapch.acf.hhs.gov/', type: 'Government Record' },
+      { title: 'NAACP: Lights Out in the Cold - Utility Shutoff Policies', url: 'https://naacp.org/resources/lights-out-cold', type: 'Report' },
+      { title: 'NEADA: Utility Shutoff Data', url: 'https://neada.org/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Administers Weatherization Assistance Program but funding reaches fewer than 40,000 homes annually against 37 million eligible; no authority over shutoff policies', href: '/entities/agencies/doe' },
-      { id: '2', name: 'HHS', type: 'agency', relationship: 'Administers LIHEAP at $4-6B/year, serving approximately 6 million of 30 million eligible households; program awareness is low and application processes create barriers for the most vulnerable', href: '/entities/agencies/hhs' },
+      { id: '2', name: 'HHS', type: 'agency', relationship: 'Administers LIHEAP at $4-6B/year, serving approximately 6 million of 30 million eligible households; program awareness is low and application processes create barriers for the most vulnerable', href: '/entities/agencies/hhs' }
     ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-01-12',
@@ -917,7 +901,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2018', event: 'Between 2018 and 2024, documented cases include hundreds of deaths from heat exposure after air conditioning was disconnected during summer months, hypothermia after heating loss in winter, house fires started by', type: 'default' },
      { date: '2021', event: 'When federal and state shutoff moratoriums expired in 2021 and 2022, utilities initiated a wave of disconnections that affected an estimated 20 million households.', type: 'financial' },
      { date: '2022', event: 'When federal and state shutoff moratoriums expired in 2021 and 2022, utilities initiated a wave of disconnections that affected an estimated 20 million households.', type: 'financial' },
-     { date: '2024', event: 'Between 2018 and 2024, documented cases include hundreds of deaths from heat exposure after air conditioning was disconnected during summer months, hypothermia after heating loss in winter, house fires started by', type: 'default' },
+     { date: '2024', event: 'Between 2018 and 2024, documented cases include hundreds of deaths from heat exposure after air conditioning was disconnected during summer months, hypothermia after heating loss in winter, house fires started by', type: 'default' }
      ],
   },
   'unit-731-japanese-biological-warfare-us-immunity': {
@@ -933,20 +917,19 @@ const investigations_u: Record<string, InvestigationData> = {
       'The experiments conducted at Unit 731 are among the most extreme atrocities in the history of warfare. Vivisection was performed on fully conscious, unanesthetized prisoners to observe the real-time effects of disease on living organs. Researchers removed organs from living subjects to study pathological changes without the distortion of post-mortem decomposition. Former Unit 731 researcher Yoshio Shinozuka testified in 2001 that he had participated in vivisections as a teenager, describing how researchers cut open living prisoners, removed organs, and put them back in to study the progression of infection. Frostbite experiments involved forcing prisoners to expose their limbs to extreme cold (as low as -40 degrees Celsius), then attempting various rewarming techniques, including plunging frozen limbs into hot water, which caused the skin to slough off. Pressure experiments placed prisoners in vacuum chambers to determine at what altitude human eyeballs would pop from their sockets. Dehydration experiments withheld all water from prisoners to determine how long humans could survive. Prisoners were infected with syphilis through forced sexual contact and then vivisected. Women prisoners were forcibly impregnated and then subjected to experiments to study disease transmission from mother to fetus. No prisoner is known to have survived the experimental program.',
       'Unit 731 also developed and deployed biological weapons in operational attacks against Chinese civilian populations. Between 1940 and 1942, Unit 731 aircraft dropped ceramic bombs filled with plague-infected fleas over the Chinese cities of Changde, Ningbo, and Quzhou, among others. The Changde attack in November 1941 caused a plague outbreak that killed thousands of civilians. The Zhejiang-Jiangxi campaign of 1942 involved the widespread dispersal of cholera, typhoid, and plague pathogens in wells, reservoirs, and food supplies. Chinese government estimates, cited in the 2002 International Symposium on the Crimes of Bacteriological Warfare, place the total death toll from Unit 731 biological warfare operations at 200,000 to 580,000 people. Ishii also developed a "defoliation bacilli bomb" and experimented with delivering anthrax through balloons and water contamination. In the final days of the war in August 1945, Unit 731 personnel destroyed most of the evidence at the Harbin compound, dynamiting buildings, incinerating records, and killing the remaining prisoners. Surviving researchers were given cyanide capsules and ordered to maintain silence. Despite the destruction, substantial documentation survived through testimony, captured documents, and records preserved by the Soviet Union.',
       'The U.S. immunity deal was orchestrated primarily through the efforts of Lieutenant Colonel Murray Sanders and later Edwin Hill and Joseph Victor of Camp Detrick (later Fort Detrick), the U.S. Armys biological weapons research center in Maryland. In late 1945 and 1946, Sanders and subsequent investigators interrogated Ishii and other Unit 731 leaders. The researchers initially denied any human experimentation, but when confronted with evidence, Ishii offered a deal: he would provide all of his research data, including detailed records of human experiments, in exchange for immunity from prosecution for himself and his researchers. General Douglas MacArthur, Supreme Commander of Allied Powers in Japan, approved the deal. A series of classified reports, including the Sanders Report (1945), the Thompson Report (1946), the Fell Report (1947), and the Hill and Victor Report (1947), documented the data transfer. The U.S. State Department and the Joint Chiefs of Staff explicitly endorsed the decision to prioritize intelligence value over justice. A 1947 cable from the State Department stated that the data obtained from Unit 731 was "of such military importance" that it warranted protecting the researchers from prosecution. The data was classified and transferred to Fort Detrick, where it informed the U.S. biological weapons program during the early Cold War.',
-      'The legal standards violated by both the Japanese perpetrators and the U.S. immunity deal include: the 1907 Hague Convention, Article 23(a) (prohibition of the use of poison or poisoned weapons); the 1925 Geneva Protocol (prohibition of the use of bacteriological methods of warfare in war); customary international law prohibiting the killing, torture, and inhumane treatment of prisoners; the Moscow Declaration of 1943 (commitment to prosecute war criminals); the Potsdam Declaration of 1945 (commitment to bring Japanese war criminals to justice); the Charter of the International Military Tribunal for the Far East (Articles 5 and 6, defining war crimes and crimes against humanity); the Nuremberg Principles (1950), Principles VI and VII (war crimes and crimes against humanity; superior orders do not relieve responsibility); the Genocide Convention (1948), Articles II and III; and 18 U.S.C. Section 3 (accessory after the fact) and 18 U.S.C. Section 4 (misprision of felony), applicable to U.S. officials who concealed evidence of war crimes. In 1949, the Soviet Union tried 12 captured Unit 731 members at the Khabarovsk War Crimes Trial; all were convicted. The United States denounced the trial as Soviet propaganda. In 2002, a Japanese court acknowledged for the first time that Unit 731 had conducted biological warfare, but dismissed victim claims for compensation. No Unit 731 member was ever prosecuted by the United States or Japan. Shiro Ishii lived freely in Japan until his death from throat cancer in 1959. Many former Unit 731 researchers went on to prominent careers in Japanese medicine, with some becoming university deans, heads of pharmaceutical companies, and directors of medical institutions.',
+      'The legal standards violated by both the Japanese perpetrators and the U.S. immunity deal include: the 1907 Hague Convention, Article 23(a) (prohibition of the use of poison or poisoned weapons); the 1925 Geneva Protocol (prohibition of the use of bacteriological methods of warfare in war); customary international law prohibiting the killing, torture, and inhumane treatment of prisoners; the Moscow Declaration of 1943 (commitment to prosecute war criminals); the Potsdam Declaration of 1945 (commitment to bring Japanese war criminals to justice); the Charter of the International Military Tribunal for the Far East (Articles 5 and 6, defining war crimes and crimes against humanity); the Nuremberg Principles (1950), Principles VI and VII (war crimes and crimes against humanity; superior orders do not relieve responsibility); the Genocide Convention (1948), Articles II and III; and 18 U.S.C. Section 3 (accessory after the fact) and 18 U.S.C. Section 4 (misprision of felony), applicable to U.S. officials who concealed evidence of war crimes. In 1949, the Soviet Union tried 12 captured Unit 731 members at the Khabarovsk War Crimes Trial; all were convicted. The United States denounced the trial as Soviet propaganda. In 2002, a Japanese court acknowledged for the first time that Unit 731 had conducted biological warfare, but dismissed victim claims for compensation. No Unit 731 member was ever prosecuted by the United States or Japan. Shiro Ishii lived freely in Japan until his death from throat cancer in 1959. Many former Unit 731 researchers went on to prominent careers in Japanese medicine, with some becoming university deans, heads of pharmaceutical companies, and directors of medical institutions.'
     ],
     tags: ['Unit 731', 'biological warfare', 'Shiro Ishii', 'human experimentation', 'vivisection', 'Japanese war crimes', 'Fort Detrick', 'immunity deal', 'Douglas MacArthur', 'plague weapons', 'China', 'Manchuria', 'crimes against humanity', 'medical tyranny', 'Khabarovsk trial', 'Nuremberg'],
     sources: [
       { title: 'National Archives: Japanese War Crimes and Biological Warfare Records', url: 'https://www.archives.gov/iwg/japanese-war-crimes', type: 'Government Record' },
       { title: 'Khabarovsk Trial: Materials on the Trial of Former Servicemen of the Japanese Army (1950)', url: 'https://www.loc.gov/collections/', type: 'Court Record' },
       { title: 'Congressional Hearing: Japanese Imperial Armys Biological Warfare Program (2004)', url: 'https://www.congress.gov/', type: 'Congressional Record' },
-      { title: 'Unit 731 Museum: Harbin, China (Exhibition Archive)', url: 'https://www.unit731.org/', type: 'Museum Archive' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'Unit 731 Museum: Harbin, China (Exhibition Archive)', url: 'https://www.unit731.org/', type: 'Museum Archive' }
     ],
     affiliations: [
       { id: '1', name: 'U.S. Army', type: 'agency', relationship: 'Through Fort Detrick and MacArthur command, negotiated the immunity deal that protected Ishii and all Unit 731 researchers from prosecution in exchange for biological weapons data; used the data to advance the U.S. biological weapons program; classified the records for decades', href: '/entities/agencies/us-army' },
       { id: '2', name: 'Shiro Ishii', type: 'individual', relationship: 'Lieutenant General who founded and commanded Unit 731; personally directed the human experiment program and biological weapons attacks that killed an estimated 200,000-580,000 people; received full U.S. immunity; lived freely in Japan until his death in 1959', href: '/entities/individuals/shiro-ishii' },
-      { id: '3', name: 'Douglas MacArthur', type: 'individual', relationship: 'Supreme Commander of Allied Powers in Japan who approved the immunity deal for Unit 731 scientists; prioritized intelligence value over justice for war crimes victims; blocked inclusion of biological warfare evidence in the Tokyo War Crimes Tribunal', href: '/entities/individuals/douglas-macarthur' },
+      { id: '3', name: 'Douglas MacArthur', type: 'individual', relationship: 'Supreme Commander of Allied Powers in Japan who approved the immunity deal for Unit 731 scientists; prioritized intelligence value over justice for war crimes victims; blocked inclusion of biological warfare evidence in the Tokyo War Crimes Tribunal', href: '/entities/individuals/douglas-macarthur' }
     ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2025-07-01',
@@ -965,7 +948,7 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '1959', event: 'Shiro Ishii lived freely in Japan until his death from throat cancer in 1959', type: 'critical' },
      { date: '2001', event: 'Former Unit 731 researcher Yoshio Shinozuka testified in 2001 that he had participated in vivisections as a teenager, describing how researchers cut open living prisoners, removed organs, and put t', type: 'default' },
      { date: '2002', event: 'Chinese government estimates, cited in the 2002 International Symposium on the Crimes of Bacteriological Warfare, place the total death toll from Unit 731 biological warfare operations at 200,000 t', type: 'critical' },
-     { date: '2002', event: 'In 2002, a Japanese court acknowledged for the first time that Unit 731 had conducted biological warfare, but dismissed victim claims for compensation', type: 'legal' },
+     { date: '2002', event: 'In 2002, a Japanese court acknowledged for the first time that Unit 731 had conducted biological warfare, but dismissed victim claims for compensation', type: 'legal' }
    ],
   },
   'ukraine-extortion': {
@@ -984,7 +967,7 @@ const investigations_u: Record<string, InvestigationData> = {
    'The administration initially denied any quid pro quo, but Ambassador Sondland testified under oath that"everyone was in the loop"and that there was indeed a clear quid pro quo directed by Trump through Giuliani.',
    'Lev Parnas and Igor Fruman, Giuliani\'s associates in the Ukraine pressure scheme, were arrested at Dulles Airport with one-way tickets attempting to flee the country as the scandal broke.',
    'During the Senate trial, Republicans voted 51-49 against calling witnesses, preventing testimony from John Bolton, who reportedly told aides the Ukraine scheme was a"drug deal"and wrote about it in his book.',
-   'Trump fired Lt. Col. Vindman (a Purple Heart recipient who reported concerns about the call through proper channels) and also fired Vindman\'s twin brother, who had no involvement, in an act of collective punishment.',
+   'Trump fired Lt. Col. Vindman (a Purple Heart recipient who reported concerns about the call through proper channels) and also fired Vindman\'s twin brother, who had no involvement, in an act of collective punishment.'
  ],
  tags: ['military-foreign-policy'],
  sources: [
@@ -993,7 +976,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { title: 'House Intelligence Committee Report', url: 'https://intelligence.house.gov/report/', type: 'Article' },
    { title: 'Articles of Impeachment (H.Res. 755)', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755/text', type: 'Article' },
    { title: 'Sondland Opening Statement', url: 'https://docs.house.gov/meetings/IG/IG00/20191120/110234/HHRG-116-IG00-Wstate-SondlandG-20191120.pdf', type: 'Article' },
-   { title: 'GAO Report, OMB Violated Law', url: 'https://www.gao.gov/products/b-331564', type: 'Article' },
+   { title: 'GAO Report, OMB Violated Law', url: 'https://www.gao.gov/products/b-331564', type: 'Article' }
  ],
  affiliations: [
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Directed scheme to pressure Ukraine', href: '/entities/individuals/donald-trump' },
@@ -1001,7 +984,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { id: 'gordon-sondland', name: 'Gordon Sondland', type: 'individual', relationship: 'EU Ambassador, testified to quid pro quo', href: '/entities/individuals/gordon-sondland' },
    { id: 'mick-mulvaney', name: 'Mick Mulvaney', type: 'individual', relationship: 'Acting Chief of Staff, admitted quid pro quo', href: '/entities/individuals/mick-mulvaney' },
    { id: 'william-barr', name: 'William Barr', type: 'individual', relationship: 'Attorney General, named by Trump on call', href: '/entities/individuals/william-barr' },
-   { id: 'mike-pompeo', name: 'Mike Pompeo', type: 'individual', relationship: 'Secretary of State, on the call', href: '/entities/individuals/mike-pompeo' },
+   { id: 'mike-pompeo', name: 'Mike Pompeo', type: 'individual', relationship: 'Secretary of State, on the call', href: '/entities/individuals/mike-pompeo' }
  ],
  timeline: [
    { date: 'Apr 2019', event: 'Giuliani begins shadow diplomacy campaign in Ukraine' },
@@ -1020,7 +1003,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { date: 'Nov 2019', event: 'Public impeachment hearings; Sondland confirms quid pro quo' },
    { date: 'Dec 18, 2019', event: 'House impeaches Trump on two articles' },
    { date: 'Jan-Feb 2020', event: 'Senate trial; no witnesses called; Trump acquitted' },
-   { date: 'Feb 2020', event: 'Trump fires Vindman (and his twin brother) in retaliation' },
+   { date: 'Feb 2020', event: 'Trump fires Vindman (and his twin brother) in retaliation' }
  ],
  statutes: [
    { code: 'Article II, Section 4 (Impeachment)', description: 'Abuse of power (leveraging $391 million in military aid and a White House meeting to coerce Ukraine into investigating a political rival' },
@@ -1029,7 +1012,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { code: '52 U.S.C. \\u00a7 30121', description: 'Solicitation of foreign election interference, asking Ukraine to investigate Biden for campaign advantage' },
    { code: '18 U.S.C. \\u00a7 1505', description: 'Obstruction of congressional proceedings, blocking witnesses and withholding documents from impeachment inquiry' },
    { code: '31 U.S.C. \\u00a7 1341 (Impoundment Control Act)', description: 'Illegal withholding of congressionally appropriated military assistance to Ukraine' },
-   { code: '18 U.S.C. \\u00a7 1513', description: 'Retaliation against witnesses, firing Vindman, Sondland, and others who testified truthfully' },
+   { code: '18 U.S.C. \\u00a7 1513', description: 'Retaliation against witnesses, firing Vindman, Sondland, and others who testified truthfully' }
  ],
  defendants: [
    { name: 'Donald Trump (first impeachment)', role: 'Article I: Abuse of Power; Article II: Obstruction of Congress', status: 'acquitted', notes: 'Impeached by House Dec 18, 2019; acquitted by Senate Feb 5, 2020 (52-48 and 53-47); Sen. Romney voted to convict on Article I' },
@@ -1037,7 +1020,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { name: 'Igor Fruman', role: 'Solicitation of foreign campaign contributions and related conspiracy', status: 'convicted', notes: 'Pleaded guilty Sep 2021 to one count of solicitation; sentenced to 1 year and 1 day' },
    { name: 'Rudy Giuliani', role: 'Conducting shadow diplomacy to pressure Ukraine; later disbarred and indicted in Georgia RICO case', status: 'indicted', notes: 'NY law license suspended 2021; disbarred Jul 2024; indicted in Georgia election interference case' },
    { name: 'Gordon Sondland', role: 'Testified under oath there was a quid pro quo directing Ukraine policy', status: 'charged', notes: 'Fired from EU Ambassador post Feb 2020 in retaliation for testimony; no charges filed against him' },
-   { name: 'Lt. Col. Alexander Vindman', role: 'Listened to Trump-Zelensky call and reported concerns through proper channels', status: 'charged', notes: 'Fired from NSC and escorted from White House Feb 2020 in retaliation; his twin brother also fired' },
+   { name: 'Lt. Col. Alexander Vindman', role: 'Listened to Trump-Zelensky call and reported concerns through proper channels', status: 'charged', notes: 'Fired from NSC and escorted from White House Feb 2020 in retaliation; his twin brother also fired' }
  ],
   },
   'union-busting': {
@@ -1057,7 +1040,7 @@ const investigations_u: Record<string, InvestigationData> = {
    'Walmart\'s internal training videos instruct managers on how to detect and suppress union organizing activity; one leaked video warned that unions are a"third party"that would"come between"workers and management.',
    'The Supreme Court\'s Janus v. AFSCME decision was the product of a decades-long corporate legal strategy funded by the National Right to Work Legal Defense Foundation and the Bradley Foundation.',
    'Starbucks publicly brands itself as progressive and employee-friendly while committing over 400 documented labor law violations against baristas trying to organize.',
-   'The decline of union membership from 35% to 10% is presented as workers freely choosing not to unionize, when in reality it reflects a systematic legal and corporate campaign to make organizing nearly impossible.',
+   'The decline of union membership from 35% to 10% is presented as workers freely choosing not to unionize, when in reality it reflects a systematic legal and corporate campaign to make organizing nearly impossible.'
  ],
  tags: ['military-foreign-policy', 'war', 'surveillance'],
  sources: [
@@ -1069,7 +1052,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { title: 'Janus v. AFSCME, Supreme Court Opinion', url: 'https://www.supremecourt.gov/opinions/17pdf/16-1466_2b3j.pdf', type: 'Article' },
    { title: 'Union Decline and the Rise of Inequality, Economic Policy Institute', url: 'https://www.epi.org/publication/unions-help-reduce-disparities-and-strengthen-our-democracy/', type: 'Article' },
    { title: 'Amazon\'s Anti-Union Spending, Department of Labor LM-10 Filings', url: 'https://www.dol.gov/agencies/olms/public-disclosure-room', type: 'Article' },
-   { title: 'There Is Power in a Union: The Epic Story of Labor in America, Philip Dray', url: 'https://www.penguinrandomhouse.com/books/304024/there-is-power-in-a-union-by-philip-dray/', type: 'Article' },
+   { title: 'There Is Power in a Union: The Epic Story of Labor in America, Philip Dray', url: 'https://www.penguinrandomhouse.com/books/304024/there-is-power-in-a-union-by-philip-dray/', type: 'Article' }
  ],
  affiliations: [
    { id: 'ronald-reagan', name: 'Ronald Reagan', type: 'individual', relationship: 'President who fired 11,345 PATCO air traffic controllers and permanently replaced them, signaling open season on unions', href: '/entities/individuals/ronald-reagan' },
@@ -1084,7 +1067,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { id: 'chris-smalls', name: 'Chris Smalls', type: 'individual', relationship: 'Former Amazon worker who organized first successful Amazon union at JFK8 warehouse in Staten Island', href: '/entities/individuals/chris-smalls' },
    { id: 'scott-walker', name: 'Scott Walker', type: 'individual', relationship: 'Wisconsin Governor who passed Act 10 eliminating collective bargaining for public employees', href: '/entities/individuals/scott-walker' },
    { id: 'jennifer-abruzzo', name: 'Jennifer Abruzzo', type: 'individual', relationship: 'NLRB General Counsel who issued landmark complaints against Amazon and Starbucks', href: '/entities/individuals/jennifer-abruzzo' },
-   { id: 'elon-musk', name: 'Elon Musk', type: 'individual', relationship: 'Tesla CEO; NLRB found Tesla illegally fired union supporter and ordered Musk to delete anti-union tweet', href: '/entities/individuals/elon-musk' },
+   { id: 'elon-musk', name: 'Elon Musk', type: 'individual', relationship: 'Tesla CEO; NLRB found Tesla illegally fired union supporter and ordered Musk to delete anti-union tweet', href: '/entities/individuals/elon-musk' }
  ],
  timeline: [
    { date: '1892', event: 'Homestead Strike: Henry Clay Frick hires 300 Pinkerton agents who battle steelworkers; 16 killed; Pennsylvania National Guard occupies town' },
@@ -1105,7 +1088,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { date: '2022', event: 'Starbucks Workers United organizes 300+ stores; NLRB files over 100 unfair labor practice complaints against Starbucks' },
    { date: '2023', event: 'NLRB finds Tesla illegally fired union supporter; orders Elon Musk to delete anti-union tweet' },
    { date: '2023', event: 'SAG-AFTRA and WGA strikes demonstrate continued power of collective action; win protections against AI replacement' },
-   { date: '2024', event: 'Amazon refuses to bargain with certified ALU union; NLRB issues complaint but penalties are minimal under current law' },
+   { date: '2024', event: 'Amazon refuses to bargain with certified ALU union; NLRB issues complaint but penalties are minimal under current law' }
  ],
  statutes: [
    { code: 'National Labor Relations Act § 8(a)(1): Interference with Rights', description: 'Employers systematically interfere with workers\' right to organize through captive audience meetings, surveillance, threats, and retaliation' },
@@ -1115,7 +1098,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { code: 'Civil Rights Act of 1964: Discriminatory Impact', description: 'Anti-union laws and practices disproportionately harm Black, Latino, and women workers who benefit most from union representation' },
    { code: 'Taft-Hartley Act § 14(b): Right-to-Work Authorization', description: 'Federal authorization for states to ban union security agreements, weakening collective bargaining power' },
    { code: 'Antitrust Violations, Coordinated Anti-Union Activity', description: 'Industry-wide coordination among employers to suppress wages and prevent unionization' },
-   { code: 'Occupational Safety and Health Act Violations', description: 'Using retaliatory firings to silence workers who report safety violations; union workplaces have 30% fewer safety violations' },
+   { code: 'Occupational Safety and Health Act Violations', description: 'Using retaliatory firings to silence workers who report safety violations; union workplaces have 30% fewer safety violations' }
  ],
  defendants: [
    { name: 'Starbucks', role: 'Over 400 unfair labor practice charges including retaliatory firings and store closures', status: 'charged', notes: 'NLRB issued multiple complaints; company ordered to rehire workers; minimal financial penalties' },
@@ -1125,7 +1108,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { name: 'Reagan Administration (PATCO)', role: 'Mass termination of 11,345 striking air traffic controllers', status: 'charged', notes: 'Courts upheld firings; controllers banned from federal employment until Clinton rescinded ban in 1993' },
    { name: 'Janus v. AFSCME (2018)', role: 'Challenge to public sector union agency fees', status: 'charged', notes: 'Supreme Court 5-4 ruled fees violate First Amendment; devastating blow to public sector union finances' },
    { name: 'NLRB v. Various', role: 'Systemic failure of labor law enforcement due to weak penalties', status: 'charged', notes: 'Maximum NLRB penalty is posting a notice and back pay; no punitive damages; companies treat violations as cost of business' },
-   { name: 'Various Mining Companies (early 1900s)', role: 'Use of private armies, hired gunmen, and state militias against striking workers', status: 'charged', notes: 'Ludlow Massacre led to some reforms but no criminal accountability for corporate violence' },
+   { name: 'Various Mining Companies (early 1900s)', role: 'Use of private armies, hired gunmen, and state militias against striking workers', status: 'charged', notes: 'Ludlow Massacre led to some reforms but no criminal accountability for corporate violence' }
  ],
   },
   'us-support-for-apartheid': {
@@ -1145,7 +1128,7 @@ const investigations_u: Record<string, InvestigationData> = {
    'Jerry Falwell and the religious right actively campaigned for American Christians to support apartheid South Africa financially, framing it as opposing communism.',
    'Dick Cheney defended his vote against Mandela\'s release for decades, claiming the ANC was "properly" designated as a terrorist organization, a position he never recanted.',
    'The full extent of US-South African nuclear cooperation was classified; South Africa developed six nuclear weapons using US-origin technology and materials.',
-   'Mandela and other ANC members were kept on the US terrorism watch list until 2008 - 14 years after Mandela became South Africa\'s democratically elected president.',
+   'Mandela and other ANC members were kept on the US terrorism watch list until 2008 - 14 years after Mandela became South Africa\'s democratically elected president.'
  ],
  tags: ['military-foreign-policy', 'war'],
  sources: [
@@ -1156,7 +1139,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { title: 'US Corporate Complicity in South African Apartheid, Khulumani Support Group', url: 'https://www.khulumani.net/khulumani/statements/item/611-apartheid-reparations-cases.html', type: 'Article' },
    { title: 'The Color of Money: US Investment in South Africa, TransAfrica', url: 'https://www.sahistory.org.za/article/united-states-policy-toward-south-africa', type: 'Article' },
    { title: 'South Africa\'s Nuclear Weapons Program, Nuclear Threat Initiative', url: 'https://www.nti.org/learn/countries/south-africa/', type: 'Article' },
-   { title: 'The Anti-Apartheid Movement and US Foreign Policy, Oxford Research Encyclopedia', url: 'https://oxfordre.com/americanhistory/view/10.1093/acrefore/9780199329175.001.0001/acrefore-9780199329175-e-814', type: 'Article' },
+   { title: 'The Anti-Apartheid Movement and US Foreign Policy, Oxford Research Encyclopedia', url: 'https://oxfordre.com/americanhistory/view/10.1093/acrefore/9780199329175.001.0001/acrefore-9780199329175-e-814', type: 'Article' }
  ],
  affiliations: [
    { id: 'ronald-reagan', name: 'Ronald Reagan', type: 'individual', relationship: 'President who championed"constructive engagement"with apartheid South Africa; vetoed sanctions bill', href: '/entities/individuals/ronald-reagan' },
@@ -1170,7 +1153,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { id: 'jesse-helms', name: 'Jesse Helms', type: 'individual', relationship: 'Senator who filibustered sanctions bill and openly supported apartheid government', href: '/entities/individuals/jesse-helms' },
    { id: 'randall-robinson', name: 'Randall Robinson', type: 'individual', relationship: 'TransAfrica founder who led Free South Africa Movement and lobbied for sanctions', href: '/entities/individuals/randall-robinson' },
    { id: 'desmond-tutu', name: 'Desmond Tutu', type: 'individual', relationship: 'Archbishop and Nobel laureate who condemned US support for apartheid', href: '/entities/individuals/desmond-tutu' },
-   { id: 'donald-rickard', name: 'Donald Rickard', type: 'individual', relationship: 'CIA agent who confirmed in 2016 interview that CIA tipped off South Africa about Mandela\'s location', href: '/entities/individuals/donald-rickard' },
+   { id: 'donald-rickard', name: 'Donald Rickard', type: 'individual', relationship: 'CIA agent who confirmed in 2016 interview that CIA tipped off South Africa about Mandela\'s location', href: '/entities/individuals/donald-rickard' }
  ],
  timeline: [
    { date: '1948', event: 'National Party comes to power in South Africa; formally implements apartheid system of racial segregation and white supremacy' },
@@ -1191,7 +1174,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { date: '1993', event: 'Mandela and de Klerk share Nobel Peace Prize; US had opposed Mandela for three decades' },
    { date: '1994', event: 'Mandela elected President of South Africa in first multiracial elections' },
    { date: '2008', event: 'Congress finally passes bill removing Mandela and ANC members from US terrorism watch list; 18 years after his release' },
-   { date: '2016', event: 'CIA operative Donald Rickard confirms on film that he provided the tip that led to Mandela\'s 1962 arrest' },
+   { date: '2016', event: 'CIA operative Donald Rickard confirms on film that he provided the tip that led to Mandela\'s 1962 arrest' }
  ],
  statutes: [
    { code: 'International Convention on the Suppression and Punishment of the Crime of Apartheid (1973)', description: 'US support for and complicity in the apartheid system, providing diplomatic, military, and economic assistance to a regime committing the crime of apartheid' },
@@ -1201,7 +1184,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { code: 'Violations of UN Security Council Resolutions', description: 'US circumvented arms embargo and other UN measures against apartheid South Africa' },
    { code: 'International Convention on the Elimination of All Forms of Racial Discrimination (1965)', description: 'US support for a government whose entire governing philosophy was racial supremacy' },
    { code: 'Economic Exploitation, Forced Labor', description: 'US corporations profited from apartheid labor system paying Black workers fraction of white wages' },
-   { code: 'False Designation, Terrorism Watch List Abuse', description: 'Placing Mandela and ANC on terrorism watch list to delegitimize anti-apartheid movement' },
+   { code: 'False Designation, Terrorism Watch List Abuse', description: 'Placing Mandela and ANC on terrorism watch list to delegitimize anti-apartheid movement' }
  ],
  defendants: [
    { name: 'United States Government', role: 'Complicity in apartheid through diplomatic support, intelligence cooperation, and obstruction of sanctions', status: 'charged', notes: 'No accountability; constructive engagement policy formally ended only after Congress overrode Reagan\'s veto' },
@@ -1211,7 +1194,7 @@ const investigations_u: Record<string, InvestigationData> = {
    { name: 'Reagan Administration', role: 'Vetoing Comprehensive Anti-Apartheid Act; providing diplomatic cover for apartheid regime', status: 'charged', notes: 'Veto overridden by Congress 1986; no further accountability' },
    { name: 'Jesse Helms', role: 'Filibustering and opposing sanctions legislation; publicly supporting apartheid government', status: 'charged', notes: 'Never held accountable; served in Senate until 2003' },
    { name: 'South African Apartheid Government', role: 'Crime of apartheid under international law', status: 'charged', notes: 'Truth and Reconciliation Commission (1996-1998) granted amnesty in exchange for testimony' },
-   { name: 'Dick Cheney', role: 'Voting against Mandela release resolution and against sanctions', status: 'charged', notes: 'Said in 2000 interview he would make the same votes again; suffered no consequences' },
+   { name: 'Dick Cheney', role: 'Voting against Mandela release resolution and against sanctions', status: 'charged', notes: 'Said in 2000 interview he would make the same votes again; suffered no consequences' }
  ],
   },
 };

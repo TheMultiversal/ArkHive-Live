@@ -22,14 +22,13 @@ const investigations_q: Record<string, InvestigationData> = {
  'NO INVESTIGATION: Despite the apparent conflict between Kushner\'s official duties and family financial interests, no serious investigation occurred. The Trump DOJ showed no interest in examining the 666 Fifth Avenue connection.',
  'BROADER PATTERN: The Qatar situation exemplified Kushner\'s approach: mixing family business with government authority, conducting shadow diplomacy, siding with foreign autocrats, and benefiting financially from his position.',
  'MBS RELATIONSHIP: Kushner\'s relationship with Saudi Crown Prince MBS extended beyond Qatar. He reportedly shared intelligence with MBS, supported the Yemen war, and downplayed the Khashoggi murder. After leaving office, his firm received $2 billion from Saudi Arabia.',
- 'UNANSWERED QUESTIONS: Did the Kushners use the blockade as leverage? Was the Brookfield deal a payoff? Why did Trump reverse course on Qatar? The full truth of the 666 Fifth Avenue saga remains hidden.',
+ 'UNANSWERED QUESTIONS: Did the Kushners use the blockade as leverage? Was the Brookfield deal a payoff? Why did Trump reverse course on Qatar? The full truth of the 666 Fifth Avenue saga remains hidden.'
  ],
  tags: ['Jared Kushner', 'Qatar', '666 Fifth Avenue', 'Conflict of Interest', 'Saudi Arabia', 'UAE', 'Corruption'],
  sources: [
  { title: 'NYT, 666 Fifth Avenue Bailout', url: 'https://www.nytimes.com/2018/08/03/nyregion/kushners-building-fifth-avenue-brookfield-lease.html', type: 'News Report' },
  { title: 'Brookfield Qatar Investment Connection', url: 'https://www.bloomberg.com/news', type: 'News Report' },
- { title: 'Kushner Security Clearance Issues', url: 'https://www.washingtonpost.com/politics/2019/01/24/jared-kushners-security-clearance-was-initially-denied-due-concerns-about-foreign-influence/', type: 'Investigation' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'Kushner Security Clearance Issues', url: 'https://www.washingtonpost.com/politics/2019/01/24/jared-kushners-security-clearance-was-initially-denied-due-concerns-about-foreign-influence/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Central figure with conflicting interests', href: '/entities/individuals/jared-kushner' },
@@ -37,7 +36,7 @@ const investigations_q: Record<string, InvestigationData> = {
  { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Initially endorsed blockade', href: '/entities/individuals/donald-trump' },
  { id: '4', name: 'Mohammed bin Salman', type: 'individual', relationship: 'Led Saudi side of blockade', href: '/entities/individuals/mohammed-bin-salman' },
  { id: '5', name: 'Mohammed bin Zayed', type: 'individual', relationship: 'Led UAE side of blockade', href: '/entities/individuals/mohammed-bin-zayed' },
- { id: '6', name: 'Kushner Companies', type: 'corporation', relationship: 'Benefited from resolution', href: '/entities/corporations/kushner-companies' },
+ { id: '6', name: 'Kushner Companies', type: 'corporation', relationship: 'Benefited from resolution', href: '/entities/corporations/kushner-companies' }
  ],
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2022-08-15',
@@ -47,7 +46,7 @@ const investigations_q: Record<string, InvestigationData> = {
      { date: '2017-04-01', event: 'APPROACHING QATAR: In April 2017, Charles Kushner met with Qatar\'s finance minister about investing in 666 Fifth Avenue', type: 'default' },
      { date: '2017-06-05', event: 'THE BLOCKADE: On June 5, 2017, Saudi Arabia, UAE, Bahrain, and Egypt severed ties with Qatar', type: 'default' },
      { date: '2018-08-01', event: 'THE 666 BAILOUT: In August 2018, Brookfield Asset Management agreed to a 99-year lease on 666 Fifth Avenue, rescuing the Kushners from their financial disaster', type: 'default' },
-     { date: '2019', event: 'A $1.4 billion loan was coming due in 2019', type: 'political' },
+     { date: '2019', event: 'A $1.4 billion loan was coming due in 2019', type: 'political' }
    ],
  },
   'qualified-immunity-police-accountability-gap': {
@@ -63,18 +62,17 @@ const investigations_q: Record<string, InvestigationData> = {
       'THE "CLEARLY ESTABLISHED" TRAP: The "clearly established" standard requires victims to identify a prior court decision with nearly identical facts to prove that reasonable officers would have known their conduct was unconstitutional. This creates a catch-22: because courts often dismiss cases on qualified immunity grounds without reaching the merits, the body of "clearly established" law never develops. Courts have granted immunity in cases involving officers who sicced a police dog on a suspect who was sitting down with his hands up (because no prior case involved a suspect sitting); who shot a 10-year-old while firing at the family\'s non-threatening dog (because no case involved shooting at a dog and hitting a child); and who stole $225,000 during a search warrant (because no case specifically addressed theft by officers).',
       'THE REUTERS INVESTIGATION: In 2020, Reuters published a landmark investigation analyzing 529 federal appellate court rulings on qualified immunity from 2005 to 2019. The investigation found that the doctrine overwhelmingly favored officers: courts granted immunity in the vast majority of excessive force cases, rarely found rights "clearly established," and frequently dismissed cases without addressing whether officers actually violated the Constitution. The investigation documented cases where officers were shielded after tasering a handcuffed person, body-slamming a woman during a traffic stop, and shooting an unarmed man in his own backyard.',
       'CROSS-IDEOLOGICAL CRITICISM: Qualified immunity has drawn criticism from justices across the ideological spectrum. Justice Clarence Thomas, in Ziglar v. Abbasi (2017), questioned whether the doctrine had any basis in common law tradition. Justice Sonia Sotomayor has repeatedly dissented from qualified immunity decisions, calling the doctrine a "one-sided approach" that "transforms the doctrine into an absolute shield." Legal scholars including William Baude and Joanna Schwartz have demonstrated that the historical evidence does not support the doctrine. The Cato Institute (libertarian) and the NAACP (progressive) have both called for its abolition or reform.',
-      'REFORM EFFORTS AND RESISTANCE: The George Floyd Justice in Policing Act, passed by the House in 2021, included provisions to eliminate qualified immunity for law enforcement officers. The bill died in the Senate. Colorado, New Mexico, and New York City have enacted state-level reforms limiting qualified immunity for state claims. The Fraternal Order of Police and other law enforcement unions have lobbied aggressively against reform, arguing that eliminating qualified immunity would have a "chilling effect" on policing. However, empirical research by Joanna Schwartz found that qualified immunity is rarely a factor in officers\' decision-making and that the doctrine primarily prevents compensation for victims rather than influencing officer behavior.',
+      'REFORM EFFORTS AND RESISTANCE: The George Floyd Justice in Policing Act, passed by the House in 2021, included provisions to eliminate qualified immunity for law enforcement officers. The bill died in the Senate. Colorado, New Mexico, and New York City have enacted state-level reforms limiting qualified immunity for state claims. The Fraternal Order of Police and other law enforcement unions have lobbied aggressively against reform, arguing that eliminating qualified immunity would have a "chilling effect" on policing. However, empirical research by Joanna Schwartz found that qualified immunity is rarely a factor in officers\' decision-making and that the doctrine primarily prevents compensation for victims rather than influencing officer behavior.'
     ],
     tags: ['Qualified Immunity', 'Police Accountability', 'Section 1983', 'Supreme Court', 'Civil Rights', 'Excessive Force'],
     sources: [
       { title: 'Reuters: For Cops Who Kill, Special Supreme Court Protection', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', type: 'Investigative Report' },
       { title: 'Joanna Schwartz: The Case Against Qualified Immunity', url: 'https://www.law.ucla.edu', type: 'Research' },
-      { title: 'William Baude: Is Qualified Immunity Unlawful?', url: 'https://www.californialawreview.org', type: 'Research' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'William Baude: Is Qualified Immunity Unlawful?', url: 'https://www.californialawreview.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Created qualified immunity in Pierson v. Ray (1967) and dramatically expanded it in Harlow v. Fitzgerald (1982); repeatedly declined to reconsider the doctrine', href: '/entities/agencies/supreme-court' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations provide alternative accountability path; Civil Rights Division enforcement has varied dramatically by administration', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations provide alternative accountability path; Civil Rights Division enforcement has varied dramatically by administration', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1967-01-01',
    lastActivityDate: '2024-03-01',
@@ -84,7 +82,7 @@ const investigations_q: Record<string, InvestigationData> = {
      { date: '1982', event: 'Fitzgerald (1982), which eliminated the subjective "good faith" requirement and replaced it with a purely objective test: whether the right violated was "clearly established" at the time', type: 'default' },
      { date: '2017', event: 'Abbasi (2017), questioned whether the doctrine had any basis in common law tradition', type: 'political' },
      { date: '2020', event: 'THE REUTERS INVESTIGATION: In 2020, Reuters published a landmark investigation analyzing 529 federal appellate court rulings on qualified immunity from 2005 to 2019', type: 'legal' },
-     { date: '2021', event: 'REFORM EFFORTS AND RESISTANCE: The George Floyd Justice in Policing Act, passed by the House in 2021, included provisions to eliminate qualified immunity for law enforcement officers', type: 'political' },
+     { date: '2021', event: 'REFORM EFFORTS AND RESISTANCE: The George Floyd Justice in Policing Act, passed by the House in 2021, included provisions to eliminate qualified immunity for law enforcement officers', type: 'political' }
    ],
   },
   'prosecutorial-misconduct-wrongful-convictions': {
@@ -100,18 +98,17 @@ const investigations_q: Record<string, InvestigationData> = {
       'The Innocence Project has secured 250+ DNA exonerations, and in approximately 45% of these cases, prosecutorial misconduct contributed to the wrongful conviction. False confession cases, which account for 29% of DNA exonerations, frequently involve prosecutors who proceeded with charges despite evidence that confessions were coerced. In the Central Park Five case, prosecutors pursued convictions against five teenagers based on coerced confessions despite DNA evidence that did not match any defendant. All five were exonerated after the actual perpetrator confessed, but the lead prosecutor, Linda Fairstein, faced no professional consequences for decades.',
       'The use of jailhouse informants ("snitches") represents one of the most corrupt elements of the prosecution system. Informants receive sentencing reductions, dropped charges, or cash payments in exchange for testimony claiming that defendants confessed to them. The California Innocence Project found that informant testimony contributed to 15% of wrongful convictions. In Orange County, California, a massive jailhouse informant scandal revealed that prosecutors and sheriff\'s deputies operated an illegal informant program for decades, planting informants near defendants and hiding the arrangements from courts and defense attorneys.',
       'Absolute prosecutorial immunity, established by the Supreme Court in Imbler v. Pachtman (1976), shields prosecutors from civil liability for actions taken in their prosecutorial capacity, even when those actions involve deliberate misconduct. A prosecutor who knowingly presents false evidence, hides exculpatory material, or pursues a case against someone they know is innocent cannot be sued for damages. The victim of a wrongful conviction has no civil remedy against the prosecutor. This immunity, combined with the near-total absence of bar discipline, creates a system where prosecutors face zero personal risk for misconduct.',
-      'The structural incentives of the American prosecution system overwhelmingly favor conviction over justice. Prosecutors are evaluated, promoted, and elected based on conviction rates. At the federal level, the conviction rate exceeds 98%, suggesting either perfect prosecutorial judgment or enormous pressure on defendants to plead guilty regardless of actual guilt. Plea bargaining resolves 97% of federal cases and 94% of state cases, meaning prosecutors effectively determine guilt without trial in the vast majority of cases. The power to charge, combined with mandatory minimum sentences, gives prosecutors coercive leverage that undermines the constitutional right to trial.',
+      'The structural incentives of the American prosecution system overwhelmingly favor conviction over justice. Prosecutors are evaluated, promoted, and elected based on conviction rates. At the federal level, the conviction rate exceeds 98%, suggesting either perfect prosecutorial judgment or enormous pressure on defendants to plead guilty regardless of actual guilt. Plea bargaining resolves 97% of federal cases and 94% of state cases, meaning prosecutors effectively determine guilt without trial in the vast majority of cases. The power to charge, combined with mandatory minimum sentences, gives prosecutors coercive leverage that undermines the constitutional right to trial.'
     ],
     tags: ['prosecutorial misconduct', 'wrongful convictions', 'Brady violations', 'Innocence Project', 'exonerations', 'jailhouse informants', 'absolute immunity', 'plea bargaining', 'DNA exoneration', 'criminal justice'],
     sources: [
       { title: 'National Registry of Exonerations', url: 'https://www.law.umich.edu/special/exoneration/', type: 'Research' },
       { title: 'Innocence Project', url: 'https://innocenceproject.org/', type: 'Research' },
-      { title: 'Supreme Court: Brady v. Maryland (1963)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Supreme Court: Brady v. Maryland (1963)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors maintain 98% conviction rate; Brady compliance is self-policed; Thompson memo on DOJ ethics rarely enforced; no systematic tracking of federal prosecutorial misconduct', href: '/entities/agencies/doj' },
-      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created absolute prosecutorial immunity in Imbler v. Pachtman (1976); established Brady disclosure requirement but provided no enforcement mechanism', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created absolute prosecutorial immunity in Imbler v. Pachtman (1976); established Brady disclosure requirement but provided no enforcement mechanism', href: '/entities/agencies/supreme-court' }
     ],
    eventOriginDate: '1963-01-01',
    lastActivityDate: '2025-02-28',
@@ -120,7 +117,7 @@ const investigations_q: Record<string, InvestigationData> = {
      { date: '1963', event: 'Maryland (1963) requires prosecutors to disclose all evidence favorable to the defendant.', type: 'legal' },
      { date: '1976', event: 'Pachtman (1976), shields prosecutors from civil liability for actions taken in their prosecutorial capacity, even when those actions involve deliberate misconduct.', type: 'legal' },
      { date: '1989', event: 'The National Registry of Exonerations has documented over 3,400 wrongful convictions since 1989, with prosecutors contributing to the wrongful conviction through misconduct in 30% of cases.', type: 'legal' },
-     { date: '2020', event: 'A 2020 study found that only 4% of prosecutors found to have committed misconduct faced any disciplinary action.', type: 'legal' },
+     { date: '2020', event: 'A 2020 study found that only 4% of prosecutors found to have committed misconduct faced any disciplinary action.', type: 'legal' }
      ],
   },
   'qualified-immunity-police-shield': {
@@ -136,27 +133,25 @@ const investigations_q: Record<string, InvestigationData> = {
       'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights. The Supreme Court invented qualified immunity through a series of decisions beginning in the 1960s and progressively expanding the protection. Legal scholars have demonstrated that the historical record supports no immunity defense for the type of constitutional violations Section 1983 was designed to address. The doctrine is, in the assessment of multiple federal judges including both liberal and conservative appointees, judicial legislation.',
       'The practical impact on police accountability is devastating. An analysis of Section 1983 cases in federal courts found that qualified immunity was raised in over 60% of excessive force cases and granted in more than half of those. When qualified immunity is asserted, plaintiffs face years of appellate litigation simply to establish the right to have a trial. Many meritorious claims are abandoned because attorneys, who work on contingency in these cases, cannot justify the investment against the likelihood of immunity being granted. The doctrine functions as a veto on accountability for all but the most egregious and well-documented misconduct.',
       'Even the Supreme Court recognizes the absurdity. In multiple cases, the Court has acknowledged that officers violated constitutional rights but granted immunity because the specific type of violation had not been previously established. This creates a circular trap: rights cannot become clearly established because qualified immunity prevents cases from reaching the stage where they would establish the precedent. Justice Sotomayor has called the doctrine an "absolute shield" that "tells officers that they can shoot first and think later."',
-      'Reform efforts have gained bipartisan traction but face institutional resistance. The George Floyd Justice in Policing Act would have eliminated qualified immunity for federal civil rights claims but failed in the Senate. Colorado, Connecticut, New Mexico, and New York City have abolished or limited the doctrine at the state level, with early results showing no evidence of the defensive policing or officer recruitment crises that opponents predicted. Police unions and law enforcement organizations remain the primary opponents, despite the fact that individual officers almost never pay judgments themselves, as municipalities cover settlements and verdicts through insurance or general funds.',
+      'Reform efforts have gained bipartisan traction but face institutional resistance. The George Floyd Justice in Policing Act would have eliminated qualified immunity for federal civil rights claims but failed in the Senate. Colorado, Connecticut, New Mexico, and New York City have abolished or limited the doctrine at the state level, with early results showing no evidence of the defensive policing or officer recruitment crises that opponents predicted. Police unions and law enforcement organizations remain the primary opponents, despite the fact that individual officers almost never pay judgments themselves, as municipalities cover settlements and verdicts through insurance or general funds.'
     ],
     tags: ['qualified immunity', 'police accountability', 'Section 1983', 'excessive force', 'civil rights', 'Supreme Court', 'law enforcement'],
     sources: [
-      { title: 'Law Records', url: 'https://www.law.cornell.edu/wex/qualified_immunity', type: 'Reference' },
-      { title: 'Ij Records', url: 'https://ij.org/issues/project-on-immunity-and-accountability/frequently-asked-questions-about-ending-qualified-immunity/', type: 'Reference' },
       { title: 'Reuters Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', type: 'Investigation' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
-
-      { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'Supreme Court: Harlow v. Fitzgerald, 457 U.S. 800 (1982)', url: 'https://www.supremecourt.gov/opinions/boundvolumes/457bv.pdf', type: 'Court Document' },
+      { title: 'Reuters: Shielded - Police Qualified Immunity Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', type: 'Investigation' },
+      { title: 'Institute for Justice: Ending Qualified Immunity FAQ', url: 'https://ij.org/issues/project-on-immunity-and-accountability/frequently-asked-questions-about-ending-qualified-immunity/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Can bring pattern-or-practice suits against departments (bypassing individual immunity) but cannot sue individual officers under qualified immunity; consent decree tool depends on political will', href: '/entities/agencies/doj' },
-      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created and expanded qualified immunity doctrine through judicial interpretation; multiple justices from both ideological wings have called for reexamination but the Court has declined to reconsider', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created and expanded qualified immunity doctrine through judicial interpretation; multiple justices from both ideological wings have called for reexamination but the Court has declined to reconsider', href: '/entities/agencies/supreme-court' }
     ],
    eventOriginDate: '1871-01-01',
    lastActivityDate: '2025-02-20',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1871', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' },
-     { date: '1983', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' },
+     { date: '1983', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' }
      ],
   },
   'qanon-radicalization': {
@@ -176,7 +171,7 @@ const investigations_q: Record<string, InvestigationData> = {
    'Trump was asked directly about QAnon and refused to denounce it, saying "I\'ve heard these are people that love our country"- effectively endorsing the movement from the presidential podium.',
    'The FBI\'s 2019 internal memo identifying QAnon as a domestic terrorism threat was not publicly released; the bureau took no significant public action until after January 6.',
    'QAnon influencers have profited enormously through merchandise, donations, media operations, and political campaigns, creating financial incentives to maintain and escalate the conspiracy.',
-   'Media coverage often treated QAnon as bizarre entertainment rather than a serious radicalization threat, contributing to its growth by introducing it to new audiences without adequate context.',
+   'Media coverage often treated QAnon as bizarre entertainment rather than a serious radicalization threat, contributing to its growth by introducing it to new audiences without adequate context.'
  ],
  tags: ['QAnon', 'Radicalization', 'Domestic Terrorism', 'Conspiracy', 'January 6', 'Social Media'],
  sources: [
@@ -188,7 +183,7 @@ const investigations_q: Record<string, InvestigationData> = {
    { title: 'NPR, QAnon\'s Impact on January 6', url: 'https://www.npr.org/2021/02/19/969441904/some-capitol-rioters-were-qanon-believers', type: 'Article' },
    { title: 'NBC News, QAnon Casualties: People Who Lost Loved Ones', url: 'https://www.nbcnews.com/tech/tech-news/qanon-casualties-people-who-lost-loved-ones-rcna922', type: 'Article' },
    { title: 'Washington Post, QAnon: How the Conspiracy Went from Fringe to Mainstream', url: 'https://www.washingtonpost.com/politics/qanon-trump-conspiracy/2020/08/19/', type: 'Article' },
-   { title: 'Bellingcat, QAnon Investigation', url: 'https://www.bellingcat.com/news/americas/2021/01/29/the-qanon-timeline/', type: 'Article' },
+   { title: 'Bellingcat, QAnon Investigation', url: 'https://www.bellingcat.com/news/americas/2021/01/29/the-qanon-timeline/', type: 'Article' }
  ],
  affiliations: [
    { id: 'ron-watkins', name: 'Ron Watkins', type: 'individual', relationship: 'Former 8kun administrator widely believed to be or control "Q"; ran for Congress', href: '/entities/individuals/ron-watkins' },
@@ -201,7 +196,7 @@ const investigations_q: Record<string, InvestigationData> = {
    { id: 'mark-zuckerberg', name: 'Mark Zuckerberg', type: 'individual', relationship: 'Meta CEO whose platforms amplified QAnon content through algorithmic recommendation for years', href: '/entities/individuals/mark-zuckerberg' },
    { id: 'jack-dorsey', name: 'Jack Dorsey', type: 'individual', relationship: 'Former Twitter CEO; platform was slow to address QAnon radicalization', href: '/entities/individuals/jack-dorsey' },
    { id: 'sidney-powell', name: 'Sidney Powell', type: 'individual', relationship: 'Attorney who amplified QAnon-adjacent election conspiracy theories in federal courts', href: '/entities/individuals/sidney-powell' },
-   { id: 'alex-jones', name: 'Alex Jones', type: 'individual', relationship: 'InfoWars host who amplified QAnon narratives and related conspiracy theories', href: '/entities/individuals/alex-jones' },
+   { id: 'alex-jones', name: 'Alex Jones', type: 'individual', relationship: 'InfoWars host who amplified QAnon narratives and related conspiracy theories', href: '/entities/individuals/alex-jones' }
  ],
  timeline: [
    { date: 'October 28, 2017', event: 'First "Q" post appears on 4chan\'s /pol/ board claiming Hillary Clinton\'s imminent arrest' },
@@ -220,7 +215,7 @@ const investigations_q: Record<string, InvestigationData> = {
    { date: '2022', event: 'Matthew Coleman, QAnon follower, kills his two children believing they had"serpent DNA"' },
    { date: '2023', event: 'QAnon beliefs persist: polls show 25% of Americans believe some core QAnon claims' },
    { date: '2024', event: 'QAnon narratives absorbed into mainstream political rhetoric; movement decentralized but persistent' },
-   { date: 'Ongoing', event: '"Save the Children"branding coopts genuine anti-trafficking efforts, diverting resources from real victims' },
+   { date: 'Ongoing', event: '"Save the Children"branding coopts genuine anti-trafficking efforts, diverting resources from real victims' }
  ],
  statutes: [
    { code: '18 U.S.C. § 2384: Seditious Conspiracy', description: 'Conspiracy to overthrow or put down the government of the United States by force' },
@@ -230,7 +225,7 @@ const investigations_q: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 875: Interstate Threats', description: 'Threatening to injure or kidnap officials based on conspiracy theories' },
    { code: '47 U.S.C. § 230: Platform Liability Gap', description: 'Section 230 shields platforms from liability for algorithmically amplifying radicalization content' },
    { code: 'State Criminal Statutes, Violence', description: 'Murders, assaults, and threats directly motivated by QAnon beliefs' },
-   { code: 'Wire Fraud / Conspiracy, Fundraising', description: 'QAnon influencers solicited millions in donations based on false claims' },
+   { code: 'Wire Fraud / Conspiracy, Fundraising', description: 'QAnon influencers solicited millions in donations based on false claims' }
  ],
  defendants: [
    { name: 'Jacob Chansley (QAnon Shaman)', role: 'Obstruction of an official proceeding, January 6 Capitol breach', status: 'incarcerated', notes: 'Sentenced to 41 months in federal prison; released early' },
@@ -240,7 +235,7 @@ const investigations_q: Record<string, InvestigationData> = {
    { name: 'Twitter', role: 'Allowing QAnon organizing and amplification on platform', status: 'charged', notes: 'Suspended 7,000+ accounts in 2020; platform later acquired by Musk, who restored many' },
    { name: 'Matthew Coleman', role: 'Murder of his two children based on QAnon"serpent DNA"beliefs', status: 'convicted', notes: 'Convicted of first-degree murder; sentenced to life in prison' },
    { name: 'Michigan Kidnapping Plotters', role: 'Conspiracy to kidnap Governor Whitmer; connected to conspiracy communities', status: 'charged', notes: 'Multiple convictions; sentences ranging from 7 to 19+ years' },
-   { name: '8kun / Jim Watkins', role: 'Hosting and profiting from platform that enabled radicalization to violence', status: 'charged', notes: 'No legal consequences; Section 230 protects platform from liability for user content' },
+   { name: '8kun / Jim Watkins', role: 'Hosting and profiting from platform that enabled radicalization to violence', status: 'charged', notes: 'No legal consequences; Section 230 protects platform from liability for user content' }
  ],
   },
 };

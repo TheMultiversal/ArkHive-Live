@@ -18,7 +18,7 @@ const investigations_n: Record<string, InvestigationData> = {
  'Pharmaceutical intellectual property enforcement represents perhaps the most lethal form of neo-colonial extraction. American trade policy forces developing nations to respect pharmaceutical patents through TRIPS (Trade-Related Aspects of Intellectual Property Rights) and bilateral trade agreements, preventing the production of affordable generic medications. During the HIV/AIDS crisis, American pharmaceutical companies sued South Africa to block generic antiretroviral production while 330,000 South Africans died annually from AIDS. Only after massive public pressure did the industry relent. The pattern repeated during COVID-19: the US initially blocked a TRIPS waiver for COVID vaccines at the WTO while millions in developing countries died waiting for access to vaccines available in wealthy nations.',
  'Global supply chains exploit workers in developing nations, paying poverty wages under dangerous conditions to produce goods for American consumers. The Rana Plaza factory collapse in Bangladesh in 2013 killed 1,134 garment workers making clothing for Western brands. Workers had reported cracks in the building the day before but were ordered to return by management. Brands including Walmart, Primark, and Benetton were linked to the factories. Despite international outrage, the fundamental dynamics of the garment industry have not changed: brands continue to demand lower prices from suppliers, who pass the cost to workers through poverty wages, excessive hours, and dangerous conditions.',
  'Developing nation debt to American banks and international financial institutions creates ongoing wealth transfer from poor to rich countries. Debt service payments from developing nations exceed the total amount of foreign aid they receive, meaning that net financial flows run from poor countries to rich ones. Between 2012 and 2022, developing countries paid $4.2 trillion in debt service to external creditors. Many of these debts were incurred by dictators the United States supported, creating "odious debt" that populations must repay for loans they never benefited from. The concept of debt relief programs like HIPC (Heavily Indebted Poor Countries) addresses only a fraction of total debt and comes with additional structural adjustment conditions.',
- 'Climate colonialism describes how developing nations bear the greatest burden of climate change caused primarily by wealthy nations\' emissions. The United States, with 4% of the world\'s population, has contributed over 25% of cumulative CO2 emissions. Yet climate impacts, including rising seas, extreme heat, drought, and crop failure, disproportionately affect nations in Africa, South Asia, and the Pacific Islands that contributed minimally to the problem. American policy has consistently blocked climate reparations, technology transfer to developing nations, and binding emissions targets. At COP27 in 2022, the US finally agreed to a "loss and damage" fund but has been slow to commit funding and resistant to framing payments as reparations or liability.',
+ 'Climate colonialism describes how developing nations bear the greatest burden of climate change caused primarily by wealthy nations\' emissions. The United States, with 4% of the world\'s population, has contributed over 25% of cumulative CO2 emissions. Yet climate impacts, including rising seas, extreme heat, drought, and crop failure, disproportionately affect nations in Africa, South Asia, and the Pacific Islands that contributed minimally to the problem. American policy has consistently blocked climate reparations, technology transfer to developing nations, and binding emissions targets. At COP27 in 2022, the US finally agreed to a "loss and damage" fund but has been slow to commit funding and resistant to framing payments as reparations or liability.'
  ],
  tags: ['Neo-colonialism', 'Exploitation', 'Developing Nations', 'Haiti', 'IMF', 'World Bank', 'Resource Extraction', 'Climate Justice', 'Trade Policy', 'Debt Bondage'],
  sources: [
@@ -27,13 +27,13 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'Jubilee Debt Campaign: Developing Country Debt Data', url: 'https://jubileedebt.org.uk/', type: 'Research' },
  { title: 'UNCTAD: Trade and Development Report', url: 'https://unctad.org/publication/trade-and-development-report', type: 'Research' },
  { title: 'International Labor Rights Forum: Supply Chain Investigations', url: 'https://laborrights.org/', type: 'Research' },
- { title: 'Oxfam: Pharmaceutical Patent Barriers Report', url: 'https://www.oxfam.org/', type: 'Research' },
+ { title: 'Oxfam: Pharmaceutical Patent Barriers Report', url: 'https://www.oxfam.org/', type: 'Research' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: '"Shithole countries" remark revealing contempt underlying exploitation policy; used tariff threats to coerce developing nations on immigration', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'State Department', type: 'agency', relationship: 'Implements foreign policy that prioritizes American corporate interests over developing nation welfare; negotiates trade agreements with IP enforcement provisions', href: '/entities/agencies/state-department' },
  { id: '3', name: 'USAID', type: 'agency', relationship: 'Aid conditioned on structural adjustment compliance and acceptance of American policy priorities', href: '/entities/agencies/usaid' },
- { id: '4', name: 'Stephen Miller', type: 'individual', relationship: 'Architected immigration policies that weaponized aid to coerce developing nations into "safe third country" agreements', href: '/entities/individuals/stephen-miller' },
+ { id: '4', name: 'Stephen Miller', type: 'individual', relationship: 'Architected immigration policies that weaponized aid to coerce developing nations into "safe third country" agreements', href: '/entities/individuals/stephen-miller' }
  ],
    eventOriginDate: '1944-07-22',
    lastActivityDate: '2025-01-01',
@@ -48,7 +48,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2019', event: 'Trump administration coerces Guatemala, Honduras, and El Salvador into "safe third country" agreements by threatening tariffs and aid cuts', type: 'political' },
      { date: '2020', event: 'COVID-19 pandemic exposes pharmaceutical IP inequity: wealthy nations hoard vaccines while developing countries wait. US blocks TRIPS waiver at WTO', type: 'critical' },
      { date: '2022-11', event: 'COP27 establishes "loss and damage" fund for climate-vulnerable nations after decades of US resistance. Funding commitments remain far below estimated needs', type: 'political' },
-     { date: '2023', event: 'Developing countries pay $4.2 trillion in debt service over the prior decade, exceeding total aid received, demonstrating that net financial flows run from poor to rich countries', type: 'financial' },
+     { date: '2023', event: 'Developing countries pay $4.2 trillion in debt service over the prior decade, exceeding total aid received, demonstrating that net financial flows run from poor to rich countries', type: 'financial' }
    ],
  },
   'nra-russia': {
@@ -65,19 +65,20 @@ const investigations_n: Record<string, InvestigationData> = {
  'NRA SPENDING: The NRA spent over $30 million supporting Trump in 2016, nearly triple what they spent on Romney in 2012. Questions arose about whether any of this money originated from Russian sources.',
  'TRUMP CONNECTION: In 2015, Butina asked Trump at an event about his plans for Russia sanctions. Trump responded favorably, saying he would get along with Putin.',
  'FBI INVESTIGATION: The FBI investigated Russian money flowing through the NRA. Senate Finance Committee sought documents but faced NRA resistance.',
- 'BUTINA CONVICTION: Butina was sentenced to 18 months in prison, then deported to Russia where she was elected to the Russian parliament (Duma) in 2021.',
+ 'BUTINA CONVICTION: Butina was sentenced to 18 months in prison, then deported to Russia where she was elected to the Russian parliament (Duma) in 2021.'
  ],
  tags: ['Russia', 'NRA', 'Maria Butina', 'Foreign Interference', 'Campaign Finance'],
  sources: [
  { title: 'Senate Finance Committee Investigation', url: 'https://www.finance.senate.gov/ranking-members-news', type: 'Investigation' },
       { title: 'DOJ FARA Registration Database', url: 'https://www.justice.gov/nsd-fara', type: 'Government' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Senate Finance Committee: NRA Russia Investigation Report', url: 'https://www.finance.senate.gov/ranking-members-news/wyden-releases-report-on-nra-russia', type: 'Congressional Report' },
+ { title: 'DOJ: Maria Butina Pleads Guilty to Conspiracy', url: 'https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy-acting-agent-russian-federation', type: 'Legal Document' }
  ],
  affiliations: [
  { id: '1', name: 'Maria Butina', type: 'individual', relationship: 'Russian agent who infiltrated NRA', href: '/entities/individuals/maria-butina' },
  { id: '2', name: 'NRA', type: 'corporation', relationship: 'Organization infiltrated by Russians', href: '/entities/corporations/nra' },
  { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Asked about Russia by Butina in 2015', href: '/entities/individuals/donald-trump' },
- { id: '4', name: 'FBI', type: 'agency', relationship: 'Investigated Russian NRA connection', href: '/entities/agencies/fbi' },
+ { id: '4', name: 'FBI', type: 'agency', relationship: 'Investigated Russian NRA connection', href: '/entities/agencies/fbi' }
  ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2021-01-01',
@@ -87,7 +88,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2015', event: 'TRUMP CONNECTION: In 2015, Butina asked Trump at an event about his plans for Russia sanctions', type: 'default' },
      { date: '2016', event: 'NRA SPENDING: The NRA spent over $30 million supporting Trump in 2016, nearly triple what they spent on Romney in 2012', type: 'financial' },
      { date: '2018-12-01', event: 'She pleaded guilty to conspiracy to act as an unregistered foreign agent in December 2018', type: 'legal' },
-     { date: '2021', event: 'BUTINA CONVICTION: Butina was sentenced to 18 months in prison, then deported to Russia where she was elected to the Russian parliament (Duma) in 2021', type: 'legal' },
+     { date: '2021', event: 'BUTINA CONVICTION: Butina was sentenced to 18 months in prison, then deported to Russia where she was elected to the Russian parliament (Duma) in 2021', type: 'legal' }
    ],
  },
   'ny-civil-fraud': {
@@ -106,12 +107,14 @@ const investigations_n: Record<string, InvestigationData> = {
  'THE JUDGMENT: In February 2024, Engoron ordered $364 million in disgorgement plus interest, totaling approximately $454 million. Trump was banned from running NY businesses for 3 years. Sons banned for 2 years.',
  'CRIMINAL REFERRALS: The investigation uncovered potential insurance fraud that was referred to federal prosecutors and state investigators.',
  'APPEALS: Trump appealed and posted a $175 million bond (reduced from full amount) to stay enforcement. Appeal is pending.',
- 'TRUMP ORG CONVICTIONS: Separately, the Trump Organization was convicted of 17 felony counts in December 2022 for a tax fraud scheme.',
+ 'TRUMP ORG CONVICTIONS: Separately, the Trump Organization was convicted of 17 felony counts in December 2022 for a tax fraud scheme.'
  ],
  tags: ['Fraud', 'Letitia James', 'Trump Organization', 'Asset Inflation', 'Civil Penalty'],
  sources: [
  { title: 'Judge Engoron Decision', url: 'https://www.nycourts.gov/reporter/3dseries/2024/2024_00872.htm', type: 'Court Decision' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
+ { title: 'NY AG: People v. Trump (Civil Fraud Lawsuit)', url: 'https://ag.ny.gov/press-release/2022/attorney-general-james-files-civil-fraud-lawsuit-against-donald-trump', type: 'Legal Document' },
+ { title: 'NY Supreme Court: Justice Engoron Ruling', url: 'https://www.nycourts.gov/courts/1jd/supctmanh/', type: 'Court Document' },
+ { title: 'Forbes: Trump Organization Fraud Allegations', url: 'https://www.forbes.com/sites/danalexander/2023/10/03/trump-organization-fraud-new-york/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, $454M judgment', href: '/entities/individuals/donald-trump' },
@@ -119,7 +122,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { id: '3', name: 'Eric Trump', type: 'individual', relationship: 'Co-defendant, 2-year ban', href: '/entities/individuals/eric-trump' },
  { id: '4', name: 'Trump Organization', type: 'corporation', relationship: 'Corporate defendant', href: '/entities/corporations/trump-organization' },
  { id: '5', name: 'Allen Weisselberg', type: 'individual', relationship: 'Former CFO, testified, convicted', href: '/entities/individuals/allen-weisselberg' },
- { id: '6', name: 'Letitia James', type: 'individual', relationship: 'NY Attorney General, plaintiff', href: '/entities/individuals/letitia-james' },
+ { id: '6', name: 'Letitia James', type: 'individual', relationship: 'NY Attorney General, plaintiff', href: '/entities/individuals/letitia-james' }
  ],
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2024-02-01',
@@ -129,7 +132,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2022-12-01', event: 'TRUMP ORG CONVICTIONS: Separately, the Trump Organization was convicted of 17 felony counts in December 2022 for a tax fraud scheme', type: 'legal' },
      { date: '2023-09-01', event: 'THE RULING: In September 2023, Judge Engoron granted partial summary judgment, finding fraud established as a matter of law', type: 'legal' },
      { date: '2023-10-01', event: 'THE TRIAL: A non-jury trial ran from October 2023 to January 2024', type: 'legal' },
-     { date: '2024-02-01', event: 'THE JUDGMENT: In February 2024, Engoron ordered $364 million in disgorgement plus interest, totaling approximately $454 million', type: 'financial' },
+     { date: '2024-02-01', event: 'THE JUDGMENT: In February 2024, Engoron ordered $364 million in disgorgement plus interest, totaling approximately $454 million', type: 'financial' }
    ],
  },
   'nra-corruption': {
@@ -152,14 +155,13 @@ const investigations_n: Record<string, InvestigationData> = {
  'ORGANIZATIONAL COLLAPSE: The corruption and legal battles have devastated the NRA. Membership and revenue have declined. The organization cut programs and staff. It no longer wields the political influence it once had.',
  'ACKERMAN MCQUEEN: The NRA\'s longtime PR firm Ackerman McQueen was entangled in the corruption, receiving tens of millions while enabling LaPierre\'s lifestyle. The relationship collapsed into litigation revealing more misconduct.',
  'BOARD FAILURES: The NRA board, filled with celebrity members, failed to provide oversight. When whistleblowers raised concerns, they were pushed out. The governance structure enabled corruption.',
- 'THE BROADER PICTURE: The NRA corruption shows how powerful advocacy organizations can be captured by self-interested leadership and exploited by foreign adversaries when accountability mechanisms fail.',
+ 'THE BROADER PICTURE: The NRA corruption shows how powerful advocacy organizations can be captured by self-interested leadership and exploited by foreign adversaries when accountability mechanisms fail.'
  ],
  tags: ['NRA', 'Wayne LaPierre', 'Maria Butina', 'Russia', 'Corruption', 'Dark Money', 'Gun Lobby'],
  sources: [
  { title: 'NY AG NRA Lawsuit', url: 'https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra', type: 'Court Filing' },
  { title: 'Senate NRA-Russia Report', url: 'https://www.finance.senate.gov/imo/media/doc/The%20NRA%20&%20Russia%20-%20How%20a%20Tax-Exempt%20Organization%20Became%20a%20Foreign%20Asset.pdf', type: 'Congressional Report' },
- { title: 'Butina Plea Agreement', url: 'https://www.justice.gov/opa/pr/russian-national-charged-conspiracy-act-agent-russian-federation-within-united-states', type: 'Court Document' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Butina Plea Agreement', url: 'https://www.justice.gov/opa/pr/russian-national-charged-conspiracy-act-agent-russian-federation-within-united-states', type: 'Court Document' }
  ],
  affiliations: [
  { id: '1', name: 'Wayne LaPierre', type: 'individual', relationship: 'CEO, found liable for corruption', href: '/entities/individuals/wayne-lapierre' },
@@ -167,7 +169,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { id: '3', name: 'Maria Butina', type: 'individual', relationship: 'Russian agent who infiltrated NRA', href: '/entities/individuals/maria-butina' },
  { id: '4', name: 'Alexander Torshin', type: 'individual', relationship: 'Russian official directing Butina', href: '/entities/individuals/alexander-torshin' },
  { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Beneficiary of NRA spending', href: '/entities/individuals/donald-trump' },
- { id: '6', name: 'Letitia James', type: 'individual', relationship: 'NY AG who sued NRA', href: '/entities/individuals/letitia-james' },
+ { id: '6', name: 'Letitia James', type: 'individual', relationship: 'NY AG who sued NRA', href: '/entities/individuals/letitia-james' }
  ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2024-01-01',
@@ -175,7 +177,7 @@ const investigations_n: Record<string, InvestigationData> = {
       timeline: [
      { date: '2012', event: 'The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending.', type: 'financial' },
      { date: '2016', event: 'The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending.', type: 'financial' },
-     { date: '2024', event: 'In 2024, a New York jury found LaPierre liable for diverting NRA funds.', type: 'financial' },
+     { date: '2024', event: 'In 2024, a New York jury found LaPierre liable for diverting NRA funds.', type: 'financial' }
      ],
  },
   'neocon-network': {
@@ -198,13 +200,13 @@ const investigations_n: Record<string, InvestigationData> = {
  'NO ACCOUNTABILITY: Despite being spectacularly wrong about everything, WMD, troop levels, cost, duration, consequences, no neocon faced any consequences. Many continue as respected commentators.',
  'IRAN HAWKS: Having learned nothing from Iraq, neocons have spent two decades pushing for military confrontation with Iran. John Bolton nearly achieved his goal during the Trump administration.',
  'THE THINK TANK ECOSYSTEM: Neocon ideas flow through interconnected institutions: American Enterprise Institute, Foundation for Defense of Democracies, Hudson Institute. They produce "experts "for media and government.',
- 'CONTINUING INFLUENCE: Neoconservatives remain embedded in foreign policy establishments of both parties. Their interventionist assumptions still dominate much mainstream discourse, despite the wreckage they\'ve left.',
+ 'CONTINUING INFLUENCE: Neoconservatives remain embedded in foreign policy establishments of both parties. Their interventionist assumptions still dominate much mainstream discourse, despite the wreckage they\'ve left.'
  ],
  tags: ['Neoconservatives', 'PNAC', 'Iraq War', 'Cheney', 'Wolfowitz', 'Rumsfeld', 'Think Tanks'],
  sources: [
  { title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', type: 'Primary Document' },
  { title: 'PNAC Letter to Clinton on Iraq (1998)', url: 'https://web.archive.org/web/20050205045044/http://www.newamericancentury.org/iraqclintonletter.htm', type: 'Primary Document' },
-   { title: 'National Security Archive: Iraq War Planning', url: 'https://nsarchive.gwu.edu/briefing-book/iraq/2023-03-19/iraq-war-part-iv-regime-change', type: 'Archive' },
+   { title: 'National Security Archive: Iraq War Planning', url: 'https://nsarchive.gwu.edu/briefing-book/iraq/2023-03-19/iraq-war-part-iv-regime-change', type: 'Archive' }
  ],
  affiliations: [
  { id: '1', name: 'Dick Cheney', type: 'individual', relationship: 'PNAC signatory, VP', href: '/entities/individuals/dick-cheney' },
@@ -213,7 +215,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { id: '4', name: 'William Kristol', type: 'individual', relationship: 'PNAC founder, Weekly Standard', href: '/entities/individuals/william-kristol' },
  { id: '5', name: 'John Bolton', type: 'individual', relationship: 'Iran hawk, later NSA', href: '/entities/individuals/john-bolton' },
  { id: '6', name: 'American Enterprise Institute', type: 'organization', relationship: 'Key neocon think tank', href: '/entities/organizations/american-enterprise-institute' },
- { id: '7', name: 'George W. Bush', type: 'individual', relationship: 'Implemented neocon agenda', href: '/entities/individuals/george-w-bush' },
+ { id: '7', name: 'George W. Bush', type: 'individual', relationship: 'Implemented neocon agenda', href: '/entities/individuals/george-w-bush' }
  ],
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2025-07-10',
@@ -221,7 +223,7 @@ const investigations_n: Record<string, InvestigationData> = {
       timeline: [
      { date: '1997', event: 'Founded in 1997, PNAC\'s founding statement called for "American global leadership" through military strength.', type: 'default' },
      { date: '1998', event: 'In January 1998, PNAC wrote President Clinton urging "removing Saddam Hussein and his regime from power." They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
-     { date: '1998-01', event: 'In January 1998, PNAC wrote President Clinton urging "removing Saddam Hussein and his regime from power." They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
+     { date: '1998-01', event: 'In January 1998, PNAC wrote President Clinton urging "removing Saddam Hussein and his regime from power." They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' }
      ],
  },
   'nih-wuhan': {
@@ -242,20 +244,19 @@ const investigations_n: Record<string, InvestigationData> = {
  'BIOSAFETY CONCERNS: Intelligence agencies identified WIV biosafety concerns before the pandemic. Researchers reportedly became ill with COVID-like symptoms in fall 2019. These warnings weren\'t adequately addressed.',
  'LAB LEAK RELEVANCE: If COVID-19 emerged from WIV research, U.S. funding of that research would be catastrophically significant. Even if the virus emerged naturally, the funding relationship demands scrutiny.',
  'TRANSPARENCY FAILURES: NIH and EcoHealth resisted releasing documents about the research. Information emerged through FOIA requests and congressional investigations rather than voluntary disclosure.',
- 'REFORM NEEDS: The episode revealed gaps in oversight of international research on dangerous pathogens. Reforms are needed regardless of COVID-19\'s origin to prevent future risks.',
+ 'REFORM NEEDS: The episode revealed gaps in oversight of international research on dangerous pathogens. Reforms are needed regardless of COVID-19\'s origin to prevent future risks.'
  ],
  tags: ['NIH', 'Wuhan', 'EcoHealth Alliance', 'Gain-of-Function', 'Fauci', 'Research Funding', 'Lab Leak'],
  sources: [
  { title: 'NIH Letter Acknowledging EcoHealth Research', url: 'https://republicans-oversight.house.gov/wp-content/uploads/2021/10/NIH-Document.pdf', type: 'Government Document' },
  { title: 'House Select Subcommittee Investigation', url: 'https://www.congress.gov/118/crpt/hrpt682/CRPT-118hrpt682.pdf', type: 'Congressional Report' },
- { title: 'EcoHealth Alliance Grant Details', url: 'https://reporter.nih.gov/search/nLNMBSGSn0GHOhIwLCVCeQ/project-details/9819304', type: 'Grant Database' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'EcoHealth Alliance Grant Details', url: 'https://reporter.nih.gov/search/nLNMBSGSn0GHOhIwLCVCeQ/project-details/9819304', type: 'Grant Database' }
  ],
  affiliations: [
  { id: '1', name: 'NIH', type: 'agency', relationship: 'Funded WIV research through EcoHealth', href: '/entities/agencies/nih' },
  { id: '2', name: 'Anthony Fauci', type: 'individual', relationship: 'Oversaw funding, disputed testimony', href: '/entities/individuals/anthony-fauci' },
  { id: '3', name: 'EcoHealth Alliance', type: 'organization', relationship: 'Grant recipient, subcontracted to WIV', href: '/entities/organizations/ecohealth-alliance' },
- { id: '4', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Received U.S. research funds', href: '/entities/organizations/wuhan-institute-of-virology' },
+ { id: '4', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Received U.S. research funds', href: '/entities/organizations/wuhan-institute-of-virology' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-07-01',
@@ -264,7 +265,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2014', event: 'Between 2014-2019, approximately $600,000 went to WIV for coronavirus research', type: 'default' },
      { date: '2014', event: 'MORATORIUM CIRCUMVENTION: A 2014-2017 moratorium on gain-of-function research may have been circumvented through definitional games', type: 'default' },
      { date: '2019', event: 'Researchers reportedly became ill with COVID-like symptoms in fall 2019', type: 'default' },
-     { date: '2024', event: 'ECOHEALTH DEBARMENT: In 2024, HHS debarred EcoHealth Alliance and Peter Daszak from federal funding for failures in grant management and oversight', type: 'default' },
+     { date: '2024', event: 'ECOHEALTH DEBARMENT: In 2024, HHS debarred EcoHealth Alliance and Peter Daszak from federal funding for failures in grant management and oversight', type: 'default' }
    ],
  },
   'nestle-baby-formula': {
@@ -282,18 +283,18 @@ const investigations_n: Record<string, InvestigationData> = {
  'WHO CODE: In 1981, the World Health Assembly adopted the International Code of Marketing of Breast-milk Substitutes. The US was the only nation to vote against it.',
  'ONGOING VIOLATIONS: Nestlé and other companies continue violating the code in developing nations. They market formula as superior to breastfeeding. The death toll continues.',
  'WATER PRIVATIZATION: Nestlé also faced criticism for extracting water in drought-stricken areas and selling bottled water while babies died from formula mixed with unsafe water.',
- 'CORPORATE POWER: Despite documented harm, Nestlé remains the world\'s largest food company. Corporate power enables continued exploitation.',
+ 'CORPORATE POWER: Despite documented harm, Nestlé remains the world\'s largest food company. Corporate power enables continued exploitation.'
  ],
  tags: ['Nestlé', 'Baby Formula', 'Infant Mortality', 'Corporate Crime', 'WHO Code', 'Boycott'],
  sources: [
  { title: 'WHO Breast-milk Substitute Code', url: 'http://web.archive.org/web/20210703052254/https://www.who.int/nutrition/netcode/resolutions/en/', type: 'International Code' },
       { title: 'UNICEF: Infant Feeding and Marketing', url: 'https://www.unicef.org/nutrition/infant-and-young-child-feeding', type: 'Report' },
-   { title: 'The Baby Killer Report (1974)', url: 'https://archive.org/details/babykiller', type: 'Primary Document' },
+   { title: 'The Baby Killer Report (1974)', url: 'https://archive.org/details/babykiller', type: 'Primary Document' }
  ],
  affiliations: [
  { id: '1', name: 'Nestlé', type: 'corporation', relationship: 'Primary offender; used fake milk nurses to push formula in hospitals', href: '/entities/corporations/nestle' },
  { id: '2', name: 'WHO', type: 'organization', relationship: 'Adopted International Code of Marketing of Breast-milk Substitutes in 1981', href: '/entities/organizations/who' },
- { id: '3', name: 'UNICEF', type: 'organization', relationship: 'Estimated 1 million infant deaths annually linked to formula marketing', href: '/entities/organizations/unicef' },
+ { id: '3', name: 'UNICEF', type: 'organization', relationship: 'Estimated 1 million infant deaths annually linked to formula marketing', href: '/entities/organizations/unicef' }
  ],
    eventOriginDate: '1977-01-01',
    lastActivityDate: '2025-05-26',
@@ -302,7 +303,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1977', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
      { date: '1981', event: 'In 1981, the World Health Assembly adopted the International Code of Marketing of Breast-milk Substitutes.', type: 'default' },
      { date: '1984', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
-     { date: '1988', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
+     { date: '1988', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' }
      ],
  },
   'nbc-misconduct': {
@@ -318,20 +319,20 @@ const investigations_n: Record<string, InvestigationData> = {
  'NBC News killed Ronan Farrow\'s investigation into Harvey Weinstein in August 2017. Farrow had obtained on-camera testimony and audio recordings of Weinstein admitting to sexual assault. NBC News President Noah Oppenheim told Farrow the story was not ready for broadcast. Farrow took the story to the New Yorker, which published it in October 2017 and won the Pulitzer Prize. Farrow later alleged that NBC killed the story because Weinstein threatened to expose the network\'s own harassment problems.',
  'The network\'s handling of the Weinstein story was compounded by NBC\'s own harassment culture. In addition to Lauer, NBC News contributor Mark Halperin was fired after multiple women accused him of harassment and unwanted sexual contact during his time at ABC News. Tom Brokaw was accused of unwanted advances by two women; NBC colleagues rallied to his defense. The pattern suggested institutional tolerance of predatory behavior by valuable talent.',
  'NBC reached a settlement with former "Today" show employee Brooke Nevils, who accused Lauer of raping her in his hotel room during the 2014 Sochi Olympics. NBC disputed aspects of her account but paid a settlement. The case raised questions about why NBC had not investigated or acted on earlier complaints about Lauer\'s behavior, particularly given that human resources had received multiple reports.',
- 'The broader pattern at NBC News reflected an industry-wide problem where the economic value of star anchors and executives insulated them from accountability. NBC\'s advertising revenue depended on Lauer\'s ratings, creating institutional incentives to protect him. The network\'s decision to kill the Weinstein story demonstrated that these incentives could override even basic journalistic obligations when powerful interests were threatened.',
+ 'The broader pattern at NBC News reflected an industry-wide problem where the economic value of star anchors and executives insulated them from accountability. NBC\'s advertising revenue depended on Lauer\'s ratings, creating institutional incentives to protect him. The network\'s decision to kill the Weinstein story demonstrated that these incentives could override even basic journalistic obligations when powerful interests were threatened.'
  ],
  tags: ['NBC News', 'Matt Lauer', 'Harvey Weinstein', 'Ronan Farrow', 'Workplace Sexual Harassment', 'Media Misconduct', 'MeToo'],
  sources: [
  { title: 'Ronan Farrow: Catch and Kill', url: 'https://www.hachettebookgroup.com/titles/ronan-farrow/catch-and-kill/9780316486637/', type: 'Book' },
  { title: 'New Yorker: Weinstein Investigation', url: 'https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories', type: 'Investigative Report' },
  { title: 'Variety: Matt Lauer Firing', url: 'https://variety.com/2017/tv/news/matt-lauer-fired-today-show-sexual-harassment-1202625863/', type: 'News Report' },
- { title: 'NYT: NBC Internal Review', url: 'https://www.nytimes.com/2018/10/25/business/nbc-matt-lauer-report.html', type: 'News Report' },
+ { title: 'NYT: NBC Internal Review', url: 'https://www.nytimes.com/2018/10/25/business/nbc-matt-lauer-report.html', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'NBC News', type: 'corporation', relationship: 'Protected Lauer for decades; killed Weinstein investigation', href: '/entities/corporations/nbc-news' },
  { id: '2', name: 'Matt Lauer', type: 'individual', relationship: 'Fired anchor; accused of rape and serial harassment', href: '/entities/individuals/matt-lauer' },
  { id: '3', name: 'Harvey Weinstein', type: 'individual', relationship: 'Subject of killed NBC investigation; threatened to expose network', href: '/entities/individuals/harvey-weinstein' },
- { id: '4', name: 'Noah Oppenheim', type: 'individual', relationship: 'NBC News President who killed Farrow Weinstein story', href: '/entities/individuals/noah-oppenheim' },
+ { id: '4', name: 'Noah Oppenheim', type: 'individual', relationship: 'NBC News President who killed Farrow Weinstein story', href: '/entities/individuals/noah-oppenheim' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2026-02-04',
@@ -340,7 +341,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2014', event: 'NBC reached a settlement with former "Today" show employee Brooke Nevils, who accused Lauer of raping her in his hotel room during the 2014 Sochi Olympics', type: 'financial' },
      { date: '2017-08-01', event: 'NBC News killed Ronan Farrow\'s investigation into Harvey Weinstein in August 2017', type: 'critical' },
      { date: '2017-10-01', event: 'Farrow took the story to the New Yorker, which published it in October 2017 and won the Pulitzer Prize', type: 'default' },
-     { date: '2017-11-01', event: 'Matt Lauer, NBC\'s highest-paid anchor earning $25 million annually, was fired in November 2017 after allegations of rape and sustained sexual harassment', type: 'financial' },
+     { date: '2017-11-01', event: 'Matt Lauer, NBC\'s highest-paid anchor earning $25 million annually, was fired in November 2017 after allegations of rape and sustained sexual harassment', type: 'financial' }
    ],
  },
   'nestle-human-rights': {
@@ -356,7 +357,7 @@ const investigations_n: Record<string, InvestigationData> = {
  'Nestle\'s water extraction operations have drawn communities\' groundwater for bottling and sale in regions facing water scarcity. In Flint, Michigan, Nestle pumped 400 gallons per minute from nearby aquifers for its Ice Mountain brand while Flint residents drank lead-contaminated water. In California during severe drought, Nestle pumped water from the San Bernardino National Forest under a permit that had expired in 1988. The company paid $524 annually for water it sold for millions.',
  'The Nestle infant formula scandal of the 1970s and 1980s involved aggressive marketing of formula in developing countries where clean water was unavailable, leading to malnutrition, disease, and death among infants whose mothers were encouraged to abandon breastfeeding. The WHO estimated that 1.5 million infant deaths annually were linked to inadequate breastfeeding. Despite a WHO code restricting formula marketing adopted in 1981, Nestle has been cited repeatedly for violations in developing nations.',
  'A 2016 Associated Press investigation found that Nestle\'s seafood supply chain in Thailand relied on forced labor. Workers on fishing boats that supplied shrimp to Nestle were subjected to 20-hour days, physical abuse, and confinement at sea for months or years. Nestle acknowledged the findings and pledged reforms but subsequent investigations found continued abuses. In 2019, the company admitted it had found forced labor indicators in its palm oil supply chain as well.',
- 'Former Nestle CEO Peter Brabeck-Letmathe stated in a 2005 documentary that the idea of water as a human right was "extreme" and advocated for water privatization. The company has acquired water rights in communities across the United States, Canada, and developing nations, extracting millions of gallons daily while paying minimal fees. Nestle\'s water brand (now sold to One Rock Capital Partners as BlueTriton) extracted 36 million gallons from Florida springs annually under a $115 permit.',
+ 'Former Nestle CEO Peter Brabeck-Letmathe stated in a 2005 documentary that the idea of water as a human right was "extreme" and advocated for water privatization. The company has acquired water rights in communities across the United States, Canada, and developing nations, extracting millions of gallons daily while paying minimal fees. Nestle\'s water brand (now sold to One Rock Capital Partners as BlueTriton) extracted 36 million gallons from Florida springs annually under a $115 permit.'
  ],
  tags: ['Nestle', 'Child Labor', 'Water Privatization', 'Forced Labor', 'Baby Formula', 'Human Rights', 'Supply Chain'],
  sources: [
@@ -366,12 +367,11 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'Amnesty International: Palm Oil Supply Chains', url: 'https://www.amnesty.org/en/latest/news/2016/11/palm-oil-global-brands-profiting-from-child-and-forced-labour/', type: 'Report' },
  { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'Human Rights Watch World Report', url: 'https://www.hrw.org/world-report', type: 'Report' },
- { title: 'International Baby Food Action Network', url: 'https://www.ibfan.org/', type: 'Report' },
+ { title: 'International Baby Food Action Network', url: 'https://www.ibfan.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Child labor, water privatization, baby formula deaths', href: '/entities/corporations/nestle' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2026-02-07',
@@ -384,7 +384,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2016', event: 'A 2016 Associated Press investigation found that Nestle\'s seafood supply chain in Thailand relied on forced labor', type: 'default' },
      { date: '2019', event: 'In 2019, the company admitted it had found forced labor indicators in its palm oil supply chain as well', type: 'default' },
      { date: '2020', event: 'Nestle\'s cocoa supply chain relies on approximately 1.56 million children working in hazardous conditions on cocoa farms in West Africa, according to a 2020 NORC study', type: 'financial' },
-     { date: '2021', event: 'A 2021 Supreme Court case (Nestle USA v', type: 'legal' },
+     { date: '2021', event: 'A 2021 Supreme Court case (Nestle USA v', type: 'legal' }
    ],
  },
   'news-of-the-world-hacking': {
@@ -400,20 +400,20 @@ const investigations_n: Record<string, InvestigationData> = {
  'The scandal erupted in July 2011 when the Guardian newspaper reported that News of the World journalists had hacked the phone of Milly Dowler, a 13-year-old murder victim, while she was still missing. Investigators had also deleted some of her voicemails, giving her family false hope that she was still alive. The revelation caused a wave of public revulsion that forced the closure of the 168-year-old newspaper within a week.',
  'News International paid over 1 million pounds in bribes to Metropolitan Police officers in exchange for information and tip-offs. The police\'s initial investigation in 2006 was deliberately limited; only two people were charged despite evidence of widespread hacking. Senior police officers who had close social relationships with News International executives failed to pursue the investigation. Two Metropolitan Police commissioners ultimately resigned over the scandal.',
  'Andy Coulson, editor of the News of the World who became Prime Minister David Cameron\'s director of communications, was convicted of conspiracy to intercept phone communications and sentenced to 18 months in prison. Rebekah Brooks, CEO of News International and close friend of Cameron, was acquitted. The Leveson Inquiry into press ethics recommended independent regulation of the press, but the recommendations were never fully implemented.',
- 'Rupert Murdoch closed News of the World but launched the Sun on Sunday as a replacement. The company paid over $1 billion in settlements and legal costs. Two parliamentary inquiries and the Leveson judicial inquiry exposed the corrupt relationship between the Murdoch press, the Metropolitan Police, and senior politicians. Despite this, Murdoch\'s remaining UK newspapers continued to wield enormous political influence, and promised press reforms were largely abandoned.',
+ 'Rupert Murdoch closed News of the World but launched the Sun on Sunday as a replacement. The company paid over $1 billion in settlements and legal costs. Two parliamentary inquiries and the Leveson judicial inquiry exposed the corrupt relationship between the Murdoch press, the Metropolitan Police, and senior politicians. Despite this, Murdoch\'s remaining UK newspapers continued to wield enormous political influence, and promised press reforms were largely abandoned.'
  ],
  tags: ['Phone Hacking', 'News of the World', 'Rupert Murdoch', 'Leveson Inquiry', 'Press Corruption', 'Police Bribery', 'UK Media'],
  sources: [
  { title: 'Leveson Inquiry Report', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', type: 'Judicial Inquiry' },
  { title: 'House of Commons Culture Committee: Phone Hacking Report', url: 'https://publications.parliament.uk/pa/cm201012/cmselect/cmcumeds/903/90302.htm', type: 'Parliamentary Report' },
  { title: 'Guardian: Milly Dowler Phone Hacking', url: 'https://www.theguardian.com/uk/2011/jul/04/milly-dowler-voicemail-hacked-news-of-world', type: 'Investigative Report' },
- { title: 'BBC: Phone Hacking Timeline', url: 'https://www.bbc.co.uk/news/uk-14124020', type: 'News Report' },
+ { title: 'BBC: Phone Hacking Timeline', url: 'https://www.bbc.co.uk/news/uk-14124020', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Owner of News International; closed 168-year-old newspaper after scandal', href: '/entities/individuals/rupert-murdoch' },
  { id: '2', name: 'Ofcom', type: 'agency', relationship: 'UK communications regulator with oversight of Murdoch media holdings', href: '/entities/agencies/ofcom' },
  { id: '3', name: 'Andy Coulson', type: 'individual', relationship: 'Editor convicted of phone hacking conspiracy; became PM Cameron communications director', href: '/entities/individuals/andy-coulson' },
- { id: '4', name: 'Rebekah Brooks', type: 'individual', relationship: 'CEO of News International; acquitted but central figure in scandal', href: '/entities/individuals/rebekah-brooks' },
+ { id: '4', name: 'Rebekah Brooks', type: 'individual', relationship: 'CEO of News International; acquitted but central figure in scandal', href: '/entities/individuals/rebekah-brooks' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2022-11-30',
@@ -422,7 +422,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2000', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of people between 2000 and...', type: 'default' },
      { date: '2006', event: 'The police\'s initial investigation in 2006 was deliberately limited; only two people were charged despite evidence of widespread hacking.', type: 'default' },
      { date: '2011', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of people between 2000 and...', type: 'default' },
-     { date: '2011-07', event: 'The scandal erupted in July 2011 when the Guardian newspaper reported that News of the World journalists had hacked the phone of Milly Dowler, a 13-year-old murder victim, while she was still missing.', type: 'default' },
+     { date: '2011-07', event: 'The scandal erupted in July 2011 when the Guardian newspaper reported that News of the World journalists had hacked the phone of Milly Dowler, a 13-year-old murder victim, while she was still missing.', type: 'default' }
      ],
  },
   'nxivm-cult': {
@@ -438,7 +438,7 @@ const investigations_n: Record<string, InvestigationData> = {
  'Within NXIVM, Raniere operated a secret society called DOS (Dominus Obsequious Sororium, or "Master of the Obedient Female Companions"). Women were recruited into a master-slave hierarchy where they provided "collateral"; nude photos, damaging confessions, and financial assets; to their "masters" as blackmail insurance. Members were branded on their pelvic area with Raniere\'s initials using a cauterizing device, required to maintain near-starvation diets, and subjected to sexual demands.',
  'Actress Allison Mack, who played Chloe Sullivan on "Smallville," served as a DOS master who recruited women into the organization and participated in the branding ceremonies. Mack pleaded guilty to racketeering and was sentenced to three years in prison. Seagram\'s heiresses Clare and Sara Bronfman were also deeply involved; Clare Bronfman pleaded guilty to conspiracy charges and was sentenced to 81 months, having reportedly spent over $100 million funding the organization.',
  'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges. He was sentenced to 120 years in federal prison. Prosecutors established that Raniere had sexual relationships with underage girls, forced women into sexual servitude, and used the organization\'s structure to control virtually every aspect of members\' lives.',
- 'The NXIVM case exposed how charismatic leadership, multi-level organizational structures, and psychological manipulation techniques can transform legitimate-sounding personal development programs into mechanisms of exploitation. Victims described incremental escalation; early courses seemed valuable and normal, with increasingly coercive demands introduced gradually after members had invested significant time, money, and social relationships in the organization.',
+ 'The NXIVM case exposed how charismatic leadership, multi-level organizational structures, and psychological manipulation techniques can transform legitimate-sounding personal development programs into mechanisms of exploitation. Victims described incremental escalation; early courses seemed valuable and normal, with increasingly coercive demands introduced gradually after members had invested significant time, money, and social relationships in the organization.'
  ],
  tags: ['NXIVM', 'Keith Raniere', 'Sex Trafficking', 'Cult', 'DOS', 'Forced Labor', 'Allison Mack'],
  sources: [
@@ -446,11 +446,11 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'FBI Albany Field Office: NXIVM Investigation', url: 'https://www.fbi.gov/contact-us/field-offices/albany', type: 'Government' },
  { title: 'Frank Report (NXIVM Whistleblower)', url: 'https://frankreport.com/', type: 'Investigation' },
  { title: 'HBO: The Vow Documentary Series', url: 'https://www.hbo.com/the-vow', type: 'Investigation' },
- { title: 'New York Times: Inside NXIVM', url: 'https://www.nytimes.com/2020/10/27/nyregion/nxivm-keith-raniere-sentencing.html', type: 'Investigation' },
+ { title: 'New York Times: Inside NXIVM', url: 'https://www.nytimes.com/2020/10/27/nyregion/nxivm-keith-raniere-sentencing.html', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Keith Raniere', type: 'individual', relationship: 'NXIVM cult leader, convicted of sex trafficking', href: '/entities/individuals/keith-raniere' },
- { id: '2', name: 'Allison Mack', type: 'individual', relationship: 'Actress who recruited for cult', href: '/entities/individuals/allison-mack' },
+ { id: '2', name: 'Allison Mack', type: 'individual', relationship: 'Actress who recruited for cult', href: '/entities/individuals/allison-mack' }
  ],
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-12-26',
@@ -458,7 +458,7 @@ const investigations_n: Record<string, InvestigationData> = {
       timeline: [
      { date: '1998', event: 'NXIVM (pronounced "Nexium") was founded by Keith Raniere in 1998 as Executive Success Programs, offering self-improvement courses using a methodology called "Rational Inquiry."', type: 'default' },
      { date: '2018-03', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
-     { date: '2019-06', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
+     { date: '2019-06', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' }
      ],
  },
   'nypd-chokehold': {
@@ -474,19 +474,19 @@ const investigations_n: Record<string, InvestigationData> = {
  'Eric Garner\'s death on July 17, 2014, was the most prominent NYPD chokehold killing. Officer Daniel Pantaleo placed Garner in a prohibited chokehold during an arrest for selling loose cigarettes on Staten Island. Garner\'s repeated statement "I can\'t breathe" was captured on video and became a rallying cry for police reform. The medical examiner ruled Garner\'s death a homicide caused by "compression of neck (chokehold), compression of chest and prone positioning during physical restraint."',
  'A grand jury declined to indict Officer Pantaleo in December 2014, sparking nationwide protests. The Department of Justice investigated for five years before declining federal civil rights charges in 2019; on the last day of the statute of limitations. Pantaleo was finally fired by the NYPD in August 2019, five years after Garner\'s death, following a departmental trial that found he had used a prohibited chokehold.',
  'In June 2020, the New York City Council passed the Eric Garner Anti-Chokehold Act (known as "I Can\'t Breathe" legislation), making it a criminal misdemeanor for a police officer to use a chokehold or to compress a person\'s diaphragm by sitting or kneeling on their chest or back. The law was the first in the nation to create criminal penalties specifically for prohibited police restraint techniques.',
- 'Despite the legislation, concerns persist about enforcement and compliance. The CCRB continued to receive chokehold complaints after the law\'s passage. Police union leaders criticized the law as endangering officers. The fundamental challenge; that prohibited restraint techniques are used reflexively in physical confrontations and that officers face minimal consequences for violations; remains unresolved in New York and police departments nationwide.',
+ 'Despite the legislation, concerns persist about enforcement and compliance. The CCRB continued to receive chokehold complaints after the law\'s passage. Police union leaders criticized the law as endangering officers. The fundamental challenge; that prohibited restraint techniques are used reflexively in physical confrontations and that officers face minimal consequences for violations; remains unresolved in New York and police departments nationwide.'
  ],
  tags: ['Police Violence', 'NYPD', 'Chokehold', 'Eric Garner', 'Use of Force', 'Excessive Force'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
- { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
+ { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' }
  ],
  affiliations: [
       { id: '1', name: 'NYPD', type: 'agency', relationship: 'Banned chokeholds in 1993 but continued using them; fired Pantaleo 5 years after Garner death', href: '/entities/agencies/nypd' },
       { id: '2', name: 'Daniel Pantaleo', type: 'individual', relationship: 'Officer who placed Eric Garner in prohibited chokehold; fired August 2019', href: '/entities/individuals/daniel-pantaleo' },
       { id: '3', name: 'DOJ', type: 'agency', relationship: 'Declined federal civil rights charges on last day of statute of limitations', href: '/entities/agencies/doj' },
-      { id: '4', name: 'NYC Civilian Complaint Review Board', type: 'agency', relationship: 'Received 1,000+ chokehold complaints 2009-2014; substantiated cases rarely led to discipline', href: '/entities/agencies/ccrb' },
+      { id: '4', name: 'NYC Civilian Complaint Review Board', type: 'agency', relationship: 'Received 1,000+ chokehold complaints 2009-2014; substantiated cases rarely led to discipline', href: '/entities/agencies/ccrb' }
     ],
    eventOriginDate: '1993-01-01',
    lastActivityDate: '2024-05-06',
@@ -498,7 +498,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2014-12-01', event: 'A grand jury declined to indict Officer Pantaleo in December 2014, sparking nationwide protests', type: 'legal' },
      { date: '2019', event: 'The Department of Justice investigated for five years before declining federal civil rights charges in 2019; on the last day of the statute of limitations', type: 'default' },
      { date: '2019-08-01', event: 'Pantaleo was finally fired by the NYPD in August 2019, five years after Garner\'s death, following a departmental trial that found he had used a prohibited chokehold', type: 'legal' },
-     { date: '2020-06-01', event: 'In June 2020, the New York City Council passed the Eric Garner Anti-Chokehold Act (known as "I Can\'t Breathe" legislation), making it a criminal misdemeanor for a police officer to use a chokehold ...', type: 'political' },
+     { date: '2020-06-01', event: 'In June 2020, the New York City Council passed the Eric Garner Anti-Chokehold Act (known as "I Can\'t Breathe" legislation), making it a criminal misdemeanor for a police officer to use a chokehold ...', type: 'political' }
    ],
  },
   'nypd-racial-profiling': {
@@ -514,7 +514,7 @@ const investigations_n: Record<string, InvestigationData> = {
  'In Floyd v. City of New York (2013), Federal Judge Shira Scheindlin found that the NYPD\'s stop-and-frisk program violated both the Fourth Amendment (unreasonable search and seizure) and the Fourteenth Amendment (equal protection). The court found that the city had adopted "a policy of indirect racial profiling" and that officers routinely stopped people without reasonable suspicion; particularly in majority-minority neighborhoods.',
  'Internal NYPD documents and whistleblower testimony revealed that officers were pressured to meet stop-and-frisk quotas. Officer Adrian Schoolcraft secretly recorded roll call meetings where commanders demanded increasing numbers of stops. When Schoolcraft reported the quota system to internal affairs, the NYPD had him involuntarily committed to a psychiatric hospital; a case that resulted in a $600,000 settlement and exposed systematic retaliation against whistleblowers.',
  'The decline in stops after 2013 (from 685,000 to under 12,000 annually) was not accompanied by an increase in crime, directly contradicting the NYPD\'s argument that mass stops were necessary for public safety. Crime continued to decline across all major categories. The evidence demonstrated that stop-and-frisk was not an effective crime-fighting strategy but rather a tool of racial control that subjected millions of innocent people to degrading encounters with police.',
- 'Racial profiling in NYPD practices extends beyond stop-and-frisk. The department\'s surveillance of Muslim communities (revealed by the Associated Press in 2011) placed informants in mosques, student organizations, and businesses without evidence of criminal activity. Marijuana enforcement has been shown to target Black New Yorkers at 8 times the rate of white New Yorkers despite similar usage rates. Consent decree monitoring continues, but structural reform of policing culture remains incomplete.',
+ 'Racial profiling in NYPD practices extends beyond stop-and-frisk. The department\'s surveillance of Muslim communities (revealed by the Associated Press in 2011) placed informants in mosques, student organizations, and businesses without evidence of criminal activity. Marijuana enforcement has been shown to target Black New Yorkers at 8 times the rate of white New Yorkers despite similar usage rates. Consent decree monitoring continues, but structural reform of policing culture remains incomplete.'
  ],
  tags: ['Racial Profiling', 'Stop and Frisk', 'NYPD', 'Bloomberg', 'Civil Rights', 'Fourth Amendment'],
  sources: [
@@ -522,14 +522,13 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
  { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
- { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
- { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
+ { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'NYPD', type: 'agency', relationship: 'Conducted 5 million stops 2002-2013; 84% targeting Black and Latino New Yorkers', href: '/entities/agencies/nypd' },
  { id: '2', name: 'Michael Bloomberg', type: 'individual', relationship: 'Mayor who expanded and defended stop-and-frisk', href: '/entities/individuals/michael-bloomberg' },
  { id: '3', name: 'Ray Kelly', type: 'individual', relationship: 'Police Commissioner who aggressively expanded stop-and-frisk program', href: '/entities/individuals/ray-kelly' },
- { id: '4', name: 'DOJ', type: 'agency', relationship: 'Federal consent decree monitoring after Floyd v. City of New York ruling', href: '/entities/agencies/doj' },
+ { id: '4', name: 'DOJ', type: 'agency', relationship: 'Federal consent decree monitoring after Floyd v. City of New York ruling', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-02-23',
@@ -539,7 +538,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2011', event: 'At its peak in 2011, officers made 685,724 stops', type: 'default' },
      { date: '2011', event: 'The department\'s surveillance of Muslim communities (revealed by the Associated Press in 2011) placed informants in mosques, student organizations, and businesses without evidence of criminal activity', type: 'default' },
      { date: '2013', event: 'City of New York (2013), Federal Judge Shira Scheindlin found that the NYPD\'s stop-and-frisk program violated both the Fourth Amendment (unreasonable search and seizure) and the Fourteenth Amendmen...', type: 'legal' },
-     { date: '2013', event: 'The decline in stops after 2013 (from 685,000 to under 12,000 annually) was not accompanied by an increase in crime, directly contradicting the NYPD\'s argument that mass stops were necessary for pu...', type: 'default' },
+     { date: '2013', event: 'The decline in stops after 2013 (from 685,000 to under 12,000 annually) was not accompanied by an increase in crime, directly contradicting the NYPD\'s argument that mass stops were necessary for pu...', type: 'default' }
    ],
  },
   'nsa-stellarwind-warrantless-wiretapping': {
@@ -555,20 +554,19 @@ const investigations_n: Record<string, InvestigationData> = {
       'LEGAL FICTION: The program was authorized through secret legal opinions from the Office of Legal Counsel (OLC), written primarily by John Yoo and later by Jack Goldsmith. These opinions argued that the President\'s commander-in-chief authority and the Authorization for Use of Military Force (AUMF) superseded FISA\'s warrant requirements. This legal theory was so extreme that Deputy Attorney General James Comey, Acting AG Robert Mueller, and other senior DOJ officials threatened mass resignation in March 2004 when White House Counsel Alberto Gonzales attempted to get the program reauthorized by then-hospitalized Attorney General John Ashcroft. The confrontation led to modifications of the program but not its termination.',
       'THE NEW YORK TIMES DELAY: New York Times reporters James Risen and Eric Lichtblau discovered the warrantless wiretapping program in 2004, but the Times withheld publication for over a year at the request of the Bush administration, which argued that disclosure would damage national security. The Times finally published on December 16, 2005. The delay meant that voters in the 2004 presidential election were denied information about a major illegal surveillance program operated by the incumbent president. Risen later reported that the Times\' decision was influenced by pressure from the White House and the paper\'s own institutional caution about national security stories.',
       'RETROACTIVE LEGALIZATION: After the program was exposed, the Bush administration and Congress worked to legalize it rather than hold anyone accountable. The Protect America Act of 2007 temporarily authorized warrantless surveillance of international communications. The FISA Amendments Act of 2008 made the authority permanent, expanded it significantly, and granted retroactive immunity to telecommunications companies that had cooperated with the illegal program; killing over 40 pending lawsuits. Senator Barack Obama, who had pledged to filibuster any bill with telecom immunity, reversed his position and voted for the Act. The retroactive immunity provision meant that no court ever adjudicated whether the original warrantless wiretapping program was legal.',
-      'INSTITUTIONAL LEGACY: STELLARWIND established the template for post-9/11 surveillance expansion. The legal theories used to justify it; executive authority superseding statutory law, secret OLC opinions, and the AUMF as blanket authorization; were applied to other programs including the CIA\'s enhanced interrogation program. The program normalized mass surveillance of Americans and demonstrated that illegal government surveillance programs could be retroactively legalized when exposed. No government official faced criminal charges. Whistleblower Thomas Tamm, a DOJ attorney who alerted the Times to the program, was investigated for five years before the DOJ declined to prosecute. The structural accountability failure; secret programs, secret law, retroactive legalization; laid the groundwork for the broader surveillance architecture later revealed by Edward Snowden.',
+      'INSTITUTIONAL LEGACY: STELLARWIND established the template for post-9/11 surveillance expansion. The legal theories used to justify it; executive authority superseding statutory law, secret OLC opinions, and the AUMF as blanket authorization; were applied to other programs including the CIA\'s enhanced interrogation program. The program normalized mass surveillance of Americans and demonstrated that illegal government surveillance programs could be retroactively legalized when exposed. No government official faced criminal charges. Whistleblower Thomas Tamm, a DOJ attorney who alerted the Times to the program, was investigated for five years before the DOJ declined to prosecute. The structural accountability failure; secret programs, secret law, retroactive legalization; laid the groundwork for the broader surveillance architecture later revealed by Edward Snowden.'
     ],
     tags: ['STELLARWIND', 'NSA', 'Warrantless Wiretapping', 'FISA', 'Fourth Amendment', 'Telecom Immunity', 'Bush Administration'],
     sources: [
       { title: 'DOJ Inspector General: Review of STELLARWIND Program', url: 'https://oig.justice.gov', type: 'Government Audit' },
       { title: 'EFF: AT&T Room 641A Documents', url: 'https://www.eff.org/nsa-spying/timeline', type: 'Legal Document' },
       { title: 'New York Times: Bush Lets U.S. Spy on Callers Without Courts', url: 'https://www.nytimes.com/2005/12/16/politics/bush-lets-us-spy-on-callers-without-courts.html', type: 'Investigative Report' },
-      { title: 'ACLU: FISA Amendments Act Litigation', url: 'https://www.aclu.org', type: 'Legal Document' },
-      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
+      { title: 'ACLU: FISA Amendments Act Litigation', url: 'https://www.aclu.org', type: 'Legal Document' }
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operated STELLARWIND warrantless surveillance program from 2001; intercepted millions of Americans\' communications without warrants', href: '/entities/agencies/nsa' },
       { id: '2', name: 'George W. Bush', type: 'individual', relationship: 'Authorized STELLARWIND on October 4, 2001; bypassing FISA warrant requirements', href: '/entities/individuals/george-w-bush' },
-      { id: '3', name: 'AT&T', type: 'corporation', relationship: 'Provided NSA direct access to communications infrastructure via Room 641A; received retroactive immunity', href: '/entities/corporations/att' },
+      { id: '3', name: 'AT&T', type: 'corporation', relationship: 'Provided NSA direct access to communications infrastructure via Room 641A; received retroactive immunity', href: '/entities/corporations/att' }
     ],
    eventOriginDate: '2001-10-04',
    lastActivityDate: '2026-01-02',
@@ -581,7 +579,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2005-12-16', event: 'The Times finally published on December 16, 2005', type: 'default' },
      { date: '2006', event: 'AT&T technician Mark Klein revealed in 2006 that the NSA had installed a secret room (Room 641A) at AT&T\'s San Francisco switching facility to copy all internet traffic passing through the facility...', type: 'default' },
      { date: '2007', event: 'The Protect America Act of 2007 temporarily authorized warrantless surveillance of international communications', type: 'default' },
-     { date: '2008', event: 'The FISA Amendments Act of 2008 made the authority permanent, expanded it significantly, and granted retroactive immunity to telecommunications companies that had cooperated with the illegal progra', type: 'default' },
+     { date: '2008', event: 'The FISA Amendments Act of 2008 made the authority permanent, expanded it significantly, and granted retroactive immunity to telecommunications companies that had cooperated with the illegal progra', type: 'default' }
    ],
   },
   'nuclear-weapons-complex-environmental-crime': {
@@ -597,7 +595,7 @@ const investigations_n: Record<string, InvestigationData> = {
       'ROCKY FLATS: PLUTONIUM IN THE SUBURBS: The Rocky Flats Plant, located 16 miles from downtown Denver, produced plutonium "pits" (triggers) for nuclear warheads from 1952 to 1989. Over those decades, Rocky Flats released plutonium, americium, and other radioactive materials into the air, soil, and water through fires (including a major 1969 fire), leaking waste drums, and routine operations. In 1989, the FBI raided Rocky Flats in an unprecedented action against the DOE; the first time one federal agency raided another. The investigation found widespread environmental violations, but DOJ ultimately negotiated a plea deal with contractor Rockwell International for a $18.5 million fine; a fraction of the estimated $7+ billion cleanup cost. A 2017 study found plutonium contamination in soil and dust surrounding the former plant site, now designated a wildlife refuge where public hiking trails pass through areas with residual contamination.',
       'WORKER EXPOSURE AND THE ENERGY EMPLOYEES PROGRAM: Workers at nuclear weapons facilities were routinely exposed to radiation, beryllium, silica, and other toxic materials, often without adequate protective equipment or monitoring. Many were not informed of their exposures. The Energy Employees Occupational Illness Compensation Program Act (EEOICPA) of 2000 was created to compensate workers who developed cancer and other illnesses. As of 2024, the program has paid over $25 billion to approximately 200,000 claimants. However, the claims process is widely criticized as adversarial and slow; requiring workers to prove exposures that occurred decades ago at facilities where records were inadequate or deliberately destroyed. The "Special Exposure Cohort" designation, meant to simplify claims for workers at facilities where dose reconstruction is impossible, covers only a fraction of affected workers.',
       'COMMUNITY CONTAMINATION AND SECRECY: Communities surrounding nuclear weapons facilities were deliberately kept ignorant of contamination risks for decades. At the Paducah Gaseous Diffusion Plant in Kentucky, workers and nearby residents were exposed to plutonium-contaminated uranium for decades; a fact concealed until a 1999 Washington Post investigation. The Savannah River Site in South Carolina released tritium and other radioactive materials into local waterways. The Feed Materials Production Center in Fernald, Ohio contaminated wells and farmland with uranium. In each case, the government invoked national security to suppress information about environmental and health risks. Communities discovered contamination only when workers or whistleblowers broke through the wall of secrecy.',
-      'THE ACCOUNTABILITY GAP: Despite contamination spanning 107 sites in 30 states and a cleanup bill exceeding $400 billion (borne entirely by taxpayers), no individual or corporation has faced criminal prosecution proportionate to the harm caused. The DOE\'s management contractors; including Bechtel, Fluor, Honeywell, and others; operate under "management and operating" (M&O) contracts that historically insulated them from liability while providing guaranteed fees. The 1989 Rocky Flats raid produced modest fines rather than criminal convictions for individuals. Congressional oversight has been constrained by the nuclear weapons complex\'s distribution across dozens of states and its entanglement with national security. The fundamental tension; between the imperative to produce nuclear weapons and the obligation to protect workers and communities; was consistently resolved in favor of production, with the costs externalized onto human health and the environment.',
+      'THE ACCOUNTABILITY GAP: Despite contamination spanning 107 sites in 30 states and a cleanup bill exceeding $400 billion (borne entirely by taxpayers), no individual or corporation has faced criminal prosecution proportionate to the harm caused. The DOE\'s management contractors; including Bechtel, Fluor, Honeywell, and others; operate under "management and operating" (M&O) contracts that historically insulated them from liability while providing guaranteed fees. The 1989 Rocky Flats raid produced modest fines rather than criminal convictions for individuals. Congressional oversight has been constrained by the nuclear weapons complex\'s distribution across dozens of states and its entanglement with national security. The fundamental tension; between the imperative to produce nuclear weapons and the obligation to protect workers and communities; was consistently resolved in favor of production, with the costs externalized onto human health and the environment.'
     ],
     tags: ['Nuclear Weapons', 'Hanford', 'Rocky Flats', 'Radioactive Contamination', 'DOE', 'Worker Health', 'Environmental Crime'],
     sources: [
@@ -605,12 +603,11 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'GAO: Nuclear Waste Management Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'DOL: Energy Employees Occupational Illness Compensation Program', url: 'https://www.dol.gov/agencies/owcp/energy', type: 'Government Record' },
       { title: 'Hanford Challenge: Independent Oversight', url: 'https://www.hanfordchallenge.org', type: 'Investigative Report' },
-      { title: 'Kristen Iversen: Full Body Burden (Rocky Flats)', url: 'https://web.archive.org/web/20191219030423/http://www.kristeniversen.com/full-body-burden', type: 'Book' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'Kristen Iversen: Full Body Burden (Rocky Flats)', url: 'https://web.archive.org/web/20191219030423/http://www.kristeniversen.com/full-body-burden', type: 'Book' }
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Manages nuclear weapons complex cleanup across 107 sites; $400B+ estimated liability; operated facilities under national security secrecy', href: '/entities/agencies/doe' },
-      { id: '2', name: 'EPA', type: 'agency', relationship: 'Environmental oversight of DOE cleanup sites; Superfund designations for worst contamination', href: '/entities/agencies/epa' },
+      { id: '2', name: 'EPA', type: 'agency', relationship: 'Environmental oversight of DOE cleanup sites; Superfund designations for worst contamination', href: '/entities/agencies/epa' }
     ],
    eventOriginDate: '1943-01-01',
    lastActivityDate: '2025-08-12',
@@ -625,7 +622,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1999', event: 'At the Paducah Gaseous Diffusion Plant in Kentucky, workers and nearby residents were exposed to plutonium-contaminated uranium for decades; a fact concealed until a 1999 Washington Post investigation', type: 'default' },
      { date: '2000', event: 'The Energy Employees Occupational Illness Compensation Program Act (EEOICPA) of 2000 was created to compensate workers who developed cancer and other illnesses', type: 'default' },
      { date: '2017', event: 'A 2017 study found plutonium contamination in soil and dust surrounding the former plant site, now designated a wildlife refuge where public hiking trails pass through areas with residual contamina', type: 'default' },
-     { date: '2024', event: 'As of 2024, the program has paid over $25 billion to approximately 200,000 claimants', type: 'political' },
+     { date: '2024', event: 'As of 2024, the program has paid over $25 billion to approximately 200,000 claimants', type: 'political' }
    ],
   },
   'narrative-control-through-search-algorithms': {
@@ -641,19 +638,18 @@ const investigations_n: Record<string, InvestigationData> = {
       'CONTENT SUPPRESSION AND AMPLIFICATION: Google and other platforms make consequential editorial decisions about what information is visible. During the COVID-19 pandemic, Google and YouTube suppressed search results and videos questioning pandemic response policies, including content from credentialed scientists that was later vindicated. In 2023, internal documents revealed that Google maintained "blacklists" of websites excluded from certain search features, contradicting public statements. The company\'s "quality rater guidelines" instruct human raters to downrank content deemed "Your Money or Your Life" (YMYL) that could affect health, finances, or safety; giving Google enormous discretion over information access on topics of public importance. These decisions are made without transparency, public input, or appeal mechanisms.',
       'AI AND THE FUTURE OF SEARCH: Google\'s introduction of AI-generated "Search Generative Experience" (SGE) responses represents a fundamental shift in information access. Instead of presenting links for users to evaluate, AI search provides synthesized answers that compress multiple sources into a single narrative. This further concentrates narrative control; users receive Google\'s AI-generated summary rather than choosing among diverse sources. Early research found that AI search responses contain factual errors, reflect the biases of their training data, and tend toward confident-sounding assertions even on contested topics. As AI search becomes the default interface for information access, the ability of a single system to shape public understanding of complex issues grows exponentially.',
       'THE ADVERTISING INCENTIVE: Google\'s $280+ billion annual revenue comes overwhelmingly from advertising, creating structural incentives that conflict with neutral information provision. Advertisers can bid on search terms to place their content above organic results; including pharmaceutical companies bidding on health condition searches and political campaigns bidding on policy issue searches. Google\'s recommendation algorithms on YouTube were documented in a 2019 Wall Street Journal investigation as systematically promoting sensationalist and conspiracy content because it generated more engagement and ad revenue. The advertising model means that Google\'s true customers are advertisers, not users; and the platform is optimized to serve advertiser interests, not public information needs.',
-      'REGULATORY VACUUM: Despite controlling global information access, Google faces minimal regulation of its search and recommendation algorithms. The DOJ\'s 2020 antitrust lawsuit focused on search distribution agreements (paying Apple $26 billion annually for default search status) but did not address algorithmic content decisions. The European Union\'s Digital Markets Act (2024) imposed some transparency requirements, but enforcement has been limited. Section 230 of the Communications Decency Act shields Google from liability for its algorithmic amplification and suppression decisions. No regulatory framework requires Google to disclose its algorithm changes, explain ranking decisions for specific content, or provide meaningful appeal mechanisms for publishers whose content is suppressed. The result is that the most powerful information gatekeeper in human history operates with less accountability than a local newspaper.',
+      'REGULATORY VACUUM: Despite controlling global information access, Google faces minimal regulation of its search and recommendation algorithms. The DOJ\'s 2020 antitrust lawsuit focused on search distribution agreements (paying Apple $26 billion annually for default search status) but did not address algorithmic content decisions. The European Union\'s Digital Markets Act (2024) imposed some transparency requirements, but enforcement has been limited. Section 230 of the Communications Decency Act shields Google from liability for its algorithmic amplification and suppression decisions. No regulatory framework requires Google to disclose its algorithm changes, explain ranking decisions for specific content, or provide meaningful appeal mechanisms for publishers whose content is suppressed. The result is that the most powerful information gatekeeper in human history operates with less accountability than a local newspaper.'
     ],
     tags: ['Search Algorithms', 'Google', 'Information Control', 'AI Search', 'Content Moderation', 'Section 230', 'Digital Monopoly'],
     sources: [
       { title: 'AIBRT: Search Engine Manipulation Effect Research', url: 'https://aibrt.org', type: 'Academic Research' },
       { title: 'DOJ: United States v. Google LLC Antitrust', url: 'https://www.justice.gov/atr', type: 'Legal Document' },
       { title: 'Wall Street Journal: YouTube Algorithm Investigation', url: 'https://www.wsj.com', type: 'Investigative Report' },
-      { title: 'Google Transparency Report', url: 'https://transparencyreport.google.com', type: 'Corporate Report' },
-      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
+      { title: 'Google Transparency Report', url: 'https://transparencyreport.google.com', type: 'Corporate Report' }
     ],
     affiliations: [
       { id: '1', name: 'Google', type: 'corporation', relationship: 'Controls 92% of global search; algorithms determine information access for 4.3 billion users without accountability', href: '/entities/corporations/google' },
-      { id: '2', name: 'Meta', type: 'corporation', relationship: 'News Feed and recommendation algorithms shape information exposure for 3+ billion users', href: '/entities/corporations/meta' },
+      { id: '2', name: 'Meta', type: 'corporation', relationship: 'News Feed and recommendation algorithms shape information exposure for 3+ billion users', href: '/entities/corporations/meta' }
     ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-01-03',
@@ -663,7 +659,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2019', event: 'Google\'s recommendation algorithms on YouTube were documented in a 2019 Wall Street Journal investigation as systematically promoting sensationalist and conspiracy content because it generated more...', type: 'default' },
      { date: '2020', event: 'The DOJ\'s 2020 antitrust lawsuit focused on search distribution agreements (paying Apple $26 billion annually for default search status) but did not address algorithmic content decisions', type: 'legal' },
      { date: '2023', event: 'In 2023, internal documents revealed that Google maintained "blacklists" of websites excluded from certain search features, contradicting public statements', type: 'default' },
-     { date: '2024', event: 'The European Union\'s Digital Markets Act (2024) imposed some transparency requirements, but enforcement has been limited', type: 'default' },
+     { date: '2024', event: 'The European Union\'s Digital Markets Act (2024) imposed some transparency requirements, but enforcement has been limited', type: 'default' }
    ],
   },
   'nightclub-industry-criminal-networks': {
@@ -679,26 +675,25 @@ const investigations_n: Record<string, InvestigationData> = {
       'THE GATIEN EMPIRE: Peter Gatien operated New York\'s most prominent nightclubs in the 1990s; the Limelight (housed in a deconsecrated church), the Tunnel, the Palladium, and Club USA. Federal investigations documented these venues as major drug distribution centers where ecstasy, ketamine, cocaine, and other substances were sold openly with the knowledge and facilitation of club management. Promoter Michael Alig murdered drug dealer Andre "Angel" Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess. Gatien was indicted on drug conspiracy charges in 1996; he was acquitted at trial but subsequently deported to Canada. Multiple employees and associates were convicted on drug and racketeering charges.',
       'DRUG DISTRIBUTION NETWORKS: Modern nightclubs serve as primary distribution points for MDMA (ecstasy/molly), cocaine, ketamine, GHB, and counterfeit prescription drugs. The festival and electronic dance music (EDM) industry, valued at over $9 billion globally, has documented drug-related deaths at events including Electric Daisy Carnival, Electric Zoo, and numerous smaller venues. Club promoters and staff members facilitating drug sales have been prosecuted under federal conspiracy statutes. The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environments, with multiple mass casualty incidents linked to contaminated drugs distributed at nightlife venues.',
       'MONEY LAUNDERING: The nightclub industry\'s cash-intensive nature makes it ideal for money laundering. Bottle service at high-end clubs generates enormous cash and credit card revenue with minimal inventory cost; a bottle of vodka costing $20 may sell for $500-2,000 at table service. VIP spending, event promotions, and cover charges create complex revenue streams that are difficult to audit. Federal investigations have documented nightclub operations used to launder proceeds from drug trafficking, fraud, and other criminal enterprises. The integration of cryptocurrency and digital payments has created additional laundering channels. FinCEN has identified nightlife businesses as high-risk for money laundering, but regulatory enforcement is hampered by the sheer volume of cash-intensive businesses and limited examiner resources.',
-      'EXPLOITATION AND TRAFFICKING: Nightclubs, strip clubs, and associated nightlife businesses are documented venues for sexual exploitation and labor trafficking. The DOJ has prosecuted cases involving nightclub operators who trafficked women for commercial sex acts under the guise of entertainment employment. VIP bottle service models in some establishments function as covers for commercial sex. Labor trafficking occurs through exploitative employment practices including wage theft, debt bondage (particularly for immigrant workers), and coercive working conditions. The overlap between nightlife, the sex trade, and organized crime creates environments where exploitation thrives and victims have limited access to assistance or protection.',
+      'EXPLOITATION AND TRAFFICKING: Nightclubs, strip clubs, and associated nightlife businesses are documented venues for sexual exploitation and labor trafficking. The DOJ has prosecuted cases involving nightclub operators who trafficked women for commercial sex acts under the guise of entertainment employment. VIP bottle service models in some establishments function as covers for commercial sex. Labor trafficking occurs through exploitative employment practices including wage theft, debt bondage (particularly for immigrant workers), and coercive working conditions. The overlap between nightlife, the sex trade, and organized crime creates environments where exploitation thrives and victims have limited access to assistance or protection.'
     ],
     tags: ['Organized Crime', 'Nightlife', 'Drug Trafficking', 'Money Laundering', 'Exploitation', 'Nightclubs'],
     sources: [
       { title: 'DOJ: Nightclub Industry Prosecution Cases', url: 'https://www.justice.gov', type: 'Legal Document' },
       { title: 'DEA: Drug Threat Assessment', url: 'https://www.dea.gov/drug-information/drug-data-and-documents', type: 'Government Report' },
       { title: 'FinCEN: Anti-Money Laundering Guidance for Cash-Intensive Businesses', url: 'https://www.fincen.gov', type: 'Government Record' },
-      { title: 'Frank Owen: Clubland (The Fabulous Rise and Murderous Fall of Club Culture)', url: 'https://www.amazon.com/Clubland-Fabulous-Murderous-Club-Culture/dp/0767917537', type: 'Book' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Frank Owen: Clubland (The Fabulous Rise and Murderous Fall of Club Culture)', url: 'https://www.amazon.com/Clubland-Fabulous-Murderous-Club-Culture/dp/0767917537', type: 'Book' }
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigates organized crime infiltration of nightlife industry and nightclub-based drug trafficking networks', href: '/entities/agencies/fbi' },
-      { id: '2', name: 'DEA', type: 'agency', relationship: 'Targets nightclub drug distribution networks; prosecutes club operators facilitating drug sales', href: '/entities/agencies/dea' },
+      { id: '2', name: 'DEA', type: 'agency', relationship: 'Targets nightclub drug distribution networks; prosecutes club operators facilitating drug sales', href: '/entities/agencies/dea' }
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-10-07',
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1996', event: 'Promoter Michael Alig murdered drug dealer Andre "Angel" Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess.', type: 'default' },
-     { date: '2023', event: 'The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environments, with', type: 'default' },
+     { date: '2023', event: 'The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environments, with', type: 'default' }
      ],
   },
   'nuclear-waste-storage-failure-points': {
@@ -714,19 +709,18 @@ const investigations_n: Record<string, InvestigationData> = {
       'YUCCA MOUNTAIN: Congress designated Yucca Mountain in Nevada as the sole candidate site for a permanent geological repository in 1987 (an act Nevada residents called the "Screw Nevada Bill"). The DOE spent over $15 billion studying the site and submitted a license application to the Nuclear Regulatory Commission in 2008. The NRC\'s own technical staff concluded the site met safety requirements. However, the Obama administration, with strong support from Senate Majority Leader Harry Reid of Nevada, zeroed out Yucca Mountain funding in the FY2011 budget and DOE withdrew the license application. A federal appeals court later ruled the administration\'s action was illegal but declined to force continued funding. The Yucca Mountain project consumed over $40 billion in total (including interest on the Nuclear Waste Fund) without disposing of a single waste container.',
       'STRANDED FUEL: Approximately 80,000 metric tons of spent nuclear fuel are stored at 72 reactor sites in 34 states; including 15 sites where the reactors have been decommissioned but the fuel remains because there is nowhere to send it. Roughly two-thirds of spent fuel is stored in pools originally designed for short-term cooling, not decades-long storage. The remaining third has been transferred to dry cask storage; concrete and steel containers that sit on concrete pads at reactor sites. While dry casks are considered safer than pool storage, they were designed for interim use and their long-term performance (spanning centuries) is unproven. The NRC has extended dry cask licenses to 60 years and issued a "continued storage" rule assuming indefinite on-site storage is safe; a regulatory convenience rather than a technical determination.',
       'HANFORD AND DEFENSE WASTE: Separate from commercial spent fuel, the DOE manages approximately 90 million gallons of high-level radioactive waste from defense programs at Hanford, the Savannah River Site, and the Idaho National Laboratory. The Defense Waste Processing Facility at Savannah River has vitrified waste since 1996, but the far larger Hanford Waste Treatment Plant is decades behind schedule and estimated to cost over $17 billion. DOE attempted to reclassify some high-level waste as low-level waste in 2019 to reduce cleanup obligations; environmental groups challenged this as an illegal attempt to avoid proper disposal. The intermingling of defense and commercial waste policy has created a system where neither problem is addressed because each is used as justification for deferring action on the other.',
-      'CONSENT-BASED SITING: After the political failure of Yucca Mountain, the 2012 Blue Ribbon Commission on America\'s Nuclear Future recommended a "consent-based" approach to siting a repository, where communities would voluntarily agree to host nuclear waste in exchange for benefits. The DOE launched a consent-based siting initiative in 2017 that has produced zero candidate sites as of 2025. Private companies have proposed consolidated interim storage facilities in Texas and New Mexico, but both face significant local and state opposition. The fundamental political problem remains: no community wants to accept the nation\'s nuclear waste, no politician wants to force it, and the nuclear industry continues generating hundreds of tons of new waste annually while the existing 80,000 tons remains without a disposal path. The result is policy paralysis that has persisted for four decades and shows no signs of resolution.',
+      'CONSENT-BASED SITING: After the political failure of Yucca Mountain, the 2012 Blue Ribbon Commission on America\'s Nuclear Future recommended a "consent-based" approach to siting a repository, where communities would voluntarily agree to host nuclear waste in exchange for benefits. The DOE launched a consent-based siting initiative in 2017 that has produced zero candidate sites as of 2025. Private companies have proposed consolidated interim storage facilities in Texas and New Mexico, but both face significant local and state opposition. The fundamental political problem remains: no community wants to accept the nation\'s nuclear waste, no politician wants to force it, and the nuclear industry continues generating hundreds of tons of new waste annually while the existing 80,000 tons remains without a disposal path. The result is policy paralysis that has persisted for four decades and shows no signs of resolution.'
     ],
     tags: ['Nuclear Waste', 'Yucca Mountain', 'Spent Fuel', 'NRC', 'DOE', 'Hanford', 'Environmental Policy'],
     sources: [
       { title: 'NRC: Spent Fuel Storage', url: 'https://www.nrc.gov/waste/spent-fuel-storage.html', type: 'Government Record' },
       { title: 'GAO: Nuclear Waste Disposal Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'Blue Ribbon Commission on America\'s Nuclear Future', url: 'https://www.energy.gov/ne', type: 'Government Report' },
-      { title: 'DOE: Nuclear Waste Fund Annual Report', url: 'https://www.energy.gov/em', type: 'Government Record' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'DOE: Nuclear Waste Fund Annual Report', url: 'https://www.energy.gov/em', type: 'Government Record' }
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Responsible for nuclear waste disposal; failed to meet 1998 deadline; abandoned Yucca Mountain after $40B+ spent', href: '/entities/agencies/doe' },
-      { id: '2', name: 'NRC', type: 'agency', relationship: 'Regulates spent fuel storage; issued "continued storage" rule assuming indefinite on-site storage safety' },
+      { id: '2', name: 'NRC', type: 'agency', relationship: 'Regulates spent fuel storage; issued "continued storage" rule assuming indefinite on-site storage safety' }
     ],
    eventOriginDate: '1982-01-01',
    lastActivityDate: '2025-04-29',
@@ -740,7 +734,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2012', event: 'CONSENT-BASED SITING: After the political failure of Yucca Mountain, the 2012 Blue Ribbon Commission on America\'s Nuclear Future recommended a "consent-based" approach to siting a repository, where...', type: 'default' },
      { date: '2017', event: 'The DOE launched a consent-based siting initiative in 2017 that has produced zero candidate sites as of 2025', type: 'default' },
      { date: '2019', event: 'DOE attempted to reclassify some high-level waste as low-level waste in 2019 to reduce cleanup obligations; environmental groups challenged this as an illegal attempt to avoid proper disposal', type: 'default' },
-     { date: '2024', event: 'Utilities sued under their contracts, and the government has paid over $9 billion in damages as of 2024, with projected future payments exceeding $30 billion', type: 'legal' },
+     { date: '2024', event: 'Utilities sued under their contracts, and the government has paid over $9 billion in damages as of 2024, with projected future payments exceeding $30 billion', type: 'legal' }
    ],
   },
   'nanjing-massacre': {
@@ -760,20 +754,19 @@ const investigations_n: Record<string, InvestigationData> = {
       'Following Japan\'s surrender in 1945, the International Military Tribunal for the Far East (Tokyo Tribunal) tried Class A war criminals. General Iwane Matsui, commander of the Central China Area Army, was convicted of war crimes for failing to prevent the Nanjing atrocities and executed in 1948. Lieutenant General Hisao Tani was convicted and executed by a Chinese military tribunal. However, many perpetrators, including Prince Asaka Yasuhiko (who held operational command), were never prosecuted - Asaka was shielded by his status as a member of the imperial family.',
       'Unit 731, the Japanese biological and chemical warfare unit commanded by General Shiro Ishii, also conducted experiments on Chinese prisoners of war and civilians during the broader invasion. Experiments included vivisection without anesthesia, infection with plague and anthrax, frostbite testing, and pressure chamber experiments. An estimated 3,000-12,000 people were killed in these experiments. After the war, the US granted immunity to Unit 731 researchers in exchange for their data.',
       'Japan\'s acknowledgment of the massacre remains deeply contested. While some Japanese officials have expressed remorse, others have denied or minimized the atrocities. Japanese history textbooks have alternately included and excluded references to the massacre. Visits by Japanese politicians to Yasukuni Shrine, which enshrines convicted war criminals, continue to strain relations with China and other Asian nations.',
-      'Applicable international law: the Hague Conventions of 1899 and 1907 (prohibiting attacks on undefended cities, pillage, and abuse of POWs), the Geneva Convention on Prisoners of War (1929), the Tokyo Charter (crimes against peace, war crimes, crimes against humanity), and subsequently the four Geneva Conventions (1949) and Rome Statute Articles 7 and 8, which were influenced by Nanjing and similar atrocities.',
+      'Applicable international law: the Hague Conventions of 1899 and 1907 (prohibiting attacks on undefended cities, pillage, and abuse of POWs), the Geneva Convention on Prisoners of War (1929), the Tokyo Charter (crimes against peace, war crimes, crimes against humanity), and subsequently the four Geneva Conventions (1949) and Rome Statute Articles 7 and 8, which were influenced by Nanjing and similar atrocities.'
     ],
     tags: ['war-crimes', 'nanjing', 'japan', 'china', 'mass-murder', 'mass-rape', 'unit-731', 'tokyo-tribunal', 'WWII', 'imperial-japan', 'crimes-against-humanity', 'john-rabe'],
     sources: [
       { title: 'Iris Chang - The Rape of Nanking: The Forgotten Holocaust of World War II', url: 'https://www.hachettebookgroup.com/titles/iris-chang/the-rape-of-nanking/9780465068364/', type: 'book' },
       { title: 'Memorial Hall of the Victims in Nanjing Massacre', url: 'http://www.nj1937.org/en/', type: 'memorial' },
       { title: 'Yale Divinity School Library - Nanjing Massacre Documents', url: 'https://library.yale.edu/', type: 'archive' },
-      { title: 'International Military Tribunal for the Far East - Judgment', url: 'https://web.archive.org/web/20241219170539/https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf', type: 'legal' },
-      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
+      { title: 'International Military Tribunal for the Far East - Judgment', url: 'https://web.archive.org/web/20241219170539/https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf', type: 'legal' }
     ],
     affiliations: [
       { id: '1', name: 'Iwane Matsui', type: 'individual', relationship: 'Commander of Central China Area Army; convicted of war crimes by Tokyo Tribunal; executed 1948' },
       { id: '2', name: 'Hideki Tojo', type: 'individual', relationship: 'Prime Minister of Japan during WWII; convicted of war crimes; executed 1948', href: '/entities/individuals/hideki-tojo' },
-      { id: '3', name: 'Shiro Ishii', type: 'individual', relationship: 'Commander of Unit 731; conducted biological warfare experiments; granted US immunity', href: '/entities/individuals/shiro-ishii' },
+      { id: '3', name: 'Shiro Ishii', type: 'individual', relationship: 'Commander of Unit 731; conducted biological warfare experiments; granted US immunity', href: '/entities/individuals/shiro-ishii' }
     ],
    eventOriginDate: '1899-01-01',
    lastActivityDate: '2024-12-15',
@@ -782,7 +775,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1899', event: 'Applicable international law: the Hague Conventions of 1899 and 1907 (prohibiting attacks on undefended cities, pillage, and abuse of POWs), the Geneva Convention on Prisoners of War (1929), the To', type: 'critical' },
      { date: '1937-12-13', event: 'On December 13, 1937, Japanese forces under General Iwane Matsui entered Nanjing after a bloody advance from Shanghai', type: 'default' },
      { date: '1945', event: 'Following Japan\'s surrender in 1945, the International Military Tribunal for the Far East (Tokyo Tribunal) tried Class A war criminals', type: 'default' },
-     { date: '1948', event: 'General Iwane Matsui, commander of the Central China Area Army, was convicted of war crimes for failing to prevent the Nanjing atrocities and executed in 1948', type: 'legal' },
+     { date: '1948', event: 'General Iwane Matsui, commander of the Central China Area Army, was convicted of war crimes for failing to prevent the Nanjing atrocities and executed in 1948', type: 'legal' }
    ],
   },
   'north-korean-prison-camps': {
@@ -803,19 +796,18 @@ const investigations_n: Record<string, InvestigationData> = {
       'The Commission recommended that the UN Security Council refer North Korea to the International Criminal Court and that Kim Jong-un personally be held accountable. China vetoed the Security Council referral, protecting North Korea from ICC jurisdiction. The Commission explicitly compared the camps to "the horrors of camps that totalitarian States established during the twentieth century."',
       'Camp 22 (Hoeryong), which reportedly held 50,000 prisoners, was closed around 2012 - satellite imagery suggests prisoners were relocated, not released. Former guards described chemical weapons testing on prisoners and medical experiments without anesthesia. Kwon Hyok, a former head of security at Camp 22, described gas chambers where families were killed while scientists observed through glass.',
       'North Korea denies the existence of the camps entirely, though satellite imagery, defector testimony, and undercover investigations have comprehensively documented them. The Database Center for North Korean Human Rights has documented over 100,000 individual cases of human rights violations.',
-      'Applicable international law: the camps violate the Convention on the Prevention and Punishment of the Crime of Genocide, the International Covenant on Civil and Political Rights (which North Korea ratified in 1981), the Convention against Torture, the International Covenant on Economic, Social and Cultural Rights, Rome Statute Articles 7 (crimes against humanity) and 8 (war crimes), the Convention on the Rights of the Child, and the UN Standard Minimum Rules for the Treatment of Prisoners.',
+      'Applicable international law: the camps violate the Convention on the Prevention and Punishment of the Crime of Genocide, the International Covenant on Civil and Political Rights (which North Korea ratified in 1981), the Convention against Torture, the International Covenant on Economic, Social and Cultural Rights, Rome Statute Articles 7 (crimes against humanity) and 8 (war crimes), the Convention on the Rights of the Child, and the UN Standard Minimum Rules for the Treatment of Prisoners.'
     ],
     tags: ['crimes-against-humanity', 'north-korea', 'prison-camps', 'kwanliso', 'political-persecution', 'forced-labor', 'torture', 'kim-jong-un', 'concentration-camps', 'UN-commission', 'ICC', 'starvation', 'collective-punishment'],
     sources: [
       { title: 'UN Commission of Inquiry on Human Rights in the DPRK - Report (A/HRC/25/63)', url: 'https://www.ohchr.org/en/hr-bodies/hrc', type: 'report' },
       { title: 'Committee for Human Rights in North Korea - The Hidden Gulag', url: 'https://www.hrnk.org/publications/', type: 'report' },
       { title: 'Shin Dong-hyuk Testimony - Escape from Camp 14', url: 'https://openlibrary.org/works/OL16487515W/Escape_from_Camp_14', type: 'book' },
-      { title: 'Amnesty International - Images Reveal Scale of North Korean Political Prison Camps', url: 'https://www.amnesty.org/en/latest/news/2013/12/north-korea-new-images-show-scale-blighted-political-prison-camps', type: 'report' },
-      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+      { title: 'Amnesty International - Images Reveal Scale of North Korean Political Prison Camps', url: 'https://www.amnesty.org/en/latest/news/2013/12/north-korea-new-images-show-scale-blighted-political-prison-camps', type: 'report' }
     ],
     affiliations: [
       { id: '1', name: 'Kim Jong-un', type: 'individual', relationship: 'Supreme Leader who maintains and oversees the prison camp system; personally named by UN Commission for accountability', href: '/entities/individuals/kim-jong-un' },
-      { id: '2', name: 'China', type: 'organization', relationship: 'Vetoed Security Council referral of North Korea to ICC; forcibly repatriates North Korean refugees who face imprisonment' },
+      { id: '2', name: 'China', type: 'organization', relationship: 'Vetoed Security Council referral of North Korea to ICC; forcibly repatriates North Korean refugees who face imprisonment' }
     ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2024-12-15',
@@ -824,7 +816,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1981', event: 'Applicable international law: the camps violate the Convention on the Prevention and Punishment of the Crime of Genocide, the International Covenant on Civil and Political Rights (which North Korea', type: 'political' },
      { date: '2005', event: 'Shin Dong-hyuk, born in Camp 14, escaped in 2005 and became the most prominent defector to describe camp conditions', type: 'default' },
      { date: '2012', event: 'Camp 22 (Hoeryong), which reportedly held 50,000 prisoners, was closed around 2012 - satellite imagery suggests prisoners were relocated, not released', type: 'default' },
-     { date: '2013', event: 'The UN Commission of Inquiry on Human Rights in the DPRK, established in 2013 and chaired by Justice Michael Kirby, published its landmark report in 2014 concluding that North Korea committed crime', type: 'default' },
+     { date: '2013', event: 'The UN Commission of Inquiry on Human Rights in the DPRK, established in 2013 and chaired by Justice Michael Kirby, published its landmark report in 2014 concluding that North Korea committed crime', type: 'default' }
    ],
   },
   'nuclear-testing-human-experimentation': {
@@ -840,18 +832,17 @@ const investigations_n: Record<string, InvestigationData> = {
       'PACIFIC ISLAND NUCLEAR COLONIALISM: The United States conducted 67 nuclear tests in the Marshall Islands between 1946 and 1958, including Castle Bravo (March 1, 1954), the most powerful U.S. nuclear test at 15 megatons - 1,000 times the Hiroshima bomb. The blast irradiated the inhabited atolls of Rongelap and Utirik; residents were not evacuated for three days despite the military knowing within hours that fallout had reached dangerous levels. Classified AEC documents later revealed that residents were deliberately left in place to study the effects of radiation on humans (Project 4.1). The Marshallese were relocated from Bikini Atoll and told they could return when it was safe - they were returned in 1968 to a still-contaminated island, developing cancers and birth defects at catastrophic rates. Rongelap was evacuated by Greenpeace in 1985 after the U.S. government refused to act.',
       'HUMAN RADIATION EXPERIMENTS: The Advisory Committee on Human Radiation Experiments (ACHRE), established by President Clinton in 1994, identified at least 4,000 government-sponsored radiation experiments conducted on human subjects between 1944 and 1974 without informed consent. The most notorious included: the Manhattan Project\'s injection of 18 hospital patients with plutonium without their knowledge (1945-1947); the Fernald State School experiments feeding 73 institutionalized children radioactive oatmeal sponsored by MIT and Quaker Oats (1945-1953); exposure of prisoners at Oregon and Washington state prisons to testicular irradiation (1963-1973); administration of radioactive iron to 751 pregnant women at Vanderbilt University (1945-1949), resulting in elevated childhood cancer rates; and total body irradiation experiments on terminally ill cancer patients at the University of Cincinnati funded by the DOD (1960-1971).',
       'MILITARY PERSONNEL AS GUINEA PIGS: Approximately 400,000 military personnel participated in nuclear weapons tests from 1945 to 1962, many deliberately positioned near ground zero to study the effects of nuclear combat on troop effectiveness. "Atomic soldiers" marched through ground zero minutes after detonation, dug trenches in irradiated soil, handled contaminated equipment, and were instructed not to discuss their experiences. Many were given no protective equipment beyond sunglasses. Subsequent epidemiological studies found elevated rates of leukemia, lymphoma, and other cancers among atomic veterans. The Veterans Administration systematically denied disability claims from atomic veterans for decades, requiring proof of specific radiation doses that the government had never measured or had classified.',
-      'COVER-UP AND DELAYED ACCOUNTABILITY: The AEC and its successors actively concealed the health effects of nuclear testing and human radiation experiments for decades. Internal AEC documents show that officials knew atmospheric testing posed cancer risks but suppressed research and harassed scientists who published findings about fallout dangers. The government classified studies linking nuclear testing to cancer, pressured researchers to alter findings, and publicly denied any health risk from fallout. When investigative reporter Eileen Welsome exposed the plutonium injection experiments in 1993 (winning the Pulitzer Prize), the government was finally forced to acknowledge the experiments. The ACHRE concluded that the experiments violated fundamental ethical principles but recommended only that living subjects be notified - not that anyone be prosecuted.',
+      'COVER-UP AND DELAYED ACCOUNTABILITY: The AEC and its successors actively concealed the health effects of nuclear testing and human radiation experiments for decades. Internal AEC documents show that officials knew atmospheric testing posed cancer risks but suppressed research and harassed scientists who published findings about fallout dangers. The government classified studies linking nuclear testing to cancer, pressured researchers to alter findings, and publicly denied any health risk from fallout. When investigative reporter Eileen Welsome exposed the plutonium injection experiments in 1993 (winning the Pulitzer Prize), the government was finally forced to acknowledge the experiments. The ACHRE concluded that the experiments violated fundamental ethical principles but recommended only that living subjects be notified - not that anyone be prosecuted.'
     ],
     tags: ['nuclear-testing', 'radiation-experiments', 'human-experimentation', 'downwinders', 'Marshall-Islands', 'AEC', 'DoD', 'medical-ethics', 'cover-up'],
     sources: [
       { title: 'Advisory Committee on Human Radiation Experiments (ACHRE) Report', url: 'https://bioethicsarchive.georgetown.edu/achre/final/report.html', type: 'Government Report' },
       { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation', type: 'Government Report' },
-      { title: 'Eileen Welsome: The Plutonium Files', url: 'https://openlibrary.org/works/OL2668497W/The_Plutonium_Files', type: 'Book' },
-      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
+      { title: 'Eileen Welsome: The Plutonium Files', url: 'https://openlibrary.org/works/OL2668497W/The_Plutonium_Files', type: 'Book' }
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Conducted nuclear tests exposing 400,000 service members; funded radiation experiments on civilians; classified exposure data', href: '/entities/agencies/dod' },
-      { id: '2', name: 'DOE', type: 'agency', relationship: 'Successor to AEC; inherited legacy of concealment; manages nuclear weapons complex and contaminated sites', href: '/entities/agencies/doe' },
+      { id: '2', name: 'DOE', type: 'agency', relationship: 'Successor to AEC; inherited legacy of concealment; manages nuclear weapons complex and contaminated sites', href: '/entities/agencies/doe' }
     ],
    eventOriginDate: '1944-01-01',
    lastActivityDate: '2026-01-15',
@@ -866,7 +857,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1990', event: 'The Radiation Exposure Compensation Act (1990, amended 2000) provided payments of $50,000 per downwinder claimant - but excluded many affected populations, required virtually impossible proof of ex', type: 'default' },
      { date: '1993', event: 'When investigative reporter Eileen Welsome exposed the plutonium injection experiments in 1993 (winning the Pulitzer Prize), the government was finally forced to acknowledge the experiments', type: 'default' },
      { date: '1994', event: 'HUMAN RADIATION EXPERIMENTS: The Advisory Committee on Human Radiation Experiments (ACHRE), established by President Clinton in 1994, identified at least 4,000 government-sponsored radiation experi', type: 'political' },
-     { date: '1997', event: 'A 1997 National Cancer Institute study estimated that atmospheric nuclear testing produced 150 million curies of iodine-131 fallout across the continental United States, with cumulative doses in so', type: 'financial' },
+     { date: '1997', event: 'A 1997 National Cancer Institute study estimated that atmospheric nuclear testing produced 150 million curies of iodine-131 fallout across the continental United States, with cumulative doses in so', type: 'financial' }
    ],
   },
   'nsa-warrantless-wiretapping': {
@@ -882,19 +873,18 @@ const investigations_n: Record<string, InvestigationData> = {
       'THE FISA COURT: RUBBER STAMP OF SURVEILLANCE: The Foreign Intelligence Surveillance Court (FISC), established in 1978 as a check on government surveillance, approved 99.97% of the surveillance requests it received between 1979 and 2013. The court operates entirely in secret, hearing only the government\'s arguments. In 2013, a declassified FISC opinion revealed that the court had approved the NSA\'s bulk collection of all American telephone metadata under Section 215 of the Patriot Act - an interpretation of "relevant to an investigation" so broad that it encompassed essentially all communications data. FISC Judge Reggie Walton acknowledged in 2009 that the NSA had repeatedly violated the court\'s orders regarding how collected data could be queried, calling the violations "systemic." Despite this, the court continued to approve surveillance applications.',
       'SECTION 702: WARRANTLESS SURVEILLANCE LEGALIZED: After the Stellar Wind exposure, Congress passed the FISA Amendments Act in 2008, creating Section 702, which authorized warrantless surveillance of non-U.S. persons located abroad - but with a critical loophole: communications between those foreign targets and Americans are "incidentally" collected and retained. The NSA then conducts "backdoor searches" of this data using American identifiers (names, email addresses, phone numbers) without obtaining individual warrants. A 2023 FISC compliance report revealed that the FBI conducted 278,000 backdoor searches of Section 702 data using U.S. person identifiers in a single year, including queries related to January 6 participants, Black Lives Matter protesters, and a sitting member of Congress. Each of these searches potentially accessed the full content of Americans\' communications without a warrant.',
       'CORPORATE COMPLICITY AND IMMUNITY: Major technology and telecommunications companies facilitated NSA surveillance and received retroactive legal immunity. The 2008 FISA Amendments Act granted retroactive immunity to telecommunications companies that had participated in warrantless wiretapping, effectively killing over 40 pending lawsuits against companies like AT&T. The PRISM program, revealed by Snowden, involved NSA receiving data directly from servers operated by Microsoft, Yahoo, Google, Facebook, Apple, and other companies (the companies dispute the characterization, claiming they responded to individual orders). Tech companies now publish "transparency reports" showing the volume of government data requests, but the actual scope of their cooperation remains classified. No corporate officer has faced prosecution for facilitating warrantless surveillance.',
-      'ACCOUNTABILITY GAP: No government official has been punished for authorizing or conducting warrantless surveillance of Americans. Director of National Intelligence James Clapper told Congress the NSA "did not wittingly" collect data on millions of Americans - a statement proven false by the Snowden disclosures - and was never prosecuted. NSA Director Keith Alexander made similarly misleading statements. The only person imprisoned in connection with NSA surveillance was Edward Snowden, who exposed the programs and was charged under the Espionage Act. Thomas Drake, an NSA executive who attempted to report waste and surveillance abuse through official channels, was prosecuted under the Espionage Act (charges later reduced to a misdemeanor). William Binney, another NSA whistleblower, had his home raided by the FBI at gunpoint. The consistent message: the surveillance itself is unchallengeable; only its exposure is criminal.',
+      'ACCOUNTABILITY GAP: No government official has been punished for authorizing or conducting warrantless surveillance of Americans. Director of National Intelligence James Clapper told Congress the NSA "did not wittingly" collect data on millions of Americans - a statement proven false by the Snowden disclosures - and was never prosecuted. NSA Director Keith Alexander made similarly misleading statements. The only person imprisoned in connection with NSA surveillance was Edward Snowden, who exposed the programs and was charged under the Espionage Act. Thomas Drake, an NSA executive who attempted to report waste and surveillance abuse through official channels, was prosecuted under the Espionage Act (charges later reduced to a misdemeanor). William Binney, another NSA whistleblower, had his home raided by the FBI at gunpoint. The consistent message: the surveillance itself is unchallengeable; only its exposure is criminal.'
     ],
     tags: ['NSA', 'warrantless-wiretapping', 'Stellar-Wind', 'Section-702', 'FISA', 'Snowden', 'mass-surveillance', 'Fourth-Amendment', 'PRISM'],
     sources: [
       { title: 'Privacy and Civil Liberties Oversight Board: Report on Section 702', url: 'https://www.pclob.gov/', type: 'Government Report' },
       { title: 'The Snowden Archive (curated by Canadian Journalists for Free Expression)', url: 'https://snowdenarchive.cjfe.org/', type: 'Document Archive' },
-      { title: 'FISA Court Declassified Opinions', url: 'https://www.fisc.uscourts.gov/public-filings', type: 'Court Documents' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'FISA Court Declassified Opinions', url: 'https://www.fisc.uscourts.gov/public-filings', type: 'Court Documents' }
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Conducted mass warrantless surveillance of American communications under Stellar Wind, PRISM, and Upstream Collection programs', href: '/entities/agencies/nsa' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 278,000 warrantless backdoor searches of Section 702 data using U.S. person identifiers in a single year', href: '/entities/agencies/fbi' },
-      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Prosecuted whistleblowers who exposed surveillance while providing legal cover for the programs themselves', href: '/entities/agencies/doj' },
+      { id: '3', name: 'DOJ', type: 'agency', relationship: 'Prosecuted whistleblowers who exposed surveillance while providing legal cover for the programs themselves', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1978-01-01',
    lastActivityDate: '2026-04-10',
@@ -907,7 +897,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2008', event: 'The 2008 FISA Amendments Act granted retroactive immunity to telecommunications companies that had participated in warrantless wiretapping, effectively killing over 40 pending lawsuits against comp', type: 'legal' },
      { date: '2009', event: 'FISC Judge Reggie Walton acknowledged in 2009 that the NSA had repeatedly violated the court\'s orders regarding how collected data could be queried, calling the violations "systemic." Despite this,...', type: 'legal' },
      { date: '2013', event: 'In 2013, a declassified FISC opinion revealed that the court had approved the NSA\'s bulk collection of all American telephone metadata under Section 215 of the Patriot Act - an interpretation of "r...', type: 'legal' },
-     { date: '2023', event: 'A 2023 FISC compliance report revealed that the FBI conducted 278,000 backdoor searches of Section 702 data using U.S', type: 'default' },
+     { date: '2023', event: 'A 2023 FISC compliance report revealed that the FBI conducted 278,000 backdoor searches of Section 702 data using U.S', type: 'default' }
    ],
   },
   'nursing-home-profiteering-crisis': {
@@ -923,18 +913,17 @@ const investigations_n: Record<string, InvestigationData> = {
       'The private equity model in nursing homes follows a pattern: acquire facilities, sell the real estate in a separate transaction (creating a sale-leaseback), load the operating company with debt, reduce staffing to minimize costs, extract management fees and dividends, and eventually exit through a sale to another private equity firm or by allowing the burdened entity to go bankrupt. When a nursing home goes bankrupt, it is the residents, workers, and taxpayers who bear the cost, while the extracted profits remain with investors. The complex corporate structures make accountability nearly impossible, as operating companies, real estate entities, management companies, and pharmacy providers may all be owned by the same parent but structured to shift liability.',
       'The COVID-19 pandemic exposed the lethal consequences of decades of staffing cuts and profit extraction. Between March 2020 and February 2022, over 200,000 nursing home residents and staff died from COVID-19, accounting for roughly 23% of all U.S. COVID-19 deaths despite representing less than 1% of the population. Facilities with lower staffing levels, older infrastructure, and more crowded conditions experienced significantly higher death rates. Many homes lacked adequate PPE, infection control protocols, and isolation capabilities. Some private equity-owned chains were found to have transferred staff between infected and non-infected facilities, spreading the virus.',
       'Under the Nursing Home Reform Act of 1987 (42 U.S.C. 1395i-3 and 1396r), nursing homes participating in Medicare and Medicaid must meet minimum standards for quality of care and staffing. Under 42 C.F.R. 483, CMS sets detailed conditions of participation. Under 31 U.S.C. 3729 (False Claims Act), nursing homes that receive Medicare/Medicaid funds while failing to provide adequate care can be liable for fraud. In 2022, the Biden administration proposed a minimum staffing standard for nursing homes that would require facilities to provide a minimum of 0.55 registered nurse hours per resident per day. The rule was finalized in April 2024 but faced immediate legal challenges from the nursing home industry.',
-      'The nursing home crisis is a microcosm of the broader financialization of American healthcare. As of 2025, CMS data shows that over 1,000 nursing homes have closed since 2015, disproportionately in rural and low-income communities. The Government Accountability Office has repeatedly found that CMS oversight of nursing homes is inadequate, with serious deficiencies often going unaddressed. Nursing home workers, predominantly women of color, earn a median wage of approximately $15 per hour despite performing physically demanding and emotionally exhausting work. The combination of low staffing, high turnover, corporate extraction, and inadequate regulation has created a system that consistently fails America\'s most vulnerable residents.',
+      'The nursing home crisis is a microcosm of the broader financialization of American healthcare. As of 2025, CMS data shows that over 1,000 nursing homes have closed since 2015, disproportionately in rural and low-income communities. The Government Accountability Office has repeatedly found that CMS oversight of nursing homes is inadequate, with serious deficiencies often going unaddressed. Nursing home workers, predominantly women of color, earn a median wage of approximately $15 per hour despite performing physically demanding and emotionally exhausting work. The combination of low staffing, high turnover, corporate extraction, and inadequate regulation has created a system that consistently fails America\'s most vulnerable residents.'
     ],
     tags: ['nursing-homes', 'private-equity', 'healthcare', 'covid-19', 'elder-abuse', 'corporate-profiteering', 'staffing-crisis'],
     sources: [
       { title: 'PNAS: Does Private Equity Investment in Healthcare Benefit Patients?', url: 'https://www.pnas.org/doi/10.1073/pnas.2018017118', type: 'Research' },
       { title: 'GAO: COVID-19 in Nursing Homes', url: 'https://www.gao.gov/products/gao-21-191', type: 'Government Audit' },
-      { title: 'CMS: Minimum Staffing Standards for Long-Term Care Facilities', url: 'https://www.cms.gov/newsroom', type: 'Government' },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: 'CMS: Minimum Staffing Standards for Long-Term Care Facilities', url: 'https://www.cms.gov/newsroom', type: 'Government' }
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Oversees Medicare/Medicaid certification; inadequate inspection and enforcement; proposed minimum staffing rule in 2024', href: '/entities/agencies/cms' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Elder Justice Initiative pursues fraud cases; formation of corporate structures makes accountability difficult', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Elder Justice Initiative pursues fraud cases; formation of corporate structures makes accountability difficult', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1987-01-01',
    lastActivityDate: '2025-01-15',
@@ -945,7 +934,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2021', event: 'A landmark 2021 study published in the Proceedings of the National Academy of Sciences (PNAS) found that private equity ownership of nursing homes was associated with a 10% increase in mortality am', type: 'default' },
      { date: '2022', event: 'In 2022, the Biden administration proposed a minimum staffing standard for nursing homes that would require facilities to provide a minimum of 0.55 registered nurse hours per resident per day', type: 'default' },
      { date: '2024-04-01', event: 'The rule was finalized in April 2024 but faced immediate legal challenges from the nursing home industry', type: 'default' },
-     { date: '2025', event: 'As of 2025, CMS data shows that over 1,000 nursing homes have closed since 2015, disproportionately in rural and low-income communities', type: 'default' },
+     { date: '2025', event: 'As of 2025, CMS data shows that over 1,000 nursing homes have closed since 2015, disproportionately in rural and low-income communities', type: 'default' }
    ],
   },
   'nestle-water-extraction-privatization': {
@@ -961,19 +950,17 @@ const investigations_n: Record<string, InvestigationData> = {
       'During California\'s historic 2012-2016 drought, when residents were subject to mandatory water conservation orders and faced fines for excessive use, Nestle continued pumping millions of gallons from the San Bernardino National Forest under a permit that had expired in 1988. The U.S. Forest Service had simply never revoked or updated the permit for 27 years. An investigation by the Desert Sun newspaper revealed that Nestle was extracting approximately 36 million gallons per year from Strawberry Creek in the San Bernardino Mountains while surrounding communities faced Stage 3 water restrictions. When challenged, Nestle argued it had "grandfathered" water rights dating to a 1929 permit.',
       'In Michigan, Nestle (and later BlueTriton) extracted over 200 gallons per minute from wells near Evart, a small town in Osceola County, despite strong community opposition. The state approved the pumping permit in 2018 after receiving over 80,000 public comments, 80,945 of which were opposed to the permit and only 75 in favor. Michigan charges a flat $200 permit fee regardless of volume, meaning Nestle could extract hundreds of millions of gallons for essentially nothing. Meanwhile, just 100 miles away in Flint, residents were drinking lead-contaminated water because the city could not afford water treatment upgrades.',
       'Under the Commerce Clause of the U.S. Constitution, states have limited ability to restrict water exports, complicating local efforts to protect water resources. Under the National Environmental Policy Act (42 U.S.C. 4321 et seq.) and the National Forest Management Act (16 U.S.C. 1600 et seq.), the Forest Service must evaluate environmental impacts of commercial water extraction from national forests. Under state water law, most states follow either riparian rights or prior appropriation doctrines, neither of which adequately addresses the modern phenomenon of industrial groundwater extraction for commercial bottling. Under Michigan\'s Safe Drinking Water Act (MCL 325.1001 et seq.), the state DNR oversees water extraction permits but charges minimal fees.',
-      'The fundamental issue is that American law treats water as essentially free for corporate extraction. Nestle/BlueTriton and other bottlers (Coca-Cola\'s Dasani, Pepsi\'s Aquafina) have exploited this legal framework to privatize a public resource. When communities attempt to restrict extraction, bottling companies threaten lengthy and expensive litigation. In Maine, Poland Spring (owned by Nestle/BlueTriton) has faced decades of community opposition but continues to extract over 600 million gallons annually from the state. The global bottled water market reached $350 billion in 2023, built largely on water extracted from public sources for virtually nothing. The environmental cost is equally staggering: bottled water production consumes 2,000 times the energy of tap water delivery, and 60 million plastic bottles end up in landfills and oceans daily in the United States alone.',
+      'The fundamental issue is that American law treats water as essentially free for corporate extraction. Nestle/BlueTriton and other bottlers (Coca-Cola\'s Dasani, Pepsi\'s Aquafina) have exploited this legal framework to privatize a public resource. When communities attempt to restrict extraction, bottling companies threaten lengthy and expensive litigation. In Maine, Poland Spring (owned by Nestle/BlueTriton) has faced decades of community opposition but continues to extract over 600 million gallons annually from the state. The global bottled water market reached $350 billion in 2023, built largely on water extracted from public sources for virtually nothing. The environmental cost is equally staggering: bottled water production consumes 2,000 times the energy of tap water delivery, and 60 million plastic bottles end up in landfills and oceans daily in the United States alone.'
     ],
     tags: ['nestle', 'water-privatization', 'water-extraction', 'drought', 'public-resources', 'corporate-exploitation', 'bluetriton', 'bottled-water'],
     sources: [
       { title: 'Desert Sun: Nestle Bottling Water in Drought-Stricken California on Expired Permit', url: 'https://www.desertsun.com/story/news/2015/03/05/bottling-water-california-drought/24505431/', type: 'Investigation' },
       { title: 'Michigan DEQ: Nestle Water Extraction Permit Decision', url: 'https://www.michigan.gov/egle/', type: 'Government' },
-      { title: 'Story of Stuff: The Story of Bottled Water', url: 'https://www.storyofstuff.org/movies/story-of-bottled-water/', type: 'Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'Story of Stuff: The Story of Bottled Water', url: 'https://www.storyofstuff.org/movies/story-of-bottled-water/', type: 'Report' }
     ],
     affiliations: [
       { id: '1', name: 'USDA', type: 'agency', relationship: 'U.S. Forest Service allowed Nestle to extract water on 27-year-expired permit from San Bernardino National Forest during historic drought', href: '/entities/agencies/usda' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1929-01-01',
    lastActivityDate: '2025-01-15',
@@ -983,7 +970,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2012', event: 'During California\'s historic 2012-2016 drought, when residents were subject to mandatory water conservation orders and faced fines for excessive use, Nestle continued pumping millions of gallons fr...', type: 'financial' },
      { date: '2018', event: 'The state approved the pumping permit in 2018 after receiving over 80,000 public comments, 80,945 of which were opposed to the permit and only 75 in favor', type: 'default' },
      { date: '2021', event: 'Nestle Waters North America (rebranded as BlueTriton Brands in 2021 after sale to One Rock Capital Partners) operated the largest water bottling operation in the United States under brands includin', type: 'default' },
-     { date: '2023', event: 'The global bottled water market reached $350 billion in 2023, built largely on water extracted from public sources for virtually nothing', type: 'political' },
+     { date: '2023', event: 'The global bottled water market reached $350 billion in 2023, built largely on water extracted from public sources for virtually nothing', type: 'political' }
    ],
   },
   'nuclear-testing-fallout-veterans': {
@@ -999,18 +986,17 @@ const investigations_n: Record<string, InvestigationData> = {
       'THE DOWNWINDERS: Atmospheric nuclear tests at the Nevada Test Site (1951-1963) produced radioactive fallout that drifted across Utah, Arizona, Nevada, and beyond. Communities downwind, including St. George, Utah, experienced dramatically elevated rates of leukemia, thyroid cancer, and other cancers. Residents were not warned about radiation risks; the AEC told them the tests were safe. A 1997 National Cancer Institute study estimated that atmospheric testing exposed virtually every person living in the United States to some level of I-131 fallout, with cumulative thyroid doses particularly high in children who consumed contaminated milk. The study estimated that fallout caused between 11,000 and 212,000 excess thyroid cancers in the U.S.',
       'THE MARSHALL ISLANDS: THE BRAVO TEST: The U.S. used the Marshall Islands as a nuclear testing ground, conducting 67 tests between 1946 and 1958, including the 15-megaton Castle Bravo hydrogen bomb test (March 1, 1954), which was 1,000 times more powerful than the Hiroshima bomb. The AEC knew wind patterns would carry fallout over inhabited atolls but proceeded anyway. The people of Rongelap Atoll were not evacuated for three days, during which they were covered in radioactive ash. The Marshallese were then used as human subjects in Project 4.1, a classified study of "the response of human beings to significant beta and gamma radiation." Birth defects, thyroid cancers, and other radiation-related diseases devastated Marshall Islander communities for generations. Bikini Atoll remains uninhabitable today.',
       'COMPENSATION DENIED: The Radiation Exposure Compensation Act (RECA, 1990) provided $50,000 to $75,000 to eligible downwinders and $75,000 to eligible atomic veterans (a fraction of the cost of radiation-related cancer treatment). The program excluded vast categories of victims: military personnel exposed after 1962, downwinders in states other than Utah, Nevada, and Arizona, uranium miners in states not covered, and most Marshall Islanders. Veterans who served on Enewetak Atoll cleanup (1977-1980, where 4,000 servicemembers removed radioactive debris with inadequate protection) were initially excluded. In 2024, a bipartisan bill to reauthorize and expand RECA passed the Senate but was blocked from a House vote.',
-      'URANIUM MINING AND INDIGENOUS COMMUNITIES: The nuclear program\'s harm extended to the uranium supply chain. Thousands of Navajo miners worked in uranium mines on tribal land from the 1940s through the 1980s without being informed of radiation risks. Miners worked without protective equipment in unventilated mines with radon levels up to 750 times the permissible limit. Cancer rates among Navajo uranium miners are dramatically elevated. Over 500 abandoned uranium mines remain on the Navajo Nation, continuing to contaminate water supplies and land. The EPA has designated many as Superfund sites but cleanup has been slow and underfunded.',
+      'URANIUM MINING AND INDIGENOUS COMMUNITIES: The nuclear program\'s harm extended to the uranium supply chain. Thousands of Navajo miners worked in uranium mines on tribal land from the 1940s through the 1980s without being informed of radiation risks. Miners worked without protective equipment in unventilated mines with radon levels up to 750 times the permissible limit. Cancer rates among Navajo uranium miners are dramatically elevated. Over 500 abandoned uranium mines remain on the Navajo Nation, continuing to contaminate water supplies and land. The EPA has designated many as Superfund sites but cleanup has been slow and underfunded.'
     ],
     tags: ['nuclear-testing', 'atomic-veterans', 'downwinders', 'Marshall-Islands', 'radiation', 'RECA', 'uranium-mining', 'Navajo-Nation', 'Castle-Bravo'],
     sources: [
       { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation', type: 'Government Research' },
       { title: 'DOE OpenNet: Declassified Nuclear Testing Documents', url: 'https://www.osti.gov/opennet/', type: 'Government Archive' },
-      { title: 'RECA: Radiation Exposure Compensation Act Trust Fund', url: 'https://www.justice.gov/civil/common/reca', type: 'Government Program' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'RECA: Radiation Exposure Compensation Act Trust Fund', url: 'https://www.justice.gov/civil/common/reca', type: 'Government Program' }
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Successor to AEC that conducted tests; manages nuclear legacy cleanup; RECA trust fund administered through DOJ', href: '/entities/agencies/doe' },
-      { id: '2', name: 'DOD', type: 'agency', relationship: 'Ordered 400,000 military personnel into radiation exposure; classified health data for decades; denied veteran disability claims', href: '/entities/agencies/dod' },
+      { id: '2', name: 'DOD', type: 'agency', relationship: 'Ordered 400,000 military personnel into radiation exposure; classified health data for decades; denied veteran disability claims', href: '/entities/agencies/dod' }
     ],
    eventOriginDate: '1940-01-01',
    lastActivityDate: '2026-02-10',
@@ -1023,7 +1009,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1977', event: 'Veterans who served on Enewetak Atoll cleanup (1977-1980, where 4,000 servicemembers removed radioactive debris with inadequate protection) were initially excluded', type: 'default' },
      { date: '1990', event: 'COMPENSATION DENIED: The Radiation Exposure Compensation Act (RECA, 1990) provided $50,000 to $75,000 to eligible downwinders and $75,000 to eligible atomic veterans (a fraction of the cost of radi', type: 'financial' },
      { date: '1997', event: 'A 1997 National Cancer Institute study estimated that atmospheric testing exposed virtually every person living in the United States to some level of I-131 fallout, with cumulative thyroid doses pa', type: 'default' },
-     { date: '2024', event: 'In 2024, a bipartisan bill to reauthorize and expand RECA passed the Senate but was blocked from a House vote', type: 'political' },
+     { date: '2024', event: 'In 2024, a bipartisan bill to reauthorize and expand RECA passed the Senate but was blocked from a House vote', type: 'political' }
    ],
   },
   'nsa-mass-surveillance-constitutional-erosion': {
@@ -1039,18 +1025,17 @@ const investigations_n: Record<string, InvestigationData> = {
       'The bulk phone metadata program, authorized under Section 215 of the PATRIOT Act, collected records of virtually every phone call made in the United States — approximately 534 million call detail records in 2017 alone (the most recent year with available data). While the government insisted it only collected "metadata" (not content), researchers at Stanford demonstrated that metadata alone can reveal a person\'s medical conditions, religious beliefs, political associations, and intimate relationships with 90%+ accuracy. The FISA Court that authorized the program operated in total secrecy, with only the government\'s arguments presented.',
       'Section 702 of FISA, ostensibly targeted at foreign persons, has become a massive tool for warrantless surveillance of Americans. When the NSA collects foreign communications, it inevitably captures enormous volumes of American communications as well — a practice the intelligence community calls "incidental collection." The FBI then searches this database for information about Americans without obtaining a warrant. In 2021, the FBI conducted 3.4 million warrantless searches of Section 702 data for information about U.S. persons. When this number was disclosed, even members of Congress who had voted to authorize the program expressed shock.',
       'XKeyscore, the NSA\'s most expansive surveillance tool, was described in training materials as allowing analysts to search "nearly everything a typical user does on the internet," including emails, social media posts, web browsing history, and chat logs. The system indexed 20+ billion records per day and allowed searches by name, email address, IP address, or even by searching the content of communications. While officially requiring approval for queries about U.S. persons, Snowden disclosed that analysts had wide latitude and minimal oversight, with no warrant requirement.',
-      'Despite Snowden\'s revelations, the surveillance state has expanded. The USA FREEDOM Act of 2015 ended the specific bulk phone metadata program but replaced it with a system that still allows broad collection. Section 702 was reauthorized in 2024 with an expanded definition of "electronic communications service provider" that critics warn could compel any business with access to communications equipment to assist in surveillance. The FISA Court has found the FBI in violation of querying rules but imposed no meaningful penalties. No senior official has faced legal consequences for unauthorized surveillance. James Clapper, who lied to Congress about the existence of domestic surveillance programs, was referred for potential perjury charges but was never prosecuted.',
+      'Despite Snowden\'s revelations, the surveillance state has expanded. The USA FREEDOM Act of 2015 ended the specific bulk phone metadata program but replaced it with a system that still allows broad collection. Section 702 was reauthorized in 2024 with an expanded definition of "electronic communications service provider" that critics warn could compel any business with access to communications equipment to assist in surveillance. The FISA Court has found the FBI in violation of querying rules but imposed no meaningful penalties. No senior official has faced legal consequences for unauthorized surveillance. James Clapper, who lied to Congress about the existence of domestic surveillance programs, was referred for potential perjury charges but was never prosecuted.'
     ],
     tags: ['NSA', 'surveillance', 'PRISM', 'Snowden', 'Section 702', 'FISA', 'metadata', 'Fourth Amendment', 'warrantless searches', 'XKeyscore'],
     sources: [
       { title: 'The Guardian: NSA Files Decoded (Snowden Documents)', url: 'https://www.theguardian.com/us-news/the-nsa-files', type: 'Investigation' },
       { title: 'ODNI: Annual Statistical Transparency Report (Section 702)', url: 'https://www.intel.gov/ic-on-the-record/annual-statistical-transparency-report', type: 'Government Report' },
-      { title: 'Privacy and Civil Liberties Oversight Board: Report on Section 702', url: 'https://www.pclob.gov/', type: 'Government Report' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'Privacy and Civil Liberties Oversight Board: Report on Section 702', url: 'https://www.pclob.gov/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operates the largest surveillance apparatus in history; bulk collection programs exceeded statutory authority; minimization procedures inadequate to protect Americans\' rights', href: '/entities/agencies/nsa' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 3.4 million warrantless backdoor searches of Americans\' Section 702 data in single year; FISA Court found systematic non-compliance with querying rules', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 3.4 million warrantless backdoor searches of Americans\' Section 702 data in single year; FISA Court found systematic non-compliance with querying rules', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2025-02-15',
@@ -1060,7 +1045,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2015', event: 'The USA FREEDOM Act of 2015 ended the specific bulk phone metadata program but replaced it with a system that still allows broad collection', type: 'default' },
      { date: '2017', event: 'The bulk phone metadata program, authorized under Section 215 of the PATRIOT Act, collected records of virtually every phone call made in the United States — approximately 534 million call detail r', type: 'financial' },
      { date: '2021', event: 'In 2021, the FBI conducted 3.4 million warrantless searches of Section 702 data for information about U.S', type: 'financial' },
-     { date: '2024', event: 'Section 702 was reauthorized in 2024 with an expanded definition of "electronic communications service provider" that critics warn could compel any business with access to communications equipment', type: 'political' },
+     { date: '2024', event: 'Section 702 was reauthorized in 2024 with an expanded definition of "electronic communications service provider" that critics warn could compel any business with access to communications equipment', type: 'political' }
    ],
   },
   'nursing-home-neglect-deaths': {
@@ -1076,18 +1061,18 @@ const investigations_n: Record<string, InvestigationData> = {
       'Staffing in nursing homes is catastrophically inadequate. The average nursing home provides 3.6 hours of total nursing care per resident per day, well below the 4.1 hours that CMS studies indicate is the minimum needed for adequate care. Certified Nursing Assistants (CNAs), who provide 80% of direct resident care, earn a median wage of $15.60 per hour and experience annual turnover rates exceeding 50%. Many facilities operate with one CNA responsible for 15-20 residents simultaneously. The Biden administration proposed minimum staffing standards in 2023, but industry lobbying has weakened and delayed implementation.',
       'During the COVID-19 pandemic, nursing homes became death traps. Over 200,000 residents and staff died from COVID-19 in nursing facilities between 2020 and 2023, comprising more than one-third of all U.S. pandemic deaths. Facilities lacked PPE, failed to implement infection control measures, and continued accepting new admissions from hospitals. New York Governor Andrew Cuomo\'s March 2020 directive requiring nursing homes to accept COVID-positive hospital patients was linked to thousands of additional deaths. Several states undercounted nursing home deaths by 40-50%.',
       'Financial exploitation of nursing home residents is endemic. Facilities drain residents\' assets through opaque billing, unnecessary services, and aggressive collections. Medicaid, which pays for 62% of nursing home residents, reimburses at approximately $270 per day, while private-pay rates average $290 per day. While claiming Medicaid rates are insufficient, for-profit chains extract profits through related-party transactions: charging the nursing home above-market rates for rent, management fees, staffing agencies, and supplies all controlled by the same parent company. These transactions siphon funds that should support resident care.',
-      'Enforcement of nursing home quality standards is weak by design. CMS contracts with state survey agencies to inspect nursing homes, but inspections are predictable (facilities know when inspectors are coming), penalties are rarely imposed, and enforcement actions take years. In 2022, 80% of nursing homes were cited for at least one deficiency, but only 2% received fines. The average fine was $28,000, a negligible sum for facilities generating millions in annual revenue. The Government Accountability Office has repeatedly criticized CMS for failing to hold chronically underperforming facilities accountable.',
+      'Enforcement of nursing home quality standards is weak by design. CMS contracts with state survey agencies to inspect nursing homes, but inspections are predictable (facilities know when inspectors are coming), penalties are rarely imposed, and enforcement actions take years. In 2022, 80% of nursing homes were cited for at least one deficiency, but only 2% received fines. The average fine was $28,000, a negligible sum for facilities generating millions in annual revenue. The Government Accountability Office has repeatedly criticized CMS for failing to hold chronically underperforming facilities accountable.'
     ],
     tags: ['nursing homes', 'elder abuse', 'private equity', 'COVID-19', 'staffing crisis', 'CMS', 'neglect', 'for-profit healthcare', 'long-term care', 'mortality'],
     sources: [
       { title: 'CMS: Nursing Home Compare Database', url: 'https://www.medicare.gov/care-compare/', type: 'Government Database' },
       { title: 'NBER: Does Private Equity Investment in Healthcare Benefit Patients? Evidence from Nursing Homes', url: 'https://www.nber.org/papers/w28474', type: 'Academic Research' },
       { title: 'GAO: CMS Needs to Do More to Ensure Nursing Home Quality', url: 'https://www.gao.gov/products/gao-23-104813', type: 'Government Report' },
-      { title: 'HHS Office of Inspector General: Nursing Home Reports', url: 'https://oig.hhs.gov/reports-and-publications/featured-topics/nursing-homes/', type: 'Government Report' },
+      { title: 'HHS Office of Inspector General: Nursing Home Reports', url: 'https://oig.hhs.gov/reports-and-publications/featured-topics/nursing-homes/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Regulates 15,000 nursing homes through survey and certification but enforcement actions are rare; 80% of homes cited for deficiencies with only 2% fined', href: '/entities/agencies/cms' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Elder Justice Initiative prosecutes egregious cases of nursing home fraud and abuse but resources are minimal compared to the scale of the problem', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Elder Justice Initiative prosecutes egregious cases of nursing home fraud and abuse but resources are minimal compared to the scale of the problem', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-02-20',
@@ -1097,7 +1082,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2020-03-01', event: 'New York Governor Andrew Cuomo\'s March 2020 directive requiring nursing homes to accept COVID-positive hospital patients was linked to thousands of additional deaths', type: 'critical' },
      { date: '2021', event: 'A 2021 NBER study found that private equity acquisition of nursing homes leads to a 10% increase in resident mortality, primarily through staffing cuts', type: 'default' },
      { date: '2022', event: 'In 2022, 80% of nursing homes were cited for at least one deficiency, but only 2% received fines', type: 'financial' },
-     { date: '2023', event: 'The Biden administration proposed minimum staffing standards in 2023, but industry lobbying has weakened and delayed implementation', type: 'default' },
+     { date: '2023', event: 'The Biden administration proposed minimum staffing standards in 2023, but industry lobbying has weakened and delayed implementation', type: 'default' }
    ],
   },
   'nuclear-waste-storage-crisis': {
@@ -1113,18 +1098,17 @@ const investigations_n: Record<string, InvestigationData> = {
       'The interim storage crisis grows more acute each year. Spent fuel pools at reactor sites were designed for temporary storage but now hold 2-4 times their original capacity. When pools reach capacity, utilities transfer spent fuel to dry cask storage, concrete and steel containers designed for 40-year lifetimes but now expected to serve for centuries. There are approximately 3,800 dry casks at 75 sites in 33 states. These sites were selected for power generation, not long-term waste management, and many are near rivers, coastlines, earthquake zones, or population centers. The casks themselves have no demonstrated track record beyond 40 years.',
       'The legal and financial consequences of inaction are staggering. When the federal government failed to begin accepting spent fuel by 1998 as required by the 1982 act, utilities sued for breach of contract. The Department of Justice has paid over $10 billion in settlements and judgments, with an additional $30 billion in projected future liabilities. These payments come from the Judgment Fund, not the Nuclear Waste Fund (which contains $45 billion in fees paid by utility ratepayers specifically for a repository that was never built). Ratepayers have thus paid twice: once for the repository and once for the government\'s failure to build it.',
       'Proposed interim storage facilities in Texas and New Mexico have generated intense local opposition. Interim Storage Partners proposed a facility in Andrews County, Texas, and Holtec International proposed one in Lea County, New Mexico. Both proposals face opposition from state governments, tribal nations, and environmental groups who argue that "interim" storage will become permanent by default. The NRC approved Holtec\'s license in 2024, but New Mexico\'s governor and attorney general have vowed to block construction. Without a permanent repository, there is no credible plan for what happens after interim storage reaches its design life.',
-      'The international comparison is unfavorable. Finland\'s Onkalo repository is under construction and will begin accepting waste in 2025, making it the world\'s first operational permanent repository. Sweden approved its repository in 2022. France, Canada, and Switzerland have active programs. The United States, which generates more nuclear waste than any other country, has no credible path to a permanent solution. The Nuclear Regulatory Commission continues to license new reactors and extend the operating lives of existing ones, generating additional waste with no plan for its disposition.',
+      'The international comparison is unfavorable. Finland\'s Onkalo repository is under construction and will begin accepting waste in 2025, making it the world\'s first operational permanent repository. Sweden approved its repository in 2022. France, Canada, and Switzerland have active programs. The United States, which generates more nuclear waste than any other country, has no credible path to a permanent solution. The Nuclear Regulatory Commission continues to license new reactors and extend the operating lives of existing ones, generating additional waste with no plan for its disposition.'
     ],
     tags: ['nuclear waste', 'Yucca Mountain', 'spent fuel', 'NRC', 'dry cask storage', 'radioactive waste', 'geological repository', 'NWPA', 'reactor sites', 'interim storage'],
     sources: [
       { title: 'GAO: Nuclear Waste Management', url: 'https://www.gao.gov/', type: 'Government Report' },
       { title: 'NRC: Spent Fuel Storage', url: 'https://www.nrc.gov/waste/spent-fuel-storage.html', type: 'Government Report' },
-      { title: 'DOE: Nuclear Waste Fund Financial Statements', url: 'https://www.energy.gov/', type: 'Government Report' },
-      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
+      { title: 'DOE: Nuclear Waste Fund Financial Statements', url: 'https://www.energy.gov/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'NRC', type: 'agency', relationship: 'Continues to license reactors and dry cask storage without a permanent waste solution; approved Holtec interim facility over state objections; Yucca Mountain license review suspended' },
-      { id: '2', name: 'DOE', type: 'agency', relationship: 'Spent $15B on Yucca Mountain before defunding; owes utilities $30B+ for failure to accept waste; manages defense nuclear waste at Hanford and Savannah River', href: '/entities/agencies/doe' },
+      { id: '2', name: 'DOE', type: 'agency', relationship: 'Spent $15B on Yucca Mountain before defunding; owes utilities $30B+ for failure to accept waste; manages defense nuclear waste at Hanford and Savannah River', href: '/entities/agencies/doe' }
     ],
    eventOriginDate: '1958-01-01',
    lastActivityDate: '2025-02-15',
@@ -1136,7 +1120,7 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2010', event: 'DOE spent $15 billion over two decades studying the site, and the NRC was reviewing the license application when the Obama administration, under pressure from Senate Majority Leader Harry Reid of N', type: 'political' },
      { date: '2022', event: 'Sweden approved its repository in 2022', type: 'default' },
      { date: '2024', event: 'The NRC approved Holtec\'s license in 2024, but New Mexico\'s governor and attorney general have vowed to block construction', type: 'default' },
-     { date: '2025', event: 'Finland\'s Onkalo repository is under construction and will begin accepting waste in 2025, making it the world\'s first operational permanent repository', type: 'default' },
+     { date: '2025', event: 'Finland\'s Onkalo repository is under construction and will begin accepting waste in 2025, making it the world\'s first operational permanent repository', type: 'default' }
    ],
   },
   'native-american-genocide': {
@@ -1157,7 +1141,7 @@ const investigations_n: Record<string, InvestigationData> = {
    'The systematic destruction of the buffalo was publicly framed as commercial enterprise and frontier economics, obscuring the documented military strategy behind it. Congressional efforts to protect buffalo herds were vetoed by President Ulysses S. Grant, who understood the military value of the extermination campaign.',
    'Hundreds of treaties signed in good faith by Native nations were unilaterally broken by the U.S. government. These violations are rarely characterized as breaches of international law or sovereignty in mainstream historical or legal discourse, despite constituting the largest pattern of broken agreements between sovereign nations in recorded history.',
    'The ongoing crisis of Missing and Murdered Indigenous Women (MMIW) (with thousands of unresolved cases) receives minimal federal attention or media coverage compared to cases involving white victims. A 2017 study found that Native American women face murder rates more than ten times the national average on some reservations.',
-   'Contemporary conditions on Native American reservations (including extreme poverty, lack of healthcare, contaminated water supplies, and underfunded schools) are consistently treated as unfortunate circumstances rather than the direct, predictable consequences of centuries of deliberate governmental policy.',
+   'Contemporary conditions on Native American reservations (including extreme poverty, lack of healthcare, contaminated water supplies, and underfunded schools) are consistently treated as unfortunate circumstances rather than the direct, predictable consequences of centuries of deliberate governmental policy.'
  ],
  tags: ['criminal-justice', 'war'],
  sources: [
@@ -1172,7 +1156,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { title: 'Indian Removal Act: Primary Documents in American History, Library of Congress', url: 'https://guides.loc.gov/indian-removal-act', type: 'Article' },
    { title: 'Cobell v. Salazar Settlement, U.S. Department of the Interior', url: 'https://www.doi.gov/cobell', type: 'Article' },
    { title: 'Not Invisible Act Report, U.S. Department of the Interior', url: 'https://www.doi.gov/missing-and-murdered-indigenous-peoples', type: 'Article' },
-   { title: 'The Destruction of the Bison, Cambridge University Press', url: 'https://www.cambridge.org/core/books/destruction-of-the-bison/A8B65D53AAA955CE13210444C1E0E6AB', type: 'Article' },
+   { title: 'The Destruction of the Bison, Cambridge University Press', url: 'https://www.cambridge.org/core/books/destruction-of-the-bison/A8B65D53AAA955CE13210444C1E0E6AB', type: 'Article' }
  ],
  affiliations: [
    { id: 'andrew-jackson', name: 'Andrew Jackson', type: 'individual', relationship: '7th President of the United States. Architect of the Indian Removal Act of 1830. Defied the Supreme Court to forcibly relocate 60,000+ Native Americans, causing the Trail of Tears. Previously commanded troops in brutal campaigns against the Creek Nation.', href: '/entities/individuals/andrew-jackson' },
@@ -1188,7 +1172,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { id: 'henry-dawes', name: 'Henry Dawes', type: 'individual', relationship: 'U.S. Senator and author of the Dawes Act (1887), which dissolved communal tribal landholdings and redistributed them as individual allotments. The Act resulted in the loss of approximately 90 million acres, two-thirds of all remaining tribal land, to white settlers and speculators.', href: '/entities/individuals/henry-dawes' },
    { id: 'kit-carson', name: 'Kit Carson', type: 'individual', relationship: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk"of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.', href: '/entities/individuals/kit-carson' },
    { id: 'james-forsyth', name: 'James Forsyth', type: 'individual', relationship: 'U.S. Army Colonel. Commanded the 7th Cavalry at the Wounded Knee Massacre on December 29, 1890, where between 250 and 300 Lakota Sioux (mostly unarmed women, children, and elderly) were killed. Twenty soldiers received the Medal of Honor for their actions.', href: '/entities/individuals/james-forsyth' },
-   { id: 'henry-knox', name: 'Henry Knox', type: 'individual', relationship: 'First U.S. Secretary of War. Established early federal Indian policy emphasizing "civilization"programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century.', href: '/entities/individuals/henry-knox' },
+   { id: 'henry-knox', name: 'Henry Knox', type: 'individual', relationship: 'First U.S. Secretary of War. Established early federal Indian policy emphasizing "civilization"programs and land cessions through coerced treaties, setting precedents for systematic dispossession that persisted for over a century.', href: '/entities/individuals/henry-knox' }
  ],
  timeline: [
    { date: '1492', event: 'Christopher Columbus arrives in the Americas, initiating European colonization. Within decades, the Taino population of Hispaniola is reduced from approximately 250,000 to near extinction through enslavement, massacre, and disease.' },
@@ -1210,7 +1194,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { date: '1973', event: 'The Wounded Knee Occupation: Members of the American Indian Movement (AIM) occupy the site of the 1890 massacre for 71 days to protest broken treaties and government oppression. The standoff results in two deaths and draws international attention to Native American rights.' },
    { date: '1980', event: 'United States v. Sioux Nation of Indians: The Supreme Court rules that the U.S. government\'s seizure of the Black Hills violated the Fifth Amendment and constituted an illegal taking. The Lakota refuse the monetary settlement (now worth over $1 billion) demanding the return of their sacred lands.' },
    { date: '2009', event: 'The U.S. government includes a formal "apology to Native peoples"in the 2010 Defense Appropriations Act, signed by President Obama, but it is buried in an unrelated spending bill, contains a legal disclaimer preventing its use in court, and receives no public ceremony or acknowledgment.' },
-   { date: '2021-Present', event: 'The Federal Indian Boarding School Initiative, launched by Secretary of the Interior Deb Haaland (Laguna Pueblo), investigates the federal boarding school system. Initial reports identify over 500 schools and more than 50 burial sites containing the remains of Indigenous children. Investigations continue as more unmarked graves are discovered.' },
+   { date: '2021-Present', event: 'The Federal Indian Boarding School Initiative, launched by Secretary of the Interior Deb Haaland (Laguna Pueblo), investigates the federal boarding school system. Initial reports identify over 500 schools and more than 50 burial sites containing the remains of Indigenous children. Investigations continue as more unmarked graves are discovered.' }
  ],
  statutes: [
    { code: 'UN Convention on the Prevention and Punishment of the Crime of Genocide (1948): Article II', description: 'Acts committed with intent to destroy, in whole or in part, a national, ethnical, racial, or religious group: (a) Killing members of the group; (b) Causing serious bodily or mental harm; (c) Deliberately inflicting conditions of life calculated to bring about physical destruction; (d) Imposing measures intended to prevent births; (e) Forcibly transferring children of the group to another group. U.S. actions against Native Americans satisfy all five criteria.' },
@@ -1220,7 +1204,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { code: 'Crimes Against Humanity, Cultural Genocide via Boarding Schools', description: 'Over 100,000 Native children were forcibly removed from their families and placed in government and church-run boarding schools designed to eradicate Indigenous languages, religions, and cultural practices. Children suffered widespread physical abuse, sexual abuse, forced labor, and neglect. Hundreds of unmarked graves have been discovered at former school sites.' },
    { code: 'Biological Warfare, Use of Disease as a Weapon', description: 'Documented use of smallpox-contaminated materials against Native populations, including the 1763 distribution of infected blankets at Fort Pitt. Combined with colonial indifference to epidemic control, European diseases killed an estimated 90% of the Indigenous population in some regions.' },
    { code: 'Forced Sterilization, Violation of Bodily Autonomy and Reproductive Rights', description: 'The Indian Health Service conducted forced and coerced sterilizations of Native American women throughout the 1960s and 1970s without informed consent. A 1976 GAO investigation confirmed at least 3,400 sterilizations in a four-year period alone. Some estimates suggest the actual number may be significantly higher.' },
-   { code: 'Environmental Destruction, Deliberate Resource Annihilation', description: 'The systematic extermination of the American buffalo (from 30-60 million to fewer than 1,000) was explicitly promoted by U.S. military leadership as a strategy to destroy the Plains Indians\' way of life and force their surrender and confinement to reservations.' },
+   { code: 'Environmental Destruction, Deliberate Resource Annihilation', description: 'The systematic extermination of the American buffalo (from 30-60 million to fewer than 1,000) was explicitly promoted by U.S. military leadership as a strategy to destroy the Plains Indians\' way of life and force their surrender and confinement to reservations.' }
  ],
  defendants: [
    { name: 'United States Federal Government', role: 'Illegal seizure of the Black Hills in violation of the 1868 Fort Laramie Treaty', status: 'charged', notes: 'Supreme Court ruled in 1980 (United States v. Sioux Nation) that the taking was illegal and awarded $105 million. The Lakota have refused the settlement, demanding land return. The trust fund now exceeds $1 billion.' },
@@ -1228,7 +1212,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { name: 'Colonel James Forsyth', role: 'Wounded Knee Massacre, killing of 250-300 unarmed Lakota Sioux', status: 'charged', notes: 'Court of inquiry initially relieved Forsyth of command; he was reinstated within months. No charges filed. Twenty soldiers received the Medal of Honor; campaign to revoke them remains ongoing as of 2024.' },
    { name: 'U.S. Bureau of Indian Affairs', role: 'Systematic mismanagement of tribal trust funds and resources', status: 'charged', notes: 'Cobell v. Salazar class-action lawsuit resulted in a $3.4 billion settlement in 2009; representing only a fraction of the estimated losses from over a century of mismanagement.' },
    { name: 'Federal & State Governments', role: 'Forced sterilization of Native American women without informed consent', status: 'charged', notes: 'A 1976 Government Accountability Office report confirmed that the Indian Health Service sterilized approximately 3,400 Native American women between 1973 and 1976 alone. No criminal charges were filed.' },
-   { name: 'Various Christian Organizations & U.S. Government', role: 'Systematic abuse, cultural destruction, and deaths at Indian boarding schools', status: 'charged', notes: 'Federal investigation launched in 2021. Over 500 schools and 50+ burial sites identified. As of 2024, no criminal accountability has been established for historical abuses. Some religious organizations have issued apologies.' },
+   { name: 'Various Christian Organizations & U.S. Government', role: 'Systematic abuse, cultural destruction, and deaths at Indian boarding schools', status: 'charged', notes: 'Federal investigation launched in 2021. Over 500 schools and 50+ burial sites identified. As of 2024, no criminal accountability has been established for historical abuses. Some religious organizations have issued apologies.' }
  ],
   },
   'no-knock-raids': {
@@ -1248,7 +1232,7 @@ const investigations_n: Record<string, InvestigationData> = {
    'Judges sign no-knock warrants with minimal scrutiny, some judges have signed dozens in a single day,"rubber stamping"applications without meaningful review of probable cause',
    'The true number of no-knock raids is unknown because most jurisdictions do not track or report them; the estimated 20,000+ figure is likely a significant undercount',
    'After the Bou Bou Phonesavanh case, Habersham County officials initially claimed the SWAT team"didn\'t know"a toddler was in the home, but neighbors had told deputies about the child beforehand',
-   'Kenneth Walker, Breonna Taylor\'s boyfriend, was arrested and charged with attempted murder of a police officer for firing a warning shot at what he believed were home invaders, charges that were only dropped after national outrage',
+   'Kenneth Walker, Breonna Taylor\'s boyfriend, was arrested and charged with attempted murder of a police officer for firing a warning shot at what he believed were home invaders, charges that were only dropped after national outrage'
  ],
  tags: ['military-foreign-policy', 'war', 'accountability'],
  sources: [
@@ -1260,7 +1244,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { title: 'Louisville Courier Journal, Breonna Taylor Investigation', url: 'https://www.courier-journal.com/story/news/local/breonna-taylor/2020/05/12/breonna-taylor-shooting-what-we-know/3115870001/', type: 'Article' },
    { title: 'NPR, The Door-Busting, Flash-Bang Raids Endangering Innocent Americans', url: 'https://www.npr.org/2022/02/08/1079128685/no-knock-warrants-amir-locke-breonna-taylor', type: 'Article' },
    { title: 'Brennan Center for Justice, Ending No-Knock Warrants', url: 'https://www.brennancenter.org/our-work/research-reports/ending-no-knock-warrants', type: 'Article' },
-   { title: 'Hudson v. Michigan, 547 U.S. 586 (2006): Supreme Court Decision', url: 'https://supreme.justia.com/cases/federal/us/547/586/', type: 'Article' },
+   { title: 'Hudson v. Michigan, 547 U.S. 586 (2006): Supreme Court Decision', url: 'https://supreme.justia.com/cases/federal/us/547/586/', type: 'Article' }
  ],
  affiliations: [
    { id: 'breonna-taylor', name: 'Breonna Taylor', type: 'individual', relationship: '26-year-old EMT killed in her bed by Louisville PD during a botched no-knock raid on March 13, 2020', href: '/entities/individuals/breonna-taylor' },
@@ -1275,7 +1259,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { id: 'daniel-cameron', name: 'Daniel Cameron', type: 'individual', relationship: 'Kentucky AG who presented Breonna Taylor case to grand jury without recommending murder charges against officers', href: '/entities/individuals/daniel-cameron' },
    { id: 'kathryn-barger', name: 'Kathryn Barger', type: 'individual', relationship: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States', href: '/entities/individuals/kathryn-barger' },
    { id: 'radley-balko', name: 'Radley Balko', type: 'individual', relationship: 'Journalist who has documented no-knock raid abuses extensively in his book "Rise of the Warrior Cop"', href: '/entities/individuals/radley-balko' },
-   { id: 'rand-paul', name: 'Rand Paul', type: 'individual', relationship: 'Senator who introduced the Justice for Breonna Taylor Act to ban federal no-knock warrants', href: '/entities/individuals/rand-paul' },
+   { id: 'rand-paul', name: 'Rand Paul', type: 'individual', relationship: 'Senator who introduced the Justice for Breonna Taylor Act to ban federal no-knock warrants', href: '/entities/individuals/rand-paul' }
  ],
  timeline: [
    { date: '1970', event: 'No-knock warrants first authorized at federal level in Comprehensive Drug Abuse Prevention and Control Act' },
@@ -1295,7 +1279,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { date: '2022-AUG', event: 'Four Louisville officers, including Joshua Jaynes, federally charged with civil rights violations in Breonna Taylor case' },
    { date: '2022', event: 'Federal Department of Justice bans no-knock warrants for federal agents except in cases of imminent threat to life' },
    { date: '2023', event: 'Jaynes and Hankison convicted on federal charges; sentenced to federal prison for their roles in Taylor raid' },
-   { date: '2024', event: 'Despite reform movements, most U.S. jurisdictions continue to permit no-knock warrants; only 4 states have banned them' },
+   { date: '2024', event: 'Despite reform movements, most U.S. jurisdictions continue to permit no-knock warrants; only 4 states have banned them' }
  ],
  statutes: [
    { code: '4th Amendment, Unreasonable Search and Seizure', description: 'No-knock warrants bypass the constitutional requirement to knock and announce, shocking residents into potentially lethal defensive reactions' },
@@ -1305,7 +1289,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { code: 'Involuntary Manslaughter / Reckless Homicide (State)', description: 'Officers who kill innocent people during no-knock raids through reckless conduct' },
    { code: 'Castle Doctrine (State Laws)', description: 'Homeowners who defend against unannounced intruders exercising legal rights face criminal charges when raiders are police' },
    { code: 'Pattern-or-Practice Violations (34 U.S.C. § 12601)', description: 'Louisville PD and other departments found to engage in systemic unconstitutional policing including routine no-knock raids' },
-   { code: 'Child Endangerment (State Laws)', description: 'Deploying flash-bang grenades and conducting armed raids in homes with children present' },
+   { code: 'Child Endangerment (State Laws)', description: 'Deploying flash-bang grenades and conducting armed raids in homes with children present' }
  ],
  defendants: [
    { name: 'Brett Hankison', role: 'Deprivation of civil rights for blindly firing into Breonna Taylor\'s apartment', status: 'convicted', notes: 'Acquitted in Kentucky state court of wanton endangerment; convicted in federal court; sentenced to approximately 13 years' },
@@ -1315,7 +1299,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { name: 'Habersham County, GA (Phonesavanh)', role: 'Negligence in flash-bang grenade deployment that burned 19-month-old infant', status: 'charged', notes: 'Grand jury declined to indict the SWAT team; county paid $3.6 million settlement for medical bills' },
    { name: 'Minneapolis (Amir Locke)', role: 'Death of 22-year-old Amir Locke during no-knock warrant execution', status: 'charged', notes: 'No criminal charges against officers; interim chief imposed moratorium on no-knock warrants' },
    { name: 'City of Detroit (Stanley-Jones)', role: 'Wrongful death of 7-year-old during SWAT raid on wrong apartment', status: 'convicted', notes: '$8.25 million settlement; no officers criminally convicted' },
-   { name: 'DOJ Investigation of Louisville PD', role: 'Pattern-or-practice investigation of LMPD', status: 'charged', notes: 'DOJ found pattern of unconstitutional policing including unlawful stops, excessive force, and discriminatory policing' },
+   { name: 'DOJ Investigation of Louisville PD', role: 'Pattern-or-practice investigation of LMPD', status: 'charged', notes: 'DOJ found pattern of unconstitutional policing including unlawful stops, excessive force, and discriminatory policing' }
  ],
   },
   'nsa-mass-surveillance': {
@@ -1347,7 +1331,7 @@ const investigations_n: Record<string, InvestigationData> = {
    'The NSA\'s deliberate weakening of encryption standards through BULLRUN ($250 million/year) made the entire internet less secure, creating vulnerabilities criminals and hostile governments could also exploit.',
    'All 15 pre-Snowden whistleblowers who tried to expose surveillance through official channels were investigated, raided, prosecuted, or fired; while the officials who authorized illegal surveillance faced no consequences.',
    'Diplomatic relations with key allies were severely damaged. Germany expelled the CIA station chief in Berlin, Brazil cancelled a state visit, and multiple countries began routing internet traffic to avoid US infrastructure.',
-   'Despite revelations of systematic illegality, only modest legislative reform resulted (the USA FREEDOM Act), leaving the core surveillance architecture; including Section 702, Executive Order 12333, and Five Eyes sharing; fully intact.',
+   'Despite revelations of systematic illegality, only modest legislative reform resulted (the USA FREEDOM Act), leaving the core surveillance architecture; including Section 702, Executive Order 12333, and Five Eyes sharing; fully intact.'
  ],
  tags: ['military-foreign-policy', 'war', 'surveillance'],
  sources: [
@@ -1374,7 +1358,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { title: 'Permanent Record: Edward Snowden (Memoir)', url: 'https://us.macmillan.com/books/9781250237231/permanentrecord', type: 'Article' },
    { title: 'Jewel v. NSA: Electronic Frontier Foundation', url: 'https://www.eff.org/cases/jewel', type: 'Article' },
    { title: 'FISA Court Opinions (Declassified): DNI', url: 'https://www.dni.gov/index.php/ic-legal-reference-book/fisa-court-orders', type: 'Article' },
-   { title: 'The NSA Report: Liberty and Security: President\\', url: 'https://obamawhitehouse.archives.gov/sites/default/files/docs/2013-12-12_rg_final_report.pdf', type: 'Article' },
+   { title: 'The NSA Report: Liberty and Security: President\\', url: 'https://obamawhitehouse.archives.gov/sites/default/files/docs/2013-12-12_rg_final_report.pdf', type: 'Article' }
  ],
  affiliations: [
    { id: 'edward-snowden', name: 'Edward Snowden', type: 'individual', relationship: 'Former NSA contractor who leaked tens of thousands of classified documents revealing global surveillance programs in June 2013. Worked as a systems administrator at the NSA\\', href: '/entities/individuals/edward-snowden' },
@@ -1406,7 +1390,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { id: 'patrick-leahy', name: 'Patrick Leahy', type: 'individual', relationship: 'Senate Judiciary Committee Chairman who authored the USA FREEDOM Act. One of the strongest congressional voices for surveillance reform.', href: '/entities/individuals/patrick-leahy' },
    { id: 'james-sensenbrenner', name: 'James Sensenbrenner', type: 'individual', relationship: 'Republican congressman who originally authored the USA PATRIOT Act. After Snowden, publicly stated the NSA\\', href: '/entities/individuals/james-sensenbrenner' },
    { id: 'john-bates', name: 'John Bates', type: 'individual', relationship: 'FISA Court Judge who authored a critical 2011 opinion finding the NSA had been systematically violating the Fourth Amendment by collecting tens of thousands of purely domestic communications. Despite', href: '/entities/individuals/john-bates' },
-   { id: 'reggie-walton', name: 'Reggie Walton', type: 'individual', relationship: 'FISA Court Presiding Judge who in 2009 found the NSA had been regularly and systematically violating the court\\', href: '/entities/individuals/reggie-walton' },
+   { id: 'reggie-walton', name: 'Reggie Walton', type: 'individual', relationship: 'FISA Court Presiding Judge who in 2009 found the NSA had been regularly and systematically violating the court\\', href: '/entities/individuals/reggie-walton' }
  ],
  timeline: [
    { date: 'October 4, 2001', event: 'President Bush secretly authorizes STELLARWIND via classified executive order, just 23 days after 9/11. The program operates with no statutory authorization and no FISA Court oversight.' },
@@ -1438,7 +1422,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { date: 'September 2, 2020', event: 'Ninth Circuit rules in United States v. Moalin that the NSA\\' },
    { date: 'February 2022', event: 'PCLOB reveals the CIA maintained its own secret bulk data collection program on Americans, separate from the NSA\\' },
    { date: 'April 2024', event: 'Congress reauthorizes and expands Section 702, potentially covering data centers and cloud services. Privacy advocates call it the largest surveillance expansion since the original PATRIOT Act.' },
-   { date: 'December 2024', event: 'President Biden pardons Edward Snowden, acknowledging the public interest served by his disclosures; 11 years after he was charged and after multiple courts ruled the programs he exposed were illegal.' },
+   { date: 'December 2024', event: 'President Biden pardons Edward Snowden, acknowledging the public interest served by his disclosures; 11 years after he was charged and after multiple courts ruled the programs he exposed were illegal.' }
  ],
  statutes: [
    { code: 'U.S. Constitution, Fourth Amendment', description: 'Unreasonable search and seizure. The mass collection of phone records, emails, internet activity, location data, and text messages of hundreds of millions of Americans without individualized probable cause or warrants. Multiple federal courts subsequently ruled these programs violated the Fourth Amendment.' },
@@ -1449,7 +1433,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { code: 'Executive Order 12333 Overreach', description: 'Using executive authority for overseas surveillance circumventing statutory protections; tapping data centers (MUSCULAR), recording entire countries\\' },
    { code: '18 U.S.C. 241: Conspiracy Against Rights', description: 'Conspiracy to deprive citizens of constitutional rights. Senior officials designed, implemented, expanded, and concealed programs they knew violated the Fourth Amendment, then used classification to prevent judicial review and prosecuted those who tried to expose the violations.' },
    { code: 'First Amendment Violations: Chilling Effect', description: 'Mass surveillance created documented chilling effects on free speech, press, and association. The prosecution of sources under the Espionage Act compounded the effect.' },
-   { code: '18 U.S.C. 1505: Obstruction of Congressional Proceedings', description: 'Clapper\\' },
+   { code: '18 U.S.C. 1505: Obstruction of Congressional Proceedings', description: 'Clapper\\' }
  ],
  defendants: [
    { name: 'Edward Snowden', role: 'Two counts Espionage Act (18 U.S.C. 793), theft of government property', status: 'pardoned', notes: 'Charged June 2013. Fled to Hong Kong, then Russia. Pardoned by President Biden in December 2024 after multiple courts ruled the programs he exposed were illegal.' },
@@ -1462,7 +1446,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { name: 'Thomas Drake', role: 'Espionage Act charges for disclosing NSA waste and illegality', status: 'convicted', notes: 'All ten felony charges dropped. Pled guilty to a misdemeanor. Judge called prosecution "unconscionable." Lost career, pension, savings.' },
    { name: 'Hepting v. AT&T (2006)', role: 'Class-action challenging AT&T\\', status: 'charged', notes: 'Dismissed after Congress passed retroactive telecom immunity in the 2008 FISA Amendments Act.' },
    { name: 'In re Directives to Yahoo (2008)', role: 'Yahoo\\', status: 'charged', notes: 'FISA Court upheld order and threatened $250,000/day fines for noncompliance. Revealed companies were forced to participate.' },
-   { name: 'USA FREEDOM Act (2015)', role: 'Legislative reform of surveillance authorities', status: 'charged', notes: 'Ended bulk metadata collection. Left Section 702, EO 12333, and Five Eyes sharing intact. No accountability for past illegality.' },
+   { name: 'USA FREEDOM Act (2015)', role: 'Legislative reform of surveillance authorities', status: 'charged', notes: 'Ended bulk metadata collection. Left Section 702, EO 12333, and Five Eyes sharing intact. No accountability for past illegality.' }
  ],
   },
   'nuclear-testing-victims': {
@@ -1482,7 +1466,7 @@ const investigations_n: Record<string, InvestigationData> = {
    'The government used Marshallese islanders as unwitting subjects in Project 4.1, studying radiation effects on humans exposed to Castle Bravo fallout',
    'Radiation Exposure Compensation Act deliberately excluded many affected communities and set cancer criteria so narrow that most legitimate claims were denied',
    'The Pentagon reclassified documents related to atomic veteran exposure whenever FOIA requests threatened to reveal the scale of deliberate irradiation',
-   'Navajo uranium miners were not told about radiation hazards and were denied protective equipment, leading to epidemic cancer rates on the Navajo Nation',
+   'Navajo uranium miners were not told about radiation hazards and were denied protective equipment, leading to epidemic cancer rates on the Navajo Nation'
  ],
  tags: ['military-foreign-policy', 'war'],
  sources: [
@@ -1494,7 +1478,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { title: 'Barton Hacker, Elements of Controversy: The AEC and Radiation Safety, 1947-1974', url: 'https://www.ucpress.edu/book/9780520083233/elements-of-controversy', type: 'Article' },
    { title: 'Carole Gallagher, American Ground Zero: The Secret Nuclear War', url: 'https://mitpress.mit.edu/9780262571067/american-ground-zero/', type: 'Article' },
    { title: 'Congressional Research Service, Radiation Exposure Compensation Act', url: 'https://sgp.fas.org/crs/misc/R43956.pdf', type: 'Article' },
-   { title: 'Department of Energy, United States Nuclear Tests 1945-1992', url: 'https://www.nnss.gov/docs/docs_LibraryPublications/DOE_NV-209_REV16.pdf', type: 'Article' },
+   { title: 'Department of Energy, United States Nuclear Tests 1945-1992', url: 'https://www.nnss.gov/docs/docs_LibraryPublications/DOE_NV-209_REV16.pdf', type: 'Article' }
  ],
  affiliations: [
    { id: 'lewis-strauss', name: 'Lewis Strauss', type: 'individual', relationship: 'AEC Chairman who authorized Castle Bravo test and suppressed health data', href: '/entities/individuals/lewis-strauss' },
@@ -1507,7 +1491,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { id: 'claudia-peterson', name: 'Claudia Peterson', type: 'individual', relationship: 'Utah downwinder activist, fought for Radiation Exposure Compensation Act', href: '/entities/individuals/claudia-peterson' },
    { id: 'orville-kelly', name: 'Orville Kelly', type: 'individual', relationship: 'Atomic veteran who founded National Association of Atomic Veterans', href: '/entities/individuals/orville-kelly' },
    { id: 'stewart-udall', name: 'Stewart Udall', type: 'individual', relationship: 'Former Interior Secretary who represented downwinders and uranium miners in court', href: '/entities/individuals/stewart-udall' },
-   { id: 'tom-saffer', name: 'Tom Saffer', type: 'individual', relationship: 'Atomic veteran and co-author documenting military nuclear testing exposure', href: '/entities/individuals/tom-saffer' },
+   { id: 'tom-saffer', name: 'Tom Saffer', type: 'individual', relationship: 'Atomic veteran and co-author documenting military nuclear testing exposure', href: '/entities/individuals/tom-saffer' }
  ],
  timeline: [
    { date: 'July 16, 1945', event: 'Trinity Test, first nuclear detonation at Alamogordo, New Mexico. Fallout drifts over ranches and communities' },
@@ -1527,7 +1511,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { date: '1990', event: 'Radiation Exposure Compensation Act (RECA) passed, provides limited payments to some victims' },
    { date: 'September 23, 1992', event: 'Last US nuclear test conducted, testing moratorium begins' },
    { date: '2022', event: 'RECA reauthorization stalls in Congress despite expansion needed for all affected communities' },
-   { date: '2024', event: 'Expanded RECA signed into law after decades of advocacy, covers additional downwinder communities' },
+   { date: '2024', event: 'Expanded RECA signed into law after decades of advocacy, covers additional downwinder communities' }
  ],
  statutes: [
    { code: '42 U.S.C. § 2210: Price-Anderson Nuclear Industries Indemnity Act', description: 'Government nuclear activities caused widespread radiation injuries to civilians' },
@@ -1537,7 +1521,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1001: False Statements', description: 'AEC publicly claimed tests were safe while internal documents showed otherwise' },
    { code: 'Geneva Convention, Protocol I, Article 35', description: 'Methods of warfare causing widespread, long-term environmental damage' },
    { code: '42 U.S.C. § 2011: Atomic Energy Act Violations', description: 'Failure to protect public health and safety in nuclear activities' },
-   { code: 'NEPA: 42 U.S.C. § 4321', description: 'No environmental impact assessment conducted for atmospheric nuclear testing' },
+   { code: 'NEPA: 42 U.S.C. § 4321', description: 'No environmental impact assessment conducted for atmospheric nuclear testing' }
  ],
  defendants: [
    { name: 'United States Government', role: 'Irwin Allen v. United States (downwinder suit)', status: 'charged', notes: 'Initial victory overturned, government claimed sovereign immunity' },
@@ -1547,7 +1531,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { name: 'US Government', role: 'Radiation Exposure Compensation Act claims', status: 'charged', notes: '$2.6 billion paid to ~39,000 claimants (fraction of those affected)' },
    { name: 'Uranium Mining Companies', role: 'Exposing Navajo miners to radiation without protection', status: 'charged', notes: 'Some RECA compensation, most mines never cleaned up' },
    { name: 'US Government', role: 'Failure to clean up Marshall Islands testing sites', status: 'charged', notes: 'Bikini Atoll remains uninhabitable 80 years after testing' },
-   { name: 'AEC/DOE', role: 'Deliberate concealment of radiation health effects', status: 'charged', notes: 'Declassified documents confirm cover-up but no prosecutions' },
+   { name: 'AEC/DOE', role: 'Deliberate concealment of radiation health effects', status: 'charged', notes: 'Declassified documents confirm cover-up but no prosecutions' }
  ],
   },
 };

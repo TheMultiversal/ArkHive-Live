@@ -20,14 +20,13 @@ const investigations_b: Record<string, InvestigationData> = {
  'TOM BARRACK\'S ROLE: Inaugural committee chairman Tom Barrack was charged with acting as an unregistered foreign agent for UAE, using his access to Trump to advance UAE interests. Though acquitted, the case revealed how foreign powers sought influence through the committee.',
  'KUSHNER SAUDI INVESTMENT: Six months after leaving the White House, Jared Kushner\'s newly formed Affinity Partners received $2 billion from the Saudi Public Investment Fund (PIF), chaired by Crown Prince Mohammed bin Salman. The fund\'s screening panel objected, citing Kushner\'s inexperience and concerns about "ichkeptcis inexperience, the fee structure, and risk management practices."The ethics board was overruled by MBS personally. During his White House tenure, Kushner was Saudi Arabia\'s primary contact and defender, including after the Khashoggi murder.',
  'IVANKA TRUMP TRADEMARKS: While serving in the White House, Ivanka Trump received valuable Chinese trademarks for her businesses, including approvals granted while she dined with Chinese President Xi Jinping. The timing of trademark grants correlated with favorable Trump administration actions toward China.',
- 'TRUMP HOTEL WASHINGTON DC: The Old Post Office building, leased from the federal government, became Trump Hotel DC and a center of corruption. Foreign governments booked rooms, lobbyists held events, and those seeking administration favor gathered there. The GSA lease prohibited elected officials from benefiting, yet the conflict was ignored.',
+ 'TRUMP HOTEL WASHINGTON DC: The Old Post Office building, leased from the federal government, became Trump Hotel DC and a center of corruption. Foreign governments booked rooms, lobbyists held events, and those seeking administration favor gathered there. The GSA lease prohibited elected officials from benefiting, yet the conflict was ignored.'
  ],
  tags: ['Bribery', 'Corruption', 'Emoluments', 'Pardons', 'Pay-to-Play', 'Inaugural Committee', 'Kushner', 'Saudi Arabia'],
  sources: [
  { title: 'NY Times: Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'Investigation' },
  { title: 'Trump Pardon Analysis', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'Analysis' },
- { title: 'T-Mobile Trump Hotel Spending', url: 'https://www.washingtonpost.com/politics/t-mobile-spent-195000-at-trumps-hotel-while-lobbying-to-win-government-approval-of-merger-with-sprint/2019/03/05/a4a9c63c-3f5d-11e9-a0d3-1210e58a94cf_story.html', type: 'Investigation' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'T-Mobile Trump Hotel Spending', url: 'https://www.washingtonpost.com/politics/t-mobile-spent-195000-at-trumps-hotel-while-lobbying-to-win-government-approval-of-merger-with-sprint/2019/03/05/a4a9c63c-3f5d-11e9-a0d3-1210e58a94cf_story.html', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Central figure in corruption schemes', href: '/entities/individuals/donald-trump' },
@@ -38,7 +37,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '6', name: 'Mohammed bin Salman', type: 'individual', relationship: 'Approved Kushner investment', href: '/entities/individuals/mohammed-bin-salman' },
  { id: '7', name: 'Steve Bannon', type: 'individual', relationship: 'Pardoned while under indictment', href: '/entities/individuals/steve-bannon' },
  { id: '8', name: 'Elliott Broidy', type: 'individual', relationship: 'RNC finance chair, pardoned', href: '/entities/individuals/elliott-broidy' },
- { id: '9', name: 'Trump Organization', type: 'corporation', relationship: 'Properties received foreign payments', href: '/entities/corporations/trump-organization' },
+ { id: '9', name: 'Trump Organization', type: 'corporation', relationship: 'Properties received foreign payments', href: '/entities/corporations/trump-organization' }
  ],
    eventOriginDate: '2017-01-20',
    lastActivityDate: '2025-03-15',
@@ -53,7 +52,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022-04-10', event: 'NYT reveals Jared Kushner\'s Affinity Partners received $2B from Saudi PIF six months after leaving White House. Saudi screening panel objected; overruled by MBS personally.', type: 'financial' },
      { date: '2022-06', event: 'Tom Barrack, inaugural committee chairman, acquitted of acting as unregistered UAE foreign agent. Trial reveals how foreign powers sought influence through Trump\'s inner circle.', type: 'legal' },
      { date: '2023', event: 'DC Attorney General\'s lawsuit over inaugural committee abuse results in $750K settlement. Trump Hotel DC sold in 2022 for $375M to CGI Merchant Group.', type: 'legal' },
-     { date: '2025', event: 'Second Trump term: pattern continues with foreign government bookings at Trump properties, new questions about emoluments compliance, and expanded family business dealings.', type: 'political' },
+     { date: '2025', event: 'Second Trump term: pattern continues with foreign government bookings at Trump properties, new questions about emoluments compliance, and expanded family business dealings.', type: 'political' }
      ],
  },
   'biological-experimentation': {
@@ -68,17 +67,18 @@ const investigations_b: Record<string, InvestigationData> = {
  'GAIN OF FUNCTION: The US government funded research at foreign laboratories including the Wuhan Institute of Virology. The nature and risks of this research, and potential connections to COVID-19 origins, remain disputed.',
  'PANDEMIC PREPAREDNESS: Despite warnings, the Trump administration disbanded the NSC pandemic response team in 2018. When COVID-19 emerged, the US was unprepared.',
  'COVERUP ALLEGATIONS: There have been allegations that information about pandemic origins and early outbreak details were suppressed for political and diplomatic reasons.',
- 'VACCINE DEVELOPMENT: Operation Warp Speed accelerated vaccine development but also raised questions about safety protocols and informed consent in emergency authorization.',
+ 'VACCINE DEVELOPMENT: Operation Warp Speed accelerated vaccine development but also raised questions about safety protocols and informed consent in emergency authorization.'
  ],
  tags: ['Pandemic', 'Gain of Function', 'COVID-19', 'Wuhan', 'Public Health'],
  sources: [
  { title: 'NIH Gain of Function Research', url: 'https://web.archive.org/web/2024/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Document' },
       { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government Data' },
-   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+ { title: 'CDC: The Tuskegee Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Record' },
+ { title: 'Advisory Committee on Human Radiation Experiments: Final Report', url: 'https://ehss.energy.gov/ohre/roadmap/achre/report.html', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pandemic response', href: '/entities/individuals/donald-trump' },
- { id: '2', name: 'Anthony Fauci', type: 'individual', relationship: 'NIH research oversight', href: '/entities/individuals/anthony-fauci' },
+ { id: '2', name: 'Anthony Fauci', type: 'individual', relationship: 'NIH research oversight', href: '/entities/individuals/anthony-fauci' }
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-12-02',
@@ -89,7 +89,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2019-12', event: 'First cases of novel coronavirus emerged in Wuhan, China; WHO notified on December 31; U.S. intelligence agencies began tracking the outbreak', type: 'default' },
      { date: '2020-01', event: 'Despite intelligence briefings on the virus threat, the Trump administration delayed testing rollout, rejected WHO test kits, and publicly minimized the danger', type: 'critical' },
      { date: '2021-05', event: 'Biden ordered intelligence community review of COVID origins; Wuhan lab leak hypothesis gained renewed credibility as investigation into EcoHealth Alliance grants intensified', type: 'default' },
-     { date: '2023-03', event: 'House Select Subcommittee on the Coronavirus Pandemic subpoenaed EcoHealth Alliance records; DOE and FBI both assessed lab leak as most likely origin with low confidence', type: 'political' },
+     { date: '2023-03', event: 'House Select Subcommittee on the Coronavirus Pandemic subpoenaed EcoHealth Alliance records; DOE and FBI both assessed lab leak as most likely origin with low confidence', type: 'political' }
    ],
  },
   'birther-conspiracy': {
@@ -108,17 +108,18 @@ const investigations_b: Record<string, InvestigationData> = {
  'POLITICAL PURPOSE: The birther conspiracy served to delegitimize the first Black president and galvanize racist opposition. It launched Trump\'s political career and kept him in conservative media for years.',
  'DELAYED "ADMISSION": In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and took credit for "finishing it."',
  'NO APOLOGY: Trump has never apologized to Obama or acknowledged the racist nature of the conspiracy. He has occasionally hinted at reviving it.',
- 'LASTING IMPACT: The birther conspiracy normalized racist attacks on political opponents and demonstrated the power of persistent lies. It established Trump\'s technique of repeated false claims regardless of evidence.',
+ 'LASTING IMPACT: The birther conspiracy normalized racist attacks on political opponents and demonstrated the power of persistent lies. It established Trump\'s technique of repeated false claims regardless of evidence.'
  ],
  tags: ['Birther', 'Obama', 'Racism', 'Conspiracy', 'Birth Certificate', '2011'],
  sources: [
  { title: 'Trump 2011 Birther Interviews', url: 'https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html', type: 'News Archive' },
  { title: 'Obama Birth Certificate Release', url: 'https://obamawhitehouse.archives.gov/blog/2011/04/27/president-obamas-long-form-birth-certificate', type: 'Government Document' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'FactCheck.org: Born in the U.S.A.', url: 'https://www.factcheck.org/2008/08/born-in-the-usa/', type: 'Research' },
+ { title: 'PolitiFact: Timeline of the Birther Movement', url: 'https://www.politifact.com/article/2011/apr/27/timeline-birther-movement/', type: 'Article' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Primary promoter of conspiracy', href: '/entities/individuals/donald-trump' },
- { id: '2', name: 'Barack Obama', type: 'individual', relationship: 'Target of racist conspiracy', href: '/entities/individuals/barack-obama' },
+ { id: '2', name: 'Barack Obama', type: 'individual', relationship: 'Target of racist conspiracy', href: '/entities/individuals/barack-obama' }
  ],
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2017-04-04',
@@ -127,7 +128,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2011', event: 'TRUMP\'S ROLE: Starting in 2011, Trump became the conspiracy\'s most prominent voice.', type: 'default' },
      { date: '2011-04', event: 'He gave countless interviews demanding Obama\'s birth certificate, claimed to have sent investigators to Hawaii, and said "they cannot believe what they\'re finding." In April 2011, Obama released his long-form birth certificate.', type: 'default' },
      { date: '2016', event: 'In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' },
-     { date: '2016-09', event: 'Trump\'s delayed "admission": In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' },
+     { date: '2016-09', event: 'Trump\'s delayed "admission": In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' }
      ],
  },
   'billionaire-enablers': {
@@ -150,15 +151,14 @@ const investigations_b: Record<string, InvestigationData> = {
  'THINK TANK CAPTURE: Heritage Foundation, Cato Institute, American Enterprise Institute, and others are funded by billionaires. Their "research "supports donor priorities. Media treats them as neutral experts.',
  'CLIMATE DENIAL: Fossil fuel billionaires funded decades of climate change denial. The Koch network made opposition to climate action a conservative litmus test. The result: delayed action on an existential threat.',
  'REGULATORY CAPTURE: Billionaire-funded litigation has gutted the regulatory state. Chevron deference, agency authority, consumer protections, all rolled back by judges selected by their networks.',
- 'THE FEEDBACK LOOP: Billionaires fund politicians who cut their taxes, appoint friendly judges, and weaken regulations. The wealth generated funds more political influence. The cycle accelerates inequality.',
+ 'THE FEEDBACK LOOP: Billionaires fund politicians who cut their taxes, appoint friendly judges, and weaken regulations. The wealth generated funds more political influence. The cycle accelerates inequality.'
  ],
  tags: ['Billionaires', 'Koch', 'Dark Money', 'Citizens United', 'Oligarchy', 'Thiel', 'Musk', 'Crow'],
  sources: [
  { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
  { title: 'ProPublica Secret IRS Files', url: 'https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax', type: 'Investigation' },
  { title: 'OpenSecrets Dark Money Tracking', url: 'https://www.opensecrets.org/dark-money', type: 'Research' },
- { title: 'Koch Network Analysis, New Yorker', url: 'https://www.newyorker.com/magazine/2010/08/30/covert-operations', type: 'Investigation' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Koch Network Analysis, New Yorker', url: 'https://www.newyorker.com/magazine/2010/08/30/covert-operations', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Charles Koch', type: 'individual', relationship: 'Founded political network', href: '/entities/individuals/charles-koch' },
@@ -167,14 +167,14 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '4', name: 'Elon Musk', type: 'individual', relationship: 'Turned Twitter into disinfo platform', href: '/entities/individuals/elon-musk' },
  { id: '5', name: 'Leonard Leo', type: 'individual', relationship: 'Dark money operative', href: '/entities/individuals/leonard-leo' },
  { id: '6', name: 'Federalist Society', type: 'organization', relationship: 'Judicial capture network', href: '/entities/organizations/federalist-society' },
- { id: '7', name: 'Heritage Foundation', type: 'organization', relationship: 'Billionaire-funded think tank', href: '/entities/organizations/heritage-foundation' },
+ { id: '7', name: 'Heritage Foundation', type: 'organization', relationship: 'Billionaire-funded think tank', href: '/entities/organizations/heritage-foundation' }
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-01-03',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2014', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' },
-     { date: '2018', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' },
+     { date: '2018', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' }
      ],
  },
   'blackwater-massacre': {
@@ -193,7 +193,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'THE TRIAL AND CONVICTIONS: The trial began in June 2014 in the U.S. District Court for the District of Columbia. Prosecutors presented testimony from 72 witnesses, including 29 Iraqi civilians who traveled to Washington to testify. The jury heard how contractors continued firing even as Iraqis waved white flags, attempted to surrender, or lay wounded on the ground. On October 22, 2014, the jury convicted Nicholas Slatten of first-degree murder (he fired the first shots that killed Ahmed Al Rubia\'iy). Paul Slough, Evan Liberty, and Dustin Heard were convicted of voluntary manslaughter and using machine guns in the commission of a violent crime. Slatten received a life sentence. The other three received 30-year mandatory minimum sentences under federal firearms statutes. At sentencing, Judge Royce Lamberth said the case involved "really, really serious, horrific conduct."',
  'THE TRUMP PARDONS: On December 22, 2020, President Trump pardoned all four convicted Blackwater contractors using his Article II pardon power. The pardons were supported by Erik Prince and lobbied for by Republican allies. The reaction was immediate and global. The UN Working Group on the use of mercenaries stated the pardons "contribute to impunity and embolden others to commit such crimes in the future." The Iraqi government called the pardons a "slap in the face." Ali Kinani\'s father, Mohammed, said: "We see the pardon as a new crime committed against us." The families of the victims received no notice or opportunity to be heard before the pardons were issued. Multiple legal scholars noted the pardons eviscerated the principle that war crimes committed abroad by Americans would be prosecuted under U.S. law, since other countries lack jurisdiction over U.S. contractors.',
  'ERIK PRINCE: Blackwater founder Erik Prince is the heir to the Prince automotive fortune and brother of Betsy DeVos, Trump\'s Secretary of Education. Prince has been a major Republican donor for decades, contributing millions to conservative causes. After the Nisour Square massacre and other scandals, Prince rebranded Blackwater as Xe Services (2009), then sold it to a consortium that renamed it Academi (2011), now part of Constellis Holdings. Prince founded Frontier Services Group, a Hong Kong-based company with ties to Chinese intelligence, and has proposed privatizing the Afghanistan war, creating a "viceroy" system with himself in charge. Despite his contractors committing war crimes, Prince has never been personally charged with any crime. He met with a Russian oligarch in the Seychelles in January 2017 in what investigators suspected was a back-channel communication to the Kremlin.',
- 'THE PRIVATE MILITARY INDUSTRY: At the height of the Iraq War, private military contractors outnumbered U.S. troops. In 2007, approximately 180,000 contractors operated in Iraq, compared to 160,000 uniformed military. The industry existed in a legal gray zone: Military Extraterritorial Jurisdiction Act (MEJA) theoretically extended U.S. law to contractors, but prosecution was rare. Iraqi law did not apply to contractors under Coalition Provisional Authority Order 17, signed by Paul Bremer. This legal vacuum meant that contractors operated with de facto immunity. Blackwater was far from the only company involved in violent incidents; DynCorp, Triple Canopy, and CACI International all faced allegations. But Nisour Square was the most egregious, the most documented, and the most consequential case.',
+ 'THE PRIVATE MILITARY INDUSTRY: At the height of the Iraq War, private military contractors outnumbered U.S. troops. In 2007, approximately 180,000 contractors operated in Iraq, compared to 160,000 uniformed military. The industry existed in a legal gray zone: Military Extraterritorial Jurisdiction Act (MEJA) theoretically extended U.S. law to contractors, but prosecution was rare. Iraqi law did not apply to contractors under Coalition Provisional Authority Order 17, signed by Paul Bremer. This legal vacuum meant that contractors operated with de facto immunity. Blackwater was far from the only company involved in violent incidents; DynCorp, Triple Canopy, and CACI International all faced allegations. But Nisour Square was the most egregious, the most documented, and the most consequential case.'
  ],
  tags: ['Blackwater', 'Iraq', 'War Crimes', 'Erik Prince', 'Trump Pardon', 'Private Military', 'Nisour Square', 'Constellis', 'Academi'],
  sources: [
@@ -204,7 +204,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Jeremy Scahill: "Blackwater: The Rise of the World\'s Most Powerful Mercenary Army"', url: 'https://www.goodreads.com/book/show/535069.Blackwater', type: 'Book' },
  { title: 'House Committee on Oversight: Blackwater Hearing', url: 'https://web.archive.org/web/20071005215218/http://oversight.house.gov/story.asp?ID=1523', type: 'Congressional' },
  { title: 'Bureau of Diplomatic Security: Pattern of Blackwater Incidents (internal memo, reported by Washington Post)', url: 'https://www.washingtonpost.com/', type: 'Government Memo' },
- { title: 'CPA Order 17: Status of Coalition Forces in Iraq', url: 'https://web.archive.org/web/2007/http://www.iraqcoalition.org/regulations/20040627_CPAORD_17_Status_of_Coalition__Rev__with_Annex_A.pdf', type: 'Legal Document' },
+ { title: 'CPA Order 17: Status of Coalition Forces in Iraq', url: 'https://web.archive.org/web/2007/http://www.iraqcoalition.org/regulations/20040627_CPAORD_17_Status_of_Coalition__Rev__with_Annex_A.pdf', type: 'Legal Document' }
  ],
  affiliations: [
  { id: 'erik-prince', name: 'Erik Prince', type: 'individual', relationship: 'Blackwater founder. Heir to Prince automotive fortune. Brother of Betsy DeVos. Major Republican donor. Never charged. Companies rebranded but continue operating.', href: '/entities/individuals/erik-prince' },
@@ -212,7 +212,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: 'betsy-devos', name: 'Betsy DeVos', type: 'individual', relationship: 'Erik Prince\'s sister. Trump Secretary of Education. Prince family are among the largest Republican donors in the U.S.', href: '/entities/individuals/betsy-devos' },
  { id: 'nicholas-slatten', name: 'Nicholas Slatten', type: 'individual', relationship: 'Convicted of first-degree murder for firing the first shots killing Ahmed Al Rubia\'iy. Life sentence. Pardoned by Trump.' },
  { id: 'state-department', name: 'State Department', type: 'agency', relationship: 'Employed Blackwater under diplomatic security contract. Initially granted immunity. Internal memos documented Blackwater\'s pattern of shooting first (83.6% of 195 incidents). Renewed contract despite documented pattern.', href: '/entities/agencies/state-department' },
- { id: 'paul-bremer', name: 'Paul Bremer', type: 'individual', relationship: 'CPA Administrator who signed Order 17 granting contractors immunity from Iraqi law, creating the legal vacuum in which Blackwater operated.' },
+ { id: 'paul-bremer', name: 'Paul Bremer', type: 'individual', relationship: 'CPA Administrator who signed Order 17 granting contractors immunity from Iraqi law, creating the legal vacuum in which Blackwater operated.' }
  ],
    eventOriginDate: '2007-09-16',
    lastActivityDate: '2020-12-22',
@@ -233,7 +233,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2014-06', event: 'Trial begins in D.C. District Court. 72 witnesses including 29 Iraqi civilians travel to Washington to testify' },
      { date: '2014-10-22', event: 'Verdict: Slatten convicted of first-degree murder (life). Slough, Liberty, Heard convicted of voluntary manslaughter (30 years each)', type: 'critical' },
      { date: '2019-08', event: 'D.C. Circuit throws out Slatten\'s first-degree murder conviction, orders new trial. Upholds manslaughter convictions' },
-     { date: '2020-12-22', event: 'Trump pardons all four convicted Blackwater contractors. UN condemns pardons as "affront to justice." Iraqi families devastated. No notice given to victims', type: 'critical' },
+     { date: '2020-12-22', event: 'Trump pardons all four convicted Blackwater contractors. UN condemns pardons as "affront to justice." Iraqi families devastated. No notice given to victims', type: 'critical' }
    ],
  },
   'bush-dynasty': {
@@ -254,20 +254,19 @@ const investigations_b: Record<string, InvestigationData> = {
  'JEB BUSH AND 2000: Jeb Bush was Florida governor during the 2000 election dispute. His Secretary of State, Katherine Harris, oversaw the election while co-chairing Bush\'s campaign. The conflicts of interest were glaring.',
  'SAUDI CONNECTIONS: The Bush family has long-standing business and personal relationships with the Saudi royal family. After 9/11, Saudis were allowed to fly out of the U.S. while airspace was closed. 15 of 19 hijackers were Saudi.',
  'REVOLVING DOOR: Bush family members and associates move between government, defense contractors, and private equity. The Carlyle Group, where George H.W. Bush worked, profited from the wars his son launched.',
- 'DYNASTY POWER: Two presidents from one family (only the second after Adams) represents concerning concentration of power. Family wealth, connections, and name recognition created a political inheritance that undermines meritocracy.',
+ 'DYNASTY POWER: Two presidents from one family (only the second after Adams) represents concerning concentration of power. Family wealth, connections, and name recognition created a political inheritance that undermines meritocracy.'
  ],
  tags: ['Bush Family', 'Political Dynasty', 'Nazi Banking', 'Iraq War', 'Saudi Arabia', 'CIA', '2000 Election'],
  sources: [
  { title: 'How Bush\'s Grandfather Helped Hitler\'s Rise, Guardian', url: 'https://www.theguardian.com/world/2004/sep/25/usa.secondworldwar', type: 'Investigation' },
  { title: 'Family of Secrets by Russ Baker', url: 'https://www.goodreads.com/book/show/3007463-family-of-secrets', type: 'Book' },
- { title: 'National Archives, UBC Seizure', url: 'https://www.archives.gov/research/guide-fed-records/groups/131.html', type: 'Government Records' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'National Archives, UBC Seizure', url: 'https://www.archives.gov/research/guide-fed-records/groups/131.html', type: 'Government Records' }
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: '43rd President, Iraq War', href: '/entities/individuals/george-w-bush' },
  { id: '2', name: 'George H.W. Bush', type: 'individual', relationship: '41st President, CIA Director', href: '/entities/individuals/george-hw-bush' },
  { id: '3', name: 'Jeb Bush', type: 'individual', relationship: 'Florida Governor during 2000', href: '/entities/individuals/jeb-bush' },
- { id: '4', name: 'CIA', type: 'agency', relationship: 'H.W. Bush served as Director', href: '/entities/agencies/cia' },
+ { id: '4', name: 'CIA', type: 'agency', relationship: 'H.W. Bush served as Director', href: '/entities/agencies/cia' }
  ],
    eventOriginDate: '1942-01-01',
    lastActivityDate: '2022-05-13',
@@ -276,7 +275,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1942', event: 'PRESCOTT BUSH AND NAZI BANKING: Prescott Bush (grandfather of George W.) was a director of Union Banking Corporation, which had its assets seized in 1942 under the Trading with the Enemy Act', type: 'default' },
      { date: '1976', event: 'BUSH: The elder Bush served as CIA Director (1976-77), Vice President under Reagan (during Iran-Contra), and President', type: 'political' },
      { date: '2000', event: 'BUSH: The younger Bush became president through the contested 2000 election decided by the Supreme Court after Florida (where brother Jeb was governor) stopped counting votes', type: 'legal' },
-     { date: '2000', event: 'JEB BUSH AND 2000: Jeb Bush was Florida governor during the 2000 election dispute', type: 'political' },
+     { date: '2000', event: 'JEB BUSH AND 2000: Jeb Bush was Florida governor during the 2000 election dispute', type: 'political' }
    ],
  },
   'bangladesh-genocide': {
@@ -299,20 +298,21 @@ const investigations_b: Record<string, InvestigationData> = {
  'AFTERMATH: Bangladesh achieved independence, but the trauma endured. War criminals from 1971 remained powerful for decades. Trials for genocide perpetrators only began in 2010.',
  'AMERICAN AMNESIA: The U.S. role in enabling the Bangladesh genocide is largely forgotten. It doesn\'t fit narratives of American benevolence. The Blood Telegram is remembered; the policy it criticized is not.',
  'PATTERN OF COMPLICITY: Bangladesh shows a recurring pattern: U.S. strategic interests trump human rights concerns. Whether in Bangladesh, East Timor, or elsewhere, American policy has repeatedly enabled genocide when convenient.',
- 'JUSTICE DELAYED: Many perpetrators died without accountability. The international community failed to establish consequences for genocide. Impunity for 1971 encouraged future atrocities.',
+ 'JUSTICE DELAYED: Many perpetrators died without accountability. The international community failed to establish consequences for genocide. Impunity for 1971 encouraged future atrocities.'
  ],
  tags: ['Bangladesh', 'Genocide', '1971', 'Pakistan', 'Nixon', 'Kissinger', 'Blood Telegram', 'War Crimes'],
  sources: [
  { title: 'The Blood Telegram, Gary Bass', url: 'https://www.penguinrandomhouse.com/books/214038/the-blood-telegram-by-gary-j-bass/', type: 'Book' },
  { title: 'Nixon-Kissinger Tapes on Bangladesh', url: 'https://nsarchive.gwu.edu/', type: 'Primary Document' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Yale Genocide Studies: Bangladesh 1971', url: 'https://gsp.yale.edu/case-studies/bangladesheast-pakistan', type: 'Research' },
+ { title: 'National Security Archive: Nixon/Kissinger and the Blood Telegram', url: 'https://nsarchive.gwu.edu/briefing-book/kissinger/2022-03-25/nixon-kissinger-blood-telegram', type: 'Government Record' }
  ],
  affiliations: [
  { id: '1', name: 'Richard Nixon', type: 'individual', relationship: 'Supported Pakistan during genocide', href: '/entities/individuals/richard-nixon' },
  { id: '2', name: 'Henry Kissinger', type: 'individual', relationship: 'Architect of pro-Pakistan policy', href: '/entities/individuals/henry-kissinger' },
  { id: '3', name: 'Yahya Khan', type: 'individual', relationship: 'Pakistani leader who ordered genocide', href: '/entities/individuals/yahya-khan' },
  { id: '4', name: 'State Department', type: 'agency', relationship: 'Blood Telegram originated here', href: '/entities/agencies/state-department' },
- { id: '5', name: 'Archer Blood', type: 'individual', relationship: 'Diplomat who documented genocide', href: '/entities/individuals/archer-blood' },
+ { id: '5', name: 'Archer Blood', type: 'individual', relationship: 'Diplomat who documented genocide', href: '/entities/individuals/archer-blood' }
  ],
    eventOriginDate: '1971-01-01',
    lastActivityDate: '2013-02-12',
@@ -322,7 +322,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1971', event: 'Impunity for 1971 encouraged future atrocities', type: 'default' },
      { date: '1971-03-25', event: 'OPERATION SEARCHLIGHT: On March 25, 1971, Pakistani military forces launched Operation Searchlight against Bengali civilians', type: 'default' },
      { date: '1971-12-01', event: 'INDIA\'S INTERVENTION: India eventually intervened militarily in December 1971, defeating Pakistani forces and enabling Bangladesh\'s independence', type: 'default' },
-     { date: '2010', event: 'Trials for genocide perpetrators only began in 2010', type: 'legal' },
+     { date: '2010', event: 'Trials for genocide perpetrators only began in 2010', type: 'legal' }
    ],
  },
   'boeing-safety-crisis': {
@@ -340,19 +340,18 @@ const investigations_b: Record<string, InvestigationData> = {
  'REGULATORY CAPTURE: Boeing was allowed to self-certify safety. FAA delegated oversight to Boeing employees. Managers overruled engineers. Profit timelines trumped safety concerns.',
  'CRIMINAL CHARGES: In January 2021, Boeing was charged with conspiracy to defraud the US. They agreed to pay $2.5 billion including $500M to crash victims\' families. No executives were jailed.',
  'COVER-UP CONTINUES: In January 2024, a door plug blew out of a MAX 9 mid-flight. Boeing quality problems persist. Whistleblowers continue to come forward about safety shortcuts.',
- 'DEATHS WITHOUT ACCOUNTABILITY: 346 people died. Families got settlements. Executives kept their jobs and bonuses. The corporate culture that killed remains unchanged.',
+ 'DEATHS WITHOUT ACCOUNTABILITY: 346 people died. Families got settlements. Executives kept their jobs and bonuses. The corporate culture that killed remains unchanged.'
  ],
  tags: ['Boeing', '737 MAX', 'Corporate Crime', 'FAA', 'Aviation Safety', 'Regulatory Capture'],
  sources: [
  { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
  { title: 'House Committee Boeing Investigation', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
- { title: 'Internal Boeing Documents', url: 'https://www.nytimes.com/2020/01/09/business/boeing-737-messages.html', type: 'News Investigation' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'Internal Boeing Documents', url: 'https://www.nytimes.com/2020/01/09/business/boeing-737-messages.html', type: 'News Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Boeing', type: 'corporation', relationship: 'Manufacturer, $2.5B fine', href: '/entities/corporations/boeing' },
  { id: '2', name: 'Dennis Muilenburg', type: 'individual', relationship: 'Former CEO, oversaw cover-up', href: '/entities/individuals/dennis-muilenburg' },
- { id: '3', name: 'FAA', type: 'agency', relationship: 'Failed to regulate', href: '/entities/agencies/faa' },
+ { id: '3', name: 'FAA', type: 'agency', relationship: 'Failed to regulate', href: '/entities/agencies/faa' }
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-04-29',
@@ -361,7 +360,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2018-10-29', event: 'THE CRASHES: Lion Air Flight 610 crashed October 29, 2018, killing 189', type: 'critical' },
      { date: '2019-03-10', event: 'Ethiopian Airlines Flight 302 crashed March 10, 2019, killing 157', type: 'critical' },
      { date: '2021', event: 'CRIMINAL CHARGES: In January 2021, Boeing was charged with conspiracy to defraud the US', type: 'financial' },
-     { date: '2024', event: 'COVER-UP CONTINUES: In January 2024, a door plug blew out of a MAX 9 mid-flight', type: 'default' },
+     { date: '2024', event: 'COVER-UP CONTINUES: In January 2024, a door plug blew out of a MAX 9 mid-flight', type: 'default' }
    ],
  },
   'boeing-criminal-enterprise': {
@@ -385,15 +384,14 @@ const investigations_b: Record<string, InvestigationData> = {
  'THE EXECUTIVES: Dennis Muilenburg collected tens of millions while 346 died. Dave Calhoun followed the same playbook. Board members from Goldman Sachs, GE, and other corporations enabled it. They all escaped accountability.',
  'ICC ROME STATUTE: Article 7, Crimes Against Humanity. Article 7(1)(a) Murder. Article 7(1)(k) Other inhumane acts. The systematic pattern of knowing conduct causing death, affecting populations across multiple countries, meets the threshold.',
  'FEDERAL CRIMES: 18 U.S.C. § 1111, Murder. 18 U.S.C. § 1112, Involuntary Manslaughter. 18 U.S.C. § 371, Conspiracy. 18 U.S.C. § 1341/1343, Mail/Wire Fraud. 18 U.S.C. § 1001, False Statements. 18 U.S.C. § 1519, Obstruction (Destroying Records).',
- 'WHAT JUSTICE REQUIRES: Criminal prosecution of executives who made decisions that killed people. Prison sentences, not settlements. Victim families deserve to see accountability. The dead deserve more than money.',
+ 'WHAT JUSTICE REQUIRES: Criminal prosecution of executives who made decisions that killed people. Prison sentences, not settlements. Victim families deserve to see accountability. The dead deserve more than money.'
  ],
  tags: ['Boeing', 'Corporate Crime', 'Mass Murder', 'Regulatory Capture', 'FAA', 'ICC', 'Crimes Against Humanity', 'Deferred Prosecution'],
  sources: [
  { title: 'House Committee Boeing Investigation Final Report', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
  { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Court Filing' },
  { title: 'Boeing Internal Communications, Congressional Record', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Documents' },
- { title: 'NTSB Alaska Airlines 1282 Investigation', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Government Report' },
-   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+ { title: 'NTSB Alaska Airlines 1282 Investigation', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Boeing', type: 'corporation', relationship: 'The criminal enterprise', href: '/entities/corporations/boeing' },
@@ -405,7 +403,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '7', name: 'Michael Stumo', type: 'individual', relationship: 'Father fighting for justice', href: '/entities/individuals/michael-stumo' },
  { id: '8', name: 'Ed Pierson', type: 'individual', relationship: 'Whistleblower exposing the truth', href: '/entities/individuals/ed-pierson' },
  { id: '9', name: 'John Barnett', type: 'individual', relationship: 'Whistleblower, died during testimony', href: '/entities/individuals/john-barnett' },
- { id: '10', name: 'Spirit AeroSystems', type: 'corporation', relationship: 'Troubled supplier', href: '/entities/corporations/spirit-aerosystems' },
+ { id: '10', name: 'Spirit AeroSystems', type: 'corporation', relationship: 'Troubled supplier', href: '/entities/corporations/spirit-aerosystems' }
  ],
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2024-01-01',
@@ -413,7 +411,7 @@ const investigations_b: Record<string, InvestigationData> = {
       timeline: [
      { date: '1997', event: 'THE MCDONNELL DOUGLAS MERGER (1997): Boeing merged with McDonnell Douglas in 1997.', type: 'default' },
      { date: '2021', event: 'DEFERRED PROSECUTION (2021): Boeing paid $2.5 billion.', type: 'legal' },
-     { date: '2024', event: 'DPA BREACH (2024): DOJ found Boeing breached the DPA.', type: 'default' },
+     { date: '2024', event: 'DPA BREACH (2024): DOJ found Boeing breached the DPA.', type: 'default' }
      ],
  },
   'boeing-whistleblower-retaliation': {
@@ -435,21 +433,20 @@ const investigations_b: Record<string, InvestigationData> = {
  'THE PATTERN: Raise concerns → Be ignored → Retaliation → Concerns proven correct by death → Boeing pays fine → No executive jailed → Next whistleblower → Repeat.',
  'OSHA FINDINGS: OSHA found Boeing retaliated against John Barnett. They found Boeing has "a corporate culture that discourages raising safety concerns."The findings came too late.',
  'FEDERAL PROTECTIONS: AIR21 (Wendell H. Ford Aviation Investment and Reform Act) protects aviation whistleblowers. 18 U.S.C. § 1514A (Sarbanes-Oxley) protects corporate whistleblowers. Boeing violated both.',
- 'WHAT BOEING FEARS: Whistleblowers expose what Boeing hides. Quality problems. Safety shortcuts. Management failures. Each whistleblower threatens the stock price. So Boeing silences them.',
+ 'WHAT BOEING FEARS: Whistleblowers expose what Boeing hides. Quality problems. Safety shortcuts. Management failures. Each whistleblower threatens the stock price. So Boeing silences them.'
  ],
  tags: ['Whistleblower', 'John Barnett', 'Ed Pierson', 'Boeing', 'Retaliation', 'Safety', '787 Dreamliner'],
  sources: [
  { title: 'OSHA Barnett Retaliation Ruling', url: 'https://www.osha.gov/', type: 'Government Report' },
  { title: 'Ed Pierson Congressional Testimony', url: 'https://transportation.house.gov/committee-activity/hearings/hearing-on-the-boeing-787-dreamliner', type: 'Government Testimony' },
- { title: 'John Barnett Death Coverage', url: 'https://www.bbc.com/news/business-68534703', type: 'News Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'John Barnett Death Coverage', url: 'https://www.bbc.com/news/business-68534703', type: 'News Report' }
  ],
  affiliations: [
  { id: '1', name: 'John Barnett', type: 'individual', relationship: 'Died during testimony', href: '/entities/individuals/john-barnett' },
  { id: '2', name: 'Ed Pierson', type: 'individual', relationship: 'Warned before Lion Air', href: '/entities/individuals/ed-pierson' },
  { id: '3', name: 'Curtis Ewbank', type: 'individual', relationship: 'Ethics complaint about MCAS', href: '/entities/individuals/curtis-ewbank' },
  { id: '4', name: 'Sam Salehpour', type: 'individual', relationship: 'Current 787 whistleblower', href: '/entities/individuals/sam-salehpour' },
- { id: '5', name: 'Boeing', type: 'corporation', relationship: 'Serial retaliator', href: '/entities/corporations/boeing' },
+ { id: '5', name: 'Boeing', type: 'corporation', relationship: 'Serial retaliator', href: '/entities/corporations/boeing' }
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-10-11',
@@ -458,7 +455,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2018-06', event: 'PIERSON\'S WARNINGS: In June 2018, Pierson emailed: "I am requesting that you shutdown the production line until we have a chance to regroup and reset." Management declined.', type: 'default' },
      { date: '2019', event: 'In 2019, OSHA ruled Boeing retaliated against him.', type: 'default' },
      { date: '2024', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
-     { date: '2024-03-09', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
+     { date: '2024-03-09', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' }
      ],
  },
   'big-tobacco-lies': {
@@ -478,7 +475,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'RACKETEERING VERDICT: In United States v. Philip Morris (2006), Judge Gladys Kessler of the D.C. District Court issued a 1,682-page opinion finding that the major tobacco companies had violated the Racketeer Influenced and Corrupt Organizations Act (RICO). She found they had "lied, misrepresented, and deceived the American public" about the health effects of smoking for over 50 years. She found they had "marketed to children," "manipulated nicotine delivery," and "suppressed research." She ordered them to publish corrective statements admitting they "deliberately deceived the public" and that "cigarette companies intentionally designed cigarettes to make them more addictive." These corrective statements were not actually published until 2017, after 11 years of appeals.',
  'MASTER SETTLEMENT AGREEMENT: In November 1998, 46 states, 5 territories, and Washington D.C. reached the Master Settlement Agreement with the four largest tobacco companies, valued at $206 billion over 25 years, the largest civil litigation settlement in American history. But the agreement was structured to allow companies to raise prices to cover the payments. Philip Morris stock rose after the settlement was announced. Companies remained massively profitable. Much of the settlement money was diverted to general state budgets rather than anti-smoking programs. The agreement did not include criminal penalties for any executive. The companies called it "the cost of doing business."',
  'GLOBAL EXPANSION: As domestic regulation tightened, tobacco companies pivoted to aggressive expansion in Asia, Africa, and Latin America, where regulation was weaker and populations were younger. Philip Morris International (spun off in 2008) now generates most revenue from developing nations. British American Tobacco targets Africa explicitly. Companies lobby against health warnings, taxes, and advertising bans in developing countries. The WHO estimates that 80% of the world\'s 1.3 billion tobacco users now live in low- and middle-income countries. The industry created a global death machine and simply moved it to where oversight was weakest.',
- 'THE DEATH TOLL: Tobacco is the deadliest consumer product in human history. The WHO estimates tobacco killed approximately 100 million people in the 20th century and will kill 1 billion in the 21st century if current trends continue. It kills over 8 million people per year: 7 million from direct use and 1.3 million from secondhand smoke. In the United States alone, 480,000 die annually. The companies knew, lied, profited, and continue to operate. No executive has ever served a day in prison.',
+ 'THE DEATH TOLL: Tobacco is the deadliest consumer product in human history. The WHO estimates tobacco killed approximately 100 million people in the 20th century and will kill 1 billion in the 21st century if current trends continue. It kills over 8 million people per year: 7 million from direct use and 1.3 million from secondhand smoke. In the United States alone, 480,000 die annually. The companies knew, lied, profited, and continue to operate. No executive has ever served a day in prison.'
  ],
  tags: ['Big Tobacco', 'Cancer', 'Nicotine Addiction', 'RICO', 'Corporate Fraud', 'Public Health', 'Perjury', 'Child Marketing'],
  sources: [
@@ -490,7 +487,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Merchants of Doubt by Naomi Oreskes and Erik Conway', url: 'https://www.merchantsofdoubt.org/', type: 'Book' },
  { title: 'Allan Brandt: "The Cigarette Century" (Harvard University Press)', url: 'https://www.hup.harvard.edu/books/9780674036413', type: 'Book' },
  { title: 'Campaign for Tobacco-Free Kids', url: 'https://www.tobaccofreekids.org/', type: 'Advocacy' },
- { title: 'The Tobacco Atlas (American Cancer Society)', url: 'https://tobaccoatlas.org/', type: 'Research' },
+ { title: 'The Tobacco Atlas (American Cancer Society)', url: 'https://tobaccoatlas.org/', type: 'Research' }
  ],
  affiliations: [
  { id: 'philip-morris', name: 'Philip Morris / Altria', type: 'corporation', relationship: 'Largest tobacco company. Conducted internal research proving cancer link in 1960s. Developed ammonia "freebasing" technology to enhance nicotine delivery. RICO defendant. Paid billions in settlements. Rebranded to Altria Group in 2003.', href: '/entities/corporations/philip-morris' },
@@ -498,7 +495,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: 'brown-and-williamson', name: 'Brown & Williamson', type: 'corporation', relationship: 'Internal scientist wrote "nicotine is addictive" in 1963. Kool brand targeted Black communities. Whistleblower Jeffrey Wigand exposed their lies. RICO defendant.' },
  { id: 'lorillard', name: 'Lorillard', type: 'corporation', relationship: 'Newport brand. Targeted young smokers and communities of color. RICO defendant. Acquired by R.J. Reynolds in 2015.' },
  { id: 'british-american-tobacco', name: 'British American Tobacco', type: 'corporation', relationship: 'Global expansion arm. Aggressively targets developing nations in Africa and Asia. Parent company of Brown & Williamson.' },
- { id: 'hill-knowlton', name: 'Hill & Knowlton', type: 'corporation', relationship: 'PR firm hired in 1953 to design the doubt-manufacturing strategy. Created the "Frank Statement" that launched the conspiracy.' },
+ { id: 'hill-knowlton', name: 'Hill & Knowlton', type: 'corporation', relationship: 'PR firm hired in 1953 to design the doubt-manufacturing strategy. Created the "Frank Statement" that launched the conspiracy.' }
  ],
    eventOriginDate: '1953-12-15',
    lastActivityDate: '2025-07-15',
@@ -519,7 +516,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2006-08-17', event: 'Judge Gladys Kessler issues 1,682-page RICO verdict: tobacco companies engaged in 50+ year "scheme to defraud" the American public', type: 'critical' },
      { date: '2009-06-22', event: 'Family Smoking Prevention and Tobacco Control Act gives FDA authority to regulate tobacco products for the first time' },
      { date: '2017-11-26', event: 'After 11 years of appeals, tobacco companies forced to publish corrective statements admitting they "deliberately deceived the American public"' },
-     { date: '2020', event: 'E-cigarette epidemic. Juul (partially owned by Altria) addicts a new generation of young Americans. The denial playbook continues' },
+     { date: '2020', event: 'E-cigarette epidemic. Juul (partially owned by Altria) addicts a new generation of young Americans. The denial playbook continues' }
    ],
  },
   'bhopal-disaster': {
@@ -538,7 +535,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'THE SETTLEMENT: In February 1989, the Indian Supreme Court approved a settlement of $470 million between Union Carbide and the Indian government, negotiated without input from victims. Adjusted for the number of claimants, this amounted to roughly $500 per person. Victims groups called it "blood money." By comparison, the Deepwater Horizon oil spill settlement in 2012 was $20.8 billion with zero confirmed human deaths. The settlement also quashed all criminal proceedings, though the Indian Supreme Court later reinstated them. Union Carbide reported the settlement had no material impact on its financial condition. Its stock price remained stable.',
  'DOW CHEMICAL AND CORPORATE SUCCESSION: Dow Chemical acquired Union Carbide in 2001 for $11.6 billion. Dow has consistently refused to accept any liability for the Bhopal disaster. When asked about Bhopal, Dow states that "the Bhopal tragedy was the result of sabotage" and that Union Carbide settled the matter in 1989. Dow has refused to appear before Indian courts, clean up the factory site, or provide medical care to survivors. In 2004, a BBC World Service journalist posing as a Dow spokesperson announced on live television that Dow would accept full responsibility and pay $12 billion in compensation. Dow\'s stock dropped $2 billion in 23 minutes before the hoax was revealed. The incident demonstrated the precise financial cost that Dow is avoiding.',
  'ONGOING CONTAMINATION: The abandoned Union Carbide factory site has never been properly remediated. Toxic chemicals including mercury, lead, chromium, and chlorinated solvents have leached into groundwater for over four decades. Studies by the Centre for Science and Environment and Greenpeace have found contamination at levels 6,000 times WHO safety limits in wells near the factory. Residents of surrounding neighborhoods consume this water daily. Cancer rates, birth defects, and neurological disorders in the area remain dramatically elevated. Despite multiple court orders, neither Union Carbide, Dow Chemical, nor the Indian government has completed a comprehensive cleanup. The disaster is still happening.',
- 'JUSTICE DENIED: In June 2010, 26 years after the disaster, an Indian court convicted seven former Indian employees of Union Carbide India Limited of "death by negligence" under Section 304A of the Indian Penal Code. The maximum sentence was two years imprisonment. All seven were released on bail immediately. No American Union Carbide executive faced any criminal consequence. This outcome, the conviction of mid-level Indian employees while American corporate leadership faced nothing, is regarded as one of the clearest examples of how multinational corporations operate above the law in developing nations.',
+ 'JUSTICE DENIED: In June 2010, 26 years after the disaster, an Indian court convicted seven former Indian employees of Union Carbide India Limited of "death by negligence" under Section 304A of the Indian Penal Code. The maximum sentence was two years imprisonment. All seven were released on bail immediately. No American Union Carbide executive faced any criminal consequence. This outcome, the conviction of mid-level Indian employees while American corporate leadership faced nothing, is regarded as one of the clearest examples of how multinational corporations operate above the law in developing nations.'
  ],
  tags: ['Bhopal', 'Union Carbide', 'Industrial Disaster', 'Warren Anderson', 'Dow Chemical', 'Environmental Crime', 'Corporate Impunity', 'India'],
  sources: [
@@ -549,13 +546,13 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Indian Supreme Court - Union Carbide Settlement Order (1989)', url: 'https://indiankanoon.org/doc/1344095/', type: 'Court Filing' },
  { title: 'Centre for Science and Environment: Bhopal Groundwater Study', url: 'https://www.cseindia.org/', type: 'Research' },
  { title: 'Greenpeace: The Bhopal Legacy - Toxic Contamination at the Former Union Carbide Factory', url: 'https://www.greenpeace.org/international/', type: 'NGO Report' },
- { title: 'Ingrid Eckerman: "The Bhopal Saga" (University Press)', url: 'https://www.goodreads.com/book/show/1648453.The_Bhopal_Saga', type: 'Book' },
+ { title: 'Ingrid Eckerman: "The Bhopal Saga" (University Press)', url: 'https://www.goodreads.com/book/show/1648453.The_Bhopal_Saga', type: 'Book' }
  ],
  affiliations: [
  { id: 'union-carbide', name: 'Union Carbide', type: 'corporation', relationship: 'Owner and operator of the Bhopal plant. Systematically cut safety costs. CEO Warren Anderson fled India. Settled for $470M. Acquired by Dow Chemical in 2001.' },
  { id: 'dow-chemical', name: 'Dow Chemical', type: 'corporation', relationship: 'Acquired Union Carbide in 2001 for $11.6B. Refuses to accept Bhopal liability, clean the site, or appear in Indian courts. Claims matter was "settled."', href: '/entities/corporations/dow-chemical' },
  { id: 'warren-anderson', name: 'Warren Anderson', type: 'individual', relationship: 'Union Carbide CEO. Arrested in Bhopal, released on bail, fled India permanently. U.S. refused extradition. Died in 2014 without facing trial.' },
- { id: 'indian-government', name: 'Government of India', type: 'organization', relationship: 'Approved $470M settlement without victim input. Failed to extradite Anderson. Failed to enforce site cleanup. 2010 convictions resulted in maximum 2-year sentences.' },
+ { id: 'indian-government', name: 'Government of India', type: 'organization', relationship: 'Approved $470M settlement without victim input. Failed to extradite Anderson. Failed to enforce site cleanup. 2010 convictions resulted in maximum 2-year sentences.' }
  ],
    eventOriginDate: '1984-12-03',
    lastActivityDate: '2025-07-15',
@@ -575,7 +572,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2004', event: 'BBC hoax: fake Dow spokesperson announces $12 billion compensation on live TV. Dow stock drops $2 billion in 23 minutes before retraction' },
      { date: '2010-06-07', event: 'Indian court convicts 7 Indian employees of negligence, maximum 2-year sentence. All released on bail. No American charged', type: 'critical' },
      { date: '2014-09-29', event: 'Warren Anderson dies at 92 in Vero Beach, Florida, never having faced trial for the deaths of thousands' },
-     { date: '2024', event: '40th anniversary. Factory site still not cleaned. Groundwater still contaminated. Children still born with defects. Justice still denied' },
+     { date: '2024', event: '40th anniversary. Factory site still not cleaned. Groundwater still contaminated. Children still born with defects. Justice still denied' }
    ],
  },
   'bank-discrimination': {
@@ -591,7 +588,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Wells Fargo became the face of modern lending discrimination when the DOJ filed a landmark $175 million settlement in 2012, at that time the largest fair lending settlement in history. Internal documents revealed that loan officers referred to subprime mortgages targeted at Black borrowers as "ghetto loans" and called Black customers "mud people." Between 2004 and 2009, Wells Fargo steered over 30,000 qualified Black and Latino borrowers into higher-cost subprime loans when similarly qualified white borrowers received prime rates. JPMorgan Chase paid $55 million in 2017 to settle allegations that it charged Black and Hispanic borrowers higher rates on over 53,000 mortgages. Bank of America paid $335 million in 2011 to settle Countrywide (which it acquired) discriminatory lending charges affecting over 200,000 minority borrowers.',
  'The digital revolution has not eliminated banking discrimination; it has merely given it new mechanisms. A 2021 study published in the Journal of Financial Economics found that algorithmic lending systems charged Black and Hispanic borrowers 5.3 basis points higher than white borrowers with identical credit profiles, generating $765 million in excess interest annually. Apple Card\'s algorithm was investigated by New York regulators in 2019 after offering women lower credit limits than men with identical financial profiles. A UC Berkeley study found that both fintech and traditional lenders charged minority borrowers higher mortgage rates, with fintech lenders discriminating 40% less than face-to-face lenders but still discriminating significantly. The algorithms inherit and perpetuate historical patterns because they are trained on data shaped by decades of discriminatory lending.',
  'The regulatory response to banking discrimination has been inconsistent and often performative. The Community Reinvestment Act of 1977 was designed to combat redlining but has been weakened by regulatory rollbacks and lacks meaningful enforcement teeth. The CFPB under the Obama administration brought major fair lending cases, but the Trump administration dramatically curtailed enforcement, stripping the Office of Fair Lending of its enforcement authority in 2018. The Biden CFPB restored some enforcement capacity, but the structural problem persists: banks find discrimination profitable. Settlements typically represent a fraction of the profits generated by discriminatory practices, creating a cost-of-doing-business calculation rather than a genuine deterrent.',
- 'The cumulative impact of banking discrimination is staggering and quantifiable. The Federal Reserve Survey of Consumer Finances shows that median white family wealth ($188,200) is nearly eight times that of median Black family wealth ($24,100). The homeownership gap between Black and white Americans is larger today than before the Fair Housing Act was passed in 1968. Black homeownership currently stands at about 44% compared to 74% for white households. A 2020 Brookings study estimated that homes in majority-Black neighborhoods are undervalued by an average of $48,000, representing $156 billion in cumulative losses. These are not merely statistics; they represent the compounded cost of generations of institutional racism embedded in the financial system that shapes every aspect of economic life in America.',
+ 'The cumulative impact of banking discrimination is staggering and quantifiable. The Federal Reserve Survey of Consumer Finances shows that median white family wealth ($188,200) is nearly eight times that of median Black family wealth ($24,100). The homeownership gap between Black and white Americans is larger today than before the Fair Housing Act was passed in 1968. Black homeownership currently stands at about 44% compared to 74% for white households. A 2020 Brookings study estimated that homes in majority-Black neighborhoods are undervalued by an average of $48,000, representing $156 billion in cumulative losses. These are not merely statistics; they represent the compounded cost of generations of institutional racism embedded in the financial system that shapes every aspect of economic life in America.'
  ],
  tags: ['Redlining', 'Fair Lending', 'Algorithmic Bias', 'Racial Wealth Gap', 'Subprime Lending', 'Civil Rights'],
  sources: [
@@ -599,12 +596,12 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'CFPB Fair Lending Reports', url: 'https://www.consumerfinance.gov/fair-lending/', type: 'Government' },
  { title: 'National Community Reinvestment Coalition', url: 'https://ncrc.org/', type: 'Report' },
  { title: 'Federal Reserve Survey of Consumer Finances', url: 'https://www.federalreserve.gov/econres/scfindex.htm', type: 'Government' },
- { title: 'Brookings Institution - Devaluation of Assets in Black Neighborhoods', url: 'https://www.brookings.edu/', type: 'Report' },
+ { title: 'Brookings Institution - Devaluation of Assets in Black Neighborhoods', url: 'https://www.brookings.edu/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Paid $55 million in 2017 to settle DOJ allegations of charging Black and Hispanic mortgage borrowers higher rates on over 53,000 loans', href: '/entities/corporations/jpmorgan-chase' },
  { id: '2', name: 'Wells Fargo', type: 'corporation', relationship: 'Paid $175 million in 2012 landmark DOJ settlement for steering 30,000+ qualified minority borrowers into subprime "ghetto loans"; employees used racial slurs in internal communications', href: '/entities/corporations/wells-fargo' },
- { id: '3', name: 'Bank of America', type: 'corporation', relationship: 'Paid $335 million in 2011 to settle Countrywide discriminatory lending charges affecting 200,000+ minority borrowers', href: '/entities/corporations/bank-of-america' },
+ { id: '3', name: 'Bank of America', type: 'corporation', relationship: 'Paid $335 million in 2011 to settle Countrywide discriminatory lending charges affecting 200,000+ minority borrowers', href: '/entities/corporations/bank-of-america' }
  ],
    eventOriginDate: '1934-06-27',
    lastActivityDate: '2025-10-03',
@@ -615,7 +612,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1977-10-12', event: 'Community Reinvestment Act enacted to combat redlining by requiring banks to meet credit needs of all communities they serve', type: 'legal' },
      { date: '2012-07-12', event: 'DOJ announces $175 million Wells Fargo settlement, largest fair lending case in history; internal documents reveal "ghetto loans" targeting of Black borrowers', type: 'legal' },
      { date: '2017-01-18', event: 'JPMorgan Chase pays $55 million to settle charges of discriminatory mortgage pricing affecting 53,000+ Black and Hispanic borrowers', type: 'legal' },
-     { date: '2021-11-01', event: 'Journal of Financial Economics study documents algorithmic lending discrimination: minority borrowers charged 5.3 basis points higher, generating $765 million in excess interest annually', type: 'default' },
+     { date: '2021-11-01', event: 'Journal of Financial Economics study documents algorithmic lending discrimination: minority borrowers charged 5.3 basis points higher, generating $765 million in excess interest annually', type: 'default' }
    ],
  },
   'banking-corruption': {
@@ -631,7 +628,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'HSBC\'s $1.9 billion settlement with the DOJ in 2012 stands as perhaps the most damning illustration of the two-tiered justice system. A Senate investigation found that HSBC laundered at least $881 million for Mexican and Colombian drug cartels, including the Sinaloa Cartel, by accepting wire transfers from casas de cambio (currency exchange houses) known to be controlled by drug traffickers. HSBC also processed hundreds of millions in transactions for sanctioned entities in Iran, Libya, Sudan, Cuba, and Myanmar in deliberate violation of the International Emergency Economic Powers Act. Despite what the DOJ called "blatant" criminal conduct, no individual executives were charged. Attorney General Eric Holder later admitted that some banks were "too big to jail," a statement that crystallized the moral catastrophe at the heart of financial regulation.',
  'Deutsche Bank became a case study in institutional criminality, paying over $18 billion in fines for an almost comprehensive catalog of banking crimes. The bank facilitated mirror trades that laundered approximately $10 billion out of Russia between 2011 and 2015, served as the primary banker for Jeffrey Epstein after other institutions cut ties, manipulated LIBOR rates alongside a consortium of other banks, and was fined $7.2 billion for toxic mortgage-backed securities fraud. The Danske Bank scandal, in which $230 billion in suspicious funds flowed through the bank\'s Estonian branch between 2007 and 2015, was facilitated in part by correspondent banking relationships with major institutions including Deutsche Bank. Multiple whistleblowers who flagged the transactions were ignored or fired.',
  'The LIBOR scandal revealed that the benchmark interest rate underpinning $350 trillion in global financial products was routinely manipulated by traders at over a dozen banks, including Barclays, UBS, Deutsche Bank, Citigroup, and JPMorgan. Traders coordinated via email and chat to nudge rates in directions that benefited their derivatives positions, sometimes by fractions of a basis point worth millions in profits. The manipulation affected mortgage payments, student loan rates, and municipal bond costs for millions of people who never knew the benchmark rate was being rigged. Total penalties exceeded $9 billion, and several traders were convicted, but the systematic nature of the fraud; spanning multiple banks, countries, and years; demonstrated that manipulation was an industry practice, not an aberration.',
- 'The fundamental structural problem remains unsolved. Deferred prosecution agreements (DPAs) have become the standard enforcement tool, allowing banks to avoid criminal convictions by paying fines and promising reform. JPMorgan has entered into five separate DPAs since 2011, violating terms of earlier agreements while negotiating new ones. Credit Suisse pleaded guilty to helping U.S. taxpayers hide billions in assets offshore, was placed on corporate probation, then continued facilitating tax evasion by wealthy clients until its collapse in 2023. The penalty-to-profit ratio ensures that criminal conduct remains economically rational: banks consistently earn more from illicit activities than they pay in fines, and no major bank has ever had its charter revoked for criminal behavior. The system is not broken; it is functioning exactly as designed.',
+ 'The fundamental structural problem remains unsolved. Deferred prosecution agreements (DPAs) have become the standard enforcement tool, allowing banks to avoid criminal convictions by paying fines and promising reform. JPMorgan has entered into five separate DPAs since 2011, violating terms of earlier agreements while negotiating new ones. Credit Suisse pleaded guilty to helping U.S. taxpayers hide billions in assets offshore, was placed on corporate probation, then continued facilitating tax evasion by wealthy clients until its collapse in 2023. The penalty-to-profit ratio ensures that criminal conduct remains economically rational: banks consistently earn more from illicit activities than they pay in fines, and no major bank has ever had its charter revoked for criminal behavior. The system is not broken; it is functioning exactly as designed.'
  ],
  tags: ['Money Laundering', 'LIBOR', 'Sanctions Violations', 'Too Big to Jail', 'Deferred Prosecution', 'Banking Reform'],
  sources: [
@@ -639,11 +636,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Senate Permanent Subcommittee on Investigations - HSBC Report', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Government' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'ICIJ Investigations - FinCEN Files', url: 'https://www.icij.org/investigations/fincen-files/', type: 'Investigation' },
- { title: 'Better Markets - Wall Street\'s Crime Spree', url: 'https://bettermarkets.org/', type: 'Report' },
+ { title: 'Better Markets - Wall Street\'s Crime Spree', url: 'https://bettermarkets.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Most-fined bank in American history with over $40 billion in penalties since 2008; entered five separate deferred prosecution agreements while violating terms of prior agreements', href: '/entities/corporations/jpmorgan-chase' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities enforcement agency that has pursued civil penalties against major banks but consistently settled for amounts representing fractions of illicit profits', href: '/entities/agencies/sec' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities enforcement agency that has pursued civil penalties against major banks but consistently settled for amounts representing fractions of illicit profits', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2008-09-15',
    lastActivityDate: '2023-04-27',
@@ -654,7 +651,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2014-05-19', event: 'Credit Suisse pleads guilty to federal charges of helping U.S. taxpayers hide billions in offshore accounts; maintains banking license despite felony conviction', type: 'legal' },
      { date: '2019-07-17', event: 'Deutsche Bank announces $18 billion in cumulative fines; implicated in $10 billion Russian money laundering scheme, LIBOR manipulation, and Epstein banking relationship', type: 'financial' },
      { date: '2020-09-21', event: 'ICIJ publishes FinCEN Files revealing that banks moved over $2 trillion in suspicious transactions while filing SARs with FinCEN that were effectively ignored', type: 'critical' },
-     { date: '2023-03-19', event: 'Credit Suisse collapses and is absorbed by UBS after losing over $5 billion on Archegos, facilitating tax evasion, and losing client trust; Swiss government brokers emergency merger', type: 'financial' },
+     { date: '2023-03-19', event: 'Credit Suisse collapses and is absorbed by UBS after losing over $5 billion on Archegos, facilitating tax evasion, and losing client trust; Swiss government brokers emergency merger', type: 'financial' }
    ],
  },
   'banking-crimes': {
@@ -670,7 +667,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Deutsche Bank\'s role as a conduit for illicit financial flows represents perhaps the most egregious pattern of institutional money laundering in modern banking. The bank facilitated approximately $10 billion in mirror trades that laundered money out of Russia between 2011 and 2015, using a scheme in which Russian clients bought securities in rubles through Deutsche Bank Moscow and simultaneously sold identical securities in dollars through Deutsche Bank London. The bank also played a central role in the Danske Bank scandal, serving as a correspondent bank for the Estonian branch through which $230 billion in suspicious transactions flowed. Deutsche Bank maintained a banking relationship with Jeffrey Epstein for years after other institutions severed ties, processing millions in transactions despite internal compliance warnings.',
  'The fake accounts scandal at Wells Fargo triggered regulatory consequences that were unprecedented in scale but ultimately inadequate in deterrence. The CFPB fined Wells Fargo $185 million in 2016, later revised to over $3 billion in total penalties across multiple agencies. The Federal Reserve took the extraordinary step of capping Wells Fargo\'s asset growth at $1.95 trillion until the bank demonstrated reformed governance, a restriction that remained in effect for over six years. CEO John Stumpf was forced to resign and personally paid $17.5 million in fines, but no criminal charges were filed against senior executives. Carrie Tolstedt, the executive who directly oversaw the fake accounts division, was eventually charged by the SEC with securities fraud in 2022, five years after the scandal broke.',
  'The pattern of deferred prosecution agreements (DPAs) has created a revolving door of criminal conduct. JPMorgan Chase entered into a criminal DPA in 2014 for facilitating Bernie Madoff\'s Ponzi scheme, then was charged again in 2020 for a decade-long precious metals market manipulation scheme involving thousands of fraudulent trades. HSBC entered a DPA in 2012 for laundering money for drug cartels, then faced new compliance failures while still under the terms of the agreement. Citigroup, Goldman Sachs, and Bank of America have all entered multiple DPAs for overlapping periods, effectively operating under perpetual criminal supervision while continuing to engage in misconduct. The Government Accountability Office has documented that banks treat DPA penalties as a predictable cost of business rather than a deterrent.',
- 'The structural incentives that drive banking crime remain largely intact despite billions in penalties. Executive compensation at major banks is tied to revenue generation and stock performance, not compliance outcomes. Whistleblowers who report misconduct face retaliation at rates far exceeding other industries; a 2023 GAP report documented that banking whistleblowers experience termination, blacklisting, and legal intimidation at alarming rates. The Consumer Financial Protection Bureau, the primary regulator of retail banking practices, has faced repeated attempts at defunding and structural neutering. The 2023 collapse of Silicon Valley Bank, Signature Bank, and First Republic Bank demonstrated that even the basic regulatory lessons of 2008 regarding capital requirements and risk management had been deliberately unlearned through industry lobbying, with the 2018 Economic Growth Act raising the threshold for enhanced oversight from $50 billion to $250 billion in assets.',
+ 'The structural incentives that drive banking crime remain largely intact despite billions in penalties. Executive compensation at major banks is tied to revenue generation and stock performance, not compliance outcomes. Whistleblowers who report misconduct face retaliation at rates far exceeding other industries; a 2023 GAP report documented that banking whistleblowers experience termination, blacklisting, and legal intimidation at alarming rates. The Consumer Financial Protection Bureau, the primary regulator of retail banking practices, has faced repeated attempts at defunding and structural neutering. The 2023 collapse of Silicon Valley Bank, Signature Bank, and First Republic Bank demonstrated that even the basic regulatory lessons of 2008 regarding capital requirements and risk management had been deliberately unlearned through industry lobbying, with the 2018 Economic Growth Act raising the threshold for enhanced oversight from $50 billion to $250 billion in assets.'
  ],
  tags: ['Fake Accounts', 'Money Laundering', 'Consumer Fraud', 'Wells Fargo', 'Deutsche Bank', 'Deferred Prosecution'],
  sources: [
@@ -678,11 +675,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Senate Banking Committee - Wells Fargo Hearing', url: 'https://www.banking.senate.gov/', type: 'Government' },
  { title: 'DOJ Criminal Division - Financial Fraud', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'ICIJ - Danske Bank Estonian Money Laundering', url: 'https://www.icij.org/', type: 'Investigation' },
- { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Created 3.5 million unauthorized accounts under CEO John Stumpf\'s "Gr-eight" cross-selling initiative; paid over $3 billion in total fines; Federal Reserve imposed unprecedented asset growth cap', href: '/entities/corporations/wells-fargo' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Charged Wells Fargo executive Carrie Tolstedt with securities fraud in 2022 for misleading investors about fake accounts program; pursued civil penalties against Deutsche Bank for mirror trades', href: '/entities/agencies/sec' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Charged Wells Fargo executive Carrie Tolstedt with securities fraud in 2022 for misleading investors about fake accounts program; pursued civil penalties against Deutsche Bank for mirror trades', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2024-05-29',
@@ -693,7 +690,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2018-02-02', event: 'Federal Reserve imposes unprecedented cap on Wells Fargo asset growth at $1.95 trillion until bank demonstrates reformed risk management and governance', type: 'legal' },
      { date: '2020-09-21', event: 'ICIJ publishes FinCEN Files revealing banks processed $2 trillion in suspicious transactions; Deutsche Bank named as top processor of suspicious funds', type: 'critical' },
      { date: '2022-04-14', event: 'SEC charges former Wells Fargo executive Carrie Tolstedt with securities fraud for misleading investors about scope of fake accounts scandal; first senior executive charged', type: 'legal' },
-     { date: '2023-03-10', event: 'Silicon Valley Bank collapses, followed by Signature Bank and First Republic, exposing regulatory failures enabled by 2018 banking deregulation that raised enhanced oversight threshold', type: 'financial' },
+     { date: '2023-03-10', event: 'Silicon Valley Bank collapses, followed by Signature Bank and First Republic, exposing regulatory failures enabled by 2018 banking deregulation that raised enhanced oversight threshold', type: 'financial' }
    ],
  },
   'belarus-repression': {
@@ -709,7 +706,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'The crackdown that followed was systematic, premeditated, and characterized by levels of brutality that shocked even seasoned human rights monitors. In the first three days after the election, OMON riot police detained over 6,700 people, using stun grenades, rubber bullets, and live ammunition. Human rights organizations documented systematic torture at the Okrestina detention center, where detainees were beaten unconscious, forced to lie face-down in overcrowded cells for days, denied food and water, and subjected to sexual violence. Ales Bialiatski\'s Viasna Human Rights Centre documented over 35,000 politically motivated detentions by mid-2021, with at least 1,500 documented cases of torture. At least four protesters were confirmed killed, with dozens more disappearing.',
  'The forced diversion of Ryanair Flight 4978 on May 23, 2021 marked an escalation without precedent in modern aviation. Belarusian authorities scrambled a MiG-29 fighter jet and fabricated a bomb threat to force the Athens-to-Vilnius commercial flight to land in Minsk, where journalist Roman Protasevich and his partner Sofia Sapega were arrested. Protasevich, who ran the NEXTA Telegram channel that coordinated protest coverage, was paraded on state television in what appeared to be a coerced confession. The incident was universally condemned as state hijacking; ICAO launched an investigation, the EU banned Belarusian airlines from its airspace, and states imposed a prohibition on flights over Belarusian territory.',
  'Lukashenko\'s survival depends entirely on Russian support, a dependence that transformed Belarus from a nominally independent state into a de facto Russian satellite. Putin provided Lukashenko with a $1.5 billion loan in September 2020 as protests intensified. Russian state media broadcast pro-Lukashenko propaganda. In February 2022, Lukashenko allowed Russian forces to use Belarusian territory as a staging ground for the invasion of Ukraine, implicating Belarus in the war and destroying any remaining pretense of sovereignty. This decision was made without any democratic mandate; Lukashenko cannot hold a legitimate election because he knows he would lose, and Putin\'s backing eliminates any need for popular consent.',
- 'Western sanctions have targeted Lukashenko\'s inner circle and key sectors of the Belarusian economy, including potash exports (Belarus is the world\'s third-largest potash producer), but their impact has been limited by Russian economic lifelines and Chinese diplomatic support. The EU imposed five rounds of sanctions, and the U.S. Treasury designated dozens of individuals and entities. However, over 1,500 political prisoners remain incarcerated as of 2024, independent media has been completely destroyed, and all major civil society organizations have been forcibly liquidated or forced into exile. Nobel laureate Ales Bialiatski was sentenced to 10 years in prison in 2023 for his human rights work. Belarus has become a case study in how authoritarian regimes can survive mass popular rejection when backed by a powerful patron willing to provide economic and security guarantees.',
+ 'Western sanctions have targeted Lukashenko\'s inner circle and key sectors of the Belarusian economy, including potash exports (Belarus is the world\'s third-largest potash producer), but their impact has been limited by Russian economic lifelines and Chinese diplomatic support. The EU imposed five rounds of sanctions, and the U.S. Treasury designated dozens of individuals and entities. However, over 1,500 political prisoners remain incarcerated as of 2024, independent media has been completely destroyed, and all major civil society organizations have been forcibly liquidated or forced into exile. Nobel laureate Ales Bialiatski was sentenced to 10 years in prison in 2023 for his human rights work. Belarus has become a case study in how authoritarian regimes can survive mass popular rejection when backed by a powerful patron willing to provide economic and security guarantees.'
  ],
  tags: ['Election Fraud', 'State Torture', 'Ryanair Hijacking', 'Political Prisoners', 'Lukashenko', 'Russian Backing'],
  sources: [
@@ -717,11 +714,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'ICAO Investigation Report - Ryanair FR4978', url: 'https://www.icao.int/', type: 'Government' },
  { title: 'Human Rights Watch - Belarus Crackdown', url: 'https://www.hrw.org/europe/central-asia/belarus', type: 'Report' },
  { title: 'EU Council Sanctions - Belarus', url: 'https://www.consilium.europa.eu/en/policies/sanctions/restrictive-measures-against-belarus/', type: 'Government' },
- { title: 'OHCHR Report on Belarus', url: 'https://www.ohchr.org/en/countries/belarus', type: 'Report' },
+ { title: 'OHCHR Report on Belarus', url: 'https://www.ohchr.org/en/countries/belarus', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'President of Belarus since 1994; declared fraudulent 80% victory in 2020 election; ordered systematic crackdown including mass detention of 35,000+ people, documented torture, and forced diversion of commercial airliner', href: '/entities/individuals/alexander-lukashenko' },
- { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Provided $1.5 billion loan, security guarantees, and propaganda support enabling Lukashenko to survive mass protests; used Belarus as staging ground for 2022 Ukraine invasion', href: '/entities/individuals/vladimir-putin' },
+ { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Provided $1.5 billion loan, security guarantees, and propaganda support enabling Lukashenko to survive mass protests; used Belarus as staging ground for 2022 Ukraine invasion', href: '/entities/individuals/vladimir-putin' }
  ],
    eventOriginDate: '2020-08-09',
    lastActivityDate: '2025-04-06',
@@ -732,7 +729,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2020-09-01', event: 'Putin provides Lukashenko $1.5 billion loan as protests intensify; Russian state media broadcasts pro-regime propaganda; international isolation begins with EU sanctions', type: 'political' },
      { date: '2021-05-23', event: 'Belarus forces Ryanair Flight 4978 to land in Minsk using fighter jet and fake bomb threat; journalist Roman Protasevich arrested; ICAO launches investigation; EU bans Belarusian flights', type: 'critical' },
      { date: '2023-03-03', event: 'Nobel Peace Prize laureate Ales Bialiatski sentenced to 10 years in prison for his human rights documentation work at Viasna Human Rights Centre', type: 'legal' },
-     { date: '2024-01-01', event: 'Over 1,500 political prisoners remain incarcerated; all independent media destroyed; major civil society organizations liquidated or forced into exile', type: 'default' },
+     { date: '2024-01-01', event: 'Over 1,500 political prisoners remain incarcerated; all independent media destroyed; major civil society organizations liquidated or forced into exile', type: 'default' }
    ],
  },
   'big-tech-monopoly': {
@@ -748,7 +745,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Google controls approximately 90% of the global search market, a monopoly that the DOJ successfully proved at trial in August 2024 when Judge Amit Mehta ruled that Google is an illegal monopolist that maintained its dominance through exclusive distribution agreements worth over $26 billion annually. Google paid Apple $15 billion in 2021 alone to remain the default search engine on iPhones, a deal that guaranteed Google would see no meaningful search competition on the most popular mobile device in the Western world. This default payment represented approximately 15-20% of Apple Services revenue. The search monopoly powers an advertising duopoly with Meta that captures over 50% of all digital advertising spending in the United States, a market concentration that has devastated the economic model of independent journalism.',
  'Amazon\'s marketplace monopoly operates through a structure that combines platform control with competing in its own marketplace, the digital equivalent of a shopping mall owner who also operates stores in the mall and can see every tenant\'s sales data. A 2020 Wall Street Journal investigation confirmed what critics had long alleged: Amazon employees used data from third-party sellers to develop competing Amazon Basics products, directly contradicting sworn congressional testimony from Jeff Bezos. The FTC\'s September 2023 antitrust lawsuit documented how Amazon\'s "Project Nessie" algorithm systematically raised prices across the internet by $1 billion, and how the company punished sellers who offered lower prices on other platforms by burying their products in search results.',
  'Apple\'s App Store operates as a toll booth on the mobile economy, extracting a 30% commission on all digital goods sold through iOS, a tax that developers cannot avoid because Apple prohibits alternative payment methods and alternative app distribution. The Epic Games v. Apple litigation revealed internal documents showing that the App Store generated approximately $22 billion in commission revenue in 2020, with profit margins that Apple executives privately described as "obscene." The EU Digital Markets Act forced Apple to allow sideloading in Europe in 2024, but Apple implemented compliance in a way that critics described as deliberately hostile, charging a Core Technology Fee designed to make alternative distribution economically unviable.',
- 'The antitrust actions of 2020-2024 represent the most significant challenge to technology monopolies since the Microsoft case of 1998, but their effectiveness remains deeply uncertain. The DOJ\'s remedies phase in United States v. Google could result in structural separation, potentially forcing Google to divest Chrome or Android, but the case faces years of appeals. The FTC\'s lawsuit against Meta seeking to unwind the Instagram and WhatsApp acquisitions confronts the enormous practical difficulty of separating services that have been integrated for over a decade. Meanwhile, the emergence of generative AI has created a new monopolization vector: the enormous capital requirements for training foundation models (estimated at $100 million to $10 billion per model) ensure that only the existing tech giants can compete, threatening to extend platform monopolies into the AI era.',
+ 'The antitrust actions of 2020-2024 represent the most significant challenge to technology monopolies since the Microsoft case of 1998, but their effectiveness remains deeply uncertain. The DOJ\'s remedies phase in United States v. Google could result in structural separation, potentially forcing Google to divest Chrome or Android, but the case faces years of appeals. The FTC\'s lawsuit against Meta seeking to unwind the Instagram and WhatsApp acquisitions confronts the enormous practical difficulty of separating services that have been integrated for over a decade. Meanwhile, the emergence of generative AI has created a new monopolization vector: the enormous capital requirements for training foundation models (estimated at $100 million to $10 billion per model) ensure that only the existing tech giants can compete, threatening to extend platform monopolies into the AI era.'
  ],
  tags: ['Antitrust', 'Platform Monopoly', 'Predatory Acquisition', 'App Store Tax', 'Search Monopoly', 'Digital Markets'],
  sources: [
@@ -756,12 +753,12 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ Antitrust Division - United States v. Google', url: 'https://www.justice.gov/atr/case/us-v-google', type: 'Government' },
  { title: 'FTC v. Amazon Complaint', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings', type: 'Government' },
  { title: 'The Markup - Big Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
- { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
+ { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Won landmark August 2024 ruling that Google is an illegal monopolist; pursuing remedies that could include forced divestiture of Chrome or Android', href: '/entities/agencies/doj' },
  { id: '2', name: 'Amazon Corp', type: 'corporation', relationship: 'FTC filed September 2023 antitrust lawsuit documenting "Project Nessie" algorithm that raised prices by $1 billion and punished sellers offering lower prices elsewhere', href: '/entities/corporations/amazon-corp' },
- { id: '3', name: 'Meta', type: 'corporation', relationship: 'FTC lawsuit seeks to unwind Instagram ($1B, 2012) and WhatsApp ($19B, 2014) acquisitions; internal documents revealed Zuckerberg\'s "buy rather than compete" strategy', href: '/entities/corporations/meta' },
+ { id: '3', name: 'Meta', type: 'corporation', relationship: 'FTC lawsuit seeks to unwind Instagram ($1B, 2012) and WhatsApp ($19B, 2014) acquisitions; internal documents revealed Zuckerberg\'s "buy rather than compete" strategy', href: '/entities/corporations/meta' }
  ],
    eventOriginDate: '2006-10-09',
    lastActivityDate: '2024-08-05',
@@ -771,7 +768,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2020-10-06', event: 'House Antitrust Subcommittee releases 449-page report finding Apple, Amazon, Google, and Facebook hold monopoly power and recommending structural separations and new antitrust legislation', type: 'critical' },
      { date: '2020-12-09', event: 'FTC files antitrust lawsuit against Facebook (Meta) seeking to unwind Instagram and WhatsApp acquisitions as illegal monopoly maintenance', type: 'legal' },
      { date: '2023-09-26', event: 'FTC and 17 state attorneys general file antitrust lawsuit against Amazon documenting "Project Nessie" pricing algorithm and anti-competitive marketplace practices', type: 'legal' },
-     { date: '2024-08-05', event: 'Judge Amit Mehta rules Google is an illegal monopolist in search; DOJ begins remedies phase that could include forced divestiture of Chrome or Android', type: 'critical' },
+     { date: '2024-08-05', event: 'Judge Amit Mehta rules Google is an illegal monopolist in search; DOJ begins remedies phase that could include forced divestiture of Chrome or Android', type: 'critical' }
    ],
  },
   'big-tobacco-conspiracy': {
@@ -787,7 +784,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Philip Morris, the industry leader, conducted secret internal research throughout the 1960s-1980s that conclusively confirmed cigarettes caused cancer, heart disease, and emphysema while publicly denying these conclusions. Company scientists found that nicotine was addictive and that the company could control nicotine delivery to maximize addiction. A 1981 Philip Morris internal document stated: "The tobacco industry has had to face reality. Exposed to the evidence, cigarette smoking has been causally linked to lung cancer." Yet company executives testified under oath before Congress in April 1994 that they did not believe nicotine was addictive, a moment captured on camera that became one of the most notorious instances of corporate perjury in American history.',
  'The industry spent approximately $12.5 billion annually on marketing at its peak, with a significant portion designed to recruit young smokers to replace the 480,000 Americans its products killed each year. R.J. Reynolds\' Joe Camel campaign, launched in 1988, was so effective at targeting children that a 1991 JAMA study found that six-year-olds recognized Joe Camel as readily as Mickey Mouse. Internal documents from multiple companies explicitly identified teenagers as "replacement smokers" whose brand loyalty needed to be established before age 18. Brown & Williamson\'s 1973 internal memo stated the strategy plainly: "The base of our business is the high school student." The industry simultaneously fought youth smoking prevention legislation while running cynically ineffective "youth prevention" campaigns designed to make smoking appear forbidden and therefore attractive.',
  'The DOJ filed a landmark RICO (Racketeer Influenced and Corrupt Organizations) lawsuit against the major tobacco companies in 1999, ultimately resulting in a 2006 ruling by Judge Gladys Kessler that the companies had engaged in a "massive 50-year scheme to defraud the public." The 1998 Master Settlement Agreement required tobacco companies to pay $206 billion to 46 states over 25 years, but the settlement was structured to be absorbed as a cost of business rather than a punitive measure. No individual executives were criminally prosecuted for decades of fraud, perjury, and conspiracy that resulted in millions of deaths. The settlement funds were often diverted by state legislatures to fill budget gaps rather than fund smoking cessation programs.',
- 'The global dimension of tobacco industry criminality is the most underreported aspect of the conspiracy. As regulation tightened in the United States and Europe, tobacco companies aggressively expanded into developing nations, where they replicated the exact strategies; doubt manufacturing, youth targeting, regulatory capture; that had been exposed and partially curtailed in Western markets. Philip Morris International, spun off from Altria in 2008, generates over 75% of its revenue outside the United States. The WHO estimates that tobacco kills approximately 8 million people per year worldwide, with over 80% of the 1.3 billion tobacco users living in low- and middle-income countries. The industry\'s total death toll since the conspiracy began in the 1950s is estimated to exceed 100 million human beings, making it the deadliest corporate fraud in human history.',
+ 'The global dimension of tobacco industry criminality is the most underreported aspect of the conspiracy. As regulation tightened in the United States and Europe, tobacco companies aggressively expanded into developing nations, where they replicated the exact strategies; doubt manufacturing, youth targeting, regulatory capture; that had been exposed and partially curtailed in Western markets. Philip Morris International, spun off from Altria in 2008, generates over 75% of its revenue outside the United States. The WHO estimates that tobacco kills approximately 8 million people per year worldwide, with over 80% of the 1.3 billion tobacco users living in low- and middle-income countries. The industry\'s total death toll since the conspiracy began in the 1950s is estimated to exceed 100 million human beings, making it the deadliest corporate fraud in human history.'
  ],
  tags: ['Tobacco Industry', 'Cancer Cover-Up', 'RICO', 'Youth Marketing', 'Nicotine Addiction', 'Corporate Fraud'],
  sources: [
@@ -795,11 +792,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ RICO Lawsuit and Kessler Ruling', url: 'https://www.justice.gov/civil/case/tobacco-litigation', type: 'Government' },
  { title: 'WHO Framework Convention on Tobacco Control', url: 'https://fctc.who.int/', type: 'Report' },
  { title: 'Campaign for Tobacco-Free Kids', url: 'https://www.tobaccofreekids.org/', type: 'Report' },
- { title: 'CDC Tobacco Use Data', url: 'https://www.cdc.gov/tobacco/', type: 'Government' },
+ { title: 'CDC Tobacco Use Data', url: 'https://www.cdc.gov/tobacco/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Conducted secret cancer research for decades while publicly denying the link; executives testified under oath before Congress in 1994 that nicotine was not addictive despite internal proof', href: '/entities/corporations/philip-morris' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed 1999 RICO lawsuit resulting in 2006 ruling that tobacco companies engaged in "massive 50-year scheme to defraud the public"; no individual executives were criminally charged', href: '/entities/agencies/doj' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed 1999 RICO lawsuit resulting in 2006 ruling that tobacco companies engaged in "massive 50-year scheme to defraud the public"; no individual executives were criminally charged', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1953-12-15',
    lastActivityDate: '2025-08-08',
@@ -810,7 +807,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1994-04-14', event: 'Seven tobacco CEOs testify under oath before Congress that they do not believe nicotine is addictive, despite internal research proving the opposite for decades', type: 'critical' },
      { date: '1998-11-23', event: 'Master Settlement Agreement signed requiring tobacco companies to pay $206 billion to 46 states over 25 years; no individual criminal accountability', type: 'legal' },
      { date: '2006-08-17', event: 'Judge Gladys Kessler rules in DOJ RICO case that tobacco companies engaged in a "massive 50-year scheme to defraud the public" and orders corrective statements', type: 'legal' },
-     { date: '2024-01-01', event: 'WHO reports tobacco kills 8 million people annually; total estimated death toll since 1950s conspiracy exceeds 100 million; industry revenue exceeds $800 billion globally', type: 'default' },
+     { date: '2024-01-01', event: 'WHO reports tobacco kills 8 million people annually; total estimated death toll since 1950s conspiracy exceeds 100 million; industry revenue exceeds $800 billion globally', type: 'default' }
    ],
  },
   'billionaire-tax-avoidance': {
@@ -826,7 +823,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'The core mechanism is what tax scholars call "buy, borrow, die," a three-step strategy available only to those with assets valued in the hundreds of millions or more. First, the billionaire accumulates unrealized capital gains; stocks, real estate, and other assets that appreciate in value. Under current law, unrealized gains are not taxed until the asset is sold, so Bezos can see his Amazon stock increase by $100 billion and owe nothing in income tax. Second, rather than sell assets (which would trigger capital gains tax), the billionaire borrows against them. Banks eagerly offer ultra-low-interest loans secured by stock portfolios, providing tax-free liquidity because borrowed money is not income. Third, when the billionaire dies, the step-up in basis provision eliminates the capital gains entirely; heirs inherit assets at current market value, and the untaxed appreciation disappears permanently from the tax base.',
  'The charitable giving industrial complex adds another layer of legal tax elimination. Billionaires contribute appreciated assets to donor-advised funds (DAFs) or private foundations, claiming immediate full-market-value tax deductions while retaining effective control of the money for years or indefinitely. The Fidelity Charitable Gift Fund, the nation\'s largest "charity" by donation volume, is effectively a tax shelter that held $52 billion in assets in 2023 while distributing only a fraction to actual charitable causes. Private foundations are required to distribute only 5% of assets annually, and much of that "distribution" can consist of salaries to family members, office expenses, and grants to organizations that benefit the donor. The Walton family Foundation, Bill Gates Foundation, and Koch family foundations all serve as vehicles for influence maintenance that are subsidized by every other American taxpayer.',
  'The defunding of the IRS is the essential enabling condition for the entire system. Between 2010 and 2021, the IRS budget was cut by 20% in inflation-adjusted terms, staffing dropped to 1970s levels, and the number of revenue agents auditing wealthy taxpayers and corporations fell by over 40%. Audit rates for millionaires dropped from 8.4% in 2010 to 0.7% in 2019. Meanwhile, audit rates for EITC recipients; among the poorest taxpayers in the country; remained disproportionately high because paper audits of low-income filers are cheap and easy while auditing complex billionaire returns requires teams of specialized agents that the IRS can no longer afford. The Inflation Reduction Act allocated $80 billion to rebuild IRS enforcement capacity, but Republicans immediately began efforts to rescind the funding, successfully clawing back $20 billion.',
- 'The aggregate scale of revenue lost to billionaire tax avoidance is difficult to precisely quantify but credible estimates indicate it is transformative. Former Treasury Secretary Lawrence Summers estimated the "tax gap"; the difference between taxes owed and taxes paid; at approximately $600 billion per year, with the overwhelming majority attributable to high-income non-compliance and legal avoidance by the wealthy. The Pandora Papers, released by ICIJ in 2021, documented over $11.3 trillion in offshore holdings by wealthy individuals globally, much of it structured specifically to avoid taxation. A 2021 study by economists Emmanuel Saez and Gabriel Zucman found that the 400 wealthiest American families paid an average effective tax rate of 8.2%, lower than any other income group including the bottom 10%. The system is not broken; the wealthiest Americans purchased precisely the tax code they wanted.',
+ 'The aggregate scale of revenue lost to billionaire tax avoidance is difficult to precisely quantify but credible estimates indicate it is transformative. Former Treasury Secretary Lawrence Summers estimated the "tax gap"; the difference between taxes owed and taxes paid; at approximately $600 billion per year, with the overwhelming majority attributable to high-income non-compliance and legal avoidance by the wealthy. The Pandora Papers, released by ICIJ in 2021, documented over $11.3 trillion in offshore holdings by wealthy individuals globally, much of it structured specifically to avoid taxation. A 2021 study by economists Emmanuel Saez and Gabriel Zucman found that the 400 wealthiest American families paid an average effective tax rate of 8.2%, lower than any other income group including the bottom 10%. The system is not broken; the wealthiest Americans purchased precisely the tax code they wanted.'
  ],
  tags: ['ProPublica IRS Files', 'Buy Borrow Die', 'IRS Defunding', 'Tax Gap', 'Pandora Papers', 'Donor Advised Funds'],
  sources: [
@@ -834,12 +831,12 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'ICIJ - Pandora Papers', url: 'https://www.icij.org/investigations/pandora-papers/', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
  { title: 'IRS Data Book and Statistics', url: 'https://www.irs.gov/statistics', type: 'Government' },
- { title: 'Saez & Zucman - The Triumph of Injustice', url: 'https://taxjusticenow.org/', type: 'Report' },
+ { title: 'Saez & Zucman - The Triumph of Injustice', url: 'https://taxjusticenow.org/', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Elon Musk', type: 'individual', relationship: 'Paid 3.27% effective tax rate on $13.9 billion in wealth growth (2014-2018) per ProPublica IRS leak; wealth exceeded $250 billion by 2024', href: '/entities/individuals/elon-musk' },
  { id: '2', name: 'Jeff Bezos', type: 'individual', relationship: 'Paid 0.98% effective tax rate on $99 billion in wealth growth (2014-2018); claimed $4,000 child tax credit in 2011 when worth tens of billions', href: '/entities/individuals/jeff-bezos' },
- { id: '3', name: 'Warren Buffett', type: 'individual', relationship: 'Paid 0.10% effective tax rate on $24.3 billion in wealth growth per ProPublica data; has publicly advocated for higher taxes on the wealthy while exploiting every legal avoidance strategy', href: '/entities/individuals/warren-buffett' },
+ { id: '3', name: 'Warren Buffett', type: 'individual', relationship: 'Paid 0.10% effective tax rate on $24.3 billion in wealth growth per ProPublica data; has publicly advocated for higher taxes on the wealthy while exploiting every legal avoidance strategy', href: '/entities/individuals/warren-buffett' }
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-02-02',
@@ -850,7 +847,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021-06-08', event: 'ProPublica publishes leaked IRS data showing Bezos paid 0.98% true tax rate, Buffett 0.10%, Bloomberg 1.30%; most consequential tax journalism in American history', type: 'critical' },
      { date: '2021-10-03', event: 'ICIJ publishes Pandora Papers documenting $11.3 trillion in offshore holdings by wealthy individuals globally, including hundreds of U.S. politicians and their donors', type: 'critical' },
      { date: '2022-08-16', event: 'Inflation Reduction Act allocates $80 billion to rebuild IRS enforcement; Republicans immediately begin efforts to rescind the funding', type: 'legal' },
-     { date: '2024-01-01', event: 'IRS begins deploying new enforcement capacity; recovers over $500 million from high-income non-filers in first year; audit rates for wealthy remain far below 2010 levels', type: 'default' },
+     { date: '2024-01-01', event: 'IRS begins deploying new enforcement capacity; recovers over $500 million from high-income non-filers in first year; audit rates for wealthy remain far below 2010 levels', type: 'default' }
    ],
  },
   'boarding-schools': {
@@ -873,7 +870,7 @@ const investigations_b: Record<string, InvestigationData> = {
       'THE MERIAM REPORT: In 1928, the Brookings Institution published the Meriam Report, documenting deplorable conditions at Indian boarding schools including malnutrition, overcrowding, disease, forced child labor, and high mortality. The report led to some reforms under Commissioner John Collier in the 1930s, but boarding schools continued to operate for decades afterward.',
       'FEDERAL INVESTIGATION: In June 2021, Interior Secretary Deb Haaland, the first Native American Cabinet secretary, launched the Federal Indian Boarding School Initiative, directing the department to investigate the troubled legacy of the boarding school system. The first volume of the investigation, released in May 2022, identified over 400 federal boarding schools across 37 states. A second volume in July 2024 named hundreds of children who died and detailed the use of burial sites.',
       'FORMAL APOLOGY: In October 2024, President Biden issued a formal presidential apology for the federal Indian boarding school policy during a visit to the Gila River Indian Community in Arizona. The apology came 155 years after Carlisle opened and more than five decades after the last federally run schools closed. Survivors, many in their 70s, 80s, and 90s, attended the ceremony. Secretary Haaland, whose own grandparents were boarding school survivors, led a year-long national listening tour that gathered testimony from survivors.',
-      'UNFINISHED RECKONING: Despite the apology and investigation, accountability remains incomplete. No financial reparations have been authorized. Many religious organizations that operated schools have not opened their records. Thousands of children buried at school sites remain unidentified. Native communities continue to advocate for the return of children\'s remains, full disclosure of records, and resources for healing.',
+      'UNFINISHED RECKONING: Despite the apology and investigation, accountability remains incomplete. No financial reparations have been authorized. Many religious organizations that operated schools have not opened their records. Thousands of children buried at school sites remain unidentified. Native communities continue to advocate for the return of children\'s remains, full disclosure of records, and resources for healing.'
     ],
     tags: ['Federal Indian Boarding Schools', 'Cultural Genocide', 'Native American', 'Bureau of Indian Affairs', 'Forced Assimilation', 'Institutional Abuse', 'Intergenerational Trauma', 'Carlisle', 'Deb Haaland'],
     sources: [
@@ -882,14 +879,14 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Carlisle Indian School Digital Resource Center', url: 'https://carlisleindian.dickinson.edu/', type: 'Archive' },
       { title: 'Meriam Report (1928): The Problem of Indian Administration', url: 'https://www.narf.org/nill/resources/meriam.html', type: 'Historical Report' },
       { title: 'Interior Department Boarding School Investigation Volume II', url: 'https://www.doi.gov/priorities/strengthening-indian-country/federal-indian-boarding-school-initiative', type: 'Government Report' },
-      { title: 'National Archives: Bureau of Indian Affairs Records', url: 'https://www.archives.gov/research/native-americans/bia', type: 'Government Archive' },
+      { title: 'National Archives: Bureau of Indian Affairs Records', url: 'https://www.archives.gov/research/native-americans/bia', type: 'Government Archive' }
     ],
     affiliations: [
       { id: '1', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Operated the federal boarding school system, maintained enrollment quotas, and oversaw forced removal of children from 1819 through the 1960s', href: '/entities/agencies/interior-department' },
       { id: '2', name: 'Deb Haaland', type: 'individual', relationship: 'First Native American Interior Secretary who launched the Federal Indian Boarding School Initiative in 2021; her own grandparents were boarding school survivors', href: '/entities/individuals/deb-haaland' },
       { id: '3', name: 'Catholic Church', type: 'organization', relationship: 'Operated a significant number of boarding schools, facing ongoing scrutiny for systematic sexual abuse of Indigenous children and refusal to fully open records', href: '/entities/organizations/catholic-church' },
       { id: '4', name: 'Carlisle Indian Industrial School', type: 'organization', relationship: 'Founded by Richard Henry Pratt in 1879 as the model for the federal boarding school system; at least 186 children died at Carlisle', href: '/entities/organizations/carlisle-indian-industrial-school' },
-      { id: '5', name: 'DOJ', type: 'agency', relationship: 'Federal jurisdiction over institutional abuse investigations and civil rights enforcement on tribal lands', href: '/entities/agencies/doj' },
+      { id: '5', name: 'DOJ', type: 'agency', relationship: 'Federal jurisdiction over institutional abuse investigations and civil rights enforcement on tribal lands', href: '/entities/agencies/doj' }
     ],
     eventOriginDate: '1819-03-03',
     lastActivityDate: '2024-10-25',
@@ -903,7 +900,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { date: '2021-06-22', event: 'Interior Secretary Deb Haaland launches the Federal Indian Boarding School Initiative, directing the first comprehensive federal investigation into the boarding school system', type: 'political' },
       { date: '2022-05-11', event: 'Interior Department releases Volume I of the Federal Indian Boarding School Initiative report, identifying over 400 schools across 37 states and at least 53 burial sites', type: 'political' },
       { date: '2024-07-30', event: 'Volume II of the investigation released, naming hundreds of children who died and documenting burial sites; Secretary Haaland completes a year-long national listening tour gathering survivor testimony', type: 'political' },
-      { date: '2024-10-25', event: 'President Biden issues a formal presidential apology for the federal Indian boarding school policy at the Gila River Indian Community in Arizona, 155 years after Carlisle opened', type: 'political' },
+      { date: '2024-10-25', event: 'President Biden issues a formal presidential apology for the federal Indian boarding school policy at the Gila River Indian Community in Arizona, 155 years after Carlisle opened', type: 'political' }
     ],
   },
   'boeing-safety-failures': {
@@ -919,7 +916,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Internal Boeing communications revealed during congressional investigations paint a picture of a company that had systematically subordinated engineering judgment to financial targets. In messages made public by the House Transportation Committee, Boeing employees described the MAX as "designed by clowns, who in turn are supervised by monkeys." Chief Technical Pilot Mark Forkner texted a colleague in 2016 that MCAS was running "rampant" in the simulator and that he had "basically lied to the regulators (unknowingly)." Boeing managers pushed to minimize training requirements, with one internal presentation arguing that "MORE STUFF MEANS MORE MONEY" for airlines purchasing simulators. The company saved approximately $1 million per aircraft by not including a disagree light (which would alert pilots to conflicting sensor data) as standard equipment.',
  'The FAA\'s transformation into a captured regulator was the essential enabling condition. Under the Organization Designation Authorization (ODA) program, Boeing employees certified their own company\'s safety findings, with the FAA reviewing only a fraction of the work. A 2019 DOT Inspector General report found that FAA managers had overruled their own safety engineers\' concerns about MCAS. When Boeing submitted its safety analysis for MCAS, the analysis understated the system\'s authority by a factor of four. FAA engineers who raised concerns about the certification process were told by management to defer to Boeing. The revolving door between Boeing and FAA leadership ensured institutional alignment: Ali Bahrami, the FAA\'s head of aviation safety during the MAX certification, had previously lobbied for the Aerospace Industries Association.',
  'The pattern continued after the crashes. Boeing whistleblowers who spoke publicly about ongoing safety deficiencies faced retaliation and, in at least one case, suspicious death. John Barnett, a former Boeing quality manager who had filed a whistleblower complaint documenting defective oxygen systems and parts shortages at the 787 Dreamliner plant, was found dead from a self-inflicted gunshot wound in March 2024, the day after giving deposition testimony in his lawsuit against Boeing. Sam Salehpour, a Boeing quality engineer, testified before Congress in April 2024 that Boeing retaliated against him after he raised concerns about gaps in the 787 fuselage that could cause the aircraft to break apart mid-flight.',
- 'On January 5, 2024, a door plug blew out of a Boeing 737 MAX 9 operated by Alaska Airlines at 16,000 feet, leaving a gaping hole in the fuselage. Only by extraordinary luck; the seats nearest the blowout happened to be empty; was a catastrophic decompression fatality avoided. The NTSB investigation found that four bolts required to secure the door plug were missing, a manufacturing defect that passed through Boeing\'s quality control system. Boeing agreed to a $243.6 million fine and pleaded guilty to conspiracy to defraud the United States in July 2024, but the plea deal was criticized by victims\' families as inadequate, particularly given that Boeing had previously received a deferred prosecution agreement for the same underlying fraud in 2021.',
+ 'On January 5, 2024, a door plug blew out of a Boeing 737 MAX 9 operated by Alaska Airlines at 16,000 feet, leaving a gaping hole in the fuselage. Only by extraordinary luck; the seats nearest the blowout happened to be empty; was a catastrophic decompression fatality avoided. The NTSB investigation found that four bolts required to secure the door plug were missing, a manufacturing defect that passed through Boeing\'s quality control system. Boeing agreed to a $243.6 million fine and pleaded guilty to conspiracy to defraud the United States in July 2024, but the plea deal was criticized by victims\' families as inadequate, particularly given that Boeing had previously received a deferred prosecution agreement for the same underlying fraud in 2021.'
  ],
  tags: ['737 MAX', 'MCAS', 'FAA Capture', 'Whistleblower Retaliation', 'Door Plug Blowout', 'Corporate Manslaughter'],
  sources: [
@@ -927,11 +924,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Senate Commerce Committee - Aviation Safety Oversight', url: 'https://www.commerce.senate.gov/', type: 'Government' },
  { title: 'NTSB Investigation Reports', url: 'https://www.ntsb.gov/', type: 'Government' },
  { title: 'Seattle Times - Boeing Investigation', url: 'https://www.seattletimes.com/', type: 'Investigation' },
- { title: 'DOJ Criminal Charging Documents', url: 'https://www.justice.gov/', type: 'Government' },
+ { title: 'DOJ Criminal Charging Documents', url: 'https://www.justice.gov/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'FAA', type: 'agency', relationship: 'Delegated 96% of safety certification to Boeing under ODA program; managers overruled their own safety engineers; revolving door with aerospace industry lobbyists', href: '/entities/agencies/faa' },
- { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Concealed MCAS from pilots to avoid training costs; two crashes killed 346 people; pleaded guilty to conspiracy to defraud the U.S. in 2024; whistleblowers retaliated against', href: '/entities/corporations/boeing' },
+ { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Concealed MCAS from pilots to avoid training costs; two crashes killed 346 people; pleaded guilty to conspiracy to defraud the U.S. in 2024; whistleblowers retaliated against', href: '/entities/corporations/boeing' }
  ],
    eventOriginDate: '2018-10-29',
    lastActivityDate: '2025-08-22',
@@ -942,7 +939,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2020-01-10', event: 'House Transportation Committee releases internal Boeing messages: employees described MAX as "designed by clowns supervised by monkeys"; chief pilot texted about "lying to regulators"', type: 'default' },
      { date: '2021-01-07', event: 'Boeing enters $2.5 billion deferred prosecution agreement with DOJ for conspiracy to defraud the FAA; victims\' families denounce the deal', type: 'legal' },
      { date: '2024-01-05', event: 'Alaska Airlines 737 MAX 9 suffers door plug blowout at 16,000 feet; NTSB finds four retaining bolts were missing from factory; renewed crisis of confidence', type: 'critical' },
-     { date: '2024-07-24', event: 'Boeing pleads guilty to conspiracy to defraud the United States; agrees to $243.6 million fine; victims\' families call the deal inadequate', type: 'legal' },
+     { date: '2024-07-24', event: 'Boeing pleads guilty to conspiracy to defraud the United States; agrees to $243.6 million fine; victims\' families call the deal inadequate', type: 'legal' }
    ],
  },
   'bop-failures': {
@@ -958,7 +955,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'The death of Jeffrey Epstein at the Metropolitan Correctional Center (MCC) New York on August 10, 2019 exposed the BOP\'s failures at their most consequential. Epstein, who was awaiting trial on federal sex trafficking charges and whose potential testimony implicated numerous powerful figures, was found dead in his cell from an apparent suicide. The two guards assigned to his Special Housing Unit had been sleeping and falsifying logs; one was not even a trained correctional officer but was working mandatory overtime due to staffing shortages. The security cameras outside Epstein\'s cell malfunctioned that night. He had been taken off suicide watch just 12 days after a previous suicide attempt, a decision that violated standard BOP protocols. Whether one accepts the official suicide determination or suspects foul play, the conditions that allowed it to happen; fabricated records, sleeping guards, broken cameras, understaffed facilities; constitute institutional failure of the highest order.',
  'Sexual abuse by BOP staff is systemic, documented, and inadequately addressed. A 2022 AP investigation identified at least 100 BOP employees who had been arrested, convicted, or sentenced for sexual abuse of inmates since 2019. The DOJ Inspector General documented that the BOP failed to adequately investigate sexual abuse allegations at FCI Dublin, a women\'s facility in California, where the warden, chaplain, and multiple correctional officers were convicted of sexually abusing inmates. Warden Ray Garcia was sentenced to nearly six years in prison after being convicted of sexual abuse of multiple female inmates. The systemic nature of the abuse; occurring across facilities, ranks, and years; indicates institutional culture failure rather than isolated misconduct.',
  'Medical care within BOP facilities has been repeatedly found to violate constitutional standards. The DOJ Inspector General reported in 2016 that the BOP failed to adequately treat inmates with chronic conditions, leaving many without prescribed medications for weeks or months. At USP Tucson, the Inspector General found inmates died from treatable conditions because medical staff failed to respond to emergencies. During the COVID-19 pandemic, the BOP\'s response was catastrophic: the virus swept through overcrowded facilities with inadequate ventilation, killing over 300 inmates and infecting tens of thousands. The compassionate release provisions of the CARES Act were applied so restrictively that the vast majority of medically vulnerable inmates were denied early release despite meeting the statutory criteria.',
- 'Congressional oversight has produced damning reports and bipartisan criticism but minimal structural reform. The Senate Permanent Subcommittee on Investigations, the House Judiciary Committee, and the DOJ Inspector General have issued multiple reports documenting BOP dysfunction spanning over a decade. The First Step Act of 2018 was designed to reform federal sentencing and improve prison conditions, but implementation has been hampered by BOP bureaucratic resistance and inadequate funding. Attorney General Merrick Garland ordered a review of BOP operations following the Epstein death and Dublin sexual abuse scandals, but systemic reforms require sustained funding commitments that Congress has not provided. The BOP\'s annual budget of approximately $8 billion is insufficient for safe operations, yet the political constituency for incarcerated people is effectively nonexistent.',
+ 'Congressional oversight has produced damning reports and bipartisan criticism but minimal structural reform. The Senate Permanent Subcommittee on Investigations, the House Judiciary Committee, and the DOJ Inspector General have issued multiple reports documenting BOP dysfunction spanning over a decade. The First Step Act of 2018 was designed to reform federal sentencing and improve prison conditions, but implementation has been hampered by BOP bureaucratic resistance and inadequate funding. Attorney General Merrick Garland ordered a review of BOP operations following the Epstein death and Dublin sexual abuse scandals, but systemic reforms require sustained funding commitments that Congress has not provided. The BOP\'s annual budget of approximately $8 billion is insufficient for safe operations, yet the political constituency for incarcerated people is effectively nonexistent.'
  ],
  tags: ['Bureau of Prisons', 'Epstein Death', 'Prison Sexual Abuse', 'Staff Shortages', 'FCI Dublin', 'Institutional Failure'],
  sources: [
@@ -966,11 +963,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Senate Permanent Subcommittee on Investigations - BOP Review', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Government' },
  { title: 'AP Investigation - Federal Prisons', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
- { title: 'ACLU National Prison Project', url: 'https://www.aclu.org/issues/prisoners-rights', type: 'Report' },
+ { title: 'ACLU National Prison Project', url: 'https://www.aclu.org/issues/prisoners-rights', type: 'Report' }
  ],
  affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Died under suspicious circumstances at MCC New York on August 10, 2019 while awaiting sex trafficking trial; guards were sleeping and falsifying logs; cameras malfunctioned; suicide watch improperly removed', href: '/entities/individuals/jeffrey-epstein' },
- { id: '2', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Operates 122 facilities with 4,000+ officer vacancies; at least 100 employees arrested for sexual abuse since 2019; DOJ IG found systemic medical care failures; COVID killed 300+ inmates', href: '/entities/agencies/federal-bureau-of-prisons' },
+ { id: '2', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Operates 122 facilities with 4,000+ officer vacancies; at least 100 employees arrested for sexual abuse since 2019; DOJ IG found systemic medical care failures; COVID killed 300+ inmates', href: '/entities/agencies/federal-bureau-of-prisons' }
  ],
    eventOriginDate: '2019-08-10',
    lastActivityDate: '2025-02-25',
@@ -980,7 +977,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2020-03-01', event: 'COVID-19 sweeps through BOP facilities; overcrowding and inadequate ventilation create catastrophic conditions; over 300 inmates die; compassionate release applied restrictively', type: 'critical' },
      { date: '2022-01-13', event: 'FCI Dublin warden Ray Garcia arrested for sexually abusing multiple female inmates; chaplain and additional officers also convicted; systemic sexual abuse pattern documented', type: 'legal' },
      { date: '2022-07-01', event: 'AP investigation identifies 100+ BOP employees arrested, convicted or sentenced for sexual abuse of inmates since 2019; documents system-wide staff shortages', type: 'default' },
-     { date: '2023-03-14', event: 'Senate investigation documents BOP staffing crisis: 4,000+ officer vacancies; non-custody staff forced into guard roles; inmates locked down 23 hours daily at multiple facilities', type: 'default' },
+     { date: '2023-03-14', event: 'Senate investigation documents BOP staffing crisis: 4,000+ officer vacancies; non-custody staff forced into guard roles; inmates locked down 23 hours daily at multiple facilities', type: 'default' }
    ],
  },
   'border-deaths': {
@@ -996,7 +993,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'The death toll since PTD\'s implementation is staggering and almost certainly underreported. The International Organization for Migration\'s Missing Migrants Project documented over 8,000 deaths on the U.S.-Mexico border between 1998 and 2023. CBP\'s own data recorded 895 migrant deaths in fiscal year 2022; the highest single-year total ever documented, and a figure that represents only bodies actually found. The Pima County Medical Examiner\'s Office in Tucson, Arizona, which processes more unidentified border remains than any facility in the country, has documented thousands of cases in which recovered remains are too decomposed for identification due to extreme heat exposure. Forensic anthropologist Dr. Robin Reineke estimates that for every body recovered, two to three remain undiscovered in the desert.',
  'CBP officers and Border Patrol agents have been directly implicated in contributing to migrant deaths through both action and deliberate inaction. Humanitarian organizations including No More Deaths/No Mas Muertes have documented Border Patrol agents destroying water supplies, food caches, and blankets left in the desert for migrants in distress. A 2018 No More Deaths report documented the destruction of over 3,500 gallons of water over a four-year period. In high-profile incidents, Border Patrol agents have been credibly accused of running down migrants with vehicles, denying medical care to individuals in custody, and using deadly force against rock-throwers. The DOJ Inspector General found that CBP\'s internal affairs process was inadequate to investigate use-of-force incidents, and that agents involved in shootings were rarely held accountable.',
  'The June 27, 2022 discovery of 53 dead migrants inside an abandoned tractor-trailer in San Antonio, Texas became the deadliest human smuggling incident in American history and briefly focused national attention on the consequences of enforcement-only border policy. The victims, from Mexico, Honduras, and Guatemala, had been locked in an unventilated trailer in 103-degree heat. The trailer\'s cooling system had failed, and survivors reported screaming and banging on the walls while temperatures inside exceeded 140 degrees. Driver Homero Zamorano was charged with 53 counts of smuggling resulting in death. The incident followed previous trailer death events in Victoria, Texas (2003, 19 dead) and Laredo (2017, 10 dead), demonstrating that the smuggling industry adapts to enforcement barriers by using increasingly dangerous methods.',
- 'The systemic conditions that produce border deaths remain deliberately unaddressed because acknowledging them would require confronting the foundational logic of deterrence-based enforcement. The U.S. spends approximately $25 billion annually on border enforcement, more than all other federal law enforcement agencies combined, yet migrant arrivals and deaths have both continued to increase. The legal framework for asylum, which theoretically guarantees the right to request protection at a port of entry, has been systematically undermined by MPP (Remain in Mexico), Title 42 expulsions, and the CBP One app, which limits asylum processing to approximately 1,450 appointments per day across the entire southern border, forcing the vast majority of asylum seekers to cross irregularly through the same lethal terrain the system was designed to weaponize.',
+ 'The systemic conditions that produce border deaths remain deliberately unaddressed because acknowledging them would require confronting the foundational logic of deterrence-based enforcement. The U.S. spends approximately $25 billion annually on border enforcement, more than all other federal law enforcement agencies combined, yet migrant arrivals and deaths have both continued to increase. The legal framework for asylum, which theoretically guarantees the right to request protection at a port of entry, has been systematically undermined by MPP (Remain in Mexico), Title 42 expulsions, and the CBP One app, which limits asylum processing to approximately 1,450 appointments per day across the entire southern border, forcing the vast majority of asylum seekers to cross irregularly through the same lethal terrain the system was designed to weaponize.'
  ],
  tags: ['Prevention Through Deterrence', 'Migrant Deaths', 'Border Patrol', 'Human Smuggling', 'Operation Gatekeeper', 'Asylum Access'],
  sources: [
@@ -1004,11 +1001,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'No More Deaths - Disappeared Reports', url: 'https://nomoredeaths.org/', type: 'Report' },
  { title: 'CBP Southwest Border Migration Statistics', url: 'https://www.cbp.gov/newsroom/stats/southwest-land-border-encounters', type: 'Government' },
  { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border/', type: 'Report' },
- { title: 'Pima County Medical Examiner - Unidentified Remains', url: 'https://webcms.pima.gov/government/medical_examiner/', type: 'Government' },
+ { title: 'Pima County Medical Examiner - Unidentified Remains', url: 'https://webcms.pima.gov/government/medical_examiner/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'CBP', type: 'agency', relationship: 'Implements Prevention Through Deterrence strategy that deliberately funnels migrants into lethal desert terrain; agents documented destroying humanitarian water supplies; recorded 895 deaths in FY2022', href: '/entities/agencies/cbp' },
- { id: '2', name: 'DHS', type: 'agency', relationship: 'Oversees border enforcement strategy spending $25 billion annually; implemented MPP, Title 42, and CBP One policies that restrict asylum access and increase irregular crossings through dangerous terrain', href: '/entities/agencies/dhs' },
+ { id: '2', name: 'DHS', type: 'agency', relationship: 'Oversees border enforcement strategy spending $25 billion annually; implemented MPP, Title 42, and CBP One policies that restrict asylum access and increase irregular crossings through dangerous terrain', href: '/entities/agencies/dhs' }
  ],
    eventOriginDate: '1994-10-01',
    lastActivityDate: '2025-06-23',
@@ -1019,7 +1016,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2018-01-17', event: 'No More Deaths publishes report documenting Border Patrol destruction of 3,500+ gallons of humanitarian water left in desert for migrants in distress', type: 'default' },
      { date: '2022-06-27', event: '53 migrants found dead in abandoned tractor-trailer in San Antonio in 103-degree heat; deadliest human smuggling incident in U.S. history', type: 'critical' },
      { date: '2022-09-30', event: 'CBP records 895 migrant deaths in fiscal year 2022, the highest single-year total ever documented; experts estimate actual death toll is 2-3x higher due to unrecovered remains', type: 'critical' },
-     { date: '2024-06-04', event: 'Biden executive order restricts asylum access when daily encounters exceed 2,500; border deaths continue as policy forces irregular crossings through dangerous terrain', type: 'political' },
+     { date: '2024-06-04', event: 'Biden executive order restricts asylum access when daily encounters exceed 2,500; border deaths continue as policy forces irregular crossings through dangerous terrain', type: 'political' }
    ],
  },
   'boston-archdiocese-coverup': {
@@ -1035,7 +1032,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Father John Geoghan became the central figure of the scandal after the Globe revealed he had been accused of sexually abusing more than 130 children over a 30-year career during which he was transferred between six parishes. Geoghan\'s pattern was documented in archdiocese files: complaints would come in, auxiliary bishops would meet with victims\' families (sometimes offering small cash payments), Geoghan would be sent for brief "treatment" at a facility like the Institute of Living, and then he would be assigned to a new parish with a school, youth program, or CCD class providing access to children. Cardinal Law approved each transfer. The archdiocese\'s own records showed that complaints about Geoghan reached the highest levels of Church leadership for decades, yet the institution\'s response was to protect the institution rather than the children.',
  'The scope of the abuse was far larger than any single predator. The Globe ultimately identified over 250 priests and brothers in the Boston Archdiocese alone who were credibly accused of child sexual abuse. Attorney Mitchell Garabedian represented hundreds of victims, and the Archdiocese eventually paid over $157 million in settlements to more than 1,000 victims in Boston. The pattern was not unique to Boston; the Spotlight investigation triggered a global cascade of similar revelations. In the United States, grand jury investigations in Pennsylvania (2018) documented over 1,000 victims across six dioceses; the Illinois Attorney General identified 690 clergy abusers; and similar investigations in every major American diocese produced comparable findings. The John Jay College report, commissioned by the U.S. Conference of Catholic Bishops, identified over 11,000 allegations of abuse against 4,392 priests between 1950 and 2002.',
  'Cardinal Bernard Law resigned as Archbishop of Boston in December 2002 under overwhelming pressure from parishioners, victims, and some fellow clergy. His resignation was treated by the Vatican not as disgrace but as an inconvenience requiring relocation: Pope John Paul II appointed Law as archpriest of the Basilica di Santa Maria Maggiore in Rome, one of the most prestigious ceremonial positions in the Catholic Church. Law lived in a grand apartment in Rome, continued to participate in Vatican governance including voting in the 2005 papal conclave that elected Benedict XVI, and was never subjected to any canonical discipline. He died in 2017 and was buried with full Church honors. The message was unmistakable: the institution rewards loyalty to the institution, regardless of the cost to children.',
- 'The Boston revelations fundamentally changed the relationship between the Catholic Church and civil authorities, but accountability remains profoundly incomplete. Massachusetts passed legislation eliminating criminal statutes of limitations for child sexual abuse cases. Multiple states followed with similar reforms, though the Church lobby actively fought limitations reforms in states including New York and Pennsylvania. The Vatican created new reporting procedures and established review boards, but fundamentally declined to change the structures of authority that enabled the coverup. The canonical legal system still operates separately from civil law, bishops still control the reporting chain, and the clerical culture of secrecy remains intact. In 2019, Pope Francis issued new universal guidelines requiring clergy to report abuse to Church superiors, but notably not to civil authorities, preserving the institutional firewall that made the coverup possible in the first place.',
+ 'The Boston revelations fundamentally changed the relationship between the Catholic Church and civil authorities, but accountability remains profoundly incomplete. Massachusetts passed legislation eliminating criminal statutes of limitations for child sexual abuse cases. Multiple states followed with similar reforms, though the Church lobby actively fought limitations reforms in states including New York and Pennsylvania. The Vatican created new reporting procedures and established review boards, but fundamentally declined to change the structures of authority that enabled the coverup. The canonical legal system still operates separately from civil law, bishops still control the reporting chain, and the clerical culture of secrecy remains intact. In 2019, Pope Francis issued new universal guidelines requiring clergy to report abuse to Church superiors, but notably not to civil authorities, preserving the institutional firewall that made the coverup possible in the first place.'
  ],
  tags: ['Catholic Church Abuse', 'Spotlight Investigation', 'Cardinal Law', 'John Geoghan', 'Institutional Coverup', 'Child Sexual Abuse'],
  sources: [
@@ -1043,11 +1040,11 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'John Jay College Report - Nature and Scope of Sexual Abuse', url: 'https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf', type: 'Report' },
  { title: 'Massachusetts Attorney General Report - Sexual Abuse by Clergy', url: 'https://www.mass.gov/orgs/office-of-the-attorney-general', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'Pennsylvania Grand Jury Report on Clergy Abuse', url: 'https://www.attorneygeneral.gov/', type: 'Government' },
+ { title: 'Pennsylvania Grand Jury Report on Clergy Abuse', url: 'https://www.attorneygeneral.gov/', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Cardinal Bernard Law', type: 'individual', relationship: 'Archbishop of Boston who personally approved transfers of known pedophile priests to new parishes for decades; resigned in 2002; appointed by Pope to prestigious Rome basilica; never disciplined', href: '/entities/individuals/cardinal-bernard-law' },
- { id: '2', name: 'John Geoghan', type: 'individual', relationship: 'Priest accused of sexually abusing over 130 children across six parishes over 30 years while the archdiocese repeatedly transferred him with full knowledge of his crimes; murdered in prison in 2003', href: '/entities/individuals/john-geoghan' },
+ { id: '2', name: 'John Geoghan', type: 'individual', relationship: 'Priest accused of sexually abusing over 130 children across six parishes over 30 years while the archdiocese repeatedly transferred him with full knowledge of his crimes; murdered in prison in 2003', href: '/entities/individuals/john-geoghan' }
  ],
    eventOriginDate: '1962-01-01',
    lastActivityDate: '2025-06-20',
@@ -1058,7 +1055,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2002-12-13', event: 'Cardinal Bernard Law resigns as Archbishop of Boston; Pope John Paul II subsequently appoints him archpriest of the Basilica di Santa Maria Maggiore in Rome', type: 'political' },
      { date: '2003-08-23', event: 'Father John Geoghan murdered in prison by fellow inmate; had been convicted in 2002 of indecent assault of a 10-year-old boy; over 130 accusers documented', type: 'default' },
      { date: '2018-08-14', event: 'Pennsylvania grand jury report documents over 1,000 child victims and 300 "predator priests" across six dioceses; triggers nationwide cascade of state investigations', type: 'critical' },
-     { date: '2019-05-09', event: 'Pope Francis issues new universal guidelines requiring clergy to report abuse to Church superiors but notably not to civil law enforcement authorities', type: 'legal' },
+     { date: '2019-05-09', event: 'Pope Francis issues new universal guidelines requiring clergy to report abuse to Church superiors but notably not to civil law enforcement authorities', type: 'legal' }
    ],
  },
   'botham-jean-murder': {
@@ -1074,7 +1071,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'The Dallas Police Department\'s initial response revealed how the system protects its own even when the facts are indefensible. Guyger was not arrested at the scene despite having just killed an unarmed man in his home. She was allowed to leave and was not taken into custody for three days, during which time the Texas Rangers assumed the investigation from DPD due to conflicts of interest. In a maneuver that drew nationwide outrage, investigators obtained a search warrant for Botham Jean\'s apartment; the victim\'s home; and leaked to the media that 10.4 grams of marijuana had been found. The implication was unmistakable: authorities were building a narrative to discredit the dead man rather than focus on the officer who killed him. Jean\'s family and civil rights leaders condemned the tactic as textbook character assassination of a Black victim to generate sympathy for a white officer.',
  'Guyger\'s October 2019 trial became a landmark in police accountability. Prosecutors argued for murder, rejecting the lesser manslaughter charge that typically shields officers in use-of-force cases. Evidence presented included Guyger\'s text messages showing a pattern of racially insensitive jokes and complaints about Black colleagues at DPD. Her Pinterest account contained posts about police use of force that suggested a cavalier attitude toward deadly encounters. Key testimony from neighbors contradicted Guyger\'s account of the door being open, and forensic evidence showed Jean posed no threat. The jury convicted Guyger of murder; not manslaughter; making it one of the exceedingly rare cases where an American police officer was convicted of murder for an on-duty or duty-adjacent killing. She was sentenced to 10 years, meaning she became eligible for parole after serving just five years for taking an innocent man\'s life in his own home.',
  'The sentencing phase produced one of the most emotionally charged and controversial moments in modern courtroom history. Botham Jean\'s 18-year-old brother Brandt Jean addressed Guyger directly, said he forgave her, and asked the judge if he could hug her. Judge Tammy Kemp permitted the embrace and then personally descended from the bench to hug Guyger and hand her a Bible. The moment went viral and ignited fierce debate: some praised Brandt Jean\'s grace while others argued that the rush to forgive and comfort a convicted murderer in uniform reinforced a system where Black grief is expected to be performatively redemptive rather than justifiably angry. The Freedom From Religion Foundation filed a formal judicial conduct complaint against Judge Kemp, arguing her actions conveyed improper bias.',
- 'The case became a flashpoint in the broader reckoning over police violence against Black Americans. Jean\'s family filed a civil lawsuit against the City of Dallas and Guyger, ultimately settling for $4 million and commitments to policy reforms. The Texas Court of Criminal Appeals upheld Guyger\'s murder conviction in 2021, rejecting her argument that the jury should have been instructed on the castle doctrine. Guyger became eligible for parole in September 2024 after serving five years of her 10-year sentence. The case sits alongside the killings of Atatiana Jefferson, who was shot through her own window by a Fort Worth officer just 13 months after Jean\'s death, and the broader pattern documented by the Washington Post\'s Fatal Force database showing that police kill approximately 1,000 Americans annually, with Black Americans shot at more than twice the rate of white Americans relative to their population.',
+ 'The case became a flashpoint in the broader reckoning over police violence against Black Americans. Jean\'s family filed a civil lawsuit against the City of Dallas and Guyger, ultimately settling for $4 million and commitments to policy reforms. The Texas Court of Criminal Appeals upheld Guyger\'s murder conviction in 2021, rejecting her argument that the jury should have been instructed on the castle doctrine. Guyger became eligible for parole in September 2024 after serving five years of her 10-year sentence. The case sits alongside the killings of Atatiana Jefferson, who was shot through her own window by a Fort Worth officer just 13 months after Jean\'s death, and the broader pattern documented by the Washington Post\'s Fatal Force database showing that police kill approximately 1,000 Americans annually, with Black Americans shot at more than twice the rate of white Americans relative to their population.'
  ],
  tags: ['Police Violence', 'Racial Justice', 'Police Accountability', 'Dallas Police', 'Amber Guyger', 'Botham Jean', 'Criminal Trial', 'Use of Force'],
  sources: [
@@ -1082,13 +1079,13 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Texas Court of Criminal Appeals: Guyger v. State Opinion', url: 'https://search.txcourts.gov/Case.aspx?cn=PD-0370-20', type: 'Legal Document' },
  { title: 'Washington Post Fatal Force Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Database' },
  { title: 'NBC News: Botham Jean Case Investigation Timeline', url: 'https://www.nbcnews.com/news/us-news/amber-guyger-trial', type: 'News Report' },
- { title: 'NAACP Legal Defense Fund: Police Accountability and Use of Force', url: 'https://www.naacpldf.org/', type: 'Reference' },
+ { title: 'NAACP Legal Defense Fund: Police Accountability and Use of Force', url: 'https://www.naacpldf.org/', type: 'Reference' }
  ],
  affiliations: [
  { id: '1', name: 'Amber Guyger', type: 'individual', relationship: 'Off-duty Dallas Police Department officer who entered Botham Jean\'s apartment one floor above her own and shot him dead; convicted of murder in October 2019; sentenced to 10 years; eligible for parole after five years', href: '/entities/individuals/amber-guyger' },
  { id: '2', name: 'Botham Jean', type: 'individual', relationship: '26-year-old PricewaterhouseCoopers accountant and St. Lucia native killed by Guyger in his own apartment while eating ice cream; posthumously subjected to character assassination when police searched his home and leaked marijuana findings', href: '/entities/individuals/botham-jean' },
  { id: '3', name: 'Dallas Police Department', type: 'agency', relationship: 'Employer of Amber Guyger; failed to arrest her for three days after the killing; obtained a search warrant for the victim\'s apartment rather than focusing on the officer who killed him; case handed to Texas Rangers due to conflict of interest', href: '/entities/agencies/dallas-police-department' },
- { id: '4', name: 'Judge Tammy Kemp', type: 'individual', relationship: 'Presiding judge who drew controversy for descending from the bench to hug convicted murderer Guyger and hand her a Bible after sentencing; subject of judicial conduct complaint', href: '/entities/individuals/judge-tammy-kemp' },
+ { id: '4', name: 'Judge Tammy Kemp', type: 'individual', relationship: 'Presiding judge who drew controversy for descending from the bench to hug convicted murderer Guyger and hand her a Bible after sentencing; subject of judicial conduct complaint', href: '/entities/individuals/judge-tammy-kemp' }
  ],
    eventOriginDate: '2018-09-06',
    lastActivityDate: '2024-09-25',
@@ -1100,7 +1097,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2019-10-01', event: 'Jury convicts Amber Guyger of murder; one of the rarest murder convictions of a police officer in American history; sentenced to 10 years in prison', type: 'critical' },
      { date: '2019-10-02', event: 'Brandt Jean hugs Guyger in court; Judge Tammy Kemp descends from bench to embrace the convicted murderer and hand her a Bible; moment ignites national debate about expectations of Black forgiveness', type: 'default' },
      { date: '2021-08-05', event: 'Texas Court of Criminal Appeals upholds Guyger\'s murder conviction; rejects castle doctrine argument that she believed she was in her own home', type: 'legal' },
-     { date: '2024-09-06', event: 'Guyger becomes eligible for parole after serving five years of her 10-year sentence for murdering Botham Jean in his own home', type: 'default' },
+     { date: '2024-09-06', event: 'Guyger becomes eligible for parole after serving five years of her 10-year sentence for murdering Botham Jean in his own home', type: 'default' }
    ],
  },
   'breonna-taylor': {
@@ -1119,7 +1116,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Taylor\'s death, combined with the killing of George Floyd two months later, ignited the largest sustained protest movement in American history during the summer of 2020. Louisville saw over 100 consecutive days of protests. The city paid Taylor\'s family a $12 million wrongful death settlement; the largest in Louisville history; and agreed to police reforms including restrictions on no-knock warrants.',
  'Federal civil rights charges brought accountability that the state system refused to deliver. In August 2022, the DOJ indicted four Louisville officers. Jaynes and another detective were charged with conspiracy and falsifying the warrant affidavit. Hankison was charged with civil rights violations for firing into Taylor\'s apartment. Former Sergeant Kyle Meany was charged with conspiracy to cover up the falsified warrant. In 2023, Jaynes was convicted on federal charges; Hankison was acquitted.',
  'A DOJ pattern-or-practice investigation, completed in March 2023, found that Louisville Metro Police Department engaged in a pattern of using unreasonable force, conducting illegal searches, discriminating against Black people in enforcement activities, and violating the rights of people engaged in protected speech. The investigation confirmed that Taylor\'s death was not an isolated incident but the product of systemic police misconduct.',
- 'The case exposed the lethality of no-knock warrants, which allow police to enter homes without announcing themselves. At least 100 people have been killed in no-knock raid executions since 2010. Taylor\'s death led Louisville and several other jurisdictions to ban or severely restrict no-knock warrants, though most American police departments continue to use them.',
+ 'The case exposed the lethality of no-knock warrants, which allow police to enter homes without announcing themselves. At least 100 people have been killed in no-knock raid executions since 2010. Taylor\'s death led Louisville and several other jurisdictions to ban or severely restrict no-knock warrants, though most American police departments continue to use them.'
  ],
  tags: ['Police Violence', 'No-Knock Warrant', 'Breonna Taylor', 'Louisville', 'DOJ Pattern-or-Practice', 'Black Lives Matter', 'Police Reform'],
  sources: [
@@ -1127,14 +1124,14 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ Federal Indictment of Four LMPD Officers', url: 'https://www.justice.gov/opa/pr/four-current-and-former-louisville-officers-federally-charged-breonna-taylor', type: 'Legal Document' },
  { title: 'Louisville/Taylor Family $12M Settlement', url: 'https://www.nytimes.com/2020/09/15/us/breonna-taylor-settlement-louisville.html', type: 'News Report' },
  { title: 'Kentucky AG Grand Jury Proceedings (Juror Lawsuit)', url: 'https://www.courier-journal.com/story/news/local/breonna-taylor/2020/10/20/', type: 'Legal Document' },
- { title: 'AP Breonna Taylor Investigation Timeline', url: 'https://apnews.com/article/breonna-taylor-timeline', type: 'Investigation' },
+ { title: 'AP Breonna Taylor Investigation Timeline', url: 'https://apnews.com/article/breonna-taylor-timeline', type: 'Investigation' }
  ],
  affiliations: [
  { id: '1', name: 'Louisville Metro Police', type: 'agency', relationship: 'Killed Taylor in botched raid; DOJ found pattern of civil rights violations across department', href: '/entities/agencies/louisville-metro-police' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal civil rights charges against 4 officers; pattern-or-practice investigation found systemic violations', href: '/entities/agencies/doj' },
  { id: '3', name: 'Joshua Jaynes', type: 'individual', relationship: 'Detective who falsified warrant affidavit; convicted on federal charges in 2023', href: '/entities/individuals/joshua-jaynes' },
  { id: '4', name: 'Daniel Cameron', type: 'individual', relationship: 'Kentucky AG who did not present murder charges to grand jury; grand juror alleged misrepresentation', href: '/entities/individuals/daniel-cameron' },
- { id: '5', name: 'Kenneth Walker', type: 'individual', relationship: 'Taylor\'s boyfriend; fired warning shot in self-defense and was initially charged with attempted murder', href: '/entities/individuals/kenneth-walker' },
+ { id: '5', name: 'Kenneth Walker', type: 'individual', relationship: 'Taylor\'s boyfriend; fired warning shot in self-defense and was initially charged with attempted murder', href: '/entities/individuals/kenneth-walker' }
  ],
    eventOriginDate: '2020-03-13',
    lastActivityDate: '2023-11-18',
@@ -1149,7 +1146,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022-08-04', event: 'DOJ indicts four LMPD officers on federal civil rights charges. Jaynes and Goodlett charged with conspiracy for falsifying warrant. Hankison charged for use of excessive force.', type: 'legal' },
      { date: '2023-03-08', event: 'DOJ releases pattern-or-practice report finding Louisville Metro Police engaged in systemic discrimination, excessive force, illegal searches, and First Amendment violations.', type: 'critical' },
      { date: '2023-08-23', event: 'Kelly Goodlett sentenced to 12 months in prison after pleading guilty to conspiracy for helping falsify the warrant. First officer sentenced in the case.', type: 'legal' },
-     { date: '2023-10-31', event: 'Joshua Jaynes convicted on federal charges of civil rights violations and falsifying the search warrant affidavit. Brett Hankison acquitted on federal excessive force charges.', type: 'legal' },
+     { date: '2023-10-31', event: 'Joshua Jaynes convicted on federal charges of civil rights violations and falsifying the search warrant affidavit. Brett Hankison acquitted on federal excessive force charges.', type: 'legal' }
      ],
  },
   'brian-sicknick': {
@@ -1167,7 +1164,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'Sicknick\'s death became a political flashpoint in the aftermath of January 6. His remains lay in honor in the Capitol Rotunda, an honor reserved for a tiny number of Americans. President Biden, House Speaker Pelosi, and Senate leaders paid tribute. But as the political right began minimizing January 6, some figures denied the connection between the attack and his death, citing the medical examiner\'s "natural causes" classification while ignoring the examiner\'s own statement that the events of January 6 contributed.',
  'Four other people died in connection with January 6. Ashli Babbitt was fatally shot by a Capitol Police officer while attempting to breach the Speaker\'s Lobby. Rosanne Boyland was crushed in a crowd surge at the Capitol tunnel. Kevin Greeson and Benjamin Phillips died of heart-related emergencies amid the chaos. In the weeks and months following, four responding officers died by suicide: Capitol Police Officers Howard Liebengood and Jeffrey Smith, and Metropolitan Police Officers Gunther Hashida and Kyle DeFreytag.',
  'The broader January 6 assault on law enforcement was staggering. Approximately 140 police officers were physically assaulted during the insurrection. Officers were beaten with flagpoles, fire extinguishers, and metal barriers. One officer was tased repeatedly. Another was crushed in a doorway. Officer Michael Fanone was dragged into the crowd, tased, and beaten while rioters chanted "kill him with his own gun." Officer Harry Dunn testified that rioters called him racial slurs.',
- 'The January 6 Select Committee investigation documented that the insurrection was not spontaneous but the product of a coordinated effort to overturn the 2020 election. The violence that killed Sicknick was inflicted by people who had been told for months that the election was stolen. Over 1,200 individuals were charged in connection with January 6, including leaders of the Proud Boys and Oath Keepers convicted of seditious conspiracy.',
+ 'The January 6 Select Committee investigation documented that the insurrection was not spontaneous but the product of a coordinated effort to overturn the 2020 election. The violence that killed Sicknick was inflicted by people who had been told for months that the election was stolen. Over 1,200 individuals were charged in connection with January 6, including leaders of the Proud Boys and Oath Keepers convicted of seditious conspiracy.'
  ],
  tags: ['January 6', 'Capitol Police', 'Brian Sicknick', 'Insurrection', 'Police Assault', 'Political Violence'],
  sources: [
@@ -1175,13 +1172,13 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'D.C. Chief Medical Examiner Report', url: 'https://www.washingtonpost.com/local/public-safety/brian-sicknick-death-strokes/2021/04/19/', type: 'Government Report' },
  { title: 'January 6 Select Committee Final Report', url: 'https://www.govinfo.gov/committee/house-january6th', type: 'Congressional Record' },
  { title: 'U.S. Capitol Police Statement on Officer Sicknick', url: 'https://www.uscp.gov/', type: 'Government' },
- { title: 'DOJ January 6 Prosecution Tracker', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', type: 'Government' },
+ { title: 'DOJ January 6 Prosecution Tracker', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Julian Khater', type: 'individual', relationship: 'Deployed chemical spray directly on Sicknick; pleaded guilty; sentenced to 80 months', href: '/entities/individuals/julian-khater' },
  { id: '2', name: 'George Tanios', type: 'individual', relationship: 'Provided backpack with chemical spray to Khater; pleaded guilty to misdemeanors; time served', href: '/entities/individuals/george-tanios' },
  { id: '3', name: 'U.S. Capitol Police', type: 'agency', relationship: 'Sicknick\'s employer; 140 officers physically assaulted during January 6', href: '/entities/agencies/us-capitol-police' },
- { id: '4', name: 'DOJ', type: 'agency', relationship: 'Investigated and prosecuted Sicknick\'s attackers; charged 1,200+ January 6 defendants', href: '/entities/agencies/doj' },
+ { id: '4', name: 'DOJ', type: 'agency', relationship: 'Investigated and prosecuted Sicknick\'s attackers; charged 1,200+ January 6 defendants', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2021-01-06',
    lastActivityDate: '2023-09-01',
@@ -1195,7 +1192,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021', event: 'Capitol Police Officers Howard Liebengood and Jeffrey Smith, and Metropolitan Police Officers Gunther Hashida and Kyle DeFreytag die by suicide in the months following January 6.', type: 'critical' },
      { date: '2022-09-01', event: 'Khater pleads guilty to two counts of assaulting a federal officer with a dangerous weapon. Tanios pleads guilty to two misdemeanor charges.', type: 'legal' },
      { date: '2023-04-06', event: 'Khater sentenced to 80 months in federal prison. Judge cites the severity of attacking officers defending the democratic process.', type: 'legal' },
-     { date: '2023', event: 'Insurrection deniers continue to minimize January 6 violence. \"Sicknick wasn\'t murdered\" becomes a talking point despite the medical examiner\'s own statement connecting the attack to death.', type: 'political' },
+     { date: '2023', event: 'Insurrection deniers continue to minimize January 6 violence. \"Sicknick wasn\'t murdered\" becomes a talking point despite the medical examiner\'s own statement connecting the attack to death.', type: 'political' }
    ],
  },
   'buffalo-massacre': {
@@ -1214,7 +1211,7 @@ const investigations_b: Record<string, InvestigationData> = {
  'The FBI had been warned about Gendron nearly a year before the attack. In June 2021, as a 17-year-old high school student, Gendron made a threatening statement at Susquehanna Valley High School about wanting to commit a murder-suicide. New York State Police responded and Gendron was referred for a mental health evaluation under New York\'s mental hygiene law. He was evaluated at a hospital and released after approximately a day and a half. No firearms were confiscated. No red flag order was pursued. No follow-up investigation was conducted. He legally purchased the rifle used in the attack months later.',
  'Gendron livestreamed the entire attack on the streaming platform Twitch. The video remained live for approximately two minutes before Twitch removed it, but it had already been screen-recorded and spread across social media platforms. Despite removal efforts, the video proliferated on platforms including Facebook, Twitter, and various anonymous forums. The speed of dissemination demonstrated the failure of content moderation systems to prevent the viral spread of mass shooting footage; a problem that had persisted since the Christchurch shooting three years earlier.',
  'On November 28, 2022, Gendron pleaded guilty to all 25 state charges, including 10 counts of first-degree murder (one as a hate crime), 3 counts of attempted murder as a hate crime, domestic terrorism, and weapons charges. On February 15, 2023, he was sentenced to life in prison without the possibility of parole; the maximum penalty under New York law. At sentencing, victims\' families delivered impact statements directly to Gendron. Zeneta Everhart, whose son Zaire Goodman was wounded, told the court: "My son\'s life and the lives of those killed that day meant zero to you." Federal hate crime charges remain pending.',
- 'The Buffalo massacre was part of a documented pattern of white supremacist mass violence. From the Charleston church shooting in 2015 (9 killed by Dylann Roof) to the Pittsburgh synagogue shooting in 2018 (11 killed) to the El Paso Walmart shooting in 2019 (23 killed), domestic white supremacist terrorism has been the deadliest form of ideological violence in the United States. Despite this, FBI resources directed toward white supremacist domestic terrorism consistently lagged behind those directed at other threat categories. A 2020 DHS draft threat assessment identified white supremacist extremists as the "most persistent and lethal threat" in the homeland.',
+ 'The Buffalo massacre was part of a documented pattern of white supremacist mass violence. From the Charleston church shooting in 2015 (9 killed by Dylann Roof) to the Pittsburgh synagogue shooting in 2018 (11 killed) to the El Paso Walmart shooting in 2019 (23 killed), domestic white supremacist terrorism has been the deadliest form of ideological violence in the United States. Despite this, FBI resources directed toward white supremacist domestic terrorism consistently lagged behind those directed at other threat categories. A 2020 DHS draft threat assessment identified white supremacist extremists as the "most persistent and lethal threat" in the homeland.'
  ],
  tags: ['White Supremacy', 'Mass Shooting', 'Buffalo', 'Great Replacement', 'Racist Violence', 'Online Radicalization', 'Hate Crime', 'Domestic Terrorism'],
  sources: [
@@ -1222,13 +1219,13 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ Federal Hate Crime Charges Against Gendron', url: 'https://www.justice.gov/opa/pr/federal-grand-jury-indicts-payton-gendron-hate-crimes', type: 'Legal Document' },
  { title: 'New York Times: How Tucker Carlson Pushed the Great Replacement Theory', url: 'https://www.nytimes.com/2022/05/15/us/replacement-theory-shooting-tucker-carlson.html', type: 'Investigation' },
  { title: 'Anti-Defamation League: Great Replacement Theory Backgrounder', url: 'https://www.adl.org/resources/backgrounder/great-replacement-an-explainer', type: 'Report' },
- { title: 'DHS Strategic Intelligence Assessment: Domestic Violent Extremism', url: 'https://www.dhs.gov/', type: 'Government Report' },
+ { title: 'DHS Strategic Intelligence Assessment: Domestic Violent Extremism', url: 'https://www.dhs.gov/', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Payton Gendron', type: 'individual', relationship: 'Shooter; radicalized online through Great Replacement theory; killed 10 and wounded 3; sentenced to life without parole', href: '/entities/individuals/payton-gendron' },
  { id: '2', name: 'FBI', type: 'agency', relationship: 'Warned about Gendron in June 2021 after threatening statement; no follow-up investigation conducted; leading federal hate crime prosecution', href: '/entities/agencies/fbi' },
  { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Tucker Carlson promoted Great Replacement theory in 400+ episodes; language mirrored shooter\'s manifesto', href: '/entities/corporations/fox-news' },
- { id: '4', name: 'Twitch', type: 'corporation', relationship: 'Platform where attack was livestreamed; removed video within 2 minutes but it had already been recorded and spread', href: '/entities/corporations/twitch' },
+ { id: '4', name: 'Twitch', type: 'corporation', relationship: 'Platform where attack was livestreamed; removed video within 2 minutes but it had already been recorded and spread', href: '/entities/corporations/twitch' }
  ],
    eventOriginDate: '2022-05-14',
    lastActivityDate: '2023-02-15',
@@ -1243,7 +1240,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022-07-14', event: 'Federal grand jury indicts Gendron on 27 counts including hate crimes resulting in death, hate crimes involving attempt to kill, and firearms offenses. Faces potential death penalty.', type: 'legal' },
      { date: '2022-11-28', event: 'Gendron pleads guilty to all 25 state charges including 10 counts of first-degree murder, domestic terrorism motivated by hate, and weapons charges.', type: 'legal' },
      { date: '2023-02-15', event: 'Gendron sentenced to life in prison without parole; the maximum penalty under New York law. Victims\' families deliver impact statements at sentencing hearing.', type: 'legal' },
-     { date: '2023', event: 'Federal hate crime prosecution remains pending. DOJ weighs death penalty; AG Garland has not yet made a formal determination on whether to seek capital punishment.', type: 'legal' },
+     { date: '2023', event: 'Federal hate crime prosecution remains pending. DOJ weighs death penalty; AG Garland has not yet made a formal determination on whether to seek capital punishment.', type: 'legal' }
    ],
  },
   'bay-of-pigs-cover-up': {
@@ -1259,18 +1256,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'The Kennedy administration\'s public position; that the invasion was entirely a Cuban exile operation with no direct US military involvement; was a deliberate lie. American pilots flew combat missions during the invasion; four Alabama Air National Guard pilots working under CIA contract were killed when their B-26 bombers were shot down over the Bay of Pigs on April 19, 1961. Their deaths were covered up for decades; the Pentagon told their families they had died in a training accident in Nicaragua. The full truth was not officially acknowledged until 1979, when the families received belated recognition. CIA case officers directed the operation from a forward command post in Nicaragua and from the USS Essex offshore.',
       'Declassified documents reveal that the Bay of Pigs was connected to a broader CIA program of assassination plots against Castro. Operation Mongoose, established by the Kennedy administration after the invasion failure, included at least eight documented assassination attempts using methods ranging from poisoned cigars to exploding seashells. The CIA recruited Mafia figures; specifically Sam Giancana and Santos Trafficante; to assist in the assassination plots, creating an alliance between the intelligence community and organized crime that persisted for years. The Church Committee investigation in 1975 documented these plots but concluded that the question of whether Presidents Eisenhower or Kennedy explicitly authorized assassinations "cannot be resolved."',
       'The CIA suppressed its own internal history of the invasion. A comprehensive 300-page classified history written by CIA historian Jack Pfeiffer in the 1970s and 1980s was kept secret for decades. When the National Security Archive filed FOIA lawsuits to obtain the document, the CIA fought release in court. Volume V of the history, covering the CIA Inspector General\'s investigation, was not released until 2016; 55 years after the invasion. The released documents revealed that CIA Director Allen Dulles had personally deceived President Kennedy about the probability of success and that the agency had conducted a covert propaganda operation to shift blame for the failure onto Kennedy.',
-      'The Bay of Pigs failure had profound consequences for American foreign policy and intelligence operations. It led directly to the Cuban Missile Crisis of October 1962, as Soviet Premier Khrushchev concluded that the US would attempt another invasion and agreed to Castro\'s request for nuclear missiles. It spawned Operation Mongoose and its assassination programs. It established a pattern of CIA operational failures covered up through classification that would repeat in Vietnam, Iran-Contra, and the Iraq War. The invasion also radicalized Cuban-American exile communities, creating political networks that influenced US-Cuba policy for over six decades and produced figures connected to the Watergate break-in and other covert domestic operations.',
+      'The Bay of Pigs failure had profound consequences for American foreign policy and intelligence operations. It led directly to the Cuban Missile Crisis of October 1962, as Soviet Premier Khrushchev concluded that the US would attempt another invasion and agreed to Castro\'s request for nuclear missiles. It spawned Operation Mongoose and its assassination programs. It established a pattern of CIA operational failures covered up through classification that would repeat in Vietnam, Iran-Contra, and the Iraq War. The invasion also radicalized Cuban-American exile communities, creating political networks that influenced US-Cuba policy for over six decades and produced figures connected to the Watergate break-in and other covert domestic operations.'
     ],
     tags: ['CIA', 'Cuba', 'Cold War', 'Covert Operations', 'Assassination Plots', 'Cover-Up'],
     sources: [
       { title: 'CIA Inspector General Bay of Pigs Report (Declassified)', url: 'https://nsarchive.gwu.edu', type: 'Government Record' },
       { title: 'Church Committee Final Report on Assassination Plots', url: 'https://www.intelligence.senate.gov', type: 'Congressional Record' },
       { title: 'National Security Archive Bay of Pigs Collection', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
-      { title: 'CIA Official History Volumes I-V (Declassified)', url: 'https://www.cia.gov', type: 'Government Record' },
+      { title: 'CIA Official History Volumes I-V (Declassified)', url: 'https://www.cia.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Planned and executed failed invasion; concealed truth for decades', href: '/entities/agencies/cia' },
- { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Covered up deaths of American pilots in combat missions', href: '/entities/agencies/pentagon' },
+ { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Covered up deaths of American pilots in combat missions', href: '/entities/agencies/pentagon' }
  ],
    eventOriginDate: '1961-01-01',
    lastActivityDate: '2025-04-01',
@@ -1281,7 +1278,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1962-10-01', event: 'It led directly to the Cuban Missile Crisis of October 1962, as Soviet Premier Khrushchev concluded that the US would attempt another invasion and agreed to Castro\'s request for nuclear missiles', type: 'default' },
      { date: '1975', event: 'The Church Committee investigation in 1975 documented these plots but concluded that the question of whether Presidents Eisenhower or Kennedy explicitly authorized assassinations "cannot be resolved."', type: 'political' },
      { date: '1979', event: 'The full truth was not officially acknowledged until 1979, when the families received belated recognition', type: 'default' },
-     { date: '2016', event: 'Volume V of the history, covering the CIA Inspector General\'s investigation, was not released until 2016; 55 years after the invasion', type: 'default' },
+     { date: '2016', event: 'Volume V of the history, covering the CIA Inspector General\'s investigation, was not released until 2016; 55 years after the invasion', type: 'default' }
    ],
   },
   'big-pharma-patent-evergreening': {
@@ -1297,20 +1294,19 @@ const investigations_b: Record<string, InvestigationData> = {
       'The Hatch-Waxman Act of 1984, originally designed to balance innovation incentives with generic access, has been systematically exploited. The law grants drug manufacturers an automatic 30-month stay on generic approval when they file patent infringement suits; regardless of the suit\'s merit. Companies routinely file last-minute patent suits against generic applicants to trigger the 30-month stay, a practice known as "parking" that delays generic entry at enormous cost to patients and insurers. A 2020 FTC study found that branded drug companies filed an average of 38 patent suits against each new generic applicant, with the primary purpose of delaying competition rather than protecting genuine innovation. "Pay-for-delay" settlements; where branded companies pay generic manufacturers to stay off the market; cost consumers an estimated $3.5 billion annually according to the FTC.',
       'Insulin pricing demonstrates how evergreening keeps lifesaving drugs unaffordable. Insulin was discovered in 1921 and its patent was sold for $1. Yet a century later, a vial of insulin in the US costs $275 to $540, compared to $30 in Canada and $20 in most European countries. The three companies that control 90% of the global insulin market; Eli Lilly, Novo Nordisk, and Sanofi; have collectively filed over 1,200 patents on insulin formulations, delivery devices, and manufacturing methods. Each incremental patent prevents generic competition and allows companies to raise prices. A Senate Finance Committee investigation found that Eli Lilly raised the list price of Humalog by 1,157% between 1996 and 2023 while the production cost remained approximately $3 to $6 per vial.',
       'The Patent Trial and Appeal Board (PTAB), created by the America Invents Act of 2011, was intended to weed out improperly granted patents through inter partes review. However, pharmaceutical companies have lobbied to limit PTAB\'s ability to invalidate drug patents. The Supreme Court\'s 2023 decision to narrow PTAB jurisdiction has made patent challenges more difficult. Meanwhile, the "product hop" strategy; where companies switch patients from a patent-expiring pill to a slightly modified version like a capsule, extended-release formulation, or combination product before generics launch; transfers the patient base to a new patented product. Warner Chilcott settled FTC charges in 2019 for product-hopping its acne drug Doryx, but the practice remains widespread because the potential profits far exceed regulatory penalties.',
-      'Reform efforts have made minimal progress against industry lobbying. The CREATES Act, passed in 2019, was supposed to prevent companies from using REMS safety protocols to deny generic manufacturers access to drug samples needed for bioequivalence testing; a practice that delayed dozens of generics. However, implementation has been slow. The Inflation Reduction Act\'s Medicare drug negotiation provisions cover only 10 drugs initially and do not address the underlying patent system exploitation. PhRMA, the pharmaceutical industry trade group, spent $373 million on lobbying between 2019 and 2023; the most of any industry. Every major patent reform bill introduced in the 118th Congress was blocked in committee after pharmaceutical lobbying.',
+      'Reform efforts have made minimal progress against industry lobbying. The CREATES Act, passed in 2019, was supposed to prevent companies from using REMS safety protocols to deny generic manufacturers access to drug samples needed for bioequivalence testing; a practice that delayed dozens of generics. However, implementation has been slow. The Inflation Reduction Act\'s Medicare drug negotiation provisions cover only 10 drugs initially and do not address the underlying patent system exploitation. PhRMA, the pharmaceutical industry trade group, spent $373 million on lobbying between 2019 and 2023; the most of any industry. Every major patent reform bill introduced in the 118th Congress was blocked in committee after pharmaceutical lobbying.'
     ],
     tags: ['Patent Abuse', 'Drug Pricing', 'Generic Drugs', 'Pharmaceutical Industry', 'Insulin Crisis'],
     sources: [
       { title: 'FTC Patent Thicket Study', url: 'https://www.ftc.gov', type: 'Government Record' },
       { title: 'Senate Finance Committee Insulin Pricing Investigation', url: 'https://www.finance.senate.gov', type: 'Congressional Record' },
       { title: 'I-MAK Humira Patent Analysis', url: 'https://www.i-mak.org', type: 'Policy Research' },
-      { title: 'CRS Drug Patent Evergreening Report', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'CRS Drug Patent Evergreening Report', url: 'https://crsreports.congress.gov', type: 'Congressional Report' }
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Hatch-Waxman 30-month stay enables evergreening delays', href: '/entities/agencies/fda' },
  { id: '2', name: 'AbbVie', type: 'corporation', relationship: '250+ patents on Humira; $208B in cumulative revenue' },
- { id: '3', name: 'Eli Lilly', type: 'corporation', relationship: '1,157% insulin price increase through patent evergreening', href: '/entities/corporations/eli-lilly' },
+ { id: '3', name: 'Eli Lilly', type: 'corporation', relationship: '1,157% insulin price increase through patent evergreening', href: '/entities/corporations/eli-lilly' }
  ],
    eventOriginDate: '1921-01-01',
    lastActivityDate: '2024-04-22',
@@ -1325,7 +1321,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2019', event: 'PhRMA, the pharmaceutical industry trade group, spent $373 million on lobbying between 2019 and 2023; the most of any industry', type: 'financial' },
      { date: '2020', event: 'A 2020 FTC study found that branded drug companies filed an average of 38 patent suits against each new generic applicant, with the primary purpose of delaying competition rather than protecting ge', type: 'default' },
      { date: '2023', event: 'The Supreme Court\'s 2023 decision to narrow PTAB jurisdiction has made patent challenges more difficult', type: 'legal' },
-     { date: '2023', event: 'Humira generated $208 billion in cumulative revenue; making it the best-selling drug in history; before biosimilar competition finally arrived in the US in January 2023, roughly two decades after t', type: 'political' },
+     { date: '2023', event: 'Humira generated $208 billion in cumulative revenue; making it the best-selling drug in history; before biosimilar competition finally arrived in the US in January 2023, roughly two decades after t', type: 'political' }
    ],
   },
   'banking-lobby-capture-of-fed': {
@@ -1341,20 +1337,19 @@ const investigations_b: Record<string, InvestigationData> = {
       'The revolving door between the Fed and Wall Street undermines regulatory independence. A 2021 Project on Government Oversight analysis found that over the previous decade, 164 former Fed officials went to work for the financial institutions they had supervised. Conversely, major Fed appointments frequently go to Wall Street veterans. Treasury Secretary and former Fed Chair Janet Yellen received over $7 million in speaking fees from financial institutions including Citigroup, Goldman Sachs, and Barclays between leaving the Fed and becoming Treasury Secretary. The 2021 Fed trading scandal revealed that two regional Fed presidents; Robert Kaplan (Dallas) and Eric Rosengren (Boston); had been actively trading stocks and real estate investments while participating in monetary policy decisions that directly affected financial markets. Both resigned, but neither faced any legal consequences.',
       'The Fed\'s response to the 2008 financial crisis exemplified regulatory capture in action. The Fed provided $29 trillion in total lending commitments to financial institutions; including $16.1 trillion in emergency loans documented by a GAO audit; while allowing bank executives who caused the crisis to retain their positions and compensation. Not a single senior executive at any major bank was criminally charged. Simultaneously, the Fed\'s zero-interest-rate policy and quantitative easing programs, which purchased $4.5 trillion in bonds by 2014, overwhelmingly benefited asset holders and financial institutions while providing minimal direct benefit to the 10 million Americans who lost their homes. A 2018 Fed study found that quantitative easing increased the wealth of the top 1% by $2.5 trillion while increasing the wealth of the bottom 50% by approximately $50 billion.',
       'The banking lobby\'s influence over Fed policy extends to deregulation that directly preceded financial crises. The 2018 Economic Growth, Regulatory Relief, and Consumer Protection Act; passed after $100 million in bank lobbying; raised the threshold for enhanced prudential standards from $50 billion to $250 billion in assets, exempting banks like Silicon Valley Bank and Signature Bank from stress testing and liquidity requirements. Both banks subsequently failed in March 2023, requiring $33 billion in FDIC insurance fund losses and triggering the largest emergency lending facility since 2008. The Fed\'s own post-mortem admitted that supervisors had identified risks at SVB but failed to act with sufficient urgency; a failure consistent with the captured regulatory culture.',
-      'The Federal Reserve\'s monetary policy decisions consistently prioritize inflation targeting over employment, wages, and financial stability for ordinary Americans. When inflation rose in 2022, the Fed raised interest rates at the fastest pace in 40 years; from near zero to 5.25-5.5% in 18 months; increasing mortgage rates to 8%, devastating the housing market for buyers, and raising borrowing costs for small businesses and consumers. Meanwhile, government data showed that corporate profit margins reached their highest level since 1950, suggesting that "greedflation"; companies raising prices beyond cost increases; was a significant driver of inflation. The Fed\'s mandate includes maximum employment, but its historical practice of engineering recessions to combat inflation disproportionately impacts workers; particularly Black workers, whose unemployment rate rises roughly twice as fast as white unemployment during Fed-induced downturns.',
+      'The Federal Reserve\'s monetary policy decisions consistently prioritize inflation targeting over employment, wages, and financial stability for ordinary Americans. When inflation rose in 2022, the Fed raised interest rates at the fastest pace in 40 years; from near zero to 5.25-5.5% in 18 months; increasing mortgage rates to 8%, devastating the housing market for buyers, and raising borrowing costs for small businesses and consumers. Meanwhile, government data showed that corporate profit margins reached their highest level since 1950, suggesting that "greedflation"; companies raising prices beyond cost increases; was a significant driver of inflation. The Fed\'s mandate includes maximum employment, but its historical practice of engineering recessions to combat inflation disproportionately impacts workers; particularly Black workers, whose unemployment rate rises roughly twice as fast as white unemployment during Fed-induced downturns.'
     ],
     tags: ['Federal Reserve', 'Regulatory Capture', 'Wall Street', 'Banking', 'Monetary Policy', 'Revolving Door'],
     sources: [
       { title: 'GAO Federal Reserve Emergency Lending Audit', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'POGO Fed Revolving Door Report', url: 'https://www.pogo.org', type: 'Policy Research' },
       { title: 'Fed IG Report on Trading Scandal', url: 'https://oig.federalreserve.gov', type: 'Government Audit' },
-      { title: 'Fed Post-Mortem SVB Supervision Review', url: 'https://www.federalreserve.gov', type: 'Government Record' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Fed Post-Mortem SVB Supervision Review', url: 'https://www.federalreserve.gov', type: 'Government Record' }
     ],
     affiliations: [
  { id: '1', name: 'Federal Reserve', type: 'agency', relationship: 'Captured regulatory structure; industry-selected board members', href: '/entities/agencies/federal-reserve' },
  { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Multiple former executives in Fed leadership; revolving door', href: '/entities/corporations/goldman-sachs' },
- { id: '3', name: 'JPMorgan Chase', type: 'corporation', relationship: 'CEO sat on NY Fed board during bailout; primary beneficiary of Fed policy', href: '/entities/corporations/jpmorgan-chase' },
+ { id: '3', name: 'JPMorgan Chase', type: 'corporation', relationship: 'CEO sat on NY Fed board during bailout; primary beneficiary of Fed policy', href: '/entities/corporations/jpmorgan-chase' }
  ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2024-08-12',
@@ -1370,7 +1365,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021', event: 'A 2021 Project on Government Oversight analysis found that over the previous decade, 164 former Fed officials went to work for the financial institutions they had supervised', type: 'default' },
      { date: '2021', event: 'The 2021 Fed trading scandal revealed that two regional Fed presidents; Robert Kaplan (Dallas) and Eric Rosengren (Boston)', type: 'political' },
      { date: '2022', event: 'When inflation rose in 2022, the Fed raised interest rates at the fastest pace in 40 years; from near zero to 5.25-5.5% in 18 months', type: 'default' },
-     { date: '2023-03-01', event: 'Both banks subsequently failed in March 2023, requiring $33 billion in FDIC insurance fund losses and triggering the largest emergency lending facility since 2008', type: 'political' },
+     { date: '2023-03-01', event: 'Both banks subsequently failed in March 2023, requiring $33 billion in FDIC insurance fund losses and triggering the largest emergency lending facility since 2008', type: 'political' }
    ],
   },
   'big-tech-antitrust-failures': {
@@ -1386,20 +1381,19 @@ const investigations_b: Record<string, InvestigationData> = {
       'Amazon\'s platform monopoly operates through what the FTC\'s 2023 complaint described as an "illegal monopoly maintenance strategy." Amazon allegedly uses an internal algorithm called "Project Nessie" to raise prices across the online retail market; testing how high it can set prices while competitors follow. The FTC found that Amazon penalizes sellers who offer lower prices on other platforms by burying their listings in search results (disfavoring their "Buy Box" eligibility), effectively forcing sellers to make Amazon their lowest-price channel. Amazon controls approximately 38% of US e-commerce but handles over 60% of all third-party online marketplace sales. Internal documents revealed that Amazon had a secret strategy called "Project Gazelle" (later "Small Business Inputs") that used data from third-party sellers to identify successful products and launch competing Amazon Basics versions.',
       'Apple\'s App Store monopoly extracts a 30% commission on digital goods and services sold through iOS apps; generating an estimated $85 billion in App Store revenue in 2023. The DOJ filed an antitrust lawsuit against Apple in March 2024, alleging that Apple suppressed "super apps," restricted cloud gaming, limited cross-platform messaging (degrading SMS texts from Android users with green bubbles), and blocked third-party digital wallets. The EU\'s Digital Markets Act forced Apple to allow alternative app stores and payment systems in Europe starting March 2024, but Apple implemented the changes with a new "Core Technology Fee" and restrictive terms that developers describe as deliberately punitive. Epic Games\' lawsuit, which reached the Supreme Court in 2023, established that Apple\'s App Store constitutes a monopoly under California law but found the 30% commission was not anticompetitive under existing federal antitrust standards.',
       'Meta acquired Instagram in 2012 for $1 billion and WhatsApp in 2014 for $19 billion; both acquisitions that the FTC initially approved and later alleged were illegal monopoly maintenance. Internal emails revealed during the FTC\'s monopoly case showed Mark Zuckerberg writing in 2012: "One thing about startups though is you can often acquire them... it is better to buy than compete." The FTC\'s complaint, refiled in 2021 after an initial dismissal, alleges Meta holds monopoly power in personal social networking and has maintained it through anticompetitive acquisitions and a "conditional dealing" strategy that cut off platform access to companies that competed with Meta\'s core features. Despite over 90% market share in personal social networking, Meta\'s case demonstrated the difficulty of antitrust enforcement when services are "free"; with courts struggling to apply traditional price-based antitrust frameworks to attention-economy monopolies.',
-      'The structural failure of antitrust enforcement enabled 40 years of unchecked consolidation. Between 1998 and 2024, Google, Apple, Amazon, Meta, and Microsoft collectively completed over 900 acquisitions with only one blocked by regulators (the DOJ\'s proposed block of Visa\'s acquisition of Plaid in 2020, which the companies abandoned). The FTC and DOJ Antitrust Division have been chronically underfunded; the combined antitrust enforcement budget of $600 million in 2024 is less than what Google earns in a single day. The "consumer welfare" standard adopted by courts since Robert Bork\'s 1978 "The Antitrust Paradox" narrowed enforcement to focus almost exclusively on consumer prices, making it nearly impossible to challenge monopolies in markets where products are nominally free. Legislative reform efforts; including the American Innovation and Choice Online Act and the Open App Markets Act; passed committee in the 117th Congress but died on the Senate floor after the tech industry spent $120 million on lobbying to defeat them.',
+      'The structural failure of antitrust enforcement enabled 40 years of unchecked consolidation. Between 1998 and 2024, Google, Apple, Amazon, Meta, and Microsoft collectively completed over 900 acquisitions with only one blocked by regulators (the DOJ\'s proposed block of Visa\'s acquisition of Plaid in 2020, which the companies abandoned). The FTC and DOJ Antitrust Division have been chronically underfunded; the combined antitrust enforcement budget of $600 million in 2024 is less than what Google earns in a single day. The "consumer welfare" standard adopted by courts since Robert Bork\'s 1978 "The Antitrust Paradox" narrowed enforcement to focus almost exclusively on consumer prices, making it nearly impossible to challenge monopolies in markets where products are nominally free. Legislative reform efforts; including the American Innovation and Choice Online Act and the Open App Markets Act; passed committee in the 117th Congress but died on the Senate floor after the tech industry spent $120 million on lobbying to defeat them.'
     ],
     tags: ['Antitrust', 'Big Tech', 'Monopoly', 'Google', 'Amazon', 'Apple', 'Meta'],
     sources: [
       { title: 'DOJ v. Google Antitrust Decision', url: 'https://www.justice.gov', type: 'Court Record' },
       { title: 'FTC v. Amazon Complaint', url: 'https://www.ftc.gov', type: 'Legal Document' },
       { title: 'DOJ v. Apple Antitrust Complaint', url: 'https://www.justice.gov', type: 'Legal Document' },
-      { title: 'House Judiciary Committee Digital Markets Investigation', url: 'https://judiciary.house.gov', type: 'Congressional Record' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'House Judiciary Committee Digital Markets Investigation', url: 'https://judiciary.house.gov', type: 'Congressional Record' }
     ],
     affiliations: [
  { id: '1', name: 'Google', type: 'corporation', relationship: 'Search monopoly confirmed; paid $26.3B to Apple for default status', href: '/entities/corporations/google' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed landmark cases against Google and Apple', href: '/entities/agencies/doj' },
- { id: '3', name: 'Federal Trade Commission', type: 'agency', relationship: 'Filed antitrust cases against Amazon and Meta', href: '/entities/agencies/federal-trade-commission' },
+ { id: '3', name: 'Federal Trade Commission', type: 'agency', relationship: 'Filed antitrust cases against Amazon and Meta', href: '/entities/agencies/federal-trade-commission' }
  ],
    eventOriginDate: '1978-01-01',
    lastActivityDate: '2025-12-20',
@@ -1419,7 +1413,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024', event: 'The FTC and DOJ Antitrust Division have been chronically underfunded; the combined antitrust enforcement budget of $600 million in 2024 is less than what Google earns in a single day', type: 'financial' },
      { date: '2024-03-01', event: 'The DOJ filed an antitrust lawsuit against Apple in March 2024, alleging that Apple suppressed "super apps," restricted cloud gaming, limited cross-platform messaging (degrading SMS texts from Andr', type: 'legal' },
      { date: '2024-03-01', event: 'The EU\'s Digital Markets Act forced Apple to allow alternative app stores and payment systems in Europe starting March 2024, but Apple implemented the changes with a new "Core Technology Fee" and r...', type: 'default' },
-     { date: '2024-08-01', event: 'Google\'s search monopoly was confirmed by a federal judge in August 2024 in the landmark DOJ v', type: 'legal' },
+     { date: '2024-08-01', event: 'Google\'s search monopoly was confirmed by a federal judge in August 2024 in the landmark DOJ v', type: 'legal' }
    ],
   },
   'ballot-chain-of-custody-violations': {
@@ -1435,19 +1429,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'Mail-in ballot processing creates particular chain-of-custody vulnerabilities. In 2020, the US Postal Service processed approximately 135 million mail ballots; more than double the previous record. USPS Inspector General audits found that 1.8% of election mail experienced "service failures," including delayed delivery that caused ballots to arrive after state deadlines. In Pennsylvania, approximately 10,000 ballots were delivered after the statutory deadline but were counted pursuant to a state Supreme Court order later challenged at the US Supreme Court. Multiple states reported instances of ballot drop boxes being left unattended overnight, without the continuous surveillance required by state regulations. In Wisconsin, the state Supreme Court ruled in 2022 that unstaffed drop boxes violated state law, eliminating 500 collection points.',
       'Voting machine security and chain-of-custody for electronic equipment present additional concerns. The Maricopa County, Arizona forensic audit conducted by Cyber Ninjas in 2021; despite its partisan origins and methodological flaws; identified that ballot tabulation machines had been connected to the internet, contrary to county assertions, and that election management system passwords had been shared among staff in violation of security protocols. A 2022 investigation in Coffee County, Georgia found that pro-Trump operatives gained access to election equipment and copied software and election data, with no chain-of-custody log documenting who had accessed the equipment. The breach involved the installation of forensic imaging software on voting systems by individuals who were not authorized election officials.',
       'The EAC (Election Assistance Commission) established voluntary chain-of-custody standards in the Voluntary Voting System Guidelines, but these are not legally binding on states or counties. A 2023 Brennan Center survey found that only 14 states had comprehensive, legally mandated chain-of-custody requirements covering ballot transport, storage, and processing. Twenty-one states had partial requirements, and 15 states had minimal or no specific chain-of-custody statutes. Where requirements exist, enforcement is typically absent; no state has established a dedicated chain-of-custody auditing function, and most rely on self-certification by county election officials.',
-      'The politicization of chain-of-custody issues has made reform more difficult. Following the 2020 election, chain-of-custody claims became a central element of election denial narratives, with some advocates making unsupported claims of massive ballot dumping or substitution. This politicization has caused some election officials to resist transparency measures, fearing that detailed chain-of-custody documentation will be weaponized for partisan purposes. The result is a paradox where legitimate chain-of-custody concerns are dismissed as conspiracy theories while actual procedural failures go unaddressed. Election security experts from the Verified Voting Foundation, the Election Infrastructure Information Sharing and Analysis Center (EI-ISAC), and the Cybersecurity and Infrastructure Security Agency (CISA) have called for uniform, mandatory, auditable chain-of-custody standards; but no federal legislation has advanced.',
+      'The politicization of chain-of-custody issues has made reform more difficult. Following the 2020 election, chain-of-custody claims became a central element of election denial narratives, with some advocates making unsupported claims of massive ballot dumping or substitution. This politicization has caused some election officials to resist transparency measures, fearing that detailed chain-of-custody documentation will be weaponized for partisan purposes. The result is a paradox where legitimate chain-of-custody concerns are dismissed as conspiracy theories while actual procedural failures go unaddressed. Election security experts from the Verified Voting Foundation, the Election Infrastructure Information Sharing and Analysis Center (EI-ISAC), and the Cybersecurity and Infrastructure Security Agency (CISA) have called for uniform, mandatory, auditable chain-of-custody standards; but no federal legislation has advanced.'
     ],
     tags: ['Election Integrity', 'Ballot Security', 'Chain of Custody', 'Voting Systems', 'Mail Ballots'],
     sources: [
       { title: 'Georgia Secretary of State Fulton County Review', url: 'https://sos.ga.gov', type: 'Government Record' },
       { title: 'USPS Inspector General Election Mail Audit', url: 'https://www.uspsoig.gov', type: 'Government Audit' },
       { title: 'EAC Voluntary Voting System Guidelines', url: 'https://www.eac.gov', type: 'Government Record' },
-      { title: 'Brennan Center Chain of Custody Survey', url: 'https://www.brennancenter.org', type: 'Policy Research' },
-      { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+      { title: 'Brennan Center Chain of Custody Survey', url: 'https://www.brennancenter.org', type: 'Policy Research' }
     ],
     affiliations: [
       { id: '1', name: 'CISA', type: 'agency', relationship: 'Federal election security guidance and coordination', href: '/entities/agencies/cisa' },
-      { id: '2', name: 'EAC', type: 'agency', relationship: 'Voluntary voting system standards without enforcement authority' },
+      { id: '2', name: 'EAC', type: 'agency', relationship: 'Voluntary voting system standards without enforcement authority' }
     ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-12-25',
@@ -1460,7 +1453,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Maricopa County, Arizona forensic audit conducted by Cyber Ninjas in 2021; despite its partisan origins and methodological flaws', type: 'political' },
      { date: '2022', event: 'In Wisconsin, the state Supreme Court ruled in 2022 that unstaffed drop boxes violated state law, eliminating 500 collection points', type: 'legal' },
      { date: '2022', event: 'A 2022 investigation in Coffee County, Georgia found that pro-Trump operatives gained access to election equipment and copied software and election data, with no chain-of-custody log documenting wh', type: 'political' },
-     { date: '2023', event: 'A 2023 Brennan Center survey found that only 14 states had comprehensive, legally mandated chain-of-custody requirements covering ballot transport, storage, and processing', type: 'default' },
+     { date: '2023', event: 'A 2023 Brennan Center survey found that only 14 states had comprehensive, legally mandated chain-of-custody requirements covering ballot transport, storage, and processing', type: 'default' }
    ],
   },
   'bankruptcy-fraud-hidden-asset-schemes': {
@@ -1476,20 +1469,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'Pre-bankruptcy asset transfers allow wealthy individuals to move assets beyond the reach of creditors before filing. Under federal law, fraudulent transfers made within two years of filing can be clawed back, but many states have shorter lookback periods and enforcement is inconsistent. "Asset protection trusts" established in states like Delaware, Nevada, and South Dakota allow individuals to transfer wealth into irrevocable trusts that are shielded from creditors even in bankruptcy; a strategy that Congress has not addressed despite decades of criticism from bankruptcy judges. The Sackler family, which owned Purdue Pharma, withdrew at least $10.4 billion from the company before it declared bankruptcy in 2019, moving funds into trusts and offshore accounts as opioid lawsuits mounted. The Supreme Court ultimately struck down Purdue\'s proposed settlement in 2024, finding that the bankruptcy plan improperly shielded the Sacklers from personal liability.',
       'Corporate bankruptcies systematically prioritize secured creditors and management compensation over workers and retirees. When Enron filed for bankruptcy in 2001, executives had already cashed out $1.1 billion in stock while employees whose 401(k) plans were locked into Enron stock lost $1.2 billion. This pattern has repeated in virtually every major corporate bankruptcy since. During Sears\' bankruptcy, former CEO Eddie Lampert\'s hedge fund ESL Investments held secured debt that gave it priority over 90,000 workers who lost their jobs, many of whom received no severance. The Bankruptcy Code allows management to pay themselves "retention bonuses" during bankruptcy proceedings; in 2023, debtor companies paid over $870 million in executive retention bonuses, even as ordinary employees were laid off without notice.',
       'Cryptocurrency and digital assets have created new avenues for bankruptcy fraud. The FTX collapse in November 2022 revealed that Sam Bankman-Fried had commingled customer funds with Alameda Research and spent billions on personal real estate, political donations, and investments while the exchange was insolvent. Court-appointed examiner reports found that FTX lacked basic financial controls; there was no complete list of bank accounts, no accounting department, and no inventory of digital assets. The Celsius Network bankruptcy revealed similar issues; CEO Alex Mashinsky withdrew $10 million in cryptocurrency weeks before the platform froze customer withdrawals. BlockFi, Voyager Digital, and Genesis all experienced similar patterns of insider withdrawals and asset concealment before their bankruptcy filings.',
-      'The US Trustee Program, which monitors bankruptcy proceedings for fraud and abuse, is severely under-resourced. The program has approximately 1,100 employees overseeing 400,000+ bankruptcy cases filed annually. A 2023 DOJ Inspector General report found that the Trustee Program was unable to review approximately 40% of cases for potential fraud due to staffing limitations. Individual debtors face far more scrutiny than corporate filers; the 2005 Bankruptcy Abuse Prevention and Consumer Protection Act imposed means testing and mandatory credit counseling on individual filers, making consumer bankruptcy more difficult and expensive while leaving corporate bankruptcy provisions largely unchanged. The result is a two-tier system where wealthy individuals and corporations can strategically use bankruptcy to shed obligations while ordinary Americans face significant barriers to basic debt relief.',
+      'The US Trustee Program, which monitors bankruptcy proceedings for fraud and abuse, is severely under-resourced. The program has approximately 1,100 employees overseeing 400,000+ bankruptcy cases filed annually. A 2023 DOJ Inspector General report found that the Trustee Program was unable to review approximately 40% of cases for potential fraud due to staffing limitations. Individual debtors face far more scrutiny than corporate filers; the 2005 Bankruptcy Abuse Prevention and Consumer Protection Act imposed means testing and mandatory credit counseling on individual filers, making consumer bankruptcy more difficult and expensive while leaving corporate bankruptcy provisions largely unchanged. The result is a two-tier system where wealthy individuals and corporations can strategically use bankruptcy to shed obligations while ordinary Americans face significant barriers to basic debt relief.'
     ],
     tags: ['Bankruptcy Fraud', 'Asset Concealment', 'Texas Two-Step', 'Corporate Accountability', 'Financial Crime'],
     sources: [
       { title: 'Third Circuit LTL Management Decision', url: 'https://www.pacer.gov', type: 'Court Record' },
       { title: 'Purdue Pharma Supreme Court Decision', url: 'https://www.supremecourt.gov', type: 'Court Record' },
       { title: 'FTX Bankruptcy Examiner Report', url: 'https://www.pacer.gov', type: 'Court Record' },
-      { title: 'DOJ Inspector General US Trustee Program Audit', url: 'https://oig.justice.gov', type: 'Government Audit' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'DOJ Inspector General US Trustee Program Audit', url: 'https://oig.justice.gov', type: 'Government Audit' }
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'US Trustee Program bankruptcy oversight; 40% case review shortfall', href: '/entities/agencies/doj' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
-
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' }
  ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2024-09-05',
@@ -1502,7 +1493,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Third Circuit Court of Appeals rejected J&J\'s first attempt in 2023, finding that the shell entity was not in "financial distress," but J&J refiled with a modified proposal offering $8.9 billio...', type: 'legal' },
      { date: '2023', event: 'The Bankruptcy Code allows management to pay themselves "retention bonuses" during bankruptcy proceedings; in 2023, debtor companies paid over $870 million in executive retention bonuses, even as o', type: 'financial' },
      { date: '2023', event: 'A 2023 DOJ Inspector General report found that the Trustee Program was unable to review approximately 40% of cases for potential fraud due to staffing limitations', type: 'financial' },
-     { date: '2024', event: 'The Supreme Court ultimately struck down Purdue\'s proposed settlement in 2024, finding that the bankruptcy plan improperly shielded the Sacklers from personal liability', type: 'legal' },
+     { date: '2024', event: 'The Supreme Court ultimately struck down Purdue\'s proposed settlement in 2024, finding that the bankruptcy plan improperly shielded the Sacklers from personal liability', type: 'legal' }
    ],
   },
   'birth-rate-manipulation-policy-analysis': {
@@ -1518,20 +1509,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'Forced sterilization programs in the United States targeted an estimated 60,000 to 70,000 people between 1907 and 1983 under state eugenics laws. North Carolina sterilized approximately 7,600 people, disproportionately Black women, under a program that continued until 1977; the state only established a compensation fund in 2013 paying $50,000 per victim. California performed roughly one-third of all US forced sterilizations and did not formally repeal its eugenics law until 1979. In 2020, a whistleblower complaint from nurse Dawn Wooten at the Irwin County Detention Center in Georgia alleged that ICE detainees were subjected to unnecessary hysterectomies by Dr. Mahendra Amin; a DHS Inspector General investigation confirmed that the facility had "ichever deficiency" in gynecological consent procedures, though the full scope of unauthorized procedures remains disputed.',
       'Pronatalist financial incentive programs have expanded dramatically across developed nations facing declining birth rates. Hungary\'s government under Viktor Orban spends approximately 5% of GDP on family policy; offering lifetime income tax exemptions for women who have four or more children, subsidized home loans forgiven at the third birth, free IVF, and grandparent leave benefits. Despite spending more than any other country on pronatalist measures, Hungary\'s fertility rate has only risen from 1.23 to 1.59 between 2011 and 2021; still below replacement. South Korea, with the world\'s lowest fertility rate of 0.72 in 2023, has spent over $200 billion on pronatalist incentives since 2006 with virtually no measurable effect. Japan offers a "childbirth lump sum" of 500,000 yen per child and free early childhood education, yet its birthrate continues to decline. These outcomes suggest that financial incentives alone cannot reverse cultural and economic shifts toward smaller families.',
       'Immigration policy has increasingly functioned as a de facto population management tool. The "Great Replacement" conspiracy theory, which falsely claims that governments are deliberately using immigration to reduce white populations, has influenced policy debates across Western democracies despite being roundly rejected by demographers. In reality, immigration has been the primary driver of population growth in the United States, Canada, Australia, and much of Western Europe for decades; the US Census Bureau projects that without immigration, the US population would begin declining by 2040. Countries like Japan and South Korea, which have historically restricted immigration, face the most severe demographic crises. Canada\'s Century Initiative explicitly aims to grow the population to 100 million by 2100 primarily through immigration; a target that would require approximately 500,000 immigrants annually.',
-      'Reproductive coercion continues in contemporary settings beyond explicit government policy. A 2021 Associated Press investigation revealed that China was systematically reducing Uyghur birth rates in Xinjiang through forced IUD insertions, sterilizations, and internment of women of childbearing age who violated birth limits; IUD insertions in Xinjiang surged to 963 per 100,000 people in 2018 compared to 21 per 100,000 in the rest of China. India\'s sterilization programs, while officially voluntary, create intense pressure through financial incentives targeting impoverished women; a mass sterilization camp in Bilaspur, Chhattisgarh in 2014 resulted in 13 deaths when operations were performed in unsanitary conditions at a rate of one every two minutes. Uzbekistan\'s government was documented forcing doctors to meet sterilization quotas until at least 2012. The common thread across all these programs is that reproductive manipulation is deployed as a tool of state power against populations with the least ability to resist.',
+      'Reproductive coercion continues in contemporary settings beyond explicit government policy. A 2021 Associated Press investigation revealed that China was systematically reducing Uyghur birth rates in Xinjiang through forced IUD insertions, sterilizations, and internment of women of childbearing age who violated birth limits; IUD insertions in Xinjiang surged to 963 per 100,000 people in 2018 compared to 21 per 100,000 in the rest of China. India\'s sterilization programs, while officially voluntary, create intense pressure through financial incentives targeting impoverished women; a mass sterilization camp in Bilaspur, Chhattisgarh in 2014 resulted in 13 deaths when operations were performed in unsanitary conditions at a rate of one every two minutes. Uzbekistan\'s government was documented forcing doctors to meet sterilization quotas until at least 2012. The common thread across all these programs is that reproductive manipulation is deployed as a tool of state power against populations with the least ability to resist.'
     ],
     tags: ['Reproductive Rights', 'Population Policy', 'Forced Sterilization', 'Eugenics', 'Demographic Engineering'],
     sources: [
       { title: 'Chinese National Bureau of Statistics', url: 'https://www.stats.gov.cn', type: 'Government Statistics' },
       { title: 'North Carolina Justice for Sterilization Victims Foundation', url: 'https://www.sterilizationvictims.nc.gov', type: 'Government Record' },
       { title: 'Associated Press Xinjiang Investigation', url: 'https://apnews.com', type: 'Investigative Report' },
-      { title: 'US Census Bureau Population Projections', url: 'https://www.census.gov', type: 'Government Statistics' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'US Census Bureau Population Projections', url: 'https://www.census.gov', type: 'Government Statistics' }
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'ICE detention facility sterilization allegations; DHS IG investigation', href: '/entities/agencies/dhs' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2025-05-22',
@@ -1547,15 +1536,9 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2020', event: 'In 2020, a whistleblower complaint from nurse Dawn Wooten at the Irwin County Detention Center in Georgia alleged that ICE detainees were subjected to unnecessary hysterectomies by Dr', type: 'default' },
      { date: '2021', event: 'A 2021 Associated Press investigation revealed that China was systematically reducing Uyghur birth rates in Xinjiang through forced IUD insertions, sterilizations, and internment of women of childb', type: 'default' },
      { date: '2022', event: 'The demographic consequences are now manifesting as a severe aging crisis; China\'s population declined in 2022 for the first time since the Great Famine of 1961, and the fertility rate has dropped ...', type: 'default' },
-     { date: '2023', event: 'South Korea, with the world\'s lowest fertility rate of 0.72 in 2023, has spent over $200 billion on pronatalist incentives since 2006 with virtually no measurable effect', type: 'political' },
+     { date: '2023', event: 'South Korea, with the world\'s lowest fertility rate of 0.72 in 2023, has spent over $200 billion on pronatalist incentives since 2006 with virtually no measurable effect', type: 'political' }
    ],
   },
-
-
-
-
-
-
 
   'boeing-safety': {
     title: "Boeing Safety Crisis",
@@ -1575,20 +1558,19 @@ const investigations_b: Record<string, InvestigationData> = {
       "DEFERRED PROSECUTION AGREEMENT: Boeing entered a deferred prosecution agreement with DOJ over the MAX crashes in January 2021, paying $2.5 billion; of which only $500 million went to victims' families. In 2024, DOJ determined Boeing had violated the agreement by failing to implement adequate compliance programs. Prosecutors recommended criminal fraud charges. Families of the 346 killed called the original deal a sweetheart arrangement.",
       "QUALITY COLLAPSE: Internal audits and FAA inspections revealed thousands of quality non-conformances at Boeing's factories. Workers reported being pressured to meet production targets regardless of safety concerns. Spirit AeroSystems, Boeing's key fuselage supplier, was found to have systemic quality issues. Boeing agreed to reacquire Spirit in 2024 to regain direct control over fuselage manufacturing.",
       "STOCK BUYBACKS VS SAFETY: Between 2013 and 2019, Boeing spent $43 billion on stock buybacks while investing minimally in safety improvements and production quality. The company's board and executive compensation were tied to stock price performance; creating perverse incentives to prioritize shareholder returns over engineering rigor.",
-      "CONGRESSIONAL INVESTIGATION: The House Transportation Committee's 18-month investigation concluded that the 737 MAX disasters were 'the horrific culmination of a series of faulty technical assumptions by Boeing's engineers, a lack of transparency on the part of Boeing's management, and grossly insufficient oversight by the FAA.' The committee found Boeing concealed information from the FAA, airlines, and pilots.",
+      "CONGRESSIONAL INVESTIGATION: The House Transportation Committee's 18-month investigation concluded that the 737 MAX disasters were 'the horrific culmination of a series of faulty technical assumptions by Boeing's engineers, a lack of transparency on the part of Boeing's management, and grossly insufficient oversight by the FAA.' The committee found Boeing concealed information from the FAA, airlines, and pilots."
     ],
     tags: ["Boeing","737 MAX","Aviation Safety","Corporate Negligence","Whistleblower","FAA","MCAS","Regulatory Capture"],
     sources: [
       { title: "Senate Commerce Committee Boeing Investigation", url: "https://www.commerce.senate.gov/boeing/", type: "Government Report" },
       { title: "NTSB 737 MAX Investigation", url: "https://www.ntsb.gov/investigations/Pages/DCA19MA", type: "Investigation" },
       { title: "House Transportation Committee Final Report on 737 MAX", url: "https://transportation.house.gov/committee-activity/boeing-737-max-investigation", type: "Government Report" },
-      { title: "DOJ Deferred Prosecution Agreement", url: "https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion", type: "Court Document" },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: "DOJ Deferred Prosecution Agreement", url: "https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion", type: "Court Document" }
     ],
     affiliations: [
       { id: '1', name: 'FAA', type: 'agency', relationship: 'Delegated safety certification to Boeing through ODA program; failed to ground MAX after first crash despite internal risk analysis', href: '/entities/agencies/faa' },
       { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Negotiated deferred prosecution agreement criticized by victims\' families; later found Boeing violated terms', href: '/entities/agencies/doj' },
-      { id: '3', name: 'NTSB', type: 'agency', relationship: 'Investigated 737 MAX crashes and door plug blowout; findings contradicted Boeing\'s safety claims', href: '/entities/agencies/ntsb' },
+      { id: '3', name: 'NTSB', type: 'agency', relationship: 'Investigated 737 MAX crashes and door plug blowout; findings contradicted Boeing\'s safety claims', href: '/entities/agencies/ntsb' }
     ],
    eventOriginDate: '2018-10-29',
    lastActivityDate: '2026-03-21',
@@ -1605,7 +1587,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024', event: 'DOOR PLUG BLOWOUT: In January 2024, an Alaska Airlines 737 MAX 9 lost a door plug mid-flight at 16,000 feet, creating a gaping hole in the fuselage.', type: 'default' },
      { date: '2024-01', event: 'DOOR PLUG BLOWOUT: In January 2024, an Alaska Airlines 737 MAX 9 lost a door plug mid-flight at 16,000 feet, creating a gaping hole in the fuselage.', type: 'default' },
      { date: '2024-03-09', event: 'He was found dead from an apparent self-inflicted gunshot wound on March 9, 2024, during his deposition in a whistleblower lawsuit against Boeing.', type: 'legal' },
-     { date: '2024-04', event: 'Boeing engineer Sam Salehpour testified before Congress in April 2024 that Boeing took shortcuts on the 787 Dreamliner that could cause the fuselage to break apart after thousands of flights.', type: 'political' },
+     { date: '2024-04', event: 'Boeing engineer Sam Salehpour testified before Congress in April 2024 that Boeing took shortcuts on the 787 Dreamliner that could cause the fuselage to break apart after thousands of flights.', type: 'political' }
    ],
   },
   'banking-crisis-manipulation': {
@@ -1622,19 +1604,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'The Federal Reserve\'s emergency lending programs provided $16 trillion in secret loans to banks at 0.01% interest. The largest recipients were foreign banks including $1.2 trillion to foreign central banks. Domestic banks like Citigroup and Bank of America received hundreds of billions while claiming they were "too big to fail."',
       'The foreclosure crisis displaced millions. Banks used robosigning to process fraudulent foreclosures, forging documents to seize homes. The 2012 National Mortgage Settlement required banks to pay $25 billion but allowed them to buy back their own bad loans at face value, profiting from the scheme.',
       'Executive compensation remained astronomical. While taxpayers bailed out the banks, bonuses continued. Goldman Sachs paid $11.4 billion in bonuses in 2009, the year after receiving $10 billion in TARP funds. Lloyd Blankfein called the bank\'s performance "God\'s work."',
-      'The Dodd-Frank Act was weakened through lobbying. Banks successfully removed the Volcker Rule restrictions, allowing proprietary trading. The Consumer Financial Protection Bureau was created but underfunded and leadership was contested.',
+      'The Dodd-Frank Act was weakened through lobbying. Banks successfully removed the Volcker Rule restrictions, allowing proprietary trading. The Consumer Financial Protection Bureau was created but underfunded and leadership was contested.'
     ],
     tags: ['Financial Crisis', 'Banking', 'Mortgage Fraud', 'Credit Default Swaps', 'Bailout', 'Too Big to Fail'],
     sources: [
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov', type: 'Government Report' },
       { title: 'Senate Permanent Subcommittee on Investigations', url: 'https://www.hsgac.senate.gov', type: 'Investigation' },
-      { title: 'Federal Reserve Emergency Lending', url: 'https://www.federalreserve.gov', type: 'Financial Data' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Federal Reserve Emergency Lending', url: 'https://www.federalreserve.gov', type: 'Financial Data' }
     ],
     affiliations: [
       { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Created toxic securities then bet against them', href: '/entities/corporations/goldman-sachs' },
       { id: '2', name: 'AIG', type: 'corporation', relationship: 'Sold CDS protection, received $182B bailout' },
-      { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Provided $16T in secret emergency loans', href: '/entities/agencies/federal-reserve' },
+      { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Provided $16T in secret emergency loans', href: '/entities/agencies/federal-reserve' }
     ],
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2025-03-10',
@@ -1642,7 +1623,7 @@ const investigations_b: Record<string, InvestigationData> = {
       timeline: [
      { date: '2007', event: 'Goldman Sachs created Abacus 2007-AC1, a CDO designed to fail, then bet against it.', type: 'default' },
      { date: '2009', event: 'Goldman Sachs paid $11.4 billion in bonuses in 2009, the year after receiving $10 billion in TARP funds.', type: 'financial' },
-     { date: '2012', event: 'The 2012 National Mortgage Settlement required banks to pay $25 billion but allowed them to buy back their own bad loans at face value, profiting from the scheme.', type: 'legal' },
+     { date: '2012', event: 'The 2012 National Mortgage Settlement required banks to pay $25 billion but allowed them to buy back their own bad loans at face value, profiting from the scheme.', type: 'legal' }
      ],
   },
   'big-pharma-price-gouging': {
@@ -1659,19 +1640,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'Insulin price gouging affects millions. The three manufacturers (Eli Lilly, Novo Nordisk, Sanofi) raised prices 300% since 2002 while production costs fell. A vial costing $21 in 1996 now costs $300. Diabetics ration insulin, leading to 300 deaths annually.',
       'The Orphan Drug Act creates monopolies for rare diseases. Companies receive 7-year exclusivity for drugs treating conditions affecting fewer than 200,000 people. Martin Shkreli\'s Turing Pharmaceuticals exploited this, but many legitimate companies also charge exorbitant prices.',
       'Marketing exceeds research spending. Pharmaceutical companies spend $6.5 billion annually on direct-to-consumer advertising, more than their R&D budgets in some cases. This creates demand for overpriced drugs and influences physician prescribing.',
-      'PBMs (pharmacy benefits managers) add complexity. Companies like Express Scripts and CVS Caremark negotiate rebates but keep most for profits. This opaque system hides true drug costs from consumers and employers.',
+      'PBMs (pharmacy benefits managers) add complexity. Companies like Express Scripts and CVS Caremark negotiate rebates but keep most for profits. This opaque system hides true drug costs from consumers and employers.'
     ],
     tags: ['Pharmaceutical Industry', 'Drug Prices', 'Patent Abuse', 'Healthcare Costs', 'Insulin', 'Generic Drugs'],
     sources: [
       { title: 'FTC Pay-for-Delay Report', url: 'https://www.ftc.gov', type: 'Government Report' },
       { title: 'Senate Finance Committee Drug Pricing Investigation', url: 'https://www.finance.senate.gov', type: 'Investigation' },
-      { title: 'Insulin Price Increases Study', url: 'https://www.healthaffairs.org', type: 'Research' },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: 'Insulin Price Increases Study', url: 'https://www.healthaffairs.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Pfizer', type: 'corporation', relationship: 'Acquired Turing Pharmaceuticals after price gouging', href: '/entities/corporations/pfizer' },
       { id: '2', name: 'Eli Lilly', type: 'corporation', relationship: 'Insulin manufacturer, 300% price increases', href: '/entities/corporations/eli-lilly' },
-      { id: '3', name: 'Turing Pharmaceuticals', type: 'corporation', relationship: 'Raised Daraprim price 5,000%' },
+      { id: '3', name: 'Turing Pharmaceuticals', type: 'corporation', relationship: 'Raised Daraprim price 5,000%' }
     ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-09-05',
@@ -1679,7 +1659,7 @@ const investigations_b: Record<string, InvestigationData> = {
       timeline: [
      { date: '1996', event: 'A vial costing $21 in 1996 now costs $300.', type: 'default' },
      { date: '2002', event: 'The three manufacturers (Eli Lilly, Novo Nordisk, Sanofi) raised prices 300% since 2002 while production costs fell.', type: 'default' },
-     { date: '2005', event: 'Between 2005-2015, these agreements cost consumers $69 billion.', type: 'financial' },
+     { date: '2005', event: 'Between 2005-2015, these agreements cost consumers $69 billion.', type: 'financial' }
      ],
   },
   'bitcoin-regulation-capture': {
@@ -1696,19 +1676,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'FTX\'s collapse in 2022 erased $8 billion in customer funds. Founder Sam Bankman-Fried was convicted of fraud but the exchange\'s U.S. affiliate was sold to new owners who rehired many former executives.',
       'Bitcoin mining consumes more electricity than entire countries. The industry lobbies against environmental regulations, with miners relocating to jurisdictions with cheap coal power. Texas and Kentucky offer tax breaks for mining operations.',
       'Regulatory capture is evident in the Commodity Futures Trading Commission (CFTC) and SEC. Former regulators join crypto firms at exorbitant salaries. The CFTC\'s 2022 decision to allow Bitcoin futures trading was influenced by industry lobbying.',
-      'Stablecoin collapses like Terra/Luna erased $40 billion in 2022 with no regulatory recourse. Tether, the largest stablecoin, has faced multiple investigations for lack of reserves but continues operating.',
+      'Stablecoin collapses like Terra/Luna erased $40 billion in 2022 with no regulatory recourse. Tether, the largest stablecoin, has faced multiple investigations for lack of reserves but continues operating.'
     ],
     tags: ['Cryptocurrency', 'Bitcoin', 'Financial Regulation', 'Mining', 'Fraud', 'Environmental Impact'],
     sources: [
       { title: 'SEC v. Binance Settlement', url: 'https://www.sec.gov', type: 'Court Document' },
       { title: 'FTX Bankruptcy Filing', url: 'https://www.ftx.com', type: 'Corporate Document' },
-      { title: 'Cambridge Bitcoin Electricity Consumption Index', url: 'https://www.cbeci.org', type: 'Research' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'Cambridge Bitcoin Electricity Consumption Index', url: 'https://www.cbeci.org', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'Binance', type: 'corporation', relationship: 'Operated unregistered exchange, $4.3B settlement' },
       { id: '2', name: 'FTX', type: 'corporation', relationship: 'Collapsed, erasing $8B in customer funds', href: '/entities/corporations/ftx' },
-      { id: '3', name: 'SEC', type: 'agency', relationship: 'Settled with Binance, minimal enforcement', href: '/entities/agencies/sec' },
+      { id: '3', name: 'SEC', type: 'agency', relationship: 'Settled with Binance, minimal enforcement', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-06-20',
@@ -1717,7 +1696,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022', event: 'FTX\'s collapse in 2022 erased $8 billion in customer funds', type: 'critical' },
      { date: '2022', event: 'The CFTC\'s 2022 decision to allow Bitcoin futures trading was influenced by industry lobbying', type: 'default' },
      { date: '2022', event: 'Stablecoin collapses like Terra/Luna erased $40 billion in 2022 with no regulatory recourse', type: 'critical' },
-     { date: '2023', event: 'CEO Changpeng Zhao settled SEC charges in 2023 for $4.3 billion but continued operating', type: 'political' },
+     { date: '2023', event: 'CEO Changpeng Zhao settled SEC charges in 2023 for $4.3 billion but continued operating', type: 'political' }
    ],
   },
   'bosnian-genocide': {
@@ -1738,7 +1717,7 @@ const investigations_b: Record<string, InvestigationData> = {
       'The United Nations bears significant responsibility for the massacre. The Dutch peacekeeping battalion (Dutchbat III), numbering only 400 troops, was unable and arguably unwilling to defend the enclave. Requests for NATO air support were delayed and denied through a complex dual-key authorization process. Dutch soldiers watched as Serb forces separated men from women and even handed over Bosniak refugees who had sought shelter at the UN compound.',
       'The ICTY, established in 1993, issued 161 indictments and achieved 90 convictions. Key convictions: Radovan Karadzic (President of Republika Srpska) - 40 years for genocide, crimes against humanity, and war crimes; Ratko Mladic (Commander of VRS) - life imprisonment for genocide, crimes against humanity, and war crimes; Slobodan Milosevic (President of Serbia) - died during trial in 2006. The tribunal also convicted Bosnian Serb military and civilian leaders for complicity.',
       'The ICJ ruled in 2007 (Bosnia v. Serbia) that Serbia itself was not directly responsible for the genocide but had violated the Genocide Convention by failing to prevent the Srebrenica massacre and by failing to cooperate with the ICTY in transferring Mladic for trial. The ruling confirmed that Srebrenica constituted genocide under international law.',
-      'Applicable laws violated: Convention on the Prevention and Punishment of the Crime of Genocide (1948), Geneva Conventions (1949), Additional Protocols I and II, Rome Statute Articles 6 (genocide), 7 (crimes against humanity), and 8 (war crimes), Convention against Torture, and customary international humanitarian law including prohibitions on targeting civilians, collective punishment, and wanton destruction.',
+      'Applicable laws violated: Convention on the Prevention and Punishment of the Crime of Genocide (1948), Geneva Conventions (1949), Additional Protocols I and II, Rome Statute Articles 6 (genocide), 7 (crimes against humanity), and 8 (war crimes), Convention against Torture, and customary international humanitarian law including prohibitions on targeting civilians, collective punishment, and wanton destruction.'
     ],
     tags: ['genocide', 'bosnia', 'srebrenica', 'ethnic-cleansing', 'mass-rape', 'concentration-camps', 'ICTY', 'siege-of-sarajevo', 'war-crimes', 'karadzic', 'mladic', 'milosevic', 'un-failure', 'dutchbat'],
     sources: [
@@ -1746,13 +1725,12 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Srebrenica Memorial Center', url: 'https://www.srebrenicamemorial.org/', type: 'memorial' },
       { title: 'UN Report - Fall of Srebrenica (A/54/549)', url: 'https://www.un.org/en/ga/search/view_doc.asp?symbol=A/54/549', type: 'report' },
       { title: 'ICMP - International Commission on Missing Persons', url: 'https://www.icmp.int/', type: 'organization' },
-      { title: 'ICJ - Application of the Convention on the Prevention and Punishment of the Crime of Genocide (Bosnia v. Serbia)', url: 'https://www.icj-cij.org/case/91', type: 'legal' },
-      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
+      { title: 'ICJ - Application of the Convention on the Prevention and Punishment of the Crime of Genocide (Bosnia v. Serbia)', url: 'https://www.icj-cij.org/case/91', type: 'legal' }
     ],
     affiliations: [
       { id: '1', name: 'Radovan Karadzic', type: 'individual', relationship: 'President of Republika Srpska; convicted of genocide, crimes against humanity, and war crimes; sentenced to life imprisonment', href: '/entities/individuals/radovan-karadzic' },
       { id: '2', name: 'Ratko Mladic', type: 'individual', relationship: 'Commander of VRS who personally directed Srebrenica massacre; convicted of genocide; sentenced to life imprisonment', href: '/entities/individuals/ratko-mladic' },
-      { id: '3', name: 'Slobodan Milosevic', type: 'individual', relationship: 'President of Serbia who supported Bosnian Serb forces; indicted for genocide; died during ICTY trial', href: '/entities/individuals/slobodan-milosevic' },
+      { id: '3', name: 'Slobodan Milosevic', type: 'individual', relationship: 'President of Serbia who supported Bosnian Serb forces; indicted for genocide; died during ICTY trial', href: '/entities/individuals/slobodan-milosevic' }
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -1767,7 +1745,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1995', event: 'The Srebrenica Massacre occurred between July 11-22, 1995', type: 'critical' },
      { date: '2006', event: 'Key convictions: Radovan Karadzic (President of Republika Srpska) - 40 years for genocide, crimes against humanity, and war crimes', type: 'legal' },
      { date: '2007', event: 'The ICJ ruled in 2007 (Bosnia v', type: 'default' },
-     { date: '2024', event: 'As of 2024, nearly 7,000 victims have been identified through DNA analysis conducted by the International Commission on Missing Persons (ICMP), though remains of over 1,000 victims are still being', type: 'default' },
+     { date: '2024', event: 'As of 2024, nearly 7,000 victims have been identified through DNA analysis conducted by the International Commission on Missing Persons (ICMP), though remains of over 1,000 victims are still being', type: 'default' }
    ],
   },
   'bail-bond-industry-poverty-incarceration': {
@@ -1783,18 +1761,16 @@ const investigations_b: Record<string, InvestigationData> = {
       'THE BAIL INSURANCE INDUSTRY: Behind local bail bondsmen stands a powerful corporate insurance industry. Nine insurance companies underwrite approximately 90% of all bail bonds in America: Tokio Marine (through its subsidiary International Fidelity Insurance), Fairfax Financial Holdings, Endeavour Capital, and others. These companies bear virtually no risk - when a defendant fails to appear, the bondsman, not the insurer, bears the cost, or the insurer simply does not pay (a DOJ study found that bail forfeitures are collected less than 5% of the time). The American Bail Coalition (ABC) lobbies aggressively against bail reform, spending over $4 million on state-level lobbying between 2016-2023. When California passed SB 10 (bail reform) in 2018, the bail industry spent $10 million on a ballot initiative to overturn it, successfully repealing the law in 2020. The industry also funds ALEC (American Legislative Exchange Council) model legislation requiring cash bail.',
       'THE HUMAN COST OF PRETRIAL DETENTION: Pretrial detention devastates lives regardless of eventual case outcome. The Laura and John Arnold Foundation found that low-risk defendants held just 2-3 days are 40% more likely to commit new crimes before trial than equivalent defendants released within 24 hours - incarceration itself increases criminal behavior. Sandra Bland was arrested for a traffic stop in 2015, held on $5,000 bail she could not afford, and died in a Texas jail three days later (ruled suicide). Kalief Browder was held at Rikers Island for three years (including two in solitary confinement) without trial for allegedly stealing a backpack; after charges were dismissed, he died by suicide in 2015 at age 22. Layleen Polanco, a transgender woman, died of an epileptic seizure in solitary confinement at Rikers in 2019 while held on $500 bail for a misdemeanor. These are not aberrations - they are the system working as designed.',
       'BAIL REFORM AND BACKLASH: Several jurisdictions have reformed or eliminated cash bail. Washington, D.C. has used a risk-assessment-based pretrial system since the 1990s, releasing 85% of defendants pretrial with a 98% appearance rate. New Jersey largely eliminated cash bail in 2017, reducing its jail population by 44% with no increase in crime. New York\'s 2019 bail reform eliminated cash bail for most misdemeanors and nonviolent felonies, but a politically motivated backlash (fueled by $10M+ in bail industry and police union spending) led to rollbacks in 2020 and 2022 that restored judicial discretion to set bail for additional offenses. Illinois became the first state to fully eliminate cash bail (Pretrial Fairness Act, effective 2023). In each case, the bail bond industry, police unions, and prosecutors mounted massive disinformation campaigns claiming reform would cause crime waves - crime did not increase in D.C., New Jersey, or other reformed jurisdictions.',
-      'APPLICABLE LAW: The Eighth Amendment prohibits "excessive bail." The Bail Reform Act of 1966 (18 U.S.C. 3142) established the federal presumption of release on recognizance. The Bail Reform Act of 1984 (18 U.S.C. 3141-3156) added dangerousness as a basis for detention. Stack v. Boyle, 342 U.S. 1 (1951) held that bail set higher than necessary to ensure appearance is "excessive." United States v. Salerno, 481 U.S. 739 (1987) upheld pretrial detention based on dangerousness. ODonnell v. Harris County (5th Cir., 2019) found wealth-based detention of misdemeanor defendants unconstitutional. State constitutions vary: some guarantee a right to bail, others allow denial for certain offenses. The fundamental gap: there is no federal prohibition on commercial bail bonding, and no federal regulation of the bail insurance industry. 42 U.S.C. 1983 provides a civil rights remedy for unconstitutional detention but requires case-by-case litigation.',
+      'APPLICABLE LAW: The Eighth Amendment prohibits "excessive bail." The Bail Reform Act of 1966 (18 U.S.C. 3142) established the federal presumption of release on recognizance. The Bail Reform Act of 1984 (18 U.S.C. 3141-3156) added dangerousness as a basis for detention. Stack v. Boyle, 342 U.S. 1 (1951) held that bail set higher than necessary to ensure appearance is "excessive." United States v. Salerno, 481 U.S. 739 (1987) upheld pretrial detention based on dangerousness. ODonnell v. Harris County (5th Cir., 2019) found wealth-based detention of misdemeanor defendants unconstitutional. State constitutions vary: some guarantee a right to bail, others allow denial for certain offenses. The fundamental gap: there is no federal prohibition on commercial bail bonding, and no federal regulation of the bail insurance industry. 42 U.S.C. 1983 provides a civil rights remedy for unconstitutional detention but requires case-by-case litigation.'
     ],
     tags: ['bail-bonds', 'pretrial-detention', 'cash-bail', 'poverty', 'criminal-justice', 'racial-disparity', 'bail-reform', 'mass-incarceration'],
     sources: [
       { title: 'Vera Institute of Justice: The Price of Freedom - Bail and Pretrial Detention', url: 'https://www.vera.org/publications/the-price-of-freedom/', type: 'Research' },
       { title: 'Pretrial Justice Institute: Pretrial Criminal Justice Research', url: 'https://www.pretrial.org/', type: 'Research' },
-      { title: 'ACLU: Selling Off Our Freedom - How Insurance Corporations Have Taken Over Our Bail System', url: 'https://www.aclu.org/report/selling-our-freedom-how-insurance-corporations-have-taken-over-our-bail-system', type: 'Research' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'ACLU: Selling Off Our Freedom - How Insurance Corporations Have Taken Over Our Bail System', url: 'https://www.aclu.org/report/selling-our-freedom-how-insurance-corporations-have-taken-over-our-bail-system', type: 'Research' }
     ],
     affiliations: [
-      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed statement of interest in Harris County bail case; federal Bail Reform Act sets framework but does not regulate commercial bail bonding', href: '/entities/agencies/doj' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed statement of interest in Harris County bail case; federal Bail Reform Act sets framework but does not regulate commercial bail bonding', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1951-01-01',
    lastActivityDate: '2025-11-10',
@@ -1814,7 +1790,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2019', event: 'New York\'s 2019 bail reform eliminated cash bail for most misdemeanors and nonviolent felonies, but a politically motivated backlash (fueled by $10M+ in bail industry and police union spending) led...', type: 'default' },
      { date: '2019', event: 'Harris County (5th Cir., 2019) found wealth-based detention of misdemeanor defendants unconstitutional', type: 'default' },
      { date: '2022', event: 'A 2022 analysis by the Pretrial Justice Institute found that in Harris County, TX, Black defendants were 66% more likely to be held on cash bail than white defendants charged with the same offenses', type: 'legal' },
-     { date: '2023', event: 'Illinois became the first state to fully eliminate cash bail (Pretrial Fairness Act, effective 2023)', type: 'legal' },
+     { date: '2023', event: 'Illinois became the first state to fully eliminate cash bail (Pretrial Fairness Act, effective 2023)', type: 'legal' }
    ],
   },
   'boeing-corporate-manslaughter': {
@@ -1830,19 +1806,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'Internal Boeing communications revealed a corporate culture that systematically prioritized production speed and cost reduction over safety. In one message, a Boeing employee wrote: "This airplane is designed by clowns, who in turn are supervised by monkeys." Another stated: "Would you put your family on a MAX simulator-trained aircraft? I wouldn\'t." Boeing pressured the FAA to delegate safety certification to Boeing\'s own employees through the Organization Designation Authorization (ODA) program, then intimidated those employees who raised safety concerns. Whistleblowers faced retaliation. Ed Pierson, a former senior manager, testified that he warned leadership about production problems before the first crash and was ignored.',
       'The FAA\'s oversight failure was systemic. The ODA program allowed Boeing to certify its own aircraft, with FAA engineers reduced to reviewing paperwork rather than conducting independent analysis. A 2020 House Transportation Committee investigation found that the FAA was aware of problems with MCAS but allowed Boeing to proceed. The FAA had delegated so much authority to Boeing that its own technical experts were marginalized. After the first crash, the FAA was slow to ground the 737 MAX, doing so only on March 13, 2019, days after the Ethiopian crash and after aviation authorities worldwide had already acted.',
       'In January 2021, Boeing entered a deferred prosecution agreement (DPA) with the DOJ, paying $2.5 billion ($500 million to victim families, $1.77 billion to airlines, $243.6 million in fines) while admitting that two former employees conspired to defraud the FAA. No senior executives were charged. Under 18 U.S.C. 1001, making false statements to a federal agency carries up to 5 years imprisonment. Under 18 U.S.C. 371, conspiracy to defraud the United States carries up to 5 years. Under 49 U.S.C. 46316, providing false information in aircraft certification is a federal crime. In July 2024, DOJ determined Boeing had violated the DPA following the January 2024 Alaska Airlines door plug blowout incident and offered a plea deal that critics called inadequate.',
-      'The 737 MAX crisis exposed how regulatory capture, deferred prosecution, and the revolving door between industry and government create a system where corporate profit is valued over human life. Boeing spent $61 million on lobbying from 2012-2019. Former Boeing executives moved to senior FAA positions and vice versa. The Alaska Airlines Flight 1282 door plug blowout on January 5, 2024 revealed that quality control problems persisted even after the 737 MAX grounding. An NTSB investigation found that four bolts needed to secure the door plug were missing when the aircraft left Boeing\'s factory. Whistleblower John Barnett, a former Boeing quality manager who was about to give deposition testimony, was found dead of an apparent suicide in March 2024. A second whistleblower, Sam Salehpour, testified before Congress that Boeing took shortcuts on the 787 Dreamliner as well.',
+      'The 737 MAX crisis exposed how regulatory capture, deferred prosecution, and the revolving door between industry and government create a system where corporate profit is valued over human life. Boeing spent $61 million on lobbying from 2012-2019. Former Boeing executives moved to senior FAA positions and vice versa. The Alaska Airlines Flight 1282 door plug blowout on January 5, 2024 revealed that quality control problems persisted even after the 737 MAX grounding. An NTSB investigation found that four bolts needed to secure the door plug were missing when the aircraft left Boeing\'s factory. Whistleblower John Barnett, a former Boeing quality manager who was about to give deposition testimony, was found dead of an apparent suicide in March 2024. A second whistleblower, Sam Salehpour, testified before Congress that Boeing took shortcuts on the 787 Dreamliner as well.'
     ],
     tags: ['boeing', '737-max', 'faa', 'regulatory-capture', 'corporate-manslaughter', 'deferred-prosecution', 'whistleblower-retaliation', 'aviation-safety'],
     sources: [
       { title: 'House Transportation Committee: Final Report on the 737 MAX', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Congressional Report' },
       { title: 'DOJ: Boeing Agrees to Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Legal' },
-      { title: 'NTSB: Lion Air Flight 610 and Ethiopian Airlines Flight 302 Investigation Reports', url: 'https://www.ntsb.gov/', type: 'Government Report' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'NTSB: Lion Air Flight 610 and Ethiopian Airlines Flight 302 Investigation Reports', url: 'https://www.ntsb.gov/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'FAA', type: 'agency', relationship: 'Delegated safety certification to Boeing through ODA program; failed to ground 737 MAX after first crash', href: '/entities/agencies/faa' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Offered deferred prosecution; no senior executives charged for 346 deaths', href: '/entities/agencies/doj' },
-      { id: '3', name: 'NTSB', type: 'agency', relationship: 'Investigated both crashes and 2024 door plug blowout; findings informed regulatory action', href: '/entities/agencies/ntsb' },
+      { id: '3', name: 'NTSB', type: 'agency', relationship: 'Investigated both crashes and 2024 door plug blowout; findings informed regulatory action', href: '/entities/agencies/ntsb' }
     ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-01-15',
@@ -1856,7 +1831,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021', event: 'In January 2021, Boeing entered a deferred prosecution agreement (DPA) with the DOJ, paying $2.5 billion ($500 million to victim families, $1.77 billion to airlines, $243.', type: 'political' },
      { date: '2024-01-05', event: 'The Alaska Airlines Flight 1282 door plug blowout on January 5, 2024 revealed that quality control problems persisted even after the 737 MAX grounding', type: 'default' },
      { date: '2024-03-01', event: 'Whistleblower John Barnett, a former Boeing quality manager who was about to give deposition testimony, was found dead of an apparent suicide in March 2024', type: 'default' },
-     { date: '2024-07-01', event: 'In July 2024, DOJ determined Boeing had violated the DPA following the January 2024 Alaska Airlines door plug blowout incident and offered a plea deal that critics called inadequate', type: 'default' },
+     { date: '2024-07-01', event: 'In July 2024, DOJ determined Boeing had violated the DPA following the January 2024 Alaska Airlines door plug blowout incident and offered a plea deal that critics called inadequate', type: 'default' }
    ],
   },
   'big-pharma-price-gouging-crisis': {
@@ -1872,18 +1847,17 @@ const investigations_b: Record<string, InvestigationData> = {
       'The pharmaceutical industry employs more lobbyists than there are members of Congress. In 2022 alone, PhRMA (the pharmaceutical industry trade group) and individual drug companies spent $374 million on federal lobbying, more than any other industry. Since 1998, the industry has spent over $7 billion on federal lobbying and campaign contributions. Key victories include the Medicare Prescription Drug, Improvement, and Modernization Act of 2003 (Medicare Part D), which explicitly prohibited Medicare from negotiating drug prices, a provision estimated to cost taxpayers $50 billion per year. Former Rep. Billy Tauzin (R-LA), who shepherded the bill through Congress, left office to become president of PhRMA at a salary of approximately $2 million per year.',
       'Drug companies maintain monopoly pricing through "patent thickets" (filing dozens of overlapping patents on a single drug to extend exclusivity periods beyond the 20-year statutory limit) and "pay-for-delay" agreements (paying generic manufacturers to not produce competing products). AbbVie filed over 250 patents on Humira to extend its monopoly, generating $200 billion in cumulative revenue. The FTC estimated that pay-for-delay agreements cost consumers $3.5 billion annually. "Product hopping" is another strategy: when a patent is about to expire, companies make minor modifications (changing a tablet to a capsule) and shift patients to the new patented version while withdrawing the old one from the market.',
       'Under the Hatch-Waxman Act (21 U.S.C. 355), generic drugs can receive expedited approval through Abbreviated New Drug Applications, but drug companies exploit the Act\'s provisions to delay generic entry. Under the Federal Trade Commission Act (15 U.S.C. 41 et seq.), pay-for-delay agreements constitute potentially anticompetitive conduct. Under the Inflation Reduction Act of 2022 (Pub.L. 117-169), Medicare was finally authorized to negotiate prices for a limited number of drugs (10 drugs starting in 2026), but PhRMA immediately filed lawsuits challenging the law\'s constitutionality. Under the Bayh-Dole Act (35 U.S.C. 200-212), drugs developed with taxpayer-funded research (estimated at $100+ billion in NIH funding for the top 200 drugs) can still be patented and priced without limit by private companies.',
-      'The human cost is quantifiable. A 2023 KFF survey found that 29% of Americans did not fill a prescription in the past year due to cost. Four in ten cancer patients reported financial hardship from treatment costs. Prescription drug costs are the leading cause of medical debt and contribute to 70% of personal bankruptcies related to medical bills. Americans spent $405 billion on prescription drugs in 2023, with one-third going to pharmaceutical company profits. The industry consistently ranks as the most profitable sector in the S&P 500, with average profit margins of 15-20%, while spending more on marketing and advertising ($30 billion/year) than on research and development ($28 billion/year for U.S.-based companies). The Inflation Reduction Act\'s negotiation provisions will save an estimated $100 billion over 10 years, but only for Medicare; the 150 million Americans with private insurance will receive no price relief.',
+      'The human cost is quantifiable. A 2023 KFF survey found that 29% of Americans did not fill a prescription in the past year due to cost. Four in ten cancer patients reported financial hardship from treatment costs. Prescription drug costs are the leading cause of medical debt and contribute to 70% of personal bankruptcies related to medical bills. Americans spent $405 billion on prescription drugs in 2023, with one-third going to pharmaceutical company profits. The industry consistently ranks as the most profitable sector in the S&P 500, with average profit margins of 15-20%, while spending more on marketing and advertising ($30 billion/year) than on research and development ($28 billion/year for U.S.-based companies). The Inflation Reduction Act\'s negotiation provisions will save an estimated $100 billion over 10 years, but only for Medicare; the 150 million Americans with private insurance will receive no price relief.'
     ],
     tags: ['big-pharma', 'drug-prices', 'price-gouging', 'lobbying', 'patent-abuse', 'insulin', 'medicare', 'healthcare-costs', 'generic-drugs'],
     sources: [
       { title: 'RAND Corporation: International Prescription Drug Price Comparisons', url: 'https://www.rand.org/pubs/research_reports/RR2956.html', type: 'Research' },
       { title: 'GAO: Drug Industry Profits, Research and Development, and Lobbying', url: 'https://www.gao.gov/products/gao-18-40', type: 'Government Audit' },
-      { title: 'Congressional Budget Office: Prescription Drugs - Spending, Use, and Prices', url: 'https://www.cbo.gov/publication/57050', type: 'Congressional Report' },
-      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
+      { title: 'Congressional Budget Office: Prescription Drugs - Spending, Use, and Prices', url: 'https://www.cbo.gov/publication/57050', type: 'Congressional Report' }
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves drugs but has no authority over pricing; generic drug approval process creates 4-year average delay benefiting brand manufacturers', href: '/entities/agencies/fda' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Challenged some pay-for-delay agreements; filed lawsuit against major insulin manufacturers in 2024 for price manipulation' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Challenged some pay-for-delay agreements; filed lawsuit against major insulin manufacturers in 2024 for price manipulation' }
     ],
    eventOriginDate: '1921-01-01',
    lastActivityDate: '2026-01-01',
@@ -1896,7 +1870,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022', event: 'Under the Inflation Reduction Act of 2022 (Pub.L', type: 'default' },
      { date: '2023', event: 'A 2023 KFF survey found that 29% of Americans did not fill a prescription in the past year due to cost', type: 'financial' },
      { date: '2023', event: 'Americans spent $405 billion on prescription drugs in 2023, with one-third going to pharmaceutical company profits', type: 'political' },
-     { date: '2026', event: '117-169), Medicare was finally authorized to negotiate prices for a limited number of drugs (10 drugs starting in 2026), but PhRMA immediately filed lawsuits challenging the law\'s constitutionality', type: 'legal' },
+     { date: '2026', event: '117-169), Medicare was finally authorized to negotiate prices for a limited number of drugs (10 drugs starting in 2026), but PhRMA immediately filed lawsuits challenging the law\'s constitutionality', type: 'legal' }
    ],
   },
   'bear-stearns-2008-collapse': {
@@ -1912,18 +1886,17 @@ const investigations_b: Record<string, InvestigationData> = {
       'The final collapse unfolded with terrifying speed in March 2008. Rumors about Bear Stearns\' liquidity problems became self-fulfilling as counterparties and clients began withdrawing funds and demanding additional collateral. On Monday, March 10, the firm had $18 billion in cash reserves. By Thursday, March 13, that number had fallen to $2 billion -- insufficient to open for business the next day. The run on Bear Stearns was driven by the same dynamics that caused classic bank runs: once confidence evaporated, rational actors rushed to withdraw funds before the money ran out. The firm\'s heavy reliance on short-term repo financing -- borrowing overnight against securities as collateral -- made it uniquely vulnerable to a loss of counterparty confidence. These practices potentially violated SEC net capital rules (15 U.S.C. 78o) and risked systemic instability regulated under the Federal Reserve Act (12 U.S.C. 343).',
       'Over the weekend of March 15-16, 2008, the Federal Reserve brokered an emergency sale of Bear Stearns to JPMorgan Chase at an initial price of $2 per share -- down from $170 one year earlier and $30 just days before. To complete the deal, the Fed created a special purpose vehicle called Maiden Lane LLC and committed $30 billion in non-recourse loans backed by Bear Stearns\' toxic mortgage assets, effectively assuming the risk on taxpayer balance sheets. The $2 price was later raised to $10 per share after Bear Stearns shareholders threatened to block the deal. Critics described the arrangement as a bailout of Wall Street disguised as a merger, noting that Bear Stearns creditors and counterparties were made whole while shareholders took heavy losses and 14,000 employees faced layoffs.',
       'The executive compensation and behavior surrounding Bear Stearns\' collapse drew particular public outrage. CEO Jimmy Cayne had sold $61 million in Bear Stearns stock in 2007 before the collapse; his remaining stake of $1 billion on paper was ultimately worth approximately $61 million after the JPMorgan deal. Former CEO Ace Greenberg and other executives had similarly cashed out significant positions. During the critical week of the firm\'s collapse, Cayne was at a bridge tournament in Detroit and was reportedly unreachable by phone. The firm\'s compensation structure rewarded short-term risk-taking: traders received enormous bonuses for profitable bets on mortgage securities, but faced no clawback provisions when those same bets destroyed the firm. Despite the catastrophic outcome, no Bear Stearns executive was criminally prosecuted.',
-      'The Bear Stearns collapse was the first major casualty of the 2008 financial crisis and set the template for government intervention that would be repeated at much larger scale with Fannie Mae, Freddie Mac, AIG, and through the Troubled Asset Relief Program (TARP). The Fed\'s decision to rescue Bear Stearns\' creditors while letting the firm die created a dangerous ambiguity about which institutions would be saved and which would not -- a question answered six months later when Lehman Brothers was allowed to fail, triggering global financial panic. The Financial Crisis Inquiry Commission later concluded that Bear Stearns collapsed because of "its concentration in mortgage-related securities, its high leverage, its reliance on short-term funding, its inadequate liquidity, and the decisions by counterparties to cease doing business with it." The Dodd-Frank Act (Pub.L. 111-203) was enacted in 2010 partly to address the systemic risks exposed by the Bear Stearns failure, including new resolution authority for failing financial institutions and restrictions on proprietary trading.',
+      'The Bear Stearns collapse was the first major casualty of the 2008 financial crisis and set the template for government intervention that would be repeated at much larger scale with Fannie Mae, Freddie Mac, AIG, and through the Troubled Asset Relief Program (TARP). The Fed\'s decision to rescue Bear Stearns\' creditors while letting the firm die created a dangerous ambiguity about which institutions would be saved and which would not -- a question answered six months later when Lehman Brothers was allowed to fail, triggering global financial panic. The Financial Crisis Inquiry Commission later concluded that Bear Stearns collapsed because of "its concentration in mortgage-related securities, its high leverage, its reliance on short-term funding, its inadequate liquidity, and the decisions by counterparties to cease doing business with it." The Dodd-Frank Act (Pub.L. 111-203) was enacted in 2010 partly to address the systemic risks exposed by the Bear Stearns failure, including new resolution authority for failing financial institutions and restrictions on proprietary trading.'
     ],
     tags: ['bear-stearns', 'financial-crisis', '2008-crash', 'jpmorgan', 'federal-reserve', 'mortgage-backed-securities', 'jimmy-cayne', 'wall-street-bailout'],
     sources: [
       { title: 'Federal Reserve: Maiden Lane LLC', url: 'https://www.newyorkfed.org/markets/maidenlane', type: 'Government Data' },
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/app/details/GPO-FCIC', type: 'Congressional Report' },
-      { title: 'SEC Investigation of Bear Stearns', url: 'https://www.sec.gov/news/press/2008-48.htm', type: 'Government Filing' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'SEC Investigation of Bear Stearns', url: 'https://www.sec.gov/news/press/2008-48.htm', type: 'Government Filing' }
     ],
     affiliations: [
       { id: '1', name: 'Federal Reserve', type: 'agency', relationship: 'Created Maiden Lane LLC with $30B in non-recourse loans to backstop JPMorgan acquisition; set bailout precedent', href: '/entities/agencies/federal-reserve' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Had primary regulatory oversight of Bear Stearns; failed to enforce capital adequacy requirements or detect liquidity risk buildup', href: '/entities/agencies/sec' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Had primary regulatory oversight of Bear Stearns; failed to enforce capital adequacy requirements or detect liquidity risk buildup', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2024-05-10',
@@ -1935,7 +1908,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2008', event: 'Over the weekend of March 15-16, 2008, the Federal Reserve brokered an emergency sale of Bear Stearns to JPMorgan Chase at an initial price of $2 per share -- down from $170 one year earlier and $3', type: 'default' },
      { date: '2008', event: 'The Bear Stearns collapse was the first major casualty of the 2008 financial crisis and set the template for government intervention that would be repeated at much larger scale with Fannie Mae, Fre', type: 'critical' },
      { date: '2008-03-01', event: 'The final collapse unfolded with terrifying speed in March 2008', type: 'critical' },
-     { date: '2010', event: '111-203) was enacted in 2010 partly to address the systemic risks exposed by the Bear Stearns failure, including new resolution authority for failing financial institutions and restrictions on prop', type: 'default' },
+     { date: '2010', event: '111-203) was enacted in 2010 partly to address the systemic risks exposed by the Bear Stearns failure, including new resolution authority for failing financial institutions and restrictions on prop', type: 'default' }
    ],
   },
   'boeing-starliner-safety-failures': {
@@ -1951,18 +1924,17 @@ const investigations_b: Record<string, InvestigationData> = {
       'The OFT-1 failure necessitated a second unmanned test flight (OFT-2), which Boeing funded at its own expense -- contributing to the $1.5 billion in cost overruns the company has absorbed beyond its fixed-price contract. OFT-2 was delayed repeatedly by valve corrosion problems that required months of investigation, finally launching in May 2022 and reaching the ISS successfully despite several thruster failures. By this point, SpaceX\'s Crew Dragon had already completed multiple operational crew missions and had become NASA\'s primary crew vehicle. Boeing\'s program was years behind schedule, billions over its already generous contract, and had not yet carried a single human to space. Internal Boeing documents and whistleblower accounts suggest that the company underinvested in Starliner engineering talent and diverted resources to other programs.',
       'The Crew Flight Test (CFT) launched on June 5, 2024, carrying veteran NASA astronauts Butch Wilmore and Suni Williams on what was planned as an 8-day mission to the ISS. During approach to the station, five of the spacecraft\'s 28 reaction control system (RCS) thrusters failed, and the vehicle experienced multiple helium leaks in its propulsion system. While Wilmore and Williams docked successfully and entered the ISS, the thruster and helium problems raised serious questions about whether Starliner could safely return the crew to Earth. The thruster failures were attributed to overheating of Teflon seals in the service module -- a design issue that Boeing had been warned about but did not adequately address. NASA convened numerous reviews throughout the summer of 2024.',
       'In August 2024, NASA announced the decision that Starliner would return to Earth uncrewed while Wilmore and Williams would remain on the ISS until February 2025, when a SpaceX Crew Dragon would bring them home. The decision represented a devastating blow to Boeing\'s aerospace reputation and a tacit admission that the agency did not trust Starliner to safely carry crew. Boeing disagreed with NASA\'s assessment and maintained that Starliner could safely return the astronauts, but NASA\'s technical analysis concluded the thruster performance was too unpredictable. Starliner returned empty on September 7, 2024, and while it landed successfully at White Sands, post-flight inspection confirmed the extent of thruster degradation and helium leaks.',
-      'The Starliner debacle has raised fundamental questions about NASA\'s cost-plus and fixed-price contracting models, Boeing\'s engineering culture, and the space agency\'s oversight capabilities. Boeing has absorbed $1.5 billion in losses on the program beyond its contract value. The company\'s aerospace division, already reeling from the 737 MAX crisis and defense cost overruns, faces questions about whether it will continue the Starliner program at all. Congressional oversight hearings have examined whether Boeing\'s culture of prioritizing financial performance over engineering excellence -- identified in the 737 MAX investigations -- extends to its space programs. NASA Inspector General reports have criticized the Commercial Crew Program\'s oversight structure and noted that both Boeing and SpaceX received insufficient safety monitoring. The stranding of two American astronauts aboard the ISS for eight months because their Boeing spacecraft was too unreliable to bring them home stands as a stark symbol of the decline in Boeing\'s engineering capabilities.',
+      'The Starliner debacle has raised fundamental questions about NASA\'s cost-plus and fixed-price contracting models, Boeing\'s engineering culture, and the space agency\'s oversight capabilities. Boeing has absorbed $1.5 billion in losses on the program beyond its contract value. The company\'s aerospace division, already reeling from the 737 MAX crisis and defense cost overruns, faces questions about whether it will continue the Starliner program at all. Congressional oversight hearings have examined whether Boeing\'s culture of prioritizing financial performance over engineering excellence -- identified in the 737 MAX investigations -- extends to its space programs. NASA Inspector General reports have criticized the Commercial Crew Program\'s oversight structure and noted that both Boeing and SpaceX received insufficient safety monitoring. The stranding of two American astronauts aboard the ISS for eight months because their Boeing spacecraft was too unreliable to bring them home stands as a stark symbol of the decline in Boeing\'s engineering capabilities.'
     ],
     tags: ['boeing', 'starliner', 'nasa', 'commercial-crew', 'astronaut-safety', 'cost-overruns', 'spacex', 'butch-wilmore', 'suni-williams'],
     sources: [
       { title: 'NASA: Commercial Crew Program - Boeing Starliner', url: 'https://www.nasa.gov/humans-in-space/', type: 'Government Data' },
       { title: 'NASA OIG: Commercial Crew Program Audit Reports', url: 'https://oig.nasa.gov/', type: 'Government Audit' },
-      { title: 'Reuters: Boeing Starliner Astronaut Stranding Investigation', url: 'https://www.reuters.com/technology/space/', type: 'Investigative Report' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Reuters: Boeing Starliner Astronaut Stranding Investigation', url: 'https://www.reuters.com/technology/space/', type: 'Investigative Report' }
     ],
     affiliations: [
       { id: '1', name: 'NASA', type: 'agency', relationship: 'Awarded $4.2B contract; decided Starliner too risky to return astronauts; relies on SpaceX as backup' },
-      { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Prime contractor absorbing $1.5B+ in cost overruns; engineering culture failures mirror 737 MAX crisis', href: '/entities/corporations/boeing' },
+      { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Prime contractor absorbing $1.5B+ in cost overruns; engineering culture failures mirror 737 MAX crisis', href: '/entities/corporations/boeing' }
     ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-01',
@@ -1974,7 +1946,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024', event: 'NASA convened numerous reviews throughout the summer of 2024', type: 'default' },
      { date: '2024-06-05', event: 'The Crew Flight Test (CFT) launched on June 5, 2024, carrying veteran NASA astronauts Butch Wilmore and Suni Williams on what was planned as an 8-day mission to the ISS', type: 'default' },
      { date: '2024-08-01', event: 'In August 2024, NASA announced the decision that Starliner would return to Earth uncrewed while Wilmore and Williams would remain on the ISS until February 2025, when a SpaceX Crew Dragon would bri', type: 'default' },
-     { date: '2024-09-07', event: 'Starliner returned empty on September 7, 2024, and while it landed successfully at White Sands, post-flight inspection confirmed the extent of thruster degradation and helium leaks', type: 'political' },
+     { date: '2024-09-07', event: 'Starliner returned empty on September 7, 2024, and while it landed successfully at White Sands, post-flight inspection confirmed the extent of thruster degradation and helium leaks', type: 'political' }
    ],
   },
   'banking-libor-manipulation': {
@@ -1990,18 +1962,17 @@ const investigations_b: Record<string, InvestigationData> = {
       'THE SCALE OF THEFT: LIBOR underpinned $350 trillion in financial contracts. Even tiny manipulations of a fraction of a basis point translated to billions in illicit gains across global markets. Municipalities that had entered into LIBOR-based interest rate swaps lost billions when banks suppressed rates during the financial crisis. Pension funds holding LIBOR-indexed bonds received lower returns. Homeowners with adjustable-rate mortgages paid different rates than they should have. The Federal Reserve Bank of Cleveland estimated that LIBOR suppression during 2007-2009 alone transferred $6.4 billion from money market investors to the borrowing banks.',
       'REGULATORY FINES AND CORPORATE SETTLEMENTS: Barclays was the first bank to settle, paying $453 million in June 2012. UBS paid $1.5 billion. Deutsche Bank paid $2.5 billion. Rabobank paid $1 billion. JPMorgan, Citigroup, Bank of America, Royal Bank of Scotland, and others paid hundreds of millions each. Total fines exceeded $9 billion. However, these penalties represented a tiny fraction of the profits earned through manipulation. No bank lost its banking license. No bank was required to admit to systematic fraud beyond limited stipulations in plea deals. Most penalties were tax-deductible as business expenses.',
       'INDIVIDUAL ACCOUNTABILITY: NEAR ZERO: Despite evidence of widespread collusion involving hundreds of traders, managers, and compliance officers at over a dozen banks, only about 35 individuals worldwide were charged. Many prosecutions failed. In the UK, former UBS and Citigroup trader Tom Hayes was initially convicted and sentenced to 14 years (reduced to 11) but had his conviction overturned in 2024 after the UK Supreme Court found the jury instructions were incorrect. In the US, two former Rabobank traders were convicted. The vast majority of individuals identified in regulatory findings as having participated in manipulation were never charged. Senior bank executives who oversaw the manipulating desks faced no personal consequences.',
-      'SYSTEMIC IMPLICATIONS: The LIBOR scandal revealed that the most fundamental benchmark in global finance was essentially a fiction, manufactured by the very institutions that profited from its manipulation. The scandal demonstrated that deregulated financial markets will self-corrupt when participants face no meaningful consequences. LIBOR was officially discontinued for most currencies by June 2023, replaced by rates like SOFR (Secured Overnight Financing Rate) in the US. However, the replacement rates still rely on bank-reported data, and the regulatory structures that failed to prevent LIBOR manipulation remain largely unchanged. The banks that committed the fraud continue to operate as the largest financial institutions in the world.',
+      'SYSTEMIC IMPLICATIONS: The LIBOR scandal revealed that the most fundamental benchmark in global finance was essentially a fiction, manufactured by the very institutions that profited from its manipulation. The scandal demonstrated that deregulated financial markets will self-corrupt when participants face no meaningful consequences. LIBOR was officially discontinued for most currencies by June 2023, replaced by rates like SOFR (Secured Overnight Financing Rate) in the US. However, the replacement rates still rely on bank-reported data, and the regulatory structures that failed to prevent LIBOR manipulation remain largely unchanged. The banks that committed the fraud continue to operate as the largest financial institutions in the world.'
     ],
     tags: ['LIBOR', 'banking-fraud', 'interest-rate-manipulation', 'financial-crime', 'Barclays', 'Deutsche-Bank', 'UBS', 'derivatives', 'CFTC'],
     sources: [
       { title: 'CFTC: LIBOR Enforcement Actions', url: 'https://www.cftc.gov/LawRegulation/CFTCStaffLetters/index.htm', type: 'Government Filing' },
       { title: 'UK Financial Conduct Authority: LIBOR Manipulation Final Notices', url: 'https://www.fca.org.uk/news', type: 'Government Filing' },
-      { title: 'DOJ: Criminal Division LIBOR Prosecutions', url: 'https://web.archive.org/web/20150911181803/http://www.justice.gov/criminal-fraud/market-manipulation', type: 'Legal Document' },
-      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
+      { title: 'DOJ: Criminal Division LIBOR Prosecutions', url: 'https://web.archive.org/web/20150911181803/http://www.justice.gov/criminal-fraud/market-manipulation', type: 'Legal Document' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secured guilty pleas from multiple banks; fines totaled billions but fraction of profits; minimal individual prosecutions', href: '/entities/agencies/doj' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Coordinated with CFTC on enforcement; investigated bond market manipulation linked to LIBOR', href: '/entities/agencies/sec' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Coordinated with CFTC on enforcement; investigated bond market manipulation linked to LIBOR', href: '/entities/agencies/sec' }
     ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2026-02-18',
@@ -2010,7 +1981,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2007', event: 'The Federal Reserve Bank of Cleveland estimated that LIBOR suppression during 2007-2009 alone transferred $6.4 billion from money market investors to the borrowing banks', type: 'political' },
      { date: '2012-06-01', event: 'REGULATORY FINES AND CORPORATE SETTLEMENTS: Barclays was the first bank to settle, paying $453 million in June 2012', type: 'financial' },
      { date: '2023-06-01', event: 'LIBOR was officially discontinued for most currencies by June 2023, replaced by rates like SOFR (Secured Overnight Financing Rate) in the US', type: 'default' },
-     { date: '2024', event: 'In the UK, former UBS and Citigroup trader Tom Hayes was initially convicted and sentenced to 14 years (reduced to 11) but had his conviction overturned in 2024 after the UK Supreme Court found the', type: 'legal' },
+     { date: '2024', event: 'In the UK, former UBS and Citigroup trader Tom Hayes was initially convicted and sentenced to 14 years (reduced to 11) but had his conviction overturned in 2024 after the UK Supreme Court found the', type: 'legal' }
    ],
   },
   'pentagon-budget-unauditable-waste': {
@@ -2026,18 +1997,17 @@ const investigations_b: Record<string, InvestigationData> = {
       'The scale of financial mismanagement is staggering. A 2016 DOD Inspector General report found $6.5 trillion in accounting adjustments in a single year — adjustments made to force the books to balance that were not supported by documentation. The Army made $2.8 trillion in improper adjustments alone. The Pentagon maintains over 2,400 separate financial systems, many of which cannot communicate with each other. Property records are so unreliable that auditors found military bases where the number of buildings on inventory did not match the number of buildings physically present.',
       'Defense contractor cost overruns represent a systematic transfer of wealth from taxpayers to shareholders. The F-35 Joint Strike Fighter program, the most expensive weapons system in history, has a lifetime cost estimated at $1.7 trillion — 80% over initial projections. The program has been plagued by 871 unresolved performance deficiencies. The Littoral Combat Ship program cost $29 billion while producing ships the Navy has begun decommissioning after less than 10 years of service. The Gerald R. Ford aircraft carrier exceeded its budget by $2.8 billion and was delivered with critical systems still not functioning.',
       'The revolving door between the Pentagon and defense contractors ensures that cost discipline is never prioritized. Over 80% of senior DOD acquisition officials move to defense contractor positions upon leaving government. Former Secretary of Defense Lloyd Austin served on the board of Raytheon before becoming Defense Secretary, then recused himself from decisions involving the company that received $27 billion in DOD contracts during his tenure. The top five defense contractors (Lockheed Martin, RTX, Boeing, General Dynamics, Northrop Grumman) spent $60 million on lobbying in 2023.',
-      'Congressional oversight is compromised by the political economy of defense spending. Defense contracts are deliberately spread across congressional districts to ensure broad political support. The F-35 program alone has suppliers in 45 states, making it politically impossible to cut. Members of Congress who sit on armed services and defense appropriations committees receive significantly more campaign contributions from defense contractors than other members. The result is a bipartisan consensus on ever-increasing defense spending regardless of audit failures, with no consequence for financial non-compliance.',
+      'Congressional oversight is compromised by the political economy of defense spending. Defense contracts are deliberately spread across congressional districts to ensure broad political support. The F-35 program alone has suppliers in 45 states, making it politically impossible to cut. Members of Congress who sit on armed services and defense appropriations committees receive significantly more campaign contributions from defense contractors than other members. The result is a bipartisan consensus on ever-increasing defense spending regardless of audit failures, with no consequence for financial non-compliance.'
     ],
     tags: ['Pentagon', 'defense budget', 'audit failure', 'defense contractors', 'F-35', 'cost overruns', 'revolving door', 'military spending', 'waste', 'accountability'],
     sources: [
       { title: 'DOD Inspector General: DOD Financial Management Audit Reports', url: 'https://www.dodig.mil/reports.html/Category/14796/', type: 'Government Report' },
       { title: 'GAO: DOD Financial Management Major Challenges', url: 'https://www.gao.gov/products/gao-23-106203', type: 'Government Report' },
-      { title: 'Project on Government Oversight: Pentagon Spending Database', url: 'https://www.pogo.org/database/pentagon-labyrinth/', type: 'Research' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Project on Government Oversight: Pentagon Spending Database', url: 'https://www.pogo.org/database/pentagon-labyrinth/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Has failed every financial audit since 2018; cannot account for $3.8T in assets; 2,400+ incompatible financial systems; no consequences for non-compliance', href: '/entities/agencies/dod' },
-      { id: '2', name: 'GAO', type: 'agency', relationship: 'Has designated DOD financial management a "high risk" area since 1995; recommendations routinely ignored; limited enforcement authority' },
+      { id: '2', name: 'GAO', type: 'agency', relationship: 'Has designated DOD financial management a "high risk" area since 1995; recommendations routinely ignored; limited enforcement authority' }
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-03-10',
@@ -2047,7 +2017,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2016', event: 'A 2016 DOD Inspector General report found $6.5 trillion in accounting adjustments in a single year — adjustments made to force the books to balance that were not supported by documentation', type: 'default' },
      { date: '2018', event: 'When audits finally began in 2018, the results confirmed what critics had alleged for decades: the Pentagon cannot account for its own money', type: 'political' },
      { date: '2023', event: 'Six consecutive audits through 2023 have produced the same result', type: 'default' },
-     { date: '2023', event: 'The top five defense contractors (Lockheed Martin, RTX, Boeing, General Dynamics, Northrop Grumman) spent $60 million on lobbying in 2023', type: 'financial' },
+     { date: '2023', event: 'The top five defense contractors (Lockheed Martin, RTX, Boeing, General Dynamics, Northrop Grumman) spent $60 million on lobbying in 2023', type: 'financial' }
    ],
   },
   'body-camera-accountability-gaps': {
@@ -2063,25 +2033,24 @@ const investigations_b: Record<string, InvestigationData> = {
       'Activation policies undermine accountability at the most critical moments. Most departments allow officers to activate cameras at their discretion rather than requiring constant recording. A review of Chicago Police Department body camera compliance found that cameras were not activated in 30% of use-of-force incidents. In Minneapolis, body camera footage of George Floyd\'s murder was captured by a bystander\'s phone because the officers involved did not activate their cameras properly. The pattern repeats nationally: the most consequential encounters are the least likely to be recorded.',
       'Footage retention and release policies function as information control. Most departments retain non-evidentiary footage for only 30-90 days before automatic deletion. In the Laquan McDonald shooting in Chicago, dashcam footage was withheld for 13 months until a court ordered its release. Departments routinely cite "ongoing investigations" to delay footage release indefinitely. Some states have passed laws limiting public access to body camera footage, making the accountability tool a shield against accountability.',
       'The officers who review body camera footage are typically the same officers or departments involved in use-of-force incidents. Internal affairs divisions review footage with the same institutional biases that characterized pre-camera investigations. Union contracts in many cities restrict when and how body camera footage can be used in disciplinary proceedings. In some jurisdictions, officers are allowed to review their own body camera footage before writing incident reports, allowing them to align their narratives with the visual record.',
-      'Research increasingly suggests that body cameras can actually harm the communities they were designed to protect. Camera footage is used as a surveillance tool: officers review footage to identify individuals, build cases for minor violations, and monitor community activities. In Baltimore, body camera footage revealed officers planting evidence, but the department initially tried to suppress the footage rather than prosecute the officers. For every accountability success story, there are dozens of instances where footage simply does not exist or cannot be accessed.',
+      'Research increasingly suggests that body cameras can actually harm the communities they were designed to protect. Camera footage is used as a surveillance tool: officers review footage to identify individuals, build cases for minor violations, and monitor community activities. In Baltimore, body camera footage revealed officers planting evidence, but the department initially tried to suppress the footage rather than prosecute the officers. For every accountability success story, there are dozens of instances where footage simply does not exist or cannot be accessed.'
     ],
     tags: ['body cameras', 'police accountability', 'Axon', 'use of force', 'police violence', 'surveillance', 'footage retention', 'civilian oversight', 'law enforcement', 'evidence'],
     sources: [
       { title: 'George Mason University: Body Camera RCT Study', url: 'https://cebcp.org/', type: 'Research' },
       { title: 'DOJ: Body-Worn Camera Toolkit', url: 'https://bja.ojp.gov/program/bwc', type: 'Government Report' },
-      { title: 'ACLU: Police Body Camera Policy Analysis', url: 'https://www.aclu.org/', type: 'Research' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'ACLU: Police Body Camera Policy Analysis', url: 'https://www.aclu.org/', type: 'Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Distributed billions in body camera grants; no federal standards for activation, retention, or release policies; consent decree cities show only marginal improvement', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Does not track body camera compliance nationally; no federal database of footage availability in use-of-force incidents', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Does not track body camera compliance nationally; no federal database of footage availability in use-of-force incidents', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-20',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2014', event: 'After the killing of Michael Brown in Ferguson (2014), body cameras were promoted as the technological solution to police accountability.', type: 'default' },
-     { date: '2024', event: 'By 2024, roughly 80% of large law enforcement agencies have body camera programs.', type: 'default' },
+     { date: '2024', event: 'By 2024, roughly 80% of large law enforcement agencies have body camera programs.', type: 'default' }
      ],
   },
   'border-patrol-abuse-patterns': {
@@ -2097,20 +2066,18 @@ const investigations_b: Record<string, InvestigationData> = {
       'Sexual abuse in CBP custody has been documented by multiple oversight bodies. The DHS Office of Inspector General, the ACLU, and Human Rights Watch have all reported patterns of sexual assault, groping during searches, and coerced sexual contact by agents. Between 2016 and 2023, over 1,500 complaints of sexual abuse were filed against CBP personnel. Internal investigation sustained fewer than 5% of these complaints, and criminal referrals were exceedingly rare. Victims in immigration custody face extreme barriers to reporting because they fear deportation and often lack access to legal counsel.',
       'The use of force culture within CBP has resisted reform despite repeated external reviews. A 2013 Police Executive Research Forum report commissioned by CBP itself found that agents were trained in patterns that escalated encounters unnecessarily and used deadly force in situations that could have been managed with de-escalation. The report recommended 90 reforms. A follow-up review years later found that most had not been implemented. Body cameras, standard in many police departments, were not mandated for Border Patrol agents until 2023, and deployment remains incomplete.',
       'Conditions of confinement in CBP holding facilities constitute a parallel crisis. Short-term CBP holding cells, designed for 72-hour maximum stays, routinely hold detainees for weeks. The facilities are known among migrants as "hieleras" (ice boxes) for their deliberately cold temperatures. Oversight investigations have documented overcrowding, denial of medical care, confiscation of medications, inadequate food and water, and sleep deprivation through constant lighting. At least 30 children have died in or shortly after release from CBP custody since 2018.',
-      'Structural factors perpetuate the accountability vacuum. CBP internal affairs is housed within the agency it investigates, creating an inherent conflict. The DHS Inspector General, which should serve as external oversight, faces a massive complaint backlog and has itself been subject to misconduct investigations. Congressional oversight committees have struggled to obtain basic data on uses of force, complaints, and disciplinary outcomes. The result is the largest law enforcement agency in the Western Hemisphere operating with less accountability than most small-town police departments.',
+      'Structural factors perpetuate the accountability vacuum. CBP internal affairs is housed within the agency it investigates, creating an inherent conflict. The DHS Inspector General, which should serve as external oversight, faces a massive complaint backlog and has itself been subject to misconduct investigations. Congressional oversight committees have struggled to obtain basic data on uses of force, complaints, and disciplinary outcomes. The result is the largest law enforcement agency in the Western Hemisphere operating with less accountability than most small-town police departments.'
     ],
     tags: ['border patrol', 'CBP', 'excessive force', 'immigration', 'sexual abuse', 'custody deaths', 'law enforcement accountability'],
     sources: [
       { title: 'ACLU Reports', url: 'https://www.aclu.org/issues/immigrants-rights/ice-and-border-patrol-abuses', type: 'Report' },
       { title: 'Human Rights Watch', url: 'https://www.hrw.org/united-states', type: 'Report' },
-      { title: 'Oig Records', url: 'https://www.oig.dhs.gov/', type: 'Reference' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
-
-      { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'ACLU: Border Patrol Abuse Complaints', url: 'https://www.aclu.org/issues/immigrants-rights/border-patrol-abuse', type: 'Report' },
+      { title: 'DHS Office of Inspector General: CBP Discipline Reports', url: 'https://www.oig.dhs.gov/reports/cbp', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'CBP', type: 'agency', relationship: 'Largest U.S. law enforcement agency; internal affairs sustains fewer than 5% of abuse complaints; body camera deployment began 2023 but remains incomplete; 100-mile zone authority affects 200M+ Americans', href: '/entities/agencies/cbp' },
-      { id: '2', name: 'DHS', type: 'agency', relationship: 'Parent agency with oversight authority; OIG complaints backlogged by thousands; acting leadership during key periods meant accountability structures lacked permanent authority', href: '/entities/agencies/dhs' },
+      { id: '2', name: 'DHS', type: 'agency', relationship: 'Parent agency with oversight authority; OIG complaints backlogged by thousands; acting leadership during key periods meant accountability structures lacked permanent authority', href: '/entities/agencies/dhs' }
     ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-02-05',
@@ -2120,7 +2087,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2013', event: 'A 2013 Police Executive Research Forum report commissioned by CBP itself found that agents were trained in patterns that escalated encounters unnecessarily and used deadly force in situations that', type: 'default' },
      { date: '2016', event: 'Between 2016 and 2023, over 1,500 complaints of sexual abuse were filed against CBP personnel', type: 'default' },
      { date: '2018', event: 'At least 30 children have died in or shortly after release from CBP custody since 2018', type: 'critical' },
-     { date: '2023', event: 'Body cameras, standard in many police departments, were not mandated for Border Patrol agents until 2023, and deployment remains incomplete', type: 'default' },
+     { date: '2023', event: 'Body cameras, standard in many police departments, were not mandated for Border Patrol agents until 2023, and deployment remains incomplete', type: 'default' }
    ],
   },
   'british-american-colonial-biological-warfare': {
@@ -2136,20 +2103,19 @@ const investigations_b: Record<string, InvestigationData> = {
       'The biological warfare strategy was not limited to the Fort Pitt incident. In 1837, a catastrophic smallpox epidemic swept through the Mandan, Hidatsa, and Arikara nations of the upper Missouri River, killing an estimated 90-98% of the Mandan people, reducing them from approximately 1,600 to fewer than 125 individuals. While the precise mechanism of transmission in the 1837 epidemic remains debated among historians, contemporary accounts document that infected blankets and trade goods were distributed from the American Fur Company steamboat St. Peters, and that company officials were aware of the risk. Joshua Pilcher, the U.S. Indian Agent for the upper Missouri, wrote in his official report that the epidemic spread from the St. Peters and that the company "had ample means of preventing the disease from spreading among the Indians." Whether the transmission was deliberate or merely reckless, the U.S. government took no action against the American Fur Company and did not extend vaccination to the upper Missouri tribes despite having the capacity to do so. The U.S. government had operated a national smallpox vaccination program since 1813 under the Vaccine Act (3 Stat. 806) but consistently underfunded and deprioritized vaccination of Indigenous peoples. Congress repealed the Indian Vaccination Act in 1830, the same year it passed the Indian Removal Act.',
       'The deliberate destruction of the buffalo herds represents a parallel campaign of biological warfare through engineered famine. The Great Plains buffalo population, estimated at 30-60 million in 1800, was systematically exterminated by commercial hunters with the explicit encouragement of U.S. military officers who recognized that destroying the buffalo would starve the Plains nations into surrender. General Philip Sheridan, commander of the Military Division of the Missouri, stated in 1875: "These men have done more in the last two years to settle the vexed Indian question than the entire regular army has done in the last forty years. They are destroying the Indians commissary." Colonel Richard Irving Dodge wrote: "Kill every buffalo you can. Every buffalo dead is an Indian gone." Secretary of the Interior Columbus Delano wrote in his 1874 annual report: "I would not seriously regret the total disappearance of the buffalo from our western prairies, in its effect upon the Indians, regarding it rather as a means of hastening their sense of dependence upon the products of the soil." When Texas passed a bill to protect the remaining buffalo herds in 1875, General Sheridan appeared before the Texas legislature to argue against it. By 1889, fewer than 1,000 buffalo remained. The resulting starvation forced Plains tribes onto reservations, where overcrowded conditions, inadequate food, contaminated water, and the absence of medical care created the conditions for devastating epidemics of tuberculosis, measles, influenza, and cholera.',
       'On the reservations established through forced removals and military conquest, the U.S. government maintained conditions that maximized disease transmission and mortality. Rations promised in treaties were consistently inadequate and spoiled. At the Pine Ridge Reservation in South Dakota, Agent Valentine McGillycuddy reported in the 1880s that rations provided by the Bureau of Indian Affairs amounted to roughly one-third of what was needed to sustain the population. Tuberculosis became epidemic on reservations, with infection rates reaching 60-80% in some communities. The Indian Health Service (established 1955) was chronically underfunded from its inception; per capita health expenditure for Native Americans remained a fraction of the national average throughout the 20th and into the 21st century. A 2018 Government Accountability Office report found that IHS funding left the service unable to provide basic health care to its service population, with per capita spending of approximately $3,779 compared to the national average of $9,726. The intergenerational health consequences of colonial biological warfare, forced starvation, and reservation conditions are measurable today: Native Americans have the lowest life expectancy of any demographic group in the United States, with a life expectancy 5.5 years shorter than the national average according to the CDC.',
-      'The legal framework for accountability includes: the Genocide Convention (adopted by the UN General Assembly in 1948, ratified by the United States in 1988), Article II, which defines genocide to include "deliberately inflicting on the group conditions of life calculated to bring about its physical destruction in whole or in part" and "killing members of the group"; the 1907 Hague Convention, Article 23 (prohibition of the use of poison or poisoned weapons, applicable by analogy to biological weapons); the customary laws of war recognized in the Lieber Code (1863), issued by the U.S. Army itself, which prohibited the use of poison (Article 70); and the trust responsibility doctrine established in Cherokee Nation v. Georgia (1831), under which the U.S. government assumed a fiduciary responsibility for the welfare of Native nations. The 1972 Biological Weapons Convention (BWC), to which the United States is a signatory, prohibits the development, production, and stockpiling of biological weapons, though it is not retroactive. The 1925 Geneva Protocol prohibits the use of biological weapons in warfare. The Rome Statute of the International Criminal Court (Article 7) defines crimes against humanity to include "extermination," which encompasses "the intentional infliction of conditions of life, inter alia the deprivation of access to food and medicine, calculated to bring about the destruction of part of a population." No colonial, British, or American official has ever been held legally accountable for the use of biological warfare against Indigenous peoples. The United States has never formally acknowledged these acts as genocide.',
+      'The legal framework for accountability includes: the Genocide Convention (adopted by the UN General Assembly in 1948, ratified by the United States in 1988), Article II, which defines genocide to include "deliberately inflicting on the group conditions of life calculated to bring about its physical destruction in whole or in part" and "killing members of the group"; the 1907 Hague Convention, Article 23 (prohibition of the use of poison or poisoned weapons, applicable by analogy to biological weapons); the customary laws of war recognized in the Lieber Code (1863), issued by the U.S. Army itself, which prohibited the use of poison (Article 70); and the trust responsibility doctrine established in Cherokee Nation v. Georgia (1831), under which the U.S. government assumed a fiduciary responsibility for the welfare of Native nations. The 1972 Biological Weapons Convention (BWC), to which the United States is a signatory, prohibits the development, production, and stockpiling of biological weapons, though it is not retroactive. The 1925 Geneva Protocol prohibits the use of biological weapons in warfare. The Rome Statute of the International Criminal Court (Article 7) defines crimes against humanity to include "extermination," which encompasses "the intentional infliction of conditions of life, inter alia the deprivation of access to food and medicine, calculated to bring about the destruction of part of a population." No colonial, British, or American official has ever been held legally accountable for the use of biological warfare against Indigenous peoples. The United States has never formally acknowledged these acts as genocide.'
     ],
     tags: ['biological warfare', 'smallpox blankets', 'Indigenous genocide', 'Lord Amherst', 'Fort Pitt', 'buffalo extermination', 'Native American', 'colonial violence', 'Pontiacs War', 'reservation conditions', 'Mandan smallpox', 'Philip Sheridan', 'medical tyranny', 'crimes against humanity', 'genocide'],
     sources: [
       { title: 'British National Archives: Amherst-Bouquet Correspondence (1763)', url: 'https://www.nationalarchives.gov.uk/', type: 'Government Record' },
       { title: 'National Indian Health Board: IHS Funding and Health Disparities', url: 'https://www.nihb.org/', type: 'Research' },
       { title: 'Smithsonian National Museum of the American Indian', url: 'https://americanindian.si.edu/', type: 'Museum Archive' },
-      { title: 'GAO: Indian Health Service - Spending, Staffing, and Health Outcomes (2018)', url: 'https://www.gao.gov/products/gao-19-74r', type: 'Government Report' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+      { title: 'GAO: Indian Health Service - Spending, Staffing, and Health Outcomes (2018)', url: 'https://www.gao.gov/products/gao-19-74r', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'British Colonial Government', type: 'agency', relationship: 'Lord Jeffrey Amherst explicitly ordered the use of smallpox-contaminated materials against Indigenous peoples in 1763 correspondence preserved in the National Archives; policy of biological warfare was coordinated at the highest levels of military command' },
       { id: '2', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered reservation system that maintained conditions maximizing disease transmission; provided inadequate rations despite treaty obligations; underfunded medical care; operated boarding schools that spread tuberculosis and other diseases among children', href: '/entities/agencies/bia' },
-      { id: '3', name: 'Philip Sheridan', type: 'individual', relationship: 'U.S. Army general who championed the deliberate extermination of the buffalo as a military strategy to starve Plains tribes into submission; lobbied the Texas legislature against buffalo protection; credited hide hunters with doing more to crush Indigenous resistance than the regular army', href: '/entities/individuals/philip-sheridan' },
+      { id: '3', name: 'Philip Sheridan', type: 'individual', relationship: 'U.S. Army general who championed the deliberate extermination of the buffalo as a military strategy to starve Plains tribes into submission; lobbied the Texas legislature against buffalo protection; credited hide hunters with doing more to crush Indigenous resistance than the regular army', href: '/entities/individuals/philip-sheridan' }
     ],
    eventOriginDate: '1800-01-01',
    lastActivityDate: '2025-05-01',
@@ -2168,7 +2134,7 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1948', event: 'The legal framework for accountability includes: the Genocide Convention (adopted by the UN General Assembly in 1948, ratified by the United States in 1988), Article II, which defines genocide to i', type: 'financial' },
      { date: '1955', event: 'The Indian Health Service (established 1955) was chronically underfunded from its inception; per capita health expenditure for Native Americans remained a fraction of the national average throughou', type: 'default' },
      { date: '1972', event: 'The 1972 Biological Weapons Convention (BWC), to which the United States is a signatory, prohibits the development, production, and stockpiling of biological weapons, though it is not retroactive', type: 'default' },
-     { date: '2018', event: 'A 2018 Government Accountability Office report found that IHS funding left the service unable to provide basic health care to its service population, with per capita spending of approximately $3,77', type: 'default' },
+     { date: '2018', event: 'A 2018 Government Accountability Office report found that IHS funding left the service unable to provide basic health care to its service population, with per capita spending of approximately $3,77', type: 'default' }
    ],
   },
   'bernie-madoff-ponzi': {
@@ -2188,7 +2154,7 @@ const investigations_b: Record<string, InvestigationData> = {
    'The SEC inspector general found that agency staff were intimidated by Madoff\'s reputation as a former NASDAQ chairman and industry leader',
    'Madoff fabricated all trade confirmations, account statements, and regulatory filings for decades using a separate floor of his building hidden from legitimate operations',
    'Multiple financial professionals in the industry suspected the fraud but remained silent, either out of complicity or fear of losing access to Madoff\'s"returns"',
-   'The SEC\'s institutional culture prioritized deference to industry insiders over investor protection, enabling the fraud to continue for nearly two decades',
+   'The SEC\'s institutional culture prioritized deference to industry insiders over investor protection, enabling the fraud to continue for nearly two decades'
  ],
  tags: ['financial-crime', 'fraud', 'war'],
  sources: [
@@ -2199,7 +2165,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { title: 'No One Would Listen, Harry Markopolos', url: 'https://www.nytimes.com/2010/03/07/books/review/Kolbert-t.html', type: 'Article' },
    { title: 'JPMorgan $2.6B Madoff Settlement', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-jpmorgan-madoff-settlement-idUSBREA060AZ20140107', type: 'Article' },
    { title: 'The Madoff Affair, PBS Frontline Documentary', url: 'https://www.pbs.org/wgbh/frontline/documentary/madoff/', type: 'Article' },
-   { title: 'Picower Estate $7.2B Settlement', url: 'https://www.nytimes.com/2010/12/18/business/18madoff.html', type: 'Article' },
+   { title: 'Picower Estate $7.2B Settlement', url: 'https://www.nytimes.com/2010/12/18/business/18madoff.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'bernard-madoff', name: 'Bernard Madoff', type: 'individual', relationship: 'Founder of Bernard L. Madoff Investment Securities; orchestrated $64.8B Ponzi scheme for 17+ years', href: '/entities/individuals/bernie-madoff' },
@@ -2212,7 +2178,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { id: 'irving-picard', name: 'Irving Picard', type: 'individual', relationship: 'Trustee appointed to recover Madoff victim funds; recovered over $14.4 billion', href: '/entities/individuals/irving-picard' },
    { id: 'christopher-cox', name: 'Christopher Cox', type: 'individual', relationship: 'SEC Chairman during the final years of the fraud; resigned amid criticism of agency failures', href: '/entities/individuals/christopher-cox' },
    { id: 'david-kotz', name: 'David Kotz', type: 'individual', relationship: 'SEC Inspector General who investigated the agency\'s failure to detect the Madoff fraud', href: '/entities/individuals/david-kotz' },
-   { id: 'jeffry-picower', name: 'Jeffry Picower', type: 'individual', relationship: 'Madoff\'s largest individual beneficiary who withdrew $7.2B; estate settled for $7.2B after his death', href: '/entities/individuals/jeffry-picower' },
+   { id: 'jeffry-picower', name: 'Jeffry Picower', type: 'individual', relationship: 'Madoff\'s largest individual beneficiary who withdrew $7.2B; estate settled for $7.2B after his death', href: '/entities/individuals/jeffry-picower' }
  ],
  timeline: [
    { date: '1960-01-01', event: 'Bernard Madoff founds Bernard L. Madoff Investment Securities LLC with $5,000 in savings' },
@@ -2233,7 +2199,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { date: '2010-12-11', event: 'Mark Madoff commits suicide on the second anniversary of his father\'s arrest' },
    { date: '2012-06-29', event: 'Peter Madoff sentenced to 10 years for conspiracy, falsifying records, and securities fraud' },
    { date: '2021-04-14', event: 'Bernard Madoff dies in federal prison at age 82; trustee has recovered $14.4B for victims' },
-   { date: '2024-01-01', event: 'Trustee Irving Picard has recovered over 88% of allowed victim claims, recovery efforts ongoing' },
+   { date: '2024-01-01', event: 'Trustee Irving Picard has recovered over 88% of allowed victim claims, recovery efforts ongoing' }
  ],
  statutes: [
    { code: '15 U.S.C. § 78j(b) / Rule 10b-5: Securities Fraud', description: 'Fraudulent scheme to defraud investors by fabricating returns and stealing invested capital' },
@@ -2243,7 +2209,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1956: Money Laundering', description: 'Laundering billions through domestic and international transfers to sustain the fraud' },
    { code: '18 U.S.C. § 1957: Monetary Transaction with Criminal Proceeds', description: 'Using proceeds of fraud for personal enrichment including real estate and luxury items' },
    { code: '18 U.S.C. § 1001: False Statements', description: 'Filing false documents with SEC and making false statements to regulators' },
-   { code: '26 U.S.C. § 7206: False Tax Returns', description: 'Filing fraudulent tax returns concealing the true nature of investment operations' },
+   { code: '26 U.S.C. § 7206: False Tax Returns', description: 'Filing fraudulent tax returns concealing the true nature of investment operations' }
  ],
  defendants: [
    { name: 'Bernard Madoff', role: 'Securities fraud, investment adviser fraud, mail fraud, wire fraud, money laundering (11 counts)', status: 'convicted', notes: 'Pleaded guilty - 150 years; died in prison 2021' },
@@ -2253,7 +2219,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { name: 'Jeffry Picower Estate', role: 'Recovery of fraudulent transfers', status: 'charged', notes: '$7.2B settlement, largest individual Ponzi recovery in history' },
    { name: 'JPMorgan Chase', role: 'Failure to report suspicious activity (BSA violations)', status: 'charged', notes: 'Deferred prosecution - $2.6B settlement' },
    { name: 'SEC (institutional)', role: 'Failure to detect fraud despite multiple tips', status: 'charged', notes: 'IG report documented"systemic failures"; internal reforms' },
-   { name: 'Ruth Madoff', role: 'Civil forfeiture of assets', status: 'charged', notes: 'Forfeited $80M in assets; retained $2.5M' },
+   { name: 'Ruth Madoff', role: 'Civil forfeiture of assets', status: 'charged', notes: 'Forfeited $80M in assets; retained $2.5M' }
  ],
   },
   'big-tobacco-coverup': {
@@ -2274,7 +2240,7 @@ const investigations_b: Record<string, InvestigationData> = {
    'Internal Philip Morris documents revealed executives referred to cigarettes as"nicotine delivery devices"while publicly denying any addictive properties',
    'The industry systematically intimidated and blacklisted scientists who published unfavorable research, destroying careers to protect profits',
    'Even after the Master Settlement Agreement, tobacco companies continued to market aggressively in developing nations where regulations were weaker, exporting death globally',
-   'Documents revealed that attorneys were inserted into scientific meetings to claim attorney-client privilege over incriminating research findings, using legal shields to suppress science',
+   'Documents revealed that attorneys were inserted into scientific meetings to claim attorney-client privilege over incriminating research findings, using legal shields to suppress science'
  ],
  tags: ['government-accountability', 'conspiracy', 'accountability'],
  sources: [
@@ -2285,7 +2251,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { title: 'Master Settlement Agreement, Full Text', url: 'https://www.naag.org/our-work/naag-center-for-tobacco-and-public-health/the-master-settlement-agreement/', type: 'Article' },
    { title: 'A Frank Statement to Cigarette Smokers, Industry Ad (1954)', url: 'https://www.sourcewatch.org/index.php/A_Frank_Statement_to_Cigarette_Smokers', type: 'Article' },
    { title: 'Jeffrey Wigand 60 Minutes Interview', url: 'https://www.cbsnews.com/news/jeffery-wigand-60-minutes/', type: 'Article' },
-   { title: 'CDC, History of the Surgeon General\\', url: 'https://www.cdc.gov/tobacco/sgr/history/index.htm', type: 'Article' },
+   { title: 'CDC, History of the Surgeon General\\', url: 'https://www.cdc.gov/tobacco/sgr/history/index.htm', type: 'Article' }
  ],
  affiliations: [
    { id: 'jeffrey-wigand', name: 'Jeffrey Wigand', type: 'individual', relationship: 'Former VP of R&D at Brown & Williamson; key whistleblower who exposed internal knowledge of nicotine manipulation', href: '/entities/individuals/jeffrey-wigand' },
@@ -2299,7 +2265,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { id: 'mike-moore', name: 'Mike Moore', type: 'individual', relationship: 'Mississippi Attorney General who filed the first state lawsuit against big tobacco in 1994', href: '/entities/individuals/mike-moore' },
    { id: 'henry-waxman', name: 'Henry Waxman', type: 'individual', relationship: 'U.S. Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine\\', href: '/entities/individuals/henry-waxman' },
    { id: 'david-kessler', name: 'David Kessler', type: 'individual', relationship: 'FDA Commissioner who pushed to regulate tobacco as a drug-delivery device', href: '/entities/individuals/david-kessler' },
-   { id: 'victor-denoble', name: 'Victor DeNoble', type: 'individual', relationship: 'Philip Morris researcher whose addiction studies were suppressed by the company', href: '/entities/individuals/victor-denoble' },
+   { id: 'victor-denoble', name: 'Victor DeNoble', type: 'individual', relationship: 'Philip Morris researcher whose addiction studies were suppressed by the company', href: '/entities/individuals/victor-denoble' }
  ],
  timeline: [
    { date: '1950', event: 'Ernst Wynder and Evarts Graham publish landmark study linking cigarette tar to cancer in mice' },
@@ -2318,7 +2284,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { date: '1997', event: 'Liggett Group breaks ranks, admitting cigarettes cause cancer and are addictive, the first such admission by a tobacco company' },
    { date: '1998-11', event: 'Master Settlement Agreement reached: $206 billion over 25 years from Philip Morris, R.J. Reynolds, Brown & Williamson, and Lorillard' },
    { date: '2006', event: 'Federal judge Gladys Kessler rules tobacco companies violated RICO statute by conspiring to deceive the public about smoking dangers' },
-   { date: '2009', event: 'Family Smoking Prevention and Tobacco Control Act grants FDA authority to regulate tobacco products' },
+   { date: '2009', event: 'Family Smoking Prevention and Tobacco Control Act grants FDA authority to regulate tobacco products' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1962: RICO (Racketeer Influenced and Corrupt Organizations Act)', description: 'Tobacco companies operated as a criminal enterprise to deceive the public about health risks of smoking' },
@@ -2328,7 +2294,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { code: 'State Consumer Protection Statutes (Various)', description: 'Fraudulent misrepresentation of product safety across all 50 states' },
    { code: '18 U.S.C. § 1341: Mail Fraud', description: 'Using U.S. mail to distribute fraudulent health claims and misleading scientific studies' },
    { code: '18 U.S.C. § 1343: Wire Fraud', description: 'Electronic communications used to coordinate industry-wide deception campaign' },
-   { code: '18 U.S.C. § 371: Conspiracy to Defraud the United States', description: 'Industry-wide conspiracy to prevent government regulation of tobacco products' },
+   { code: '18 U.S.C. § 371: Conspiracy to Defraud the United States', description: 'Industry-wide conspiracy to prevent government regulation of tobacco products' }
  ],
  defendants: [
    { name: 'Philip Morris USA', role: 'RICO conspiracy, consumer fraud', status: 'convicted', notes: 'Part of $206B Master Settlement Agreement; found guilty of RICO violations in 2006 federal case' },
@@ -2338,7 +2304,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { name: 'Liggett Group', role: 'Consumer fraud', status: 'charged', notes: 'First company to settle; admitted causation and addiction in 1997' },
    { name: 'Altria Group (Philip Morris parent)', role: 'Ongoing RICO compliance', status: 'charged', notes: 'Subject to corrective statements under court order; paid billions in individual suits' },
    { name: 'Thomas Sandefur', role: 'Perjury before Congress', status: 'charged', notes: 'Investigated but never prosecuted; died of cancer in 1996' },
-   { name: 'Council for Tobacco Research', role: 'Scientific fraud, public deception', status: 'charged', notes: 'Dissolved as part of MSA; documents released publicly' },
+   { name: 'Council for Tobacco Research', role: 'Scientific fraud, public deception', status: 'charged', notes: 'Dissolved as part of MSA; documents released publicly' }
  ],
   },
   'boeing-737-max': {
@@ -2358,7 +2324,7 @@ const investigations_b: Record<string, InvestigationData> = {
    'The FAA was the last major aviation regulator in the world to ground the 737 MAX after the second crash, China and Europe acted days earlier, exposing the depth of regulatory capture',
    'Boeing spent over $60 billion on stock buybacks between 2013-2019 while cutting engineering and safety budgets, prioritizing shareholder returns over the lives of passengers',
    'Multiple Boeing whistleblowers reported manufacturing quality issues and faced retaliation; John Barnett was found dead during his wrongful termination deposition in 2024',
-   'Boeing\'s deferred prosecution agreement of $2.5 billion meant no executive went to prison for decisions that killed 346 people, the DOJ later found Boeing violated even this lenient deal',
+   'Boeing\'s deferred prosecution agreement of $2.5 billion meant no executive went to prison for decisions that killed 346 people, the DOJ later found Boeing violated even this lenient deal'
  ],
  tags: ['civil-liberties'],
  sources: [
@@ -2369,7 +2335,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { title: 'Boeing Internal Messages Released to Congress', url: 'https://www.nytimes.com/2020/01/09/business/boeing-737-messages.html', type: 'Article' },
    { title: 'SEC Settlement with Boeing: $200M', url: 'https://www.sec.gov/news/press-release/2022-178', type: 'Article' },
    { title: 'Flying Blind: The 737 MAX Tragedy and the Fall of Boeing, Peter Robison', url: 'https://www.penguinrandomhouse.com/books/646497/flying-blind-by-peter-robison/', type: 'Article' },
-   { title: 'Alaska Airlines Door Plug Incident, NTSB Preliminary Report', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Article' },
+   { title: 'Alaska Airlines Door Plug Incident, NTSB Preliminary Report', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Article' }
  ],
  affiliations: [
    { id: 'dennis-muilenburg', name: 'Dennis Muilenburg', type: 'individual', relationship: 'CEO of Boeing (2015-2019); oversaw 737 MAX development and initial crash response; fired after failed recovery', href: '/entities/individuals/dennis-muilenburg' },
@@ -2382,7 +2348,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { id: 'sam-salehpour', name: 'Sam Salehpour', type: 'individual', relationship: 'Boeing quality engineer who raised alarms about structural defects in the 787 Dreamliner; faced retaliation', href: '/entities/individuals/sam-salehpour' },
    { id: 'john-barnett', name: 'John Barnett', type: 'individual', relationship: 'Boeing quality manager who reported manufacturing defects and safety shortcuts; found dead during legal proceedings', href: '/entities/individuals/john-barnett' },
    { id: 'steve-dickson', name: 'Steve Dickson', type: 'individual', relationship: 'FAA Administrator (2019-2022); oversaw the 737 MAX recertification process after the groundings', href: '/entities/individuals/steve-dickson' },
-   { id: 'jim-mcnerney', name: 'Jim McNerney', type: 'individual', relationship: 'Former Boeing CEO (2005-2015) who initiated the cost-cutting culture that prioritized stock buybacks over engineering', href: '/entities/individuals/jim-mcnerney' },
+   { id: 'jim-mcnerney', name: 'Jim McNerney', type: 'individual', relationship: 'Former Boeing CEO (2005-2015) who initiated the cost-cutting culture that prioritized stock buybacks over engineering', href: '/entities/individuals/jim-mcnerney' }
  ],
  timeline: [
    { date: '2011', event: 'Boeing decides to re-engine the existing 737 design rather than build a new aircraft, a cost-cutting decision that led to MCAS' },
@@ -2403,7 +2369,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { date: '2021-01', event: 'Boeing agrees to $2.5 billion deferred prosecution agreement with DOJ, including $500M to crash victims\' families' },
    { date: '2021-11', event: 'FAA recertifies the 737 MAX with design changes; aircraft returns to service after 20-month grounding' },
    { date: '2024-01', event: 'Alaska Airlines Flight 1282 door plug blows out mid-flight, reigniting concerns about Boeing manufacturing quality' },
-   { date: '2024-03', event: 'Whistleblower John Barnett found dead during wrongful termination lawsuit deposition against Boeing' },
+   { date: '2024-03', event: 'Whistleblower John Barnett found dead during wrongful termination lawsuit deposition against Boeing' }
  ],
  statutes: [
    { code: '18 U.S.C. § 371: Conspiracy to Defraud the United States', description: 'Boeing employees conspired to deceive FAA about the MCAS system\'s scope and behavior' },
@@ -2413,7 +2379,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { code: '15 U.S.C. § 78j: Securities Fraud', description: 'Misleading investors about the safety of the 737 MAX and Boeing\'s internal knowledge of defects' },
    { code: '18 U.S.C. § 1519: Obstruction (Destruction of Evidence)', description: 'Allegations that Boeing failed to preserve relevant communications during investigation' },
    { code: 'State Wrongful Death Statutes', description: '346 deaths across two crashes caused by known design defects that Boeing concealed' },
-   { code: '49 U.S.C. § 44701: FAA Certification Fraud', description: 'Obtaining type certification through deceptive means regarding MCAS system behavior' },
+   { code: '49 U.S.C. § 44701: FAA Certification Fraud', description: 'Obtaining type certification through deceptive means regarding MCAS system behavior' }
  ],
  defendants: [
    { name: 'Boeing (DOJ)', role: 'Conspiracy to defraud the United States', status: 'charged', notes: '$2.5 billion deferred prosecution agreement: $243.6M fine, $500M to crash victims, $1.77B to airlines' },
@@ -2423,7 +2389,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { name: 'Boeing (Lion Air Families)', role: 'Wrongful death', status: 'charged', notes: 'Individual settlements with families; amounts confidential' },
    { name: 'Boeing (SEC)', role: 'Misleading investors about 737 MAX safety', status: 'charged', notes: '$200 million SEC settlement in 2022' },
    { name: 'Boeing (DOJ 2024)', role: 'Breach of deferred prosecution agreement', status: 'charged', notes: 'DOJ found Boeing violated DPA; new criminal proceedings possible' },
-   { name: 'FAA', role: 'Congressional findings of regulatory failure', status: 'charged', notes: 'Aircraft Certification, Safety, and Accountability Act passed in 2020; reforms to ODA process' },
+   { name: 'FAA', role: 'Congressional findings of regulatory failure', status: 'charged', notes: 'Aircraft Certification, Safety, and Accountability Act passed in 2020; reforms to ODA process' }
  ],
   },
   'build-the-wall-fraud': {
@@ -2441,7 +2407,7 @@ const investigations_b: Record<string, InvestigationData> = {
    'Trump pardoned Bannon on his last day in office, preventing a federal trial that would have exposed the full scope of the fraud to a jury',
    'Despite publicly claiming he"didn\'t know"about the project, Trump had previously promoted We Build the Wall on social media and praised their efforts',
    'GoFundMe flagged and froze the original campaign over concerns about misuse of funds, but organizers circumvented oversight by restructuring as a 501(c)(4) nonprofit',
-   'Kolfage publicly promised donors that"100% of funds"would go to wall construction while secretly diverting hundreds of thousands to boats, luxury vehicles, cosmetic surgery, and jewelry',
+   'Kolfage publicly promised donors that"100% of funds"would go to wall construction while secretly diverting hundreds of thousands to boats, luxury vehicles, cosmetic surgery, and jewelry'
  ],
  tags: ['financial-crime', 'fraud', 'war', 'conspiracy'],
  sources: [
@@ -2450,14 +2416,14 @@ const investigations_b: Record<string, InvestigationData> = {
    { title: 'Kolfage Sentencing', url: 'https://www.justice.gov/usao-sdny/pr/brian-kolfage-sentenced-more-four-years-prison-connection-we-build-wall-fraud-scheme', type: 'DOJ Press Release' },
    { title: 'NY State Indictment', url: 'https://www.manhattanda.org/d-a-bragg-announces-indictment-of-steve-bannon/', type: 'DA Announcement' },
    { title: 'Trump Pardon List', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/briefing-room/statements-releases/2021/01/20/statement-from-the-press-secretary-regarding-executive-grants-of-clemency/', type: 'White House Archive' },
-   { title: 'Washington Post: Build the Wall Collapse', url: 'https://www.washingtonpost.com/politics/2020/08/20/steve-bannon-arrest-we-build-wall/', type: 'News Investigation' },
+   { title: 'Washington Post: Build the Wall Collapse', url: 'https://www.washingtonpost.com/politics/2020/08/20/steve-bannon-arrest-we-build-wall/', type: 'News Investigation' }
  ],
  affiliations: [
    { id: 'steve-bannon', name: 'Steve Bannon', type: 'individual', relationship: 'Chairman, Received $1M+, pardoned', href: '/entities/individuals/steve-bannon' },
    { id: 'brian-kolfage', name: 'Brian Kolfage', type: 'individual', relationship: 'Founder, Triple amputee veteran, convicted', href: '/entities/individuals/brian-kolfage' },
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'President, Pardoned Bannon', href: '/entities/individuals/donald-trump' },
    { id: 'andrew-badolato', name: 'Andrew Badolato', type: 'individual', relationship: 'Co-defendant, Pleaded guilty', href: '/entities/individuals/andrew-badolato' },
-   { id: 'timothy-shea', name: 'Timothy Shea', type: 'individual', relationship: 'Co-defendant, Convicted at trial', href: '/entities/individuals/timothy-shea' },
+   { id: 'timothy-shea', name: 'Timothy Shea', type: 'individual', relationship: 'Co-defendant, Convicted at trial', href: '/entities/individuals/timothy-shea' }
  ],
  timeline: [
    { date: 'December 2018', event: 'We Build the Wall campaign launches on GoFundMe' },
@@ -2476,14 +2442,14 @@ const investigations_b: Record<string, InvestigationData> = {
    { date: 'April 2023', event: 'Kolfage sentenced to 51 months' },
    { date: 'May 2023', event: 'Shea convicted and sentenced to 63 months' },
    { date: 'January 2024', event: 'NY state case against Bannon dismissed on procedural grounds' },
-   { date: '2024', event: 'Manhattan DA appeals dismissal' },
+   { date: '2024', event: 'Manhattan DA appeals dismissal' }
  ],
  defendants: [
    { name: 'Brian Kolfage', role: 'Wire Fraud Conspiracy', status: 'convicted', notes: 'Pleaded guilty, sentenced to 51 months federal prison (April 2023)' },
    { name: 'Andrew Badolato', role: 'Wire Fraud Conspiracy', status: 'convicted', notes: 'Pleaded guilty, sentenced to 36 months federal prison' },
    { name: 'Timothy Shea', role: 'Wire Fraud and Money Laundering Conspiracy', status: 'convicted', notes: 'Convicted at trial, sentenced to 63 months federal prison (May 2023)' },
    { name: 'Steve Bannon', role: 'Wire Fraud and Money Laundering Conspiracy (Federal)', status: 'pardoned', notes: 'Pardoned by President Trump on January 20, 2021' },
-   { name: 'Steve Bannon', role: 'Money Laundering, Conspiracy (New York State)', status: 'indicted', notes: 'Indicted September 2022, case dismissed on procedural grounds, DA appealing' },
+   { name: 'Steve Bannon', role: 'Money Laundering, Conspiracy (New York State)', status: 'indicted', notes: 'Indicted September 2022, case dismissed on procedural grounds, DA appealing' }
  ],
   },
   'bush-v-gore': {
@@ -2504,7 +2470,7 @@ const investigations_b: Record<string, InvestigationData> = {
    'The U.S. Commission on Civil Rights found"an extraordinarily high and inexcusable level"of disenfranchisement of Black voters in Florida but its findings led to no criminal referrals or meaningful reform.',
    'Justice Sandra Day O\'Connor\'s reported reaction on election night (expressing dismay at a potential Gore victory because she wanted to retire under a Republican president) was suppressed and only emerged in later reporting.',
    'The Florida legislature was preparing to appoint its own slate of Bush electors regardless of the recount outcome, revealing that the fix was in at multiple levels of government.',
-   'John Roberts, Brett Kavanaugh, and Amy Coney Barrett (all of whom worked on the Bush side during the Florida recount) were subsequently appointed to the Supreme Court, creating a lasting structural reward for participation in the stolen election.',
+   'John Roberts, Brett Kavanaugh, and Amy Coney Barrett (all of whom worked on the Bush side during the Florida recount) were subsequently appointed to the Supreme Court, creating a lasting structural reward for participation in the stolen election.'
  ],
  tags: ['financial-crime', 'war', 'justice'],
  sources: [
@@ -2517,7 +2483,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { title: 'Washington Post: Florida Recount Study', url: 'https://www.washingtonpost.com/wp-srv/onpolitics/transcripts/recount_report.htm', type: 'Article' },
    { title: 'Greg Palast,"The Best Democracy Money Can Buy"- The Florida Voter Purge', url: 'https://www.gregpalast.com/the-best-democracy-money-can-buy/', type: 'Article' },
    { title: 'NPR: The Brooks Brothers Riot: 20 Years Later', url: 'https://www.npr.org/2018/11/12/666812854/the-florida-recount-of-2000-a-nightmare-that-goes-on-haunting', type: 'Article' },
-   { title: 'Vanity Fair: Sandra Day O\\', url: 'https://www.vanityfair.com/news/2013/02/ralph-nader-sandra-day-oconnor-2000-election', type: 'Article' },
+   { title: 'Vanity Fair: Sandra Day O\\', url: 'https://www.vanityfair.com/news/2013/02/ralph-nader-sandra-day-oconnor-2000-election', type: 'Article' }
  ],
  affiliations: [
    { id: 'george-w-bush', name: 'George W. Bush', type: 'individual', relationship: '43rd President of the United States. Declared winner of the 2000 election after the Supreme Court halted the Florida recount. His presidency (built on a contested election) led to the Iraq War, warran', href: '/entities/individuals/george-w-bush' },
@@ -2533,7 +2499,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { id: 'john-roberts', name: 'John Roberts', type: 'individual', relationship: 'Current Chief Justice of the Supreme Court. As a private attorney in 2000, provided legal advice to the Bush team during the Florida recount, then was appointed to the Supreme Court by the man he help', href: '/entities/individuals/john-roberts' },
    { id: 'clarence-thomas', name: 'Clarence Thomas', type: 'individual', relationship: 'Supreme Court Justice. Joined the 5-4 majority despite his wife Virginia Thomas being actively involved in recruiting Bush administration officials, a clear conflict of interest.', href: '/entities/individuals/clarence-thomas' },
    { id: 'brett-kavanaugh', name: 'Brett Kavanaugh', type: 'individual', relationship: 'Current Supreme Court Justice. As a young attorney on the Bush legal team, worked directly on the Florida recount litigation. Rewarded with federal judgeship and later Supreme Court appointment by Bus', href: '/entities/individuals/brett-kavanaugh' },
-   { id: 'colin-powell', name: 'Colin Powell', type: 'individual', relationship: 'Secretary of State-designate during the recount. His early involvement in the Bush transition lent establishment credibility to the contested outcome before the Supreme Court even ruled.', href: '/entities/individuals/colin-powell' },
+   { id: 'colin-powell', name: 'Colin Powell', type: 'individual', relationship: 'Secretary of State-designate during the recount. His early involvement in the Bush transition lent establishment credibility to the contested outcome before the Supreme Court even ruled.', href: '/entities/individuals/colin-powell' }
  ],
  timeline: [
    { date: 'November 7, 2000', event: 'Election Day. Networks call Florida for Gore, then retract, then call it for Bush, then retract again. The margin is razor-thin, triggering automatic machine recount.' },
@@ -2553,7 +2519,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { date: 'December 13, 2000', event: 'Al Gore concedes the election, calling for unity. Bush is declared the 43rd President-elect with 271 electoral votes.' },
    { date: 'January 6, 2001', event: 'Congressional Black Caucus members object to Florida\\' },
    { date: 'November 2001', event: 'The National Opinion Research Center (NORC) consortium media recount finds that under most counting standards, including the one most commonly used in Florida, Gore would have won the state.' },
-   { date: '2003-2011', event: 'The Iraq War (a direct consequence of the stolen 2000 election) kills over 4,400 American service members and an estimated 200,000+ Iraqi civilians.' },
+   { date: '2003-2011', event: 'The Iraq War (a direct consequence of the stolen 2000 election) kills over 4,400 American service members and an estimated 200,000+ Iraqi civilians.' }
  ],
  statutes: [
    { code: '52 U.S.C. § 20511: Voter Registration Fraud / Purge', description: 'The systematic purge of 57,700 voters from Florida\\' },
@@ -2563,7 +2529,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 1346: Honest Services Fraud', description: 'Katherine Harris\\' },
    { code: '28 U.S.C. § 455: Judicial Disqualification', description: 'Multiple Supreme Court justices had disqualifying conflicts of interest: Scalia\\' },
    { code: '18 U.S.C. § 595: Interference by Administrative Employees', description: 'State election officials, acting in their administrative capacities, took actions designed to benefit one candidate over another, including premature certification and arbitrary recount deadline enforcement.' },
-   { code: '42 U.S.C. § 1983: Deprivation of Civil Rights', description: 'Florida voters were deprived of their constitutional right to vote and to have their votes counted through state action, including the voter purge, ballot design failures, and premature certification.' },
+   { code: '42 U.S.C. § 1983: Deprivation of Civil Rights', description: 'Florida voters were deprived of their constitutional right to vote and to have their votes counted through state action, including the voter purge, ballot design failures, and premature certification.' }
  ],
  defendants: [
    { name: 'Bush v. Gore (531 U.S. 98)', role: 'U.S. Supreme Court halted the Florida recount', status: 'charged', notes: '5-4 decision. Unsigned per curiam opinion declared limited to the case. Widely regarded as the most politically motivated Supreme Court decision in modern history.' },
@@ -2573,7 +2539,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { name: 'Florida Election Officials', role: 'Inconsistent ballot design (butterfly ballot) causing mass voter confusion', status: 'charged', notes: 'No accountability. Election supervisor Theresa LePore redesigned the ballot"for readability."' },
    { name: 'Roger Stone', role: 'Orchestrated the Brooks Brothers Riot to halt the Miami-Dade County recount', status: 'convicted', notes: 'No charges related to 2000 election. Later convicted and pardoned in separate matter.' },
    { name: 'Florida Supreme Court', role: 'Initial recount extension vacated by SCOTUS', status: 'charged', notes: 'The state court\\' },
-   { name: 'Jeb Bush', role: 'Conflict of interest as governor during brother\\', status: 'charged', notes: 'No investigation into potential abuse of office. Continued as governor until 2007.' },
+   { name: 'Jeb Bush', role: 'Conflict of interest as governor during brother\\', status: 'charged', notes: 'No investigation into potential abuse of office. Continued as governor until 2007.' }
  ],
   },
 };

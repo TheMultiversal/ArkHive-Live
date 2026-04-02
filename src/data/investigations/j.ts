@@ -22,7 +22,7 @@ const investigations_j: Record<string, InvestigationData> = {
  'RELIGIOUS FAVORITISM: The Court has consistently ruled for religious claims over other rights. Kennedy v. Bremerton (2022) allowed public school coach prayer. Carson v. Makin (2022) required public funding for religious schools.',
  'CIRCUIT COURTS: Beyond the Supreme Court, Trump appointed over 50 circuit court judges (all Federalist Society vetted) creating conservative majorities on most circuit courts. These judges hear most federal appeals.',
  'DISTRICT COURTS: Trump appointed over 170 district court judges who will serve lifetime appointments. Many were rated "not qualified "by the ABA but confirmed anyway. Cases like Texas abortion and immigration rulings come from these courts.',
- 'LIFETIME IMPACT: Federal judges serve for life. The Trump judges will shape law for decades regardless of future elections. The judicial capture is designed to outlast democratic accountability.',
+ 'LIFETIME IMPACT: Federal judges serve for life. The Trump judges will shape law for decades regardless of future elections. The judicial capture is designed to outlast democratic accountability.'
  ],
  tags: ['Federalist Society', 'Supreme Court', 'Leonard Leo', 'Judicial Appointments', 'Trump Judges', 'Conservative Courts'],
  sources: [
@@ -30,8 +30,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'Trump Judicial Appointments Analysis', url: 'https://www.pewresearch.org/short-reads/2021/01/13/how-trump-compares-with-other-recent-presidents-in-appointing-federal-judges/', type: 'Research' },
  { title: 'Dobbs v. Jackson Decision', url: 'https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf', type: 'Court Opinion' },
  { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
- { title: 'ABA Not Qualified Ratings', url: 'https://www.americanbar.org/groups/committees/federal_judiciary/ratings/', type: 'Professional Rating' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'ABA Not Qualified Ratings', url: 'https://www.americanbar.org/groups/committees/federal_judiciary/ratings/', type: 'Professional Rating' }
  ],
  affiliations: [
  { id: '1', name: 'Federalist Society', type: 'organization', relationship: 'Judicial selection machine', href: '/entities/organizations/federalist-society' },
@@ -42,7 +41,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { id: '6', name: 'Neil Gorsuch', type: 'individual', relationship: 'Trump\'s first SCOTUS appointment', href: '/entities/individuals/neil-gorsuch' },
  { id: '7', name: 'Brett Kavanaugh', type: 'individual', relationship: 'Trump SCOTUS appointment', href: '/entities/individuals/brett-kavanaugh' },
  { id: '8', name: 'Amy Coney Barrett', type: 'individual', relationship: 'Trump SCOTUS appointment', href: '/entities/individuals/amy-coney-barrett' },
- { id: '9', name: 'Supreme Court', type: 'agency', relationship: 'Captured institution', href: '/entities/agencies/supreme-court' },
+ { id: '9', name: 'Supreme Court', type: 'agency', relationship: 'Captured institution', href: '/entities/agencies/supreme-court' }
  ],
    eventOriginDate: '1982-01-01',
    lastActivityDate: '2023-08-10',
@@ -55,7 +54,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2022', event: 'EXPANDING GUN RIGHTS: In Bruen (2022), the Court dramatically expanded gun rights, striking down New York\'s concealed carry law and creating a new "historical tradition "test that threatens most gu...', type: 'legal' },
      { date: '2022', event: 'EPA (2022) created the "major questions doctrine "to limit regulation', type: 'default' },
      { date: '2022', event: 'Bremerton (2022) allowed public school coach prayer', type: 'default' },
-     { date: '2022', event: 'Makin (2022) required public funding for religious schools', type: 'default' },
+     { date: '2022', event: 'Makin (2022) required public funding for religious schools', type: 'default' }
    ],
  },
   'january-6-investigation': {
@@ -75,19 +74,18 @@ const investigations_j: Record<string, InvestigationData> = {
  'CRIMINAL PROSECUTIONS: DOJ has charged over 1,400 defendants in connection with the Capitol breach; the largest criminal investigation in American history. Convictions include seditious conspiracy for leaders of the Proud Boys (Enrique Tarrio; 22 years) and Oath Keepers (Stewart Rhodes; 18 years). Over 900 defendants have been convicted or pleaded guilty. Sentences have ranged from probation to over 20 years in prison.',
  'THE FAKE ELECTORS SCHEME: In seven states Biden won, Trump allies organized slates of fake electors who signed fraudulent certificates claiming Trump had won. These fake certificates were submitted to the National Archives and Congress. The scheme was coordinated by Trump attorney John Eastman and involved direct participation from Trump campaign officials. Multiple fake electors have been charged in state-level cases in Georgia and other states.',
  'TRUMP INDICTMENT: In August 2023, Special Counsel Jack Smith indicted Trump on four federal counts: conspiracy to defraud the United States, conspiracy to obstruct an official proceeding, obstruction of an official proceeding, and conspiracy against citizens\' rights. The case was delayed by Trump\'s immunity claims. In July 2024, the Supreme Court ruled in Trump v. United States that presidents have presumptive immunity for official acts; significantly narrowing the case.',
- 'PARDONS AND IMPUNITY: After returning to office in January 2025, President Trump pardoned or commuted sentences for January 6 defendants; including those convicted of assaulting police officers. The pardons sent a clear message that political violence on behalf of Trump would be rewarded. Several pardoned defendants had been convicted of violent felonies.',
+ 'PARDONS AND IMPUNITY: After returning to office in January 2025, President Trump pardoned or commuted sentences for January 6 defendants; including those convicted of assaulting police officers. The pardons sent a clear message that political violence on behalf of Trump would be rewarded. Several pardoned defendants had been convicted of violent felonies.'
  ],
  tags: ['January 6', 'Insurrection', 'Trump', 'Capitol Attack', 'Seditious Conspiracy', 'Constitutional Crisis', 'Election Subversion'],
  sources: [
  { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'DOJ Capitol Breach Investigation', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', type: 'Government' },
  { title: 'Jack Smith Indictment (U.S. v. Trump)', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', type: 'Court Document' },
- { title: 'Select Committee Public Hearings', url: 'https://january6th.house.gov/legislation/hearings', type: 'Government' },
-   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
+ { title: 'Select Committee Public Hearings', url: 'https://january6th.house.gov/legislation/hearings', type: 'Government' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited the attack; orchestrated multi-part plan to overturn election; failed to act for 187 minutes; later pardoned convicted rioters', href: '/entities/individuals/donald-trump' },
- { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Largest criminal investigation in U.S. history; 1,400+ defendants charged; Special Counsel indicted Trump', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Largest criminal investigation in U.S. history; 1,400+ defendants charged; Special Counsel indicted Trump', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2026-03-10',
@@ -96,7 +94,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2021-01-06', event: 'THE ASSAULT: On January 6, 2021, following a rally where President Trump told supporters to "fight like hell" and march to the Capitol, thousands breached police barricades and stormed the building', type: 'political' },
      { date: '2023-08-01', event: 'TRUMP INDICTMENT: In August 2023, Special Counsel Jack Smith indicted Trump on four federal counts: conspiracy to defraud the United States, conspiracy to obstruct an official proceeding, obstructi', type: 'legal' },
      { date: '2024-07-01', event: 'In July 2024, the Supreme Court ruled in Trump v', type: 'legal' },
-     { date: '2025', event: 'PARDONS AND IMPUNITY: After returning to office in January 2025, President Trump pardoned or commuted sentences for January 6 defendants; including those convicted of assaulting police officers', type: 'legal' },
+     { date: '2025', event: 'PARDONS AND IMPUNITY: After returning to office in January 2025, President Trump pardoned or commuted sentences for January 6 defendants; including those convicted of assaulting police officers', type: 'legal' }
    ],
  },
   'january-6th': {
@@ -115,18 +113,17 @@ const investigations_j: Record<string, InvestigationData> = {
  'DELAYED NATIONAL GUARD: At 1:49 PM, Capitol Police Chief Steven Sund requested National Guard assistance. The request was relayed through multiple layers of Pentagon bureaucracy. Secretary of the Army Ryan McCarthy did not approve deployment until 5:08 PM. Guard troops did not arrive at the Capitol until after 5:20 PM; over three hours after the breach began.',
  'OFFICER TESTIMONIES: Officer Daniel Hodges was crushed in a doorway; his screams captured on body camera footage. Officer Michael Fanone was dragged into the crowd, beaten, tased, and suffered a heart attack. Officer Harry Dunn was called racial slurs. Officer Aquilino Gonell suffered injuries so severe he was medically retired. Their testimony before the Select Committee was among the most powerful public hearings in congressional history.',
  'THE HUMAN TOLL: Five people died in connection with the attack. Over 140 officers were injured. Four officers who responded later died by suicide: Jeffrey Smith, Howard Liebengood, Gunther Hashida, and Kyle DeFreytag. Hundreds of defendants lost jobs, relationships, and freedom. The psychological impact on Congressional staff, janitorial workers, and journalists present has been documented extensively.',
- 'THE CLEANUP AND CERTIFICATION: The Capitol was secured by approximately 5:30 PM. Congress reconvened at 8:00 PM and completed certification of the Electoral College results in the early hours of January 7. 147 Republican members of Congress; 8 Senators and 139 House members; voted to object to certification even after witnessing the attack.',
+ 'THE CLEANUP AND CERTIFICATION: The Capitol was secured by approximately 5:30 PM. Congress reconvened at 8:00 PM and completed certification of the Electoral College results in the early hours of January 7. 147 Republican members of Congress; 8 Senators and 139 House members; voted to object to certification even after witnessing the attack.'
  ],
  tags: ['January 6', 'Capitol Attack', 'Insurrection', 'Proud Boys', 'Oath Keepers', 'National Guard', 'Police', 'Timeline'],
  sources: [
  { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Senate HSGAC/Rules Committee Report on Security Failures', url: 'https://www.rules.senate.gov/imo/media/doc/Jan%206%20HSGAC%20Rules%20Report.pdf', type: 'Government Report' },
- { title: 'Capitol Police Inspector General Report', url: 'https://www.uscp.gov/media-center/press-releases', type: 'Government Report' },
-   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+ { title: 'Capitol Police Inspector General Report', url: 'https://www.uscp.gov/media-center/press-releases', type: 'Government Report' }
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited the attack at Ellipse rally; failed to act for 187 minutes; later pardoned convicted rioters', href: '/entities/individuals/donald-trump' },
- { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted 1,400+ defendants in the largest federal criminal investigation in history', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted 1,400+ defendants in the largest federal criminal investigation in history', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2026-03-10',
@@ -139,7 +136,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2021-01-07', event: 'Congress reconvenes at 8:00 PM on January 6 and completes certification in the early hours of January 7. 147 Republicans vote to object to certification even after witnessing the attack', type: 'political' },
      { date: '2022-06', event: 'House Select Committee holds 10 public hearings documenting Trump\'s seven-part plan to overturn the election and his 187 minutes of inaction during the attack', type: 'default' },
      { date: '2022-11', event: 'Stewart Rhodes (Oath Keepers) and Enrique Tarrio (Proud Boys) convicted of seditious conspiracy; Rhodes sentenced to 18 years, Tarrio to 22 years', type: 'legal' },
-     { date: '2025-01', event: 'President Trump pardons or commutes sentences for January 6 defendants including those convicted of assaulting police officers; over 1,400 had been charged in the largest federal criminal investigation in history', type: 'political' },
+     { date: '2025-01', event: 'President Trump pardons or commutes sentences for January 6 defendants including those convicted of assaulting police officers; over 1,400 had been charged in the largest federal criminal investigation in history', type: 'political' }
      ],
  },
   'jj-baby-powder': {
@@ -155,18 +152,18 @@ const investigations_j: Record<string, InvestigationData> = {
  'Epidemiological studies dating to 1971 identified talc particles embedded in ovarian tumors. By 2020, over 19,000 women had filed lawsuits claiming that regular use of J&J Baby Powder caused their ovarian cancer. In a landmark 2018 case, a St. Louis jury awarded $4.69 billion to 22 women who developed ovarian cancer after using J&J talc products for decades. The verdict was later reduced to $2.12 billion but upheld on appeal.',
  'J&J employed a controversial legal strategy called the "Texas Two-Step" to limit its liability. The company created a subsidiary called LTL Management, transferred all talc liabilities to it, and then placed that subsidiary into bankruptcy; attempting to cap payments to cancer victims through bankruptcy court rather than facing jury trials. Federal courts initially allowed the maneuver but the Third Circuit rejected it twice, calling it an abuse of the bankruptcy system.',
  'In 2020, J&J discontinued its talc-based Baby Powder in the United States and Canada, switching to a cornstarch formula. The company continued to sell talc-based products internationally, particularly in developing countries. J&J maintained officially that its products were safe and asbestos-free despite the documentary evidence, jury verdicts, and its own decision to remove talc from the product.',
- 'The FDA tested J&J Baby Powder in 2019 and found asbestos in one sample, prompting a voluntary recall of 33,000 bottles. J&J challenged the FDA\'s testing methodology. In 2023, J&J proposed a $8.9 billion settlement to resolve approximately 100,000 talc-related claims, but the offer required approval of 75% of claimants. The case represents one of the largest mass tort litigations in American history and a case study in how corporations prioritize profits over consumer safety for decades.',
+ 'The FDA tested J&J Baby Powder in 2019 and found asbestos in one sample, prompting a voluntary recall of 33,000 bottles. J&J challenged the FDA\'s testing methodology. In 2023, J&J proposed a $8.9 billion settlement to resolve approximately 100,000 talc-related claims, but the offer required approval of 75% of claimants. The case represents one of the largest mass tort litigations in American history and a case study in how corporations prioritize profits over consumer safety for decades.'
  ],
  tags: ['Johnson & Johnson', 'Talc', 'Asbestos', 'Ovarian Cancer', 'Mesothelioma', 'Texas Two-Step', 'Corporate Concealment', 'Mass Tort'],
  sources: [
  { title: 'Reuters Investigation: J&J Knew for Decades Asbestos Lurked in Baby Powder', url: 'https://www.reuters.com/investigates/special-report/johnsonandjohnson-cancer/', type: 'Investigation' },
  { title: 'Third Circuit: In re LTL Management LLC Decision', url: 'https://www2.ca3.uscourts.gov/', type: 'Court Decision' },
  { title: 'FDA Talc Testing and Safety Information', url: 'https://www.fda.gov/cosmetics/cosmetic-ingredients/talc', type: 'Government' },
- { title: 'St. Louis Jury Verdict: Ingham v. Johnson & Johnson', url: 'https://www.reuters.com/article/us-johnson-johnson-cancer-lawsuits-idUSKBN1K301G/', type: 'Court Document' },
+ { title: 'St. Louis Jury Verdict: Ingham v. Johnson & Johnson', url: 'https://www.reuters.com/article/us-johnson-johnson-cancer-lawsuits-idUSKBN1K301G/', type: 'Court Document' }
  ],
  affiliations: [
  { id: '1', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Concealed asbestos contamination in baby powder for over 40 years; used Texas Two-Step bankruptcy to dodge tort liability', href: '/entities/corporations/johnson-and-johnson' },
- { id: '2', name: 'FDA', type: 'agency', relationship: 'Found asbestos in J&J powder in 2019 but lacks authority to compel cosmetic recalls; no pre-market approval authority over cosmetics', href: '/entities/agencies/fda' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Found asbestos in J&J powder in 2019 but lacks authority to compel cosmetic recalls; no pre-market approval authority over cosmetics', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-05-19',
@@ -178,7 +175,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2019', event: 'The FDA tested J&J Baby Powder in 2019 and found asbestos in one sample, prompting a voluntary recall of 33,000 bottles', type: 'default' },
      { date: '2020', event: 'By 2020, over 19,000 women had filed lawsuits claiming that regular use of J&J Baby Powder caused their ovarian cancer', type: 'legal' },
      { date: '2020', event: 'In 2020, J&J discontinued its talc-based Baby Powder in the United States and Canada, switching to a cornstarch formula', type: 'default' },
-     { date: '2023', event: 'In 2023, J&J proposed a $8.9 billion settlement to resolve approximately 100,000 talc-related claims, but the offer required approval of 75% of claimants', type: 'political' },
+     { date: '2023', event: 'In 2023, J&J proposed a $8.9 billion settlement to resolve approximately 100,000 talc-related claims, but the offer required approval of 75% of claimants', type: 'political' }
    ],
  },
   'juul-vaping-epidemic': {
@@ -194,7 +191,7 @@ const investigations_j: Record<string, InvestigationData> = {
  'Internal documents revealed at trial showed JUUL purchased advertising on websites popular with teens (Cartoon Network, Nickelodeon-adjacent platforms), hired young social media influencers, and distributed free samples at concerts and parties. The company\'s early "Vaporized" campaign used models in their twenties styled as teenagers in bright, playful imagery deliberately reminiscent of cigarette advertising\'s youth-targeting era.',
  'JUUL sent representatives to schools claiming to teach anti-vaping programs while actually promoting the product. In one documented case at a New York school, a JUUL representative told ninth-graders that the product was "totally safe" and that if they had friends who smoked, they should tell them to "switch to JUUL." These presentations occurred without parental consent and before the company had FDA authorization.',
  'Altria Group (formerly Philip Morris) invested $12.8 billion in JUUL in December 2018 for a 35% stake, providing the startup with the distribution infrastructure and retail relationships of the world\'s largest tobacco company. The FTC later found that the deal included a non-compete agreement that effectively eliminated Altria as a competitor in the e-cigarette market. Altria later wrote down its JUUL investment by over $11 billion.',
- 'In 2022, JUUL agreed to pay $438.5 million to settle a multi-state investigation into its marketing practices and $462 million to six states in separate settlements. The FDA initially moved to ban JUUL products from the U.S. market in June 2022.  The total number of U.S. youth using e-cigarettes reached 2.55 million in 2022, with JUUL having served as the gateway product for a generation of nicotine addiction.',
+ 'In 2022, JUUL agreed to pay $438.5 million to settle a multi-state investigation into its marketing practices and $462 million to six states in separate settlements. The FDA initially moved to ban JUUL products from the U.S. market in June 2022.  The total number of U.S. youth using e-cigarettes reached 2.55 million in 2022, with JUUL having served as the gateway product for a generation of nicotine addiction.'
  ],
  tags: ['JUUL', 'Vaping', 'Youth Nicotine Addiction', 'E-Cigarettes', 'Altria', 'FDA Failure', 'Tobacco Marketing', 'Public Health'],
  sources: [
@@ -202,11 +199,10 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'CDC: Youth E-Cigarette Use (National Youth Tobacco Survey)', url: 'https://www.cdc.gov/tobacco/data-statistics/surveys/nyts/', type: 'Government' },
  { title: 'Stanford Research into the Impact of Tobacco Advertising', url: 'https://tobacco.stanford.edu/', type: 'Research' },
  { title: 'Truth Initiative: JUUL Research', url: 'https://truthinitiative.org/research-resources', type: 'Research' },
- { title: 'FTC: Altria-JUUL Investigation', url: 'https://www.ftc.gov/', type: 'Government' },
+ { title: 'FTC: Altria-JUUL Investigation', url: 'https://www.ftc.gov/', type: 'Government' }
  ],
  affiliations: [
- { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate e-cigarettes targeting youth', href: '/entities/agencies/fda' },
-   { id: 'department-of-health-and-human-services', name: 'Department of Health and Human Services', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/hhs' },
+ { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate e-cigarettes targeting youth', href: '/entities/agencies/fda' }
  ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2026-01-17',
@@ -216,7 +212,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2018', event: 'By 2018, JUUL controlled 75% of the e-cigarette market and youth vaping had increased 78% in a single year', type: 'default' },
      { date: '2018-12-01', event: 'Altria Group (formerly Philip Morris) invested $12.8 billion in JUUL in December 2018 for a 35% stake, providing the startup with the distribution infrastructure and retail relationships of the wor', type: 'political' },
      { date: '2022', event: 'In 2022, JUUL agreed to pay $438.5 million to settle a multi-state investigation into its marketing practices and $462 million to six states in separate settlements', type: 'financial' },
-     { date: '2022', event: 'youth using e-cigarettes reached 2.55 million in 2022, with JUUL having served as the gateway product for a generation of nicotine addiction', type: 'financial' },
+     { date: '2022', event: 'youth using e-cigarettes reached 2.55 million in 2022, with JUUL having served as the gateway product for a generation of nicotine addiction', type: 'financial' }
    ],
  },
   'journalistic-source-protection-failures': {
@@ -232,17 +228,16 @@ const investigations_j: Record<string, InvestigationData> = {
       'The Trump administration escalated surveillance of journalists. In 2021, it was revealed that the Trump DOJ had secretly obtained phone records, email logs, and in some cases email content from reporters at the New York Times (including reporters covering the Russia investigation), the Washington Post, and CNN. In the case of the New York Times, the DOJ obtained a court order in 2020 compelling Google to provide email records of four reporters; the order included a gag provision preventing Google from notifying the reporters. The DOJ also attempted to compel former White House counsel Don McGahn reporter contacts as part of leak investigations. Remarkably, these secret surveillance efforts continued into the early months of the Biden administration before being publicly revealed and halted.',
       'The prosecution of Julian Assange represents the most significant threat to press freedom in decades. In 2019, the DOJ indicted Assange under the Espionage Act for receiving and publishing classified documents provided by Chelsea Manning. While Assange is a controversial figure, press freedom organizations (including the Reporters Committee for Freedom of the Press, the ACLU, and the Committee to Protect Journalists) warned that the indictment criminalized core journalistic activities: receiving classified information from a source and publishing it. The same legal theory could be applied to any journalist who publishes leaked classified documents; which is a standard practice in national security reporting. Assange ultimately pleaded guilty to a single Espionage Act charge in June 2024 and was released after serving time in a UK prison.',
       'The lack of a federal shield law is the structural root of the problem. A shield law would establish a journalist privilege protecting reporters from being compelled to reveal confidential sources in federal proceedings. The Free Flow of Information Act has been introduced in Congress repeatedly since 2007 but has never passed both chambers. The DOJ adopted internal guidelines in 2015 (revised in 2022) restricting when prosecutors can seek journalist records, but these guidelines are policy; not law; and can be waived or changed by any attorney general. The Trump administration demonstrated this when it secretly obtained journalist records despite the guidelines being in effect. Without statutory protection, the only safeguard is the good faith of the executive branch; which has proven insufficient across administrations of both parties.',
-      'The chilling effect on journalism is documented but difficult to quantify. A 2014 PEN American survey found that 1 in 6 writers had avoided writing or speaking about a topic they thought might subject them to surveillance. A 2015 study by the Reporters Committee found that confidential sources in national security reporting had become significantly more reluctant to speak with journalists after the Snowden revelations exposed the scope of government surveillance. Investigative reporters have described sources refusing to communicate by phone or email, insisting on in-person meetings with no electronic devices present. The consequences extend beyond individual story decisions: when sources fear prosecution and journalists fear surveillance, the public loses access to information about government misconduct that would not otherwise become public. The Pentagon Papers, Abu Ghraib, warrantless wiretapping, CIA black sites, and drone strike civilian casualties were all revealed through confidential sources who would likely not have come forward under current conditions.',
+      'The chilling effect on journalism is documented but difficult to quantify. A 2014 PEN American survey found that 1 in 6 writers had avoided writing or speaking about a topic they thought might subject them to surveillance. A 2015 study by the Reporters Committee found that confidential sources in national security reporting had become significantly more reluctant to speak with journalists after the Snowden revelations exposed the scope of government surveillance. Investigative reporters have described sources refusing to communicate by phone or email, insisting on in-person meetings with no electronic devices present. The consequences extend beyond individual story decisions: when sources fear prosecution and journalists fear surveillance, the public loses access to information about government misconduct that would not otherwise become public. The Pentagon Papers, Abu Ghraib, warrantless wiretapping, CIA black sites, and drone strike civilian casualties were all revealed through confidential sources who would likely not have come forward under current conditions.'
     ],
     tags: ['Press Freedom', 'Shield Law', 'Espionage Act', 'Source Protection', 'DOJ Surveillance', 'Assange', 'AP Scandal', 'Obama Leak Prosecutions'],
     sources: [
       { title: 'Reporters Committee for Freedom of the Press', url: 'https://www.rcfp.org', type: 'Legal Document' },
       { title: 'PEN America Chilling Effects Report', url: 'https://pen.org', type: 'Research Study' },
-      { title: 'DOJ Media Guidelines', url: 'https://www.justice.gov', type: 'Government Record' },
-      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'DOJ Media Guidelines', url: 'https://www.justice.gov', type: 'Government Record' }
     ],
     affiliations: [
- { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secretly subpoenaed phone and email records of reporters at NYT, Washington Post, AP, and CNN; prosecuted 8 leakers under Espionage Act during Obama era', href: '/entities/agencies/doj' },
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secretly subpoenaed phone and email records of reporters at NYT, Washington Post, AP, and CNN; prosecuted 8 leakers under Espionage Act during Obama era', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '1917-01-01',
    lastActivityDate: '2024-06-23',
@@ -257,7 +252,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2019', event: 'In 2019, the DOJ indicted Assange under the Espionage Act for receiving and publishing classified documents provided by Chelsea Manning', type: 'legal' },
      { date: '2020', event: 'In the case of the New York Times, the DOJ obtained a court order in 2020 compelling Google to provide email records of four reporters', type: 'legal' },
      { date: '2021', event: 'In 2021, it was revealed that the Trump DOJ had secretly obtained phone records, email logs, and in some cases email content from reporters at the New York Times (including reporters covering the R', type: 'default' },
-     { date: '2024-06-01', event: 'Assange ultimately pleaded guilty to a single Espionage Act charge in June 2024 and was released after serving time in a UK prison', type: 'legal' },
+     { date: '2024-06-01', event: 'Assange ultimately pleaded guilty to a single Espionage Act charge in June 2024 and was released after serving time in a UK prison', type: 'legal' }
    ],
   },
   'juvenile-justice-system-failures': {
@@ -273,17 +268,16 @@ const investigations_j: Record<string, InvestigationData> = {
       'Conditions in juvenile detention facilities have been documented as unconstitutional by the DOJ Civil Rights Division in state after state. A 2020 investigation of Texas juvenile facilities found widespread physical abuse by staff, excessive use of pepper spray and mechanical restraints, prolonged solitary confinement (some children isolated for months), inadequate mental health care, and sexual abuse. A 2019 investigation of Mississippi juvenile facilities found children held in cells with no working toilets, no access to education, and subjected to excessive force. The DOJ has issued findings letters documenting unconstitutional conditions in juvenile facilities in Ohio, Louisiana, New York, California, Georgia, and numerous other states. A 2023 AP investigation found that between 2000 and 2023, at least 120 children died in juvenile detention facilities from suicide, medical neglect, restraint-related injuries, and violence.',
       'Racial disparities pervade every stage of the juvenile justice system. According to the Sentencing Project, Black youth are 4.4 times more likely to be incarcerated than white youth; Native American youth are 3 times more likely; and Hispanic youth are 1.4 times more likely. The disparities begin with arrest (Black youth are twice as likely to be arrested as white youth for the same behavior), continue through detention decisions (Black youth are more likely to be held pretrial even controlling for offense severity), and culminate in sentencing (Black youth are more likely to be transferred to adult court). A 2020 study published in Pediatrics found that implicit racial bias among juvenile justice decision-makers directly contributed to disparate outcomes. Zero-tolerance school discipline policies, which mandate suspension or expulsion for minor infractions, feed the school-to-prison pipeline; Black students are 3.8 times more likely to be suspended than white students.',
       'The transfer of children to adult courts and prisons subjects youth to devastating consequences. Every state allows some form of juvenile transfer to adult court; in some states, children as young as 10 can be tried as adults. Approximately 200,000 youth per year are prosecuted in adult criminal courts. Children in adult prisons are 36 times more likely to commit suicide than children in juvenile facilities, 5 times more likely to be sexually assaulted (according to DOJ data), and twice as likely to be assaulted with a weapon. The Supreme Court has imposed some limits: Roper v. Simmons (2005) banned the death penalty for juveniles; Graham v. Florida (2010) banned life without parole for non-homicide juvenile offenses; Miller v. Alabama (2012) banned mandatory life without parole for all juveniles. However, as of 2024, approximately 2,500 individuals remained in U.S. prisons serving life or de facto life sentences for crimes committed as minors.',
-      'The privatization of juvenile detention creates perverse financial incentives that drive incarceration. Private companies (including YouthServices International, Sequel Youth and Family Services, and G4S) operate juvenile facilities in multiple states under contracts that often include occupancy guarantees; requiring the state to pay for a minimum number of beds whether or not they are filled. This creates a financial incentive to incarcerate children rather than divert them to community-based alternatives. Sequel Youth and Family Services facilities were the subject of a 2020 ProPublica investigation documenting a pattern of abuse, including the death of Cornelius Frederick, a 16-year-old who died after being restrained by staff at a Sequel facility in Michigan. The company continued to receive contracts despite documented abuse at multiple facilities across multiple states. Reform advocates including the Annie E. Casey Foundation have demonstrated that community-based alternatives (therapeutic foster care, mentoring programs, restorative justice) produce better outcomes at lower cost than incarceration; but the political economy of juvenile detention favors continued investment in facilities.',
+      'The privatization of juvenile detention creates perverse financial incentives that drive incarceration. Private companies (including YouthServices International, Sequel Youth and Family Services, and G4S) operate juvenile facilities in multiple states under contracts that often include occupancy guarantees; requiring the state to pay for a minimum number of beds whether or not they are filled. This creates a financial incentive to incarcerate children rather than divert them to community-based alternatives. Sequel Youth and Family Services facilities were the subject of a 2020 ProPublica investigation documenting a pattern of abuse, including the death of Cornelius Frederick, a 16-year-old who died after being restrained by staff at a Sequel facility in Michigan. The company continued to receive contracts despite documented abuse at multiple facilities across multiple states. Reform advocates including the Annie E. Casey Foundation have demonstrated that community-based alternatives (therapeutic foster care, mentoring programs, restorative justice) produce better outcomes at lower cost than incarceration; but the political economy of juvenile detention favors continued investment in facilities.'
     ],
     tags: ['Kids for Cash', 'Juvenile Detention', 'Racial Disparities', 'School-to-Prison Pipeline', 'Youth Incarceration', 'Solitary Confinement', 'Private Prisons', 'DOJ Civil Rights'],
     sources: [
       { title: 'DOJ Civil Rights Division Juvenile Justice Investigations', url: 'https://www.justice.gov/crt', type: 'Government Record' },
       { title: 'Sentencing Project Racial Disparities Report', url: 'https://www.sentencingproject.org', type: 'Research Study' },
-      { title: 'Annie E. Casey Foundation JDAI', url: 'https://www.aecf.org', type: 'Research Study' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Annie E. Casey Foundation JDAI', url: 'https://www.aecf.org', type: 'Research Study' }
     ],
     affiliations: [
- { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigates unconstitutional conditions in juvenile facilities; has found violations in virtually every state examined', href: '/entities/agencies/doj' },
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigates unconstitutional conditions in juvenile facilities; has found violations in virtually every state examined', href: '/entities/agencies/doj' }
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2024-09-04',
@@ -297,10 +291,9 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 study published in Pediatrics found that implicit racial bias among juvenile justice decision-makers directly contributed to disparate outcomes', type: 'default' },
      { date: '2020', event: 'Sequel Youth and Family Services facilities were the subject of a 2020 ProPublica investigation documenting a pattern of abuse, including the death of Cornelius Frederick, a 16-year-old who died af', type: 'critical' },
      { date: '2023', event: 'A 2023 AP investigation found that between 2000 and 2023, at least 120 children died in juvenile detention facilities from suicide, medical neglect, restraint-related injuries, and violence', type: 'critical' },
-     { date: '2024', event: 'However, as of 2024, approximately 2,500 individuals remained in U.S', type: 'default' },
+     { date: '2024', event: 'However, as of 2024, approximately 2,500 individuals remained in U.S', type: 'default' }
    ],
   },
-
 
   'jackson-mississippi-water-crisis': {
     title: 'Jackson Mississippi Water Crisis',
@@ -315,18 +308,17 @@ const investigations_j: Record<string, InvestigationData> = {
       'The roots of Jackson\'s water crisis are inseparable from the city\'s racial history. After school desegregation in the 1970s, white residents fled Jackson for surrounding suburbs, taking the tax base with them. Jackson\'s population declined from 202,000 in 1980 to 150,000 in 2020 while the surrounding (predominantly white) suburbs grew. The state of Mississippi, controlled by a legislature that has been historically hostile to Jackson\'s Black leadership, refused to allocate adequate funding for the city\'s water infrastructure. Meanwhile, the water system\'s customer base shrank and aged, revenues declined, and the infrastructure deteriorated. By 2020, Jackson\'s water system had a $2 billion maintenance backlog.',
       'The Mississippi state government\'s hostility toward Jackson is documented and ongoing. In 2023, the legislature passed a law creating a state-appointed board to control Jackson\'s water system with no input from city residents, a move critics compared to emergency management impositions in Flint, Michigan, and Detroit. Governor Tate Reeves was criticized for slow and inadequate response to the August 2022 crisis. The EPA had issued compliance orders to Jackson as early as 2020, finding violations of the Safe Drinking Water Act including inadequate treatment, failure to maintain adequate water pressure (creating backflow contamination risk), and lead service line violations.',
       'Under the Safe Drinking Water Act (42 U.S.C. 300f et seq.), public water systems must meet national primary drinking water standards. The EPA issued an emergency administrative order to Jackson in 2023 under SDWA Section 1431 requiring immediate corrective actions. Under the Stafford Act (42 U.S.C. 5121), President Biden declared an emergency in Jackson on August 30, 2022. The DOJ filed a civil complaint against the city in November 2022 seeking a court-appointed third-party manager for the water system. Under the 14th Amendment\'s Equal Protection Clause, civil rights organizations argue that Mississippi\'s systematic disinvestment in Jackson constitutes environmental racism.',
-      'Jackson\'s water crisis is not unique; it is representative of a nationwide infrastructure crisis disproportionately affecting communities of color. The EPA estimates that American water systems need $625 billion in improvements over the next 20 years. The Bipartisan Infrastructure Law allocated $50 billion for water infrastructure, but this is a fraction of the need. What makes Jackson\'s case particularly egregious is the direct role that racist state policy played in creating the crisis: a state legislature that defunded a Black city, a governor who delayed emergency response, and a political system that viewed 150,000 predominantly Black residents\' lack of clean water as a low priority. Jackson is what happens when a society decides that some communities are not worth maintaining.',
+      'Jackson\'s water crisis is not unique; it is representative of a nationwide infrastructure crisis disproportionately affecting communities of color. The EPA estimates that American water systems need $625 billion in improvements over the next 20 years. The Bipartisan Infrastructure Law allocated $50 billion for water infrastructure, but this is a fraction of the need. What makes Jackson\'s case particularly egregious is the direct role that racist state policy played in creating the crisis: a state legislature that defunded a Black city, a governor who delayed emergency response, and a political system that viewed 150,000 predominantly Black residents\' lack of clean water as a low priority. Jackson is what happens when a society decides that some communities are not worth maintaining.'
     ],
     tags: ['jackson-mississippi', 'water-crisis', 'infrastructure', 'environmental-racism', 'safe-drinking-water', 'disinvestment', 'racial-inequality'],
     sources: [
       { title: 'EPA: Jackson Mississippi Water System Emergency Order', url: 'https://www.epa.gov/archive/ms-water', type: 'Government Records' },
       { title: 'DOJ: United States v. City of Jackson', url: 'https://www.justice.gov/', type: 'Court Records' },
-      { title: 'Mississippi Today: Jackson Water Crisis Coverage', url: 'https://mississippitoday.org/water-crisis/', type: 'Investigation' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Mississippi Today: Jackson Water Crisis Coverage', url: 'https://mississippitoday.org/water-crisis/', type: 'Investigation' }
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Issued emergency orders to Jackson; found Safe Drinking Water Act violations; allocated $600M from Bipartisan Infrastructure Law for Mississippi', href: '/entities/agencies/epa' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed civil complaint against Jackson seeking court-appointed water system manager; environmental justice investigation ongoing', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed civil complaint against Jackson seeking court-appointed water system manager; environmental justice investigation ongoing', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-01-15',
@@ -341,7 +333,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2022-08-30', event: '5121), President Biden declared an emergency in Jackson on August 30, 2022', type: 'political' },
      { date: '2022-11-01', event: 'The DOJ filed a civil complaint against the city in November 2022 seeking a court-appointed third-party manager for the water system', type: 'legal' },
      { date: '2023', event: 'In 2023, the legislature passed a law creating a state-appointed board to control Jackson\'s water system with no input from city residents, a move critics compared to emergency management impositio...', type: 'political' },
-     { date: '2023', event: 'The EPA issued an emergency administrative order to Jackson in 2023 under SDWA Section 1431 requiring immediate corrective actions', type: 'legal' },
+     { date: '2023', event: 'The EPA issued an emergency administrative order to Jackson in 2023 under SDWA Section 1431 requiring immediate corrective actions', type: 'legal' }
    ],
   },
   'juul-teen-vaping-epidemic': {
@@ -357,18 +349,17 @@ const investigations_j: Record<string, InvestigationData> = {
       'The results were immediate and devastating. The National Youth Tobacco Survey found that between 2017 and 2019, e-cigarette use among high school students increased by 135%, from 11.7% to 27.5%, representing approximately 5 million teens. Middle school use increased by 218% over the same period. JUUL became so ubiquitous in schools that the devices, easily mistaken for USB drives, were used openly in classrooms and bathrooms. The term "JUULing" entered teen vocabulary. A single JUUL pod contains as much nicotine as 20 cigarettes, and studies found that teens who had never previously considered smoking were becoming addicted to nicotine, with some reporting withdrawal symptoms including anxiety, irritability, and difficulty concentrating.',
       'Internal JUUL documents, obtained through litigation, revealed systematic targeting of minors. JUUL sales representatives visited schools under the guise of anti-smoking education, telling students that the product was "totally safe" and was designed for adults who wanted to quit smoking, then showed students the device and described flavors. One student testified that a JUUL representative visited their ninth-grade classroom and said the device was "completely safe" and FDA-approved (it was not). JUUL offered flavors including Mango, Fruit Medley, Creme Brulee, and Cool Cucumber, which internal research showed were overwhelmingly preferred by youth over tobacco-flavored options. In December 2018, Altria (the parent company of Philip Morris, maker of Marlboro cigarettes) purchased a 35% stake in JUUL for $12.8 billion.',
       'Under the Family Smoking Prevention and Tobacco Control Act (21 U.S.C. 387 et seq.), the FDA has authority to regulate e-cigarettes and their marketing. Under this Act, Section 901 prohibits marketing tobacco products to youth. Under the Federal Trade Commission Act (15 U.S.C. 41 et seq.), deceptive advertising practices, including targeting children with addictive products, are illegal. Under state consumer protection laws, 33 states and the District of Columbia filed lawsuits against JUUL. Under the Prevent All Cigarette Trafficking Act (18 U.S.C. 2341-2346), restrictions on flavored tobacco product sales were enacted in several jurisdictions.',
-      'In June 2022, the FDA initially ordered JUUL products off the U.S. market, but a court stayed the order, and the FDA later reversed course, allowing JUUL to continue selling while its application was under review. In September 2022, JUUL agreed to pay $438.5 million to settle a multistate investigation by 33 attorneys general, acknowledging that it targeted teenagers. In April 2023, JUUL agreed to pay $462 million to settle approximately 5,000 lawsuits from individuals, school districts, and local governments. JUUL\'s total legal liabilities exceeded $1.7 billion, but this represented a fraction of the estimated $38 billion the company was once valued at. Meanwhile, teen nicotine addiction continues, with 2.1 million teens still using e-cigarettes as of 2023, many having moved to disposable brands that have evaded FDA regulation entirely.',
+      'In June 2022, the FDA initially ordered JUUL products off the U.S. market, but a court stayed the order, and the FDA later reversed course, allowing JUUL to continue selling while its application was under review. In September 2022, JUUL agreed to pay $438.5 million to settle a multistate investigation by 33 attorneys general, acknowledging that it targeted teenagers. In April 2023, JUUL agreed to pay $462 million to settle approximately 5,000 lawsuits from individuals, school districts, and local governments. JUUL\'s total legal liabilities exceeded $1.7 billion, but this represented a fraction of the estimated $38 billion the company was once valued at. Meanwhile, teen nicotine addiction continues, with 2.1 million teens still using e-cigarettes as of 2023, many having moved to disposable brands that have evaded FDA regulation entirely.'
     ],
     tags: ['juul', 'vaping', 'teen-nicotine', 'fda', 'tobacco', 'youth-marketing', 'public-health', 'e-cigarettes', 'altria'],
     sources: [
       { title: 'FDA: JUUL Premarket Tobacco Product Applications', url: 'https://www.fda.gov/tobacco-products', type: 'Government' },
       { title: 'CDC: National Youth Tobacco Survey Data', url: 'https://www.cdc.gov/tobacco/data_statistics/surveys/nyts/', type: 'Government Data' },
-      { title: 'State of Massachusetts v. JUUL Labs: Complaint', url: 'https://www.mass.gov/news/ag-healey-sues-juul-for-creating-youth-vaping-epidemic', type: 'Legal Filing' },
-      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
+      { title: 'State of Massachusetts v. JUUL Labs: Complaint', url: 'https://www.mass.gov/news/ag-healey-sues-juul-for-creating-youth-vaping-epidemic', type: 'Legal Filing' }
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Delayed e-cigarette regulation until 2020 deeming rule; briefly ordered JUUL off market in 2022 then reversed; has not effectively controlled youth vaping', href: '/entities/agencies/fda' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated JUUL\'s marketing practices but relied primarily on state-level enforcement actions' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated JUUL\'s marketing practices but relied primarily on state-level enforcement actions' }
     ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-01-15',
@@ -381,7 +372,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2022-06-01', event: 'In June 2022, the FDA initially ordered JUUL products off the U.S', type: 'default' },
      { date: '2022-09-01', event: 'In September 2022, JUUL agreed to pay $438.5 million to settle a multistate investigation by 33 attorneys general, acknowledging that it targeted teenagers', type: 'financial' },
      { date: '2023', event: 'Meanwhile, teen nicotine addiction continues, with 2.1 million teens still using e-cigarettes as of 2023, many having moved to disposable brands that have evaded FDA regulation entirely', type: 'financial' },
-     { date: '2023-04-01', event: 'In April 2023, JUUL agreed to pay $462 million to settle approximately 5,000 lawsuits from individuals, school districts, and local governments', type: 'legal' },
+     { date: '2023-04-01', event: 'In April 2023, JUUL agreed to pay $462 million to settle approximately 5,000 lawsuits from individuals, school districts, and local governments', type: 'legal' }
    ],
   },
   'johnson-and-johnson-talc-cancer': {
@@ -397,19 +388,17 @@ const investigations_j: Record<string, InvestigationData> = {
       'The health consequences are measured in cancers and deaths. Epidemiological studies have found that women who used talc-based powder in the genital area had a 33% increased risk of ovarian cancer. More than 100,000 people filed lawsuits against J&J alleging that baby powder caused their ovarian cancer or mesothelioma (a cancer caused almost exclusively by asbestos exposure). In July 2018, a St. Louis jury awarded $4.69 billion to 22 women who developed ovarian cancer after using J&J baby powder, including $4.14 billion in punitive damages, one of the largest product liability verdicts in U.S. history. Multiple other jury verdicts followed, including a $750 million verdict in 2024.',
       'J&J\'s response to mounting legal liability was unprecedented in its cynicism. In October 2021, J&J used a legal maneuver known as the "Texas Two-Step": it created a subsidiary called LTL Management LLC in Texas, transferred all of its talc liabilities to LTL, then immediately had LTL file for Chapter 11 bankruptcy in North Carolina. This placed an automatic judicial stay on all 38,000+ pending lawsuits while J&J itself, with $400 billion in market capitalization, continued operating normally. The Third Circuit Court of Appeals rejected this scheme in January 2023, finding that LTL was not in genuine financial distress. J&J tried a second bankruptcy filing, which was also rejected in April 2023.',
       'Under the Federal Food, Drug, and Cosmetic Act (21 U.S.C. 331 et seq.), cosmetic products must be safe under intended conditions of use, and it is illegal to market adulterated cosmetics (those containing poisonous or harmful substances). Under state consumer protection statutes, failure to disclose known product hazards constitutes fraud. Under state strict liability and negligence laws, manufacturers are liable for injuries caused by defective products. Under the Bankruptcy Code (11 U.S.C. 101 et seq.), the Texas Two-Step exploited a provision for corporate restructuring that was never intended to shield solvent companies from tort liability.',
-      'In May 2024, J&J proposed a $6.475 billion settlement to resolve approximately 100,000 talc lawsuits, a fraction of the company\'s $410 billion market capitalization and annual revenue of $87 billion. J&J stopped selling talc-based baby powder in the U.S. and Canada in 2020, switching to a cornstarch formula, but continued selling the talc version in other countries. No J&J executive has been criminally charged despite internal documents proving decades of deliberate concealment of asbestos contamination and cancer risk. The FDA, which has no pre-market approval authority over cosmetics, tested J&J baby powder in 2019 and found asbestos, leading to a voluntary recall, but the agency still cannot compel mandatory recalls of cosmetic products.',
+      'In May 2024, J&J proposed a $6.475 billion settlement to resolve approximately 100,000 talc lawsuits, a fraction of the company\'s $410 billion market capitalization and annual revenue of $87 billion. J&J stopped selling talc-based baby powder in the U.S. and Canada in 2020, switching to a cornstarch formula, but continued selling the talc version in other countries. No J&J executive has been criminally charged despite internal documents proving decades of deliberate concealment of asbestos contamination and cancer risk. The FDA, which has no pre-market approval authority over cosmetics, tested J&J baby powder in 2019 and found asbestos, leading to a voluntary recall, but the agency still cannot compel mandatory recalls of cosmetic products.'
     ],
     tags: ['johnson-and-johnson', 'talc', 'baby-powder', 'asbestos', 'ovarian-cancer', 'mesothelioma', 'corporate-coverup', 'texas-two-step', 'bankruptcy-abuse'],
     sources: [
       { title: 'Reuters Investigation: Johnson & Johnson Knew for Decades that Asbestos Lurked in its Baby Powder', url: 'https://www.reuters.com/investigates/special-report/johnsonandjohnson-cancer/', type: 'Investigation' },
       { title: 'Third Circuit: In re LTL Management LLC Decision', url: 'https://www2.ca3.uscourts.gov/', type: 'Court Decision' },
-      { title: 'FDA: Talc Testing and Safety Information', url: 'https://www.fda.gov/cosmetics/cosmetic-ingredients/talc', type: 'Government' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
+      { title: 'FDA: Talc Testing and Safety Information', url: 'https://www.fda.gov/cosmetics/cosmetic-ingredients/talc', type: 'Government' }
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Has no pre-market approval authority over cosmetics; found asbestos in J&J powder in 2019 but cannot compel recalls; has never required asbestos testing of talc products', href: '/entities/agencies/fda' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1971-01-01',
    lastActivityDate: '2025-01-15',
@@ -423,7 +412,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Third Circuit Court of Appeals rejected this scheme in January 2023, finding that LTL was not in genuine financial distress', type: 'legal' },
      { date: '2023-04-01', event: 'J&J tried a second bankruptcy filing, which was also rejected in April 2023', type: 'financial' },
      { date: '2024', event: 'Multiple other jury verdicts followed, including a $750 million verdict in 2024', type: 'legal' },
-     { date: '2024-05-01', event: 'In May 2024, J&J proposed a $6.475 billion settlement to resolve approximately 100,000 talc lawsuits, a fraction of the company\'s $410 billion market capitalization and annual revenue of $87 billion', type: 'legal' },
+     { date: '2024-05-01', event: 'In May 2024, J&J proposed a $6.475 billion settlement to resolve approximately 100,000 talc lawsuits, a fraction of the company\'s $410 billion market capitalization and annual revenue of $87 billion', type: 'legal' }
    ],
   },
   'judicial-corruption-cash-for-kids': {
@@ -439,18 +428,17 @@ const investigations_j: Record<string, InvestigationData> = {
       'THE VICTIMS: At least one former juvenile defendant, Edward Kenzakoski, committed suicide; his mother attributed his death to the trauma of his unjust incarceration. Multiple former defendants have spoken publicly about the lasting psychological damage of being ripped from their families as children for minor offenses. Some served years in detention. Many lost educational opportunities that permanently affected their life outcomes. In 2022, Ciavarella was ordered to pay $200 million in restitution to victims, but as a federal prisoner with no assets, the judgment is largely symbolic. Of the approximately 3,000 children sentenced by Ciavarella during the scheme, all had their records expunged by the Pennsylvania Supreme Court.',
       'BEYOND PENNSYLVANIA: SYSTEMIC JUDICIAL CORRUPTION: The Kids for Cash scandal is the most egregious known case but judicial corruption is not an isolated phenomenon. Since 2000, judges across the country have been convicted of or removed for: accepting bribes to fix cases (Judge Thomas Porteous, Louisiana, impeached 2010); sexual misconduct toward litigants and staff (hundreds of judges disciplined); drunk driving cover-ups by fellow judges; and using court resources for personal gain. A 2020 Reuters investigation identified over 1,500 cases in which judges were secretly disciplined for misconduct over a 12-year period, with most receiving only reprimands. In Texas, Judge Christopher Dupuy was charged with retaliation and official oppression. In West Virginia, the entire Supreme Court was impeached in 2018 for lavish spending of public funds.',
       'FOR-PROFIT JUSTICE: STRUCTURAL CONFLICTS: The Kids for Cash scandal exists within a broader context of privatized justice that creates financial incentives for incarceration. For-profit juvenile detention, for-profit adult prisons, for-profit probation companies, and electronic monitoring companies all profit from criminal justice involvement. Companies like Judicial Corrections Services provided probation services for misdemeanor offenders and charged the offenders themselves (not the government) for the service, creating a debtors\'s prison system in which people were jailed for inability to pay. In 2015, the DOJ investigated Ferguson, Missouri and found that the municipal court system functioned primarily as a revenue generator.',
-      'ACCOUNTABILITY GAPS: Judges in the United States enjoy "judicial immunity," which protects them from civil lawsuits for actions taken in their judicial capacity, even when those actions are corrupt or malicious. The primary accountability mechanism is judicial conduct commissions, which in most states operate in secrecy and impose minimal discipline. An investigation by Reuters found that between 2008 and 2019, state judicial conduct commissions publicly disciplined judges in only 2% of complaints received. Federal judges can be impeached but the process is extraordinarily rare (only 15 federal judges have been impeached in U.S. history). The result is a system in which judges exercise enormous power over people\'s lives with minimal accountability.',
+      'ACCOUNTABILITY GAPS: Judges in the United States enjoy "judicial immunity," which protects them from civil lawsuits for actions taken in their judicial capacity, even when those actions are corrupt or malicious. The primary accountability mechanism is judicial conduct commissions, which in most states operate in secrecy and impose minimal discipline. An investigation by Reuters found that between 2008 and 2019, state judicial conduct commissions publicly disciplined judges in only 2% of complaints received. Federal judges can be impeached but the process is extraordinarily rare (only 15 federal judges have been impeached in U.S. history). The result is a system in which judges exercise enormous power over people\'s lives with minimal accountability.'
     ],
     tags: ['judicial-corruption', 'kids-for-cash', 'juvenile-justice', 'for-profit-prisons', 'judicial-immunity', 'corruption', 'children'],
     sources: [
       { title: 'DOJ: United States v. Ciavarella and Conahan', url: 'https://www.justice.gov/usao-mdpa', type: 'Court Filing' },
       { title: 'Reuters: The Teflon Robe - How Judges Escape Accountability', url: 'https://www.reuters.com/investigates/section/usa-judges/', type: 'Investigative Journalism' },
-      { title: 'Juvenile Law Center: Luzerne County Kids for Cash Case', url: 'https://jlc.org/luzerne-county-kids-cash-case', type: 'Advocacy Research' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Juvenile Law Center: Luzerne County Kids for Cash Case', url: 'https://jlc.org/luzerne-county-kids-cash-case', type: 'Advocacy Research' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Ciavarella (28yr sentence) and Conahan (17yr sentence); Federal prosecutors brought racketeering, fraud, and tax charges', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Luzerne County judicial corruption as part of public corruption task force; traced financial transactions to establish kickback scheme', href: '/entities/agencies/fbi' },
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Luzerne County judicial corruption as part of public corruption task force; traced financial transactions to establish kickback scheme', href: '/entities/agencies/fbi' }
     ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2026-01-30',
@@ -462,7 +450,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2015', event: 'In 2015, the DOJ investigated Ferguson, Missouri and found that the municipal court system functioned primarily as a revenue generator', type: 'legal' },
      { date: '2018', event: 'In West Virginia, the entire Supreme Court was impeached in 2018 for lavish spending of public funds', type: 'legal' },
      { date: '2020', event: 'A 2020 Reuters investigation identified over 1,500 cases in which judges were secretly disciplined for misconduct over a 12-year period, with most receiving only reprimands', type: 'legal' },
-     { date: '2022', event: 'In 2022, Ciavarella was ordered to pay $200 million in restitution to victims, but as a federal prisoner with no assets, the judgment is largely symbolic', type: 'financial' },
+     { date: '2022', event: 'In 2022, Ciavarella was ordered to pay $200 million in restitution to victims, but as a federal prisoner with no assets, the judgment is largely symbolic', type: 'financial' }
    ],
   },
   'judicial-cash-bail-wealth-based-detention': {
@@ -478,18 +466,17 @@ const investigations_j: Record<string, InvestigationData> = {
       'Pretrial detention has devastating cascading consequences. People held even 2-3 days are 25% more likely to plead guilty regardless of actual guilt because they cannot afford to wait for trial while losing income. Studies show pretrial detention causes job loss within 3 days, housing loss within 2 weeks, and child custody complications within 30 days. The psychological pressure to accept a plea deal — even for a crime the defendant did not commit — is immense. Research from the Laura and John Arnold Foundation found that low-risk defendants held for just 2-3 days were 40% more likely to commit new crimes within 2 years, suggesting that pretrial incarceration itself creates criminality.',
       'The for-profit bail bond industry profits from this system. Bail bond companies charge non-refundable fees of 10-15% of the bail amount. A defendant\'s family pays $1,000-$5,000 that is never returned, even if the defendant is acquitted. The industry is heavily concentrated: three companies underwrite most bail bonds nationally. The bail industry spends millions on lobbying against bail reform, successfully killing or weakening reform legislation in multiple states. The American Bail Coalition and the American Legislative Exchange Council (ALEC) have drafted model legislation opposing reform.',
       'The racial disparities in cash bail are stark. Studies consistently show that Black and Latino defendants receive bail amounts 35-45% higher than white defendants charged with the same offenses. In New York City before bail reform, Black defendants were 20% more likely to be detained pretrial than white defendants facing identical charges. The system recreates the dynamics of the pre-Civil Rights era: wealth-based detention disproportionately affects communities of color where generations of discriminatory policies have concentrated poverty.',
-      'Bail reform efforts have produced mixed results. New Jersey\'s 2017 reform virtually eliminated cash bail, replacing it with a risk assessment system. The results were dramatic: jail population decreased 44% with no increase in crime or failure-to-appear rates. New York passed bail reform in 2019 but rolled back major provisions after law enforcement lobbying and media campaigns. California voters rejected bail elimination in 2020 after the bail industry spent $10 million on opposition. Illinois became the first state to completely abolish cash bail in 2023. Despite evidence that reform works, the bail industry and law enforcement unions continue to successfully oppose change in most states.',
+      'Bail reform efforts have produced mixed results. New Jersey\'s 2017 reform virtually eliminated cash bail, replacing it with a risk assessment system. The results were dramatic: jail population decreased 44% with no increase in crime or failure-to-appear rates. New York passed bail reform in 2019 but rolled back major provisions after law enforcement lobbying and media campaigns. California voters rejected bail elimination in 2020 after the bail industry spent $10 million on opposition. Illinois became the first state to completely abolish cash bail in 2023. Despite evidence that reform works, the bail industry and law enforcement unions continue to successfully oppose change in most states.'
     ],
     tags: ['cash bail', 'pretrial detention', 'bail bond industry', 'criminal justice reform', 'wealth-based detention', 'plea deals', 'racial disparities', 'mass incarceration', 'bail reform'],
     sources: [
       { title: 'Prison Policy Initiative: Detaining the Poor - Cash Bail', url: 'https://www.prisonpolicy.org/reports/incomejails.html', type: 'Research' },
       { title: 'Vera Institute of Justice: The Price of Freedom - Bail in America', url: 'https://www.vera.org/publications/past-due-costs-and-consequences-of-charging-for-justice-in-new-orleans/', type: 'Research' },
-      { title: 'Bureau of Justice Statistics: Jail Inmates in 2022', url: 'https://bjs.ojp.gov/', type: 'Government Report' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
+      { title: 'Bureau of Justice Statistics: Jail Inmates in 2022', url: 'https://bjs.ojp.gov/', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Under Obama issued "Dear Colleague" letter opposing cash bail for inability to pay; Trump DOJ rescinded; Biden DOJ took no action on federal bail reform', href: '/entities/agencies/doj' },
-      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Stack v. Boyle (1951) established bail should not be excessive but has declined to rule on wealth-based detention as an equal protection violation', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Stack v. Boyle (1951) established bail should not be excessive but has declined to rule on wealth-based detention as an equal protection violation', href: '/entities/agencies/supreme-court' }
     ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-02-10',
@@ -498,7 +485,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2017', event: 'New Jersey\'s 2017 reform virtually eliminated cash bail, replacing it with a risk assessment system', type: 'default' },
      { date: '2019', event: 'New York passed bail reform in 2019 but rolled back major provisions after law enforcement lobbying and media campaigns', type: 'political' },
      { date: '2020', event: 'California voters rejected bail elimination in 2020 after the bail industry spent $10 million on opposition', type: 'political' },
-     { date: '2023', event: 'Illinois became the first state to completely abolish cash bail in 2023', type: 'default' },
+     { date: '2023', event: 'Illinois became the first state to completely abolish cash bail in 2023', type: 'default' }
    ],
   },
   'judicial-election-dark-money': {
@@ -514,18 +501,17 @@ const investigations_j: Record<string, InvestigationData> = {
       'The Wisconsin Supreme Court race of 2023 illustrates the new reality: the most expensive judicial election in American history. Total spending exceeded $42 million for a single seat. The race between Janet Protasiewicz and Daniel Kelly was functionally a referendum on abortion rights and redistricting. Protasiewicz won by 11 points, shifted the court to a 4-3 liberal majority, and the court subsequently invalidated the state\'s gerrymandered legislative maps. That a single judicial election could reshape the political landscape of an entire state demonstrates how thoroughly courts have been politicized.',
       'Dark money in judicial elections is particularly corrosive because most voters know little about judicial candidates and rely on advertising funded by undisclosed donors. A Brennan Center analysis found that dark money accounted for 25-30% of total spending in competitive state supreme court races. Since Citizens United (2010) removed limits on independent expenditures, judicial election spending by outside groups has more than doubled.',
       'The consequences for justice are measurable. A comprehensive study published in the Journal of Politics found that business interests that donate to judicial campaigns win their cases at significantly higher rates before those judges. A New York Times analysis of the Illinois Supreme Court found that justices voted in favor of their largest campaign contributors 66% of the time. In Caperton v. A.T. Massey Coal (2009), the U.S. Supreme Court held that a West Virginia justice\'s refusal to recuse from a case involving his largest campaign contributor violated due process.',
-      'Retention elections, designed as a check on judicial independence, have also been weaponized. In 2010, three Iowa Supreme Court justices were voted out after ruling in favor of same-sex marriage, with outside groups spending $1 million on opposition campaigns. The removal chilled judicial independence nationwide, as judges understand that principled but unpopular rulings can cost them their careers. The Federalist Society and related organizations have built a pipeline of judicial candidates at every level, ensuring ideological alignment regardless of whether judges are elected or appointed.',
+      'Retention elections, designed as a check on judicial independence, have also been weaponized. In 2010, three Iowa Supreme Court justices were voted out after ruling in favor of same-sex marriage, with outside groups spending $1 million on opposition campaigns. The removal chilled judicial independence nationwide, as judges understand that principled but unpopular rulings can cost them their careers. The Federalist Society and related organizations have built a pipeline of judicial candidates at every level, ensuring ideological alignment regardless of whether judges are elected or appointed.'
     ],
     tags: ['judicial elections', 'dark money', 'court capture', 'Citizens United', 'Chamber of Commerce', 'Wisconsin', 'campaign finance', 'judicial independence', 'Federalist Society', 'tort reform'],
     sources: [
       { title: 'Brennan Center: Judicial Election Spending Tracker', url: 'https://www.brennancenter.org/issues/strengthen-our-courts', type: 'Research' },
       { title: 'Tulane Law Review: Campaign Contributions and Judicial Decisions', url: 'https://law.tulane.edu/', type: 'Academic Study' },
-      { title: 'Supreme Court: Caperton v. A.T. Massey Coal (2009)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
-      { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
+      { title: 'Supreme Court: Caperton v. A.T. Massey Coal (2009)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal jurisdiction over state judicial elections; campaign finance enforcement limited to federal races', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FEC', type: 'agency', relationship: 'Regulates federal campaign finance only; no authority over state judicial elections where most dark money flows; deadlocked commission rarely enforces existing rules', href: '/entities/agencies/fec' },
+      { id: '2', name: 'FEC', type: 'agency', relationship: 'Regulates federal campaign finance only; no authority over state judicial elections where most dark money flows; deadlocked commission rarely enforces existing rules', href: '/entities/agencies/fec' }
     ],
    eventOriginDate: '1971-01-01',
    lastActivityDate: '2025-02-15',
@@ -534,7 +520,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '1971', event: 'The Chamber\'s strategy, articulated in the 1971 Powell Memorandum, explicitly targeted the courts as the institution most amenable to corporate influence', type: 'legal' },
      { date: '2010', event: 'Since Citizens United (2010) removed limits on independent expenditures, judicial election spending by outside groups has more than doubled', type: 'political' },
      { date: '2010', event: 'In 2010, three Iowa Supreme Court justices were voted out after ruling in favor of same-sex marriage, with outside groups spending $1 million on opposition campaigns', type: 'legal' },
-     { date: '2023', event: 'The Wisconsin Supreme Court race of 2023 illustrates the new reality: the most expensive judicial election in American history', type: 'legal' },
+     { date: '2023', event: 'The Wisconsin Supreme Court race of 2023 illustrates the new reality: the most expensive judicial election in American history', type: 'legal' }
    ],
   },
   'juvenile-life-without-parole': {
@@ -550,20 +536,18 @@ const investigations_j: Record<string, InvestigationData> = {
       'State resistance to Supreme Court mandates has been systematic and creative. Some states, including Michigan and Louisiana, initially interpreted Miller to prohibit only mandatory LWOP while permitting discretionary LWOP after a hearing, a distinction criticized as rendering the constitutional protection meaningless. Others conducted resentencing hearings where prosecutors sought the same LWOP sentences, effectively nullifying the Supreme Courts conclusion that JLWOP should be rare. In Jones v. Mississippi (2021), a more conservative Court further weakened protections by ruling that judges need not make an explicit finding of permanent incorrigibility before imposing JLWOP.',
       'Racial disparities in juvenile LWOP sentencing are among the starkest in the criminal justice system. Black youth are sentenced to JLWOP at ten times the rate of white youth nationally, and in some states the disparity exceeds 20 to 1. A study by the Sentencing Project found that Black youth convicted of killing a white person were the most likely to receive JLWOP, while white youth convicted of killing a Black person were the least likely. These patterns persist even when controlling for offense severity, prior record, and jurisdiction.',
       'The developmental science underlying the Supreme Courts decisions is unambiguous. Adolescent brain development, particularly in the prefrontal cortex responsible for impulse control, risk assessment, and judgment, continues into the mid-twenties. The American Medical Association, American Psychological Association, and American Academy of Pediatrics have all filed briefs asserting that juveniles are categorically less culpable than adults and more capable of rehabilitation. Recidivism data for released juvenile lifers supports this: studies of those released after decades in prison show reoffending rates below 2%, dramatically lower than the general release population.',
-      'Abolition momentum has grown but remains incomplete. More than 25 states have banned or functionally eliminated JLWOP through legislation or court decisions, but the remaining states, which include several with the largest prison populations, continue to impose the sentence. International human rights bodies have repeatedly condemned the practice as a violation of the Convention on the Rights of the Child, which every nation except the United States has ratified. For those still serving JLWOP, the path to release depends on a patchwork of state resentencing procedures, clemency petitions, and compassionate release provisions that vary enormously in their accessibility and outcomes.',
+      'Abolition momentum has grown but remains incomplete. More than 25 states have banned or functionally eliminated JLWOP through legislation or court decisions, but the remaining states, which include several with the largest prison populations, continue to impose the sentence. International human rights bodies have repeatedly condemned the practice as a violation of the Convention on the Rights of the Child, which every nation except the United States has ratified. For those still serving JLWOP, the path to release depends on a patchwork of state resentencing procedures, clemency petitions, and compassionate release provisions that vary enormously in their accessibility and outcomes.'
     ],
     tags: ['juvenile LWOP', 'life without parole', 'juvenile justice', 'racial disparity', 'Miller v Alabama', 'Supreme Court', 'sentencing'],
     sources: [
-      { title: 'Sentencingproject Records', url: 'https://www.sentencingproject.org/policy-brief/juvenile-life-without-parole/', type: 'Reference' },
-      { title: 'Eji Records', url: 'https://eji.org/issues/children-in-prison/', type: 'Reference' },
       { title: 'Supreme Court Records', url: 'https://web.archive.org/web/20250108192737/https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf', type: 'Government' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
-
-      { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
+      { title: 'Equal Justice Initiative: Children in Prison', url: 'https://eji.org/issues/children-in-prison/', type: 'Research' },
+      { title: 'The Sentencing Project: Juvenile Life Without Parole', url: 'https://www.sentencingproject.org/policy-brief/juvenile-life-without-parole/', type: 'Research' },
+      { title: 'Supreme Court: Miller v. Alabama, 567 U.S. 460 (2012)', url: 'https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf', type: 'Court Document' }
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Under Obama, filed briefs supporting limits on JLWOP; Trump DOJ reversed position; state-level implementation depends on local prosecutors and judges rather than federal enforcement', href: '/entities/agencies/doj' },
-      { id: '2', name: 'BOP', type: 'agency', relationship: 'Holds federal juvenile lifers in adult facilities; limited programming for individuals sentenced as children; compassionate release criteria rarely met by younger inmates', href: '/entities/agencies/bop' },
+      { id: '2', name: 'BOP', type: 'agency', relationship: 'Holds federal juvenile lifers in adult facilities; limited programming for individuals sentenced as children; compassionate release criteria rarely met by younger inmates', href: '/entities/agencies/bop' }
     ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-01-20',
@@ -573,7 +557,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2012', event: 'Alabama (2012) that mandatory JLWOP for any juvenile offense is unconstitutional, and in Montgomery v', type: 'default' },
      { date: '2016', event: 'Louisiana (2016) that Miller applies retroactively', type: 'default' },
      { date: '2021', event: 'Mississippi (2021), a more conservative Court further weakened protections by ruling that judges need not make an explicit finding of permanent incorrigibility before imposing JLWOP', type: 'legal' },
-     { date: '2024', event: 'As of 2024, approximately 2,500 people are serving life-without-parole sentences for crimes committed before age 18', type: 'legal' },
+     { date: '2024', event: 'As of 2024, approximately 2,500 people are serving life-without-parole sentences for crimes committed before age 18', type: 'legal' }
    ],
   },
   'japanese-american-internment': {
@@ -589,18 +573,17 @@ const investigations_j: Record<string, InvestigationData> = {
       'The process of removal and incarceration was deliberately dehumanizing. Families were given as little as 48 hours to dispose of their homes, businesses, and personal property. They were permitted to bring only what they could carry. The resulting forced sales at below-market prices caused losses estimated at $400 million in 1940s dollars (approximately $6-8 billion in 2024 dollars). The Federal Reserve Bank of San Francisco estimated that Japanese Americans lost $200 million in personal property alone. Families were first sent to "assembly centers," often converted fairgrounds and racetracks where they lived in horse stalls still reeking of manure, before being transported by guarded trains to permanent camps. The 10 War Relocation Authority camps were located in desolate, extreme-climate areas: Manzanar and Tule Lake in California; Poston and Gila River in Arizona; Heart Mountain in Wyoming; Minidoka in Idaho; Topaz in Utah; Amache in Colorado; and Rohwer and Jerome in Arkansas. The camps were surrounded by barbed wire and guard towers with armed soldiers who had orders to shoot anyone attempting to leave. Living conditions featured cramped barracks with no privacy, communal latrines, and inadequate food. Families that had owned thriving businesses, farms, and professional practices were reduced to camp laborers earning $12-$19 per month.',
       'The Supreme Court\'s decisions upholding internment represent some of the most widely condemned rulings in American legal history. In Hirabayashi v. United States (1943), the Court unanimously upheld the curfew orders, deferring to military judgment. In Korematsu v. United States (1944), the Court ruled 6-3 that the exclusion orders were constitutional, with Justice Hugo Black writing that while racial classifications are "inherently suspect," pressing public necessity could justify the curtailment of the civil rights of a racial group. Justice Frank Murphy dissented, calling the decision a "legalization of racism" that fell "into the ugly abyss of racism." Justice Robert Jackson warned that the principle of racial imprisonment would "lie about like a loaded weapon, ready for the hand of any authority that can bring forward a plausible claim of an urgent need." Unknown to the Court and the public, Solicitor General Charles Fahy had suppressed evidence contradicting the government\'s military necessity argument. Internal Justice Department memos discovered in the 1980s revealed that government attorneys knew the military necessity claim was false and had altered and destroyed evidence to prevent the Court from seeing intelligence assessments that Japanese Americans were loyal. In 1983, Fred Korematsu\'s conviction was vacated through a writ of coram nobis after historian Peter Irons discovered the evidence of government misconduct. In Trump v. Hawaii (2018), Chief Justice John Roberts formally repudiated Korematsu, stating it was "gravely wrong the day it was decided."',
       'Resistance within the camps took multiple forms. The loyalty questionnaire distributed in 1943 asked internees two provocative questions: whether they would serve in the U.S. armed forces and whether they would "forswear any form of allegiance or obedience to the Japanese emperor." For Japanese-born Issei who were prohibited from becoming U.S. citizens by the Naturalization Act of 1790 and the Asian Exclusion Act, answering "yes" to the second question would render them stateless. Those who answered "no" to both questions (the "No-No Boys") were segregated at the Tule Lake War Relocation Center, which was converted to a high-security segregation camp. Approximately 5,500 internees ultimately renounced their U.S. citizenship, most under duress, coercion, or as a protest against their imprisonment. After the war, civil rights attorney Wayne Collins fought for decades to restore their citizenship, arguing that renunciations made under duress were void. Meanwhile, the 442nd Regimental Combat Team, composed of Japanese American volunteers from the camps and Hawaii, became the most decorated unit for its size in U.S. military history, earning over 18,000 individual decorations. These men fought for a country that had imprisoned their families.',
-      'Accountability came slowly and incompletely. In 1948, Congress passed the Japanese American Evacuation Claims Act, which paid out approximately $37 million to compensate for property losses that independent analyses estimated at $400 million. In 1980, Congress established the Commission on Wartime Relocation and Internment of Civilians, which held hearings where over 750 internees testified. The Commission\'s 1983 report, "Personal Justice Denied," concluded that "Executive Order 9066 was not justified by military necessity, and the decisions which followed from it were not driven by analysis of military conditions. The broad historical causes which shaped these decisions were race prejudice, war hysteria, and a failure of political leadership." Based on these findings, Congress passed the Civil Liberties Act of 1988 (Public Law 100-383), which formally apologized for the internment, acknowledged that it was motivated by "racial prejudice, wartime hysteria, and a failure of political leadership," and authorized reparations of $20,000 to each surviving internee. Approximately 82,219 individuals received payments totaling $1.6 billion. No government official was ever held criminally responsible. The internment constituted violations of the Fifth Amendment (due process), the Equal Protection component of the Fifth Amendment as recognized in Bolling v. Sharpe (1954), and the Fourth Amendment (unreasonable seizure of persons and property). Under contemporary international law, the mass forced relocation and detention of a civilian population based on ethnicity would constitute crimes against humanity under the Rome Statute, Article 7(1)(d) (deportation or forcible transfer) and 7(1)(e) (imprisonment in violation of fundamental rules of international law).',
+      'Accountability came slowly and incompletely. In 1948, Congress passed the Japanese American Evacuation Claims Act, which paid out approximately $37 million to compensate for property losses that independent analyses estimated at $400 million. In 1980, Congress established the Commission on Wartime Relocation and Internment of Civilians, which held hearings where over 750 internees testified. The Commission\'s 1983 report, "Personal Justice Denied," concluded that "Executive Order 9066 was not justified by military necessity, and the decisions which followed from it were not driven by analysis of military conditions. The broad historical causes which shaped these decisions were race prejudice, war hysteria, and a failure of political leadership." Based on these findings, Congress passed the Civil Liberties Act of 1988 (Public Law 100-383), which formally apologized for the internment, acknowledged that it was motivated by "racial prejudice, wartime hysteria, and a failure of political leadership," and authorized reparations of $20,000 to each surviving internee. Approximately 82,219 individuals received payments totaling $1.6 billion. No government official was ever held criminally responsible. The internment constituted violations of the Fifth Amendment (due process), the Equal Protection component of the Fifth Amendment as recognized in Bolling v. Sharpe (1954), and the Fourth Amendment (unreasonable seizure of persons and property). Under contemporary international law, the mass forced relocation and detention of a civilian population based on ethnicity would constitute crimes against humanity under the Rome Statute, Article 7(1)(d) (deportation or forcible transfer) and 7(1)(e) (imprisonment in violation of fundamental rules of international law).'
     ],
     tags: ['Japanese American internment', 'Executive Order 9066', 'Korematsu', 'Manzanar', 'War Relocation Authority', 'civil liberties', 'racial prejudice', '442nd Regiment', 'reparations', 'civil rights'],
     sources: [
       { title: 'National Archives: Japanese American Internment Records', url: 'https://www.archives.gov/research/japanese-americans/wra', type: 'Government Record' },
       { title: 'Densho: Japanese American Incarceration Digital Archive', url: 'https://densho.org/', type: 'Research Archive' },
-      { title: 'Commission on Wartime Relocation: Personal Justice Denied (1983)', url: 'https://www.archives.gov/research/japanese-americans/justice-denied', type: 'Government Report' },
-      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
+      { title: 'Commission on Wartime Relocation: Personal Justice Denied (1983)', url: 'https://www.archives.gov/research/japanese-americans/justice-denied', type: 'Government Report' }
     ],
     affiliations: [
       { id: '1', name: 'Franklin D. Roosevelt', type: 'individual', relationship: 'President who signed Executive Order 9066 authorizing the mass internment of 120,000 Japanese Americans despite intelligence assessments that they posed no security threat; rejected alternatives proposed by FBI Director Hoover and ONI analysts', href: '/entities/individuals/franklin-d-roosevelt' },
-      { id: '2', name: 'War Relocation Authority', type: 'agency', relationship: 'Operated 10 concentration camps housing 120,000 Japanese Americans; camps surrounded by barbed wire and armed guards; conditions included cramped barracks, communal latrines, and extreme climates', href: '/entities/agencies/war-relocation-authority' },
+      { id: '2', name: 'War Relocation Authority', type: 'agency', relationship: 'Operated 10 concentration camps housing 120,000 Japanese Americans; camps surrounded by barbed wire and armed guards; conditions included cramped barracks, communal latrines, and extreme climates', href: '/entities/agencies/war-relocation-authority' }
     ],
    eventOriginDate: '1942-02-19',
    lastActivityDate: '2026-03-21',
@@ -619,7 +602,7 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '1983', event: 'The Commission\'s 1983 report, "Personal Justice Denied," concluded that "Executive Order 9066 was not justified by military necessity, and the decisions which followed from it were not driven by an...', type: 'political' },
      { date: '1988', event: 'The broad historical causes which shaped these decisions were race prejudice, war hysteria, and a failure of political leadership.', type: 'political' },
      { date: '2018', event: 'Hawaii (2018), Chief Justice John Roberts formally repudiated Korematsu, stating it was "gravely wrong the day it was decided."', type: 'default' },
-     { date: '2024', event: 'The resulting forced sales at below-market prices caused losses estimated at $400 million in 1940s dollars (approximately $6-8 billion in 2024 dollars)', type: 'political' },
+     { date: '2024', event: 'The resulting forced sales at below-market prices caused losses estimated at $400 million in 1940s dollars (approximately $6-8 billion in 2024 dollars)', type: 'political' }
    ],
   },
   'jackson-water-crisis': {
@@ -635,7 +618,7 @@ const investigations_j: Record<string, InvestigationData> = {
    'Mississippi systematically directed federal Drinking Water State Revolving Fund dollars away from Jackson to smaller, whiter communities despite Jackson\'s demonstrably greater need. Comparable white-majority cities across the state received proportionally more infrastructure investment per capita for decades. The state legislature actively blocked Jackson from raising revenue through sales tax increases that would have funded water infrastructure repairs, ensuring the city could not compensate for the shortfall in state and federal investment. This pattern of disparate treatment constituted a textbook case of infrastructure racism, with a majority-Black city denied the resources that white-majority municipalities received as a matter of course.',
    'EPA Region 4 documented ongoing Safe Drinking Water Act violations for years but took no meaningful enforcement action until the system completely collapsed. Water quality data was intermittently tested and reported, allowing extended periods of contamination to go officially undocumented. The $90 million Siemens water meter contract produced a billing system so dysfunctional that the city lost millions in revenue it desperately needed for infrastructure repairs, further crippling its capacity to maintain the water system. Every layer of oversight that should have intervened failed to do so.',
    'When the O.B. Curtis plant failed in late August 2022, Governor Tate Reeves waited days to declare a state of emergency, initially claiming the crisis was Jackson\'s responsibility alone. State officials blamed Jackson\'s majority-Black city government for the failure while ignoring decades of state-level decisions that had systematically starved the city of resources. The federal government eventually deployed FEMA emergency water distribution and activated the National Guard, but the delayed response exposed how little political urgency existed to protect a predominantly Black community from a preventable public health disaster.',
-   'Media coverage initially treated the crisis as a local governance failure rather than the systemic pattern of infrastructure racism it represented. The Jackson water crisis mirrored conditions in Flint, Michigan, and other majority-Black communities where aging infrastructure, disinvestment, and regulatory neglect created predictable public health emergencies. Full system restoration is estimated to require over $1 billion. While $600 million in federal funding has been allocated through the Infrastructure Investment and Jobs Act, decades of discriminatory state-level policy cannot be undone with a single appropriation.',
+   'Media coverage initially treated the crisis as a local governance failure rather than the systemic pattern of infrastructure racism it represented. The Jackson water crisis mirrored conditions in Flint, Michigan, and other majority-Black communities where aging infrastructure, disinvestment, and regulatory neglect created predictable public health emergencies. Full system restoration is estimated to require over $1 billion. While $600 million in federal funding has been allocated through the Infrastructure Investment and Jobs Act, decades of discriminatory state-level policy cannot be undone with a single appropriation.'
  ],
  tags: ['Environmental Racism', 'Infrastructure', 'Water Crisis', 'Civil Rights', 'Investigation'],
  sources: [
@@ -646,7 +629,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { title: 'ProPublica, How Jackson\'s Water System Failed', url: 'https://www.propublica.org/article/jackson-mississippi-water-crisis', type: 'Article' },
    { title: 'NPR, Jackson Water Crisis Timeline and Impact', url: 'https://www.npr.org/2022/08/30/1120029787/jackson-mississippi-water-system-failure', type: 'Article' },
    { title: 'Catherine Flowers, Waste: One Woman\'s Fight Against America\'s Dirty Secret', url: 'https://www.thenewpress.com/books/waste', type: 'Article' },
-   { title: 'Congressional Research Service, Jackson MS Water Infrastructure', url: 'https://crsreports.congress.gov/product/pdf/IN/IN12016', type: 'Article' },
+   { title: 'Congressional Research Service, Jackson MS Water Infrastructure', url: 'https://crsreports.congress.gov/product/pdf/IN/IN12016', type: 'Article' }
  ],
  affiliations: [
    { id: 'tate-reeves', name: 'Tate Reeves', type: 'individual', relationship: 'Mississippi Governor who delayed emergency response to Jackson water crisis', href: '/entities/individuals/tate-reeves' },
@@ -658,7 +641,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { id: 'derrick-johnson', name: 'Derrick Johnson', type: 'individual', relationship: 'NAACP President who called Jackson water crisis environmental racism', href: '/entities/individuals/derrick-johnson' },
    { id: 'bennie-thompson', name: 'Bennie Thompson', type: 'individual', relationship: 'US Congressman representing Jackson, pushed for federal funding', href: '/entities/individuals/bennie-thompson' },
    { id: 'catherine-flowers', name: 'Catherine Flowers', type: 'individual', relationship: 'Environmental justice advocate who documented rural water failures in Mississippi', href: '/entities/individuals/catherine-flowers' },
-   { id: 'robert-taylor', name: 'Robert Taylor', type: 'individual', relationship: 'Jackson Public Works Director who warned about infrastructure collapse', href: '/entities/individuals/robert-taylor' },
+   { id: 'robert-taylor', name: 'Robert Taylor', type: 'individual', relationship: 'Jackson Public Works Director who warned about infrastructure collapse', href: '/entities/individuals/robert-taylor' }
  ],
  timeline: [
    { date: '1970s-1990s', event: 'White flight from Jackson erodes tax base, city loses capacity to fund infrastructure' },
@@ -677,7 +660,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { date: 'November 2022', event: 'DOJ files lawsuit against Jackson over Safe Drinking Water Act violations' },
    { date: 'November 2022', event: 'Federal court appoints Ted Henifin as third-party manager of Jackson water system' },
    { date: '2023', event: '$600M in federal funds allocated for Jackson water system repairs through Infrastructure Act' },
-   { date: '2024', event: 'Repairs ongoing but full system restoration estimated to require $1 billion+' },
+   { date: '2024', event: 'Repairs ongoing but full system restoration estimated to require $1 billion+' }
  ],
  statutes: [
    { code: 'Safe Drinking Water Act: 42 U.S.C. § 300f', description: 'Systematic violation of drinking water quality standards for over a decade' },
@@ -687,7 +670,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { code: 'Lead and Copper Rule: 40 CFR 141', description: 'Lead contamination in drinking water exceeding action levels' },
    { code: '18 U.S.C. § 1001: False Statements', description: 'State misrepresentation of infrastructure fund distribution and water quality data' },
    { code: 'MS Code § 21-27-7: Municipal Infrastructure', description: 'State failure to support municipal water infrastructure as required' },
-   { code: '14th Amendment, Equal Protection', description: 'Disparate treatment of Jackson compared to white-majority Mississippi cities' },
+   { code: '14th Amendment, Equal Protection', description: 'Disparate treatment of Jackson compared to white-majority Mississippi cities' }
  ],
  defendants: [
    { name: 'City of Jackson', role: 'Safe Drinking Water Act violations', status: 'charged', notes: 'DOJ consent decree, federal court oversight of water system' },
@@ -697,7 +680,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { name: 'Governor Tate Reeves', role: 'Delayed emergency response, withheld state resources', status: 'charged', notes: 'No accountability, claims city mismanagement' },
    { name: 'EPA Region 4', role: 'Failure to enforce SDWA violations for decades', status: 'charged', notes: 'Internal review, no consequences for officials' },
    { name: 'Mississippi Legislature', role: 'Blocking Jackson from raising revenue for infrastructure', status: 'charged', notes: 'No legal challenge, state sovereignty over municipalities' },
-   { name: 'Federal Government', role: 'Environmental justice failure, disparate impact on Black community', status: 'charged', notes: 'Settlement includes $600M in infrastructure funding' },
+   { name: 'Federal Government', role: 'Environmental justice failure, disparate impact on Black community', status: 'charged', notes: 'Settlement includes $600M in infrastructure funding' }
  ],
   },
   'january-6-insurrection': {
@@ -716,13 +699,13 @@ const investigations_j: Record<string, InvestigationData> = {
    'Multiple Republican members of Congress sought presidential pardons for their roles in events surrounding January 6, according to witness testimony',
    'Mark Meadows reportedly burned documents in his White House fireplace in the weeks following the election and during the transition period',
    'Trump attempted to pressure the Department of Justice to declare the election "corrupt" and told acting AG Jeffrey Rosen to"just say the election was corrupt and leave the rest to me"',
-   'The House January 6 Committee concluded that Trump engaged in a"multi-part conspiracy"to overturn the 2020 election and referred him for criminal prosecution',
+   'The House January 6 Committee concluded that Trump engaged in a"multi-part conspiracy"to overturn the 2020 election and referred him for criminal prosecution'
  ],
  tags: ['political-accountability', 'conspiracy'],
  sources: [
    { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Article' },
    { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', type: 'Article' },
-   { title: 'House Impeachment Resolution (H.Res. 24)', url: 'https://www.congress.gov/bill/117th-congress/house-resolution/24', type: 'Article' },
+   { title: 'House Impeachment Resolution (H.Res. 24)', url: 'https://www.congress.gov/bill/117th-congress/house-resolution/24', type: 'Article' }
  ],
  affiliations: [
    { id: 'donald-trump', name: 'Donald Trump', type: 'individual', relationship: 'Inciter -"Fight like hell"speech, refused to call off mob', href: '/entities/individuals/donald-trump' },
@@ -733,7 +716,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { id: 'roger-stone', name: 'Roger Stone', type: 'individual', relationship: 'Oath Keepers connection, pardon beneficiary', href: '/entities/individuals/roger-stone' },
    { id: 'michael-flynn', name: 'Michael Flynn', type: 'individual', relationship: 'Called for martial law, present at planning', href: '/entities/individuals/michael-flynn' },
    { id: 'ted-cruz', name: 'Ted Cruz', type: 'individual', relationship: 'Led Senate objection, continued after attack', href: '/entities/individuals/ted-cruz' },
-   { id: 'josh-hawley', name: 'Josh Hawley', type: 'individual', relationship: 'First senator to object, raised fist to mob', href: '/entities/individuals/josh-hawley' },
+   { id: 'josh-hawley', name: 'Josh Hawley', type: 'individual', relationship: 'First senator to object, raised fist to mob', href: '/entities/individuals/josh-hawley' }
  ],
  timeline: [
    { date: 'Nov 3, 2020', event: 'Election Day, Biden wins 306-232 electoral votes' },
@@ -766,14 +749,14 @@ const investigations_j: Record<string, InvestigationData> = {
    { date: 'Jan 13, 2021', event: 'Trump impeached for"incitement of insurrection"(232-197)' },
    { date: 'Feb 13, 2021', event: 'Senate acquits 57-43 (needed 67 to convict)' },
    { date: 'Jun 2022', event: 'January 6 Committee public hearings begin' },
-   { date: 'Aug 2023', event: 'Trump indicted on 4 federal counts related to January 6' },
+   { date: 'Aug 2023', event: 'Trump indicted on 4 federal counts related to January 6' }
  ],
  statutes: [
    { code: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States' },
    { code: '18 U.S.C. § 1512(c)', description: 'Obstruction of an official proceeding' },
    { code: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct an official proceeding' },
    { code: '18 U.S.C. § 241', description: 'Conspiracy against rights' },
-   { code: '18 U.S.C. § 2384', description: 'Seditious Conspiracy' },
+   { code: '18 U.S.C. § 2384', description: 'Seditious Conspiracy' }
  ],
  defendants: [
    { name: 'Stewart Rhodes (Oath Keepers)', role: 'Seditious Conspiracy', status: 'incarcerated', notes: '18 years federal prison (May 2023)' },
@@ -782,7 +765,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { name: 'Steve Bannon', role: 'Contempt of Congress', status: 'incarcerated', notes: '4 months federal prison (2024)' },
    { name: 'Jacob Chansley (QAnon Shaman)', role: 'Obstruction of Official Proceeding', status: 'incarcerated', notes: '41 months federal prison (November 2021)' },
    { name: 'Donald Trump', role: '4 Federal Counts (Conspiracy, Obstruction)', status: 'indicted', notes: 'Indicted by Jack Smith (August 2023), case dismissed after 2024 election' },
-   { name: '1,400+ Capitol Rioters', role: 'Various federal charges', status: 'charged', notes: 'Over 1,000 convictions including 600+ sentenced to incarceration as of 2025' },
+   { name: '1,400+ Capitol Rioters', role: 'Various federal charges', status: 'charged', notes: 'Over 1,000 convictions including 600+ sentenced to incarceration as of 2025' }
  ],
   },
   'japanese-internment': {
@@ -803,7 +786,7 @@ const investigations_j: Record<string, InvestigationData> = {
    'President Roosevelt\'s personal correspondence revealed he privately acknowledged the racial motivations behind internment but publicly maintained the fiction of military necessity.',
    'California Attorney General Earl Warren (later Chief Justice) actively promoted internment using fabricated claims of Japanese American sabotage networks, arguing that the absence of sabotage was itself proof of a coordinated conspiracy.',
    'The War Relocation Authority systematically downplayed conditions in the camps in propaganda films and press releases, portraying internment as a benign and voluntary \'relocation\' program.',
-   'Records of property theft and forced sales of Japanese American assets at pennies on the dollar were poorly documented or destroyed, making full restitution impossible.',
+   'Records of property theft and forced sales of Japanese American assets at pennies on the dollar were poorly documented or destroyed, making full restitution impossible.'
  ],
  tags: ['Japanese Internment', 'Executive Order 9066', 'Korematsu', 'Civil Liberties', 'Reparations', 'Wartime Injustice', 'Racial Discrimination', 'Due Process'],
  sources: [
@@ -816,7 +799,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { title: 'Korematsu v. United States, 323 U.S. 214 (1944): Supreme Court Opinion', url: 'https://supreme.justia.com/cases/federal/us/323/214/', type: 'Article' },
    { title: 'Smithsonian National Museum of American History: Japanese American Incarceration', url: 'https://americanhistory.si.edu/righting-wrong-japanese-americans-and-world-war-ii', type: 'Article' },
    { title: 'University of Washington: Camp Harmony and Minidoka Exhibit', url: 'https://www.lib.washington.edu/exhibits/harmony/', type: 'Article' },
-   { title: 'Civil Liberties Act of 1988: Full Text (Public Law 100-383)', url: 'https://www.congress.gov/bill/100th-congress/house-bill/442', type: 'Article' },
+   { title: 'Civil Liberties Act of 1988: Full Text (Public Law 100-383)', url: 'https://www.congress.gov/bill/100th-congress/house-bill/442', type: 'Article' }
  ],
  affiliations: [
    { id: 'franklin-d-roosevelt', name: 'Franklin D. Roosevelt', type: 'individual', relationship: 'President of the United States, signed Executive Order 9066 on February 19, 1942, authorizing the forced removal and incarceration of Japanese Americans without due process or evidence of disloyalty', href: '/entities/individuals/franklin-d-roosevelt' },
@@ -832,7 +815,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { id: 'mike-masaoka', name: 'Mike Masaoka', type: 'individual', relationship: 'National Secretary of the Japanese American Citizens League (JACL); controversial figure who advocated cooperation with the government and promoted the loyalty questionnaire, drawing criticism from within the Japanese American community', href: '/entities/individuals/mike-masaoka' },
    { id: 'charles-fahy', name: 'Charles Fahy', type: 'individual', relationship: 'U.S. Solicitor General, suppressed exculpatory evidence and presented misleading arguments to the Supreme Court in Korematsu and Hirabayashi cases to uphold the constitutionality of internment', href: '/entities/individuals/charles-fahy' },
    { id: 'henry-stimson', name: 'Henry Stimson', type: 'individual', relationship: 'U.S. Secretary of War, approved and implemented the military orders for Japanese American removal despite internal reports indicating no military necessity', href: '/entities/individuals/henry-stimson' },
-   { id: 'francis-biddle', name: 'Francis Biddle', type: 'individual', relationship: 'U.S. Attorney General, initially opposed mass internment but ultimately acquiesced to War Department pressure, later calling his failure to resist one of his deepest regrets', href: '/entities/individuals/francis-biddle' },
+   { id: 'francis-biddle', name: 'Francis Biddle', type: 'individual', relationship: 'U.S. Attorney General, initially opposed mass internment but ultimately acquiesced to War Department pressure, later calling his failure to resist one of his deepest regrets', href: '/entities/individuals/francis-biddle' }
  ],
  timeline: [
    { date: 'December 7, 1941', event: 'Japan attacks Pearl Harbor; within hours, FBI begins arresting Japanese American community leaders, Buddhist priests, Japanese-language teachers, and newspaper editors, over 1,200 detained without charges in the first 48 hours' },
@@ -856,7 +839,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { date: 'August 10, 1988', event: 'President Reagan signs the Civil Liberties Act of 1988, formally apologizing on behalf of the United States and authorizing $20,000 in reparations to each surviving internee, approximately 82,000 individuals' },
    { date: 'October 9, 1990', event: 'The first reparations payments are distributed, accompanied by a signed letter of apology from President George H.W. Bush acknowledging that the internment was \'a grave wrong\'' },
    { date: 'January 15, 1998', event: 'President Clinton awards the Presidential Medal of Freedom to Fred Korematsu, recognizing his lifelong fight for civil rights and justice' },
-   { date: 'June 26, 2018', event: 'In Trump v. Hawaii, the Supreme Court formally repudiates Korematsu v. United States, with Chief Justice Roberts writing that \'Korematsu was gravely wrong the day it was decided\'; though critics note it has never been formally overruled' },
+   { date: 'June 26, 2018', event: 'In Trump v. Hawaii, the Supreme Court formally repudiates Korematsu v. United States, with Chief Justice Roberts writing that \'Korematsu was gravely wrong the day it was decided\'; though critics note it has never been formally overruled' }
  ],
  statutes: [
    { code: 'Fifth Amendment, Due Process Clause', description: 'The forced removal and incarceration of 120,000+ persons without individual hearings, charges, or evidence of wrongdoing constituted a wholesale deprivation of liberty without due process of law.' },
@@ -866,7 +849,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { code: 'Article I, Section 9: Suspension of Habeas Corpus', description: 'Japanese Americans were imprisoned without the ability to meaningfully challenge their detention, effectively suspending the writ of habeas corpus without the congressional authorization required by the Constitution.' },
    { code: 'Geneva Convention (III): Treatment of Prisoners', description: 'While classified as civilian detainees rather than prisoners of war, internees were held in conditions that violated international standards: armed guards, barbed wire, shoot-to-kill orders, inadequate housing, and forced labor details.' },
    { code: '18 U.S.C. § 242: Deprivation of Rights Under Color of Law', description: 'Government officials willfully deprived Japanese Americans of their constitutional rights under the authority of Executive Order 9066 and subsequent military orders, knowing the action was racially motivated and unsupported by evidence.' },
-   { code: '18 U.S.C. § 1001: False Statements / Fraud Upon the Court', description: 'Solicitor General Charles Fahy and other government attorneys knowingly presented false information and suppressed exculpatory evidence before the Supreme Court in Korematsu, Hirabayashi, and Yasui cases.' },
+   { code: '18 U.S.C. § 1001: False Statements / Fraud Upon the Court', description: 'Solicitor General Charles Fahy and other government attorneys knowingly presented false information and suppressed exculpatory evidence before the Supreme Court in Korematsu, Hirabayashi, and Yasui cases.' }
  ],
  defendants: [
    { name: 'Fred Korematsu', role: 'Violation of Civilian Exclusion Order No. 34; remaining in a military area contrary to military orders', status: 'convicted', notes: 'Convicted 1942; Supreme Court upheld conviction 6-3 in Korematsu v. United States (1944); conviction vacated via coram nobis in 1983 after government suppression of evidence was proven' },
@@ -874,7 +857,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { name: 'Minoru Yasui', role: 'Deliberate violation of military curfew order to create constitutional test case', status: 'convicted', notes: 'Convicted 1942; Supreme Court upheld conviction in Yasui v. United States (1943); conviction vacated posthumously via coram nobis in 1984' },
    { name: 'Mitsuye Endo', role: 'Habeas corpus petition challenging continued detention of a loyal U.S. citizen', status: 'charged', notes: 'Supreme Court ruled unanimously in Ex parte Endo (1944) that the government could not detain loyal citizens, effectively ordered the closure of internment camps' },
    { name: 'U.S. Government', role: 'Systematic violation of civil liberties of 120,000+ persons of Japanese ancestry through mass incarceration without due process', status: 'charged', notes: 'Civil Liberties Act of 1988: Formal presidential apology and $20,000 reparations to each surviving internee; CWRIC found internment motivated by racial prejudice, not military necessity' },
-   { name: 'Heart Mountain Draft Resisters (63 individuals)', role: 'Refusal to comply with Selective Service orders while imprisoned in internment camps without restoration of civil rights', status: 'convicted', notes: 'Convicted in the largest mass trial in Wyoming history (1944); pardoned by President Truman in 1947; formally recognized for their principled stand by the JACL in 2002' },
+   { name: 'Heart Mountain Draft Resisters (63 individuals)', role: 'Refusal to comply with Selective Service orders while imprisoned in internment camps without restoration of civil rights', status: 'convicted', notes: 'Convicted in the largest mass trial in Wyoming history (1944); pardoned by President Truman in 1947; formally recognized for their principled stand by the JACL in 2002' }
  ],
   },
   'jfk-assassination': {
@@ -895,7 +878,7 @@ const investigations_j: Record<string, InvestigationData> = {
    'George de Mohrenschildt, Oswald\'s CIA-connected handler, died of a gunshot wound the day before his HSCA testimony was scheduled',
    'The Mexico City CIA station produced surveillance photos of "Oswald" that clearly depicted a different person, and the true photos have never been released',
    'Jack Ruby\'s extensive organized crime connections were dismissed by the Warren Commission despite evidence linking him to Mafia figures with assassination motives',
-   'Multiple witnesses who reported shots from the grassy knoll were ignored, intimidated, or died under suspicious circumstances in the years following the assassination',
+   'Multiple witnesses who reported shots from the grassy knoll were ignored, intimidated, or died under suspicious circumstances in the years following the assassination'
  ],
  tags: ['criminal-justice', 'assassination', 'war', 'conspiracy'],
  sources: [
@@ -907,7 +890,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { title: 'Zapruder Film, Sixth Floor Museum at Dealey Plaza', url: 'https://www.jfk.org/the-assassination/zapruder-film/', type: 'Article' },
    { title: 'JFK Files: What the CIA Didn\'t Want You to See', url: 'https://www.nytimes.com/2017/10/26/us/politics/jfk-files.html', type: 'Article' },
    { title: 'Biden Releases Thousands of JFK Assassination Documents', url: 'https://www.bbc.com/news/world-us-canada-64001972', type: 'Article' },
-   { title: 'HSCA Acoustic Evidence of Second Gunman', url: 'https://www.maryferrell.org/pages/HSCA_Acoustic_Evidence.html', type: 'Article' },
+   { title: 'HSCA Acoustic Evidence of Second Gunman', url: 'https://www.maryferrell.org/pages/HSCA_Acoustic_Evidence.html', type: 'Article' }
  ],
  affiliations: [
    { id: 'john-f-kennedy', name: 'John F. Kennedy', type: 'individual', relationship: '35th President of the United States, assassinated November 22, 1963', href: '/entities/individuals/john-f-kennedy' },
@@ -921,7 +904,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { id: 'clay-shaw', name: 'Clay Shaw', type: 'individual', relationship: 'New Orleans businessman tried by Jim Garrison for conspiracy; CIA connections later confirmed', href: '/entities/individuals/clay-shaw' },
    { id: 'james-jesus-angleton', name: 'James Jesus Angleton', type: 'individual', relationship: 'CIA Counterintelligence Chief who controlled Oswald\'s CIA file and destroyed documents', href: '/entities/individuals/james-angleton' },
    { id: 'abraham-zapruder', name: 'Abraham Zapruder', type: 'individual', relationship: 'Dallas dressmaker who filmed the assassination; his footage shows head shot from the front', href: '/entities/individuals/abraham-zapruder' },
-   { id: 'jim-garrison', name: 'Jim Garrison', type: 'individual', relationship: 'New Orleans DA who prosecuted Clay Shaw; first official to allege CIA involvement', href: '/entities/individuals/jim-garrison' },
+   { id: 'jim-garrison', name: 'Jim Garrison', type: 'individual', relationship: 'New Orleans DA who prosecuted Clay Shaw; first official to allege CIA involvement', href: '/entities/individuals/jim-garrison' }
  ],
  timeline: [
    { date: '1959-10-31', event: 'Oswald defects to the Soviet Union after discharge from Marines; US Embassy notes his intelligence background' },
@@ -942,7 +925,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { date: '1992-10-26', event: 'JFK Records Act signed into law, mandating release of all assassination-related documents' },
    { date: '2017-10-26', event: 'Trump delays full release of JFK files citing national security; releases partial batch' },
    { date: '2022-12-15', event: 'Biden orders release of additional documents but thousands remain redacted or withheld' },
-   { date: '2023-06-30', event: 'National Archives releases final batch; approximately 4,700 documents still partially or fully redacted' },
+   { date: '2023-06-30', event: 'National Archives releases final batch; approximately 4,700 documents still partially or fully redacted' }
  ],
  statutes: [
    { code: '18 U.S.C. § 1751: Assassination of the President', description: 'The killing of the President of the United States, a federal crime carrying the death penalty' },
@@ -952,7 +935,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { code: '18 U.S.C. § 4: Misprision of Felony', description: 'Knowledge of a felony and failure to report it to authorities; concealment of conspiracy evidence' },
    { code: '18 U.S.C. § 1505: Obstruction of Congressional Proceedings', description: 'Obstruction of proceedings before congressional committees investigating the assassination' },
    { code: '18 U.S.C. § 2381: Treason', description: 'Levying war against the United States or giving aid and comfort to enemies, applicable if state actors involved' },
-   { code: '44 U.S.C. § 2107: JFK Records Act Violations', description: 'Failure to comply with mandatory disclosure requirements of the President John F. Kennedy Assassination Records Collection Act' },
+   { code: '44 U.S.C. § 2107: JFK Records Act Violations', description: 'Failure to comply with mandatory disclosure requirements of the President John F. Kennedy Assassination Records Collection Act' }
  ],
  defendants: [
    { name: 'Lee Harvey Oswald', role: 'Murder of President Kennedy', status: 'charged', notes: 'Never tried, murdered by Jack Ruby before trial' },
@@ -962,7 +945,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { name: 'FBI (institutional)', role: 'Failure to investigate conspiracy leads', status: 'charged', notes: 'HSCA found FBI investigation was"seriously flawed"' },
    { name: 'Warren Commission', role: 'Inadequate investigation', status: 'charged', notes: 'HSCA concluded the Commission\'s investigation was insufficient' },
    { name: 'US Government', role: 'Violation of JFK Records Act deadlines', status: 'charged', notes: 'Multiple administrations delayed legally mandated releases' },
-   { name: 'Unknown conspirators', role: 'Conspiracy to assassinate the President', status: 'charged', notes: 'HSCA found probable conspiracy; no individuals identified' },
+   { name: 'Unknown conspirators', role: 'Conspiracy to assassinate the President', status: 'charged', notes: 'HSCA found probable conspiracy; no individuals identified' }
  ],
   },
 };
