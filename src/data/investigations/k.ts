@@ -44,6 +44,12 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2019-04-01', event: 'Tricia Newbold, White House security specialist, testifies that clearances were granted to at least 25 individuals whose applications had been denied by career officials', type: 'political' },
      { date: '2022-04-10', event: 'Kushner\'s investment firm Affinity Partners receives $2 billion from Saudi sovereign wealth fund controlled by MBS; raising questions about whether the clearance enabled the relationship', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Jared Kushner', role: 'Senior White House advisor who received top secret clearance despite being rejected by career officials', status: 'pending', notes: 'Clearance initially denied by career officials; overridden by Trump. House investigation documented interference.' }
+
+ ],
  },
   'khashoggi-coverup': {
  title: 'Khashoggi Murder Cover-up',
@@ -96,6 +102,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2022-04-10', event: 'Jared Kushner\'s investment firm Affinity Partners receives $2 billion from the Saudi sovereign wealth fund controlled by MBS, despite the fund\'s own advisory board recommending against the investment', type: 'critical' },
      { date: '2022-07-15', event: 'Biden travels to Saudi Arabia and fist-bumps MBS, effectively normalizing relations. Khashoggi\'s fiancee and press freedom organizations condemn the meeting as a betrayal of accountability', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Mohammed bin Salman (MBS)', role: 'Saudi Crown Prince who CIA concluded ordered assassination of journalist Jamal Khashoggi', status: 'pending', notes: 'CIA assessed with "high confidence" that MBS ordered the killing. Never sanctioned by US.' },
+
+   { name: 'Saudi Hit Squad (15 members)', role: '15-member team that murdered and dismembered Khashoggi inside Saudi consulate in Istanbul', status: 'convicted', notes: 'Saudi court sentenced 5 to death (commuted to 20 years). Trial widely criticized as sham.' }
+
+ ],
  },
   'kremlin-oligarchs': {
  title: 'Kremlin Oligarch Connections',
@@ -145,6 +159,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2016', event: 'Sater later worked on the Trump Tower Moscow project during the 2016 campaign', type: 'political' },
      { date: '2016', event: 'TRUMP TOWER MOSCOW: Throughout the 2016 campaign, Trump\'s organization pursued a Trump Tower Moscow deal', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'keystone-pipeline-controversy': {
  title: 'Keystone XL Pipeline Controversy',
@@ -190,6 +212,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2021-01-20', event: 'Biden revoked the permit on his first day in office, January 20, 2021', type: 'default' },
      { date: '2021-06-01', event: 'CANCELLATION AFTERMATH: TC Energy formally terminated the project in June 2021, seeking $15 billion in damages from the U.S', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'ExxonMobil', role: 'Led fossil fuel disinformation denying climate change despite internal knowledge', status: 'charged', notes: 'Internal research confirmed climate change in 1977. Multiple state AG lawsuits.' },
+
+   { name: 'BP', role: 'Deepwater Horizon killed 11 and caused largest U.S. offshore oil spill', status: 'convicted', notes: 'Pled guilty to 14 charges. Paid $65B total. 4.9M barrels spilled.' }
+
+ ],
  },
   'kashmir-suppression': {
  title: 'Kashmir: The World\'s Most Militarized Zone',
@@ -229,6 +259,12 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2019-08-01', event: 'Between August 2019 and February 2021, internet access was either completely blocked or restricted to 2G speeds, cutting Kashmiris off from e-commerce, telemedicine, remote work, and communication', type: 'default' },
      { date: '2019-08-05', event: 'On August 5, 2019, the Indian government revoked Article 370 of the constitution, which had guaranteed Kashmir semi-autonomous status since 1949', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Indian Government', role: 'Revoked Kashmir\'s autonomous status in 2019; imposed longest internet blackout in a democracy', status: 'pending', notes: 'Detained political leaders without trial. 70,000+ killed since 1989 insurgency. Human rights groups condemned crackdown.' }
+
+ ],
  },
   'kenosha-shootings': {
  title: 'Kenosha Shootings',
@@ -272,6 +308,12 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2021-11', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
      { date: '2021-11-19', event: 'Judge Bruce Schroeder drew criticism for barring the word "victims" while allowing the deceased to be called "rioters" or "looters." ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Kyle Rittenhouse', role: 'Shot three people (killing two) during Kenosha, WI protests on August 25, 2020', status: 'acquitted', notes: 'Acquitted of all charges in 2021 on self-defense grounds after crossing state lines with AR-15 at age 17' }
+
+ ],
  },
   'kids-for-cash': {
  title: 'Kids for Cash: Judges Who Sold Children to Private Prisons',
@@ -308,6 +350,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2003', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' },
      { date: '2008', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Mark Ciavarella', role: 'Luzerne County PA judge who accepted $2.8M in bribes to send children to for-profit detention centers', status: 'convicted', notes: 'Convicted on 12 of 39 counts of racketeering; sentenced to 28 years. Affected 4,000+ juveniles.' },
+
+   { name: 'Michael Conahan', role: 'Judge who conspired with Ciavarella to close public juvenile facility and funnel children to private one', status: 'convicted', notes: 'Pled guilty; sentenced to 17.5 years' }
+
+ ],
  },
   'korematsu-case': {
  title: 'Korematsu v. United States: The Legalization of Racism',
@@ -343,6 +393,12 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '1983', event: 'In 1983, Korematsu\'s conviction was vacated after attorney Peter Irons discovered that the government had deliberately suppressed evidence', type: 'legal' },
      { date: '1988', event: 'Congress passed the Civil Liberties Act of 1988, which formally apologized for the internment and provided $20,000 in reparations to surviving internees (approximately 82,000 people)', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Franklin D. Roosevelt', role: 'Signed Executive Order 9066 authorizing internment of 120,000 Japanese Americans during WWII', status: 'pending', notes: 'Government formally apologized in 1988; paid $20,000 reparation per survivor. Korematsu decision never formally overturned but repudiated.' }
+
+ ],
  },
   'kushner-saudi-deal': {
  title: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence?',
@@ -384,6 +440,12 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2022-06', event: 'House Oversight Committee launches investigation into Kushner\'s Saudi dealings; Republicans block subpoenas for financial records', type: 'political' },
      { date: '2023', event: 'Affinity Partners generates $25 million annually in guaranteed management fees from the Saudi investment regardless of fund performance', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Jared Kushner', role: 'Received $2 billion investment from Saudi sovereign wealth fund shortly after leaving White House', status: 'pending', notes: 'Saudi fund advisory panel raised concerns about due diligence, experience, and fees. House investigating.' }
+
+ ],
  },
   'khashoggi-murder': {
     title: "Jamal Khashoggi Assassination",
@@ -426,6 +488,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2021-02', event: 'THE COVER-UP: Saudi Arabia s fate, to claiming he left the consulate alive, to admitting he died in a to finally acknowledging a', type: 'default' },
      { date: '2022', event: 'In 2022, Biden traveled to Saudi Arabia and fist-bumped MBS, effectively normalizing relations.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Mohammed bin Salman (MBS)', role: 'Saudi Crown Prince who CIA concluded ordered assassination of journalist Jamal Khashoggi', status: 'pending', notes: 'CIA assessed with "high confidence" that MBS ordered the killing. Never sanctioned by US.' },
+
+      { name: 'Saudi Hit Squad (15 members)', role: '15-member team that murdered and dismembered Khashoggi inside Saudi consulate in Istanbul', status: 'convicted', notes: 'Saudi court sentenced 5 to death (commuted to 20 years). Trial widely criticized as sham.' }
+
+    ],
   },
   'koch-network-dark-money-politics': {
     title: 'The Koch Network: Dark Money and the Capture of American Democracy',
@@ -468,6 +538,12 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2009-01-01', from: 'Koch network', to: 'Anti-cap-and-trade lobbying', amount: '$25,000,000', purpose: 'Organized opposition to Waxman-Markey bill, pressuring Republican legislators to reverse initial support', documented: true },
      { date: '2022-01-01', from: 'Koch donor network (biannual summits)', to: 'Political and policy organizations', amount: '$889,000,000', purpose: 'Koch network disclosed raising $889 million budget for 2016 election cycle across all affiliated organizations', documented: true }
    ],
+
+    defendants: [
+
+      { name: 'Charles Koch / Koch Network', role: 'Spent hundreds of millions funding climate denial, anti-regulation lobbying, and political campaigns', status: 'pending', notes: 'Koch network includes Americans for Prosperity, Stand Together, hundreds of organizations. Dark money pioneer.' }
+
+    ],
   },
   'congressional-stock-trading': {
     title: 'Congressional Insider Trading and Financial Conflicts',
@@ -505,6 +581,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2023', event: 'At least 97 members traded stocks in sectors over which they had direct legislative or oversight authority in 2023 alone.', type: 'political' },
      { date: '2024', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'kickbacks-pharmacy-benefit-managers': {
     title: 'Pharmacy Benefit Manager Kickback Schemes',
@@ -540,6 +624,14 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2023', event: 'The three major PBMs and their parent companies collectively spent over $80 million on federal lobbying in 2023 alone.', type: 'financial' },
      { date: '2024', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'kissinger-foreign-policy-war-crimes': {
     title: 'Henry Kissinger\'s Foreign Policy: War Crimes, Coups, and Crimes Against Humanity',
@@ -586,6 +678,12 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '1976-09-01', event: 'The regime\'s secret police, DINA, carried out Operation Condor, a transnational assassination program that murdered political opponents in Argentina, Italy, and the United States (the car bombing o...', type: 'critical' },
      { date: '1988', event: 'Kissinger\'s active support for the Pakistani military during the genocide, including continued arms sales and diplomatic protection at the UN, constituted potential violations of the Genocide Conve...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Henry Kissinger', role: 'National Security Advisor/Secretary of State who directed bombing of Cambodia, supported coups, and enabled genocide', status: 'pending', notes: 'Cambodia bombing killed 100,000+ civilians. Supported Pinochet coup. Enabled Indonesian invasion of East Timor. Died 2023 at 100.' }
+
+    ],
   },
   'kissinger-crimes': {
  title: 'Henry Kissinger\'s Crimes Against Humanity',
@@ -692,6 +790,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { name: 'Jorge Rafael Videla', role: 'Crimes against humanity, Dirty War disappearances', status: 'convicted', notes: 'Convicted 2010, life sentence. Died in prison 2013. Kissinger\\u2019s"do it quickly"encouragement entered historical record but no U.S. charges' },
    { name: 'Richard Nixon', role: 'Conspiracy to obstruct justice (Watergate, related to Cambodia cover-up)', status: 'pardoned', notes: 'Resigned August 9, 1974. Pardoned by Ford. Cambodia bombing never prosecuted' }
  ],
+
   },
   'koch-network': {
  title: 'The Koch Network',
@@ -776,6 +875,7 @@ const investigations_k: Record<string, InvestigationData> = {
    { name: 'Koch-backed ALEC', role: 'Lobbying while claiming tax-exempt status', status: 'charged', notes: 'IRS complaint filed; no action taken despite evidence of direct lobbying' },
    { name: 'Koch Industries', role: 'Formaldehyde exposure at Georgia-Pacific plants', status: 'charged', notes: 'Workers sickened; company denied responsibility; limited settlements' }
  ],
+
   },
 };
 

@@ -53,6 +53,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021-01-20', event: 'Biden executive orders begin reversing Trump deregulation; EPA, OSHA, and CFPB ordered to review all rollbacks', type: 'political' },
      { date: '2024-06-28', event: 'Supreme Court overturns Chevron deference in Loper Bright; empowers courts to reject agency expertise, further weakening regulatory authority', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Corporate-Regulator Complex', role: 'Industries systematically capture the agencies meant to regulate them through revolving door and lobbying', status: 'pending', notes: 'Documented at SEC, FCC, FAA, EPA, FDA, and others. Regulators routinely go to work for companies they supervised.' }
+
+ ],
  },
   'russian-money-laundering': {
  title: 'Russian Money Laundering Through Trump Properties',
@@ -110,6 +116,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2008-01-01', from: 'Russian buyers', to: 'Trump properties (Florida condos)', amount: '$98,000,000', purpose: 'A Reuters investigation found that at least 63 Russians bought $98.4M in Trump properties in South Florida', documented: true },
      { date: '2020-01-01', from: 'Trump-connected accounts (flagged)', to: 'Various recipients', amount: '$2,000,000,000', purpose: 'FinCEN Files revealed suspicious activity reports on $2T+ in transactions across all banks; multiple reports involved Trump-connected entities', documented: false }
    ],
+
+ defendants: [
+
+   { name: 'Russian Government / Intelligence Services', role: 'Conducted influence operations, cyberattacks, and money laundering in Western democracies', status: 'pending', notes: 'GRU hacked DNC. IRA ran social media campaigns. Oligarchs laundered billions through Western banks and real estate.' }
+
+ ],
  },
   'russia-disinformation': {
  title: 'Russian Disinformation Operations',
@@ -159,6 +171,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2023', event: 'Prigozhin later led the Wagner Group mercenary army before his mysterious death in 2023', type: 'critical' },
      { date: '2024', event: 'The 2024 election saw renewed operations', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },
   'religious-right': {
  title: 'Christian Nationalist Political Machine',
@@ -206,6 +226,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1981', event: 'Founded in 1981, it has quietly coordinated conservative strategy for decades.', type: 'default' },
      { date: '2025', event: 'PROJECT 2025: Heritage Foundation\'s plan for a second Trump term, shaped by Christian nationalist priorities, calls for using government power to impose traditional values, restrict reproductive rights, and roll back...', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Religious Institutions (Multiple)', role: 'Systematic cover-up of sexual abuse in Catholic Church, Southern Baptist Convention, and other organizations', status: 'charged', notes: 'Catholic Church: 330,000+ victims in France alone. SBC report documented 700+ abusers. Institutional protection of perpetrators.' }
+
+ ],
  },
   'rendition': {
  title: 'Extraordinary Rendition',
@@ -260,6 +286,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2012-12-13', event: 'European Court of Human Rights rules in El-Masri v. Macedonia that Macedonia violated El-Masri\'s rights, marking the first international court ruling confirming CIA rendition details', type: 'default' },
      { date: '2014-12-09', event: 'Senate Intelligence Committee releases 500-page executive summary of 6,700-page torture report. It documents rendition as integral to the CIA detention and interrogation program', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'republican-dark-money': {
  title: 'Republican Dark Money Networks',
@@ -305,6 +339,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2010', event: 'CITIZENS UNITED UNLEASHED: The 2010 Citizens United decision allowed unlimited political spending by corporations and nonprofits.', type: 'default' },
      { date: '2022', event: 'In 2022, electronics billionaire Barre Seid gave Leo\'s Marble Freedom Trust $1.6 billion, the largest political donation ever.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'russian-disinformation': {
  title: 'Russian Disinformation Operations',
@@ -351,6 +393,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2016', event: 'Even after 2016, response remained inadequate', type: 'default' },
      { date: '2017', event: 'INTELLIGENCE COMMUNITY ASSESSMENT: In January 2017, U.S', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Russian Government / Intelligence Services', role: 'Conducted influence operations, cyberattacks, and money laundering in Western democracies', status: 'pending', notes: 'GRU hacked DNC. IRA ran social media campaigns. Oligarchs laundered billions through Western banks and real estate.' }
+
+ ],
  },
   'russian-intel-ops': {
  title: 'Russian Intelligence Operations',
@@ -395,6 +443,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2016', event: 'Beyond 2016, Russian intelligence has targeted every U.S.', type: 'default' },
      { date: '2020', event: 'In 2020, Russian intelligence (likely SVR) compromised SolarWinds software updates, gaining access to 18,000 organizations including multiple U.S.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Russian Government / Intelligence Services', role: 'Conducted influence operations, cyberattacks, and money laundering in Western democracies', status: 'pending', notes: 'GRU hacked DNC. IRA ran social media campaigns. Oligarchs laundered billions through Western banks and real estate.' }
+
+ ],
  },
   'royal-coverup': {
  title: 'Royal Family Coverups',
@@ -436,6 +490,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2008', event: 'Prince Andrew maintained a close relationship with Jeffrey Epstein even after Epstein\'s 2008 conviction.', type: 'legal' },
      { date: '2019', event: 'Andrew\'s 2019 BBC interview to explain his Epstein relationship was catastrophic.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'russia-investigation': {
  title: 'Russia Investigation Overview',
@@ -478,6 +540,18 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2019-04-18', event: 'Redacted Mueller Report released publicly; documents 10 episodes of potential obstruction and explicitly states it "does not exonerate" Trump', type: 'legal' },
      { date: '2020-08-18', event: 'Bipartisan Senate Intelligence Committee releases Volume 5 confirming Russian interference and Manafort\'s Russian intelligence ties', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Paul Manafort', role: 'Trump campaign chairman who shared campaign polling data with Russian intelligence-linked operative', status: 'convicted', notes: 'Convicted on 8 counts of financial crimes; sentenced to 7.5 years. Pardoned by Trump December 2020.' },
+
+   { name: 'Michael Flynn', role: 'National Security Advisor who lied to FBI about contacts with Russian Ambassador Kislyak', status: 'convicted', notes: 'Pled guilty to lying to FBI; pardoned by Trump November 2020 before sentencing' },
+
+   { name: 'Roger Stone', role: 'Trump associate who lied to Congress about WikiLeaks contacts and threatened witness', status: 'convicted', notes: 'Convicted on 7 counts; sentenced to 40 months. Commuted by Trump July 2020; pardoned December 2020.' },
+
+   { name: 'Rick Gates', role: 'Deputy Trump campaign chairman who conspired with Manafort and cooperated with Mueller', status: 'convicted', notes: 'Pled guilty to conspiracy and lying to FBI; sentenced to 45 days jail plus probation' }
+
+ ],
  },
   'russian-election-interference': {
  title: 'Russian Election Interference 2016',
@@ -531,6 +605,18 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2019-04-01', event: 'The Mueller Report, released in April 2019, concluded that Russia interfered in the election "in sweeping and systematic fashion" but did not establish that members of the Trump campaign "conspired', type: 'political' },
      { date: '2020-08-01', event: 'Volume 5, released in August 2020, confirmed the counterintelligence threat posed by Manafort sharing polling data with Kilimnik and documented extensive contacts between the campaign and Russian-l', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Paul Manafort', role: 'Trump campaign chairman who shared campaign polling data with Russian intelligence-linked operative', status: 'convicted', notes: 'Convicted on 8 counts of financial crimes; sentenced to 7.5 years. Pardoned by Trump December 2020.' },
+
+   { name: 'Michael Flynn', role: 'National Security Advisor who lied to FBI about contacts with Russian Ambassador Kislyak', status: 'convicted', notes: 'Pled guilty to lying to FBI; pardoned by Trump November 2020 before sentencing' },
+
+   { name: 'Roger Stone', role: 'Trump associate who lied to Congress about WikiLeaks contacts and threatened witness', status: 'convicted', notes: 'Convicted on 7 counts; sentenced to 40 months. Commuted by Trump July 2020; pardoned December 2020.' },
+
+   { name: 'Rick Gates', role: 'Deputy Trump campaign chairman who conspired with Manafort and cooperated with Mueller', status: 'convicted', notes: 'Pled guilty to conspiracy and lying to FBI; sentenced to 45 days jail plus probation' }
+
+ ],
  },
   'r-kelly-sex-crimes': {
  title: 'R. Kelly Sex Crimes',
@@ -580,6 +666,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022-09-01', event: 'In the separate Northern District of Illinois case, Kelly was convicted in September 2022 on six of 13 counts, including three counts of child pornography and three counts of enticement of minors', type: 'legal' },
      { date: '2023-02-01', event: 'Kelly was also convicted on state charges in Chicago in February 2023', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'R. Kelly', role: 'Operated decades-long sex trafficking enterprise targeting minors', status: 'convicted', notes: 'Convicted of racketeering and sex trafficking in NY (2021); production of child pornography in Chicago (2022). Sentenced to 30 years (federal) + 20 years (state).' }
+
+ ],
  },
   'rabaa-massacre': {
  title: 'Rabaa Massacre: Egypt\'s Tiananmen Square',
@@ -625,6 +717,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2018-08-14', event: 'Fifth anniversary of Rabaa massacre; an estimated 60,000+ political prisoners held in Egyptian jails; zero accountability', type: 'default' },
      { date: '2023-08-14', event: 'Tenth anniversary; U.S. continues full $1.3 billion annual military aid to Egypt despite no accountability for the massacre', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Egyptian Military / Abdel Fattah el-Sisi', role: 'Security forces killed at least 817 protesters at Rabaa al-Adawiya Square on August 14, 2013', status: 'pending', notes: 'HRW called it "one of the world\'s largest killings of demonstrators in a single day in recent history." Sisi became president.' }
+
+ ],
  },
   'radicalization': {
  title: 'Online Radicalization: From Algorithm to Atrocity',
@@ -675,6 +773,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022-11-19', event: 'EU Digital Services Act takes effect, imposing content moderation requirements on large platforms; enforcement remains limited', type: 'legal' },
      { date: '2023-10-07', event: 'ADL reports antisemitic incidents surge 388% in month following Hamas attack, driven significantly by online radicalization and algorithmic amplification', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various White Nationalist Organizations', role: 'Domestic terrorism, racist ideology, and infiltration of law enforcement', status: 'charged', notes: 'FBI identified white supremacist extremism as top domestic terrorism threat.' }
+
+ ],
  },
   'religious-abuse': {
  title: 'Religious Institutional Abuse: A Global Epidemic of Exploitation',
@@ -716,6 +820,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022', event: 'The Southern Baptist Convention, the largest Protestant denomination in the U.S., was rocked by a 2022 investigation revealing that SBC leaders maintained a secret list of over 700 accused abusers', type: 'default' },
      { date: '2022', event: 'AP reporting in 2022 revealed that bishops who called the hotline after receiving abuse disclosures were routinely told not to report to police, even in states with mandatory reporting requirements', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Religious Institutions (Multiple)', role: 'Systematic cover-up of sexual abuse in Catholic Church, Southern Baptist Convention, and other organizations', status: 'charged', notes: 'Catholic Church: 330,000+ victims in France alone. SBC report documented 700+ abusers. Institutional protection of perpetrators.' }
+
+ ],
  },
   'religious-right-legal': {
  title: 'The Religious Right\'s Legal War: Reshaping American Law',
@@ -755,6 +865,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022-06-27', event: 'Kennedy v. Bremerton School District allows public school coach to lead prayers on field; erodes church-state separation precedent', type: 'legal' },
      { date: '2023-06-30', event: '303 Creative v. Elenis allows businesses to refuse services for same-sex weddings on free speech grounds; ADF argued the case', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Religious Institutions (Multiple)', role: 'Systematic cover-up of sexual abuse in Catholic Church, Southern Baptist Convention, and other organizations', status: 'charged', notes: 'Catholic Church: 330,000+ victims in France alone. SBC report documented 700+ abusers. Institutional protection of perpetrators.' }
+
+ ],
  },
   'restitution-evasion': {
  title: 'Restitution Evasion: How White-Collar Criminals Avoid Paying Victims',
@@ -792,6 +908,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021-06', event: 'Brennan Center study documents two-tier system; poor defendants jailed for $13,600 average debt while wealthy offenders treat orders as paper obligations', type: 'default' },
      { date: '2023-09', event: 'Federal courts report continued growth in unpaid restitution; DOJ Financial Litigation Unit remains understaffed relative to caseload', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Responsible Parties', role: 'Evasion of restitution and pipeline safety violations', status: 'pending', notes: 'GAO found billions in restitution uncollected. Pipeline violations documented by PHMSA.' }
+
+ ],
  },
   'right-wing-disinfo': {
  title: 'Right-Wing Disinformation Networks: Manufacturing an Alternate Reality',
@@ -829,6 +951,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021-09', event: 'COVID-19 disinformation promoted through right-wing media contributed to approximately 230,000 preventable American deaths between January and September 2021 alone, according to a study published in The Lancet.', type: 'default' },
      { date: '2022', event: 'Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Right-Wing Media Ecosystem', role: 'Network of media outlets and influencers spreading disinformation and radicalizing audiences', status: 'pending', notes: 'Fox News, OAN, Newsmax, social media influencers. Dominion lawsuit exposed knowing promotion of false claims.' }
+
+ ],
  },
   'right-wing-media': {
  title: 'Right-Wing Media Empire: Manufacturing Consent from the Right',
@@ -867,6 +995,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021', event: 'Conservative talk radio, dominated by figures like Rush Limbaugh (who reached 15 million weekly listeners before his death in 2021), Sean Hannity, and Mark Levin, serves as a daily reinforcement me', type: 'critical' },
      { date: '2023', event: 'The Dominion Voting Systems defamation lawsuit (settled for $787.5 million in 2023) exposed internal communications showing Fox hosts and executives knowingly promoted false election fraud claims', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Right-Wing Media Ecosystem', role: 'Network of media outlets and influencers spreading disinformation and radicalizing audiences', status: 'pending', notes: 'Fox News, OAN, Newsmax, social media influencers. Dominion lawsuit exposed knowing promotion of false claims.' }
+
+ ],
  },
   'rothstein-ponzi': {
  title: 'Scott Rothstein: The $1.2 Billion Ponzi Scheme Lawyer',
@@ -903,6 +1037,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2009-10', event: 'The fraud unraveled in October 2009 when investors attempting to redeem $57 million in settlements discovered that TD Bank accounts supposedly holding their funds were empty.', type: 'financial' },
      { date: '2010-06', event: 'Rothstein was sentenced to 50 years in federal prison in June 2010 after pleading guilty to five federal charges including RICO conspiracy, money laundering, and wire fraud.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Scott Rothstein', role: 'Florida attorney who ran $1.2B Ponzi scheme selling fabricated legal settlements', status: 'convicted', notes: 'Sentenced to 50 years in 2010; reduced to 30 years for cooperation' }
+
+ ],
  },
   'roundup-cancer': {
  title: 'Roundup and Cancer: Monsanto\'s Decades-Long Cover-Up',
@@ -940,6 +1080,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2018', event: 'The first major trial in 2018 awarded groundskeeper Dewayne "Lee" Johnson $289 million (later reduced to $78 million) after a jury found that Monsanto\'s Roundup products caused his terminal non-Hod...', type: 'legal' },
      { date: '2018', event: 'Bayer, which acquired Monsanto for $63 billion in 2018, has set aside over $16 billion to resolve approximately 125,000 claims', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Monsanto/Bayer', role: 'Concealed evidence that Roundup herbicide (glyphosate) causes cancer; ghostwrote safety studies', status: 'settled', notes: 'Bayer settled for $10.9B in 2020 to resolve ~125,000 claims. Internal emails showed decades of cover-up.' },
+
+   { name: 'EPA (Scott Pruitt era)', role: 'EPA official Jess Rowland helped Monsanto kill HHS cancer review of glyphosate', status: 'pending', notes: 'Internal Monsanto emails: "we have Jess in our back pocket." No accountability.' }
+
+ ],
  },
   'russia-ukraine-war': {
  title: 'Russia-Ukraine War: The Largest European Conflict Since World War II',
@@ -981,6 +1129,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022', event: 'Russia\'s full-scale invasion of Ukraine on February 24, 2022, has caused hundreds of thousands of casualties, displaced over 14 million people, reshaped global energy markets, and generated documented war crimes...', type: 'financial' },
      { date: '2022-02-24', event: 'Russia\'s full-scale invasion of Ukraine on February 24, 2022, has caused hundreds of thousands of casualties, displaced over 14 million people, reshaped global energy markets, and generated documented war crimes...', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Vladimir Putin / Russian Federation', role: 'Launched unprovoked full-scale invasion of Ukraine on February 24, 2022', status: 'indicted', notes: 'ICC arrest warrant for war crime of child deportation. 200,000+ casualties. Largest European conflict since WWII.' }
+
+ ],
  },
   'russian-influence': {
  title: 'Russian Influence Operations: Global Subversion and Election Interference',
@@ -1021,6 +1175,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2017', event: 'European intelligence agencies have identified Russian influence campaigns targeting elections in France (Macron email hack 2017), Germany (Bundestag hack, AfD support), the United Kingdom (Brexit campaign funding),', type: 'political' },
      { date: '2020', event: 'In the UK, the Intelligence and Security Committee\'s "Russia Report" (2020) documented how Russian money had become deeply embedded in British politics, finance, and society, describing London as a "laundromat" for...', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Russian Government / Intelligence Services', role: 'Conducted influence operations, cyberattacks, and money laundering in Western democracies', status: 'pending', notes: 'GRU hacked DNC. IRA ran social media campaigns. Oligarchs laundered billions through Western banks and real estate.' }
+
+ ],
  },
   'russian-war-crimes': {
  title: 'Russian War Crimes: From Chechnya to Syria to Ukraine',
@@ -1064,6 +1224,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022-04-01', event: 'In Ukraine, the Bucha massacre of March-April 2022 became the defining atrocity of the war', type: 'critical' },
      { date: '2023-03-17', event: 'The ICC issued arrest warrants for Russian President Vladimir Putin and Children\'s Rights Commissioner Maria Lvova-Belova on March 17, 2023, for the unlawful deportation of Ukrainian children', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Vladimir Putin', role: 'Russian President who ordered invasion of Ukraine and is accused of directing systematic war crimes', status: 'indicted', notes: 'ICC issued arrest warrant in March 2023 for war crime of unlawful deportation of Ukrainian children' },
+
+   { name: 'Maria Lvova-Belova', role: 'Russian Commissioner for Children\'s Rights who oversaw forced deportation of Ukrainian children', status: 'indicted', notes: 'ICC arrest warrant issued March 2023' }
+
+ ],
  },
   'ryanair-hijacking': {
  title: 'Ryanair Flight Hijacking: Belarus\'s Act of State Air Piracy',
@@ -1110,6 +1278,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2023-05-25', event: 'Protasevich sentenced to 8 years imprisonment; Sapega sentenced to 6 years. Both sentences condemned by human rights organizations', type: 'legal' },
      { date: '2024-01-01', event: 'Belarus continues to hold dozens of journalists and political prisoners; remains one of the worst press freedom environments globally per RSF', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Belarus / Alexander Lukashenko', role: 'Forced Ryanair Flight 4978 to land in Minsk to arrest dissident journalist Roman Protasevich on May 23, 2021', status: 'charged', notes: 'Fighter jet scrambled. ICAO investigation confirmed state-directed act. EU imposed sanctions on Belarus.' }
+
+ ],
  },
   'rico-enterprise-criminal-networks': {
     title: 'RICO Enterprise Criminal Networks',
@@ -1144,6 +1318,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1986', event: 'THE COMMISSION CASE: RICO\'s most famous application came in 1986, when U.S.', type: 'default' },
      { date: '2015', event: 'RICO has been used against corrupt judges (Operation Greylord in Chicago convicted 92 officials), prison gangs (the Aryan Brotherhood case resulted in multiple death penalty verdicts), and even the FIFA soccer', type: 'legal' }
      ],
+
+    defendants: [
+
+      { name: 'Various Criminal Enterprises', role: 'Money laundering and racketeering across jurisdictions', status: 'charged', notes: 'FinCEN Files revealed $2T in suspicious transactions. Corporate Transparency Act addresses shell companies.' }
+
+    ],
   },
   'russian-oligarch-us-asset-networks': {
     title: 'Russian Oligarch US Asset Networks',
@@ -1179,6 +1359,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021', event: 'SHELL COMPANY NETWORKS: Until the Corporate Transparency Act (CTA) of 2021; which faces ongoing legal challenges; the United States did not require disclosure of the beneficial owners of LLCs and c', type: 'default' },
      { date: '2022', event: 'SANCTIONS EVASION: Following Russia\'s 2022 invasion of Ukraine, the U.S', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Russian Government / Intelligence Services', role: 'Conducted influence operations, cyberattacks, and money laundering in Western democracies', status: 'pending', notes: 'GRU hacked DNC. IRA ran social media campaigns. Oligarchs laundered billions through Western banks and real estate.' }
+
+    ],
   },
   'revolving-door-lobbyist-pipeline': {
     title: 'Revolving Door Lobbyist Pipeline',
@@ -1212,6 +1398,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2003', event: 'The revolving door\'s most notorious example is Representative Billy Tauzin (R-LA), who as chairman of the House Energy and Commerce Committee shepherded the Medicare Modernization Act of 2003 through Congress.', type: 'political' },
      { date: '2013', event: 'A 2013 study found that SEC attorneys who later took jobs at law firms representing Wall Street were more lenient toward potential violators.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'regulatory-capture-federal-agencies': {
     title: 'Regulatory Capture Federal Agencies',
@@ -1247,6 +1441,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2010', event: 'Industry lobbyists have systematically weakened EPA enforcement through budget cuts; the agency\'s enforcement budget has declined by approximately 30% in real terms since 2010', type: 'default' },
      { date: '2013', event: 'A 2013 study by the Project on Government Oversight found that over 400 former SEC employees had filed almost 800 representations to appear before the agency on behalf of private clients within two', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Corporate-Regulator Complex', role: 'Industries systematically capture the agencies meant to regulate them through revolving door and lobbying', status: 'pending', notes: 'Documented at SEC, FCC, FAA, EPA, FDA, and others. Regulators routinely go to work for companies they supervised.' }
+
+    ],
   },
   'restaurant-industry-money-laundering': {
     title: 'Restaurant Industry Money Laundering',
@@ -1284,6 +1484,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022-11', event: 'IRS Criminal Investigation reports restaurant-sector money laundering cases increased 23% post-pandemic as delivery app platforms created new fraud vectors', type: 'financial' },
      { date: '2024-02', event: 'Treasury Department proposes enhanced beneficial ownership reporting requirements for cash-intensive businesses including restaurants', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'redaction-abuse-in-public-documents': {
     title: 'Redaction Abuse in Public Documents',
@@ -1321,6 +1527,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2009', event: 'Executive Order 13526 (Obama, 2009) established a National Declassification Center and set 25-year automatic declassification timelines', type: 'political' },
      { date: '2016', event: 'The FOIA Improvement Act of 2016 codified a "foreseeable harm" standard requiring agencies to demonstrate that disclosure would cause specific harm', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+    ],
   },
   'real-estate-money-laundering-corridors': {
     title: 'Real Estate Money Laundering Corridors',
@@ -1356,6 +1568,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021', event: 'THE CORPORATE TRANSPARENCY ACT: The Corporate Transparency Act (CTA), enacted in 2021, requires most LLCs and corporations to disclose their beneficial owners to FinCEN', type: 'default' },
      { date: '2024', event: 'FinCEN proposed rules in 2024 that would require certain real estate professionals to identify beneficial owners in non-financed purchases', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Blackstone Group', role: 'Largest corporate landlord buying homes after 2008 crisis, driving up rents', status: 'pending', notes: 'Purchased 80,000+ homes at distressed prices. UN criticized impact on housing.' }
+
+    ],
   },
   'retail-facial-recognition-deployment': {
     title: 'Retail Facial Recognition Deployment',
@@ -1389,6 +1607,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2020', event: 'In 2020, Robert Williams, a Black man in Detroit, was wrongfully arrested based on a faulty facial recognition match from a retail theft investigation.', type: 'default' },
      { date: '2023', event: 'A 2023 survey by the advocacy group Fight for the Future found that approximately 70% of the top 100 U.S.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'redistricting-manipulation-court-cases': {
     title: 'Redistricting Manipulation Court Cases',
@@ -1428,6 +1654,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2020', event: 'His hard drives, discovered after his death, revealed that he had studied using citizenship question data to "be advantageous to Republicans and Non-Hispanic Whites"', type: 'critical' },
      { date: '2023', event: 'Milligan (2023), the Court (5-4, with Roberts joining liberals) struck down Alabama\'s congressional map that packed Black voters into a single district despite comprising 27% of the state\'s populat...', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
 
   'reagan-crimes': {
@@ -1474,6 +1706,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1996', event: 's 1996 series documented how CIA-connected Nicaraguan Contra drug traffickers; including Oscar Danilo Blandon and Norwin Meneses; funneled tons of cocaine into Los Angeles, where it was converted into crack and sold', type: 'default' },
      { date: '1998', event: 'The CIA Inspector General\'s 1998 report confirmed that the agency had relationships with Contra groups involved in drug trafficking and failed to report drug crimes to the DOJ.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Reagan Administration', role: 'Iran-Contra affair, support for death squads in Central America, ignoring AIDS crisis', status: 'pending', notes: 'Oliver North convicted (reversed). 14 indicted for Iran-Contra. HUD scandal. Savings & Loan crisis.' }
+
+    ],
   },
   'rwandan-genocide': {
     title: 'Rwandan Genocide',
@@ -1523,6 +1761,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1994-11-01', event: 'The International Criminal Tribunal for Rwanda (ICTR), established in November 1994 in Arusha, Tanzania, indicted 93 individuals and convicted 62', type: 'legal' },
      { date: '1998', event: 'In the landmark Akayesu case (1998), the ICTR for the first time in international law defined rape as an act of genocide when committed with intent to destroy an ethnic group', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Hutu Extremist Government', role: 'Directed systematic genocide of 800,000+ Tutsis in 100 days in 1994', status: 'convicted', notes: 'ICTR convicted 93 individuals including PM Jean Kambanda (life sentence)' }
+
+    ],
   },
   'rohingya-genocide': {
     title: 'Rohingya Genocide in Myanmar',
@@ -1569,6 +1813,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021-02-01', event: 'The February 2021 military coup in Myanmar, led by Min Aung Hlaing himself, has further eliminated any prospect of justice or accountability', type: 'default' },
      { date: '2024', event: 'As of 2024, approximately 960,000 Rohingya refugees remain in overcrowded camps in Cox\'s Bazar, Bangladesh, with no prospect of safe return', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Myanmar Military / Min Aung Hlaing', role: 'Directed ethnic cleansing campaign against Rohingya Muslims killing thousands and displacing 740,000+', status: 'charged', notes: 'ICC authorized investigation. ICJ ordered Myanmar to prevent genocide. Military coup in 2021.' }
+
+    ],
   },
   'robinhood-gamestop-market-manipulation': {
     title: 'Robinhood and the GameStop Market Manipulation',
@@ -1605,6 +1855,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2021-06-01', event: 'Robinhood paid $70 million in FINRA fines in June 2021 (the largest FINRA fine ever at that time) for widespread harm to customers including misleading information, system outages, and options trad', type: 'financial' },
      { date: '2022-05-01', event: 'Melvin Capital eventually closed in May 2022 after cumulative losses of over $12 billion', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Robinhood/Vlad Tenev', role: 'Restricted buying of meme stocks while allowing selling, effectively crashing prices', status: 'pending', notes: 'Congressional investigation found DTCC margin requirements drove decision. $70M FINRA fine for misleading customers.' }
+
+    ],
   },
   'religious-institution-abuse-cover-ups': {
     title: 'Religious Institution Abuse and Systematic Cover-Ups',
@@ -1644,6 +1900,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2022', event: 'BEYOND CATHOLICISM: SOUTHERN BAPTISTS AND OTHERS: The Southern Baptist Convention\'s 2022 independent investigation revealed that SBC leaders had maintained a secret list of 703 pastors and other le...', type: 'default' },
      { date: '2023', event: 'A 2023 Maryland Attorney General investigation found abuse of over 600 children by 156 Catholic clergy', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Religious Institutions (Multiple)', role: 'Systematic cover-up of sexual abuse in Catholic Church, Southern Baptist Convention, and other organizations', status: 'charged', notes: 'Catholic Church: 330,000+ victims in France alone. SBC report documented 700+ abusers. Institutional protection of perpetrators.' }
+
+    ],
   },
   'real-estate-housing-crisis-exploitation': {
     title: 'Real Estate Industry Housing Crisis and Corporate Exploitation',
@@ -1678,6 +1940,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2023', event: 'Homelessness has reached crisis levels with 582,000 Americans unhoused on any given night in 2023, a 12% increase from the prior year and the highest level since tracking began.', type: 'critical' },
      { date: '2024-08', event: 'In August 2024, the DOJ filed suit against RealPage, alleging the software facilitated price-fixing affecting millions of renters.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Blackstone Group', role: 'Largest corporate landlord buying homes after 2008 crisis, driving up rents', status: 'pending', notes: 'Purchased 80,000+ homes at distressed prices. UN criticized impact on housing.' }
+
+    ],
   },
   'railroad-deregulation-safety': {
     title: 'Railroad Deregulation and Safety Collapse',
@@ -1715,6 +1983,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2023-02-03', event: 'On February 3, 2023, a Norfolk Southern train carrying hazardous materials derailed in East Palestine, Ohio, releasing vinyl chloride, butyl acrylate, and other toxins', type: 'default' },
      { date: '2024', event: 'Meanwhile, the industry successfully lobbied against a proposed rule requiring two-person train crews, with the final rule in 2024 largely preserving the status quo for existing operations', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Class I Railroads (Norfolk Southern, BNSF, etc.)', role: 'Prioritized profits over safety through precision scheduled railroading; cut workforce and maintenance', status: 'charged', notes: 'East Palestine derailment highlighted safety cuts. FRA found railroads reduced inspection personnel 20%.' }
+
+    ],
   },
   'robocall-fraud-epidemic': {
     title: 'Robocall Fraud Epidemic',
@@ -1751,6 +2025,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '2024', event: 'Industry trackers estimate that Americans received over 50 billion robocalls in 2024, roughly 150 calls per person per year', type: 'political' },
      { date: '2024', event: 'Operation Disconnect, a 2024 joint international enforcement sweep, shut down several major call centers but barely dented overall volume', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'AT&T', role: 'Participated in NSA warrantless surveillance and enabled mass data collection', status: 'settled', notes: 'EFF lawsuit revealed AT&T routed traffic through NSA monitoring facilities.' },
+
+      { name: 'Comcast', role: 'Monopolistic practices and lobbying against net neutrality', status: 'charged', notes: 'FCC fined repeatedly. Spent $160M+ lobbying since 2000.' }
+
+    ],
   },
   'red-summer-1919-racial-massacres': {
     title: 'Red Summer 1919: The Nationwide Campaign of Racial Massacres',
@@ -1792,6 +2074,14 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1922', event: 'The Chicago Commission on Race Relations, established afterward, produced a landmark 1922 report documenting systematic failures of police protection and active police participation in anti-Black v', type: 'default' },
      { date: '1923', event: 'Dempsey (1923) that mob-dominated trials violated the Due Process Clause of the Fourteenth Amendment, one of the first times the Court applied due process protections to state criminal proceedings', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'radium-girls-industrial-poisoning': {
     title: 'The Radium Girls: Corporate Murder Through Industrial Poisoning (1917-1938)',
@@ -1837,6 +2127,12 @@ const investigations_r: Record<string, InvestigationData> = {
      { date: '1949', event: 'Their fight led to the establishment of new occupational safety standards: in 1949, the Atomic Energy Commission set the first regulatory body burden limit for radium in the human body (0.', type: 'default' },
      { date: '1970', event: 'Their case was a key catalyst for the passage of workers compensation laws that incorporated occupational disease coverage, the creation of the Occupational Safety and Health Administration (OSHA)', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Atomic Energy Commission', role: 'Secret radiation experiments on unsuspecting citizens during Cold War', status: 'pending', notes: '1994 Advisory Committee documented thousands of experiments on prisoners, patients, children without consent' }
+
+    ],
   },
   'redlining-housing-discrimination': {
  title: 'Redlining & Housing Discrimination',

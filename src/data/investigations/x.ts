@@ -36,6 +36,12 @@ const investigations_x: Record<string, InvestigationData> = {
      { date: '2015', event: 'The USA FREEDOM Act of 2015 imposed modest restrictions on bulk metadata collection of phone records but did not significantly alter the internet surveillance programs like XKeyscore that operate under Section 702.', type: 'default' },
      { date: '2024-04', event: 'The Privacy and Civil Liberties Oversight Board (PCLOB) found that the Section 702 program, which underpins much of XKeyscore\'s authority, raises "serious constitutional questions." Section 702 was reauthorized in...', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'NSA', role: 'Operated XKeyscore system enabling analysts to search virtually all internet traffic worldwide', status: 'pending', notes: 'Snowden documents showed system could intercept emails, chats, and browsing history with minimal oversight' }
+
+    ],
   },
   'forced-arbitration-consumer-rights': {
     title: 'Forced Arbitration and Consumer Rights',
@@ -72,6 +78,14 @@ const investigations_x: Record<string, InvestigationData> = {
      { date: '2022', event: 'Congress responded with the Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act of 2022, which exempted those specific claims, but left all other employment disputes subject to ma', type: 'political' },
      { date: '2022', event: 'Proposals to require arbitration transparency, expand the 2022 exemption to all employment claims, and ban pre-dispute arbitration agreements in consumer contracts have been introduced repeatedly i', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Spent millions on anti-union consultants to prevent worker organizing', status: 'charged', notes: 'NLRB found Amazon illegally interfered with union elections. Spent $4.3M on anti-union consultants.' },
+
+      { name: 'Walmart', role: 'Systematically suppressed unionization and underpaid workers', status: 'settled', notes: 'Settled wage theft lawsuits for hundreds of millions.' }
+
+    ],
   },
 };
 

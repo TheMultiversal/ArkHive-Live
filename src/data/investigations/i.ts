@@ -47,6 +47,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2020', event: 'Multiple music artists including Neil Young, Rihanna, Queen, and The Rolling Stones demand Trump stop using their copyrighted music at rallies without permission', type: 'default' },
      { date: '2024', event: 'Pattern of IP theft and contractor fraud spans five decades and continues to generate litigation; systemic abuse documented across hundreds of cases', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Chinese State-Sponsored IP Theft', role: 'Systematic theft of US intellectual property valued at $225-600B annually', status: 'charged', notes: 'DOJ China Initiative brought dozens of cases. PLA Unit 61398 indicted. Huawei prosecuted for trade secret theft.' }
+
+ ],
  },
   'iraq-war-deception': {
  title: 'Iraq War Deception',
@@ -95,6 +101,18 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2003', event: 'In his 2003 State of the Union, Bush said: "The British government has learned that Saddam Hussein recently sought significant quantities of uranium from Africa." This claim was based on forged documents.', type: 'default' },
      { date: '2003-02-05', event: 'POWELL\'S UN SPEECH: On February 5, 2003, Secretary of State Colin Powell presented the case for war to the UN Security Council.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'George W. Bush', role: 'President who launched Iraq War based on false claims of WMDs and Iraq-9/11 connection', status: 'pending', notes: 'No accountability. Senate Intelligence Committee found claims unsupported by intelligence.' },
+
+   { name: 'Dick Cheney', role: 'Vice President who pressured CIA to produce intelligence supporting Iraq invasion; pushed false uranium claims', status: 'pending', notes: 'Leaked Valerie Plame\'s CIA identity through Scooter Libby to retaliate against her husband\'s debunking.' },
+
+   { name: 'Colin Powell', role: 'Secretary of State who presented false WMD intelligence to UN Security Council on February 5, 2003', status: 'pending', notes: 'Later called it a "blot" on his record. Died 2021. Presentation included fabricated evidence.' },
+
+   { name: 'Donald Rumsfeld', role: 'Secretary of Defense who planned Iraq invasion and authorized enhanced interrogation techniques', status: 'pending', notes: 'Resigned 2006. Died 2021. No accountability for Iraq decisions.' }
+
+ ],
  },
   'iraq-sanctions': {
  title: 'Iraq Sanctions and the Death of 500,000 Children',
@@ -143,6 +161,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '1998', event: 'RESIGNATION OF UN OFFICIALS: Denis Halliday (UN Humanitarian Coordinator) resigned in 1998, calling sanctions a "violation of human rights.', type: 'political' },
      { date: '2003', event: 'LEGACY OF DEATH: The sanctions created a generation of malnourished, traumatized Iraqis, destroyed Iraq\'s middle class, and generated lasting hatred of the United States, setting conditions for the...', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+   { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+ ],
  },
   'iraq-war-profiteering': {
  title: 'Iraq and Afghanistan War Profiteering',
@@ -187,6 +213,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2011-02-14', event: 'The post-9/11 wars generated trillions in contractor profits while failing to achieve stated objectives', type: 'critical' },
      { date: '2020', event: 'Continued developments in commission on wartime contracting final report with new evidence emerging', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Bush Administration (Multiple Officials)', role: 'Launched Iraq War based on false WMD claims; war killed 200,000+ Iraqi civilians', status: 'pending', notes: 'No WMDs found. Senate Intel Committee found claims unsupported. Contractors profited billions. No accountability.' }
+
+ ],
  },
   'iraq-war': {
  title: 'Iraq War',
@@ -254,6 +286,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2011-12-18', event: 'Last U.S. combat troops withdraw from Iraq. The war killed 4,599 U.S. service members and wounded 32,000+. Total cost: $3 trillion and rising', type: 'default' },
      { date: '2014-06-29', event: 'ISIS declares its caliphate across territory in Iraq and Syria. The group\'s leadership was forged in U.S.-run detention facilities. The Iraq War\'s ultimate blowback', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Bush Administration (Multiple Officials)', role: 'Launched Iraq War based on false WMD claims; war killed 200,000+ Iraqi civilians', status: 'pending', notes: 'No WMDs found. Senate Intel Committee found claims unsupported. Contractors profited billions. No accountability.' }
+
+ ],
  },
   'iraq-war-crimes': {
  title: 'Iraq War Crimes',
@@ -315,6 +353,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2014-10-22', event: 'Four Blackwater contractors convicted for Nisour Square. Slatten receives life for first-degree murder. Three others receive 30 years each', type: 'default' },
      { date: '2020-12-22', event: 'Trump pardons all four convicted Blackwater contractors. Iraq\'s president calls it "an insult to the victims." International condemnation follows', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Bush Administration (Multiple Officials)', role: 'Launched Iraq War based on false WMD claims; war killed 200,000+ Iraqi civilians', status: 'pending', notes: 'No WMDs found. Senate Intel Committee found claims unsupported. Contractors profited billions. No accountability.' }
+
+ ],
  },
   'iran-coup-1953': {
  title: 'Iranian Coup (Operation Ajax)',
@@ -378,6 +422,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2000-04', event: 'CIA\'s internal history of the coup (authored by Donald Wilber) is declassified and published by the National Security Archive at George Washington University', type: 'default' },
      { date: '2013-08-19', event: 'On the 60th anniversary of the coup, the CIA officially acknowledges its role for the first time, releasing declassified documents through the National Security Archive', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'CIA/MI6', role: 'Orchestrated 1953 coup overthrowing democratically elected PM Mossadegh to protect British oil interests', status: 'pending', notes: 'CIA acknowledged role in 2013 declassified documents. Replaced democracy with Shah\'s dictatorship.' }
+
+ ],
  },
   'immigration-detention': {
  title: 'Immigration Detention System',
@@ -413,6 +463,16 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2003', event: 'Since 2003, over 200 have died in custody.', type: 'default' },
      { date: '2008', event: 'Subsequent developments in aclu immigration detention reveal broader systemic patterns', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'ICE/DHS', role: 'Operated detention facilities where migrants died, were abused, and children were separated from parents', status: 'pending', notes: 'DHS OIG documented systemic failures. Multiple detainee deaths under investigation.' },
+
+   { name: 'CoreCivic', role: 'Private prison company operating immigrant detention centers with documented abuse and neglect', status: 'charged', notes: 'Multiple lawsuits alleging forced labor and inadequate medical care' },
+
+   { name: 'GEO Group', role: 'Private prison company profiting from immigration detention with pattern of abuse complaints', status: 'charged', notes: 'Washington state AG sued for paying detained immigrants $1/day (forced labor)' }
+
+ ],
  },
   'icc-fugitives': {
  title: 'ICC Fugitives: War Criminals Beyond the Reach of Justice',
@@ -458,6 +518,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2023-03-17', event: 'ICC issues arrest warrant for Russian President Vladimir Putin for the war crime of deporting Ukrainian children. First warrant against a sitting UN Security Council permanent member head of state.', type: 'critical' },
      { date: '2024-05-20', event: 'ICC Prosecutor seeks arrest warrants for Israeli PM Netanyahu and Hamas leaders for war crimes in Gaza. U.S. Congressional leaders threaten sanctions against ICC. Structural impunity continues.', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },  'ice-abuses': {
  title: 'ICE Detention Abuses',
  subtitle: 'Medical neglect, sexual assault, family separation, and deaths in Immigration and Customs Enforcement custody',
@@ -507,6 +575,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2020', event: 'ICE detention facilities become COVID-19 hotspots. Detainees tear-gassed for protesting conditions. Despite court orders to reduce populations, ICE maintains high detention numbers.', type: 'default' },
      { date: '2024', event: 'CoreCivic and GEO Group continue operating 65% of ICE detention beds, earning over $3 billion annually. Both companies remain major political donors and lobbyists for stricter enforcement.', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'ICE (Immigration and Customs Enforcement)', role: 'Pattern of abuse in detention including medical neglect and family separation', status: 'charged', notes: 'Whistleblower alleged forced hysterectomies. Multiple detainee deaths documented.' }
+
+ ],
  },
   'ice-detention-deaths': {
  title: 'ICE Detention Deaths: Preventable Fatalities in Immigration Custody',
@@ -551,6 +625,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2019', event: 'A 2019 investigation by the DHS Office of Inspector General found "dangerous overcrowding" and prolonged detention in facilities designed for short-term holding', type: 'default' },
      { date: '2022', event: 'GEO Group spent over $4 million lobbying Congress in 2022 alone', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+   { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+ ],
  },
   'illinois-corruption': {
  title: 'Illinois Corruption: The Most Corrupt State in America',
@@ -592,6 +674,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2020', event: 'Blagojevich was sentenced to 14 years and served eight before his sentence was commuted by President Trump in 2020', type: 'legal' },
      { date: '2023', event: 'Alderman Ed Burke, who served for 54 years and controlled the Finance Committee, was convicted in 2023 of racketeering, bribery, and extortion for using his official position to steer business to h', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Rod Blagojevich', role: 'Illinois Governor who tried to sell Barack Obama\'s vacant Senate seat', status: 'convicted', notes: 'Convicted on 17 counts; sentenced to 14 years. Trump commuted sentence in 2020. 4th IL governor jailed.' }
+
+ ],
  },
   'immigration-tech': {
  title: 'Immigration Tech: The Surveillance-Industrial Complex at the Border',
@@ -631,6 +719,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2022-08', event: 'Anduril Industries deploys autonomous AI surveillance towers along southern border; company receives over $1 billion in government contracts', type: 'financial' },
      { date: '2023-12', event: 'BI Incorporated (GEO Group subsidiary) monitoring approximately 300,000 immigrants through ankle monitors and SmartLINK facial recognition app', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'ICE (Immigration and Customs Enforcement)', role: 'Pattern of abuse in detention including medical neglect and family separation', status: 'charged', notes: 'Whistleblower alleged forced hysterectomies. Multiple detainee deaths documented.' }
+
+ ],
  },
   'social-media-influencer-abuse': {
  title: 'Social Media Influencer Abuse',
@@ -674,6 +768,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2023-10', event: 'FTC orders Fortnite maker Epic Games to pay $520 million for child privacy violations and deceptive practices', type: 'legal' },
      { date: '2024-01', event: 'Senate Judiciary hearing features Meta, TikTok, Snap, Discord, and X CEOs testifying on child safety failures', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'influencer-scams': {
  title: 'Influencer Scams: The Billion-Dollar Fraud Economy',
@@ -712,6 +814,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2016', event: 'Core events underlying SEC Enforcement Actions first documented and brought to public attention', type: 'default' },
      { date: '2021', event: 'Subsequent developments in sec enforcement actions reveal broader systemic patterns and ongoing impact', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },  'institutional-abuse': {
  title: 'Institutional Abuse of Vulnerable Populations',
  subtitle: 'Millions of Americans in institutional care -- prisons, jails, juvenile facilities, psychiatric hospitals, nursing homes, and group homes for disabled',
@@ -752,6 +862,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2016', event: 'The FTC brought its first influencer enforcement action in 2016 against Lord & Taylor; seven years after Instagram launched.', type: 'default' },
      { date: '2023', event: 'A 2023 study by the University of Baltimore found that only 25% of paid Instagram posts included adequate disclosure.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Various Institutional Leaders', role: 'Enabled systemic abuse within institutions through cover-ups and retaliation against whistleblowers', status: 'pending', notes: 'Pattern across religious institutions, military, prisons, and care facilities. Accountability rare.' }
+
+ ],
  },
   'insurance-denials': {
  title: 'Insurance Denials: The Systematic Denial of Healthcare',
@@ -787,6 +903,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2023', event: 'Cigna\'s medical directors approved or denied claims in bulk without reading patient files, according to a 2023 ProPublica investigation', type: 'default' },
      { date: '2023', event: 'A 2023 DOL report found that insurers used more restrictive criteria for mental health claims than for medical claims in nearly every category', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Health Insurance Industry', role: 'Systematically denied valid medical claims to increase profits; used AI to auto-deny claims', status: 'charged', notes: 'CIGNA AI system denied 300,000 claims in 2 months. UnitedHealth denied claims at higher rates than competitors.' }
+
+ ],
  },
   'insys-opioid-scandal': {
  title: 'Insys Therapeutics: Bribing Doctors to Push Fentanyl',
@@ -827,6 +949,14 @@ const investigations_i: Record<string, InvestigationData> = {
         { date: '2020-06', event: 'Insys enters bankruptcy after $225 million settlement; victims receive fraction of revenues generated by the bribery scheme', type: 'financial' },
         { date: '2021-09', event: 'Over a dozen doctors who accepted Insys bribes through sham speaker programs prosecuted separately across multiple federal districts', type: 'legal' }
       ],
+
+ defendants: [
+
+   { name: 'John Kapoor', role: 'Insys Therapeutics founder/CEO who directed bribery of doctors to prescribe fentanyl spray for non-cancer patients', status: 'convicted', notes: 'Convicted of racketeering conspiracy in 2019; sentenced to 5.5 years. First pharma exec convicted of opioid crimes.' },
+
+   { name: 'Michael Babich', role: 'Insys CEO who oversaw bribery and fraud scheme', status: 'convicted', notes: 'Convicted of racketeering; sentenced to 2.5 years' }
+
+ ],
  },
   'insys-prosecutions': {
  title: 'Insys Prosecutions: Holding Pharma Executives Accountable',
@@ -865,6 +995,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2021-09', event: 'Cooperating witness Alec Burlakoff sentenced to 26 months after testimony helped secure executive convictions', type: 'legal' },
      { date: '2022-01', event: 'Insys case stands as rare exception; Purdue Pharma Sacklers, J&J, Teva executives face no criminal charges despite larger role in opioid crisis', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'John Kapoor', role: 'Insys Therapeutics founder/CEO who directed bribery of doctors to prescribe fentanyl spray for non-cancer patients', status: 'convicted', notes: 'Convicted of racketeering conspiracy in 2019; sentenced to 5.5 years. First pharma exec convicted of opioid crimes.' },
+
+   { name: 'Michael Babich', role: 'Insys CEO who oversaw bribery and fraud scheme', status: 'convicted', notes: 'Convicted of racketeering; sentenced to 2.5 years' }
+
+ ],
  },
   'intelligence-impunity': {
  title: 'Intelligence Impunity: Above the Law and Beyond Accountability',
@@ -899,6 +1037,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2002', event: 'The CIA\'s targeted killing program using drones has killed thousands of people across Pakistan, Yemen, Somalia, and other countries since 2002.', type: 'critical' },
      { date: '2013', event: 'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, collected the phone records of virtually every American, intercepted internet communications through the PRISM program, and tapped the phones...', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'insider-trading-congressional-members': {
     title: 'Insider Trading by Congressional Members',
@@ -937,6 +1083,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, Paul Pelosi purchased up to $5 million in Nvidia call options weeks before the CHIPS Act (which provided $52 billion in semiconductor subsidies) passed the House', type: 'political' },
      { date: '2022', event: 'In 2022, House Speaker Nancy Pelosi initially opposed a stock trading ban, stating that members should be free to participate in the economy', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'italian-american-mafia-modern-operations': {
     title: 'Italian-American Mafia Modern Operations',
@@ -977,6 +1131,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2021', event: 'State and local corruption provides protection: in 2021, a New York Police Department detective was convicted of leaking investigation details to the Gambino family', type: 'legal' },
      { date: '2022', event: 'The Bonanno family has been repeatedly prosecuted for heroin and fentanyl distribution; a 2022 indictment charged 14 members with running a drug trafficking network that distributed fentanyl, heroi', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'iran-contra-full-financial-trail': {
     title: 'Iran-Contra: The Full Financial Trail',
@@ -1025,6 +1185,18 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '1985-01-01', from: 'CIA-linked Contra drug networks', to: 'US cocaine market', amount: '$50,000,000', purpose: 'Kerry Committee documented Contra supply network facilitated cocaine trafficking into the US; DEA estimated tens of millions in proceeds', documented: false },
      { date: '1986-01-01', from: 'US Government (covert arms sales)', to: 'Iran (2,000 TOW + HAWK missiles)', amount: '$30,000,000', purpose: '2,000 TOW missiles and HAWK anti-aircraft missiles sold to designated state sponsor of terrorism, violating Arms Export Control Act', documented: true }
    ],
+
+    defendants: [
+
+      { name: 'Oliver North', role: 'NSC staff member who directed Iran arms sales and illegal Contra funding', status: 'convicted', notes: 'Convicted on 3 felonies in 1989; overturned on appeal due to immunized testimony. Never served prison time.' },
+
+      { name: 'John Poindexter', role: 'National Security Advisor who authorized the diversion of Iran arms sale profits to Contras', status: 'convicted', notes: 'Convicted on 5 felonies; reversed on appeal. Never served time.' },
+
+      { name: 'Caspar Weinberger', role: 'Secretary of Defense who concealed knowledge of Iran-Contra from investigators', status: 'pardoned', notes: 'Indicted on perjury/obstruction charges; pardoned by Bush Sr. on Dec 24, 1992, 11 days before trial.' },
+
+      { name: 'George H.W. Bush', role: 'Vice President with greater involvement than publicly admitted; pardoned 6 defendants as President', status: 'pardoned', notes: 'Pardoned 6 Iran-Contra figures on Christmas Eve 1992. Walsh called it "the last card in the cover-up."' }
+
+    ],
   },
   'industry-self-regulation-failures': {
     title: 'Industry Self-Regulation Failures',
@@ -1063,6 +1235,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2018-10-01', event: 'When that sensor malfunctioned on Lion Air Flight 610 (October 2018, 189 dead) and Ethiopian Airlines Flight 302 (March 2019, 157 dead), the system repeatedly pushed the nose down while pilots foug', type: 'default' },
      { date: '2021', event: 'Internal Facebook research (leaked by Frances Haugen in 2021) showed that the company knew Instagram was harmful to teen mental health but suppressed the findings', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Regulated Industries', role: 'Captured regulators through revolving door and lobbying', status: 'pending', notes: 'Pattern across FAA, SEC, EPA, FCC. Industries spend billions on lobbying.' }
+
+    ],
   },
   'industrial-water-contamination-database': {
     title: 'Industrial Water Contamination Database',
@@ -1102,6 +1280,16 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2023', event: '3M agreed to a $10.3 billion settlement in 2023 for PFAS contamination of public water systems, while DuPont and Chemours settled for $1.185 billion', type: 'political' },
      { date: '2023', event: 'In water contamination specifically, a 2023 analysis found that communities with majority non-white populations are 40% more likely to have drinking water violations than majority-white communities', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'information-environment-manipulation-tactics': {
     title: 'Information Environment Manipulation Tactics',
@@ -1143,6 +1331,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2023', event: 'An undercover investigation by journalists from The Guardian and Haaretz (2023) exposed Team Jorge, an Israeli firm that offered to manipulate elections through fake social media accounts, hacking,', type: 'political' },
      { date: '2024', event: 'The 2024 election cycle saw AI-generated audio impersonating President Biden used in robocalls to discourage voting in New Hampshire', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'inspector-general-independence-threats': {
     title: 'Inspector General Independence Threats',
@@ -1181,6 +1377,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2022', event: 'The IG Independence and Empowerment Act (passed as part of the 2022 NDAA) strengthened protections by requiring presidents to provide "substantive rationale" for IG removals (not just "loss of conf', type: 'political' },
      { date: '2023', event: 'As of 2023, 12 of 74 federal IG positions were vacant, some for over two years', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+    ],
   },
   'insurance-fraud-organized-networks': {
     title: 'Insurance Fraud Organized Networks',
@@ -1218,6 +1420,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2021', event: 'A 2021 FBI investigation in New Orleans dismantled a network that had staged over 100 accidents, generating millions in fraudulent claims', type: 'financial' },
      { date: '2022', event: 'In 2022, a Louisiana investigation led to the indictment of 42 individuals including attorneys, medical providers, and "recruiters" who paid participants $1,000-$2,000 per staged accident', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Fraudulent Actors', role: 'Consumer fraud, financial exploitation, and market manipulation', status: 'charged', notes: 'FTC received 2.4M fraud reports in 2023 with $10B in losses.' }
+
+    ],
   },
 
   'infrastructure-failures': {
@@ -1265,6 +1473,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2022', event: 'The Fern Hollow Bridge in Pittsburgh collapsed in January 2022; hours before President Biden s deregulated, isolated power system (ERCOT) that was not winterized because regulations were opposed by the energy industry.', type: 'political' },
      { date: '2022-01', event: 'The Fern Hollow Bridge in Pittsburgh collapsed in January 2022; hours before President Biden s deregulated, isolated power system (ERCOT) that was not winterized because regulations were opposed by the energy industry.', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Aging US Infrastructure', role: 'ASCE gives US infrastructure a C- grade; underfunding has led to dangerous bridges, water systems, and dams', status: 'pending', notes: 'Flint water crisis, East Palestine derailment, Jackson water crisis, I-35W bridge collapse. $2.6T infrastructure gap.' }
+
+    ],
   },
   'influencer-abuse': {
     title: "Social Media Influencer Abuse & Exploitation",
@@ -1308,6 +1522,14 @@ const investigations_i: Record<string, InvestigationData> = {
       { date: '2023-01', event: 'Logan Paul\'s CryptoZoo project exposed as fraudulent; investors lose millions', type: 'financial' },
       { date: '2024-01', event: 'Multiple state legislatures introduce child influencer protection bills modeled on Illinois law', type: 'legal' }
     ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'israel-lobby-influence': {
     title: 'Israel Lobby Influence Operations',
@@ -1344,6 +1566,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2022-11', event: 'AIPAC\'s United Democracy Project super PAC spends $30M+ in first election cycle; defeats multiple progressive candidates', type: 'financial' },
      { date: '2024-06-25', event: 'AIPAC-affiliated PAC spends $14.5M to defeat Rep. Jamaal Bowman in primary — most expensive House primary in history', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'AIPAC', role: 'Spent $100M+ to influence U.S. policy toward unconditional support for Israel', status: 'pending', notes: 'Largest foreign policy lobbying force. United Democracy Project Super PAC spent $25M in 2024 primaries.' }
+
+    ],
   },
   'iran-contra-scandal': {
     title: 'Iran-Contra Affair',
@@ -1384,6 +1612,18 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '1990-04-07', event: 'John Poindexter convicted of conspiracy, obstruction, and false statements; convictions also reversed on appeal', type: 'legal' },
      { date: '1992-12-24', event: 'President George H.W. Bush pardons six Iran-Contra participants including Caspar Weinberger; Walsh calls it a "cover-up"', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Oliver North', role: 'NSC staff member who directed Iran arms sales and illegal Contra funding', status: 'convicted', notes: 'Convicted on 3 felonies in 1989; overturned on appeal due to immunized testimony. Never served prison time.' },
+
+      { name: 'John Poindexter', role: 'National Security Advisor who authorized the diversion of Iran arms sale profits to Contras', status: 'convicted', notes: 'Convicted on 5 felonies; reversed on appeal. Never served time.' },
+
+      { name: 'Caspar Weinberger', role: 'Secretary of Defense who concealed knowledge of Iran-Contra from investigators', status: 'pardoned', notes: 'Indicted on perjury/obstruction charges; pardoned by Bush Sr. on Dec 24, 1992, 11 days before trial.' },
+
+      { name: 'George H.W. Bush', role: 'Vice President with greater involvement than publicly admitted; pardoned 6 defendants as President', status: 'pardoned', notes: 'Pardoned 6 Iran-Contra figures on Christmas Eve 1992. Walsh called it "the last card in the cover-up."' }
+
+    ],
   },
   'israel-palestine-conflict': {
     title: 'Israel-Palestine Conflict and War Crimes',
@@ -1418,6 +1658,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '1948', event: 'In 1948, Zionist forces expelled 750,000 Palestinians from their homes, destroying 531 villages.', type: 'default' },
      { date: '2000', event: 'Israeli military operations have killed over 30,000 Palestinians since 2000.', type: 'critical' }
      ],
+
+    defendants: [
+
+      { name: 'Israel Defense Forces', role: 'Military operations in Gaza causing mass civilian casualties and infrastructure destruction', status: 'charged', notes: 'ICJ found plausible genocide case (2024). ICC issued arrest warrants for Israeli PM Netanyahu and Hamas leaders.' }
+
+    ],
   },
   'indonesian-mass-killings-1965': {
     title: 'Indonesian Mass Killings of 1965-66',
@@ -1462,6 +1708,14 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2012', event: 'The 2012 documentary "The Act of Killing" by Joshua Oppenheimer exposed the impunity by having perpetrators reenact their killings on camera - participants proudly demonstrated how they strangled a', type: 'default' },
      { date: '2016', event: 'In 2016, an International People\'s Tribunal found the killings constituted crimes against humanity and that the US, UK, and Australia were complicit', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'irs-two-tier-tax-system-wealth-gap-enforcement': {
     title: 'The IRS Two-Tier Tax System: How Billionaires Pay Less Than Their Secretaries',
@@ -1505,6 +1759,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, when the Inflation Reduction Act allocated $80 billion for IRS modernization and enforcement (projected to collect $200 billion in unpaid taxes), Republicans launched a disinformation camp', type: 'political' },
      { date: '2023', event: 'However, the Fiscal Responsibility Act (2023 debt ceiling deal) clawed back $21 billion, and subsequent appropriations bills have reclaimed additional funds', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Ultra-Wealthy Individuals', role: 'Used tax avoidance schemes to pay lower rates than working families', status: 'pending', notes: 'ProPublica revealed billionaires paid near-zero effective tax rates in some years' }
+
+    ],
   },
   'insulin-pricing-scandal': {
     title: 'Insulin Pricing Scandal',
@@ -1544,6 +1804,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2023-03-01', event: 'Eli Lilly voluntarily capped its insulin at $35 in March 2023, and Novo Nordisk and Sanofi followed with similar announcements', type: 'default' },
      { date: '2026', event: 'Congressional attempts to allow Medicare to negotiate drug prices were blocked for decades until the Inflation Reduction Act permitted negotiation for a limited number of drugs beginning in 2026', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Eli Lilly, Novo Nordisk, Sanofi', role: 'Three companies controlling 90% of insulin market raised prices 1200% over 20 years from $21 to $275/vial', status: 'charged', notes: 'Senate investigation found no justification. IRA (2022) capped Medicare insulin at $35. Companies followed for private market.' }
+
+    ],
   },
   'immigration-detention-abuse': {
     title: 'Immigration Detention: Abuse, Deaths, and Profit in America\'s Shadow Prison System',
@@ -1584,6 +1850,16 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 New York Times investigation documented widespread child labor among unaccompanied minors released by ORR to sponsors who then placed them in dangerous jobs', type: 'default' },
      { date: '2025', event: 'As of 2025, approximately 1,400 families have still not been reunited', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ICE/DHS', role: 'Operated detention facilities where migrants died, were abused, and children were separated from parents', status: 'pending', notes: 'DHS OIG documented systemic failures. Multiple detainee deaths under investigation.' },
+
+      { name: 'CoreCivic', role: 'Private prison company operating immigrant detention centers with documented abuse and neglect', status: 'charged', notes: 'Multiple lawsuits alleging forced labor and inadequate medical care' },
+
+      { name: 'GEO Group', role: 'Private prison company profiting from immigration detention with pattern of abuse complaints', status: 'charged', notes: 'Washington state AG sued for paying detained immigrants $1/day (forced labor)' }
+
+    ],
   },
   'indigenous-land-rights-resource-extraction': {
     title: 'Indigenous Land Rights Violations and Resource Extraction',
@@ -1620,6 +1896,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2009', event: 'Salazar lawsuit, settled in 2009 for $3.4 billion, revealed the government could not account for $137 billion in Individual Indian Trust account revenues', type: 'legal' },
      { date: '2016', event: 'The Dakota Access Pipeline conflict at Standing Rock in 2016-2017 crystallized the ongoing struggle between Indigenous sovereignty and corporate resource extraction', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Governments and Corporations', role: 'Seized indigenous lands for resource extraction and development', status: 'pending', notes: 'Standing Rock, Line 3, Oak Flat. Treaty violations ongoing. Extractive industries on tribal lands.' }
+
+    ],
   },
   'insurance-claim-denial-schemes': {
     title: 'Health Insurance Systematic Claim Denial and Prior Authorization Abuse',
@@ -1654,6 +1936,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 OIG report found that 13% of prior authorization denials and 18% of payment denials by Medicare Advantage plans were for services that met Medicare coverage rules.', type: 'default' },
      { date: '2023', event: 'A 2023 ProPublica investigation revealed that Cigna\'s system allowed medical directors to deny 300,000 claims in 2 months without reviewing patient files.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Health Insurance Industry', role: 'Systematically denied valid medical claims to increase profits; used AI to auto-deny claims', status: 'charged', notes: 'CIGNA AI system denied 300,000 claims in 2 months. UnitedHealth denied claims at higher rates than competitors.' }
+
+    ],
   },
   'iraq-war-false-intelligence': {
     title: 'Iraq War False Intelligence: The Fabrication of WMD Claims and the Crime of Aggressive War',
@@ -1700,6 +1988,12 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2006', event: 'The Lancet study (2006) estimated excess deaths at approximately 654,000 through mid-2006', type: 'critical' },
      { date: '2007', event: 'The ORB International survey (2007) estimated over 1 million excess deaths', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Bush Administration (Multiple Officials)', role: 'Launched Iraq War based on false WMD claims; war killed 200,000+ Iraqi civilians', status: 'pending', notes: 'No WMDs found. Senate Intel Committee found claims unsupported. Contractors profited billions. No accountability.' }
+
+    ],
   },
   'ice-detention-abuses': {
  title: 'ICE Detention Abuses',
@@ -2113,6 +2407,7 @@ const investigations_i: Record<string, InvestigationData> = {
    { name: 'Richard Secord', role: 'False statements to Congress', status: 'convicted', notes: 'Pled guilty, probation' },
    { name: 'Albert Hakim', role: 'Supplementing salary of Oliver North', status: 'convicted', notes: 'Pled guilty, probation and fine' }
  ],
+
   },
   'iran-coup': {
  title: '1953 Iran Coup (Operation Ajax)',
@@ -2303,6 +2598,7 @@ const investigations_i: Record<string, InvestigationData> = {
    { name: 'Douglas Feith', role: 'DOD Inspector General found his Office of Special Plans produced "inappropriate" intelligence assessments that misled Congress and the public', status: 'charged', notes: 'No legal consequences; IG report classified findings as "inappropriate" rather than criminal' },
    { name: 'International Criminal Court', role: 'Iraq War found to constitute a war of aggression under international law, the"supreme international crime"', status: 'charged', notes: 'The U.S. does not recognize ICC jurisdiction; no international prosecution; American Service-Members\' Protection Act threatens sanctions on any country cooperating' }
  ],
+
   },
 };
 

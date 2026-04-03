@@ -33,6 +33,18 @@ const investigations_1: Record<string, InvestigationData> = {
      { date: '1980-01-01', event: 'Wall Street insider trading ring involving Ivan Boesky, Michael Milken, and others that defined an era of financial excess and regulatory', type: 'financial' },
      { date: '1986', event: 'Ivan Boesky paid $100 million in fines after admitting to insider trading in 1986.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Michael Milken', role: 'Junk bond king who orchestrated massive insider trading and securities fraud scheme at Drexel Burnham Lambert', status: 'convicted', notes: 'Pled guilty to 6 felonies in 1990; sentenced to 10 years (served 2). Fined $600M. Pardoned by Trump in 2020.' },
+
+   { name: 'Ivan Boesky', role: 'Wall Street arbitrageur who traded on inside information and cooperated with SEC', status: 'convicted', notes: 'Fined $100M in 1986; sentenced to 3 years (served 2). His cooperation brought down Milken.' },
+
+   { name: 'Dennis Levine', role: 'Merrill Lynch managing director who tipped off Boesky with inside information', status: 'convicted', notes: 'Pled guilty in 1986; sentenced to 2 years. Fined $362,000.' },
+
+   { name: 'Drexel Burnham Lambert', role: 'Investment bank that enabled Milken\'s fraud and pled guilty to securities fraud', status: 'convicted', notes: 'Pled guilty to 6 felonies; fined $650M. Filed for bankruptcy in 1990.' }
+
+ ],
  },
   '1mdb-scandal': {
  title: '1MDB Sovereign Wealth Fund Scandal',
@@ -80,6 +92,18 @@ const investigations_1: Record<string, InvestigationData> = {
      { date: 'April 2023', event: 'Roger Ng convicted at trial in Brooklyn federal court for his role in the 1MDB scheme' },
      { date: 'August 2022', event: 'Malaysian Federal Court rejects Najib\'s final appeal; 12-year sentence upheld' }
    ],
+
+ defendants: [
+
+   { name: 'Jho Low (Low Taek Jho)', role: 'Malaysian financier who orchestrated the theft of $4.5 billion from 1MDB sovereign wealth fund', status: 'charged', notes: 'Fugitive from justice; believed to be in China. DOJ filed civil forfeiture for $1.7B in assets.' },
+
+   { name: 'Najib Razak', role: 'Malaysian Prime Minister who received $681M in 1MDB funds directly into personal bank accounts', status: 'convicted', notes: 'Convicted in 2020 on 7 charges; sentenced to 12 years. Upheld on appeal.' },
+
+   { name: 'Goldman Sachs', role: 'Arranged $6.5B in bond offerings for 1MDB while ignoring red flags; executives received massive kickbacks', status: 'settled', notes: 'Paid $2.9B globally to settle charges. Former partner Tim Leissner pled guilty.' },
+
+   { name: 'Tim Leissner', role: 'Goldman Sachs partner who pled guilty to laundering 1MDB funds', status: 'convicted', notes: 'Pled guilty to conspiracy to launder money and violate FCPA. Forfeited $43.7M.' }
+
+ ],
  },
  'financial-crisis-accountability-failure': {
   title: '2008 Financial Crisis: The Greatest Accountability Failure in American History',
@@ -149,7 +173,16 @@ const investigations_1: Record<string, InvestigationData> = {
      { date: '2015-01-29', event: 'DOJ announces Holder will step down. He returns to Covington & Burling, which represents JPMorgan, Goldman, Bank of America, and other banks he declined to prosecute' },
      { date: '2018', event: 'Congress passes Economic Growth Act exempting banks with less than $250B in assets from Dodd-Frank oversight. Silicon Valley Bank and Signature Bank will fail in 2023 under relaxed rules' }
    ],
- },
+
+  defendants: [
+
+    { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+    { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+  ],
+
+},
 };
 
 export default investigations_1;

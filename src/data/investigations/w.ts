@@ -38,6 +38,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2025-01-01', event: 'Collaborative workspace feature launched allowing team-based investigation and evidence management', type: 'default' },
      { date: '2026-03-18', event: 'Platform surpasses 1,100 investigations covering government, corporate, and institutional accountability', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Systemic Corruption', role: 'The interconnected web of institutional failures documented across ArkHive', status: 'pending', notes: 'Over 1,200 investigations spanning centuries of systemic harm.' }
+
+ ],
  },
   'water-privatization': {
  title: 'Water Privatization Schemes',
@@ -100,6 +106,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021-11', event: 'Infrastructure Investment and Jobs Act allocates $55B for water infrastructure including $15B to replace lead pipes. EPA estimates 6-10 million homes still have lead service lines', type: 'political' },
      { date: '2023-05', event: 'Supreme Court in Sackett v. EPA further guts Clean Water Act, ruling wetlands must have "continuous surface connection" to navigable waters for federal protection', type: 'critical' }
      ],
+
+ defendants: [
+
+   { name: 'Private Water Companies (Nestle, Veolia, etc.)', role: 'Privatized public water systems leading to rate increases, quality failures, and access inequity', status: 'charged', notes: 'Nestle extracted millions of gallons at minimal cost. Flint, Jackson, and other crises linked to infrastructure disinvestment.' }
+
+ ],
  },
   'white-nationalism': {
  title: 'White Nationalism & Trump',
@@ -147,6 +159,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2019', event: 'EL PASO SHOOTING: In 2019, a white supremacist murdered 23 people at an El Paso Walmart targeting Latinos', type: 'critical' },
      { date: '2020', event: 'At the 2020 debate, asked to condemn the Proud Boys, he instead told them to "stand back and stand by," which they took as a rallying cry', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various White Nationalist Organizations', role: 'Domestic terrorism, racist ideology, and infiltration of law enforcement', status: 'charged', notes: 'FBI identified white supremacist extremism as top domestic terrorism threat.' }
+
+ ],
  },
   'war-profiteering': {
  title: 'War Profiteering in Iraq and Afghanistan',
@@ -193,6 +211,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2020', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' },
      { date: '2020-12', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Halliburton/KBR', role: 'Received $39.5B in Iraq/Afghanistan contracts, many no-bid, while VP Cheney held deferred compensation', status: 'settled', notes: 'DOJ settled False Claims Act cases for hundreds of millions. Whistleblowers documented fraud, waste, electrocution of troops.' }
+
+ ],
  },
   'white-nationalist-media': {
  title: 'White Nationalist Media Ecosystem',
@@ -240,6 +264,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2022-05-14', event: 'Buffalo Tops supermarket shooting kills 10 Black shoppers; shooter cited replacement theory in 4chan manifesto', type: 'critical' },
      { date: '2023-04-24', event: 'Tucker Carlson fired from Fox News after promoting great replacement theory over 400 times on air', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various White Nationalist Organizations', role: 'Domestic terrorism, racist ideology, and infiltration of law enforcement', status: 'charged', notes: 'FBI identified white supremacist extremism as top domestic terrorism threat.' }
+
+ ],
  },
   'who-china': {
  title: 'WHO-China Relationship Controversy',
@@ -281,6 +311,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2020-01', event: 'In January 2020, WHO praised China\'s "transparency" and "commitment to sharing information" while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
      { date: '2020-03-11', event: 'WHO waited until March 11, 2020 to declare COVID-19 a pandemic, weeks after it had clearly met criteria.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'wuhan-lab': {
  title: 'Wuhan Institute of Virology Investigation',
@@ -322,6 +360,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2019-09', event: 'WIV took its virus database offline in September 2019, before the pandemic.', type: 'default' },
      { date: '2019-11', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'war-crimes': {
  title: 'War Crimes Without Accountability',
@@ -365,6 +411,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2011', event: 'Geneva Conventions — initial events and core patterns documented', type: 'default' },
      { date: '2020', event: 'Continued developments in geneva conventions with new evidence emerging', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Multiple State Actors', role: 'Documented war crimes and crimes against humanity across multiple conflicts globally', status: 'charged', notes: 'ICC has issued 20+ arrest warrants. Accountability gap remains enormous. Great power immunity persists.' }
+
+ ],
  },
   'wall-street-bailout': {
  title: '2008 Wall Street Bailout',
@@ -400,6 +452,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2008-01-01', event: 'After banks crashed the economy through fraud and recklessness, they received $700 billion in taxpayer bailouts', type: 'critical' },
      { date: '2011', event: 'The 2011 Occupy Wall Street movement emerged from rage at bailout injustice.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Wall Street Banks (Systematic)', role: 'Banks whose reckless behavior caused 2008 crisis received $700B+ bailout while taxpayers suffered', status: 'settled', notes: 'Banks paid $150B+ in total penalties but no top executives jailed. TARP was repaid with interest.' }
+
+ ],
  },
   'worldcom-fraud': {
  title: 'WorldCom Fraud',
@@ -439,6 +497,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2005-03-15', event: 'Bernie Ebbers convicted of fraud, conspiracy, and filing false reports; sentenced to 25 years in federal prison', type: 'legal' },
      { date: '2005-04-20', event: 'WorldCom reorganizes as MCI Inc. and exits bankruptcy; later acquired by Verizon', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Bernard Ebbers', role: 'WorldCom CEO who directed $11 billion accounting fraud; largest in US history at the time', status: 'convicted', notes: 'Convicted on 9 counts; sentenced to 25 years. Released on compassionate release 2020; died 2020.' },
+
+   { name: 'Scott Sullivan', role: 'WorldCom CFO who executed the accounting fraud that concealed $11B in expenses', status: 'convicted', notes: 'Pled guilty; sentenced to 5 years as cooperating witness' }
+
+ ],
  },
   'wagner-crimes': {
  title: 'Wagner Group Crimes: Russia\'s Murder-for-Hire Mercenary Army',
@@ -486,6 +552,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2023-06-01', event: 'In June 2023, Prigozhin launched and then abruptly halted a mutiny against Russian military leadership, marching Wagner forces to within 200 kilometers of Moscow before standing down', type: 'default' },
      { date: '2023-08-23', event: 'Two months later, on August 23, 2023, Prigozhin was killed when his private jet exploded over Russia\'s Tver region', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Wagner Group / Yevgeny Prigozhin', role: 'Russian mercenary group committed war crimes in Syria, Libya, Mali, Central African Republic, and Ukraine', status: 'charged', notes: 'Documented executions, beheadings, and civilian massacres. Prigozhin killed in August 2023 plane crash. US sanctioned.' }
+
+ ],
  },
   'wall-street-accountability': {
  title: 'Wall Street Accountability: Too Big to Jail',
@@ -523,6 +595,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2010', event: 'While banks received bailouts, 3.8 million families had their homes foreclosed in 2010 alone.', type: 'financial' },
      { date: '2016', event: 'The Dodd-Frank Act\'s regulatory reforms were systematically weakened through lobbying; the financial industry spent over $1.5 billion on lobbying between 2008 and 2016.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Wall Street Banks (Systematic)', role: 'Banks whose reckless behavior caused 2008 crisis received $700B+ bailout while taxpayers suffered', status: 'settled', notes: 'Banks paid $150B+ in total penalties but no top executives jailed. TARP was repaid with interest.' }
+
+ ],
  },
   'wall-street-manipulation': {
  title: 'Wall Street Market Manipulation: Rigging the Game',
@@ -561,6 +639,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2013', event: 'Foreign exchange market manipulation was exposed through a series of investigations beginning in 2013.', type: 'default' },
      { date: '2018', event: 'Subsequent developments in wall street market manipulation reveal broader systemic patterns', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+   { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+ ],
  },
   'walmart-labor': {
  title: 'Walmart Labor Abuses: The Human Cost of Low Prices',
@@ -601,6 +687,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2013', event: 'Walmart\'s global supply chain has been linked to labor abuses including the 2013 Rana Plaza factory collapse in Bangladesh that killed 1,134 garment workers', type: 'critical' },
      { date: '2020', event: 'A 2020 Government Accountability Office report found that Walmart was the top employer of SNAP (food stamp) recipients in multiple states, meaning that the world\'s largest retailer paid its workers...', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Walmart', role: 'Largest private employer in US; systematically suppressed wages and union organizing', status: 'charged', notes: 'NLRB found repeated labor law violations. Workers rely on public assistance. Walton family wealth exceeds $250B.' }
+
+ ],
  },
   'walter-scott-murder': {
  title: 'Walter Scott Murder: Shot in the Back While Running Away',
@@ -640,6 +732,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2016-12', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict).', type: 'legal' },
      { date: '2017-05', event: 'Slager then pleaded guilty to federal civil rights charges in May 2017.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Michael Slager', role: 'North Charleston, SC police officer who shot Walter Scott in the back 5 times as he ran away on April 4, 2015', status: 'convicted', notes: 'Pled guilty to federal civil rights violation; sentenced to 20 years' }
+
+ ],
  },
   'war-on-terror-abuses': {
  title: 'War on Terror Abuses: Torture, Black Sites, and Indefinite Detention',
@@ -687,6 +785,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2014', event: 'The Senate Intelligence Committee\'s 2014 torture report (6,700 pages, with a 525-page executive summary released) documented that the CIA subjected at least 119 detainees to waterboarding, sleep de...', type: 'political' },
      { date: '2024', event: 'As of 2024, 30 detainees remained, some never charged', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'George W. Bush', role: 'Authorized warrantless surveillance, enhanced interrogation, and indefinite detention after 9/11', status: 'pending', notes: 'Signed authorization for NSA warrantless wiretapping program. No legal accountability.' },
+
+   { name: 'Dick Cheney', role: 'Architect of post-9/11 War on Terror including torture program and Iraq War', status: 'pending', notes: 'Pushed for expanded executive power and "dark side" intelligence operations' }
+
+ ],
  },
   'wartime-civil-liberties': {
  title: 'Wartime Civil Liberties: How America Suspends Freedom in Times of Fear',
@@ -728,6 +834,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2001-10-26', event: 'The USA PATRIOT Act, signed October 26, 2001; just 45 days after 9/11; vastly expanded government surveillance powers', type: 'default' },
      { date: '2014', event: 'The Senate torture report was released in 2014', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Government', role: 'Suspended civil liberties during wartime from Sedition Act to PATRIOT Act', status: 'pending', notes: 'Japanese internment, McCarthyism, COINTELPRO, warrantless wiretapping. Pattern repeats with each conflict.' }
+
+ ],
  },
   'weinstein-sexual-assault': {
  title: 'Harvey Weinstein Sexual Assault & the #MeToo Movement',
@@ -770,6 +882,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2022-12-01', event: 'LOS ANGELES CONVICTION: In December 2022, a Los Angeles jury convicted Weinstein of rape and two other sexual assault charges involving an Italian model and actress', type: 'legal' },
      { date: '2024-04-01', event: 'In April 2024, the New York Court of Appeals overturned the conviction in a 4-3 decision, ruling that the trial judge improperly allowed testimony from women whose allegations were not part of the', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Harvey Weinstein', role: 'Film producer who sexually assaulted and raped dozens of women over decades', status: 'convicted', notes: 'Convicted in NY (2020) and LA (2022). NY conviction overturned on appeal 2024; retrial pending. LA conviction stands: 16 years.' }
+
+ ],
  },
   'wework-collapse': {
  title: 'WeWork Collapse: The $47 Billion Delusion',
@@ -809,6 +927,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021-10-01', event: 'WeWork finally went public through a SPAC in October 2021 at a $9 billion valuation, a fraction of its peak', type: 'political' },
      { date: '2023-11-01', event: 'The company continued to lose money and filed for bankruptcy in November 2023, listing $18.65 billion in liabilities', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Adam Neumann', role: 'WeWork founder who extracted $700M+ from company through self-dealing while inflating valuations', status: 'pending', notes: 'Received $1.7B exit package from SoftBank. WeWork went public at fraction of peak valuation and later filed for bankruptcy.' }
+
+ ],
  },
   'white-supremacist-terrorism': {
  title: 'White Supremacist Terrorism: America\'s Deadliest Domestic Threat',
@@ -851,6 +975,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2022-05', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof)', type: 'critical' },
      { date: '2023', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'White Supremacist Organizations', role: 'FBI designated domestic violent extremism as top terrorism threat; white supremacists responsible for most attacks', status: 'charged', notes: 'DHS assessment found white supremacists pose "most persistent and lethal threat." Charleston, El Paso, Buffalo, Pittsburgh, Charlottesville.' }
+
+ ],
  },
   'white-supremacist-violence': {
  title: 'White Supremacist Violence: The Ongoing Campaign of Racial Terror',
@@ -896,6 +1026,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021-01-06', event: 'The January 6, 2021 Capitol insurrection brought white supremacist violence into the seat of American government', type: 'default' },
      { date: '2022', event: 'Anti-LGBTQ+ violence reached record levels, with the 2022 Club Q shooting in Colorado Springs killing 5 people', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'White Supremacist Organizations', role: 'FBI designated domestic violent extremism as top terrorism threat; white supremacists responsible for most attacks', status: 'charged', notes: 'DHS assessment found white supremacists pose "most persistent and lethal threat." Charleston, El Paso, Buffalo, Pittsburgh, Charlottesville.' }
+
+ ],
  },
   'white-supremacy': {
  title: 'White Supremacy in America: The System, Not Just the Extremists',
@@ -937,6 +1073,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1935', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' },
      { date: '1968', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'White Supremacist Organizations', role: 'FBI designated domestic violent extremism as top terrorism threat; white supremacists responsible for most attacks', status: 'charged', notes: 'DHS assessment found white supremacists pose "most persistent and lethal threat." Charleston, El Paso, Buffalo, Pittsburgh, Charlottesville.' }
+
+ ],
  },
   'wmd-lies': {
  title: 'WMD Lies: How America Was Deceived Into the Iraq War',
@@ -980,6 +1122,18 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2005-03', event: 'Robb-Silberman Commission finds intelligence community was "dead wrong" about Iraqi WMDs.', type: 'default' },
      { date: '2008-06', event: 'Senate Intelligence Committee Phase II report finds Bush administration made public statements not supported by intelligence.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'George W. Bush', role: 'President who launched Iraq War based on false claims of WMDs and Iraq-9/11 connection', status: 'pending', notes: 'No accountability. Senate Intelligence Committee found claims unsupported by intelligence.' },
+
+   { name: 'Dick Cheney', role: 'Vice President who pressured CIA to produce intelligence supporting Iraq invasion; pushed false uranium claims', status: 'pending', notes: 'Leaked Valerie Plame\'s CIA identity through Scooter Libby to retaliate against her husband\'s debunking.' },
+
+   { name: 'Colin Powell', role: 'Secretary of State who presented false WMD intelligence to UN Security Council on February 5, 2003', status: 'pending', notes: 'Later called it a "blot" on his record. Died 2021. Presentation included fabricated evidence.' },
+
+   { name: 'Donald Rumsfeld', role: 'Secretary of Defense who planned Iraq invasion and authorized enhanced interrogation techniques', status: 'pending', notes: 'Resigned 2006. Died 2021. No accountability for Iraq decisions.' }
+
+ ],
  },
   'worker-misclassification': {
  title: 'Worker Misclassification: The Gig Economy\'s Billion-Dollar Wage Theft',
@@ -1021,6 +1175,12 @@ const investigations_w: Record<string, InvestigationData> = {
         { date: '2022-06', event: 'DOL proposes new rule to replace Trump-era independent contractor test with worker-friendly economic reality test.', type: 'default' },
         { date: '2024-03', event: 'DOL final rule on independent contractor classification takes effect, making it harder for companies to classify workers as contractors under FLSA.', type: 'default' }
       ],
+
+ defendants: [
+
+   { name: 'Uber, Lyft, DoorDash', role: 'Misclassified millions of workers as independent contractors to avoid benefits and labor protections', status: 'charged', notes: 'Multiple state AG suits. California AB5 passed. $100M+ NLRB settlement. Companies spent $200M+ on Prop 22.' }
+
+ ],
  },
   'wire-fraud-transnational-networks': {
     title: 'Wire Fraud Transnational Networks',
@@ -1057,6 +1217,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2022', event: 'THE ROMANCE SCAM INDUSTRY: Romance scams; in which criminals build fake romantic relationships to extract money; generated $1.3 billion in reported losses in 2022 per the FTC', type: 'political' },
      { date: '2023', event: 'The FBI\'s IC3 recorded $2.9 billion in BEC losses in 2023', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'AT&T', role: 'Participated in NSA warrantless surveillance and enabled mass data collection', status: 'settled', notes: 'EFF lawsuit revealed AT&T routed traffic through NSA monitoring facilities.' },
+
+      { name: 'Comcast', role: 'Monopolistic practices and lobbying against net neutrality', status: 'charged', notes: 'FCC fined repeatedly. Spent $160M+ lobbying since 2000.' }
+
+    ],
   },
   'war-profiteering-iraq-afghanistan': {
     title: 'War Profiteering Iraq Afghanistan',
@@ -1094,6 +1262,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2020-12', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020.', type: 'legal' },
      { date: '2021-08', event: 'The Afghan military; trained and equipped at a cost of $88 billion; collapsed in 11 days when the Taliban advanced in August 2021, abandoning $7.1 billion in U.S.-supplied equipment.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Halliburton/KBR', role: 'Received $39.5B in Iraq/Afghanistan contracts, many no-bid, while VP Cheney held deferred compensation', status: 'settled', notes: 'DOJ settled False Claims Act cases for hundreds of millions. Whistleblowers documented fraud, waste, electrocution of troops.' }
+
+    ],
   },
   'wall-street-capture-of-sec': {
     title: 'Wall Street Capture of SEC',
@@ -1130,6 +1304,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2008', event: 'THE 2008 CRISIS AND NON-PROSECUTION: The 2008 financial crisis; caused by systematic fraud in mortgage origination, securitization, and credit ratings; resulted in $17.', type: 'political' },
      { date: '2008', event: 'JPMorgan has paid over $40 billion in regulatory fines since 2008 without any senior executive being charged', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+      { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+    ],
   },
   'whistleblower-retaliation-systematic': {
     title: 'Whistleblower Retaliation Systematic',
@@ -1163,6 +1345,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2010', event: 'The Dodd-Frank Act\'s SEC whistleblower program (created in 2010) has improved financial incentives for securities fraud whistleblowers; but retaliation protections remain weak.', type: 'default' },
      { date: '2020', event: 'Continued developments in government accountability project with new evidence emerging', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Systematically retaliated against whistleblowers who exposed government wrongdoing', status: 'pending', notes: 'Snowden charged under Espionage Act. Reality Winner imprisoned. Thomas Drake prosecuted then acquitted. Chelsea Manning imprisoned.' }
+
+    ],
   },
   'wrongful-convictions-systemic-crisis': {
     title: 'Wrongful Convictions Systemic Crisis',
@@ -1198,6 +1386,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2009', event: 'A landmark 2009 National Academy of Sciences report found that most forensic disciplines; including bite mark analysis, hair microscopy, firearm tool mark analysis, and arson investigation', type: 'default' },
      { date: '2020', event: 'A 2020 ProPublica investigation found over 2,000 cases in which courts found Brady violations; in fewer than 1% of cases did prosecutors face any professional discipline', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'US Criminal Justice System', role: 'Over 3,400 exonerations documented since 1989; average exoneree served 8.7 years for crimes they didn\'t commit', status: 'pending', notes: 'Innocence Project documented false confessions, bad forensic science, and eyewitness misidentification as leading causes' }
+
+    ],
   },
   'whistleblower-prosecution-timeline': {
     title: 'Whistleblower Prosecution Timeline',
@@ -1235,6 +1429,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2013-06-01', event: 'EDWARD SNOWDEN: In June 2013, Edward Snowden, an NSA contractor working for Booz Allen Hamilton, provided journalists at The Guardian, The Washington Post, and other outlets with thousands of class', type: 'default' },
      { date: '2024-06-01', event: 'Assange reached a plea agreement in June 2024 after spending 5 years in Belmarsh Prison in the UK', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Systematically retaliated against whistleblowers who exposed government wrongdoing', status: 'pending', notes: 'Snowden charged under Espionage Act. Reality Winner imprisoned. Thomas Drake prosecuted then acquitted. Chelsea Manning imprisoned.' }
+
+    ],
   },
   'waste-management-organized-crime-ties': {
     title: 'Waste Management Organized Crime Ties',
@@ -1268,6 +1468,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1999', event: 'James "Jimmy Brown" Failla, a Gambino captain, was the acknowledged "boss" of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his death in 1999.', type: 'critical' },
      { date: '2002', event: 'Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking the organized crime cartel in the waste industry.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'wire-transfer-fraud-international-corridors': {
     title: 'Wire Transfer Fraud International Corridors',
@@ -1300,6 +1506,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2012', event: 'HSBC paid $1.9 billion in 2012 for laundering hundreds of millions for Mexican drug cartels; the bank processed $881 million in drug money through its U.S.', type: 'financial' },
      { date: '2023', event: 'Chainalysis estimated that $22.2 billion in cryptocurrency was received by illicit addresses in 2023.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'AT&T', role: 'Participated in NSA warrantless surveillance and enabled mass data collection', status: 'settled', notes: 'EFF lawsuit revealed AT&T routed traffic through NSA monitoring facilities.' },
+
+      { name: 'Comcast', role: 'Monopolistic practices and lobbying against net neutrality', status: 'charged', notes: 'FCC fined repeatedly. Spent $160M+ lobbying since 2000.' }
+
+    ],
   },
   'workplace-monitoring-technology-growth': {
     title: 'Workplace Monitoring Technology Growth',
@@ -1335,6 +1549,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
      { date: '2023', event: 'A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'water-treatment-chemical-health-effects': {
     title: 'Water Treatment Chemical Health Effects',
@@ -1379,6 +1601,16 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2024', event: 'The EPA finalized a revised Lead and Copper Rule Improvements (LCRI) in 2024 requiring all lead service lines be replaced within 10 years', type: 'political' },
      { date: '2024-04-01', event: 'The EPA finalized the first-ever federal PFAS drinking water standard in April 2024; setting limits of 4 parts per trillion for PFOA and PFOS', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
 
   'world-bank': {
@@ -1417,6 +1649,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2015', event: 'Former chief economist Joseph Stiglitz criticized the Bank FORCED DISPLACEMENT: A 2015 ICIJ investigation found that World Bank-funded projects displaced an estimated 3.4 million people in the decade ending 2014.', type: 'financial' },
      { date: '2021', event: 'Between 2015 and 2021, the Bank Group provided over $14 billion in financing for fossil fuels, according to analysis by the Big Shift Campaign.', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'World Bank', role: 'Funded projects that displaced millions and caused environmental destruction in developing nations', status: 'pending', notes: 'Internal review found $18B in projects linked to forced displacement. Structural adjustment programs deepened poverty.' }
+
+    ],
   },
   'war-on-drugs-mass-incarceration': {
     title: 'The War on Drugs: America\'s Longest War Against Its Own Citizens',
@@ -1458,6 +1696,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2004', event: 'Webb committed suicide in 2004', type: 'default' },
      { date: '2010', event: 'The Fair Sentencing Act of 2010 reduced the ratio to 18:1 - still not equal - and was not made retroactive until the First Step Act of 2018', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (Multiple Administrations)', role: 'War on Drugs disproportionately targeted Black and Latino communities despite equal usage rates', status: 'pending', notes: 'Nixon aide admitted war on drugs targeted Black people and antiwar left. 1 in 3 Black men will be imprisoned.' }
+
+    ],
   },
   'weapons-industry-revolving-door': {
     title: 'The Military-Industrial Complex: War Profiteering and the Revolving Door',
@@ -1495,6 +1739,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021', event: 'THE REVOLVING DOOR: A 2021 study by the Government Accountability Project found that over 600 former senior DOD officials, including 25 former generals and admirals, had registered as lobbyists or', type: 'default' },
      { date: '2024', event: 'As of 2024, the F-35 had over 800 unresolved deficiencies', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Defense Industry', role: 'Arms manufacturers spent $2.5B on lobbying (2000-2020); 80% of senior DOD officials join defense firms', status: 'pending', notes: 'Revolving door between Pentagon and contractors documented by POGO. Top 5 firms received $160B in 2023.' }
+
+    ],
   },
   'wells-fargo-fake-accounts-scandal': {
     title: 'Wells Fargo Fake Accounts Scandal',
@@ -1537,6 +1787,16 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2020', event: 'The OCC barred him from the banking industry for life in January 2020 and fined him $17.5 million personally', type: 'financial' },
      { date: '2025', event: 'The Fed\'s asset cap remains in place as of 2025, the longest such restriction ever imposed on a major bank', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Wells Fargo', role: 'Created 3.5 million+ fake customer accounts to meet sales targets', status: 'settled', notes: 'Paid $3B DOJ/SEC settlement; $1.7B CFPB fine (2022 largest ever). OCC asset cap still in place.' },
+
+      { name: 'John Stumpf', role: 'CEO who oversaw fake accounts scandal and initially blamed "bad employees"', status: 'settled', notes: 'Fined $17.5M by OCC; barred from banking industry. Paid $2.5M SEC settlement.' },
+
+      { name: 'Carrie Tolstedt', role: 'Head of community banking division where fake accounts were created', status: 'settled', notes: 'OCC fined her $25M and banned from banking. Pled guilty to obstruction charge in 2024.' }
+
+    ],
   },
   'wage-theft-americas-largest-theft': {
     title: 'Wage Theft: America\'s Largest Theft',
@@ -1570,6 +1830,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2009', event: 'A landmark 2009 survey of over 4,000 low-wage workers in three cities found that 26% were paid less than minimum wage, 76% of overtime-eligible workers were not paid the required overtime rate, and 70% of tipped', type: 'financial' },
      { date: '2014', event: 'Subsequent developments in economic policy institute reveal broader systemic patterns', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Spent millions on anti-union consultants to prevent worker organizing', status: 'charged', notes: 'NLRB found Amazon illegally interfered with union elections. Spent $4.3M on anti-union consultants.' },
+
+      { name: 'Walmart', role: 'Systematically suppressed unionization and underpaid workers', status: 'settled', notes: 'Settled wage theft lawsuits for hundreds of millions.' }
+
+    ],
   },
   'worldcom-accounting-fraud': {
     title: 'WorldCom: $11 Billion Accounting Fraud That Destroyed Telecom Giant',
@@ -1610,6 +1878,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2004', event: 'in 2004 and was subsequently acquired by Verizon in 2006', type: 'default' },
      { date: '2005-03-01', event: 'Bernie Ebbers was convicted on all counts in March 2005 -- securities fraud, conspiracy, and seven counts of filing false statements with the SEC -- and sentenced to 25 years in federal prison', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Bernard Ebbers', role: 'WorldCom CEO who directed $11 billion accounting fraud; largest in US history at the time', status: 'convicted', notes: 'Convicted on 9 counts; sentenced to 25 years. Released on compassionate release 2020; died 2020.' },
+
+      { name: 'Scott Sullivan', role: 'WorldCom CFO who executed the accounting fraud that concealed $11B in expenses', status: 'convicted', notes: 'Pled guilty; sentenced to 5 years as cooperating witness' }
+
+    ],
   },
   'wirecard-german-fraud': {
     title: 'Wirecard: $2 Billion Missing in Germany\'s Biggest Corporate Fraud',
@@ -1651,6 +1927,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2021', event: 'The German government passed the FISG (Financial Market Integrity Strengthening Act) in 2021, giving BaFin new powers and imposing stronger requirements on auditors', type: 'default' },
      { date: '2022-12-01', event: 'Braun\'s criminal trial began in Munich in December 2022, with charges of commercial gang fraud, market manipulation, breach of trust, and accounting fraud', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Markus Braun', role: 'Wirecard CEO who oversaw €1.9B accounting fraud that collapsed the company in 2020', status: 'charged', notes: 'Arrested June 2020. Criminal trial began December 2022 in Munich. Ongoing.' },
+
+      { name: 'Jan Marsalek', role: 'Wirecard COO who allegedly masterminded the fraud and had ties to Russian intelligence', status: 'charged', notes: 'Fugitive since June 2020; believed to be in Russia under GRU protection. Interpol red notice issued.' }
+
+    ],
   },
   'water-privatization-crisis': {
     title: 'Water Privatization: When Corporations Control a Human Right',
@@ -1688,6 +1972,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2020', event: 'THE COST OF PRIVATE WATER: A 2020 analysis by Food & Water Watch found that private water companies charge 59% more on average than publicly owned systems of comparable size', type: 'financial' },
      { date: '2023', event: 'American Water Works, the largest private water utility, reported $3.7 billion in revenue in 2023 with strong profit margins', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Private Water Companies (Nestle, Veolia, etc.)', role: 'Privatized public water systems leading to rate increases, quality failures, and access inequity', status: 'charged', notes: 'Nestle extracted millions of gallons at minimal cost. Flint, Jackson, and other crises linked to infrastructure disinvestment.' }
+
+    ],
   },
   'wage-theft-worker-exploitation': {
     title: 'Wage Theft: The Largest Form of Property Crime in America',
@@ -1721,6 +2011,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '1948', event: 'Despite the scale, enforcement is minimal: the Department of Labor\'s Wage and Hour Division has fewer investigators than at any time since 1948, even as the workforce has more than doubled.', type: 'default' },
      { date: '2009', event: 'A 2009 landmark study of 4,387 workers in Chicago, Los Angeles, and New York found that 26% of low-wage workers were paid less than the minimum wage, 76% were not paid the legally required overtime rate, and 17%', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Spent millions on anti-union consultants to prevent worker organizing', status: 'charged', notes: 'NLRB found Amazon illegally interfered with union elections. Spent $4.3M on anti-union consultants.' },
+
+      { name: 'Walmart', role: 'Systematically suppressed unionization and underpaid workers', status: 'settled', notes: 'Settled wage theft lawsuits for hundreds of millions.' }
+
+    ],
   },
   'water-infrastructure-crisis': {
     title: 'American Water Infrastructure Crisis and Lead Contamination',
@@ -1758,6 +2056,16 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2022', event: 'Jackson, Mississippi became the face of infrastructure collapse in 2022 when the O.B', type: 'critical' },
      { date: '2024', event: 'The EPA\'s 2024 Lead and Copper Rule Improvements require water systems to replace all lead service lines within 10 years, but funding shortfalls and workforce limitations make compliance uncertain', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'whistleblower-retaliation-patterns': {
     title: 'Whistleblower Retaliation Patterns',
@@ -1792,6 +2100,12 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2012', event: 'The Dodd-Frank financial whistleblower program has been remarkably successful at generating tips, paying out over $2.2 billion in awards since 2012, but the protection against retaliation exists primarily in theory.', type: 'financial' },
      { date: '2017', event: 'Subsequent developments in the wilmington massacre and coup of 1898 reveal broader systemic patterns', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Systematically retaliated against whistleblowers who exposed government wrongdoing', status: 'pending', notes: 'Snowden charged under Espionage Act. Reality Winner imprisoned. Thomas Drake prosecuted then acquitted. Chelsea Manning imprisoned.' }
+
+    ],
   },
   'wilmington-massacre-coup-1898': {
     title: 'The Wilmington Massacre and Coup of 1898: The Only Successful Overthrow of an Elected Government in American History',
@@ -1832,6 +2146,14 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2000', event: 'Only in 2000 did the state legislature commission the 1898 Wilmington Race Riot Commission, whose 480-page report (published in 2006) finally documented the events as a planned coup and massacre', type: 'critical' },
      { date: '2006', event: 'In 2006, a historical marker was placed at the site of The Daily Record', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'waco-siege': {
  title: 'Waco Siege',
@@ -2063,6 +2385,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'Crack/Powder Disparity', role: 'Racially discriminatory sentencing', status: 'charged', notes: 'Reduced from 100:1 to 18:1 in 2010; still not equal' },
    { name: '45+ million Americans', role: 'Drug offenses', status: 'incarcerated', notes: 'Arrested and processed. Millions imprisoned. Families destroyed. Communities devastated.' }
  ],
+
   },
   'water-contamination-nationwide': {
  title: 'Nationwide Water Contamination',
@@ -2321,6 +2644,7 @@ const investigations_w: Record<string, InvestigationData> = {
    { name: 'Wells Fargo (auto insurance)', role: 'Unauthorized auto insurance charges on 800,000+ customers', status: 'charged', notes: '$386M in refunds and remediation' },
    { name: 'Wells Fargo (mortgage)', role: 'Improper mortgage rate-lock fees and denials', status: 'charged', notes: 'Part of $1B 2018 settlement' }
  ],
+
   },
   'whistleblower-persecution': {
  title: 'Whistleblower Persecution',

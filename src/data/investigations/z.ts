@@ -52,6 +52,14 @@ const investigations_z: Record<string, InvestigationData> = {
       { date: '1997-05-16', event: 'Mobutu flees as Kabila\'s forces take Kinshasa; dies of prostate cancer in Morocco on September 7, 1997, leaving a country in ruins and $5 billion in stolen assets', type: 'political' },
       { date: '2001-11-16', event: 'Swiss authorities freeze Mobutu family accounts but most stolen assets had already been transferred; billions remain unrecovered decades later', type: 'financial' }
     ],
+
+    defendants: [
+
+      { name: 'Mobutu Sese Seko', role: 'Dictator who looted $5B from Zaire while supported by U.S. and Western governments', status: 'pending', notes: 'Ruled 1965-1997 with U.S./CIA backing. Embezzled $5B. Country remained impoverished. Died in exile 1997.' },
+
+      { name: 'CIA', role: 'Supported Mobutu dictatorship as Cold War anti-communist ally', status: 'pending', notes: 'CIA helped install Mobutu after assassination of Patrice Lumumba. Provided decades of military and financial support.' }
+
+    ],
   },
   'zero-dark-thirty-torture-debate': {
     title: 'Zero Dark Thirty and the Torture Debate',
@@ -98,6 +106,14 @@ const investigations_z: Record<string, InvestigationData> = {
       { date: '2014-12-09', event: 'Senate Intelligence Committee releases 500-page executive summary of its 6,700-page torture report, finding "enhanced interrogation was not effective in acquiring intelligence"', type: 'legal' },
       { date: '2015-06-02', event: 'CIA Inspector General investigation into tape destruction finds "insufficient evidence" to prosecute despite clear violation of preservation orders', type: 'legal' }
     ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'zuckerberg-meta-surveillance': {
     title: 'Zuckerberg and Meta\'s Surveillance Empire',
@@ -135,6 +151,14 @@ const investigations_z: Record<string, InvestigationData> = {
       { date: '2021-10-05', event: 'Whistleblower Frances Haugen testifies before Senate with internal documents showing Facebook knew Instagram harmed teen mental health but suppressed findings', type: 'political' },
       { date: '2022-02-02', event: 'Meta stock crashes 26% in single day after revelations about declining user growth; company continues expanding data collection through VR headsets and smart glasses', type: 'financial' },
       { date: '2024-01-01', event: '48 state attorneys general and FTC pursue antitrust action against Meta; European regulators levy additional billions in fines under GDPR for systematic privacy violations', type: 'legal' }
+    ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
     ],
   },
 };

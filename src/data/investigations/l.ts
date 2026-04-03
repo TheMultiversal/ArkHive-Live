@@ -49,6 +49,14 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2019-11-01', event: 'WIV researchers reportedly fell ill with COVID-like symptoms in November 2019', type: 'default' },
      { date: '2021', event: 'WHO INVESTIGATION: The WHO\'s initial investigation in 2021 was compromised by Chinese government control and included Daszak despite his conflicts of interest', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'libya-mercenaries': {
  title: 'Libya Intervention and Aftermath',
@@ -93,6 +101,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2012-09-11', event: 'BENGHAZI ATTACK: On September 11, 2012, militants attacked the U.S', type: 'critical' },
      { date: '2017', event: 'SLAVE MARKETS: In 2017, CNN documented open-air slave markets in Libya where migrants were bought and sold', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Erik Prince', role: 'Proposed private military operations in Libya; Blackwater successor companies operated in region', status: 'pending', notes: 'UN report documented private military contractor involvement. Wagner Group also active. Arms embargo violations widespread.' }
+
+ ],
  },
   'lobbying-corruption': {
  title: 'K Street: The Corruption Industry',
@@ -137,6 +151,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2008', event: 'Financial industry lobbying blocked regulation before the 2008 crisis, weakened Dodd-Frank afterward, and continues shaping oversight.', type: 'financial' },
      { date: '2020', event: 'Continued developments in k street with new evidence emerging', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'K Street / Lobbying Industry', role: 'Spends $4B+ annually to influence federal policy; former members of Congress frequently become lobbyists', status: 'pending', notes: 'Revolving door: 67% of retiring members join lobbying firms. Corporate lobbying outspends public interest 34:1.' }
+
+ ],
  },
   'lion-air-610': {
  title: 'Lion Air Flight 610 Crash',
@@ -183,6 +203,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2014', event: 'Core events underlying Lion Air Flight 610 Crash first documented and brought to public attention', type: 'default' },
      { date: '2019', event: 'Subsequent developments in lion air flight 610 crash reveal broader systemic patterns and ongoing impact', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Boeing Company', role: 'Concealed MCAS system defects in 737 MAX causing Lion Air 610 and Ethiopian 302 crashes killing 346 people', status: 'settled', notes: 'Paid $2.5B deferred prosecution agreement. Victims from 35 countries.' }
+
+ ],
  },  'laquan-mcdonald-murder': {
  title: 'Laquan McDonald Murder',
  subtitle: 'On October 20, 2014, Chicago police officer Jason Van Dyke shot 17-year-old Laquan McDonald 16 times as the teenager walked away holding a small knife.',
@@ -228,6 +254,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2019', event: 'In January 2019, Judge Domenica Stephenson acquitted all three, ruling the prosecution had not proven their accounts were intentionally false, a decision that outraged civil rights advocates', type: 'legal' },
      { date: '2019', event: 'CONSENT DECREE: In January 2019, a federal consent decree was entered requiring sweeping reforms to the CPD, including new use-of-force policies, improved training, better supervision, and an indep', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Jason Van Dyke', role: 'CPD officer who shot Laquan McDonald 16 times as he walked away', status: 'convicted', notes: 'Convicted of second-degree murder in 2018; sentenced to 6 years 9 months' }
+
+ ],
  },
   'leonard-leo': {
  title: 'Leonard Leo: Architect of the Conservative Court',
@@ -264,6 +296,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2022', event: 'Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v.', type: 'default' },
      { date: '2024', event: 'Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Leonard Leo', role: 'Directed $1.6B dark money network to capture federal judiciary and Supreme Court', status: 'pending', notes: 'Subject of Senate investigation. Received largest known political donation in US history ($1.6B from Barre Seid).' }
+
+ ],
  },
   'lgbtq-discrimination': {
  title: 'LGBTQ+ Discrimination: Systematic Inequality in Law and Practice',
@@ -311,6 +349,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Trevor Project\'s 2023 survey found that 41% of LGBTQ+ young people seriously considered suicide in the past year, and those in states with anti-LGBTQ+ legislation reported higher rates of distress', type: 'political' },
      { date: '2024', event: 'By 2024, at least 25 states had enacted bans on gender-affirming care for minors, and several states criminalized providers who offered such care', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Federal and State Governments', role: 'Systematic civil rights violations through slavery, Jim Crow, and ongoing discrimination', status: 'pending', notes: 'From 1619 through present; redlining, mass incarceration, voter suppression continue.' }
+
+ ],
  },
   'labor-trafficking-in-agriculture': {
     title: 'Labor Trafficking in Agriculture',
@@ -348,6 +392,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2014', event: 'Investigations by the Los Angeles Times (2014) and The Guardian (2021) found trafficking conditions on farms supplying major U.S', type: 'default' },
      { date: '2019', event: 'In 2019, ICE raided poultry plants in Mississippi and arrested 680 workers; none of the employers were charged', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'lead-industry-crime-against-humanity': {
     title: 'Lead Industry Crime Against Humanity',
@@ -387,6 +437,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2014', event: 'The Flint, Michigan water crisis (2014-2019) exposed 100,000 residents to lead-contaminated water', type: 'default' },
      { date: '2018', event: 'Beyond neurological effects, lead exposure increases cardiovascular disease risk; a 2018 Lancet study estimated that lead exposure contributes to 412,000 premature deaths annually in the United Sta', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Lead Industries Association', role: 'Concealed evidence of lead poisoning dangers for decades while opposing regulations', status: 'settled', notes: 'Internal documents showed knowledge of dangers since 1920s. Industry fought lead paint ban until 1978.' }
+
+    ],
   },
   'license-plate-reader-mass-collection': {
     title: 'License Plate Reader Mass Surveillance',
@@ -425,6 +481,14 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 ACLU FOIA revealed that ICE had purchased access to a database of over 5 billion license plate records from Vigilant Solutions, allowing immigration agents to track the movements of any vehi', type: 'political' },
      { date: '2024', event: 'By 2024, Flock had deployed cameras in communities across all 50 states, creating a private surveillance network that is more extensive than any single government agency could build', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'local-news-desert-information-crisis': {
     title: 'Local News Desert Information Crisis',
@@ -462,6 +526,14 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2018', event: 'In 2018, Sinclair required anchors at dozens of stations to read an identical script about "fake news" and media bias; a forced political statement that went viral and raised alarm about media cons', type: 'default' },
      { date: '2023', event: 'A 2023 study found that communities that lost local news coverage experienced a 2-8% decline in voter turnout in local elections', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+      { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+    ],
   },
   'law-enforcement-social-media-monitoring': {
     title: 'Law Enforcement Social Media Monitoring',
@@ -502,6 +574,14 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2020', event: 'The DHS Office of Intelligence and Analysis produced intelligence reports during the 2020 protests that included information gathered from social media posts, some by journalists', type: 'default' },
      { date: '2021', event: 'A 2021 Georgetown Law Center report found that DHS social media monitoring programs lacked clear legal authority, adequate privacy protections, or meaningful effectiveness metrics', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'long-haul-trucking-route-exploitation': {
     title: 'Long-Haul Trucking Route Exploitation',
@@ -539,6 +619,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2020', event: 'Drug and alcohol testing catches only a fraction of impaired drivers; the FMCSA Drug and Alcohol Clearinghouse identified over 160,000 positive tests or refusals since 2020, but many drivers contin', type: 'political' },
      { date: '2023', event: 'By 2023, the median long-haul truck driver earned approximately $54,000 annually; but this figure conceals enormous variation', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
 
   'las-vegas-shooting': {
@@ -583,6 +669,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2018-12-18', event: 'Trump administration directs ATF to classify bump stocks as machine guns, effectively banning them. Rule takes effect March 2019.', type: 'legal' },
      { date: '2024-06-14', event: 'Supreme Court strikes down bump stock ban in Garland v. Cargill (6-3), ruling bump stocks do not meet statutory definition of machine gun. Dissent warns of "catastrophic consequences."', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Stephen Paddock', role: 'Killed 60 people and wounded 413 at Route 91 Harvest festival in Las Vegas on October 1, 2017', status: 'charged', notes: 'Died by suicide. Largest mass shooting in US history. No motive ever established by FBI.' }
+
+    ],
   },
   'libor-scandal': {
     title: 'LIBOR Rate Manipulation Scandal',
@@ -624,6 +716,18 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2015-05-20', event: 'Deutsche Bank pays record $2.5B settlement; five bank traders criminally convicted in parallel proceedings', type: 'legal' },
      { date: '2015-08-03', event: 'Tom Hayes (UBS/Citigroup trader) convicted of LIBOR fraud — first individual sentenced to 14 years', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Barclays', role: 'First bank to settle LIBOR manipulation charges; traders submitted false rates to benefit trading positions', status: 'settled', notes: 'Paid $453M in fines to US/UK regulators in 2012. CEO Bob Diamond resigned.' },
+
+      { name: 'UBS', role: 'Systematic LIBOR manipulation by dozens of employees across multiple currencies', status: 'settled', notes: 'Fined $1.5B by regulators in 2012; Japanese subsidiary pled guilty to wire fraud' },
+
+      { name: 'Deutsche Bank', role: 'Largest LIBOR fine; traders manipulated rates over extended period', status: 'settled', notes: 'Paid $2.5B in fines in 2015; largest LIBOR penalty' },
+
+      { name: 'Tom Hayes', role: 'UBS/Citigroup trader who was first individual convicted of LIBOR manipulation', status: 'convicted', notes: 'Convicted in UK in 2015; sentenced to 14 years (reduced to 11). Conviction overturned in 2024.' }
+
+    ],
   },
   'lead-pipes-nationwide-poisoning': {
     title: 'Lead Pipes Nationwide Poisoning',
@@ -662,6 +766,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2017', event: 'By comparison, the 2017 Tax Cuts and Jobs Act reduced federal revenue by $1.5 trillion over 10 years', type: 'default' },
      { date: '2024-10-01', event: 'The EPA finalized the Lead and Copper Rule Improvements (LCRI) in October 2024, requiring water systems to replace all lead service lines within 10 years', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Lead Industries Association', role: 'Concealed evidence of lead poisoning dangers for decades while opposing regulations', status: 'settled', notes: 'Internal documents showed knowledge of dangers since 1920s. Industry fought lead paint ban until 1978.' }
+
+    ],
   },
   'lehman-brothers-2008-financial-collapse': {
     title: 'Lehman Brothers and the 2008 Financial Collapse',
@@ -711,6 +821,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2008-10-01', from: 'US Treasury (TARP)', to: 'Wall Street banks (bailout)', amount: '$700,000,000,000', purpose: 'Emergency Economic Stabilization Act; taxpayer-funded bailout of financial institutions after Lehman collapse catalyzed crisis', documented: true },
      { date: '2013-01-01', from: 'Ernst & Young', to: 'Investor lawsuit settlement', amount: '$99,000,000', purpose: 'Ernst & Young settled for giving Lehman clean audit opinions despite knowledge of Repo 105 balance sheet manipulations', documented: true }
    ],
+
+    defendants: [
+
+      { name: 'Lehman Brothers / Dick Fuld', role: 'CEO presided over Lehman collapse ($639B bankruptcy) while using Repo 105 to hide $50B in debt', status: 'pending', notes: 'Largest bankruptcy in US history. No criminal charges. Fuld collected $500M+ in compensation pre-collapse.' }
+
+    ],
   },
   'lead-poisoning-america': {
     title: 'Lead Poisoning in America: The Century-Long Corporate Cover-Up',
@@ -754,6 +870,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2024', event: 'As of 2024, an estimated 24 million American homes still contain deteriorating lead-based paint, disproportionately in low-income communities and communities of color', type: 'financial' },
      { date: '2024', event: 'As of 2024, an estimated 9.2 million American homes receive water through lead service lines, with replacement timelines extending decades into the future', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Lead Industries Association', role: 'Concealed evidence of lead poisoning dangers for decades while opposing regulations', status: 'settled', notes: 'Internal documents showed knowledge of dangers since 1920s. Industry fought lead paint ban until 1978.' }
+
+    ],
   },
   'lobbying-dark-money-democracy-corruption': {
     title: 'Lobbying, Dark Money, and the Corruption of American Democracy',
@@ -791,6 +913,14 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2022', event: 'employs over 12,000 registered lobbyists — more than 20 for every member of Congress — and spends $4.1 billion annually (2022)', type: 'political' },
      { date: '2022', event: 'Super PACs, which can raise and spend unlimited amounts, spent $2.6 billion in the 2022 election cycle', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'plastic-recycling-fraud': {
     title: 'The Plastic Recycling Fraud',
@@ -825,6 +955,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2018', event: 'China, which accepted 70% of the world\'s plastic waste for decades, banned imports of most plastic waste in 2018 (the "National Sword" policy), exposing the fact that much of what Americans put in recycling bins was...', type: 'default' },
      { date: '2022', event: 'A UN Global Plastics Treaty, under negotiation since 2022, faces opposition from petrochemical-producing nations.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Plastics/Oil Industry', role: 'Promoted recycling as solution while knowing most plastic could never be recycled; opposed alternatives', status: 'pending', notes: 'NPR/Frontline investigation showed industry knew recycling was not viable since 1970s. Only 5-6% of plastic recycled.' }
+
+    ],
   },
   'lead-poisoning-housing-crisis': {
     title: 'Lead Poisoning Housing Crisis',
@@ -859,6 +995,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '1950', event: 'Approximately 24 million homes built before 1978 contain deteriorating lead paint, with hazards concentrated in pre-1950 housing stock in older cities.', type: 'financial' },
      { date: '1978', event: 'Despite lead paint being banned since 1978, remediation funding covers less than 1% of affected homes annually while landlords face minimal enforcement.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Lead Industries Association', role: 'Concealed evidence of lead poisoning dangers for decades while opposing regulations', status: 'settled', notes: 'Internal documents showed knowledge of dangers since 1920s. Industry fought lead paint ban until 1978.' }
+
+    ],
   },
   'lobotomy-epidemic-united-states': {
     title: 'The American Lobotomy Epidemic: How Walter Freeman Destroyed 40,000 Brains (1936-1967)',
@@ -904,6 +1046,12 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '1967-02-22', event: 'Freeman performed his last lobotomy on February 22, 1967, on Helen Mortensen, a woman he had lobotomized twice before', type: 'default' },
      { date: '1982', event: 'Romeo (1982), recognizing that institutionalized persons have a liberty interest in freedom from unreasonable bodily restraint and harm)', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+    ],
   },
   'lafayette-square': {
  title: 'Lafayette Square Incident',
@@ -1135,6 +1283,7 @@ const investigations_l: Record<string, InvestigationData> = {
    { name: 'DuPont / GM', role: 'Knowledge of TEL toxicity during development', status: 'charged', notes: 'No criminal prosecution despite documented worker deaths' },
    { name: 'Multiple Paint Companies', role: 'Baltimore, Milwaukee, St. Louis childhood lead poisoning suits', status: 'charged', notes: 'Various settlements, total industry liability fraction of harm caused' }
  ],
+
   },
   'leonard-leo-network': {
  title: 'Leonard Leo & The Dark Money Courts',

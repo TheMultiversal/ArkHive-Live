@@ -54,6 +54,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2018-01', event: 'Despite campaign rhetoric criticizing surveillance ("wiretapping" claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allows warrantless surveillance of foreign targets', type: 'political' },
      { date: '2020', event: 'PROTEST SURVEILLANCE 2020: During Black Lives Matter protests following George Floyds murder, DHS deployed RC-26 reconnaissance aircraft over Minneapolis, Washington D.C., and other cities.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'NSA/Tech Companies', role: 'Mass surveillance apparatus monitoring billions of communications globally', status: 'pending', notes: 'Snowden revelations showed complicity of Google, Apple, Microsoft, Facebook in PRISM program' }
+
+ ],
  },
   'securities-fraud': {
  title: 'Securities & Market Fraud',
@@ -105,6 +111,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2024-03-01', event: 'The stock surged 50%+ on merger approval (March 2024) despite minimal revenue ($4.1M in 2023 vs', type: 'default' },
      { date: '2025', event: 'TRUMP CRYPTO VENTURES: $TRUMP and $MELANIA meme coins launched in January 2025, extracting billions from supporters', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+   { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+ ],
  },
   'secret-agendas': {
  title: 'Secret Agendas & Covert Operations',
@@ -140,6 +154,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2012-04-19', event: 'A pattern of conducting government business in secret, hiding communications with foreign leaders, using private channels to evade oversi', type: 'default' },
      { date: '2020', event: 'Continued developments in secret agendas & covert operations with new evidence emerging', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Heritage Foundation', role: 'Authored Project 2025 to consolidate executive power and dismantle agencies', status: 'pending', notes: '920-page plan to replace civil servants with loyalists, eliminate Dept of Education.' }
+
+ ],
  },
   'sex-trafficking-network': {
  title: 'Domestic Sex Trafficking Operations',
@@ -202,6 +222,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023-02', event: 'DOJ declines to charge Matt Gaetz despite cooperating witness testimony and financial records', type: 'political' },
      { date: '2024-12', event: 'House Ethics Committee completes Gaetz investigation; Gaetz resigns from Congress before report release', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Trafficking Networks (Multiple)', role: 'High-profile sex trafficking operations exploiting vulnerable people including minors', status: 'charged', notes: 'Epstein network exposed systemic failures. R. Kelly, Larry Nassar, NXIVM cases showed institutional enablement.' }
+
+ ],
  },
   'second-impeachment': {
  title: 'Second Impeachment, Incitement of Insurrection',
@@ -259,6 +285,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023-08-01', event: 'Trump indicted by Special Counsel Jack Smith on 4 federal counts related to January 6 and efforts to overturn 2020 election', type: 'legal' },
      { date: '2024', event: 'Of the 10 Republicans who voted to impeach: 4 lost primaries, 4 retired, 1 switched parties. Cheney lost her primary by 37 points', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Impeached twice: (1) abuse of power/obstruction re: Ukraine and (2) incitement of insurrection on January 6', status: 'acquitted', notes: 'Acquitted by Senate both times. Second impeachment had 57-43 vote (bipartisan majority but below 2/3).' }
+
+ ],
  },
   'sharpiegate': {
  title: 'Sharpiegate, Hurricane Dorian',
@@ -296,6 +328,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2019', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would "most likely be hit (much) harder than anticipated" by Hurricane Dorian.', type: 'default' },
      { date: '2019-09-01', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would "most likely be hit (much) harder than anticipated" by Hurricane Dorian.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Altered official NOAA hurricane forecast map with Sharpie; pressured NOAA to support false claim Alabama was at risk from Hurricane Dorian', status: 'pending', notes: 'NOAA IG investigated. Acting NOAA chief pressured scientists to not contradict Trump. Federal law prohibits falsifying weather forecasts.' }
+
+ ],
  },
   'stop-the-steal': {
  title: 'Stop the Steal Movement',
@@ -341,6 +379,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021', event: 'On January 6, 2021, thousands stormed the Capitol seeking to stop certification.', type: 'default' },
      { date: '2021-01-06', event: 'On January 6, 2021, thousands stormed the Capitol seeking to stop certification.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Ali Alexander', role: 'Organized "Stop the Steal" rallies that culminated in January 6 Capitol attack', status: 'pending', notes: 'Cooperated with January 6 Committee. DOJ investigated. Not charged as of 2024.' }
+
+ ],
  },
   'scotus-corruption': {
  title: 'Supreme Court Ethics Scandal',
@@ -384,6 +428,16 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'Core events underlying Supreme Court Ethics Scandal first documented and brought to public attention', type: 'default' },
      { date: '2024', event: 'Subsequent developments in supreme court ethics scandal reveal broader systemic patterns', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Justice Clarence Thomas', role: 'Failed to disclose decades of luxury gifts and travel from billionaire Harlan Crow', status: 'pending', notes: 'ProPublica exposed undisclosed luxury travel, real estate deal, private school tuition from Crow. No enforcement mechanism.' },
+
+   { name: 'Justice Samuel Alito', role: 'Failed to disclose luxury fishing trip funded by billionaire Paul Singer who had cases before the Court', status: 'pending', notes: 'ProPublica exposed 2008 Alaska fishing trip. Alito refused to recuse from Singer-related cases.' },
+
+   { name: 'Harlan Crow', role: 'Billionaire Republican donor who provided decades of undisclosed gifts to Justice Thomas', status: 'pending', notes: 'Bought Thomas\'s mother\'s house; paid private school tuition for Thomas\'s grandnephew; funded luxury travel.' }
+
+ ],
  },
   'scotus-ethics': {
  title: 'Supreme Court Ethics Crisis',
@@ -431,6 +485,16 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023-11', event: 'Under pressure, the Court adopted a code of conduct in November 2023, but explicitly stated it codified existing practices and created no enforcement mechanism.', type: 'legal' }
 
    ],
+
+ defendants: [
+
+   { name: 'Justice Clarence Thomas', role: 'Failed to disclose decades of luxury gifts and travel from billionaire Harlan Crow', status: 'pending', notes: 'ProPublica exposed undisclosed luxury travel, real estate deal, private school tuition from Crow. No enforcement mechanism.' },
+
+   { name: 'Justice Samuel Alito', role: 'Failed to disclose luxury fishing trip funded by billionaire Paul Singer who had cases before the Court', status: 'pending', notes: 'ProPublica exposed 2008 Alaska fishing trip. Alito refused to recuse from Singer-related cases.' },
+
+   { name: 'Harlan Crow', role: 'Billionaire Republican donor who provided decades of undisclosed gifts to Justice Thomas', status: 'pending', notes: 'Bought Thomas\'s mother\'s house; paid private school tuition for Thomas\'s grandnephew; funded luxury travel.' }
+
+ ],
  },
   'sandy-hook-defamation': {
  title: 'Sandy Hook Defamation',
@@ -478,6 +542,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2022-08', event: 'Later, he submitted to depositions where he admitted Sandy Hook was "100% real." TEXAS VERDICT: In August 2022, a Texas jury awarded Neil Heslin and Scarlett Lewis, parents of 6-year-old Jesse Lewis, $45.', type: 'legal' },
      { date: '2022-10', event: 'In October 2022, a Connecticut jury awarded families $965 million.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Alex Jones', role: 'Infowars host who defamed Sandy Hook families by calling the massacre a hoax for years', status: 'convicted', notes: 'Found liable for defamation; ordered to pay $1.5 billion to families. Filed for bankruptcy.' }
+
+ ],
  },
   'stormy-daniels-hush-money': {
  title: 'Stormy Daniels Hush Money Scheme',
@@ -537,6 +607,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2016-10-26', from: 'Michael Cohen (personal HELOC)', to: 'Essential Consultants LLC', amount: '$130,000', purpose: 'Cohen took out home equity line of credit to fund the Daniels payment', documented: true },
      { date: '2017-01-01', from: 'Allen Weisselberg', to: 'Michael Cohen', amount: '$50,000', purpose: 'Reimbursement for tech services payments, grossed up for taxes', documented: true }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Falsified business records to conceal hush money payment to Stormy Daniels before 2016 election', status: 'convicted', notes: 'Convicted on 34 felony counts of falsifying business records in People v. Trump (2024)' },
+
+   { name: 'Michael Cohen', role: 'Arranged $130,000 hush money payment to Daniels and was reimbursed through falsified invoices', status: 'convicted', notes: 'Pled guilty to campaign finance violations and served prison time' }
+
+ ],
  },
   'seychelles-meeting': {
  title: 'Seychelles Secret Meeting',
@@ -584,6 +662,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2017-01-11', event: 'On January 11, 2017, just nine days before Trump\'s inauguration, Prince flew to the Seychelles islands in the Indian Ocean.', type: 'default' },
      { date: '2017-11', event: 'PRINCE\'S LIES: When Prince testified to the House Intelligence Committee in November 2017, he claimed the meeting was a chance encounter, lasted only one beer, and he had no plan to meet with Russians.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Erik Prince', role: 'Arranged secret Seychelles meeting between Russian and Trump transition team contacts in January 2017', status: 'pending', notes: 'Prince lied to House Intelligence Committee about the meeting. Mueller documented but did not charge.' }
+
+ ],
  },
   'special-plans': {
  title: 'Office of Special Plans',
@@ -631,6 +715,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2003-02', event: 'POWELL\'S PRESENTATION: Secretary Powell\'s February 2003 UN presentation relied partly on OSP-promoted intelligence.', type: 'default' },
      { date: '2005', event: 'Douglas Feith left government in 2005 and wrote a book defending his actions.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'sovereign-debt': {
  title: 'Sovereign Debt Exploitation',
@@ -674,6 +766,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '1970-01-01', event: 'For decades, international financial institutions and private creditors have trapped developing nations in cycles of debt that transfer w', type: 'default' },
      { date: '2025-01', event: 'The Shock Doctrine by Naomi Klein — Current status: monitoring continues with active documentation', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+   { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+ ],
  },
   'surveillance-state': {
  title: 'The Surveillance State',
@@ -720,6 +820,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2001-10-26', event: 'Patriot Act signed into law, enabling mass surveillance programs including bulk phone metadata collection under Section 215', type: 'critical' },
      { date: '2020', event: 'Continued developments in snowden documents archive with new evidence emerging', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'NSA/Tech Companies', role: 'Mass surveillance apparatus monitoring billions of communications globally', status: 'pending', notes: 'Snowden revelations showed complicity of Google, Apple, Microsoft, Facebook in PRISM program' }
+
+ ],
  },
   'serbia-bombing': {
  title: 'NATO Bombing of Serbia/Kosovo',
@@ -765,6 +871,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2003', event: 'PRECEDENT FOR IRAQ: The "humanitarian intervention" doctrine invoked for Kosovo was later used to justify the 2003 Iraq invasion', type: 'default' },
      { date: '2008', event: 'Kosovo declared independence in 2008', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+   { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+ ],
  },
   'supreme-court-corruption': {
  title: 'Supreme Court Ethics Scandal',
@@ -811,6 +925,16 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2024-01', event: 'Gallup reports Supreme Court public approval at historic lows; ethics scandals compound concerns about partisan decision-making', type: 'default' },
      { date: '2024-07', event: 'Additional reporting reveals Neil Gorsuch sold property to law firm head with cases before the court; disclosure failures extend beyond Thomas and Alito', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Justice Clarence Thomas', role: 'Failed to disclose decades of luxury gifts and travel from billionaire Harlan Crow', status: 'pending', notes: 'ProPublica exposed undisclosed luxury travel, real estate deal, private school tuition from Crow. No enforcement mechanism.' },
+
+   { name: 'Justice Samuel Alito', role: 'Failed to disclose luxury fishing trip funded by billionaire Paul Singer who had cases before the Court', status: 'pending', notes: 'ProPublica exposed 2008 Alaska fishing trip. Alito refused to recuse from Singer-related cases.' },
+
+   { name: 'Harlan Crow', role: 'Billionaire Republican donor who provided decades of undisclosed gifts to Justice Thomas', status: 'pending', notes: 'Bought Thomas\'s mother\'s house; paid private school tuition for Thomas\'s grandnephew; funded luxury travel.' }
+
+ ],
  },
   'social-media-harms': {
  title: 'Social Media Harms',
@@ -845,6 +969,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2016', event: 'Social media was a vector for foreign interference and domestic disinformation in 2016 and 2020.', type: 'default' },
      { date: '2020', event: 'Social media was a vector for foreign interference and domestic disinformation in 2016 and 2020.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Meta/Facebook, TikTok, X/Twitter, YouTube', role: 'Designed addictive platforms that harmed teen mental health and amplified extremism', status: 'charged', notes: 'Internal documents showed Instagram worsened teen mental health. 42 state AGs sued Meta in 2023.' }
+
+ ],
  },
   'social-media-privacy': {
  title: 'Social Media Privacy Violations',
@@ -882,6 +1012,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023-05', event: 'Montana becomes first state to ban TikTok; privacy concerns increasingly drive legislative action as federal comprehensive privacy law stalls', type: 'legal' },
      { date: '2024-04', event: 'FTC proposes comprehensive rule changes on commercial surveillance and data security; industry lobbying intensifies against restrictions', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Meta/Facebook, TikTok, X/Twitter, YouTube', role: 'Designed addictive platforms that harmed teen mental health and amplified extremism', status: 'charged', notes: 'Internal documents showed Instagram worsened teen mental health. 42 state AGs sued Meta in 2023.' }
+
+ ],
  },
   'sac-capital': {
  title: 'SAC Capital: The Hedge Fund Built on Insider Trading',
@@ -921,6 +1057,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2020', event: 'Cohen purchased the New York Mets for $2.4 billion in 2020', type: 'political' },
      { date: '2024', event: 'By 2024, Point72 managed approximately $30 billion', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'SAC Capital / Steven Cohen', role: 'Hedge fund with systemic insider trading culture', status: 'convicted', notes: 'SAC pled guilty in 2013; paid $1.8B penalty. Cohen banned from outside money for 2 years. Now runs Point72.' },
+
+   { name: 'Mathew Martoma', role: 'SAC portfolio manager who made $275M based on insider tip about Alzheimer\'s drug trial', status: 'convicted', notes: 'Convicted of securities fraud in 2014; sentenced to 9 years' }
+
+ ],
  },
   'sackler-family': {
  title: 'The Sackler Family: Architects of the Opioid Crisis',
@@ -962,6 +1106,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2019', event: 'In 2019, Purdue Pharma filed for bankruptcy with liabilities exceeding $10 billion from thousands of lawsuits filed by states, cities, counties, tribal nations, and individuals', type: 'legal' },
      { date: '2024-06-01', event: 'The Supreme Court struck down this provision in June 2024, ruling that bankruptcy courts cannot release claims against non-debtors who have not themselves filed for bankruptcy', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Sackler Family', role: 'Directed Purdue Pharma\'s predatory OxyContin marketing that fueled opioid epidemic killing 500,000+ Americans', status: 'settled', notes: 'Supreme Court rejected $6B bankruptcy settlement in 2024; new $6.5B deal reached. Family extracted $10.7B from Purdue.' }
+
+ ],
  },
   'sandy-hook-disinfo': {
  title: 'Sandy Hook Disinformation: The Weaponization of Tragedy',
@@ -1003,6 +1153,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2022', event: 'Jones filed for personal bankruptcy in 2022, but a bankruptcy judge ruled in 2024 that the defamation judgments could not be discharged', type: 'legal' },
      { date: '2022-10-01', event: 'In October 2022, a Connecticut jury awarded the families $965 million in compensatory damages, and a Texas jury separately awarded $49.3 million', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Alex Jones', role: 'Infowars host who defamed Sandy Hook families by calling the massacre a hoax for years', status: 'convicted', notes: 'Found liable for defamation; ordered to pay $1.5 billion to families. Filed for bankruptcy.' }
+
+ ],
  },
   'santos-fraud': {
  title: 'George Santos: The Greatest Fraud Ever Elected to Congress',
@@ -1044,6 +1200,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023-12-01', event: 'Santos was expelled from the House on December 1, 2023, by a vote of 311-114; only the sixth member ever expelled and the first since the Civil War era without a criminal conviction', type: 'legal' },
      { date: '2024-08-01', event: 'Santos pleaded guilty in August 2024 to wire fraud and aggravated identity theft', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'George Santos', role: 'Fabricated entire biography and defrauded donors', status: 'charged', notes: 'Indicted on 23 charges. Expelled from Congress December 2023.' }
+
+ ],
  },
   'saudi-arms-sales': {
  title: 'U.S.-Saudi Arms Sales: Arming a War Crimes Machine',
@@ -1087,6 +1249,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2018', event: 'Congress attempted repeatedly to block arms sales to Saudi Arabia, particularly after the murder of journalist Jamal Khashoggi in 2018', type: 'critical' },
      { date: '2019', event: 'Trump declared a "national emergency" to bypass congressional review and push through $8 billion in arms sales to Saudi Arabia and the UAE in 2019', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Saudi Arabia / US Arms Industry', role: 'US sold $100B+ in arms to Saudi Arabia used in Yemen war causing humanitarian catastrophe', status: 'pending', notes: 'Saudi lobby spent $100M+ in US. MBS regime received weapons despite Khashoggi murder and Yemen war crimes.' }
+
+ ],
  },
   'school-shootings': {
  title: 'School Shootings in America: An Epidemic of Inaction',
@@ -1124,6 +1292,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2014', event: 'Following Sandy Hook, the NRA spent $28 million on the 2014 midterm elections', type: 'political' },
      { date: '2022-06-01', event: 'The Bipartisan Safer Communities Act, signed in June 2022 after the Uvalde massacre, represented the first significant federal gun legislation in nearly 30 years', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Gun Manufacturers', role: 'Marketed military-style weapons to civilians including young men through aggressive advertising', status: 'settled', notes: 'Remington settled with Sandy Hook families for $73M in 2022; first gun maker held accountable for mass shooting.' },
+
+   { name: 'NRA', role: 'Blocked assault weapons ban renewal, universal background checks, and red flag laws after every mass shooting', status: 'charged', notes: 'NY AG filed civil fraud suit in 2020; found massive self-dealing by leadership' }
+
+ ],
  },
   'scientology-abuses': {
  title: 'Church of Scientology: Abuse, Coercion, and Institutional Terror',
@@ -1166,6 +1342,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '1970-01-01', event: 'The Church of Scientology has been documented engaging in forced labor, physical abuse, family disconnection policies, financial exploita', type: 'critical' },
      { date: '1993', event: 'The Church\'s 501(c)(3) tax-exempt status, obtained in 1993 after a decades-long battle with the IRS, shields it from financial transparency requirements.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'David Miscavige', role: 'Church of Scientology leader accused of directing abuse, forced labor, and harassment of critics', status: 'charged', notes: 'Multiple civil suits. Accused of ordering surveillance and harassment of ex-members. Evaded service in trafficking lawsuit.' }
+
+ ],
  },
   'sec-failures': {
  title: 'SEC Failures: The Watchdog That Refuses to Bite',
@@ -1202,6 +1384,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2008', event: 'Whistleblower Harry Markopolos submitted detailed, mathematically rigorous complaints to the SEC five times between 2000 and 2008, explicitly stating that Madoff\'s returns were mathematically impossible and could...', type: 'default' },
      { date: '2013', event: 'A 2013 Project on Government Oversight study found that 419 former SEC employees filed 1,949 disclosure statements indicating they intended to represent clients before the agency within two years of leaving.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'SEC (Institutional Failures)', role: 'Failed to detect Madoff ($65B), Stanford ($7B), and other Ponzi schemes despite multiple tips', status: 'pending', notes: 'Harry Markopolos warned SEC about Madoff for 9 years. GAO found systemic enforcement weaknesses.' }
+
+ ],
  },
   'september-11': {
  title: 'September 11 Attacks & Accountability Failures',
@@ -1259,6 +1447,16 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021', event: 'The FBI\'s 2021 declassified documents revealed additional communication between Saudi officials and the hijacker support network', type: 'default' },
      { date: '2026', event: 'A federal lawsuit filed by over 3,000 plaintiffs alleges Saudi government involvement; the case remains active as of 2026', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Al-Qaeda / Osama bin Laden', role: 'Planned and directed the September 11, 2001 terrorist attacks killing 2,977 people', status: 'charged', notes: 'Bin Laden killed in Abbottabad raid May 2011. KSM awaits trial at Guantanamo.' },
+
+   { name: 'Khalid Sheikh Mohammed', role: 'Principal architect of 9/11 attacks', status: 'charged', notes: 'Captured 2003; plea agreement reached in 2024 after 20+ years at Guantanamo without trial' },
+
+   { name: 'Saudi Arabia (15 of 19 hijackers)', role: 'Alleged governmental support for hijackers through Saudi embassy officials', status: 'pending', notes: '28 Pages declassified in 2016 showed Saudi government connections. 9/11 families lawsuit ongoing.' }
+
+ ],
  },
   'serial-killings': {
  title: 'Serial Killings and Systemic Failures: How Ignored Victims Enable Predators',
@@ -1300,6 +1498,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2015', event: 'A 2015 audit found over 10,000 untested kits in Detroit alone, leading to the identification of 817 serial sexual assaulters', type: 'default' },
      { date: '2019', event: 'The FBI\'s Violent Criminal Apprehension Program (ViCAP) database, designed to identify serial patterns, was woefully underutilized; as of 2019, only 1,600 of 18,000 law enforcement agencies partici...', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Law Enforcement Failures', role: 'Police frequently failed to investigate serial killings targeting marginalized communities', status: 'pending', notes: 'LAPD Grim Sleeper case: 25 years to catch Lonnie Franklin Jr. Missing/murdered indigenous women crisis. Less Dangerous Less Dead phenomenon.' }
+
+ ],
  },
   'sex-trafficking': {
  title: 'Sex Trafficking: A Multi-Billion Dollar Criminal Enterprise',
@@ -1336,6 +1540,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2018', event: 'Online platforms have transformed the business model; Backpage.com facilitated an estimated 73% of online sex trafficking advertising before its seizure in 2018', type: 'default' },
      { date: '2018', event: 'The FOSTA-SESTA legislation (2018), which sought to hold websites liable for facilitating sex trafficking, had mixed results', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Trafficking Networks (Global)', role: '24.9 million people in forced labor globally; $150B annual profits from modern slavery', status: 'pending', notes: 'US National Human Trafficking Hotline receives 10,000+ reports annually. Prosecution rate remains low.' }
+
+ ],
  },
   'sexual-exploitation': {
  title: 'Sexual Exploitation in Institutions: Systemic Predation and Cover-Ups',
@@ -1373,6 +1583,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2019', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary "Surviving R.', type: 'legal' },
      { date: '2021', event: 'Kelly was convicted on federal racketeering charges in 2021 and sentenced to 30 years in prison.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Jeffrey Epstein', role: 'Operated sex trafficking ring targeting minors with protection from powerful individuals', status: 'convicted', notes: 'Died in custody August 2019. 2008 sweetheart deal from Acosta. Hundreds of victims.' },
+
+   { name: 'Ghislaine Maxwell', role: 'Recruited and groomed underage girls for Epstein network', status: 'convicted', notes: 'Convicted December 2021. Sentenced to 20 years.' }
+
+ ],
  },
   'sexual-harassment': {
  title: 'Sexual Harassment in the Workplace: The #MeToo Reckoning and Beyond',
@@ -1410,6 +1628,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2018', event: 'A 2018 survey by Stop Street Harassment found that 81% of women and 43% of men reported experiencing some form of sexual harassment during their lifetime', type: 'default' },
      { date: '2022', event: 'The Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act (2022) banned pre-dispute mandatory arbitration for sexual harassment claims; a significant but limited reform', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Jeffrey Epstein', role: 'Operated sex trafficking ring targeting minors with protection from powerful individuals', status: 'convicted', notes: 'Died in custody August 2019. 2008 sweetheart deal from Acosta. Hundreds of victims.' },
+
+   { name: 'Ghislaine Maxwell', role: 'Recruited and groomed underage girls for Epstein network', status: 'convicted', notes: 'Convicted December 2021. Sentenced to 20 years.' }
+
+ ],
  },
   'silicon-valley-politics': {
  title: 'Silicon Valley\'s Political Machine: Tech Oligarchs and Democracy',
@@ -1454,6 +1680,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2025', event: 'Meta\'s decision to reduce news content and end fact-checking in 2025 was widely interpreted as a political accommodation to the incoming Trump administration', type: 'default' },
      { date: '2025', event: 'The "DOGE" (Department of Government Efficiency) initiative led by Elon Musk in 2025 represented an unprecedented merging of tech industry interests and government power', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Peter Thiel', role: 'Billionaire who funded political candidates to advance tech industry deregulation agenda', status: 'pending', notes: 'Funded JD Vance Senate campaign; major Trump donor. Palantir government surveillance contracts.' }
+
+ ],
  },
   'social-engineering-fraud': {
  title: 'Social Engineering Fraud: Hacking the Human Mind',
@@ -1493,6 +1725,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'Americans over 60 lost $3.4 billion to fraud in 2023, a 14% increase from the prior year', type: 'political' },
      { date: '2024', event: 'In 2024, a Hong Kong finance worker was deceived into transferring $25 million after a video conference in which every other participant was a deepfake of company executives', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'spac-fraud': {
  title: 'SPAC Fraud: Wall Street\'s Blank Check Scam',
@@ -1531,6 +1771,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021', event: 'A Stanford Law School study found that SPACs between 2019 and 2021 destroyed an average of 38% of investor value within one year of their mergers.', type: 'default' },
      { date: '2022', event: 'The SEC under Chair Gary Gensler proposed rules in 2022 to increase SPAC disclosure requirements and align liability standards with traditional IPOs.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Nikola Corporation / Trevor Milton', role: 'EV company founder who lied about truck capabilities to inflate stock (rolled non-working truck downhill)', status: 'convicted', notes: 'Convicted of securities fraud in 2022; sentenced to 4 years' }
+
+ ],
  },
   'spacey-assault': {
  title: 'Kevin Spacey: Power, Predation, and Hollywood\'s Open Secrets',
@@ -1568,6 +1814,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2022-10-01', event: 'A civil trial brought by Anthony Rapp resulted in a jury verdict in Spacey\'s favor in October 2022', type: 'legal' },
      { date: '2023-07-01', event: 'In the UK, Spacey was acquitted of all charges in July 2023', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Kevin Spacey', role: 'Accused of sexual assault by multiple men including Anthony Rapp', status: 'acquitted', notes: 'Acquitted of all charges in UK trial (2023) and US civil trial. Fired from House of Cards.' }
+
+ ],
  },
   'stand-your-ground': {
  title: 'Stand Your Ground Laws: Legalizing Racial Violence',
@@ -1603,6 +1855,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2005', event: 'Stand Your Ground (SYG) laws, enacted in 38 states since Florida\'s 2005 passage, eliminate the common law duty to retreat before using lethal force in self-defense.', type: 'default' },
      { date: '2012', event: 'The Trayvon Martin case (2012) brought national attention to SYG laws.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'ALEC/NRA', role: 'Promoted Stand Your Ground laws that disproportionately enable lethal force; justified Trayvon Martin killing', status: 'pending', notes: 'Studies show SYG increases homicides by 8-11% and disproportionately harms Black victims.' }
+
+ ],
  },
   'stanford-ponzi': {
  title: 'Allen Stanford: The Caribbean Ponzi King',
@@ -1640,6 +1898,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2012-03-01', event: 'Stanford was convicted in March 2012 on 13 of 14 charges, including fraud, conspiracy, and obstruction, and sentenced to 110 years in prison', type: 'legal' },
      { date: '2023', event: 'regulators, fought extradition for over a decade before eventually being extradited to the United States and pleading guilty in 2023', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Allen Stanford', role: 'Ran $7B Ponzi scheme through Stanford Financial Group using fraudulent CDs', status: 'convicted', notes: 'Convicted on 13 counts of fraud in 2012; sentenced to 110 years' }
+
+ ],
  },
   'starbucks-union-busting': {
  title: 'Starbucks Union Busting: Corporate War on Workers\' Rights',
@@ -1676,6 +1940,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021-12', event: 'The Starbucks unionization movement began in December 2021 when workers at a Buffalo, New York store became the first company-owned Starbucks location to unionize, joining Workers United (an SEIU affiliate).', type: 'default' },
      { date: '2024', event: 'As of 2024, Starbucks had not reached a single collective bargaining agreement with any unionized store.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Starbucks', role: 'Systematically retaliated against workers attempting to unionize including illegal firings and store closures', status: 'charged', notes: 'NLRB filed over 100 unfair labor practice charges. Starbucks agreed to bargaining framework in 2024 settlement.' }
+
+ ],
  },
   'startup-fraud': {
  title: 'Startup Fraud: Silicon Valley\'s Culture of Lies',
@@ -1711,6 +1981,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2022', event: 'FTX cryptocurrency exchange founded by Sam Bankman-Fried collapsed after revelations that customer deposits funded Alameda Research\'s risky bets and personal expenses', type: 'financial' },
      { date: '2022-11', event: 'Sam Bankman-Fried arrested on fraud charges; FTX collapse revealed $8 billion in misappropriated customer funds', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Various Fraudulent Actors', role: 'Consumer fraud, financial exploitation, and market manipulation', status: 'charged', notes: 'FTC received 2.4M fraud reports in 2023 with $10B in losses.' }
+
+ ],
  },
   'surveillance-capitalism': {
  title: 'Surveillance Capitalism: The Colonization of Human Experience',
@@ -1749,6 +2025,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021', event: 'Internal Facebook research (leaked by whistleblower Frances Haugen in 2021) showed that Instagram made body image issues worse for 32% of teenage girls and that the platform\'s algorithms amplified ...', type: 'default' },
      { date: '2023', event: 'The Surgeon General\'s 2023 advisory on youth mental health identified social media as a significant contributing factor to the youth mental health crisis', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'NSA/Tech Companies', role: 'Mass surveillance apparatus monitoring billions of communications globally', status: 'pending', notes: 'Snowden revelations showed complicity of Google, Apple, Microsoft, Facebook in PRISM program' }
+
+ ],
  },
   'sutherland-springs-shooting': {
  title: 'Sutherland Springs Shooting: The Failures That Armed a Mass Killer',
@@ -1787,6 +2069,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2017-11-05', event: 'On November 5, 2017, a gunman killed 26 people and wounded 22 others at First Baptist Church in Sutherland Springs, Texas, in the deadliest church shooting in American history.', type: 'critical' },
      { date: '2022', event: 'In 2022, federal judge Xavier Rodriguez ruled the government was 60% responsible for the massacre and awarded $230 million in damages.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Devin Patrick Kelley', role: 'Killed 26 people and wounded 22 at First Baptist Church in Sutherland Springs, TX on November 5, 2017', status: 'charged', notes: 'Killed himself after shooting. Air Force failed to report his domestic violence conviction to NICS.' },
+
+   { name: 'U.S. Air Force', role: 'Failed to report shooter\'s domestic violence conviction to background check system', status: 'settled', notes: 'Found 60% liable by federal judge. Government settled for $230M with victims.' }
+
+ ],
  },
   'super-pac-coordination-scandals': {
     title: 'Super PAC Coordination Scandals',
@@ -1827,6 +2117,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2020', event: 'The system empowers megadonors; in 2020, the top 100 donors contributed more to Super PACs than the bottom 4.75 million donors combined', type: 'financial' },
      { date: '2022', event: 'In 2022, super PACs were caught directly sharing office space with campaigns, using the same consultants, and running advertisements that appeared to be produced collaboratively with campaign staff', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'spac-fraud-and-regulatory-failures': {
     title: 'SPAC Fraud and Regulatory Failures',
@@ -1863,6 +2161,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021', event: 'In 2021 alone, 613 SPACs raised $163 billion', type: 'political' },
      { date: '2022', event: 'REGULATORY RESPONSE: The SEC proposed new SPAC rules in 2022 that would require SPACs to provide the same disclosures as traditional IPOs, eliminate the safe harbor for forward-looking projections,', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Nikola Corporation / Trevor Milton', role: 'EV company founder who lied about truck capabilities to inflate stock (rolled non-working truck downhill)', status: 'convicted', notes: 'Convicted of securities fraud in 2022; sentenced to 4 years' }
+
+    ],
   },
   'swiss-bank-secrecy-complicity': {
     title: 'Swiss Bank Secrecy Complicity',
@@ -1902,6 +2206,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 Senate Finance Committee investigation found that Credit Suisse had maintained undeclared accounts for wealthy Americans worth over $700 million; in violation of its plea agreement', type: 'political' },
      { date: '2023', event: 'The bank\'s compliance failures were so severe that the Senate report concluded Credit Suisse had "made a mockery of the plea deal." The bank collapsed in 2023 and was acquired by UBS in an emergenc...', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Credit Suisse / UBS', role: 'Helped thousands of Americans evade taxes through secret accounts', status: 'settled', notes: 'UBS paid $780M fine in 2009. Credit Suisse pled guilty in 2014; paid $2.6B. 80 Swiss banks entered DOJ program.' }
+
+    ],
   },
   'sex-trafficking-and-hotel-industry-complicity': {
     title: 'Sex Trafficking and Hotel Industry Complicity',
@@ -1935,6 +2245,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2019', event: 'Since 2019, hundreds of lawsuits have been filed against major hotel chains under the Trafficking Victims Protection Reauthorization Act (TVPRA), which provides civil remedies for trafficking victims.', type: 'default' },
      { date: '2023', event: 'In 2023, a federal jury in Ohio awarded $111 million against Red Roof Inns and other defendants in a sex trafficking case.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Trafficking Networks (Global)', role: '24.9 million people in forced labor globally; $150B annual profits from modern slavery', status: 'pending', notes: 'US National Human Trafficking Hotline receives 10,000+ reports annually. Prosecution rate remains low.' }
+
+    ],
   },
   'sugar-industry-harvard-corruption': {
     title: 'Sugar Industry Harvard Corruption',
@@ -1974,6 +2290,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '1984', event: 'The NEJM did not begin requiring financial disclosure for review articles until 1984; 17 years after the corrupted review was published', type: 'default' },
      { date: '2016', event: 'ONGOING INFLUENCE: Despite the 2016 revelations, the sugar industry continues to influence nutrition science and policy', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Sugar Research Foundation', role: 'Paid Harvard scientists in 1967 to blame fat instead of sugar for heart disease', status: 'pending', notes: 'Internal documents showed industry funded research to shift blame in 1960s-70s. Influenced dietary guidelines for decades.' }
+
+    ],
   },
   'social-credit-system-western-adoption': {
     title: 'Social Credit System Western Adoption',
@@ -2010,6 +2332,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'LexisNexis Risk Solutions maintains records on 283 million U.S. consumers; data broker industry generates $200B+ annually', type: 'default' },
      { date: '2024', event: 'European Union Digital Identity Wallet development advances, linking financial transactions, health records, and government interactions in a single system', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'ssri-antidepressant-hidden-trial-data': {
     title: 'SSRI Antidepressant Hidden Trial Data',
@@ -2046,6 +2376,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2012', event: 'GSK\'s published version of the study; ghostwritten by Sally Laden of Scientific Therapeutics Information; reported that Paxil was "generally well tolerated and effective." Internal GSK documents re...', type: 'default' },
      { date: '2019', event: 'A 2019 study published in Addictive Behaviors found that 56% of SSRI users experienced withdrawal symptoms upon cessation, with 46% describing them as severe', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'GlaxoSmithKline (Paxil)', role: 'Concealed clinical trial data showing SSRIs increased suicide risk in youth', status: 'settled', notes: 'Study 329 ghostwritten to show efficacy. Actual data showed increased suicidality. GSK paid $3B settlement.' }
+
+    ],
   },
   'social-media-surveillance-partnerships': {
     title: 'Social Media Surveillance Partnerships',
@@ -2082,6 +2418,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, Meta provided chat messages to Nebraska police that were used to prosecute a teenager and her mother for an illegal abortion', type: 'default' },
      { date: '2023', event: 'In the first half of 2023, Meta received 79,033 government requests for user data in the United States and produced data in response to 87% of them', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'smart-city-surveillance-infrastructure': {
     title: 'Smart City Surveillance Infrastructure',
@@ -2116,6 +2460,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021', event: 'Chicago Inspector General report found 89% of ShotSpotter-triggered police deployments found no evidence of gunfire or gun-related crime', type: 'critical' },
      { date: '2023', event: 'Vigilant Solutions (Motorola) commercial ALPR database exceeds 14 billion plate scans accessible to law enforcement nationwide', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'social-media-radicalization-pipeline': {
     title: 'Social Media Radicalization Pipeline',
@@ -2153,6 +2505,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021-10-05', event: 'Frances Haugen testifies before Senate Commerce Committee with internal Meta documents showing company knew algorithms drove radicalization', type: 'political' },
      { date: '2022-11-16', event: 'EU Digital Services Act enters into force, requiring algorithmic transparency from large platforms for the first time', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Meta/Facebook, TikTok, X/Twitter, YouTube', role: 'Designed addictive platforms that harmed teen mental health and amplified extremism', status: 'charged', notes: 'Internal documents showed Instagram worsened teen mental health. 42 state AGs sued Meta in 2023.' }
+
+    ],
   },
   'social-media-censorship-industrial-complex': {
     title: 'Social Media Censorship Industrial Complex',
@@ -2191,6 +2549,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2022-12-01', event: 'THE TWITTER FILES: In December 2022, journalist Matt Taibbi began publishing internal Twitter communications showing extensive government influence over content moderation', type: 'default' },
      { date: '2024-06-01', event: 'In June 2024, the Supreme Court vacated the injunction in a 6-3 decision on standing grounds; finding that the plaintiffs had not sufficiently demonstrated that specific content moderation decision', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Meta/Facebook, TikTok, X/Twitter, YouTube', role: 'Designed addictive platforms that harmed teen mental health and amplified extremism', status: 'charged', notes: 'Internal documents showed Instagram worsened teen mental health. 42 state AGs sued Meta in 2023.' }
+
+    ],
   },
   'social-media-bot-farm-election-campaigns': {
     title: 'Social Media Bot Farm Election Campaigns',
@@ -2231,6 +2595,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2024', event: 'In January 2024, an AI-generated robocall impersonating President Biden targeted New Hampshire voters before the primary', type: 'political' },
      { date: '2024-02-01', event: 'The FCC banned AI-generated robocalls in February 2024, but enforcement across social media platforms remains minimal', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'state-level-election-fraud-prosecutions': {
     title: 'State-Level Election Fraud Prosecutions',
@@ -2267,6 +2639,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2019', event: 'These include partisan gerrymandering (which predetermines outcomes in the vast majority of legislative races), voter roll purges (Georgia purged 340,000 voters in 2019 alone), polling place closur', type: 'political' },
      { date: '2024', event: 'In 2024, the Texas Court of Criminal Appeals overturned her conviction, ruling that the prosecution had failed to prove she knew she was ineligible', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
   'superfund-site-cleanup-delay-patterns': {
     title: 'Superfund Site Cleanup Delay Patterns',
@@ -2304,6 +2682,16 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'ENVIRONMENTAL JUSTICE DISPARITIES: A 2023 EPA analysis confirmed what environmental justice advocates have documented for decades: Superfund sites are disproportionately located in communities of c', type: 'political' },
      { date: '2023', event: 'A 2023 study published in Science found that communities near Superfund sites experience excess mortality rates equivalent to 750,000 additional life-years lost', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'shell-company-registration-state-analysis': {
     title: 'Shell Company Registration State Analysis',
@@ -2340,6 +2728,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2024', event: 'The law was set to take effect on January 1, 2024, requiring new companies to report within 30 days and existing companies within two years', type: 'political' },
      { date: '2024-11-01', event: 'In November 2024, a federal court in Texas ruled the CTA unconstitutional in National Small Business United v', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Criminal Enterprises', role: 'Money laundering and racketeering across jurisdictions', status: 'charged', notes: 'FinCEN Files revealed $2T in suspicious transactions. Corporate Transparency Act addresses shell companies.' }
+
+    ],
   },
   'school-surveillance-technology-adoption': {
     title: 'School Surveillance Technology Adoption',
@@ -2374,6 +2768,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021', event: 'A 2021 RAND Corporation study found "no evidence that the presence of cameras in schools reduces crime, violence, or other safety threats."', type: 'default' },
      { date: '2022', event: 'A 2022 investigation found that Gaggle\'s system disproportionately flags LGBTQ+ students, students of color, and students discussing normal developmental topics like relationships and body image.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'social-media-addiction-engineering': {
     title: 'Social Media Addiction Engineering',
@@ -2409,6 +2811,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'LEGAL AND REGULATORY RESPONSE: In 2023 and 2024, over 40 states filed lawsuits against Meta alleging that the company\'s platforms were deliberately designed to addict children and that Meta conceal...', type: 'legal' },
      { date: '2024', event: 'The Kids Online Safety Act (KOSA) passed the Senate in 2024 with 91-3 support but faced delays in the House', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Meta/Facebook, TikTok, X/Twitter, YouTube', role: 'Designed addictive platforms that harmed teen mental health and amplified extremism', status: 'charged', notes: 'Internal documents showed Instagram worsened teen mental health. 42 state AGs sued Meta in 2023.' }
+
+    ],
   },
   'subliminal-messaging-in-digital-advertising': {
     title: 'Subliminal Messaging in Digital Advertising',
@@ -2442,6 +2850,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2019', event: 'A 2019 Princeton/University of Chicago study found dark patterns on 11.1% of the 11,000 shopping websites analyzed.', type: 'default' },
      { date: '2021', event: 'A 2021 study found that adults encounter 6,000-10,000 advertisements per day across digital platforms; the vast majority processed unconsciously.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+      { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+    ],
   },
   'structured-finance-fraud-networks': {
     title: 'Structured Finance Fraud Networks',
@@ -2478,6 +2894,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2008', event: 'STRUCTURAL PERSISTENCE: The conditions that enabled the 2008 crisis have not been sufficiently addressed', type: 'default' },
      { date: '2018', event: 'In 2018, Congress rolled back key Dodd-Frank provisions for banks with under $250 billion in assets; SVB collapsed less than five years later', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+      { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+    ],
   },
   'smart-home-device-surveillance-economy': {
     title: 'Smart Home Device Surveillance Economy',
@@ -2514,6 +2938,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 study by Northeastern University found that Nest cameras transmitted data to Google servers even when "turned off" by users', type: 'default' },
      { date: '2023', event: 'A 2023 study found that 72% of smart home devices share data with third parties unrelated to the device\'s function', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'secret-court-fisa-abuse-patterns': {
     title: 'Secret Court FISA Abuse Patterns',
@@ -2553,6 +2985,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'However, because communications are global, vast quantities of American communications are collected "incidentally." The FBI, NSA, and CIA can then search this collected data for American communica', type: 'default' },
      { date: '2024', event: 'Proposals to require warrants for backdoor searches of Americans\' Section 702 data have been defeated repeatedly; most recently in 2024 when Congress reauthorized Section 702 for two additional yea...', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
 
   'syrian-chemical-weapons': {
@@ -2597,6 +3037,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2018-04-07', event: 'DOUMA (2018): On April 7, 2018, chlorine-containing canisters were dropped on the city of Douma, killing over 40 people.', type: 'default' },
      { date: '2023', event: 'Russia vetoed 16 Syria-related resolutions between 2011 and 2023; including efforts to establish attribution mechanisms and refer Syria to the International Criminal Court.', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Bashar al-Assad', role: 'Used chemical weapons including sarin and chlorine against Syrian civilians multiple times', status: 'charged', notes: 'OPCW confirmed multiple CW attacks. 2013 Ghouta attack killed 1,400+. ICC referral vetoed by Russia.' }
+
+    ],
   },
   'sec-failure-to-regulate-wall-street': {
     title: 'SEC Failure to Regulate Wall Street: A History of Captured Oversight',
@@ -2637,6 +3083,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2013', event: 'A 2013 analysis by the Project on Government Oversight found that over the prior decade, 419 SEC alumni filed 1,949 disclosure statements indicating their intent to represent entities before the SE', type: 'default' },
      { date: '2021', event: 'The GameStop short squeeze of January 2021 exposed broker-dealer conflicts of interest (Robinhood halted buying while allowing selling, reportedly under pressure from its clearing firm and payment-', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'SEC (Institutional Failures)', role: 'Failed to detect Madoff ($65B), Stanford ($7B), and other Ponzi schemes despite multiple tips', status: 'pending', notes: 'Harry Markopolos warned SEC about Madoff for 9 years. GAO found systemic enforcement weaknesses.' }
+
+    ],
   },
   'school-to-prison-pipeline': {
     title: 'The School-to-Prison Pipeline',
@@ -2672,6 +3124,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2015', event: 'In 2015, a South Carolina SRO was recorded flipping a seated Black teenage girl from her desk and dragging her across the classroom for refusing to put away her phone', type: 'default' },
      { date: '2019', event: 'In 2019, a Florida SRO arrested two six-year-olds at their elementary school for tantrums', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'US Education/Justice System', role: 'Policing of schools pushes students (disproportionately Black and disabled) into criminal justice system', status: 'pending', notes: 'Black students 3.8x more likely to be suspended. Zero-tolerance policies feed pipeline. DOJ investigated multiple districts.' }
+
+    ],
   },
   'supreme-court-ethics-crisis': {
     title: 'The Supreme Court Ethics Crisis: Undisclosed Gifts, Dark Money, and the Corruption of the Highest Court',
@@ -2715,6 +3173,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023-11-01', event: 'NO ETHICS CODE, NO ENFORCEMENT: Until November 2023, the Supreme Court had no ethics code at all', type: 'legal' },
      { date: '2024', event: 'Raimondo (2024, overturning Chevron deference and limiting agency regulatory power)', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Clarence Thomas', role: 'Accepted undisclosed luxury gifts from billionaire Harlan Crow', status: 'pending', notes: 'ProPublica revealed decades of undisclosed gifts worth millions.' },
+
+      { name: 'Mark Ciavarella', role: 'Judge who sentenced juveniles to private detention for kickbacks', status: 'incarcerated', notes: 'Kids for Cash: received $2.8M in kickbacks. Sentenced to 28 years.' }
+
+    ],
   },
   'saudi-influence-american-politics': {
     title: 'Saudi Influence on American Politics and Policy',
@@ -2751,6 +3217,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2018-10-02', event: 'THE KHASHOGGI ASSASSINATION AND COVER-UP: On October 2, 2018, Jamal Khashoggi, a Saudi journalist and Washington Post columnist, entered the Saudi consulate in Istanbul and was murdered by a 15-mem', type: 'critical' },
      { date: '2021', event: 'The Biden administration released the intelligence assessment in 2021 but also declined to sanction MBS directly, citing the "interests of the bilateral relationship."', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Saudi Arabia / US Arms Industry', role: 'US sold $100B+ in arms to Saudi Arabia used in Yemen war causing humanitarian catastrophe', status: 'pending', notes: 'Saudi lobby spent $100M+ in US. MBS regime received weapons despite Khashoggi murder and Yemen war crimes.' }
+
+    ],
   },
   'secret-service-systemic-failures': {
     title: 'Secret Service Systemic Failures',
@@ -2791,6 +3263,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2024-07-13', event: 'The July 13, 2024 assassination attempt on former President Donald Trump in Butler, Pennsylvania represented the most catastrophic Secret Service protection failure since the 1981 attempted assassi', type: 'political' },
      { date: '2024-07-23', event: 'Director Kimberly Cheatle resigned on July 23, 2024 after testifying before Congress and acknowledging the agency\'s "most significant operational failure" in decades', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Secret Service', role: 'Systemic failures including prostitution scandal, security breaches at White House, and Trump rally shooting', status: 'pending', notes: '2012 Colombia prostitution scandal. 2014 White House fence jumper. 2024 Butler PA rally security failures.' }
+
+    ],
   },
   'student-loan-servicing-fraud': {
     title: 'Student Loan Servicing Fraud',
@@ -2827,6 +3305,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'The SAVE plan (Saving on a Valuable Education), launched in 2023 as a replacement for REPAYE, was blocked by federal courts after Republican state AGs argued the Biden administration exceeded its a', type: 'legal' },
      { date: '2023-10-01', event: 'The transition to the new SAVE plan and renewed servicing errors after the COVID-19 payment pause ended in October 2023 demonstrated that the structural problems remain unresolved', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Student Loan Servicers (Navient, etc.)', role: 'Steered borrowers into costly repayment plans and failed to process public service loan forgiveness', status: 'settled', notes: 'Navient settled with states for $1.85B in 2022. CFPB found widespread servicing failures.' }
+
+    ],
   },
   'subprime-mortgage-crisis-2008': {
     title: 'The 2008 Subprime Mortgage Crisis',
@@ -2863,6 +3347,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2008-09-01', event: 'The crisis peaked in September 2008', type: 'default' },
      { date: '2010', event: '111-203), passed in 2010, new regulations were imposed on derivatives trading, capital requirements, and consumer protection', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Countrywide/Angelo Mozilo', role: 'Largest subprime lender; CEO sold $140M in stock while knowing of toxic loans', status: 'settled', notes: 'Mozilo paid $67.5M SEC settlement. No criminal charges.' }
+
+    ],
   },
   'stanford-financial-ponzi-scheme': {
     title: 'Stanford Financial: $7 Billion Ponzi Scheme Hidden Behind Fake Caribbean Bank',
@@ -2902,6 +3392,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2012', event: 'Stanford\'s trial in Houston in 2012 resulted in conviction on 13 of 14 counts, including wire fraud, mail fraud, money laundering, and obstruction of the SEC', type: 'legal' },
      { date: '2023', event: 'in 2023 after a 14-year legal battle and pleaded guilty to bribery charges', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Allen Stanford', role: 'Ran $7B Ponzi scheme through Stanford Financial Group using fraudulent CDs', status: 'convicted', notes: 'Convicted on 13 counts of fraud in 2012; sentenced to 110 years' }
+
+    ],
   },
   'student-loan-crisis-predatory-lending': {
     title: 'The Student Loan Crisis: $1.75 Trillion in Predatory Government-Backed Debt',
@@ -2941,6 +3437,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, Navient settled with 39 state attorneys general for $1.85 billion and agreed to cancel $1.7 billion in predatory subprime loans', type: 'political' },
      { date: '2023', event: 'The government\'s own data shows that income-driven repayment plans (designed to prevent default) are so poorly administered that by 2023, only 32 borrowers had ever successfully completed the Publi...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Student Loan Servicers (Navient, etc.)', role: 'Steered borrowers into costly repayment plans and failed to process public service loan forgiveness', status: 'settled', notes: 'Navient settled with states for $1.85B in 2022. CFPB found widespread servicing failures.' }
+
+    ],
   },
   'social-media-mental-health-exploitation': {
     title: 'Social Media Platforms and Mental Health Exploitation',
@@ -2976,6 +3478,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2021-09', event: 'In September 2021, whistleblower Frances Haugen leaked thousands of internal Meta documents to Congress and the Wall Street Journal.', type: 'political' },
      { date: '2023', event: 'Between 2011 and 2023: teen depression increased 60%, teen anxiety diagnoses doubled, emergency room visits for self-harm among girls aged 10-14 tripled, and teen suicide rates increased 30%.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Meta/Facebook, TikTok, X/Twitter, YouTube', role: 'Designed addictive platforms that harmed teen mental health and amplified extremism', status: 'charged', notes: 'Internal documents showed Instagram worsened teen mental health. 42 state AGs sued Meta in 2023.' }
+
+    ],
   },
   'solitary-confinement-torture': {
     title: 'Solitary Confinement as Torture in American Prisons',
@@ -3011,6 +3519,12 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Federal Bureau of Prisons announced restrictions in 2023', type: 'default' },
      { date: '2024', event: 'As of 2024, at least 30 states still allow solitary confinement of juveniles, despite the American Academy of Child and Adolescent Psychiatry, the American Medical Association, and the DOJ all oppo', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'US Prison System', role: '80,000+ prisoners held in solitary confinement; UN considers extended solitary confinement (15+ days) to be torture', status: 'pending', notes: 'Mandela Rules define prolonged solitary as torture. Albert Woodfox held 43 years in solitary. Reform efforts slow.' }
+
+    ],
   },
   'sand-creek-massacre-1864': {
     title: 'The Sand Creek Massacre: U.S. Army Atrocity Against Peaceful Cheyenne and Arapaho',
@@ -3055,6 +3569,14 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '1894', event: 'He returned to civilian life, held political office, and lived freely until his death in 1894', type: 'critical' },
      { date: '2000', event: 'In 2000, Congress authorized the Sand Creek Massacre National Historic Site, established in 2007 and administered by the National Park Service', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'saudi-arms-deal': {
  title: 'Saudi Arms Deal Investigation',
@@ -3119,6 +3641,7 @@ const investigations_s: Record<string, InvestigationData> = {
    { name: 'Raytheon, Lockheed Martin, Boeing', role: 'Selling weapons used in strikes on civilians, hospitals, and school buses in Yemen', status: 'charged', notes: 'No legal action; companies continued receiving contracts despite documented civilian casualties' },
    { name: 'Trump (presidential veto)', role: 'Vetoing bipartisan Congressional resolution to end U.S. support for Yemen war', status: 'charged', notes: 'Veto sustained Apr 2019; Congress unable to override; war continued' }
  ],
+
   },
   'saudi-connections': {
  title: 'Saudi Arabia Connections',
@@ -3591,6 +4114,7 @@ const investigations_s: Record<string, InvestigationData> = {
    { name: 'Mississippi (Presley v. Epps)', role: 'Conditions at Unit 32 of Mississippi State Penitentiary', status: 'charged', notes: 'Settlement required closure of solitary unit; deemed cruel and unusual punishment' },
    { name: 'Federal Bureau of Prisons', role: 'Holding Thomas Silverstein in isolation for 36 years', status: 'charged', notes: 'No legal remedy; Silverstein died in custody in 2019 after longer continuous solitary than any federal inmate' }
  ],
+
   },
   'somalia-intervention': {
  title: 'Somalia: Black Hawk Down to Forever War',

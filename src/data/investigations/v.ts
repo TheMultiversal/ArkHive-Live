@@ -52,6 +52,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2016', event: 'Singer funded anti-Trump opposition research during the 2016 primary, then became a major Trump supporter and donor', type: 'default' },
      { date: '2016', event: 'The PROMESA Act of 2016 created a fiscal control board (known locally as "la Junta") that imposed austerity measures: school closures, pension cuts, public workforce reductions, and healthcare cuts', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Ultra-Wealthy Individuals', role: 'Used tax avoidance schemes to pay lower rates than working families', status: 'pending', notes: 'ProPublica revealed billionaires paid near-zero effective tax rates in some years' }
+
+ ],
  },
   'vietnam-war': {
  title: 'Vietnam War',
@@ -106,6 +112,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '1984', event: 'Dow Chemical and Monsanto, the primary manufacturers, paid a $180 million settlement in 1984 but admitted no wrongdoing', type: 'financial' },
      { date: '1991', event: 'The VA fought for decades to deny claims from exposed veterans, not establishing a presumptive service connection for Agent Orange conditions until the Agent Orange Act of 1991', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Government (Multiple Administrations)', role: 'Waged war in Vietnam based on escalating deceptions; 58,000+ US and 3M+ Vietnamese died', status: 'pending', notes: 'Pentagon Papers revealed systematic lies. Gulf of Tonkin fabricated. Agent Orange and carpet bombing caused lasting damage.' }
+
+ ],
  },
   'vietnam-crimes': {
  title: 'Vietnam War Crimes',
@@ -151,6 +163,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2001', event: 'THE VIETNAM WAR CRIMES WORKING GROUP FILES: In 2001, journalist Nick Turse discovered at the National Archives a collection of documents known as the Vietnam War Crimes Working Group files', type: 'default' },
      { date: '2003', event: 'The Toledo Blade\'s Pulitzer Prize-winning 2003 investigation documented that the Army\'s Criminal Investigation Command (CID) had conducted a 4.5-year investigation (1971-1975) that substantiated al...', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Government (Multiple Administrations)', role: 'Waged war in Vietnam based on escalating deceptions; 58,000+ US and 3M+ Vietnamese died', status: 'pending', notes: 'Pentagon Papers revealed systematic lies. Gulf of Tonkin fabricated. Agent Orange and carpet bombing caused lasting damage.' }
+
+ ],
  },
   'voting-rights': {
  title: 'Voting Rights Under Attack',
@@ -201,6 +219,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2021', event: 'The For the People Act (HR 1/S 1) and the Freedom to Vote Act, which would have established national standards for early voting, mail voting, automatic voter registration', type: 'political' },
      { date: '2023', event: 'Milligan (2023), the Court surprised many by ruling that Alabama\'s congressional map likely violated Section 2 of the VRA by diluting Black voting power, but the practical impact has been limited a...', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+ ],
  },
   'venezuela-election': {
  title: 'Venezuela\'s Stolen Elections: The Death of Democracy Under Maduro',
@@ -237,6 +261,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2024-07', event: 'The Maduro regime has systematically destroyed Venezuelan democracy through rigged elections, including the July 2024 presidential election where the government declared Maduro the winner despite overwhelming', type: 'political' },
      { date: '2024-07-28', event: 'The July 28, 2024 Venezuelan presidential election became one of the most blatant cases of electoral fraud in modern Latin American history.', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Nicolas Maduro', role: 'Venezuelan President accused of crimes against humanity; oversaw economic collapse and mass migration', status: 'indicted', notes: 'US DOJ indicted on narco-terrorism charges (2020). ICC investigating crimes against humanity.' }
+
+ ],
  },
   'venezuela-human-rights': {
  title: 'Venezuela Human Rights Crisis: State Violence and Humanitarian Catastrophe',
@@ -274,6 +304,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2020-09-01', event: 'The UN Human Rights Council\'s Independent International Fact-Finding Mission concluded in September 2020 that Venezuelan state agents committed extrajudicial executions, enforced disappearances, ar...', type: 'default' },
      { date: '2021-11-01', event: 'The ICC opened a formal investigation into crimes against humanity in Venezuela in November 2021', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Nicolas Maduro', role: 'Venezuelan President accused of crimes against humanity; oversaw economic collapse and mass migration', status: 'indicted', notes: 'US DOJ indicted on narco-terrorism charges (2020). ICC investigating crimes against humanity.' }
+
+ ],
  },
   'vs-pipeline': {
  title: 'Veterans to School-to-Prison Pipeline: Military Recruitment to Mass Incarceration',
@@ -307,6 +343,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2001', event: 'The No Child Left Behind Act of 2001 required public schools to provide student contact information to military recruiters or lose federal funding.', type: 'financial' },
      { date: '2014', event: 'A 2014 VA scandal revealed that at least 40 veterans died waiting for care at the Phoenix VA facility, and that employees had falsified wait time records.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Various Responsible Parties', role: 'Evasion of restitution and pipeline safety violations', status: 'pending', notes: 'GAO found billions in restitution uncollected. Pipeline violations documented by PHMSA.' }
+
+ ],
  },
   'voter-roll-purges-and-suppression-tactics': {
     title: 'Voter Roll Purges and Suppression Tactics',
@@ -345,6 +387,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2018', event: 'Georgia\'s "Exact Match" program, implemented under then-Secretary of State Brian Kemp, rejected voter registrations when information did not precisely match government databases, 80% of the 53,000 ...', type: 'political' },
      { date: '2020', event: 'During the 2020 pandemic, states used COVID as justification to further reduce in-person voting locations while simultaneously attacking mail-in voting', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Republican State Legislatures', role: 'Passed hundreds of laws restricting voting access disproportionately affecting minority voters after Shelby County v. Holder gutted VRA', status: 'pending', notes: 'Brennan Center documented 361 restrictive bills in 2021 alone. Closed polling places, purged rolls, added ID requirements.' }
+
+    ],
   },
   'vaccine-injury-compensation-cover-up': {
     title: 'Vaccine Injury Compensation Cover-Up',
@@ -382,6 +430,14 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '1995', event: 'The Vaccine Injury Table, which determines which injuries receive presumed causation, was narrowed significantly in 1995 and 2017, making it harder for petitioners to qualify for Table compensation', type: 'default' },
      { date: '2011', event: 'The Supreme Court\'s 2011 decision in Bruesewitz v', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'voting-machine-certification-failures': {
     title: 'Voting Machine Certification Failures',
@@ -419,6 +475,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2021', event: 'When Maricopa County, Arizona allowed a forensic audit in 2021, Dominion initially refused to provide administrative passwords', type: 'default' },
      { date: '2024', event: 'As of 2024, approximately 93% of voters use systems that produce paper records, but the remaining 7% (covering millions of voters) use paperless machines with no independent verification', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
   'voter-database-security-breaches': {
     title: 'Voter Database Security Breaches',
@@ -455,6 +517,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2017-06-01', event: 'DEEP ROOT ANALYTICS EXPOSURE: In June 2017, security researcher Chris Vickery discovered that Deep Root Analytics, a data firm contracted by the Republican National Committee, had left a database c', type: 'default' },
      { date: '2020', event: 'A 2020 study by the Verified Voting Foundation found that many states run voter registration databases on software that is years or decades old, with limited encryption, weak authentication, and no', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
   'vaccine-program-demographic-targeting-claims': {
     title: 'Vaccine Program Demographic Targeting Claims',
@@ -500,6 +568,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2020-12', event: 'COVID-19 vaccine rollout reveals stark racial disparities: white Americans vaccinated at 2-3x the rate of Black Americans in the first month, despite minority communities suffering disproportionately higher death rates', type: 'critical' },
      { date: '2024', event: 'Studies continue to document that vaccine clinical trials underrepresent minority populations while adverse event monitoring systems (VSD, VAERS) systematically undercount events in minority communities due to structural access gaps', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+    ],
   },
   'vehicle-tracking-data-broker-industry': {
     title: 'Vehicle Tracking Data Broker Industry',
@@ -535,6 +609,14 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2020', event: 'Vehicles manufactured after 2020 contain an average of 25+ sensors and multiple connectivity modules that continuously transmit data', type: 'default' },
      { date: '2023', event: 'In 2023, a New York Times investigation revealed that GM had been sharing detailed driving data with LexisNexis Risk Solutions, which sold it to insurance companies to adjust premiums', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'va-healthcare-systemic-failures-veteran-betrayal': {
     title: 'VA Healthcare Systemic Failures: The Betrayal of American Veterans',
@@ -576,6 +658,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2025', event: 'DISABILITY CLAIMS BACKLOG AND APPEALS: As of 2025, over 900,000 disability claims are pending at the VA, with average processing times exceeding 150 days', type: 'legal' },
      { date: '2025', event: 'The VA has spent over $3 billion on IT modernization (including the failed $16 billion Cerner electronic health records system, which was abandoned in 2025 after implementation caused patient safet', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'VA Health Administration', role: 'Systematic falsification of wait times while veterans died waiting for care', status: 'charged', notes: 'Phoenix VA scandal: 40+ veterans died waiting. Secretary Shinseki resigned 2014. Criminal charges brought against some officials.' }
+
+    ],
   },
   'voter-suppression-modern-assault-on-democracy': {
     title: 'Modern Voter Suppression: The Systematic Assault on American Democracy',
@@ -621,6 +709,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2020', event: 'Following 2020, SB 202 in Georgia criminalized giving water to voters waiting in line (later partially blocked by courts), restricted drop box locations to 1 per 100,000 active voters (reducing Atl', type: 'legal' },
      { date: '2021', event: 'Florida\'s SB 90 (2021) restricted drop boxes and required voters to request mail ballots every election cycle rather than every two cycles', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Republican State Legislatures', role: 'Passed hundreds of laws restricting voting access disproportionately affecting minority voters after Shelby County v. Holder gutted VRA', status: 'pending', notes: 'Brennan Center documented 361 restrictive bills in 2021 alone. Closed polling places, purged rolls, added ID requirements.' }
+
+    ],
   },
   'volkswagen-emissions-fraud': {
     title: 'Volkswagen Diesel Emissions Fraud',
@@ -656,6 +750,16 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2014', event: 'When the EPA confronted VW with the data in 2014, the company initially claimed the discrepancies were due to "technical issues" and even performed a fraudulent recall that did not fix the problem', type: 'financial' },
      { date: '2015-09-01', event: 'It was only in September 2015, when the EPA threatened to withhold certification for VW\'s 2016 models, that VW finally admitted to the defeat device', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Volkswagen AG', role: 'Installed defeat devices in 11 million diesel vehicles worldwide to cheat emissions tests', status: 'convicted', notes: 'Pled guilty to 3 felonies; paid $34.69B total in fines, penalties, and buybacks' },
+
+      { name: 'Oliver Schmidt', role: 'VW US executive who helped conceal defeat devices from regulators', status: 'convicted', notes: 'Sentenced to 7 years in prison; served 4 years before deportation to Germany' },
+
+      { name: 'Martin Winterkorn', role: 'VW CEO who allegedly knew about defeat devices', status: 'indicted', notes: 'Indicted in US in 2018; cannot be extradited from Germany. Charged in Germany in 2019.' }
+
+    ],
   },
   'voter-suppression-systematic': {
     title: 'Systematic Voter Suppression in Modern America',
@@ -695,6 +799,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2019', event: 'Common Cause (2019), the Supreme Court held that federal courts cannot adjudicate partisan gerrymandering claims, removing the last constitutional check', type: 'legal' },
      { date: '2020', event: 'In 2020, Louisville, Kentucky had a single polling place for 616,000 registered voters (the city is 21% Black)', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Republican State Legislatures', role: 'Passed hundreds of laws restricting voting access disproportionately affecting minority voters after Shelby County v. Holder gutted VRA', status: 'pending', notes: 'Brennan Center documented 361 restrictive bills in 2021 alone. Closed polling places, purged rolls, added ID requirements.' }
+
+    ],
   },
   'veterans-affairs-healthcare-scandal': {
     title: 'Veterans Affairs Healthcare System Scandal and Systemic Failures',
@@ -731,6 +841,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2024', event: 'In 2024, the VA still reports average wait times of 30+ days for specialty care, and the inspector general continues to find patient safety failures causing preventable deaths.', type: 'default' },
      { date: '2025', event: 'As of 2025, the VA continues to struggle with staffing shortages, aging infrastructure, and patient safety failures.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'VA Health Administration', role: 'Systematic falsification of wait times while veterans died waiting for care', status: 'charged', notes: 'Phoenix VA scandal: 40+ veterans died waiting. Secretary Shinseki resigned 2014. Criminal charges brought against some officials.' }
+
+    ],
   },
   'veterans-healthcare-failures': {
     title: 'VA Healthcare System Failures and Veteran Abandonment',
@@ -767,6 +883,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2023', event: 'The VA paused deployment in 2023 but elected to continue', type: 'political' },
      { date: '2024', event: 'As of 2024, the VA has approximately 50,000 unfilled clinical positions', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'VA Health Administration', role: 'Systematic falsification of wait times while veterans died waiting for care', status: 'charged', notes: 'Phoenix VA scandal: 40+ veterans died waiting. Secretary Shinseki resigned 2014. Criminal charges brought against some officials.' }
+
+    ],
   },
   'voter-purge-disenfranchisement': {
     title: 'Voter Purge Disenfranchisement',
@@ -801,6 +923,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2020', event: 'States have removed more than 33 million voters from registration rolls between 2020 and 2024, with error rates in some jurisdictions exceeding 10%.', type: 'financial' },
      { date: '2024', event: 'States have removed more than 33 million voters from registration rolls between 2020 and 2024, with error rates in some jurisdictions exceeding 10%.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Republican State Legislatures', role: 'Passed hundreds of laws restricting voting access disproportionately affecting minority voters after Shelby County v. Holder gutted VRA', status: 'pending', notes: 'Brennan Center documented 361 restrictive bills in 2021 alone. Closed polling places, purged rolls, added ID requirements.' }
+
+    ],
   },
   'vioxx-merck-cardiovascular-deaths': {
     title: 'Vioxx: How Merck Concealed Evidence That Its Blockbuster Drug Caused Heart Attacks',
@@ -847,6 +975,12 @@ const investigations_v: Record<string, InvestigationData> = {
      { date: '2007-11-01', event: 'In November 2007, Merck agreed to pay $4.85 billion to settle approximately 27,000 claims', type: 'political' },
      { date: '2011', event: 'In 2011, Merck pleaded guilty to a single misdemeanor charge of illegal promotion (marketing Vioxx for treating rheumatoid arthritis before receiving FDA approval for that indication) and paid a $9', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Merck & Co.', role: 'Concealed evidence that Vioxx painkiller caused heart attacks and strokes; drug linked to 27,785 deaths', status: 'settled', notes: 'Paid $4.85B settlement in 2007 with 27,000 plaintiffs. Internal documents showed Merck knew of cardiac risks.' }
+
+    ],
   },
   'vietnam-war-crimes': {
  title: 'Vietnam War Crimes',
@@ -1039,6 +1173,7 @@ const investigations_v: Record<string, InvestigationData> = {
    { name: 'Audi AG (VW subsidiary)', role: 'European emissions fraud', status: 'charged', notes: '€800 million fine from Munich prosecutors' },
    { name: 'VW (German Consumer Settlement)', role: 'Consumer fraud affecting German diesel owners', status: 'charged', notes: '€830 million settlement with 235,000 German consumers' }
  ],
+
   },
   'voter-suppression': {
  title: 'Voter Suppression',
@@ -1111,6 +1246,7 @@ const investigations_v: Record<string, InvestigationData> = {
    { name: 'Jeffrey Clark', role: 'RICO conspiracy, attempted use of DOJ to pressure Georgia to overturn election results', status: 'indicted', notes: 'Indicted in Georgia Aug 2023; nearly fired by acting AG Rosen who threatened mass resignation' },
    { name: 'Sidney Powell', role: 'RICO conspiracy, computer trespass related to Coffee County voting machine breach', status: 'convicted', notes: 'Pleaded guilty Oct 2023 to 6 misdemeanors; agreed to cooperate and testify' }
  ],
+
   },
 };
 

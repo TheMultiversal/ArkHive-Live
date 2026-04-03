@@ -47,6 +47,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2021-05-05', event: 'Bill and Melinda Gates announce divorce; raises questions about governance of Foundation and concentration of control over global health spending', type: 'default' },
      { date: '2024-05-13', event: 'Melinda French Gates departs Foundation entirely; Bill Gates becomes sole trustee of $75 billion endowment, concentrating unprecedented private power over global health', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'UnitedHealth Group', role: 'Systematically denied claims using AI algorithms to boost profits', status: 'charged', notes: '$22B profit in 2023 while denying millions of claims. Multiple lawsuits over AI claim denials.' }
+
+ ],
  },
   'helsinki-summit': {
  title: 'Helsinki Summit, Trump Sides with Putin',
@@ -88,6 +94,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2020-08', event: 'Senate Intelligence Committee bipartisan report confirmed Russia targeted Trump campaign and Paul Manafort shared polling data with Russian intelligence-linked operatives', type: 'political' },
      { date: '2021-03', event: 'ODNI declassified assessment confirming Putin authorized influence operations in 2020 election cycle; contents of private Trump-Putin meetings remain unknown', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Publicly sided with Putin over US intelligence agencies on Russian election interference at Helsinki summit', status: 'pending', notes: 'Said he saw no reason it would be Russia despite unanimous IC assessment. Bipartisan condemnation from Congress.' }
+
+ ],
  },
   'hedge-fund-predation': {
  title: 'Hedge Fund Predatory Practices',
@@ -133,6 +145,14 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2021', event: 'GameStop investors exposed the practice in 2021', type: 'default' },
      { date: '2021', event: 'GAMESTOP SAGA: In January 2021, retail investors coordinated to buy GameStop stock, squeezing short-selling hedge funds', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Citadel Securities', role: 'Payment for order flow and market-making practices that disadvantage retail investors', status: 'pending', notes: 'SEC investigated PFOF practices; no charges. Congressional hearings held after GameStop.' },
+
+   { name: 'SAC Capital / Steven Cohen', role: 'Systematic insider trading at SAC Capital hedge fund', status: 'convicted', notes: 'SAC pled guilty in 2013; paid $1.8B penalty. Cohen banned from managing outside money for 2 years.' }
+
+ ],
  },
   'hate-crimes': {
  title: 'Hate Crimes in America: Rising Violence, Failing Response',
@@ -182,6 +202,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022-05-14', event: 'Buffalo Tops supermarket shooter kills 10 Black shoppers in a livestreamed attack, publishing a 180-page manifesto citing the Christchurch and El Paso shooters', type: 'critical' },
      { date: '2023', event: 'ADL documents 8,873 antisemitic incidents, the highest since 1979. FBI reports 11,634 hate crime incidents, also a record, though actual incidents are estimated at 50 times higher', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Hate Crime Perpetrators (Multiple)', role: 'FBI documented 11,634 hate crime incidents in 2022; rising trend in antisemitic and anti-LGBTQ attacks', status: 'charged', notes: 'Tree of Life, El Paso, Buffalo, Atlanta spa shootings. Antisemitic incidents at record high (ADL). DOJ increased prosecutions.' }
+
+ ],
  },  'healthcare-capture': {
  title: 'Healthcare Regulatory Capture',
  subtitle: 'How the pharmaceutical, insurance, and hospital industries captured the agencies and legislators meant to regulate them, creating the most expensive healthcare system in the world with outcomes ranking behind dozens of other nations',
@@ -228,6 +254,14 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'Inflation Reduction Act allowed Medicare to negotiate prices on just 10 drugs starting 2026 — decades after every other developed nation implemented drug price controls', type: 'political' },
      { date: '2023', event: 'Investigation revealed FDA approved 73% of novel drugs through accelerated pathways requiring only surrogate endpoints, with 40% lacking confirmatory evidence of clinical benefit years later', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'UnitedHealth Group', role: 'Largest health insurer systematically denying claims to boost profits', status: 'charged', notes: 'Multiple state AG investigations. Uses AI to auto-deny claims.' },
+
+   { name: 'Pharmaceutical Industry (Systematic)', role: 'Price gouging on essential medications including insulin and cancer drugs', status: 'pending', notes: 'Senate investigation found manufacturers raised insulin prices 1200% over 20 years' }
+
+ ],
  },
   'hedge-fund-corruption': {
  title: 'Hedge Fund Corruption: The $4 Trillion Shadow Banking System',
@@ -273,6 +307,14 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'Inflation Reduction Act includes a provision to partially close the carried interest loophole but the final version is stripped out after lobbying by the hedge fund industry', type: 'political' },
      { date: '2024-02', event: 'Bill Hwang convicted of racketeering, securities fraud, and wire fraud for the Archegos collapse. Sentenced to 18 years in prison in one of the few criminal prosecutions of a hedge fund executive', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+   { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+ ],
  },
   'hedge-fund-manipulation': {
  title: 'Hedge Fund Market Manipulation: Rigged Games',
@@ -315,6 +357,14 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'JPMorgan Chase pays $920 million to settle DOJ and CFTC spoofing charges, the largest spoofing penalty in history. Traders on the precious metals desk placed hundreds of thousands of fraudulent orders', type: 'financial' },
      { date: '2023', event: 'Hindenburg Research publishes short report on Adani Group, wiping $150 billion from the Indian conglomerate\'s market cap. Debate intensifies over whether activist short selling is market manipulation or public service', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Citadel Securities', role: 'Payment for order flow and market-making practices that disadvantage retail investors', status: 'pending', notes: 'SEC investigated PFOF practices; no charges. Congressional hearings held after GameStop.' },
+
+   { name: 'SAC Capital / Steven Cohen', role: 'Systematic insider trading at SAC Capital hedge fund', status: 'convicted', notes: 'SAC pled guilty in 2013; paid $1.8B penalty. Cohen banned from managing outside money for 2 years.' }
+
+ ],
  },  'hollywood-abuse': {
  title: 'Hollywood Sexual Abuse and Power',
  subtitle: 'Systematic exploitation, harassment, and assault enabled by the entertainment industry\'s power structures',
@@ -356,6 +406,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2020', event: 'Harvey Weinstein convicted of criminal sexual assault and rape in New York, sentenced to 23 years. Over 80 women had accused him by this point', type: 'default' },
      { date: '2023', event: 'New York appeals court overturned Weinstein\'s 2020 conviction on procedural grounds, ruling the trial judge improperly allowed testimony about prior uncharged conduct', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Entertainment Industry (Multiple)', role: 'Systemic sexual harassment and abuse enabled by power imbalances in media and entertainment', status: 'charged', notes: 'Weinstein, Cosby, R. Kelly, Spacey, Moonves, Lauer cases revealed industry-wide pattern. 80+ public figures accused.' }
+
+ ],
  },
   'housing-crisis': {
  title: 'America\'s Housing Crisis: Manufactured Scarcity',
@@ -393,6 +449,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2020', event: 'Between 2020 and 2024, institutional investors purchased over $100 billion in single-family homes, often outbidding individual buyers with all-cash offers and algorithmic pricing', type: 'political' },
      { date: '2023', event: 'The January 2023 Point-in-Time count found 653,104 people experiencing homelessness on a single night; the highest number since counting began in 2007', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Wall Street/Private Equity Landlords', role: 'Corporate purchase of single-family homes inflated prices and rents, locking out first-time buyers', status: 'pending', notes: 'BlackRock, Invitation Homes, and others bought 1 in 5 homes in some markets. Senate investigated institutional buying.' }
+
+ ],
  },
   'housing-financialization': {
  title: 'Housing Financialization: When Wall Street Became Your Landlord',
@@ -427,6 +489,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 investigation by the Atlanta Journal-Constitution found that corporate landlords filed evictions at rates 2-3 times higher than individual landlords.', type: 'default' },
      { date: '2023', event: 'By 2023, Airbnb listed over 1.1 million properties in the United States.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Wall Street/Private Equity Landlords', role: 'Corporate purchase of single-family homes inflated prices and rents, locking out first-time buyers', status: 'pending', notes: 'BlackRock, Invitation Homes, and others bought 1 in 5 homes in some markets. Senate investigated institutional buying.' }
+
+ ],
  },
   'human-trafficking': {
  title: 'Human Trafficking Networks',
@@ -472,6 +540,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2019-07', event: 'Epstein arrested on federal sex trafficking charges; found dead in Manhattan federal jail under suspicious circumstances; investigations into his network of enablers continued', type: 'critical' },
      { date: '2022', event: 'National Human Trafficking Hotline received over 51,000 reports; DOJ secured only 315 trafficking convictions despite estimated 400,000+ victims in the U.S.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Trafficking Networks (Global)', role: '24.9 million people in forced labor globally; $150B annual profits from modern slavery', status: 'pending', notes: 'US National Human Trafficking Hotline receives 10,000+ reports annually. Prosecution rate remains low.' }
+
+ ],
  },
   'hedge-fund-market-manipulation': {
     title: 'Hedge Fund Market Manipulation',
@@ -509,6 +583,14 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, the DOJ charged Anson Funds and others in the first major prosecution of a short-and-distort scheme, alleging that participants coordinated short positions, published misleading research,', type: 'financial' },
      { date: '2023', event: 'A 2023 Bloomberg investigation found that several prominent hedge fund managers shared identical short positions and traded in lockstep', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+      { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+    ],
   },
   'human-trafficking-global-networks': {
     title: 'Human Trafficking Global Networks',
@@ -549,6 +631,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'Large-scale trafficking in Gulf states (UAE, Saudi Arabia, Qatar) uses workers from South and Southeast Asia in forced labor conditions', type: 'default' },
      { date: '2023', event: 'In 2023, the New York Times reported that HHS\'s Office of Refugee Resettlement had lost contact with approximately 85,000 unaccompanied children after placement', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Trafficking Networks (Global)', role: '24.9 million people in forced labor globally; $150B annual profits from modern slavery', status: 'pending', notes: 'US National Human Trafficking Hotline receives 10,000+ reports annually. Prosecution rate remains low.' }
+
+    ],
   },
   'human-smuggling-cartel-operations': {
     title: 'Human Smuggling Cartel Operations',
@@ -585,6 +673,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022-06-01', event: 'In June 2022, 53 migrants died in an abandoned tractor-trailer in San Antonio, Texas; the deadliest smuggling incident in US history', type: 'critical' },
      { date: '2023', event: 'In January 2023, 40 migrants died in a fire at an immigration detention center in Ciudad Juarez, Mexico; witnesses said guards did not open the cells', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'hospital-price-transparency-failures': {
     title: 'Hospital Price Transparency Failures',
@@ -624,6 +718,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2023', event: 'The maximum annual penalty ($2 million for hospitals with 500+ beds, scaled down for smaller hospitals) is meaningless for institutions generating hundreds of millions in revenue', type: 'financial' },
      { date: '2024', event: 'As of 2024, CMS had issued warning letters to approximately 730 hospitals and imposed civil monetary penalties on only about a dozen', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'ICE (Immigration and Customs Enforcement)', role: 'Pattern of abuse in detention including medical neglect and family separation', status: 'charged', notes: 'Whistleblower alleged forced hysterectomies. Multiple detainee deaths documented.' }
+
+    ],
   },
   'hotel-industry-trafficking-complicity-report': {
     title: 'Hotel Industry Trafficking Complicity',
@@ -663,6 +763,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 investigation by ProPublica found that fewer than 30% of hotel properties had provided any anti-trafficking training to front-desk and housekeeping staff', type: 'political' },
      { date: '2024', event: 'At the federal level, the HOTEL Act (proposed but not passed as of 2024) would mandate that all hotels receiving federal contracts establish anti-trafficking training programs', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'health-data-privacy-violation-patterns': {
     title: 'Health Data Privacy Violation Patterns',
@@ -706,6 +812,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 Duke University study found that data brokers openly advertised and sold lists of individuals categorized by health conditions including depression, anxiety, HIV/AIDS, substance use disorder', type: 'default' },
      { date: '2024', event: '23andMe held genetic data on over 14 million customers when it filed for bankruptcy in 2024; raising immediate questions about whether the genetic database would be sold as a corporate asset', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'UnitedHealth Group', role: 'Systematically denied claims using AI algorithms to boost profits', status: 'charged', notes: '$22B profit in 2023 while denying millions of claims. Multiple lawsuits over AI claim denials.' }
+
+    ],
   },
 
   'healthcare-profiteering': {
@@ -745,6 +857,14 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2024', event: 'MEDICAL BANKRUPTCY: Two-thirds of all American bankruptcies', type: 'critical' },
      { date: '2024-12', event: 'MEDICAL BANKRUPTCY: Two-thirds of all American bankruptcies', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'UnitedHealth Group', role: 'Largest health insurer systematically denying claims to boost profits', status: 'charged', notes: 'Multiple state AG investigations. Uses AI to auto-deny claims.' },
+
+      { name: 'Pharmaceutical Industry (Systematic)', role: 'Price gouging on essential medications including insulin and cancer drugs', status: 'pending', notes: 'Senate investigation found manufacturers raised insulin prices 1200% over 20 years' }
+
+    ],
   },
   'heroin-trafficking': {
     title: 'CIA Heroin Trafficking in Southeast Asia',
@@ -791,6 +911,12 @@ const investigations_h: Record<string, InvestigationData> = {
       { date: '1986', event: 'Senate Foreign Relations Committee begins investigating allegations of CIA involvement in drug trafficking through the Kerry Committee', type: 'legal' },
       { date: '1989', event: 'Kerry Committee report confirms that U.S. foreign policy and CIA operations facilitated drug trafficking in Central America and Southeast Asia', type: 'legal' },
       { date: '1998', event: 'CIA Inspector General publishes report acknowledging agency awareness of drug trafficking by its assets and partners', type: 'default' }
+    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
     ],
   },
   'holocaust-denial': {
@@ -839,6 +965,12 @@ const investigations_h: Record<string, InvestigationData> = {
       { date: '2007', event: 'United Nations General Assembly passes resolution condemning Holocaust denial and urging member states to reject denial of the Holocaust as a historical event', type: 'political' },
       { date: '2024-01-27', event: 'International Holocaust Remembrance Day; denial and revisionism persist on social media platforms despite content moderation efforts', type: 'default' }
     ],
+
+    defendants: [
+
+      { name: 'Holocaust Deniers', role: 'Network of individuals and organizations denying the systematic murder of 6 million Jews', status: 'charged', notes: 'Holocaust denial is criminal in 18 countries. David Irving convicted in Austria (2006). Institute for Historical Review disbanded.' }
+
+    ],
   },
   'holodomor-ukraine-famine': {
     title: 'Holodomor - Ukrainian Genocide by Famine',
@@ -886,6 +1018,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2006', event: 'The Ukrainian parliament declared the Holodomor a genocide in 2006', type: 'default' },
      { date: '2024', event: 'As of 2024, over 30 countries have recognized it as genocide, including Canada, Australia, and the European Parliament', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Joseph Stalin / Soviet Government', role: 'Engineered famine in Ukraine (1932-33) killing 3.5-7.5 million through forced collectivization and grain confiscation', status: 'pending', notes: 'Recognized as genocide by 16+ countries. Soviet archives confirmed deliberate policy targeting Ukraine.' }
+
+    ],
   },
   'hud-corruption-housing-crisis-betrayal': {
     title: 'HUD Corruption and the Housing Crisis: Government Betrayal of America\'s Most Vulnerable',
@@ -926,6 +1064,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2017', event: 'When the Los Angeles Housing Authority opened its waitlist in 2017 for the first time in 13 years, 600,000 people applied for 20,000 slots', type: 'default' },
      { date: '2019', event: 'A federal monitor appointed in 2019 found lead paint in 4,200+ apartments with children under 6 after NYCHA falsely certified compliance with federal lead safety rules', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'HUD Officials (Multiple Administrations)', role: 'Mismanagement and corruption at HUD leading to billion-dollar accounting errors and contractor fraud', status: 'charged', notes: 'Inspector General found $520B in accounting errors. Section 8 fraud widespread. Ben Carson spent $31K on dining set.' }
+
+    ],
   },
   'halliburton-military-contractor-fraud': {
     title: 'Halliburton and KBR Military Contractor Fraud',
@@ -961,6 +1105,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2008', event: 'Ryan Maseth, who was electrocuted in his shower in January 2008 due to an ungrounded water pump', type: 'political' },
      { date: '2011', event: 'The Commission on Wartime Contracting in Iraq and Afghanistan, a bipartisan congressional commission, concluded in 2011 that waste, fraud, and abuse in wartime contracting cost taxpayers between $3', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Halliburton/KBR', role: 'Received $39.5B in Iraq contracts; documented fraud, overcharging, and shoddy electrical work that killed troops', status: 'settled', notes: 'Electrocution of soldiers from faulty wiring. $579M False Claims Act settlements. Cheney\'s former company.' }
+
+    ],
   },
   'homeland-security-mission-creep': {
     title: 'Department of Homeland Security: Mission Creep and Civil Liberties Erosion',
@@ -998,6 +1148,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, a federal court ruled that CBP\'s warrantless device searches at the border require at least reasonable suspicion, but the ruling\'s scope remains contested', type: 'legal' },
      { date: '2023', event: 'A 2023 DHS OIG report found that ICE failed to provide adequate medical care to detainees, contributing to at least 45 deaths in custody since 2018', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'DHS (Department of Homeland Security)', role: 'Expanded far beyond original counter-terrorism mandate into domestic surveillance', status: 'pending', notes: 'Created post-9/11 with 240,000 employees. Fusion centers monitor journalists and activists. Budget exceeds $60B.' }
+
+    ],
   },
   'healthcare-industry-price-gouging': {
     title: 'Healthcare Industry Price Gouging and Pharmaceutical Profiteering',
@@ -1034,6 +1190,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2023', event: 'The American healthcare system is the most expensive in the world by a massive margin — $4.3 trillion in 2023, representing 17.', type: 'default' },
      { date: '2023', event: 'UnitedHealth Group, the largest insurer, reported $22.4 billion in profit in 2023 while denying claims at increasing rates', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'ICE (Immigration and Customs Enforcement)', role: 'Pattern of abuse in detention including medical neglect and family separation', status: 'charged', notes: 'Whistleblower alleged forced hysterectomies. Multiple detainee deaths documented.' }
+
+    ],
   },
   'hospice-fraud-end-of-life-exploitation': {
     title: 'Hospice Fraud and End-of-Life Exploitation',
@@ -1067,6 +1229,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2000', event: 'For-profit hospices grew from 30% of all hospices in 2000 to over 75% today.', type: 'financial' },
      { date: '2022', event: 'A landmark 2022 Senate Finance Committee investigation found that many for-profit hospices enroll patients who are not terminally ill, provide little to no actual care, bill Medicare for services never delivered, and', type: 'political' }
      ],
+
+    defendants: [
+
+      { name: 'Hospice Industry (Various)', role: 'Enrolled patients who weren\'t terminally ill to bill Medicare; some hastened deaths to manage costs', status: 'convicted', notes: 'Medicare hospice spending tripled to $22.4B. DOJ brought hundreds of fraud cases. For-profit hospices worst offenders.' }
+
+    ],
   },
   'homelessness-criminalization': {
     title: 'Criminalization of Homelessness in America',
@@ -1102,6 +1270,12 @@ const investigations_h: Record<string, InvestigationData> = {
      { date: '2019', event: 'Median rents have increased 30% since 2019', type: 'default' },
      { date: '2024', event: 'Johnson decision of 2024 was a turning point', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'US Cities (Systematic)', role: 'Criminalized sleeping, sitting, and camping in public despite insufficient shelter capacity', status: 'pending', notes: 'SCOTUS ruled in Grants Pass v. Johnson (2024) cities can criminalize sleeping outside. 650,000+ homeless in US.' }
+
+    ],
   },
   'haiti-exploitation': {
  title: 'Haiti: Centuries of Exploitation',
@@ -1280,7 +1454,9 @@ const investigations_h: Record<string, InvestigationData> = {
    { name: 'Cigna', role: 'Algorithm-based claim denials without medical review, rejecting 60,000 claims per day', status: 'pending', notes: 'Class action lawsuits pending. No executive charged. Practice continues industry-wide.' },
    { name: 'UnitedHealth Group', role: 'Monopolistic practices, systematic claim denials, and vertical integration eliminating competition', status: 'charged', notes: 'DOJ antitrust investigation ongoing. No charges to date. Company continues acquiring competitors.' }
  ],
-  },
+
+
+},
   'hush-money': {
  title: 'Hush Money Election Fraud',
  subtitle: 'The Stormy Daniels Case: 34 Felony Convictions',

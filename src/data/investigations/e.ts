@@ -45,6 +45,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2020', event: 'The National Academy of Sciences concluded in 2020 that "directed, pulsed radio frequency energy" was the most plausible cause.', type: 'default' },
      { date: '2023', event: 'A 2023 IC assessment controversially concluded it was "very unlikely" a foreign adversary was responsible, drawing criticism from victims and some officials who saw the conclusion as politically motivated cover-up.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'U.S. Atomic Energy Commission', role: 'Secret radiation experiments on unsuspecting citizens during Cold War', status: 'pending', notes: '1994 Advisory Committee documented thousands of experiments on prisoners, patients, children without consent' }
+
+ ],
  },
   'economic-manipulation': {
     title: 'Presidential Economic Manipulation',
@@ -92,6 +98,12 @@ const investigations_e: Record<string, InvestigationData> = {
       { date: '2025-04-02', event: 'Second-term "Liberation Day" tariff barrage announced, with rates on China reaching 145%; global markets lose trillions as Treasury Secretary Bessent dismisses chaos as "healthy"', type: 'financial' },
       { date: '2025-04-09', event: 'Trump social media post announcing 90-day tariff pause triggers largest single-day Nasdaq point gain in history, creating $5.5 trillion in market value in hours; congressional investigators flag suspicious options activity', type: 'financial' }
     ],
+
+    defendants: [
+
+      { name: 'Federal Reserve', role: 'Monetary policy decisions that disproportionately benefited wealthy asset holders', status: 'pending', notes: 'Quantitative easing inflated asset prices benefiting top 10%. Wealth inequality widened dramatically.' }
+
+    ],
   },
   'elite-trafficking': {
  title: 'Elite Trafficking Networks',
@@ -138,6 +150,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2019-08-01', event: 'UNANSWERED QUESTIONS: Epstein\'s August 2019 death, ruled suicide, occurred under suspicious circumstances including broken cameras and sleeping guards', type: 'critical' },
      { date: '2021', event: 'She was convicted on 5 federal counts in 2021 and sentenced to 20 years', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Trafficking Networks (Multiple)', role: 'High-profile sex trafficking operations exploiting vulnerable people including minors', status: 'charged', notes: 'Epstein network exposed systemic failures. R. Kelly, Larry Nassar, NXIVM cases showed institutional enablement.' }
+
+ ],
  },
   'e-jean-carroll': {
  title: 'E. Jean Carroll Sexual Assault & Defamation Cases',
@@ -176,6 +194,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023', event: 'FIRST TRIAL (2023): A jury found Trump liable for sexual abuse (but not rape under NY\'s narrow definition) and defamation', type: 'legal' },
      { date: '2024', event: 'SECOND TRIAL (2024): A damages trial for earlier defamatory statements (made while president) resulted in $83.3 million verdict: $18.3M compensatory, $65M punitive', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Found liable for sexually abusing E. Jean Carroll in mid-1990s and defaming her', status: 'settled', notes: 'Jury found Trump liable; awarded $5M (2023). Second defamation trial awarded $83.3M (2024).' }
+
+ ],
  },
   'election-2000': {
  title: 'Election 2000, Bush v. Gore',
@@ -238,6 +262,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2001-11', event: 'NORC/media consortium completes review of all 175,010 uncounted Florida ballots. Finds Gore would have won statewide recount under most counting standards' },
      { date: '2004-06', event: 'U.S. Commission on Civil Rights report finds massive, racially discriminatory voter purge in Florida. 57,700 purged, disproportionately Black' }
    ],
+
+ defendants: [
+
+   { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+ ],
  },
   'election-disinformation': {
  title: 'Election Disinformation Campaign',
@@ -284,6 +314,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2020', event: 'Despite all evidence, polls show a majority of Republicans still believe the 2020 election was stolen.', type: 'political' },
      { date: '2024', event: 'False claims about 2024 voting have already begun.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Various Actors', role: 'Domestic and foreign efforts to undermine election integrity through disinformation and manipulation', status: 'pending', notes: 'Russia, Iran, China engaged in interference. Domestic actors spread false claims. Social media amplified disinformation.' }
+
+ ],
  },
   'epa-capture': {
  title: 'EPA Regulatory Capture',
@@ -334,6 +370,16 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2019-09', event: 'EPA finalized Affordable Clean Energy rule replacing Obama\'s Clean Power Plan; experts estimated it would result in 1,400 additional premature deaths annually from air pollution', type: 'default' },
      { date: '2022-06', event: 'Supreme Court ruled in West Virginia v. EPA that the agency lacked authority to mandate industry-wide shift from coal to clean energy, severely limiting future climate regulation', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+   { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+   { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+ ],
  },
   'east-timor': {
  title: 'East Timor Genocide and U.S. Support',
@@ -376,6 +422,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '1999', event: 'INDEPENDENCE: East Timor voted for independence in a 1999 referendum', type: 'political' },
      { date: '2002', event: 'East Timor became independent in 2002', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Indonesian Military / Suharto', role: 'Invaded East Timor in 1975 with US approval; occupation killed estimated 100,000-180,000 Timorese', status: 'pending', notes: 'Ford and Kissinger gave green light hours before invasion. UN-supervised referendum in 1999 led to independence.' }
+
+ ],
  },
   'email-deletion': {
  title: 'Bush White House Email Deletion Scandal',
@@ -423,6 +475,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2009-12-14', event: 'Settlement reached to recover some deleted emails from backup tapes; many communications permanently destroyed including critical records about warrantless surveillance', type: 'legal' },
      { date: '2014-03-01', event: 'National Archives confirms millions of Bush White House emails remain permanently lost despite partial recovery; no officials prosecuted for Presidential Records Act violations', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+ ],
  },
   'election-interference': {
  title: 'Election Interference Patterns',
@@ -465,6 +523,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2020', event: 'RUSSIAN 2020 INTERFERENCE: Intelligence agencies confirmed Russia again interfered in 2020, primarily through disinformation', type: 'political' },
      { date: '2020', event: 'JANUARY 6 AND FAKE ELECTORS: The 2020 election faced unprecedented interference from a sitting president: fake elector schemes, pressure on state officials, inciting a violent mob', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Actors', role: 'Domestic and foreign efforts to undermine election integrity through disinformation and manipulation', status: 'pending', notes: 'Russia, Iran, China engaged in interference. Domestic actors spread false claims. Social media amplified disinformation.' }
+
+ ],
  },
   'environmental-destruction': {
  title: 'Corporate Environmental Destruction',
@@ -516,6 +580,16 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2024-04-10', event: 'Final EPA rule sets enforceable limits on six PFAS chemicals in drinking water, decades after contamination was first documented; 3M and DuPont face multi-billion dollar settlements', type: 'legal' },
      { date: '2025-01-20', event: 'Second Trump term begins dismantling environmental protections at accelerated pace; EPA funding slashed, climate references removed from government websites, enforcement staff reduced', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+   { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+   { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+ ],
  },
   'ecohealth': {
  title: 'EcoHealth Alliance Investigation',
@@ -557,6 +631,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2020-02', event: 'In February 2020, Daszak organized a letter in The Lancet condemning lab leak "conspiracy theories." He concealed his role in organizing it and his direct conflict of interest as WIV funder.', type: 'financial' },
      { date: '2024', event: 'In 2024, the Department of Health and Human Services debarred EcoHealth Alliance and Daszak from federal funding.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'elite-pedophiles': {
  title: 'Elite Pedophile Networks',
@@ -599,6 +681,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2019-08', event: 'Epstein died in his Manhattan jail cell in August 2019, officially by suicide.', type: 'default' },
      { date: '2021', event: 'Maxwell, Epstein\'s partner and procurer, was convicted of sex trafficking in 2021 and sentenced to 20 years.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Trafficking Networks (Multiple)', role: 'High-profile sex trafficking operations exploiting vulnerable people including minors', status: 'charged', notes: 'Epstein network exposed systemic failures. R. Kelly, Larry Nassar, NXIVM cases showed institutional enablement.' }
+
+ ],
  },
   'environmental-corruption': {
  title: 'Environmental Regulatory Corruption',
@@ -643,6 +731,16 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2013-10-29', event: 'Environmental protection agencies at federal and state levels have been systematically captured by the industries they regulate', type: 'default' },
      { date: '2018', event: 'Subsequent developments in environmental regulatory corruption reveal broader systemic patterns', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+   { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+   { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+ ],
  },
   'election-denial': {
  title: 'Election Denial Movement',
@@ -685,6 +783,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023-08-14', event: 'Fulton County DA Fani Willis issues RICO indictment naming 19 defendants including Trump for conspiracy to overturn Georgia election results', type: 'legal' },
      { date: '2023-12-19', event: 'Ruby Freeman and Shaye Moss win $148 million defamation judgment against Giuliani for falsely accusing them of election fraud', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Various Actors', role: 'Domestic and foreign efforts to undermine election integrity through disinformation and manipulation', status: 'pending', notes: 'Russia, Iran, China engaged in interference. Domestic actors spread false claims. Social media amplified disinformation.' }
+
+ ],
  },
   'environmental-crimes': {
  title: 'Corporate Environmental Crimes',
@@ -727,6 +831,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2022-04-04', event: 'Science journal publishes study finding EPA enforcement penalties are 56% lower in communities with higher minority populations', type: 'default' },
      { date: '2024-04-10', event: 'EPA finalizes first-ever enforceable drinking water limits for PFAS; over 60 years after DuPont and 3M first documented human toxicity of the chemicals', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Polluting Industries (Systematic)', role: 'Disproportionately site toxic facilities in Black, Latino, and indigenous communities', status: 'pending', notes: 'EPA found minorities 40% more likely to live near toxic waste. Cancer Alley in Louisiana is emblematic case.' }
+
+ ],
  },
   'ethiopian-airlines-302': {
  title: 'Ethiopian Airlines Flight 302 Crash',
@@ -782,6 +892,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2024-04-17', event: 'Boeing whistleblower Sam Salehpour testifies before Senate: "I am raising these issues because I have serious concerns about the safety." Boeing retaliates.', type: 'default' },
      { date: '2024-07-07', event: 'DOJ finds Boeing violated terms of 2021 DPA. Boeing agrees to plead guilty to conspiracy to defraud the United States; agrees to pay additional fines. Families call plea deal inadequate.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Boeing Company', role: 'Concealed MCAS system defects in 737 MAX causing Lion Air 610 and Ethiopian 302 crashes killing 346 people', status: 'settled', notes: 'Paid $2.5B deferred prosecution agreement. Victims from 35 countries.' }
+
+ ],
  },
   'educational-propaganda': {
  title: 'Educational Propaganda: Rewriting History in Real Time',
@@ -824,6 +940,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023-08-01', event: 'Texas rewrites curriculum standards to describe enslaved people as "workers" and minimize slavery\'s role in the Civil War; State Board of Education overrules historians', type: 'political' },
      { date: '2024-01-01', event: 'Multiple states slash diversity, equity, and inclusion programs at public universities; tenured professors fired or pressured to resign for teaching critical race theory or gender studies', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Various Government and Corporate Entities', role: 'Funded propaganda through educational institutions', status: 'pending', notes: 'Koch network funded centers at 350+ universities. Pentagon JROTC in 3,400 schools.' }
+
+ ],
  },
   'egypt-dictatorship': {
  title: 'Egypt Under Sisi: U.S.-Funded Dictatorship',
@@ -864,6 +986,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2022-11-01', event: 'Egypt hosts COP27 climate summit while holding an estimated 65,000 political prisoners; imprisoned activist Alaa Abdel Fattah goes on hunger strike to draw international attention', type: 'default' },
      { date: '2024-01-01', event: 'Amnesty International documents systematic torture including electric shock, sexual violence, and prolonged solitary confinement in Egyptian prisons; dozens of detainees dead in custody', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'el-paso-walmart-massacre': {
  title: 'El Paso Walmart Massacre',
@@ -912,6 +1042,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023-07-05', event: 'Texas state trial: Crusius pleads not guilty to state capital murder charges. Prosecutors seek death penalty in parallel state case.', type: 'legal' },
      { date: '2024-06-14', event: 'Supreme Court strikes down bump stock ban in Garland v. Cargill (6-3); broader pattern of Court blocking gun restrictions even as mass shootings escalate.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Patrick Crusius', role: 'White supremacist who targeted Hispanic shoppers at Walmart in El Paso, TX, killing 23 on August 3, 2019', status: 'convicted', notes: 'Pled guilty to 90 federal charges and 23 state murder charges. Sentenced to 90 consecutive life sentences.' }
+
+ ],
  },
   'elite-coordination': {
  title: 'Elite Coordination: How the Powerful Align Against the Public',
@@ -957,6 +1093,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023', event: 'ProPublica investigation reveals Supreme Court justices received undisclosed luxury gifts and travel from Republican megadonors including Harlan Crow and Paul Singer.', type: 'default' },
      { date: '2024', event: 'Koch network surpasses $2B in cumulative political spending. ALEC-drafted legislation active in all 50 states on issues from voter restrictions to environmental deregulation.', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Heritage Foundation', role: 'Authored Project 2025 to consolidate executive power and dismantle agencies', status: 'pending', notes: '920-page plan to replace civil servants with loyalists, eliminate Dept of Education.' }
+
+ ],
  },
   'epipen-price-gouging': {
  title: 'EpiPen Price Gouging: Profiting From Allergic Children',
@@ -996,6 +1138,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2017', event: 'In 2017, Mylan agreed to pay $465 million to settle Justice Department claims that it had overcharged Medicaid by misclassifying EpiPen as a generic drug to avoid higher rebates', type: 'financial' },
      { date: '2022', event: 'In 2022, the company settled for an additional $264 million over the same scheme', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Mylan/Heather Bresch', role: 'CEO who raised EpiPen price from $100 to $600+ (500% increase) while reclassifying it to avoid Medicaid rebates', status: 'settled', notes: 'Mylan paid $465M to settle DOJ Medicaid overbilling claims in 2017. Bresch received $25M+ compensation.' }
+
+ ],
  },
   'eric-garner-death': {
  title: 'Eric Garner: "I Can\'t Breathe"',
@@ -1034,6 +1182,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2019-07-01', event: 'In July 2019, Attorney General William Barr overruled DOJ prosecutors who recommended bringing federal charges, declining to indict Pantaleo', type: 'legal' },
      { date: '2019-08-01', event: 'Pantaleo was not fired until August 2019, more than five years after Garner\'s death, following an internal NYPD disciplinary trial where Judge Rosemarie Maldonado found Pantaleo\'s use of the chokeh...', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Daniel Pantaleo', role: 'NYPD officer who killed Eric Garner using prohibited chokehold on July 17, 2014', status: 'pending', notes: 'Grand jury declined to indict. DOJ declined federal charges. Fired from NYPD in 2019, 5 years after killing.' }
+
+ ],
  },
   'ev-fraud': {
  title: 'Electric Vehicle Industry Fraud: The SPAC and Startup Deception',
@@ -1074,6 +1228,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023-06-27', event: 'Lordstown Motors files for bankruptcy; most "preorders" came from entities with no intention or capacity to purchase vehicles; investors lose billions', type: 'default' },
      { date: '2024-06-18', event: 'Fisker files for bankruptcy after delivering only 5,000 vehicles plagued by quality defects; investors lose billions across both Fisker ventures', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Fraudulent Actors', role: 'Consumer fraud, financial exploitation, and market manipulation', status: 'charged', notes: 'FTC received 2.4M fraud reports in 2023 with $10B in losses.' }
+
+ ],
  },  'extrajudicial-killings': {
  title: 'Extrajudicial Killings by U.S. Government',
  subtitle: 'Targeted assassinations, drone strikes, and covert operations that kill without trial, including American citizens',
@@ -1123,6 +1283,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2015-10-15', event: 'The Intercept publishes "The Drone Papers" based on leaked classified documents, revealing that during one five-month period nearly 90% of drone kills were not the intended target', type: 'default' },
      { date: '2021-08-29', event: 'US drone strike in Kabul kills 10 civilians including 7 children; Pentagon initially claims a "righteous strike" against ISIS-K before admitting the error', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'exxon-valdez': {
  title: 'Exxon Valdez: The Oil Spill That Changed Nothing',
@@ -1161,6 +1329,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2008', event: 'In 2008, the Supreme Court reduced the punitive damages to $507.5 million; roughly $3.40 for each of the 150 million gallons of water contaminated', type: 'legal' },
      { date: '2010', event: 'The 2010 Deepwater Horizon spill would dwarf the Valdez, spilling 210 million gallons into the Gulf of Mexico', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Exxon Shipping Company', role: 'Operated Exxon Valdez tanker that spilled 11 million gallons of oil in Prince William Sound, Alaska', status: 'convicted', notes: 'Pled guilty to Clean Water Act violations; fined $125M (later reduced to $25M). Punitive damages reduced from $5B to $507M by SCOTUS.' },
+
+   { name: 'Captain Joseph Hazelwood', role: 'Captain of Exxon Valdez who was below deck (possibly intoxicated) when tanker ran aground', status: 'acquitted', notes: 'Acquitted of felony charges; convicted of negligent discharge of oil (misdemeanor); fined $50,000' }
+
+ ],
  },
   'electoral-college-manipulation': {
     title: 'Electoral College Manipulation',
@@ -1199,6 +1375,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2020', event: 'The fake electors scheme of 2020 involved Trump campaign operatives recruiting individuals in seven states to sign certificates falsely claiming to be the duly elected presidential electors for tho', type: 'political' },
      { date: '2022-12-01', event: 'The Electoral Count Reform Act (ECRA), signed into law in December 2022, addressed several vulnerabilities exposed by the 2020 scheme', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
   'epstein-network-full-mapping': {
     title: 'Epstein Network Full Mapping',
@@ -1240,6 +1422,16 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2019-08-10', event: 'Epstein\'s 2019 arrest on federal sex trafficking charges appeared to end the impunity, but his death in a Manhattan federal jail on August 10, 2019; ruled a suicide despite circumstances including ...', type: 'critical' },
      { date: '2024', event: 'The 2024 document releases from the Giuffre v', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Jeffrey Epstein', role: 'Operated international sex trafficking ring of minors exploiting hundreds of victims', status: 'charged', notes: 'Died in custody August 2019, ruled suicide. Previously received lenient 2008 plea deal from Alexander Acosta.' },
+
+      { name: 'Ghislaine Maxwell', role: 'Recruited, groomed, and trafficked minors for Epstein\'s abuse network', status: 'convicted', notes: 'Convicted on 5 counts of sex trafficking in December 2021; sentenced to 20 years' },
+
+      { name: 'Alexander Acosta', role: 'US Attorney who gave Epstein lenient 2008 plea deal shielding co-conspirators', status: 'pending', notes: 'Resigned as Trump Labor Secretary in 2019 after deal was exposed. DOJ OPR found deal was "poor judgment."' }
+
+    ],
   },
   'echelon-global-surveillance-network': {
     title: 'ECHELON Global Surveillance Network',
@@ -1282,6 +1474,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2016', event: 'In the UK, the Investigatory Powers Act 2016 (the "Snoopers\' Charter") legalized bulk data collection and equipment interference but established a nominally independent Investigatory Powers Tribuna...', type: 'default' },
      { date: '2024', event: 'In the US, the Foreign Intelligence Surveillance Act (FISA) and its amendments (particularly Section 702, reauthorized in 2024) provide legal cover for bulk collection while minimizing judicial ove', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'extraordinary-rendition-flight-logs': {
     title: 'Extraordinary Rendition Flight Logs',
@@ -1319,6 +1519,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2009', event: 'The Obama administration announced in 2009 that it would "look forward" rather than prosecute torture; AG Eric Holder\'s preliminary review of detainee treatment resulted in the closure of all inves...', type: 'default' },
      { date: '2014-12-01', event: 'The Senate Intelligence Committee\'s Study of the CIA\'s Detention and Interrogation Program (the "Torture Report"), released in executive summary form in December 2014, documented 119 known CIA deta...', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA', role: 'Kidnapped suspects and transferred them to countries known to practice torture for "enhanced interrogation"', status: 'pending', notes: 'European Parliament documented 1,245+ CIA flights through European airspace. Multiple countries complicit.' }
+
+    ],
   },
   'emf-radiation-research-suppression': {
     title: 'EMF Radiation Research Suppression',
@@ -1361,6 +1567,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2020', event: 'The FCC\'s 2020 decision to maintain its 1996 guidelines; without conducting any new safety review; effectively cleared 5G for deployment without health testing', type: 'default' },
      { date: '2021', event: 'FCC (2021), the US Court of Appeals for the DC Circuit ruled that the FCC had failed to provide a reasoned explanation for its refusal to update its guidelines, had ignored evidence of non-thermal', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Atomic Energy Commission', role: 'Secret radiation experiments on unsuspecting citizens during Cold War', status: 'pending', notes: '1994 Advisory Committee documented thousands of experiments on prisoners, patients, children without consent' }
+
+    ],
   },
   'election-manipulation-through-algorithms': {
     title: 'Election Manipulation Through Algorithms',
@@ -1400,6 +1612,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2021', event: 'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook was aware its algorithms amplified political polarization and misinformation but chose not to implement fixe', type: 'default' },
      { date: '2024', event: 'The EU\'s Digital Services Act (DSA, effective 2024) requires very large online platforms (>45 million EU users) to provide access to recommendation algorithm data to researchers, conduct risk asses...', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Various Actors', role: 'Domestic and foreign efforts to undermine election integrity through disinformation and manipulation', status: 'pending', notes: 'Russia, Iran, China engaged in interference. Domestic actors spread false claims. Social media amplified disinformation.' }
+
+    ],
   },
   'election-interference-networks': {
     title: 'Election Interference Networks',
@@ -1441,6 +1659,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023', event: 'China\'s influence operations have shifted from traditional diplomatic lobbying to information warfare: the 2023 ODNI Annual Threat Assessment reported that China\'s efforts to influence US elections...', type: 'political' },
      { date: '2024', event: 'Iran has conducted hack-and-leak operations targeting both Democratic and Republican campaigns, including a 2024 breach of the Trump campaign', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Actors', role: 'Domestic and foreign efforts to undermine election integrity through disinformation and manipulation', status: 'pending', notes: 'Russia, Iran, China engaged in interference. Domestic actors spread false claims. Social media amplified disinformation.' }
+
+    ],
   },
   'electronic-voting-machine-vulnerabilities': {
     title: 'Electronic Voting Machine Vulnerabilities',
@@ -1480,6 +1704,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2024', event: 'Risk-limiting audits (RLAs); statistically rigorous audits that provide high confidence in election outcomes by examining a random sample of paper ballots; are required by only 8 states as of 2024', type: 'political' },
      { date: '2024', event: 'As of 2024, all US states use equipment that produces a paper record (the last paperless DRE jurisdiction, Louisiana, transitioned in 2024)', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
   'electromagnetic-field-reproductive-impact': {
     title: 'Electromagnetic Field Reproductive Impact',
@@ -1522,6 +1752,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 Swiss cohort study involving 2,886 men aged 18-22 found that men who used their phones more than 20 times per day had significantly lower sperm concentrations than those who used them once o', type: 'default' },
      { date: '2023', event: 'The European Commission\'s Scientific Committee on Health, Environmental and Emerging Risks (SCHEER) acknowledged in 2023 that evidence of reproductive effects from RF-EMF had grown since its previo...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Atomic Energy Commission', role: 'Secret radiation experiments on unsuspecting citizens during Cold War', status: 'pending', notes: '1994 Advisory Committee documented thousands of experiments on prisoners, patients, children without consent' }
+
+    ],
   },
   'economic-policy-population-control-links': {
     title: 'Economic Policy Population Control Links',
@@ -1562,6 +1798,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2012', event: 'The 2012 London Summit on Family Planning, co-hosted by the Gates Foundation and DFID, set a target of providing contraception to 120 million additional women in developing countries by 2020', type: 'financial' },
      { date: '2017', event: 'A 2017 study in the Proceedings of the National Academy of Sciences found that each additional structural adjustment condition imposed by the IMF was associated with a 0.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Federal Reserve', role: 'Monetary policy decisions that disproportionately benefited wealthy asset holders', status: 'pending', notes: 'Quantitative easing inflated asset prices benefiting top 10%. Wealth inequality widened dramatically.' }
+
+    ],
   },
   'environmental-toxin-fertility-impact': {
     title: 'Environmental Toxin Fertility Impact',
@@ -1604,6 +1846,11 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2018', event: 'A 2018 Danish study published in Environmental Health Perspectives found that higher plasma PFAS concentrations were associated with reduced semen quality, lower testosterone, and higher levels of', type: 'default' },
      { date: '2024', event: '3M, DuPont, and Chemours have paid over $11 billion in settlements related to PFAS contamination as of 2024; but the chemicals remain in widespread use with approximately 12,000 PFAS variants curre', type: 'political' }
    ],
+ defendants: [
+   { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+   { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+   { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+ ],
   },
   'election-observer-intimidation-tactics': {
     title: 'Election Observer Intimidation Tactics',
@@ -1645,6 +1892,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2022', event: 'Armed voter intimidation at ballot drop boxes became a national issue during the 2022 midterm elections', type: 'political' },
      { date: '2022', event: 'Prosecutions require proving specific intent to intimidate; a standard that organized groups circumvent by framing their activities as "observation" or "ballot security.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
   'environmental-justice-community-mapping': {
     title: 'Environmental Justice Community Mapping',
@@ -1688,6 +1941,16 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023', event: 'The EPA\'s Cumulative Impacts Framework, proposed in 2023, would for the first time require the agency to consider the total pollution burden on communities (not just individual facility permits) wh...', type: 'default' },
      { date: '2024', event: 'Meanwhile, the Supreme Court\'s 2024 decision overturning Chevron deference (Loper Bright Enterprises v', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
 
   'evidence-destruction': {
@@ -1733,6 +1996,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2021', event: 'SECRET SERVICE JANUARY 6 TEXTS: The Secret Service deleted text messages', type: 'legal' },
      { date: '2021-01-06', event: 'SECRET SERVICE JANUARY 6 TEXTS: The Secret Service deleted text messages', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+    ],
   },
   'el-paso-massacre': {
     title: "El Paso Walmart Massacre",
@@ -1772,6 +2041,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023-02', event: 'HATE CRIME PROSECUTION: In February 2023, Crusius pleaded guilty to 90 federal charges including 23 counts of hate crime', type: 'legal' },
      { date: '2026', event: 'POLITICAL RESPONSE AND INACTION: After the shooting, President Trump visited El Paso.', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Patrick Crusius', role: 'White supremacist who targeted Hispanic shoppers at Walmart in El Paso, TX, killing 23 on August 3, 2019', status: 'convicted', notes: 'Pled guilty to 90 federal charges and 23 state murder charges. Sentenced to 90 consecutive life sentences.' }
+
+    ],
   },
   'election-security-threats': {
     title: 'Election Security Threats',
@@ -1809,6 +2084,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2021', event: 'Georgia\'s 2021 election law shortened runoff periods and restricted mail-in voting', type: 'political' },
      { date: '2021-01-06', event: 'January 6, 2021 insurrection aimed to overturn election results', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Actors', role: 'Domestic and foreign efforts to undermine election integrity through disinformation and manipulation', status: 'pending', notes: 'Russia, Iran, China engaged in interference. Domestic actors spread false claims. Social media amplified disinformation.' }
+
+    ],
   },
   'environmental-racism': {
     title: 'Environmental Racism',
@@ -1844,6 +2125,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '1987', event: 'A 1987 GAO study found that three out of five Superfund sites were in areas where the majority of residents were people of color.', type: 'default' },
      { date: '1990', event: 'The "Cancer Alley" designation came from a 1990 front-page Times-Picayune article highlighting the corridor from Baton Rouge to New Orleans.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Polluting Industries (Systematic)', role: 'Disproportionately site toxic facilities in Black, Latino, and indigenous communities', status: 'pending', notes: 'EPA found minorities 40% more likely to live near toxic waste. Cancer Alley in Louisiana is emblematic case.' }
+
+    ],
   },
   'executive-compensation-gouging': {
     title: 'Executive Compensation Gouging',
@@ -1884,6 +2171,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2020-01-01', event: 'Pandemic year: CEOs receive record compensation while companies lay off workers; Boeing, Wells Fargo, and others pay departing executives tens of millions despite catastrophic failures', type: 'financial' },
      { date: '2023-01-01', event: 'CEO-to-worker pay ratio reaches 399:1; average CEO at 350 largest firms earns $16.3 million while typical worker earns $40,847', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'epa-regulatory-capture': {
     title: 'EPA Regulatory Capture: The Systematic Neutering of Environmental Protection',
@@ -1922,6 +2217,16 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2018', event: 'In 2018, the agency proposed a "transparency" rule designed to exclude epidemiological studies (which rely on confidential medical data) from the regulatory record, effectively barring the use of f', type: 'default' },
      { date: '2022', event: 'A 2022 study published in Science found that EPA enforcement penalties are 56% lower in communities with higher minority populations', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'electronic-frontier-mass-surveillance': {
     title: 'The Electronic Surveillance State: From Echelon to Pegasus',
@@ -1961,6 +2266,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Pegasus Project (2021), a collaboration of over 80 journalists, identified over 50,000 phone numbers selected as targets by NSO Group clients, including journalists from the Associated Press, R', type: 'political' },
      { date: '2021', event: 'Commerce Department blacklisted NSO Group in 2021, but the FBI tested Pegasus for domestic use', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'emirati-influence-operations-american-politics': {
     title: 'Emirati Influence Operations in American Politics',
@@ -2003,6 +2316,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2022-11-01', event: 'Despite extensive evidence of communications with UAE officials and apparent coordination, a jury acquitted Barrack on all counts in November 2022 - highlighting the difficulty of prosecuting forei', type: 'legal' },
      { date: '2023', event: 'ILLEGAL CAMPAIGN CONTRIBUTIONS: In January 2023, Imaad Zuberi, a political fundraiser, was sentenced to 12 years in prison for funneling $1.', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+      { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+    ],
   },
   'exxon-climate-fraud': {
     title: 'Exxon Climate Fraud',
@@ -2046,6 +2367,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 peer-reviewed study in Science by Geoffrey Supran and Naomi Oreskes confirmed that "icheduled scientists accurately projected global warming" from 1977 onward, and that their projections wer', type: 'political' },
      { date: '2025', event: 'As of 2025, atmospheric CO2 has reached 425 ppm, the highest in at least 800,000 years, and global temperatures have exceeded 1.5 degrees Celsius above pre-industrial levels for the first time', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Exxon Shipping Company', role: 'Operated Exxon Valdez tanker that spilled 11 million gallons of oil in Prince William Sound, Alaska', status: 'convicted', notes: 'Pled guilty to Clean Water Act violations; fined $125M (later reduced to $25M). Punitive damages reduced from $5B to $507M by SCOTUS.' },
+
+      { name: 'Captain Joseph Hazelwood', role: 'Captain of Exxon Valdez who was below deck (possibly intoxicated) when tanker ran aground', status: 'acquitted', notes: 'Acquitted of felony charges; convicted of negligent discharge of oil (misdemeanor); fined $50,000' }
+
+    ],
   },
   'east-palestine-train-derailment': {
     title: 'East Palestine Train Derailment',
@@ -2082,6 +2411,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2019', event: 'Norfolk Southern spent $10 billion on stock buybacks from 2019-2022 while cutting maintenance workers', type: 'political' },
      { date: '2023-02-03', event: 'On February 3, 2023, Norfolk Southern Railway Train 32N, consisting of 149 cars (20 carrying hazardous materials), derailed in East Palestine, Ohio, a town of approximately 4,700 people near the Pe', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Norfolk Southern', role: 'Railroad whose deferred maintenance and cost-cutting led to toxic train derailment in East Palestine, OH on Feb 3, 2023', status: 'charged', notes: 'EPA ordered cleanup. Multiple lawsuits. Paid $600M settlement. CEO Alan Shaw later fired for ethics violations.' }
+
+    ],
   },
   'equifax-data-breach': {
     title: 'Equifax Data Breach',
@@ -2117,6 +2452,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2019-07-01', event: 'In July 2019, Equifax agreed to a settlement with the FTC, CFPB, and 50 state attorneys general totaling up to $700 million, including $425 million in consumer restitution', type: 'financial' },
      { date: '2023', event: 'Equifax\'s stock price, which fell 35% after the disclosure, fully recovered within two years, and the company reported record revenues of $5.12 billion in 2023', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Equifax Inc.', role: 'Failed to patch known vulnerability leading to breach of 147 million Americans\' personal data', status: 'settled', notes: 'Paid $700M FTC/CFPB settlement in 2019. Largest data breach settlement in history.' },
+
+      { name: 'Jun Ying', role: 'Equifax CIO who engaged in insider trading after learning of breach before public disclosure', status: 'convicted', notes: 'Sentenced to 4 months in prison and $55,000 fine for insider trading' }
+
+    ],
   },
   'enron-corporate-fraud-scandal': {
     title: 'Enron Corporate Fraud Scandal',
@@ -2199,7 +2542,21 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2001-01-01', from: 'Enron', to: 'Special Purpose Entities (SPEs)', amount: '$1,000,000,000', purpose: 'Billions in debt hidden through off-balance-sheet SPEs designed by CFO Andrew Fastow; who personally profited $30M from them', documented: true },
      { date: '2002-01-01', from: 'Arthur Andersen (annual revenue lost)', to: 'Firm dissolution', amount: '$9,300,000,000', purpose: 'Andersen shredded Enron audit documents; convicted of obstruction. Firm with $9.3B annual revenue destroyed; 85,000 jobs lost globally', documented: true }
    ],
-  },
+
+    defendants: [
+
+      { name: 'Kenneth Lay', role: 'Enron founder and CEO who oversaw massive accounting fraud', status: 'convicted', notes: 'Convicted on 10 counts in 2006; died before sentencing. Convictions vacated.' },
+
+      { name: 'Jeffrey Skilling', role: 'Enron CEO who orchestrated structures to hide billions in debt', status: 'convicted', notes: 'Convicted on 19 counts; sentenced to 24 years (reduced to 14). Released 2019.' },
+
+      { name: 'Andrew Fastow', role: 'Enron CFO who created off-book entities to hide $1B in losses', status: 'convicted', notes: 'Pled guilty to 2 counts; sentenced to 6 years. Key government cooperator.' },
+
+      { name: 'Arthur Andersen LLP', role: 'Auditor that shredded Enron documents and failed to detect fraud', status: 'convicted', notes: 'Convicted of obstruction; conviction later reversed by SCOTUS but firm destroyed (85,000 jobs lost)' }
+
+    ],
+
+
+},
   'elizabeth-holmes-theranos-fraud': {
     title: 'Elizabeth Holmes and Theranos: Silicon Valley\'s Billion-Dollar Blood Testing Fraud',
     subtitle: 'Elizabeth Holmes founded Theranos at age 19, claiming to have developed revolutionary technology that could run hundreds of medical tests from a single drop of blood.',
@@ -2236,6 +2593,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2021', event: 'Holmes\'s trial in late 2021 and Balwani\'s trial in mid-2022 exposed the full scope of the deception', type: 'legal' },
      { date: '2022', event: 'Holmes was convicted on four counts of wire fraud related to investor deception in January 2022 and sentenced to 11 years and 3 months in federal prison -- she reported to prison in May 2023', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Elizabeth Holmes', role: 'Theranos founder who defrauded investors of hundreds of millions with fake blood-testing technology', status: 'convicted', notes: 'Convicted on 4 counts of wire fraud in January 2022; sentenced to 11.25 years. Reported to prison May 2023.' },
+
+      { name: 'Ramesh "Sunny" Balwani', role: 'Theranos COO who oversaw fraudulent lab operations and concealed failures', status: 'convicted', notes: 'Convicted on 12 counts of wire fraud; sentenced to nearly 13 years' }
+
+    ],
   },
   'eminent-domain-abuse-property-seizure': {
     title: 'Eminent Domain Abuse: Government Seizure of Private Property for Corporate Gain',
@@ -2273,6 +2638,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2009', event: 'Pfizer closed its New London campus in 2009', type: 'default' },
      { date: '2021', event: 'A 2021 analysis found that minority homeowners receive approximately 20% less in eminent domain proceedings than white homeowners', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Blackstone Group', role: 'Largest corporate landlord buying homes after 2008 crisis, driving up rents', status: 'pending', notes: 'Purchased 80,000+ homes at distressed prices. UN criticized impact on housing.' }
+
+    ],
   },
   'environmental-racism-toxic-exposure': {
     title: 'Environmental Racism and Toxic Exposure in Minority Communities',
@@ -2307,6 +2678,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '1987', event: 'The landmark 1987 United Church of Christ report "Toxic Wastes and Race" found race to be the most significant variable associated with the location of hazardous waste facilities.', type: 'default' },
      { date: '2016', event: 'A 2016 update confirmed the disparity had worsened: communities of color are still disproportionately burdened with toxic facilities.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Polluting Industries (Systematic)', role: 'Disproportionately site toxic facilities in Black, Latino, and indigenous communities', status: 'pending', notes: 'EPA found minorities 40% more likely to live near toxic waste. Cancer Alley in Louisiana is emblematic case.' }
+
+    ],
   },
   'elder-financial-exploitation': {
     title: 'Elder Financial Exploitation and Guardianship Abuse',
@@ -2341,6 +2718,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2013', event: 'Banks report suspicious activity through SARs (Suspicious Activity Reports), which increased 300% for elder exploitation between 2013 and 2023.', type: 'default' },
      { date: '2023', event: 'Banks report suspicious activity through SARs (Suspicious Activity Reports), which increased 300% for elder exploitation between 2013 and 2023.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'emergency-room-surprise-billing': {
     title: 'Emergency Room Surprise Billing',
@@ -2376,6 +2761,12 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2022-01', event: 'The No Surprises Act, effective January 2022, represents the most significant federal intervention in the crisis.', type: 'critical' },
      { date: '2023', event: 'A 2023 analysis found that 18% of all emergency room visits result in at least one surprise bill, with average charges exceeding $1,200 above what insurance covers.', type: 'political' }
      ],
+
+    defendants: [
+
+      { name: 'UnitedHealth Group', role: 'Systematically denied claims using AI algorithms to boost profits', status: 'charged', notes: '$22B profit in 2023 while denying millions of claims. Multiple lawsuits over AI claim denials.' }
+
+    ],
   },
   'enhanced-interrogation-cia-black-sites': {
     title: 'Enhanced Interrogation and CIA Black Sites: America\'s Global Torture Program',
@@ -2422,6 +2813,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2018', event: 'Lithuania, 2018) in violation of Article 3 (prohibition of torture), Article 5 (right to liberty and security), Article 6 (right to a fair trial), Article 8 (right to respect for private life), and', type: 'legal' },
      { date: '2018', event: 'Gina Haspel, who oversaw the CIA black site in Thailand (codenamed Cat\'s Eye/Detention Site Green) where Abu Zubaydah was waterboarded 83 times, and who drafted the cable ordering the destruction o...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'east-timor-genocide': {
  title: 'East Timor Genocide',
@@ -2593,6 +2992,7 @@ const investigations_e: Record<string, InvestigationData> = {
    { name: 'Elliott Abrams', role: 'Withholding information from Congress about Iran-Contra', status: 'convicted', notes: 'Pleaded guilty in 1991; pardoned by George H.W. Bush in 1992' },
    { name: 'Salvadoran State', role: 'Systematic human rights violations', status: 'charged', notes: 'Inter-American Court found state responsible for El Mozote massacre in 2012; ordered reparations' }
  ],
+
   },
   'emmett-till': {
  title: 'The Murder of Emmett Till',
@@ -2825,6 +3225,7 @@ const investigations_e: Record<string, InvestigationData> = {
    { name: 'Richard Causey', role: 'Chief Accounting Officer, securities fraud', status: 'convicted', notes: 'Pleaded guilty - 7 years (reduced to 5.5)' },
    { name: 'Lou Pai', role: 'N/A - sold $270M in stock before collapse', status: 'charged', notes: 'Never charged despite massive insider selling' }
  ],
+
   },
   'epstein-network': {
  title: 'Epstein Network Complicity',
@@ -3108,7 +3509,10 @@ const investigations_e: Record<string, InvestigationData> = {
    { name: 'MCC Guards (Noel & Thomas)', role: 'Conspiracy and Falsifying Records', status: 'incarcerated', notes: 'Deferred prosecution agreement, community service only, no prison time (2021)' },
    { name: 'Epstein Estate', role: 'USVI AG Lawsuit, Decades of Trafficking', status: 'charged', notes: 'Ongoing. Epstein Victims\' Compensation Program distributed $125M+ to 150+ claimants.' }
  ],
-  },
+
+
+
+},
   'extraordinary-rendition': {
  title: 'Extraordinary Rendition',
  subtitle: 'CIA\'s Global Kidnapping, Torture, and Black Site Network',
@@ -3195,6 +3599,7 @@ const investigations_e: Record<string, InvestigationData> = {
    { name: 'Gina Haspel', role: 'Overseeing torture at Thailand black site', status: 'charged', notes: 'No charges, appointed CIA Director in 2018' },
    { name: 'George Tenet', role: 'Authorizing torture program as CIA Director', status: 'charged', notes: 'No prosecution, received Presidential Medal of Freedom' }
  ],
+
   },
   'exxon-climate-coverup': {
  title: 'Exxon Climate Cover-Up',
@@ -3280,6 +3685,7 @@ const investigations_e: Record<string, InvestigationData> = {
    { name: 'Global Climate Coalition', role: 'Organized campaign to deceive the public about climate science', status: 'charged', notes: 'Disbanded 2002 after members began defecting; legacy of disinformation persists' },
    { name: 'ExxonMobil (v. activist investors)', role: 'Exxon suing Arjuna Capital and Follow This to block climate shareholder proposals', status: 'charged', notes: 'Case filed 2024; widely criticized as retaliation' }
  ],
+
   },
 };
 

@@ -47,6 +47,14 @@ const investigations_2: Record<string, InvestigationData> = {
      { date: '2000-12-12', event: 'Supreme Court rules 5-4 in Bush v. Gore to halt Florida recount, effectively awarding presidency to George W. Bush along partisan lines', type: 'legal' },
      { date: '2008', event: 'Bush presidency brought the Iraq War (based on false WMD claims), Hurricane Katrina failures, the 2008 financial crisis, and Supreme Court appointments that later overturned Roe v. Wade', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Katherine Harris', role: 'Florida Secretary of State who certified Bush\'s 537-vote victory while serving as co-chair of Bush\'s Florida campaign', status: 'pending', notes: 'Halted recount; ordered counties to certify results. No charges filed despite conflict of interest.' },
+
+   { name: 'Supreme Court (Bush v. Gore)', role: '5-4 decision along partisan lines halted Florida recount, effectively deciding the presidential election', status: 'pending', notes: 'Per curiam opinion stated "limited to the present circumstances." No legal accountability.' }
+
+ ],
  },
   '2020-election-overturn': {
  title: '2020 Election Overturn Conspiracy',
@@ -120,6 +128,20 @@ const investigations_2: Record<string, InvestigationData> = {
      { date: '2024-11', event: 'John Eastman disbarred in California for his role in the election overturn scheme' },
      { date: '2025', event: 'Georgia RICO case remains pending but proceedings severely slowed. Over 1,200 January 6 defendants convicted of federal crimes' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Orchestrated multi-pronged effort to overturn 2020 election results including pressuring state officials and VP Pence', status: 'indicted', notes: 'Indicted by Special Counsel Jack Smith on 4 federal charges. Case complicated by immunity ruling.' },
+
+   { name: 'Mark Meadows', role: 'White House Chief of Staff who coordinated efforts to overturn election results', status: 'indicted', notes: 'Indicted in Georgia RICO case. Attempted to remove case to federal court.' },
+
+   { name: 'Rudy Giuliani', role: 'Led legal team spreading false election fraud claims; pressured state legislators', status: 'indicted', notes: 'Indicted in Georgia and Arizona. Disbarred in NY and DC. Filed for bankruptcy.' },
+
+   { name: 'John Eastman', role: 'Authored legal memo arguing VP Pence could reject electoral votes', status: 'indicted', notes: 'Indicted in Georgia. Disbarred in California in 2024.' },
+
+   { name: 'Jeffrey Clark', role: 'DOJ official who attempted to use DOJ to pressure Georgia to overturn results', status: 'indicted', notes: 'Indicted in Georgia RICO case. Faced DOJ disciplinary proceedings.' }
+
+ ],
  },
   '2016-election': {
  title: '2016 Election Interference',
@@ -192,6 +214,14 @@ const investigations_2: Record<string, InvestigationData> = {
      { date: '2020-02-20', event: 'Stone sentenced to 40 months; Trump commutes sentence in July 2020, pardons in December 2020', type: 'legal' },
      { date: '2020-08', event: 'Senate Intelligence Committee releases Volume 5: "Russian Active Measures Campaigns and Interference in the 2016 U.S. Election"', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Russian Internet Research Agency', role: 'Conducted social media disinformation campaign to influence 2016 US election', status: 'indicted', notes: 'Indicted by Mueller; charges later dropped as unenforceable against foreign entities' },
+
+   { name: 'GRU Officers (12)', role: 'Russian military intelligence officers who hacked DNC and Clinton campaign', status: 'indicted', notes: '12 GRU officers indicted by Mueller in July 2018; none extradited' }
+
+ ],
  },
  'pandemic-profiteering-covid-corruption': {
   title: 'COVID-19 Pandemic Profiteering and Government Corruption',
@@ -226,6 +256,14 @@ const investigations_2: Record<string, InvestigationData> = {
      { date: '2020-01-24', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity.', type: 'political' },
      { date: '2025', event: 'As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud.', type: 'financial' }
      ],
+
+  defendants: [
+
+    { name: 'Various PPP Loan Fraudsters', role: 'Fraudulently obtained Paycheck Protection Program loans totaling billions', status: 'convicted', notes: 'DOJ charged 3,000+ defendants for PPP fraud totaling $1.4B+ as of 2024' },
+
+    { name: 'Price Gougers', role: 'Individuals and companies that illegally inflated prices on PPE, sanitizer, and medical equipment', status: 'charged', notes: 'FTC and state AGs brought hundreds of enforcement actions' }
+
+  ],
  },
   '2008-financial-crisis': {
  title: '2008 Financial Crisis',
@@ -326,7 +364,10 @@ const investigations_2: Record<string, InvestigationData> = {
    { name: 'Dick Fuld (Lehman Brothers)', role: 'Misleading investors through Repo 105 transactions hiding $50B in liabilities', status: 'charged', notes: 'Never charged criminally. SEC did not pursue him. Lehman examiner found"colorable claims"of fraud.' },
    { name: 'AIG / Joseph Cassano', role: 'Writing $440B in credit default swaps with inadequate reserves, requiring $182B bailout', status: 'charged', notes: 'Cassano investigated, never charged. Received $315M in compensation before and after the crisis.' }
  ],
-  },
+
+
+
+},
 };
 
 export default investigations_2;

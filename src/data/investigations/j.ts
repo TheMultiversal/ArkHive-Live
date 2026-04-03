@@ -56,6 +56,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2022', event: 'Bremerton (2022) allowed public school coach prayer', type: 'default' },
      { date: '2022', event: 'Makin (2022) required public funding for religious schools', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'january-6-investigation': {
  title: 'January 6th Insurrection & Congressional Investigation',
@@ -96,6 +104,18 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2024-07-01', event: 'In July 2024, the Supreme Court ruled in Trump v', type: 'legal' },
      { date: '2025', event: 'PARDONS AND IMPUNITY: After returning to office in January 2025, President Trump pardoned or commuted sentences for January 6 defendants; including those convicted of assaulting police officers', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Incited supporters to march on Capitol to overturn 2020 election certification on January 6, 2021', status: 'indicted', notes: 'Impeached by House (acquitted by Senate). Indicted by Special Counsel on 4 counts. Case paused by immunity ruling.' },
+
+   { name: 'Oath Keepers/Stewart Rhodes', role: 'Led paramilitary organization that planned and executed armed assault on Capitol', status: 'convicted', notes: 'Convicted of seditious conspiracy in November 2022; sentenced to 18 years' },
+
+   { name: 'Proud Boys/Enrique Tarrio', role: 'Led Proud Boys in coordinated assault on Capitol to prevent election certification', status: 'convicted', notes: 'Convicted of seditious conspiracy; sentenced to 22 years (longest J6 sentence)' },
+
+   { name: '1,200+ Capitol Breach Defendants', role: 'Participated in violent assault on US Capitol during joint session of Congress', status: 'convicted', notes: 'Over 1,200 charged; 900+ convicted as of 2024. Sentences range from probation to 22 years.' }
+
+ ],
  },
   'january-6th': {
  title: 'January 6th Capitol Attack: The Day Democracy Was Assaulted',
@@ -138,6 +158,18 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2022-11', event: 'Stewart Rhodes (Oath Keepers) and Enrique Tarrio (Proud Boys) convicted of seditious conspiracy; Rhodes sentenced to 18 years, Tarrio to 22 years', type: 'legal' },
      { date: '2025-01', event: 'President Trump pardons or commutes sentences for January 6 defendants including those convicted of assaulting police officers; over 1,400 had been charged in the largest federal criminal investigation in history', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Incited supporters to march on Capitol to overturn 2020 election certification on January 6, 2021', status: 'indicted', notes: 'Impeached by House (acquitted by Senate). Indicted by Special Counsel on 4 counts. Case paused by immunity ruling.' },
+
+   { name: 'Oath Keepers/Stewart Rhodes', role: 'Led paramilitary organization that planned and executed armed assault on Capitol', status: 'convicted', notes: 'Convicted of seditious conspiracy in November 2022; sentenced to 18 years' },
+
+   { name: 'Proud Boys/Enrique Tarrio', role: 'Led Proud Boys in coordinated assault on Capitol to prevent election certification', status: 'convicted', notes: 'Convicted of seditious conspiracy; sentenced to 22 years (longest J6 sentence)' },
+
+   { name: '1,200+ Capitol Breach Defendants', role: 'Participated in violent assault on US Capitol during joint session of Congress', status: 'convicted', notes: 'Over 1,200 charged; 900+ convicted as of 2024. Sentences range from probation to 22 years.' }
+
+ ],
  },
   'jj-baby-powder': {
  title: 'Johnson & Johnson Baby Powder: Decades of Asbestos Concealment',
@@ -177,6 +209,12 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2020', event: 'In 2020, J&J discontinued its talc-based Baby Powder in the United States and Canada, switching to a cornstarch formula', type: 'default' },
      { date: '2023', event: 'In 2023, J&J proposed a $8.9 billion settlement to resolve approximately 100,000 talc-related claims, but the offer required approval of 75% of claimants', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Johnson & Johnson', role: 'Sold talc baby powder contaminated with asbestos for decades while concealing evidence of contamination', status: 'settled', notes: 'Proposed $8.9B settlement for 100,000+ claims. Internal documents showed J&J knew of asbestos since 1971.' }
+
+ ],
  },
   'juul-vaping-epidemic': {
  title: 'JUUL and the Youth Vaping Epidemic',
@@ -214,6 +252,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, JUUL agreed to pay $438.5 million to settle a multi-state investigation into its marketing practices and $462 million to six states in separate settlements', type: 'financial' },
      { date: '2022', event: 'youth using e-cigarettes reached 2.55 million in 2022, with JUUL having served as the gateway product for a generation of nicotine addiction', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'JUUL Labs', role: 'Marketed highly addictive nicotine vaping products to teenagers through social media and flavored pods', status: 'settled', notes: 'Settled with FTC for $462M. Settled with states for over $1.2B total. Youth vaping epidemic followed.' },
+
+   { name: 'James Monsees/Adam Bowen', role: 'JUUL co-founders who designed and marketed highly addictive vaping products targeting youth', status: 'pending', notes: 'Testified before Congress in 2019. No personal criminal charges.' }
+
+ ],
  },
   'journalistic-source-protection-failures': {
     title: 'Journalistic Source Protection Failures',
@@ -254,6 +300,12 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2021', event: 'In 2021, it was revealed that the Trump DOJ had secretly obtained phone records, email logs, and in some cases email content from reporters at the New York Times (including reporters covering the R', type: 'default' },
      { date: '2024-06-01', event: 'Assange ultimately pleaded guilty to a single Espionage Act charge in June 2024 and was released after serving time in a UK prison', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Justice', role: 'Prosecuted and surveilled journalists to identify confidential sources', status: 'pending', notes: 'James Risen, James Rosen targeted. No federal shield law. Espionage Act used against leakers.' }
+
+    ],
   },
   'juvenile-justice-system-failures': {
     title: 'Juvenile Justice System Failures',
@@ -293,6 +345,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 AP investigation found that between 2000 and 2023, at least 120 children died in juvenile detention facilities from suicide, medical neglect, restraint-related injuries, and violence', type: 'critical' },
      { date: '2024', event: 'However, as of 2024, approximately 2,500 individuals remained in U.S', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
 
   'jackson-mississippi-water-crisis': {
@@ -335,6 +395,12 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, the legislature passed a law creating a state-appointed board to control Jackson\'s water system with no input from city residents, a move critics compared to emergency management impositio...', type: 'political' },
      { date: '2023', event: 'The EPA issued an emergency administrative order to Jackson in 2023 under SDWA Section 1431 requiring immediate corrective actions', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'City of Jackson Officials', role: 'Decades of neglect allowing water infrastructure to collapse', status: 'pending', notes: 'EPA declared emergency 2022 after water system failure. Environmental racism documented.' }
+
+    ],
   },
   'juul-teen-vaping-epidemic': {
     title: 'JUUL and the Teen Vaping Epidemic',
@@ -374,6 +440,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2023', event: 'Meanwhile, teen nicotine addiction continues, with 2.1 million teens still using e-cigarettes as of 2023, many having moved to disposable brands that have evaded FDA regulation entirely', type: 'financial' },
      { date: '2023-04-01', event: 'In April 2023, JUUL agreed to pay $462 million to settle approximately 5,000 lawsuits from individuals, school districts, and local governments', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'JUUL Labs', role: 'Marketed highly addictive nicotine vaping products to teenagers through social media and flavored pods', status: 'settled', notes: 'Settled with FTC for $462M. Settled with states for over $1.2B total. Youth vaping epidemic followed.' },
+
+      { name: 'James Monsees/Adam Bowen', role: 'JUUL co-founders who designed and marketed highly addictive vaping products targeting youth', status: 'pending', notes: 'Testified before Congress in 2019. No personal criminal charges.' }
+
+    ],
   },
   'johnson-and-johnson-talc-cancer': {
     title: 'Johnson & Johnson Talc Cancer Coverup',
@@ -414,6 +488,12 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2024', event: 'Multiple other jury verdicts followed, including a $750 million verdict in 2024', type: 'legal' },
      { date: '2024-05-01', event: 'In May 2024, J&J proposed a $6.475 billion settlement to resolve approximately 100,000 talc lawsuits, a fraction of the company\'s $410 billion market capitalization and annual revenue of $87 billion', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Johnson & Johnson', role: 'Sold talc baby powder contaminated with asbestos for decades while concealing evidence of contamination', status: 'settled', notes: 'Proposed $8.9B settlement for 100,000+ claims. Internal documents showed J&J knew of asbestos since 1971.' }
+
+    ],
   },
   'judicial-corruption-cash-for-kids': {
     title: 'Judicial Corruption: Kids for Cash and the Systemic Rot in American Courts',
@@ -452,6 +532,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 Reuters investigation identified over 1,500 cases in which judges were secretly disciplined for misconduct over a 12-year period, with most receiving only reprimands', type: 'legal' },
      { date: '2022', event: 'In 2022, Ciavarella was ordered to pay $200 million in restitution to victims, but as a federal prisoner with no assets, the judgment is largely symbolic', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'judicial-cash-bail-wealth-based-detention': {
     title: 'Cash Bail: The Two-Tiered Justice System That Imprisons Poverty',
@@ -487,6 +575,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2020', event: 'California voters rejected bail elimination in 2020 after the bail industry spent $10 million on opposition', type: 'political' },
      { date: '2023', event: 'Illinois became the first state to completely abolish cash bail in 2023', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'judicial-election-dark-money': {
     title: 'Judicial Election Corruption and Dark Money',
@@ -522,6 +618,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2010', event: 'In 2010, three Iowa Supreme Court justices were voted out after ruling in favor of same-sex marriage, with outside groups spending $1 million on opposition campaigns', type: 'legal' },
      { date: '2023', event: 'The Wisconsin Supreme Court race of 2023 illustrates the new reality: the most expensive judicial election in American history', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'juvenile-life-without-parole': {
     title: 'Juvenile Life Without Parole',
@@ -559,6 +663,14 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2021', event: 'Mississippi (2021), a more conservative Court further weakened protections by ruling that judges need not make an explicit finding of permanent incorrigibility before imposing JLWOP', type: 'legal' },
      { date: '2024', event: 'As of 2024, approximately 2,500 people are serving life-without-parole sentences for crimes committed before age 18', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'japanese-american-internment': {
     title: 'Japanese American Internment: The Mass Incarceration of 120,000 Citizens Without Due Process',
@@ -604,6 +716,12 @@ const investigations_j: Record<string, InvestigationData> = {
      { date: '2018', event: 'Hawaii (2018), Chief Justice John Roberts formally repudiated Korematsu, stating it was "gravely wrong the day it was decided."', type: 'default' },
      { date: '2024', event: 'The resulting forced sales at below-market prices caused losses estimated at $400 million in 1940s dollars (approximately $6-8 billion in 2024 dollars)', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Franklin D. Roosevelt', role: 'Signed Executive Order 9066 authorizing internment of 120,000 Japanese Americans during WWII', status: 'pending', notes: 'Government formally apologized in 1988; paid $20,000 reparation per survivor. Korematsu decision never formally overturned but repudiated.' }
+
+    ],
   },
   'jackson-water-crisis': {
  title: 'Jackson Water Crisis',
@@ -767,6 +885,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { name: 'Donald Trump', role: '4 Federal Counts (Conspiracy, Obstruction)', status: 'indicted', notes: 'Indicted by Jack Smith (August 2023), case dismissed after 2024 election' },
    { name: '1,400+ Capitol Rioters', role: 'Various federal charges', status: 'charged', notes: 'Over 1,000 convictions including 600+ sentenced to incarceration as of 2025' }
  ],
+
   },
   'japanese-internment': {
  title: 'Japanese American Internment',
@@ -859,6 +978,7 @@ const investigations_j: Record<string, InvestigationData> = {
    { name: 'U.S. Government', role: 'Systematic violation of civil liberties of 120,000+ persons of Japanese ancestry through mass incarceration without due process', status: 'charged', notes: 'Civil Liberties Act of 1988: Formal presidential apology and $20,000 reparations to each surviving internee; CWRIC found internment motivated by racial prejudice, not military necessity' },
    { name: 'Heart Mountain Draft Resisters (63 individuals)', role: 'Refusal to comply with Selective Service orders while imprisoned in internment camps without restoration of civil rights', status: 'convicted', notes: 'Convicted in the largest mass trial in Wyoming history (1944); pardoned by President Truman in 1947; formally recognized for their principled stand by the JACL in 2002' }
  ],
+
   },
   'jfk-assassination': {
  title: 'JFK Assassination & Cover-Up',

@@ -44,6 +44,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2016', event: 'Ukrainian "Black Ledger" reveals $12.7 million in undisclosed cash payments designated for Manafort from the Party of Regions', type: 'financial' },
      { date: '2017-10-30', event: 'Mueller indicts Manafort and Rick Gates for money laundering, unregistered foreign lobbying, and false statements; reinvigorates FARA enforcement', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'usps-interference': {
  title: 'USPS Election Interference',
@@ -83,6 +91,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2020-10', event: 'Federal judges ordered DeJoy to restore postal service; first-class mail on-time delivery had fallen from 92% to 64% in some areas', type: 'legal' },
      { date: '2026', event: 'DeJoy remains Postmaster General; USPS board structure prevents easy removal even by new presidents', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Louis DeJoy', role: 'Postmaster General who slowed mail service before 2020 election by removing sorting machines and mailboxes', status: 'pending', notes: 'Removed 671 sorting machines. Federal court ordered halt. DeJoy had $75M+ in USPS competitor investments.' }
+
+ ],
  },
   'undocumented-workers': {
  title: 'Undocumented Workers at Trump Properties',
@@ -128,6 +142,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2019-03-01', event: 'At least a dozen workers fired from Bedminster alone; Trump Organization announced it would implement E-Verify at all properties going forward.', type: 'default' },
      { date: '2019-12-01', event: 'Despite documented evidence of systematic employment violations at multiple properties, no federal investigation opened; no executives charged.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'ICE (Immigration and Customs Enforcement)', role: 'Pattern of abuse in detention including medical neglect and family separation', status: 'charged', notes: 'Whistleblower alleged forced hysterectomies. Multiple detainee deaths documented.' }
+
+ ],
  },
   'uae-influence': {
  title: 'UAE Influence Operations',
@@ -182,6 +202,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-04-01', event: 'Kushner\'s firm Affinity Partners received $2 billion from Saudi Arabia\'s sovereign wealth fund despite advisory board objections about due diligence and inexperience.', type: 'financial' },
      { date: '2022-11-04', event: 'Tom Barrack acquitted of acting as unregistered UAE agent; jury found insufficient evidence that he acted at UAE\'s direction despite documented contacts with Emirati officials.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'us-backed-dictators': {
  title: 'America\'s Dictator Problem',
@@ -234,6 +262,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '1990', event: 'Pinochet killed thousands, tortured tens of thousands, and ruled until 1990', type: 'critical' },
      { date: '2011', event: 'He was Washington\'s key Arab ally until protesters forced him out in 2011', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Government (Cold War Era)', role: 'Supported authoritarian regimes worldwide to counter communism; backed coups in Iran, Guatemala, Chile, and others', status: 'pending', notes: 'Supported Pinochet, Shah, Suharto, Marcos, Mobutu, and dozens more. Millions killed under US-backed regimes.' }
+
+ ],
  },
   'uber-scandals': {
  title: 'Uber Scandals: The Company That Broke Every Rule',
@@ -287,6 +321,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-07-10', event: 'The Guardian and ICIJ published the Uber Files: 124,000+ internal documents revealing global lobbying, evidence destruction, and exploitation of driver violence.', type: 'default' },
      { date: '2022-10-05', event: 'Joe Sullivan convicted of obstruction and concealment of a felony for data breach coverup; first conviction of a corporate executive for hiding a breach.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Travis Kalanick', role: 'Uber CEO who oversaw systematic law-breaking including Greyball tool to deceive regulators', status: 'pending', notes: 'Forced to resign in 2017. DOJ investigated Greyball. Uber paid $148M settlement for data breach cover-up.' },
+
+   { name: 'Joe Sullivan', role: 'Uber Chief Security Officer who covered up 2016 data breach affecting 57 million users', status: 'convicted', notes: 'Convicted of obstruction of FTC investigation in 2022; sentenced to probation' }
+
+ ],
  },
   'ukraine-policy': {
  title: 'U.S. Ukraine Policy: From Bipartisan Support to Political Weapon',
@@ -333,6 +375,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-02-01', event: 'Following Russia\'s full-scale invasion in February 2022, the Biden administration led a coalition providing over $75 billion in military, economic, and humanitarian aid to Ukraine through 2024', type: 'political' },
      { date: '2025', event: 'The Trump second administration (2025-) reversed U.S', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'ukraine-war': {
  title: 'Russia-Ukraine War: The Largest European Conflict Since World War II',
@@ -386,6 +436,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2023-06-06', event: 'Ukraine launched summer counteroffensive against heavily fortified Russian defensive lines in Zaporizhzhia; limited territorial gains amid dense minefields.', type: 'default' },
      { date: '2024-04-24', event: '$60.8 billion U.S. Ukraine aid package passed after six-month delay in Congress; signaled growing political divisions over continued support.', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Vladimir Putin / Russian Federation', role: 'Launched unprovoked full-scale invasion of Ukraine on February 24, 2022', status: 'indicted', notes: 'ICC arrest warrant for war crime of child deportation. 200,000+ casualties. Largest European conflict since WWII.' }
+
+ ],
  },
   'ukraine-war-crimes': {
  title: 'Russian War Crimes in Ukraine: Systematic Atrocities Against Civilians',
@@ -441,6 +497,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2023-03-17', event: 'ICC issued arrest warrants for Vladimir Putin and Maria Lvova-Belova for the war crime of unlawful deportation of Ukrainian children.', type: 'political' },
      { date: '2024-01-15', event: 'Ukraine\'s Prosecutor General reported over 130,000 war crimes proceedings opened; Eurojust Joint Investigation Team expanded documentation efforts.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Russian Armed Forces', role: 'Committed widespread war crimes in Ukraine including Bucha massacre, targeting hospitals and infrastructure', status: 'charged', notes: 'ICC investigating. Documented torture, rape, execution of civilians, and attacks on energy infrastructure.' }
+
+ ],
  },
   'usa-gymnastics-abuse': {
  title: 'USA Gymnastics Abuse: The Largest Sexual Abuse Scandal in Sports History',
@@ -494,6 +556,16 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2021-07-14', event: 'DOJ Inspector General released 119-page report calling FBI\'s handling "fundamental failures" and "inexcusable"; DOJ declined to prosecute agents.', type: 'legal' },
      { date: '2021-09-15', event: 'Simone Biles, Aly Raisman, McKayla Maroney, and Maggie Nichols testified before Senate Judiciary Committee about FBI failures.', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Larry Nassar', role: 'USA Gymnastics team doctor who sexually abused 265+ gymnasts including Simone Biles and Aly Raisman', status: 'convicted', notes: 'Sentenced to 40-175 years state prison plus 60 years federal for child pornography' },
+
+   { name: 'Steve Penny', role: 'USA Gymnastics President who covered up Nassar\'s abuse for over a year', status: 'charged', notes: 'Charged with evidence tampering; charges dropped. Fired in 2017.' },
+
+   { name: 'FBI Agents', role: 'FBI Indianapolis failed to investigate Nassar for over a year after being notified; agent lied about it', status: 'pending', notes: 'DOJ declined to prosecute FBI agents despite IG findings. $380M DOJ settlement with victims in 2024.' }
+
+ ],
  },
   'uvalde-shooting': {
  title: 'Uvalde School Shooting: 21 Lives Lost at Robb Elementary',
@@ -544,6 +616,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2024-01-18', event: 'DOJ released 575-page Critical Incident Review finding "cascading failures" by all responding agencies; described officers standing in hallway with shields doing nothing.', type: 'legal' },
      { date: '2024-06-27', event: 'Pete Arredondo and former officer Adrian Gonzales indicted on child endangerment charges; first criminal charges stemming from the botched police response.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Salvador Ramos', role: '18-year-old gunman who murdered 19 children and 2 teachers at Robb Elementary School on May 24, 2022', status: 'charged', notes: 'Killed by law enforcement after being inside school for 77 minutes.' },
+
+   { name: 'Pete Arredondo', role: 'Uvalde school district police chief who delayed response for 77 minutes while children called 911', status: 'indicted', notes: 'Indicted on 10 counts of child endangerment in June 2024. Fired from position.' }
+
+ ],
  },
   'uyghur-genocide': {
  title: 'Uyghur Genocide: China\'s Industrial-Scale Persecution',
@@ -597,6 +677,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022-05-24', event: 'Xinjiang Police Files leaked: thousands of detainee photographs, shoot-to-kill orders, and internal speeches revealing the systematic nature of persecution.', type: 'critical' },
      { date: '2022-08-31', event: 'UN OHCHR published Xinjiang assessment finding "serious human rights violations" constituting potential "crimes against humanity" -- released in final minutes of Commissioner\'s term.', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Chinese Government/Xi Jinping', role: 'Directed mass internment of 1+ million Uyghurs in concentration camps in Xinjiang', status: 'pending', notes: 'UN found "serious human rights violations." US, UK, Canada declared it genocide. ICC has no jurisdiction.' }
+
+ ],
  },
   'union-pension-fund-fraud-schemes': {
     title: 'Union Pension Fund Fraud Schemes',
@@ -633,6 +719,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2016', event: 'By 2016, it was projected to run out of money by 2025; affecting 400,000 workers and retirees', type: 'default' },
      { date: '2021', event: 'THE BUTCH LEWIS ACT AND $86 BILLION BAILOUT: The 2021 American Rescue Plan included the Special Financial Assistance (SFA) program', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Various Union/Pension Fund Officials', role: 'Embezzled and mismanaged pension funds leaving workers without retirement security', status: 'convicted', notes: 'DOL investigations found billions mismanaged. Central States Teamsters pension cut benefits. PBGC backstops failing funds.' }
+
+    ],
   },
 
   'uvalde-police-failure': {
@@ -676,6 +768,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2024-01', event: 'DOJ CRITICAL INCIDENT REVIEW: The DOJ\'s January 2024 report concluded that the law enforcement response was inadequate at every level.', type: 'default' },
      { date: '2024-06', event: 'Arredondo was fired in August 2022 and indicted on 29 counts of child endangerment in June 2024.', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Salvador Ramos', role: '18-year-old gunman who murdered 19 children and 2 teachers at Robb Elementary School on May 24, 2022', status: 'charged', notes: 'Killed by law enforcement after being inside school for 77 minutes.' },
+
+      { name: 'Pete Arredondo', role: 'Uvalde school district police chief who delayed response for 77 minutes while children called 911', status: 'indicted', notes: 'Indicted on 10 counts of child endangerment in June 2024. Fired from position.' }
+
+    ],
   },
   'us-prison-industrial-complex': {
     title: 'U.S. Prison Industrial Complex',
@@ -711,6 +811,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2000', event: 'These companies have spent over $25 million on lobbying and campaign contributions since 2000', type: 'political' },
      { date: '2024', event: 'As of 2024, approximately 2 million Americans are incarcerated in federal prisons, state prisons, local jails, immigration detention, juvenile facilities, and other correctional institutions', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'uber-greyball-obstruction-of-justice': {
     title: 'Uber: Systematic Law Evasion, Greyball, and Corporate Culture of Impunity',
@@ -748,6 +856,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2021', event: 'In the UK, the Supreme Court ruled in 2021 that Uber drivers were workers entitled to minimum wage and holiday pay', type: 'legal' },
      { date: '2023', event: 'In 2023, the company paid $1.7 billion to settle an age discrimination lawsuit brought by drivers', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Travis Kalanick', role: 'Uber CEO who oversaw systematic law-breaking including Greyball tool to deceive regulators', status: 'pending', notes: 'Forced to resign in 2017. DOJ investigated Greyball. Uber paid $148M settlement for data breach cover-up.' },
+
+      { name: 'Joe Sullivan', role: 'Uber Chief Security Officer who covered up 2016 data breach affecting 57 million users', status: 'convicted', notes: 'Convicted of obstruction of FTC investigation in 2022; sentenced to probation' }
+
+    ],
   },
   'us-backed-coups-regime-change': {
     title: 'U.S.-Backed Coups and Regime Change Operations',
@@ -793,6 +909,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2013', event: 'The CIA officially acknowledged its role in the coup in 2013 with the release of declassified documents', type: 'default' },
      { date: '2016', event: 'election interference makes domestic outrage over Russian interference in 2016 deeply hypocritical', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (Cold War Era)', role: 'Supported authoritarian regimes worldwide to counter communism; backed coups in Iran, Guatemala, Chile, and others', status: 'pending', notes: 'Supported Pinochet, Shah, Suharto, Marcos, Mobutu, and dozens more. Millions killed under US-backed regimes.' }
+
+    ],
   },
   'union-busting-labor-rights-destruction': {
     title: 'Corporate Union Busting and the Destruction of Labor Rights',
@@ -828,6 +950,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2021', event: 'The PRO Act, which would have imposed meaningful penalties and banned captive audience meetings, passed the House in 2021 but died in the Senate', type: 'critical' },
      { date: '2022', event: 'When workers at the JFK8 warehouse on Staten Island voted to unionize in 2022 — the first successful Amazon union vote — the company had already spent over $14 million on anti-union consultants', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Spent millions on anti-union consultants to prevent worker organizing', status: 'charged', notes: 'NLRB found Amazon illegally interfered with union elections. Spent $4.3M on anti-union consultants.' },
+
+      { name: 'Walmart', role: 'Systematically suppressed unionization and underpaid workers', status: 'settled', notes: 'Settled wage theft lawsuits for hundreds of millions.' }
+
+    ],
   },
   'cryptocurrency-manipulation-fraud': {
     title: 'Cryptocurrency Market Manipulation and Consumer Fraud',
@@ -867,6 +997,14 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2023', event: 'Bitcoin mining consumed an estimated 150 terawatt-hours of electricity in 2023, more than the entire country of Argentina', type: 'political' },
      { date: '2024', event: 'The industry spent $85 million on lobbying and campaign contributions in the 2024 election cycle', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+      { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+    ],
   },
   'utility-shutoff-deaths': {
     title: 'Utility Shutoff Deaths',
@@ -903,6 +1041,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2022', event: 'When federal and state shutoff moratoriums expired in 2021 and 2022, utilities initiated a wave of disconnections that affected an estimated 20 million households.', type: 'financial' },
      { date: '2024', event: 'Between 2018 and 2024, documented cases include hundreds of deaths from heat exposure after air conditioning was disconnected during summer months, hypothermia after heating loss in winter, house fires started by', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Various Utility Companies', role: 'Shut off power and gas to vulnerable customers resulting in deaths', status: 'charged', notes: 'Texas grid failure killed 246+ in 2021. Utility shutoffs linked to hundreds of preventable deaths annually.' }
+
+    ],
   },
   'unit-731-japanese-biological-warfare-us-immunity': {
     title: 'Unit 731: How the U.S. Granted Immunity to Japanese War Criminals Who Killed Thousands in Biological Experiments',
@@ -950,6 +1094,12 @@ const investigations_u: Record<string, InvestigationData> = {
      { date: '2002', event: 'Chinese government estimates, cited in the 2002 International Symposium on the Crimes of Bacteriological Warfare, place the total death toll from Unit 731 biological warfare operations at 200,000 t', type: 'critical' },
      { date: '2002', event: 'In 2002, a Japanese court acknowledged for the first time that Unit 731 had conducted biological warfare, but dismissed victim claims for compensation', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Shiro Ishii', role: 'Director of Unit 731 biological warfare program that experimented on thousands of live human subjects', status: 'pending', notes: 'US granted immunity in exchange for data. Japanese government denied program until 2002.' }
+
+    ],
   },
   'ukraine-extortion': {
  title: 'Ukraine Extortion',

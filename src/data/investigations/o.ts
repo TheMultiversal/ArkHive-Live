@@ -42,6 +42,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2022-11-29', event: 'Rhodes convicted of seditious conspiracy after an 8-week trial; the first seditious conspiracy conviction in over 30 years. Co-defendant Kelly Meggs also convicted', type: 'legal' },
      { date: '2023-05-25', event: 'Rhodes sentenced to 18 years in federal prison; the longest sentence of any January 6 defendant. Meggs receives 12 years', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Stewart Rhodes', role: 'Oath Keepers founder convicted of seditious conspiracy for role in January 6 Capitol attack', status: 'convicted', notes: 'Sentenced to 18 years; longest seditious conspiracy sentence in decades' },
+
+   { name: 'Kelly Meggs', role: 'Oath Keepers Florida chapter leader convicted of seditious conspiracy', status: 'convicted', notes: 'Sentenced to 12 years for role in J6 attack' }
+
+ ],
  },
   'obesity-epidemic': {
  title: 'The American Obesity Epidemic: A Manufactured Health Crisis',
@@ -79,6 +87,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1995', event: 'Between 1995 and 2020, the U.S.', type: 'default' },
      { date: '2011', event: 'The industry has defeated or weakened every major attempt to regulate food marketing to children, including voluntary guidelines proposed by four federal agencies in 2011 that were abandoned after industry lobbying.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Food and Beverage Corporations', role: 'Engineered addictive ultra-processed foods and funded research to deflect blame from sugar', status: 'pending', notes: 'Sugar industry paid Harvard researchers in 1960s to blame fat. Ultra-processed foods linked to obesity crisis. Industry lobbied against nutritional regulation.' }
+
+ ],
  },  'ohio-state-abuse': {
  title: 'Ohio State University Abuse',
  subtitle: 'Dr. Richard Strauss sexually abused at least 177 students over two decades with institutional cover-up',
@@ -123,6 +137,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2019-05-01', event: 'Perkins Coie 232-page report concluded university officials knew of complaints as early as 1979 and failed to act', type: 'default' },
      { date: '2023', event: 'Jim Jordan elevated to Speaker of the House; renewed scrutiny of what he knew about Strauss abuse', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Dr. Richard Strauss', role: 'OSU team doctor who sexually abused at least 177 male students over two decades (1979-1998)', status: 'pending', notes: 'Died by suicide in 2005. OSU settled for over $60M with survivors. University officials knew and failed to act.' }
+
+ ],
  },
   'okc-bombing': {
  title: 'Oklahoma City Bombing: America\'s Deadliest Domestic Terror Attack',
@@ -163,6 +183,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2001-09-11', event: 'history until September 11, 2001', type: 'default' },
      { date: '2021-01-06', event: 'Resources and political focus shifted overwhelmingly to international Islamic terrorism after 9/11, despite FBI assessments that domestic extremism remained a significant and growing threat', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Timothy McVeigh', role: 'Detonated truck bomb at Oklahoma City federal building killing 168 people on April 19, 1995', status: 'convicted', notes: 'Convicted on 11 federal counts; sentenced to death. Executed June 2001.' },
+
+   { name: 'Terry Nichols', role: 'Helped McVeigh plan and build the bomb used in Oklahoma City attack', status: 'convicted', notes: 'Convicted of conspiracy and involuntary manslaughter; sentenced to life without parole' }
+
+ ],
  },
   'opioid-distribution-networks': {
  title: 'Opioid Distribution Networks',
@@ -211,6 +239,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2017', event: 'MCKESSON: The nation\'s largest drug distributor paid $150 million in 2017 penalties and later agreed to a $7.9 billion national settlement', type: 'political' },
      { date: '2023', event: 'A 2023 trial resulted in CVS, Walgreens, and Walmart being found liable for contributing to the opioid epidemic in two Ohio counties', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+   { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+   { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+ ],
  },
   'offshore-tax-haven-architecture': {
     title: 'Offshore Tax Haven Architecture: The Global System Hiding $36 Trillion',
@@ -246,6 +284,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2016-04', event: 'In April 2016, the International Consortium of Investigative Journalists published the Panama Papers; 11.5 million documents leaked from Mossack Fonseca, a Panamanian law firm that had created more than 214,000 shell', type: 'financial' },
      { date: '2021', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Various Ultra-Wealthy Individuals', role: 'Used tax avoidance schemes to pay lower rates than working families', status: 'pending', notes: 'ProPublica revealed billionaires paid near-zero effective tax rates in some years' }
+
+    ],
   },
   'organized-crime-in-construction-industry': {
     title: 'Organized Crime in Construction: The Mob\'s Multi-Billion Dollar Industry',
@@ -282,6 +326,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1995', event: 'Subsequent prosecutions targeted union locals individually; the DOJ\'s civil RICO suit against the Laborers\' Union in 1995 led to court-appointed oversight', type: 'legal' },
      { date: '2020', event: 'A 2020 New York State report estimated that construction fraud costs the state $8.6 billion annually in lost revenue', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'operation-chaos-domestic-spying': {
     title: 'Operation CHAOS: The CIA\'s Illegal Domestic Surveillance Machine',
@@ -321,6 +371,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1974-12-01', event: 'Investigative journalist Seymour Hersh published a front-page New York Times story in December 1974 revealing the CIA\'s domestic spying', type: 'default' },
      { date: '1978', event: 'The Foreign Intelligence Surveillance Act of 1978 created the FISA Court to provide judicial oversight', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'operation-mockingbird-media-infiltration': {
     title: 'Operation Mockingbird: CIA Infiltration of American Media',
@@ -357,6 +415,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1976', event: 'Bush announced in 1976 that the CIA would no longer recruit journalists from American news organizations as paid agents', type: 'financial' },
      { date: '1977', event: 'KEY OPERATIVES: Carl Bernstein\'s 1977 Rolling Stone article "The CIA and the Media" documented the extent of media infiltration', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA', role: 'Recruited journalists and media organizations to spread propaganda during Cold War', status: 'pending', notes: 'Church Committee documented CIA relationships with major media outlets. Frank Wisner ran initial program.' }
+
+    ],
   },
   'operation-northwoods-false-flag-planning': {
     title: 'Operation Northwoods: When the Pentagon Proposed Terror Against Americans',
@@ -404,6 +468,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1997', event: 'Northwoods documents declassified by the JFK Assassination Records Review Board as part of comprehensive release of government records.', type: 'default' },
      { date: '2001-04-24', event: 'James Bamford published "Body of Secrets," bringing widespread public and media attention to the declassified Northwoods documents for the first time.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Joint Chiefs of Staff / Lyman Lemnitzer', role: 'Proposed false flag attacks on US soil to justify invasion of Cuba', status: 'pending', notes: 'Plan rejected by Kennedy. Declassified in 1997. Included proposed attacks on US military and civilians.' }
+
+    ],
   },
   'operation-paperclip-nazi-scientist-import': {
     title: 'Operation Paperclip: Importing Nazi Scientists to Win the Cold War',
@@ -453,6 +523,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1991', event: 'Linda Hunt published "Secret Agenda" documenting JIOA\'s systematic falsification of Paperclip scientists\' security files using FOIA-obtained documents.', type: 'default' },
      { date: '2013', event: 'Hubertus Strughold\'s name removed from prestigious Space Medicine award after renewed evidence of involvement in Dachau medical experiments.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'U.S. Government (OSS/CIA)', role: 'Recruited 1,600+ Nazi scientists and engineers, whitewashing war crimes history', status: 'pending', notes: 'Scientists included Wernher von Braun (V-2 rockets using slave labor). Records sanitized to bypass Truman order.' }
+
+    ],
   },
   'operation-condor-latin-america-terror': {
     title: 'Operation Condor: State Terrorism Across Latin America',
@@ -492,6 +568,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1998', event: 'In Chile, Pinochet was indicted in 1998 by Spanish judge Baltasar Garzon but never tried due to claimed health issues; he died in 2006', type: 'legal' },
      { date: '2016', event: 'In 2016, an Italian court convicted 24 former South American officials in absentia for their roles in Operation Condor', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Augusto Pinochet', role: 'Chilean dictator and key Operation Condor participant; directed torture and disappearance of thousands', status: 'charged', notes: 'Arrested in London 1998; died 2006 before trial. Operation Condor killed 60,000+ across South America.' },
+
+      { name: 'CIA (US Government)', role: 'Supported and coordinated Operation Condor assassination campaign across South America', status: 'pending', notes: 'Declassified documents confirm CIA knowledge and support. No US officials held accountable.' }
+
+    ],
   },
   'operation-gladio-stay-behind-networks': {
     title: 'Operation Gladio: NATO\'s Secret Stay-Behind Armies',
@@ -528,6 +612,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1990-10-01', event: 'Italian Prime Minister Giulio Andreotti confirmed Gladio\'s existence in October 1990, triggering investigations across Europe', type: 'political' },
      { date: '1990-11-22', event: 'EXPOSURE AND NON-ACCOUNTABILITY: When Andreotti\'s 1990 revelation triggered a cascade of admissions across Europe, the European Parliament passed a resolution on November 22, 1990, condemning the n...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NATO/CIA', role: 'Operated secret "stay-behind" armies in Europe during Cold War; linked to terrorism and coup attempts', status: 'pending', notes: 'Exposed by Italian PM Andreotti in 1990. Linked to Years of Lead terrorism in Italy. European Parliament condemned.' }
+
+    ],
   },
   'operation-fast-and-furious-gun-walking': {
     title: 'Operation Fast and Furious: ATF\'s Deadly Gun Walking Disaster',
@@ -565,6 +655,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2012-06-01', event: 'In June 2012, the House of Representatives held Holder in contempt of Congress for refusing to produce subpoenaed documents; President Obama invoked executive privilege to shield the materials', type: 'political' },
      { date: '2019', event: 'In 2019, a gun traced to the operation was found at the scene of a 2012 massacre at a Mexican beauty salon that killed 10 people', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'operation-pbsuccess-guatemala-coup': {
     title: 'Operation PBSUCCESS: The CIA\'s Guatemala Coup of 1954',
@@ -608,6 +706,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1999', event: 'In 1999, President Clinton acknowledged that U.S', type: 'political' },
      { date: '2013', event: 'Rios Montt was convicted of genocide by a Guatemalan court in 2013, though the conviction was later overturned on procedural grounds', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'CIA / Eisenhower Administration', role: 'Overthrew democratically elected Guatemalan President Arbenz in 1954 at behest of United Fruit Company', status: 'pending', notes: 'Led to 36-year civil war killing 200,000+. Dulles brothers had ties to United Fruit.' }
+
+    ],
   },
   'opioid-crisis-manufacturer-liability': {
     title: 'Opioid Manufacturers: Engineering an Epidemic for Profit',
@@ -645,6 +749,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2007', event: 'The 2007 plea involved three executives who pleaded guilty to misdemeanor misbranding; none served prison time', type: 'legal' },
      { date: '2008', event: 'THE SACKLER FAMILY: The Sackler family, which privately owned Purdue Pharma, extracted over $10 billion from the company between 2008 and 2018 as the crisis intensified', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+      { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+      { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+    ],
   },
   'operation-ajax-iran-coup-1953': {
     title: 'Operation Ajax: The CIA\'s Iran Coup That Shaped the Modern Middle East',
@@ -685,6 +799,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2000', event: 'In 2000, Secretary of State Madeleine Albright acknowledged American involvement, stating that the coup was "clearly a setback for Iran\'s political development." The full CIA history of the operati...', type: 'default' },
      { date: '2013', event: 'BELATED ACKNOWLEDGMENT: The CIA did not officially acknowledge its role in the coup until 2013, when declassified documents confirmed the agency\'s operational role', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA/MI6', role: 'Orchestrated 1953 coup overthrowing democratically elected PM Mossadegh to protect British oil interests', status: 'pending', notes: 'CIA acknowledged role in 2013 declassified documents. Replaced democracy with Shah\'s dictatorship.' }
+
+    ],
   },
   'ocean-pollution-industrial-scale': {
     title: 'Industrial-Scale Ocean Pollution: The Systematic Destruction of Marine Ecosystems',
@@ -720,6 +840,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2022', event: 'No binding international treaty addresses plastic pollution comprehensively, though negotiations began in 2022.', type: 'default' },
      { date: '2023', event: 'The Fukushima nuclear disaster released radioactive water that Japan began discharging into the Pacific in 2023.', type: 'critical' }
      ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'oil-spill-cover-up-history': {
     title: 'Oil Spill Cover-Ups: A History of Corporate Deception',
@@ -758,6 +888,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2008', event: 'A jury awarded $5 billion in punitive damages, which Exxon spent 20 years appealing until the Supreme Court reduced the amount to $507 million in 2008', type: 'legal' },
      { date: '2010', event: 'DEEPWATER HORIZON DECEPTION: During the 2010 Deepwater Horizon disaster, BP initially estimated the flow rate at 1,000 barrels per day', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'operation-mockingbird-modern-successors': {
     title: 'Modern Mockingbird: The Evolution of Intelligence-Media Relationships',
@@ -794,6 +934,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2022', event: 'The "Twitter Files" released in 2022-2023 revealed regular communications between FBI agents and Twitter employees about content flagging', type: 'default' },
      { date: '2022', event: 'The DHS\'s Disinformation Governance Board, announced and quickly withdrawn in 2022, demonstrated the government\'s interest in formally managing online narratives', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA', role: 'Recruited journalists and media organizations to spread propaganda during Cold War', status: 'pending', notes: 'Church Committee documented CIA relationships with major media outlets. Frank Wisner ran initial program.' }
+
+    ],
   },
   'off-label-drug-promotion-violations': {
     title: 'Off-Label Drug Promotion: Pharmaceutical Companies Selling Drugs for Unapproved Uses',
@@ -832,6 +978,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2012', event: 'Abbott Laboratories paid $1.5 billion in 2012 for promoting Depakote for agitation in elderly dementia patients', type: 'political' },
      { date: '2013', event: 'Johnson & Johnson paid $2.2 billion in 2013 for promoting Risperdal for elderly dementia patients and children (both unapproved)', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Pfizer', role: 'Illegally promoted Bextra and other drugs for unapproved uses', status: 'settled', notes: 'Paid $2.3B fine in 2009; largest healthcare fraud settlement at the time' },
+
+      { name: 'GlaxoSmithKline', role: 'Promoted Paxil, Wellbutrin, and Avandia for unapproved uses; concealed safety data', status: 'settled', notes: 'Paid $3B settlement in 2012; largest healthcare fraud settlement at that time' }
+
+    ],
   },
   'online-radicalization-pipeline-architecture': {
     title: 'Online Radicalization Pipeline: How Algorithms Create Extremists',
@@ -868,6 +1022,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2021', event: 'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own researchers found the platform\'s algorithms were "exploiting the human brain\'s attraction to divisiven...', type: 'default' },
      { date: '2022', event: 'The EU\'s Digital Services Act (2022) requires platforms to assess and mitigate systemic risks including radicalization, representing the most significant regulatory response', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'online-platform-trafficking-facilitation': {
     title: 'Online Platform Trafficking Facilitation: How Tech Companies Enable Exploitation',
@@ -903,6 +1065,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2021', event: 'A 2021 report by the Human Trafficking Institute found that Facebook was used in 59% of online sex trafficking recruitment cases involving minors.', type: 'default' },
      { date: '2023', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' }
      ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
 
   'oxford-shooting': {
@@ -943,6 +1113,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2023-12', event: 'In December 2023, he was sentenced to life in prison without the possibility of parole.', type: 'legal' },
      { date: '2024', event: 'THE CRUMBLEY TRIALS: James and Jennifer Crumbley were tried separately in early 2024.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Ethan Crumbley', role: '15-year-old who killed 4 students at Oxford High School, MI on November 30, 2021', status: 'convicted', notes: 'Pled guilty to 24 charges; sentenced to life without parole' },
+
+      { name: 'James Crumbley', role: 'Father who purchased gun used in Oxford shooting and ignored warning signs', status: 'convicted', notes: 'Convicted of involuntary manslaughter in 2024. First parent convicted for child\'s mass shooting.' },
+
+      { name: 'Jennifer Crumbley', role: 'Mother who ignored son\'s mental health crisis and warning signs before shooting', status: 'convicted', notes: 'Convicted of involuntary manslaughter in 2024. Precedent-setting case.' }
+
+    ],
   },
   'oversight-abuse': {
     title: "Congressional Oversight Abuse",
@@ -987,6 +1167,12 @@ const investigations_o: Record<string, InvestigationData> = {
       { date: '2023-01-12', event: 'House Oversight Committee under James Comer opens investigation into Biden family business dealings', type: 'political' },
       { date: '2024-08-19', event: 'House Oversight Committee concludes Biden investigation without evidence of presidential wrongdoing', type: 'political' }
     ],
+
+    defendants: [
+
+      { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+    ],
   },
   'operation-chaos': {
     title: "Operation CHAOS",
@@ -1027,6 +1213,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1975', event: 'Church Committee exposes CHAOS and other intelligence abuses; Senator Frank Church documents sweeping range of intelligence community overreach', type: 'political' },
      { date: '2001-09-11', event: 'Post-9/11 expansion of domestic surveillance programs echoes CHAOS-era practices under new legal authorities including the PATRIOT Act', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA / Richard Helms', role: 'Illegally surveilled and catalogued 300,000+ Americans opposing Vietnam War', status: 'pending', notes: 'Violated CIA charter prohibiting domestic operations. Exposed by Seymour Hersh in 1974.' }
+
+    ],
   },
   'opioid-distribution': {
     title: "Opioid Distribution Networks & Corporate Complicity",
@@ -1068,6 +1260,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2022', event: '$26 BILLION SETTLEMENT: In 2022, the Big Three distributors agreed to pay $21 billion to state and local governments over 18 years as part of a $26 billion consolidated settlement that also included Johnson & Johnson', type: 'legal' },
      { date: '2023', event: 'Opioid overdoses killed over 600,000 Americans between 1999 and 2023.', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+      { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+      { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+    ],
   },
   'opioid-crisis-corporate-mass-murder': {
     title: 'Opioid Crisis: Corporate Mass Murder',
@@ -1114,6 +1316,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2021-01-01', from: 'Sackler family (personal transfers)', to: 'Offshore accounts / trusts', amount: '$10,400,000,000', purpose: 'Sackler family withdrew over $10.4 billion from Purdue Pharma before bankruptcy, shielding personal wealth from victims', documented: true },
      { date: '2006-01-01', from: 'Opioid distributors', to: 'US pharmacies (76B pills)', amount: '$76,000,000,000', purpose: 'Estimated wholesale value of 76 billion opioid pills shipped between 2006-2014 into communities across America', documented: true }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+      { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+      { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+    ],
   },
   'operation-condor-cia-latin-america': {
     title: 'Operation Condor: CIA-Backed State Terror Across South America',
@@ -1154,6 +1366,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2016', event: 'In 2016, an Italian court convicted officials from Argentina, Chile, Bolivia, Peru, and Uruguay for their roles in Plan Condor operations targeting Italian citizens, sentencing most to life in pris', type: 'legal' },
      { date: '2024', event: 'As late as 2024, the Grandmothers of the Plaza de Mayo continued locating stolen children (now adults) through DNA databases', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Augusto Pinochet', role: 'Chilean dictator and key Operation Condor participant; directed torture and disappearance of thousands', status: 'charged', notes: 'Arrested in London 1998; died 2006 before trial. Operation Condor killed 60,000+ across South America.' },
+
+      { name: 'CIA (US Government)', role: 'Supported and coordinated Operation Condor assassination campaign across South America', status: 'pending', notes: 'Declassified documents confirm CIA knowledge and support. No US officials held accountable.' }
+
+    ],
   },
   'opioid-distribution-supply-chain-complicity': {
     title: 'Opioid Distribution: The Wholesale Drug Companies That Fueled the Epidemic',
@@ -1189,6 +1409,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2017', event: 'McKesson alone was fined $150 million by the DEA in 2017 for failing to report suspicious orders — its second settlement, after a $13.25 million fine in 2008 for the same violations', type: 'financial' },
      { date: '2022', event: 'The $21 billion settlement by the Big Three distributors (2022) represents one of the largest legal settlements in American history but is spread over 18 years and amounts to approximately 2% of th', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+      { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+      { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+    ],
   },
   'pesticide-science-suppression': {
     title: 'Pesticide Industry Science Suppression',
@@ -1228,6 +1458,16 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Ninth Circuit Court of Appeals ordered EPA to ban the pesticide in 2021, and the Biden EPA finally banned food uses in 2022, more than 20 years after scientific consensus established its danger', type: 'legal' },
      { date: '2022', event: 'beekeepers lost 48% of their managed honey bee colonies in the 2022-2023 season', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'opioid-settlement-fund-misuse': {
     title: 'Opioid Settlement Fund Misuse',
@@ -1264,6 +1504,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2023', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures', type: 'legal' },
      { date: '2024', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures', type: 'legal' }
      ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'operation-paperclip-nazi-scientists': {
     title: 'Operation Paperclip: How the U.S. Recruited Nazi War Criminals (1945-1990)',
@@ -1312,6 +1560,12 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1986', event: 'citizen and died in 1986 without prosecution', type: 'critical' },
      { date: '2002', event: 'Von Braun later claimed he was unaware of the worst conditions, but his SS personnel file, obtained by the BBC in 2002, included a letter recommending that he approve the transfer of additional sla', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (OSS/CIA)', role: 'Recruited 1,600+ Nazi scientists and engineers, whitewashing war crimes history', status: 'pending', notes: 'Scientists included Wernher von Braun (V-2 rockets using slave labor). Records sanitized to bypass Truman order.' }
+
+    ],
   },
   'operation-midnight-climax-lsd-experiments': {
     title: 'Operation Midnight Climax',
@@ -1347,6 +1601,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '1975', event: 'The program was first partially revealed during the 1975 Church Committee and Rockefeller Commission investigations.', type: 'default' },
      { date: '1977', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'oath-keepers-sedition': {
  title: 'Oath Keepers Seditious Conspiracy',
@@ -1669,7 +1931,10 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Operation Condor Trial (Argentina, 2016)', role: 'Criminal conspiracy across six nations to kidnap, torture, and murder political opponents', status: 'convicted', notes: '15 former officials convicted. Court ruled Condor constituted a transnational criminal conspiracy. Sentences ranged from 8-25 years' },
    { name: 'Reynaldo Bignone (Argentina)', role: 'Last Argentine dictator, crimes against humanity, baby theft, forced disappearances', status: 'convicted', notes: 'Convicted and sentenced to 25 years in Operation Condor trial. Died in prison March 2018' }
  ],
-  },
+
+
+
+},
   'operation-fast-and-furious': {
  title: 'Operation Fast and Furious',
  subtitle: 'ATF Gunwalking to Mexican Cartels, A Border Patrol Agent Killed With Government-Supplied Weapons',
@@ -1753,6 +2018,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Jaime Avila Jr.', role: 'Straw purchasing firearms (including gun used to kill Terry)', status: 'convicted', notes: 'Convicted - 57 months prison' },
    { name: 'DOJ Officials', role: 'Providing false information to Congress', status: 'charged', notes: 'No criminal charges filed' }
  ],
+
   },
   'operation-gladio': {
  title: 'Operation Gladio',
@@ -1837,6 +2103,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'CIA/NATO Officials', role: 'Funding and coordinating secret terrorist networks', status: 'charged', notes: 'No prosecutions, sovereign immunity claimed' },
    { name: 'Gilberto Cavallini', role: 'Bologna bombing complicity', status: 'convicted', notes: 'Convicted in 2020; life imprisonment' }
  ],
+
   },
   'operation-mockingbird': {
  title: 'Operation Mockingbird: CIA Media Control',
@@ -1903,6 +2170,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'CIA', role: 'Executive Order restrictions on media relationships', status: 'charged', notes: 'EO 12333 (1981) nominally restricts CIA media use, enforcement is self-policed by CIA itself' },
    { name: 'No individual', role: 'First Amendment violations', status: 'charged', notes: 'NO person was EVER criminally prosecuted for Operation Mockingbird' }
  ],
+
   },
   'operation-northwoods': {
  title: 'Operation Northwoods',
@@ -1987,6 +2255,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Department of Defense', role: 'Institutional responsibility for developing plans to attack American citizens', status: 'charged', notes: 'Documents classified for 35 years; released only under special legislative mandate' },
    { name: 'U.S. Government', role: 'Systematic cover-up of the Northwoods proposal and related anti-Cuba operations', status: 'charged', notes: 'Declassification in 1997 came too late for any legal accountability; all principals dead or retired' }
  ],
+
   },
   'operation-paperclip': {
  title: 'Operation Paperclip',
@@ -2071,6 +2340,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Reinhard Gehlen', role: 'Head of Nazi military intelligence on the Eastern Front', status: 'charged', notes: 'Never prosecuted; CIA funded his intelligence organization; became head of West German BND' },
    { name: 'JIOA Officials', role: 'Systematic falsification of security dossiers to circumvent presidential orders', status: 'charged', notes: 'No personnel ever disciplined or prosecuted for creating fraudulent records' }
  ],
+
   },
   'opioid-crisis': {
  title: 'Opioid Crisis Response',
@@ -2137,6 +2407,7 @@ const investigations_o: Record<string, InvestigationData> = {
    { name: 'Tom Marino', role: 'Championing legislation weakening DEA enforcement while receiving pharma donations', status: 'charged', notes: 'Withdrew as drug czar nominee October 2017; resigned from Congress January 2019' },
    { name: 'Johnson & Johnson', role: 'Deceptive marketing of opioid raw materials and finished products', status: 'charged', notes: '$5 billion settlement with states (2022)' }
  ],
+
   },
 };
 

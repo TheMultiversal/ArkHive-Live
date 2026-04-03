@@ -48,6 +48,14 @@ const investigations_q: Record<string, InvestigationData> = {
      { date: '2018-08-01', event: 'THE 666 BAILOUT: In August 2018, Brookfield Asset Management agreed to a 99-year lease on 666 Fifth Avenue, rescuing the Kushners from their financial disaster', type: 'default' },
      { date: '2019', event: 'A $1.4 billion loan was coming due in 2019', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'qualified-immunity-police-accountability-gap': {
     title: 'Qualified Immunity Police Accountability Gap',
@@ -84,6 +92,12 @@ const investigations_q: Record<string, InvestigationData> = {
      { date: '2020', event: 'THE REUTERS INVESTIGATION: In 2020, Reuters published a landmark investigation analyzing 529 federal appellate court rulings on qualified immunity from 2005 to 2019', type: 'legal' },
      { date: '2021', event: 'REFORM EFFORTS AND RESISTANCE: The George Floyd Justice in Policing Act, passed by the House in 2021, included provisions to eliminate qualified immunity for law enforcement officers', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'US Legal System', role: 'Qualified immunity doctrine shields police officers from civil liability for constitutional violations', status: 'pending', notes: 'Supreme Court created doctrine in 1982. Shields officers unless they violate "clearly established" law. Reform bills stalled.' }
+
+    ],
   },
   'prosecutorial-misconduct-wrongful-convictions': {
     title: 'Prosecutorial Misconduct and Wrongful Convictions',
@@ -119,6 +133,12 @@ const investigations_q: Record<string, InvestigationData> = {
      { date: '1989', event: 'The National Registry of Exonerations has documented over 3,400 wrongful convictions since 1989, with prosecutors contributing to the wrongful conviction through misconduct in 30% of cases.', type: 'legal' },
      { date: '2020', event: 'A 2020 study found that only 4% of prosecutors found to have committed misconduct faced any disciplinary action.', type: 'legal' }
      ],
+
+    defendants: [
+
+      { name: 'US Prosecutors (Systematic)', role: 'Withheld exculpatory evidence, coerced plea deals, and engaged in misconduct contributing to wrongful convictions', status: 'pending', notes: 'National Registry of Exonerations: official misconduct in 54% of wrongful convictions. Prosecutors rarely disciplined.' }
+
+    ],
   },
   'qualified-immunity-police-shield': {
     title: 'Qualified Immunity: The Police Accountability Shield',
@@ -153,6 +173,12 @@ const investigations_q: Record<string, InvestigationData> = {
      { date: '1871', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' },
      { date: '1983', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'US Legal System', role: 'Qualified immunity doctrine shields police officers from civil liability for constitutional violations', status: 'pending', notes: 'Supreme Court created doctrine in 1982. Shields officers unless they violate "clearly established" law. Reform bills stalled.' }
+
+    ],
   },
   'qanon-radicalization': {
  title: 'QAnon: The Radicalization Pipeline',

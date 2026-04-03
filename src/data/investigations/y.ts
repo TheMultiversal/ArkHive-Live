@@ -49,6 +49,12 @@ const investigations_y: Record<string, InvestigationData> = {
      { date: '2022-04', event: 'UN-brokered truce begins, reducing airstrikes significantly. An estimated 377,000 people have died, with 60% of deaths caused by hunger, disease, and lack of healthcare from the blockade', type: 'default' },
      { date: '2024', event: 'Houthi attacks on Red Sea shipping escalate after October 7; US and UK launch strikes on Houthi targets. The underlying humanitarian catastrophe affecting 24 million Yemenis remains unresolved', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Saudi-led Coalition / Mohammed bin Salman', role: 'Conducted indiscriminate bombing of Yemen killing 150,000+ and causing worst humanitarian crisis globally', status: 'pending', notes: 'Bombed hospitals, schools, weddings, school buses. US provided weapons, intelligence, and refueling support.' }
+
+ ],
  },
   'youtube-extremism': {
  title: 'YouTube\'s Radicalization Pipeline: How the Algorithm Breeds Extremism',
@@ -94,6 +100,14 @@ const investigations_y: Record<string, InvestigationData> = {
      { date: '2020-10', event: 'YouTube bans QAnon content after years of amplifying it through recommendations. By this point, QAnon has grown from a fringe conspiracy to a movement with followers elected to Congress', type: 'political' },
      { date: '2023', event: 'Mozilla Foundation "YouTube Regrets" research finds algorithm continues recommending harmful content at significant rates, particularly in non-English languages and developing countries with fewer moderation resources', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
  'youth-incarceration-abuse': {
   title: 'Youth Incarceration and Juvenile Detention Abuse',
@@ -141,6 +155,12 @@ const investigations_y: Record<string, InvestigationData> = {
      { date: '2020', event: 'COVID-19 pandemic exposes conditions in juvenile facilities where social distancing is impossible. Advocates push for emergency releases; some jurisdictions reduce populations by 30-40% with no increase in youth crime', type: 'default' },
      { date: '2023', event: 'DOJ consent decrees continue to be imposed on juvenile systems; active investigations in multiple states find ongoing patterns of physical abuse, sexual assault, and excessive solitary confinement despite decades of reform efforts', type: 'legal' }
    ],
+
+  defendants: [
+
+    { name: 'Federal Bureau of Prisons', role: 'Chronic understaffing, violence, and sexual abuse in federal prisons', status: 'charged', notes: 'AP found rampant guard sexual abuse. Multiple wardens convicted. Epstein died under BOP custody.' }
+
+  ],
  },
  'predatory-towing-industry': {
   title: 'Predatory Towing Industry',
@@ -174,6 +194,12 @@ const investigations_y: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 consumer advocacy study found that towing complaints correlate strongly with neighborhood income levels, with the highest predatory towing activity concentrated in low-income and minority neighborhoods.', type: 'default' },
      { date: '2024', event: 'Subsequent developments in predatory towing industry reveal broader systemic patterns', type: 'default' }
    ],
+
+  defendants: [
+
+    { name: 'Blackstone Group', role: 'Largest corporate landlord buying homes after 2008 crisis, driving up rents', status: 'pending', notes: 'Purchased 80,000+ homes at distressed prices. UN criticized impact on housing.' }
+
+  ],
  },
   'yemen-war': {
  title: 'Yemen War: America\'s Hidden Genocide',
@@ -257,6 +283,7 @@ const investigations_y: Record<string, InvestigationData> = {
    { name: 'All Parties', role: 'Use of child soldiers', status: 'charged', notes: 'Documented by UN but no prosecutions' },
    { name: 'U.S. Government', role: 'Circumventing Congressional arms sale oversight through emergency declarations', status: 'charged', notes: 'Trump declared "emergency" to push $8B arms sales; challenged but not blocked' }
  ],
+
   },
 };
 

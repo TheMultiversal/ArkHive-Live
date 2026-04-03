@@ -54,6 +54,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023', event: 'DC Attorney General\'s lawsuit over inaugural committee abuse results in $750K settlement. Trump Hotel DC sold in 2022 for $375M to CGI Merchant Group.', type: 'legal' },
      { date: '2025', event: 'Second Trump term: pattern continues with foreign government bookings at Trump properties, new questions about emoluments compliance, and expanded family business dealings.', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Various Public Officials', role: 'Bribery, self-dealing, and corruption in public office', status: 'charged', notes: 'DOJ Public Integrity Section prosecutes ~1,000 cases annually' }
+
+ ],
  },
   'biological-experimentation': {
  title: 'Biological Experimentation',
@@ -91,6 +97,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021-05', event: 'Biden ordered intelligence community review of COVID origins; Wuhan lab leak hypothesis gained renewed credibility as investigation into EcoHealth Alliance grants intensified', type: 'default' },
      { date: '2023-03', event: 'House Select Subcommittee on the Coronavirus Pandemic subpoenaed EcoHealth Alliance records; DOE and FBI both assessed lab leak as most likely origin with low confidence', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+ ],
  },
   'birther-conspiracy': {
  title: 'Birther Conspiracy',
@@ -130,6 +142,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2016', event: 'In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' },
      { date: '2016-09', event: 'Trump\'s delayed "admission": In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Various White Nationalist Organizations', role: 'Domestic terrorism, racist ideology, and infiltration of law enforcement', status: 'charged', notes: 'FBI identified white supremacist extremism as top domestic terrorism threat.' }
+
+ ],
  },
   'billionaire-enablers': {
  title: 'Billionaire Enablers',
@@ -176,6 +194,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2014', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' },
      { date: '2018', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Various Ultra-Wealthy Individuals', role: 'Used tax avoidance schemes to pay lower rates than working families', status: 'pending', notes: 'ProPublica revealed billionaires paid near-zero effective tax rates in some years' }
+
+ ],
  },
   'blackwater-massacre': {
  title: 'Blackwater Nisour Square Massacre',
@@ -235,6 +259,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2019-08', event: 'D.C. Circuit throws out Slatten\'s first-degree murder conviction, orders new trial. Upholds manslaughter convictions' },
      { date: '2020-12-22', event: 'Trump pardons all four convicted Blackwater contractors. UN condemns pardons as "affront to justice." Iraqi families devastated. No notice given to victims', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Blackwater Guards (Nisour Square)', role: 'Killed 17 Iraqi civilians at Nisour Square, Baghdad on September 16, 2007', status: 'convicted', notes: 'Four guards convicted in 2014. Nicholas Slattery sentenced to life. All pardoned by Trump in December 2020.' },
+
+   { name: 'Erik Prince', role: 'Blackwater founder who built private military empire with questionable oversight', status: 'pending', notes: 'Never personally charged. Later proposed privatizing Afghanistan war.' }
+
+ ],
  },
   'bush-dynasty': {
  title: 'The Bush Family Dynasty',
@@ -277,6 +309,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2000', event: 'BUSH: The younger Bush became president through the contested 2000 election decided by the Supreme Court after Florida (where brother Jeb was governor) stopped counting votes', type: 'legal' },
      { date: '2000', event: 'JEB BUSH AND 2000: Jeb Bush was Florida governor during the 2000 election dispute', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'bangladesh-genocide': {
  title: '1971 Bangladesh Genocide',
@@ -324,6 +364,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1971-12-01', event: 'INDIA\'S INTERVENTION: India eventually intervened militarily in December 1971, defeating Pakistani forces and enabling Bangladesh\'s independence', type: 'default' },
      { date: '2010', event: 'Trials for genocide perpetrators only began in 2010', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Pakistani Military', role: 'Conducted genocide in Bangladesh (then East Pakistan) in 1971 killing 300,000-3,000,000 people', status: 'pending', notes: 'US (Nixon/Kissinger) supported Pakistan despite "Blood Telegram" warnings. Hamoodur Rahman Commission findings suppressed.' }
+
+ ],
  },
   'boeing-safety-crisis': {
  title: 'Boeing Safety Crisis',
@@ -362,6 +408,16 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021', event: 'CRIMINAL CHARGES: In January 2021, Boeing was charged with conspiracy to defraud the US', type: 'financial' },
      { date: '2024', event: 'COVER-UP CONTINUES: In January 2024, a door plug blew out of a MAX 9 mid-flight', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Boeing Company', role: 'Concealed known safety defects in 737 MAX MCAS system leading to 346 deaths in two crashes', status: 'settled', notes: 'Paid $2.5B in 2021 deferred prosecution agreement. DOJ found Boeing violated DPA with Alaska Airlines incident.' },
+
+   { name: 'Dennis Muilenburg', role: 'CEO who publicly dismissed safety concerns while internally acknowledged MCAS problems', status: 'pending', notes: 'Fired December 2019 with $62M exit package. Never criminally charged.' },
+
+   { name: 'Mark Forkner', role: 'Chief technical pilot who allegedly misled FAA about MCAS', status: 'acquitted', notes: 'Acquitted of fraud charges in March 2022 after jury found FAA shared blame' }
+
+ ],
  },
   'boeing-criminal-enterprise': {
  title: 'Boeing: A Criminal Enterprise',
@@ -413,6 +469,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021', event: 'DEFERRED PROSECUTION (2021): Boeing paid $2.5 billion.', type: 'legal' },
      { date: '2024', event: 'DPA BREACH (2024): DOJ found Boeing breached the DPA.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Boeing Company', role: 'Pattern of safety failures, whistleblower retaliation, and regulatory capture across aircraft programs', status: 'charged', notes: 'DOJ charged with fraud conspiracy for 737 MAX crashes killing 346. Multiple whistleblower retaliation claims.' },
+
+   { name: 'Dennis Muilenburg', role: 'Boeing CEO who prioritized production speed over safety leading to 737 MAX crashes', status: 'pending', notes: 'Fired December 2019 after two crashes. Received $62M departure package.' }
+
+ ],
  },
   'boeing-whistleblower-retaliation': {
  title: 'Boeing Whistleblower Deaths and Retaliation',
@@ -457,6 +521,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
      { date: '2024-03-09', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' }
      ],
+
+ defendants: [
+
+   { name: 'Boeing Company', role: 'Pattern of safety failures, whistleblower retaliation, and regulatory capture across aircraft programs', status: 'charged', notes: 'DOJ charged with fraud conspiracy for 737 MAX crashes killing 346. Multiple whistleblower retaliation claims.' },
+
+   { name: 'Dennis Muilenburg', role: 'Boeing CEO who prioritized production speed over safety leading to 737 MAX crashes', status: 'pending', notes: 'Fired December 2019 after two crashes. Received $62M departure package.' }
+
+ ],
  },
   'big-tobacco-lies': {
  title: 'Big Tobacco Conspiracy',
@@ -518,6 +590,16 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2017-11-26', event: 'After 11 years of appeals, tobacco companies forced to publish corrective statements admitting they "deliberately deceived the American public"' },
      { date: '2020', event: 'E-cigarette epidemic. Juul (partially owned by Altria) addicts a new generation of young Americans. The denial playbook continues' }
    ],
+
+ defendants: [
+
+   { name: 'Philip Morris/Altria', role: 'Led tobacco industry conspiracy to conceal addiction and cancer risks for decades', status: 'convicted', notes: 'Judge Kessler found tobacco companies guilty of civil RICO conspiracy in 2006' },
+
+   { name: 'R.J. Reynolds', role: 'Concealed health risks of smoking and marketed to children', status: 'convicted', notes: 'Found liable under RICO. Master Settlement paid $206B over 25 years.' },
+
+   { name: 'British American Tobacco', role: 'Participated in decades-long conspiracy to deny health risks of smoking', status: 'settled', notes: 'Part of Master Settlement Agreement. Internal documents revealed systematic fraud.' }
+
+ ],
  },
   'bhopal-disaster': {
  title: 'Bhopal Gas Disaster',
@@ -574,6 +656,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2014-09-29', event: 'Warren Anderson dies at 92 in Vero Beach, Florida, never having faced trial for the deaths of thousands' },
      { date: '2024', event: '40th anniversary. Factory site still not cleaned. Groundwater still contaminated. Children still born with defects. Justice still denied' }
    ],
+
+ defendants: [
+
+   { name: 'Union Carbide/Warren Anderson', role: 'CEO when gas leak at Bhopal, India plant killed 3,787+ and injured 558,000+ on December 3, 1984', status: 'charged', notes: 'Anderson fled India on bail; never returned. Died 2014. UC settled for $470M (widely criticized as inadequate).' },
+
+   { name: 'Union Carbide Corporation', role: 'Operated the methyl isocyanate plant with negligent safety standards', status: 'settled', notes: 'Paid $470M settlement in 1989. Acquired by Dow Chemical in 2001. Indian court convicted 7 employees of negligence.' }
+
+ ],
  },
   'bank-discrimination': {
  title: 'Banking Discrimination',
@@ -614,6 +704,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2017-01-18', event: 'JPMorgan Chase pays $55 million to settle charges of discriminatory mortgage pricing affecting 53,000+ Black and Hispanic borrowers', type: 'legal' },
      { date: '2021-11-01', event: 'Journal of Financial Economics study documents algorithmic lending discrimination: minority borrowers charged 5.3 basis points higher, generating $765 million in excess interest annually', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Wells Fargo', role: 'Discriminatory lending practices including fake accounts scandal', status: 'settled', notes: 'Paid $3.7B for consumer abuses. Created millions of fake accounts. Redlining settlements.' }
+
+ ],
  },
   'banking-corruption': {
  title: 'Banking Industry Corruption',
@@ -653,6 +749,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2020-09-21', event: 'ICIJ publishes FinCEN Files revealing that banks moved over $2 trillion in suspicious transactions while filing SARs with FinCEN that were effectively ignored', type: 'critical' },
      { date: '2023-03-19', event: 'Credit Suisse collapses and is absorbed by UBS after losing over $5 billion on Archegos, facilitating tax evasion, and losing client trust; Swiss government brokers emergency merger', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+   { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+ ],
  },
   'banking-crimes': {
  title: 'Banking Sector Criminal Activity',
@@ -692,6 +796,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022-04-14', event: 'SEC charges former Wells Fargo executive Carrie Tolstedt with securities fraud for misleading investors about scope of fake accounts scandal; first senior executive charged', type: 'legal' },
      { date: '2023-03-10', event: 'Silicon Valley Bank collapses, followed by Signature Bank and First Republic, exposing regulatory failures enabled by 2018 banking deregulation that raised enhanced oversight threshold', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+   { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+ ],
  },
   'belarus-repression': {
  title: 'Belarus Repression',
@@ -731,6 +843,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023-03-03', event: 'Nobel Peace Prize laureate Ales Bialiatski sentenced to 10 years in prison for his human rights documentation work at Viasna Human Rights Centre', type: 'legal' },
      { date: '2024-01-01', event: 'Over 1,500 political prisoners remain incarcerated; all independent media destroyed; major civil society organizations liquidated or forced into exile', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Alexander Lukashenko', role: 'Belarusian dictator who violently suppressed 2020 pro-democracy protests and rigged election', status: 'charged', notes: 'Tortured detained protesters. 35,000+ arrested. EU/US imposed sanctions. Continues to rule.' }
+
+ ],
  },
   'big-tech-monopoly': {
  title: 'Big Tech Monopoly',
@@ -770,6 +888,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023-09-26', event: 'FTC and 17 state attorneys general file antitrust lawsuit against Amazon documenting "Project Nessie" pricing algorithm and anti-competitive marketplace practices', type: 'legal' },
      { date: '2024-08-05', event: 'Judge Amit Mehta rules Google is an illegal monopolist in search; DOJ begins remedies phase that could include forced divestiture of Chrome or Android', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'big-tobacco-conspiracy': {
  title: 'Big Tobacco Conspiracy',
@@ -809,6 +935,16 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2006-08-17', event: 'Judge Gladys Kessler rules in DOJ RICO case that tobacco companies engaged in a "massive 50-year scheme to defraud the public" and orders corrective statements', type: 'legal' },
      { date: '2024-01-01', event: 'WHO reports tobacco kills 8 million people annually; total estimated death toll since 1950s conspiracy exceeds 100 million; industry revenue exceeds $800 billion globally', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Philip Morris/Altria', role: 'Led tobacco industry conspiracy to conceal addiction and cancer risks for decades', status: 'convicted', notes: 'Judge Kessler found tobacco companies guilty of civil RICO conspiracy in 2006' },
+
+   { name: 'R.J. Reynolds', role: 'Concealed health risks of smoking and marketed to children', status: 'convicted', notes: 'Found liable under RICO. Master Settlement paid $206B over 25 years.' },
+
+   { name: 'British American Tobacco', role: 'Participated in decades-long conspiracy to deny health risks of smoking', status: 'settled', notes: 'Part of Master Settlement Agreement. Internal documents revealed systematic fraud.' }
+
+ ],
  },
   'billionaire-tax-avoidance': {
  title: 'Billionaire Tax Avoidance',
@@ -849,6 +985,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022-08-16', event: 'Inflation Reduction Act allocates $80 billion to rebuild IRS enforcement; Republicans immediately begin efforts to rescind the funding', type: 'legal' },
      { date: '2024-01-01', event: 'IRS begins deploying new enforcement capacity; recovers over $500 million from high-income non-filers in first year; audit rates for wealthy remain far below 2010 levels', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Ultra-Wealthy Individuals', role: 'Used tax avoidance schemes to pay lower rates than working families', status: 'pending', notes: 'ProPublica revealed billionaires paid near-zero effective tax rates in some years' }
+
+ ],
  },
   'boarding-schools': {
     title: 'Federal Indian Boarding Schools: America\'s Cultural Genocide',
@@ -902,6 +1044,12 @@ const investigations_b: Record<string, InvestigationData> = {
       { date: '2024-07-30', event: 'Volume II of the investigation released, naming hundreds of children who died and documenting burial sites; Secretary Haaland completes a year-long national listening tour gathering survivor testimony', type: 'political' },
       { date: '2024-10-25', event: 'President Biden issues a formal presidential apology for the federal Indian boarding school policy at the Gila River Indian Community in Arizona, 155 years after Carlisle opened', type: 'political' }
     ],
+
+    defendants: [
+
+      { name: 'U.S. Government/Bureau of Indian Affairs', role: 'Operated 408+ boarding schools that forcibly removed 100,000+ Native children from families; thousands died', status: 'pending', notes: 'DOI investigation (2022) found 53 burial sites. Children beaten for speaking native languages. "Kill the Indian, save the man" policy.' }
+
+    ],
   },
   'boeing-safety-failures': {
  title: 'Boeing Safety Failures',
@@ -941,6 +1089,16 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024-01-05', event: 'Alaska Airlines 737 MAX 9 suffers door plug blowout at 16,000 feet; NTSB finds four retaining bolts were missing from factory; renewed crisis of confidence', type: 'critical' },
      { date: '2024-07-24', event: 'Boeing pleads guilty to conspiracy to defraud the United States; agrees to $243.6 million fine; victims\' families call the deal inadequate', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Boeing Company', role: 'Concealed known safety defects in 737 MAX MCAS system leading to 346 deaths in two crashes', status: 'settled', notes: 'Paid $2.5B in 2021 deferred prosecution agreement. DOJ found Boeing violated DPA with Alaska Airlines incident.' },
+
+   { name: 'Dennis Muilenburg', role: 'CEO who publicly dismissed safety concerns while internally acknowledged MCAS problems', status: 'pending', notes: 'Fired December 2019 with $62M exit package. Never criminally charged.' },
+
+   { name: 'Mark Forkner', role: 'Chief technical pilot who allegedly misled FAA about MCAS', status: 'acquitted', notes: 'Acquitted of fraud charges in March 2022 after jury found FAA shared blame' }
+
+ ],
  },
   'bop-failures': {
  title: 'Bureau of Prisons Failures',
@@ -979,6 +1137,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022-07-01', event: 'AP investigation identifies 100+ BOP employees arrested, convicted or sentenced for sexual abuse of inmates since 2019; documents system-wide staff shortages', type: 'default' },
      { date: '2023-03-14', event: 'Senate investigation documents BOP staffing crisis: 4,000+ officer vacancies; non-custody staff forced into guard roles; inmates locked down 23 hours daily at multiple facilities', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Federal Bureau of Prisons', role: 'Chronic understaffing, violence, and sexual abuse in federal prisons', status: 'charged', notes: 'AP found rampant guard sexual abuse. Multiple wardens convicted. Epstein died under BOP custody.' }
+
+ ],
  },
   'border-deaths': {
  title: 'Border Deaths',
@@ -1018,6 +1182,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022-09-30', event: 'CBP records 895 migrant deaths in fiscal year 2022, the highest single-year total ever documented; experts estimate actual death toll is 2-3x higher due to unrecovered remains', type: 'critical' },
      { date: '2024-06-04', event: 'Biden executive order restricts asylum access when daily encounters exceed 2,500; border deaths continue as policy forces irregular crossings through dangerous terrain', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+   { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+ ],
  },
   'boston-archdiocese-coverup': {
  title: 'Boston Archdiocese Coverup',
@@ -1057,6 +1229,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2018-08-14', event: 'Pennsylvania grand jury report documents over 1,000 child victims and 300 "predator priests" across six dioceses; triggers nationwide cascade of state investigations', type: 'critical' },
      { date: '2019-05-09', event: 'Pope Francis issues new universal guidelines requiring clergy to report abuse to Church superiors but notably not to civil law enforcement authorities', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Cardinal Bernard Law', role: 'Covered up sexual abuse by priests for decades', status: 'pending', notes: 'Spotlight investigation revealed cover-up. Resigned 2002; moved to Vatican.' }
+
+ ],
  },
   'botham-jean-murder': {
  title: 'Botham Jean Murder',
@@ -1099,6 +1277,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2021-08-05', event: 'Texas Court of Criminal Appeals upholds Guyger\'s murder conviction; rejects castle doctrine argument that she believed she was in her own home', type: 'legal' },
      { date: '2024-09-06', event: 'Guyger becomes eligible for parole after serving five years of her 10-year sentence for murdering Botham Jean in his own home', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Amber Guyger', role: 'Off-duty Dallas police officer who entered Botham Jean\'s apartment and shot him dead on September 6, 2018', status: 'convicted', notes: 'Convicted of murder in 2019; sentenced to 10 years' }
+
+ ],
  },
   'breonna-taylor': {
  title: 'Breonna Taylor: No-Knock, No Accountability',
@@ -1148,6 +1332,18 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023-08-23', event: 'Kelly Goodlett sentenced to 12 months in prison after pleading guilty to conspiracy for helping falsify the warrant. First officer sentenced in the case.', type: 'legal' },
      { date: '2023-10-31', event: 'Joshua Jaynes convicted on federal charges of civil rights violations and falsifying the search warrant affidavit. Brett Hankison acquitted on federal excessive force charges.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Brett Hankison', role: 'LMPD detective who fired 10 rounds blindly into Breonna Taylor\'s apartment', status: 'convicted', notes: 'Acquitted of state charges; convicted of federal civil rights violations in 2022. Sentenced to 15 years.' },
+
+   { name: 'Joshua Jaynes', role: 'LMPD detective who obtained the no-knock warrant using false information in the affidavit', status: 'convicted', notes: 'Convicted of federal civil rights violations in 2022' },
+
+   { name: 'Kelly Goodlett', role: 'LMPD detective who conspired to falsify the search warrant and cover up actions after the shooting', status: 'convicted', notes: 'Pled guilty to federal conspiracy charge in 2022' },
+
+   { name: 'Myles Cosgrove', role: 'LMPD detective who fired the fatal shot killing Breonna Taylor', status: 'charged', notes: 'Fired from LMPD; federal charges brought in 2022' }
+
+ ],
  },
   'brian-sicknick': {
  title: 'Brian Sicknick: Killed Defending the Capitol',
@@ -1194,6 +1390,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023-04-06', event: 'Khater sentenced to 80 months in federal prison. Judge cites the severity of attacking officers defending the democratic process.', type: 'legal' },
      { date: '2023', event: 'Insurrection deniers continue to minimize January 6 violence. \"Sicknick wasn\'t murdered\" becomes a talking point despite the medical examiner\'s own statement connecting the attack to death.', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Julian Khater', role: 'Sprayed bear spray at Capitol Police Officer Brian Sicknick during January 6 attack', status: 'convicted', notes: 'Sicknick died January 7. Medical examiner ruled natural causes (strokes). Khater convicted of assault; sentenced to 80 months.' },
+
+   { name: 'George Tanios', role: 'Provided bear spray used to assault Officer Sicknick', status: 'convicted', notes: 'Pled guilty to assault charges; sentenced to probation' }
+
+ ],
  },
   'buffalo-massacre': {
  title: 'Buffalo Massacre: The Tops Supermarket Shooting',
@@ -1242,6 +1446,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023-02-15', event: 'Gendron sentenced to life in prison without parole; the maximum penalty under New York law. Victims\' families deliver impact statements at sentencing hearing.', type: 'legal' },
      { date: '2023', event: 'Federal hate crime prosecution remains pending. DOJ weighs death penalty; AG Garland has not yet made a formal determination on whether to seek capital punishment.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Payton Gendron', role: 'White supremacist who murdered 10 Black people at Tops supermarket in Buffalo, NY on May 14, 2022', status: 'convicted', notes: 'Pled guilty to domestic terrorism and murder; sentenced to life without parole in state court. Pled guilty to federal hate crimes.' }
+
+ ],
  },
   'bay-of-pigs-cover-up': {
     title: 'Bay of Pigs Cover-Up',
@@ -1280,6 +1490,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1979', event: 'The full truth was not officially acknowledged until 1979, when the families received belated recognition', type: 'default' },
      { date: '2016', event: 'Volume V of the history, covering the CIA Inspector General\'s investigation, was not released until 2016; 55 years after the invasion', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA / Eisenhower-Kennedy Administrations', role: 'Planned and executed failed invasion of Cuba at Bay of Pigs on April 17, 1961', status: 'pending', notes: '1,400 CIA-trained Cuban exiles defeated. 114 killed, 1,189 captured. Kennedy accepted responsibility.' }
+
+    ],
   },
   'big-pharma-patent-evergreening': {
     title: 'Big Pharma Patent Evergreening',
@@ -1323,6 +1539,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Supreme Court\'s 2023 decision to narrow PTAB jurisdiction has made patent challenges more difficult', type: 'legal' },
      { date: '2023', event: 'Humira generated $208 billion in cumulative revenue; making it the best-selling drug in history; before biosimilar competition finally arrived in the US in January 2023, roughly two decades after t', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'banking-lobby-capture-of-fed': {
     title: 'Banking Lobby Capture of the Federal Reserve',
@@ -1367,6 +1591,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022', event: 'When inflation rose in 2022, the Fed raised interest rates at the fastest pace in 40 years; from near zero to 5.25-5.5% in 18 months', type: 'default' },
      { date: '2023-03-01', event: 'Both banks subsequently failed in March 2023, requiring $33 billion in FDIC insurance fund losses and triggering the largest emergency lending facility since 2008', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Wall Street Banks', role: 'Captured Federal Reserve governance through revolving door appointments', status: 'pending', notes: 'Regional Fed boards dominated by bank executives. Banks lobbied for Dodd-Frank rollbacks.' }
+
+    ],
   },
   'big-tech-antitrust-failures': {
     title: 'Big Tech Antitrust Failures',
@@ -1415,6 +1645,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024-03-01', event: 'The EU\'s Digital Markets Act forced Apple to allow alternative app stores and payment systems in Europe starting March 2024, but Apple implemented the changes with a new "Core Technology Fee" and r...', type: 'default' },
      { date: '2024-08-01', event: 'Google\'s search monopoly was confirmed by a federal judge in August 2024 in the landmark DOJ v', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'ballot-chain-of-custody-violations': {
     title: 'Ballot Chain of Custody Violations',
@@ -1455,6 +1693,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 investigation in Coffee County, Georgia found that pro-Trump operatives gained access to election equipment and copied software and election data, with no chain-of-custody log documenting wh', type: 'political' },
      { date: '2023', event: 'A 2023 Brennan Center survey found that only 14 states had comprehensive, legally mandated chain-of-custody requirements covering ballot transport, storage, and processing', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various State Officials', role: 'Enacted voter suppression laws disproportionately affecting minority communities', status: 'pending', notes: 'Shelby County v. Holder (2013) gutted Voting Rights Act; states immediately enacted restrictive laws' }
+
+    ],
   },
   'bankruptcy-fraud-hidden-asset-schemes': {
     title: 'Bankruptcy Fraud: Hidden Asset Schemes',
@@ -1495,6 +1739,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 DOJ Inspector General report found that the Trustee Program was unable to review approximately 40% of cases for potential fraud due to staffing limitations', type: 'financial' },
      { date: '2024', event: 'The Supreme Court ultimately struck down Purdue\'s proposed settlement in 2024, finding that the bankruptcy plan improperly shielded the Sacklers from personal liability', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+      { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+    ],
   },
   'birth-rate-manipulation-policy-analysis': {
     title: 'Birth Rate Manipulation: Policy Analysis',
@@ -1538,6 +1790,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022', event: 'The demographic consequences are now manifesting as a severe aging crisis; China\'s population declined in 2022 for the first time since the Great Famine of 1961, and the fertility rate has dropped ...', type: 'default' },
      { date: '2023', event: 'South Korea, with the world\'s lowest fertility rate of 0.72 in 2023, has spent over $200 billion on pronatalist incentives since 2006 with virtually no measurable effect', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+    ],
   },
 
   'boeing-safety': {
@@ -1589,6 +1847,16 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024-03-09', event: 'He was found dead from an apparent self-inflicted gunshot wound on March 9, 2024, during his deposition in a whistleblower lawsuit against Boeing.', type: 'legal' },
      { date: '2024-04', event: 'Boeing engineer Sam Salehpour testified before Congress in April 2024 that Boeing took shortcuts on the 787 Dreamliner that could cause the fuselage to break apart after thousands of flights.', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Boeing Company', role: 'Concealed known safety defects in 737 MAX MCAS system leading to 346 deaths in two crashes', status: 'settled', notes: 'Paid $2.5B in 2021 deferred prosecution agreement. DOJ found Boeing violated DPA with Alaska Airlines incident.' },
+
+      { name: 'Dennis Muilenburg', role: 'CEO who publicly dismissed safety concerns while internally acknowledged MCAS problems', status: 'pending', notes: 'Fired December 2019 with $62M exit package. Never criminally charged.' },
+
+      { name: 'Mark Forkner', role: 'Chief technical pilot who allegedly misled FAA about MCAS', status: 'acquitted', notes: 'Acquitted of fraud charges in March 2022 after jury found FAA shared blame' }
+
+    ],
   },
   'banking-crisis-manipulation': {
     title: 'Banking Crisis Manipulation',
@@ -1625,6 +1893,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2009', event: 'Goldman Sachs paid $11.4 billion in bonuses in 2009, the year after receiving $10 billion in TARP funds.', type: 'financial' },
      { date: '2012', event: 'The 2012 National Mortgage Settlement required banks to pay $25 billion but allowed them to buy back their own bad loans at face value, profiting from the scheme.', type: 'legal' }
      ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+      { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+    ],
   },
   'big-pharma-price-gouging': {
     title: 'Big Pharma Price Gouging',
@@ -1661,6 +1937,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2002', event: 'The three manufacturers (Eli Lilly, Novo Nordisk, Sanofi) raised prices 300% since 2002 while production costs fell.', type: 'default' },
      { date: '2005', event: 'Between 2005-2015, these agreements cost consumers $69 billion.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'bitcoin-regulation-capture': {
     title: 'Bitcoin Regulation Capture',
@@ -1698,6 +1982,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022', event: 'Stablecoin collapses like Terra/Luna erased $40 billion in 2022 with no regulatory recourse', type: 'critical' },
      { date: '2023', event: 'CEO Changpeng Zhao settled SEC charges in 2023 for $4.3 billion but continued operating', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Sam Bankman-Fried', role: 'FTX founder who stole $8B in customer funds', status: 'convicted', notes: 'Convicted on 7 counts November 2023. Sentenced to 25 years.' }
+
+    ],
   },
   'bosnian-genocide': {
     title: 'Bosnian Genocide and Srebrenica Massacre',
@@ -1747,6 +2037,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2007', event: 'The ICJ ruled in 2007 (Bosnia v', type: 'default' },
      { date: '2024', event: 'As of 2024, nearly 7,000 victims have been identified through DNA analysis conducted by the International Commission on Missing Persons (ICMP), though remains of over 1,000 victims are still being', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Radovan Karadzic', role: 'Bosnian Serb leader who directed Srebrenica massacre and siege of Sarajevo', status: 'convicted', notes: 'Convicted of genocide by ICTY in 2016; sentenced to life imprisonment' },
+
+      { name: 'Ratko Mladic', role: 'Bosnian Serb military commander who executed 8,000+ Muslim men at Srebrenica', status: 'convicted', notes: 'Convicted of genocide, war crimes; sentenced to life in 2017' }
+
+    ],
   },
   'bail-bond-industry-poverty-incarceration': {
     title: 'The Bail Bond Industry: How America Criminalizes Poverty',
@@ -1792,6 +2090,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 analysis by the Pretrial Justice Institute found that in Harris County, TX, Black defendants were 66% more likely to be held on cash bail than white defendants charged with the same offenses', type: 'legal' },
      { date: '2023', event: 'Illinois became the first state to fully eliminate cash bail (Pretrial Fairness Act, effective 2023)', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'boeing-corporate-manslaughter': {
     title: 'Boeing Corporate Manslaughter',
@@ -1833,6 +2139,16 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024-03-01', event: 'Whistleblower John Barnett, a former Boeing quality manager who was about to give deposition testimony, was found dead of an apparent suicide in March 2024', type: 'default' },
      { date: '2024-07-01', event: 'In July 2024, DOJ determined Boeing had violated the DPA following the January 2024 Alaska Airlines door plug blowout incident and offered a plea deal that critics called inadequate', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Boeing Company', role: 'Concealed known safety defects in 737 MAX MCAS system leading to 346 deaths in two crashes', status: 'settled', notes: 'Paid $2.5B in 2021 deferred prosecution agreement. DOJ found Boeing violated DPA with Alaska Airlines incident.' },
+
+      { name: 'Dennis Muilenburg', role: 'CEO who publicly dismissed safety concerns while internally acknowledged MCAS problems', status: 'pending', notes: 'Fired December 2019 with $62M exit package. Never criminally charged.' },
+
+      { name: 'Mark Forkner', role: 'Chief technical pilot who allegedly misled FAA about MCAS', status: 'acquitted', notes: 'Acquitted of fraud charges in March 2022 after jury found FAA shared blame' }
+
+    ],
   },
   'big-pharma-price-gouging-crisis': {
     title: 'Big Pharma Prescription Drug Price Gouging',
@@ -1872,6 +2188,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023', event: 'Americans spent $405 billion on prescription drugs in 2023, with one-third going to pharmaceutical company profits', type: 'political' },
      { date: '2026', event: '117-169), Medicare was finally authorized to negotiate prices for a limited number of drugs (10 drugs starting in 2026), but PhRMA immediately filed lawsuits challenging the law\'s constitutionality', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'bear-stearns-2008-collapse': {
     title: 'Bear Stearns: The First Domino of the 2008 Financial Crisis',
@@ -1910,6 +2234,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2008-03-01', event: 'The final collapse unfolded with terrifying speed in March 2008', type: 'critical' },
      { date: '2010', event: '111-203) was enacted in 2010 partly to address the systemic risks exposed by the Bear Stearns failure, including new resolution authority for failing financial institutions and restrictions on prop', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Bear Stearns', role: 'First major bank to collapse from subprime exposure in March 2008', status: 'pending', notes: 'Sold to JPMorgan at $2/share (later $10). Two hedge fund managers Ralph Cioffi and Matthew Tannin acquitted.' }
+
+    ],
   },
   'boeing-starliner-safety-failures': {
     title: 'Boeing Starliner: Billions Over Budget, Years Behind Schedule, and Astronauts Stranded in Space',
@@ -1948,6 +2278,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2024-08-01', event: 'In August 2024, NASA announced the decision that Starliner would return to Earth uncrewed while Wilmore and Williams would remain on the ISS until February 2025, when a SpaceX Crew Dragon would bri', type: 'default' },
      { date: '2024-09-07', event: 'Starliner returned empty on September 7, 2024, and while it landed successfully at White Sands, post-flight inspection confirmed the extent of thruster degradation and helium leaks', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Boeing Company', role: 'Pattern of safety failures, whistleblower retaliation, and regulatory capture across aircraft programs', status: 'charged', notes: 'DOJ charged with fraud conspiracy for 737 MAX crashes killing 346. Multiple whistleblower retaliation claims.' },
+
+      { name: 'Dennis Muilenburg', role: 'Boeing CEO who prioritized production speed over safety leading to 737 MAX crashes', status: 'pending', notes: 'Fired December 2019 after two crashes. Received $62M departure package.' }
+
+    ],
   },
   'banking-libor-manipulation': {
     title: 'LIBOR Manipulation: The Biggest Financial Fraud in History',
@@ -1983,6 +2321,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023-06-01', event: 'LIBOR was officially discontinued for most currencies by June 2023, replaced by rates like SOFR (Secured Overnight Financing Rate) in the US', type: 'default' },
      { date: '2024', event: 'In the UK, former UBS and Citigroup trader Tom Hayes was initially convicted and sentenced to 14 years (reduced to 11) but had his conviction overturned in 2024 after the UK Supreme Court found the', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Marketed toxic mortgage securities while secretly betting against them', status: 'settled', notes: 'Paid $5.06B settlement in 2016 for role in 2008 financial crisis.' },
+
+      { name: 'JPMorgan Chase', role: 'Manipulated markets and enabled fraud including Madoff Ponzi scheme', status: 'settled', notes: 'Paid $13B in 2013 mortgage settlement; $2.6B for failing to flag Madoff fraud.' }
+
+    ],
   },
   'pentagon-budget-unauditable-waste': {
     title: 'Pentagon Budget: The $886 Billion Unauditable Black Hole',
@@ -2019,6 +2365,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2023', event: 'Six consecutive audits through 2023 have produced the same result', type: 'default' },
      { date: '2023', event: 'The top five defense contractors (Lockheed Martin, RTX, Boeing, General Dynamics, Northrop Grumman) spent $60 million on lobbying in 2023', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'body-camera-accountability-gaps': {
     title: 'Police Body Camera Programs and the Accountability Illusion',
@@ -2052,6 +2406,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2014', event: 'After the killing of Michael Brown in Ferguson (2014), body cameras were promoted as the technological solution to police accountability.', type: 'default' },
      { date: '2024', event: 'By 2024, roughly 80% of large law enforcement agencies have body camera programs.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'border-patrol-abuse-patterns': {
     title: 'Border Patrol Abuse Patterns',
@@ -2089,6 +2451,14 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '2018', event: 'At least 30 children have died in or shortly after release from CBP custody since 2018', type: 'critical' },
      { date: '2023', event: 'Body cameras, standard in many police departments, were not mandated for Border Patrol agents until 2023, and deployment remains incomplete', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'british-american-colonial-biological-warfare': {
     title: 'Biological Warfare Against Indigenous Peoples: Smallpox, Forced Starvation, and Deliberate Disease Spread (1763-1890)',
@@ -2136,6 +2506,12 @@ const investigations_b: Record<string, InvestigationData> = {
      { date: '1972', event: 'The 1972 Biological Weapons Convention (BWC), to which the United States is a signatory, prohibits the development, production, and stockpiling of biological weapons, though it is not retroactive', type: 'default' },
      { date: '2018', event: 'A 2018 Government Accountability Office report found that IHS funding left the service unable to provide basic health care to its service population, with per capita spending of approximately $3,77', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+    ],
   },
   'bernie-madoff-ponzi': {
  title: 'Bernie Madoff Ponzi Scheme',
@@ -2306,6 +2682,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { name: 'Thomas Sandefur', role: 'Perjury before Congress', status: 'charged', notes: 'Investigated but never prosecuted; died of cancer in 1996' },
    { name: 'Council for Tobacco Research', role: 'Scientific fraud, public deception', status: 'charged', notes: 'Dissolved as part of MSA; documents released publicly' }
  ],
+
   },
   'boeing-737-max': {
  title: 'Boeing 737 MAX Disaster',
@@ -2541,6 +2918,7 @@ const investigations_b: Record<string, InvestigationData> = {
    { name: 'Florida Supreme Court', role: 'Initial recount extension vacated by SCOTUS', status: 'charged', notes: 'The state court\\' },
    { name: 'Jeb Bush', role: 'Conflict of interest as governor during brother\\', status: 'charged', notes: 'No investigation into potential abuse of office. Continued as governor until 2007.' }
  ],
+
   },
 };
 

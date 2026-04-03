@@ -52,6 +52,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021-10-05', event: 'Facebook whistleblower Frances Haugen testifies before Congress with internal documents showing the platform knew its algorithms radicalized users but leadership suppressed findings and refused to act', type: 'critical' },
      { date: '2022', event: 'Deepfake technology and AI-generated content emerge as new vectors for psychological manipulation, making it increasingly difficult to distinguish real from fabricated media', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Intelligence and Corporate Entities', role: 'Psychological manipulation and behavioral influence on unwitting populations', status: 'pending', notes: 'From MKUltra to modern social media manipulation; pattern of experimenting without consent' }
+
+ ],
  },
   'pharma-conflicts': {
  title: 'Pharmaceutical Investment Conflicts',
@@ -101,6 +107,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023-09', event: 'Medicare announces first 10 drugs selected for price negotiation; pharmaceutical companies file suits in multiple federal courts', type: 'legal' },
      { date: '2024-02', event: 'Federal courts reject pharmaceutical industry challenges to Medicare negotiation authority; appeals continue across circuits', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+   { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+ ],
  },
   'political-funding': {
  title: 'Dark Money & Political Funding Networks',
@@ -144,6 +158,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2016', event: 'The family\'s billions shaped the 2016 election through data targeting and media manipulation', type: 'political' },
      { date: '2021', event: '2021) and his wife Miriam gave over $500 million to Republican causes, making them among the largest political donors ever', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'pandemic-conspiracy': {
  title: 'COVID-19 Conspiracy Theories',
@@ -195,6 +217,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023-02-28', event: 'DOE and FBI assess COVID lab-leak origin as likely; intelligence community remains divided with four agencies favoring natural origin', type: 'default' },
      { date: '2024-06', event: 'House Select Subcommittee on the Coronavirus Pandemic releases final findings; parties split on conclusions', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'presidential-misconduct': {
  title: 'Pattern of Presidential Misconduct',
@@ -250,6 +280,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021-02-13', event: 'Senate acquits Trump in second impeachment; 57-43 vote includes 7 Republican senators, most bipartisan impeachment vote in history', type: 'legal' },
      { date: '2023-08-01', event: 'Special Counsel Jack Smith indicts Trump on four federal counts for conspiracy to overturn 2020 election results', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+ ],
  },
   'pentagon-response': {
  title: 'Pentagon January 6 Failures',
@@ -295,6 +331,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'CONTRAST WITH 2020: During June 2020 BLM protests, military helicopters flew low over crowds, Guard troops were deployed rapidly, and the Chairman of the Joint Chiefs walked with Trump through cleared streets.', type: 'default' },
      { date: '2020-06', event: 'CONTRAST WITH 2020: During June 2020 BLM protests, military helicopters flew low over crowds, Guard troops were deployed rapidly, and the Chairman of the Joint Chiefs walked with Trump through cleared streets.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+   { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+ ],
  },
   'proud-boys-terrorism': {
  title: 'Proud Boys Domestic Terrorism',
@@ -344,6 +388,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023-05-04', event: 'Proud Boys leaders convicted of seditious conspiracy; first such conviction since 1995', type: 'legal' },
      { date: '2023-09-05', event: 'Enrique Tarrio sentenced to 22 years; longest January 6 sentence', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Enrique Tarrio', role: 'Proud Boys leader who directed seditious conspiracy to prevent certification of 2020 election', status: 'convicted', notes: 'Sentenced to 22 years; longest January 6 sentence' }
+
+ ],
  },
   'plame-leak': {
  title: 'Valerie Plame CIA Leak',
@@ -395,6 +445,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2007-03-01', event: 'LIBBY\'S CONVICTION: In March 2007, Scooter Libby was convicted of four felonies: obstruction of justice, perjury, and making false statements', type: 'legal' },
      { date: '2018', event: 'PARDON: In 2018, President Trump granted Libby a full pardon, completing the cover-up', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Scooter Libby (I. Lewis Libby)', role: 'VP Cheney chief of staff who leaked CIA agent Valerie Plame\'s identity to retaliate against her husband', status: 'convicted', notes: 'Convicted of obstruction, perjury, and making false statements in 2007. Sentenced to 30 months. Pardoned by Trump 2018.' }
+
+ ],
  },
   'phone-hacking': {
  title: 'News Corp Phone Hacking Scandal',
@@ -439,6 +495,16 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2002', event: 'The scandal exploded when it emerged that News of the World hacked the phone of murdered schoolgirl Milly Dowler in 2002, deleting messages and giving her parents false hope she was alive.', type: 'default' },
      { date: '2011-07', event: 'In July 2011, Murdoch closed News of the World after 168 years, ostensibly taking responsibility, actually eliminating evidence and sacrificing one paper to protect the empire.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Rupert Murdoch/News Corp', role: 'Owned News of the World which systematically hacked phones of celebrities, crime victims, and politicians', status: 'settled', notes: 'Paper shut down in 2011. News Corp paid £1B+ in settlements. UK Leveson Inquiry exposed culture of lawlessness.' },
+
+   { name: 'Andy Coulson', role: 'News of the World editor who oversaw phone hacking operation', status: 'convicted', notes: 'Convicted of conspiracy to intercept phone calls in 2014; served 5 months' },
+
+   { name: 'Rebekah Brooks', role: 'News International CEO and former NOTW editor during hacking period', status: 'acquitted', notes: 'Acquitted of all charges in 2014. Reinstated as CEO of News UK.' }
+
+ ],
  },
   'phone-hacking-scandal': {
  title: 'News International Phone Hacking',
@@ -479,6 +545,16 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2011', event: 'On July 7, 2011, Murdoch announced the paper would close after 168 years.', type: 'default' },
      { date: '2011-07-07', event: 'On July 7, 2011, Murdoch announced the paper would close after 168 years.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Rupert Murdoch/News Corp', role: 'Owned News of the World which systematically hacked phones of celebrities, crime victims, and politicians', status: 'settled', notes: 'Paper shut down in 2011. News Corp paid £1B+ in settlements. UK Leveson Inquiry exposed culture of lawlessness.' },
+
+   { name: 'Andy Coulson', role: 'News of the World editor who oversaw phone hacking operation', status: 'convicted', notes: 'Convicted of conspiracy to intercept phone calls in 2014; served 5 months' },
+
+   { name: 'Rebekah Brooks', role: 'News International CEO and former NOTW editor during hacking period', status: 'acquitted', notes: 'Acquitted of all charges in 2014. Reinstated as CEO of News UK.' }
+
+ ],
  },
   'private-prisons': {
  title: 'Private Prison Industry',
@@ -515,6 +591,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2013-03-28', event: 'Private prison corporations make billions by incarcerating human beings', type: 'legal' },
      { date: '2018', event: 'Subsequent developments in private prison industry reveal broader systemic patterns', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'CoreCivic (formerly CCA)', role: 'Largest private prison company that lobbied for harsh sentencing to fill beds', status: 'charged', notes: 'Exposed for understaffing, inadequate medical care, and immigrant detainee deaths' },
+
+   { name: 'GEO Group', role: 'Private prison company with pattern of abuse, neglect, and forced labor using detained immigrants', status: 'charged', notes: 'Paid detained immigrants $1/day; sued by states for forced labor' }
+
+ ],
  },
   'presidential-immunity': {
  title: 'Presidential Immunity Decision',
@@ -549,6 +633,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2024-02-06', event: 'D.C. Circuit Court of Appeals ruled Trump had no immunity from prosecution for actions taken while president', type: 'legal' },
      { date: '2024-07-01', event: 'Supreme Court ruled in Trump v. United States granting presidents sweeping immunity for official acts; Sotomayor dissented warning president is now a king above the law', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+ ],
  },
   'purdue-pharma-opioids': {
  title: 'Purdue Pharma Opioid Crisis',
@@ -592,6 +682,16 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020-01-01', from: 'Purdue Pharma', to: 'DOJ (criminal settlement)', amount: '$8,300,000,000', purpose: 'Second guilty plea; admitted to impeding DEA efforts and paying kickbacks to prescribing doctors', documented: true },
      { date: '1996-01-01', from: 'Purdue Pharma', to: 'Physician payments / marketing', amount: '$207,000,000', purpose: 'Aggressive marketing budget targeting doctors; sales reps earned bonuses up to $240,000 for pushing OxyContin prescriptions', documented: true }
    ],
+
+ defendants: [
+
+   { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+   { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+   { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+ ],
  },  'pandemic-response': {
  title: 'Pandemic Response Failures',
  subtitle: 'Catastrophic government failures in COVID-19 response resulted in hundreds of thousands of preventable American deaths',
@@ -642,6 +742,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021-05', event: 'COVID death toll surpasses 600,000 Americans. Studies estimate universal masking could have saved tens of thousands of lives; Trump administration had resisted mandates throughout', type: 'default' },
      { date: '2022-12', event: 'House Select Subcommittee releases 445-page final report documenting Trump administration\'s "deliberate efforts to undermine the nation\'s public health response." PPP fraud estimated at $80-100 billion', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'penn-state-scandal': {
  title: 'Penn State Jerry Sandusky Cover-Up',
@@ -684,6 +792,18 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2012', event: 'Joe Paterno died in January 2012 before facing any legal proceedings', type: 'critical' },
      { date: '2015', event: 'However, in 2015, the NCAA reversed many sanctions after a lawsuit; restoring Paterno\'s wins and the university\'s bowl eligibility', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Jerry Sandusky', role: 'Penn State assistant football coach who sexually abused at least 52 boys over 15 years', status: 'convicted', notes: 'Convicted on 45 counts of child sexual abuse in 2012; sentenced to 30-60 years' },
+
+   { name: 'Joe Paterno', role: 'Head coach who was informed of Sandusky abuse and failed to report to police', status: 'pending', notes: 'Fired in 2011; died January 2012. NCAA vacated then restored 111 wins.' },
+
+   { name: 'Graham Spanier', role: 'Penn State president who participated in cover-up of Sandusky abuse', status: 'convicted', notes: 'Convicted of child endangerment misdemeanor; sentenced to 2 months' },
+
+   { name: 'Tim Curley', role: 'Penn State athletic director who covered up Sandusky reports', status: 'convicted', notes: 'Pled guilty to child endangerment misdemeanor; sentenced to 7-23 months' }
+
+ ],
  },
   'penny-stock-fraud': {
  title: 'Penny Stock Fraud and Pump-and-Dump Schemes',
@@ -721,6 +841,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1990-01-01', event: 'Penny stock fraud', type: 'financial' },
      { date: '2015-01', event: 'FINRA: Penny Stock Risks; Current status: monitoring continues with active documentation', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Jordan Belfort ("Wolf of Wall Street")', role: 'Ran penny stock pump-and-dump schemes defrauding investors of $200M+ at Stratton Oakmont', status: 'convicted', notes: 'Convicted of securities fraud and money laundering in 1999; sentenced to 4 years (served 22 months)' }
+
+ ],
  },
   'petters-ponzi': {
  title: 'Tom Petters $3.7 Billion Ponzi Scheme',
@@ -761,6 +887,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2009', event: 'In December 2009, Petters was convicted on all 20 counts and sentenced to 50 years in federal prison; one of the longest sentences ever imposed for a financial crime.', type: 'legal' },
      { date: '2009-12', event: 'In December 2009, Petters was convicted on all 20 counts and sentenced to 50 years in federal prison; one of the longest sentences ever imposed for a financial crime.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Tom Petters', role: 'Ran $3.65B Ponzi scheme through Petters Group Worldwide using fictitious purchase orders', status: 'convicted', notes: 'Convicted on 20 counts of fraud in 2009; sentenced to 50 years' }
+
+ ],
  },
   'pfas-contamination': {
  title: 'PFAS "Forever Chemical" Contamination',
@@ -801,6 +933,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2002', event: 'When 3M phase-out PFOS production in 2002, it was not because of regulatory action but because internal research showed the chemicals were ubiquitous in human blood worldwide', type: 'default' },
      { date: '2023', event: 'LEGAL RECKONING: In 2023, 3M agreed to pay $10.3 billion to settle drinking water contamination claims by public water systems', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: '3M Company', role: 'Manufactured PFAS chemicals for decades while concealing evidence of environmental and health damage', status: 'settled', notes: 'Agreed to pay $10.3B to settle water contamination claims in 2023' },
+
+   { name: 'DuPont/Chemours', role: 'Contaminated water supplies with PFAS/PFOA near manufacturing plants', status: 'settled', notes: 'Part of $1.19B settlement for PFAS contamination in 2023' }
+
+ ],
  },
   'pharma-pricing': {
  title: 'Pharmaceutical Price Gouging',
@@ -847,6 +987,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022', event: 'DRUG PRICE NEGOTIATION: The Inflation Reduction Act of 2022 allowed Medicare to negotiate prices on a limited number of drugs for the first time', type: 'default' },
      { date: '2024', event: 'Despite legal challenges, the first negotiated prices, announced in 2024, showed savings of up to 79%', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Pharmaceutical Industry', role: 'Raised prices on essential drugs far beyond inflation; insulin went from $21 (1999) to $275 (2019)', status: 'charged', notes: 'Senate investigation found no economic justification. Medicare negotiation authority gained in IRA (2022) for limited drugs.' }
+
+ ],
  },
   'pharmaceutical-fraud': {
  title: 'Pharmaceutical Industry Fraud',
@@ -892,6 +1038,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2013', event: 'Johnson & Johnson paid $2.2 billion in 2013 for promoting Risperdal for elderly dementia patients and children despite risks including strokes and death', type: 'critical' },
      { date: '2020', event: 'Novartis paid $678 million in 2020 for kickbacks disguised as speaker programs where doctors were paid up to $3,000 to attend events at high-end restaurants', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Pharmaceutical Industry', role: 'Spent $350M+ annually on lobbying; ghostwrote medical journal articles; paid doctors to promote drugs', status: 'pending', notes: 'Pharma is largest US lobbying sector. ProPublica Dollars for Docs showed $12B in payments to physicians (2013-2022).' }
+
+ ],
  },
   'philando-castile': {
  title: 'The Killing of Philando Castile',
@@ -930,6 +1082,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2016', event: 'THE TRAFFIC STOP: On July 6, 2016, Officer Jeronimo Yanez pulled over Philando Castile in Falcon Heights, Minnesota; reportedly for a broken taillight.', type: 'default' },
      { date: '2017', event: 'In June 2017, a jury acquitted Yanez on all charges after five days of deliberation.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Jeronimo Yanez', role: 'Minnesota police officer who shot and killed Philando Castile during traffic stop on July 6, 2016', status: 'acquitted', notes: 'Acquitted of manslaughter in 2017 despite dashcam video. Castile informed officer he had legal firearm. City paid $3M settlement.' }
+
+ ],
  },  'philippine-drug-war': {
  title: 'Philippine Drug War',
  subtitle: 'Rodrigo Duterte\'s extrajudicial killing campaign murdered thousands under the guise of drug enforcement',
@@ -980,6 +1138,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021-09-15', event: 'ICC Pre-Trial Chamber authorizes formal investigation into Duterte drug war as potential crimes against humanity; Duterte calls ICC "bullshit"', type: 'legal' },
      { date: '2022-06-30', event: 'Duterte leaves office with estimated 12,000-30,000 killed; successor Marcos Jr. initially cooperates with ICC then suspends cooperation in 2023', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Rodrigo Duterte', role: 'Philippine President whose "war on drugs" resulted in extrajudicial killing of 12,000-30,000 people', status: 'charged', notes: 'ICC authorized investigation in 2021. Charges include crimes against humanity.' }
+
+ ],
  },
   'plastic-pollution-crisis': {
  title: 'Global Plastic Pollution Crisis',
@@ -1021,6 +1185,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 study in Environment International found microplastics in 80% of blood samples tested', type: 'default' },
      { date: '2022', event: 'GLOBAL TREATY NEGOTIATIONS: The United Nations began negotiating a Global Plastics Treaty in 2022; with the goal of a binding agreement by 2025', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Plastics/Oil Industry', role: 'Promoted recycling as solution while knowing most plastic could never be recycled; opposed alternatives', status: 'pending', notes: 'NPR/Frontline investigation showed industry knew recycling was not viable since 1970s. Only 5-6% of plastic recycled.' }
+
+ ],
  },
   'platform-discrimination': {
  title: 'Digital Platform Discrimination',
@@ -1061,6 +1231,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2019', event: 'HEALTHCARE ALGORITHM BIAS: A 2019 study published in Science found that a healthcare algorithm used by hospitals and insurance companies across the United States systematically favored white patien', type: 'default' },
      { date: '2022', event: 'Facebook settled for $115 million in 2022 and agreed to shut down its Special Ad Audiences tool', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'platform-extremism': {
  title: 'Social Media Platform Extremism',
@@ -1103,6 +1281,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022', event: 'The Buffalo, New York supermarket shooter in 2022 was radicalized through 4chan and Twitch and live-streamed his attack', type: 'critical' },
      { date: '2022', event: 'TWITTER/X UNDER MUSK: After Elon Musk\'s 2022 acquisition of Twitter; the platform reinstated previously banned extremists including white supremacists, conspiracy theorists, and QAnon promoters', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'polarization': {
  title: 'American Political Polarization',
@@ -1142,6 +1328,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021', event: 'The peaceful transfer of power was challenged in 2021', type: 'default' },
      { date: '2024', event: 'GERRYMANDERING AND SAFE SEATS: As of 2024; only about 40 of 435 House districts are genuinely competitive', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Technology and Government Entities', role: 'Building surveillance infrastructure and social control systems', status: 'pending', notes: 'China Social Credit has Western parallels in credit scoring and predictive policing.' }
+
+ ],
  },
   'police-accountability-crisis': {
  title: 'Police Accountability Crisis',
@@ -1184,6 +1376,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2013', event: 'Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime.', type: 'default' },
      { date: '2023', event: 'Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'US Law Enforcement (Systematic)', role: 'Police kill approximately 1,000+ people per year; Black people killed at 2.5x the rate of white people', status: 'pending', notes: 'No federal database of police killings until recently. Consent decrees in major cities. Few officers convicted.' }
+
+ ],
  },
   'political-corruption': {
  title: 'Systemic Political Corruption in America',
@@ -1224,6 +1422,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2014', event: 'GILENS AND PAGE STUDY: A 2014 Princeton study by Martin Gilens and Benjamin Page analyzed 1,779 policy outcomes and found that "economic elites and organized groups representing business interests', type: 'default' },
      { date: '2020', event: 'Super PACs spent $2.6 billion in the 2020 election cycle', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'political-dark-money': {
  title: 'Dark Money in American Politics',
@@ -1266,6 +1472,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'Liberal dark money groups; including Arabella Advisors\' network of fiscal sponsorship organizations; spent over $500 million in the 2020 election cycle', type: 'political' },
      { date: '2022', event: 'LEONARD LEO\'S $1.6 BILLION EMPIRE: ProPublica revealed in 2022 that conservative legal activist Leonard Leo controls a dark money network that received the largest known single political donation i...', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'political-fraud': {
  title: 'Political Fraud and Campaign Finance Crimes',
@@ -1307,6 +1521,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023-12-01', event: 'He was expelled from Congress in December 2023', type: 'political' },
      { date: '2024', event: 'Bannon was convicted in the state case in 2024', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'political-hoaxes': {
  title: 'Political Hoaxes and Manufactured Crises',
@@ -1347,6 +1569,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'Trump\'s Big Lie that the 2020 election was stolen led to the January 6 Capitol attack and hundreds of restrictive voting laws in Republican-controlled states', type: 'critical' },
      { date: '2022', event: 'In 2022; Florida and Texas governors transported migrants to politically inconvenient locations as a political stunt; spending millions of taxpayer dollars', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'political-hypocrisy': {
  title: 'Political Hypocrisy Exposed',
@@ -1385,6 +1615,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'Senators who received classified COVID-19 briefings in January 2020 sold stocks before the market crash while publicly downplaying the virus.', type: 'default' },
      { date: '2020-01', event: 'Senators who received classified COVID-19 briefings in January 2020 sold stocks before the market crash while publicly downplaying the virus.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'political-opportunism': {
  title: 'Political Opportunism and Crisis Exploitation',
@@ -1425,6 +1663,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021', event: 'JANUARY 6 CAPITOL ATTACK: On January 6, 2021, a mob incited by Donald Trump stormed the U.S.', type: 'default' },
      { date: '2022', event: 'PAUL PELOSI ATTACK: In October 2022, David DePape broke into the home of House Speaker Nancy Pelosi and attacked her husband Paul with a hammer, fracturing his skull.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },  'political-violence': {
  title: 'Political Violence in America',
  subtitle: 'Rising tide of politically motivated threats, intimidation, and violence targeting officials and institutions',
@@ -1475,6 +1721,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022-10-01', event: 'PAUL PELOSI ATTACK: In October 2022, David DePape broke into the home of House Speaker Nancy Pelosi and attacked her husband Paul with a hammer, fracturing his skull', type: 'critical' },
      { date: '2024', event: 'ASSASSINATION ATTEMPTS: In 2024, Donald Trump survived two assassination attempts', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Domestic Extremist Groups', role: 'Committed politically motivated violence including assassinations and bombings', status: 'charged', notes: 'FBI domestic terrorism investigations increased 357% from 2013-2021. January 6 was largest attack on Capitol since 1814.' }
+
+ ],
  },
   'post-911-persecution': {
  title: 'Post-9/11 Persecution of Muslim Americans',
@@ -1517,6 +1769,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2019', event: 'The 2019 Christchurch massacre in New Zealand; carried out by a white supremacist radicalized online; demonstrated the global reach of anti-Muslim hatred', type: 'critical' },
      { date: '2024', event: 'As of 2024; 30 detainees remained; most never charged with a crime', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'George W. Bush', role: 'Authorized warrantless surveillance, enhanced interrogation, and indefinite detention after 9/11', status: 'pending', notes: 'Signed authorization for NSA warrantless wiretapping program. No legal accountability.' },
+
+   { name: 'Dick Cheney', role: 'Architect of post-9/11 War on Terror including torture program and Iraq War', status: 'pending', notes: 'Pushed for expanded executive power and "dark side" intelligence operations' }
+
+ ],
  },
   'predatory-lending': {
  title: 'Predatory Lending and Financial Exploitation',
@@ -1556,6 +1816,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2010', event: 'REGULATORY CAPTURE: The CFPB was created in 2010 specifically to address predatory lending; but has faced constant attempts to defund; restructure; or eliminate it', type: 'default' },
      { date: '2012', event: 'WELLS FARGO "GHETTO LOANS": In 2012; the DOJ settled with Wells Fargo for $175 million over allegations that the bank\'s mortgage division steered Black and Hispanic borrowers to high-cost subprime ...', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Payday/Predatory Lenders', role: 'Trapped borrowers in debt cycles with APRs exceeding 400% targeting low-income and minority communities', status: 'charged', notes: 'CFPB brought enforcement actions. Some states banned payday lending. Industry spends millions on lobbying.' }
+
+ ],
  },
   'press-freedom': {
  title: 'Press Freedom Under Siege',
@@ -1596,6 +1862,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021', event: 'In 2021; it was revealed that the DOJ under Trump had seized phone and email records of reporters at the New York Times; Washington Post; and CNN', type: 'default' },
      { date: '2024', event: 'Assange reached a plea deal in 2024 after spending 14 years in confinement', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },
   'press-freedom-violations': {
  title: 'Global Press Freedom Violations',
@@ -1637,6 +1911,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021', event: 'Myanmar imprisoned dozens after the 2021 military coup', type: 'default' },
      { date: '2022', event: 'Independent media outlets have been shuttered since the 2022 invasion of Ukraine', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },
   'prison-industrial-complex': {
  title: 'The Prison Industrial Complex',
@@ -1677,6 +1959,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2019', event: 'Private companies earned over $3 billion from immigration detention in 2019.', type: 'financial' },
      { date: '2024', event: 'prison population exploded from 300,000 in 1972 to over 2 million by 2024.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'US Criminal Justice System', role: 'Incarcerates 1.9 million people; highest rate in the world; stark racial disparities', status: 'pending', notes: 'Black Americans incarcerated 5x rate of whites. 13th Amendment exception allows forced labor. $80B annual cost.' }
+
+ ],
  },
   'private-equity-abuses': {
  title: 'Private Equity Industry Abuses',
@@ -1715,6 +2003,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2010', event: 'Between 2010 and 2023; PE-owned companies were responsible for 60% of large retail bankruptcies.', type: 'default' },
      { date: '2023', event: 'Between 2010 and 2023; PE-owned companies were responsible for 60% of large retail bankruptcies.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Private Equity (KKR, Blackstone, Apollo, etc.)', role: 'Loaded companies with debt through leveraged buyouts leading to job losses and bankruptcy; bought housing to inflate rents', status: 'pending', notes: 'Blackstone became world\'s largest landlord. PE-owned hospitals and nursing homes have higher mortality. SEC scrutiny increasing.' }
+
+ ],
  },
   'private-equity-housing': {
  title: 'Private Equity\'s Takeover of American Housing',
@@ -1755,6 +2049,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023', event: 'Build-to-rent construction has surged; accounting for 6% of new single-family construction in 2023', type: 'default' },
      { date: '2024', event: 'In 2024; when North Carolina considered restricting institutional home purchases; the industry mobilized significant lobbying resources to defeat the bill', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Private Equity (KKR, Blackstone, Apollo, etc.)', role: 'Loaded companies with debt through leveraged buyouts leading to job losses and bankruptcy; bought housing to inflate rents', status: 'pending', notes: 'Blackstone became world\'s largest landlord. PE-owned hospitals and nursing homes have higher mortality. SEC scrutiny increasing.' }
+
+ ],
  },
   'private-prison-corruption': {
  title: 'Private Prison Corruption',
@@ -1793,6 +2093,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2009', event: 'KIDS FOR CASH SCANDAL: In 2009; Luzerne County; Pennsylvania judges Mark Ciavarella and Michael Conahan were convicted of accepting $2.', type: 'legal' },
      { date: '2016', event: 'A 2016 DOJ inspector general report found that private federal prisons had more safety incidents; more use-of-force incidents; and more contraband than comparable government facilities', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'CoreCivic (formerly CCA)', role: 'Largest private prison company that lobbied for harsh sentencing to fill beds', status: 'charged', notes: 'Exposed for understaffing, inadequate medical care, and immigrant detainee deaths' },
+
+   { name: 'GEO Group', role: 'Private prison company with pattern of abuse, neglect, and forced labor using detained immigrants', status: 'charged', notes: 'Paid detained immigrants $1/day; sued by states for forced labor' }
+
+ ],
  },
   'prosecutorial-misconduct': {
  title: 'Prosecutorial Misconduct in America',
@@ -1831,6 +2139,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1989', event: 'WRONGFUL CONVICTIONS: The National Registry of Exonerations has documented over 3,400 exonerations since 1989; with prosecutorial misconduct present in 30% of cases', type: 'legal' },
      { date: '2020', event: 'A 2020 Innocence Project report found that of 660 cases involving prosecutorial misconduct; only one prosecutor was disciplined by the bar', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'US Prosecutors (Systematic)', role: 'Withheld exculpatory evidence, coerced plea deals, and engaged in misconduct contributing to wrongful convictions', status: 'pending', notes: 'National Registry of Exonerations: official misconduct in 54% of wrongful convictions. Prosecutors rarely disciplined.' }
+
+ ],
  },
   'protest-violence': {
  title: 'Police Violence Against Protesters: Suppressing Dissent Through Force',
@@ -1870,6 +2184,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'Press Freedom Tracker documented over 600 press freedom violations during the 2020 protests alone, including journalists shot with rubber bullets, arrested, and tear-gassed while displaying press c', type: 'default' },
      { date: '2020-06-01', event: 'on June 1, 2020, to enable a photo opportunity for President Trump', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+   { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+ ],
  },
   'public-health-threats': {
  title: 'Manufactured Public Health Threats: Profits Over Prevention',
@@ -1905,6 +2227,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1970-01-01', event: 'The most serious public health threats facing Americans are manufactured or perpetuated by corporate influence over regulatory agencies,', type: 'critical' },
      { date: '2023', event: 'The EPA did not propose drinking water limits until 2023; over 50 years after the dangers were known.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'pulse-shooting': {
  title: 'Pulse Nightclub Shooting: 49 Lives Lost to Hate',
@@ -1943,6 +2273,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2016-06-12', event: 'On June 12, 2016; Latin Night at Pulse, a gay nightclub in Orlando, Florida; Omar Mateen entered the club during its busiest hours and opened fire', type: 'default' },
      { date: '2021', event: 'The Pulse building became a memorial site and was designated a National Memorial in 2021', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Omar Mateen', role: 'Killed 49 people and wounded 53 at Pulse nightclub in Orlando on June 12, 2016', status: 'charged', notes: 'Killed by police. Deadliest attack on LGBTQ people in US history.' },
+
+   { name: 'Noor Salman', role: 'Wife of Pulse shooter charged with aiding and abetting', status: 'acquitted', notes: 'Acquitted of all charges in 2018' }
+
+ ],
  },
   'purdue-pharma': {
  title: 'Purdue Pharma and the Sackler Family: Architects of the Opioid Epidemic',
@@ -1989,6 +2327,16 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2019', event: 'Purdue filed for bankruptcy in 2019 as part of a $6 billion settlement plan that required the Sackler family to contribute $4.325 billion over 18 years', type: 'political' },
      { date: '2024', event: 'The Supreme Court initially rejected a provision granting the Sacklers broad personal immunity from future opioid lawsuits, but a revised settlement was approved in 2024', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+   { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+   { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+ ],
  },
   'ppp-loan-fraud-epidemic': {
     title: 'PPP Loan Fraud Epidemic',
@@ -2023,6 +2371,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020-03', event: 'The Paycheck Protection Program, created by the CARES Act in March 2020, distributed $793 billion in forgivable loans designed to keep workers employed during COVID-19 shutdowns.', type: 'financial' },
      { date: '2024', event: 'The DOJ has charged over 3,000 defendants in PPP fraud cases as of 2024; but this represents a tiny fraction of the estimated fraud.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Various Fraudsters (3,000+)', role: 'Fraudulently obtained PPP and EIDL loans through false applications', status: 'convicted', notes: 'DOJ charged 3,000+ defendants for $1.4B+ in COVID relief fraud as of 2024' }
+
+    ],
   },
   'predatory-lending-systematic-exploitation': {
     title: 'Predatory Lending Systematic Exploitation',
@@ -2058,6 +2412,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2007', event: 'Between 2004 and 2007, lenders including Countrywide Financial, Washington Mutual, and Ameriquest originated trillions in subprime mortgages with adjustable rates, balloon payments, and prepayment penalties designed', type: 'default' },
      { date: '2008', event: 'The 2008 financial crisis was directly caused by predatory mortgage lending that stripped $1 trillion in wealth from Black and Latino homeowners.', type: 'critical' }
      ],
+
+    defendants: [
+
+      { name: 'Payday/Predatory Lenders', role: 'Trapped borrowers in debt cycles with APRs exceeding 400% targeting low-income and minority communities', status: 'charged', notes: 'CFPB brought enforcement actions. Some states banned payday lending. Industry spends millions on lobbying.' }
+
+    ],
   },
   'penny-stock-pump-and-dump-networks': {
     title: 'Penny Stock Pump and Dump Networks',
@@ -2093,6 +2453,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022', event: 'The SEC charged multiple social media influencers in 2022-2023 for promoting stocks while secretly planning to sell.', type: 'default' },
      { date: '2023', event: 'The SEC charged multiple social media influencers in 2022-2023 for promoting stocks while secretly planning to sell.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Jordan Belfort ("Wolf of Wall Street")', role: 'Ran penny stock pump-and-dump schemes defrauding investors of $200M+ at Stratton Oakmont', status: 'convicted', notes: 'Convicted of securities fraud and money laundering in 1999; sentenced to 4 years (served 22 months)' }
+
+    ],
   },
   'project-mkultra-subproject-registry': {
     title: 'Project MKUltra Subproject Registry',
@@ -2132,6 +2498,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2001', event: 'The program\'s techniques influenced the CIA\'s enhanced interrogation methods used after 9/11; the Senate Torture Report documented continuity between MKUltra research and post-2001 detention practices', type: 'political' },
      { date: '2017', event: 'In 2017, additional documents released under the JFK Assassination Records Collection Act revealed previously unknown details about specific subprojects', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'pentagon-papers-full-implications': {
     title: 'Pentagon Papers Full Implications',
@@ -2173,6 +2547,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1971-06-13', event: 'The Times began publishing on June 13, 1971', type: 'default' },
      { date: '1973', event: 'Charges against Ellsberg were dismissed in 1973 due to government misconduct', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'prism-surveillance-program': {
     title: 'PRISM Surveillance Program',
@@ -2211,6 +2593,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2015', event: 'The USA FREEDOM Act of 2015 ended the NSA\'s bulk telephone metadata collection but left Section 702 largely intact', type: 'default' },
      { date: '2018', event: 'However, Section 702 was reauthorized in 2018 and again in 2024, each time with expanded authority', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (U.S. Government)', role: 'Conducted mass surveillance of Americans\' phone records and internet communications without warrants', status: 'pending', notes: 'Snowden revelations (2013) exposed PRISM, XKeyscore, and bulk metadata collection. FISA Court rubber-stamped requests.' },
+
+      { name: 'James Clapper', role: 'DNI who lied to Congress under oath about NSA mass surveillance', status: 'pending', notes: 'Told Senate Intelligence Committee NSA did "not wittingly" collect data on millions of Americans. No perjury charges.' }
+
+    ],
   },
   'pharmaceutical-influence-on-fda-decisions': {
     title: 'Pharmaceutical Influence on FDA Decisions',
@@ -2247,6 +2637,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021', event: 'The 2021 approval of Aduhelm (aducanumab) for Alzheimer\'s disease; over the objection of the FDA\'s own advisory committee, which voted 10-0-1 against approval; exposed the depth of industry influence', type: 'political' },
      { date: '2024', event: 'By 2024, user fees accounted for over 65% of the Center for Drug Evaluation and Research (CDER) budget; approximately $1.1 billion annually', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Pharmaceutical Industry', role: 'Spent $350M+ annually on lobbying; ghostwrote medical journal articles; paid doctors to promote drugs', status: 'pending', notes: 'Pharma is largest US lobbying sector. ProPublica Dollars for Docs showed $12B in payments to physicians (2013-2022).' }
+
+    ],
   },
   'pharmaceutical-lobbying-machine': {
     title: 'Pharmaceutical Lobbying Machine',
@@ -2282,6 +2678,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, the industry spent $373 million on federal lobbying', type: 'financial' },
      { date: '2022', event: 'THE INFLATION REDUCTION ACT COMPROMISE: The Inflation Reduction Act of 2022 represented the first crack in the industry\'s lobbying wall; allowing Medicare to negotiate prices for a limited number o...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Pharmaceutical Industry', role: 'Spent $350M+ annually on lobbying; ghostwrote medical journal articles; paid doctors to promote drugs', status: 'pending', notes: 'Pharma is largest US lobbying sector. ProPublica Dollars for Docs showed $12B in payments to physicians (2013-2022).' }
+
+    ],
   },
   'pfas-forever-chemicals-cover-up': {
     title: 'PFAS Forever Chemicals Cover-Up',
@@ -2318,6 +2720,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, the EPA proposed the first-ever enforceable limits: 4 ppt for PFOA and PFOS; a level that would require treatment at thousands of water systems nationwide', type: 'default' },
      { date: '2023-06-01', event: '3M SETTLEMENT AND INDUSTRY LIABILITY: 3M, the original manufacturer of PFOS (another key PFAS compound), agreed to settle water contamination claims for $10.3 billion in June 2023', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: '3M Company', role: 'Manufactured PFAS chemicals for decades while concealing evidence of environmental and health damage', status: 'settled', notes: 'Agreed to pay $10.3B to settle water contamination claims in 2023' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water supplies with PFAS/PFOA near manufacturing plants', status: 'settled', notes: 'Part of $1.19B settlement for PFAS contamination in 2023' }
+
+    ],
   },
   'pesticide-bee-colony-collapse': {
     title: 'Pesticide Bee Colony Collapse',
@@ -2356,6 +2766,16 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 investigation by the Intercept revealed that Bayer had conducted its own studies showing harmful effects on bees but did not publish the results', type: 'default' },
      { date: '2020', event: 'The agency\'s own assessments; completed in 2020; found that imidacloprid, clothianidin, and thiamethoxam posed risks to bees and other pollinators', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'predictive-policing-algorithmic-racism': {
     title: 'Predictive Policing Algorithmic Racism',
@@ -2391,6 +2811,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'Los Angeles; once the flagship PredPol deployment; ended its program in 2020 after an internal audit confirmed disproportionate impact', type: 'political' },
      { date: '2021', event: 'PredPol rebranded itself as Geolitica in 2021 amid mounting criticism; and ceased selling to police departments entirely in 2023', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'pharmaceutical-ghost-writing': {
     title: 'Pharmaceutical Ghost Writing',
@@ -2425,6 +2853,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2004', event: 'The drug killed an estimated 27,785 people from heart attacks before its 2004 withdrawal.', type: 'critical' },
      { date: '2015', event: 'When independent researchers reanalyzed the study data in 2015, they found the conclusions were the opposite of what the ghostwritten article claimed.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Pharmaceutical Industry', role: 'Spent $350M+ annually on lobbying; ghostwrote medical journal articles; paid doctors to promote drugs', status: 'pending', notes: 'Pharma is largest US lobbying sector. ProPublica Dollars for Docs showed $12B in payments to physicians (2013-2022).' }
+
+    ],
   },
   'pentagon-budget-black-programs': {
     title: 'Pentagon Budget Black Programs',
@@ -2459,6 +2893,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2018', event: 'Congress mandated that the DoD undergo annual financial audits beginning in 2018.', type: 'political' },
      { date: '2023', event: 'The 2023 audit, conducted by 29 independent accounting firms, found that the Department could not account for 61% of its $3.8 trillion in assets.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'prosecutorial-misconduct-database': {
     title: 'Prosecutorial Misconduct Database',
@@ -2494,6 +2936,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2024', event: 'The National Registry of Exonerations documented over 3,400 exonerations through 2024; representing only the cases where innocence was definitively proven', type: 'default' },
      { date: '2024', event: 'As of 2024, approximately 80 CIUs exist nationwide', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'US Prosecutors (Systematic)', role: 'Withheld exculpatory evidence, coerced plea deals, and engaged in misconduct contributing to wrongful convictions', status: 'pending', notes: 'National Registry of Exonerations: official misconduct in 54% of wrongful convictions. Prosecutors rarely disciplined.' }
+
+    ],
   },
   'private-military-contractor-accountability': {
     title: 'Private Military Contractor Accountability',
@@ -2534,6 +2982,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2014', event: 'Four contractors were convicted in 2014; sentences ranged from 30 years to life in prison', type: 'legal' },
      { date: '2020-12-01', event: 'In December 2020, President Trump pardoned all four Blackwater operatives; including Nicholas Slatten, who had been convicted of first-degree murder', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Blackwater (Academi)', role: 'Private military contractors committed war crimes including Nisour Square massacre', status: 'convicted', notes: 'Four contractors convicted for killing 17 Iraqi civilians in 2007. Erik Prince founder. Trump pardoned contractors.' }
+
+    ],
   },
   'propaganda-networks-domestic-operations': {
     title: 'Propaganda Networks Domestic Operations',
@@ -2571,6 +3025,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2012', event: 'In 2012, the Smith-Mundt Modernization Act removed this prohibition; allowing Voice of America, Radio Free Europe, and other government media products to be distributed domestically for the first time', type: 'default' },
      { date: '2022', event: 'The Department of Homeland Security\'s Disinformation Governance Board, proposed in 2022 and quickly disbanded after public backlash, illustrated both the government\'s desire to manage domestic info...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+      { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+    ],
   },
   'prison-industrial-complex-profit-motive': {
     title: 'Prison Industrial Complex Profit Motive',
@@ -2606,6 +3068,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2001', event: 'One in three Black men born in 2001 can expect to be imprisoned during their lifetime', type: 'default' },
      { date: '2016', event: 'GEO Group donated $475,000 to a pro-Trump super PAC in 2016 and subsequently received contracts for immigrant detention facilities', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'US Criminal Justice System', role: 'Incarcerates 1.9 million people; highest rate in the world; stark racial disparities', status: 'pending', notes: 'Black Americans incarcerated 5x rate of whites. 13th Amendment exception allows forced labor. $80B annual cost.' }
+
+    ],
   },
   'police-union-misconduct-protection': {
     title: 'Police Union Misconduct Protection',
@@ -2638,6 +3106,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2000-01-01', event: 'Police unions', type: 'default' },
      { date: '2025-01', event: 'OpenSecrets: Police Union Political Spending; Current status: monitoring continues with active documentation', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'pharmaceutical-fertility-side-effects': {
     title: 'Pharmaceutical Fertility Side Effects',
@@ -2671,6 +3147,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2012', event: 'The FDA required label changes in 2012 to warn of persistent sexual side effects.', type: 'default' },
      { date: '2022', event: 'A 2022 meta-analysis found that SSRI use reduced sperm concentration by 50%, decreased sperm motility, and increased DNA fragmentation in sperm.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'pharmaceutical-sales-rep-corruption': {
     title: 'Pharmaceutical Sales Rep Corruption',
@@ -2706,6 +3190,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2016', event: 'A 2016 ProPublica investigation found that many speakers bureau events had few or no attendees; they were essentially payments to the speaker physician to encourage prescribing', type: 'default' },
      { date: '2020', event: 'The DOJ has prosecuted multiple speaking fee arrangements as illegal kickbacks; Novartis paid $678 million in 2020 to settle allegations that its speakers bureau was a vehicle for bribing doctors', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'port-authority-corruption-investigations': {
     title: 'Port Authority Corruption Investigations',
@@ -2742,6 +3234,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2013-09', event: 'In September 2013, allies of New Jersey Governor Chris Christie ordered the closure of local access lanes to the George Washington Bridge; creating massive traffic jams in Fort Lee, New Jersey.', type: 'default' },
      { date: '2020', event: 'United States (2020), ruling that the scheme did not constitute federal fraud; effectively ruling that political abuse of government resources is not a federal crime.', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Public Officials', role: 'Bribery, self-dealing, and corruption in public office', status: 'charged', notes: 'DOJ Public Integrity Section prosecutes ~1,000 cases annually' }
+
+    ],
   },
   'psychological-operations-domestic-theater': {
     title: 'Psychological Operations Domestic Theater',
@@ -2779,6 +3277,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2010', event: 'military Psychological Operations (PSYOP); rebranded Military Information Support Operations (MISO) in 2010; are officially prohibited from targeting domestic audiences under the Smith-Mundt Act and DoD directives.', type: 'default' },
      { date: '2011', event: 'In 2011, Rolling Stone reported that a PSYOP unit at Fort Bragg was ordered to use information operations techniques against visiting U.S.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Intelligence and Corporate Entities', role: 'Psychological manipulation and behavioral influence on unwitting populations', status: 'pending', notes: 'From MKUltra to modern social media manipulation; pattern of experimenting without consent' }
+
+    ],
   },
   'plastic-industry-recycling-fraud': {
     title: 'Plastic Industry Recycling Fraud',
@@ -2815,6 +3319,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1988', event: 'THE CHASING ARROWS DECEPTION: In 1988, the Society of the Plastics Industry introduced the resin identification coding system; numbers 1-7 inside the chasing arrows recycling symbol', type: 'default' },
      { date: '2020', event: 'THE BIG LIE: A 2020 NPR/PBS Frontline investigation, drawing on internal industry documents, revealed that oil and plastics executives privately acknowledged that recycling was unlikely to ever be', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Plastics/Oil Industry', role: 'Promoted recycling as solution while knowing most plastic could never be recycled; opposed alternatives', status: 'pending', notes: 'NPR/Frontline investigation showed industry knew recycling was not viable since 1970s. Only 5-6% of plastic recycled.' }
+
+    ],
   },
   'payroll-tax-fraud-industry-analysis': {
     title: 'Payroll Tax Fraud Industry Analysis',
@@ -2847,6 +3357,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2008', event: 'A 2008 study estimated that the underground economy represented 8-9% of U.S.', type: 'default' },
      { date: '2020', event: 'A 2020 study found that fraudulent construction firms gain a 20-30% cost advantage over legitimate competitors by not paying payroll taxes, workers\' compensation, and benefits.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Fraudulent Actors', role: 'Consumer fraud, financial exploitation, and market manipulation', status: 'charged', notes: 'FTC received 2.4M fraud reports in 2023 with $10B in losses.' }
+
+    ],
   },
   'pharmaceutical-waste-environmental-impact': {
     title: 'Pharmaceutical Waste Environmental Impact',
@@ -2880,6 +3396,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2000-01-01', event: 'Pharmaceutical compounds have been detected in the drinking water systems of at least 41 million Americans and in waterways across every', type: 'critical' },
      { date: '2023-01', event: 'Environmental Science & Technology: Endocrine Disruption; Current status: monitoring continues with active documentation', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'port-city-trafficking-hub-analysis': {
     title: 'Port City Trafficking Hub Analysis',
@@ -2913,6 +3437,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2012', event: 'In 2012, the Signal International case revealed that 500 Indian workers were recruited to Gulf Coast shipyards with promises of green cards, then held in labor camps and had their passports confiscated', type: 'default' },
      { date: '2017', event: 'In 2017, 39 Vietnamese nationals were found dead in a refrigerated container at Purfleet Port in Essex, England; highlighting the deadly reality of container trafficking.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
 
   'parental-accountability': {
@@ -2951,6 +3481,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2024', event: 'The parents of the 2024 Perry, Iowa school shooter were investigated.', type: 'default' },
      { date: '2025-01', event: 'Everytown: Unsecured Guns Data; continued developments and accountability tracking documented', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Government Agencies', role: 'Failed to protect children from abuse while punishing parents selectively', status: 'pending', notes: 'CPS system both over-polices poor and minority families and misses severe abuse in affluent homes.' }
+
+    ],
   },
   'police-reform': {
     title: "Police Reform Failures",
@@ -2988,6 +3524,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020-05', event: 's murder in May 2020 prompted the largest protest movement in American history and unprecedented calls for police reform.', type: 'default' },
      { date: '2023', event: 'QUALIFIED IMMUNITY: The Supreme Court-created doctrine of qualified immunity shields', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'police-brutality-crisis': {
     title: "Police Brutality Crisis in America",
@@ -3026,6 +3570,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 study found that approximately 5% of officers in a department generate 25% of force incidents.', type: 'default' },
      { date: '2024', event: 'The DOJ finally mandated comprehensive use-of-force reporting in 2024; decades after the need was identified.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'US Law Enforcement (Systematic)', role: 'Police kill approximately 1,000+ people per year; Black people killed at 2.5x the rate of white people', status: 'pending', notes: 'No federal database of police killings until recently. Consent decrees in major cities. Few officers convicted.' }
+
+    ],
   },
   'pharmaceutical-corruption': {
     title: "Pharmaceutical Industry Corruption",
@@ -3065,6 +3615,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2013', event: 'Johnson & Johnson paid $2.2 billion (2013) for off-label promotion of Risperdal.', type: 'financial' },
      { date: '2022', event: 'LOBBYING SUPREMACY: The pharmaceutical industry is the largest lobbying force in Washington; spending $373 million on federal lobbying in 2022 alone; more than any other industry.', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Pharmaceutical Industry', role: 'Spent $350M+ annually on lobbying; ghostwrote medical journal articles; paid doctors to promote drugs', status: 'pending', notes: 'Pharma is largest US lobbying sector. ProPublica Dollars for Docs showed $12B in payments to physicians (2013-2022).' }
+
+    ],
   },
   'parkland-shooting': {
     title: "Parkland School Shooting & March for Our Lives",
@@ -3110,6 +3666,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023-06', event: 'He was fired, charged with child neglect and other counts, but acquitted at trial in June 2023.', type: 'legal' },
      { date: '2026', event: 'The school building where the massacre occurred was preserved as evidence and remains standing as of 2026; the subject of ongoing debate about demolition.', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Nikolas Cruz', role: 'Killed 17 people at Marjory Stoneman Douglas High School in Parkland, FL on February 14, 2018', status: 'convicted', notes: 'Pled guilty to 17 counts of murder; sentenced to life without parole (jury did not recommend death)' },
+
+      { name: 'Scot Peterson', role: 'Broward County school resource officer who hid outside instead of confronting the shooter', status: 'acquitted', notes: 'Acquitted on all charges in June 2023' }
+
+    ],
   },
   'police-accountability': {
     title: "Police Accountability Crisis in America",
@@ -3150,6 +3714,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2016', event: 'Congress, lobbied by the pharmaceutical industry, passed the Ensuring Patient Access and Effective Drug Enforcement Act in 2016, which stripped the DEA of its ability to freeze suspicious opioid shipments.', type: 'default' },
      { date: '2019', event: 'In 2019, Purdue filed for Chapter 11 bankruptcy.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'US Law Enforcement (Systematic)', role: 'Police kill approximately 1,000+ people per year; Black people killed at 2.5x the rate of white people', status: 'pending', notes: 'No federal database of police killings until recently. Consent decrees in major cities. Few officers convicted.' }
+
+    ],
   },
   'purdue-pharma-opioid-crisis': {
     title: 'Purdue Pharma and the Manufactured Opioid Epidemic',
@@ -3189,6 +3759,16 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2019', event: 'In 2019, Purdue filed for Chapter 11 bankruptcy', type: 'financial' },
      { date: '2024', event: 'Purdue Pharma (2024) but a revised settlement was subsequently approved', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+      { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+      { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+    ],
   },
   'private-prison-industrial-complex': {
     title: 'The Private Prison Industrial Complex',
@@ -3230,6 +3810,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2021', event: 'President Biden signed an executive order in January 2021 directing the DOJ not to renew private prison contracts - but the order explicitly excluded ICE and DHS contracts, where the majority of pr', type: 'political' },
      { date: '2026', event: 'As of 2026, private prison companies continue to receive billions in government contracts', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CoreCivic (formerly CCA)', role: 'Largest private prison company that lobbied for harsh sentencing to fill beds', status: 'charged', notes: 'Exposed for understaffing, inadequate medical care, and immigrant detainee deaths' },
+
+      { name: 'GEO Group', role: 'Private prison company with pattern of abuse, neglect, and forced labor using detained immigrants', status: 'charged', notes: 'Paid detained immigrants $1/day; sued by states for forced labor' }
+
+    ],
   },
   'pharma-lobbying-congress-prescription-for-corruption': {
     title: 'Pharmaceutical Industry Lobbying: A Prescription for Corruption',
@@ -3274,6 +3862,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022', event: 'PhRMA alone spent $30.4 million in 2022', type: 'financial' },
      { date: '2022', event: 'The Inflation Reduction Act (2022) finally allowed Medicare to negotiate prices on 10 drugs starting in 2026, but PhRMA immediately filed lawsuits in multiple jurisdictions challenging the law as u', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'police-body-camera-manipulation-transparency-theater': {
     title: 'Police Body Camera Manipulation: Transparency Theater',
@@ -3310,6 +3906,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2020', event: 'The Fraternal Order of Police model policy recommends officers review footage "before being required to make a statement.', type: 'default' },
      { date: '2023', event: 'A comprehensive meta-analysis published in the Journal of Criminal Justice (2023) reviewed 43 studies and concluded that BWCs produced "minimal to no impact" on officer behavior', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'predatory-lending-payday-loan-debt-trap': {
     title: 'Predatory Lending and the Payday Loan Debt Trap',
@@ -3350,6 +3954,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2022', event: 'The industry generated $9 billion in fees in 2022', type: 'political' },
      { date: '2024', event: 'CFSA (2024) that the CFPB\'s funding mechanism through the Federal Reserve is constitutional, but the damage to consumer protection had already been done through three years of non-enforcement', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Payday/Predatory Lenders', role: 'Trapped borrowers in debt cycles with APRs exceeding 400% targeting low-income and minority communities', status: 'charged', notes: 'CFPB brought enforcement actions. Some states banned payday lending. Industry spends millions on lobbying.' }
+
+    ],
   },
   'pfas-forever-chemicals-coverup': {
     title: 'PFAS Forever Chemicals Coverup',
@@ -3388,6 +3998,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2024', event: '9601, the Superfund law), the EPA designated PFOA and PFOS as hazardous substances in 2024, enabling cleanup enforcement', type: 'political' },
      { date: '2024-04-01', event: '300f), the EPA finally set enforceable limits for PFAS in drinking water in April 2024 at 4 parts per trillion', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: '3M Company', role: 'Manufactured PFAS chemicals for decades while concealing evidence of environmental and health damage', status: 'settled', notes: 'Agreed to pay $10.3B to settle water contamination claims in 2023' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water supplies with PFAS/PFOA near manufacturing plants', status: 'settled', notes: 'Part of $1.19B settlement for PFAS contamination in 2023' }
+
+    ],
   },
   'private-equity-healthcare-destruction': {
     title: 'Private Equity Healthcare Destruction',
@@ -3426,6 +4044,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023', event: 'PE firms have spent heavily on lobbying to prevent regulation: the American Investment Council (the PE industry lobby) spent $12 million on lobbying in 2023 alone', type: 'financial' },
      { date: '2024-05-01', event: 'The largest PE-backed hospital chain, Steward Health Care (owned by Cerberus Capital Management), filed for bankruptcy in May 2024 after years of closing units, cutting nurses, and extracting $800', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'KKR & Co.', role: 'Cut hospital staffing to boost profits while patient outcomes worsened', status: 'pending', notes: 'PE ownership linked to 20,150 excess nursing home deaths per NBER study' }
+
+    ],
   },
   'police-militarization-1033-program': {
     title: 'Police Militarization and the 1033 Program',
@@ -3470,6 +4094,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2018', event: 'Studies show that police militarization disproportionately impacts communities of color: a 2018 PNAS study found that militarized police units are disproportionately deployed in communities with la', type: 'default' },
      { date: '2020-03-01', event: 'In Louisville, Kentucky, Breonna Taylor was shot and killed during a no-knock raid in March 2020 based on a warrant that contained false information', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Department of Defense 1033 Program', role: 'Transferred $7.4B+ in military equipment to 8,000+ law enforcement agencies since 1997', status: 'pending', notes: 'Police received MRAPs, grenade launchers, bayonets. Obama restricted; Trump reversed restrictions.' }
+
+    ],
   },
   'pge-wildfire-criminal-negligence': {
     title: 'PG&E Wildfire Criminal Negligence',
@@ -3511,6 +4141,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2019', event: 'Former CEO Geisha Williams resigned in January 2019 with a severance package worth $2.5 million after receiving $8.6 million in total compensation in 2017', type: 'political' },
      { date: '2020-06-01', event: 'The company emerged from bankruptcy in June 2020 with $59 billion in total settlements', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Pacific Gas & Electric', role: 'Electrical equipment failures caused multiple devastating California wildfires including Camp Fire killing 85', status: 'convicted', notes: 'Pled guilty to 84 counts of involuntary manslaughter. Paid $13.5B in settlements. Filed for bankruptcy.' }
+
+    ],
   },
   'pfas-forever-chemicals-contamination': {
     title: 'PFAS: The Forever Chemical Contamination of America',
@@ -3548,6 +4184,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023-06-01', event: 'SETTLEMENTS AND ONGOING LIABILITY: In June 2023, 3M agreed to pay $10.3 billion over 13 years to settle claims by U.S', type: 'political' },
      { date: '2024', event: 'As of 2024, PFAS contamination has been detected at over 2,800 locations in all 50 states', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: '3M Company', role: 'Manufactured PFAS chemicals for decades while concealing evidence of environmental and health damage', status: 'settled', notes: 'Agreed to pay $10.3B to settle water contamination claims in 2023' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water supplies with PFAS/PFOA near manufacturing plants', status: 'settled', notes: 'Part of $1.19B settlement for PFAS contamination in 2023' }
+
+    ],
   },
   'police-qualified-immunity-brutality': {
     title: 'Police Qualified Immunity and Systemic Brutality',
@@ -3582,6 +4226,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2005', event: 'Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S.', type: 'critical' },
      { date: '2023', event: 'Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S.', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'predatory-lending-post-crisis': {
     title: 'Predatory Lending After the Financial Crisis',
@@ -3617,6 +4269,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023', event: 'Repossession rates have reached record levels, with 2.2 million vehicles repossessed in 2023', type: 'financial' },
      { date: '2024', event: 'The Supreme Court ruled in 2024 that the CFPB\'s funding mechanism was constitutional, but political pressure continues', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Payday/Predatory Lenders', role: 'Trapped borrowers in debt cycles with APRs exceeding 400% targeting low-income and minority communities', status: 'charged', notes: 'CFPB brought enforcement actions. Some states banned payday lending. Industry spends millions on lobbying.' }
+
+    ],
   },
   'pharmaceutical-patent-abuse': {
     title: 'Pharmaceutical Patent Abuse and Drug Price Manipulation',
@@ -3656,6 +4314,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2023', event: 'market in 2023, Americans had overpaid by an estimated $40 billion compared to what they would have paid with timely generic competition', type: 'political' },
      { date: '2023', event: 'The industry spent $378 million on lobbying in 2023 alone', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Pharmaceutical Industry', role: 'Spent $350M+ annually on lobbying; ghostwrote medical journal articles; paid doctors to promote drugs', status: 'pending', notes: 'Pharma is largest US lobbying sector. ProPublica Dollars for Docs showed $12B in payments to physicians (2013-2022).' }
+
+    ],
   },
   'pine-ridge-reign-of-terror': {
     title: 'Pine Ridge Reign of Terror: FBI, COINTELPRO, and the War Against the American Indian Movement',
@@ -3700,6 +4364,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2016', event: 'Attorney James Reynolds, who supervised the Peltier prosecution, wrote to President Obama in 2016 calling for clemency, stating that the prosecution was part of a broader government effort to "dest', type: 'political' },
      { date: '2024-07-01', event: 'Penitentiary in Coleman, Florida, after being denied parole in July 2024', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'purdue-pharma-oxycontin-opioid-crisis': {
     title: 'Purdue Pharma and the Sackler Family: Architects of the Opioid Epidemic',
@@ -3743,6 +4415,16 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '2025', event: 'As of 2025, over 500,000 Americans have died from opioid overdoses since 1999', type: 'critical' },
      { date: '2025', event: 'The Sackler family remains worth an estimated $11 billion as of 2025', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and aggressively marketed it while concealing addiction risks', status: 'convicted', notes: 'Pled guilty twice (2007, 2020) to federal charges. Dissolved in bankruptcy. $6B settlement.' },
+
+      { name: 'Sackler Family', role: 'Owned Purdue Pharma; directed aggressive OxyContin marketing while extracting $10.7B from the company', status: 'settled', notes: 'Paid $6B in bankruptcy settlement in exchange for civil immunity. No criminal charges.' },
+
+      { name: 'McKesson Corporation', role: 'Drug distributor that shipped suspicious quantities of opioids to pharmacies without adequate controls', status: 'settled', notes: 'Part of $21B distributor settlement with states (2022) along with Cardinal Health and AmerisourceBergen' }
+
+    ],
   },
   'puerto-rico-contraceptive-trials': {
     title: 'The Puerto Rico Birth Control Pill Trials (1955-1960)',
@@ -3783,6 +4465,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1970', event: 'In 1970, Senator Gaylord Nelson held Senate hearings on the safety of the birth control pill', type: 'political' },
      { date: '2025', event: 'The development of the oral contraceptive pill was driven by three primary figures: Margaret Sanger, the activist and founder of Planned Parenthood who had long advocated for a "magic pill" to give', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Researchers', role: 'Tested early birth control pills on Puerto Rican women without informed consent; 3 died', status: 'pending', notes: 'Dr. John Rock and Dr. Gregory Pincus conducted trials in 1950s. Women not told they were taking experimental drug.' }
+
+    ],
   },
   'phoenix-program-vietnam-assassination': {
     title: 'Phoenix Program',
@@ -3819,6 +4507,12 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1972', event: 'Between 1968 and 1972, the program resulted in 26,369 killings, 33,358 detentions, and 22,013 defections according to official U.S.', type: 'default' },
      { date: '1975', event: 'The program was terminated by NSA Director Allen on May 15, 1975, shortly before the Church Committee hearings.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA / William Colby', role: 'Directed Phoenix Program in Vietnam that killed 20,000-40,000 suspected Viet Cong including many civilians', status: 'pending', notes: 'Colby admitted to Congress program existed. South Vietnamese allies committed most killings. No accountability.' }
+
+    ],
   },
   'project-shamrock-communications-surveillance': {
     title: 'Project SHAMROCK',
@@ -3856,6 +4550,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1953', event: 'TRANSITION TO MKULTRA: In 1953, CIA Technical Services Staff officer Sidney Gottlieb proposed a broader and more systematic research program.', type: 'default' },
      { date: '1956', event: 'Artichoke continued to operate separately until approximately 1956, with some organizational overlap with MKUltra.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'project-artichoke-interrogation-program': {
     title: 'Project Artichoke',
@@ -3896,6 +4598,14 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1973', event: 'Artichoke documents were partially declassified through FOIA requests and the 1977 Senate hearings on MKUltra, when CIA Director Stansfield Turner revealed that a cache of financial records related to MKUltra and its', type: 'political' },
      { date: '1977', event: 'Artichoke documents were partially declassified through FOIA requests and the 1977 Senate hearings on MKUltra, when CIA Director Stansfield Turner revealed that a cache of financial records related to MKUltra and its', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'panama-invasion': {
  title: 'Panama Invasion: Operation Just Cause',
@@ -4381,6 +5091,7 @@ const investigations_p: Record<string, InvestigationData> = {
    { name: 'Pharmaceutical Industry (PhRMA)', role: 'Lobbying to prevent Medicare price negotiation for nearly 20 years', status: 'charged', notes: 'Inflation Reduction Act (2022) partially reverses ban; industry filed multiple lawsuits to block implementation' },
    { name: 'Allergan / AbbVie (Humira)', role: 'Patent thicket strategy, filing 100+ patents to block biosimilar competition for decades', status: 'charged', notes: 'First biosimilar approved 2023 after decades of blocked competition; Humira generated $200B+ in lifetime sales' }
  ],
+
   },
   'phoenix-program': {
  title: 'The Phoenix Program',
@@ -4469,6 +5180,7 @@ const investigations_p: Record<string, InvestigationData> = {
    { name: 'CORDS Leadership', role: 'Command responsibility for civilian deaths', status: 'charged', notes: 'No charges ever filed' },
    { name: 'Ted Shackley', role: 'Oversight of extrajudicial operations', status: 'charged', notes: 'No prosecution, continued CIA career' }
  ],
+
   },
   'police-brutality': {
  title: 'Police Brutality & Qualified Immunity',
@@ -4535,6 +5247,7 @@ const investigations_p: Record<string, InvestigationData> = {
    { code: '4th Amendment (Unreasonable Search and Seizure)', description: 'Excessive force claims analyzed under "objective reasonableness" standard from Graham v. Connor (1989); heavily favors officer perspective' },
    { code: '14th Amendment (Equal Protection)', description: 'Prohibits racially discriminatory policing; Black Americans killed at 2.9x the rate of white Americans; proving discriminatory intent is nearly impossible' }
  ],
+
   },
   'police-militarization': {
  title: 'Police Militarization',
@@ -4622,6 +5335,7 @@ const investigations_p: Record<string, InvestigationData> = {
    { name: 'LAPD (2020 Protests)', role: 'LAPD fired rubber bullets and tear gas at peaceful protesters and press', status: 'charged', notes: 'Inspector General found over 50"serious use-of-force incidents"; department reformed crowd control policies' },
    { name: 'Portland Bureau of Police (2020)', role: 'Ongoing use of tear gas and crowd control munitions during 100+ nights of protests', status: 'charged', notes: 'Federal court injunction against use of tear gas; DOJ investigation into pattern and practice of misconduct' }
  ],
+
   },
   'predictive-policing': {
  title: 'Predictive Policing: Algorithms of Oppression',
@@ -4799,6 +5513,7 @@ const investigations_p: Record<string, InvestigationData> = {
    { name: 'Eloy Federal Contract Facility (CCA)', role: 'Highest death rate in ICE detention system', status: 'charged', notes: '15 deaths 2003-2015; medical neglect documented; facility continues operating' },
    { name: 'Stewart Detention Center (CoreCivic)', role: 'Medical neglect, COVID deaths', status: 'charged', notes: 'Multiple detainee deaths during COVID; ACLU lawsuit; facility continues operating under government contract' }
  ],
+
   },
   'project-2025': {
  title: 'Project 2025',
@@ -4957,6 +5672,7 @@ const investigations_p: Record<string, InvestigationData> = {
    { name: 'Zachary Rehl', role: 'Seditious Conspiracy + Obstruction', status: 'incarcerated', notes: '15 years federal prison' },
    { name: 'Dominic Pezzola', role: 'Seditious Conspiracy + Obstruction', status: 'incarcerated', notes: '10 years federal prison' }
  ],
+
   },
   'puerto-rico': {
  title: 'Puerto Rico Hurricane Response',
@@ -5109,6 +5825,7 @@ const investigations_p: Record<string, InvestigationData> = {
    { name: 'Richard Sackler', role: 'Named defendant in multiple state suits', status: 'charged', notes: 'No personal criminal charges; protected by corporate structure and bankruptcy proceedings' },
    { name: 'McKinsey & Company', role: 'Advising Purdue on how to "turbocharge" OxyContin sales', status: 'settled', notes: 'Settled for $573 million with 47 states in 2021' }
  ],
+
   },
 };
 

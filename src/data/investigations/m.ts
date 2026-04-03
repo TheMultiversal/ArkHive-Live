@@ -52,6 +52,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023-04-18', event: 'Fox News settles Dominion defamation lawsuit for $787 million; the largest defamation settlement in American history, after discovery proved the network knowingly broadcast false claims', type: 'critical' },
      { date: '2023-04-24', event: 'Fox fires Tucker Carlson days after the settlement; reasons not fully explained but followed revelations of his private contempt for network leadership and colleagues', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },
   'mueller-suppression': {
  title: 'Mueller Report Suppression',
@@ -111,6 +119,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2020-03-10', event: 'Federal judge Reggie Walton rules Barr "distorted" Mueller\'s findings and acted in "bad faith"; orders DOJ to explain redactions', type: 'legal' },
      { date: '2020-12-23', event: 'Barr resigns as Attorney General; leaves behind a legacy of weaponizing DOJ to protect Trump from accountability', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Justice', role: 'Pattern of politicized prosecutions and selective enforcement', status: 'pending', notes: 'Inspector General reports documented political interference across multiple administrations' },
+
+   { name: 'William Barr', role: 'Attorney General who misrepresented Mueller Report findings', status: 'pending', notes: 'Issued misleading summary of Mueller Report. Intervened in cases of political allies.' }
+
+ ],
  },
   'military-industrial': {
  title: 'Military Industrial Complex',
@@ -174,6 +190,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'Ukraine conflict drives $113B in U.S. military aid; defense contractor stocks hit all-time highs. Lockheed Martin stock rises 37%', type: 'political' },
      { date: '2023', event: 'Defense budget reaches $886B (FY2024 NDAA). Pentagon fails its sixth consecutive audit. Defense lobbying exceeds $100M annually', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Top 5 Defense Contractors (Lockheed Martin, RTX, Boeing, Northrop Grumman, General Dynamics)', role: 'Profit from permanent war economy; lobbied for conflicts and against Pentagon budget cuts', status: 'pending', notes: 'US military spending exceeds next 10 nations combined. Pentagon never passed an audit. Revolving door with DOD.' }
+
+ ],
  },
   'media-control': {
  title: 'Media Consolidation and Control',
@@ -219,6 +241,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2005', event: 'Over 2,500 newspapers have closed since 2005. "News deserts" now cover vast areas with no local journalism.', type: 'default' },
      { date: '2018', event: 'The infamous 2018 Sinclair script incident had anchors across the country reading identical pro-Trump propaganda.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },
   'medical-tyranny': {
  title: 'COVID Restrictions Debate',
@@ -265,6 +295,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022-10', event: 'Studies document significant pandemic-era learning loss among children; standardized test scores dropped to levels not seen in decades, with low-income students disproportionately affected', type: 'default' },
      { date: '2023-05-11', event: 'Biden formally ends the COVID-19 public health emergency; remaining federal mandates expire. Debate over whether restrictions were proportionate continues', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'media-consolidation': {
  title: 'Media Consolidation',
@@ -298,6 +336,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '1983', event: 'In 1983, 50 companies controlled 90% of media.', type: 'default' },
      { date: '1996', event: 'Since the 1996 Telecommunications Act, media ownership has consolidated until six corporations control 90% of what Americans read, watch, and hear.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Media Conglomerates (Sinclair, iHeart, etc.)', role: 'Concentrated media ownership reduced local news coverage and diversity of viewpoints', status: 'pending', notes: 'Sinclair owns 185+ stations. 1/3 of US newspapers have closed since 2005. FCC deregulation enabled consolidation.' }
+
+ ],
  },
   'media-manipulation': {
  title: 'Media Manipulation',
@@ -333,6 +377,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018-04-02', event: 'Sinclair Broadcasting forces local anchors across 190+ stations to read identical script attacking "fake news" — viral video exposes media consolidation', type: 'default' },
      { date: '2023-04-18', event: 'Dominion Voting Systems settles defamation suit against Fox News for $787.5M; internal communications prove Fox knowingly aired false election claims', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },
   'madoff-ponzi': {
  title: 'Bernie Madoff Ponzi Scheme',
@@ -394,6 +446,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2009-01-01', from: 'Feeder funds (Fairfield Greenwich, Tremont, others)', to: 'Madoff Securities', amount: '$10,000,000,000', purpose: 'Feeder funds channeled billions from investors to Madoff without conducting due diligence, collecting massive fees along the way', documented: true },
      { date: '2024-01-01', from: 'Recovered assets (Irving Picard, Trustee)', to: 'Madoff victims', amount: '$14,700,000,000', purpose: 'Trustee Irving Picard recovered and distributed over $14.7 billion to victims through clawback lawsuits and settlements', documented: true }
    ],
+
+ defendants: [
+
+   { name: 'Bernie Madoff', role: 'Operated largest Ponzi scheme in history; defrauded investors of $64.8 billion in stated returns', status: 'convicted', notes: 'Pled guilty to 11 felonies; sentenced to 150 years. Died in prison April 2021.' },
+
+   { name: 'JPMorgan Chase', role: 'Primary bank that held Madoff accounts and failed to report suspicious activity despite red flags', status: 'settled', notes: 'Paid $2.6B in penalties and victim compensation in 2014' }
+
+ ],
  },
   'mass-shootings-in-america': {
  title: 'Mass Shootings in America',
@@ -445,6 +505,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'Sandy Hook families won a $73 million settlement from Remington Arms in 2022', type: 'financial' },
      { date: '2022-06-01', event: 'BIPARTISAN SAFER COMMUNITIES ACT: In June 2022, following the Uvalde and Buffalo massacres, Congress passed the first significant federal gun legislation in nearly 30 years', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Gun Manufacturers', role: 'Marketed military-style weapons to civilians including young men through aggressive advertising', status: 'settled', notes: 'Remington settled with Sandy Hook families for $73M in 2022; first gun maker held accountable for mass shooting.' },
+
+   { name: 'NRA', role: 'Blocked assault weapons ban renewal, universal background checks, and red flag laws after every mass shooting', status: 'charged', notes: 'NY AG filed civil fraud suit in 2020; found massive self-dealing by leadership' }
+
+ ],
  },
   'mccarrick-investigation': {
  title: 'Theodore McCarrick: The Vatican\'s Highest-Ranking Predator',
@@ -487,6 +555,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2021-07-01', event: 'McCarrick was criminally charged in July 2021 with sexual assault of a minor in Massachusetts; the first time a cardinal had been criminally charged with abuse in the United States', type: 'default' },
      { date: '2023', event: 'The charges were dismissed in 2023 because the court found McCarrick mentally incompetent to stand trial due to dementia', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Cardinal Theodore McCarrick', role: 'Sexually abused minors and seminarians for decades while rising to highest levels of Catholic Church', status: 'charged', notes: 'Laicized in 2019. Criminal charges in Massachusetts dismissed due to cognitive decline.' }
+
+ ],
  },
   'media-fraud': {
  title: 'Media Fraud: Fabrication, Manipulation, and Corporate Deception',
@@ -524,6 +598,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2019', event: 'A 2019 Stanford study found that 80% of students could not distinguish sponsored content from news articles', type: 'default' },
      { date: '2022', event: 'A 2022 study by the Association of National Advertisers found that 23% of all digital ad spending was wasted on fraudulent impressions', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },
   'media-industry-abuse': {
  title: 'Media Industry Abuse',
@@ -566,6 +648,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2017', event: 'Despite multiple complaints to management, no action was taken until the Washington Post published allegations in 2017', type: 'default' },
      { date: '2017', event: 'MATT LAUER: NBC Today show anchor Matt Lauer was fired in 2017 after an employee reported "inappropriate sexual behavior." Further reporting revealed a pattern of predation enabled by NBC management', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Entertainment Industry (Multiple)', role: 'Systemic sexual harassment and abuse enabled by power imbalances in media and entertainment', status: 'charged', notes: 'Weinstein, Cosby, R. Kelly, Spacey, Moonves, Lauer cases revealed industry-wide pattern. 80+ public figures accused.' }
+
+ ],
  },
   'media-radicalization': {
  title: 'Media Radicalization: The Pipeline from Mainstream to Extremism',
@@ -613,6 +701,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022-05-14', event: 'Buffalo supermarket shooter, radicalized through online platforms, murders 10 Black people. Manifesto cites Great Replacement theory encountered through algorithmic recommendation.', type: 'critical' },
      { date: '2023', event: 'EU Digital Services Act takes effect, requiring platforms to assess and mitigate systemic risks including algorithmic amplification of harmful content. U.S. has no equivalent regulation.', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+   { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+ ],
  },  'medical-ethics': {
  title: 'Medical Ethics Violations',
  subtitle: 'History of unethical medical experimentation and healthcare industry abuses targeting vulnerable populations',
@@ -666,6 +762,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2013', event: 'NIH reaches agreement with Henrietta Lacks\' family granting them some control over access to the HeLa genome. First formal acknowledgment of the family\'s rights after 62 years.', type: 'default' },
      { date: '2020', event: 'Nurse Dawn Wooten whistleblows about forced hysterectomies on detained women at ICE\'s Irwin County Detention Center in Georgia. DHS Inspector General investigates.', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Various Medical Researchers and Institutions', role: 'Violated medical ethics through unauthorized experiments and conflicts of interest', status: 'pending', notes: 'From Tuskegee to modern clinical trial fraud. Informed consent violations documented across decades.' }
+
+ ],
  },
   'menendez-bribery': {
  title: 'Senator Bob Menendez: Gold Bars, Cash, and Foreign Corruption',
@@ -701,6 +803,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2024-07-01', event: 'Menendez was convicted on all 16 counts in July 2024 including bribery, honest services fraud, extortion, acting as a foreign agent, and obstruction', type: 'legal' },
      { date: '2024-08-01', event: 'He resigned from the Senate in August 2024', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Sen. Bob Menendez', role: 'US Senator who accepted hundreds of thousands in bribes including gold bars from Egyptian and Qatari officials', status: 'convicted', notes: 'Convicted on all 16 counts including bribery and acting as foreign agent in July 2024. Resigned from Senate.' },
+
+   { name: 'Nadine Menendez', role: 'Wife of Senator who served as intermediary for bribe payments and gifts', status: 'convicted', notes: 'Convicted on all counts. Trial delayed due to medical issues.' }
+
+ ],
  },
   'metoo-media': {
  title: '#MeToo in Media: How Newsrooms Protected Predators',
@@ -747,6 +857,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022-12-19', event: 'Weinstein convicted a second time in Los Angeles on additional rape and sexual assault charges. Sentenced to 16 years consecutive. Total sentence: 39 years.', type: 'legal' },
      { date: '2024-04-25', event: 'New York Court of Appeals overturns Weinstein\'s 2020 conviction on procedural grounds, ruling the judge improperly allowed testimony from women not involved in the charges.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Entertainment Industry (Multiple)', role: 'Systemic sexual harassment and abuse enabled by power imbalances in media and entertainment', status: 'charged', notes: 'Weinstein, Cosby, R. Kelly, Spacey, Moonves, Lauer cases revealed industry-wide pattern. 80+ public figures accused.' }
+
+ ],
  },
   'michael-brown-shooting': {
  title: 'Michael Brown Shooting',
@@ -790,6 +906,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2015-03-01', event: 'DOJ FERGUSON INVESTIGATION: In March 2015, the DOJ released a devastating 102-page report on the Ferguson Police Department', type: 'default' },
      { date: '2016-03-01', event: 'CONSENT DECREE: In March 2016, Ferguson entered into a DOJ consent decree requiring sweeping reforms including new use-of-force policies, ending revenue-driven policing, bias-free policing training', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+   { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+ ],
  },
   'military-industrial-ai': {
  title: 'Military AI: Autonomous Weapons and the Race to Lethal Autonomy',
@@ -825,6 +949,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2024', event: 'By 2024, the Pentagon had expanded AI integration across all military branches through the Joint Artificial Intelligence Center and its successors', type: 'default' },
      { date: '2024', event: 'Israel\'s use of AI targeting systems in Gaza, reported by +972 Magazine in 2024, revealed that the military used a system called "Lavender" that generated a database of approximately 37,000 suspect...', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Top 5 Defense Contractors (Lockheed Martin, RTX, Boeing, Northrop Grumman, General Dynamics)', role: 'Profit from permanent war economy; lobbied for conflicts and against Pentagon budget cuts', status: 'pending', notes: 'US military spending exceeds next 10 nations combined. Pentagon never passed an audit. Revolving door with DOD.' }
+
+ ],
  },
   'military-industrial-complex': {
  title: 'The Military-Industrial Complex: America\'s Permanent War Economy',
@@ -864,6 +994,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023', event: 'The top five defense contractors; Lockheed Martin, RTX (Raytheon), Northrop Grumman, Boeing Defense, and General Dynamics; received over $150 billion in government contracts in 2023', type: 'political' },
      { date: '2024', event: 'defense budget for fiscal year 2024 was $886 billion; exceeding the combined military spending of the next 10 countries', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Top 5 Defense Contractors (Lockheed Martin, RTX, Boeing, Northrop Grumman, General Dynamics)', role: 'Profit from permanent war economy; lobbied for conflicts and against Pentagon budget cuts', status: 'pending', notes: 'US military spending exceeds next 10 nations combined. Pentagon never passed an audit. Revolving door with DOD.' }
+
+ ],
  },
   'military-readiness': {
  title: 'Military Readiness: A Hollow Force Behind the Budget',
@@ -905,6 +1041,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023', event: 'VA wait times for mental health appointments averaged 48 days in 2023', type: 'default' },
      { date: '2023', event: 'The GAO estimated the maintenance backlog at $144 billion in 2023', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+   { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+ ],
  },
   'militia-movement': {
  title: 'America\'s Militia Movement: Armed Extremism and the Threat of Political Violence',
@@ -951,6 +1095,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023-05', event: 'Stewart Rhodes sentenced to 18 years for seditious conspiracy; Enrique Tarrio sentenced to 22 years. Longest January 6 sentences mark first successful seditious conspiracy prosecutions in decades', type: 'legal' },
      { date: '2023', event: 'FBI Director Wray testifies that domestic terrorism cases have more than doubled since 2020; militia and anti-government groups remain the most operationally capable domestic threat', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Militia Groups', role: 'Armed paramilitary movements including Oath Keepers, Three Percenters, and Proud Boys', status: 'charged', notes: 'Seditious conspiracy convictions after Jan 6. Michigan Gov. Whitmer kidnapping plot foiled (2020). FBI monitoring increasing.' }
+
+ ],
  },
   'mississippi-welfare': {
  title: 'Mississippi Welfare Fraud: The Largest Public Fraud in State History',
@@ -988,6 +1138,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2019', event: 'Mississippi\'s Department of Human Services, led by director John Davis, diverted approximately $77 million in federal TANF (Temporary Assistance for Needy Families) funds between 2016 and 2019.', type: 'financial' },
      { date: '2024', event: 'As of 2024, Bryant had not been criminally charged.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Brett DiBiase', role: 'Son of wrestler Ted DiBiase; received welfare funds for fake drug rehab work', status: 'convicted', notes: 'Pled guilty to federal charges in Mississippi welfare fraud scheme' },
+
+   { name: 'John Davis', role: 'Mississippi DHS Director who diverted $77M in TANF welfare funds to wealthy friends', status: 'convicted', notes: 'Pled guilty to federal and state charges. Largest public fraud case in Mississippi history.' },
+
+   { name: 'Brett Favre', role: 'Received $1.1M in TANF welfare funds for speaking engagements he never gave', status: 'charged', notes: 'Civil suit pending. Text messages showed awareness funds were from welfare program.' }
+
+ ],
  },
   'monsanto-crimes': {
  title: 'Monsanto: Poisoning the World for Profit',
@@ -1025,6 +1185,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018', event: 'Bayer, which acquired Monsanto for $63 billion in 2018, agreed to pay $10.9 billion to settle approximately 100,000 Roundup cancer claims while maintaining the product\'s safety', type: 'political' },
      { date: '2018', event: 'Bayer\'s acquisition of Monsanto for $63 billion in 2018 was followed by over $20 billion in litigation costs and settlements', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Monsanto/Bayer', role: 'Concealed evidence that Roundup herbicide (glyphosate) causes cancer; ghostwrote safety studies', status: 'settled', notes: 'Bayer settled for $10.9B in 2020 to resolve ~125,000 claims. Internal emails showed decades of cover-up.' },
+
+   { name: 'EPA (Scott Pruitt era)', role: 'EPA official Jess Rowland helped Monsanto kill HHS cancer review of glyphosate', status: 'pending', notes: 'Internal Monsanto emails: "we have Jess in our back pocket." No accountability.' }
+
+ ],
  },
   'mortgage-fraud-crisis': {
  title: 'The Mortgage Fraud Crisis: How Banks Robbed Millions of Their Homes',
@@ -1068,6 +1236,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2012', event: 'The 2012 National Mortgage Settlement between the five largest servicers and 49 state attorneys general totaled $25 billion; a fraction of the trillions in losses caused by the fraud.', type: 'legal' },
      { date: '2016', event: 'When the housing market collapsed, banks foreclosed on approximately 10 million homes between 2007 and 2016.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Countrywide/Angelo Mozilo', role: 'Largest subprime lender; CEO sold $140M in stock while knowing of toxic loans', status: 'settled', notes: 'Mozilo paid $67.5M SEC settlement. No criminal charges.' }
+
+ ],
  },
   'msu-coverup': {
  title: 'Michigan State University: Covering for Larry Nassar',
@@ -1111,6 +1285,18 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018-05', event: 'MSU agreed to pay $500 million to settle claims from over 300 Nassar victims', type: 'financial' },
      { date: '2023', event: 'Department of Education fined MSU $4.5 million for Clery Act violations related to the Nassar case', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Jerry Sandusky', role: 'Penn State assistant football coach who sexually abused at least 52 boys over 15 years', status: 'convicted', notes: 'Convicted on 45 counts of child sexual abuse in 2012; sentenced to 30-60 years' },
+
+   { name: 'Joe Paterno', role: 'Head coach who was informed of Sandusky abuse and failed to report to police', status: 'pending', notes: 'Fired in 2011; died January 2012. NCAA vacated then restored 111 wins.' },
+
+   { name: 'Graham Spanier', role: 'Penn State president who participated in cover-up of Sandusky abuse', status: 'convicted', notes: 'Convicted of child endangerment misdemeanor; sentenced to 2 months' },
+
+   { name: 'Tim Curley', role: 'Penn State athletic director who covered up Sandusky reports', status: 'convicted', notes: 'Pled guilty to child endangerment misdemeanor; sentenced to 7-23 months' }
+
+ ],
  },  'music-industry-abuse': {
  title: 'Music Industry Abuse',
  subtitle: 'Exploitation, sexual abuse, and labor theft endemic to the music industry from executives to producers to artists',
@@ -1153,6 +1339,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'R. Kelly convicted of racketeering and sex trafficking; sentenced to 30 years in federal prison', type: 'legal' },
      { date: '2023', event: 'Sean "Diddy" Combs faced multiple lawsuits alleging sexual assault, sex trafficking, and racketeering; federally indicted in 2024', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Entertainment Industry (Multiple)', role: 'Systemic sexual harassment and abuse enabled by power imbalances in media and entertainment', status: 'charged', notes: 'Weinstein, Cosby, R. Kelly, Spacey, Moonves, Lauer cases revealed industry-wide pattern. 80+ public figures accused.' }
+
+ ],
  },
   'ms-13-transnational-operations': {
     title: 'MS-13 Transnational Operations',
@@ -1195,6 +1387,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018', event: 'A 2018 Congressional Research Service report acknowledged that U.S', type: 'political' },
      { date: '2020', event: 'DOJ prosecutions; including a 2020 RICO case against MS-13 leadership; have targeted its command structure but the decentralized nature makes dismantlement difficult', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'mkultra-full-declassification-analysis': {
     title: 'MKUltra Full Declassification Analysis',
@@ -1237,6 +1435,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2000', event: 'FOIA requests filed since 2000 have been met with claims that remaining documents are either "not found" or exempt from disclosure under national security exemptions (b)(1) and sources/methods exem', type: 'default' },
      { date: '2018', event: 'In 2018, a FOIA lawsuit produced previously unreleased documents showing the CIA had additional MKUltra-related records that contradicted prior claims of complete disclosure', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Sidney Gottlieb)', role: 'Directed MKULTRA mind control program conducting experiments on unwitting human subjects including LSD dosing', status: 'pending', notes: 'Gottlieb destroyed most MKULTRA records in 1973. Died 1999. No criminal charges ever filed.' },
+
+      { name: 'CIA Director Allen Dulles', role: 'Authorized MKULTRA program in 1953 to develop mind control techniques', status: 'pending', notes: 'Program ran from 1953-1973 across 80+ institutions. Dulles fired by JFK in 1961; died 1969.' },
+
+      { name: 'Dr. Donald Ewen Cameron', role: 'Conducted brutal "psychic driving" experiments on patients at Allan Memorial Institute in Montreal', status: 'pending', notes: 'CIA-funded experiments destroyed patients\' memories and personalities. Canadian government settled with victims in 1994.' }
+
+    ],
   },
   'medicare-fraud-systematic-exploitation': {
     title: 'Medicare Fraud Systematic Exploitation',
@@ -1281,6 +1489,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 DOJ takedown charged 36 defendants across multiple states in a $1.2 billion home health fraud scheme involving falsified patient records and medically unnecessary services', type: 'political' },
      { date: '2023', event: 'The HHS Office of Inspector General estimates improper payments (including fraud, waste, and abuse) at $46.8 billion in 2023 alone', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Healthcare Providers', role: 'Medicare/Medicaid fraud costs $60-90B annually through false billing, kickbacks, and phantom patients', status: 'convicted', notes: 'DOJ Healthcare Fraud Strike Force has charged 5,000+ defendants. Largest schemes involve home health and DME.' }
+
+    ],
   },
   'mind-control-programs-modern-era': {
     title: 'Mind Control Programs: Modern Era',
@@ -1346,6 +1560,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2016', event: 'diplomats and intelligence officers beginning in 2016 raised serious questions about whether directed energy weapons are being deployed', type: 'default' },
      { date: '2022', event: 'A 2022 investigation revealed the U.S', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'microplastics-health-crisis': {
     title: 'Microplastics Health Crisis',
@@ -1390,6 +1612,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2024', event: 'A landmark 2024 study in the New England Journal of Medicine found that patients with microplastics detected in carotid artery plaque had a 4.', type: 'critical' },
      { date: '2024', event: 'SOURCES AND PATHWAYS: Major microplastic exposure pathways include drinking water (both tap and bottled; bottled water contains 240,000 plastic particles per liter according to a 2024 Columbia Univ', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'mass-surveillance-domestic-architecture': {
     title: 'Mass Surveillance Domestic Architecture',
@@ -1434,6 +1666,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 ODNI report confirmed that the intelligence community purchases "commercially available information" that "could be used to identify every person who attended a protest or rally.', type: 'political' },
      { date: '2024-04-01', event: 'Despite these documented abuses, Congress reauthorized Section 702 in April 2024 with expanded authority, including provisions that critics called a massive expansion of warrantless surveillance by', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'military-base-environmental-contamination': {
     title: 'Military Base Environmental Contamination',
@@ -1479,6 +1719,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2024', event: 'The Pentagon knew AFFF was contaminating water supplies as early as the 1970s but continued using it until 2024', type: 'default' },
      { date: '2024', event: 'By 2024, over 700,000 veterans had applied for burn pit-related benefits', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'methane-emissions-underreporting': {
     title: 'Methane Emissions Underreporting',
@@ -1520,6 +1770,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Global Methane Pledge, signed by over 150 countries at COP26, committed to reducing methane emissions 30% by 2030; but actual emissions have continued to rise, reaching record levels in 2023', type: 'default' },
      { date: '2024', event: 'The Biden EPA finalized strengthened methane rules in 2024, including the first-ever fee on excess methane emissions', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'military-industrial-complex-profit-pipeline': {
     title: 'Military Industrial Complex Profit Pipeline',
@@ -1559,6 +1819,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023', event: 'The defense industry spent $247 million on lobbying in 2023 and contributed over $36 million to federal candidates', type: 'financial' },
      { date: '2024', event: 'A 2024 report found that the DoD spent $14 billion on IT that included $93 million in duplicate payments and $35 million on unused software', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Top 5 Defense Contractors (Lockheed Martin, RTX, Boeing, Northrop Grumman, General Dynamics)', role: 'Profit from permanent war economy; lobbied for conflicts and against Pentagon budget cuts', status: 'pending', notes: 'US military spending exceeds next 10 nations combined. Pentagon never passed an audit. Revolving door with DOD.' }
+
+    ],
   },
   'media-consolidation-democracy-threat': {
     title: 'Media Consolidation Democracy Threat',
@@ -1601,6 +1867,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018', event: 'In 2018, a viral video compilation showed anchors at dozens of Sinclair stations reading an identical script warning about "fake news"', type: 'default' },
      { date: '2023', event: 'By 2023, that number had collapsed to six', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Media Conglomerates (Sinclair, iHeart, etc.)', role: 'Concentrated media ownership reduced local news coverage and diversity of viewpoints', status: 'pending', notes: 'Sinclair owns 185+ stations. 1/3 of US newspapers have closed since 2005. FCC deregulation enabled consolidation.' }
+
+    ],
   },
   'massage-parlor-network-investigations': {
     title: 'Massage Parlor Network Investigations',
@@ -1638,6 +1910,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018', event: 'A 2018 Polaris report found that fewer than 15% of IMB investigations resulted in trafficking charges against operators, while the majority of arrested individuals were the workers themselves', type: 'default' },
      { date: '2019-02-01', event: 'THE KRAFT CASE: In February 2019, New England Patriots owner Robert Kraft was charged with soliciting prostitution at the Orchids of Asia Day Spa in Jupiter, Florida', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'mining-industry-environmental-destruction': {
     title: 'Mining Industry Environmental Destruction',
@@ -1678,6 +1956,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2015', event: 'The 2015 Gold King Mine spill in Colorado released 3 million gallons of toxic wastewater into the Animas River, turning it orange and contaminating water supplies for Navajo and Ute communities dow', type: 'financial' },
      { date: '2018', event: 'Mining industry lobbying has defeated every congressional attempt at royalty reform, spending over $30 million on federal lobbying between 2018 and 2023', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'mass-formation-psychosis-media-analysis': {
     title: 'Mass Formation Psychosis Media Analysis',
@@ -1718,6 +2006,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'A 2022 Pew study found that Republicans and Democrats literally consume different facts; not just different interpretations', type: 'default' },
      { date: '2023', event: 'A 2023 study found that TikTok\'s algorithm could create "filter bubbles" within 40 minutes of use, serving users increasingly narrow content aligned with detected interests', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+      { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+    ],
   },
   'modern-behavioral-influence-programs': {
     title: 'Modern Behavioral Influence Programs',
@@ -1755,6 +2051,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2010', event: 'Military PSYOP units were rebranded as Military Information Support Operations (MISO) in 2010 but the mission; influencing the perceptions and behavior of target audiences; remained identical.', type: 'default' },
      { date: '2022', event: 'A 2022 investigation revealed the Pentagon operated a vast network of fake social media accounts across Twitter, Facebook, and other platforms for covert influence operations', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Various Intelligence and Corporate Entities', role: 'Psychological manipulation and behavioral influence on unwitting populations', status: 'pending', notes: 'From MKUltra to modern social media manipulation; pattern of experimenting without consent' }
+
+    ],
   },
 
   'medical-misinfo': {
@@ -1797,6 +2099,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022-04', event: 'A study in The Lancet estimated that at least 318,981 Americans died from COVID between January 2021 and April 2022 because they were unvaccinated; many influenced by misinformation.', type: 'default' },
      { date: '2024', event: 'UNPROVEN TREATMENTS: Ivermectin and hydroxychloroquine were promoted by President Trump, Senator', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+      { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+    ],
   },
   'mass-shootings': {
     title: "American Mass Shooting Epidemic",
@@ -1843,6 +2153,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018', event: 'Parkland (2018; 17 killed).', type: 'critical' },
      { date: '2019', event: 'El Paso (2019; 23 killed).', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Gun Manufacturers', role: 'Marketed military-style weapons to civilians including young men through aggressive advertising', status: 'settled', notes: 'Remington settled with Sandy Hook families for $73M in 2022; first gun maker held accountable for mass shooting.' },
+
+      { name: 'NRA', role: 'Blocked assault weapons ban renewal, universal background checks, and red flag laws after every mass shooting', status: 'charged', notes: 'NY AG filed civil fraud suit in 2020; found massive self-dealing by leadership' }
+
+    ],
   },
   'my-lai-massacre': {
     title: 'My Lai Massacre',
@@ -1879,6 +2197,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '1971-03-29', event: 'Lt. William Calley convicted of murdering 22 civilians; sentenced to life imprisonment', type: 'legal' },
      { date: '1974-11-19', event: 'Calley paroled after serving only 3.5 years of house arrest; Nixon had reduced sentence under political pressure', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Lt. William Calley', role: 'Led Charlie Company platoon in massacre of 347-504 Vietnamese civilians at My Lai on March 16, 1968', status: 'convicted', notes: 'Only person convicted. Sentenced to life; reduced to 10 years by Nixon. Served 3.5 years house arrest.' },
+
+      { name: 'Capt. Ernest Medina', role: 'Company commander who was in vicinity during massacre and failed to halt killings', status: 'acquitted', notes: 'Acquitted at court-martial in 1971' },
+
+      { name: 'U.S. Army (Cover-up)', role: 'Military chain of command covered up massacre for over a year until soldier Ron Ridenhour wrote letters', status: 'pending', notes: 'Peers Commission found 30 officers involved in cover-up. Only Calley convicted.' }
+
+    ],
   },
   'mk-ultra': {
     title: 'MK-Ultra Mind Control Program',
@@ -1919,6 +2247,16 @@ const investigations_m: Record<string, InvestigationData> = {
       { date: '1973', event: 'CIA Director Richard Helms orders destruction of nearly all MK-Ultra records; thousands of documents are shredded before Congressional investigation', type: 'critical' },
       { date: '1975-07-26', event: 'Church Committee investigation exposes MK-Ultra program to the public; Senate hearings reveal scope of illegal human experimentation', type: 'legal' },
       { date: '1977', event: '20,000 pages of financial documents discovered misfiled; Senate hearings chaired by Senator Edward Kennedy produce testimony from CIA officials acknowledging program illegality', type: 'legal' }
+    ],
+
+    defendants: [
+
+      { name: 'CIA (Sidney Gottlieb)', role: 'Directed MKULTRA mind control program conducting experiments on unwitting human subjects including LSD dosing', status: 'pending', notes: 'Gottlieb destroyed most MKULTRA records in 1973. Died 1999. No criminal charges ever filed.' },
+
+      { name: 'CIA Director Allen Dulles', role: 'Authorized MKULTRA program in 1953 to develop mind control techniques', status: 'pending', notes: 'Program ran from 1953-1973 across 80+ institutions. Dulles fired by JFK in 1961; died 1969.' },
+
+      { name: 'Dr. Donald Ewen Cameron', role: 'Conducted brutal "psychic driving" experiments on patients at Allan Memorial Institute in Montreal', status: 'pending', notes: 'CIA-funded experiments destroyed patients\' memories and personalities. Canadian government settled with victims in 1994.' }
+
     ],
   },
   'medicare-medicaid-fraud-trillion-dollar-theft': {
@@ -1962,6 +2300,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2013', event: 'Pharmaceutical companies routinely pay physicians through "speaking fees," consulting arrangements, and luxury trips - data from CMS Open Payments shows the industry paid $12 billion to physicians', type: 'political' },
      { date: '2019', event: 'Operation Brace Yourself (2019) charged 24 defendants for $1.2 billion in DME fraud', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Healthcare Providers', role: 'Medicare/Medicaid fraud costs $60-90B annually through false billing, kickbacks, and phantom patients', status: 'convicted', notes: 'DOJ Healthcare Fraud Strike Force has charged 5,000+ defendants. Largest schemes involve home health and DME.' }
+
+    ],
   },
   'maui-wildfire-government-failure': {
     title: 'Maui Wildfire Government Failure',
@@ -1998,6 +2342,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2024', event: 'The Hawaii Attorney General filed a lawsuit against HECO in January 2024', type: 'legal' },
      { date: '2024-08-01', event: 'A global resolution was announced in August 2024 totaling $4.04 billion, with HECO (and its insurer) paying the largest share', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Hawaiian Electric', role: 'Failed to shut off power during extreme winds; lines sparked fires that destroyed Lahaina', status: 'charged', notes: 'Agreed to $4B settlement. Deadliest US wildfire in 100+ years. 101 killed.' }
+
+    ],
   },
   'monsanto-roundup-cancer-coverup': {
     title: 'Monsanto Roundup Cancer Coverup',
@@ -2033,6 +2383,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2018', event: 'Roundup, manufactured by Monsanto (acquired by Bayer in 2018 for $63 billion), is the most widely used herbicide in the world, with over 300 million pounds applied annually in the United States alone', type: 'political' },
      { date: '2018-08-01', event: 'In August 2018, a California jury awarded groundskeeper Dewayne "Lee" Johnson $289 million (later reduced to $78 million) after finding that Roundup caused his non-Hodgkin lymphoma and that Monsant', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Monsanto/Bayer', role: 'Concealed evidence that Roundup herbicide (glyphosate) causes cancer; ghostwrote safety studies', status: 'settled', notes: 'Bayer settled for $10.9B in 2020 to resolve ~125,000 claims. Internal emails showed decades of cover-up.' },
+
+      { name: 'EPA (Scott Pruitt era)', role: 'EPA official Jess Rowland helped Monsanto kill HHS cancer review of glyphosate', status: 'pending', notes: 'Internal Monsanto emails: "we have Jess in our back pocket." No accountability.' }
+
+    ],
   },
   'mckinsey-opioid-consulting-scandal': {
     title: 'McKinsey & Company: Consulting Firm That Turbocharged the Opioid Epidemic for Profit',
@@ -2072,6 +2430,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, McKinsey agreed to an additional $78 million settlement with school districts impacted by the opioid epidemic', type: 'financial' },
      { date: '2023', event: 'Navjot Singh pleaded guilty in 2023 to obstruction of justice for deleting documents related to the firm\'s opioid work, becoming the first McKinsey individual held criminally accountable', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'McKinsey & Company', role: 'Advised Purdue Pharma on how to "turbocharge" OxyContin sales during opioid epidemic', status: 'settled', notes: 'Settled with states for $641M in 2021. Internal documents showed McKinsey suggested targeting opioid "loyalists."' }
+
+    ],
   },
   'martin-shkreli-pharma-price-gouging': {
     title: 'Martin Shkreli: "Pharma Bro" Who Raised Life-Saving Drug Price 5,000% Overnight',
@@ -2109,6 +2473,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022-05-01', event: 'Shkreli was released from federal prison in May 2022 after serving approximately five years', type: 'default' },
      { date: '2023', event: 'In January 2023, a federal judge issued a landmark ruling banning Shkreli from participating in the pharmaceutical industry for life and ordering him to return $64.', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Martin Shkreli', role: 'Raised price of Daraprim (anti-parasitic drug) from $13.50 to $750 per pill (5,455% increase)', status: 'convicted', notes: 'Convicted of securities fraud (unrelated to pricing); sentenced to 7 years. Released 2022. Barred from pharma industry for life.' }
+
+    ],
   },
   'military-sexual-assault-epidemic': {
     title: 'Military Sexual Assault: The Pentagon\'s Institutional Failure',
@@ -2146,6 +2516,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2023', event: 'THE CHAIN OF COMMAND PROBLEM: Until 2023, commanding officers held complete authority over whether sexual assault cases were prosecuted', type: 'default' },
      { date: '2023', event: 'A 2023 DOD survey found that 21% of women at service academies experienced unwanted sexual contact during the previous year', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'US Military (Systematic)', role: '20,000+ service members experience sexual assault annually; commanders historically controlled prosecution', status: 'pending', notes: 'RAND study found 20,300 assaults in 2018. Only 7,816 reported. Conviction rate under 10%.' }
+
+    ],
   },
   'mass-incarceration-prison-industrial-complex': {
     title: 'Mass Incarceration and the Prison-Industrial Complex',
@@ -2179,6 +2555,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '1970-01-01', event: 'The United States incarcerates more people than any nation in history — approximately 2 million people behind bars at any given time, wit', type: 'legal' },
      { date: '2023', event: 'CoreCivic (formerly Corrections Corporation of America) and GEO Group, the two largest private prison operators, earned combined revenues exceeding $3.4 billion in 2023.', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'US Criminal Justice System', role: 'Incarcerates 1.9 million people; highest rate in the world; stark racial disparities', status: 'pending', notes: 'Black Americans incarcerated 5x rate of whites. 13th Amendment exception allows forced labor. $80B annual cost.' }
+
+    ],
   },
   'maternal-mortality-crisis': {
     title: 'American Maternal Mortality Crisis',
@@ -2214,6 +2596,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022-06-01', event: 'Wade in June 2022 has created new maternal health deserts', type: 'default' },
      { date: '2025', event: 'As of 2025, 46 states have implemented this extension', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'UnitedHealth Group', role: 'Systematically denied claims using AI algorithms to boost profits', status: 'charged', notes: '$22B profit in 2023 while denying millions of claims. Multiple lawsuits over AI claim denials.' }
+
+    ],
   },
   'military-burn-pit-exposure': {
     title: 'Military Burn Pit Exposure',
@@ -2248,6 +2636,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'The PACT Act of 2022, signed after years of veteran advocacy and a dramatic last-minute Senate standoff, represents the most significant expansion of VA toxic exposure benefits in decades.', type: 'political' },
      { date: '2025', event: 'As of early 2025, the VA has processed only a fraction of the estimated 3.5 million eligible claims, and many veterans report continued denials and delays.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'mk-ultra-cia-mind-control': {
     title: 'MK-ULTRA: The CIA\'s Secret Program of Human Experimentation and Mind Control',
@@ -2294,6 +2692,14 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '1994', event: 'In 1994, Olson\'s body was exhumed and a forensic pathologist found a cranial injury consistent with a blow to the head prior to the fall, suggesting possible homicide', type: 'default' },
      { date: '2012', event: 'The case was reopened but ultimately closed without charges in 2012', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'mandatory-sterilization-programs-united-states': {
     title: 'Forced Sterilization Programs in the United States (1907-1981)',
@@ -2339,6 +2745,12 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2013', event: 'In 2013, the North Carolina General Assembly established a $10 million compensation fund for surviving victims, paying approximately $20,000 per person', type: 'financial' },
      { date: '2025', event: 'As of 2025, only eight states have formally apologized for their sterilization programs, and only North Carolina and Virginia have provided direct monetary compensation to survivors', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+    ],
   },
   'mkultra-cia-human-experimentation': {
     title: 'MK-ULTRA: The CIA Mind Control Program That Tortured Thousands',
@@ -2385,6 +2797,16 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '1994', event: 'In 1994, the family had Olsons body exhumed', type: 'default' },
      { date: '2012', event: 'The Olson family filed a lawsuit that was dismissed in 2012 on national security grounds', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Sidney Gottlieb)', role: 'Directed MKULTRA mind control program conducting experiments on unwitting human subjects including LSD dosing', status: 'pending', notes: 'Gottlieb destroyed most MKULTRA records in 1973. Died 1999. No criminal charges ever filed.' },
+
+      { name: 'CIA Director Allen Dulles', role: 'Authorized MKULTRA program in 1953 to develop mind control techniques', status: 'pending', notes: 'Program ran from 1953-1973 across 80+ institutions. Dulles fired by JFK in 1961; died 1969.' },
+
+      { name: 'Dr. Donald Ewen Cameron', role: 'Conducted brutal "psychic driving" experiments on patients at Allan Memorial Institute in Montreal', status: 'pending', notes: 'CIA-funded experiments destroyed patients\' memories and personalities. Canadian government settled with victims in 1994.' }
+
+    ],
   },
   'malcolm-x-assassination': {
  title: 'Malcolm X Assassination',
@@ -2637,7 +3059,10 @@ const investigations_m: Record<string, InvestigationData> = {
    { name: 'State of California', role: 'Prison overcrowding violating 8th Amendment', status: 'incarcerated', notes: 'Brown v. Plata (2011): Supreme Court orders California to reduce prison population. State resisted compliance for years.' },
    { name: 'Multiple State Officials', role: 'Operating prisons with conditions constituting cruel and unusual punishment', status: 'incarcerated', notes: 'Various consent decrees. Most states remain under some form of court supervision for prison conditions.' }
  ],
-  },
+
+
+
+},
   'mccarthyism-red-scare': {
  title: 'McCarthyism & The Red Scare',
  subtitle: 'Senate Witch Hunts That Destroyed Thousands of American Lives',
@@ -2967,6 +3392,7 @@ const investigations_m: Record<string, InvestigationData> = {
    { name: 'CIA (Canadian victims)', role: 'Lawsuit by 77 Cameron victims', status: 'charged', notes: '$100,000 per victim settlement (1992); approximately $7.7 million total' },
    { name: 'U.S. Government', role: 'Various civil suits by victims', status: 'charged', notes: 'Most dismissed on national security grounds or statute of limitations' }
  ],
+
   },
   'mlk-assassination': {
  title: 'MLK Assassination & FBI COINTELPRO',

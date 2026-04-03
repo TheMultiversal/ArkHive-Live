@@ -36,6 +36,12 @@ const investigations_9: Record<string, InvestigationData> = {
      { date: '2004', event: 'Over 200 people have died in ICE custody since 2004', type: 'critical' },
      { date: '2024', event: 'Customs and Border Protection became the largest law enforcement agency in the country with a $19 billion annual budget (2024)', type: 'political' }
    ],
+
+  defendants: [
+
+    { name: 'U.S. Customs and Border Protection', role: 'Agency responsible for border enforcement operations resulting in thousands of migrant deaths', status: 'pending', notes: 'DHS OIG documented systemic use of force violations and failure to investigate deaths' }
+
+  ],
  },
 };
 

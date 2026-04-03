@@ -49,6 +49,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2018-07-16', event: 'At Helsinki summit, Trump sided with Putin over unanimous U.S. intelligence assessment on election interference; former CIA Director Brennan called it "nothing short of treasonous"', type: 'political' },
      { date: '2022-08-08', event: 'FBI executes search warrant at Mar-a-Lago, recovering 300+ classified documents including TOP SECRET/SCI and SAP materials stored in unsecured locations', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+ ],
  },
   'trump-tower-meeting': {
  title: 'Trump Tower Meeting (June 2016)',
@@ -87,6 +93,16 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2016-06-09', event: 'Trump Tower meeting: Don Jr., Kushner, and Manafort met with Russian nationals including lawyer Natalia Veselnitskaya', type: 'critical' },
      { date: '2017-07-08', event: 'Meeting revealed publicly; Trump dictated misleading statement claiming it was about Russian adoptions', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump Jr.', role: 'Organized June 9, 2016 meeting with Russian operatives at Trump Tower after being offered "dirt" on Hillary Clinton', status: 'pending', notes: 'Emails showed he was told material was "part of Russia\'s support for Mr. Trump." Not charged by Mueller.' },
+
+   { name: 'Natalia Veselnitskaya', role: 'Russian lawyer with ties to Kremlin who attended Trump Tower meeting', status: 'indicted', notes: 'Indicted by SDNY in 2018 for obstruction of justice in unrelated Prevezon case' },
+
+   { name: 'Paul Manafort', role: 'Campaign chairman who attended Trump Tower meeting and later shared polling data with Russian operative', status: 'convicted', notes: 'Convicted on financial crimes; pardoned by Trump' }
+
+ ],
  },
   'trump-tower-moscow': {
  title: 'Trump Tower Moscow Project',
@@ -127,6 +143,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2016-01', event: 'COHEN\'S TESTIMONY: Michael Cohen initially told Congress the project ended in January 2016.', type: 'political' },
      { date: '2016-06', event: 'Negotiations continued through June 2016, the same month as the Trump Tower meeting with Russians.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Pursued Moscow real estate deal during 2016 campaign while denying any Russia business ties', status: 'pending', notes: 'Michael Cohen testified Trump was briefed on project through June 2016. Trump denied knowledge.' },
+
+   { name: 'Michael Cohen', role: 'Lied to Congress about timeline of Trump Tower Moscow project negotiations', status: 'convicted', notes: 'Pled guilty to lying to Congress about the project extending well into 2016 campaign' }
+
+ ],
  },
   'trump-model-management': {
  title: 'Trump Model Management',
@@ -165,6 +189,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2016', event: 'THE HYPOCRISY: Trump built his 2016 campaign on anti-immigrant rhetoric and cracking down on illegal workers', type: 'political' },
      { date: '2017', event: 'AGENCY CLOSURE: Trump Model Management quietly closed in 2017, shortly after Trump became president', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Trump Model Management', role: 'Brought foreign models to US without proper work visas; underpaid and housed them in substandard conditions', status: 'pending', notes: 'Multiple models alleged visa violations and exploitation. Agency closed in 2017. No charges filed.' }
+
+ ],
  },
   'trump-soho-fraud': {
  title: 'Trump SoHo Fraud',
@@ -208,6 +238,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2017-12', event: 'Trump name removed from the building; property renamed "The Dominick" as brand becomes liability', type: 'default' },
      { date: '2021-10-04', event: 'New Yorker investigation reveals full extent of Kasowitz-Vance relationship and DA office interference that killed the criminal prosecution', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Ivanka Trump', role: 'Made materially misleading statements to prospective Trump SoHo buyers about sales numbers', status: 'settled', notes: 'Manhattan DA investigation closed after Trump lawyers met with DA. Buyers received refunds.' },
+
+   { name: 'Donald Trump Jr.', role: 'Made materially misleading statements about Trump SoHo sales to boost purchases', status: 'settled', notes: 'Investigation closed without charges despite evidence of misleading statements' }
+
+ ],
  },
   'torture-program': {
  title: 'CIA Torture Program',
@@ -250,6 +288,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2005', event: 'In 2005, the CIA destroyed 92 videotapes of interrogation sessions, potentially containing evidence of war crimes.', type: 'default' },
      { date: '2014', event: 'The Senate Intelligence Committee conducted a 6,700-page investigation (executive summary released 2014) concluding that: torture did not produce unique intelligence, the CIA misled oversight bodies, and conditions', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'trump-immunity': {
  title: 'Trump Absolute Immunity Claims',
@@ -302,6 +348,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2024-08-27', event: 'Special Counsel files revised superseding indictment attempting to work within the immunity framework; Judge Chutkan begins proceedings to determine which acts are "official"', type: 'legal' },
      { date: '2024-11-25', event: 'Special Counsel Smith moves to dismiss federal prosecution after Trump wins 2024 election, citing longstanding DOJ policy against prosecuting sitting presidents', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Claimed absolute presidential immunity from criminal prosecution for official acts', status: 'pending', notes: 'Supreme Court ruled in Trump v. US (2024) that presidents have some immunity for official acts. Case remanded.' }
+
+ ],
  },
   'tech-censorship': {
  title: 'Big Tech and Content Moderation',
@@ -347,6 +399,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2022-10-27', event: 'Elon Musk completes Twitter acquisition, reinstates banned accounts, fires moderation staff; advertiser exodus follows amid surge in hate speech', type: 'political' },
      { date: '2023-06-30', event: 'Supreme Court agrees to hear Moody v. NetChoice and NetChoice v. Paxton, challenging state laws regulating platform content moderation', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'trump-pardons': {
  title: 'Trump\'s Corrupt Pardon Spree',
@@ -400,6 +460,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2021-01-20', event: 'In final hours, Trump pardons Steve Bannon (charged with defrauding border wall donors) and issues full pardons to Stone, completing pattern of rewarding silence and punishing cooperation', type: 'legal' },
      { date: '2025-01-20', event: 'In second inaugural act, Trump pardons or commutes sentences for over 1,500 January 6 defendants, including those convicted of seditious conspiracy and assaulting police officers', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Issued controversial pardons to political allies and campaign associates convicted in Russia investigation', status: 'pending', notes: 'Pardoned Manafort, Flynn, Stone, Bannon, Arpaio, and others. Some pardons seen as obstruction.' }
+
+ ],
  },
   'torture-accountability': {
  title: 'Torture Program Accountability Failure',
@@ -453,6 +519,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2018-05-21', event: 'Trump appoints Gina Haspel, who ran a CIA black site in Thailand and was involved in destroying interrogation evidence, as CIA Director; Senate confirms her 54-45', type: 'political' },
      { date: '2022-03-01', event: 'Guantanamo Bay military commissions continue for 9/11 defendants tortured by CIA; torture-derived evidence ruled inadmissible, complicating prosecutions two decades after the attacks', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'trump-campaign': {
  title: 'Trump Campaign Crimes',
@@ -489,6 +563,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2016', event: 'The payments influenced the 2016 election.', type: 'political' },
      { date: '2020', event: 'Trump faces criminal charges for 2020 election interference schemes.', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Multiple campaign finance violations and FEC complaints across 2016 and 2020 campaigns', status: 'charged', notes: 'FEC found "reason to believe" campaign violated disclosure laws. Multiple state and federal investigations.' },
+
+   { name: 'Steve Bannon', role: 'Trump campaign CEO and advisor charged with money laundering; built border wall fund that defrauded donors', status: 'convicted', notes: 'Pardoned for federal fraud charges (2021). Convicted of contempt of Congress; served 4 months. Convicted of NY state fraud in 2024.' }
+
+ ],
  },
   'trump-russia': {
     title: 'Trump-Russia Investigation',
@@ -545,6 +627,18 @@ const investigations_t: Record<string, InvestigationData> = {
       { date: '2020-08-18', event: 'Senate Intelligence Committee bipartisan report confirms Russia interfered to help Trump; Manafort sharing polling data with Kilimnik identified as "grave counterintelligence threat"', type: 'political' },
       { date: '2020-12-23', event: 'Trump pardons Manafort, Stone, Flynn, and other associates convicted during Mueller probe, effectively eliminating prosecutorial leverage over key witnesses', type: 'legal' }
     ],
+
+    defendants: [
+
+      { name: 'Paul Manafort', role: 'Trump campaign chairman who shared campaign polling data with Russian intelligence-linked operative', status: 'convicted', notes: 'Convicted on 8 counts of financial crimes; sentenced to 7.5 years. Pardoned by Trump December 2020.' },
+
+      { name: 'Michael Flynn', role: 'National Security Advisor who lied to FBI about contacts with Russian Ambassador Kislyak', status: 'convicted', notes: 'Pled guilty to lying to FBI; pardoned by Trump November 2020 before sentencing' },
+
+      { name: 'Roger Stone', role: 'Trump associate who lied to Congress about WikiLeaks contacts and threatened witness', status: 'convicted', notes: 'Convicted on 7 counts; sentenced to 40 months. Commuted by Trump July 2020; pardoned December 2020.' },
+
+      { name: 'Rick Gates', role: 'Deputy Trump campaign chairman who conspired with Manafort and cooperated with Mueller', status: 'convicted', notes: 'Pled guilty to conspiracy and lying to FBI; sentenced to 45 days jail plus probation' }
+
+    ],
   },
   'tamir-rice-shooting': {
  title: 'Tamir Rice: The 12-Year-Old Killed by Police in Under Two Seconds',
@@ -585,6 +679,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2016', event: 'An investigation by the DOJ found that the Cleveland Division of Police had a pattern of "unreasonable and unnecessary use of force.', type: 'default' },
      { date: '2020', event: 'In 2020, the DOJ declined to bring federal civil rights charges', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Timothy Loehmann', role: 'Cleveland police officer who shot and killed 12-year-old Tamir Rice within 2 seconds of arriving on scene', status: 'pending', notes: 'Grand jury declined to indict. DOJ declined federal charges. Loehmann fired but hired by another department in 2018.' }
+
+ ],
  },
   'tech-billionaire-influence': {
  title: 'Tech Billionaire Influence: Plutocracy in the Digital Age',
@@ -619,6 +719,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2013', event: 'Jeff Bezos purchased the Washington Post for $250 million in 2013, adding media ownership to Amazon\'s e-commerce dominance, AWS cloud infrastructure (hosting government systems), and Blue Origin\'s aerospace contracts.', type: 'financial' },
      { date: '2024', event: 'As of 2024, the combined wealth of the top 10 tech billionaires exceeds $1.5 trillion.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'tech-industry-sexism': {
  title: 'Tech Industry Sexism: The Boys\' Club That Built the Future',
@@ -658,6 +766,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2022', event: 'Female founders received approximately 1.9% of venture capital funding in 2022, a figure that has barely changed in a decade', type: 'default' },
      { date: '2022', event: 'The mass layoffs of 2022-2023 disproportionately affected diversity and inclusion teams', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'tech-labor-exploitation': {
  title: 'Tech Labor Exploitation: The Invisible Workers Behind the Screen',
@@ -696,6 +812,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 EPI study found H-1B workers were paid 17% below market rate on average.', type: 'financial' },
      { date: '2023', event: 'A 2023 TIME investigation revealed that Kenyan content moderators for ChatGPT (employed through outsourcing firm Sama) viewed horrific material including child sexual abuse at wages of $1.32-$2.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'tech-monopolies': {
  title: 'Tech Monopolies: How Big Tech Killed Competition',
@@ -736,6 +860,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023', event: 'The FTC\'s 2023 antitrust lawsuit alleged Amazon uses an "anti-discounting strategy" to punish sellers who offer lower prices elsewhere, charges sellers fees exceeding 50% of the sale price, and deg...', type: 'legal' },
      { date: '2024-08-01', event: 'Google controls approximately 90% of the global search market, a position a federal judge ruled in August 2024 was maintained through illegal monopoly practices', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Big Tech (Google, Apple, Amazon, Meta)', role: 'Used monopoly power to crush competitors, lock in users, and extract monopoly rents', status: 'charged', notes: 'DOJ won antitrust case against Google (2024). FTC filed against Amazon and Meta. EU Digital Markets Act imposing obligations.' }
+
+ ],
  },
   'tech-oligarchy': {
  title: 'Tech Oligarchy: The New Gilded Age',
@@ -774,6 +904,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2018', event: 'Elon Musk paid no federal income tax in 2018', type: 'financial' },
      { date: '2020', event: 'This concentration has accelerated; the wealth of the tech billionaire class has roughly tripled since 2020, while median household wealth has stagnated', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'teen-nicotine-addiction': {
  title: 'Teen Nicotine Addiction: How Big Tobacco Reinvented Youth Marketing',
@@ -821,6 +959,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2015', event: 'The youth vaping epidemic was ignited by Juul\'s launch in 2015, which introduced nicotine salt technology that delivered high nicotine concentrations (5% or 59 mg/ml) without the harsh throat hit of previous products.', type: 'default' },
      { date: '2019', event: 'E-cigarette companies engineered a youth nicotine epidemic, with teen vaping rising from nearly zero to 27.5% of high school students by 2019 through flavored products, social media campaigns, and nicotine salt', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'JUUL Labs', role: 'Targeted teenagers with addictive nicotine products', status: 'settled', notes: 'Paid $462M to 6 states. Created generation of nicotine addicts.' },
+
+   { name: 'Philip Morris/Altria', role: 'Concealed tobacco health risks and marketed to children', status: 'settled', notes: 'Master Settlement (1998): $206B over 25 years. Knew tobacco caused cancer since 1950s.' }
+
+ ],
  },
   'telecom-privacy': {
  title: 'Telecom Privacy Violations: Your Carrier Is Watching',
@@ -862,6 +1008,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2018', event: 'T-Mobile has experienced at least seven major breaches since 2018, including a 2021 breach that exposed data on 77 million customers (including Social Security numbers) and a 2023 breach affecting', type: 'financial' },
      { date: '2024', event: 'AT&T disclosed in 2024 that a breach exposed call and text records of "nearly all" its customers; approximately 110 million people', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'AT&T', role: 'Participated in NSA warrantless surveillance and enabled mass data collection', status: 'settled', notes: 'EFF lawsuit revealed AT&T routed traffic through NSA monitoring facilities.' },
+
+   { name: 'Comcast', role: 'Monopolistic practices and lobbying against net neutrality', status: 'charged', notes: 'FCC fined repeatedly. Spent $160M+ lobbying since 2000.' }
+
+ ],
  },
   'terra-luna-collapse': {
  title: 'Terra/Luna Collapse: The $40 Billion Cryptocurrency Implosion',
@@ -903,6 +1057,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023-03-01', event: 'Do Kwon fled to Serbia and then Montenegro, where he was arrested in March 2023 with a forged Costa Rican passport', type: 'financial' },
      { date: '2025', event: 'In January 2025, Kwon was found guilty', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Do Kwon', role: 'Terraform Labs founder whose algorithmic stablecoin collapse wiped out $40B in investor value', status: 'convicted', notes: 'SEC found Terraform liable for fraud. Do Kwon extradited to US from Montenegro. Criminal trial pending.' }
+
+ ],
  },
   'texas-border-cruelty': {
  title: 'Texas Border Cruelty: Operation Lone Star and the Weaponization of Immigration',
@@ -945,6 +1105,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, federal agents documented instances where migrants, including a pregnant woman and children, became entangled in the wire and required emergency medical attention.', type: 'default' },
      { date: '2024', event: 'A federal judge ordered the barriers removed, but the Fifth Circuit Court of Appeals partially reversed the ruling, and the barriers remained as of 2024.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'State of Texas / Greg Abbott', role: 'Deployed Operation Lone Star; installed razor wire barriers resulting in migrant drowning deaths', status: 'charged', notes: 'DOJ sued Texas for floating barrier. Migrants died at Eagle Pass. $10B+ spent. SCOTUS ruled feds can cut wire.' }
+
+ ],
  },
   'three-arrows-capital': {
  title: 'Three Arrows Capital: The Crypto Hedge Fund That Bet Everything and Lost',
@@ -987,6 +1153,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023-09-01', event: 'Su Zhu was arrested at Singapore\'s Changi Airport in September 2023 while allegedly attempting to flee', type: 'default' },
      { date: '2024-12-01', event: 'In December 2024, both Zhu and Davies were charged by the SEC with fraud for misleading investors about 3AC\'s financial condition and risk management practices', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Su Zhu', role: 'Three Arrows Capital co-founder whose crypto hedge fund collapsed owing $3.5B to creditors', status: 'charged', notes: 'Arrested in Singapore in 2023 while attempting to flee. Sentenced to 4 months for contempt.' },
+
+   { name: 'Kyle Davies', role: 'Three Arrows Capital co-founder', status: 'charged', notes: 'Fled Singapore; whereabouts unknown. Founding new crypto venture from Dubai.' }
+
+ ],
  },
   'trail-of-tears': {
  title: 'Trail of Tears: The Forced Removal of Native Americans',
@@ -1026,6 +1200,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '1838', event: 'The Cherokee removal (1838-1839) is the most extensively documented of the forced marches', type: 'default' },
      { date: '1887', event: 'The Trail of Tears established precedents that shaped U.S.-Indigenous relations for the next two centuries: the principle that federal treaties with Native nations could be unilaterally abrogated', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Andrew Jackson', role: 'President who signed Indian Removal Act (1830) and defied Supreme Court to force Cherokee removal', status: 'pending', notes: 'Ignored Worcester v. Georgia ruling. Forced march killed 4,000+ Cherokee. No legal accountability.' },
+
+   { name: 'U.S. Government', role: 'Systematically removed 60,000+ Native Americans from ancestral lands in southeastern US', status: 'pending', notes: 'Multiple tribes forced west: Cherokee, Muscogee, Seminole, Chickasaw, Choctaw. Thousands died.' }
+
+ ],
  },
   'trayvon-martin': {
  title: 'Trayvon Martin: The Case That Launched a Movement',
@@ -1063,6 +1245,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2013-07-13', event: 'Zimmerman was acquitted by a six-person jury on July 13, 2013', type: 'legal' },
      { date: '2014', event: 'BLM protests following the murders of Michael Brown (2014), Eric Garner (2014), and George Floyd (2020) traced their origin to the Trayvon Martin case', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'George Zimmerman', role: 'Neighborhood watch volunteer who shot and killed unarmed 17-year-old Trayvon Martin in Sanford, FL on Feb 26, 2012', status: 'acquitted', notes: 'Acquitted of second-degree murder and manslaughter in 2013 under Florida Stand Your Ground law' }
+
+ ],
  },
   'tree-of-life-massacre': {
  title: 'Tree of Life Synagogue Massacre: The Deadliest Antisemitic Attack in U.S. History',
@@ -1104,6 +1292,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2022', event: 'The Anti-Defamation League recorded 1,879 antisemitic incidents in 2018 (the third-highest year on record) and the number increased every year after the Tree of Life attack, reaching 3,697 in 2022.', type: 'critical' },
      { date: '2023-08', event: 'In August 2023, the jury sentenced Bowers to death.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Robert Bowers', role: 'White supremacist who murdered 11 worshippers at Tree of Life synagogue in Pittsburgh on October 27, 2018', status: 'convicted', notes: 'Convicted on 63 federal counts including hate crimes; sentenced to death in 2023' }
+
+ ],
  },
   'trump-admin-2': {
  title: 'Trump Second Administration: The Consolidation of Executive Power',
@@ -1141,6 +1335,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2025-03', event: 'Federal judges issue multiple injunctions against DOGE actions; lawsuits challenge unauthorized access to government systems and Musk conflicts of interest.', type: 'legal' },
      { date: '2025-04', event: 'Schedule F reimplemented, reclassifying tens of thousands of career civil servants as at-will political appointees; career experts replaced across EPA, State Department, and other agencies.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Trump Administration Officials', role: 'Second Trump administration marked by unprecedented consolidation of executive power and mass firings', status: 'pending', notes: 'DOGE cuts to federal agencies, mass firing of inspectors general, and challenges to congressional oversight' }
+
+ ],
  },
   'trump-admin-corruption': {
  title: 'Trump Administration Corruption: The Grift That Governed',
@@ -1175,6 +1375,18 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2021', event: 'The first administration\'s handling of the COVID-19 pandemic resulted in an estimated 400,000+ American deaths by January 2021.', type: 'default' },
      { date: '2024', event: 'As of 2024, approximately 1,000 children had not been reunited with their parents.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Scott Pruitt', role: 'EPA Administrator who spent lavishly on travel, security, and personal items using agency funds', status: 'pending', notes: 'Resigned July 2018 amid 14+ ethics investigations. GAO found spending violated law.' },
+
+   { name: 'Tom Price', role: 'HHS Secretary who used military and charter aircraft costing taxpayers $400,000+', status: 'pending', notes: 'Resigned September 2017; repaid only $51,887 of costs' },
+
+   { name: 'Ryan Zinke', role: 'Interior Secretary referred to DOJ for potential false statements during investigation', status: 'pending', notes: 'Resigned December 2018 amid multiple ethics investigations' },
+
+   { name: 'Wilbur Ross', role: 'Commerce Secretary who held undisclosed investments creating conflicts of interest', status: 'pending', notes: 'Forbes reported he may have stolen $120M from business partners before joining cabinet' }
+
+ ],
  },
   'trump-administration': {
  title: 'Trump First Administration: Four Years of Constitutional Crisis',
@@ -1213,6 +1425,18 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2021-01-06', event: 'The Trump first administration (2017-2021) was defined by systematic attacks on democratic institutions, politicization of federal agencies, obstruction of oversight, and an escalating pattern of norm-breaking that', type: 'default' },
      { date: '2024', event: 'As of 2024, approximately 1,000 children had not been reunited with their parents.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Scott Pruitt', role: 'EPA Administrator who spent lavishly on travel, security, and personal items using agency funds', status: 'pending', notes: 'Resigned July 2018 amid 14+ ethics investigations. GAO found spending violated law.' },
+
+   { name: 'Tom Price', role: 'HHS Secretary who used military and charter aircraft costing taxpayers $400,000+', status: 'pending', notes: 'Resigned September 2017; repaid only $51,887 of costs' },
+
+   { name: 'Ryan Zinke', role: 'Interior Secretary referred to DOJ for potential false statements during investigation', status: 'pending', notes: 'Resigned December 2018 amid multiple ethics investigations' },
+
+   { name: 'Wilbur Ross', role: 'Commerce Secretary who held undisclosed investments creating conflicts of interest', status: 'pending', notes: 'Forbes reported he may have stolen $120M from business partners before joining cabinet' }
+
+ ],
  },
   'trump-corruption': {
  title: 'Trump Personal Corruption: Decades of Fraud, Tax Evasion, and Self-Dealing',
@@ -1260,6 +1484,18 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2024-02-01', event: 'In February 2024, Judge Arthur Engoron found Donald Trump liable for persistent and repeated fraud in a civil case brought by New York Attorney General Letitia James, ordering Trump and his compani', type: 'legal' },
      { date: '2024-05-01', event: 'Trump faced four criminal indictments in 2023-2024: federal charges for retaining classified documents (dismissed on procedural grounds)', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Scott Pruitt', role: 'EPA Administrator who spent lavishly on travel, security, and personal items using agency funds', status: 'pending', notes: 'Resigned July 2018 amid 14+ ethics investigations. GAO found spending violated law.' },
+
+   { name: 'Tom Price', role: 'HHS Secretary who used military and charter aircraft costing taxpayers $400,000+', status: 'pending', notes: 'Resigned September 2017; repaid only $51,887 of costs' },
+
+   { name: 'Ryan Zinke', role: 'Interior Secretary referred to DOJ for potential false statements during investigation', status: 'pending', notes: 'Resigned December 2018 amid multiple ethics investigations' },
+
+   { name: 'Wilbur Ross', role: 'Commerce Secretary who held undisclosed investments creating conflicts of interest', status: 'pending', notes: 'Forbes reported he may have stolen $120M from business partners before joining cabinet' }
+
+ ],
  },
   'trump-impeachment': {
  title: 'Trump Impeachments: Twice Impeached, Never Convicted',
@@ -1308,6 +1544,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2021', event: 'The subsequent Senate trial (February 9-13, 2021) produced the most bipartisan impeachment conviction vote in American history, with 7 Republican senators voting guilty (57-43)', type: 'legal' },
      { date: '2021-01-13', event: 'The second impeachment (January 13, 2021) charged Trump with incitement of insurrection for his role in the January 6 attack on the U.S', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Impeached twice: (1) abuse of power/obstruction re: Ukraine and (2) incitement of insurrection on January 6', status: 'acquitted', notes: 'Acquitted by Senate both times. Second impeachment had 57-43 vote (bipartisan majority but below 2/3).' }
+
+ ],
  },
   'trump-tax-cuts': {
  title: 'Trump Tax Cuts: The $1.9 Trillion Transfer to the Wealthy',
@@ -1348,6 +1590,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2025', event: 'Individual tax cuts, which disproportionately benefited high earners through reduced top rates and expanded estate tax exemptions, were set to expire in 2025 while corporate cuts were made permanent', type: 'default' },
      { date: '2025', event: 'The Tax Policy Center found that in 2025, the top 1% of earners would receive 83% of the tax cut benefits', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Republican Congress / Trump Administration', role: 'Passed $1.9 trillion tax cut in 2017 that disproportionately benefited corporations and wealthy individuals', status: 'pending', notes: 'Corporate tax rate cut from 35% to 21%. Added $1.9T to national debt over 10 years.' }
+
+ ],
  },
   'turkey-authoritarianism': {
  title: 'Turkey\'s Authoritarian Turn: Erdogan and the Death of Turkish Democracy',
@@ -1387,6 +1635,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 constitutional referendum, approved by a narrow margin under emergency decree conditions, transformed Turkey into a presidential system with few checks on executive power', type: 'political' },
      { date: '2017', event: 'Wikipedia was blocked for nearly three years (2017-2020)', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Recep Tayyip Erdogan', role: 'Turkish President who used failed 2016 coup attempt to purge judiciary, media, and opposition', status: 'pending', notes: 'Jailed 150,000+ people; fired 125,000 civil servants; closed 1,500+ institutions. Press freedom severely curtailed.' }
+
+ ],
  },
   'tyco-scandal': {
  title: 'Tyco International Scandal: The $600 Million Corporate Theft',
@@ -1426,6 +1680,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2005', event: 'Kozlowski and Swartz were convicted in 2005 on charges of grand larceny, securities fraud, and conspiracy, and each was sentenced to 8-1/3 to 25 years in prison', type: 'legal' },
      { date: '2014', event: 'Both served approximately 7 years before being paroled in 2014', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Dennis Kozlowski', role: 'Tyco CEO who looted $400M+ from company for extravagant personal spending', status: 'convicted', notes: 'Convicted of grand larceny and securities fraud in 2005; sentenced to 8-25 years. Released 2014.' },
+
+   { name: 'Mark Swartz', role: 'Tyco CFO who helped Kozlowski steal hundreds of millions', status: 'convicted', notes: 'Convicted alongside Kozlowski; sentenced to 8-25 years' }
+
+ ],
  },
   'tyre-nichols': {
  title: 'Tyre Nichols and the SCORPION Unit: Systemic Brutality in Memphis Policing',
@@ -1461,6 +1723,20 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023-01-28', event: 'The unit was disbanded on January 28, 2023, following the release of body camera footage showing the Nichols beating', type: 'default' },
      { date: '2023-07-01', event: 'The Department of Justice opened a pattern-or-practice investigation into the Memphis Police Department in July 2023', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Tadarrius Bean', role: 'Memphis SCORPION unit officer who beat Tyre Nichols to death on January 7, 2023', status: 'convicted', notes: 'Convicted of federal civil rights violations in 2024; acquitted of most serious charges' },
+
+   { name: 'Demetrius Haley', role: 'Memphis officer who participated in fatal beating of Tyre Nichols', status: 'convicted', notes: 'Convicted of federal civil rights violations; also faces state murder charges' },
+
+   { name: 'Justin Smith', role: 'Memphis officer involved in fatal beating', status: 'convicted', notes: 'Convicted of federal charges in 2024' },
+
+   { name: 'Emmitt Martin III', role: 'Memphis officer involved in fatal beating', status: 'convicted', notes: 'Pled guilty to federal charges' },
+
+   { name: 'Desmond Mills Jr.', role: 'Memphis officer involved in fatal beating', status: 'convicted', notes: 'Pled guilty to federal charges' }
+
+ ],
  },
   'tyre-nichols-murder': {
  title: 'Tyre Nichols Murder: The Killing That Shook Memphis',
@@ -1499,6 +1775,20 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023-04-01', event: 'The Nichols family retained civil rights attorney Ben Crump and reached a $13 million settlement with the City of Memphis in April 2023', type: 'financial' },
      { date: '2024-10-01', event: 'Haley and Smith went to federal trial in October 2024 and were convicted of witness tampering but acquitted on the most serious civil rights charges', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Tadarrius Bean', role: 'Memphis SCORPION unit officer who beat Tyre Nichols to death on January 7, 2023', status: 'convicted', notes: 'Convicted of federal civil rights violations in 2024; acquitted of most serious charges' },
+
+   { name: 'Demetrius Haley', role: 'Memphis officer who participated in fatal beating of Tyre Nichols', status: 'convicted', notes: 'Convicted of federal civil rights violations; also faces state murder charges' },
+
+   { name: 'Justin Smith', role: 'Memphis officer involved in fatal beating', status: 'convicted', notes: 'Convicted of federal charges in 2024' },
+
+   { name: 'Emmitt Martin III', role: 'Memphis officer involved in fatal beating', status: 'convicted', notes: 'Pled guilty to federal charges' },
+
+   { name: 'Desmond Mills Jr.', role: 'Memphis officer involved in fatal beating', status: 'convicted', notes: 'Pled guilty to federal charges' }
+
+ ],
  },
   'trafficking-corridors-central-america': {
     title: 'Trafficking Corridors Central America',
@@ -1533,6 +1823,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023', event: 'Honduras had a homicide rate of 38 per 100,000 in 2023.', type: 'default' },
      { date: '2024', event: 'federal court in 2024.', type: 'legal' }
      ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'trafficking-in-conflict-zones': {
     title: 'Trafficking in Conflict Zones',
@@ -1570,6 +1866,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2022', event: 'UKRAINE CONFLICT TRAFFICKING: Russia\'s 2022 invasion of Ukraine created a new trafficking crisis', type: 'default' },
      { date: '2023', event: 'In 2023, a German court convicted an ISIS member of genocide against the Yazidi people; the first such conviction', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'telecom-capture-of-fcc': {
     title: 'Telecom Capture of FCC',
@@ -1605,6 +1907,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2024', event: 'As of 2024, approximately 18 states have laws restricting or prohibiting municipal broadband; laws written by telecom lobbyists and passed with telecom campaign contributions', type: 'political' },
      { date: '2024-06-01', event: 'The Affordable Connectivity Program, which provided $30/month broadband subsidies to 23 million low-income households, expired in June 2024 after Congress failed to renew funding', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'AT&T', role: 'Participated in NSA warrantless surveillance and enabled mass data collection', status: 'settled', notes: 'EFF lawsuit revealed AT&T routed traffic through NSA monitoring facilities.' },
+
+      { name: 'Comcast', role: 'Monopolistic practices and lobbying against net neutrality', status: 'charged', notes: 'FCC fined repeatedly. Spent $160M+ lobbying since 2000.' }
+
+    ],
   },
   'tech-industry-capture-of-ftc': {
     title: 'Tech Industry Capture of FTC',
@@ -1646,6 +1956,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023', event: 'Google, Amazon, Meta, Apple, and Microsoft collectively spent $95 million on lobbying in 2023', type: 'financial' },
      { date: '2023-09-01', event: 'The FTC did not file suit against Amazon until September 2023; more than 25 years after the company\'s founding; alleging monopolistic practices in online marketplace and advertising', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'thalidomide-to-vioxx-pattern-of-harm': {
     title: 'Thalidomide to Vioxx Pattern of Harm',
@@ -1687,6 +2005,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2016', event: 'The 21st Century Cures Act (2016) loosened clinical trial requirements and expanded "accelerated approval" pathways', type: 'legal' },
      { date: '2022', event: 'The industry spends more on lobbying than any other sector; over $370 million in 2022', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Chemie Grunenthal', role: 'Manufactured thalidomide sedative causing severe birth defects in 10,000+ children worldwide', status: 'settled', notes: 'German criminal case dropped in 1970. Company apologized in 2012. FDA reviewer Frances Kelsey prevented US sale.' }
+
+    ],
   },
   'tobacco-industry-playbook-in-pharma': {
     title: 'Tobacco Industry Playbook in Pharma',
@@ -1720,6 +2044,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '1969', event: 'Philip Morris\'s 1969 memo stated: "Doubt is our product since it is the best means of competing with the \'body of fact\' that exists in the mind of the general public." The pharmaceutical industry has adopted this...', type: 'default' },
      { date: '2010', event: 'A 2010 ProPublica investigation found that pharmaceutical companies paid billions to physicians; with the highest-paid KOLs receiving over $1 million annually from a single company.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'toxic-waste-dumping-developing-nations': {
     title: 'Toxic Waste Dumping Developing Nations',
@@ -1756,6 +2088,16 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2018', event: 'Guiyu, China received similar volumes until China\'s 2018 import ban shifted waste flows to Southeast Asia', type: 'default' },
      { date: '2019', event: 'Countries relabel hazardous waste as "second-hand goods" or "raw materials." The Basel Ban Amendment, which would prohibit all hazardous waste exports from developed to developing nations, took 30', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'tech-worker-exploitation-visa-system': {
     title: 'Tech Worker Exploitation Visa System',
@@ -1790,6 +2132,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 study found that H-1B workers are 12% less likely to file complaints with the Department of Labor than comparable American workers.', type: 'default' },
      { date: '2024', event: 'Indian-born workers filing EB-2 or EB-3 green card applications in 2024 face estimated wait times of 50-80+ years; meaning most will never receive a green card.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'think-tank-dark-money-influence': {
     title: 'Think Tank Dark Money Influence',
@@ -1827,6 +2177,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2025', event: 'The project produced a 922-page policy document ("Mandate for Leadership 2025") detailing plans for reorganizing the federal government, replacing career civil servants with political loyalists (Sc', type: 'default' },
      { date: '2025', event: 'Heritage Foundation president Kevin Roberts stated the goal was "institutionalizing Trumpism." Project 2025 exemplifies how think tanks have evolved from policy research organizations into shadow g', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'trafficking-victim-identification-failures': {
     title: 'Trafficking Victim Identification Failures',
@@ -1864,6 +2222,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2022-03-29', event: 'TVPA reauthorized with expanded labor trafficking provisions; identification gap persists across federal and state agencies', type: 'legal' },
      { date: '2024-06', event: 'State Department TIP Report notes T-visa grants remain under 2,000 annually despite 5,000 cap; cooperation requirement remains barrier for victims', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'trade-based-money-laundering-schemes': {
     title: 'Trade-Based Money Laundering Schemes',
@@ -1896,6 +2260,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2004', event: 'Global Financial Integrity\'s analysis of trade data from 135 developing countries found $8.7 trillion in illicit financial flows between 2004 and 2013; the majority through trade misinvoicing.', type: 'default' },
      { date: '2013', event: 'Global Financial Integrity\'s analysis of trade data from 135 developing countries found $8.7 trillion in illicit financial flows between 2004 and 2013; the majority through trade misinvoicing.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Various Criminal Enterprises', role: 'Money laundering and racketeering across jurisdictions', status: 'charged', notes: 'FinCEN Files revealed $2T in suspicious transactions. Corporate Transparency Act addresses shell companies.' }
+
+    ],
   },
   'trucking-industry-organized-crime': {
     title: 'Trucking Industry Organized Crime',
@@ -1931,6 +2301,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2022', event: 'The combination of massive legitimate truck traffic (11.8 million trucks crossed the southern border in 2022) and limited inspection capacity (CBP inspects fewer than 5% of trucks) makes trucking t', type: 'financial' },
      { date: '2023', event: 'CargoNet, a theft intelligence company, recorded over 1,778 cargo theft incidents in 2023, with an average value of $260,000 per incident', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'techno-authoritarianism-control-mechanisms': {
     title: 'Techno-Authoritarianism Control Mechanisms',
@@ -1967,6 +2343,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023', event: 'Access Now documented 283 internet shutdowns in 39 countries in 2023', type: 'default' },
      { date: '2023', event: 'Internet shutdowns cost the global economy an estimated $23.8 billion in 2023; but authoritarian governments consider this an acceptable price for maintaining power', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Technology and Government Entities', role: 'Building surveillance infrastructure and social control systems', status: 'pending', notes: 'China Social Credit has Western parallels in credit scoring and predictive policing.' }
+
+    ],
   },
   'tiananmen-square-massacre': {
     title: 'Tiananmen Square Massacre',
@@ -2011,6 +2393,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 declassified British cable cited 10,000 dead', type: 'default' },
      { date: '2024', event: 'The international response included sanctions, arms embargoes (the EU arms embargo remains in effect as of 2024), and condemnation', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Chinese Communist Party / Deng Xiaoping', role: 'Ordered military assault on pro-democracy protesters in Tiananmen Square on June 4, 1989', status: 'pending', notes: 'Estimates of 300-3,000+ killed. CCP continues to censor all mention. No accountability.' }
+
+    ],
   },
   'transatlantic-slave-trade': {
     title: 'Transatlantic Slave Trade',
@@ -2051,6 +2439,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2001', event: 'The UN World Conference against Racism in Durban (2001) declared the slave trade a "crime against humanity."', type: 'default' },
      { date: '2023', event: 'A 2023 study estimated that the total value extracted from enslaved labor in the US alone exceeded $14 trillion in current dollars', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'European Colonial Powers', role: 'Systematically enslaved 12.5 million Africans and transported them across the Atlantic over 400 years', status: 'pending', notes: 'Britain, Portugal, Spain, France, and Netherlands primary actors. Britain abolished 1807; US abolished 1865.' }
+
+    ],
   },
   'total-information-awareness': {
     title: 'Total Information Awareness and Mass Surveillance Architecture',
@@ -2094,6 +2488,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, the EFF documented how this "fourth amendment for sale" pipeline allows government agencies to track any American\'s movements, associations, and online activity without judicial oversight', type: 'default' },
      { date: '2024', event: 'Section 702 was reauthorized in 2024 with expanded authority despite documented abuses', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'John Poindexter / DARPA', role: 'Developed TIA program to conduct mass surveillance on Americans through data mining', status: 'pending', notes: 'Congress defunded TIA in 2003. Components reportedly continued under other names in classified programs.' }
+
+    ],
   },
   'tiktok-national-security-data-harvesting': {
     title: 'TikTok National Security Data Harvesting',
@@ -2134,6 +2534,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2025', event: 'The Supreme Court upheld the law in January 2025, ruling 9-0 that the national security concerns justified the First Amendment burden', type: 'legal' },
      { date: '2025-01-19', event: 'on January 19, 2025, before President Trump signed an executive order extending the divestiture deadline by 75 days', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'TikTok/ByteDance', role: 'Chinese-owned platform collecting data on 170M+ Americans with potential CCP access', status: 'charged', notes: 'Congress passed forced sale legislation (2024). SCOTUS upheld. National security concerns over data access and algorithm.' }
+
+    ],
   },
   'texas-power-grid-failure': {
     title: 'Texas Grid Failures: Deregulation, Greed, and Preventable Death',
@@ -2282,6 +2688,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2015-10-01', event: 'The answer lies partly in the company\'s political connections: its board of former cabinet secretaries and military leaders provided a shield of credibility that deterred scrutiny and enabled the f...', type: 'default' },
      { date: '2022', event: 'In January 2022, Holmes was convicted of four counts of investor fraud and conspiracy', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Elizabeth Holmes', role: 'Theranos founder who defrauded investors of hundreds of millions with fake blood-testing technology', status: 'convicted', notes: 'Convicted on 4 counts of wire fraud in January 2022; sentenced to 11.25 years. Reported to prison May 2023.' },
+
+      { name: 'Ramesh "Sunny" Balwani', role: 'Theranos COO who oversaw fraudulent lab operations and concealed failures', status: 'convicted', notes: 'Convicted on 12 counts of wire fraud; sentenced to nearly 13 years' }
+
+    ],
   },
   'tyco-corporate-looting': {
     title: 'Tyco International: CEO Dennis Kozlowski\'s $600 Million Corporate Looting Spree',
@@ -2320,6 +2734,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2007', event: 'Tyco subsequently split into three separate companies in 2007 -- Tyco International, Covidien, and Tyco Electronics (now TE Connectivity) -- as part of governance reforms', type: 'political' },
      { date: '2014', event: 'Kozlowski was granted parole in 2014 after serving approximately seven years', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Dennis Kozlowski', role: 'Tyco CEO who looted $400M+ from company for extravagant personal spending', status: 'convicted', notes: 'Convicted of grand larceny and securities fraud in 2005; sentenced to 8-25 years. Released 2014.' },
+
+      { name: 'Mark Swartz', role: 'Tyco CFO who helped Kozlowski steal hundreds of millions', status: 'convicted', notes: 'Convicted alongside Kozlowski; sentenced to 8-25 years' }
+
+    ],
   },
   'takata-airbag-defect-coverup': {
     title: 'Takata Airbag Scandal: Defective Inflators Turned Safety Devices Into Fragmentation Grenades',
@@ -2359,6 +2781,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2017-06-01', event: 'The company filed for bankruptcy in June 2017, with its viable operations acquired by Chinese-owned Key Safety Systems (now Joyson Safety Systems) for $1.6 billion', type: 'political' },
      { date: '2024', event: 'The recall itself has been plagued by low completion rates -- as of 2024, millions of vehicles with potentially lethal airbags remain on the road because owners have not brought them in for replace', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Takata Corporation', role: 'Manufactured defective airbag inflators that could explode and send metal shrapnel at occupants; linked to 27+ deaths', status: 'convicted', notes: 'Pled guilty to wire fraud; fined $1B. Filed for bankruptcy in 2017.' },
+
+      { name: 'Shinichi Tanaka', role: 'Former Takata executive who concealed test data showing airbag defects', status: 'convicted', notes: 'Indicted on wire fraud charges; pled guilty' }
+
+    ],
   },
   'tesla-autopilot-deaths': {
     title: 'Tesla Autopilot: Deadly Marketing of Semi-Autonomous Driving as Self-Driving',
@@ -2402,6 +2832,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2024', event: 'By 2024, NHTSA had documented over 40 fatal crashes involving Autopilot, along with hundreds of injury crashes', type: 'critical' },
      { date: '2025', event: 'As of 2025, the regulatory response remains fragmented and inadequate', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Tesla/Elon Musk', role: 'Marketed "Autopilot" and "Full Self-Driving" features as autonomous when they require constant driver attention', status: 'charged', notes: 'NHTSA investigated 956 Autopilot crashes including 29+ fatalities. DOJ criminal probe ongoing.' }
+
+    ],
   },
   'telecommunications-monopoly-digital-divide': {
     title: 'Telecommunications Monopoly: How ISPs Divided the Market and Killed Competition',
@@ -2438,6 +2874,14 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Infrastructure Investment and Jobs Act (2021) allocated $65 billion for broadband, but ISPs are lobbying to capture funds for projects they previously committed to and failed to complete', type: 'political' },
      { date: '2024', event: 'As of 2024, at least 18 states have such laws', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'AT&T', role: 'Participated in NSA warrantless surveillance and enabled mass data collection', status: 'settled', notes: 'EFF lawsuit revealed AT&T routed traffic through NSA monitoring facilities.' },
+
+      { name: 'Comcast', role: 'Monopolistic practices and lobbying against net neutrality', status: 'charged', notes: 'FCC fined repeatedly. Spent $160M+ lobbying since 2000.' }
+
+    ],
   },
   'tech-monopoly-antitrust-failures': {
     title: 'Big Tech Monopoly Power and Antitrust Enforcement Failures',
@@ -2477,6 +2921,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2023', event: 'Apple\'s App Store generated $85 billion in revenue in 2023, with $25.5 billion retained by Apple', type: 'political' },
      { date: '2024-08-01', event: 'Google\'s search monopoly was found illegal by Judge Amit Mehta in August 2024, in the DOJ\'s landmark antitrust case United States v', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Big Tech (Google, Apple, Amazon, Meta)', role: 'Used monopoly power to crush competitors, lock in users, and extract monopoly rents', status: 'charged', notes: 'DOJ won antitrust case against Google (2024). FTC filed against Amazon and Meta. EU Digital Markets Act imposing obligations.' }
+
+    ],
   },
   'ticketmaster-live-nation-monopoly': {
     title: 'Ticketmaster/Live Nation Monopoly and Consumer Exploitation',
@@ -2513,6 +2963,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2022-11-01', event: 'The Taylor Swift Eras Tour presale in November 2022 exposed the fundamental fragility and consumer hostility of the Ticketmaster system', type: 'default' },
      { date: '2024-05-01', event: 'The DOJ\'s May 2024 antitrust lawsuit seeks to break up Live Nation and Ticketmaster, alleging the company violates the Sherman Act through exclusionary conduct in ticketing, venue control, and prom...', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Live Nation/Ticketmaster', role: 'Monopolized live entertainment ticketing market with excessive fees and anticompetitive practices', status: 'charged', notes: 'DOJ filed antitrust lawsuit in 2024 seeking to break up the merged company' }
+
+    ],
   },
   'title-loan-exploitation': {
     title: 'Title Loan Exploitation',
@@ -2547,6 +3003,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '2010', event: 'Industry lobbyists spent over $20 million between 2010 and 2023 opposing rate caps and disclosure requirements.', type: 'financial' },
      { date: '2023', event: 'Industry lobbyists spent over $20 million between 2010 and 2023 opposing rate caps and disclosure requirements.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Blackstone Group', role: 'Largest corporate landlord buying homes after 2008 crisis, driving up rents', status: 'pending', notes: 'Purchased 80,000+ homes at distressed prices. UN criticized impact on housing.' }
+
+    ],
   },
   'thalidomide-pharmaceutical-catastrophe': {
     title: 'Thalidomide: The Pharmaceutical Catastrophe That Deformed 10,000+ Children',
@@ -2594,6 +3056,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '1968', event: 'Criminal proceedings were initiated against nine Grunenthal executives in 1968 in Aachen, West Germany, under charges including bodily harm and involuntary manslaughter', type: 'default' },
      { date: '1970-12-01', event: 'In December 1970, the prosecution recommended dropping the charges in exchange for Grunenthal paying 100 million German marks to the thalidomide victims fund, an amount that worked out to approxima', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Chemie Grunenthal', role: 'Manufactured thalidomide sedative causing severe birth defects in 10,000+ children worldwide', status: 'settled', notes: 'German criminal case dropped in 1970. Company apologized in 2012. FDA reviewer Frances Kelsey prevented US sale.' }
+
+    ],
   },
   'tuskegee-syphilis-experiment': {
     title: 'The Tuskegee Syphilis Study: 40 Years of Medical Racism (1932-1972)',
@@ -2640,6 +3108,12 @@ const investigations_t: Record<string, InvestigationData> = {
      { date: '1997-05-16', event: 'On May 16, 1997, President Bill Clinton issued a formal apology on behalf of the federal government, stating: "What was done cannot be undone', type: 'legal' },
      { date: '2025', event: 'government paid $10 million (approximately $65 million in 2025 dollars) to surviving participants and families, but required no admission of wrongdoing by any individual', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Public Health Service', role: 'Conducted 40-year experiment (1932-1972) denying syphilis treatment to Black men in Tuskegee, AL', status: 'settled', notes: 'Deliberately withheld penicillin treatment. 128 died. Government settled for $10M. Clinton apologized in 1997.' }
+
+    ],
   },
   'tax-evasion': {
  title: 'Tax Evasion & Financial Fraud',
@@ -2808,6 +3282,7 @@ const investigations_t: Record<string, InvestigationData> = {
    { name: 'David Boies / Boies Schiller', role: 'Allegations of enabling fraud and intimidating whistleblowers', status: 'charged', notes: 'No formal charges; reputational damage' },
    { name: 'Theranos Board Members', role: 'Failure of fiduciary duty', status: 'charged', notes: 'No charges; board dissolved when company shut down in 2018' }
  ],
+
   },
   'trump-criminal-compendium': {
  title: 'The Trump Criminal Compendium',
@@ -3235,6 +3710,7 @@ const investigations_t: Record<string, InvestigationData> = {
    { name: 'CDC officials who voted to continue', role: 'Complicity in medical abuse', status: 'charged', notes: 'No consequences, careers continued' },
    { name: 'US Government', role: 'Formal acknowledgment of wrongdoing', status: 'charged', notes: 'Presidential apology (1997) - 25 years after exposure' }
  ],
+
   },
 };
 

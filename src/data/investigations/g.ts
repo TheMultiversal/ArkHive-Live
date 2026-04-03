@@ -53,6 +53,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2019-10', event: 'Event 201, a WEF-hosted pandemic exercise in October 2019, preceded COVID-19 by weeks.', type: 'default' },
      { date: '2020-06', event: 'WEF INITIATIVE LAUNCH: Klaus Schwab and Prince Charles launched "The Great Reset" in June 2020, calling to use COVID-19 as an opportunity to reshape global capitalism.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Heritage Foundation', role: 'Authored Project 2025 to consolidate executive power and dismantle agencies', status: 'pending', notes: '920-page plan to replace civil servants with loyalists, eliminate Dept of Education.' }
+
+ ],
  },
   'global-governance': {
  title: 'Global Governance Networks',
@@ -110,6 +116,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '1973', event: 'TRILATERAL COMMISSION: Founded in 1973 by David Rockefeller and Zbigniew Brzezinski, this group coordinates policy among North America, Europe, and Japan (now including Asia-Pacific broadly)', type: 'default' },
      { date: '2025', event: 'Heritage Foundation\'s Project 2025 demonstrates pre-planned government takeover strategies', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Heritage Foundation', role: 'Authored Project 2025 to consolidate executive power and dismantle agencies', status: 'pending', notes: '920-page plan to replace civil servants with loyalists, eliminate Dept of Education.' }
+
+ ],
  },
   'gender-discrimination': {
  title: 'Gender Discrimination & Sexual Misconduct',
@@ -161,6 +173,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023-05-01', event: 'In May 2023, a jury found Trump liable for sexual abuse and defamation, awarding $5 million', type: 'financial' },
      { date: '2024', event: 'In January 2024, a second jury awarded $83.3 million more for continued defamation', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Federal and State Governments', role: 'Systematic civil rights violations through slavery, Jim Crow, and ongoing discrimination', status: 'pending', notes: 'From 1619 through present; redlining, mass incarceration, voter suppression continue.' }
+
+ ],
  },
   'global-trafficking': {
  title: 'Global Sex Trafficking Networks',
@@ -202,6 +220,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2008', event: 'The 2008 sweetheart deal negotiated by Alex Acosta demonstrated how wealth and connections provided protection.', type: 'default' },
      { date: '2020', event: 'Continued developments in global sex trafficking networks with new evidence emerging', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+ ],
  },
   'gaetz-sex-trafficking': {
  title: 'Matt Gaetz Sex Trafficking Investigation',
@@ -243,6 +267,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023-02', event: 'In February 2023, DOJ reportedly informed Gaetz\'s lawyers it would not charge him.', type: 'default' }
 
    ],
+
+ defendants: [
+
+   { name: 'Matt Gaetz', role: 'US Representative investigated for sex trafficking of a 17-year-old', status: 'pending', notes: 'DOJ investigated but declined to charge. House Ethics Committee found substantial evidence of sexual misconduct and drug use.' },
+
+   { name: 'Joel Greenberg', role: 'Seminole County Tax Collector who procured underage girls and introduced them to Gaetz', status: 'convicted', notes: 'Pled guilty to 6 charges including sex trafficking of a minor; sentenced to 11 years' }
+
+ ],
  },
   'gun-lobby-influence': {
  title: 'Gun Lobby Influence on Policy',
@@ -292,6 +324,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2018', event: 'PARKLAND: After 17 students and staff were killed at Marjory Stoneman Douglas High School in 2018, student survivors demanded action', type: 'critical' },
      { date: '2022', event: 'UVALDE: After 19 children and 2 teachers were killed at Robb Elementary in Uvalde, Texas in 2022, Republicans blocked assault weapons bans and significant reform', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'National Rifle Association (NRA)', role: 'Blocked gun safety legislation while engaging in self-dealing', status: 'charged', notes: 'NY AG dissolution suit. Wayne LaPierre liable for $5.4M. Russian spy infiltrated NRA.' }
+
+ ],
  },
   'ginni-thomas-j6': {
  title: 'Ginni Thomas January 6 Involvement',
@@ -339,6 +377,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021', event: 'MEADOWS TEXTS: The January 6 Committee obtained 29 text messages between Ginni Thomas and Mark Meadows from November 2020 to January 2021.', type: 'default' },
      { date: '2021-01', event: 'MEADOWS TEXTS: The January 6 Committee obtained 29 text messages between Ginni Thomas and Mark Meadows from November 2020 to January 2021.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Ginni Thomas', role: 'Wife of Justice Clarence Thomas; lobbied to overturn 2020 election while husband ruled on related cases', status: 'pending', notes: 'Texted Mark Meadows urging efforts to overturn election. Justice Thomas did not recuse from Jan 6 cases.' }
+
+ ],
  },
   'green-bay-sweep': {
  title: 'Green Bay Sweep',
@@ -394,6 +438,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023-03-30', event: 'Peter Navarro is indicted on contempt of Congress charges for defying a January 6 Committee subpoena. He is convicted and sentenced to 4 months in prison', type: 'default' },
      { date: '2023-08-01', event: 'Federal indictment charges Trump with conspiracy to defraud the United States and obstruct the certification of the election. The Green Bay Sweep is central to the charges', type: 'critical' }
      ],
+
+ defendants: [
+
+   { name: 'Peter Navarro', role: 'White House advisor who helped plan "Green Bay Sweep" to challenge electoral certification on January 6', status: 'convicted', notes: 'Convicted of contempt of Congress for defying Jan 6 Committee subpoena; served 4 months' }
+
+ ],
  },
   'guard-deployment-delays': {
  title: 'National Guard Deployment Delays',
@@ -447,6 +497,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021-04-13', event: 'DOD Inspector General report finds "no evidence of intentional delay" but documents serious communication breakdowns; critics call conclusion inadequate given timeline evidence', type: 'legal' },
      { date: '2022-06', event: 'January 6 Committee hearings reveal Trump watched the attack for 187 minutes without ordering Guard deployment; Pence had no constitutional authority to command troops', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Acting SecDef Christopher Miller', role: 'Delayed National Guard deployment to Capitol for hours during January 6 attack', status: 'pending', notes: 'Guard not authorized until 5:08 PM; arrived at 5:40 PM, hours after breach. IG investigation documented delays.' }
+
+ ],
  },
   'gain-of-function': {
  title: 'Gain-of-Function Research Controversy',
@@ -493,6 +549,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021', event: 'In October 2021, NIH admitted that EcoHealth Alliance had conducted experiments that enhanced a bat coronavirus\'s ability to infect human cells.', type: 'default' },
      { date: '2021-10', event: 'In October 2021, NIH admitted that EcoHealth Alliance had conducted experiments that enhanced a bat coronavirus\'s ability to infect human cells.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'EcoHealth Alliance / Peter Daszak', role: 'Funneled NIH grants to Wuhan Institute of Virology for coronavirus research while concealing details', status: 'charged', notes: 'NIH suspended funding 2024. Congressional investigation found misrepresentations. Debate over lab leak vs natural origin continues.' }
+
+ ],
  },
   'global-elite': {
  title: 'Global Elite Networks',
@@ -532,6 +594,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '1954', event: 'Annual private gatherings since 1954 bring together 150 leaders in politics, business, media, and academia.', type: 'default' },
      { date: '1973', event: 'Founded by David Rockefeller in 1973, the Commission brings together elites from North America, Europe, and Asia-Pacific.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Heritage Foundation', role: 'Authored Project 2025 to consolidate executive power and dismantle agencies', status: 'pending', notes: '920-page plan to replace civil servants with loyalists, eliminate Dept of Education.' }
+
+ ],
  },
   'genocide-palestine': {
  title: 'Gaza Genocide',
@@ -578,6 +646,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2024', event: 'The International Court of Justice ruled in January 2024 that South Africa\'s genocide case against Israel was plausible and ordered provisional measures.', type: 'legal' },
      { date: '2024-01', event: 'The International Court of Justice ruled in January 2024 that South Africa\'s genocide case against Israel was plausible and ordered provisional measures.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Israel Defense Forces', role: 'Military operations in Gaza causing mass civilian casualties and infrastructure destruction', status: 'charged', notes: 'ICJ found plausible genocide case (2024). ICC issued arrest warrants for Israeli PM Netanyahu and Hamas leaders.' }
+
+ ],
  },
   'guatemala-coup': {
  title: 'Guatemala Coup 1954',
@@ -615,6 +689,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '1980-01-01', event: 'The CIA overthrew Guatemala\'s democratically elected government to protect United Fruit Company profits', type: 'critical' },
      { date: '1997', event: 'CIA documents released in 1997 confirmed the coup was driven by corporate interests, not communism.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'CIA (Eisenhower Administration)', role: 'Organized Operation PBSUCCESS to overthrow democratically elected President Arbenz of Guatemala in 1954', status: 'pending', notes: 'Declassified documents confirm CIA planned and executed coup. Led to decades of civil war killing 200,000+.' },
+
+   { name: 'United Fruit Company', role: 'Lobbied US government to overthrow Arbenz to protect its banana monopoly and land holdings', status: 'pending', notes: 'Secretary of State Dulles and CIA Director Allen Dulles had direct ties to United Fruit' }
+
+ ],
  },
   'george-floyd-murder': {
  title: 'Murder of George Floyd',
@@ -654,6 +736,18 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2022-02', event: 'Chauvin pled guilty to federal civil rights violations and sentenced to 21 years concurrently; DOJ found Minneapolis Police had a pattern of excessive force', type: 'legal' },
      { date: '2023-07', event: 'Despite nationwide protests and reform promises, police killings remained near record levels; qualified immunity blocked most civil rights lawsuits against officers', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Derek Chauvin', role: 'Minneapolis police officer who murdered George Floyd by kneeling on his neck for 9 minutes 29 seconds', status: 'convicted', notes: 'Convicted of murder and manslaughter in 2021; sentenced to 22.5 years state, 21 years federal.' },
+
+   { name: 'Tou Thao', role: 'Officer who prevented bystanders from intervening during Floyd\'s murder', status: 'convicted', notes: 'Convicted of federal civil rights violations; sentenced to 3.5 years federal, 4.75 years state.' },
+
+   { name: 'J. Alexander Kueng', role: 'Officer who knelt on Floyd\'s back during the killing', status: 'convicted', notes: 'Convicted of federal civil rights violations; sentenced to 3 years federal, 3.5 years state.' },
+
+   { name: 'Thomas Lane', role: 'Officer who held Floyd\'s legs during the killing', status: 'convicted', notes: 'Pled guilty to state manslaughter; sentenced to 3 years. Convicted federally; sentenced to 2.5 years.' }
+
+ ],
  },
   'gun-violence': {
  title: 'Gun Violence Epidemic',
@@ -689,6 +783,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '1996', event: 'From 1996-2019, Congress prohibited CDC from studying gun violence as a public health issue.', type: 'political' },
      { date: '2019', event: 'From 1996-2019, Congress prohibited CDC from studying gun violence as a public health issue.', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Gun Industry (Systematic)', role: 'Manufacturers marketed assault-style weapons to civilians while opposing safety regulations', status: 'pending', notes: 'PLCAA (2005) provides broad immunity from civil liability. Some state lawsuits proceeding.' },
+
+   { name: 'NRA', role: 'Systematically blocked gun safety legislation despite mounting death toll', status: 'charged', notes: 'NY AG filed civil fraud suit in 2020. Found to have diverted millions for personal use.' }
+
+ ],
  },
   'galleon-insider-trading': {
  title: 'Galleon Group: The Largest Hedge Fund Insider Trading Ring',
@@ -727,6 +829,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2012-06-15', event: 'Rajat Gupta convicted of securities fraud and conspiracy; sentenced to two years in prison for passing boardroom secrets to Rajaratnam', type: 'legal' },
      { date: '2012-12-01', event: 'Total convictions from the broader Galleon investigation exceed 80 individuals across hedge funds, corporate boardrooms, and expert network firms', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Raj Rajaratnam', role: 'Galleon Group hedge fund founder convicted of biggest insider trading case in hedge fund history', status: 'convicted', notes: 'Convicted on 14 counts in 2011; sentenced to 11 years. Fined $150M.' },
+
+   { name: 'Rajat Gupta', role: 'Goldman Sachs board member and McKinsey CEO who tipped Rajaratnam with inside information', status: 'convicted', notes: 'Convicted of securities fraud in 2012; sentenced to 2 years' }
+
+ ],
  },
   'gamestop-halt': {
  title: 'GameStop Trading Halt: When Brokers Protected Hedge Funds',
@@ -762,6 +872,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021-01-28', event: 'On January 28, 2021, Robinhood, TD Ameritrade, Interactive Brokers, and other retail brokerages simultaneously restricted or halted buying of GameStop (GME) and several other stocks at the height of a retail-driven', type: 'default' },
      { date: '2021-10', event: 'The SEC\'s subsequent investigation, released in October 2021, acknowledged the trading restrictions but declined to bring enforcement actions.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Robinhood/Vlad Tenev', role: 'Restricted buying of GameStop and other "meme stocks" during Jan 2021 short squeeze, protecting hedge funds', status: 'pending', notes: 'House investigation found DTCC margin call drove decision. SEC report found no market manipulation by retail traders.' },
+
+   { name: 'Melvin Capital', role: 'Hedge fund that took massive short position in GameStop and lost $6.8B requiring emergency bailout', status: 'pending', notes: 'Received $2.75B bailout from Citadel and Point72. Closed permanently in 2022.' }
+
+ ],
  },
   'gamestop-manipulation': {
  title: 'GameStop Market Manipulation: The Full Picture',
@@ -795,6 +913,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021', event: 'At the peak of the GameStop short squeeze in January 2021, short interest exceeded 140% of the available float; meaning more shares had been sold short than actually existed.', type: 'default' },
      { date: '2021-01', event: 'At the peak of the GameStop short squeeze in January 2021, short interest exceeded 140% of the available float; meaning more shares had been sold short than actually existed.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Robinhood/Vlad Tenev', role: 'Restricted buying of GameStop and other "meme stocks" during Jan 2021 short squeeze, protecting hedge funds', status: 'pending', notes: 'House investigation found DTCC margin call drove decision. SEC report found no market manipulation by retail traders.' },
+
+   { name: 'Melvin Capital', role: 'Hedge fund that took massive short position in GameStop and lost $6.8B requiring emergency bailout', status: 'pending', notes: 'Received $2.75B bailout from Citadel and Point72. Closed permanently in 2022.' }
+
+ ],
  },
   'georgia-voter-suppression': {
  title: 'Georgia Voter Suppression',
@@ -843,6 +969,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2020', event: 'FULTON COUNTY TARGETING: Fulton County, containing Atlanta and the state\'s largest Black population, was the primary target of post-2020 election scrutiny', type: 'political' },
      { date: '2021', event: 'DOJ LAWSUIT: In 2021, the Department of Justice sued Georgia over SB 202, alleging it violated the Voting Rights Act', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Brian Kemp', role: 'GA Secretary of State who purged 340,000+ voter registrations before 2018 election in which he was a candidate', status: 'pending', notes: 'Purged voters, closed polling locations in minority areas, then won governor race. No charges.' }
+
+ ],
  },
   'ghosn-financial-crimes': {
  title: 'Carlos Ghosn: The Auto Industry\'s Greatest Corporate Crime',
@@ -882,6 +1014,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021-03-02', event: 'Michael Taylor and son Peter Taylor extradited to Japan and sentenced to prison for their roles in organizing Ghosn\'s escape', type: 'legal' },
      { date: '2022-03-03', event: 'Greg Kelly, Nissan executive arrested alongside Ghosn, convicted of helping conceal approximately $9 million in compensation; given suspended sentence', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+   { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+ ],
  },
   'gig-economy-exploitation': {
  title: 'Gig Economy Exploitation: The $200 Billion Misclassification Scam',
@@ -919,6 +1059,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2020-11', event: 'In November 2020, California\'s Proposition 22 demonstrated the industry\'s political power.', type: 'default' },
      { date: '2023', event: 'A 2023 DoorDash study found that 29% of deliveries resulted in drivers earning less than $0 after expenses.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Uber, Lyft, DoorDash', role: 'Misclassified millions of workers as independent contractors to avoid benefits and labor protections', status: 'charged', notes: 'Multiple state AG suits. California AB5 passed. $100M+ NLRB settlement. Companies spent $200M+ on Prop 22.' }
+
+ ],
  },
   'global-terrorism-networks': {
  title: 'Global Terrorism Networks',
@@ -961,6 +1107,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '1980-01-01', event: 'Global terrorism is not simply the product of individual radicalization but of complex networks involving state sponsorship, intelligence', type: 'critical' },
      { date: '2025-01', event: '9/11 Commission Report — Current status: monitoring continues with active documentation', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'gm-ignition-switch': {
  title: 'GM Ignition Switch Defect: 124 Deaths, Zero Prison Time',
@@ -1008,6 +1162,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2015-09-17', event: 'GM agrees to $900 million criminal penalty and deferred prosecution agreement with DOJ. Kenneth Feinberg compensation fund pays $594.5 million to 399 death and injury claims.', type: 'financial' },
      { date: '2016', event: 'NHTSA reforms internal processes after Inspector General report finds the agency failed to identify the defect pattern despite available crash data. Total confirmed deaths reach 124.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'General Motors', role: 'Concealed defective ignition switches for over a decade, causing at least 124 deaths and 275 injuries', status: 'settled', notes: 'Paid $900M deferred prosecution. Internal probe found engineers knew of defect since 2001.' }
+
+ ],
  },
   'goldman-sachs-fraud': {
  title: 'Goldman Sachs: A Pattern of Institutional Fraud',
@@ -1052,6 +1212,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2024-01-01', from: 'Goldman Sachs', to: 'CFPB (Apple Card fine)', amount: '$89,000,000', purpose: 'Fined for illegal practices on Apple Card accounts; failing to investigate disputes and enrolling customers without consent', documented: true },
      { date: '2023-01-01', from: 'Goldman Sachs (revenue)', to: 'Annual revenue', amount: '$46,000,000,000', purpose: 'Goldman generated $46 billion in revenue in 2023; demonstrating fines are merely cost of doing business', documented: true }
    ],
+
+ defendants: [
+
+   { name: 'Goldman Sachs', role: 'Created and sold CDOs it simultaneously bet against; misled investors about Abacus deal', status: 'settled', notes: 'Paid $550M SEC settlement in 2010; $5.06B DOJ settlement in 2016 for mortgage-backed securities fraud' },
+
+   { name: 'Fabrice Tourre', role: 'Goldman VP who designed Abacus CDO and misled investors about Paulson\'s short position', status: 'convicted', notes: 'Found liable by SEC jury in 2013; fined $825,000 and barred from industry' }
+
+ ],
  },
   'guatemala-experiments': {
  title: 'Guatemala Syphilis Experiments: U.S. Government Human Experimentation',
@@ -1091,6 +1259,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2010', event: 'The experiments were not discovered until 2010, when Wellesley College historian Susan Reverby found Dr.', type: 'default' },
      { date: '2012', event: 'A Presidential Commission for the Study of Bioethical Issues confirmed the experiments and called them "clearly unethical." However, a federal judge dismissed a lawsuit by Guatemalan victims in 2012, ruling that the U.S.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Dr. John Cutler', role: 'US Public Health Service researcher who deliberately infected 1,300+ Guatemalans with STDs without consent (1946-1948)', status: 'pending', notes: 'Experiments hidden until 2010. Obama apologized. US government settled for undisclosed amount.' }
+
+ ],
  },
   'gujarat-riots': {
  title: 'Gujarat Riots: State-Sponsored Pogrom Against Muslims',
@@ -1129,6 +1303,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2012', event: 'Despite multiple investigations, including by a Supreme Court-appointed Special Investigation Team (SIT), Modi was cleared of criminal charges in 2012', type: 'legal' },
      { date: '2014', event: 'After Modi became Prime Minister of India in 2014, the U.S', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Narendra Modi', role: 'Gujarat Chief Minister during 2002 anti-Muslim pogrom that killed 1,000-2,000 people', status: 'pending', notes: 'SIT cleared Modi; Supreme Court upheld. US denied him visa 2005-2014. Became PM of India in 2014.' }
+
+ ],
  },
   'gulf-war-crimes': {
  title: 'Gulf War: War Crimes and the Highway of Death',
@@ -1167,6 +1347,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '1991-02-26', event: 'U.S. and coalition aircraft attack retreating Iraqi forces and civilians on Highway 80 between Kuwait City and Basra in the Highway of Death massacre', type: 'critical' },
      { date: '2013-01-01', event: 'Study in Environmental Contamination and Toxicology documents 38-fold increase in leukemia and 10-fold increase in breast cancer in DU-contaminated areas of southern Iraq', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+   { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+ ],
  },
   'gulf-of-tonkin-fabricated-incident': {
     title: 'Gulf of Tonkin Fabricated Incident',
@@ -1207,6 +1395,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2001', event: 'Hanyok\'s study, originally completed in 2001, found that NSA analysts had cherry-picked intercepts that supported the attack narrative and suppressed intercepts that contradicted it', type: 'critical' },
      { date: '2005', event: 'Declassified NSA documents released in 2005 by historian Robert Hanyok revealed that NSA signals intelligence officers had deliberately manipulated SIGINT intercepts to support the conclusion that', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'generic-drug-price-fixing-conspiracy': {
     title: 'Generic Drug Price Fixing Conspiracy',
@@ -1242,6 +1438,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2020', event: 'In 2020, the DOJ charged Teva with conspiracy to fix prices and allocate markets for over a dozen generic drugs', type: 'default' },
      { date: '2024', event: 'As of 2024, the DOJ has secured guilty pleas from several mid-level executives but no senior executive of a major generic drug company has been convicted', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Teva Pharmaceutical', role: 'Led generic drug price-fixing conspiracy involving 30+ companies and hundreds of drugs', status: 'charged', notes: 'DOJ charged Teva as ringleader of "most sweeping antitrust conspiracy in US history." Trial pending.' }
+
+    ],
   },
   'glyphosate-cancer-link-cover-up': {
     title: 'Glyphosate Cancer Link Cover-Up',
@@ -1283,6 +1485,16 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023', event: 'Bayer has continued to sell Roundup (reformulated without glyphosate for residential use in 2023) while maintaining that glyphosate does not cause cancer', type: 'default' },
      { date: '2024', event: 'Additional settlements brought the total to over $16 billion by 2024', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'gerrymandering-systematic-voter-dilution': {
     title: 'Gerrymandering Systematic Voter Dilution',
@@ -1323,6 +1535,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Princeton Gerrymandering Project\'s analysis of 2021-2022 redistricting maps found that approximately 30 states drew maps with "significant partisan bias" and that only 10-12% of House seats wer...', type: 'political' },
      { date: '2023', event: 'Milligan (2023) that Alabama\'s map violated Section 2 of the VRA; but the ruling was narrowly decided (5-4) and Alabama initially defied the order, prompting a second court intervention', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'State Legislatures (Both Parties)', role: 'Drew extreme partisan gerrymanders to entrench power and dilute opposing voters\' influence', status: 'pending', notes: 'SCOTUS ruled federal courts cannot review partisan gerrymandering (Rucho v. Common Cause 2019). Some state courts intervened.' }
+
+    ],
   },
   'global-population-policy-hidden-agendas': {
     title: 'Global Population Policy Hidden Agendas',
@@ -1361,6 +1579,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2012', event: 'The Gates Foundation, the world\'s largest private foundation, has made family planning a central focus ($2.2 billion committed 2012-2020) and has faced scrutiny from reproductive justice advocates ...', type: 'political' },
      { date: '2017', event: 'The Trump administration expanded the policy in 2017 to cover all global health funding ($8.8 billion annually); not just family planning ($600 million)', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+    ],
   },
   'gambling-industry-criminal-enterprise': {
     title: 'Gambling Industry Criminal Enterprise',
@@ -1403,6 +1627,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2024', event: 'By 2024, 38 states plus DC had legalized sports betting', type: 'default' },
      { date: '2024', event: 'The industry has pushed for legalization of iGaming (online casino games like slots and table games) in addition to sports betting', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'government-contract-fraud-patterns': {
     title: 'Government Contract Fraud Patterns',
@@ -1444,6 +1674,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021', event: 'Boeing, which paid $2.5 billion in 2021 to resolve fraud charges related to the 737 MAX crashes, continued to receive billions in defense contracts', type: 'critical' },
      { date: '2023', event: 'In 2023, the DOD Inspector General identified $1.9 billion in FY2021 unsupported contract adjustments at the Defense Finance and Accounting Service', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Defense Contractors', role: 'Defrauded government through overbilling, defective products, and no-bid contracts', status: 'charged', notes: 'DOJ False Claims Act recoveries exceed $70B since 1986. Halliburton alone faced $7B in Iraq fraud allegations.' }
+
+    ],
   },
   'government-records-destruction-incidents': {
     title: 'Government Records Destruction Incidents',
@@ -1483,6 +1719,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021', event: 'When Trump left office in January 2021, NARA discovered that 15 boxes of presidential records had been removed to Mar-a-Lago instead of being transferred to the Archives as required by law', type: 'political' },
      { date: '2022-08-01', event: 'The DOJ obtained a search warrant and in August 2022 recovered additional boxes from Mar-a-Lago; Trump was indicted on 37 federal counts related to the classified documents', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Executive Branch Officials', role: 'Obstructed transparency through classification, FOIA delays, and document destruction', status: 'pending', notes: 'Government classifies 50M+ documents annually. Average FOIA response exceeds 100 days.' }
+
+    ],
   },
 
   'george-floyd': {
@@ -1533,6 +1775,18 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023-06', event: 'CORPORATE AND CULTURAL RESPONSE: Corporations pledged over $50 billion to', type: 'financial' },
      { date: '2023-11', event: 'LEGACY: George Floyd THE MURDER: On May 25, 2020, Minneapolis police officer Derek Chauvin knelt on George Floyd\'s neck for 9 minutes and 29...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Derek Chauvin', role: 'Minneapolis police officer who murdered George Floyd by kneeling on his neck for 9 minutes 29 seconds', status: 'convicted', notes: 'Convicted of murder and manslaughter in 2021; sentenced to 22.5 years state, 21 years federal.' },
+
+      { name: 'Tou Thao', role: 'Officer who prevented bystanders from intervening during Floyd\'s murder', status: 'convicted', notes: 'Convicted of federal civil rights violations; sentenced to 3.5 years federal, 4.75 years state.' },
+
+      { name: 'J. Alexander Kueng', role: 'Officer who knelt on Floyd\'s back during the killing', status: 'convicted', notes: 'Convicted of federal civil rights violations; sentenced to 3 years federal, 3.5 years state.' },
+
+      { name: 'Thomas Lane', role: 'Officer who held Floyd\'s legs during the killing', status: 'convicted', notes: 'Pled guilty to state manslaughter; sentenced to 3 years. Convicted federally; sentenced to 2.5 years.' }
+
+    ],
   },
   'global-terrorism': {
     title: "Global Terrorism Networks & State Sponsorship",
@@ -1578,6 +1832,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2015', event: 'At its peak in 2014-2015, ISIS controlled territory across Iraq and Syria roughly the size of the United Kingdom; governing an estimated 8 million people.', type: 'financial' },
      { date: '2018', event: 'aid between 2001 and 2018 while simultaneously harboring Taliban leadership and maintaining ties to extremist groups.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+      { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+    ],
   },
   'gulf-oil-spill': {
     title: 'Deepwater Horizon Oil Spill',
@@ -1614,6 +1876,18 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2015-07-02', event: 'DOJ announces $18.7B civil settlement with BP — largest environmental settlement in U.S. history', type: 'legal' },
      { date: '2016-04-04', event: 'Final tally: BP pays $65B+ total including cleanup, fines, and settlements; Gulf ecosystem damage ongoing', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'BP plc', role: 'Operator of Deepwater Horizon rig; cost-cutting decisions led to blowout killing 11 workers and spilling 4.9M barrels', status: 'convicted', notes: 'Pled guilty to 14 felonies including 11 manslaughter counts. Paid $20.8B total in settlements.' },
+
+      { name: 'Transocean', role: 'Owner of Deepwater Horizon drilling rig; failed to maintain safety equipment', status: 'settled', notes: 'Paid $1.4B in fines and penalties; settled civil claims for $212M' },
+
+      { name: 'Halliburton', role: 'Cement contractor whose faulty cement job failed to seal the well', status: 'settled', notes: 'Destroyed evidence of cement testing; paid $1.1B settlement. Employee pled guilty to destruction of evidence.' },
+
+      { name: 'Robert Kaluza', role: 'BP well site leader on Deepwater Horizon during blowout', status: 'acquitted', notes: 'Charged with manslaughter; acquitted at trial in 2016' }
+
+    ],
   },
   'guantanamo-bay-torture-program': {
     title: 'Guantanamo Bay: The Architecture of Indefinite Detention and Torture',
@@ -1651,6 +1925,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2018', event: 'Gina Haspel, who oversaw a CIA black site in Thailand where detainees were tortured and who ordered the destruction of 92 videotapes documenting interrogations, was promoted to CIA Director in 2018', type: 'default' },
      { date: '2026', event: 'THE ENDURING STAIN: As of 2026, Guantanamo Bay detention facility continues to operate at an annual cost exceeding $540 million, approximately $13 million per remaining detainee', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (Multiple Administrations)', role: 'Operated indefinite detention facility at Guantanamo Bay holding prisoners without trial', status: 'pending', notes: '780 detainees held since 2002. Most held without charges. As of 2024, 30 remain detained. Torture documented.' }
+
+    ],
   },
   'government-surveillance-of-journalists': {
     title: 'Government Surveillance of Journalists and Whistleblowers',
@@ -1688,6 +1968,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2020', event: 'During the 2020 racial justice protests, the U.S', type: 'default' },
      { date: '2024', event: 'The case was resolved in 2024 when Assange entered a plea deal after five years in London\'s Belmarsh Prison', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Justice', role: 'Secretly seized journalists phone and email records to identify sources', status: 'pending', notes: 'Obama DOJ secretly obtained AP phone records. Trump DOJ seized records from CNN, NYT, WaPo reporters.' }
+
+    ],
   },
   'gerrymandering-theft-of-representation': {
     title: 'Gerrymandering: The Theft of Democratic Representation',
@@ -1730,6 +2016,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023', event: '1 (2023) (Section 2 VRA still requires consideration of race)', type: 'default' },
      { date: '2023', event: '1 (2023) (rejecting "independent state legislature" theory, preserving state court review)', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'State Legislatures (Both Parties)', role: 'Drew extreme partisan gerrymanders to entrench power and dilute opposing voters\' influence', status: 'pending', notes: 'SCOTUS ruled federal courts cannot review partisan gerrymandering (Rucho v. Common Cause 2019). Some state courts intervened.' }
+
+    ],
   },
   'google-antitrust-monopoly': {
     title: 'Google Antitrust Monopoly',
@@ -1765,6 +2057,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2022', event: 'Google paid Apple approximately $20 billion in 2022 alone (and $26.3 billion to all partners in 2021) to be the default search engine on Safari and iPhones, ensuring a self-reinforcing monopoly: mo', type: 'political' },
      { date: '2023', event: 'In a separate case, DOJ filed an antitrust lawsuit in January 2023 alleging Google monopolized the digital advertising technology stack, controlling the tools that publishers use to sell ads, the e', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Google/Alphabet', role: 'Maintained illegal monopoly in search and search advertising through exclusive default agreements', status: 'convicted', notes: 'Judge ruled Google holds illegal monopoly in August 2024 (DOJ v. Google). Remedies pending; DOJ seeks structural changes.' }
+
+    ],
   },
   'goldman-sachs-abacus-cdo-fraud': {
     title: 'Goldman Sachs ABACUS CDO Fraud',
@@ -1801,6 +2099,14 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2010-07-01', event: 'In July 2010, Goldman Sachs settled the SEC\'s civil fraud charges for $550 million, the largest SEC settlement with a Wall Street firm at that time', type: 'financial' },
      { date: '2013', event: 'Fabrice Tourre, the Goldman vice president who structured and marketed ABACUS, was found liable for fraud in a 2013 civil trial and ordered to pay $825,000', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Goldman Sachs', role: 'Created and sold CDOs it simultaneously bet against; misled investors about Abacus deal', status: 'settled', notes: 'Paid $550M SEC settlement in 2010; $5.06B DOJ settlement in 2016 for mortgage-backed securities fraud' },
+
+      { name: 'Fabrice Tourre', role: 'Goldman VP who designed Abacus CDO and misled investors about Paulson\'s short position', status: 'convicted', notes: 'Found liable by SEC jury in 2013; fined $825,000 and barred from industry' }
+
+    ],
   },
   'gun-industry-immunity-violence': {
     title: 'The Gun Industry: Legal Immunity, Lobbying, and 45,000 Annual Deaths',
@@ -1844,6 +2150,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2022', event: 'The ATF recovered over 25,000 ghost guns in 2022, a 1,000% increase from 2017', type: 'default' },
      { date: '2022-05-24', event: 'The Uvalde, Texas massacre (May 24, 2022, 19 children and 2 teachers killed) occurred in a school with armed officers who waited over an hour to confront the gunman', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'National Rifle Association (NRA)', role: 'Blocked gun safety legislation while engaging in self-dealing', status: 'charged', notes: 'NY AG dissolution suit. Wayne LaPierre liable for $5.4M. Russian spy infiltrated NRA.' }
+
+    ],
   },
   'genetic-data-privacy-exploitation': {
     title: 'Genetic Data Privacy Exploitation and DNA Surveillance',
@@ -1878,6 +2190,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023', event: '23andMe suffered a data breach in 2023 exposing the genetic data of 6.9 million users.', type: 'financial' },
      { date: '2024', event: 'The company then filed for bankruptcy in 2024, raising alarm about what would happen to its massive DNA database in liquidation.', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'U.S. Government', role: 'Unauthorized biological and medical experiments including Tuskegee and forced sterilization', status: 'pending', notes: 'Tuskegee withheld treatment from 399 Black men for 40 years. 60,000+ forcibly sterilized.' }
+
+    ],
   },
   'gerrymandering-democracy-subversion': {
     title: 'Partisan Gerrymandering and the Subversion of Democracy',
@@ -1915,6 +2233,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2018', event: 'In 2018, Democrats won every statewide office and 53% of the Assembly vote but won only 36 of 99 seats', type: 'political' },
      { date: '2023', event: 'When the Wisconsin Supreme Court flipped to liberal control in 2023, new maps were ordered, but the entrenched gerrymander had already delivered a decade of policy outcomes that did not reflect vot', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'State Legislatures (Both Parties)', role: 'Drew extreme partisan gerrymanders to entrench power and dilute opposing voters\' influence', status: 'pending', notes: 'SCOTUS ruled federal courts cannot review partisan gerrymandering (Rucho v. Common Cause 2019). Some state courts intervened.' }
+
+    ],
   },
   'gun-industry-liability-shield': {
     title: 'Gun Industry Liability Shield',
@@ -1951,6 +2275,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2021', event: 'gun manufacturers in 2021, arguing that their distribution practices fuel cross-border violence', type: 'default' },
      { date: '2022', event: 'The Remington settlement with Sandy Hook families, reached in 2022 for $73 million, succeeded only because it was based on a narrow exception for negligent marketing under Connecticut state law', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'National Rifle Association (NRA)', role: 'Blocked gun safety legislation while engaging in self-dealing', status: 'charged', notes: 'NY AG dissolution suit. Wayne LaPierre liable for $5.4M. Russian spy infiltrated NRA.' }
+
+    ],
   },
   'genocide-native-american-boarding-schools': {
     title: 'Native American Boarding Schools: A Century of Cultural Genocide',
@@ -1993,6 +2323,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Truth and Healing Commission on Indian Boarding School Policies Act was introduced in Congress in 2023 to establish a formal truth commission modeled on Canada\'s Truth and Reconciliation Commis...', type: 'political' },
      { date: '2024-07-01', event: 'Volume 1 identified 408 schools across 37 states (later revised upward to 523), discovered 53 burial sites associated with boarding schools, and confirmed over 500 named child deaths but emphasized', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government/Bureau of Indian Affairs', role: 'Operated 408+ boarding schools that forcibly removed 100,000+ Native children from families; thousands died', status: 'pending', notes: 'DOI investigation (2022) found 53 burial sites. Children beaten for speaking native languages. "Kill the Indian, save the man" policy.' }
+
+    ],
   },
   'guatemala-syphilis-experiments': {
     title: 'U.S. Government Syphilis Experiments in Guatemala (1946-1948)',
@@ -2035,6 +2371,12 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2015', event: 'The only legal consequence has been a $1 million settlement paid by Johns Hopkins University, Bristol-Myers Squibb, and the Rockefeller Foundation in 2015 to resolve a civil lawsuit filed by 774 Gu', type: 'legal' },
      { date: '2025', event: 'The experiments were funded by a $111,440 grant from the NIH (equivalent to approximately $1.8 million in 2025 dollars) and were conducted with the cooperation of Guatemalan health officials, thoug', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Dr. John Cutler', role: 'US Public Health Service researcher who deliberately infected 1,300+ Guatemalans with STDs without consent (1946-1948)', status: 'pending', notes: 'Experiments hidden until 2010. Obama apologized. US government settled for undisclosed amount.' }
+
+    ],
   },
   'georgia-rico': {
  title: 'Georgia Election RICO',
@@ -2185,6 +2527,7 @@ const investigations_g: Record<string, InvestigationData> = {
    { name: 'Texas Legislature', role: 'Racial gerrymandering targeting Latino voters', status: 'charged', notes: 'Abbott v. Perez, Supreme Court largely upheld maps despite evidence of racial targeting' },
    { name: 'North Carolina (Moore v. Harper)', role: 'Independent state legislature theory challenge', status: 'charged', notes: 'Supreme Court rejected ISL theory (2023) but case continues regarding state court authority' }
  ],
+
   },
   'grenada-invasion': {
  title: 'Grenada Invasion: Operation Urgent Fury',
@@ -2359,6 +2702,7 @@ const investigations_g: Record<string, InvestigationData> = {
    { name: 'Gina Haspel', role: 'Overseeing torture / destroying evidence', status: 'charged', notes: 'Promoted to CIA Director in 2018 despite running black site and ordering destruction of 92 interrogation videotapes' },
    { name: '741 Released Detainees', role: 'Most never charged with any crime', status: 'charged', notes: 'Held for years without trial; many tortured; released with no compensation, no apology, no legal recourse' }
  ],
+
   },
   'guatemala-coup-1954': {
  title: '1954 Guatemala Coup (Operation PBSUCCESS)',
@@ -2448,6 +2792,7 @@ const investigations_g: Record<string, InvestigationData> = {
    { name: 'Guatemalan State', role: 'Genocide, as determined by UN Historical Clarification Commission', status: 'charged', notes: 'Commission found state responsible for 93% of human rights violations; 83% of victims were indigenous Maya' },
    { name: 'Bill Clinton (U.S. President)', role: 'N/A - formal acknowledgment', status: 'charged', notes: 'Apologized in 1999 for U.S. role in supporting Guatemalan military during civil war' }
  ],
+
   },
   'guatemala-genocide': {
  title: 'The Guatemalan Genocide',
@@ -2621,6 +2966,7 @@ const investigations_g: Record<string, InvestigationData> = {
    { name: 'Admiral U.S. Grant Sharp Jr.', role: 'Pressuring subordinates to confirm false attack reports', status: 'charged', notes: 'Never charged, retired with honors in 1968' },
    { name: 'Daniel Ellsberg', role: 'Espionage, theft, conspiracy (for leaking Pentagon Papers exposing the lies)', status: 'charged', notes: 'All charges dismissed in 1973 due to government misconduct including illegal wiretapping' }
  ],
+
   },
   'gun-violence-inaction': {
  title: 'Gun Violence Legislative Inaction',

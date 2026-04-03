@@ -50,6 +50,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2022-11', event: 'COP27 establishes "loss and damage" fund for climate-vulnerable nations after decades of US resistance. Funding commitments remain far below estimated needs', type: 'political' },
      { date: '2023', event: 'Developing countries pay $4.2 trillion in debt service over the prior decade, exceeding total aid received, demonstrating that net financial flows run from poor to rich countries', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'nra-russia': {
  title: 'NRA Russia Investigation',
@@ -90,6 +98,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2018-12-01', event: 'She pleaded guilty to conspiracy to act as an unregistered foreign agent in December 2018', type: 'legal' },
      { date: '2021', event: 'BUTINA CONVICTION: Butina was sentenced to 18 months in prison, then deported to Russia where she was elected to the Russian parliament (Duma) in 2021', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Maria Butina', role: 'Russian agent who infiltrated NRA to establish back-channel to Republican Party', status: 'convicted', notes: 'Pled guilty to conspiracy to act as foreign agent; sentenced to 18 months. Deported to Russia; now serves in Russian parliament.' },
+
+   { name: 'Alexander Torshin', role: 'Russian central banker who directed Butina\'s infiltration of NRA and Republican circles', status: 'charged', notes: 'US sanctioned. Spanish investigation linked him to Russian organized crime. Cannot be extradited.' }
+
+ ],
  },
   'ny-civil-fraud': {
  title: 'New York Civil Fraud Case',
@@ -134,6 +150,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2023-10-01', event: 'THE TRIAL: A non-jury trial ran from October 2023 to January 2024', type: 'legal' },
      { date: '2024-02-01', event: 'THE JUDGMENT: In February 2024, Engoron ordered $364 million in disgorgement plus interest, totaling approximately $454 million', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Systematically inflated property values to obtain favorable loans and insurance rates', status: 'convicted', notes: 'Found liable for fraud by Judge Engoron in 2024; ordered to pay $454M (reduced from $464M on appeal bond).' },
+
+   { name: 'Allen Weisselberg', role: 'Trump Organization CFO who facilitated tax fraud and financial misstatements', status: 'convicted', notes: 'Pled guilty to tax fraud (2022, 5 months jail) and perjury (2024, 5 months jail). Key financial gatekeeper.' }
+
+ ],
  },
   'nra-corruption': {
  title: 'NRA Corruption & Russian Infiltration',
@@ -179,6 +203,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2016', event: 'The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending.', type: 'financial' },
      { date: '2024', event: 'In 2024, a New York jury found LaPierre liable for diverting NRA funds.', type: 'financial' }
      ],
+
+ defendants: [
+
+   { name: 'Wayne LaPierre', role: 'NRA CEO who diverted millions in NRA funds for personal luxury including private jets, yachts, and suits', status: 'convicted', notes: 'Found liable in 2024 civil trial for diverting $5.4M in NRA funds. Resigned January 2024.' },
+
+   { name: 'NRA (Organization)', role: 'Tax-exempt organization that was operated as personal piggy bank by leadership', status: 'charged', notes: 'NY AG civil fraud suit ongoing since 2020' }
+
+ ],
  },
   'neocon-network': {
  title: 'Neoconservative Network',
@@ -225,6 +257,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1998', event: 'In January 1998, PNAC wrote President Clinton urging "removing Saddam Hussein and his regime from power." They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
      { date: '1998-01', event: 'In January 1998, PNAC wrote President Clinton urging "removing Saddam Hussein and his regime from power." They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'nih-wuhan': {
  title: 'NIH Funding to Wuhan Institute of Virology',
@@ -267,6 +307,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2019', event: 'Researchers reportedly became ill with COVID-like symptoms in fall 2019', type: 'default' },
      { date: '2024', event: 'ECOHEALTH DEBARMENT: In 2024, HHS debarred EcoHealth Alliance and Peter Daszak from federal funding for failures in grant management and oversight', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Government Officials', role: 'Mismanaged pandemic response resulting in preventable deaths', status: 'pending', notes: 'U.S. suffered 1.1M+ COVID deaths. PPE shortages, testing delays documented.' },
+
+   { name: 'EcoHealth Alliance', role: 'Funneled NIH grants to Wuhan Institute for gain-of-function research', status: 'charged', notes: 'NIH terminated grant. Congressional investigations found inadequate disclosures.' }
+
+ ],
  },
   'nestle-baby-formula': {
  title: 'Nestlé Baby Formula Scandal',
@@ -305,6 +353,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1984', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
      { date: '1988', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Nestle', role: 'Extracted water from drought-stricken communities; baby formula marketing caused infant deaths in developing world', status: 'charged', notes: 'Marketed formula over breastmilk causing infant mortality. Extracted CA water for $524/year during drought. Forced labor in cocoa supply chain.' }
+
+ ],
  },
   'nbc-misconduct': {
  title: 'NBC\'s Pattern of Institutional Misconduct',
@@ -343,6 +397,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2017-10-01', event: 'Farrow took the story to the New Yorker, which published it in October 2017 and won the Pulitzer Prize', type: 'default' },
      { date: '2017-11-01', event: 'Matt Lauer, NBC\'s highest-paid anchor earning $25 million annually, was fired in November 2017 after allegations of rape and sustained sexual harassment', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'Matt Lauer', role: 'NBC Today anchor who sexually assaulted and harassed multiple women at NBC', status: 'pending', notes: 'Fired in 2017. Ronan Farrow alleged NBC killed Weinstein story to protect Lauer. NBC denied.' }
+
+ ],
  },
   'nestle-human-rights': {
  title: 'Nestle: The World\'s Most Controversial Food Company',
@@ -386,6 +446,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2020', event: 'Nestle\'s cocoa supply chain relies on approximately 1.56 million children working in hazardous conditions on cocoa farms in West Africa, according to a 2020 NORC study', type: 'financial' },
      { date: '2021', event: 'A 2021 Supreme Court case (Nestle USA v', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Nestle', role: 'Extracted water from drought-stricken communities; baby formula marketing caused infant deaths in developing world', status: 'charged', notes: 'Marketed formula over breastmilk causing infant mortality. Extracted CA water for $524/year during drought. Forced labor in cocoa supply chain.' }
+
+ ],
  },
   'news-of-the-world-hacking': {
  title: 'News of the World Phone Hacking Scandal',
@@ -424,6 +490,16 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2011', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of people between 2000 and...', type: 'default' },
      { date: '2011-07', event: 'The scandal erupted in July 2011 when the Guardian newspaper reported that News of the World journalists had hacked the phone of Milly Dowler, a 13-year-old murder victim, while she was still missing.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Rupert Murdoch/News Corp', role: 'Owned News of the World which systematically hacked phones of celebrities, crime victims, and politicians', status: 'settled', notes: 'Paper shut down in 2011. News Corp paid £1B+ in settlements. UK Leveson Inquiry exposed culture of lawlessness.' },
+
+   { name: 'Andy Coulson', role: 'News of the World editor who oversaw phone hacking operation', status: 'convicted', notes: 'Convicted of conspiracy to intercept phone calls in 2014; served 5 months' },
+
+   { name: 'Rebekah Brooks', role: 'News International CEO and former NOTW editor during hacking period', status: 'acquitted', notes: 'Acquitted of all charges in 2014. Reinstated as CEO of News UK.' }
+
+ ],
  },
   'nxivm-cult': {
  title: 'NXIVM: The Sex Cult Disguised as a Self-Help Organization',
@@ -460,6 +536,16 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2018-03', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
      { date: '2019-06', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Keith Raniere', role: 'NXIVM founder who ran sex trafficking cult that branded women and kept them as slaves', status: 'convicted', notes: 'Convicted on all counts including sex trafficking and racketeering in 2019; sentenced to 120 years.' },
+
+   { name: 'Allison Mack', role: 'Actress who recruited women into DOS, NXIVM\'s secret sex slave group', status: 'convicted', notes: 'Pled guilty to racketeering conspiracy; sentenced to 3 years' },
+
+   { name: 'Clare Bronfman', role: 'Seagram\'s heiress who funded NXIVM operations and helped obstruct investigations', status: 'convicted', notes: 'Pled guilty to harboring an illegal alien and credit card fraud; sentenced to 6 years 9 months' }
+
+ ],
  },
   'nypd-chokehold': {
  title: 'NYPD Chokehold Deaths: Banned in Policy, Used in Practice',
@@ -500,6 +586,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2019-08-01', event: 'Pantaleo was finally fired by the NYPD in August 2019, five years after Garner\'s death, following a departmental trial that found he had used a prohibited chokehold', type: 'legal' },
      { date: '2020-06-01', event: 'In June 2020, the New York City Council passed the Eric Garner Anti-Chokehold Act (known as "I Can\'t Breathe" legislation), making it a criminal misdemeanor for a police officer to use a chokehold ...', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'NYPD (Institutional)', role: 'Systemic racial profiling through stop-and-frisk (5M+ stops mostly of Black/Latino men) and illegal chokeholds', status: 'charged', notes: 'Federal court found stop-and-frisk unconstitutional in Floyd v. NYC (2013). Eric Garner killed by chokehold in 2014.' }
+
+ ],
  },
   'nypd-racial-profiling': {
  title: 'NYPD Racial Profiling: Stop-and-Frisk and Systemic Discrimination',
@@ -540,6 +632,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2013', event: 'City of New York (2013), Federal Judge Shira Scheindlin found that the NYPD\'s stop-and-frisk program violated both the Fourth Amendment (unreasonable search and seizure) and the Fourteenth Amendmen...', type: 'legal' },
      { date: '2013', event: 'The decline in stops after 2013 (from 685,000 to under 12,000 annually) was not accompanied by an increase in crime, directly contradicting the NYPD\'s argument that mass stops were necessary for pu...', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'NYPD (Institutional)', role: 'Systemic racial profiling through stop-and-frisk (5M+ stops mostly of Black/Latino men) and illegal chokeholds', status: 'charged', notes: 'Federal court found stop-and-frisk unconstitutional in Floyd v. NYC (2013). Eric Garner killed by chokehold in 2014.' }
+
+ ],
  },
   'nsa-stellarwind-warrantless-wiretapping': {
     title: 'NSA Stellarwind Warrantless Wiretapping',
@@ -581,6 +679,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2007', event: 'The Protect America Act of 2007 temporarily authorized warrantless surveillance of international communications', type: 'default' },
      { date: '2008', event: 'The FISA Amendments Act of 2008 made the authority permanent, expanded it significantly, and granted retroactive immunity to telecommunications companies that had cooperated with the illegal progra', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (U.S. Government)', role: 'Conducted mass surveillance of Americans\' phone records and internet communications without warrants', status: 'pending', notes: 'Snowden revelations (2013) exposed PRISM, XKeyscore, and bulk metadata collection. FISA Court rubber-stamped requests.' },
+
+      { name: 'James Clapper', role: 'DNI who lied to Congress under oath about NSA mass surveillance', status: 'pending', notes: 'Told Senate Intelligence Committee NSA did "not wittingly" collect data on millions of Americans. No perjury charges.' }
+
+    ],
   },
   'nuclear-weapons-complex-environmental-crime': {
     title: 'Nuclear Weapons Complex Environmental Crime',
@@ -624,6 +730,16 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2017', event: 'A 2017 study found plutonium contamination in soil and dust surrounding the former plant site, now designated a wildlife refuge where public hiking trails pass through areas with residual contamina', type: 'default' },
      { date: '2024', event: 'As of 2024, the program has paid over $25 billion to approximately 200,000 claimants', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'narrative-control-through-search-algorithms': {
     title: 'Narrative Control Through Search Algorithms',
@@ -661,6 +777,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, internal documents revealed that Google maintained "blacklists" of websites excluded from certain search features, contradicting public statements', type: 'default' },
      { date: '2024', event: 'The European Union\'s Digital Markets Act (2024) imposed some transparency requirements, but enforcement has been limited', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'nightclub-industry-criminal-networks': {
     title: 'Nightclub Industry Criminal Networks',
@@ -695,6 +819,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1996', event: 'Promoter Michael Alig murdered drug dealer Andre "Angel" Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess.', type: 'default' },
      { date: '2023', event: 'The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environments, with', type: 'default' }
      ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'nuclear-waste-storage-failure-points': {
     title: 'Nuclear Waste Storage Failure Points',
@@ -736,6 +866,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2019', event: 'DOE attempted to reclassify some high-level waste as low-level waste in 2019 to reduce cleanup obligations; environmental groups challenged this as an illegal attempt to avoid proper disposal', type: 'default' },
      { date: '2024', event: 'Utilities sued under their contracts, and the government has paid over $9 billion in damages as of 2024, with projected future payments exceeding $30 billion', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (AEC/DOE)', role: 'Conducted atmospheric nuclear tests exposing millions of "downwinders" to radiation; contaminated vast areas', status: 'settled', notes: 'Radiation Exposure Compensation Act (1990) paid $2.4B to victims. Marshall Islands residents still displaced.' }
+
+    ],
   },
   'nanjing-massacre': {
     title: 'Nanjing Massacre (Rape of Nanjing)',
@@ -777,6 +913,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1945', event: 'Following Japan\'s surrender in 1945, the International Military Tribunal for the Far East (Tokyo Tribunal) tried Class A war criminals', type: 'default' },
      { date: '1948', event: 'General Iwane Matsui, commander of the Central China Area Army, was convicted of war crimes for failing to prevent the Nanjing atrocities and executed in 1948', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Imperial Japanese Army', role: 'Murdered an estimated 200,000-300,000 Chinese civilians and POWs in Nanjing over 6 weeks starting December 1937', status: 'convicted', notes: 'Tokyo War Crimes Tribunal convicted commanders including General Matsui (executed 1948)' }
+
+    ],
   },
   'north-korean-prison-camps': {
     title: 'North Korean Political Prison Camps (Kwanliso)',
@@ -818,6 +960,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2012', event: 'Camp 22 (Hoeryong), which reportedly held 50,000 prisoners, was closed around 2012 - satellite imagery suggests prisoners were relocated, not released', type: 'default' },
      { date: '2013', event: 'The UN Commission of Inquiry on Human Rights in the DPRK, established in 2013 and chaired by Justice Michael Kirby, published its landmark report in 2014 concluding that North Korea committed crime', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'nuclear-testing-human-experimentation': {
     title: 'Nuclear Testing and Human Radiation Experiments',
@@ -859,6 +1009,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1994', event: 'HUMAN RADIATION EXPERIMENTS: The Advisory Committee on Human Radiation Experiments (ACHRE), established by President Clinton in 1994, identified at least 4,000 government-sponsored radiation experi', type: 'political' },
      { date: '1997', event: 'A 1997 National Cancer Institute study estimated that atmospheric nuclear testing produced 150 million curies of iodine-131 fallout across the continental United States, with cumulative doses in so', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (AEC/DOE)', role: 'Conducted atmospheric nuclear tests exposing millions of "downwinders" to radiation; contaminated vast areas', status: 'settled', notes: 'Radiation Exposure Compensation Act (1990) paid $2.4B to victims. Marshall Islands residents still displaced.' }
+
+    ],
   },
   'nsa-warrantless-wiretapping': {
     title: 'NSA Warrantless Wiretapping: From Stellar Wind to Section 702',
@@ -899,6 +1055,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2013', event: 'In 2013, a declassified FISC opinion revealed that the court had approved the NSA\'s bulk collection of all American telephone metadata under Section 215 of the Patriot Act - an interpretation of "r...', type: 'legal' },
      { date: '2023', event: 'A 2023 FISC compliance report revealed that the FBI conducted 278,000 backdoor searches of Section 702 data using U.S', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (U.S. Government)', role: 'Conducted mass surveillance of Americans\' phone records and internet communications without warrants', status: 'pending', notes: 'Snowden revelations (2013) exposed PRISM, XKeyscore, and bulk metadata collection. FISA Court rubber-stamped requests.' },
+
+      { name: 'James Clapper', role: 'DNI who lied to Congress under oath about NSA mass surveillance', status: 'pending', notes: 'Told Senate Intelligence Committee NSA did "not wittingly" collect data on millions of Americans. No perjury charges.' }
+
+    ],
   },
   'nursing-home-profiteering-crisis': {
     title: 'Nursing Home Profiteering Crisis',
@@ -936,6 +1100,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2024-04-01', event: 'The rule was finalized in April 2024 but faced immediate legal challenges from the nursing home industry', type: 'default' },
      { date: '2025', event: 'As of 2025, CMS data shows that over 1,000 nursing homes have closed since 2015, disproportionately in rural and low-income communities', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Nursing Home Industry', role: 'Chronic understaffing and neglect in for-profit nursing homes leading to preventable deaths', status: 'charged', notes: '1/3 of COVID deaths were in nursing homes. CMS found widespread deficiencies. Industry lobbied against staffing mandates.' }
+
+    ],
   },
   'nestle-water-extraction-privatization': {
     title: 'Nestle Water Extraction and Privatization',
@@ -972,6 +1142,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2021', event: 'Nestle Waters North America (rebranded as BlueTriton Brands in 2021 after sale to One Rock Capital Partners) operated the largest water bottling operation in the United States under brands includin', type: 'default' },
      { date: '2023', event: 'The global bottled water market reached $350 billion in 2023, built largely on water extracted from public sources for virtually nothing', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Nestle', role: 'Extracted water from drought-stricken communities; baby formula marketing caused infant deaths in developing world', status: 'charged', notes: 'Marketed formula over breastmilk causing infant mortality. Extracted CA water for $524/year during drought. Forced labor in cocoa supply chain.' }
+
+    ],
   },
   'nuclear-testing-fallout-veterans': {
     title: 'Nuclear Testing Fallout: Irradiated Citizens and Abandoned Veterans',
@@ -1011,6 +1187,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '1997', event: 'A 1997 National Cancer Institute study estimated that atmospheric testing exposed virtually every person living in the United States to some level of I-131 fallout, with cumulative thyroid doses pa', type: 'default' },
      { date: '2024', event: 'In 2024, a bipartisan bill to reauthorize and expand RECA passed the Senate but was blocked from a House vote', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (AEC/DOE)', role: 'Conducted atmospheric nuclear tests exposing millions of "downwinders" to radiation; contaminated vast areas', status: 'settled', notes: 'Radiation Exposure Compensation Act (1990) paid $2.4B to victims. Marshall Islands residents still displaced.' }
+
+    ],
   },
   'nsa-mass-surveillance-constitutional-erosion': {
     title: 'NSA Mass Surveillance and Constitutional Rights Erosion',
@@ -1047,6 +1229,14 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2021', event: 'In 2021, the FBI conducted 3.4 million warrantless searches of Section 702 data for information about U.S', type: 'financial' },
      { date: '2024', event: 'Section 702 was reauthorized in 2024 with an expanded definition of "electronic communications service provider" that critics warn could compel any business with access to communications equipment', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (U.S. Government)', role: 'Conducted mass surveillance of Americans\' phone records and internet communications without warrants', status: 'pending', notes: 'Snowden revelations (2013) exposed PRISM, XKeyscore, and bulk metadata collection. FISA Court rubber-stamped requests.' },
+
+      { name: 'James Clapper', role: 'DNI who lied to Congress under oath about NSA mass surveillance', status: 'pending', notes: 'Told Senate Intelligence Committee NSA did "not wittingly" collect data on millions of Americans. No perjury charges.' }
+
+    ],
   },
   'nursing-home-neglect-deaths': {
     title: 'Nursing Home Neglect, Abuse, and Preventable Deaths',
@@ -1084,6 +1274,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, 80% of nursing homes were cited for at least one deficiency, but only 2% received fines', type: 'financial' },
      { date: '2023', event: 'The Biden administration proposed minimum staffing standards in 2023, but industry lobbying has weakened and delayed implementation', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Nursing Home Industry', role: 'Chronic understaffing and neglect in for-profit nursing homes leading to preventable deaths', status: 'charged', notes: '1/3 of COVID deaths were in nursing homes. CMS found widespread deficiencies. Industry lobbied against staffing mandates.' }
+
+    ],
   },
   'nuclear-waste-storage-crisis': {
     title: 'Nuclear Waste Storage Crisis and Regulatory Failure',
@@ -1122,6 +1318,12 @@ const investigations_n: Record<string, InvestigationData> = {
      { date: '2024', event: 'The NRC approved Holtec\'s license in 2024, but New Mexico\'s governor and attorney general have vowed to block construction', type: 'default' },
      { date: '2025', event: 'Finland\'s Onkalo repository is under construction and will begin accepting waste in 2025, making it the world\'s first operational permanent repository', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (AEC/DOE)', role: 'Conducted atmospheric nuclear tests exposing millions of "downwinders" to radiation; contaminated vast areas', status: 'settled', notes: 'Radiation Exposure Compensation Act (1990) paid $2.4B to victims. Marshall Islands residents still displaced.' }
+
+    ],
   },
   'native-american-genocide': {
  title: 'Native American Genocide',
@@ -1448,7 +1650,10 @@ const investigations_n: Record<string, InvestigationData> = {
    { name: 'In re Directives to Yahoo (2008)', role: 'Yahoo\\', status: 'charged', notes: 'FISA Court upheld order and threatened $250,000/day fines for noncompliance. Revealed companies were forced to participate.' },
    { name: 'USA FREEDOM Act (2015)', role: 'Legislative reform of surveillance authorities', status: 'charged', notes: 'Ended bulk metadata collection. Left Section 702, EO 12333, and Five Eyes sharing intact. No accountability for past illegality.' }
  ],
-  },
+
+
+
+},
   'nuclear-testing-victims': {
  title: 'Nuclear Testing Victims',
  subtitle: 'Downwinders, Marshall Islanders, and Atomic Veterans, Over 1,000 Nuclear Tests and Millions Irradiated',
@@ -1533,6 +1738,7 @@ const investigations_n: Record<string, InvestigationData> = {
    { name: 'US Government', role: 'Failure to clean up Marshall Islands testing sites', status: 'charged', notes: 'Bikini Atoll remains uninhabitable 80 years after testing' },
    { name: 'AEC/DOE', role: 'Deliberate concealment of radiation health effects', status: 'charged', notes: 'Declassified documents confirm cover-up but no prosecutions' }
  ],
+
   },
 };
 

@@ -57,6 +57,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2010-01-01', from: 'Dark money organizations', to: 'Federal election campaigns', amount: '$1,000,000,000', purpose: 'Total dark money spent on federal elections from 2010-2022 per Brennan Center analysis', documented: true },
      { date: '2022-01-01', from: 'Barre Seid', to: 'Marble Freedom Trust (Leonard Leo)', amount: '$1,600,000,000', purpose: 'Single largest known political donation in US history — electronics company sale proceeds', documented: true }
    ],
+
+ defendants: [
+
+   { name: 'Leonard Leo', role: 'Federalist Society co-chairman who directed $1.6B dark money network to reshape federal judiciary', status: 'pending', notes: 'Subject of Senate Judiciary investigation; no charges. ProPublica exposed massive dark money flows.' },
+
+   { name: 'Donors Trust / Donors Capital Fund', role: 'Dark money pass-through that laundered hundreds of millions to political organizations', status: 'pending', notes: 'Served as conduit for anonymous donations to conservative causes since 1999' }
+
+ ],
  },
   'doj-politicization': {
  title: 'DOJ Politicization Under Trump',
@@ -111,6 +119,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-12-27', event: 'Trump pressures Acting AG Jeffrey Rosen to declare election fraud and "leave the rest to me and the Republican congressmen." Rosen refuses. Trump considers installing Jeffrey Clark', type: 'critical' },
      { date: '2022-12-22', event: 'January 6 Committee final report documents Trump\'s systematic efforts to weaponize DOJ, including pressuring officials to overturn election results and install a loyalist as AG', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Justice', role: 'Pattern of politicized prosecutions and selective enforcement', status: 'pending', notes: 'Inspector General reports documented political interference across multiple administrations' },
+
+   { name: 'William Barr', role: 'Attorney General who misrepresented Mueller Report findings', status: 'pending', notes: 'Issued misleading summary of Mueller Report. Intervened in cases of political allies.' }
+
+ ],
  },
   'dhs-violations': {
  title: 'DHS Human Rights Violations',
@@ -161,6 +177,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019-06', event: 'Reports emerge of migrant children held in overcrowded Clint, Texas facility without soap, toothbrushes, or adequate food. DHS lawyer argues in court that the government is not required to provide these items', type: 'default' },
      { date: '2021-01', event: 'DHS Inspector General reports document systemic failures in medical care, overcrowding, and conditions of confinement across CBP and ICE facilities', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+   { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+ ],
  },
   'dobbs-aftermath': {
  title: 'Post-Dobbs Reproductive Healthcare Crisis',
@@ -215,6 +239,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2024-09', event: 'ProPublica reveals Amber Thurman died of sepsis in Georgia after doctors delayed a routine D&C procedure for 20 hours, fearing prosecution under the state\'s six-week abortion ban', type: 'critical' },
      { date: '2024-11', event: 'Voters in seven states pass abortion-rights ballot measures in the November election; abortion rights prevail in every state where it appears on the ballot, including red states', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Supreme Court Majority (6-3)', role: 'Overturned Roe v. Wade in Dobbs v. Jackson (2022), ending 49 years of federal abortion rights', status: 'pending', notes: 'Justices Alito, Thomas, Gorsuch, Kavanaugh, Barrett, Roberts. Draft opinion was unprecedented leak.' }
+
+ ],
  },
   'doj-corruption': {
  title: 'DOJ Politicization',
@@ -261,6 +291,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-12-27', event: 'Trump tells Acting AG Rosen to "just say the election was corrupt and leave the rest to me." Rosen refuses. Trump nearly installs Jeffrey Clark, who would have declared fraud', type: 'critical' },
      { date: '2022-12', event: 'January 6 Committee documents full scope of DOJ politicization including Trump\'s attempt to install a loyalist to weaponize the department against election results', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Department of Justice', role: 'Pattern of politicized prosecutions and selective enforcement', status: 'pending', notes: 'Inspector General reports documented political interference across multiple administrations' },
+
+   { name: 'William Barr', role: 'Attorney General who misrepresented Mueller Report findings', status: 'pending', notes: 'Issued misleading summary of Mueller Report. Intervened in cases of political allies.' }
+
+ ],
  },
   'dakota-access-pipeline': {
  title: 'Dakota Access Pipeline',
@@ -309,6 +347,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2017-06-01', event: 'The pipeline was completed and began operating in June 2017', type: 'default' },
      { date: '2020', event: 'A 2020 ruling ordered the pipeline shut down pending environmental review, but an appeals court allowed continued operation', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Energy Transfer Partners', role: 'Pipeline company that used private security firms deploying dogs and water cannons against Standing Rock protesters', status: 'pending', notes: 'Hired TigerSwan, a military contractor, for domestic surveillance of protesters' },
+
+   { name: 'TigerSwan', role: 'Private military contractor that conducted military-style surveillance on Standing Rock water protectors', status: 'charged', notes: 'Operated without required ND private investigation license; infiltrated protest camps' }
+
+ ],
  },
   'drone-assassinations': {
  title: 'Drone Assassination Program',
@@ -373,6 +419,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021-08-29', event: 'Drone strike on "imminent ISIS threat" in Kabul kills 10 civilians including 7 children from Ahmadi family. Military initially calls it "righteous"', type: 'critical' },
      { date: '2021-12-18', event: 'NY Times investigation reveals Pentagon covered up pattern of civilian casualties. Documents show thousands of previously unreported civilian deaths' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Government (Multiple Administrations)', role: 'Conducted drone strikes killing thousands of civilians in Pakistan, Yemen, Somalia, and Afghanistan', status: 'pending', notes: 'Obama authorized 542 drone strikes; Trump loosened rules of engagement. No accountability for civilian deaths.' }
+
+ ],
  },
   'democratic-backsliding': {
  title: 'Democratic Backsliding in America',
@@ -418,6 +470,12 @@ const investigations_d: Record<string, InvestigationData> = {
         { date: '2023', event: 'V-Dem Institute data shows U.S. democratic quality continuing to decline across multiple dimensions including freedom of expression, judicial independence, and electoral integrity', type: 'default' },
         { date: '2025-01', event: 'Project 2025 implementation begins: mass firings of civil servants, installation of loyalists across agencies, consolidation of executive power. Democracy scholars warn of authoritarian trajectory', type: 'critical' }
       ],
+
+ defendants: [
+
+   { name: 'Heritage Foundation', role: 'Authored Project 2025 to consolidate executive power and dismantle agencies', status: 'pending', notes: '920-page plan to replace civil servants with loyalists, eliminate Dept of Education.' }
+
+ ],
  },
   'daniel-shaver-police-killing': {
  title: 'Daniel Shaver Police Killing',
@@ -460,6 +518,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2018-08', event: 'Mesa PD temporarily rehires Brailsford so he can apply for a $31,000/year PTSD disability pension from the killing. He is 28 years old', type: 'default' },
      { date: '2019-07', event: 'Shaver\'s wife settles wrongful death lawsuit against the City of Mesa for an undisclosed amount. Sgt. Charles Langley, who gave the contradictory commands, has fled to the Philippines', type: 'legal' }
      ],
+
+ defendants: [
+
+   { name: 'Philip Brailsford', role: 'Mesa, AZ police officer who shot and killed Daniel Shaver as he crawled on his knees begging for his life', status: 'acquitted', notes: 'Acquitted of murder in 2017. Body camera footage showed Shaver following confusing commands while sobbing. Brailsford later rehired briefly to receive pension.' }
+
+ ],
  },
   'defense-tech-oligarchy': {
  title: 'Defense Tech Oligarchy',
@@ -505,6 +569,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2024', event: 'Anduril reaches $14 billion valuation. Palantir exceeds $50 billion market cap. Combined defense tech startup sector exceeds $100 billion in government contract value', type: 'financial' },
      { date: '2024-11', event: 'Musk appointed to lead Department of Government Efficiency (DOGE), gaining access to sensitive government systems while maintaining active SpaceX defense contracts; an unprecedented conflict of interest', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+   { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+ ],
  },
   'disinformation': {
  title: 'Disinformation: The Architecture of Manufactured Reality',
@@ -545,6 +617,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023-04', event: 'Fox News pays $787.5 million to settle Dominion Voting Systems defamation lawsuit after internal communications prove hosts knowingly broadcast false election fraud claims', type: 'financial' },
      { date: '2024', event: 'AI-generated deepfakes proliferate including a robocall mimicking President Biden\'s voice sent to thousands of New Hampshire voters. Cost of producing convincing disinformation drops to near zero', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Social Media Platforms', role: 'Algorithms amplified disinformation for engagement and profit, undermining public discourse', status: 'pending', notes: 'Facebook whistleblower Frances Haugen revealed company chose profits over safety. Congressional hearings but limited legislation.' }
+
+ ],
  },
   'domestic-extremism': {
  title: 'Domestic Extremism: America\'s Homegrown Terror Threat',
@@ -590,6 +668,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021-01-06', event: 'Thousands storm the U.S. Capitol to prevent certification of the 2020 election. Proud Boys and Oath Keepers leaders later convicted of seditious conspiracy', type: 'critical' },
      { date: '2023', event: 'FBI Director Christopher Wray testifies that domestic terrorism cases have more than doubled since 2020, with the bureau maintaining approximately 2,700 active investigations', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
+
+ ],
  },
   'domestic-terrorism-in-america': {
  title: 'Domestic Terrorism in America',
@@ -642,6 +726,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022-05-14', event: 'White supremacist Payton Gendron murders 10 Black people at a grocery store in Buffalo, New York. He livestreamed the attack and cited the "Great Replacement" conspiracy theory in a 180-page manifesto', type: 'critical' },
      { date: '2023', event: 'FBI Director testifies that domestic terrorism caseload has more than doubled since 2020. ADL data shows right-wing extremists committed 75% of all domestic extremist murders between 2012-2021', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
+
+ ],
  },
   'donor-crimes': {
  title: 'Donor Crimes: When Political Money Comes From Criminal Enterprise',
@@ -680,6 +770,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020', event: 'Super PACs and 501(c)(4) organizations became conduits for anonymous money, with total dark money spending exceeding $1 billion in the 2020 election cycle alone.', type: 'political' },
      { date: '2022', event: 'His donations made him one of the largest political donors in the 2022 election cycle before his fraud empire collapsed.', type: 'political' }
      ],
+
+ defendants: [
+
+   { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+   { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+ ],
  },
   'drone-strike-program': {
  title: 'U.S. Drone Strike Program: Assassination by Algorithm',
@@ -723,6 +821,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-01-03', event: 'U.S. drone kills Iranian General Qasem Soleimani at Baghdad airport, nearly triggering open war with Iran', type: 'critical' },
      { date: '2021-08-29', event: 'Drone strike on "imminent ISIS threat" in Kabul kills 10 civilians including 7 children from the Ahmadi family. Military initially calls it "righteous." No one disciplined', type: 'critical' }
    ],
+
+ defendants: [
+
+   { name: 'U.S. Government (Multiple Administrations)', role: 'Conducted drone strikes killing thousands of civilians in Pakistan, Yemen, Somalia, and Afghanistan', status: 'pending', notes: 'Obama authorized 542 drone strikes; Trump loosened rules of engagement. No accountability for civilian deaths.' }
+
+ ],
  },  'drug-price-gouging': {
  title: 'Pharmaceutical Drug Price Gouging',
  subtitle: 'Systematic exploitation of patients through manufactured scarcity, patent manipulation, and predatory pricing',
@@ -771,6 +875,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021', event: 'Pharmaceutical industry spends $356 million on lobbying; more than any other industry. CEO compensation averages $16.3 million. The top 10 pharma executives collectively earn over $350 million', type: 'financial' },
      { date: '2022-08', event: 'Inflation Reduction Act signed; allows Medicare to negotiate prices on just 10 drugs initially. Eli Lilly, Novo Nordisk, and Sanofi announce insulin price caps around $35 after years of public pressure', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Pharmaceutical Industry', role: 'Raised prices on essential drugs far beyond inflation; insulin went from $21 (1999) to $275 (2019)', status: 'charged', notes: 'Senate investigation found no economic justification. Medicare negotiation authority gained in IRA (2022) for limited drugs.' }
+
+ ],
  },
   'dupont-crimes': {
  title: 'DuPont: A Century of Chemical Crimes',
@@ -810,6 +920,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, DuPont, Chemours, and Corteva (another DuPont spinoff) agreed to pay $1.185 billion to settle PFAS contamination claims from U.S', type: 'political' },
      { date: '2024', event: 'The EPA set its first enforceable PFAS drinking water limits in 2024; over 60 years after DuPont knew the chemicals were dangerous', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'DuPont', role: 'Concealed PFOA/C8 contamination of water supplies near Parkersburg, WV for decades while knowing of health risks', status: 'settled', notes: 'Paid $671M to settle 3,550 personal injury claims in 2017. Internal documents showed decades of concealment.' },
+
+   { name: 'Chemours (DuPont spinoff)', role: 'Created as liability shield to separate DuPont from PFAS obligations', status: 'settled', notes: 'Assumed PFAS liabilities in 2015 spinoff; ongoing litigation' }
+
+ ],
  },
   'disinformation-warfare-infrastructure': {
     title: 'Disinformation Warfare Infrastructure',
@@ -848,6 +966,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'Team Jorge, an Israeli disinformation-for-hire operation, exposed by journalist consortium. The group offered election manipulation services worldwide using AIMS software managing thousands of fake accounts with AI-generated profiles', type: 'political' },
      { date: '2024', event: 'AI-generated robocall mimicking President Biden\'s voice sent to thousands of New Hampshire voters urging them not to vote in the primary. Cost of synthetic disinformation drops to fractions of a cent per piece', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Sinclair Broadcast Group', role: 'Forced local news anchors to read identical conservative scripts', status: 'pending', notes: 'Controls 185+ stations. Required anchors to read corporate talking points.' },
+
+      { name: 'Fox News/News Corp', role: 'Amplified disinformation including election fraud claims known false', status: 'settled', notes: 'Paid $787.5M to Dominion Voting Systems in 2023 for defamation.' }
+
+    ],
   },
   'deutsche-bank-money-laundering': {
     title: 'Deutsche Bank Money Laundering',
@@ -903,6 +1029,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-07-01', from: 'Deutsche Bank', to: 'NY Dept of Financial Services', amount: '$150,000,000', purpose: 'Fine for compliance failures in Jeffrey Epstein banking relationship (2013-2018)', documented: true },
      { date: '2023-01-01', from: 'Deutsche Bank', to: 'Federal Reserve', amount: '$186,000,000', purpose: 'Additional fine related to compliance and money laundering failures', documented: true }
    ],
+
+    defendants: [
+
+      { name: 'Deutsche Bank', role: 'Helped Russian clients launder $10B through "mirror trading" scheme; also laundered for Epstein', status: 'settled', notes: 'Fined $630M for Russian laundering (2017). Fined $150M for Epstein relationship (2020). Total penalties exceed $18B.' }
+
+    ],
   },
   'domestic-servitude-hidden-victims': {
     title: 'Domestic Servitude Hidden Victims',
@@ -944,6 +1076,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019', event: 'A 2019 case in Virginia involved a Saudi couple who held a Filipina domestic worker for 12 years; paying her nothing, confiscating her passport, and forbidding her from leaving the house or using a', type: 'political' },
      { date: '2024', event: 'The National Domestic Workers Alliance, which advocates for the estimated 2.2 million domestic workers in the US, has pushed for state-level Domestic Workers\' Bills of Rights; as of 2024, 10 states...', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
+
+    ],
   },
   'drug-trafficking-supply-chain-analysis': {
     title: 'Drug Trafficking Supply Chain Analysis',
@@ -979,6 +1117,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019-05-01', event: 'After China scheduled fentanyl as a class in May 2019, production shifted to precursor chemicals; the building blocks from which fentanyl is synthesized', type: 'default' },
      { date: '2023', event: 'The finished product is pressed into counterfeit pills (typically imitating Oxycodone M30 tablets or Xanax bars) using industrial tablet presses; the DEA seized over 60 million fentanyl pills in 2023', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Transnational Criminal Organizations', role: 'Human trafficking, drug smuggling, and money laundering networks', status: 'charged', notes: 'DOJ estimates 24.9M people in forced labor globally. Trafficking generates $150B annually.' }
+
+    ],
   },
   'depopulation-agendas-exposed': {
     title: 'Depopulation Agendas Exposed',
@@ -1024,6 +1168,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021-05-01', event: 'ICE terminated its contract with Irwin County Detention Center in May 2021, but no criminal charges resulted from the investigation', type: 'default' },
      { date: '2022', event: 'The DHS Office of Inspector General investigation, completed in 2022, found Amin performed procedures "at a notably higher rate" than would be expected and identified consent documentation failures', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'du-weapons-health-effects-suppression': {
     title: 'DU Weapons Health Effects Suppression',
@@ -1067,6 +1219,16 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2010', event: 'Birth defect rates in Fallujah were documented at 14.7% of births in 2010, compared to a global baseline of approximately 2-3%', type: 'default' },
      { date: '2012', event: 'When the World Health Organization and the Iraqi Ministry of Health conducted a joint study of congenital birth defects in Iraq (published 2012), the WHO delayed publication for two years and ultim', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'drug-price-gouging-insulin-crisis': {
     title: 'Drug Price Gouging Insulin Crisis',
@@ -1111,6 +1273,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023-03-01', event: 'In March 2023, Eli Lilly voluntarily announced it would cap out-of-pocket insulin costs at $35 and reduce list prices by 70%', type: 'financial' },
      { date: '2024', event: 'The Federal Trade Commission\'s 2024 interim staff report on PBMs found that the three largest PBMs control approximately 80% of the market and have leveraged their position to inflate drug prices w...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Pharmaceutical Industry', role: 'Raised prices on essential drugs far beyond inflation; insulin went from $21 (1999) to $275 (2019)', status: 'charged', notes: 'Senate investigation found no economic justification. Medicare negotiation authority gained in IRA (2022) for limited drugs.' }
+
+    ],
   },
   'drone-warfare-civilian-casualties': {
     title: 'Drone Warfare Civilian Casualties',
@@ -1154,6 +1322,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021-08-29', event: 'On August 29, 2021; the final US strike in Afghanistan during the withdrawal; a Reaper drone killed Zemari Ahmadi, an aid worker for a US-based education nonprofit, along with nine members of his f', type: 'critical' },
      { date: '2021-12-01', event: 'The New York Times\' "Civilian Casualty Files" project, published in December 2021, analyzed over 1,300 confidential Pentagon assessment documents covering air strikes in Iraq, Syria, and Afghanistan', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'depleted-uranium-battlefield-legacy': {
     title: 'Depleted Uranium Battlefield Legacy',
@@ -1197,6 +1373,16 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2014', event: 'While the study has been criticized for methodological limitations (self-reported data, small sample size), multiple subsequent studies have confirmed elevated rates of birth defects and cancer in', type: 'political' },
      { date: '2025', event: 'UNEP recommended immediate cleanup of contaminated sites; as of 2025, some Balkan sites remain unremediated', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'deepfake-technology-weaponization': {
     title: 'Deepfake Technology Weaponization',
@@ -1243,6 +1429,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2024', event: 'The total cost of deepfake-enabled fraud is difficult to quantify, but Juniper Research estimated it would exceed $25 billion annually by 2024', type: 'political' },
      { date: '2024', event: 'The EU\'s AI Act (effective 2024) requires transparency labeling for deepfakes', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Deepfake Technology Proliferators', role: 'Creation and distribution of non-consensual deepfake pornography and political disinformation', status: 'pending', notes: '96% of deepfakes are non-consensual pornography targeting women. Limited federal legislation. States passing laws.' }
+
+    ],
   },
   'dna-database-privacy-violations': {
     title: 'DNA Database Privacy Violations',
@@ -1285,6 +1477,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2024', event: 'As of 2024, CODIS contains over 22 million offender profiles and over 5 million arrestee profiles', type: 'financial' },
      { date: '2025-03-01', event: 'In March 2025, 23andMe filed for bankruptcy protection, raising the specter of its database of 15 million genetic profiles being sold as a corporate asset', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Law Enforcement / DNA Database Operators', role: 'Expanded DNA collection to include arrestees; familial DNA searching raised privacy concerns', status: 'pending', notes: 'CODIS contains 21M+ profiles. Golden State Killer caught via GEDmatch. Privacy advocates warn of racial disparities.' }
+
+    ],
   },
   'deforestation-corporate-responsibility': {
     title: 'Deforestation Corporate Responsibility',
@@ -1327,6 +1525,16 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2024-12-01', event: 'However, implementation was delayed from December 2024 to December 2025 after heavy industry lobbying', type: 'default' },
      { date: '2025', event: 'JBS committed to full supply chain monitoring by 2025, but audits by the Brazilian federal prosecutors\' office (MPF) found that JBS lacked traceability for approximately 50% of its indirect cattle ...', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'data-broker-industry-expos': {
     title: 'Data Broker Industry Exposé',
@@ -1369,6 +1577,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022', event: 'The proposed American Data Privacy and Protection Act (ADPPA) would establish federal data minimization requirements and broker registration, but has stalled in Congress since 2022', type: 'political' },
      { date: '2022', event: 'The FTC\'s enforcement actions; including a $391.5 million settlement with Google over location tracking in 2022 and a $5 billion settlement with Facebook in 2019; have been criticized as insufficie...', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Data Brokers (Acxiom, LexisNexis, etc.)', role: 'Collected and sold personal data on billions of people without meaningful consent', status: 'charged', notes: 'FTC found data brokers store 1,500+ data points per person. No comprehensive US privacy law. CFPB investigating.' }
+
+    ],
   },
   'death-penalty-innocence-cases': {
     title: 'Death Penalty Innocence Cases',
@@ -1414,6 +1628,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020', event: 'Prosecutors are virtually never disciplined for misconduct that leads to wrongful capital convictions; a 2020 study by the Innocence Project found that of 660 documented cases of prosecutorial misc', type: 'legal' },
      { date: '2023', event: 'The list grows regularly: five death row exonerations occurred in 2023 alone', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Various Law Enforcement Agencies', role: 'Pattern of excessive force, racial profiling, and lack of accountability', status: 'pending', notes: 'DOJ found systemic civil rights violations in Ferguson, Baltimore, Chicago, Minneapolis and dozens more' },
+
+      { name: 'GEO Group', role: 'Largest private prison operator profiting from mass incarceration and detention', status: 'charged', notes: 'Multiple lawsuits for inhumane conditions. $20M in federal lobbying to maintain incarceration.' }
+
+    ],
   },
   'defense-contractor-fraud-and-waste': {
     title: 'Defense Contractor Fraud and Waste',
@@ -1458,6 +1680,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'The 2023 audit found that the Pentagon could not account for approximately 61% of its $3.8 trillion in assets', type: 'default' },
      { date: '2024', event: 'As of 2024, F-35s suffered from 871 known defects, including problems with the ejection seat (deemed unsafe for pilots under 136 pounds), oxygen system, and software', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Major Defense Contractors', role: 'Systematic overbilling, fraud, and waste in military contracts totaling billions', status: 'settled', notes: 'Top 10 contractors paid $6.9B in fraud settlements (1995-2020). Pentagon failed 6 consecutive audits since 2018.' }
+
+    ],
   },
   'drug-war-racial-disparities': {
     title: 'Drug War Racial Disparities',
@@ -1504,6 +1732,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 follow-up found that the disparity had actually worsened in many jurisdictions; in some counties, the ratio exceeded 10:1', type: 'default' },
      { date: '2020', event: 'The disparity is quantifiable: a 2020 study in Drug and Alcohol Dependence found that white heroin users were 77% more likely than Black heroin users to be admitted to treatment programs rather tha', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'drug-patent-abuse-consumer-impact': {
     title: 'Drug Patent Abuse Consumer Impact',
@@ -1545,6 +1781,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 I-MAK analysis found that the top 12 best-selling drugs in the US were protected by an average of 74 patents each, with expected monopoly periods averaging 38 years from FDA approval', type: 'default' },
      { date: '2023', event: 'This patent wall blocked biosimilar competition in the United States until January 2023; seven years after biosimilars became available in Europe', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'drug-recall-delay-responsibility': {
     title: 'Drug Recall Delay Responsibility',
@@ -1588,6 +1832,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-04-01', event: 'Only after additional testing; and significant public pressure; did the FDA request voluntary recalls in April 2020', type: 'default' },
      { date: '2023', event: 'The FDA\'s 2023 guidance on nitrosamine impurities in medications acknowledged that the problem is industry-wide; affecting potentially hundreds of medications manufactured with contamination-prone ...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'digital-advertising-surveillance-pipeline': {
     title: 'Digital Advertising Surveillance Pipeline',
@@ -1629,6 +1881,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'Foreign intelligence services also exploit the RTB system; a 2023 report by the Tracking Exposed project documented how Russian entities purchased bid stream data to track Ukrainian refugees across', type: 'default' },
      { date: '2024', event: 'Google announced it would deprecate third-party cookies in Chrome (the primary technical mechanism for cross-site tracking) but repeatedly delayed the deprecation and ultimately abandoned the plan', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'drug-supply-chain-vulnerability-analysis': {
     title: 'Drug Supply Chain Vulnerability Analysis',
@@ -1674,6 +1934,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021', event: 'The Biden administration\'s 2021 supply chain review identified pharmaceuticals as a critical sector but proposed incremental measures', type: 'default' },
      { date: '2022', event: 'The CHIPS and Science Act (2022) provided $52 billion in semiconductor manufacturing subsidies but no equivalent program exists for pharmaceutical manufacturing', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'dark-money-in-local-elections': {
     title: 'Dark Money in Local Elections',
@@ -1716,6 +1984,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022', event: 'Moms for Liberty, classified as an extremist organization by the Southern Poverty Law Center, received significant funding from conservative donors including the Heritage Foundation network and hel', type: 'political' },
      { date: '2023', event: 'In 2023, the Wisconsin Supreme Court race attracted over $51 million in total spending, making it the most expensive judicial election in US history', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Leonard Leo', role: 'Federalist Society co-chairman who directed $1.6B dark money network to reshape federal judiciary', status: 'pending', notes: 'Subject of Senate Judiciary investigation; no charges. ProPublica exposed massive dark money flows.' },
+
+      { name: 'Donors Trust / Donors Capital Fund', role: 'Dark money pass-through that laundered hundreds of millions to political organizations', status: 'pending', notes: 'Served as conduit for anonymous donations to conservative causes since 1999' }
+
+    ],
   },
   'domestic-worker-visa-abuse-networks': {
     title: 'Domestic Worker Visa Abuse Networks',
@@ -1759,6 +2035,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019', event: 'The National Domestic Workers\' Bill of Rights, first proposed in 2019, would extend federal labor protections (minimum wage, overtime, workplace safety) to domestic workers, who are currently exclu...', type: 'political' },
      { date: '2024', event: 'Nine states and two cities have passed domestic worker bills of rights as of 2024, but federal legislation remains stalled', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
+
+    ],
   },
 
   'drug-pricing-crisis': {
@@ -1800,6 +2082,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2024', event: 'FTC investigation finds pharmacy benefit managers (PBMs) increased patient out-of-pocket costs despite negotiated rebates', type: 'default' },
      { date: '2026', event: 'First Medicare-negotiated drug prices take effect; expected to save $25 billion over a decade', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Pharmaceutical Industry', role: 'Raised prices on essential drugs far beyond inflation; insulin went from $21 (1999) to $275 (2019)', status: 'charged', notes: 'Senate investigation found no economic justification. Medicare negotiation authority gained in IRA (2022) for limited drugs.' }
+
+    ],
   },
   'domestic-terrorism': {
     title: "Domestic Terrorism in America",
@@ -1848,6 +2136,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022', event: 'The Charleston church shooting (2015; 9 killed), the Charlottesville car attack (2017; 1 killed, 35 injured), the Pittsburgh Tree of Life synagogue shooting (2018; 11 killed), the El Paso Walmart shooting (2019', type: 'critical' },
      { date: '2025', event: 'THE ACCELERATION: From 2015 to 2025, the pace and lethality of domestic terrorism escalated dramatically.', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
+
+    ],
   },
   'daniel-shaver-killing': {
     title: "Daniel Shaver Police Execution",
@@ -1891,6 +2185,12 @@ const investigations_d: Record<string, InvestigationData> = {
       { date: '2018-08', event: 'Brailsford quietly rehired by Mesa PD for 42 days to apply for accidental disability pension; receives ~$2,500/month for life for PTSD from the shooting he committed', type: 'financial' },
       { date: '2019-07', event: 'Sergeant Charles Langley, who gave the contradictory commands, is revealed to have retired and moved to the Philippines without facing any charges', type: 'default' }
     ],
+
+    defendants: [
+
+      { name: 'Philip Brailsford', role: 'Mesa, AZ police officer who shot and killed Daniel Shaver as he crawled on his knees begging for his life', status: 'acquitted', notes: 'Acquitted of murder in 2017. Body camera footage showed Shaver following confusing commands while sobbing. Brailsford later rehired briefly to receive pension.' }
+
+    ],
   },
   'dark-money-networks': {
     title: 'Dark Money Networks',
@@ -1932,6 +2232,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2013', event: 'Arabella manages eight funds that spent $1.7 billion since 2013', type: 'political' },
      { date: '2020', event: 'The Sixteen Thirty Fund, created by Arabella Advisors, spent $141 million in 2020 without disclosing donors', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Leonard Leo', role: 'Federalist Society co-chairman who directed $1.6B dark money network to reshape federal judiciary', status: 'pending', notes: 'Subject of Senate Judiciary investigation; no charges. ProPublica exposed massive dark money flows.' },
+
+      { name: 'Donors Trust / Donors Capital Fund', role: 'Dark money pass-through that laundered hundreds of millions to political organizations', status: 'pending', notes: 'Served as conduit for anonymous donations to conservative causes since 1999' }
+
+    ],
   },
   'data-privacy-erosion': {
     title: 'Data Privacy Erosion',
@@ -1971,6 +2279,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2022-05', event: 'ACLU settlement forced Clearview AI to stop selling its facial recognition database to private companies; Illinois Biometric Information Privacy Act proved critical', type: 'legal' },
      { date: '2024-04', event: 'Congress voted to reauthorize Section 702 of FISA despite reform efforts; privacy advocates warned the expansion allowed warrantless surveillance of Americans\' communications', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Data Brokers (Acxiom, LexisNexis, etc.)', role: 'Collected and sold personal data on billions of people without meaningful consent', status: 'charged', notes: 'FTC found data brokers store 1,500+ data points per person. No comprehensive US privacy law. CFPB investigating.' }
+
+    ],
   },
   'defense-contracting-fraud': {
     title: 'Defense Contracting Fraud',
@@ -2006,6 +2320,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '1980-01-01', event: 'The defense budget wastes billions on cost overruns, failed programs, and unnecessary weapons', type: 'default' },
      { date: '2025-01', event: 'Commission on Wartime Contracting — Current status: monitoring continues with active documentation', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Major Defense Contractors', role: 'Systematic overbilling, fraud, and waste in military contracts totaling billions', status: 'settled', notes: 'Top 10 contractors paid $6.9B in fraud settlements (1995-2020). Pentagon failed 6 consecutive audits since 2018.' }
+
+    ],
   },
   'darfur-genocide': {
     title: 'Darfur Genocide',
@@ -2054,6 +2374,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2019', event: 'Al-Bashir remained in power until overthrown in 2019 and has not been surrendered to the ICC as of 2024', type: 'default' },
      { date: '2020', event: 'Other ICC indictees include Ahmad Harun (former Minister of State for the Interior), Ali Kushayb (Janjaweed militia leader, surrendered 2020, trial ongoing), and Abdel Raheem Muhammad Hussein (form', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Omar al-Bashir', role: 'Sudanese President who directed genocide in Darfur killing 300,000+ people', status: 'indicted', notes: 'ICC issued arrest warrants (2009, 2010) for genocide, war crimes, and crimes against humanity. Ousted in 2019.' }
+
+    ],
   },
   'doj-two-tiered-justice-system': {
     title: 'The Two-Tiered Justice System: DOJ\'s Selective Prosecution',
@@ -2090,6 +2416,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021', event: 'Boeing received a DPA in 2021 for fraud related to the 737 MAX crashes that killed 346 people; DOJ later found Boeing violated the agreement but negotiated a new plea deal rather than proceeding to', type: 'critical' },
      { date: '2022', event: 'A 2022 analysis found that the average federal sentence for a fraud offense involving losses under $1 million was 23 months, while the average sentence for a crack cocaine offense involving less th', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Justice', role: 'Pattern of politicized prosecutions and selective enforcement', status: 'pending', notes: 'Inspector General reports documented political interference across multiple administrations' },
+
+      { name: 'William Barr', role: 'Attorney General who misrepresented Mueller Report findings', status: 'pending', notes: 'Issued misleading summary of Mueller Report. Intervened in cases of political allies.' }
+
+    ],
   },
   'deepwater-horizon-bp-disaster': {
     title: 'Deepwater Horizon BP Disaster',
@@ -2126,6 +2460,18 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2010-07-15', event: 'The oil spilled for 87 days before the well was finally capped on July 15, 2010', type: 'default' },
      { date: '2016', event: 'BP\'s total financial liability exceeded $65 billion, including $20.8 billion in a 2016 settlement with the federal government and five Gulf states (the largest environmental settlement in U.S', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'BP plc', role: 'Operator of Deepwater Horizon rig; cost-cutting decisions led to blowout killing 11 workers and spilling 4.9M barrels', status: 'convicted', notes: 'Pled guilty to 14 felonies including 11 manslaughter counts. Paid $20.8B total in settlements.' },
+
+      { name: 'Transocean', role: 'Owner of Deepwater Horizon drilling rig; failed to maintain safety equipment', status: 'settled', notes: 'Paid $1.4B in fines and penalties; settled civil claims for $212M' },
+
+      { name: 'Halliburton', role: 'Cement contractor whose faulty cement job failed to seal the well', status: 'settled', notes: 'Destroyed evidence of cement testing; paid $1.1B settlement. Employee pled guilty to destruction of evidence.' },
+
+      { name: 'Robert Kaluza', role: 'BP well site leader on Deepwater Horizon during blowout', status: 'acquitted', notes: 'Charged with manslaughter; acquitted at trial in 2016' }
+
+    ],
   },
   'dupont-teflon-pfoa-coverup': {
     title: 'DuPont Teflon PFOA Coverup',
@@ -2165,6 +2511,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2015', event: 'DuPont spun off its PFOA liabilities into a company called Chemours in 2015, attempting to shield itself from future lawsuits', type: 'legal' },
      { date: '2023-06-01', event: 'In June 2023, DuPont, Chemours, and Corteva agreed to pay $1.185 billion to settle claims from U.S', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'DuPont', role: 'Concealed PFOA/C8 contamination of water supplies near Parkersburg, WV for decades while knowing of health risks', status: 'settled', notes: 'Paid $671M to settle 3,550 personal injury claims in 2017. Internal documents showed decades of concealment.' },
+
+      { name: 'Chemours (DuPont spinoff)', role: 'Created as liability shield to separate DuPont from PFAS obligations', status: 'settled', notes: 'Assumed PFAS liabilities in 2015 spinoff; ongoing litigation' }
+
+    ],
   },
   'drone-program-civilian-casualties': {
     title: 'The U.S. Drone Program: Extrajudicial Killing and Civilian Casualties',
@@ -2204,6 +2558,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021', event: 'A New York Times investigation ("The Civilian Casualty Files," 2021) obtained Pentagon documents revealing that airstrikes classified as having zero civilian casualties had in fact killed hundreds', type: 'critical' },
      { date: '2021-08-01', event: 'The Defense Department investigated the August 2021 Kabul strike that killed 10 Afghan civilians, including seven children, and concluded that no disciplinary action was warranted', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'domestic-surveillance-state': {
     title: 'The Domestic Surveillance State: Mass Spying on Americans',
@@ -2238,6 +2600,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2021', event: 'The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone.', type: 'financial' },
      { date: '2023', event: 'A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects', type: 'political' }
      ],
+
+    defendants: [
+
+      { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
+
+    ],
   },
   'disability-benefits-denial-machine': {
     title: 'Social Security Disability Denial Machine',
@@ -2274,6 +2642,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2023', event: 'A 2023 analysis of ALJ decision data found approval rates ranging from 17% to 97% among judges hearing cases in the same office', type: 'legal' },
      { date: '2024', event: 'As of 2024, over 1.1 million claims are pending at some stage of the process', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'UnitedHealth Group', role: 'Systematically denied claims using AI algorithms to boost profits', status: 'charged', notes: '$22B profit in 2023 while denying millions of claims. Multiple lawsuits over AI claim denials.' }
+
+    ],
   },
   'domestic-violence-system-failures': {
     title: 'Domestic Violence System Failures',
@@ -2312,6 +2686,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020', event: 'COVID-19 lockdowns trigger documented surge in domestic violence; the UN calls it a "shadow pandemic" as shelter capacity proves catastrophically inadequate', type: 'critical' },
      { date: '2022', event: 'VAWA reauthorized with expanded provisions for stalking, cybercrimes, and firearms surrender requirements', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
+
+    ],
   },
   'drone-strikes-civilian-casualties': {
     title: 'The U.S. Drone Strike Program: Extrajudicial Killing and the Civilian Death Toll',
@@ -2354,6 +2734,12 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2015', event: 'Internal military documents leaked to The Intercept in 2015 (the "Drone Papers") revealed that during one five-month operation in Afghanistan, nearly 90% of those killed in drone strikes were not t', type: 'critical' },
      { date: '2021-08-29', event: 'A 2021 New York Times investigation of a specific strike in Kabul on August 29, 2021, which killed 10 civilians including 7 children from the Ahmadi family (the youngest being 2-year-old Malika), p', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Government (Multiple Administrations)', role: 'Conducted drone strikes killing thousands of civilians in Pakistan, Yemen, Somalia, and Afghanistan', status: 'pending', notes: 'Obama authorized 542 drone strikes; Trump loosened rules of engagement. No accountability for civilian deaths.' }
+
+    ],
   },
   'des-diethylstilbestrol-pharmaceutical-disaster': {
     title: 'DES: The Synthetic Hormone That Poisoned Three Generations',
@@ -2396,6 +2782,14 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2013', event: 'In 2013, a Boston jury awarded $2 million to a DES granddaughter who developed clear-cell adenocarcinoma, establishing that pharmaceutical companies owed a duty of care beyond the immediate consumer', type: 'financial' },
      { date: '2025', event: 'As of 2025, DES remains the clearest documented example of a pharmaceutical disaster spanning three generations: the mothers who took the drug, the sons and daughters exposed in utero, and the gran', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Purdue Pharma', role: 'Manufactured OxyContin and lied about addictive properties fueling the opioid crisis', status: 'convicted', notes: 'Pled guilty 2020; agreed to $8.3B settlement. Sackler family paid $6B. Over 500,000 opioid deaths since 1999.' },
+
+      { name: 'Johnson & Johnson', role: 'Supplied raw opium ingredients and marketed opioids through Janssen subsidiary', status: 'settled', notes: 'Paid $5B in opioid settlements across multiple state lawsuits' }
+
+    ],
   },
   'dark-money-politics': {
  title: 'Dark Money in American Politics',
@@ -2485,6 +2879,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'John Roberts / Citizens United Majority', role: 'Overturning century of campaign finance precedent based on fiction that corporate spending cannot corrupt', status: 'charged', notes: 'No accountability; decision remains law of the land' },
    { name: 'Sam Bankman-Fried', role: 'Illegal straw donations of $100M+ to political campaigns using customer funds', status: 'convicted', notes: 'Convicted on fraud and campaign finance charges; sentenced to 25 years' }
  ],
+
   },
   'death-penalty-injustice': {
  title: 'Death Penalty Injustice',
@@ -2656,6 +3051,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Halliburton', role: 'Destruction of evidence (post-incident cement testing)', status: 'convicted', notes: 'Pleaded guilty to destruction of evidence; $200K fine; $55M to National Fish and Wildlife Foundation' },
    { name: 'MOEX Offshore', role: 'CWA violations as minority well partner', status: 'charged', notes: '$90M civil settlement' }
  ],
+
   },
   'defamation': {
  title: 'Defamation & Reputational Destruction',
@@ -2808,6 +3204,7 @@ const investigations_d: Record<string, InvestigationData> = {
    { name: 'Rosemary Vrablic', role: 'Ethics Violations, Personal investments alongside clients', status: 'charged', notes: 'Resigned from Deutsche Bank (2020)' },
    { name: 'Deutsche Bank', role: 'FOREX Manipulation', status: 'charged', notes: '$258 million fine to CFTC and regulators (2015)' }
  ],
+
   },
   'dominion-defamation': {
  title: 'Dominion Defamation',

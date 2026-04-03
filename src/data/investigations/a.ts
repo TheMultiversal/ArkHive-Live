@@ -48,6 +48,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2020-01', event: 'Administration finalized repeal of the Migratory Bird Treaty Act enforcement provisions, removing penalties for industrial activities that kill birds', type: 'default' },
      { date: '2023-04', event: 'Congressional investigation documented that Interior Department officials suppressed scientific data on endangered species to benefit industry interests', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Industrial Farm Operators', role: 'Systematic animal cruelty in concentrated animal feeding operations', status: 'charged', notes: 'USDA has documented thousands of Animal Welfare Act violations; few result in criminal prosecution' },
+
+   { name: 'Tyson Foods', role: 'Multiple animal cruelty violations at processing plants documented by undercover investigations', status: 'charged', notes: 'Subject of multiple USDA enforcement actions and state-level animal cruelty charges' }
+
+ ],
  },
   'agricultural-monopoly': {
  title: 'Agricultural Monopoly',
@@ -84,6 +92,18 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2021-01-15', event: 'Land Report reveals Bill Gates is largest private farmland owner in U.S. with 269,000+ acres across 18 states', type: 'default' },
      { date: '2024-09', event: 'FTC and USDA announce joint inquiry into anticompetitive practices in agricultural markets', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Tyson Foods', role: 'Price-fixing conspiracy in chicken market', status: 'settled', notes: 'Paid $221.5M to settle price-fixing claims in 2021' },
+
+   { name: 'JBS S.A.', role: 'Beef price-fixing conspiracy', status: 'charged', notes: 'DOJ antitrust investigation into beef industry price manipulation' },
+
+   { name: 'Pilgrim\'s Pride', role: 'Chicken price-fixing conspiracy', status: 'convicted', notes: 'Pled guilty in 2020; fined $110.5M' },
+
+   { name: 'Cargill', role: 'Market manipulation in agricultural commodities', status: 'charged', notes: 'Named in multiple antitrust lawsuits for market concentration abuse' }
+
+ ],
  },
   'alfa-bank': {
  title: 'Alfa Bank Server Investigation',
@@ -124,6 +144,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2020-09', event: 'Durham investigation indicted Sussmann for allegedly lying to FBI about his representation when presenting Alfa Bank data; later acquitted at trial', type: 'legal' },
      { date: '2022-05', event: 'Michael Sussmann acquitted by jury, but the trial revealed new details about the DNS data, its origins, and how it was shared with the FBI and CIA', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Alfa Bank', role: 'Suspicious DNS connections to Trump Organization servers', status: 'pending', notes: 'FBI investigated but brought no charges; connections remain unexplained' },
+
+   { name: 'Michael Sussmann', role: 'Providing false information to FBI regarding Alfa Bank-Trump connection', status: 'acquitted', notes: 'Charged by Special Counsel Durham; acquitted at trial in 2022' }
+
+ ],
  },
   'access-hollywood': {
  title: 'Access Hollywood Tape',
@@ -164,6 +192,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2016', event: 'You can do anything.; THE TIMING: The tape was released at 4:00 PM on October 7, 2016.', type: 'default' },
      { date: '2016-10-07', event: 'You can do anything.; THE TIMING: The tape was released at 4:00 PM on October 7, 2016.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Recorded making sexually predatory statements on Access Hollywood bus in 2005', status: 'pending', notes: 'Tape released October 2016; described by Trump as "locker room talk." No criminal charges from tape itself.' },
+
+   { name: 'Billy Bush', role: 'Participant in conversation; encouraged Trump\'s statements', status: 'pending', notes: 'Fired from NBC\'s Today Show after tape surfaced' }
+
+ ],
  },
   'atlantic-city-fraud': {
  title: 'Atlantic City Casino Bankruptcies',
@@ -204,6 +240,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2009', event: 'From 1995-2009, Trump\'s publicly traded casino company lost $1.1 billion while Trump personally took home $82 million in salary and bonuses.', type: 'financial' },
      { date: '2014', event: 'Trump\'s Atlantic City casino empire went through six bankruptcies between 1991 and 2014, costing investors billions while Trump personally extracted hundreds of millions in fees and salary.', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Donald Trump', role: 'Operated Trump casinos that went bankrupt 6 times while extracting hundreds of millions in personal compensation', status: 'charged', notes: 'NJ Casino Control Commission fined Trump organizations multiple times. Contractors and bondholders lost billions.' },
+
+   { name: 'Trump Hotels & Casino Resorts', role: 'Corporate entity that filed for Chapter 11 bankruptcy protection 4 times between 1991-2014', status: 'settled', notes: 'Bondholders lost over $1.5 billion across multiple bankruptcies' }
+
+ ],
  },
   'arms-trafficking': {
  title: 'Iran-Contra Arms Trafficking Scandal',
@@ -274,7 +318,8 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '1996-08-18', event: 'Gary Webb publishes "Dark Alliance" series linking Contra-affiliated dealers to crack cocaine epidemic in LA' },
      { date: '1998-03', event: 'CIA IG Frederick Hitz report confirms many of Webb\'s findings about CIA knowledge of Contra drug trafficking' }
    ],
- },
+
+},
   'africa-destabilization': {
  title: 'Western Destabilization of Africa',
  subtitle: 'Centuries of exploitation continuing through modern intervention',
@@ -324,6 +369,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2023-07-26', event: 'Military coup in Niger; junta explicitly rejects French military presence and CFA franc dependency, expels French forces', type: 'critical' },
      { date: '2023-12-01', event: 'France expelled from Mali, Burkina Faso, and Niger; Wagner Group fills security vacuum as anti-French sentiment sweeps the Sahel', type: 'default' }
      ],
+
+ defendants: [
+
+   { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+   { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+ ],
  },
   'attorney-firings': {
  title: 'Bush Administration U.S. Attorney Firings',
@@ -389,6 +442,16 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2008-09-29', event: 'The DOJ Office of Professional Responsibility and the Office of Inspector General release a 358-page joint report confirming the firings were improperly political. The report finds Karl Rove and Harriet Miers were "at the center of the effort" but cannot fully establish their roles due to White House obstruction.', type: 'legal' },
      { date: '2010-07-21', event: 'Federal prosecutor Nora Dannehy closes the criminal investigation into the attorney firings without filing charges, citing insufficient evidence to prove criminal intent beyond a reasonable doubt. No one is ever held criminally accountable.', type: 'legal' }
    ],
+
+ defendants: [
+
+   { name: 'Alberto Gonzales', role: 'Attorney General who authorized politically motivated firing of 8 US Attorneys', status: 'charged', notes: 'Resigned in 2007 amid scandal; no criminal charges. DOJ IG found firings were politically motivated.' },
+
+   { name: 'Karl Rove', role: 'Senior White House advisor who influenced US Attorney firing decisions', status: 'pending', notes: 'Refused congressional subpoena; cited executive privilege. Never testified under oath.' },
+
+   { name: 'Harriet Miers', role: 'White House Counsel involved in US Attorney firing decisions', status: 'pending', notes: 'Defied congressional subpoena claiming executive privilege' }
+
+ ],
  },
   'authoritarian-network': {
  title: 'International Authoritarian Network',
@@ -429,6 +492,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2023', event: 'International Authoritarian Network — initial events and core patterns documented', type: 'default' },
      { date: '2024', event: 'Ongoing developments and continued investigative reporting', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Heritage Foundation', role: 'Authored Project 2025 to consolidate executive power and dismantle agencies', status: 'pending', notes: '920-page plan to replace civil servants with loyalists, eliminate Dept of Education.' }
+
+ ],
  },
   'admin-state-capture': {
  title: 'Administrative State Capture',
@@ -469,6 +538,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2008', event: 'No executive went to prison for the 2008 financial crisis.', type: 'critical' },
      { date: '2020', event: 'Continued developments in the captured economy with new evidence emerging', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Various Political Appointees', role: 'Installed industry-friendly officials to capture regulatory agencies', status: 'pending', notes: 'Pattern across EPA, FCC, OSHA of appointees undermining agency missions' }
+
+ ],
  },
   'alaska-airlines-1282': {
  title: 'Alaska Airlines Flight 1282 Door Blowout',
@@ -514,6 +589,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2024', event: 'Core events underlying Alaska Airlines Flight 1282 Door Blowout first documented and brought to public attention', type: 'default' },
      { date: '2024', event: 'Subsequent developments in alaska airlines flight 1282 door blowout reveal broader systemic patterns', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Boeing Company', role: 'Manufactured the 737 MAX 9 aircraft with defective door plug that blew out mid-flight on January 5, 2024', status: 'charged', notes: 'DOJ opened criminal investigation. Boeing had existing deferred prosecution agreement from 737 MAX crashes.' },
+
+   { name: 'Spirit AeroSystems', role: 'Manufactured the fuselage section with missing door plug bolts', status: 'charged', notes: 'NTSB found four bolts were missing from the door plug. Quality control failures documented.' }
+
+ ],
  },
   'amazon-worker-abuse': {
  title: 'Amazon Worker Exploitation',
@@ -554,6 +637,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2022-04', event: 'Amazon Labor Union won historic election at Staten Island JFK8 warehouse, the first successful Amazon union in U.S. history, led by former employee Chris Smalls', type: 'default' },
      { date: '2023-09', event: 'OSHA fined Amazon for failing to properly record workplace injuries at multiple facilities; internal documents showed company used algorithmic productivity tracking that caused injury spikes', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Amazon.com Inc.', role: 'Systematic worker safety violations in warehouses with injury rates double the industry average', status: 'charged', notes: 'OSHA issued multiple citations; DOJ initiated investigation in 2023. Senate found Amazon manipulated injury data.' },
+
+   { name: 'Jeff Bezos', role: 'CEO/Founder who established warehouse productivity quotas linked to elevated injury rates', status: 'pending', notes: 'Senate investigation found Amazon management was aware of injury crisis and chose speed over safety' }
+
+ ],
  },
   'ai-safety-concerns': {
  title: 'AI Safety and Ethics Crisis',
@@ -590,6 +681,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2007', event: 'Goldman Sachs created the Abacus 2007-AC1 CDO at the request of hedge fund manager John Paulson, who wanted to bet against the housing market.', type: 'default' },
      { date: '2010', event: 'The SEC charged Goldman with fraud in 2010.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'OpenAI', role: 'Deployed GPT-4 and other models with known safety risks; restructured to reduce safety team influence', status: 'pending', notes: 'Multiple safety researchers resigned citing insufficient safety culture. FTC investigating.' },
+
+   { name: 'Meta Platforms', role: 'Released open-source AI models without adequate safety guardrails', status: 'pending', notes: 'Released LLaMA models that were used to generate harmful content' }
+
+ ],
  },
   'abacus-scandal': {
  title: 'Goldman Sachs Abacus CDO Fraud',
@@ -626,6 +725,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2007', event: 'Goldman Sachs created the Abacus 2007-AC1 CDO at the request of hedge fund manager John Paulson, who wanted to bet against the housing market.', type: 'default' },
      { date: '2010', event: 'The SEC charged Goldman with fraud in 2010.', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Abacus Federal Savings Bank', role: 'Small Chinatown bank; only bank criminally prosecuted for mortgage fraud related to 2008 crisis', status: 'acquitted', notes: 'All defendants acquitted in 2015. Only bank indicted while major Wall Street banks paid fines.' }
+
+ ],
  },  'activism-harassment': {
  title: 'Activism Harassment',
  subtitle: 'Systematic targeting, surveillance, and suppression of activists by government, corporate, and vigilante forces',
@@ -673,6 +778,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2016', event: 'STANDING ROCK SUPPRESSION: In 2016-2017, water protectors opposing the Dakota Access Pipeline faced militarized police response including rubber bullets, water cannons in freezing temperatures, con', type: 'default' },
      { date: '2017', event: 'PROTEST CRIMINALIZATION: States have introduced over 200 anti-protest bills since 2017, including laws that increase penalties for blocking roads, protect drivers who hit protesters, and classify p', type: 'political' }
    ],
+
+ defendants: [
+
+   { name: 'Various Government and Corporate Entities', role: 'Targeted activists with surveillance, harassment, and legal retaliation', status: 'pending', notes: 'COINTELPRO targeted civil rights leaders. Modern SLAPP suits and police surveillance of activists documented.' }
+
+ ],
  },
   'adelphia-fraud': {
  title: 'Adelphia Communications Fraud',
@@ -705,6 +816,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2002', event: 'Adelphia filed for bankruptcy in 2002, the sixth-largest bankruptcy in U.S.', type: 'default' },
      { date: '2025-01', event: 'SEC EDGAR Company Filings — Current status: monitoring continues with active documentation', type: 'financial' }
    ],
+
+ defendants: [
+
+   { name: 'John Rigas', role: 'Adelphia Communications founder who looted $3.1B from company for personal use', status: 'convicted', notes: 'Convicted of conspiracy and securities fraud in 2004; sentenced to 15 years. Released 2016 on compassionate release.' },
+
+   { name: 'Timothy Rigas', role: 'Adelphia CFO who helped father steal billions from cable company', status: 'convicted', notes: 'Convicted of conspiracy and securities fraud; sentenced to 20 years' }
+
+ ],
  },
   'adelphia-scandal': {
  title: 'Adelphia Corporate Corruption',
@@ -740,6 +859,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2020', event: 'Core events underlying Adelphia Corporate Corruption first documented and brought to public attention', type: 'default' },
      { date: '2024', event: 'Subsequent developments in adelphia corporate corruption reveal broader systemic patterns', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'John Rigas', role: 'Adelphia Communications founder who looted $3.1B from company for personal use', status: 'convicted', notes: 'Convicted of conspiracy and securities fraud in 2004; sentenced to 15 years. Released 2016 on compassionate release.' },
+
+   { name: 'Timothy Rigas', role: 'Adelphia CFO who helped father steal billions from cable company', status: 'convicted', notes: 'Convicted of conspiracy and securities fraud; sentenced to 20 years' }
+
+ ],
  },
   'agricultural-policy': {
  title: 'Agricultural Policy & Corporate Farming',
@@ -778,6 +905,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2022-01', event: 'Biden administration launched competition initiatives after four meatpackers controlled 85% of the beef market; JBS, Tyson, Cargill, and National Beef faced price-fixing lawsuits', type: 'legal' },
      { date: '2024-01', event: 'Senate Agriculture Committee documented antibiotic resistance crisis linked to industrial farming practices, with 2.8 million resistant infections annually', type: 'default' }
    ],
+
+ defendants: [
+
+   { name: 'Monsanto (Bayer)', role: 'Lobbied USDA to weaken standards and approve GMO crops without review', status: 'settled', notes: 'Bayer settled $10.9B for glyphosate. Dominates seed market.' }
+
+ ],
  },
   'ahmaud-arbery-murder': {
     title: 'Ahmaud Arbery Murder',
@@ -819,6 +952,16 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2021-11-24', event: 'All three defendants convicted of murder in state court; Travis and Gregory McMichael receive life without parole, Bryan receives life with parole eligibility after 30 years', type: 'legal' },
       { date: '2022-02-22', event: 'All three defendants convicted of federal hate crimes and attempted kidnapping in separate federal trial', type: 'legal' },
       { date: '2023-09-14', event: 'Jackie Johnson convicted of violating oath of office, marking a rare instance of prosecutorial accountability', type: 'legal' }
+    ],
+
+    defendants: [
+
+      { name: 'Travis McMichael', role: 'Fatally shot Ahmaud Arbery while chasing him through Brunswick, GA neighborhood on Feb 23, 2020', status: 'convicted', notes: 'Convicted of murder (state) and federal hate crimes. Sentenced to life without parole.' },
+
+      { name: 'Gregory McMichael', role: 'Initiated armed pursuit of Arbery based on unfounded suspicion', status: 'convicted', notes: 'Convicted of murder (state) and federal hate crimes. Sentenced to life without parole.' },
+
+      { name: 'William "Roddie" Bryan', role: 'Joined pursuit and filmed the killing of Arbery', status: 'convicted', notes: 'Convicted of murder (state) and federal hate crimes. Sentenced to life with parole.' }
+
     ],
   },
   'aids-crisis': {
@@ -862,6 +1005,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '1988-10-11', event: 'Over 1,000 ACT UP protesters shut down FDA headquarters, demanding accelerated drug approval; FDA subsequently creates expanded access programs', type: 'political' },
       { date: '1990-08-18', event: 'Congress passes the Ryan White CARE Act, the largest federally funded program for people living with HIV/AIDS, following the death of Ryan White at age 18', type: 'legal' }
     ],
+
+    defendants: [
+
+      { name: 'Reagan Administration', role: 'Failed to address HIV/AIDS epidemic for years while thousands died; Reagan did not mention AIDS until 1985', status: 'pending', notes: '21,000 Americans died before Reagan said the word AIDS publicly. Surgeon General Koop was silenced.' }
+
+    ],
   },
   'alt-right': {
     title: 'Alt-Right Movement & Radicalization',
@@ -901,6 +1050,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2019-03-15', event: 'Christchurch mosque shooting kills 51 people; gunman livestreams on Facebook after radicalization through alt-right online ecosystem', type: 'critical' },
       { date: '2019-08-03', event: 'El Paso Walmart shooting kills 23 people; gunman posts Great Replacement manifesto on 8chan before attack', type: 'critical' }
     ],
+
+    defendants: [
+
+      { name: 'Various White Nationalist Organizations', role: 'Domestic terrorism, racist ideology, and infiltration of law enforcement', status: 'charged', notes: 'FBI identified white supremacist extremism as top domestic terrorism threat.' }
+
+    ],
   },
   'amazon-labor': {
     title: 'Amazon Labor Exploitation',
@@ -939,6 +1094,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2022-04-01', event: 'Amazon Labor Union wins historic election at JFK8 Staten Island fulfillment center, forming the first union at any U.S. Amazon facility', type: 'critical' },
       { date: '2022-08-29', event: 'NLRB issues complaint against Amazon for illegally threatening, surveilling, and interrogating workers at JFK8 during union campaign', type: 'legal' },
       { date: '2023-09-05', event: 'California Attorney General sues Amazon alleging the company is a joint employer of delivery drivers classified as independent contractors through DSP program', type: 'legal' }
+    ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Anti-union campaigns and unsafe warehouse conditions', status: 'charged', notes: 'NLRB complaints for unfair labor practices; OSHA citations for warehouse injuries' }
+
     ],
   },
   'anti-abortion-violence': {
@@ -980,6 +1141,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2015-11-27', event: 'Robert Dear shoots and kills three people and wounds nine at a Colorado Springs Planned Parenthood, telling police "no more baby parts"', type: 'critical' },
       { date: '2022-06-24', event: 'Dobbs v. Jackson overturns Roe v. Wade; FBI reports surge in threats against both abortion providers and anti-abortion organizations', type: 'political' }
     ],
+
+    defendants: [
+
+      { name: 'Anti-Abortion/LGBTQ Extremists', role: 'Violent and harassment campaigns targeting abortion providers, LGBTQ individuals, and trans people', status: 'charged', notes: '11 murders and 26 attempted murders at abortion clinics. Bomb threats to hospitals. Trans people face 4x murder rate.' }
+
+    ],
   },
   'anti-lgbtq-extremism': {
     title: 'Anti-LGBTQ Extremism',
@@ -1017,6 +1184,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2016-06-12', event: 'Omar Mateen kills 49 people at Pulse nightclub in Orlando in the deadliest attack on LGBTQ people in U.S. history', type: 'critical' },
       { date: '2021-06-25', event: 'Pulse nightclub site designated as a National Memorial by President Biden', type: 'default' },
       { date: '2022-11-19', event: 'Gunman kills five people and injures 25 at Club Q in Colorado Springs on the eve of Transgender Day of Remembrance', type: 'critical' }
+    ],
+
+    defendants: [
+
+      { name: 'Anti-Abortion/LGBTQ Extremists', role: 'Violent and harassment campaigns targeting abortion providers, LGBTQ individuals, and trans people', status: 'charged', notes: '11 murders and 26 attempted murders at abortion clinics. Bomb threats to hospitals. Trans people face 4x murder rate.' }
+
     ],
   },
   'anti-lgbtq-movement': {
@@ -1058,6 +1231,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2023-06-30', event: 'Supreme Court rules in 303 Creative v. Elenis that web designer can refuse to create same-sex wedding websites; ADF-brought case expands religious exemptions to anti-discrimination law', type: 'legal' },
       { date: '2024-12-20', event: 'Heritage Foundation\'s Project 2025 blueprint, including proposals to define gender as immutable biological sex in all federal policy, gains prominence', type: 'political' }
     ],
+
+    defendants: [
+
+      { name: 'Anti-Abortion/LGBTQ Extremists', role: 'Violent and harassment campaigns targeting abortion providers, LGBTQ individuals, and trans people', status: 'charged', notes: '11 murders and 26 attempted murders at abortion clinics. Bomb threats to hospitals. Trans people face 4x murder rate.' }
+
+    ],
   },
   'anti-trans': {
     title: 'Anti-Transgender Campaign',
@@ -1097,6 +1276,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2023-05-17', event: 'Montana bans transgender lawmaker Zooey Zephyr from the House floor after she said supporters of a ban on gender-affirming care for minors would have blood on their hands', type: 'political' },
       { date: '2024-06-24', event: 'Supreme Court agrees to hear United States v. Skrmetti, a challenge to Tennessee\'s ban on gender-affirming care for minors, making it the first trans rights case the Court will decide on the merits', type: 'legal' }
     ],
+
+    defendants: [
+
+      { name: 'Anti-Abortion/LGBTQ Extremists', role: 'Violent and harassment campaigns targeting abortion providers, LGBTQ individuals, and trans people', status: 'charged', notes: '11 murders and 26 attempted murders at abortion clinics. Bomb threats to hospitals. Trans people face 4x murder rate.' }
+
+    ],
   },
   'antisemitic-violence': {
     title: 'Antisemitic Violence',
@@ -1135,6 +1320,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2021-05-20', event: 'Multiple assaults on visibly Jewish individuals in New York and Los Angeles during Israel-Gaza conflict escalation', type: 'default' },
       { date: '2023-06-16', event: 'Robert Bowers convicted on all 63 federal charges in the Tree of Life shooting; subsequently sentenced to death in August 2023', type: 'legal' },
       { date: '2023-10-07', event: 'Hamas attack on Israel triggers unprecedented spike in antisemitic incidents across the United States', type: 'critical' }
+    ],
+
+    defendants: [
+
+      { name: 'Hate Crime Perpetrators (Multiple)', role: 'FBI documented 11,634 hate crime incidents in 2022; rising trend in antisemitic and anti-LGBTQ attacks', status: 'charged', notes: 'Tree of Life, El Paso, Buffalo, Atlanta spa shootings. Antisemitic incidents at record high (ADL). DOJ increased prosecutions.' }
+
     ],
   },
   'antisemitism': {
@@ -1176,6 +1367,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2023-10-07', event: 'Hamas attack on Israel triggers surge in antisemitic incidents in the U.S., with ADL documenting a 388% increase in the weeks following', type: 'critical' },
       { date: '2023-12-05', event: 'Congressional hearing on campus antisemitism generates bipartisan outrage after university presidents give equivocal answers; Harvard and Penn presidents later resign', type: 'political' }
     ],
+
+    defendants: [
+
+      { name: 'Hate Crime Perpetrators (Multiple)', role: 'FBI documented 11,634 hate crime incidents in 2022; rising trend in antisemitic and anti-LGBTQ attacks', status: 'charged', notes: 'Tree of Life, El Paso, Buffalo, Atlanta spa shootings. Antisemitic incidents at record high (ADL). DOJ increased prosecutions.' }
+
+    ],
   },
   'archegos-collapse': {
     title: 'Archegos Capital Management Collapse',
@@ -1215,6 +1412,14 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2022-04-27', event: 'DOJ indicts Bill Hwang and CFO Patrick Halligan on racketeering conspiracy, securities fraud, and wire fraud charges', type: 'legal' },
       { date: '2023-03-19', event: 'Credit Suisse forced into emergency acquisition by UBS; Archegos losses were a significant contributing factor to the bank\'s collapse', type: 'financial' },
       { date: '2024-07-10', event: 'Federal jury convicts Bill Hwang on 10 of 11 counts in what prosecutors called the largest individual stock manipulation scheme in history', type: 'legal' }
+    ],
+
+    defendants: [
+
+      { name: 'Bill Hwang', role: 'Archegos Capital founder who used total return swaps to secretly amass massive positions, causing $36B collapse', status: 'convicted', notes: 'Convicted of fraud and market manipulation in July 2024; sentenced to 18 years' },
+
+      { name: 'Patrick Halligan', role: 'Archegos CFO who helped conceal the fund\'s true exposure', status: 'convicted', notes: 'Convicted of fraud in July 2024' }
+
     ],
   },
   'arpaio-civil-rights': {
@@ -1257,6 +1462,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2017-07-31', event: 'Arpaio convicted of criminal contempt of court by U.S. District Judge Susan Bolton', type: 'legal' },
       { date: '2017-08-25', event: 'President Trump pardons Arpaio before sentencing without consulting DOJ Office of the Pardon Attorney, drawing bipartisan condemnation', type: 'political' }
     ],
+
+    defendants: [
+
+      { name: 'Joe Arpaio', role: 'Maricopa County Sheriff convicted of criminal contempt for defying court order to stop racial profiling', status: 'pardoned', notes: 'Convicted of criminal contempt in 2017; pardoned by Trump before sentencing' }
+
+    ],
   },
   'aurora-shooting': {
     title: 'Aurora Theater Shooting',
@@ -1294,6 +1505,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2013-04-17', event: 'U.S. Senate defeats bipartisan Manchin-Toomey background check amendment despite political momentum from Aurora and Sandy Hook shootings', type: 'political' },
       { date: '2015-07-16', event: 'Jury convicts Holmes on 165 counts including 24 counts of first-degree murder after four-month trial; insanity defense rejected', type: 'legal' },
       { date: '2015-08-26', event: 'Holmes sentenced to 12 consecutive life terms without parole after jury fails to reach unanimous death penalty verdict', type: 'legal' }
+    ],
+
+    defendants: [
+
+      { name: 'James Holmes', role: 'Killed 12 and wounded 70 at Aurora, CO movie theater during Dark Knight premiere on July 20, 2012', status: 'convicted', notes: 'Convicted on 165 counts; sentenced to 12 consecutive life sentences plus 3,318 years' }
+
     ],
   },
   'authoritarianism': {
@@ -1334,6 +1551,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2022-02-24', event: 'Russia invades Ukraine in the largest land war in Europe since WWII, weaponizing energy dependence and demonstrating limits of international response', type: 'critical' },
       { date: '2024-01-01', event: 'Freedom House 2024 report finds 52 countries experienced democratic deterioration while only 21 improved; 38% of world population lives in "not free" countries', type: 'default' }
     ],
+
+    defendants: [
+
+      { name: 'Various Authoritarian Leaders', role: 'Democratic backsliding and consolidation of power worldwide', status: 'pending', notes: 'Freedom House documented 18 consecutive years of global democratic decline' }
+
+    ],
   },
   'autonomous-weapons': {
     title: 'Autonomous Weapons Development',
@@ -1371,6 +1594,12 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2020-03-01', event: 'Turkey\'s Kargu-2 drone reportedly conducts autonomous lethal engagement in Libya without human authorization; described by UN panel as possible first of its kind', type: 'critical' },
       { date: '2022-10-12', event: 'U.S. State Department issues Political Declaration on Responsible Military Use of AI and Autonomy, establishing non-binding norms for autonomous weapons', type: 'political' },
       { date: '2023-08-28', event: 'Pentagon launches Replicator initiative to field thousands of small autonomous drones within 18-24 months to counter Chinese military capabilities', type: 'default' }
+    ],
+
+    defendants: [
+
+      { name: 'Various Defense Contractors', role: 'Lethal autonomous weapons without adequate human oversight', status: 'pending', notes: 'UN failed to achieve binding agreement on autonomous weapons regulation' }
+
     ],
   },
   'aviation-safety': {
@@ -1410,6 +1639,14 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2020-09-16', event: 'House Transportation Committee releases findings exposing Boeing culture of concealment and FAA\'s failed oversight of the 737 MAX certification process', type: 'legal' },
       { date: '2020-12-29', event: 'Congress passes Aircraft Certification, Safety, and Accountability Act reforming FAA\'s delegation program and strengthening whistleblower protections', type: 'legal' },
       { date: '2021-01-07', event: 'Boeing agrees to $2.5 billion deferred prosecution agreement with DOJ, including $500 million compensation fund for crash victims\' families', type: 'legal' }
+    ],
+
+    defendants: [
+
+      { name: 'Boeing Company', role: 'Safety failures across 737 MAX and other programs', status: 'charged', notes: 'DOJ charged with fraud conspiracy; 346 killed in two crashes' },
+
+      { name: 'FAA', role: 'Delegated oversight to Boeing through ODA program', status: 'pending', notes: 'Congressional investigations found FAA failed in oversight role' }
+
     ],
   },
   'activision-harassment': {
@@ -1451,6 +1688,14 @@ const investigations_a: Record<string, InvestigationData> = {
       { date: '2022-05-23', event: 'Raven Software QA testers vote to form union, becoming one of the first at a major U.S. game studio', type: 'default' },
       { date: '2023-10-13', event: 'Microsoft completes Activision Blizzard acquisition after FTC antitrust review; Bobby Kotick departs the company', type: 'financial' }
     ],
+
+    defendants: [
+
+      { name: 'Activision Blizzard', role: 'Maintained workplace culture of sexual harassment and discrimination ("frat boy" culture)', status: 'settled', notes: 'EEOC settlement $18M (2021). DFEH (CA civil rights) sued. Acquired by Microsoft 2023.' },
+
+      { name: 'Bobby Kotick', role: 'CEO who allegedly knew about and failed to address systemic harassment', status: 'pending', notes: 'WSJ reported Kotick was aware of misconduct for years. Departed after Microsoft acquisition.' }
+
+    ],
   },
   'agribusiness-capture-of-usda': {
     title: 'Agribusiness Capture of USDA',
@@ -1491,6 +1736,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2019', event: 'A 2019 GAO report found that NPIS plants had higher rates of Salmonella contamination than plants under the traditional system', type: 'default' },
      { date: '2020', event: 'The 2020 Dietary Guidelines Advisory Committee recommended limits on added sugars and processed meats, but the final guidelines softened these recommendations after lobbying by the Sugar Associatio', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Monsanto (Bayer)', role: 'Lobbied USDA to weaken standards and approve GMO crops without review', status: 'settled', notes: 'Bayer settled $10.9B for glyphosate. Dominates seed market.' }
+
+    ],
   },
   'asbestos-cover-up-decades-of-death': {
     title: 'Asbestos Cover-Up: Decades of Death',
@@ -1532,6 +1783,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2009', event: 'Grace executives were charged with criminal conspiracy but acquitted in 2009 after a trial where jurors said they believed contamination occurred but could not prove executives\' intent', type: 'legal' },
      { date: '2024-03-01', event: 'The EPA finally banned chrysotile asbestos in March 2024 under TSCA authority, but existing asbestos in buildings remains in place', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Johns Manville', role: 'Largest asbestos manufacturer that concealed health risks from workers for decades', status: 'settled', notes: 'Filed for bankruptcy in 1982 due to asbestos claims. Internal docs showed knowledge since 1930s.' },
+
+      { name: 'W.R. Grace', role: 'Mining company responsible for Libby, MT asbestos contamination killing hundreds', status: 'acquitted', notes: 'Acquitted of criminal charges in 2009 despite EPA declaring Libby a Superfund site' }
+
+    ],
   },
   'agent-orange-dioxin-legacy': {
     title: 'Agent Orange: The Dioxin Legacy',
@@ -1576,6 +1835,16 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2019', event: 'The much larger Bien Hoa cleanup, estimated at $390 million, began in 2019 and is projected to take a decade', type: 'financial' },
      { date: '2024', event: 'As of 2024, the VA has added bladder cancer, hypertension, and monoclonal gammopathy to the presumptive conditions list under the PACT Act, potentially covering 500,000 additional veterans', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'arms-export-to-authoritarian-regimes': {
     title: 'Arms Export to Authoritarian Regimes',
@@ -1625,6 +1894,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Biden administration approved $238 billion in foreign military sales in fiscal year 2023; the highest single-year total in US history', type: 'political' },
      { date: '2023-02-01', event: 'The Conventional Arms Transfer policy issued in February 2023 added language about "the risk that the transfer may contribute to or be used to commit serious violations of international humanitaria', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+      { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+    ],
   },
   'ai-surveillance-state-infrastructure': {
     title: 'AI Surveillance State Infrastructure',
@@ -1669,6 +1946,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2024', event: 'The EU\'s AI Act, which took effect in 2024, bans real-time facial recognition in public spaces with limited exceptions, but no comparable legislation exists in the United States', type: 'political' },
      { date: '2024-04-01', event: 'Section 702 of the Foreign Intelligence Surveillance Act was reauthorized in April 2024 with expanded provisions that require a broader range of companies to assist the government with surveillance', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Palantir Technologies', role: 'Built surveillance systems for ICE and military with limited oversight', status: 'pending', notes: 'Enabled ICE raids. Pentagon contracts worth billions. Founded by Peter Thiel.' }
+
+    ],
   },
   'autonomous-weapons-development-race': {
     title: 'Autonomous Weapons Development Race',
@@ -1711,6 +1994,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2024', event: 'DARPA\'s budget for AI and autonomy programs exceeded $1.8 billion in fiscal year 2024, including the Air Combat Evolution (ACE) program testing AI fighter pilots, the OFFSET program developing swar...', type: 'political' },
      { date: '2024', event: 'A 2024 simulation conducted by Georgia Tech researchers found that when both sides deployed autonomous systems in a conflict scenario, escalation to full-scale war occurred in 87% of trials, compar', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Palantir Technologies', role: 'Built surveillance systems for ICE and military with limited oversight', status: 'pending', notes: 'Enabled ICE raids. Pentagon contracts worth billions. Founded by Peter Thiel.' }
+
+    ],
   },
   'algorithmic-discrimination-in-lending': {
     title: 'Algorithmic Discrimination in Lending',
@@ -1755,6 +2044,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2023', event: 'The Department of Justice similarly settled with Lakeland Bank for $13 million in 2023, finding that its automated systems had effectively drawn redlines around Black and Hispanic neighborhoods in', type: 'financial' },
      { date: '2023', event: 'A 2023 attempt by the CFPB to require lenders to explain adverse algorithmic decisions in specific, actionable terms was challenged by the banking industry in court', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Meta Platforms (Facebook)', role: 'Amplified extremist content, enabled Myanmar genocide, harvested user data', status: 'settled', notes: '$5B FTC fine. Internal research showed Instagram harmed teen mental health. Whistleblower Frances Haugen testified.' },
+
+      { name: 'Google/Alphabet', role: 'Monopolized search and advertising while tracking billions', status: 'charged', notes: 'DOJ antitrust suit in 2020. Found guilty of illegal monopoly in 2024.' }
+
+    ],
   },
   'astroturfing-campaigns-corporate': {
     title: 'Corporate Astroturfing Campaigns',
@@ -1799,6 +2096,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2021', event: 'PR firms now offer "synthetic grassroots" services using AI to generate thousands of unique public comments on regulatory proposals', type: 'default' },
      { date: '2022', event: 'More recently, industry groups have created front organizations to oppose renewable energy; the "Texans for Natural Gas" campaign, funded by the oil and gas industry, ran advertising campaigns in 2', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Koch Industries', role: 'Funded fake grassroots campaigns to oppose climate and healthcare legislation', status: 'pending', notes: 'Americans for Prosperity and other Koch groups presented as grassroots while entirely industry funded' }
+
+    ],
   },
   'auto-industry-theft-to-export-rings': {
     title: 'Auto Industry Theft-to-Export Rings',
@@ -1837,6 +2140,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2022', event: 'A class-action lawsuit filed in 2022 resulted in a $200 million settlement, and the NHTSA issued a recall affecting 8.3 million vehicles, but the fix; a software update', type: 'legal' },
      { date: '2023', event: 'The FBI\'s 2023 International Vehicle Crime Intelligence Report identified Nigeria, Ghana, and Benin as the top three destination countries, with an estimated 35,000 to 50,000 stolen US vehicles arr...', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Fraudulent Actors', role: 'Consumer fraud, financial exploitation, and market manipulation', status: 'charged', notes: 'FTC received 2.4M fraud reports in 2023 with $10B in losses.' }
+
+    ],
   },
   'agricultural-runoff-dead-zone-creation': {
     title: 'Agricultural Runoff: Dead Zone Creation',
@@ -1875,6 +2184,16 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2023', event: 'Fed by nitrogen and phosphorus flowing down the Mississippi River from farms across 31 states, the dead zone measured 6,334 square miles in 2023, more than twice the size of the 1,931 square-mile t', type: 'default' },
      { date: '2023', event: 'The American Farm Bureau Federation, the most powerful agricultural lobbying group, spent $11.4 million on lobbying in 2023 and has successfully fought against mandatory nutrient management require', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'academic-medical-center-industry-ties': {
     title: 'Academic Medical Center Industry Ties',
@@ -1914,6 +2233,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2021', event: 'A 2021 investigation by the BMJ found that Pfizer\'s pivotal COVID-19 vaccine trial data contained significant irregularities at a contract research site in Texas, including evidence of unblinding, ...', type: 'legal' },
      { date: '2023', event: 'In 2023, drug and device companies reported $12.1 billion in payments to physicians and teaching hospitals', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Government and Corporate Entities', role: 'Funded propaganda through educational institutions', status: 'pending', notes: 'Koch network funded centers at 350+ universities. Pentagon JROTC in 3,400 schools.' }
+
+    ],
   },
   'airport-biometric-collection-programs': {
     title: 'Airport Biometric Collection Programs',
@@ -1955,6 +2280,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2023-07-01', event: 'Five US senators; including Jeff Merkley and John Kennedy; wrote to TSA Administrator David Pekoske in July 2023 demanding that the program be halted, citing the absence of congressional authorizat', type: 'political' },
      { date: '2024', event: 'A 2024 NIST evaluation of facial recognition algorithms used in airport environments found that error rates varied by up to 100x depending on the demographic group of the person being scanned', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'NSA (National Security Agency)', role: 'Conducted warrantless mass surveillance of American citizens phone and internet communications', status: 'pending', notes: 'Edward Snowden revealed scope in 2013; FISA Court approved bulk collection. Some programs ruled illegal.' },
+
+      { name: 'James Clapper', role: 'Director of National Intelligence who lied to Congress about NSA surveillance', status: 'pending', notes: 'Told Senator Wyden the NSA did not wittingly collect data on millions of Americans; later admitted false' }
+
+    ],
   },
   'agency-regulatory-capture-new-evidence': {
     title: 'Agency Regulatory Capture: New Evidence',
@@ -1996,6 +2329,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2024', event: 'A 2024 Senate investigation found that FAA inspectors who raised concerns about Boeing\'s production quality were transferred to less influential positions', type: 'political' },
      { date: '2025', event: 'Commissioner Brendan Carr, who became chairman in 2025, previously served as a telecom industry attorney and has publicly advocated for reducing regulatory burdens on broadcasters and tech companies', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various Regulated Industries', role: 'Captured regulators through revolving door and lobbying', status: 'pending', notes: 'Pattern across FAA, SEC, EPA, FCC. Industries spend billions on lobbying.' }
+
+    ],
   },
   'art-market-money-laundering-operations': {
     title: 'Art Market Money Laundering Operations',
@@ -2034,6 +2373,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2020', event: 'The EU\'s 5th Anti-Money Laundering Directive, implemented in 2020, requires art dealers handling transactions above 10,000 euros to conduct customer due diligence, but compliance has been poor and ...', type: 'default' },
      { date: '2025', event: 'The US art market; the world\'s largest at approximately $28 billion in annual sales; was specifically exempted from the Bank Secrecy Act\'s anti-money laundering (AML) requirements until January 202...', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Various Criminal Enterprises', role: 'Money laundering and racketeering across jurisdictions', status: 'charged', notes: 'FinCEN Files revealed $2T in suspicious transactions. Corporate Transparency Act addresses shell companies.' }
+
+    ],
   },
   'agricultural-worker-exploitation-mapping': {
     title: 'Agricultural Worker Exploitation Mapping',
@@ -2077,6 +2422,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2021', event: 'A 2021 Department of Labor investigation found that H-2A visa workers; legal temporary agricultural workers; experienced wage violations in 74% of audited operations, with employers routinely faili', type: 'default' },
      { date: '2021', event: 'Operation Blooming Onion, a 2021 case in South Georgia, uncovered a scheme where H-2A workers from Mexico and Central America were held in debt bondage, forced to live in overcrowded trailers witho', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Spent millions on anti-union consultants to prevent worker organizing', status: 'charged', notes: 'NLRB found Amazon illegally interfered with union elections. Spent $4.3M on anti-union consultants.' },
+
+      { name: 'Walmart', role: 'Systematically suppressed unionization and underpaid workers', status: 'settled', notes: 'Settled wage theft lawsuits for hundreds of millions.' }
+
+    ],
   },
   'air-quality-monitoring-gaps-analysis': {
     title: 'Air Quality Monitoring Gaps Analysis',
@@ -2117,6 +2470,16 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2024', event: 'A 2024 study by the Union of Concerned Scientists found that 23 million Americans live in areas where the nearest PM2.5 monitor is more than 15 miles away', type: 'financial' },
      { date: '2024', event: 'The EPA\'s proposed Community Air Monitoring Rule, which would have required states to place monitors in environmental justice communities, was withdrawn in 2024 after industry lobbying', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'american-exceptionalism': {
     title: 'American Exceptionalism & Imperial Overreach',
@@ -2157,6 +2520,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '1971', event: 'The war on drugs, declared by Nixon in 1971, has been used to justify interventions in Colombia, Mexico, and Afghanistan', type: 'default' },
      { date: '2021', event: 'The Afghanistan withdrawal in 2021 was the most expensive military retreat in U.S', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Various U.S. Government Officials', role: 'Conducted or supported coups and destabilization in foreign nations', status: 'pending', notes: 'CIA involved in coups in Iran (1953), Guatemala (1954), Chile (1973), and dozens more.' },
+
+      { name: 'Henry Kissinger', role: 'Orchestrated Cambodia bombing, Chilean coup, enabled Indonesian genocide', status: 'pending', notes: 'Responsible for estimated millions of civilian deaths. Died 2023 without prosecution.' }
+
+    ],
   },
   'arms-industry-lobbying': {
     title: 'Arms Industry Lobbying & Campaign Finance',
@@ -2193,6 +2564,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2018', event: 'Between 2018-2022, defense contractors contributed $150 million to members of the House and Senate Armed Services Committees.', type: 'political' },
      { date: '2023', event: 'The top five defense contractors (Lockheed Martin, Raytheon, Boeing, Northrop Grumman, General Dynamics) spent $285 million on lobbying in 2023 alone, employing 800+ lobbyists.', type: 'financial' }
      ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'artificial-intelligence-arms-race': {
     title: 'Artificial Intelligence Arms Race',
@@ -2232,6 +2611,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2021', event: 'The 2021 SolarWinds hack demonstrated how AI can be used to maintain persistent access to critical infrastructure', type: 'default' },
      { date: '2023', event: 'By 2023, the Pentagon had invested over $10 billion in AI projects, including autonomous drones, predictive maintenance systems, and intelligence analysis tools', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'asbestos-liability': {
     title: 'Asbestos Liability & Corporate Evasion',
@@ -2270,6 +2657,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2001', event: 'Between 2001 and 2011, major asbestos producers including Armstrong World Industries, Federal-Mogul, and USG Corporation filed for Chapter 11 bankruptcy to create trusts for victim compensation whi', type: 'financial' },
      { date: '2002', event: 'The EPA designated Libby a Superfund site in 2002, but the contamination affected 200 square miles and caused hundreds of deaths', type: 'critical' }
    ],
+
+    defendants: [
+
+      { name: 'Johns Manville', role: 'Largest asbestos manufacturer that concealed health risks from workers for decades', status: 'settled', notes: 'Filed for bankruptcy in 1982 due to asbestos claims. Internal docs showed knowledge since 1930s.' },
+
+      { name: 'W.R. Grace', role: 'Mining company responsible for Libby, MT asbestos contamination killing hundreds', status: 'acquitted', notes: 'Acquitted of criminal charges in 2009 despite EPA declaring Libby a Superfund site' }
+
+    ],
   },
   'armenian-genocide': {
     title: 'Armenian Genocide',
@@ -2319,6 +2714,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '1948', event: 'Applicable international law (applied retroactively by legal scholars): the 1948 Convention on the Prevention and Punishment of the Crime of Genocide, the Hague Conventions of 1899 and 1907, the 19', type: 'political' },
      { date: '2024', event: 'As of 2024, 34 countries have officially recognized the Armenian Genocide, including the United States (2019 Congressional resolution, 2021 Presidential recognition by Biden), France, Germany, Russ', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Ottoman Empire / Young Turks (CUP)', role: 'Systematically exterminated 1.5 million Armenians through deportation, death marches, and massacres (1915-1923)', status: 'pending', notes: 'Turkish government still denies genocide occurred. US Congress officially recognized Armenian Genocide in 2019.' }
+
+    ],
   },
   'apartheid-south-africa': {
     title: 'Apartheid in South Africa',
@@ -2368,6 +2769,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2002', event: 'Basson was charged with 229 counts including murder but acquitted in 2002', type: 'legal' },
      { date: '2002', event: 'The 2002 Apartheid Convention made apartheid a crime under international criminal law', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'South African National Party Government', role: 'Implemented racial apartheid system from 1948-1994 denying rights to Black South Africans', status: 'pending', notes: 'TRC documented crimes. Many perpetrators received amnesty. De Klerk shared Nobel Prize with Mandela.' }
+
+    ],
   },
   'aipac-foreign-influence-machine': {
     title: 'AIPAC and the Foreign Lobby Machine: How Foreign-Aligned Money Buys American Policy',
@@ -2409,6 +2816,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2024', event: 'PRIMARY TARGETING AND DEMOCRATIC CONSEQUENCES: In the 2024 Democratic primaries, AIPAC\'s United Democracy Project spent $14.5 million to defeat Representative Jamaal Bowman (NY-16) and $8 million t...', type: 'financial' },
      { date: '2024', event: 'In total, AIPAC-linked spending in the 2024 cycle exceeded $100 million, making it the largest outside spender in Democratic primaries', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Koch Network (Charles Koch)', role: 'Spent billions through dark money to influence elections and block regulation', status: 'pending', notes: 'Koch network spent $889M in 2016 cycle. Funded climate denial and anti-union campaigns.' },
+
+      { name: 'Leonard Leo', role: 'Engineered conservative judiciary takeover through dark money networks', status: 'pending', notes: 'Directed $1.6B Barre Seid donation. Orchestrated Supreme Court nominations.' }
+
+    ],
   },
   'amazon-labor-exploitation-warehouse-empire': {
     title: 'Amazon Labor Exploitation Warehouse Empire',
@@ -2447,6 +2862,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2022', event: 'When the Amazon Labor Union (ALU) won a historic election at the JFK8 warehouse in Staten Island in 2022, Amazon challenged the results and spent over two years in legal proceedings', type: 'political' },
      { date: '2023', event: 'OSHA cited Amazon for failing to keep workers safe from ergonomic hazards in 2023 across multiple warehouses', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Anti-union campaigns and unsafe warehouse conditions', status: 'charged', notes: 'NLRB complaints for unfair labor practices; OSHA citations for warehouse injuries' }
+
+    ],
   },
   'artificial-intelligence-bias-discrimination': {
     title: 'Artificial Intelligence Bias and Discrimination',
@@ -2483,6 +2904,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2023', event: 'The tech industry has fought transparency requirements, algorithmic auditing mandates, and comprehensive AI regulation while spending $70+ million on AI lobbying in 2023', type: 'financial' },
      { date: '2024', event: 'The EU AI Act (2024) created a risk-based regulatory framework; the U.S', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'CIA (Central Intelligence Agency)', role: 'Conducted covert operations including illegal domestic surveillance, mind control experiments, extraordinary rendition, and torture programs', status: 'pending', notes: 'Church Committee exposed widespread abuses in 1975; subsequent reforms repeatedly circumvented. Senate Torture Report documented post-9/11 abuses.' },
+
+      { name: 'Richard Helms', role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress', status: 'convicted', notes: 'Pled no contest to misleading Congress in 1977; received two-year suspended sentence and $2,000 fine' }
+
+    ],
   },
   'aig-bailout-scandal': {
     title: 'AIG Bailout Scandal',
@@ -2521,6 +2950,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2009-03-01', event: 'The public outrage peaked in March 2009 when it was revealed that AIG had paid $165 million in retention bonuses to employees of AIGFP, the very division that caused the collapse, using taxpayer ba', type: 'critical' },
      { date: '2017-02-01', event: 'In February 2017, the DOJ settled fraud charges against AIG for $960 million and a deferred prosecution agreement, with no admission of wrongdoing', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'AIG Financial Products / Joseph Cassano', role: 'Head of AIGFP who wrote $440B in credit default swaps without adequate reserves', status: 'pending', notes: 'No criminal charges. AIG received $182B government bailout. Cassano collected $315M in compensation.' },
+
+      { name: 'Hank Greenberg', role: 'Former AIG CEO involved in accounting fraud at AIG before the crisis', status: 'settled', notes: 'Paid $15M to settle SEC charges of bid-rigging and accounting fraud in 2017' }
+
+    ],
   },
   'asset-forfeiture-abuse': {
     title: 'Civil Asset Forfeiture: Policing for Profit',
@@ -2558,6 +2995,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 study found that 80% of people whose property was seized through federal forfeiture were never charged with a crime', type: 'default' },
      { date: '2024', event: 'In 2024, a Sixth Circuit ruling found that Nashville\'s vehicle forfeiture program was an unconstitutional excessive fine since the city kept seized vehicles regardless of the owner\'s culpability', type: 'legal' }
    ],
+
+    defendants: [
+
+      { name: 'Various Ultra-Wealthy Individuals', role: 'Used tax avoidance schemes to pay lower rates than working families', status: 'pending', notes: 'ProPublica revealed billionaires paid near-zero effective tax rates in some years' }
+
+    ],
   },
   'agricultural-worker-exploitation': {
     title: 'Agricultural Worker Exploitation and Modern Slavery',
@@ -2591,6 +3034,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '1930-01-01', event: 'The U', type: 'critical' },
      { date: '2023', event: 'In 2023, a DOJ investigation uncovered a trafficking ring that exploited hundreds of H-2A workers through force, fraud, and coercion across multiple states.', type: 'financial' }
    ],
+
+    defendants: [
+
+      { name: 'Amazon.com Inc.', role: 'Spent millions on anti-union consultants to prevent worker organizing', status: 'charged', notes: 'NLRB found Amazon illegally interfered with union elections. Spent $4.3M on anti-union consultants.' },
+
+      { name: 'Walmart', role: 'Systematically suppressed unionization and underpaid workers', status: 'settled', notes: 'Settled wage theft lawsuits for hundreds of millions.' }
+
+    ],
   },
   'payday-loan-industry-debt-trap': {
     title: 'Payday Loan Industry and Legalized Debt Traps',
@@ -2626,6 +3077,12 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2019', event: 'Payday lenders spent $27 million on federal lobbying between 2019 and 2023', type: 'financial' },
      { date: '2020', event: 'In 2020, the CFPB under Trump appointee Kathy Kraninger repealed the core ability-to-repay provision', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Blackstone Group', role: 'Largest corporate landlord buying homes after 2008 crisis, driving up rents', status: 'pending', notes: 'Purchased 80,000+ homes at distressed prices. UN criticized impact on housing.' }
+
+    ],
   },
   'asbestos-corporate-cover-up': {
     title: 'Asbestos Industry Cover-Up and Ongoing Deaths',
@@ -2663,6 +3120,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2016', event: 'The Lautenberg Chemical Safety Act of 2016 reformed TSCA and gave EPA new authority', type: 'default' },
      { date: '2024-03-01', event: 'In March 2024, EPA finalized a comprehensive ban on chrysotile asbestos, the only type still imported into the U.S', type: 'default' }
    ],
+
+    defendants: [
+
+      { name: 'Johns Manville', role: 'Largest asbestos manufacturer that concealed health risks from workers for decades', status: 'settled', notes: 'Filed for bankruptcy in 1982 due to asbestos claims. Internal docs showed knowledge since 1930s.' },
+
+      { name: 'W.R. Grace', role: 'Mining company responsible for Libby, MT asbestos contamination killing hundreds', status: 'acquitted', notes: 'Acquitted of criminal charges in 2009 despite EPA declaring Libby a Superfund site' }
+
+    ],
   },
   'abu-ghraib-systematic-torture': {
     title: 'Abu Ghraib: Systematic Torture and the Chain of Command',
@@ -2704,6 +3169,14 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2005-03-01', event: 'The Church Report (March 2005) reviewed detention operations across Iraq, Afghanistan, and Guantanamo', type: 'default' },
      { date: '2006', event: 'In 2006, Congress passed the Military Commissions Act (10 U.S.C', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'U.S. Department of Defense', role: 'Civilian casualties, budget fraud, and obstruction of accountability', status: 'pending', notes: 'Failed every audit since 2018. Trillions unaccounted for. Civilian casualties undercounted.' },
+
+      { name: 'Donald Rumsfeld', role: 'Authorized enhanced interrogation and misled public about Iraq WMDs', status: 'pending', notes: 'Authorized torture memos. Created Office of Special Plans to cherry-pick intelligence.' }
+
+    ],
   },
   'agent-orange-chemical-warfare-vietnam': {
     title: 'Agent Orange: Chemical Warfare Against Vietnam and Its Own Soldiers (1961-1971)',
@@ -2751,6 +3224,16 @@ const investigations_a: Record<string, InvestigationData> = {
      { date: '2022', event: 'The VA has since recognized over 20 conditions as presumptively connected to Agent Orange, including non-Hodgkin lymphoma, soft tissue sarcoma, chronic lymphocytic leukemia, Hodgkin disease, multip', type: 'default' },
      { date: '2022', event: 'The PACT Act of 2022 (Public Law 117-168) further expanded presumptive conditions and coverage for toxic-exposed veterans', type: 'political' }
    ],
+
+    defendants: [
+
+      { name: 'ExxonMobil', role: 'Knew about climate change since 1977 and funded decades of disinformation', status: 'charged', notes: 'Internal scientists predicted warming. Spent $30M+ on denial. State AG lawsuits pending.' },
+
+      { name: 'DuPont/Chemours', role: 'Contaminated water with PFAS chemicals and concealed health impacts for decades', status: 'settled', notes: 'Paid $671M for PFOA contamination. C8 Panel linked exposure to 6 diseases.' },
+
+      { name: 'Monsanto (Bayer)', role: 'Concealed cancer risks of Roundup/glyphosate', status: 'settled', notes: 'Bayer paid $10.9B to settle 100,000+ Roundup cancer lawsuits.' }
+
+    ],
   },
   'abu-ghraib': {
  title: 'Abu Ghraib Torture',
@@ -2854,7 +3337,9 @@ const investigations_a: Record<string, InvestigationData> = {
    { name: 'Maj. Gen. Geoffrey Miller', role: 'Sent to Abu Ghraib to "Gitmo-ize"the prison, his recommendations directly preceded the systematic abuse. Invoked Article 31 (right against self-incrimination) when called to testify.', status: 'charged', notes: 'Never charged. Invoked his right to remain silent. Retired from the Army.' },
    { name: 'Abu Ghraib Detainees (Civil Lawsuit)', role: 'Former detainees sued CACI International and L-3 Services (now Engility), private military contractors whose employees directed and participated in torture', status: 'settled', notes: 'CACI settled in 2024 for an undisclosed amount after 16 years of litigation, acknowledging involvement in the abuse for the first time' }
  ],
-  },
+
+
+},
   'afghanistan-papers': {
  title: 'The Afghanistan Papers',
  subtitle: '18 Years of Government Lies: How Officials Deceived the Public About America\'s Longest War',
