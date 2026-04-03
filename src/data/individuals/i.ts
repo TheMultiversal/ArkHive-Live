@@ -945,6 +945,80 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Hideki Tojo', relationship: 'Prime Minister who oversaw the military during Unit 731 operations', href: '/entities/individuals/hideki-tojo' },
     ],
   },
+  'ira-sokolow': {
+    name: 'Ira Sokolow',
+    title: 'Convicted Insider Trader; Shearson Lehman Investment Banker in the Dennis Levine Ring',
+    role: 'Investment Banker, Shearson Lehman Brothers',
+    riskLevel: 'high',
+    description: 'Ira Sokolow was an investment banker at Shearson Lehman Brothers who participated in Dennis Levine\'s insider trading ring during the 1980s. Sokolow provided Levine with material nonpublic information about pending Shearson Lehman M&A transactions, which Levine traded on through secret Bahamian bank accounts. When Levine was caught and cooperated with prosecutors in 1986, Sokolow was identified and prosecuted. He pleaded guilty to insider trading conspiracy and was sentenced to one year and one day in federal prison.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Shearson Lehman Brothers', role: 'Investment Banker, M&A Department', type: 'corporation' },
+    ],
+    controversies: [
+      'Member of Dennis Levine\'s insider trading ring; fed him deal information from Shearson Lehman',
+      'Provided nonpublic M&A intelligence that Levine traded on through secret offshore accounts',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b), SEC Rule 10b-5', description: 'Insider Trading Conspiracy: Passing material nonpublic M&A information to Dennis Levine', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1980-1986', event: 'Provides inside M&A information from Shearson Lehman to Dennis Levine as part of trading ring' },
+      { date: '1986', event: 'Pleads guilty to insider trading conspiracy' },
+      { date: '1987', event: 'Sentenced to 1 year and 1 day in federal prison' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Levine', relationship: 'Ringleader of the insider trading ring', href: '/entities/individuals/dennis-levine' },
+    ],
+  },
+  'ilan-reich': {
+    name: 'Ilan Reich',
+    title: 'Convicted Insider Trader; Attorney at Wachtell, Lipton, Rosen & Katz Who Betrayed Attorney-Client Privilege',
+    role: 'Associate Attorney, Wachtell, Lipton, Rosen & Katz',
+    riskLevel: 'high',
+    description: 'Ilan Reich was an associate attorney at Wachtell, Lipton, Rosen & Katz, one of the most prestigious M&A law firms in the world, who betrayed attorney-client privilege by passing inside information about his firm\'s pending M&A deals to Dennis Levine. Reich was a member of Levine\'s insider trading ring and provided advance notice of major corporate transactions that Wachtell Lipton was advising on. His participation was deeply shocking to the legal profession because it demonstrated that the 1980s insider trading conspiracy had penetrated not just investment banks but Wall Street\'s top law firms. Reich pleaded guilty to insider trading conspiracy and was sentenced to one year and one day in federal prison.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Wachtell, Lipton, Rosen & Katz', role: 'Associate Attorney, M&A Practice', type: 'corporation' },
+    ],
+    controversies: [
+      'Betrayed attorney-client privilege by passing inside M&A information from one of America\'s most prestigious law firms to Dennis Levine',
+      'His conviction demonstrated the corruption penetrated Wall Street\'s top law firms, not just banks',
+      'Deeply shocking to the legal profession; undermined trust in attorney-client confidentiality',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b), SEC Rule 10b-5', description: 'Insider Trading Conspiracy: Passing material nonpublic M&A information from law firm clients to Dennis Levine', category: 'Federal' },
+      { statute: 'Breach of fiduciary duty', description: 'Violation of attorney-client privilege by disclosing confidential client deal information for illegal trading', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1980-1986', event: 'Passes confidential M&A client information from Wachtell Lipton to Dennis Levine, betraying attorney-client privilege' },
+      { date: '1986', event: 'Pleads guilty to insider trading conspiracy' },
+      { date: '1987', event: 'Sentenced to 1 year and 1 day in federal prison' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Levine', relationship: 'Ringleader who recruited Reich into the insider trading ring', href: '/entities/individuals/dennis-levine' },
+    ],
+  },
 };
 
 export default profiles;

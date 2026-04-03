@@ -1,7 +1,8 @@
 // Individual profile data shard
 import type { IndividualProfile } from './types';
 
-const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
+const profiles: Record<string, IndividualProfile> = {
+ 'tom-barrack': {
  name: 'Thomas Joseph Barrack Jr.',
  title: 'Billionaire Real Estate Investor',
  role: 'Trump Inaugural Chair, Charged as Foreign Agent',
@@ -991,7 +992,8 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  { date: '2016', event: 'Chilcot Report criticizes war' },
  ],
  sources: [{ title: 'Wikipedia: Tony Blair', url: 'https://en.wikipedia.org/wiki/Tony_Blair' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Tony Blair', url: 'https://www.militarytimes.com/' }, { title: 'BBC News', url: 'https://www.bbc.com/news' }],
- },
+ },
+
 
 
 
@@ -2786,7 +2788,8 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  knownAssociates: [
  { name: 'Tom Saffer', relationship: 'Senator who championed atomic veterans Saffer represented', href: '/entities/individuals/tom-saffer' },
  ],
- },
+ },
+
  'tom-saffer': {
  name: 'Tom Saffer',
  title: 'Atomic veteran and co-author documenting military nuclear testing exposure',
@@ -3946,6 +3949,106 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
     ],
   },
 
+
+
+ 'terren-peizer': {
+ name: 'Terren Peizer',
+ title: 'Former Drexel Burnham Lambert Junk Bond Salesman; Former CEO, Ontrak Inc.',
+ role: 'Milken prot\u00e9g\u00e9 who received immunity for testimony against Milken in 1990, then was himself convicted of insider trading in 2024 and pardoned by Trump in 2026',
+ riskLevel: 'critical',
+ description: 'Terren Scott Peizer was hired by Michael Milken at Drexel Burnham Lambert in 1985 as a junk bond salesman. He managed the Drexel account of David Solomon\'s fund management firm, Solomon Asset Management, which had an illegal arrangement with Drexel that included insider trading and phony tax losses. He worked directly under Milken, sometimes pretending to be him on the phone and calling him "Dad." Beginning in 1988, Peizer provided material evidence to prosecutors against Milken and Solomon. At Milken\'s 1990 pre-sentencing hearing, Peizer testified against his former boss in exchange for complete immunity from both criminal prosecution and SEC sanctions. In a dark irony, Peizer himself was convicted in June 2024 of insider trading and securities fraud for a separate $12.5 million scheme at healthcare company Ontrak Inc. He was sentenced to 42 months in prison and fined $5.25 million. On January 16, 2026, President Donald Trump granted Peizer a full and unconditional pardon.',
+ birthDate: 'July 31, 1959',
+ birthPlace: 'Beachwood, Ohio, USA',
+ education: ['Wharton School of the University of Pennsylvania (B.S., Economics, 1982)'],
+ affiliations: [
+  { name: 'Drexel Burnham Lambert', role: 'Junk Bond Salesman (1985-1989)', type: 'corporation' },
+  { name: 'Goldman Sachs', role: 'Brief stint (1983)', type: 'corporation' },
+  { name: 'First Boston', role: 'High-yield bond salesman (1983)', type: 'corporation' },
+  { name: 'Ontrak Inc. (formerly Catasys/Hythiam)', role: 'Founder, CEO, and Chairman (2003-2023)', type: 'corporation' },
+ ],
+ controversies: [
+  'Managed Drexel account with illegal arrangement including insider trading and phony tax losses with Solomon Asset Management',
+  'Received complete immunity from criminal prosecution and SEC sanctions in exchange for testimony against Michael Milken (1988-1990)',
+  'Founded and promoted Hythiam Inc., which marketed an unproven addiction treatment called Prometa that proved completely ineffective; stock dropped 99.7%',
+  'Indicted March 2023 for insider trading at Ontrak Inc. after FBI investigation; accused of selling $20 million in stock while possessing material nonpublic information',
+  'Convicted June 2024 of 3 counts of insider trading and securities fraud; sentenced to 42 months in prison',
+  'Pardoned by President Trump January 16, 2026',
+ ],
+ charges: [
+  { statute: '15 U.S.C. \u00a7 78j(b)', description: 'Securities fraud (Ontrak Inc.)', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. \u00a7 78ff', description: 'Insider trading (2 counts, Ontrak Inc.)', category: 'Financial Crimes' },
+ ],
+ relatedInvestigations: [
+  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+  { date: '1959', event: 'Born in Beachwood, Ohio' },
+  { date: '1982', event: 'Graduates from Wharton School, University of Pennsylvania' },
+  { date: '1983', event: 'Brief stints at Goldman Sachs and First Boston' },
+  { date: '1985', event: 'Hired by Michael Milken at Drexel Burnham Lambert as junk bond salesman' },
+  { date: '1988', event: 'Begins providing material evidence to prosecutors against Milken and Solomon' },
+  { date: '1988-12', event: 'Receives immunity deal as fourth Drexel employee to cooperate' },
+  { date: '1990', event: 'Testifies against Milken at pre-sentencing hearing under immunity' },
+  { date: '2003', event: 'Founds Catasys Inc. (later Ontrak), a healthcare company' },
+  { date: '2023-03-01', event: 'Indicted for insider trading and securities fraud at Ontrak after FBI investigation' },
+  { date: '2024-06-21', event: 'Convicted by federal jury of 3 counts of insider trading and securities fraud' },
+  { date: '2025-06-23', event: 'Sentenced to 42 months in prison, fined $5.25 million, ordered to forfeit $12.7 million' },
+  { date: '2026-01-16', event: 'Granted full and unconditional pardon by President Donald Trump' },
+ ],
+ socialMedia: [],
+ sources: [
+  { title: 'NY Times: "4th Drexel Employee in Immunity Bargain" (Dec. 10, 1988)', url: 'https://www.nytimes.com/1988/12/10/business/4th-drexel-employee-in-immunity-bargain.html', date: '1988' },
+  { title: 'Wall Street Journal: "Jury Convicts Milken Prot\u00e9g\u00e9 Terren Peizer of Insider Trading" (June 21, 2024)', url: 'https://www.wsj.com/finance/regulation/jury-convicts-milken-protege-terren-peizer-of-insider-trading-7c78ba2a', date: '2024' },
+  { title: 'DOJ: United States v. Terren S. Peizer', url: 'https://www.justice.gov/criminal-vns/case/united-states-v-terren-s-peizer', date: '2023' },
+  { title: 'SEC: Charges Ontrak Chairman Terren Peizer With Insider Trading', url: 'https://www.sec.gov/news/press-release/2023-42', date: '2023' },
+ ],
+ aliases: ['Milken\'s Prot\u00e9g\u00e9'],
+ knownAssociates: [
+  { name: 'Michael Milken', relationship: 'Boss at Drexel; mentor; Peizer testified against him under immunity', href: '/entities/individuals/michael-milken' },
+  { name: 'David Solomon', relationship: 'Fund manager whose account Peizer managed; illegal arrangement with Drexel', href: '/entities/individuals/david-solomon-fund-manager' },
+  { name: 'Ivan Boesky', relationship: 'Part of the broader insider trading conspiracy', href: '/entities/individuals/ivan-boesky' },
+ ],
+ },
+
+
+ 'timothy-tabor': {
+ name: 'Timothy Tabor',
+ title: 'Former Arbitrageur, Kidder, Peabody & Co.',
+ role: 'Kidder Peabody arbitrageur arrested alongside Richard Wigton in the February 1987 insider trading sweep; charges later dropped',
+ riskLevel: 'medium',
+ description: 'Timothy Tabor was an arbitrageur at Kidder, Peabody & Co. who was arrested alongside Richard Wigton in the same aggressive February 1987 sweep by prosecutors. Like Wigton, Tabor was charged with insider trading conspiracy and securities fraud. The charges against both men were eventually dropped when prosecutors concluded they lacked sufficient evidence to proceed. Tabor\'s case, like Wigton\'s, became part of the broader debate about prosecutorial overreach under U.S. Attorney Rudy Giuliani, who favored dramatic public arrests and the use of RICO charges to pressure white-collar defendants. Whether the dropped charges reflected actual innocence or merely the difficulty of proving insider trading in court remains an open question.',
+ birthDate: 'Unknown',
+ birthPlace: 'Unknown',
+ education: ['Unknown'],
+ affiliations: [
+  { name: 'Kidder, Peabody & Co.', role: 'Arbitrageur', type: 'corporation' },
+ ],
+ controversies: [
+  'Arrested in February 1987 alongside Richard Wigton in publicized insider trading sweep at Kidder Peabody',
+  'Charges dropped when prosecutors concluded insufficient evidence, but career was already destroyed',
+  'Case became symbol of prosecutorial overreach debate under Giuliani',
+ ],
+ charges: [
+  { statute: '15 U.S.C. \u00a7 78j(b)', description: 'Insider trading conspiracy (DROPPED)', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. \u00a7 78j(b)', description: 'Securities fraud (DROPPED)', category: 'Financial Crimes' },
+ ],
+ relatedInvestigations: [
+  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+  { date: '1987-02', event: 'Arrested alongside Richard Wigton at Kidder Peabody in publicized insider trading sweep' },
+  { date: '1989', event: 'Charges dropped when prosecutors concede insufficient evidence' },
+ ],
+ socialMedia: [],
+ sources: [
+  { title: 'James B. Stewart, "Den of Thieves" (Simon & Schuster, 1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+ ],
+ aliases: [],
+ knownAssociates: [
+  { name: 'Richard Wigton', relationship: 'Co-arrested at Kidder Peabody; both had charges dropped', href: '/entities/individuals/richard-wigton' },
+  { name: 'Martin Siegel', relationship: 'Kidder Peabody M&A banker whose insider trading exposed others at the firm', href: '/entities/individuals/martin-siegel' },
+ ],
+ }
 };
 
 export default profiles;

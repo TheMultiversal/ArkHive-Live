@@ -2083,6 +2083,51 @@ const profiles: Record<string, IndividualProfile> = {
      { date: "1962", event: "Receives award from President Kennedy" },
    ],
  },
+  'fred-joseph': {
+    name: 'Fred Joseph',
+    title: 'Former CEO of Drexel Burnham Lambert; Escaped Criminal Charges Despite Presiding Over Systemic Fraud',
+    role: 'Chief Executive Officer, Drexel Burnham Lambert Inc.',
+    riskLevel: 'high',
+    description: 'Frederick H. Joseph was the CEO of Drexel Burnham Lambert during the period when the firm operated the most corrupt trading operation in Wall Street history under Michael Milken. As CEO, Joseph bore ultimate executive responsibility for the criminal enterprise that resulted in six corporate felony convictions and $650 million in fines. Despite his position at the top of the organization, Joseph was NEVER criminally charged. The SEC barred him from serving as CEO of a securities firm, but he never spent a single day in prison. He later returned to the financial industry at Morgan Stanley in a compliance role. Meanwhile, over 10,000 rank-and-file Drexel employees lost their jobs and livelihoods when the firm collapsed. Joseph\'s case is one of the most egregious examples of the two-tiered justice system in American financial regulation: the organization is destroyed and ordinary workers suffer, while the executive who presided over the criminal enterprise walks free.',
+    birthDate: '1937',
+    birthPlace: 'United States',
+    deathDate: 'May 21, 2009',
+    education: ['Harvard Business School (MBA)'],
+    affiliations: [
+      { name: 'Drexel Burnham Lambert', role: 'Chief Executive Officer (1985-1990)', type: 'corporation' },
+      { name: 'Morgan Stanley', role: 'Managing Director, Compliance (post-Drexel)', type: 'corporation' },
+    ],
+    controversies: [
+      'As CEO of Drexel, presided over the most corrupt trading operation in Wall Street history',
+      'NEVER criminally charged despite firm pleading guilty to 6 felonies and paying $650M in fines',
+      'SEC barred him from being CEO of a securities firm, but he never spent a day in prison',
+      'Later returned to Wall Street at Morgan Stanley while 10,000+ Drexel employees lost their livelihoods',
+      'Embodies the two-tiered justice system: executives walk free while workers pay the price',
+    ],
+    charges: [
+      { statute: 'SEC Administrative Action', description: 'Failure to Supervise: Barred from serving as CEO of a securities firm. NEVER criminally charged.', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1985', event: 'Becomes CEO of Drexel Burnham Lambert' },
+      { date: '1988-12-21', event: 'Drexel pleads guilty to 6 felonies and pays $650M; Joseph was CEO throughout the criminal conduct' },
+      { date: '1990-02-13', event: 'Drexel files for bankruptcy under Joseph\'s leadership; 10,000+ employees lose jobs' },
+      { date: '1993', event: 'SEC bars Joseph from serving as CEO of a securities firm; never criminally charged' },
+      { date: '1990s', event: 'Returns to Wall Street at Morgan Stanley in compliance and advisory role' },
+      { date: 'May 21, 2009', event: 'Dies at age 72' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NY Times Obituary: Fred Joseph (2009)', url: 'https://www.nytimes.com/2009/05/23/business/23joseph.html', date: '2009' },
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: ['Frederick H. Joseph'],
+    knownAssociates: [
+      { name: 'Michael Milken', relationship: 'Head of the high-yield bond department that Joseph, as CEO, was responsible for supervising', href: '/entities/individuals/michael-milken' },
+    ],
+  },
 };
 
 export default profiles;

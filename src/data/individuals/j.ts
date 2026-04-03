@@ -8619,6 +8619,205 @@ const profiles: Record<string, IndividualProfile> = {
  'SECRET COURT: Served on the largely secret FISA Court that approved mass surveillance warrants',
  ],
  },
+  'james-sherwin': {
+    name: 'James Sherwin',
+    title: 'Convicted Stock Manipulator; Vice Chairman of GAF Corporation',
+    role: 'Vice Chairman, GAF Corporation',
+    riskLevel: 'medium',
+    description: 'James Sherwin was the vice chairman of GAF Corporation who was convicted of manipulating GAF\'s stock price during a hostile takeover attempt of Union Carbide in the mid-1980s. Sherwin directed brokers to make artificial trades to inflate GAF\'s stock price, creating a false impression of market demand. The case required three trials (two ended in mistrials) before a jury convicted Sherwin in January 1990 of stock manipulation. He was sentenced to six months in prison. The case demonstrated how stock manipulation was used as a tool in the corporate takeover wars of the 1980s.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'GAF Corporation', role: 'Vice Chairman', type: 'corporation' },
+    ],
+    controversies: [
+      'Directed artificial trades to inflate GAF Corporation stock price during Union Carbide takeover attempt',
+      'Required three trials before conviction (two prior mistrials)',
+      'Case demonstrated how stock manipulation was integral to 1980s corporate raider tactics',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b)', description: 'Stock Manipulation: Directing artificial trades to inflate GAF stock price', category: 'Federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy: Stock manipulation during Union Carbide takeover attempt', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1986-1987', event: 'Directs artificial trades to inflate GAF Corporation stock during Union Carbide takeover attempt' },
+      { date: '1988', event: 'First trial ends in mistrial' },
+      { date: '1989', event: 'Second trial ends in mistrial' },
+      { date: 'January 1990', event: 'Third trial results in conviction for stock manipulation and conspiracy' },
+      { date: '1990', event: 'Sentenced to 6 months in federal prison' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NY Times: GAF Official Convicted of Fraud (1990)', url: 'https://www.nytimes.com/1990/01/24/business/gaf-official-convicted-of-fraud.html', date: '1990' },
+    ],
+    aliases: [],
+    knownAssociates: [],
+  },
+  'john-mulheren': {
+    name: 'John Mulheren',
+    title: 'Acquitted on Appeal; Jamie Securities Head Convicted Then Freed in 1980s Insider Trading Scandal',
+    role: 'Chairman, Jamie Securities Co.',
+    riskLevel: 'high',
+    description: 'John A. Mulheren Jr. was the head of Jamie Securities and a close associate of Ivan Boesky who was convicted of conspiracy and stock manipulation for artificially propping up stock prices at Boesky\'s direction. His case took a dramatic and bizarre turn when he was arrested while allegedly driving to Boesky\'s home with a loaded assault rifle, apparently intending to kill the man who had betrayed him to prosecutors. Mulheren\'s conviction was overturned on appeal by the Second Circuit Court of Appeals in 1991, which found insufficient evidence that his trades were manipulative rather than legitimate market activity. His acquittal on appeal represents another gap in the accountability record of the 1980s scandals.',
+    birthDate: 'October 13, 1949',
+    birthPlace: 'United States',
+    deathDate: 'June 18, 2003',
+    education: [],
+    affiliations: [
+      { name: 'Jamie Securities Co.', role: 'Founder and Chairman', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted of conspiracy and stock manipulation for propping up prices at Boesky\'s direction',
+      'Arrested while allegedly driving to Boesky\'s home with a loaded assault rifle after being betrayed',
+      'Conviction overturned on appeal by Second Circuit in 1991; another accountability failure',
+      'Close associate of Ivan Boesky who allegedly participated in manipulative trading schemes',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b)', description: 'Securities Fraud: Stock manipulation at Boesky\'s direction (OVERTURNED ON APPEAL)', category: 'Federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy: Stock manipulation scheme with Ivan Boesky (OVERTURNED ON APPEAL)', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1986-1988', event: 'Allegedly manipulated stock prices at Ivan Boesky\'s direction through Jamie Securities' },
+      { date: '1988', event: 'Arrested while allegedly driving to Boesky\'s home with a loaded assault rifle' },
+      { date: '1990', event: 'Convicted of conspiracy and stock manipulation by jury' },
+      { date: '1991', event: 'Second Circuit Court of Appeals overturns conviction; finds insufficient evidence of manipulation' },
+      { date: 'June 18, 2003', event: 'Dies at age 53' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'United States v. Mulheren, 938 F.2d 364 (2d Cir. 1991)', url: 'https://law.justia.com/cases/federal/appellate-courts/F2/938/364/394960/', date: '1991' },
+    ],
+    aliases: ['John A. Mulheren Jr.'],
+    knownAssociates: [
+      { name: 'Ivan Boesky', relationship: 'Close associate who directed Mulheren\'s alleged stock manipulation; later betrayed him to prosecutors', href: '/entities/individuals/ivan-boesky' },
+    ],
+  },
+
+
+ 'james-dahl': {
+ name: 'James Dahl',
+ title: 'Former Drexel Burnham Lambert Junk Bond Salesman',
+ role: 'Salesman in Michael Milken\'s Beverly Hills high-yield bond operation who pleaded guilty to securities fraud',
+ riskLevel: 'medium',
+ description: 'James Dahl was a junk bond salesman who worked in Michael Milken\'s Beverly Hills high-yield bond department at Drexel Burnham Lambert. He pleaded guilty to securities fraud for his role in illegal trading schemes emanating from Milken\'s operation. He was one of several Drexel salesmen and traders prosecuted for participating in the systematic misconduct that characterized the Beverly Hills office, which functioned as the nerve center of the 1980s junk bond and insider trading conspiracy.',
+ birthDate: 'Unknown',
+ birthPlace: 'Unknown',
+ education: ['Unknown'],
+ affiliations: [
+  { name: 'Drexel Burnham Lambert', role: 'Junk Bond Salesman, Beverly Hills High-Yield Bond Department', type: 'corporation' },
+ ],
+ controversies: [
+  'Participated in illegal trading schemes in Milken\'s Beverly Hills operation',
+  'Pleaded guilty to securities fraud',
+ ],
+ charges: [
+  { statute: '15 U.S.C. § 78j(b)', description: 'Securities fraud', category: 'Financial Crimes' },
+ ],
+ relatedInvestigations: [
+  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+  { date: '1985-1989', event: 'Works as junk bond salesman in Milken\'s Beverly Hills operation at Drexel' },
+  { date: '1990', event: 'Pleads guilty to securities fraud' },
+ ],
+ socialMedia: [],
+ sources: [
+  { title: 'James B. Stewart, "Den of Thieves" (Simon & Schuster, 1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+ ],
+ aliases: [],
+ knownAssociates: [
+  { name: 'Michael Milken', relationship: 'Boss at Drexel\'s Beverly Hills high-yield bond department', href: '/entities/individuals/michael-milken' },
+  { name: 'Lisa Ann Jones', relationship: 'Fellow Drexel trader in Milken\'s operation; convicted of perjury', href: '/entities/individuals/lisa-ann-jones' },
+  { name: 'Bruce Lee Newberg', relationship: 'Fellow Drexel trader in Milken\'s operation; convicted of racketeering', href: '/entities/individuals/bruce-lee-newberg' },
+ ],
+ },
+
+ 'james-sutton-regan': {
+    name: 'James Sutton Regan',
+    title: 'Managing General Partner of Princeton/Newport Partners; Convicted on 63 RICO Counts, All Overturned on Appeal',
+    role: 'Managing General Partner, Princeton/Newport Partners',
+    riskLevel: 'high',
+    description: 'James Sutton Regan was the managing general partner of Princeton/Newport Partners, a pioneering quantitative hedge fund co-founded by mathematician Edward Thorp. In August 1988, Regan and five other defendants were indicted on RICO charges for engaging in illegal tax-motivated stock parking transactions with Drexel Burnham Lambert trader Bruce Lee Newberg. Convicted on 63 counts in August 1989, Regan was sentenced to 6 months in federal prison. However, on June 29, 1991, ALL convictions were overturned on appeal when the court ruled the government had improperly applied RICO to what were essentially tax and regulatory disputes. The RICO indictment had already forced Princeton/Newport Partners to liquidate, destroying the fund despite the eventual reversal of all convictions.',
+    birthDate: 'c. 1942',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Princeton/Newport Partners', role: 'Managing General Partner', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted on 63 counts of racketeering, securities fraud, and tax fraud in the first RICO prosecution arising from the Wall Street crackdown',
+      'All convictions overturned on appeal June 29, 1991; court ruled government misapplied RICO to tax disputes',
+      'RICO indictment forced Princeton/Newport Partners to liquidate, destroying the fund',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1962 (RICO)', description: 'Racketeering: Illegal tax-motivated stock parking with Drexel Burnham Lambert', category: 'Federal' },
+      { statute: '26 U.S.C. 7206', description: 'Tax fraud in connection with illegal stock trades', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1988-08-04', event: 'Indicted alongside five other defendants on RICO charges for illegal tax-motivated stock parking with Drexel' },
+      { date: '1989-08', event: 'Convicted on 63 counts of racketeering, securities fraud, and tax fraud' },
+      { date: '1989-11-09', event: 'Sentenced to 6 months in federal prison' },
+      { date: '1991-06-29', event: 'ALL convictions overturned on appeal; court rules government misapplied RICO' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'LA Times: 6 in Princeton-Newport Case Given Jail Terms', url: 'https://www.latimes.com', date: 'November 10, 1989' },
+      { title: 'NY Times: Six Guilty of Stock Conspiracy', url: 'https://www.nytimes.com', date: 'August 1, 1989' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Bruce Lee Newberg', relationship: 'Drexel trader who was counterparty to Princeton/Newport\'s illegal trades; co-defendant', href: '/entities/individuals/bruce-lee-newberg' },
+      { name: 'Charles Zarzecki', relationship: 'Co-defendant; general partner and chief trader at Princeton/Newport', href: '/entities/individuals/charles-zarzecki' },
+    ],
+  },
+
+ 'jack-rabinowitz': {
+    name: 'Jack Rabinowitz',
+    title: 'Princeton/Newport Partners General Partner; Convicted on RICO Charges, All Overturned on Appeal',
+    role: 'General Partner, Princeton/Newport Partners',
+    riskLevel: 'high',
+    description: 'Jack Rabinowitz was a general partner at Princeton/Newport Partners, a quantitative hedge fund co-founded by mathematician Edward Thorp. In August 1989, Rabinowitz and five other defendants were convicted on over 60 counts of racketeering, securities fraud, and tax fraud in the first RICO prosecution arising from the Wall Street investigations. He was sentenced to 3 months in federal prison. On June 29, 1991, all convictions were overturned on appeal when the court ruled the government had improperly applied RICO to tax and regulatory disputes.',
+    birthDate: 'c. 1947',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Princeton/Newport Partners', role: 'General Partner', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted on RICO charges for illegal tax-motivated stock parking transactions with Drexel Burnham Lambert',
+      'All convictions overturned on appeal June 29, 1991',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1962 (RICO)', description: 'Racketeering: Illegal tax-motivated stock parking', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1988-08-04', event: 'Indicted alongside five other Princeton/Newport defendants on RICO charges' },
+      { date: '1989-08', event: 'Convicted on multiple counts of racketeering and tax fraud' },
+      { date: '1989-11-09', event: 'Sentenced to 3 months in federal prison' },
+      { date: '1991-06-29', event: 'ALL convictions overturned on appeal' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'LA Times: 6 in Princeton-Newport Case Given Jail Terms', url: 'https://www.latimes.com', date: 'November 10, 1989' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'James Sutton Regan', relationship: 'Managing general partner at Princeton/Newport; co-defendant', href: '/entities/individuals/james-sutton-regan' },
+    ],
+  },
 };
 
 export default profiles;

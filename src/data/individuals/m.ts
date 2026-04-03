@@ -5797,6 +5797,48 @@ const profiles: Record<string, IndividualProfile> = {
  'DOMESTIC SURVEILLANCE PROOF: Provided first physical evidence that NSA was tapping domestic internet backbone',
  ],
  },
+  'martin-siegel': {
+    name: 'Martin Siegel',
+    title: 'Convicted Insider Trader; Former Star M&A Banker at Kidder, Peabody & Co.',
+    role: 'Head of Mergers & Acquisitions, Kidder Peabody; Later Managing Director, Drexel Burnham Lambert',
+    riskLevel: 'high',
+    description: 'Martin Siegel was one of Wall Street\'s most prominent mergers-and-acquisitions bankers in the 1980s, first at Kidder, Peabody & Co. and later at Drexel Burnham Lambert. He secretly sold inside information about pending mergers to arbitrageur Ivan Boesky in exchange for briefcases stuffed with cash, receiving at least $700,000 in payments. Siegel provided advance notice of major deals including Martin Marietta, Carnation Company, and other Kidder Peabody advisory clients. When caught as part of the unraveling 1980s insider trading scandal, Siegel cooperated extensively with prosecutors, leading to the $25.3 million SEC settlement against Kidder Peabody. He pleaded guilty to insider trading conspiracy and tax evasion in February 1987 and was sentenced to two months in prison.',
+    birthDate: '1948',
+    birthPlace: 'United States',
+    education: ['Harvard Business School (MBA)'],
+    affiliations: [
+      { name: 'Kidder, Peabody & Co.', role: 'Head of Mergers & Acquisitions (1970s-1986)', type: 'corporation' },
+      { name: 'Drexel Burnham Lambert', role: 'Managing Director (1986-1987)', type: 'corporation' },
+    ],
+    controversies: [
+      'Sold inside M&A information to Ivan Boesky in exchange for briefcases filled with cash (at least $700,000)',
+      'Provided advance notice of Martin Marietta, Carnation Company, and other pending Kidder Peabody deals',
+      'His cooperation exposed insider trading at Kidder Peabody and led to $25.3M SEC settlement against the firm',
+      'Received remarkably lenient 2-month prison sentence for extensive cooperation',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b), SEC Rule 10b-5', description: 'Insider Trading Conspiracy: Selling material nonpublic M&A information for cash', category: 'Federal' },
+      { statute: '26 U.S.C. 7201', description: 'Tax Evasion: Failure to report cash payments from Boesky', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1984-1986', event: 'Passes inside information about pending Kidder Peabody M&A deals to Ivan Boesky in exchange for cash payments' },
+      { date: '1986', event: 'Leaves Kidder Peabody to join Drexel Burnham Lambert' },
+      { date: 'February 13, 1987', event: 'Pleads guilty to insider trading conspiracy and tax evasion; cooperates extensively' },
+      { date: '1987', event: 'His cooperation leads to $25.3M SEC settlement against Kidder, Peabody & Co.' },
+      { date: '1990', event: 'Sentenced to 2 months in prison for his cooperation' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ivan Boesky', relationship: 'Paid Siegel cash for inside M&A information', href: '/entities/individuals/ivan-boesky' },
+    ],
+  },
 };
 
 export default profiles;

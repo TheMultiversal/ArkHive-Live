@@ -3826,6 +3826,100 @@ const profiles: Record<string, IndividualProfile> = {
      { date: "1977", event: "Convicted of two counts of first-degree murder" },
    ],
  },
+  'lisa-ann-jones': {
+    name: 'Lisa Ann Jones',
+    title: 'Convicted Drexel Burnham Trader; Lied to SEC About Michael Milken\'s Criminal Activities',
+    role: 'Trader, Drexel Burnham Lambert High-Yield Bond Department (Beverly Hills)',
+    riskLevel: 'medium',
+    description: 'Lisa Ann Jones was a trader in Michael Milken\'s high-yield bond department at Drexel Burnham Lambert\'s Beverly Hills office. She pleaded guilty to perjury for lying to the SEC about Milken\'s illegal activities, including secret arrangements to guarantee Ivan Boesky against losses on stock positions. Jones\'s testimony was critical to establishing that Milken\'s operation was not a solo endeavor but a systematic fraud enterprise with willing participants who actively concealed criminal conduct from regulators.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Drexel Burnham Lambert', role: 'Trader, Michael Milken\'s High-Yield Bond Department, Beverly Hills', type: 'corporation' },
+    ],
+    controversies: [
+      'Lied to SEC about Milken\'s illegal activities including secret guarantee arrangements with Boesky',
+      'Her conviction proved Milken\'s fraud was an organized enterprise with willing participants, not a solo act',
+      'Active participant in concealing criminal conduct from federal regulators',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1621', description: 'Perjury: Lying to SEC about Michael Milken\'s criminal activities', category: 'Federal' },
+      { statute: '18 U.S.C. 1505', description: 'Obstruction of Justice: Concealing evidence of securities fraud from SEC investigators', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1983-1989', event: 'Works as trader in Milken\'s Beverly Hills high-yield bond department' },
+      { date: '1989', event: 'Pleads guilty to perjury for lying to SEC about Milken\'s illegal activities' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Connie Bruck, The Predators\' Ball (1989)', url: 'https://www.penguinrandomhouse.com/books/331426/the-predators-ball-by-connie-bruck/', date: '1989' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Michael Milken', relationship: 'Direct supervisor; ran the criminal enterprise she lied to protect', href: '/entities/individuals/michael-milken' },
+    ],
+  },
+
+
+ 'lowell-milken': {
+ name: 'Lowell Milken',
+ title: 'Former Senior Vice President, Drexel Burnham Lambert High-Yield Bond Department',
+ role: 'Michael Milken\'s younger brother who served as SVP in the high-yield bond department and was indicted on 13 counts of racketeering and fraud as part of the government\'s case against the Drexel operation',
+ riskLevel: 'high',
+ description: 'Lowell Jay Milken served as a senior vice president in his brother Michael Milken\'s high-yield bond department at Drexel Burnham Lambert from 1979 until his resignation in 1989. In March 1989, a federal grand jury indicted Lowell alongside Michael and Bruce Lee Newberg on 98 total counts of racketeering and fraud. Lowell was specifically charged with 2 counts of racketeering and 11 counts of fraud based on his administrative role in the department. Critics condemned the indictment as a deliberate pressure tactic to force Michael into a plea deal by threatening his brother. Columbia Law professor Vivian Berger called the practice "troubling." When Michael pleaded guilty in April 1990, all charges against Lowell were dropped as part of the deal. In March 1991, Lowell was barred from the securities industry by an SEC settlement. He was never tried, never convicted, and never imprisoned despite being named in one of the largest financial crime indictments in American history. He has since become a prominent businessman and philanthropist, co-founding Knowledge Universe with his brother and Larry Ellison, and founding the Milken Educator Awards program.',
+ birthDate: 'November 29, 1948',
+ birthPlace: 'Encino, California, USA',
+ education: ['University of California, Berkeley (B.A., Phi Beta Kappa, summa cum laude)', 'UCLA School of Law (J.D., Order of the Coif, top 10% of class)'],
+ affiliations: [
+  { name: 'Drexel Burnham Lambert', role: 'Senior Vice President, High-Yield Bond Department (1979-1989)', type: 'corporation' },
+  { name: 'Knowledge Universe', role: 'Co-Founder (1996)', type: 'corporation' },
+  { name: 'Milken Family Foundation', role: 'Co-Founder and Chairman', type: 'organization' },
+  { name: 'Irell & Manella', role: 'Associate Attorney (1975-1979)', type: 'corporation' },
+ ],
+ controversies: [
+  'Indicted March 1989 on 2 counts of racketeering and 11 counts of fraud alongside brother Michael Milken and Bruce Lee Newberg in 98-count indictment',
+  'Government allegedly used Lowell\'s indictment as leverage to pressure Michael into a plea deal, using family member as "bargaining chip"',
+  'All charges dropped April 1990 as part of Michael\'s plea agreement, without Lowell ever facing trial',
+  'Barred from the securities industry by SEC settlement in March 1991',
+  'Funded a $1.6 million lawsuit challenging James B. Stewart\'s "Den of Thieves" book',
+ ],
+ charges: [
+  { statute: '18 U.S.C. § 1962', description: 'Racketeering (RICO) (2 counts)', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. § 78j(b)', description: 'Securities fraud (11 counts)', category: 'Financial Crimes' },
+ ],
+ relatedInvestigations: [
+  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+  { date: '1948', event: 'Born in Encino, California; younger brother of Michael Milken' },
+  { date: '1970', event: 'Graduates Phi Beta Kappa, summa cum laude from UC Berkeley' },
+  { date: '1973', event: 'Graduates UCLA School of Law, Order of the Coif' },
+  { date: '1975', event: 'Joins law firm Irell & Manella as associate attorney' },
+  { date: '1979', event: 'Joins Drexel Burnham Lambert\'s high-yield bond department as senior vice president' },
+  { date: '1989-03', event: 'Indicted alongside Michael Milken and Bruce Newberg on 98 counts; Lowell charged with 2 racketeering and 11 fraud counts' },
+  { date: '1989', event: 'Resigns from Drexel Burnham Lambert' },
+  { date: '1990-04', event: 'All charges dropped as part of Michael\'s guilty plea agreement' },
+  { date: '1991-03', event: 'Barred from securities industry by SEC settlement' },
+  { date: '1996', event: 'Co-founds Knowledge Universe with Michael Milken and Larry Ellison' },
+ ],
+ socialMedia: [],
+ sources: [
+  { title: 'NY Times: "U.S. Sees New Milken Indictment" (Aug. 1989)', url: 'https://www.nytimes.com/1989/08/08/business/us-sees-new-milken-indictment.html', date: '1989' },
+  { title: 'LA Times: "For Lowell Milken, the Case Is Closed" (Apr. 21, 1990)', url: 'https://www.latimes.com/archives/la-xpm-1990-04-21-fi-1282-story.html', date: '1990' },
+  { title: 'NY Times: "Tactics in Wall Street Cases Troubling Some Lawyers" (May 6, 1990)', url: 'https://www.nytimes.com/1990/05/06/weekinreview/tactics-in-wall-street-cases-troubling-some-lawyers.html', date: '1990' },
+  { title: 'LA Times: "Lowell Milken Is Much More Than Older Brother\'s Shadow" (Jan. 26, 1989)', url: 'https://www.latimes.com/archives/la-xpm-1989-01-26-fi-2009-story.html', date: '1989' },
+ ],
+ aliases: ['The Other Milken'],
+ knownAssociates: [
+  { name: 'Michael Milken', relationship: 'Brother; co-indicted; charges dropped as part of Michael\'s plea', href: '/entities/individuals/michael-milken' },
+  { name: 'Bruce Lee Newberg', relationship: 'Co-indicted on 98-count indictment along with the Milken brothers', href: '/entities/individuals/bruce-lee-newberg' },
+  { name: 'Fred Joseph', relationship: 'CEO of Drexel Burnham Lambert', href: '/entities/individuals/fred-joseph' },
+ ],
+ }
 };
 
 export default profiles;

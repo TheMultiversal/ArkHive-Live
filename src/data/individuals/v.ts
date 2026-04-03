@@ -1168,6 +1168,69 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Michael Cohen', relationship: 'Novartis paid $1.2M to Cohen\'s shell company for supposed healthcare consulting', href: '/entities/individuals/michael-cohen' },
  ],
  },
+
+
+ 'victor-posner': {
+ name: 'Victor Posner',
+ title: 'Corporate Raider; Convicted Tax Evader; Pioneer of the Hostile Takeover',
+ role: 'Miami-based corporate raider and Milken associate who was charged alongside Drexel Burnham Lambert with stock concealment and convicted of tax evasion',
+ riskLevel: 'high',
+ description: 'Victor Posner was an American corporate raider who pioneered the hostile takeover and became one of Michael Milken\'s key clients. He controlled numerous companies including DWG Corporation, Sharon Steel, NVF Company, and Fischbach Corporation. Forbes called him a man with "the arrogance of a banana republic dictator" and The New York Times named him the "dean of the corporate takeover." In 1988, the SEC charged Posner and his son Steven alongside Drexel Burnham Lambert with scheming to conceal their purchases of Fischbach Corporation stock. That same year, Posner pleaded no contest to tax evasion and fraud for inflating the value of land he donated to Miami Christian College, and was ordered to pay more than $6 million in fines and costs and to devote 20 hours per week for five years to working with the homeless. In 1993, both Victor and Steven Posner were permanently barred by the SEC from serving as officers or directors of any public company. Posner\'s relationship with Milken exemplified the symbiotic corruption between the junk bond machine and the corporate raiders it financed.',
+ birthDate: 'September 18, 1918',
+ birthPlace: 'Baltimore, Maryland, USA',
+ deathDate: 'February 11, 2002',
+ education: ['No formal education beyond age 13 (left school early)'],
+ affiliations: [
+  { name: 'Security Management Corporation', role: 'Head', type: 'corporation' },
+  { name: 'DWG Corporation', role: 'Chairman and CEO', type: 'corporation' },
+  { name: 'Sharon Steel Corporation', role: 'Chairman', type: 'corporation' },
+  { name: 'Fischbach Corporation', role: 'Controlling shareholder (through DWG)', type: 'corporation' },
+  { name: 'Drexel Burnham Lambert', role: 'Major client of Milken\'s junk bond operation', type: 'corporation' },
+ ],
+ controversies: [
+  'Charged by SEC alongside Drexel Burnham Lambert with concealing purchases of Fischbach Corporation stock',
+  'Pleaded no contest to tax evasion and fraud for inflating charitable donation values (1988)',
+  'Ordered to pay $6 million+ in fines and costs; 5,000 hours community service',
+  'SEC permanently barred him and son Steven from serving as officers or directors of public companies (1993)',
+  'Directed Sharon Steel pension board to invest in Posner-owned properties; SEC sued in 1971',
+  'Removed original Norman Rockwell paintings from Sharon Steel headquarters after acquiring the company; ordered to return them by bankruptcy judge',
+  'Sharon Steel operated in Chapter 11 bankruptcy; Posner refused to return $10 million in payouts to himself and son',
+  'Known associate of Michael Milken; junk bond-financed raids',
+ ],
+ charges: [
+  { statute: '26 U.S.C. § 7201', description: 'Tax evasion (no contest plea)', category: 'Financial Crimes' },
+  { statute: '18 U.S.C. § 1001', description: 'Fraud (inflating charitable donation values)', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. § 78j(b)', description: 'Stock concealment (SEC civil)', category: 'Financial Crimes' },
+ ],
+ relatedInvestigations: [
+  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+  { date: '1918', event: 'Born in Baltimore, Maryland, one of nine children of Russian-Jewish grocers' },
+  { date: '1948', event: 'Begins developing real estate in the Baltimore area' },
+  { date: '1954', event: 'Moves to Miami Beach, Florida; continues investing in real estate and public companies' },
+  { date: '1969', event: 'Initiates hostile takeover of Sharon Steel Corporation, one of the earliest such takeovers in the US' },
+  { date: '1971', event: 'SEC sues over directing Sharon Steel pension investments into Posner-owned properties' },
+  { date: '1982-1985', event: 'Aggressive acquisition spree using Milken\'s junk bond financing' },
+  { date: '1987', event: 'Sharon Steel enters Chapter 11 bankruptcy; Posner refuses to return payouts to himself and son' },
+  { date: '1988', event: 'SEC charges Posner and son Steven with Drexel for concealing Fischbach stock purchases' },
+  { date: '1988', event: 'Pleads no contest to tax evasion and fraud; ordered to pay $6M+ and perform community service' },
+  { date: '1992', event: 'Forced to resign as DWG chairman; sells shares to Trian Group (Nelson Peltz and Peter May)' },
+  { date: '1993', event: 'Both Victor and Steven Posner permanently barred by SEC from being officer/director of public company' },
+  { date: '2002-02-11', event: 'Dies of pneumonia in Miami Beach, Florida, age 83' },
+ ],
+ socialMedia: [],
+ sources: [
+  { title: 'NY Times Obituary (Feb. 12, 2002)', url: 'https://query.nytimes.com/gst/fullpage.html?res=9803E1DB1E3CF931A25751C0A9649C8B63', date: '2002' },
+  { title: 'Sun-Sentinel: "Milken helped 3 prosper" (Apr. 29, 1990)', url: 'https://www.sun-sentinel.com/news/fl-xpm-1990-04-29-9001050627-story.html', date: '1990' },
+  { title: 'The Economist: "Victor Posner, master of the hostile takeover" (Mar. 7, 2002)', url: 'https://web.archive.org/web/20121104084404/http://www.highbeam.com/doc/1G1-87459971.html', date: '2002' },
+ ],
+ aliases: ['Dean of the Corporate Takeover'],
+ knownAssociates: [
+  { name: 'Michael Milken', relationship: 'Key client of Milken\'s junk bond operation; raids financed by Drexel', href: '/entities/individuals/michael-milken' },
+  { name: 'Steven Posner', relationship: 'Son; co-charged by SEC; both barred from public company leadership', href: '/entities/individuals/steven-posner' },
+ ],
+ }
 };
 
 export default profiles;

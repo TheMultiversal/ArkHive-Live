@@ -5079,6 +5079,47 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Bill Magness', relationship: 'ERCOT CEO who maintained the $9,000/MWh price cap that created windfall', href: '/entities/individuals/bill-magness' },
     ],
   },
+
+ 'charles-zarzecki': {
+    name: 'Charles Zarzecki',
+    title: 'Princeton/Newport Partners General Partner and Chief Trader; Convicted on 63 RICO Counts, All Overturned on Appeal',
+    role: 'General Partner and Chief Trader, Princeton/Newport Partners',
+    riskLevel: 'high',
+    description: 'Charles Zarzecki was a general partner and chief trader at Princeton/Newport Partners. In August 1989, he and five other defendants were convicted on 63 counts of racketeering, securities fraud, and tax fraud for engaging in illegal tax-motivated stock parking transactions with Drexel Burnham Lambert. Zarzecki was sentenced to 3 months in federal prison and ordered to forfeit $1.4 million. On June 29, 1991, all convictions were overturned on appeal when the court ruled the government had improperly applied RICO.',
+    birthDate: 'c. 1948',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Princeton/Newport Partners', role: 'General Partner and Chief Trader', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted on 63 RICO counts for illegal tax-motivated stock parking with Drexel Burnham Lambert',
+      'Ordered to forfeit $1.4 million at sentencing',
+      'All convictions overturned on appeal June 29, 1991',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1962 (RICO)', description: 'Racketeering: Illegal tax-motivated stock parking with Drexel', category: 'Federal' },
+      { statute: '26 U.S.C. 7206', description: 'Tax fraud', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1988-08-04', event: 'Indicted on RICO charges alongside five other defendants' },
+      { date: '1989-08', event: 'Convicted on 63 counts of racketeering, securities fraud, and tax fraud' },
+      { date: '1989-11-09', event: 'Sentenced to 3 months prison; ordered to forfeit $1.4 million' },
+      { date: '1991-06-29', event: 'ALL convictions overturned on appeal' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'LA Times: 6 in Princeton-Newport Case Given Jail Terms', url: 'https://www.latimes.com', date: 'November 10, 1989' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'James Sutton Regan', relationship: 'Managing general partner at Princeton/Newport; co-defendant', href: '/entities/individuals/james-sutton-regan' },
+      { name: 'Bruce Lee Newberg', relationship: 'Drexel trader who served as counterparty to illegal trades; co-defendant', href: '/entities/individuals/bruce-lee-newberg' },
+    ],
+  },
 };
 
 export default profiles;

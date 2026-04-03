@@ -5025,6 +5025,161 @@ const profiles: Record<string, IndividualProfile> = {
  'PULITZER PRIZE: Awarded 2014 Pulitzer Prize for Public Service for NSA surveillance reporting',
  ],
  },
+  'boyd-jefferies': {
+    name: 'Boyd Jefferies',
+    title: 'Convicted Securities Violator; Founder of Jefferies & Company',
+    role: 'Founder and Chairman, Jefferies & Company',
+    riskLevel: 'high',
+    description: 'Boyd Jefferies was the founder and chairman of Jefferies & Company, a prominent securities firm specializing in block trading. He pleaded guilty in April 1988 to two felony counts of securities violations for helping Ivan Boesky illegally "park" stock, a practice of secretly holding shares for another party to conceal true ownership and evade SEC disclosure requirements. Jefferies also assisted in market manipulation. He cooperated with prosecutors and was barred from the securities industry. His case illustrated how the insider trading conspiracy required the complicity of brokers and intermediaries, not just the traders themselves.',
+    birthDate: '1930',
+    birthPlace: 'United States',
+    deathDate: 'February 19, 2007',
+    education: [],
+    affiliations: [
+      { name: 'Jefferies & Company', role: 'Founder and Chairman', type: 'corporation' },
+    ],
+    controversies: [
+      'Helped Ivan Boesky illegally park stock to conceal ownership and evade SEC disclosure requirements',
+      'Assisted in market manipulation schemes connected to the broader insider trading conspiracy',
+      'Cooperated with prosecutors after pleading guilty; barred from the securities industry',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b)', description: 'Securities violations: Illegal stock parking and market manipulation for Ivan Boesky', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1984-1986', event: 'Helps Ivan Boesky illegally park stock and conceal ownership positions' },
+      { date: 'April 1988', event: 'Pleads guilty to two felony counts of securities violations' },
+      { date: '1988', event: 'Barred from the securities industry; cooperates with prosecutors' },
+      { date: 'February 19, 2007', event: 'Dies at age 77' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ivan Boesky', relationship: 'Illegally parked stock and assisted market manipulation for Boesky', href: '/entities/individuals/ivan-boesky' },
+    ],
+  },
+  'bruce-lee-newberg': {
+    name: 'Bruce Lee Newberg',
+    title: 'Convicted Drexel Burnham Trader; Participated in Michael Milken\'s Racketeering Enterprise',
+    role: 'Trader, Drexel Burnham Lambert High-Yield Bond Department (Beverly Hills)',
+    riskLevel: 'high',
+    description: 'Bruce Lee Newberg was a trader who worked directly with Michael Milken in Drexel Burnham Lambert\'s high-yield bond department in Beverly Hills. He was convicted of racketeering and securities fraud for his role in illegal stock parking and other fraudulent schemes orchestrated from Milken\'s department. Newberg\'s conviction was significant because it demonstrated that the criminal conduct in the Beverly Hills office was not limited to Milken but was an organized enterprise with multiple active participants.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Drexel Burnham Lambert', role: 'Trader, Michael Milken\'s High-Yield Bond Department, Beverly Hills', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted of racketeering and fraud for illegal stock parking and other schemes in Milken\'s operation',
+      'His conviction proved Milken\'s department was a systematic criminal enterprise, not one man acting alone',
+      'Participated in concealing stock ownership and manipulating markets at Milken\'s direction',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1961-1968 (RICO)', description: 'Racketeering: Participation in pattern of criminal activity in Milken\'s junk bond operation', category: 'Federal' },
+      { statute: '15 U.S.C. 78j(b)', description: 'Securities Fraud: Illegal stock parking and market manipulation', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1984-1989', event: 'Participates in illegal stock parking and fraudulent schemes in Milken\'s Beverly Hills operation' },
+      { date: '1990', event: 'Convicted of racketeering and securities fraud' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Jesse Kornbluth, Highly Confident (1992)', url: 'https://archive.org/details/highlyconfidentc00korn', date: '1992' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Michael Milken', relationship: 'Direct supervisor who orchestrated the criminal enterprise', href: '/entities/individuals/michael-milken' },
+    ],
+  },
+
+ 'bruno-pletscher': {
+    name: 'Bruno Pletscher',
+    title: 'Bank Leu VP and Key Cooperating Witness in the Dennis Levine Insider Trading Case',
+    role: 'Vice President, Bank Leu (Nassau)',
+    riskLevel: 'high',
+    description: 'Bruno Pletscher was vice president and deputy manager of Bank Leu\'s Nassau, Bahamas branch. He had direct access to Dennis Levine\'s secret insider trading account and systematically piggybacked Levine\'s trades for his own personal profit. When the SEC began investigating suspicious trading patterns in 1985, Pletscher initially participated in a cover-up, forging documents to conceal the accounts. After retaining separate counsel, he became the first Bank Leu employee to cooperate with the SEC, providing crucial testimony that led directly to Levine\'s arrest in May 1986. His cooperation earned lenient treatment in the US but he was convicted of insider trading violations in Swiss proceedings.',
+    birthDate: 'Unknown',
+    birthPlace: 'Switzerland',
+    education: [],
+    affiliations: [
+      { name: 'Bank Leu', role: 'Vice President and Deputy Manager, Nassau Branch', type: 'corporation' },
+    ],
+    controversies: [
+      'Systematically piggybacked Dennis Levine\'s insider trades for personal profit through Bank Leu\'s Nassau office',
+      'Initially participated in cover-up efforts including forging documents to conceal Levine\'s trading accounts from SEC investigators',
+      'Became the key cooperating witness whose testimony led directly to Levine\'s arrest and the unraveling of the entire 1980s insider trading scandal',
+    ],
+    charges: [
+      { statute: 'Swiss Banking Law', description: 'Insider trading violations in Swiss proceedings', category: 'International' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1978-1986', event: 'Piggybacked Dennis Levine\'s insider trades through Bank Leu\'s Nassau office for personal profit' },
+      { date: '1985', event: 'SEC begins investigating suspicious trading patterns linked to Bank Leu; Pletscher initially participates in cover-up' },
+      { date: '1986-04', event: 'Breaks ranks and becomes key cooperating witness for the SEC; testimony leads to Levine\'s arrest the following month' },
+      { date: '1986-05-12', event: 'Dennis Levine arrested based partly on Pletscher\'s cooperation and testimony' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Levine', relationship: 'Levine held secret insider trading accounts at Pletscher\'s Bank Leu branch; Pletscher piggybacked his trades', href: '/entities/individuals/dennis-levine' },
+      { name: 'Bernhard Meier', relationship: 'Fellow Bank Leu officer who also piggybacked Levine\'s trades', href: '/entities/individuals/bernhard-meier' },
+    ],
+  },
+
+ 'bernhard-meier': {
+    name: 'Bernhard Meier',
+    title: 'Convicted Bank Leu Portfolio Manager Who Piggybacked Dennis Levine\'s Insider Trades',
+    role: 'Portfolio Manager, Bank Leu (Nassau)',
+    riskLevel: 'high',
+    description: 'Bernhard Meier was a portfolio manager at Bank Leu\'s Nassau, Bahamas branch who copied Dennis Levine\'s insider trades for his own personal profit. Unlike colleague Bruno Pletscher, Meier initially resisted cooperation with SEC investigators and participated in efforts to conceal the paper trail. He was eventually convicted of securities fraud for his piggybacking trades. His case demonstrated that corruption at Bank Leu extended to active participation in insider trading by the bank\'s own officers.',
+    birthDate: 'Unknown',
+    birthPlace: 'Switzerland',
+    education: [],
+    affiliations: [
+      { name: 'Bank Leu', role: 'Portfolio Manager, Nassau Branch', type: 'corporation' },
+    ],
+    controversies: [
+      'Copied Dennis Levine\'s insider trades through Bank Leu Nassau for personal profit',
+      'Participated in efforts to conceal evidence from SEC investigators',
+      'Initially resisted cooperation unlike colleague Bruno Pletscher',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b), SEC Rule 10b-5', description: 'Securities fraud for piggybacking insider trades', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1978-1986', event: 'Piggybacked Dennis Levine\'s insider trades through Bank Leu Nassau for personal profit' },
+      { date: '1985-1986', event: 'Participated in cover-up efforts when SEC began investigating Bank Leu; resisted cooperation' },
+      { date: '1987', event: 'Convicted of securities fraud for piggybacking Levine\'s insider trades' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Levine', relationship: 'Levine held secret accounts at Bank Leu; Meier piggybacked his trades', href: '/entities/individuals/dennis-levine' },
+      { name: 'Bruno Pletscher', relationship: 'Fellow Bank Leu officer who piggybacked trades and later became key cooperating witness', href: '/entities/individuals/bruno-pletscher' },
+    ],
+  },
 };
 
 export default profiles;

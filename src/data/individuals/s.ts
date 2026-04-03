@@ -4868,6 +4868,128 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Fellow Trump official who also received $2 billion Saudi investment after leaving government', href: '/entities/individuals/jared-kushner' },
     ],
   },
+  'salim-b-lewis': {
+    name: 'Salim B. Lewis',
+    title: 'Convicted Stock Manipulator; Head of S.B. Lewis & Company',
+    role: 'Principal, S.B. Lewis & Company',
+    riskLevel: 'medium',
+    description: 'Salim B. Lewis (known as Sandy Lewis) was the head of S.B. Lewis & Company, a Wall Street brokerage firm. He pleaded guilty in October 1990 to manipulating the stock price of Fireman\'s Fund Insurance to benefit his firm\'s trading positions. Lewis was fined $250,000 and placed on probation. He was permanently banned from the securities industry. His father, Salim L. Lewis (known as Cy Lewis), had been the managing partner of Bear Stearns. The younger Lewis\'s conviction was part of the broader wave of 1980s financial crime prosecutions that reshaped Wall Street oversight.',
+    birthDate: '1940',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'S.B. Lewis & Company', role: 'Founder and Principal', type: 'corporation' },
+    ],
+    controversies: [
+      'Manipulated stock price of Fireman\'s Fund Insurance to benefit trading positions',
+      'Permanently banned from the securities industry after conviction',
+      'Son of Bear Stearns managing partner Cy Lewis; represented fall of Wall Street dynasty',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b)', description: 'Stock Manipulation: Artificially inflating Fireman\'s Fund Insurance stock price', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1980s', event: 'Manipulates Fireman\'s Fund Insurance stock to benefit trading positions' },
+      { date: 'October 1990', event: 'Pleads guilty to stock manipulation; fined $250,000; placed on probation' },
+      { date: '1990', event: 'Permanently banned from the securities industry' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'NY Times: Sandy Lewis Pleads Guilty (1990)', url: 'https://www.nytimes.com/1990/10/05/business/sandy-lewis-pleads-guilty.html', date: '1990' },
+    ],
+    aliases: ['Sandy Lewis'],
+    knownAssociates: [],
+  },
+
+ 'steven-smotrich': {
+    name: 'Steven Smotrich',
+    title: 'Princeton/Newport Partners Controller; Convicted on RICO Charges, All Overturned on Appeal',
+    role: 'Controller, Princeton/Newport Partners',
+    riskLevel: 'high',
+    description: 'Steven Smotrich was the controller of Princeton/Newport Partners, a quantitative hedge fund co-founded by mathematician Edward Thorp. In August 1989, Smotrich and five other defendants were convicted on over 60 counts of racketeering, securities fraud, and tax fraud in the first RICO prosecution arising from the Wall Street investigations. He was sentenced to 3 months in federal prison. On June 29, 1991, all convictions were overturned on appeal when the court ruled the government had improperly applied RICO. The prosecution and reversal remains one of the most controversial episodes in white-collar criminal enforcement history.',
+    birthDate: 'c. 1955',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Princeton/Newport Partners', role: 'Controller', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted on RICO charges for illegal tax-motivated stock parking with Drexel Burnham Lambert',
+      'All convictions overturned on appeal June 29, 1991',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1962 (RICO)', description: 'Racketeering: Illegal tax-motivated stock parking', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1988-08-04', event: 'Indicted alongside five other defendants on RICO charges' },
+      { date: '1989-08', event: 'Convicted on multiple counts of racketeering and tax fraud' },
+      { date: '1989-11-09', event: 'Sentenced to 3 months in federal prison' },
+      { date: '1991-06-29', event: 'ALL convictions overturned on appeal' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'LA Times: 6 in Princeton-Newport Case Given Jail Terms', url: 'https://www.latimes.com', date: 'November 10, 1989' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'James Sutton Regan', relationship: 'Managing general partner at Princeton/Newport; co-defendant', href: '/entities/individuals/james-sutton-regan' },
+      { name: 'Charles Zarzecki', relationship: 'General partner and chief trader at Princeton/Newport; co-defendant', href: '/entities/individuals/charles-zarzecki' },
+    ],
+  },
+
+ 'steven-posner': {
+    name: 'Steven Posner',
+    title: 'Son of Corporate Raider Victor Posner; Charged by SEC for Fischbach Corporation Stock Concealment in Collusion with Boesky and Milken',
+    role: 'Son and Business Associate of Victor Posner',
+    riskLevel: 'high',
+    description: 'Steven Posner was the son of legendary corporate raider Victor Posner and a participant in his father\'s business empire. In 1988, the SEC charged that Steven and Victor Posner had colluded with Ivan Boesky and Michael Milken to conceal their stock purchases during the 1984 Posner-led takeover of the Fischbach Corporation. While Boesky and Milken agreed to plead guilty to felony counts in relation to their activities in the Fischbach case, the Posners were required to relinquish all financial gains they had made in the deal and to surrender ownership stakes they held in other companies. In 1993, Steven Posner was permanently barred by the SEC from serving as an officer or director of any public company. He was never criminally charged. Steven Posner died on November 29, 2010, at age 67, in a boating accident in Biscayne Bay, Florida.',
+    birthDate: 'January 11, 1943',
+    birthPlace: 'Baltimore, Maryland',
+    deathDate: 'November 29, 2010',
+    education: [],
+    affiliations: [
+      { name: 'DWG Corporation', role: 'Executive (Posner family controlled)', type: 'corporation' },
+      { name: 'Fischbach Corporation', role: 'Associated through Posner family takeover', type: 'corporation' },
+    ],
+    controversies: [
+      'Charged by SEC in 1988 for colluding with Boesky and Milken to conceal Fischbach Corporation stock purchases',
+      'Required to relinquish all financial gains from Fischbach deal and surrender ownership stakes in other companies',
+      'Permanently barred by SEC in 1993 from serving as officer or director of any public company',
+    ],
+    charges: [
+      { statute: 'SEC Civil Action', description: 'Stock concealment: Colluding with Boesky and Milken to conceal stock purchases during 1984 Fischbach Corporation takeover', category: 'Civil' },
+      { statute: 'SEC Civil Action', description: 'Securities fraud: Scheming to conceal stock ownership in connection with Drexel Burnham Lambert\'s illegal activities', category: 'Civil' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1943-01-11', event: 'Born in Baltimore, Maryland' },
+      { date: '1984', event: 'Posner family launches takeover of Fischbach Corporation; SEC later alleges Steven and Victor Posner colluded with Boesky and Milken to conceal stock purchases' },
+      { date: '1988-10-01', event: 'SEC charges Steven Posner and father Victor Posner alongside Drexel Burnham Lambert with concealing purchases of Fischbach Corporation stock' },
+      { date: '1988', event: 'Required to relinquish all financial gains from Fischbach deal and surrender ownership stakes in other companies as part of SEC settlement' },
+      { date: '1993-06-01', event: 'Permanently barred by SEC from serving as officer or director of any public company' },
+      { date: '2010-11-29', event: 'Died at age 67 in a boating accident in Biscayne Bay, Florida' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'SEC Litigation: Victor and Steven Posner - Fischbach Corporation', url: 'https://www.sec.gov', date: '1988' },
+      { title: 'New York Times: Posners Barred by SEC', url: 'https://www.nytimes.com', date: '1993' },
+      { title: 'Steven Posner Obituary', url: 'https://en.wikipedia.org/wiki/Steven_Posner', date: '2010' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Victor Posner', relationship: 'Father; corporate raider and Milken client; co-charged by SEC for Fischbach stock concealment', href: '/entities/individuals/victor-posner' },
+      { name: 'Michael Milken', relationship: 'Drexel junk bond king who SEC alleged colluded with Posners on Fischbach takeover', href: '/entities/individuals/michael-milken' },
+      { name: 'Ivan Boesky', relationship: 'Arbitrageur who SEC alleged colluded with Posners on Fischbach stock concealment', href: '/entities/individuals/ivan-boesky' },
+    ],
+  },
 };
 
 export default profiles;

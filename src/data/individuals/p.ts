@@ -59,7 +59,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jeffrey Epstein', relationship: 'Close friend, convicted sex trafficker', href: '/entities/individuals/jeffrey-epstein' },
  { name: 'Ghislaine Maxwell', relationship: 'Friend who introduced him to Epstein, convicted sex trafficker', href: '/entities/individuals/ghislaine-maxwell' },
  ],
- },
+ },
+
  'pat-cipollone': {
  name: 'Pasquale Anthony Cipollone',
  title: 'Former White House Counsel',
@@ -396,7 +397,8 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'DOJ IG Report on Texts', url: 'https://www.justice.gov/', date: '2018' },
  { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2018' },
  ],
- },
+ },
+
 
  'paul-wolfowitz': {
  name: 'Paul Dundes Wolfowitz',
@@ -2497,6 +2499,124 @@ const profiles: Record<string, IndividualProfile> = {
  'PATRIOT ACT CRITIC: Opposed reauthorization of sweeping surveillance provisions',
  ],
  },
+  'paul-bilzerian': {
+    name: 'Paul Bilzerian',
+    title: 'Convicted Corporate Raider; Securities Fraud During 1980s Hostile Takeover Wave',
+    role: 'Corporate Raider; Chairman of Singer Company Board',
+    riskLevel: 'high',
+    description: 'Paul Bilzerian was a prominent 1980s corporate raider who was convicted of securities fraud and conspiracy for concealing massive stock positions from the SEC during hostile takeover attempts of Singer Company and Cluett, Peabody & Co. He was convicted after a jury trial in June 1989 on nine counts of securities fraud, conspiracy, and tax fraud. He was sentenced to four years in federal prison and ordered to disgorge $33 million in illegal profits. Bilzerian repeatedly evaded the disgorgement judgment for decades, claiming bankruptcy while maintaining a lavish lifestyle. He is the father of social media personality Dan Bilzerian.',
+    birthDate: '1950',
+    birthPlace: 'United States',
+    education: ['Harvard Business School (MBA)'],
+    affiliations: [
+      { name: 'SEC', role: 'Subject of enforcement actions for concealing stock positions', type: 'agency' },
+    ],
+    controversies: [
+      'Concealed massive stock purchases from SEC during hostile takeover bids for Singer Company and Cluett, Peabody & Co.',
+      'Convicted after jury trial on 9 counts of securities fraud, conspiracy, and tax fraud',
+      'Ordered to disgorge $33 million but evaded payment for decades while maintaining lavish lifestyle',
+      'Declared bankruptcy multiple times while living in a $4 million Tampa mansion',
+      'Father of social media celebrity Dan Bilzerian, whose wealth origins have been questioned',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b), SEC Rule 10b-5', description: 'Securities Fraud (9 counts): Concealing stock positions during hostile takeover attempts', category: 'Federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy to make false statements to the SEC', category: 'Federal' },
+      { statute: '26 U.S.C. 7201', description: 'Tax Fraud', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1987-1988', event: 'Mounts hostile takeover attempts of Singer Company and Cluett, Peabody & Co. while concealing stock positions from SEC' },
+      { date: 'June 1989', event: 'Convicted by jury on 9 counts of securities fraud, conspiracy, and tax fraud' },
+      { date: '1989', event: 'Sentenced to 4 years in federal prison; ordered to disgorge $33 million' },
+      { date: '1993', event: 'Files for bankruptcy, begins decades-long evasion of disgorgement judgment' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'United States v. Paul Bilzerian, 926 F.2d 1285 (2d Cir. 1991)', url: 'https://law.justia.com/cases/federal/appellate-courts/F2/926/1285/399267/', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [],
+  },
+
+
+ 'peter-brant-trader': {
+ name: 'Peter Brant',
+ title: 'Former Equity Trader, Kidder, Peabody & Co.',
+ role: 'Kidder Peabody equity trader convicted of perjury for lying about receiving inside information from Martin Siegel',
+ riskLevel: 'medium',
+ description: 'Peter Brant was an equity trader at Kidder, Peabody & Co. who was convicted of perjury for lying to prosecutors about receiving inside information from Martin Siegel about pending mergers and acquisitions transactions. Siegel, the star M&A banker at Kidder Peabody, had been passing inside information not only to Ivan Boesky but apparently to traders within his own firm. Brant\'s conviction demonstrated that the insider trading culture at Kidder Peabody extended far deeper than any single individual, with illicit information flowing from the M&A department to traders on the equity desk.',
+ birthDate: 'Unknown',
+ birthPlace: 'Unknown',
+ education: ['Unknown'],
+ affiliations: [
+  { name: 'Kidder, Peabody & Co.', role: 'Equity Trader', type: 'corporation' },
+ ],
+ controversies: [
+  'Received inside information from Martin Siegel about pending M&A transactions at Kidder Peabody',
+  'Convicted of perjury for lying to prosecutors about receiving the inside information',
+  'Part of broader pattern of illicit information sharing at Kidder Peabody',
+ ],
+ charges: [
+  { statute: '18 U.S.C. § 1621', description: 'Perjury', category: 'Obstruction' },
+ ],
+ relatedInvestigations: [
+  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+  { date: '1984-1986', event: 'Receives inside information from Martin Siegel about pending M&A deals at Kidder Peabody' },
+  { date: '1990', event: 'Convicted of perjury for lying about receiving inside information from Siegel' },
+ ],
+ socialMedia: [],
+ sources: [
+  { title: 'James B. Stewart, "Den of Thieves" (Simon & Schuster, 1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+ ],
+ aliases: [],
+ knownAssociates: [
+  { name: 'Martin Siegel', relationship: 'Source of inside M&A information at Kidder Peabody', href: '/entities/individuals/martin-siegel' },
+  { name: 'Richard Wigton', relationship: 'Fellow Kidder Peabody employee caught in insider trading investigation', href: '/entities/individuals/richard-wigton' },
+ ],
+ },
+
+ 'paul-berkman': {
+    name: 'Paul Berkman',
+    title: 'Princeton/Newport Partners General Partner; Convicted on RICO Charges, All Overturned on Appeal',
+    role: 'General Partner, Princeton/Newport Partners',
+    riskLevel: 'high',
+    description: 'Paul Berkman was a general partner at Princeton/Newport Partners, a quantitative hedge fund co-founded by mathematician Edward Thorp. In August 1989, Berkman and five other defendants were convicted on over 60 counts of racketeering, securities fraud, and tax fraud. He was sentenced to 3 months in federal prison. On June 29, 1991, all convictions were overturned on appeal. Princeton/Newport Partners had been forced to liquidate as a result of the RICO indictment, destroying the fund despite the eventual reversal of all convictions.',
+    birthDate: 'c. 1946',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Princeton/Newport Partners', role: 'General Partner', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted on RICO charges for illegal tax-motivated stock parking with Drexel Burnham Lambert',
+      'All convictions overturned on appeal June 29, 1991',
+      'Princeton/Newport Partners forced to liquidate due to RICO indictment',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1962 (RICO)', description: 'Racketeering: Illegal tax-motivated stock parking', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1988-08-04', event: 'Indicted alongside five other Princeton/Newport defendants on RICO charges' },
+      { date: '1989-08', event: 'Convicted on multiple counts of racketeering and tax fraud' },
+      { date: '1989-11-09', event: 'Sentenced to 3 months in federal prison' },
+      { date: '1991-06-29', event: 'ALL convictions overturned on appeal' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'LA Times: 6 in Princeton-Newport Case Given Jail Terms', url: 'https://www.latimes.com', date: 'November 10, 1989' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'James Sutton Regan', relationship: 'Managing general partner at Princeton/Newport; co-defendant', href: '/entities/individuals/james-sutton-regan' },
+    ],
+  },
 };
 
 export default profiles;
