@@ -169,11 +169,11 @@ const STATUS_COLORS: Record<string, string> = {
 };
 
 const NODE_DIMENSIONS: Record<string, { width: number; height: number }> = {
-  rootNode: { width: 440, height: 90 },
-  categoryNode: { width: 190, height: 52 },
-  tierNode: { width: 210, height: 46 },
-  personNode: { width: 320, height: 130 },
-  orgNode: { width: 320, height: 110 },
+  rootNode: { width: 400, height: 80 },
+  categoryNode: { width: 170, height: 48 },
+  tierNode: { width: 190, height: 42 },
+  personNode: { width: 240, height: 115 },
+  orgNode: { width: 240, height: 100 },
 };
 
 // ============================================================
@@ -229,17 +229,10 @@ async function computeElkLayout(
   const graph = {
     id: 'elk-root',
     layoutOptions: {
-      'elk.algorithm': 'layered',
+      'elk.algorithm': 'mrtree',
       'elk.direction': 'DOWN',
-      'elk.spacing.nodeNode': '45',
-      'elk.layered.spacing.nodeNodeBetweenLayers': '80',
-      'elk.spacing.edgeNode': '30',
-      'elk.spacing.edgeEdge': '20',
-      'elk.layered.nodePlacement.strategy': 'BRANDES_KOEPF',
-      'elk.layered.crossingMinimization.strategy': 'LAYER_SWEEP',
-      'elk.layered.crossingMinimization.forceNodeModelOrder': 'true',
-      'elk.edgeRouting': 'SPLINES',
-      'elk.layered.mergeEdges': 'false',
+      'elk.spacing.nodeNode': '20',
+      'elk.spacing.edgeNode': '12',
     },
     children: elkNodes,
     edges: elkEdges,
@@ -753,7 +746,7 @@ function PersonNode({ data, selected }: any) {
           ...glassBase,
           border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
           boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
-          width: 310,
+          width: 230,
           ...dimStyle,
           ...glowStyle,
         }}
@@ -820,7 +813,7 @@ function OrgNode({ data, selected }: any) {
           ...glassBase,
           border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
           boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
-          width: 310,
+          width: 230,
           ...dimStyle,
           ...glowStyle,
         }}
