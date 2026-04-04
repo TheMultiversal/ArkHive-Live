@@ -337,7 +337,7 @@ function buildGraphData(
     },
   });
 
-  // --- PEOPLE ---
+  // --- INDIVIDUALS (cascading tiers: most important at top, trickling down) ---
   const personMap = new Map<string, { def?: Defendant; aff?: Affiliation; tier: PersonTier }>();
   for (const def of defendants) {
     const matchingAff = affiliations.find(a => a.name === def.name && a.type === 'individual');
@@ -350,18 +350,18 @@ function buildGraphData(
   }
 
   if (showPeople && personMap.size > 0) {
-    const peopleCollapsed = collapsedNodes.has('people');
+    const individualsCollapsed = collapsedNodes.has('people');
     nodes.push({
       id: 'people',
       type: 'categoryNode',
       position: { x: 0, y: 0 },
       data: {
-        label: 'People',
+        label: 'Individuals',
         nodeType: 'category',
         category: 'People',
         count: personMap.size,
         color: '#d64545',
-        isCollapsed: peopleCollapsed,
+        isCollapsed: individualsCollapsed,
       },
     });
     edges.push({
@@ -373,18 +373,23 @@ function buildGraphData(
       markerEnd: { type: MarkerType.ArrowClosed, color: '#d64545', width: 14, height: 14 },
     });
 
-    if (!peopleCollapsed) {
+    if (!individualsCollapsed) {
       const personsByTier = new Map<PersonTier, { name: string; def?: Defendant; aff?: Affiliation }[]>();
       for (const [name, data] of personMap) {
         if (!personsByTier.has(data.tier)) personsByTier.set(data.tier, []);
         personsByTier.get(data.tier)!.push({ name, def: data.def, aff: data.aff });
       }
 
+      // Cascading chain: each tier connects to the NEXT tier below it
+      // Most important tiers at top, least at bottom — creates depth instead of width
       const tierOrder: PersonTier[] = ['Primary Defendant', 'Co-Conspirator', 'Politician', 'Regulator', 'Whistleblower', 'Other'];
-      for (const tier of tierOrder) {
-        const people = personsByTier.get(tier);
-        if (!people) continue;
+      const activeTiers = tierOrder.filter(t => personsByTier.has(t));
+      
+      let previousTierId = 'people'; // First tier chains from category node
 
+      for (let i = 0; i < activeTiers.length; i++) {
+        const tier = activeTiers[i];
+        const people = personsByTier.get(tier)!;
         const tierId = `tier-${slugifyName(tier)}`;
         const tierCollapsed = collapsedNodes.has(tierId);
         const color = PERSON_TIER_COLORS[tier];
@@ -395,9 +400,10 @@ function buildGraphData(
           position: { x: 0, y: 0 },
           data: { label: tier, nodeType: 'tier', tier, count: people.length, color, side: 'left', isCollapsed: tierCollapsed },
         });
+        // Chain from previous tier (or category node) — creates vertical cascade
         edges.push({
-          id: `e-people-${tierId}`,
-          source: 'people',
+          id: `e-chain-${previousTierId}-${tierId}`,
+          source: previousTierId,
           target: tierId,
           type: 'smoothstep',
           style: { stroke: color, strokeWidth: 1.5, strokeOpacity: 0.6 },
@@ -441,15 +447,103 @@ function buildGraphData(
             });
           }
         }
+
+        previousTierId = tierId; // Next tier chains from this one
       }
     }
   }
 
-  // --- ORGANIZATIONS ---
-  const orgAffs = affiliations.filter(a => a.type !== 'individual');
+  // --- CORPORATIONS ---
+  const corpAffs = affiliations.filter(a => a.type === 'corporation');
+  if (showOrgs && corpAffs.length > 0) {
+    const corpCollapsed = collapsedNodes.has('corporations');
+    const color = ORG_TIER_COLORS['Corporation'];
+    nodes.push({
+      id: 'corporations',
+      type: 'categoryNode',
+      position: { x: 0, y: 0 },
+      data: {
+        label: 'Corporations',
+        nodeType: 'category',
+        category: 'Organizations',
+        count: corpAffs.length,
+        color,
+        isCollapsed: corpCollapsed,
+      },
+    });
+    edges.push({
+      id: 'e-root-corporations',
+      source: 'root',
+      target: 'corporations',
+      type: 'smoothstep',
+      style: { stroke: color, strokeWidth: 2 },
+      markerEnd: { type: MarkerType.ArrowClosed, color, width: 14, height: 14 },
+    });
+    if (!corpCollapsed) {
+      for (const org of corpAffs) {
+        const orgId = `org-${slugifyName(org.name)}`;
+        const moneyIn = moneyTrail.filter(m => m.to.toLowerCase().includes(org.name.toLowerCase()));
+        const moneyOut = moneyTrail.filter(m => m.from.toLowerCase().includes(org.name.toLowerCase()));
+        nodes.push({
+          id: orgId, type: 'orgNode', position: { x: 0, y: 0 },
+          data: { label: org.name, nodeType: 'org', name: org.name, entityType: org.type, role: org.relationship, tier: 'Corporation' as OrgTier, href: org.href, moneyIn, moneyOut, relationship: org.relationship },
+        });
+        edges.push({
+          id: `e-corporations-${orgId}`, source: 'corporations', target: orgId,
+          type: 'smoothstep', style: { stroke: color, strokeWidth: 1, strokeOpacity: 0.4 },
+        });
+      }
+    }
+  }
 
-  if (showOrgs && orgAffs.length > 0) {
-    const orgsCollapsed = collapsedNodes.has('orgs');
+  // --- AGENCIES ---
+  const agencyAffs = affiliations.filter(a => a.type === 'agency');
+  if (showOrgs && agencyAffs.length > 0) {
+    const agencyCollapsed = collapsedNodes.has('agencies');
+    const color = ORG_TIER_COLORS['Agency'];
+    nodes.push({
+      id: 'agencies',
+      type: 'categoryNode',
+      position: { x: 0, y: 0 },
+      data: {
+        label: 'Agencies',
+        nodeType: 'category',
+        category: 'Organizations',
+        count: agencyAffs.length,
+        color,
+        isCollapsed: agencyCollapsed,
+      },
+    });
+    edges.push({
+      id: 'e-root-agencies',
+      source: 'root',
+      target: 'agencies',
+      type: 'smoothstep',
+      style: { stroke: color, strokeWidth: 2 },
+      markerEnd: { type: MarkerType.ArrowClosed, color, width: 14, height: 14 },
+    });
+    if (!agencyCollapsed) {
+      for (const org of agencyAffs) {
+        const orgId = `org-${slugifyName(org.name)}`;
+        const moneyIn = moneyTrail.filter(m => m.to.toLowerCase().includes(org.name.toLowerCase()));
+        const moneyOut = moneyTrail.filter(m => m.from.toLowerCase().includes(org.name.toLowerCase()));
+        nodes.push({
+          id: orgId, type: 'orgNode', position: { x: 0, y: 0 },
+          data: { label: org.name, nodeType: 'org', name: org.name, entityType: org.type, role: org.relationship, tier: 'Agency' as OrgTier, href: org.href, moneyIn, moneyOut, relationship: org.relationship },
+        });
+        edges.push({
+          id: `e-agencies-${orgId}`, source: 'agencies', target: orgId,
+          type: 'smoothstep', style: { stroke: color, strokeWidth: 1, strokeOpacity: 0.4 },
+        });
+      }
+    }
+  }
+
+  // --- ORGANIZATIONS (non-corp, non-agency) ---
+  const orgOnlyAffs = affiliations.filter(a => a.type === 'organization');
+  if (showOrgs && orgOnlyAffs.length > 0) {
+    const orgCollapsed = collapsedNodes.has('orgs');
+    const color = ORG_TIER_COLORS['Organization'];
     nodes.push({
       id: 'orgs',
       type: 'categoryNode',
@@ -458,9 +552,9 @@ function buildGraphData(
         label: 'Organizations',
         nodeType: 'category',
         category: 'Organizations',
-        count: orgAffs.length,
-        color: '#eab308',
-        isCollapsed: orgsCollapsed,
+        count: orgOnlyAffs.length,
+        color,
+        isCollapsed: orgCollapsed,
       },
     });
     edges.push({
@@ -468,73 +562,22 @@ function buildGraphData(
       source: 'root',
       target: 'orgs',
       type: 'smoothstep',
-      style: { stroke: '#eab308', strokeWidth: 2 },
-      markerEnd: { type: MarkerType.ArrowClosed, color: '#eab308', width: 14, height: 14 },
+      style: { stroke: color, strokeWidth: 2 },
+      markerEnd: { type: MarkerType.ArrowClosed, color, width: 14, height: 14 },
     });
-
-    if (!orgsCollapsed) {
-      const orgsByTier = new Map<OrgTier, Affiliation[]>();
-      for (const aff of orgAffs) {
-        const tier = classifyOrg(aff);
-        if (!orgsByTier.has(tier)) orgsByTier.set(tier, []);
-        orgsByTier.get(tier)!.push(aff);
-      }
-
-      const orgTierOrder: OrgTier[] = ['Corporation', 'Agency', 'Organization'];
-      for (const tier of orgTierOrder) {
-        const orgs = orgsByTier.get(tier);
-        if (!orgs) continue;
-
-        const tierId = `org-tier-${slugifyName(tier)}`;
-        const tierCollapsed = collapsedNodes.has(tierId);
-        const color = ORG_TIER_COLORS[tier];
-
+    if (!orgCollapsed) {
+      for (const org of orgOnlyAffs) {
+        const orgId = `org-${slugifyName(org.name)}`;
+        const moneyIn = moneyTrail.filter(m => m.to.toLowerCase().includes(org.name.toLowerCase()));
+        const moneyOut = moneyTrail.filter(m => m.from.toLowerCase().includes(org.name.toLowerCase()));
         nodes.push({
-          id: tierId,
-          type: 'tierNode',
-          position: { x: 0, y: 0 },
-          data: { label: tier, nodeType: 'tier', tier, count: orgs.length, color, side: 'right', isCollapsed: tierCollapsed },
+          id: orgId, type: 'orgNode', position: { x: 0, y: 0 },
+          data: { label: org.name, nodeType: 'org', name: org.name, entityType: org.type, role: org.relationship, tier: 'Organization' as OrgTier, href: org.href, moneyIn, moneyOut, relationship: org.relationship },
         });
         edges.push({
-          id: `e-orgs-${tierId}`,
-          source: 'orgs',
-          target: tierId,
-          type: 'smoothstep',
-          style: { stroke: color, strokeWidth: 1.5, strokeOpacity: 0.6 },
+          id: `e-orgs-${orgId}`, source: 'orgs', target: orgId,
+          type: 'smoothstep', style: { stroke: color, strokeWidth: 1, strokeOpacity: 0.4 },
         });
-
-        if (!tierCollapsed) {
-          for (const org of orgs) {
-            const orgId = `org-${slugifyName(org.name)}`;
-            const moneyIn = moneyTrail.filter(m => m.to.toLowerCase().includes(org.name.toLowerCase()));
-            const moneyOut = moneyTrail.filter(m => m.from.toLowerCase().includes(org.name.toLowerCase()));
-
-            nodes.push({
-              id: orgId,
-              type: 'orgNode',
-              position: { x: 0, y: 0 },
-              data: {
-                label: org.name,
-                nodeType: 'org',
-                name: org.name,
-                entityType: org.type,
-                role: org.relationship,
-                tier,
-                href: org.href,
-                moneyIn,
-                moneyOut,
-                relationship: org.relationship,
-              },
-            });
-            edges.push({
-              id: `e-${tierId}-${orgId}`,
-              source: tierId,
-              target: orgId,
-              type: 'smoothstep',
-              style: { stroke: color, strokeWidth: 1, strokeOpacity: 0.4 },
-            });
-          }
-        }
       }
     }
   }
