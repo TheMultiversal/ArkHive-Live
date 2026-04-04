@@ -230,13 +230,14 @@ async function computeElkLayout(
     id: 'elk-root',
     layoutOptions: {
       'elk.algorithm': 'layered',
-      'elk.direction': 'RIGHT',
-      'elk.spacing.nodeNode': '35',
-      'elk.layered.spacing.nodeNodeBetweenLayers': '70',
+      'elk.direction': 'DOWN',
+      'elk.spacing.nodeNode': '45',
+      'elk.layered.spacing.nodeNodeBetweenLayers': '80',
       'elk.spacing.edgeNode': '30',
       'elk.spacing.edgeEdge': '20',
       'elk.layered.nodePlacement.strategy': 'BRANDES_KOEPF',
       'elk.layered.crossingMinimization.strategy': 'LAYER_SWEEP',
+      'elk.layered.crossingMinimization.forceNodeModelOrder': 'true',
       'elk.edgeRouting': 'SPLINES',
       'elk.layered.mergeEdges': 'false',
     },
@@ -616,7 +617,7 @@ function RootNode({ data, selected }: any) {
 
   return (
     <>
-      <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="source" position={Position.Bottom} className="!bg-transparent !border-0 !w-0 !h-0" />
       <div className="relative">
         {/* Severity pulse rings */}
         <div className="absolute -inset-4 pointer-events-none overflow-visible">
@@ -677,8 +678,8 @@ function CategoryNode({ data, selected }: any) {
 
   return (
     <>
-      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
-      <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Top} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="source" position={Position.Bottom} className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
         className={`px-5 py-3 flex items-center gap-3 cursor-pointer transition-all duration-300 ${selected ? 'ring-2 ring-white/20' : ''}`}
         style={{ ...glassBase, border: `1.5px solid ${color}40`, boxShadow: `0 0 10px ${color}10`, ...dimStyle, ...glowStyle }}
@@ -707,8 +708,8 @@ function TierNode({ data, selected }: any) {
 
   return (
     <>
-      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
-      <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Top} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="source" position={Position.Bottom} className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
         className={`px-4 py-2.5 flex items-center gap-2 cursor-pointer transition-all duration-300 ${selected ? 'ring-1 ring-white/15' : ''}`}
         style={{ ...glassBase, background: `linear-gradient(160deg, ${color}08 0%, #020202 100%)`, border: `1px solid ${color}30`, borderRadius: 8, ...dimStyle, ...glowStyle }}
@@ -743,9 +744,9 @@ function PersonNode({ data, selected }: any) {
 
   return (
     <>
-      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Top} className="!bg-transparent !border-0 !w-0 !h-0" />
       <Handle type="source" position={Position.Right} id="money-out" className="!bg-transparent !border-0 !w-0 !h-0" />
-      <Handle type="target" position={Position.Right} id="money-in" className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Left} id="money-in" className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
         className={`p-4 transition-all duration-300 ${selected ? 'ring-2 ring-white/25' : ''}`}
         style={{
@@ -810,9 +811,9 @@ function OrgNode({ data, selected }: any) {
 
   return (
     <>
-      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Top} className="!bg-transparent !border-0 !w-0 !h-0" />
       <Handle type="source" position={Position.Right} id="money-out" className="!bg-transparent !border-0 !w-0 !h-0" />
-      <Handle type="target" position={Position.Right} id="money-in" className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Left} id="money-in" className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
         className={`p-4 transition-all duration-300 ${selected ? 'ring-2 ring-white/25' : ''}`}
         style={{
@@ -1466,7 +1467,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         {/* ---- CENTER: GRAPH ---- */}
         <div
           ref={graphRef}
-          className={`glass-card relative ${isFullscreen ? 'h-screen' : 'min-h-[500px] h-[70vh] max-h-[900px]'} ${freshLayout ? 'edge-fresh' : ''}`}
+          className={`glass-card relative ${isFullscreen ? 'h-screen' : 'min-h-[600px] h-[75vh] max-h-[1100px]'} ${freshLayout ? 'edge-fresh' : ''}`}
           style={{
             overflow: 'hidden',
             background: '#020202',
