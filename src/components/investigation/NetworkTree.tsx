@@ -23,7 +23,6 @@ import {
   type EdgeProps,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
-import ELK from 'elkjs/lib/elk.bundled.js';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -205,47 +204,153 @@ function slugifyName(name: string): string {
 }
 
 // ============================================================
-// ELK LAYOUT
+// MANUAL PYRAMID LAYOUT ENGINE
 // ============================================================
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const elk = new (ELK as any)();
+const LAYOUT = {
+  MAX_COLS: 3,        // max nodes per row in a grid
+  H_GAP: 18,          // horizontal gap between nodes in a grid
+  V_GAP: 18,          // vertical gap between rows in a grid
+  LEVEL_GAP: 45,      // vertical gap between parent and children
+  BRANCH_GAP: 50,     // horizontal gap between sibling branches
+};
+
+interface LayoutResult {
+  width: number;
+  height: number;
+  positions: Map<string, { x: number; y: number }>;
+}
+
+function getDims(nodeId: string, nodeMap: Map<string, AppNode>): { w: number; h: number } {
+  const node = nodeMap.get(nodeId);
+  const type = node?.type || 'personNode';
+  const d = NODE_DIMENSIONS[type] || { width: 240, height: 100 };
+  return { w: d.width, h: d.height };
+}
+
+function layoutSubtree(
+  nodeId: string,
+  childMap: Map<string, string[]>,
+  nodeMap: Map<string, AppNode>,
+): LayoutResult {
+  const positions = new Map<string, { x: number; y: number }>();
+  const dims = getDims(nodeId, nodeMap);
+
+  const children = childMap.get(nodeId) || [];
+
+  if (children.length === 0) {
+    positions.set(nodeId, { x: 0, y: 0 });
+    return { width: dims.w, height: dims.h, positions };
+  }
+
+  // Separate children into leaf nodes vs branch nodes (nodes that have their own children)
+  const leafIds = children.filter(id => !childMap.has(id) || childMap.get(id)!.length === 0);
+  const branchIds = children.filter(id => childMap.has(id) && childMap.get(id)!.length > 0);
+
+  let contentY = dims.h + LAYOUT.LEVEL_GAP;
+  let maxContentWidth = dims.w;
+
+  // --- Layout leaf children in a wrapped grid ---
+  let gridWidth = 0;
+  let gridHeight = 0;
+  const leafPositions: Array<{ id: string; relX: number; relY: number }> = [];
+
+  if (leafIds.length > 0) {
+    const maxLeafW = Math.max(...leafIds.map(id => getDims(id, nodeMap).w));
+    const maxLeafH = Math.max(...leafIds.map(id => getDims(id, nodeMap).h));
+    const cols = Math.min(leafIds.length, LAYOUT.MAX_COLS);
+    gridWidth = cols * maxLeafW + (cols - 1) * LAYOUT.H_GAP;
+    const rows = Math.ceil(leafIds.length / cols);
+    gridHeight = rows * maxLeafH + (rows - 1) * LAYOUT.V_GAP;
+
+    for (let i = 0; i < leafIds.length; i++) {
+      const col = i % cols;
+      const row = Math.floor(i / cols);
+      leafPositions.push({
+        id: leafIds[i],
+        relX: col * (maxLeafW + LAYOUT.H_GAP),
+        relY: row * (maxLeafH + LAYOUT.V_GAP),
+      });
+    }
+
+    maxContentWidth = Math.max(maxContentWidth, gridWidth);
+  }
+
+  // --- Layout branch children below the grid ---
+  const branchY = contentY + (gridHeight > 0 ? gridHeight + LAYOUT.LEVEL_GAP : 0);
+  const branchLayouts: Array<{ layout: LayoutResult; xOffset: number }> = [];
+  let totalBranchWidth = 0;
+  let maxBranchHeight = 0;
+
+  if (branchIds.length === 1) {
+    // Single chain (e.g., one next tier) — just recurse
+    const sub = layoutSubtree(branchIds[0], childMap, nodeMap);
+    branchLayouts.push({ layout: sub, xOffset: 0 });
+    totalBranchWidth = sub.width;
+    maxBranchHeight = sub.height;
+    maxContentWidth = Math.max(maxContentWidth, sub.width);
+  } else if (branchIds.length > 1) {
+    // Multiple branches side by side
+    for (const bid of branchIds) {
+      const sub = layoutSubtree(bid, childMap, nodeMap);
+      branchLayouts.push({ layout: sub, xOffset: totalBranchWidth });
+      totalBranchWidth += sub.width + LAYOUT.BRANCH_GAP;
+      maxBranchHeight = Math.max(maxBranchHeight, sub.height);
+    }
+    totalBranchWidth -= LAYOUT.BRANCH_GAP;
+    maxContentWidth = Math.max(maxContentWidth, totalBranchWidth);
+  }
+
+  const totalWidth = maxContentWidth;
+
+  // Center this node above everything
+  positions.set(nodeId, { x: (totalWidth - dims.w) / 2, y: 0 });
+
+  // Center and place leaf grid
+  if (leafPositions.length > 0) {
+    const gridXOffset = (totalWidth - gridWidth) / 2;
+    for (const { id, relX, relY } of leafPositions) {
+      positions.set(id, { x: gridXOffset + relX, y: contentY + relY });
+    }
+  }
+
+  // Center and place branch children
+  if (branchLayouts.length > 0) {
+    const branchXOffset = (totalWidth - totalBranchWidth) / 2;
+    for (const { layout, xOffset } of branchLayouts) {
+      for (const [id, pos] of layout.positions) {
+        positions.set(id, { x: branchXOffset + xOffset + pos.x, y: branchY + pos.y });
+      }
+    }
+  }
+
+  const totalHeight = branchLayouts.length > 0
+    ? branchY + maxBranchHeight
+    : contentY + gridHeight;
+
+  return { width: totalWidth, height: totalHeight, positions };
+}
 
 async function computeElkLayout(
   nodes: AppNode[],
   edges: AppEdge[],
 ): Promise<AppNode[]> {
-  const elkNodes = nodes.map(node => {
-    const type = node.type || 'personNode';
-    const dims = NODE_DIMENSIONS[type] || { width: 250, height: 80 };
-    return { id: node.id, width: dims.width, height: dims.height };
-  });
-  const elkEdges = edges.map(edge => ({
-    id: edge.id,
-    sources: [edge.source],
-    targets: [edge.target],
-  }));
+  // Build child adjacency from edges
+  const childMap = new Map<string, string[]>();
+  for (const e of edges) {
+    if (e.type === 'moneyFlow') continue; // skip money flow edges
+    if (!childMap.has(e.source)) childMap.set(e.source, []);
+    childMap.get(e.source)!.push(e.target);
+  }
 
-  const graph = {
-    id: 'elk-root',
-    layoutOptions: {
-      'elk.algorithm': 'mrtree',
-      'elk.direction': 'DOWN',
-      'elk.spacing.nodeNode': '20',
-      'elk.spacing.edgeNode': '12',
-    },
-    children: elkNodes,
-    edges: elkEdges,
-  };
+  const nodeMap = new Map<string, AppNode>();
+  for (const n of nodes) nodeMap.set(n.id, n);
 
-  const layouted = await elk.layout(graph);
+  const rootLayout = layoutSubtree('root', childMap, nodeMap);
 
   return nodes.map(node => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const elkNode = layouted.children?.find((n: any) => n.id === node.id);
-    return elkNode
-      ? { ...node, position: { x: elkNode.x ?? 0, y: elkNode.y ?? 0 } }
-      : node;
+    const pos = rootLayout.positions.get(node.id);
+    return pos ? { ...node, position: { x: pos.x, y: pos.y } } : node;
   });
 }
 
