@@ -19,8 +19,10 @@ import GlitchText from '@/components/effects/GlitchText';
 import CrystalButton from '@/components/ui/CrystalButton';
 import EvidenceTierBadge from '@/components/ui/EvidenceTierBadge';
 import investigationDatabase from '@/data/investigations';
+import accountabilityDatabase from '@/data/accountability';
 
 const NetworkTree = dynamic(() => import('@/components/investigation/NetworkTree'), { ssr: false });
+const AccountabilityActionCenter = dynamic(() => import('@/components/investigation/AccountabilityActionCenter'), { ssr: false });
 
 /* ================================================================
    SEVERITY & STATUS CONFIG
@@ -844,6 +846,7 @@ export default function InvestigationPage() {
 
   const accountabilityIdx = investigation.content.findIndex((p: string) => p.startsWith('WHAT YOU CAN DO'));
   const accountabilityContent = accountabilityIdx >= 0 ? investigation.content[accountabilityIdx] : null;
+  const accountabilityData = accountabilityDatabase[slug] || null;
   const mainContent = accountabilityIdx >= 0
     ? investigation.content.filter((_: string, i: number) => i !== accountabilityIdx)
     : investigation.content;
@@ -876,17 +879,21 @@ export default function InvestigationPage() {
       { id: 'hero', number: '01', label: 'Briefing', icon: Target },
       { id: 'summary', number: '02', label: 'Summary', icon: FileText },
     ];
-    if (defendants.length > 0) s.push({ id: 'defendants', number: '03', label: 'Defendants', icon: Gavel });
-    if (statutes.length > 0) s.push({ id: 'statutes', number: '04', label: 'Statutes', icon: Scale });
-    if (accountabilityContent) s.push({ id: 'engine', number: '05', label: 'Engine', icon: Crosshair });
-    if (mainContent?.length > 0) s.push({ id: 'investigation', number: '06', label: 'Investigation', icon: FileText });
-    if (moneyTrail.length > 0) s.push({ id: 'money', number: '07', label: 'Money Trail', icon: DollarSign });
-    if (affiliations.length > 0 || defendants.length > 0) s.push({ id: 'entities', number: '08', label: 'Network', icon: Users });
-    if (defendants.length > 0 || affiliations.length > 0) s.push({ id: 'network', number: '09', label: 'Analysis', icon: Eye });
-    if (timeline.length > 0) s.push({ id: 'timeline', number: '10', label: 'Timeline', icon: Calendar });
-    if (sources.length > 0) s.push({ id: 'sources', number: '11', label: 'Sources', icon: ExternalLink });
+    let n = 3;
+    if (defendants.length > 0) s.push({ id: 'defendants', number: String(n++).padStart(2, '0'), label: 'Defendants', icon: Gavel });
+    if (statutes.length > 0) s.push({ id: 'statutes', number: String(n++).padStart(2, '0'), label: 'Statutes', icon: Scale });
+    if (accountabilityContent) s.push({ id: 'engine', number: String(n++).padStart(2, '0'), label: 'Engine', icon: Crosshair });
+    if (mainContent?.length > 0) s.push({ id: 'investigation', number: String(n++).padStart(2, '0'), label: 'Investigation', icon: FileText });
+    if (moneyTrail.length > 0) s.push({ id: 'money', number: String(n++).padStart(2, '0'), label: 'Money Trail', icon: DollarSign });
+    if (affiliations.length > 0 || defendants.length > 0) s.push({ id: 'entities', number: String(n++).padStart(2, '0'), label: 'Network', icon: Users });
+    if (defendants.length > 0 || affiliations.length > 0) s.push({ id: 'network', number: String(n++).padStart(2, '0'), label: 'Analysis', icon: Eye });
+    if (accountabilityData) s.push({ id: 'action-center', number: String(n++).padStart(2, '0'), label: 'Action Center', icon: Megaphone });
+    if (timeline.length > 0) s.push({ id: 'timeline', number: String(n++).padStart(2, '0'), label: 'Timeline', icon: Calendar });
+    if (sources.length > 0) s.push({ id: 'sources', number: String(n++).padStart(2, '0'), label: 'Sources', icon: ExternalLink });
     return s;
-  }, [defendants.length, statutes.length, accountabilityContent, mainContent?.length, moneyTrail.length, affiliations.length, timeline.length, sources.length]);
+  }, [defendants.length, statutes.length, accountabilityContent, accountabilityData, mainContent?.length, moneyTrail.length, affiliations.length, timeline.length, sources.length]);
+
+  const secNum = useCallback((id: string) => visibleSections.find(s => s.id === id)?.number || '??', [visibleSections]);
 
   /* IntersectionObserver for active section tracking */
   useEffect(() => {
@@ -1132,7 +1139,7 @@ export default function InvestigationPage() {
           className="mb-1"
         >
           <CollapsibleGlass
-            number="02" title="Executive Summary" icon={<FileText className="w-4 h-4" />}
+            number={secNum('summary')} title="Executive Summary" icon={<FileText className="w-4 h-4" />}
             accentColor={sevCfg.color}
             expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             badge={
@@ -1175,7 +1182,7 @@ export default function InvestigationPage() {
               className="mb-1"
             >
               <CollapsibleGlass
-                number="03" title="Defendants & Charges" icon={<Gavel className="w-4 h-4" />}
+                number={secNum('defendants')} title="Defendants & Charges" icon={<Gavel className="w-4 h-4" />}
                 count={defendants.length} accentColor="#ef4444"
                 expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
                 badge={
@@ -1315,7 +1322,7 @@ export default function InvestigationPage() {
             className="mb-1"
           >
             <CollapsibleGlass
-              number="04" title="Applicable Laws & Statutes" icon={<Scale className="w-4 h-4" />}
+              number={secNum('statutes')} title="Applicable Laws & Statutes" icon={<Scale className="w-4 h-4" />}
               count={statutes.length} accentColor="#ef4444"
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
@@ -1353,7 +1360,7 @@ export default function InvestigationPage() {
               className="mb-1"
             >
               <CollapsibleGlass
-                number="05" title="Accountability Engine" icon={<Crosshair className="w-4 h-4" />}
+                number={secNum('engine')} title="Accountability Engine" icon={<Crosshair className="w-4 h-4" />}
                 accentColor="#ef4444"
                 expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
               >
@@ -1373,7 +1380,7 @@ export default function InvestigationPage() {
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
             className="mb-1"
           >
-            <CollapsibleGlass number="06" title="Full Investigation" icon={<FileText className="w-4 h-4" />}
+            <CollapsibleGlass number={secNum('investigation')} title="Full Investigation" icon={<FileText className="w-4 h-4" />}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}>
               <div className="space-y-4">
                 {mainContent.map((paragraph: string, idx: number) => {
@@ -1419,7 +1426,7 @@ export default function InvestigationPage() {
               className="mb-1"
             >
               <CollapsibleGlass
-                number="07" title="Money Trail" icon={<DollarSign className="w-4 h-4" />}
+                number={secNum('money')} title="Money Trail" icon={<DollarSign className="w-4 h-4" />}
                 count={moneyTrail.length} accentColor="#dc2626"
                 expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
                 badge={
@@ -1474,7 +1481,7 @@ export default function InvestigationPage() {
               className="mb-1"
             >
               <CollapsibleGlass
-                number="08" title="Connected Entities" icon={<Users className="w-4 h-4" />}
+                number={secNum('entities')} title="Connected Entities" icon={<Users className="w-4 h-4" />}
                 count={allEntities.length}
                 expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
                 badge={
@@ -1555,7 +1562,7 @@ export default function InvestigationPage() {
             className="mb-1"
           >
             <CollapsibleGlass
-              number="09" title="Network Analysis" icon={<Eye className="w-4 h-4" />}
+              number={secNum('network')} title="Network Analysis" icon={<Eye className="w-4 h-4" />}
               accentColor={sevCfg.color}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
@@ -1572,6 +1579,38 @@ export default function InvestigationPage() {
         )}
 
         {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 10 // TIMELINE Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
+        
+        {/* ACCOUNTABILITY ACTION CENTER */}
+        {accountabilityData && (
+          <motion.div
+            id="action-center"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="mb-1"
+          >
+            <CollapsibleGlass
+              number={secNum('action-center')} title="Accountability Action Center" icon={<Megaphone className="w-4 h-4" />}
+              accentColor={sevCfg.color}
+              count={accountabilityData.actionPaths.length}
+              badge={
+                <span className="text-[8px] font-mono text-zinc-700 uppercase tracking-wider">
+                  {accountabilityData.actionPaths.length} role paths
+                </span>
+              }
+              expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
+              defaultOpen
+            >
+              <AccountabilityActionCenter
+                data={accountabilityData}
+                investigationTitle={investigation.title}
+                accentColor={sevCfg.color}
+              />
+            </CollapsibleGlass>
+          </motion.div>
+        )}
+
         {timeline.length > 0 && (
           <motion.div
             id="timeline"
@@ -1582,7 +1621,7 @@ export default function InvestigationPage() {
             className="mb-1"
           >
             <CollapsibleGlass
-              number="10" title="Timeline" icon={<Calendar className="w-4 h-4" />}
+              number={secNum('timeline')} title="Timeline" icon={<Calendar className="w-4 h-4" />}
               count={timeline.length}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
@@ -1648,7 +1687,7 @@ export default function InvestigationPage() {
             className="mb-1"
           >
             <CollapsibleGlass
-              number="11" title="Sources & Documentation" icon={<ExternalLink className="w-4 h-4" />}
+              number={secNum('sources')} title="Sources & Documentation" icon={<ExternalLink className="w-4 h-4" />}
               count={sources.length}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
