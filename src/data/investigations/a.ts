@@ -1,4 +1,4 @@
-// Investigation data shard
+﻿// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_a: Record<string, InvestigationData> = {
@@ -701,7 +701,7 @@ const investigations_a: Record<string, InvestigationData> = {
  content: [
  'Goldman Sachs created the Abacus 2007-AC1 CDO at the request of hedge fund manager John Paulson, who wanted to bet against the housing market.',
  'Goldman sold the CDO to investors without disclosing Paulson\'s role in selecting the underlying assets or his short position against them.',
- 'The SEC charged Goldman with fraud in 2010. Goldman paid $550 million to settle -- the largest SEC penalty against a Wall Street firm at that time.'
+ 'The SEC charged Goldman with fraud in 2010. Goldman paid $550 million to settle; the largest SEC penalty against a Wall Street firm at that time.'
  ],
  tags: ['Goldman Sachs', 'Abacus CDO', 'Securities Fraud', 'Financial Crisis', 'SEC', 'Synthetic CDO'],
  sources: [

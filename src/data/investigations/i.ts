@@ -1,4 +1,4 @@
-// Investigation data shard
+﻿// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_i: Record<string, InvestigationData> = {
@@ -241,7 +241,7 @@ const investigations_i: Record<string, InvestigationData> = {
  'THE COST: Brown University\'s Costs of War project estimated the total cost of the Iraq War at $3 trillion and counting, including long-term veterans\' care and interest on war debt. This money was borrowed, not budgeted. The war contributed to the federal deficit while simultaneously the Bush administration cut taxes for the wealthy.',
  'ISIS: The Islamic State of Iraq and Syria (ISIS/ISIL/Daesh) was a direct consequence of the Iraq War. De-Baathification, the Sunni insurgency, years of sectarian government under Nouri al-Maliki, and the power vacuum created by the U.S. invasion created the conditions for ISIS to emerge. Abu Bakr al-Baghdadi and other ISIS leaders were radicalized in U.S.-run detention facilities, including Camp Bucca. ISIS at its peak controlled territory the size of Britain.',
  'IRAN EMPOWERED: The war removed Iran\'s primary rival and installed a Shia-majority government in Iraq. Iranian influence in Iraq grew enormously. The war achieved the opposite of its stated goals: it weakened the U.S. position in the Middle East and strengthened the nation the Bush administration considered its primary regional adversary.',
- 'NO ACCOUNTABILITY: The architects of the war -- George W. Bush, Dick Cheney, Donald Rumsfeld, Paul Wolfowitz, Douglas Feith, John Bolton, Condoleezza Rice -- have faced zero legal consequences. No one was prosecuted for lying to Congress or the public. No one was tried for the hundreds of thousands of deaths their lies caused. Bush paints portraits. Cheney hunts. Bolton appears on cable news. The impunity is total.'
+ 'NO ACCOUNTABILITY: The architects of the war; George W. Bush, Dick Cheney, Donald Rumsfeld, Paul Wolfowitz, Douglas Feith, John Bolton, Condoleezza Rice; have faced zero legal consequences. No one was prosecuted for lying to Congress or the public. No one was tried for the hundreds of thousands of deaths their lies caused. Bush paints portraits. Cheney hunts. Bolton appears on cable news. The impunity is total.'
  ],
  tags: ['Iraq War', 'WMD Lies', 'Bush', 'Cheney', 'Rumsfeld', 'Torture', 'ISIS', 'Halliburton', 'Curveball', 'Powell UN Speech', 'Downing Street Memo', 'De-Baathification', 'War Profiteering'],
  sources: [
@@ -312,7 +312,7 @@ const investigations_i: Record<string, InvestigationData> = {
  'FALLUJAH: The U.S. conducted two major assaults on Fallujah in 2004. The second assault (Operation Phantom Fury, November 2004) was the bloodiest urban battle since Hue City in Vietnam. Hospitals were targeted in the opening hours, cutting off medical care to civilians. The U.S. used white phosphorus as a weapon, burning through skin to the bone. Italian documentary footage and subsequent military admission confirmed the use. Between 600 and 6,000 Iraqi civilians were killed. Much of the city was reduced to rubble.',
  'MAHMUDIYAH RAPE AND MURDERS: On March 12, 2006, U.S. soldiers from the 101st Airborne Division broke into the al-Janabi family home near Mahmudiyah. PFC Steven Green and accomplices raped 14-year-old Abeer Qassim Hamza al-Janabi, then murdered her, her 6-year-old sister, and both parents. They set fire to the bodies to destroy evidence. Green was convicted and sentenced to life in prison. He killed himself in prison in 2014.',
  'UNCOUNTED DEAD: The Wikileaks "Iraq War Logs" (released October 2010) documented 66,081 civilian deaths, previously unreported by the military. The logs showed that U.S. forces killed civilians at checkpoints on a regular basis. They documented torture by Iraqi security forces that the U.S. military witnessed and did nothing to stop, violating international law.',
- 'THE PATTERN: In every case -- Abu Ghraib, Haditha, Nisour Square, Mahmudiyah -- the same pattern repeats: crimes committed, initial cover-up attempted, truth eventually emerging through journalism or whistleblowers, low-ranking perpetrators receiving minimal punishment (or pardons), and senior officials who created the conditions for atrocity facing zero accountability. This is not a series of aberrations. This is a system.'
+ 'THE PATTERN: In every case; Abu Ghraib, Haditha, Nisour Square, Mahmudiyah; the same pattern repeats: crimes committed, initial cover-up attempted, truth eventually emerging through journalism or whistleblowers, low-ranking perpetrators receiving minimal punishment (or pardons), and senior officials who created the conditions for atrocity facing zero accountability. This is not a series of aberrations. This is a system.'
  ],
  tags: ['Iraq', 'War Crimes', 'Abu Ghraib', 'Haditha', 'Blackwater', 'Nisour Square', 'Torture', 'Fallujah', 'Mahmudiyah', 'White Phosphorus', 'Cover-up', 'Impunity'],
  sources: [
@@ -342,7 +342,7 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2003-03-20', event: 'U.S. invasion of Iraq begins. The occupation will produce systematic war crimes at every level of command', type: 'critical' },
      { date: '2003-08', event: 'Major General Geoffrey Miller sent from Guantanamo to Abu Ghraib to "Gitmo-ize" the facility, demanding intelligence production through aggressive interrogation', type: 'critical' },
      { date: '2004-04-28', event: 'CBS 60 Minutes II airs Abu Ghraib torture photos. Seymour Hersh publishes investigation in The New Yorker. The images shock the world', type: 'critical' },
-     { date: '2004-08-24', event: 'Schlesinger Report finds Abu Ghraib abuse was not isolated -- "There is both institutional and personal responsibility at higher levels." No senior officials are charged', type: 'political' },
+     { date: '2004-08-24', event: 'Schlesinger Report finds Abu Ghraib abuse was not isolated; "There is both institutional and personal responsibility at higher levels." No senior officials are charged', type: 'political' },
      { date: '2004-11-07', event: 'Second Battle of Fallujah (Operation Phantom Fury) begins. White phosphorus used as weapon. Hospitals targeted. Hundreds to thousands of civilians killed. City reduced to rubble', type: 'critical' },
      { date: '2005-11-19', event: 'Marines kill 24 unarmed Iraqi civilians in Haditha including women and children. Military initially claims they died from IED blast. The cover-up begins', type: 'critical' },
      { date: '2006-03-12', event: 'U.S. soldiers from 101st Airborne rape 14-year-old Abeer al-Janabi and murder her entire family near Mahmudiyah. They burn the bodies to destroy evidence', type: 'critical' },
@@ -824,12 +824,12 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  },  'institutional-abuse': {
  title: 'Institutional Abuse of Vulnerable Populations',
- subtitle: 'Millions of Americans in institutional care -- prisons, jails, juvenile facilities, psychiatric hospitals, nursing homes, and group homes for disabled',
+ subtitle: 'Millions of Americans in institutional care; prisons, jails, juvenile facilities, psychiatric hospitals, nursing homes, and group homes for disabled',
  severity: 'critical',
  category: 'Human Rights',
  date: 'September 17, 2024',
  lastUpdated: 'March 20, 2025',
- summary: 'Millions of Americans in institutional care -- prisons, jails, juvenile facilities, psychiatric hospitals, nursing homes, and group homes for disabled people -- face systematic abuse including physical violence, sexual assault, medical neglect, solitary confinement, and death. These facilities operate behind closed doors with minimal oversight, disproportionately affecting people of color, the mentally ill, the disabled, and the poor. The pattern crosses every type of institution where the state assumes custodial responsibility.',
+ summary: 'Millions of Americans in institutional care; prisons, jails, juvenile facilities, psychiatric hospitals, nursing homes, and group homes for disabled people; face systematic abuse including physical violence, sexual assault, medical neglect, solitary confinement, and death. These facilities operate behind closed doors with minimal oversight, disproportionately affecting people of color, the mentally ill, the disabled, and the poor. The pattern crosses every type of institution where the state assumes custodial responsibility.',
  content: [
  'PRISON VIOLENCE: U.S. prisons and jails experience pervasive violence. The Bureau of Justice Statistics found that 4% of state and federal prisoners and 3.2% of jail inmates reported sexual victimization annually. Staff committed over half of reported sexual abuse. Overcrowding, understaffing, and gang dynamics create endemic violence.',
  'SOLITARY CONFINEMENT: An estimated 80,000-100,000 people are held in solitary confinement in U.S. prisons on any given day. Conditions include 23-hour lockdown in cells as small as 6x9 feet. The UN says prolonged solitary (over 15 days) constitutes torture. Some inmates have been held in solitary for years or decades.',

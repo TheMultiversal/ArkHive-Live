@@ -1,4 +1,4 @@
-// Investigation data shard
+﻿// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_k: Record<string, InvestigationData> = {
@@ -279,7 +279,7 @@ const investigations_k: Record<string, InvestigationData> = {
  'MILITIA MOBILIZATION: Social media calls for armed civilians to protect property in Kenosha spread rapidly. Groups including the Kenosha Guard organized on Facebook. The Boogaloo movement and other militia groups amplified the calls. Kyle Rittenhouse responded to these calls despite being 17 and not a Kenosha resident.',
  'RITTENHOUSE ACTIONS: Rittenhouse arrived in Kenosha armed with an AR-15 rifle his friend had purchased for him. Over the course of the evening, he shot Joseph Rosenbaum (killed), Anthony Huber (killed), and Gaige Grosskreutz (wounded). The shootings were captured on video from multiple angles.',
  'LAW ENFORCEMENT RESPONSE: Video showed police in armored vehicles thanking armed civilians and offering them water before the shootings. After shooting three people, Rittenhouse walked toward police lines with his hands up and his rifle visible. Police drove past him without stopping. He went home to Illinois and turned himself in the next day.',
- 'POLICE DOUBLE STANDARD: The contrast was stark: Jacob Blake was shot seven times by police during a non-violent encounter, while Rittenhouse walked past police after killing two people. Critics argued the disparity demonstrated racialized policing -- law enforcement viewed armed white civilians as allies and unarmed Black people as threats.',
+ 'POLICE DOUBLE STANDARD: The contrast was stark: Jacob Blake was shot seven times by police during a non-violent encounter, while Rittenhouse walked past police after killing two people. Critics argued the disparity demonstrated racialized policing; law enforcement viewed armed white civilians as allies and unarmed Black people as threats.',
  'THE TRIAL: Rittenhouse was charged with two counts of first-degree intentional homicide and other charges. His defense argued self-defense. The trial became a national spectacle. Judge Bruce Schroeder drew criticism for barring the word "victims" while allowing the deceased to be called "rioters" or "looters."',
  'ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges. The acquittal was celebrated by right-wing media and politicians. Conservative groups raised millions for his defense. Critics argued the verdict established a dangerous precedent allowing armed individuals to provoke confrontations then claim self-defense.',
  'POLITICAL WEAPONIZATION: Rittenhouse became a political symbol. Trump invited him to Mar-a-Lago. Republican members of Congress offered him internships. He appeared at conservative events. His case was used to argue for expanded gun rights and against the Black Lives Matter movement.',

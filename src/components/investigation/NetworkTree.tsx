@@ -144,14 +144,14 @@ const PERSON_TIER_COLORS: Record<PersonTier, string> = {
   'Co-Conspirator': '#f97316',
   Politician: '#8b5cf6',
   Regulator: '#06b6d4',
-  Whistleblower: '#22c55e',
+  Whistleblower: '#f472b6',
   Other: '#a1a1aa',
 };
 
 const ORG_TIER_COLORS: Record<OrgTier, string> = {
   Corporation: '#eab308',
   Agency: '#3b82f6',
-  Organization: '#10b981',
+  Organization: '#e879f9',
 };
 
 const STATUS_COLORS: Record<string, string> = {
@@ -161,10 +161,10 @@ const STATUS_COLORS: Record<string, string> = {
   charged: '#eab308',
   pending: '#71717a',
   settled: '#64748b',
-  acquitted: '#22c55e',
+  acquitted: '#f9a8d4',
   pardoned: '#a855f7',
   appealing: '#06b6d4',
-  released: '#14b8a6',
+  released: '#fb923c',
 };
 
 const NODE_DIMENSIONS: Record<string, { width: number; height: number }> = {

@@ -1,4 +1,4 @@
-// Investigation data shard
+﻿// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_g: Record<string, InvestigationData> = {
@@ -427,7 +427,7 @@ const investigations_g: Record<string, InvestigationData> = {
    timeline: [
      { date: '2020-11-03', event: 'Biden wins the presidential election. Trump refuses to concede and begins assembling legal and political strategies to overturn the result', type: 'political' },
      { date: '2020-12-14', event: 'In seven states Biden won, Republicans meet and sign fraudulent electoral certificates claiming Trump won. These fake elector documents are sent to the National Archives and Congress', type: 'critical' },
-     { date: '2020-12-19', event: 'Trump tweets "Big protest in D.C. on January 6th. Be there, will be wild!" -- openly signaling the planned disruption of electoral certification', type: 'political' },
+     { date: '2020-12-19', event: 'Trump tweets "Big protest in D.C. on January 6th. Be there, will be wild!"; openly signaling the planned disruption of electoral certification', type: 'political' },
      { date: '2020-12-23', event: 'John Eastman writes first memo arguing Pence can unilaterally reject electoral votes. Eastman privately acknowledges the theory would lose 9-0 at the Supreme Court but proposes it anyway', type: 'critical' },
      { date: '2021-01-02', event: 'Peter Navarro publishes report calling his scheme the "Green Bay Sweep" after a Vince Lombardi football play. The plan requires Pence, congressional objectors, and fake electors to execute in sequence', type: 'political' },
      { date: '2021-01-04', event: 'Over 140 Republican members of Congress commit to objecting to electoral votes from contested states, providing the legislative component of the Green Bay Sweep', type: 'political' },
@@ -932,7 +932,7 @@ const investigations_g: Record<string, InvestigationData> = {
  summary: 'Georgia has conducted one of the most aggressive voter suppression campaigns in modern American history, disproportionately targeting Black voters. Under Secretary of State Brian Kemp (2010-2018), the state purged 1.4 million voters, closed 214 polling places, and used "exact match" voter verification to reject disproportionately minority registrations. After the 2020 election, Georgia passed SB 202, further restricting access under the guise of election integrity.',
  content: [
  'MASS VOTER PURGES: Between 2012 and 2018, Georgia purged over 1.4 million voters from the rolls. An APM Reports investigation found that up to 340,000 were purged incorrectly. The purges disproportionately affected Black voters in Democratic-leaning counties. Many purged voters discovered they were removed only when they arrived to vote.',
- 'EXACT MATCH POLICY: Georgia\'s "exact match" voter verification system rejected registrations if any character -- a hyphen, space, or middle initial -- differed from other government records. An AP investigation found that 70% of the 53,000 registrations pending under exact match in 2018 were from Black applicants, despite Black residents being 32% of the population.',
+ 'EXACT MATCH POLICY: Georgia\'s "exact match" voter verification system rejected registrations if any character; a hyphen, space, or middle initial; differed from other government records. An AP investigation found that 70% of the 53,000 registrations pending under exact match in 2018 were from Black applicants, despite Black residents being 32% of the population.',
  'BRIAN KEMP CONFLICT: Brian Kemp served as Secretary of State overseeing elections while simultaneously running for governor against Stacey Abrams in 2018. He refused to recuse himself from election administration and oversaw purges and registration holds that disproportionately affected his opponent\'s supporters.',
  'POLLING PLACE CLOSURES: Georgia closed 214 polling places between 2012 and 2018, primarily in Black neighborhoods. Majority-Black Lincoln County attempted to close 7 of its 9 polling places. Reduced polling locations created long lines, with some voters waiting over 4 hours in predominantly Black areas.',
  'STACEY ABRAMS AND FAIR FIGHT: After losing the 2018 governor\'s race by 55,000 votes, Stacey Abrams founded Fair Fight Action to combat voter suppression. The organization\'s lawsuit documented systematic disenfranchisement. Abrams refused to concede, arguing the election was fundamentally unfair.',
