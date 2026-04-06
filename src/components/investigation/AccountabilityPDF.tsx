@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { Document, Page, Text, View, StyleSheet, Image, Font } from '@react-pdf/renderer';
 import type { AccountabilityData, RoleActionPath, LegalMechanism, WealthTraceEntry } from '@/types/accountability';
@@ -63,6 +63,22 @@ const s = StyleSheet.create({
   seal: {
     width: 64,
     height: 64,
+  },
+  // Watermark - centered on every page, low opacity
+  watermark: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    justifyContent: 'center',
+    alignItems: 'center',
+    zIndex: -1,
+  },
+  watermarkImage: {
+    width: 200,
+    height: 200,
+    opacity: 0.04,
   },
   // Classifications
   classificationBanner: {
@@ -365,10 +381,11 @@ export default function AccountabilityPDF({
     <Document>
       {/* ============ PAGE 1: COVER & OVERVIEW ============ */}
       <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
         {/* Classification banner */}
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            ACCOUNTABILITY ACTION PLAN — {roleLabel.toUpperCase()} — CONFIDENTIAL BRIEFING
+            ACCOUNTABILITY ACTION PLAN - {roleLabel.toUpperCase()} - CONFIDENTIAL BRIEFING
           </Text>
         </View>
 
@@ -445,46 +462,51 @@ export default function AccountabilityPDF({
 
       {/* ============ PAGE 2+: ACTION STEPS ============ */}
       <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            ACTION STEPS — {roleLabel.toUpperCase()}
+            ACTION STEPS - {roleLabel.toUpperCase()}
           </Text>
         </View>
 
         <Section number="04" title="Step-by-Step Action Plan">
           {rolePath.steps.map((step) => (
-            <View key={step.step} style={s.stepContainer} wrap={false}>
-              <Text style={s.stepNumber}>STEP {String(step.step).padStart(2, '0')}</Text>
-              <Text style={s.stepTitle}>{step.title}</Text>
-              <Text style={s.stepDescription}>{step.description}</Text>
+            <View key={step.step} style={s.stepContainer}>
+              {/* Step header info - keep together */}
+              <View wrap={false}>
+                <Text style={s.stepNumber}>STEP {String(step.step).padStart(2, '0')}</Text>
+                <Text style={s.stepTitle}>{step.title}</Text>
+                <Text style={s.stepDescription}>{step.description}</Text>
 
-              {step.filingTarget && (
-                <View style={s.bulletRow}>
-                  <Text style={s.bulletDot}>▸</Text>
-                  <Text style={s.bulletText}>File with: {step.filingTarget}</Text>
-                </View>
-              )}
+                {step.filingTarget && (
+                  <View style={s.bulletRow}>
+                    <Text style={s.bulletDot}>▸</Text>
+                    <Text style={s.bulletText}>File with: {step.filingTarget}</Text>
+                  </View>
+                )}
 
-              {step.requirements && step.requirements.map((req, ri) => (
-                <View key={ri} style={s.bulletRow}>
-                  <Text style={s.bulletDot}>▸</Text>
-                  <Text style={s.bulletText}>{req}</Text>
-                </View>
-              ))}
+                {step.requirements && step.requirements.map((req, ri) => (
+                  <View key={ri} style={s.bulletRow}>
+                    <Text style={s.bulletDot}>▸</Text>
+                    <Text style={s.bulletText}>{req}</Text>
+                  </View>
+                ))}
 
-              {step.legalBasis && step.legalBasis.length > 0 && (
-                <Text style={s.legalCitation}>
-                  Legal basis: {step.legalBasis.join('; ')}
-                </Text>
-              )}
+                {step.legalBasis && step.legalBasis.length > 0 && (
+                  <Text style={s.legalCitation}>
+                    Legal basis: {step.legalBasis.join('; ')}
+                  </Text>
+                )}
 
-              {step.estimatedTime && (
-                <Text style={s.stepMeta}>Estimated time: {step.estimatedTime}</Text>
-              )}
+                {step.estimatedTime && (
+                  <Text style={s.stepMeta}>Estimated time: {step.estimatedTime}</Text>
+                )}
+              </View>
 
+              {/* Template text - allowed to flow across pages */}
               {step.templateText && (
                 <View style={s.templateContainer}>
-                  <Text style={s.templateLabel}>Template Text — Copy and Customize</Text>
+                  <Text style={s.templateLabel}>Template Text - Copy and Customize</Text>
                   <Text style={s.templateText}>{step.templateText}</Text>
                 </View>
               )}
@@ -497,9 +519,10 @@ export default function AccountabilityPDF({
 
       {/* ============ PAGE 3: LEGAL MECHANISMS ============ */}
       <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            LEGAL MECHANISMS — REFERENCE
+            LEGAL MECHANISMS - REFERENCE
           </Text>
         </View>
 
@@ -558,6 +581,7 @@ export default function AccountabilityPDF({
 
       {/* ============ PAGE 4: WEALTH TRACE & AUTHORITIES ============ */}
       <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
             WEALTH TRACE & AUTHORITIES
@@ -597,7 +621,7 @@ export default function AccountabilityPDF({
           {data.authoritiesWithPower.map((auth, idx) => (
             <View key={idx} style={{ marginBottom: 8 }} wrap={false}>
               <Text style={s.boldText}>{auth.name}</Text>
-              <Text style={{ ...s.stepMeta, marginBottom: 2 }}>{auth.title} — {auth.jurisdiction}</Text>
+              <Text style={{ ...s.stepMeta, marginBottom: 2 }}>{auth.title} - {auth.jurisdiction}</Text>
               {auth.powers.map((power, pi) => (
                 <View key={pi} style={s.bulletRow}>
                   <Text style={s.bulletDot}>▸</Text>
@@ -613,9 +637,10 @@ export default function AccountabilityPDF({
 
       {/* ============ PAGE 5: SUCCESS CRITERIA & CLOSING ============ */}
       <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            SUCCESS CRITERIA — WHAT JUSTICE LOOKS LIKE
+            SUCCESS CRITERIA - WHAT JUSTICE LOOKS LIKE
           </Text>
         </View>
 
@@ -633,7 +658,7 @@ export default function AccountabilityPDF({
         {/* Closing statement */}
         <View style={s.sectionContainer}>
           <Text style={{ ...s.bodyText, textAlign: 'center', marginTop: 20 }}>
-            This document was generated by ArkHive — an investigative journalism platform
+            This document was generated by ArkHive - an investigative journalism platform
             dedicated to accountability, transparency, and truth. The information contained
             herein is compiled from public records, court documents, and verified sources.
           </Text>
@@ -642,7 +667,7 @@ export default function AccountabilityPDF({
             philanthropic rebranding, or transfer to the next generation.
           </Text>
           <Text style={{ ...s.stepMeta, textAlign: 'center', marginTop: 12 }}>
-            arkhive.live — EST. 2025
+            arkhive.live - EST. 2025
           </Text>
         </View>
 
@@ -658,7 +683,7 @@ export default function AccountabilityPDF({
 
 function Section({ number, title, children }: { number: string; title: string; children: React.ReactNode }) {
   return (
-    <View style={s.sectionContainer}>
+    <View style={s.sectionContainer} minPresenceAhead={20}>
       <View style={s.sectionHeader}>
         <Text style={s.sectionNumber}>{number}</Text>
         <Text style={s.sectionTitle}>{title}</Text>
@@ -671,9 +696,18 @@ function Section({ number, title, children }: { number: string; title: string; c
 function PageFooter({ generatedDate }: { generatedDate: string }) {
   return (
     <View style={s.footer} fixed>
-      <Text style={s.footerText}>ARKHIVE — ACCOUNTABILITY ACTION PLAN</Text>
+      <Text style={s.footerText}>ARKHIVE - ACCOUNTABILITY ACTION PLAN</Text>
       <Text style={s.footerText}>{generatedDate}</Text>
       <Text style={s.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} />
+    </View>
+  );
+}
+
+function Watermark({ sealDataUri }: { sealDataUri: string }) {
+  if (!sealDataUri) return null;
+  return (
+    <View style={s.watermark} fixed>
+      <Image src={sealDataUri} style={s.watermarkImage} />
     </View>
   );
 }

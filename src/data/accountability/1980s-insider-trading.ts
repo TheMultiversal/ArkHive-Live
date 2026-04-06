@@ -1,4 +1,4 @@
-import type { AccountabilityData } from '@/types/accountability';
+﻿import type { AccountabilityData } from '@/types/accountability';
 
 export const insiderTradingAccountability: AccountabilityData = {
   investigationSlug: '1980s-insider-trading',
@@ -6,11 +6,11 @@ export const insiderTradingAccountability: AccountabilityData = {
   // ============================================================
   // WHAT HAPPENED
   // ============================================================
-  crimeSummary: 'A coordinated criminal conspiracy among Wall Street\'s most powerful figures — including Ivan Boesky, Michael Milken, Dennis Levine, Martin Siegel, and dozens of others — who systematically used insider information, stock manipulation, racketeering, and fraud to steal billions from public investors, destroy companies, and corrupt the American financial system throughout the 1980s.',
+  crimeSummary: 'A coordinated criminal conspiracy among Wall Street\'s most powerful figures - including Ivan Boesky, Michael Milken, Dennis Levine, Martin Siegel, and dozens of others - who systematically used insider information, stock manipulation, racketeering, and fraud to steal billions from public investors, destroy companies, and corrupt the American financial system throughout the 1980s.',
 
   totalHarm: 'Over $10 billion in direct financial harm to investors, pensioners, and employees. Drexel Burnham Lambert\'s collapse destroyed 10,000+ jobs. The junk bond market crash triggered cascading losses across savings & loan institutions, pension funds, and municipal bond holders. The broader economic damage from market manipulation during this period is estimated at $50-100 billion when including the S&L crisis connections.',
 
-  victimsAffected: 'Millions of American investors, pensioners, and workers. Direct victims include shareholders of companies targeted in manipulated takeovers, employees of Drexel Burnham Lambert (10,000+ lost jobs), holders of junk bonds that collapsed, savings & loan depositors, and taxpayers who funded the $160 billion S&L bailout — a crisis directly fueled by the junk bond market these conspirators created and manipulated.',
+  victimsAffected: 'Millions of American investors, pensioners, and workers. Direct victims include shareholders of companies targeted in manipulated takeovers, employees of Drexel Burnham Lambert (10,000+ lost jobs), holders of junk bonds that collapsed, savings & loan depositors, and taxpayers who funded the $160 billion S&L bailout - a crisis directly fueled by the junk bond market these conspirators created and manipulated.',
 
   // ============================================================
   // WHO SHOULD BE HELD ACCOUNTABLE
@@ -44,7 +44,7 @@ export const insiderTradingAccountability: AccountabilityData = {
       name: 'The Milken Family Trust / Estate',
       role: 'Holders of generational wealth derived from Michael Milken\'s criminal enterprise.',
       currentStatus: 'The Milken family controls billions through the Milken Institute, Milken Family Foundation, and private investment vehicles. This wealth was seeded with proceeds from securities fraud, racketeering, and market manipulation.',
-      accountabilityPath: 'Constructive trust doctrine allows courts to trace assets from criminal activity through to current holders regardless of how many transfers occurred. Unjust enrichment claims have no statute of limitations in most jurisdictions. Civil RICO if the organizational structure of the criminal enterprise persists. Tax fraud investigation for any undeclared income from the original criminal activity — tax fraud has NO statute of limitations.',
+      accountabilityPath: 'Constructive trust doctrine allows courts to trace assets from criminal activity through to current holders regardless of how many transfers occurred. Unjust enrichment claims have no statute of limitations in most jurisdictions. Civil RICO if the organizational structure of the criminal enterprise persists. Tax fraud investigation for any undeclared income from the original criminal activity - tax fraud has NO statute of limitations.',
       obstacles: [
         'Wealth laundered through decades of legitimate-appearing transactions',
         'Philanthropic institutions create political protection',
@@ -53,7 +53,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     },
     {
       name: 'Dennis Levine',
-      role: 'Managing Director, Drexel Burnham Lambert. First domino — his arrest in 1986 unraveled the entire conspiracy.',
+      role: 'Managing Director, Drexel Burnham Lambert. First domino - his arrest in 1986 unraveled the entire conspiracy.',
       currentStatus: 'Served 17 months. Paid $11.6 million penalty. Returned to finance through consulting. Some financial recovery but dramatically reduced from peak.',
       accountabilityPath: 'Full disgorgement of any remaining proceeds from criminal activity. Investigation of whether all offshore accounts (Bahamian bank accounts) were fully disclosed and recovered.',
       obstacles: [
@@ -75,13 +75,47 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'Paul Bilzerian',
       role: 'Corporate raider convicted of securities fraud and conspiracy. Father of Dan Bilzerian.',
-      currentStatus: 'Convicted 1989. Sentenced to 4 years, served 13 months. Ordered to pay $62 million — NEVER PAID. Filed bankruptcy claiming inability to pay while family maintained lavish lifestyle. Son Dan Bilzerian became a social media personality flaunting extreme wealth.',
+      currentStatus: 'Convicted 1989. Sentenced to 4 years, served 13 months. Ordered to pay $62 million - NEVER PAID. Filed bankruptcy claiming inability to pay while family maintained lavish lifestyle. Son Dan Bilzerian became a social media personality flaunting extreme wealth.',
       accountabilityPath: 'This is one of the most egregious cases of unpaid restitution in American history. $62 million in court-ordered payments were never collected. Fraudulent transfer investigation into how assets were moved to family members while claiming bankruptcy. The Bilzerian family\'s current visible wealth directly traces to assets that should have been seized. Civil contempt proceedings for failure to pay court-ordered restitution.',
       obstacles: [
         'Bankruptcy filings shield claimed assets',
         'Assets transferred to family members before/during proceedings',
         'Government enforcement of restitution has been inadequate',
         'Complex offshore structures hide real asset values',
+      ],
+    },
+    {
+      name: 'Martin Siegel',
+      role: 'Head of Mergers & Acquisitions at Kidder, Peabody & Co. Received suitcases of cash from Boesky in exchange for insider information on pending takeover deals.',
+      currentStatus: 'Pleaded guilty in 1987 to two felony counts of tax evasion and one count of conspiracy to violate securities laws. Paid $9 million in penalties. Cooperated extensively with prosecutors. Received probation instead of prison. Returned to a quiet life in Florida. Never paid full restitution to defrauded investors.',
+      accountabilityPath: 'Siegel was the conduit between the arbitrage world and the investment banking world. He received literal briefcases of cash from Boesky - $700,000 in one delivery alone. His cooperation agreement provided leniency but did not require full disgorgement. Investigation into whether the $9 million penalty captured the full extent of his criminal profits. Civil claims by defrauded Kidder Peabody clients and shareholders.',
+      obstacles: [
+        'Cooperation agreement provides substantial protection',
+        'Decades of quiet living reduce public pressure',
+        'Most direct evidence was provided by Siegel himself as cooperator',
+      ],
+    },
+    {
+      name: 'Robert Freeman',
+      role: 'Head of Arbitrage at Goldman Sachs. Convicted of insider trading based on tips from Martin Siegel and others.',
+      currentStatus: 'Pleaded guilty in 1989 to one count of insider trading. Sentenced to 4 months in prison, served the full sentence. Fined $1.1 million. Goldman Sachs paid $2 million civil penalty. Freeman quietly retired from Goldman and Wall Street.',
+      accountabilityPath: 'Freeman represented the direct link between the insider trading conspiracy and Goldman Sachs, one of the most powerful financial institutions in the world. Goldman Sachs benefited from the insider information traded by Freeman and paid a minimal $2 million penalty. Investigation into whether Goldman\'s arbitrage profits during Freeman\'s tenure were properly disgorged. Shareholder derivative actions against Goldman for inadequate oversight.',
+      obstacles: [
+        'Goldman Sachs\'s institutional power and legal resources',
+        'Criminal sentence already served',
+        'One-count plea deal limited the scope of admitted conduct',
+        'Goldman\'s penalty was minimal relative to profits earned',
+      ],
+    },
+    {
+      name: 'John Mulheren',
+      role: 'Head of Jamie Securities. Convicted of conspiracy and securities fraud for illegal stock manipulation coordinated with Ivan Boesky.',
+      currentStatus: 'Convicted in 1990, sentenced to 1 year and 1 day plus a $1.68 million fine. Conviction partially reversed on appeal in 1991 (conspiracy and securities fraud counts upheld, manipulation counts reversed). Mulheren died in 2003.',
+      accountabilityPath: 'Mulheren\'s case demonstrated the breadth of Boesky\'s network of co-conspirators in stock manipulation. His estate and any trusts funded during the period of criminal activity remain subject to constructive trust claims. Investigation into whether profits from the securities fraud were fully disgorged before his death.',
+      obstacles: [
+        'Mulheren deceased (2003)',
+        'Partial reversal on appeal complicates claims',
+        'Assets dispersed through estate',
       ],
     },
   ],
@@ -115,7 +149,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'Constructive Trust',
       statute: 'Common law equitable remedy; Restatement (Third) of Restitution § 55',
-      description: 'A court-imposed trust on property held by someone who obtained it through fraud, breach of duty, or unjust enrichment. The trust "follows the money" — if assets can be traced from criminal activity through transfers to current holders, the court can impose a constructive trust regardless of how many times the assets changed hands.',
+      description: 'A court-imposed trust on property held by someone who obtained it through fraud, breach of duty, or unjust enrichment. The trust "follows the money" - if assets can be traced from criminal activity through transfers to current holders, the court can impose a constructive trust regardless of how many times the assets changed hands.',
       hasStatuteOfLimitations: false,
       reachesHeirs: true,
       authorizedActors: ['Any court of equity', 'Federal or state courts'],
@@ -141,7 +175,7 @@ export const insiderTradingAccountability: AccountabilityData = {
       reachesHeirs: true,
       authorizedActors: ['Any injured party', 'State attorneys general on behalf of the public'],
       applicability: 'directly_applicable',
-      notes: 'Milken\'s current $6.2B net worth, built on the foundation of his criminal junk bond empire, is a textbook case of unjust enrichment. The enrichment is ongoing — the wealth continues to generate more wealth.',
+      notes: 'Milken\'s current $6.2B net worth, built on the foundation of his criminal junk bond empire, is a textbook case of unjust enrichment. The enrichment is ongoing - the wealth continues to generate more wealth.',
     },
     {
       name: 'Fraudulent Transfer / Voidable Transactions',
@@ -155,9 +189,9 @@ export const insiderTradingAccountability: AccountabilityData = {
       notes: 'Paul Bilzerian\'s case is the clearest example: $62M in court-ordered payments went uncollected while he filed bankruptcy and his family maintained extreme visible wealth. Every transfer out of his estate is potentially voidable.',
     },
     {
-      name: 'Tax Fraud — No Statute of Limitations',
+      name: 'Tax Fraud - No Statute of Limitations',
       statute: '26 U.S.C. § 6501(c)(1)-(2)',
-      description: 'There is NO statute of limitations for civil or criminal tax fraud. If any of the original criminal proceeds were not reported to the IRS, the government can pursue tax claims at any time. This also applies to estates — the IRS can pursue heirs for unpaid taxes on unreported income.',
+      description: 'There is NO statute of limitations for civil or criminal tax fraud. If any of the original criminal proceeds were not reported to the IRS, the government can pursue tax claims at any time. This also applies to estates - the IRS can pursue heirs for unpaid taxes on unreported income.',
       hasStatuteOfLimitations: false,
       reachesHeirs: true,
       authorizedActors: ['Internal Revenue Service', 'U.S. Department of Justice Tax Division'],
@@ -166,7 +200,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     },
     {
       name: 'State Attorney General Actions',
-      statute: 'Varies by state — e.g., N.Y. Martin Act (N.Y. Gen. Bus. Law §§ 352-353)',
+      statute: 'Varies by state - e.g., N.Y. Martin Act (N.Y. Gen. Bus. Law §§ 352-353)',
       description: 'State AGs have broad authority to pursue securities fraud, consumer fraud, and public corruption. Many state securities fraud statutes have longer limitation periods than federal law, and some states (like New York under the Martin Act) don\'t require proof of intent.',
       hasStatuteOfLimitations: true,
       limitationPeriod: 'Varies by state. New York Martin Act: 6 years. California: 5 years. Some states have tolling provisions.',
@@ -195,6 +229,36 @@ export const insiderTradingAccountability: AccountabilityData = {
       applicability: 'requires_new_action',
       notes: 'Relevant if any assets from this conspiracy were moved to international jurisdictions or if any participants hold dual citizenship or have offshore assets.',
     },
+    {
+      name: 'Mutual Legal Assistance Treaties (MLATs)',
+      statute: '18 U.S.C. § 3512; Bilateral MLAT Agreements',
+      description: 'The United States has mutual legal assistance treaties with over 70 countries, including Switzerland, the Cayman Islands, the United Kingdom, and most major financial centers. These treaties allow U.S. authorities to request foreign governments to freeze assets, compel disclosure of bank records, and enforce U.S. court orders in foreign jurisdictions.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: true,
+      authorizedActors: ['U.S. Department of Justice (Office of International Affairs)', 'FBI', 'SEC'],
+      applicability: 'potentially_applicable',
+      notes: 'Dennis Levine maintained secret accounts at Bank Leu in the Bahamas. Ivan Boesky was known to have offshore financial structures. Switzerland reformed its banking secrecy laws and now cooperates with U.S. enforcement for fraud cases. Any assets moved offshore during the conspiracy period can potentially be recovered through MLAT channels.',
+    },
+    {
+      name: 'Kleptocracy Asset Recovery Initiative',
+      statute: 'DOJ Criminal Division, Money Laundering and Asset Recovery Section (MLARS)',
+      description: 'The DOJ\'s Kleptocracy Asset Recovery Initiative targets the proceeds of foreign corruption that have been laundered into or through the United States. While originally focused on foreign officials, its framework and expertise apply to any large-scale financial crime asset recovery, including domestic cases where assets cross borders.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: true,
+      authorizedActors: ['DOJ Money Laundering and Asset Recovery Section', 'FBI International Corruption Unit'],
+      applicability: 'requires_new_action',
+      notes: 'The expertise and infrastructure built for kleptocracy cases is directly applicable to recovering assets from the 1980s insider trading conspiracy that may have been moved to foreign jurisdictions.',
+    },
+    {
+      name: 'Federal Restitution Enforcement',
+      statute: '18 U.S.C. § 3613; Mandatory Victims Restitution Act (18 U.S.C. § 3663A)',
+      description: 'Federal restitution orders are enforceable as liens against all property of the defendant, including property acquired after the order. The government can pursue collection indefinitely. Restitution orders survive bankruptcy, transfer, and even death - they can be enforced against the estate.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: true,
+      authorizedActors: ['U.S. Attorney\'s Office', 'DOJ Asset Forfeiture and Money Laundering Section', 'U.S. Marshals Service'],
+      applicability: 'directly_applicable',
+      notes: 'Paul Bilzerian\'s $62 million restitution order is a federal lien that has NEVER been satisfied. Under 18 U.S.C. § 3613(b), this lien attaches to all property and rights to property of the defendant, and it survives his bankruptcy filing. The government has both the authority and the duty to enforce this order. The failure to do so for over 35 years is itself an accountability scandal.',
+    },
   ],
 
   // ============================================================
@@ -204,7 +268,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'Michael Milken / Milken Family',
       relationship: 'Primary perpetrator and direct family',
-      transferMethod: 'Original criminal earnings → family trusts, investment vehicles, Milken Institute, Milken Family Foundation, private equity stakes',
+      transferMethod: 'Original criminal earnings to family trusts, investment vehicles, Milken Institute, Milken Family Foundation, private equity stakes',
       estimatedValue: '$6.2 billion (Forbes 2025)',
       legalEntities: ['Milken Institute', 'Milken Family Foundation', 'Various private investment vehicles'],
       recoveryMechanisms: ['Constructive Trust', 'Unjust Enrichment', 'Tax Fraud Investigation', 'State AG Securities Actions'],
@@ -221,17 +285,49 @@ export const insiderTradingAccountability: AccountabilityData = {
       name: 'Boesky Estate / Family Trusts',
       relationship: 'Estate and trusts of Ivan Boesky (deceased May 2024)',
       transferMethod: 'Assets sheltered in family trusts during lifetime. Cooperation agreement may have limited scope of forfeiture. Full extent of offshore holdings unknown.',
-      estimatedValue: 'Unknown — original wealth estimated $200M+ beyond the $100M penalty',
+      estimatedValue: 'Unknown - original wealth estimated $200M+ beyond the $100M penalty',
       legalEntities: ['Family trusts', 'Various holding companies'],
       recoveryMechanisms: ['Constructive Trust', 'Estate Claims', 'Tax Fraud Investigation'],
     },
     {
       name: 'Jefferies Financial Group (successor to Jefferies & Company)',
       relationship: 'Corporate successor to the firm used for illegal stock parking',
-      transferMethod: 'Corporate continuation — the criminal activity provided foundation for the firm\'s growth into a global investment bank',
+      transferMethod: 'Corporate continuation - the criminal activity provided foundation for the firm\'s growth into a global investment bank',
       estimatedValue: '$10+ billion (current market cap)',
       legalEntities: ['Jefferies Financial Group, Inc. (NYSE: JEF)'],
       recoveryMechanisms: ['Shareholder Derivative Action', 'Unjust Enrichment', 'State AG Action'],
+    },
+    {
+      name: 'Goldman Sachs (employer of Robert Freeman)',
+      relationship: 'Major investment bank whose Head of Arbitrage was convicted of insider trading',
+      transferMethod: 'Goldman Sachs profited from insider trading conducted by its own Head of Arbitrage, Robert Freeman. The firm paid a $2 million civil penalty - a negligible fraction of the profits earned from Freeman\'s illegal trading activity. Goldman\'s institutional profits from this period were never fully examined.',
+      estimatedValue: 'Goldman Sachs current market cap: $160+ billion. Arbitrage profits during Freeman\'s tenure: unknown but likely hundreds of millions.',
+      legalEntities: ['Goldman Sachs Group, Inc. (NYSE: GS)'],
+      recoveryMechanisms: ['Shareholder Derivative Action', 'Unjust Enrichment', 'State AG Action', 'Disgorgement of Ill-Gotten Gains'],
+    },
+    {
+      name: 'Kidder, Peabody & Co. / GE Capital (successor)',
+      relationship: 'Investment bank where Martin Siegel ran M&A and received cash bribes from Boesky',
+      transferMethod: 'Kidder Peabody was acquired by General Electric in 1986. The firm\'s M&A department under Siegel generated fees based on insider information. GE sold Kidder\'s operations to PaineWebber in 1994, which was later acquired by UBS. The criminal profits flowed through multiple corporate successors.',
+      estimatedValue: 'GE\'s purchase price and subsequent sale price reflected value built in part on insider-trading-enhanced advisory business',
+      legalEntities: ['General Electric (historical)', 'UBS Group AG (ultimate successor)'],
+      recoveryMechanisms: ['Constructive Trust', 'Unjust Enrichment'],
+    },
+    {
+      name: 'Drexel Burnham Lambert Liquidation Trust',
+      relationship: 'Bankruptcy estate of the firm at the center of the conspiracy',
+      transferMethod: 'Drexel pleaded guilty to six felony counts in 1989 and paid $650 million in fines and restitution. The firm filed for bankruptcy in February 1990. A liquidation trust was established to distribute remaining assets to creditors. The trust has made periodic distributions over decades.',
+      estimatedValue: 'Original assets: billions. Distributions to creditors: partial. Final distributions may still be pending.',
+      legalEntities: ['Drexel Burnham Lambert Group Inc. Liquidating Trust'],
+      recoveryMechanisms: ['Estate Claims', 'Constructive Trust'],
+    },
+    {
+      name: 'SEC Disgorgement / Victim Restitution Funds',
+      relationship: 'Government-collected penalties from the insider trading cases',
+      transferMethod: 'The SEC collected hundreds of millions in disgorgement and penalties from Milken ($600M), Boesky ($100M), Drexel ($650M), and others. These funds were supposed to be distributed to harmed investors through Fair Funds and disgorgement funds. The full accounting of whether all collected funds reached victims has never been publicly verified.',
+      estimatedValue: 'Total collected: $1.4+ billion in penalties and disgorgement. Amount actually distributed to victims: not fully transparent.',
+      legalEntities: ['SEC Fair Fund', 'Various court-supervised distribution funds'],
+      recoveryMechanisms: ['Congressional Investigation & Legislative Action', 'FOIA Requests for Fund Accounting'],
     },
   ],
 
@@ -242,7 +338,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'U.S. Attorney General',
       title: 'Head of the U.S. Department of Justice',
-      jurisdiction: 'Federal — all states and territories',
+      jurisdiction: 'Federal - all states and territories',
       powers: [
         'Initiate civil asset forfeiture proceedings',
         'Enforce unpaid restitution orders',
@@ -265,7 +361,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'New York Attorney General',
       title: 'Attorney General of the State of New York',
-      jurisdiction: 'State of New York — where most trading and transactions occurred',
+      jurisdiction: 'State of New York - where most trading and transactions occurred',
       powers: [
         'Martin Act enforcement (no intent requirement)',
         'Civil fraud actions with broad discovery powers',
@@ -276,7 +372,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'California Attorney General',
       title: 'Attorney General of the State of California',
-      jurisdiction: 'State of California — Milken\'s primary base of operations in Beverly Hills',
+      jurisdiction: 'State of California - Milken\'s primary base of operations in Beverly Hills',
       powers: [
         'State securities fraud enforcement',
         'Civil fraud actions',
@@ -287,7 +383,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'House Committee on Financial Services',
       title: 'U.S. House of Representatives',
-      jurisdiction: 'Federal — congressional oversight of financial institutions and markets',
+      jurisdiction: 'Federal - congressional oversight of financial institutions and markets',
       powers: [
         'Subpoena documents and testimony',
         'Hold public hearings',
@@ -299,7 +395,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'Senate Committee on Banking, Housing, and Urban Affairs',
       title: 'U.S. Senate',
-      jurisdiction: 'Federal — senate oversight of banking and securities',
+      jurisdiction: 'Federal - senate oversight of banking and securities',
       powers: [
         'Subpoena documents and testimony',
         'Hold confirmation hearings for SEC nominees',
@@ -310,7 +406,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     {
       name: 'IRS Commissioner',
       title: 'Commissioner of the Internal Revenue Service',
-      jurisdiction: 'Federal tax enforcement — no statute of limitations for fraud',
+      jurisdiction: 'Federal tax enforcement - no statute of limitations for fraud',
       powers: [
         'Audit any year\'s returns where fraud is suspected',
         'Pursue tax fraud cases with no time limit',
@@ -328,7 +424,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     // ---- CITIZEN ----
     {
       role: 'citizen',
-      overview: 'As a citizen, you have the power to demand accountability through official complaint channels, FOIA requests, public pressure on elected officials, and support for civil litigation. The crimes documented in this investigation affected millions of Americans — every citizen has standing to demand that stolen wealth be recovered and returned to the public.',
+      overview: 'As a citizen, you have the power to demand accountability through official complaint channels, FOIA requests, public pressure on elected officials, and support for civil litigation. The crimes documented in this investigation affected millions of Americans - every citizen has standing to demand that stolen wealth be recovered and returned to the public.',
       urgency: 'standard',
       relevantMechanisms: ['Congressional Investigation & Legislative Action', 'State Attorney General Actions'],
       steps: [
@@ -336,7 +432,7 @@ export const insiderTradingAccountability: AccountabilityData = {
           step: 1,
           title: 'File a Complaint with the SEC',
           description: 'Submit a formal complaint to the SEC\'s Office of the Whistleblower and the Division of Enforcement requesting investigation into undisclosed assets and unpaid disgorgement related to 1980s insider trading participants. Specifically reference the $62 million in unpaid restitution owed by Paul Bilzerian.',
-          filingTarget: 'SEC Office of the Whistleblower — https://www.sec.gov/whistleblower',
+          filingTarget: 'SEC Office of the Whistleblower - https://www.sec.gov/whistleblower',
           templateText: 'Dear SEC Division of Enforcement,\n\nI am writing to formally request investigation into the following matters relating to the 1980s insider trading conspiracies:\n\n1. Paul Bilzerian owes $62 million in court-ordered restitution from his 1989 conviction for securities fraud and conspiracy (United States v. Bilzerian, Case No. 88-0886-CR). This amount has never been collected despite visible family wealth. I request investigation into whether assets were fraudulently transferred to avoid payment.\n\n2. Michael Milken\'s original $600 million penalty represented a fraction of estimated criminal earnings during his tenure at Drexel Burnham Lambert. I request investigation into whether full disgorgement was achieved and whether undisclosed assets remain.\n\n3. The estate of Ivan Boesky (deceased May 2024) may contain assets traceable to insider trading proceeds that were not captured by the original $100 million penalty.\n\nI request that the Commission exercise its enforcement authority under 15 U.S.C. § 78u to investigate and pursue disgorgement of remaining ill-gotten gains.\n\nRespectfully,\n[Your Name]',
           legalBasis: ['15 U.S.C. § 78u(d)(5)', 'SEC Whistleblower Program (Exchange Act Rule 21F)'],
           estimatedTime: '30 minutes to file',
@@ -392,7 +488,7 @@ export const insiderTradingAccountability: AccountabilityData = {
       role: 'journalist',
       overview: 'The 1980s insider trading conspiracy contains multiple active accountability failures that are actionable news stories right now. The $62 million owed by Paul Bilzerian and never collected, the circumstances around the Milken pardon, and the generational transfer of criminal wealth are all current stories with documentary evidence.',
       urgency: 'high',
-      relevantMechanisms: ['Tax Fraud — No Statute of Limitations', 'Fraudulent Transfer / Voidable Transactions', 'Congressional Investigation & Legislative Action'],
+      relevantMechanisms: ['Tax Fraud - No Statute of Limitations', 'Fraudulent Transfer / Voidable Transactions', 'Congressional Investigation & Legislative Action'],
       steps: [
         {
           step: 1,
@@ -460,12 +556,12 @@ export const insiderTradingAccountability: AccountabilityData = {
       role: 'lawyer',
       overview: 'Multiple viable legal actions exist for recovering proceeds from the 1980s insider trading conspiracy. Key opportunities: (1) Enforce the $62M Bilzerian restitution through fraudulent transfer litigation, (2) Pursue constructive trust on Milken assets traceable to criminal enterprise, (3) State-level securities fraud actions not affected by federal pardon, (4) Tax fraud referrals with no statute of limitations.',
       urgency: 'high',
-      relevantMechanisms: ['Constructive Trust', 'Fraudulent Transfer / Voidable Transactions', 'Civil RICO', 'Unjust Enrichment', 'Tax Fraud — No Statute of Limitations', 'Disgorgement of Ill-Gotten Gains'],
+      relevantMechanisms: ['Constructive Trust', 'Fraudulent Transfer / Voidable Transactions', 'Civil RICO', 'Unjust Enrichment', 'Tax Fraud - No Statute of Limitations', 'Disgorgement of Ill-Gotten Gains'],
       steps: [
         {
           step: 1,
           title: 'Assess Standing and Jurisdiction',
-          description: 'Identify clients with standing: institutional investors, pension funds, or classes of investors who suffered losses from manipulated securities. Determine jurisdiction — New York (where most trading occurred), California (Milken\'s operations), or federal court.',
+          description: 'Identify clients with standing: institutional investors, pension funds, or classes of investors who suffered losses from manipulated securities. Determine jurisdiction - New York (where most trading occurred), California (Milken\'s operations), or federal court.',
           requirements: [
             'Client with demonstrable loss from insider trading manipulation',
             'Jurisdictional analysis for each defendant',
@@ -524,7 +620,7 @@ export const insiderTradingAccountability: AccountabilityData = {
         {
           step: 6,
           title: 'Pursue State Securities Actions',
-          description: 'File state securities fraud actions in New York (Martin Act — no intent requirement) and California. State actions are NOT affected by federal pardons. Target current holders of criminally-derived assets.',
+          description: 'File state securities fraud actions in New York (Martin Act - no intent requirement) and California. State actions are NOT affected by federal pardons. Target current holders of criminally-derived assets.',
           requirements: [
             'State-specific securities fraud elements',
             'Asset location within each state',
@@ -539,7 +635,7 @@ export const insiderTradingAccountability: AccountabilityData = {
     // ---- ELECTED OFFICIAL ----
     {
       role: 'elected_official',
-      overview: 'As an elected official, you have the constitutional authority to investigate, subpoena, legislate, and hold hearings. The 1980s insider trading scandal represents a catastrophic accountability failure: $62 million in unpaid restitution, a controversial pardon, and billions in criminal proceeds transferred to the next generation. Your constituents — the investors and taxpayers who suffered — deserve answers and action.',
+      overview: 'As an elected official, you have the constitutional authority to investigate, subpoena, legislate, and hold hearings. The 1980s insider trading scandal represents a catastrophic accountability failure: $62 million in unpaid restitution, a controversial pardon, and billions in criminal proceeds transferred to the next generation. Your constituents - the investors and taxpayers who suffered - deserve answers and action.',
       urgency: 'immediate',
       relevantMechanisms: ['Congressional Investigation & Legislative Action', 'Civil Asset Forfeiture', 'State Attorney General Actions'],
       steps: [
@@ -598,7 +694,7 @@ export const insiderTradingAccountability: AccountabilityData = {
       role: 'law_enforcement',
       overview: 'Active enforcement opportunities include: investigation of fraudulent transfers to avoid restitution obligations (Paul Bilzerian), tax fraud investigation with no statute of limitations, civil asset forfeiture of criminally-derived assets, and investigation of potential corruption in the pardon process.',
       urgency: 'high',
-      relevantMechanisms: ['Civil Asset Forfeiture', 'Tax Fraud — No Statute of Limitations', 'Fraudulent Transfer / Voidable Transactions'],
+      relevantMechanisms: ['Civil Asset Forfeiture', 'Tax Fraud - No Statute of Limitations', 'Fraudulent Transfer / Voidable Transactions'],
       steps: [
         {
           step: 1,
@@ -618,14 +714,14 @@ export const insiderTradingAccountability: AccountabilityData = {
           step: 2,
           title: 'Coordinate with IRS Criminal Investigation',
           description: 'Refer all named defendants and their families/trusts to IRS CI for tax fraud investigation. Tax fraud has NO statute of limitations. Given the scale of hidden transactions (offshore accounts, stock parking, unreported profits), it is virtually certain that tax obligations remain outstanding.',
-          filingTarget: 'IRS Criminal Investigation Division — local field office',
+          filingTarget: 'IRS Criminal Investigation Division - local field office',
           legalBasis: ['26 U.S.C. § 7201 (Tax Evasion)', '26 U.S.C. § 6501(c) (No SOL for Fraud)'],
           estimatedTime: '2-4 weeks for referral; ongoing investigation',
         },
         {
           step: 3,
           title: 'Initiate Civil Forfeiture Proceedings',
-          description: 'File civil forfeiture complaints against specific assets traceable to criminal insider trading proceeds. Civil forfeiture targets the property, not the person — it does not require the property owner to be living or convicted.',
+          description: 'File civil forfeiture complaints against specific assets traceable to criminal insider trading proceeds. Civil forfeiture targets the property, not the person - it does not require the property owner to be living or convicted.',
           requirements: [
             'Asset identification and tracing from criminal proceeds',
             'Probable cause that assets are proceeds of, or traceable to, specified unlawful activity',
@@ -708,7 +804,7 @@ export const insiderTradingAccountability: AccountabilityData = {
   // ============================================================
   successCriteria: [
     'Full collection of $62 million owed by Paul Bilzerian, plus interest and penalties for decades of evasion',
-    'Constructive trust imposed on Milken family assets traceable to criminal enterprise — recovered funds returned to defrauded investors and pension funds',
+    'Constructive trust imposed on Milken family assets traceable to criminal enterprise - recovered funds returned to defrauded investors and pension funds',
     'Congressional investigation into pardon process, with public hearings and full transparency',
     'Legislation eliminating statute of limitations on civil recovery from securities fraud',
     'Mandatory asset disclosure requirements for convicted financial criminals and their immediate families',

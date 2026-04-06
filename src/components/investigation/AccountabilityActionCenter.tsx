@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -224,7 +224,7 @@ export default function AccountabilityActionCenter({
 
         {/* Wealth Trace */}
         <ToggleSection
-          title="Wealth Trace — Where the Money Is Now"
+          title="Wealth Trace - Where the Money Is Now"
           count={data.wealthTrace.length}
           icon={<DollarSign className="w-3.5 h-3.5" />}
           isOpen={showWealth}
@@ -288,7 +288,7 @@ export default function AccountabilityActionCenter({
         <div className="flex items-center gap-2 mb-3">
           <div className="w-1 h-5" style={{ background: `${accentColor}60` }} />
           <span className="text-[9px] font-mono font-bold text-zinc-300 uppercase tracking-[0.2em]">
-            Select Your Role — Get Your Action Plan
+            Select Your Role - Get Your Action Plan
           </span>
         </div>
 
@@ -462,7 +462,7 @@ export default function AccountabilityActionCenter({
                                   <div className="flex items-center justify-between px-3 pt-2">
                                     <span className="text-[7px] font-mono font-bold uppercase tracking-wider"
                                       style={{ color: roleConfig[activeRole].color }}>
-                                      Template — Copy & Customize
+                                      Template - Copy & Customize
                                     </span>
                                     <button
                                       onClick={() => handleCopyTemplate(stepId, step.templateText!)}
@@ -490,7 +490,7 @@ export default function AccountabilityActionCenter({
               {/* Download bar at bottom */}
               <div className="p-3 border-t border-white/[0.04] flex items-center justify-between">
                 <span className="text-[8px] font-mono text-zinc-600">
-                  {activeRolePath.steps.length} steps — All legal mechanisms included — No statute of limitations barrier
+                  {activeRolePath.steps.length} steps - All legal mechanisms included - No statute of limitations barrier
                 </span>
                 <button
                   onClick={() => handleDownloadPDF(activeRolePath)}
