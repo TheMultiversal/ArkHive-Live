@@ -61,7 +61,7 @@ const eventTypeColors = {
   critical: "#ef4444",
   legal: "#b80000",
   political: "#a855f7",
-  financial: "#22c55e",
+  financial: "#f59e0b",
   default: "#f97316",
 };
 

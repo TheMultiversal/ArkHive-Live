@@ -105,7 +105,7 @@ export const DEFAULT_ROLES: Role[] = [
  description:"Can edit and add content",
  permissions: ["view","comment","edit"],
  isSystem: true,
- color:"#22c55e",
+ color:"#60a5fa",
  },
  {
  id:"commenter",

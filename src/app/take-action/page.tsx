@@ -133,8 +133,8 @@ const roles: ActionRole[] = [
     title: 'Lawyers & Legal Professionals',
     subtitle: 'Pursue accountability through the courts',
     icon: Scale,
-    color: 'text-emerald-400',
-    borderColor: 'border-emerald-900/40',
+    color: 'text-amber-400',
+    borderColor: 'border-amber-900/40',
     description: 'Legal professionals can leverage our documented investigations as starting points for litigation, amicus briefs, FOIA lawsuits, and regulatory complaints. Every investigation includes sourced statutes and defendants.',
     actions: [
       {

@@ -170,7 +170,7 @@ export default function MoneyFlowDiagram({
         <defs>
           {/* Gradient for links */}
           <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#22c55e" stopOpacity="0.6" />
+            <stop offset="0%" stopColor="#f59e0b" stopOpacity="0.6" />
             <stop offset="100%" stopColor="#ef4444" stopOpacity="0.6" />
           </linearGradient>
         </defs>
@@ -220,7 +220,7 @@ export default function MoneyFlowDiagram({
           const total = Math.max(inflow, outflow, node.total || 0);
           
           const colors = {
-            source: { fill: "#22c55e", border: "#16a34a" },
+            source: { fill: "#f59e0b", border: "#d97706" },
             intermediary: { fill: "#f97316", border: "#ea580c" },
             destination: { fill: "#ef4444", border: "#dc2626" },
           };

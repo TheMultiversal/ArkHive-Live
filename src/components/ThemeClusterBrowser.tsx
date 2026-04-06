@@ -64,8 +64,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Financial Crimes',
     description: 'Money laundering, fraud, tax evasion, and financial misconduct',
     icon: DollarSign,
-    color: 'text-emerald-400',
-    bgColor: 'bg-emerald-400/10',
+    color: 'text-amber-400',
+    bgColor: 'bg-amber-400/10',
     keywords: ['fraud', 'money', 'financial', 'tax', 'launder', 'embezzle', 'bank', 'wire fraud', 'securities']
   },
   {

@@ -34,7 +34,7 @@ const typeColors = {
  agency: '#4a4a4a', // blue
  corporation: '#8b5cf6', // purple
  individual: '#71717a', // amber
- organization: '#10b981', // emerald
+ organization: '#e879f9', // fuchsia
 };
 
 const riskColors = {

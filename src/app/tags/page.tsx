@@ -122,7 +122,7 @@ const mockTags: TagData[] = [
  id: 'tag_6',
  name: 'Whistleblower',
  slug: 'whistleblower',
- color: '#10b981',
+ color: '#f472b6',
  description: 'Cases involving insider information disclosure',
  category: 'general',
  usageCount: 145,
@@ -327,7 +327,7 @@ function CreateTagModal({
  <div>
  <label className="block text-zinc-400 text-sm mb-2">Color</label>
  <div className="flex gap-2">
- {['#6b6b6b', '#71717a', '#10b981', '#4a4a4a', '#8b5cf6', '#ec4899'].map((color) => (
+ {['#6b6b6b', '#71717a', '#f472b6', '#4a4a4a', '#8b5cf6', '#ec4899'].map((color) => (
  <button
  key={color}
  className="w-8 h-8 border-2 border-transparent hover:border-white transition-colors"

@@ -184,8 +184,8 @@ export function ConfidenceMeter({
   const progress = (score / 100) * circumference;
 
   const gradientColors = {
-    "very-high": ["#10b981", "#34d399"],
-    high: ["#22c55e", "#4ade80"],
+    "very-high": ["#60a5fa", "#93c5fd"],
+    high: ["#818cf8", "#a5b4fc"],
     medium: ["#f59e0b", "#fbbf24"],
     low: ["#f97316", "#fb923c"],
     "very-low": ["#ef4444", "#f87171"],
@@ -659,7 +659,7 @@ export function ConfidenceCalculator({
                     style={{
                       accentColor:
                         factor.score >= 75
-                          ? "#10b981"
+                          ? "#60a5fa"
                           : factor.score >= 50
                           ? "#f59e0b"
                           : "#ef4444",
