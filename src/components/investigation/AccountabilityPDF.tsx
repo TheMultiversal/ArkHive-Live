@@ -64,7 +64,7 @@ const s = StyleSheet.create({
     width: 64,
     height: 64,
   },
-  // Watermark - centered on every page, low opacity
+  // Watermark; centered on every page, low opacity
   watermark: {
     position: 'absolute',
     top: 0,
@@ -385,7 +385,7 @@ export default function AccountabilityPDF({
         {/* Classification banner */}
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            ACCOUNTABILITY ACTION PLAN - {roleLabel.toUpperCase()} - CONFIDENTIAL BRIEFING
+            ACCOUNTABILITY ACTION PLAN | {roleLabel.toUpperCase()} | CONFIDENTIAL BRIEFING
           </Text>
         </View>
 
@@ -441,38 +441,44 @@ export default function AccountabilityPDF({
           </View>
         </Section>
 
-        {/* Primary targets */}
+        <PageFooter generatedDate={generatedDate} />
+      </Page>
+
+      {/* ============ PAGE: PRIMARY ACCOUNTABILITY TARGETS ============ */}
+      <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
+        <View style={s.classificationBanner}>
+          <Text style={s.classificationText}>
+            PRIMARY TARGETS | {roleLabel.toUpperCase()}
+          </Text>
+        </View>
+
         <Section number="03" title="Primary Accountability Targets">
-          {data.primaryTargets.slice(0, 3).map((target, idx) => (
-            <View key={idx} style={s.targetCard}>
+          {data.primaryTargets.map((target, idx) => (
+            <View key={idx} style={s.targetCard} wrap={false}>
               <Text style={s.targetName}>{target.name}</Text>
               <Text style={s.targetRole}>{target.role}</Text>
               <Text style={s.targetStatus}>{target.currentStatus}</Text>
             </View>
           ))}
-          {data.primaryTargets.length > 3 && (
-            <Text style={s.stepMeta}>
-              + {data.primaryTargets.length - 3} additional targets (see full investigation)
-            </Text>
-          )}
         </Section>
 
         <PageFooter generatedDate={generatedDate} />
       </Page>
 
-      {/* ============ PAGE 2+: ACTION STEPS ============ */}
+      {/* ============ PAGE: ACTION STEPS ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            ACTION STEPS - {roleLabel.toUpperCase()}
+            ACTION STEPS | {roleLabel.toUpperCase()}
           </Text>
         </View>
 
         <Section number="04" title="Step-by-Step Action Plan">
           {rolePath.steps.map((step) => (
             <View key={step.step} style={s.stepContainer}>
-              {/* Step header info - keep together */}
+              {/* Step header info; keep together */}
               <View wrap={false}>
                 <Text style={s.stepNumber}>STEP {String(step.step).padStart(2, '0')}</Text>
                 <Text style={s.stepTitle}>{step.title}</Text>
@@ -506,7 +512,7 @@ export default function AccountabilityPDF({
               {/* Template text - allowed to flow across pages */}
               {step.templateText && (
                 <View style={s.templateContainer}>
-                  <Text style={s.templateLabel}>Template Text - Copy and Customize</Text>
+                  <Text style={s.templateLabel}>Template Text; Copy and Customize</Text>
                   <Text style={s.templateText}>{step.templateText}</Text>
                 </View>
               )}
@@ -522,7 +528,7 @@ export default function AccountabilityPDF({
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            LEGAL MECHANISMS - REFERENCE
+            LEGAL MECHANISMS | REFERENCE
           </Text>
         </View>
 
@@ -579,12 +585,12 @@ export default function AccountabilityPDF({
         <PageFooter generatedDate={generatedDate} />
       </Page>
 
-      {/* ============ PAGE 4: WEALTH TRACE & AUTHORITIES ============ */}
+      {/* ============ PAGE: WEALTH TRACE ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            WEALTH TRACE & AUTHORITIES
+            WEALTH TRACE | FOLLOW THE MONEY
           </Text>
         </View>
 
@@ -617,11 +623,23 @@ export default function AccountabilityPDF({
           ))}
         </Section>
 
+        <PageFooter generatedDate={generatedDate} />
+      </Page>
+
+      {/* ============ PAGE: AUTHORITIES ============ */}
+      <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
+        <View style={s.classificationBanner}>
+          <Text style={s.classificationText}>
+            AUTHORITIES | WHO CAN ACT
+          </Text>
+        </View>
+
         <Section number="07" title="Authorities With Power to Act">
           {data.authoritiesWithPower.map((auth, idx) => (
             <View key={idx} style={{ marginBottom: 8 }} wrap={false}>
               <Text style={s.boldText}>{auth.name}</Text>
-              <Text style={{ ...s.stepMeta, marginBottom: 2 }}>{auth.title} - {auth.jurisdiction}</Text>
+              <Text style={{ ...s.stepMeta, marginBottom: 2 }}>{auth.title}; {auth.jurisdiction}</Text>
               {auth.powers.map((power, pi) => (
                 <View key={pi} style={s.bulletRow}>
                   <Text style={s.bulletDot}>▸</Text>
@@ -640,7 +658,7 @@ export default function AccountabilityPDF({
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            SUCCESS CRITERIA - WHAT JUSTICE LOOKS LIKE
+            SUCCESS CRITERIA | WHAT JUSTICE LOOKS LIKE
           </Text>
         </View>
 
@@ -658,7 +676,7 @@ export default function AccountabilityPDF({
         {/* Closing statement */}
         <View style={s.sectionContainer}>
           <Text style={{ ...s.bodyText, textAlign: 'center', marginTop: 20 }}>
-            This document was generated by ArkHive - an investigative journalism platform
+            This document was generated by ArkHive; an investigative journalism platform
             dedicated to accountability, transparency, and truth. The information contained
             herein is compiled from public records, court documents, and verified sources.
           </Text>
@@ -667,7 +685,7 @@ export default function AccountabilityPDF({
             philanthropic rebranding, or transfer to the next generation.
           </Text>
           <Text style={{ ...s.stepMeta, textAlign: 'center', marginTop: 12 }}>
-            arkhive.live - EST. 2025
+            arkhive.live | EST. 2025
           </Text>
         </View>
 
@@ -696,7 +714,7 @@ function Section({ number, title, children }: { number: string; title: string; c
 function PageFooter({ generatedDate }: { generatedDate: string }) {
   return (
     <View style={s.footer} fixed>
-      <Text style={s.footerText}>ARKHIVE - ACCOUNTABILITY ACTION PLAN</Text>
+      <Text style={s.footerText}>ARKHIVE | ACCOUNTABILITY ACTION PLAN</Text>
       <Text style={s.footerText}>{generatedDate}</Text>
       <Text style={s.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} />
     </View>

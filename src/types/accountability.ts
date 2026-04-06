@@ -1,10 +1,10 @@
 ﻿// ============================================================
-// ACCOUNTABILITY ACTION CENTER - Type Definitions
+// ACCOUNTABILITY ACTION CENTER; Type Definitions
 // ============================================================
 // This system powers the "What Must Be Done" section on every
 // investigation, individual, corporation, agency, and organization page.
 // It provides role-based, step-by-step action paths for holding
-// every individual and entity accountable - regardless of time elapsed.
+// every individual and entity accountable; regardless of time elapsed.
 
 export type ActionRole =
   | 'citizen'
