@@ -5,21 +5,21 @@ import type { AccountabilityData, RoleActionPath } from '@/types/accountability'
 import { ACTION_ROLE_LABELS } from '@/types/accountability';
 
 /* ================================================================
-   COLORS — Print-friendly: black text on white, blood-red accents.
-   No green anywhere.
+   COLORS — Print-friendly: black text on white, no color accents.
+   Red removed (backed up in session memory v53h-red-colors-backup.md).
    ================================================================ */
 const c = {
   white: '#ffffff', paper: '#f9f9f9', light: '#f0f0f0',
   text: '#1a1a1a', sub: '#333333', muted: '#666666',
-  blood: '#b91c1c', bloodDk: '#7f1d1d', bloodLt: '#dc2626',
+  blood: '#000000', bloodDk: '#1a1a1a', bloodLt: '#333333',
   black: '#000000',
 };
 
 const statusColor: Record<string, string> = {
-  convicted: '#b91c1c', incarcerated: '#991b1b', indicted: '#7f1d1d',
-  charged: '#6b1515', pending: '#881337', settled: '#666666',
-  acquitted: '#a16207', pardoned: '#9f1239', appealing: '#be123c',
-  released: '#92400e',
+  convicted: '#000000', incarcerated: '#000000', indicted: '#1a1a1a',
+  charged: '#1a1a1a', pending: '#333333', settled: '#666666',
+  acquitted: '#555555', pardoned: '#333333', appealing: '#444444',
+  released: '#555555',
 };
 
 /* ================================================================
@@ -28,7 +28,7 @@ const statusColor: Record<string, string> = {
 const s = StyleSheet.create({
   page: { backgroundColor: c.white, padding: 40, paddingBottom: 55, fontFamily: 'Courier', color: c.text },
   wm: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center', zIndex: 0 },
-  wmImg: { width: 300, height: 300, opacity: 0.06 },
+  wmImg: { width: 350, height: 350, opacity: 0.20 },
   banner: { backgroundColor: c.bloodDk, padding: 6, marginBottom: 14, textAlign: 'center' },
   bannerText: { fontSize: 7, color: c.white, letterSpacing: 3, textTransform: 'uppercase', fontWeight: 'bold' },
   hdr: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 18, paddingBottom: 10, borderBottomWidth: 1.5, borderBottomColor: c.blood },
@@ -164,7 +164,20 @@ export default function AccountabilityPDF({
   // Investigation data
   const defendants = investigation?.defendants || [];
   const timeline = investigation?.timeline || [];
-  const moneyTrail = investigation?.moneyTrail || [];
+  const moneyTrailRaw = investigation?.moneyTrail || [];
+  // Sort money trail chronologically by date
+  const moneyTrail = [...moneyTrailRaw].sort((a: { date: string }, b: { date: string }) => {
+    // Parse dates: handles 'YYYY-MM-DD', 'YYYY', 'YYYY-YYYY' (range → use start year)
+    const parseDate = (d: string) => {
+      if (!d) return 0;
+      const iso = d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+      if (iso) return new Date(d).getTime();
+      const year = d.match(/^(\d{4})/);
+      if (year) return new Date(`${year[1]}-01-01`).getTime();
+      return 0;
+    };
+    return parseDate(a.date) - parseDate(b.date);
+  });
   const statutes = investigation?.statutes || [];
   const affiliations = investigation?.affiliations || [];
   const sources = investigation?.sources || [];
