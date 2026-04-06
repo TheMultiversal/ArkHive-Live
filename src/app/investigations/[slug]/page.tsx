@@ -1606,6 +1606,7 @@ export default function InvestigationPage() {
                 data={accountabilityData}
                 investigationTitle={investigation.title}
                 accentColor={sevCfg.color}
+                investigation={investigation}
               />
             </CollapsibleGlass>
           </motion.div>

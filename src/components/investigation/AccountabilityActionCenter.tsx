@@ -46,6 +46,8 @@ interface AccountabilityActionCenterProps {
   data: AccountabilityData;
   investigationTitle: string;
   accentColor?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  investigation?: any;
 }
 
 /* ================================================================
@@ -56,6 +58,7 @@ export default function AccountabilityActionCenter({
   data,
   investigationTitle,
   accentColor = '#ef4444',
+  investigation,
 }: AccountabilityActionCenterProps) {
   const [activeRole, setActiveRole] = useState<ActionRole | null>(null);
   const [expandedSteps, setExpandedSteps] = useState<Set<string>>(new Set());
@@ -82,6 +85,7 @@ export default function AccountabilityActionCenter({
           rolePath={rolePath}
           investigationTitle={investigationTitle}
           sealDataUri={sealUri}
+          investigation={investigation}
         />
       );
 
@@ -99,7 +103,7 @@ export default function AccountabilityActionCenter({
     } finally {
       setGenerating(false);
     }
-  }, [data, investigationTitle]);
+  }, [data, investigationTitle, investigation]);
 
   /* ---- Copy template ---- */
   const handleCopyTemplate = useCallback((stepId: string, text: string) => {
