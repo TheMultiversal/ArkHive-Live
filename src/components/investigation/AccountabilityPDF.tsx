@@ -1,7 +1,7 @@
-﻿'use client';
+'use client';
 
-import { Document, Page, Text, View, StyleSheet, Image, Font } from '@react-pdf/renderer';
-import type { AccountabilityData, RoleActionPath, LegalMechanism, WealthTraceEntry } from '@/types/accountability';
+import { Document, Page, Text, View, StyleSheet, Image } from '@react-pdf/renderer';
+import type { AccountabilityData, RoleActionPath } from '@/types/accountability';
 import { ACTION_ROLE_LABELS } from '@/types/accountability';
 
 /* ================================================================
@@ -25,10 +25,11 @@ const s = StyleSheet.create({
   page: {
     backgroundColor: colors.black,
     padding: 40,
+    paddingBottom: 50,
     fontFamily: 'Courier',
     color: colors.textPrimary,
   },
-  // Header
+  /* Header */
   headerContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -38,9 +39,7 @@ const s = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: colors.blood,
   },
-  headerLeft: {
-    flex: 1,
-  },
+  headerLeft: { flex: 1 },
   headerTitle: {
     fontSize: 20,
     fontWeight: 'bold',
@@ -60,11 +59,8 @@ const s = StyleSheet.create({
     letterSpacing: 1,
     marginTop: 4,
   },
-  seal: {
-    width: 64,
-    height: 64,
-  },
-  // Watermark; centered on every page, low opacity
+  seal: { width: 64, height: 64 },
+  /* Watermark */
   watermark: {
     position: 'absolute',
     top: 0,
@@ -76,11 +72,11 @@ const s = StyleSheet.create({
     zIndex: -1,
   },
   watermarkImage: {
-    width: 200,
-    height: 200,
-    opacity: 0.04,
+    width: 280,
+    height: 280,
+    opacity: 0.06,
   },
-  // Classifications
+  /* Classification banner */
   classificationBanner: {
     backgroundColor: colors.bloodDark,
     padding: 6,
@@ -94,10 +90,8 @@ const s = StyleSheet.create({
     textTransform: 'uppercase',
     fontWeight: 'bold',
   },
-  // Sections
-  sectionContainer: {
-    marginBottom: 16,
-  },
+  /* Sections */
+  sectionContainer: { marginBottom: 16 },
   sectionHeader: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -120,7 +114,7 @@ const s = StyleSheet.create({
     letterSpacing: 1,
     textTransform: 'uppercase',
   },
-  // Body text
+  /* Body text */
   bodyText: {
     fontSize: 9,
     color: colors.textSecondary,
@@ -132,7 +126,7 @@ const s = StyleSheet.create({
     color: colors.textPrimary,
     fontWeight: 'bold',
   },
-  // Steps
+  /* Steps */
   stepContainer: {
     marginBottom: 12,
     paddingLeft: 12,
@@ -163,7 +157,7 @@ const s = StyleSheet.create({
     color: colors.textMuted,
     marginTop: 2,
   },
-  // Template text
+  /* Template text */
   templateContainer: {
     backgroundColor: colors.darkGray,
     padding: 10,
@@ -185,14 +179,14 @@ const s = StyleSheet.create({
     color: colors.textSecondary,
     lineHeight: 1.7,
   },
-  // Legal
+  /* Legal citation */
   legalCitation: {
     fontSize: 7,
     color: colors.textMuted,
     fontStyle: 'italic',
     marginTop: 2,
   },
-  // Bullets
+  /* Bullets */
   bulletRow: {
     flexDirection: 'row',
     marginBottom: 3,
@@ -210,7 +204,7 @@ const s = StyleSheet.create({
     lineHeight: 1.6,
     flex: 1,
   },
-  // Tables / grid rows
+  /* Grid rows */
   gridRow: {
     flexDirection: 'row',
     borderBottomWidth: 0.5,
@@ -230,7 +224,7 @@ const s = StyleSheet.create({
     flex: 1,
     lineHeight: 1.5,
   },
-  // Mechanism card
+  /* Mechanism card */
   mechCard: {
     backgroundColor: colors.darkGray,
     padding: 8,
@@ -260,7 +254,7 @@ const s = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 3,
   },
-  // Wealth trace
+  /* Wealth trace */
   wealthCard: {
     backgroundColor: colors.darkGray,
     padding: 8,
@@ -278,7 +272,7 @@ const s = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 3,
   },
-  // Footer
+  /* Footer */
   footer: {
     position: 'absolute',
     bottom: 20,
@@ -300,13 +294,13 @@ const s = StyleSheet.create({
     fontSize: 6,
     color: colors.textMuted,
   },
-  // Divider
+  /* Divider */
   divider: {
     borderBottomWidth: 0.5,
     borderBottomColor: `${colors.blood}30`,
     marginVertical: 12,
   },
-  // Success
+  /* Success criteria */
   successItem: {
     flexDirection: 'row',
     marginBottom: 4,
@@ -323,14 +317,14 @@ const s = StyleSheet.create({
     lineHeight: 1.5,
     flex: 1,
   },
-  // Target card
+  /* Target card */
   targetCard: {
     backgroundColor: colors.darkGray,
-    padding: 8,
-    marginBottom: 8,
+    padding: 10,
+    marginBottom: 10,
   },
   targetName: {
-    fontSize: 10,
+    fontSize: 11,
     color: colors.white,
     fontWeight: 'bold',
     marginBottom: 2,
@@ -344,13 +338,41 @@ const s = StyleSheet.create({
     fontSize: 8,
     color: colors.textSecondary,
     lineHeight: 1.5,
-    marginBottom: 4,
+    marginBottom: 6,
+  },
+  /* Applicability badge */
+  applicabilityBadge: {
+    fontSize: 6,
+    color: colors.blood,
+    fontWeight: 'bold',
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    paddingHorizontal: 4,
+    paddingVertical: 2,
+    borderWidth: 0.5,
+    borderColor: `${colors.blood}40`,
+  },
+  /* Sub-label */
+  subLabel: {
+    fontSize: 7,
+    color: colors.blood,
+    fontWeight: 'bold',
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    marginBottom: 3,
+    marginTop: 6,
+  },
+  /* Authority card */
+  authorityCard: {
+    backgroundColor: colors.darkGray,
+    padding: 8,
+    marginBottom: 8,
   },
 });
 
 
 /* ================================================================
-   PDF DOCUMENT                 
+   PDF DOCUMENT
    ================================================================ */
 
 interface AccountabilityPDFProps {
@@ -376,44 +398,71 @@ export default function AccountabilityPDF({
   const relevantMechanisms = data.legalMechanisms.filter(m =>
     rolePath.relevantMechanisms.includes(m.name)
   );
+  const additionalMechanisms = data.legalMechanisms.filter(m =>
+    !rolePath.relevantMechanisms.includes(m.name)
+  );
+
+  const applicabilityLabel: Record<string, string> = {
+    directly_applicable: 'DIRECTLY APPLICABLE',
+    potentially_applicable: 'POTENTIALLY APPLICABLE',
+    requires_new_action: 'REQUIRES NEW ACTION',
+  };
 
   return (
     <Document>
-      {/* ============ PAGE 1: COVER & OVERVIEW ============ */}
+      {/* ============ PAGE 1: COVER ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
-        {/* Classification banner */}
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            ACCOUNTABILITY ACTION PLAN | {roleLabel.toUpperCase()} | CONFIDENTIAL BRIEFING
+            ACCOUNTABILITY DOSSIER | {roleLabel.toUpperCase()} | CONFIDENTIAL
           </Text>
         </View>
 
-        {/* Header with seal */}
         <View style={s.headerContainer}>
           <View style={s.headerLeft}>
             <Text style={s.headerTitle}>ARKHIVE</Text>
-            <Text style={s.headerSubtitle}>Accountability • Transparency • Truth</Text>
-            <Text style={s.headerRole}>Action Plan for: {roleLabel}</Text>
-            <Text style={{ ...s.stepMeta, marginTop: 4 }}>
-              Generated: {generatedDate}
-            </Text>
+            <Text style={s.headerSubtitle}>Accountability | Transparency | Truth</Text>
+            <Text style={s.headerRole}>Prepared for: {roleLabel}</Text>
+            <Text style={{ ...s.stepMeta, marginTop: 4 }}>Generated: {generatedDate}</Text>
           </View>
-          {sealDataUri && (
-            <Image src={sealDataUri} style={s.seal} />
-          )}
+          {sealDataUri && <Image src={sealDataUri} style={s.seal} />}
         </View>
 
-        {/* Investigation title */}
         <View style={s.sectionContainer}>
           <Text style={{ ...s.sectionTitle, fontSize: 14, marginBottom: 8 }}>
             {investigationTitle}
           </Text>
+          <Text style={{ ...s.bodyText, fontSize: 8 }}>
+            Court-Ready Accountability Dossier | {data.primaryTargets.length} Targets | {data.legalMechanisms.length} Legal Mechanisms | {data.wealthTrace.length} Wealth Traces | {data.authoritiesWithPower.length} Authorities | {rolePath.steps.length} Action Steps
+          </Text>
         </View>
 
-        {/* Crime summary */}
+        <View style={s.divider} />
+
+        <Text style={{ ...s.bodyText, fontSize: 8, textAlign: 'center', color: colors.blood, fontWeight: 'bold' }}>
+          This document contains every accountability target, every legal mechanism,
+          every wealth trace, and every action step necessary to pursue full accountability.
+          Nothing has been omitted. Nothing has been summarized. This is the complete record.
+        </Text>
+
+        <PageFooter generatedDate={generatedDate} />
+      </Page>
+
+      {/* ============ PAGE: WHAT HAPPENED ============ */}
+      <Page size="A4" style={s.page}>
+        <Watermark sealDataUri={sealDataUri} />
+        <View style={s.classificationBanner}>
+          <Text style={s.classificationText}>
+            CRIME SUMMARY | THE FACTS
+          </Text>
+        </View>
+
         <Section number="01" title="What Happened">
           <Text style={s.bodyText}>{data.crimeSummary}</Text>
+        </Section>
+
+        <Section number="02" title="Scale of Harm">
           <View style={s.gridRow}>
             <Text style={s.gridLabel}>Total Harm</Text>
             <Text style={s.gridValue}>{data.totalHarm}</Text>
@@ -424,41 +473,59 @@ export default function AccountabilityPDF({
           </View>
         </Section>
 
-        {/* Role overview */}
-        <Section number="02" title={`Your Role: ${roleLabel}`}>
+        <Section number="03" title={`Your Role: ${roleLabel}`}>
           <Text style={s.bodyText}>{rolePath.overview}</Text>
           <View style={{ ...s.bulletRow, marginTop: 4 }}>
             <Text style={s.bulletDot}>■</Text>
-            <Text style={s.bulletText}>
-              Urgency Level: {rolePath.urgency.toUpperCase()}
-            </Text>
+            <Text style={s.bulletText}>Urgency Level: {rolePath.urgency.toUpperCase()}</Text>
           </View>
           <View style={s.bulletRow}>
             <Text style={s.bulletDot}>■</Text>
-            <Text style={s.bulletText}>
-              Total Steps: {rolePath.steps.length}
-            </Text>
+            <Text style={s.bulletText}>Total Steps: {rolePath.steps.length}</Text>
+          </View>
+          <View style={s.bulletRow}>
+            <Text style={s.bulletDot}>■</Text>
+            <Text style={s.bulletText}>Relevant Mechanisms: {rolePath.relevantMechanisms.join(', ')}</Text>
           </View>
         </Section>
 
         <PageFooter generatedDate={generatedDate} />
       </Page>
 
-      {/* ============ PAGE: PRIMARY ACCOUNTABILITY TARGETS ============ */}
+      {/* ============ PAGES: PRIMARY ACCOUNTABILITY TARGETS ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            PRIMARY TARGETS | {roleLabel.toUpperCase()}
+            PRIMARY TARGETS | {data.primaryTargets.length} INDIVIDUALS AND ENTITIES
           </Text>
         </View>
 
-        <Section number="03" title="Primary Accountability Targets">
+        <Section number="04" title="Primary Accountability Targets">
           {data.primaryTargets.map((target, idx) => (
             <View key={idx} style={s.targetCard} wrap={false}>
               <Text style={s.targetName}>{target.name}</Text>
               <Text style={s.targetRole}>{target.role}</Text>
+
+              <Text style={s.subLabel}>Current Status</Text>
               <Text style={s.targetStatus}>{target.currentStatus}</Text>
+
+              <Text style={s.subLabel}>Accountability Path</Text>
+              <Text style={{ ...s.bodyText, fontSize: 8, marginBottom: 4 }}>
+                {target.accountabilityPath}
+              </Text>
+
+              {target.obstacles.length > 0 && (
+                <>
+                  <Text style={s.subLabel}>Obstacles to Accountability</Text>
+                  {target.obstacles.map((obs, oi) => (
+                    <View key={oi} style={s.bulletRow}>
+                      <Text style={s.bulletDot}>▸</Text>
+                      <Text style={s.bulletText}>{obs}</Text>
+                    </View>
+                  ))}
+                </>
+              )}
             </View>
           ))}
         </Section>
@@ -466,19 +533,18 @@ export default function AccountabilityPDF({
         <PageFooter generatedDate={generatedDate} />
       </Page>
 
-      {/* ============ PAGE: ACTION STEPS ============ */}
+      {/* ============ PAGES: ACTION STEPS ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            ACTION STEPS | {roleLabel.toUpperCase()}
+            ACTION STEPS | {roleLabel.toUpperCase()} | {rolePath.steps.length} STEPS
           </Text>
         </View>
 
-        <Section number="04" title="Step-by-Step Action Plan">
+        <Section number="05" title="Step-by-Step Action Plan">
           {rolePath.steps.map((step) => (
             <View key={step.step} style={s.stepContainer}>
-              {/* Step header info; keep together */}
               <View wrap={false}>
                 <Text style={s.stepNumber}>STEP {String(step.step).padStart(2, '0')}</Text>
                 <Text style={s.stepTitle}>{step.title}</Text>
@@ -509,10 +575,10 @@ export default function AccountabilityPDF({
                 )}
               </View>
 
-              {/* Template text - allowed to flow across pages */}
+              {/* Template text flows across pages */}
               {step.templateText && (
                 <View style={s.templateContainer}>
-                  <Text style={s.templateLabel}>Template Text; Copy and Customize</Text>
+                  <Text style={s.templateLabel}>Template | Copy and Customize</Text>
                   <Text style={s.templateText}>{step.templateText}</Text>
                 </View>
               )}
@@ -523,21 +589,27 @@ export default function AccountabilityPDF({
         <PageFooter generatedDate={generatedDate} />
       </Page>
 
-      {/* ============ PAGE 3: LEGAL MECHANISMS ============ */}
+      {/* ============ PAGES: LEGAL MECHANISMS (RELEVANT) ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            LEGAL MECHANISMS | REFERENCE
+            LEGAL MECHANISMS | ROLE-RELEVANT | {relevantMechanisms.length} MECHANISMS
           </Text>
         </View>
 
-        <Section number="05" title="Available Legal Mechanisms">
+        <Section number="06" title="Legal Mechanisms for Your Role">
           {relevantMechanisms.map((mech, idx) => (
             <View key={idx} style={s.mechCard} wrap={false}>
-              <Text style={s.mechName}>{mech.name}</Text>
+              <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 3 }}>
+                <Text style={s.mechName}>{mech.name}</Text>
+                <Text style={s.applicabilityBadge}>
+                  {applicabilityLabel[mech.applicability] || mech.applicability}
+                </Text>
+              </View>
               <Text style={s.mechStatute}>{mech.statute}</Text>
               <Text style={s.mechDesc}>{mech.description}</Text>
+
               <View style={{ flexDirection: 'row', marginTop: 4, gap: 12 }}>
                 <Text style={s.mechBadge}>
                   SOL: {mech.hasStatuteOfLimitations ? mech.limitationPeriod || 'Yes' : 'NONE'}
@@ -546,55 +618,97 @@ export default function AccountabilityPDF({
                   Reaches Heirs: {mech.reachesHeirs ? 'YES' : 'NO'}
                 </Text>
               </View>
+
+              {mech.authorizedActors && mech.authorizedActors.length > 0 && (
+                <>
+                  <Text style={{ ...s.subLabel, marginTop: 4, fontSize: 6 }}>Authorized Actors</Text>
+                  {mech.authorizedActors.map((actor, ai) => (
+                    <View key={ai} style={s.bulletRow}>
+                      <Text style={s.bulletDot}>▸</Text>
+                      <Text style={s.bulletText}>{actor}</Text>
+                    </View>
+                  ))}
+                </>
+              )}
+
               {mech.notes && (
                 <Text style={{ ...s.mechDesc, marginTop: 4, fontStyle: 'italic' }}>
-                  Note: {mech.notes}
+                  Case Note: {mech.notes}
                 </Text>
               )}
             </View>
           ))}
-
-          {/* Also include other mechanisms as reference */}
-          {data.legalMechanisms.filter(m => !rolePath.relevantMechanisms.includes(m.name)).length > 0 && (
-            <>
-              <View style={s.divider} />
-              <Text style={{ ...s.bodyText, fontWeight: 'bold', marginBottom: 6 }}>
-                Additional Legal Mechanisms (for reference):
-              </Text>
-              {data.legalMechanisms
-                .filter(m => !rolePath.relevantMechanisms.includes(m.name))
-                .map((mech, idx) => (
-                  <View key={idx} style={{ ...s.mechCard, opacity: 0.8 }} wrap={false}>
-                    <Text style={s.mechName}>{mech.name}</Text>
-                    <Text style={s.mechStatute}>{mech.statute}</Text>
-                    <Text style={s.mechDesc}>{mech.description}</Text>
-                    <View style={{ flexDirection: 'row', marginTop: 4, gap: 12 }}>
-                      <Text style={s.mechBadge}>
-                        SOL: {mech.hasStatuteOfLimitations ? mech.limitationPeriod || 'Yes' : 'NONE'}
-                      </Text>
-                      <Text style={s.mechBadge}>
-                        Reaches Heirs: {mech.reachesHeirs ? 'YES' : 'NO'}
-                      </Text>
-                    </View>
-                  </View>
-                ))}
-            </>
-          )}
         </Section>
 
         <PageFooter generatedDate={generatedDate} />
       </Page>
+
+      {/* ============ PAGES: LEGAL MECHANISMS (ADDITIONAL) ============ */}
+      {additionalMechanisms.length > 0 && (
+        <Page size="A4" style={s.page}>
+          <Watermark sealDataUri={sealDataUri} />
+          <View style={s.classificationBanner}>
+            <Text style={s.classificationText}>
+              LEGAL MECHANISMS | ADDITIONAL REFERENCE | {additionalMechanisms.length} MECHANISMS
+            </Text>
+          </View>
+
+          <Section number="07" title="Additional Legal Mechanisms">
+            {additionalMechanisms.map((mech, idx) => (
+              <View key={idx} style={s.mechCard} wrap={false}>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 3 }}>
+                  <Text style={s.mechName}>{mech.name}</Text>
+                  <Text style={s.applicabilityBadge}>
+                    {applicabilityLabel[mech.applicability] || mech.applicability}
+                  </Text>
+                </View>
+                <Text style={s.mechStatute}>{mech.statute}</Text>
+                <Text style={s.mechDesc}>{mech.description}</Text>
+
+                <View style={{ flexDirection: 'row', marginTop: 4, gap: 12 }}>
+                  <Text style={s.mechBadge}>
+                    SOL: {mech.hasStatuteOfLimitations ? mech.limitationPeriod || 'Yes' : 'NONE'}
+                  </Text>
+                  <Text style={s.mechBadge}>
+                    Reaches Heirs: {mech.reachesHeirs ? 'YES' : 'NO'}
+                  </Text>
+                </View>
+
+                {mech.authorizedActors && mech.authorizedActors.length > 0 && (
+                  <>
+                    <Text style={{ ...s.subLabel, marginTop: 4, fontSize: 6 }}>Authorized Actors</Text>
+                    {mech.authorizedActors.map((actor, ai) => (
+                      <View key={ai} style={s.bulletRow}>
+                        <Text style={s.bulletDot}>▸</Text>
+                        <Text style={s.bulletText}>{actor}</Text>
+                      </View>
+                    ))}
+                  </>
+                )}
+
+                {mech.notes && (
+                  <Text style={{ ...s.mechDesc, marginTop: 4, fontStyle: 'italic' }}>
+                    Case Note: {mech.notes}
+                  </Text>
+                )}
+              </View>
+            ))}
+          </Section>
+
+          <PageFooter generatedDate={generatedDate} />
+        </Page>
+      )}
 
       {/* ============ PAGE: WEALTH TRACE ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            WEALTH TRACE | FOLLOW THE MONEY
+            WEALTH TRACE | {data.wealthTrace.length} ASSET HOLDERS
           </Text>
         </View>
 
-        <Section number="06" title="Where the Money Is Now">
+        <Section number="08" title="Where the Money Is Now">
           {data.wealthTrace.map((entry, idx) => (
             <View key={idx} style={s.wealthCard} wrap={false}>
               <Text style={s.wealthName}>{entry.name}</Text>
@@ -631,21 +745,28 @@ export default function AccountabilityPDF({
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
           <Text style={s.classificationText}>
-            AUTHORITIES | WHO CAN ACT
+            AUTHORITIES | {data.authoritiesWithPower.length} OFFICIALS WITH POWER TO ACT
           </Text>
         </View>
 
-        <Section number="07" title="Authorities With Power to Act">
+        <Section number="09" title="Authorities With Power to Act">
           {data.authoritiesWithPower.map((auth, idx) => (
-            <View key={idx} style={{ marginBottom: 8 }} wrap={false}>
-              <Text style={s.boldText}>{auth.name}</Text>
-              <Text style={{ ...s.stepMeta, marginBottom: 2 }}>{auth.title}; {auth.jurisdiction}</Text>
+            <View key={idx} style={s.authorityCard} wrap={false}>
+              <Text style={{ ...s.boldText, fontSize: 10, color: colors.white }}>{auth.name}</Text>
+              <Text style={{ ...s.stepMeta, marginBottom: 4 }}>{auth.title} | {auth.jurisdiction}</Text>
+              <Text style={s.subLabel}>Powers</Text>
               {auth.powers.map((power, pi) => (
                 <View key={pi} style={s.bulletRow}>
                   <Text style={s.bulletDot}>▸</Text>
                   <Text style={s.bulletText}>{power}</Text>
                 </View>
               ))}
+              {auth.contactMethod && (
+                <>
+                  <Text style={{ ...s.subLabel, marginTop: 4 }}>Contact</Text>
+                  <Text style={{ ...s.bodyText, fontSize: 7 }}>{auth.contactMethod}</Text>
+                </>
+              )}
             </View>
           ))}
         </Section>
@@ -653,7 +774,7 @@ export default function AccountabilityPDF({
         <PageFooter generatedDate={generatedDate} />
       </Page>
 
-      {/* ============ PAGE 5: SUCCESS CRITERIA & CLOSING ============ */}
+      {/* ============ PAGE: SUCCESS CRITERIA & CLOSING ============ */}
       <Page size="A4" style={s.page}>
         <Watermark sealDataUri={sealDataUri} />
         <View style={s.classificationBanner}>
@@ -662,10 +783,10 @@ export default function AccountabilityPDF({
           </Text>
         </View>
 
-        <Section number="08" title="What Success Looks Like">
+        <Section number="10" title="What Success Looks Like">
           {data.successCriteria.map((criterion, idx) => (
             <View key={idx} style={s.successItem}>
-              <Text style={s.successCheck}>☐</Text>
+              <Text style={s.successCheck}>■</Text>
               <Text style={s.successText}>{criterion}</Text>
             </View>
           ))}
@@ -673,16 +794,18 @@ export default function AccountabilityPDF({
 
         <View style={s.divider} />
 
-        {/* Closing statement */}
         <View style={s.sectionContainer}>
-          <Text style={{ ...s.bodyText, textAlign: 'center', marginTop: 20 }}>
-            This document was generated by ArkHive; an investigative journalism platform
+          <Text style={{ ...s.bodyText, textAlign: 'center', marginTop: 12 }}>
+            This document was generated by ArkHive, an investigative journalism platform
             dedicated to accountability, transparency, and truth. The information contained
             herein is compiled from public records, court documents, and verified sources.
           </Text>
-          <Text style={{ ...s.bodyText, textAlign: 'center', fontWeight: 'bold', color: colors.blood }}>
+          <Text style={{ ...s.bodyText, textAlign: 'center', fontWeight: 'bold', color: colors.blood, marginTop: 8 }}>
             Criminal wealth cannot be legitimized through the passage of time,
             philanthropic rebranding, or transfer to the next generation.
+          </Text>
+          <Text style={{ ...s.bodyText, textAlign: 'center', fontWeight: 'bold', color: colors.blood, marginTop: 4 }}>
+            Every name is here. Every mechanism is here. Everything you need is in this document.
           </Text>
           <Text style={{ ...s.stepMeta, textAlign: 'center', marginTop: 12 }}>
             arkhive.live | EST. 2025
@@ -714,7 +837,7 @@ function Section({ number, title, children }: { number: string; title: string; c
 function PageFooter({ generatedDate }: { generatedDate: string }) {
   return (
     <View style={s.footer} fixed>
-      <Text style={s.footerText}>ARKHIVE | ACCOUNTABILITY ACTION PLAN</Text>
+      <Text style={s.footerText}>ARKHIVE | ACCOUNTABILITY DOSSIER</Text>
       <Text style={s.footerText}>{generatedDate}</Text>
       <Text style={s.pageNumber} render={({ pageNumber, totalPages }) => `${pageNumber} / ${totalPages}`} />
     </View>

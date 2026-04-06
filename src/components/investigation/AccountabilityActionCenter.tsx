@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import type { AccountabilityData, ActionRole, RoleActionPath } from '@/types/accountability';
 import { ACTION_ROLE_LABELS, ACTION_ROLE_DESCRIPTIONS } from '@/types/accountability';
-import { getArkHiveSealDataUri } from '@/components/ui/ArkHiveSeal';
+import { getArkHiveSealPngDataUri } from '@/components/ui/ArkHiveSeal';
 
 /* ================================================================
    ROLE ICONS & COLORS
@@ -74,7 +74,7 @@ export default function AccountabilityActionCenter({
     try {
       // Dynamic import to avoid SSR issues
       const { default: AccountabilityPDF } = await import('./AccountabilityPDF');
-      const sealUri = getArkHiveSealDataUri();
+      const sealUri = await getArkHiveSealPngDataUri();
 
       const doc = (
         <AccountabilityPDF

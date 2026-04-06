@@ -139,3 +139,27 @@ export function getArkHiveSealDataUri(): string {
   </svg>`;
   return `data:image/svg+xml;base64,${typeof btoa !== 'undefined' ? btoa(svg) : Buffer.from(svg).toString('base64')}`;
 }
+
+/**
+ * ArkHive seal as a PNG data URI for @react-pdf/renderer.
+ * react-pdf's Image component requires PNG/JPEG; SVG data URIs are not supported.
+ * This renders the SVG seal to a Canvas and exports as PNG.
+ */
+export async function getArkHiveSealPngDataUri(): Promise<string> {
+  const svgDataUri = getArkHiveSealDataUri();
+  const canvas = document.createElement('canvas');
+  canvas.width = 400;
+  canvas.height = 400;
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return svgDataUri; // fallback
+
+  return new Promise<string>((resolve) => {
+    const img = new window.Image();
+    img.onload = () => {
+      ctx.drawImage(img, 0, 0, 400, 400);
+      resolve(canvas.toDataURL('image/png'));
+    };
+    img.onerror = () => resolve(svgDataUri); // fallback
+    img.src = svgDataUri;
+  });
+}
