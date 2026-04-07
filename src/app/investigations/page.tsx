@@ -171,6 +171,126 @@ const CATEGORY_MAP: Record<string, string> = {
 "Technology":"Technology & Privacy",
 "Privacy":"Technology & Privacy",
 "Commercial Crimes":"Technology & Privacy",
+"Surveillance & Privacy":"Technology & Privacy",
+"Technology & Privacy":"Technology & Privacy",
+"Technology & Surveillance":"Technology & Privacy",
+"Surveillance Technology":"Technology & Privacy",
+"Privacy & Surveillance":"Technology & Privacy",
+"Digital Rights":"Technology & Privacy",
+"Cybercrime":"Technology & Privacy",
+"Technology Accountability":"Technology & Privacy",
+"Platform":"Technology & Privacy",
+
+ // ── Additional Civil Rights & Justice ──
+"Criminal Justice":"Civil Rights & Justice",
+"Police Accountability":"Civil Rights & Justice",
+"Hate Crimes":"Civil Rights & Justice",
+"Law Enforcement":"Civil Rights & Justice",
+"Immigration":"Civil Rights & Justice",
+"Racial Justice":"Civil Rights & Justice",
+"Criminal Justice & Civil Rights":"Civil Rights & Justice",
+
+ // ── Additional Government Abuse ──
+"Government Accountability":"Government Abuse",
+"Government Abuse":"Government Abuse",
+"Institutional Abuse":"Government Abuse",
+"Institutional Accountability":"Government Abuse",
+"Government Failure":"Government Abuse",
+"Infrastructure Failures":"Government Abuse",
+"Public Safety":"Government Abuse",
+"Government Deception":"Government Abuse",
+"Government Conspiracy":"Government Abuse",
+"Government Transparency":"Government Abuse",
+"Government Contracts":"Government Abuse",
+"Government Fraud / Healthcare":"Government Abuse",
+"Institutional Cover-Up":"Government Abuse",
+"State Violence":"Government Abuse",
+
+ // ── Additional Corporate Crime ──
+"Corporate Accountability":"Corporate Crime",
+"Corporate Negligence":"Corporate Crime",
+"Corporate Coverup":"Corporate Crime",
+"Corporate Deception":"Corporate Crime",
+"Corporate Malfeasance":"Corporate Crime",
+"Corporate Exploitation":"Corporate Crime",
+"Corporate Power":"Corporate Crime",
+"Corporate Influence":"Corporate Crime",
+"Corporate Manslaughter":"Corporate Crime",
+"Corporate Monopoly":"Corporate Crime",
+"Consumer Protection":"Corporate Crime",
+"Product Safety":"Corporate Crime",
+"Antitrust":"Corporate Crime",
+
+ // ── Additional War & Military ──
+"Military & Foreign Policy":"War & Military",
+"Military & Defense":"War & Military",
+"Military-Industrial":"War & Military",
+"Military-Industrial Complex":"War & Military",
+"Military Corruption":"War & Military",
+"Military Accountability":"War & Military",
+"Veterans & Military":"War & Military",
+
+ // ── Additional Financial Crimes ──
+"Organized Crime":"Financial Crimes",
+"Dark Money":"Financial Crimes",
+"Economic Inequality":"Financial Crimes",
+"Financial Regulation":"Financial Crimes",
+"Financial Exploitation":"Financial Crimes",
+"Healthcare Fraud":"Financial Crimes",
+"Fraud":"Financial Crimes",
+"Consumer Fraud":"Financial Crimes",
+"Education Fraud":"Financial Crimes",
+
+ // ── Additional Public Health ──
+"Healthcare":"Public Health",
+"Healthcare Accountability":"Public Health",
+"Public Health Crisis":"Public Health",
+"Pharmaceutical Crime":"Public Health",
+
+ // ── Additional Human Rights Violations ──
+"Abuse & Exploitation":"Human Rights Violations",
+"Human Rights Abuses":"Human Rights Violations",
+
+ // ── Additional Corruption & Ethics ──
+"Political Accountability":"Corruption & Ethics",
+"Corporate Corruption":"Corruption & Ethics",
+"International Corruption":"Corruption & Ethics",
+"Congressional Corruption / Financial Crime":"Corruption & Ethics",
+"Congressional Corruption / Lobbying":"Corruption & Ethics",
+
+ // ── Additional Trafficking & Sexual Crimes ──
+"Sexual Assault":"Trafficking & Sexual Crimes",
+"Sexual Harassment":"Trafficking & Sexual Crimes",
+"Sexual Abuse":"Trafficking & Sexual Crimes",
+"Drug Trafficking":"Trafficking & Sexual Crimes",
+
+ // ── Additional National Security ──
+"Intelligence Abuse":"National Security",
+"Intelligence & Covert Operations":"National Security",
+"Intelligence":"National Security",
+
+ // ── Additional Elections & Democracy ──
+"Elections":"Elections & Democracy",
+"Democratic Integrity":"Elections & Democracy",
+"Democracy":"Elections & Democracy",
+"Democracy & Voting Rights":"Elections & Democracy",
+
+ // ── Additional Terrorism & Extremism ──
+"Gun Violence":"Terrorism & Extremism",
+"Mass Shooting":"Terrorism & Extremism",
+"Mass Violence":"Terrorism & Extremism",
+"Domestic Extremism":"Terrorism & Extremism",
+"Terrorism":"Terrorism & Extremism",
+"Political Violence":"Terrorism & Extremism",
+"State Terrorism":"Terrorism & Extremism",
+
+ // ── Additional Environment ──
+"Energy":"Environment",
+"Agriculture & Environment":"Environment",
+"Food & Agriculture":"Environment",
+
+ // ── Additional Media & Disinformation ──
+"Media & Information":"Media & Disinformation",
 
  // Catch-all for bot-generated content
 "General":"Other",
@@ -179,7 +299,15 @@ const CATEGORY_MAP: Record<string, string> = {
 };
 
 function normalizeCategory(raw: string): string {
- return CATEGORY_MAP[raw] ||"Other";
+ if (CATEGORY_MAP[raw]) return CATEGORY_MAP[raw];
+ // Handle compound categories like "Corporate Crime / Public Health"
+ if (raw.includes('/')) {
+ const parts = raw.split(/\s*\/\s*/);
+ for (const part of parts) {
+ if (CATEGORY_MAP[part]) return CATEGORY_MAP[part];
+ }
+ }
+ return"Other";
 }
 
 // Category icon mapping

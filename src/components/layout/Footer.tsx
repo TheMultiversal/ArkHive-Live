@@ -7,10 +7,10 @@ export default function Footer() {
  const footerLinks = {
  investigations: [
  { href:"/investigations", label:"All Investigations"},
- { href:"/investigations?category=Public Health", label:"Public Health"},
+ { href:"/investigations?category=Public%20Health", label:"Public Health"},
  { href:"/investigations?category=Environment", label:"Environment"},
- { href:"/investigations?category=Technology & Privacy", label:"Surveillance"},
- { href:"/investigations?category=Corruption & Ethics", label:"Corruption"},
+ { href:"/investigations?category=Technology%20%26%20Privacy", label:"Surveillance"},
+ { href:"/investigations?category=Corruption%20%26%20Ethics", label:"Corruption"},
  ],
  entities: [
  { href:"/entities/agencies", label:"Government Agencies"},
