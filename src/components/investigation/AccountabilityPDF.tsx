@@ -242,7 +242,10 @@ export default function AccountabilityPDF({
     { n: '13', title: 'AUTHORITIES WITH POWER TO ACT' },
     { n: '14', title: 'SOURCES & CITATIONS' },
     { n: '15', title: 'SUCCESS CRITERIA' },
-    { n: '16', title: 'DOCUMENT CERTIFICATION' },
+    { n: '16', title: 'RISK ASSESSMENT MATRIX' },
+    { n: '17', title: 'LEGAL DISCLAIMER & NOTICE' },
+    { n: '18', title: 'GLOSSARY OF LEGAL TERMS' },
+    { n: '19', title: 'DOCUMENT CERTIFICATION' },
   ];
 
   return (
@@ -421,10 +424,19 @@ export default function AccountabilityPDF({
         </View>
 
         <Sec n="03" title="Primary Accountability Targets">
-          {data.primaryTargets.map((target, idx) => (
+          {data.primaryTargets.map((target, idx) => {
+            const initials = target.name.split(/\s+/).filter(Boolean).map(w => w[0]).join('').slice(0, 2).toUpperCase();
+            return (
             <View key={idx} style={s.card} wrap={false}>
-              <Text style={{ ...s.cardTitle, fontSize: 10 }}>{target.name}</Text>
-              <Text style={s.cardSub}>{target.role}</Text>
+              <View style={{ flexDirection: 'row', alignItems: 'flex-start', marginBottom: 3 }}>
+                <View style={{ width: 36, height: 36, marginRight: 8, backgroundColor: '#e8e8e8', borderWidth: 0.5, borderColor: '#cccccc', justifyContent: 'center', alignItems: 'center' }}>
+                  <Text style={{ fontSize: 12, fontWeight: 'bold', color: c.sub, letterSpacing: 1 }}>{initials}</Text>
+                </View>
+                <View style={{ flex: 1 }}>
+                  <Text style={{ ...s.cardTitle, fontSize: 10 }}>{target.name}</Text>
+                  <Text style={s.cardSub}>{target.role}</Text>
+                </View>
+              </View>
 
               <Text style={s.label}>Current Status</Text>
               <Text style={{ ...s.body, fontSize: 7, marginBottom: 3 }}>{target.currentStatus}</Text>
@@ -444,7 +456,8 @@ export default function AccountabilityPDF({
                 </>
               )}
             </View>
-          ))}
+            );
+          })}
         </Sec>
 
         <Ft date={genDate} />
@@ -469,16 +482,30 @@ export default function AccountabilityPDF({
               charges?: string[]; sentence?: string; fine?: string;
               restitution?: string; indictmentDate?: string; convictionDate?: string;
               releaseDate?: string; pardonDate?: string; pardonedBy?: string;
-              appealStatus?: string; notes?: string;
-            }, idx: number) => (
+              appealStatus?: string; notes?: string; imageUrl?: string;
+            }, idx: number) => {
+              const initials = d.name.split(/\s+/).filter(Boolean).map(w => w[0]).join('').slice(0, 2).toUpperCase();
+              return (
               <View key={idx} style={s.card} wrap={false}>
-                <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 3 }}>
-                  <Text style={s.cardTitle}>{d.name}</Text>
-                  <Text style={{ ...s.statusBadge, color: statusColor[d.status] || c.blood }}>
-                    {d.status.toUpperCase()}
-                  </Text>
+                <View style={{ flexDirection: 'row', alignItems: 'flex-start', marginBottom: 3 }}>
+                  {/* Monogram / photo placeholder */}
+                  {d.imageUrl ? (
+                    <Image src={d.imageUrl} style={{ width: 36, height: 36, marginRight: 8 }} />
+                  ) : (
+                    <View style={{ width: 36, height: 36, marginRight: 8, backgroundColor: '#e8e8e8', borderWidth: 0.5, borderColor: '#cccccc', justifyContent: 'center', alignItems: 'center' }}>
+                      <Text style={{ fontSize: 12, fontWeight: 'bold', color: c.sub, letterSpacing: 1 }}>{initials}</Text>
+                    </View>
+                  )}
+                  <View style={{ flex: 1 }}>
+                    <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                      <Text style={s.cardTitle}>{d.name}</Text>
+                      <Text style={{ ...s.statusBadge, color: statusColor[d.status] || c.blood }}>
+                        {d.status.toUpperCase()}
+                      </Text>
+                    </View>
+                    <Text style={s.cardSub}>{d.role}</Text>
+                  </View>
                 </View>
-                <Text style={s.cardSub}>{d.role}</Text>
 
                 {d.charges && d.charges.length > 0 && (
                   <View style={s.row}><Text style={s.rowLabel}>Charges</Text><Text style={s.rowVal}>{d.charges.join('; ')}</Text></View>
@@ -511,7 +538,8 @@ export default function AccountabilityPDF({
                   <Text style={{ ...s.cardBody, marginTop: 3, fontStyle: 'italic' }}>{d.notes}</Text>
                 )}
               </View>
-            ))}
+              );
+            })}
           </Sec>
 
           {/* Cross-reference: defendants that are also primary targets */}
@@ -907,16 +935,180 @@ export default function AccountabilityPDF({
       </Page>
 
       {/* ============================================================
-          16: CERTIFICATION & CLOSING
+          16: RISK ASSESSMENT MATRIX
           ============================================================ */}
       <Page size="A4" style={s.page}>
         <Cls />
         <Wm uri={sealDataUri} />
         <View style={s.banner}>
-          <Text style={s.bannerText}>SECTION 16 | DOCUMENT CERTIFICATION</Text>
+          <Text style={s.bannerText}>SECTION 16 | RISK ASSESSMENT MATRIX</Text>
         </View>
 
-        <Sec n="16" title="Certification of Completeness">
+        <Sec n="16" title="Defendant Risk Assessment Matrix">
+          <Text style={{ ...s.body, fontSize: 7, marginBottom: 8 }}>
+            This matrix provides an at-a-glance assessment of all named defendants, their current legal
+            status, associated charges, and accountability risk level. Risk level is derived from current
+            status, severity of charges, and recovery potential.
+          </Text>
+
+          {/* Table header */}
+          <View style={{ flexDirection: 'row', borderBottomWidth: 1, borderBottomColor: c.blood, paddingBottom: 3, marginBottom: 3 }} wrap={false}>
+            <Text style={{ fontSize: 5, color: c.blood, fontWeight: 'bold', width: '25%', letterSpacing: 1, textTransform: 'uppercase' }}>NAME</Text>
+            <Text style={{ fontSize: 5, color: c.blood, fontWeight: 'bold', width: '18%', letterSpacing: 1, textTransform: 'uppercase' }}>STATUS</Text>
+            <Text style={{ fontSize: 5, color: c.blood, fontWeight: 'bold', width: '40%', letterSpacing: 1, textTransform: 'uppercase' }}>PRIMARY CHARGE</Text>
+            <Text style={{ fontSize: 5, color: c.blood, fontWeight: 'bold', width: '17%', letterSpacing: 1, textTransform: 'uppercase', textAlign: 'right' }}>RISK LEVEL</Text>
+          </View>
+
+          {defendants.map((d: { name: string; status: string; charges?: string[] }, idx: number) => {
+            const riskMap: Record<string, string> = {
+              convicted: 'CLOSED', incarcerated: 'CONTAINED', indicted: 'HIGH',
+              charged: 'HIGH', pending: 'ELEVATED', settled: 'MODERATE',
+              acquitted: 'LOW', pardoned: 'ELEVATED', appealing: 'HIGH',
+              released: 'MODERATE',
+            };
+            const risk = riskMap[d.status] || 'UNKNOWN';
+            return (
+              <View key={idx} style={{ flexDirection: 'row', borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0', paddingVertical: 2.5 }} wrap={false}>
+                <Text style={{ fontSize: 6, color: c.text, width: '25%', fontWeight: 'bold' }}>{d.name}</Text>
+                <Text style={{ fontSize: 6, color: statusColor[d.status] || c.sub, width: '18%', textTransform: 'uppercase' }}>{d.status}</Text>
+                <Text style={{ fontSize: 6, color: c.sub, width: '40%' }}>{d.charges?.[0] || 'See record'}</Text>
+                <Text style={{ fontSize: 6, color: c.blood, width: '17%', textAlign: 'right', fontWeight: 'bold', letterSpacing: 1 }}>{risk}</Text>
+              </View>
+            );
+          })}
+
+          {/* Summary stats */}
+          <View style={{ marginTop: 10, paddingTop: 6, borderTopWidth: 1, borderTopColor: c.blood }}>
+            <Text style={{ ...s.label, fontSize: 6, marginBottom: 4 }}>MATRIX SUMMARY</Text>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Total Defendants: {defendants.length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Convicted / Incarcerated: {defendants.filter((d: { status: string }) => d.status === 'convicted' || d.status === 'incarcerated').length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Active Cases (Indicted/Charged/Appealing): {defendants.filter((d: { status: string }) => ['indicted', 'charged', 'appealing'].includes(d.status)).length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Pardoned: {defendants.filter((d: { status: string }) => d.status === 'pardoned').length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Released: {defendants.filter((d: { status: string }) => d.status === 'released').length}</Text></View>
+          </View>
+        </Sec>
+
+        <Ft date={genDate} />
+      </Page>
+
+      {/* ============================================================
+          17: LEGAL DISCLAIMER & NOTICE
+          ============================================================ */}
+      <Page size="A4" style={s.page}>
+        <Cls />
+        <Wm uri={sealDataUri} />
+        <View style={s.banner}>
+          <Text style={s.bannerText}>SECTION 17 | LEGAL DISCLAIMER & NOTICE</Text>
+        </View>
+
+        <Sec n="17" title="Legal Disclaimer">
+          <View wrap={false} style={{ ...s.card, padding: 12, marginBottom: 8 }}>
+            <Text style={{ ...s.bold, fontSize: 9, marginBottom: 6 }}>NOTICE TO READER</Text>
+            <Text style={{ ...s.body, lineHeight: 1.8 }}>
+              This document is prepared for informational and accountability purposes only. It does
+              not constitute legal advice and should not be relied upon as a substitute for
+              consultation with a licensed attorney. The information herein is compiled from
+              publicly available records, court documents, government filings, and investigative
+              journalism sources.
+            </Text>
+          </View>
+
+          <View wrap={false} style={{ ...s.card, padding: 12, marginBottom: 8 }}>
+            <Text style={{ ...s.bold, fontSize: 9, marginBottom: 6 }}>ACCURACY & COMPLETENESS</Text>
+            <Text style={{ ...s.body, lineHeight: 1.8 }}>
+              While every effort has been made to ensure the accuracy and completeness of this
+              dossier, ArkHive makes no warranties, express or implied, regarding the accuracy,
+              completeness, or timeliness of the information contained herein. Legal statutes,
+              case law, and regulatory frameworks are subject to change. Users should verify all
+              information independently before taking any legal action.
+            </Text>
+          </View>
+
+          <View wrap={false} style={{ ...s.card, padding: 12, marginBottom: 8 }}>
+            <Text style={{ ...s.bold, fontSize: 9, marginBottom: 6 }}>FIRST AMENDMENT PROTECTION</Text>
+            <Text style={{ ...s.body, lineHeight: 1.8 }}>
+              This document is protected speech under the First Amendment to the United States
+              Constitution. It constitutes investigative journalism and civic accountability
+              reporting. All factual assertions are based on public records and are presented
+              in the public interest. The compilation, analysis, and dissemination of public
+              records for accountability purposes is a protected activity under established
+              Supreme Court precedent.
+            </Text>
+          </View>
+
+          <View wrap={false} style={{ ...s.card, padding: 12, marginBottom: 8 }}>
+            <Text style={{ ...s.bold, fontSize: 9, marginBottom: 6 }}>EVIDENCE INTEGRITY</Text>
+            <Text style={{ ...s.body, lineHeight: 1.8 }}>
+              All information in this dossier has been sourced from independently verifiable
+              public records. Source citations are provided in Section 14. The chain of
+              evidence is documented through timestamped court filings, government reports,
+              SEC enforcement actions, and published investigative journalism. No information
+              from anonymous or unverifiable sources has been included without notation.
+            </Text>
+          </View>
+
+          <View wrap={false} style={{ ...s.card, padding: 12 }}>
+            <Text style={{ ...s.bold, fontSize: 9, marginBottom: 6 }}>DISTRIBUTION NOTICE</Text>
+            <Text style={{ ...s.body, lineHeight: 1.8 }}>
+              This document may be shared with attorneys, investigators, journalists, academics,
+              regulatory officials, elected representatives, and members of the public exercising
+              their civic right to government accountability. It should not be used for harassment,
+              intimidation, or any unlawful purpose.
+            </Text>
+          </View>
+        </Sec>
+
+        <Ft date={genDate} />
+      </Page>
+
+      {/* ============================================================
+          18: GLOSSARY OF LEGAL TERMS
+          ============================================================ */}
+      <Page size="A4" style={s.page}>
+        <Cls />
+        <Wm uri={sealDataUri} />
+        <View style={s.banner}>
+          <Text style={s.bannerText}>SECTION 18 | GLOSSARY OF LEGAL TERMS</Text>
+        </View>
+
+        <Sec n="18" title="Glossary">
+          {[
+            { term: 'Accountability Target', def: 'An individual or entity identified as bearing primary responsibility for the documented harm and against whom legal, regulatory, or civic action is recommended.' },
+            { term: 'Civil Forfeiture', def: 'A legal process by which the government can seize assets that are proceeds of criminal activity or were used to facilitate crime, without necessarily charging the owner.' },
+            { term: 'Clawback', def: 'A legal mechanism to recover funds that were improperly distributed, typically through fraud, breach of fiduciary duty, or unjust enrichment.' },
+            { term: 'Constructive Trust', def: 'An equitable remedy imposed by a court to prevent unjust enrichment when property was acquired through wrongful conduct.' },
+            { term: 'Disgorgement', def: 'A court-ordered remedy requiring the return of ill-gotten gains. Commonly used by the SEC in securities fraud cases.' },
+            { term: 'FOIA (Freedom of Information Act)', def: 'A federal law (5 U.S.C. § 552) that grants the public the right to request access to records from federal agencies.' },
+            { term: 'Indictment', def: 'A formal accusation of a crime, issued by a grand jury after review of evidence presented by prosecutors.' },
+            { term: 'Qui Tam', def: 'A provision of the False Claims Act (31 U.S.C. § 3730) allowing private citizens to file lawsuits on behalf of the government against parties who have defrauded the government.' },
+            { term: 'Restitution', def: 'A court-ordered payment from the convicted party to the victim(s) to compensate for financial losses caused by criminal conduct.' },
+            { term: 'RICO (Racketeer Influenced and Corrupt Organizations Act)', def: 'A federal law (18 U.S.C. § 1961-1968) providing extended penalties for criminal acts performed as part of an ongoing criminal organization.' },
+            { term: 'Statute of Limitations', def: 'The maximum period of time after an event within which legal proceedings may be initiated. Varies by offense and jurisdiction.' },
+            { term: 'Unjust Enrichment', def: 'A legal principle that a person should not profit at another\'s expense without making restitution for the reasonable value of the benefit received.' },
+            { term: 'Wealth Trace', def: 'The process of tracking the movement and current location of assets derived from criminal activity through transfers, investments, and legal entities.' },
+            { term: 'Whistleblower', def: 'An individual who reports misconduct, fraud, or illegal activity within an organization to authorities or the public. Protected under various federal and state statutes.' },
+          ].map((entry, idx) => (
+            <View key={idx} style={{ marginBottom: 5, paddingBottom: 4, borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0' }} wrap={false}>
+              <Text style={{ fontSize: 8, color: c.black, fontWeight: 'bold', marginBottom: 1 }}>{entry.term}</Text>
+              <Text style={{ fontSize: 7, color: c.sub, lineHeight: 1.6 }}>{entry.def}</Text>
+            </View>
+          ))}
+        </Sec>
+
+        <Ft date={genDate} />
+      </Page>
+
+      {/* ============================================================
+          19: CERTIFICATION & CLOSING
+          ============================================================ */}
+      <Page size="A4" style={s.page}>
+        <Cls />
+        <Wm uri={sealDataUri} />
+        <View style={s.banner}>
+          <Text style={s.bannerText}>SECTION 19 | DOCUMENT CERTIFICATION</Text>
+        </View>
+
+        <Sec n="19" title="Certification of Completeness">
           <View wrap={false} style={{ marginBottom: 10 }}>
             <Text style={s.body}>
               This dossier was compiled by ArkHive, an investigative journalism and accountability

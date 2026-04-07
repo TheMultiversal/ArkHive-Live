@@ -46,6 +46,7 @@ export interface Defendant {
   pardonedBy?: string;
   appealStatus?: 'pending' | 'granted' | 'denied' | 'withdrawn';
   notes?: string;
+  imageUrl?: string;
 }
 
 export interface InvestigationData {
