@@ -26,72 +26,72 @@ const statusColor: Record<string, string> = {
    STYLES — Clean print-friendly legal document
    ================================================================ */
 const s = StyleSheet.create({
-  page: { backgroundColor: c.white, padding: 40, paddingBottom: 55, fontFamily: 'Courier', color: c.text },
+  page: { backgroundColor: c.white, padding: 42, paddingBottom: 55, fontFamily: 'Courier', color: c.text },
   wm: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center', zIndex: 0 },
-  wmImg: { width: 350, height: 350, opacity: 0.20 },
-  banner: { backgroundColor: c.bloodDk, padding: 6, marginBottom: 14, textAlign: 'center' },
-  bannerText: { fontSize: 7, color: c.white, letterSpacing: 3, textTransform: 'uppercase', fontWeight: 'bold' },
-  hdr: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 18, paddingBottom: 10, borderBottomWidth: 1.5, borderBottomColor: c.blood },
+  wmImg: { width: 350, height: 350, opacity: 0.10 },
+  banner: { backgroundColor: c.black, padding: 8, marginBottom: 14, textAlign: 'center', borderWidth: 1.5, borderColor: c.black },
+  bannerText: { fontSize: 7.5, color: c.white, letterSpacing: 4, textTransform: 'uppercase', fontWeight: 'bold' },
+  hdr: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 18, paddingBottom: 10, borderBottomWidth: 2, borderBottomColor: c.blood },
   hdrLeft: { flex: 1 },
-  hdrTitle: { fontSize: 18, fontWeight: 'bold', color: c.blood, letterSpacing: 4, marginBottom: 4 },
-  hdrSub: { fontSize: 8, color: c.muted, letterSpacing: 2, textTransform: 'uppercase' },
-  hdrRole: { fontSize: 10, color: c.sub, letterSpacing: 1, marginTop: 4 },
+  hdrTitle: { fontSize: 20, fontWeight: 'bold', color: c.blood, letterSpacing: 5, marginBottom: 4 },
+  hdrSub: { fontSize: 8, color: c.muted, letterSpacing: 2, textTransform: 'uppercase', fontWeight: 'bold' },
+  hdrRole: { fontSize: 10, color: c.text, fontWeight: 'bold', letterSpacing: 1, marginTop: 4 },
   seal: { width: 60, height: 60 },
   sec: { marginBottom: 12 },
-  secHdr: { flexDirection: 'row', alignItems: 'center', marginBottom: 5, paddingBottom: 3, borderBottomWidth: 1, borderBottomColor: c.blood },
+  secHdr: { flexDirection: 'row', alignItems: 'center', marginBottom: 6, paddingBottom: 4, borderBottomWidth: 1.5, borderBottomColor: c.blood },
   secNum: { fontSize: 7, color: c.blood, letterSpacing: 2, marginRight: 8, fontWeight: 'bold' },
-  secTitle: { fontSize: 11, color: c.black, fontWeight: 'bold', letterSpacing: 1, textTransform: 'uppercase' },
-  body: { fontSize: 8, color: c.sub, lineHeight: 1.6, marginBottom: 5 },
-  bold: { fontSize: 8, color: c.text, fontWeight: 'bold' },
-  label: { fontSize: 6, color: c.blood, fontWeight: 'bold', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 2, marginTop: 4 },
-  card: { backgroundColor: c.paper, padding: 8, marginBottom: 5, borderWidth: 0.5, borderColor: '#e0e0e0' },
-  cardTitle: { fontSize: 9, color: c.black, fontWeight: 'bold', marginBottom: 2 },
-  cardSub: { fontSize: 7, color: c.blood, marginBottom: 3 },
-  cardBody: { fontSize: 7, color: c.sub, lineHeight: 1.5 },
+  secTitle: { fontSize: 11, color: c.black, fontWeight: 'bold', letterSpacing: 1.5, textTransform: 'uppercase' },
+  body: { fontSize: 8.5, color: c.text, fontWeight: 'bold', lineHeight: 1.7, marginBottom: 5 },
+  bold: { fontSize: 9, color: c.black, fontWeight: 'bold' },
+  label: { fontSize: 6.5, color: c.blood, fontWeight: 'bold', letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: 2, marginTop: 4 },
+  card: { backgroundColor: c.paper, padding: 8, marginBottom: 5, borderWidth: 0.75, borderColor: '#d0d0d0' },
+  cardTitle: { fontSize: 10, color: c.black, fontWeight: 'bold', marginBottom: 2 },
+  cardSub: { fontSize: 7.5, color: c.blood, fontWeight: 'bold', marginBottom: 3 },
+  cardBody: { fontSize: 7.5, color: c.text, fontWeight: 'bold', lineHeight: 1.6 },
   row: { flexDirection: 'row', borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0', paddingVertical: 2 },
-  rowLabel: { fontSize: 6, color: c.muted, width: 80, textTransform: 'uppercase', letterSpacing: 1 },
-  rowVal: { fontSize: 7, color: c.sub, flex: 1, lineHeight: 1.5 },
+  rowLabel: { fontSize: 6.5, color: c.muted, fontWeight: 'bold', width: 80, textTransform: 'uppercase', letterSpacing: 1 },
+  rowVal: { fontSize: 7.5, color: c.text, fontWeight: 'bold', flex: 1, lineHeight: 1.6 },
   bRow: { flexDirection: 'row', marginBottom: 2, paddingLeft: 4 },
-  bDot: { fontSize: 7, color: c.blood, marginRight: 5, lineHeight: 1.5 },
-  bTxt: { fontSize: 7, color: c.sub, lineHeight: 1.5, flex: 1 },
-  step: { marginBottom: 8, paddingLeft: 10, borderLeftWidth: 2, borderLeftColor: c.blood },
-  stepNum: { fontSize: 7, color: c.blood, fontWeight: 'bold', letterSpacing: 2, marginBottom: 2 },
-  stepTitle: { fontSize: 9, color: c.black, fontWeight: 'bold', marginBottom: 3 },
-  stepDesc: { fontSize: 7, color: c.sub, lineHeight: 1.6, marginBottom: 3 },
-  stepMeta: { fontSize: 6, color: c.muted, marginTop: 2 },
-  tmpl: { backgroundColor: c.paper, padding: 8, marginTop: 4, marginBottom: 4, borderLeftWidth: 2, borderLeftColor: c.blood, borderWidth: 0.5, borderColor: '#e0e0e0' },
-  tmplLabel: { fontSize: 6, color: c.blood, letterSpacing: 2, textTransform: 'uppercase', fontWeight: 'bold', marginBottom: 3 },
-  tmplText: { fontSize: 6, color: c.sub, lineHeight: 1.7 },
-  cite: { fontSize: 6, color: c.muted, fontStyle: 'italic', marginTop: 2 },
-  badge: { fontSize: 5, color: c.blood, letterSpacing: 1, textTransform: 'uppercase', fontWeight: 'bold', marginTop: 2 },
-  appBadge: { fontSize: 5, color: c.blood, fontWeight: 'bold', letterSpacing: 1, textTransform: 'uppercase', paddingHorizontal: 3, paddingVertical: 1, borderWidth: 0.5, borderColor: `${c.blood}60` },
-  statusBadge: { fontSize: 6, fontWeight: 'bold', letterSpacing: 1, textTransform: 'uppercase', paddingHorizontal: 4, paddingVertical: 2 },
+  bDot: { fontSize: 7.5, color: c.blood, fontWeight: 'bold', marginRight: 5, lineHeight: 1.6 },
+  bTxt: { fontSize: 7.5, color: c.text, fontWeight: 'bold', lineHeight: 1.6, flex: 1 },
+  step: { marginBottom: 8, paddingLeft: 10, borderLeftWidth: 2.5, borderLeftColor: c.blood },
+  stepNum: { fontSize: 7.5, color: c.blood, fontWeight: 'bold', letterSpacing: 2, marginBottom: 2 },
+  stepTitle: { fontSize: 10, color: c.black, fontWeight: 'bold', marginBottom: 3 },
+  stepDesc: { fontSize: 7.5, color: c.text, fontWeight: 'bold', lineHeight: 1.7, marginBottom: 3 },
+  stepMeta: { fontSize: 6.5, color: c.muted, fontWeight: 'bold', marginTop: 2 },
+  tmpl: { backgroundColor: c.paper, padding: 8, marginTop: 4, marginBottom: 4, borderLeftWidth: 2.5, borderLeftColor: c.blood, borderWidth: 0.75, borderColor: '#d0d0d0' },
+  tmplLabel: { fontSize: 6.5, color: c.blood, letterSpacing: 2, textTransform: 'uppercase', fontWeight: 'bold', marginBottom: 3 },
+  tmplText: { fontSize: 6.5, color: c.text, fontWeight: 'bold', lineHeight: 1.8 },
+  cite: { fontSize: 6.5, color: c.muted, fontWeight: 'bold', fontStyle: 'italic', marginTop: 2 },
+  badge: { fontSize: 5.5, color: c.blood, letterSpacing: 1, textTransform: 'uppercase', fontWeight: 'bold', marginTop: 2 },
+  appBadge: { fontSize: 5.5, color: c.blood, fontWeight: 'bold', letterSpacing: 1, textTransform: 'uppercase', paddingHorizontal: 3, paddingVertical: 1, borderWidth: 0.75, borderColor: `${c.blood}60` },
+  statusBadge: { fontSize: 6.5, fontWeight: 'bold', letterSpacing: 1, textTransform: 'uppercase', paddingHorizontal: 4, paddingVertical: 2 },
   tlRow: { flexDirection: 'row', marginBottom: 3, paddingBottom: 3, borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0' },
-  tlDate: { fontSize: 6, color: c.blood, width: 65, fontWeight: 'bold' },
-  tlEvent: { fontSize: 7, color: c.sub, flex: 1, lineHeight: 1.5 },
-  tlType: { fontSize: 5, color: c.muted, width: 45, textAlign: 'right', textTransform: 'uppercase', letterSpacing: 1 },
-  entityCard: { backgroundColor: c.paper, padding: 6, marginBottom: 4, borderWidth: 0.5, borderColor: '#e0e0e0' },
-  entityType: { fontSize: 5, color: c.blood, letterSpacing: 1, textTransform: 'uppercase', fontWeight: 'bold' },
-  entityName: { fontSize: 8, color: c.black, fontWeight: 'bold', marginTop: 1, marginBottom: 2 },
-  entityRel: { fontSize: 6, color: c.sub, lineHeight: 1.4 },
-  statuteCard: { backgroundColor: c.paper, padding: 6, marginBottom: 4, borderWidth: 0.5, borderColor: '#e0e0e0' },
-  statuteCode: { fontSize: 8, color: c.blood, fontWeight: 'bold', marginBottom: 2 },
-  statuteDesc: { fontSize: 7, color: c.sub, lineHeight: 1.5 },
+  tlDate: { fontSize: 6.5, color: c.blood, width: 65, fontWeight: 'bold' },
+  tlEvent: { fontSize: 7.5, color: c.text, fontWeight: 'bold', flex: 1, lineHeight: 1.6 },
+  tlType: { fontSize: 5.5, color: c.muted, fontWeight: 'bold', width: 45, textAlign: 'right', textTransform: 'uppercase', letterSpacing: 1 },
+  entityCard: { backgroundColor: c.paper, padding: 6, marginBottom: 4, borderWidth: 0.75, borderColor: '#d0d0d0' },
+  entityType: { fontSize: 5.5, color: c.blood, letterSpacing: 1, textTransform: 'uppercase', fontWeight: 'bold' },
+  entityName: { fontSize: 9, color: c.black, fontWeight: 'bold', marginTop: 1, marginBottom: 2 },
+  entityRel: { fontSize: 7, color: c.text, fontWeight: 'bold', lineHeight: 1.5 },
+  statuteCard: { backgroundColor: c.paper, padding: 6, marginBottom: 4, borderWidth: 0.75, borderColor: '#d0d0d0' },
+  statuteCode: { fontSize: 9, color: c.blood, fontWeight: 'bold', marginBottom: 2 },
+  statuteDesc: { fontSize: 7.5, color: c.text, fontWeight: 'bold', lineHeight: 1.6 },
   sourceRow: { flexDirection: 'row', marginBottom: 3, paddingBottom: 3, borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0' },
-  sourceNum: { fontSize: 6, color: c.blood, width: 20, fontWeight: 'bold' },
-  sourceTitle: { fontSize: 7, color: c.sub, flex: 1, lineHeight: 1.5 },
-  sourceType: { fontSize: 5, color: c.muted, width: 50, textAlign: 'right', textTransform: 'uppercase', letterSpacing: 1 },
-  div: { borderBottomWidth: 0.5, borderBottomColor: '#d0d0d0', marginVertical: 8 },
-  footer: { position: 'absolute', bottom: 16, left: 40, right: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 5, borderTopWidth: 0.5, borderTopColor: '#d0d0d0' },
-  footerText: { fontSize: 5, color: c.muted, letterSpacing: 1 },
-  pageNum: { fontSize: 5, color: c.muted },
+  sourceNum: { fontSize: 6.5, color: c.blood, width: 20, fontWeight: 'bold' },
+  sourceTitle: { fontSize: 7.5, color: c.text, fontWeight: 'bold', flex: 1, lineHeight: 1.6 },
+  sourceType: { fontSize: 5.5, color: c.muted, fontWeight: 'bold', width: 50, textAlign: 'right', textTransform: 'uppercase', letterSpacing: 1 },
+  div: { borderBottomWidth: 1, borderBottomColor: c.black, marginVertical: 10, opacity: 0.25 },
+  footer: { position: 'absolute', bottom: 16, left: 42, right: 42, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 5, borderTopWidth: 0.75, borderTopColor: '#a0a0a0' },
+  footerText: { fontSize: 5.5, color: c.muted, fontWeight: 'bold', letterSpacing: 1 },
+  pageNum: { fontSize: 5.5, color: c.muted, fontWeight: 'bold' },
   // Classification header
-  classHdr: { position: 'absolute', top: 8, left: 0, right: 0, textAlign: 'center' },
+  classHdr: { position: 'absolute', top: 18, left: 0, right: 0, textAlign: 'center' },
   classText: { fontSize: 5, color: c.blood, letterSpacing: 3, textTransform: 'uppercase', fontWeight: 'bold' },
   // TOC
   tocRow: { flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 3, borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0' },
-  tocNum: { fontSize: 7, color: c.blood, width: 24, fontWeight: 'bold' },
-  tocTitle: { fontSize: 8, color: c.sub, flex: 1 },
+  tocNum: { fontSize: 7.5, color: c.blood, width: 24, fontWeight: 'bold' },
+  tocTitle: { fontSize: 8.5, color: c.text, fontWeight: 'bold', flex: 1 },
   tocDots: { fontSize: 7, color: c.muted, flex: 1, textAlign: 'right' },
 });
 
@@ -107,9 +107,41 @@ function Wm({ uri }: { uri: string }) {
 
 function Cls() {
   return (
-    <View style={s.classHdr} fixed>
-      <Text style={s.classText}>CONFIDENTIAL | FOR OFFICIAL USE | ACCOUNTABILITY DOSSIER</Text>
-    </View>
+    <>
+      {/* ═══════════ ORNATE GOVERNMENT CERTIFICATE BORDER ═══════════ */}
+      <View style={{ position: 'absolute', top: 5, left: 5, right: 5, bottom: 5 }} fixed>
+        {/* Layer 1: Heavy outer frame */}
+        <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderWidth: 2.5, borderColor: '#000000' }} />
+        {/* Layer 2: Thin frame */}
+        <View style={{ position: 'absolute', top: 4, left: 4, right: 4, bottom: 4, borderWidth: 0.75, borderColor: '#000000' }} />
+        {/* Layer 3: Medium frame */}
+        <View style={{ position: 'absolute', top: 8, left: 8, right: 8, bottom: 8, borderWidth: 0.35, borderColor: '#000000', opacity: 0.45 }} />
+        {/* Layer 4: Hairline frame */}
+        <View style={{ position: 'absolute', top: 11, left: 11, right: 11, bottom: 11, borderWidth: 0.25, borderColor: '#000000', opacity: 0.25 }} />
+        {/* Layer 5: Ghost frame */}
+        <View style={{ position: 'absolute', top: 15, left: 15, right: 15, bottom: 15, borderWidth: 0.5, borderColor: '#000000', opacity: 0.12 }} />
+        {/* Corner reinforcements — top-left */}
+        <View style={{ position: 'absolute', top: -1, left: -1, width: 26, height: 26, borderBottomWidth: 3, borderRightWidth: 3, borderColor: '#000000' }} />
+        {/* top-right */}
+        <View style={{ position: 'absolute', top: -1, right: -1, width: 26, height: 26, borderBottomWidth: 3, borderLeftWidth: 3, borderColor: '#000000' }} />
+        {/* bottom-left */}
+        <View style={{ position: 'absolute', bottom: -1, left: -1, width: 26, height: 26, borderTopWidth: 3, borderRightWidth: 3, borderColor: '#000000' }} />
+        {/* bottom-right */}
+        <View style={{ position: 'absolute', bottom: -1, right: -1, width: 26, height: 26, borderTopWidth: 3, borderLeftWidth: 3, borderColor: '#000000' }} />
+        {/* Inner corner brackets — top-left */}
+        <View style={{ position: 'absolute', top: 14, left: 14, width: 14, height: 14, borderBottomWidth: 1, borderRightWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
+        {/* top-right */}
+        <View style={{ position: 'absolute', top: 14, right: 14, width: 14, height: 14, borderBottomWidth: 1, borderLeftWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
+        {/* bottom-left */}
+        <View style={{ position: 'absolute', bottom: 14, left: 14, width: 14, height: 14, borderTopWidth: 1, borderRightWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
+        {/* bottom-right */}
+        <View style={{ position: 'absolute', bottom: 14, right: 14, width: 14, height: 14, borderTopWidth: 1, borderLeftWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
+      </View>
+      {/* Classification header */}
+      <View style={s.classHdr} fixed>
+        <Text style={s.classText}>CONFIDENTIAL | FOR OFFICIAL USE | ACCOUNTABILITY DOSSIER</Text>
+      </View>
+    </>
   );
 }
 
@@ -300,11 +332,16 @@ export default function AccountabilityPDF({
 
         <View style={s.div} />
 
-        <Text style={{ ...s.body, fontSize: 7, textAlign: 'center', color: c.blood, fontWeight: 'bold' }}>
-          This dossier contains every defendant, every transaction, every statute, every entity,
-          every timeline event, every accountability target, every legal mechanism, every family
-          connection, every action step, and every source. Nothing has been omitted.
-        </Text>
+        <View style={{ marginBottom: 5 }}>
+          <Text style={{ ...s.body, fontSize: 8, textAlign: 'center', color: c.blood, fontWeight: 'bold', marginBottom: 0 }}>
+            This dossier contains every defendant, every transaction, every statute, every entity,
+            every timeline event, every accountability target, every legal mechanism, every family
+            connection, every action step, and every source.
+          </Text>
+          <Text style={{ ...s.body, fontSize: 9, textAlign: 'center', color: c.blood, fontWeight: 'bold', marginTop: 3, letterSpacing: 2 }}>
+            Nothing has been omitted.
+          </Text>
+        </View>
 
         <Ft date={genDate} />
       </Page>
@@ -1143,13 +1180,15 @@ export default function AccountabilityPDF({
           </Text>
           <Text style={{ ...s.body, textAlign: 'center', fontWeight: 'bold', color: c.blood, marginTop: 4 }}>
             Every name is here. Every dollar is traced. Every mechanism is documented.
+          </Text>
+          <Text style={{ ...s.body, textAlign: 'center', fontWeight: 'bold', color: c.blood, marginTop: 2, fontSize: 10, letterSpacing: 2 }}>
             Every step is laid out. This is the complete record. Use it.
           </Text>
         </View>
 
         <View style={s.div} />
 
-        <View wrap={false} style={{ marginTop: 8, padding: 10, backgroundColor: c.paper, borderWidth: 0.5, borderColor: '#e0e0e0' }}>
+        <View wrap={false} style={{ marginTop: 8, padding: 10, backgroundColor: c.paper, borderWidth: 0.75, borderColor: '#d0d0d0' }}>
           <Text style={{ fontSize: 6, color: c.muted, textAlign: 'center', marginBottom: 4 }}>
             DOCUMENT CONTROL
           </Text>
