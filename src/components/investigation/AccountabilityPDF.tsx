@@ -784,13 +784,13 @@ export default function AccountabilityPDF({
       </Page>
 
       {/* ============================================================
-          10: LEGAL MECHANISMS (RELEVANT)
+          10–11: LEGAL MECHANISMS (RELEVANT + ADDITIONAL on same page)
           ============================================================ */}
       <Page size="A4" style={s.page}>
         <Cls />
         <Wm uri={sealDataUri} />
         <View style={s.banner}>
-          <Text style={s.bannerText}>SECTION 10 | LEGAL MECHANISMS | ROLE-RELEVANT | {relMechs.length}</Text>
+          <Text style={s.bannerText}>SECTION 10–11 | LEGAL MECHANISMS | {relMechs.length + addMechs.length} TOTAL</Text>
         </View>
 
         <Sec n="10" title="Legal Mechanisms for Your Role">
@@ -819,58 +819,48 @@ export default function AccountabilityPDF({
           ))}
         </Sec>
 
+        {addMechs.length > 0 && (
+          <>
+            <View style={s.div} />
+            <Sec n="11" title="Additional Legal Mechanisms">
+              {addMechs.map((mech, idx) => (
+                <View key={idx} style={s.card} wrap={false}>
+                  <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 2 }}>
+                    <Text style={s.cardTitle}>{mech.name}</Text>
+                    <Text style={s.appBadge}>{appLabel[mech.applicability] || mech.applicability}</Text>
+                  </View>
+                  <Text style={s.cardSub}>{mech.statute}</Text>
+                  <Text style={s.cardBody}>{mech.description}</Text>
+                  <View style={{ flexDirection: 'row', marginTop: 3 }}>
+                    <Text style={s.badge}>SOL: {mech.hasStatuteOfLimitations ? mech.limitationPeriod || 'Yes' : 'NONE'}</Text>
+                    <Text style={{ ...s.badge, marginLeft: 12 }}>Reaches Heirs: {mech.reachesHeirs ? 'YES' : 'NO'}</Text>
+                  </View>
+                  {mech.authorizedActors?.length > 0 && (
+                    <>
+                      <Text style={{ ...s.label, fontSize: 5 }}>Authorized Actors</Text>
+                      {mech.authorizedActors.map((actor, ai) => (
+                        <View key={ai} style={s.bRow}><Text style={s.bDot}>▸</Text><Text style={s.bTxt}>{actor}</Text></View>
+                      ))}
+                    </>
+                  )}
+                  {mech.notes && <Text style={{ ...s.cardBody, marginTop: 3, fontStyle: 'italic' }}>Case Note: {mech.notes}</Text>}
+                </View>
+              ))}
+            </Sec>
+          </>
+        )}
+
         <Ft date={genDate} />
       </Page>
 
       {/* ============================================================
-          11: LEGAL MECHANISMS (ADDITIONAL)
-          ============================================================ */}
-      {addMechs.length > 0 && (
-        <Page size="A4" style={s.page}>
-          <Cls />
-          <Wm uri={sealDataUri} />
-          <View style={s.banner}>
-            <Text style={s.bannerText}>SECTION 11 | LEGAL MECHANISMS | ADDITIONAL | {addMechs.length}</Text>
-          </View>
-
-          <Sec n="11" title="Additional Legal Mechanisms">
-            {addMechs.map((mech, idx) => (
-              <View key={idx} style={s.card} wrap={false}>
-                <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 2 }}>
-                  <Text style={s.cardTitle}>{mech.name}</Text>
-                  <Text style={s.appBadge}>{appLabel[mech.applicability] || mech.applicability}</Text>
-                </View>
-                <Text style={s.cardSub}>{mech.statute}</Text>
-                <Text style={s.cardBody}>{mech.description}</Text>
-                <View style={{ flexDirection: 'row', marginTop: 3 }}>
-                  <Text style={s.badge}>SOL: {mech.hasStatuteOfLimitations ? mech.limitationPeriod || 'Yes' : 'NONE'}</Text>
-                  <Text style={{ ...s.badge, marginLeft: 12 }}>Reaches Heirs: {mech.reachesHeirs ? 'YES' : 'NO'}</Text>
-                </View>
-                {mech.authorizedActors?.length > 0 && (
-                  <>
-                    <Text style={{ ...s.label, fontSize: 5 }}>Authorized Actors</Text>
-                    {mech.authorizedActors.map((actor, ai) => (
-                      <View key={ai} style={s.bRow}><Text style={s.bDot}>▸</Text><Text style={s.bTxt}>{actor}</Text></View>
-                    ))}
-                  </>
-                )}
-                {mech.notes && <Text style={{ ...s.cardBody, marginTop: 3, fontStyle: 'italic' }}>Case Note: {mech.notes}</Text>}
-              </View>
-            ))}
-          </Sec>
-
-          <Ft date={genDate} />
-        </Page>
-      )}
-
-      {/* ============================================================
-          12: WEALTH TRACE
+          12–13: WEALTH TRACE + AUTHORITIES (combined)
           ============================================================ */}
       <Page size="A4" style={s.page}>
         <Cls />
         <Wm uri={sealDataUri} />
         <View style={s.banner}>
-          <Text style={s.bannerText}>SECTION 12 | WEALTH TRACE | {data.wealthTrace.length} ASSET HOLDERS</Text>
+          <Text style={s.bannerText}>SECTION 12–13 | WEALTH TRACE & AUTHORITIES</Text>
         </View>
 
         <Sec n="12" title="Where the Money Is Now">
@@ -890,18 +880,7 @@ export default function AccountabilityPDF({
           ))}
         </Sec>
 
-        <Ft date={genDate} />
-      </Page>
-
-      {/* ============================================================
-          13: AUTHORITIES
-          ============================================================ */}
-      <Page size="A4" style={s.page}>
-        <Cls />
-        <Wm uri={sealDataUri} />
-        <View style={s.banner}>
-          <Text style={s.bannerText}>SECTION 13 | AUTHORITIES | {data.authoritiesWithPower.length} OFFICIALS</Text>
-        </View>
+        <View style={s.div} />
 
         <Sec n="13" title="Authorities With Power to Act">
           {data.authoritiesWithPower.map((auth, idx) => (
@@ -1003,9 +982,11 @@ export default function AccountabilityPDF({
 
         <Sec n="16" title="Defendant Risk Assessment Matrix">
           <Text style={{ ...s.body, fontSize: 7, marginBottom: 8 }}>
-            This matrix provides an at-a-glance assessment of all named defendants, their current legal
-            status, associated charges, and accountability risk level. Risk level is derived from current
-            status, severity of charges, and recovery potential.
+            This matrix assesses all named defendants by their current legal status, charges, and true
+            accountability status. A conviction or settlement does NOT constitute accountability — full
+            accountability requires complete asset recovery, disgorgement of all ill-gotten gains from
+            defendants AND their families, and permanent exclusion from positions of financial power.
+            Until these conditions are met, no defendant should be considered &quot;closed.&quot;
           </Text>
 
           {/* Table header */}
@@ -1018,10 +999,10 @@ export default function AccountabilityPDF({
 
           {defendants.map((d: { name: string; status: string; charges?: string[] }, idx: number) => {
             const riskMap: Record<string, string> = {
-              convicted: 'CLOSED', incarcerated: 'CONTAINED', indicted: 'HIGH',
-              charged: 'HIGH', pending: 'ELEVATED', settled: 'MODERATE',
-              acquitted: 'LOW', pardoned: 'ELEVATED', appealing: 'HIGH',
-              released: 'MODERATE',
+              convicted: 'UNRECOVERED', incarcerated: 'CONTAINED', indicted: 'HIGH',
+              charged: 'HIGH', pending: 'ELEVATED', settled: 'UNACCOUNTABLE',
+              acquitted: 'UNACCOUNTABLE', pardoned: 'UNACCOUNTABLE', appealing: 'HIGH',
+              released: 'UNACCOUNTABLE',
             };
             const risk = riskMap[d.status] || 'UNKNOWN';
             return (
@@ -1038,10 +1019,11 @@ export default function AccountabilityPDF({
           <View style={{ marginTop: 10, paddingTop: 6, borderTopWidth: 1, borderTopColor: c.blood }}>
             <Text style={{ ...s.label, fontSize: 6, marginBottom: 4 }}>MATRIX SUMMARY</Text>
             <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Total Defendants: {defendants.length}</Text></View>
-            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Convicted / Incarcerated: {defendants.filter((d: { status: string }) => d.status === 'convicted' || d.status === 'incarcerated').length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Convicted (Assets NOT Recovered): {defendants.filter((d: { status: string }) => d.status === 'convicted' || d.status === 'incarcerated').length}</Text></View>
             <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Active Cases (Indicted/Charged/Appealing): {defendants.filter((d: { status: string }) => ['indicted', 'charged', 'appealing'].includes(d.status)).length}</Text></View>
-            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Pardoned: {defendants.filter((d: { status: string }) => d.status === 'pardoned').length}</Text></View>
-            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Released: {defendants.filter((d: { status: string }) => d.status === 'released').length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Pardoned (Zero Accountability): {defendants.filter((d: { status: string }) => d.status === 'pardoned').length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Settled/Released/Acquitted (Unaccountable): {defendants.filter((d: { status: string }) => ['settled', 'released', 'acquitted'].includes(d.status)).length}</Text></View>
+            <View style={s.bRow}><Text style={s.bDot}>■</Text><Text style={s.bTxt}>Families Benefiting From Ill-Gotten Gains: ALL — No defendant family has been subjected to full asset disgorgement</Text></View>
           </View>
         </Sec>
 

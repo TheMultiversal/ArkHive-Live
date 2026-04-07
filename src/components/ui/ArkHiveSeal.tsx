@@ -391,15 +391,14 @@ export default function ArkHiveSeal({ size = 120, className = '' }: ArkHiveSealP
           stroke={B} strokeWidth="0.15" opacity="0.15" />;
       })}
 
-      {/* === 35. 24 RADIATING GLORY RAYS === */}
-      {Array.from({ length: 24 }).map((_, i) => {
-        const deg = -55 + i * (110 / 23);
-        const rad = ((deg + 90) * PI) / 180;
+      {/* === 35. 36 RADIATING GLORY RAYS (full 360°) === */}
+      {Array.from({ length: 36 }).map((_, i) => {
+        const rad = (i * TAU) / 36;
         return (
           <line key={`ray-${i}`}
-            x1={100 + 12.5 * Math.cos(rad)} y1={84 + 9 * Math.sin(rad)}
-            x2={100 + 28 * Math.cos(rad)} y2={84 + 24 * Math.sin(rad)}
-            stroke={B} strokeWidth={i % 3 === 0 ? "0.7" : "0.4"} opacity={0.35 - Math.abs(i - 12) * 0.02} />
+            x1={100 + 12.5 * Math.cos(rad)} y1={84 + 12.5 * Math.sin(rad)}
+            x2={100 + 28 * Math.cos(rad)} y2={84 + 28 * Math.sin(rad)}
+            stroke={B} strokeWidth={i % 3 === 0 ? "0.7" : "0.4"} opacity={0.35 - (i % 6) * 0.02} />
         );
       })}
 
@@ -1130,14 +1129,13 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
     ctx.restore();
   }
 
-  // ==== 35. 30 RADIATING GLORY RAYS ====
-  for (let i = 0; i < 30; i++) {
-    const deg = -60 + i * (120 / 29);
-    const a = ((deg + 90) * PI) / 180;
+  // ==== 35. 48 RADIATING GLORY RAYS (full 360°) ====
+  for (let i = 0; i < 48; i++) {
+    const a = (i * TAU) / 48;
     ctx.save();
     ctx.strokeStyle = B;
     ctx.lineWidth = i % 3 === 0 ? 3 : i % 2 === 0 ? 2 : 1;
-    ctx.globalAlpha = 0.4 - Math.abs(i - 15) * 0.018;
+    ctx.globalAlpha = 0.4 - (i % 6) * 0.018;
     ctx.beginPath();
     ctx.moveTo(cx + 48 * Math.cos(a), eyeY + 48 * Math.sin(a));
     ctx.lineTo(cx + 135 * Math.cos(a), eyeY + 135 * Math.sin(a));

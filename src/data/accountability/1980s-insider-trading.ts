@@ -803,14 +803,15 @@ export const insiderTradingAccountability: AccountabilityData = {
   // WHAT SUCCESS LOOKS LIKE
   // ============================================================
   successCriteria: [
-    'Full collection of $62 million owed by Paul Bilzerian, plus interest and penalties for decades of evasion',
-    'Constructive trust imposed on Milken family assets traceable to criminal enterprise; recovered funds returned to defrauded investors and pension funds',
-    'Congressional investigation into pardon process, with public hearings and full transparency',
-    'Legislation eliminating statute of limitations on civil recovery from securities fraud',
-    'Mandatory asset disclosure requirements for convicted financial criminals and their immediate families',
-    'Full IRS audit of all defendants and their estates with recovery of unpaid taxes on unreported criminal income',
-    'Recovery of assets from Boesky estate trusts traceable to insider trading proceeds',
-    'Public accountability record ensuring that no descendant of these criminals can hold public office, serve on corporate boards, or operate in finance without full disclosure of how their wealth was obtained',
-    'Establishment of a precedent that criminal wealth cannot be legitimized through the passage of time, philanthropic rebranding, or transfer to the next generation',
+    'Complete disgorgement and asset seizure from ALL convicted defendants — Milken, Boesky, Levine, Bilzerian, Siegel, Freeman, Jefferies, Sherwin, Lewis, Wilkis, Sokolow, Reich, Brown, Jones, Newberg, Solomon, Dahl, Brant, Posner, Meier — plus interest and penalties for decades of evasion',
+    'Full asset recovery from the families, trusts, and estates of ALL defendants: no family member, spouse, child, or descendant shall retain any wealth, property, investment, or asset traceable to or derived from the proceeds of insider trading, securities fraud, or any related criminal activity',
+    'Constructive trust imposed on ALL defendant family assets — including but not limited to the Milken family, Boesky estate trusts, Bilzerian family assets (including those held by Dan Bilzerian), Posner family holdings, and all trusts, LLCs, and shell entities used to conceal or transfer stolen wealth',
+    'Congressional investigation into the Milken pardon process, with public hearings and full transparency regarding the circumstances of presidential pardons granted to convicted financial criminals',
+    'Legislation eliminating statute of limitations on civil recovery from securities fraud, ensuring that the passage of time cannot shield criminals or their descendants from accountability',
+    'Mandatory asset disclosure requirements for ALL convicted financial criminals, their immediate families, and any legal entity in which they hold direct or beneficial interest — extending to second-generation descendants',
+    'Full IRS audit of ALL defendants, their estates, their family members, and their known associates, with recovery of all unpaid taxes on unreported criminal income and fraudulently sheltered assets',
+    'Public accountability record ensuring that no defendant, family member, or descendant of these criminals can hold public office, serve on corporate boards, manage investment funds, or operate in any financial capacity without full public disclosure of how their wealth was obtained',
+    'Establishment of a precedent that criminal wealth cannot be legitimized through the passage of time, philanthropic rebranding, transfer to the next generation, or any other mechanism — stolen wealth remains stolen regardless of how many hands it passes through',
+    'All settled and acquitted defendants — including Kidder Peabody, Fred Joseph, Bank Leu, Lowell Milken, and all RICO-overturned defendants — must face renewed scrutiny and civil asset recovery proceedings given the systemic nature of the conspiracy',
   ],
 };

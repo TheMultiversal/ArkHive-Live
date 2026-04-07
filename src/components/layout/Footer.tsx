@@ -71,7 +71,7 @@ export default function Footer() {
  </p>
  <div className="flex items-center gap-1">
  <a
- href="https://x.com/ArkHiveLives"
+ href="https://x.com/MostViewedOnX"
  target="_blank"
  rel="noopener noreferrer"
  className="p-2.5 text-zinc-600 hover:text-white hover:bg-zinc-800/80 border border-transparent hover:border-zinc-800 transition-all"
@@ -187,7 +187,7 @@ export default function Footer() {
  {/* Bottom Bar */}
  <div className="py-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
  <p className="text-xs text-zinc-600 uppercase tracking-wider">
- © {currentYear} ArkHive. All information is provided for educational purposes.
+ © 2009 ArkHive. All information is provided for accountability and educational purposes.
  </p>
  <div className="flex items-center gap-4">
  <span className="text-[10px] text-zinc-600 uppercase tracking-widest flex items-center gap-2">
