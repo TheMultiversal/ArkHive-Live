@@ -26,7 +26,7 @@ const statusColor: Record<string, string> = {
    STYLES — Clean print-friendly legal document
    ================================================================ */
 const s = StyleSheet.create({
-  page: { backgroundColor: c.white, padding: 42, paddingBottom: 55, fontFamily: 'Courier', color: c.text },
+  page: { backgroundColor: c.white, padding: 42, paddingTop: 48, paddingBottom: 70, fontFamily: 'Courier', color: c.text },
   wm: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center', zIndex: 0 },
   wmImg: { width: 350, height: 350, opacity: 0.10 },
   banner: { backgroundColor: c.black, padding: 8, marginBottom: 14, textAlign: 'center', borderWidth: 1.5, borderColor: c.black },
@@ -82,11 +82,11 @@ const s = StyleSheet.create({
   sourceTitle: { fontSize: 7.5, color: c.text, fontWeight: 'bold', flex: 1, lineHeight: 1.6 },
   sourceType: { fontSize: 5.5, color: c.muted, fontWeight: 'bold', width: 50, textAlign: 'right', textTransform: 'uppercase', letterSpacing: 1 },
   div: { borderBottomWidth: 1, borderBottomColor: c.black, marginVertical: 10, opacity: 0.25 },
-  footer: { position: 'absolute', bottom: 16, left: 42, right: 42, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 5, borderTopWidth: 0.75, borderTopColor: '#a0a0a0' },
+  footer: { position: 'absolute', bottom: 32, left: 42, right: 42, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 5, borderTopWidth: 0.75, borderTopColor: '#a0a0a0' },
   footerText: { fontSize: 5.5, color: c.muted, fontWeight: 'bold', letterSpacing: 1 },
   pageNum: { fontSize: 5.5, color: c.muted, fontWeight: 'bold' },
   // Classification header
-  classHdr: { position: 'absolute', top: 22, left: 0, right: 0, textAlign: 'center' },
+  classHdr: { position: 'absolute', top: 28, left: 0, right: 0, textAlign: 'center' },
   classText: { fontSize: 5, color: c.blood, letterSpacing: 3, textTransform: 'uppercase', fontWeight: 'bold' },
   // TOC
   tocRow: { flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 3, borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0' },
@@ -107,98 +107,134 @@ function Wm({ uri }: { uri: string }) {
 
 function Cls() {
   const bk = '#000000';
+  const sacredTop = '+ VERITAS + JUSTITIA + DEO VINDICE + IN GOD WE TRUST + ACCOUNTABILITY + VERITAS + JUSTITIA + DEO VINDICE + IN GOD WE TRUST +';
+  const sacredBot = '+ TRUTH + TRANSPARENCY + VERITAS LUX JUSTITIA + ACCOUNTABILITY + TRUTH + TRANSPARENCY + VERITAS LUX JUSTITIA + ACCOUNTABILITY +';
+  const sacredSide = '+ + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +';
   return (
     <>
-      {/* ═══════════ ANCIENT DIVINE ACCOUNTABILITY BORDER ═══════════ */}
-      <View style={{ position: 'absolute', top: 2, left: 2, right: 2, bottom: 2 }} fixed>
+      {/* ═══════════ ANCIENT DIVINE ACCOUNTABILITY BORDER ═══════════
+          Inspired by papal decrees, ancient court writs, and
+          illuminated manuscript borders. Every element has meaning:
+          crosses = divine authority, text bands = sacred oaths,
+          corner devices = the four pillars of justice.
+          ═══════════════════════════════════════════════════════════ */}
+      <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }} fixed>
 
-        {/* ── LAYER 1: Thick outer frame ── */}
-        <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderWidth: 3.5, borderColor: bk }} />
-        {/* ── LAYER 2: Double-line ── */}
-        <View style={{ position: 'absolute', top: 4, left: 4, right: 4, bottom: 4, borderWidth: 0.75, borderColor: bk, opacity: 0.8 }} />
-        {/* ── LAYER 3: Ornamental band outer ── */}
-        <View style={{ position: 'absolute', top: 7, left: 7, right: 7, bottom: 7, borderWidth: 2, borderColor: bk, opacity: 0.45 }} />
-        {/* ── LAYER 4: Fine rule ── */}
-        <View style={{ position: 'absolute', top: 10, left: 10, right: 10, bottom: 10, borderWidth: 0.3, borderColor: bk, opacity: 0.3 }} />
-        {/* ── LAYER 5: Text band outer boundary ── */}
+        {/* ════════ OUTER FORTRESS: Triple-rule government frame ════════ */}
+        <View style={{ position: 'absolute', top: 4, left: 4, right: 4, bottom: 4, borderWidth: 3, borderColor: bk }} />
+        <View style={{ position: 'absolute', top: 8, left: 8, right: 8, bottom: 8, borderWidth: 1, borderColor: bk, opacity: 0.6 }} />
+        <View style={{ position: 'absolute', top: 10, left: 10, right: 10, bottom: 10, borderWidth: 0.5, borderColor: bk, opacity: 0.35 }} />
+
+        {/* ════════ SACRED TEXT BAND (top & bottom) ════════
+            Running divine mottos in a narrow ornamental band,
+            echoing the inscribed borders of ancient legal seals */}
         <View style={{ position: 'absolute', top: 12, left: 12, right: 12, bottom: 12, borderWidth: 0.75, borderColor: bk, opacity: 0.5 }} />
-
-        {/* ── RUNNING SACRED MOTTO TEXT IN BORDER BAND ── */}
-        <Text style={{ position: 'absolute', top: 13.5, left: 30, right: 30, fontSize: 3.2, color: bk, opacity: 0.12, textAlign: 'center', letterSpacing: 1.2 }}>
-          JUSTITIA + VERITAS + DEO VINDICE + ACCOUNTABILITY + TRUTH + TRANSPARENCY + JUSTITIA + VERITAS
+        <Text style={{ position: 'absolute', top: 14, left: 20, right: 20, fontSize: 3.5, color: bk, opacity: 0.18, textAlign: 'center', letterSpacing: 2.5, fontWeight: 'bold' }}>
+          {sacredTop}
         </Text>
-        <Text style={{ position: 'absolute', bottom: 13.5, left: 30, right: 30, fontSize: 3.2, color: bk, opacity: 0.12, textAlign: 'center', letterSpacing: 1.2 }}>
-          IN GOD WE TRUST + ACCOUNTABILITY + VERITAS LUX JUSTITIA + TRUTH + TRANSPARENCY + IN GOD WE TRUST
+        <Text style={{ position: 'absolute', bottom: 14, left: 20, right: 20, fontSize: 3.5, color: bk, opacity: 0.18, textAlign: 'center', letterSpacing: 2.5, fontWeight: 'bold' }}>
+          {sacredBot}
         </Text>
+        {/* Left side sacred marks */}
+        <Text style={{ position: 'absolute', top: 40, left: 5.5, width: 8, fontSize: 3, color: bk, opacity: 0.10, textAlign: 'center', lineHeight: 2.2 }}>
+          {sacredSide}
+        </Text>
+        {/* Right side sacred marks */}
+        <Text style={{ position: 'absolute', top: 40, right: 5.5, width: 8, fontSize: 3, color: bk, opacity: 0.10, textAlign: 'center', lineHeight: 2.2 }}>
+          {sacredSide}
+        </Text>
+        <View style={{ position: 'absolute', top: 19, left: 12, right: 12, bottom: 19, borderWidth: 0.75, borderColor: bk, opacity: 0.4 }} />
 
-        {/* ── LAYER 6: Text band inner boundary ── */}
-        <View style={{ position: 'absolute', top: 18, left: 18, right: 18, bottom: 18, borderWidth: 0.75, borderColor: bk, opacity: 0.4 }} />
-        {/* ── LAYER 7: Medium inner frame ── */}
-        <View style={{ position: 'absolute', top: 20, left: 20, right: 20, bottom: 20, borderWidth: 0.5, borderColor: bk, opacity: 0.25 }} />
-        {/* ── LAYER 8: Hairline frame ── */}
-        <View style={{ position: 'absolute', top: 23, left: 23, right: 23, bottom: 23, borderWidth: 0.3, borderColor: bk, opacity: 0.15 }} />
-        {/* ── LAYER 9: Ghost innermost frame ── */}
-        <View style={{ position: 'absolute', top: 26, left: 26, right: 26, bottom: 26, borderWidth: 0.2, borderColor: bk, opacity: 0.08 }} />
+        {/* ════════ INNER SANCTUM: Fine administrative frames ════════ */}
+        <View style={{ position: 'absolute', top: 22, left: 22, right: 22, bottom: 22, borderWidth: 0.4, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', top: 25, left: 25, right: 25, bottom: 25, borderWidth: 0.25, borderColor: bk, opacity: 0.1 }} />
 
-        {/* ── CORNER CROSS ORNAMENTS (divine motif) ── */}
-        {/* Top-left cross */}
-        <View style={{ position: 'absolute', top: -2, left: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
-        <View style={{ position: 'absolute', top: 4, left: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
-        {/* Top-right cross */}
-        <View style={{ position: 'absolute', top: -2, right: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
-        <View style={{ position: 'absolute', top: 4, right: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
-        {/* Bottom-left cross */}
-        <View style={{ position: 'absolute', bottom: -2, left: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
-        <View style={{ position: 'absolute', bottom: 4, left: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
-        {/* Bottom-right cross */}
-        <View style={{ position: 'absolute', bottom: -2, right: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
-        <View style={{ position: 'absolute', bottom: 4, right: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
+        {/* ════════ FOUR CORNER CROSSES — Pillars of Divine Justice ════════
+            Each corner bears a cross, symbolizing the divine authority
+            under which accountability is rendered. The cross predates
+            all human courts; it is the oldest symbol of judgment. */}
 
-        {/* ── OUTER CORNER L-BRACKET REINFORCEMENTS ── */}
-        <View style={{ position: 'absolute', top: -1, left: -1, width: 32, height: 32, borderBottomWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
-        <View style={{ position: 'absolute', top: -1, right: -1, width: 32, height: 32, borderBottomWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
-        <View style={{ position: 'absolute', bottom: -1, left: -1, width: 32, height: 32, borderTopWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
-        <View style={{ position: 'absolute', bottom: -1, right: -1, width: 32, height: 32, borderTopWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
+        {/* ── TOP-LEFT CROSS (large, primary) ── */}
+        <View style={{ position: 'absolute', top: 1, left: 14, width: 2, height: 18, backgroundColor: bk, opacity: 0.55 }} />
+        <View style={{ position: 'absolute', top: 7, left: 5, width: 20, height: 2, backgroundColor: bk, opacity: 0.55 }} />
+        {/* Inner shadow cross */}
+        <View style={{ position: 'absolute', top: 2.5, left: 14.5, width: 1, height: 15, backgroundColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', top: 7.5, left: 6.5, width: 17, height: 1, backgroundColor: bk, opacity: 0.2 }} />
 
-        {/* ── INNER CORNER BRACKETS (medium) ── */}
-        <View style={{ position: 'absolute', top: 11, left: 11, width: 20, height: 20, borderBottomWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
-        <View style={{ position: 'absolute', top: 11, right: 11, width: 20, height: 20, borderBottomWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
-        <View style={{ position: 'absolute', bottom: 11, left: 11, width: 20, height: 20, borderTopWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
-        <View style={{ position: 'absolute', bottom: 11, right: 11, width: 20, height: 20, borderTopWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        {/* ── TOP-RIGHT CROSS ── */}
+        <View style={{ position: 'absolute', top: 1, right: 14, width: 2, height: 18, backgroundColor: bk, opacity: 0.55 }} />
+        <View style={{ position: 'absolute', top: 7, right: 5, width: 20, height: 2, backgroundColor: bk, opacity: 0.55 }} />
+        <View style={{ position: 'absolute', top: 2.5, right: 14.5, width: 1, height: 15, backgroundColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', top: 7.5, right: 6.5, width: 17, height: 1, backgroundColor: bk, opacity: 0.2 }} />
 
-        {/* ── INNERMOST CORNER TICKS (small) ── */}
-        <View style={{ position: 'absolute', top: 22, left: 22, width: 10, height: 10, borderBottomWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', top: 22, right: 22, width: 10, height: 10, borderBottomWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', bottom: 22, left: 22, width: 10, height: 10, borderTopWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', bottom: 22, right: 22, width: 10, height: 10, borderTopWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        {/* ── BOTTOM-LEFT CROSS ── */}
+        <View style={{ position: 'absolute', bottom: 1, left: 14, width: 2, height: 18, backgroundColor: bk, opacity: 0.55 }} />
+        <View style={{ position: 'absolute', bottom: 7, left: 5, width: 20, height: 2, backgroundColor: bk, opacity: 0.55 }} />
+        <View style={{ position: 'absolute', bottom: 2.5, left: 14.5, width: 1, height: 15, backgroundColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', bottom: 7.5, left: 6.5, width: 17, height: 1, backgroundColor: bk, opacity: 0.2 }} />
 
-        {/* ── SIDE-MIDPOINT DIAMOND ORNAMENTS (all 4 sides) ── */}
-        <View style={{ position: 'absolute', top: 0, left: '50%', marginLeft: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
-        <View style={{ position: 'absolute', bottom: 0, left: '50%', marginLeft: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
-        <View style={{ position: 'absolute', top: '50%', left: 0, marginTop: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
-        <View style={{ position: 'absolute', top: '50%', right: 0, marginTop: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        {/* ── BOTTOM-RIGHT CROSS ── */}
+        <View style={{ position: 'absolute', bottom: 1, right: 14, width: 2, height: 18, backgroundColor: bk, opacity: 0.55 }} />
+        <View style={{ position: 'absolute', bottom: 7, right: 5, width: 20, height: 2, backgroundColor: bk, opacity: 0.55 }} />
+        <View style={{ position: 'absolute', bottom: 2.5, right: 14.5, width: 1, height: 15, backgroundColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', bottom: 7.5, right: 6.5, width: 17, height: 1, backgroundColor: bk, opacity: 0.2 }} />
 
-        {/* ── QUARTER-POINT CROSS ORNAMENTS (sides) ── */}
-        {/* Top side 1/4 */}
-        <View style={{ position: 'absolute', top: 3, left: '25%', marginLeft: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
-        <View style={{ position: 'absolute', top: 6, left: '25%', marginLeft: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
-        {/* Top side 3/4 */}
-        <View style={{ position: 'absolute', top: 3, right: '25%', marginRight: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
-        <View style={{ position: 'absolute', top: 6, right: '25%', marginRight: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
-        {/* Bottom side 1/4 */}
-        <View style={{ position: 'absolute', bottom: 3, left: '25%', marginLeft: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
-        <View style={{ position: 'absolute', bottom: 6, left: '25%', marginLeft: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
-        {/* Bottom side 3/4 */}
-        <View style={{ position: 'absolute', bottom: 3, right: '25%', marginRight: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
-        <View style={{ position: 'absolute', bottom: 6, right: '25%', marginRight: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
+        {/* ════════ CORNER L-BRACKETS — Structural authority ════════ */}
+        <View style={{ position: 'absolute', top: 2, left: 2, width: 28, height: 28, borderBottomWidth: 3, borderRightWidth: 3, borderColor: bk }} />
+        <View style={{ position: 'absolute', top: 2, right: 2, width: 28, height: 28, borderBottomWidth: 3, borderLeftWidth: 3, borderColor: bk }} />
+        <View style={{ position: 'absolute', bottom: 2, left: 2, width: 28, height: 28, borderTopWidth: 3, borderRightWidth: 3, borderColor: bk }} />
+        <View style={{ position: 'absolute', bottom: 2, right: 2, width: 28, height: 28, borderTopWidth: 3, borderLeftWidth: 3, borderColor: bk }} />
 
-        {/* ── FLANKING LINES (top & bottom center) ── */}
-        <View style={{ position: 'absolute', top: 5.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
-        <View style={{ position: 'absolute', top: 5.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
-        <View style={{ position: 'absolute', bottom: 5.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
-        <View style={{ position: 'absolute', bottom: 5.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
+        {/* Inner corner brackets (fainter) */}
+        <View style={{ position: 'absolute', top: 12, left: 12, width: 14, height: 14, borderBottomWidth: 1, borderRightWidth: 1, borderColor: bk, opacity: 0.25 }} />
+        <View style={{ position: 'absolute', top: 12, right: 12, width: 14, height: 14, borderBottomWidth: 1, borderLeftWidth: 1, borderColor: bk, opacity: 0.25 }} />
+        <View style={{ position: 'absolute', bottom: 12, left: 12, width: 14, height: 14, borderTopWidth: 1, borderRightWidth: 1, borderColor: bk, opacity: 0.25 }} />
+        <View style={{ position: 'absolute', bottom: 12, right: 12, width: 14, height: 14, borderTopWidth: 1, borderLeftWidth: 1, borderColor: bk, opacity: 0.25 }} />
+
+        {/* ════════ SIDE MIDPOINT DEVICES — Scales of Balance ════════
+            Diamond ornaments at the midpoint of each side represent
+            the balance of divine scales — equal measure, equal justice */}
+        {/* Top center */}
+        <View style={{ position: 'absolute', top: -1, left: '50%', marginLeft: -6, width: 12, height: 12, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+        <View style={{ position: 'absolute', top: 1, left: '50%', marginLeft: -3.5, width: 7, height: 7, backgroundColor: '#ffffff', transform: 'rotate(45deg)' }} />
+        <View style={{ position: 'absolute', top: 2.5, left: '50%', marginLeft: -2, width: 4, height: 4, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+        {/* Bottom center */}
+        <View style={{ position: 'absolute', bottom: -1, left: '50%', marginLeft: -6, width: 12, height: 12, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+        <View style={{ position: 'absolute', bottom: 1, left: '50%', marginLeft: -3.5, width: 7, height: 7, backgroundColor: '#ffffff', transform: 'rotate(45deg)' }} />
+        <View style={{ position: 'absolute', bottom: 2.5, left: '50%', marginLeft: -2, width: 4, height: 4, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+        {/* Left center */}
+        <View style={{ position: 'absolute', top: '50%', left: -1, marginTop: -6, width: 12, height: 12, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+        <View style={{ position: 'absolute', top: '50%', left: 1, marginTop: -3.5, width: 7, height: 7, backgroundColor: '#ffffff', transform: 'rotate(45deg)' }} />
+        <View style={{ position: 'absolute', top: '50%', left: 2.5, marginTop: -2, width: 4, height: 4, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+        {/* Right center */}
+        <View style={{ position: 'absolute', top: '50%', right: -1, marginTop: -6, width: 12, height: 12, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+        <View style={{ position: 'absolute', top: '50%', right: 1, marginTop: -3.5, width: 7, height: 7, backgroundColor: '#ffffff', transform: 'rotate(45deg)' }} />
+        <View style={{ position: 'absolute', top: '50%', right: 2.5, marginTop: -2, width: 4, height: 4, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.4 }} />
+
+        {/* ════════ QUARTER-POINT CROSSES — Stations of Accountability ════════
+            Small crosses at the quarter-points of each side, echoing
+            the stations of ancient processional justice */}
+        {/* Top 1/4 */}
+        <View style={{ position: 'absolute', top: 4, left: '25%', marginLeft: -0.5, width: 1.5, height: 10, backgroundColor: bk, opacity: 0.15 }} />
+        <View style={{ position: 'absolute', top: 7, left: '25%', marginLeft: -4, width: 9, height: 1.5, backgroundColor: bk, opacity: 0.15 }} />
+        {/* Top 3/4 */}
+        <View style={{ position: 'absolute', top: 4, right: '25%', marginRight: -0.5, width: 1.5, height: 10, backgroundColor: bk, opacity: 0.15 }} />
+        <View style={{ position: 'absolute', top: 7, right: '25%', marginRight: -4, width: 9, height: 1.5, backgroundColor: bk, opacity: 0.15 }} />
+        {/* Bottom 1/4 */}
+        <View style={{ position: 'absolute', bottom: 4, left: '25%', marginLeft: -0.5, width: 1.5, height: 10, backgroundColor: bk, opacity: 0.15 }} />
+        <View style={{ position: 'absolute', bottom: 7, left: '25%', marginLeft: -4, width: 9, height: 1.5, backgroundColor: bk, opacity: 0.15 }} />
+        {/* Bottom 3/4 */}
+        <View style={{ position: 'absolute', bottom: 4, right: '25%', marginRight: -0.5, width: 1.5, height: 10, backgroundColor: bk, opacity: 0.15 }} />
+        <View style={{ position: 'absolute', bottom: 7, right: '25%', marginRight: -4, width: 9, height: 1.5, backgroundColor: bk, opacity: 0.15 }} />
+
+        {/* ════════ FLANKING RULES — Ancient decree separator lines ════════ */}
+        <View style={{ position: 'absolute', top: 6, left: '32%', right: '53%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.12 }} />
+        <View style={{ position: 'absolute', top: 6, left: '53%', right: '32%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.12 }} />
+        <View style={{ position: 'absolute', bottom: 6, left: '32%', right: '53%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.12 }} />
+        <View style={{ position: 'absolute', bottom: 6, left: '53%', right: '32%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.12 }} />
       </View>
-      {/* Classification header */}
+
+      {/* Classification header — positioned above the content, inside the border */}
       <View style={s.classHdr} fixed>
         <Text style={s.classText}>CONFIDENTIAL | FOR OFFICIAL USE | ACCOUNTABILITY DOSSIER</Text>
       </View>

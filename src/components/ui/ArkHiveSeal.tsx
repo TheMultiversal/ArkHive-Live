@@ -585,15 +585,15 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   function laurelBranch(side: 'left' | 'right') {
     const dir = side === 'left' ? -1 : 1;
 
-    // Branch stem
+    // Branch stem — arcs through the same side as leaves
     ctx.save();
     ctx.strokeStyle = B;
     ctx.lineWidth = 2.5;
     ctx.globalAlpha = 0.5;
     ctx.beginPath();
-    const stemStart = side === 'left' ? PI * 0.56 : TAU - PI * 0.56;
+    const stemStart = side === 'left' ? PI * 1.09 : PI * 1.91;
     for (let t = 0; t <= 1; t += 0.01) {
-      const a = stemStart + t * PI * 0.88 * dir;
+      const a = stemStart + t * PI * 1.01 * dir;
       const px = cx + 495 * Math.cos(a);
       const py = cy + 495 * Math.sin(a);
       if (t === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
@@ -602,12 +602,15 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
     ctx.restore();
 
     // 30 leaves with veins + side veins
+    // Angles match SVG: LEFT from 195° CW to ~15°, RIGHT from 345° CCW to ~165°
+    // Gap at top of seal (traditional wreath opening)
     for (let i = 0; i < 30; i++) {
-      const baseA = (side === 'left' ? PI * 0.57 : TAU - PI * 0.57) + (i * PI * 0.029 * dir);
+      const baseDeg = (side === 'left' ? 195 : 345) + (i * 6.0 * dir);
+      const baseA = (baseDeg * PI) / 180;
       const branchR = 495;
       const bx = cx + branchR * Math.cos(baseA);
       const by = cy + branchR * Math.sin(baseA);
-      const leafA = baseA + (side === 'left' ? -0.42 : 0.42);
+      const leafA = baseA + (side === 'left' ? -0.49 : 0.49);
       const leafLen = 35 + (15 - Math.abs(i - 15)) * 2;
       const tipX = bx + leafLen * Math.cos(leafA);
       const tipY = by + leafLen * Math.sin(leafA);
