@@ -86,7 +86,7 @@ const s = StyleSheet.create({
   footerText: { fontSize: 5.5, color: c.muted, fontWeight: 'bold', letterSpacing: 1 },
   pageNum: { fontSize: 5.5, color: c.muted, fontWeight: 'bold' },
   // Classification header
-  classHdr: { position: 'absolute', top: 18, left: 0, right: 0, textAlign: 'center' },
+  classHdr: { position: 'absolute', top: 22, left: 0, right: 0, textAlign: 'center' },
   classText: { fontSize: 5, color: c.blood, letterSpacing: 3, textTransform: 'uppercase', fontWeight: 'bold' },
   // TOC
   tocRow: { flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 3, borderBottomWidth: 0.5, borderBottomColor: '#e0e0e0' },
@@ -106,36 +106,61 @@ function Wm({ uri }: { uri: string }) {
 }
 
 function Cls() {
+  const bk = '#000000';
   return (
     <>
-      {/* ═══════════ ORNATE GOVERNMENT CERTIFICATE BORDER ═══════════ */}
-      <View style={{ position: 'absolute', top: 5, left: 5, right: 5, bottom: 5 }} fixed>
+      {/* ═══════════ EXOTIC MULTI-LAYER GOVERNMENT CERTIFICATE BORDER ═══════════ */}
+      <View style={{ position: 'absolute', top: 3, left: 3, right: 3, bottom: 3 }} fixed>
         {/* Layer 1: Heavy outer frame */}
-        <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderWidth: 2.5, borderColor: '#000000' }} />
-        {/* Layer 2: Thin frame */}
-        <View style={{ position: 'absolute', top: 4, left: 4, right: 4, bottom: 4, borderWidth: 0.75, borderColor: '#000000' }} />
-        {/* Layer 3: Medium frame */}
-        <View style={{ position: 'absolute', top: 8, left: 8, right: 8, bottom: 8, borderWidth: 0.35, borderColor: '#000000', opacity: 0.45 }} />
-        {/* Layer 4: Hairline frame */}
-        <View style={{ position: 'absolute', top: 11, left: 11, right: 11, bottom: 11, borderWidth: 0.25, borderColor: '#000000', opacity: 0.25 }} />
-        {/* Layer 5: Ghost frame */}
-        <View style={{ position: 'absolute', top: 15, left: 15, right: 15, bottom: 15, borderWidth: 0.5, borderColor: '#000000', opacity: 0.12 }} />
-        {/* Corner reinforcements — top-left */}
-        <View style={{ position: 'absolute', top: -1, left: -1, width: 26, height: 26, borderBottomWidth: 3, borderRightWidth: 3, borderColor: '#000000' }} />
-        {/* top-right */}
-        <View style={{ position: 'absolute', top: -1, right: -1, width: 26, height: 26, borderBottomWidth: 3, borderLeftWidth: 3, borderColor: '#000000' }} />
-        {/* bottom-left */}
-        <View style={{ position: 'absolute', bottom: -1, left: -1, width: 26, height: 26, borderTopWidth: 3, borderRightWidth: 3, borderColor: '#000000' }} />
-        {/* bottom-right */}
-        <View style={{ position: 'absolute', bottom: -1, right: -1, width: 26, height: 26, borderTopWidth: 3, borderLeftWidth: 3, borderColor: '#000000' }} />
-        {/* Inner corner brackets — top-left */}
-        <View style={{ position: 'absolute', top: 14, left: 14, width: 14, height: 14, borderBottomWidth: 1, borderRightWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
-        {/* top-right */}
-        <View style={{ position: 'absolute', top: 14, right: 14, width: 14, height: 14, borderBottomWidth: 1, borderLeftWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
-        {/* bottom-left */}
-        <View style={{ position: 'absolute', bottom: 14, left: 14, width: 14, height: 14, borderTopWidth: 1, borderRightWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
-        {/* bottom-right */}
-        <View style={{ position: 'absolute', bottom: 14, right: 14, width: 14, height: 14, borderTopWidth: 1, borderLeftWidth: 1, borderColor: '#000000', opacity: 0.3 }} />
+        <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderWidth: 3, borderColor: bk }} />
+        {/* Layer 2: Double-line outer */}
+        <View style={{ position: 'absolute', top: 3, left: 3, right: 3, bottom: 3, borderWidth: 0.5, borderColor: bk, opacity: 0.7 }} />
+        {/* Layer 3: Ornamental band frame */}
+        <View style={{ position: 'absolute', top: 6, left: 6, right: 6, bottom: 6, borderWidth: 1.5, borderColor: bk, opacity: 0.5 }} />
+        {/* Layer 4: Inner fine rule */}
+        <View style={{ position: 'absolute', top: 9, left: 9, right: 9, bottom: 9, borderWidth: 0.3, borderColor: bk, opacity: 0.35 }} />
+        {/* Layer 5: Medium inset frame */}
+        <View style={{ position: 'absolute', top: 12, left: 12, right: 12, bottom: 12, borderWidth: 0.8, borderColor: bk, opacity: 0.25 }} />
+        {/* Layer 6: Delicate hairline frame */}
+        <View style={{ position: 'absolute', top: 16, left: 16, right: 16, bottom: 16, borderWidth: 0.25, borderColor: bk, opacity: 0.18 }} />
+        {/* Layer 7: Ghost innermost frame */}
+        <View style={{ position: 'absolute', top: 20, left: 20, right: 20, bottom: 20, borderWidth: 0.5, borderColor: bk, opacity: 0.1 }} />
+
+        {/* ── OUTER CORNER REINFORCEMENTS (large L-brackets) ── */}
+        <View style={{ position: 'absolute', top: -1, left: -1, width: 30, height: 30, borderBottomWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
+        <View style={{ position: 'absolute', top: -1, right: -1, width: 30, height: 30, borderBottomWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
+        <View style={{ position: 'absolute', bottom: -1, left: -1, width: 30, height: 30, borderTopWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
+        <View style={{ position: 'absolute', bottom: -1, right: -1, width: 30, height: 30, borderTopWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
+
+        {/* ── INNER CORNER BRACKETS (medium) ── */}
+        <View style={{ position: 'absolute', top: 11, left: 11, width: 18, height: 18, borderBottomWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        <View style={{ position: 'absolute', top: 11, right: 11, width: 18, height: 18, borderBottomWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        <View style={{ position: 'absolute', bottom: 11, left: 11, width: 18, height: 18, borderTopWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        <View style={{ position: 'absolute', bottom: 11, right: 11, width: 18, height: 18, borderTopWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+
+        {/* ── INNERMOST CORNER TICKS (small) ── */}
+        <View style={{ position: 'absolute', top: 19, left: 19, width: 10, height: 10, borderBottomWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', top: 19, right: 19, width: 10, height: 10, borderBottomWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', bottom: 19, left: 19, width: 10, height: 10, borderTopWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', bottom: 19, right: 19, width: 10, height: 10, borderTopWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+
+        {/* ── SIDE-MIDPOINT DIAMOND ORNAMENTS ── */}
+        {/* Top center diamond */}
+        <View style={{ position: 'absolute', top: 1, left: '50%', marginLeft: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        {/* Bottom center diamond */}
+        <View style={{ position: 'absolute', bottom: 1, left: '50%', marginLeft: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        {/* Left center diamond */}
+        <View style={{ position: 'absolute', top: '50%', left: 1, marginTop: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        {/* Right center diamond */}
+        <View style={{ position: 'absolute', top: '50%', right: 1, marginTop: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+
+        {/* ── SIDE-MIDPOINT FLANKING LINES ── */}
+        {/* Top center flanking lines */}
+        <View style={{ position: 'absolute', top: 4.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', top: 4.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
+        {/* Bottom center flanking lines */}
+        <View style={{ position: 'absolute', bottom: 4.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', bottom: 4.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
       </View>
       {/* Classification header */}
       <View style={s.classHdr} fixed>

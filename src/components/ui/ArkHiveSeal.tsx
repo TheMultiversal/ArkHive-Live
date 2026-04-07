@@ -233,23 +233,25 @@ export default function ArkHiveSeal({ size = 120, className = '' }: ArkHiveSealP
       </defs>
       <text fill={B} fontSize="5.5" fontFamily="Georgia, serif" fontWeight="bold" letterSpacing="3.2">
         <textPath href="#topArc" startOffset="50%" textAnchor="middle">
-          ★ IN GOD WE TRUST ★
+          IN GOD WE TRUST
         </textPath>
       </text>
       <text fill={B} fontSize="5.5" fontFamily="Georgia, serif" fontWeight="bold" letterSpacing="3.2">
         <textPath href="#bottomArc" startOffset="50%" textAnchor="middle">
-          ★ ACCOUNTABILITY ★
+          ACCOUNTABILITY
         </textPath>
       </text>
 
       {/* === 25. CARDINAL + INTERCARDINAL ORNAMENTS === */}
-      {[0, 90, 180, 270].map((deg) => {
+      {/* Stars only at 0° (right) and 180° (left) — NOT at 90°/270° to avoid text overlap */}
+      {[0, 180].map((deg) => {
         const rad = (deg * PI) / 180;
         const sx = 100 + 74 * Math.cos(rad);
         const sy = 100 + 74 * Math.sin(rad);
         return <path key={`cstar-${deg}`} d={starPath(sx, sy, 3.2, 1.4)} fill={B} opacity="0.8" />;
       })}
-      {[45, 135, 225, 315].map((deg) => {
+      {/* Diamonds at 90°/270° and intercardinals */}
+      {[45, 90, 135, 225, 270, 315].map((deg) => {
         const rad = (deg * PI) / 180;
         const dx = 100 + 74 * Math.cos(rad);
         const dy = 100 + 74 * Math.sin(rad);
@@ -260,11 +262,11 @@ export default function ArkHiveSeal({ size = 120, className = '' }: ArkHiveSealP
         );
       })}
 
-      {/* === 26. 16-STAR CONSTELLATION ARC === */}
-      {Array.from({ length: 16 }).map((_, i) => {
-        const a = -PI * 0.14 - (i * PI * 0.72) / 15;
+      {/* === 26. 36-STAR CONSTELLATION (full circle) === */}
+      {Array.from({ length: 36 }).map((_, i) => {
+        const a = (i * TAU) / 36;
         const sr = 62;
-        return <path key={`star13-${i}`} d={starPath(100 + sr * Math.cos(a), 100 + sr * Math.sin(a), 2.2, 1)} fill={B} opacity="0.75" />;
+        return <path key={`star13-${i}`} d={starPath(100 + sr * Math.cos(a), 100 + sr * Math.sin(a), 1.8, 0.8)} fill={B} opacity="0.6" />;
       })}
 
       {/* === 27–29. TRIPLE INNER RING + BEADED FILL === */}
@@ -659,11 +661,11 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
 
   // ==== 1–5. QUINTUPLE SERRATED OUTER EDGE ====
   for (const cfg of [
-    { teeth: 300, rOut: 890, rIn: 865, lw: 3, alpha: 0.9 },
-    { teeth: 200, rOut: 885, rIn: 872, lw: 1.5, alpha: 0.6 },
-    { teeth: 420, rOut: 878, rIn: 870, lw: 0.6, alpha: 0.35 },
-    { teeth: 120, rOut: 875, rIn: 868, lw: 0.8, alpha: 0.2 },
-    { teeth: 560, rOut: 872, rIn: 867, lw: 0.3, alpha: 0.15 },
+    { teeth: 360, rOut: 890, rIn: 860, lw: 3.5, alpha: 0.95 },
+    { teeth: 240, rOut: 886, rIn: 868, lw: 2, alpha: 0.65 },
+    { teeth: 480, rOut: 878, rIn: 868, lw: 0.8, alpha: 0.4 },
+    { teeth: 160, rOut: 875, rIn: 866, lw: 1, alpha: 0.25 },
+    { teeth: 600, rOut: 872, rIn: 866, lw: 0.4, alpha: 0.18 },
   ]) {
     ctx.save();
     ctx.strokeStyle = B;
@@ -680,14 +682,14 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
     ctx.restore();
   }
 
-  // ==== 6. BEADED BORDER (220 filled dots) ====
-  for (let i = 0; i < 220; i++) {
-    const a = (i * TAU) / 220;
+  // ==== 6. BEADED BORDER (280 filled dots) ====
+  for (let i = 0; i < 280; i++) {
+    const a = (i * TAU) / 280;
     ctx.save();
     ctx.fillStyle = B;
-    ctx.globalAlpha = 0.6;
+    ctx.globalAlpha = 0.65;
     ctx.beginPath();
-    ctx.arc(cx + 855 * Math.cos(a), cy + 855 * Math.sin(a), 3, 0, TAU);
+    ctx.arc(cx + 855 * Math.cos(a), cy + 855 * Math.sin(a), 3.2, 0, TAU);
     ctx.fill();
     ctx.restore();
   }
@@ -696,11 +698,11 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   for (let pass = 0; pass < 9; pass++) {
     const r = 842 - pass * 4;
     const freq = 14 + pass * 3;
-    const amp = 4 - pass * 0.3;
+    const amp = 5 - pass * 0.35;
     ctx.save();
     ctx.strokeStyle = B;
-    ctx.lineWidth = 0.6;
-    ctx.globalAlpha = 0.2 + pass * 0.05;
+    ctx.lineWidth = 0.8;
+    ctx.globalAlpha = 0.25 + pass * 0.05;
     ctx.beginPath();
     for (let i = 0; i <= 1440; i++) {
       const a = (i * TAU) / 1440;
@@ -713,26 +715,26 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   }
 
   // ==== 16–18. TRIPLE ROPE BORDER ====
-  circle(798, 8, 1, [12, 6]);
-  circle(786, 4, 0.55, [7, 6]);
-  circle(778, 2, 0.3, [4, 8]);
+  circle(798, 10, 1, [14, 7]);
+  circle(786, 5, 0.6, [8, 7]);
+  circle(778, 2.5, 0.35, [5, 9]);
 
   // ==== 19. HEAVY OUTER SOLID RING ====
-  circle(767, 7, 1);
+  circle(767, 8, 1);
 
-  // ==== 20. 480 FINE NOTCH MARKS (6-tier) ====
-  for (let i = 0; i < 480; i++) {
-    const a = (i * TAU) / 480;
-    const isMajor = i % 40 === 0;
-    const isMid = i % 20 === 0;
+  // ==== 20. 600 FINE NOTCH MARKS (6-tier) ====
+  for (let i = 0; i < 600; i++) {
+    const a = (i * TAU) / 600;
+    const isMajor = i % 50 === 0;
+    const isMid = i % 25 === 0;
     const isMinor = i % 10 === 0;
     const isSub = i % 5 === 0;
     const isTiny = i % 2 === 0;
-    const inner = isMajor ? 725 : isMid ? 735 : isMinor ? 742 : isSub ? 748 : isTiny ? 753 : 758;
+    const inner = isMajor ? 720 : isMid ? 732 : isMinor ? 740 : isSub ? 746 : isTiny ? 751 : 756;
     ctx.save();
     ctx.strokeStyle = B;
-    ctx.lineWidth = isMajor ? 4 : isMid ? 2 : isMinor ? 1 : isSub ? 0.5 : isTiny ? 0.25 : 0.1;
-    ctx.globalAlpha = isMajor ? 1 : isMid ? 0.7 : isMinor ? 0.4 : isSub ? 0.2 : isTiny ? 0.12 : 0.06;
+    ctx.lineWidth = isMajor ? 4.5 : isMid ? 2.5 : isMinor ? 1.2 : isSub ? 0.6 : isTiny ? 0.3 : 0.15;
+    ctx.globalAlpha = isMajor ? 1 : isMid ? 0.75 : isMinor ? 0.45 : isSub ? 0.25 : isTiny ? 0.14 : 0.07;
     ctx.beginPath();
     ctx.moveTo(cx + inner * Math.cos(a), cy + inner * Math.sin(a));
     ctx.lineTo(cx + 767 * Math.cos(a), cy + 767 * Math.sin(a));
@@ -741,8 +743,8 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   }
 
   // ==== 21–22. TEXT BAND BORDERS ====
-  circle(720, 3.5, 0.7);
-  circle(635, 3.5, 0.7);
+  circle(720, 4, 0.8);
+  circle(635, 4, 0.8);
 
   // Subtle band fill
   ctx.save();
@@ -756,42 +758,44 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
 
   // ==== 23–24. CURVED TEXT ====
   arcText(
-    '\u2605  I N   G O D   W E   T R U S T  \u2605',
+    'I N   G O D   W E   T R U S T',
     678, -PI * 0.72, -PI * 0.28, true, 42,
   );
   arcText(
-    '\u2605  A C C O U N T A B I L I T Y  \u2605',
+    'A C C O U N T A B I L I T Y',
     678, PI * 0.72, PI * 0.28, false, 42,
   );
 
   // ==== 25. CARDINAL STARS + INTERCARDINAL DIAMONDS ====
-  for (const deg of [0, 90, 180, 270]) {
+  // Stars only at 0° (right) and 180° (left) — NOT at 90/270 to avoid text overlap
+  for (const deg of [0, 180]) {
     const a = (deg * PI) / 180;
     star5(cx + 678 * Math.cos(a), cy + 678 * Math.sin(a), 22, 10, 0.8);
   }
-  for (const deg of [45, 135, 225, 315]) {
+  // Diamonds at 90°/270° (where text is) plus intercardinals
+  for (const deg of [45, 90, 135, 225, 270, 315]) {
     const a = (deg * PI) / 180;
     diamond(cx + 678 * Math.cos(a), cy + 678 * Math.sin(a), 8, 13, 0.5);
   }
 
-  // ==== 26. 16-STAR CONSTELLATION ARC ====
-  for (let i = 0; i < 16; i++) {
-    const a = -PI * 0.14 - (i * PI * 0.72) / 15;
-    star5(cx + 570 * Math.cos(a), cy + 570 * Math.sin(a), 14, 6.5, 0.75);
+  // ==== 26. 36-STAR CONSTELLATION (full circle) ====
+  for (let i = 0; i < 36; i++) {
+    const a = (i * TAU) / 36;
+    star5(cx + 570 * Math.cos(a), cy + 570 * Math.sin(a), 10, 4.5, 0.55);
   }
 
   // ==== 27–29. TRIPLE INNER RING + BEADED FILL ====
-  circle(540, 5, 1);
-  circle(528, 2, 0.45);
-  circle(522, 1, 0.2);
-  // 160 beads between rings
-  for (let i = 0; i < 160; i++) {
-    const a = (i * TAU) / 160;
+  circle(540, 6, 1);
+  circle(528, 2.5, 0.5);
+  circle(522, 1.2, 0.25);
+  // 200 beads between rings
+  for (let i = 0; i < 200; i++) {
+    const a = (i * TAU) / 200;
     ctx.save();
     ctx.fillStyle = B;
-    ctx.globalAlpha = 0.3;
+    ctx.globalAlpha = 0.35;
     ctx.beginPath();
-    ctx.arc(cx + 533 * Math.cos(a), cy + 533 * Math.sin(a), 2, 0, TAU);
+    ctx.arc(cx + 533 * Math.cos(a), cy + 533 * Math.sin(a), 2.2, 0, TAU);
     ctx.fill();
     ctx.restore();
   }
@@ -801,7 +805,8 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   laurelBranch('right');
 
   // ==== 31. INNER FIELD RING ====
-  circle(440, 3, 0.5);
+  circle(440, 4, 0.6);
+  circle(435, 1, 0.2);
 
   // ==== 32. LATIN MOTTO RING ====
   arcText(
@@ -829,7 +834,7 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   // Pyramid body stroke
   ctx.save();
   ctx.strokeStyle = B;
-  ctx.lineWidth = 5;
+  ctx.lineWidth = 6;
   ctx.lineJoin = 'round';
   ctx.beginPath();
   ctx.moveTo(cx - pyrHalfW, pyrTop);
@@ -901,9 +906,19 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   // Outer eye shape
   ctx.save();
   ctx.strokeStyle = B;
-  ctx.lineWidth = 4;
+  ctx.lineWidth = 5;
   ctx.beginPath();
   ctx.ellipse(cx, eyeY, 65, 42, 0, 0, TAU);
+  ctx.stroke();
+  ctx.restore();
+
+  // Second eye outline for weight
+  ctx.save();
+  ctx.strokeStyle = B;
+  ctx.lineWidth = 1.5;
+  ctx.globalAlpha = 0.3;
+  ctx.beginPath();
+  ctx.ellipse(cx, eyeY, 68, 45, 0, 0, TAU);
   ctx.stroke();
   ctx.restore();
 
@@ -986,8 +1001,8 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   // Iris outer ring
   ctx.save();
   ctx.strokeStyle = B;
-  ctx.lineWidth = 2;
-  ctx.globalAlpha = 0.55;
+  ctx.lineWidth = 3;
+  ctx.globalAlpha = 0.6;
   ctx.beginPath();
   ctx.arc(cx, eyeY, 25, 0, TAU);
   ctx.stroke();
@@ -996,16 +1011,16 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   // Iris inner ring
   ctx.save();
   ctx.strokeStyle = B;
-  ctx.lineWidth = 0.5;
-  ctx.globalAlpha = 0.2;
+  ctx.lineWidth = 1;
+  ctx.globalAlpha = 0.25;
   ctx.beginPath();
   ctx.arc(cx, eyeY, 20, 0, TAU);
   ctx.stroke();
   ctx.restore();
 
-  // Iris striations (48 radial lines)
-  for (let i = 0; i < 48; i++) {
-    const a = (i * TAU) / 48;
+  // Iris striations (64 radial lines)
+  for (let i = 0; i < 64; i++) {
+    const a = (i * TAU) / 64;
     ctx.save();
     ctx.strokeStyle = B;
     ctx.lineWidth = 0.4;
@@ -1094,17 +1109,17 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
     ctx.restore();
   }
 
-  // ==== 35. 24 RADIATING GLORY RAYS ====
-  for (let i = 0; i < 24; i++) {
-    const deg = -55 + i * (110 / 23);
+  // ==== 35. 30 RADIATING GLORY RAYS ====
+  for (let i = 0; i < 30; i++) {
+    const deg = -60 + i * (120 / 29);
     const a = ((deg + 90) * PI) / 180;
     ctx.save();
     ctx.strokeStyle = B;
-    ctx.lineWidth = i % 3 === 0 ? 2.5 : 1.5;
-    ctx.globalAlpha = 0.35 - Math.abs(i - 12) * 0.02;
+    ctx.lineWidth = i % 3 === 0 ? 3 : i % 2 === 0 ? 2 : 1;
+    ctx.globalAlpha = 0.4 - Math.abs(i - 15) * 0.018;
     ctx.beginPath();
-    ctx.moveTo(cx + 50 * Math.cos(a), eyeY + 50 * Math.sin(a));
-    ctx.lineTo(cx + 125 * Math.cos(a), eyeY + 125 * Math.sin(a));
+    ctx.moveTo(cx + 48 * Math.cos(a), eyeY + 48 * Math.sin(a));
+    ctx.lineTo(cx + 135 * Math.cos(a), eyeY + 135 * Math.sin(a));
     ctx.stroke();
     ctx.restore();
   }
@@ -1112,11 +1127,11 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   // ==== 36. ARKHIVE TEXT ====
   ctx.save();
   ctx.fillStyle = B;
-  ctx.font = '900 72px Georgia, serif';
+  ctx.font = '900 78px Georgia, serif';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   const arkY = cy + 225;
-  const arkSpacing = 62;
+  const arkSpacing = 66;
   const arkText = 'ARKHIVE';
   const arkStartX = cx - ((arkText.length - 1) * arkSpacing) / 2;
   arkText.split('').forEach((ch, i) => {
@@ -1232,55 +1247,55 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
     star5(cx + 600 * Math.cos(a), cy + 600 * Math.sin(a), 11, 5, 0.4);
   }
 
-  // ==== 40. 900-DOT PRIMARY MICROPRINT RING ====
+  // ==== 40. 1200-DOT PRIMARY MICROPRINT RING ====
   ctx.save();
   ctx.fillStyle = B;
-  ctx.globalAlpha = 0.1;
-  for (let i = 0; i < 900; i++) {
-    const a = (i * TAU) / 900;
+  ctx.globalAlpha = 0.12;
+  for (let i = 0; i < 1200; i++) {
+    const a = (i * TAU) / 1200;
     ctx.beginPath();
-    ctx.arc(cx + 620 * Math.cos(a), cy + 620 * Math.sin(a), 1.5, 0, TAU);
+    ctx.arc(cx + 620 * Math.cos(a), cy + 620 * Math.sin(a), 1.6, 0, TAU);
     ctx.fill();
   }
   ctx.restore();
 
-  // ==== 41. 400-DOT SECONDARY MICROPRINT RING ====
+  // ==== 41. 600-DOT SECONDARY MICROPRINT RING ====
   ctx.save();
   ctx.fillStyle = B;
-  ctx.globalAlpha = 0.06;
-  for (let i = 0; i < 400; i++) {
-    const a = (i * TAU) / 400;
+  ctx.globalAlpha = 0.08;
+  for (let i = 0; i < 600; i++) {
+    const a = (i * TAU) / 600;
     ctx.beginPath();
-    ctx.arc(cx + 505 * Math.cos(a), cy + 505 * Math.sin(a), 1, 0, TAU);
+    ctx.arc(cx + 505 * Math.cos(a), cy + 505 * Math.sin(a), 1.2, 0, TAU);
     ctx.fill();
   }
   ctx.restore();
 
-  // ==== 42. 80-DOT INNER SECURITY BEAD RING ====
+  // ==== 42. 100-DOT INNER SECURITY BEAD RING ====
   ctx.save();
   ctx.fillStyle = B;
-  ctx.globalAlpha = 0.15;
-  for (let i = 0; i < 80; i++) {
-    const a = (i * TAU) / 80;
+  ctx.globalAlpha = 0.18;
+  for (let i = 0; i < 100; i++) {
+    const a = (i * TAU) / 100;
     ctx.beginPath();
-    ctx.arc(cx + 460 * Math.cos(a), cy + 460 * Math.sin(a), 2, 0, TAU);
+    ctx.arc(cx + 460 * Math.cos(a), cy + 460 * Math.sin(a), 2.2, 0, TAU);
     ctx.fill();
   }
   ctx.restore();
 
   // ==== 43. CONCENTRIC SECURITY HAIRLINES ====
-  for (const r of [485, 495, 510, 550, 560, 575]) {
-    circle(r, 0.3, 0.04);
+  for (const r of [485, 493, 505, 515, 550, 558, 575, 583, 610, 625]) {
+    circle(r, 0.35, 0.05);
   }
 
   // ==== 44–45. SACRED GEOMETRY RADIAL HASH CLUSTERS ====
-  for (let gi = 0; gi < 6; gi++) {
-    const deg = gi * 60;
+  for (let gi = 0; gi < 12; gi++) {
+    const deg = gi * 30;
     const rad = (deg * PI) / 180;
     const hx = cx + 470 * Math.cos(rad);
     const hy = cy + 470 * Math.sin(rad);
-    for (let hi = -2; hi <= 2; hi++) {
-      const ha = rad + hi * 0.08;
+    for (let hi = -3; hi <= 3; hi++) {
+      const ha = rad + hi * 0.06;
       ctx.save();
       ctx.strokeStyle = B;
       ctx.lineWidth = 0.4;
