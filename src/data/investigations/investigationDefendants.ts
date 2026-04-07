@@ -201,8 +201,8 @@ const investigationDefendants: Record<string, Defendant[]> = {
   ],
   '1980s-insider-trading': [
     { name: 'Ivan Boesky', role: 'Stock speculator and insider trader', status: 'convicted', charges: ['Insider trading'], sentence: '3.5 years', fine: '$100 million', convictionDate: '1987-12-18', notes: 'Cooperated with prosecution; famous Wall Street insider trader' },
-    { name: 'Michael Milken', role: 'Junk bond king at Drexel Burnham Lambert', status: 'convicted', charges: ['Securities fraud', 'Tax fraud'], sentence: '10 years (served 2)', fine: '$600 million', convictionDate: '1990-04-24', pardonDate: '2020-02-18', pardonedBy: 'Donald Trump' },
-    { name: 'Dennis Levine', role: 'Investment banker insider trader', status: 'convicted', charges: ['Securities fraud', 'Tax evasion', 'Perjury'], sentence: '2 years', fine: '$362,000', convictionDate: '1986-06-05', notes: 'Cooperated; triggered investigation of Boesky and Milken' },
+    { name: 'Michael Milken', role: 'Junk bond king at Drexel Burnham Lambert', status: 'convicted', charges: ['Securities fraud', 'Tax fraud'], sentence: '10 years (served 2)', fine: '$600 million', convictionDate: '1990-04-24', pardonDate: '2020-02-18', pardonedBy: 'Donald Trump', imageUrl: '/defendants/michael-milken.jpg' },
+    { name: 'Dennis Levine', role: 'Investment banker insider trader', status: 'convicted', charges: ['Securities fraud', 'Tax evasion', 'Perjury'], sentence: '2 years', fine: '$362,000', convictionDate: '1986-06-05', notes: 'Cooperated; triggered investigation of Boesky and Milken', imageUrl: '/defendants/dennis-levine.jpg' },
     { name: 'Drexel Burnham Lambert', role: 'Investment bank at center of junk bond fraud', status: 'convicted', charges: ['Securities fraud'], fine: '$650 million', convictionDate: '1988-12-21', notes: 'Pled guilty; filed bankruptcy 1990' },
   ],
   'aurora-shooting': [

@@ -1210,18 +1210,30 @@ export default function InvestigationPage() {
                 >
                   {defendants.map((def: any, idx: number) => {
                     const st = statusColors[def.status] || statusColors.pending;
+                    const initials = def.name.split(/\s+/).filter(Boolean).map((w: string) => w[0]).join('').slice(0, 2).toUpperCase();
                     return (
                       <motion.div key={idx} variants={fadeSlideLeft}
                         className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] overflow-hidden hover:border-[rgba(184,0,0,0.18)] transition-all duration-300 group">
                         <div className="h-[2px] w-full" style={{ background: `linear-gradient(90deg, ${st.dot}, ${st.dot}40, transparent)` }} />
                         <div className="p-2.5">
                           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
-                            <div>
-                              <Link href={`/entities/individuals/${slugifyName(def.name)}`}
-                                className="text-base font-black text-white hover:text-red-400 transition-colors uppercase tracking-wide leading-tight">
-                                {def.name}
-                              </Link>
-                              <p className="text-xs text-zinc-500 mt-1">{def.role}</p>
+                            <div className="flex items-start gap-3">
+                              {/* Defendant photo or initials monogram */}
+                              {def.imageUrl ? (
+                                <img src={def.imageUrl} alt={def.name}
+                                  className="w-12 h-12 object-cover border border-white/10 flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-500" />
+                              ) : (
+                                <div className="w-12 h-12 bg-white/[0.04] border border-white/10 flex items-center justify-center flex-shrink-0">
+                                  <span className="text-sm font-black text-zinc-500 tracking-widest">{initials}</span>
+                                </div>
+                              )}
+                              <div>
+                                <Link href={`/entities/individuals/${slugifyName(def.name)}`}
+                                  className="text-base font-black text-white hover:text-red-400 transition-colors uppercase tracking-wide leading-tight">
+                                  {def.name}
+                                </Link>
+                                <p className="text-xs text-zinc-500 mt-1">{def.role}</p>
+                              </div>
                             </div>
                             <div className="flex items-center gap-2 flex-shrink-0">
                               <div className="flex items-center gap-2 px-4 py-2" style={{ background: st.bg, borderLeft: `3px solid ${st.dot}` }}>
