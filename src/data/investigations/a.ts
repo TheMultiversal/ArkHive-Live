@@ -692,44 +692,62 @@ const investigations_a: Record<string, InvestigationData> = {
  },
   'abacus-scandal': {
  title: 'Goldman Sachs Abacus CDO Fraud',
- subtitle: 'Goldman Sachs sold mortgage-backed CDOs designed to fail while simultaneously betting against them, ',
+ subtitle: 'Goldman Sachs sold mortgage-backed CDOs designed to fail while secretly betting against them, then paid a fraction of its profits to settle',
  severity: 'high',
  category: 'Financial Crime',
  date: 'July 4, 2023',
  lastUpdated: 'March 11, 2025',
- summary: 'Goldman Sachs sold mortgage-backed CDOs designed to fail while simultaneously betting against them, contributing to the 2008 financial crisis.',
+ summary: 'In 2007, Goldman Sachs created the Abacus 2007-AC1 synthetic CDO at the request of hedge fund manager John Paulson, who wanted to bet against the housing market. Goldman sold the CDO to institutional investors without disclosing that Paulson had selected the underlying mortgage bonds specifically because he expected them to fail, or that he was shorting the deal. Investors lost over $1 billion. Goldman paid $550 million to the SEC in 2010 — the largest Wall Street penalty at the time — while the only individual charged, VP Fabrice Tourre, was found liable for fraud. No senior Goldman executive faced any criminal accountability.',
  content: [
- 'Goldman Sachs created the Abacus 2007-AC1 CDO at the request of hedge fund manager John Paulson, who wanted to bet against the housing market.',
- 'Goldman sold the CDO to investors without disclosing Paulson\'s role in selecting the underlying assets or his short position against them.',
- 'The SEC charged Goldman with fraud in 2010. Goldman paid $550 million to settle; the largest SEC penalty against a Wall Street firm at that time.'
+ 'THE SCHEME: In late 2006, hedge fund manager John Paulson approached Goldman Sachs with a proposition: he wanted Goldman to create a synthetic CDO filled with mortgage bonds Paulson believed would default, so he could bet against it. Goldman obliged, creating ABACUS 2007-AC1, a $2 billion synthetic collateralized debt obligation referencing subprime residential mortgage-backed securities. Paulson\'s fund, Paulson & Co., paid Goldman approximately $15 million in fees to structure the deal.',
+ 'THE DECEPTION: Goldman hired ACA Management, a respected CDO manager, to select the portfolio of mortgage bonds. But what Goldman did not tell ACA — or the investors who would buy the CDO — was that Paulson was heavily involved in selecting the reference portfolio, specifically choosing bonds he expected to default. ACA was led to believe Paulson was investing alongside them (going long), not betting against them (going short). Goldman\'s marketing materials described ACA as the independent portfolio selection agent without mentioning Paulson\'s role or his short position.',
+ 'FABRICE TOURRE: The deal was structured primarily by Goldman VP Fabrice Tourre, who became the only individual charged. In emails that became infamous during the investigation, Tourre wrote to his girlfriend that he was selling "monstrosities" to "widows and orphans" and described himself as "the fabulous Fab" standing in the middle of complex exotic trades "without necessarily understanding all of the implications." Tourre was found liable for fraud in a 2013 civil trial.',
+ 'THE LOSSES: Investors in ABACUS 2007-AC1 lost approximately $1 billion as the underlying mortgage bonds defaulted during the 2007-2008 housing crisis. The largest losers included IKB Deutsche Industriebank, which lost approximately $150 million, and ABN AMRO (later Royal Bank of Scotland), which lost approximately $841 million. Meanwhile, Paulson\'s fund made approximately $1 billion in profit from his short position on the deal.',
+ 'THE SEC INVESTIGATION: The SEC began investigating Goldman\'s CDO practices in 2008. The agency focused on whether Goldman had committed fraud by failing to disclose Paulson\'s role and his adverse interest. On April 16, 2010, the SEC filed a civil complaint against Goldman Sachs and Fabrice Tourre. The announcement wiped $12 billion off Goldman\'s market capitalization in a single day.',
+ 'THE SETTLEMENT: On July 15, 2010, Goldman agreed to pay $550 million to settle the SEC\'s charges — the largest penalty ever assessed against a Wall Street firm at that time. Goldman acknowledged that its marketing materials were "incomplete" and that it was a "mistake" not to disclose Paulson\'s role. The settlement represented approximately 14 days of Goldman\'s revenue. No senior executives were charged or disciplined.',
+ 'LLOYD BLANKFEIN\'S TESTIMONY: Goldman CEO Lloyd Blankfein testified before the Senate Permanent Subcommittee on Investigations in April 2010. When pressed on whether Goldman had a duty to act in its clients\' best interest, Blankfein argued the firm was merely a "market maker" with no obligation to its buyers. Senator Carl Levin repeatedly quoted internal Goldman emails describing deals as "shitty" while the firm sold them to clients.',
+ 'SYSTEMIC PATTERN: ABACUS was not an isolated deal. Goldman created at least 25 Abacus transactions between 2004 and 2008, generating billions in fees. The Senate investigation found that Goldman marketed CDOs to clients while simultaneously building short positions against them. Internal communications showed that Goldman traders celebrated as mortgage markets collapsed, calling the crisis a "great opportunity."',
+ 'THE PERVERSE IRONY: While Goldman paid $550 million for the ABACUS fraud, the only bank to face criminal prosecution for mortgage-related conduct during the entire financial crisis was Abacus Federal Savings Bank, a tiny Chinatown community bank in New York with $282 million in assets. Manhattan DA Cyrus Vance charged 19 Abacus employees with fraud in 2012. All were acquitted in 2015. The juxtaposition of Goldman\'s civil settlement with the criminal prosecution of a community bank serving Chinese immigrants became a symbol of two-tiered justice.',
+ 'NO CRIMINAL ACCOUNTABILITY: Despite evidence that Goldman systematically defrauded its own clients, the DOJ never brought criminal charges against the firm or any of its executives. Attorney General Eric Holder later acknowledged that some institutions were "too big to jail." The ABACUS case exemplified the post-crisis pattern: massive fines that amounted to a cost of doing business, no admission of wrongdoing, and zero individual criminal accountability for executives who designed, approved, and profited from the fraud.'
  ],
- tags: ['Goldman Sachs', 'Abacus CDO', 'Securities Fraud', 'Financial Crisis', 'SEC', 'Synthetic CDO'],
+ tags: ['Goldman Sachs', 'Abacus CDO', 'Securities Fraud', 'Financial Crisis', 'SEC', 'Synthetic CDO', 'John Paulson', 'Fabrice Tourre', 'Too Big to Fail', 'Two-Tiered Justice'],
  sources: [
- { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
- { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
- { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
- { title: 'CFPB Enforcement Actions', url: 'https://www.consumerfinance.gov/enforcement/actions/', type: 'Government' },
- { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government' },
- { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
- { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
- { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' }
+ { title: 'SEC Complaint: Goldman Sachs & Fabrice Tourre (ABACUS 2007-AC1)', url: 'https://www.sec.gov/litigation/complaints/2010/comp21489.pdf', type: 'Court Filing' },
+ { title: 'Senate Permanent Subcommittee on Investigations: Wall Street and the Financial Crisis', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/media/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis', type: 'Congressional Record' },
+ { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government Report' },
+ { title: 'SEC Settlement: Goldman Sachs Agrees to Pay $550 Million', url: 'https://www.sec.gov/news/press/2010/2010-123.htm', type: 'Government' },
+ { title: 'Reuters: Tourre Found Liable for Fraud', url: 'https://www.reuters.com/article/us-goldmansachs-sec-tourre-idUSBRE9700GZ20130801', type: 'Investigation' },
+ { title: 'ProPublica: The Magnetar Trade', url: 'https://www.propublica.org/article/the-magnetar-trade-how-one-hedge-fund-helped-keep-the-housing-bubble-going', type: 'Investigation' }
  ],
  affiliations: [
- { id: '1', name: 'USDA', type: 'agency', relationship: 'Animal Welfare Act enforcement', href: '/entities/agencies/usda' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' }
+ { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Created and marketed ABACUS 2007-AC1 while allowing Paulson to select assets to short; paid $550M SEC settlement', href: '/entities/corporations/goldman-sachs' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Investigated and charged Goldman and Tourre; secured $550M settlement', href: '/entities/agencies/sec' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Declined to bring criminal charges against Goldman or its executives', href: '/entities/agencies/doj' },
+ { id: '4', name: 'Senate Permanent Subcommittee on Investigations', type: 'agency', relationship: 'Led by Sen. Carl Levin; grilled Blankfein on Goldman\'s duties to clients', href: '/entities/agencies/senate' },
+ { id: '5', name: 'IKB Deutsche Industriebank', type: 'corporation', relationship: 'Lost approximately $150 million investing in ABACUS 2007-AC1', href: '/entities/corporations/ikb' },
+ { id: '6', name: 'ACA Management', type: 'corporation', relationship: 'CDO portfolio selection agent misled about Paulson\'s role and short position', href: '/entities/corporations/aca-management' }
  ],
-   eventOriginDate: '1956-01-01',
+   eventOriginDate: '2006-01-01',
    lastActivityDate: '2025-03-11',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2007', event: 'Goldman Sachs created the Abacus 2007-AC1 CDO at the request of hedge fund manager John Paulson, who wanted to bet against the housing market.', type: 'default' },
-     { date: '2010', event: 'The SEC charged Goldman with fraud in 2010.', type: 'default' }
+     { date: '2006-12', event: 'John Paulson approaches Goldman Sachs to create a synthetic CDO of mortgage bonds he can bet against. Goldman VP Fabrice Tourre begins structuring ABACUS 2007-AC1', type: 'financial' },
+     { date: '2007-01', event: 'ACA Management is hired as portfolio selection agent for ABACUS. Goldman does not disclose that Paulson is involved in selecting assets and plans to short the deal. ACA is led to believe Paulson is going long', type: 'critical' },
+     { date: '2007-04-26', event: 'ABACUS 2007-AC1 closes. IKB Deutsche Industriebank and other institutional investors purchase tranches totaling $2 billion. Goldman collects approximately $15 million in fees from Paulson', type: 'financial' },
+     { date: '2007-10', event: 'Underlying mortgage bonds in the ABACUS portfolio begin defaulting rapidly as the subprime crisis accelerates. Within months, 99% of the portfolio is downgraded', type: 'critical' },
+     { date: '2008-01', event: 'ABACUS investors have lost approximately $1 billion. Paulson\'s fund has profited approximately $1 billion from its short position on the identical assets', type: 'financial' },
+     { date: '2010-04-16', event: 'SEC files civil fraud charges against Goldman Sachs and Fabrice Tourre for misleading investors in the ABACUS deal. Goldman\'s stock drops $12 billion in a single day', type: 'legal' },
+     { date: '2010-04-27', event: 'CEO Lloyd Blankfein testifies before Senate Permanent Subcommittee on Investigations. Senator Levin repeatedly quotes internal emails describing CDOs as "shitty deals" sold to clients', type: 'political' },
+     { date: '2010-07-15', event: 'Goldman agrees to pay $550 million to settle SEC charges — the largest Wall Street penalty to date. Goldman admits marketing materials were "incomplete" but makes no broader admission of wrongdoing', type: 'legal' },
+     { date: '2012-06', event: 'Manhattan DA Cyrus Vance indicts 19 employees of Abacus Federal Savings Bank, a tiny Chinatown community bank — the only bank criminally charged for mortgage fraud in the entire crisis', type: 'legal' },
+     { date: '2013-08-01', event: 'Fabrice Tourre found liable for fraud in civil trial. He is the only individual held personally accountable for the ABACUS scheme. No criminal charges are ever brought', type: 'legal' },
+     { date: '2015-06', event: 'All 19 Abacus Federal Savings Bank defendants acquitted. The only criminal prosecution of a bank for crisis-era mortgage conduct ends in complete exoneration of a community bank', type: 'legal' }
    ],
-
  defendants: [
-
-   { name: 'Abacus Federal Savings Bank', role: 'Small Chinatown bank; only bank criminally prosecuted for mortgage fraud related to 2008 crisis', status: 'acquitted', notes: 'All defendants acquitted in 2015. Only bank indicted while major Wall Street banks paid fines.' }
-
+   { name: 'Goldman Sachs', role: 'Created and marketed ABACUS 2007-AC1 while concealing Paulson\'s adverse role', status: 'settled', fine: '$550 million', notes: 'Largest SEC penalty against a Wall Street firm at the time; no admission of fraud; acknowledged marketing materials were "incomplete"' },
+   { name: 'Fabrice Tourre', role: 'Goldman VP who structured the ABACUS deal', status: 'convicted', charges: ['Securities fraud'], convictionDate: '2013-08-01', notes: 'Found liable in civil trial; only individual held accountable; subsequently left finance for academia' },
+   { name: 'Lloyd Blankfein', role: 'Goldman CEO who oversaw CDO business and testified to Congress', status: 'pending', notes: 'Testified Goldman was merely a "market maker" with no duty to clients; never charged' },
+   { name: 'Abacus Federal Savings Bank', role: 'Small Chinatown community bank; only bank criminally prosecuted for mortgage fraud in the entire financial crisis', status: 'acquitted', notes: 'All 19 employees acquitted in 2015; prosecution seen as scapegoating a minority-serving community bank while Wall Street paid fines' }
  ],
  },  'activism-harassment': {
  title: 'Activism Harassment',

@@ -1345,7 +1345,7 @@ const investigations_n: Record<string, InvestigationData> = {
    'The ongoing crisis of Missing and Murdered Indigenous Women (MMIW) (with thousands of unresolved cases) receives minimal federal attention or media coverage compared to cases involving white victims. A 2017 study found that Native American women face murder rates more than ten times the national average on some reservations.',
    'Contemporary conditions on Native American reservations (including extreme poverty, lack of healthcare, contaminated water supplies, and underfunded schools) are consistently treated as unfortunate circumstances rather than the direct, predictable consequences of centuries of deliberate governmental policy.'
  ],
- tags: ['criminal-justice', 'war'],
+ tags: ['Native American Genocide', 'Trail of Tears', 'Indian Removal Act', 'Wounded Knee', 'Sand Creek Massacre', 'Boarding Schools', 'Forced Assimilation', 'Treaty Violations', 'Andrew Jackson', 'Manifest Destiny', 'MMIW', 'Reservation System', 'Cultural Genocide', 'Indigenous Rights'],
  sources: [
    { title: 'Federal Indian Boarding School Initiative Investigative Report, U.S. Department of the Interior', url: 'https://www.doi.gov/priorities/strengthening-indian-country/federal-indian-boarding-school-initiative', type: 'Article' },
    { title: 'National Museum of the American Indian, Smithsonian Institution', url: 'https://americanindian.si.edu/', type: 'Article' },

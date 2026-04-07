@@ -1002,7 +1002,7 @@ const investigations_v: Record<string, InvestigationData> = {
    'Agent Orange manufacturers (Dow Chemical, Monsanto) knew dioxin was toxic to humans but concealed internal studies showing the dangers. The U.S. government continued spraying for years after evidence of harm emerged. Vietnamese victims have received no compensation. The dioxin continues to cause birth defects more than 50 years later.',
    'The body count metric, used by Westmoreland to measure"progress"- created systematic incentives to inflate kill numbers and count civilians as enemy combatants. The pressure to produce high body counts led directly to atrocities as soldiers killed civilians to meet performance quotas.'
  ],
- tags: ['criminal-justice', 'assassination', 'war'],
+ tags: ['Vietnam War', 'My Lai Massacre', 'Operation Speedy Express', 'Tiger Force', 'Phoenix Program', 'Agent Orange', 'Cambodia Bombing', 'Pentagon Papers', 'Henry Kissinger', 'Richard Nixon', 'Robert McNamara', 'Gulf of Tonkin', 'War Crimes', 'William Calley', 'Daniel Ellsberg'],
  sources: [
    { title: 'Seymour Hersh -"My Lai 4: A Report on the Massacre and Its Aftermath"(Random House, 1970)', url: 'https://www.pulitzer.org/winners/seymour-m-hersh', type: 'Article' },
    { title: 'The Pentagon Papers, National Archives Declassified Documents', url: 'https://www.archives.gov/research/pentagon-papers', type: 'Article' },

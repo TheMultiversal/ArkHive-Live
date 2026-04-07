@@ -5337,17 +5337,27 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: "DOL Child Labor Investigations", url: "https://www.dol.gov/agencies/whd/child-labor", type: "Government" }
     ],
     affiliations: [
-      { id: '1', name: 'FDA', type: 'agency', relationship: 'Federal healthcare regulatory authority', href: '/entities/agencies/fda' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal labor law enforcement authority', href: '/entities/agencies/doj' }
+      { id: '1', name: 'NLRB', type: 'agency', relationship: 'Filed 100+ unfair labor practice complaints against Starbucks; found Amazon engaged in illegal union-busting', href: '/entities/agencies/nlrb' },
+      { id: '2', name: 'Department of Labor', type: 'agency', relationship: 'Reports 69% increase in child labor violations since 2018; enforces wage and hour laws', href: '/entities/agencies/dol' },
+      { id: '3', name: 'FTC', type: 'agency', relationship: 'Attempted to ban non-compete agreements in 2024; rule blocked by federal court', href: '/entities/agencies/ftc' },
+      { id: '4', name: 'Amazon', type: 'corporation', relationship: '1.5 million employees; injury rates double industry average; illegal union-busting in Bessemer', href: '/entities/corporations/amazon' },
+      { id: '5', name: 'Starbucks', type: 'corporation', relationship: 'Closed unionized stores, fired organizers, withheld benefits from union locations', href: '/entities/corporations/starbucks' },
+      { id: '6', name: 'Walmart', type: 'corporation', relationship: 'Systematic wage suppression and anti-unionization; settled wage theft lawsuits for hundreds of millions', href: '/entities/corporations/walmart' }
     ],
    eventOriginDate: '1935-07-05',
    lastActivityDate: '2026-03-21',
    pageUpdatedDate: '2026-03-21',
    timeline: [
-     { date: '2018', event: 'In 2023, the DOL reported a 69% increase in child labor violations since 2018.', type: 'default' },
-     { date: '2021', event: 'STARBUCKS UNION BUSTING: Beginning in 2021, Starbucks workers organized over 400 stores under Starbucks', type: 'political' },
-     { date: '2023', event: 'In 2023, the DOL reported a 69% increase in child labor violations since 2018.', type: 'default' },
-     { date: '2024', event: 'The FTC attempted to ban non-competes in 2024 but the rule was blocked by a federal court.', type: 'legal' }
+     { date: '1935-07-05', event: 'National Labor Relations Act signed into law, establishing the right of private sector workers to organize, bargain collectively, and strike. Creates the NLRB to enforce these rights', type: 'legal' },
+     { date: '1947-06-23', event: 'Taft-Hartley Act passed over Truman veto, restricting union power by banning closed shops, allowing states to pass right-to-work laws, and enabling presidential intervention in strikes', type: 'legal' },
+     { date: '2000-12', event: 'Walmart faces largest class-action employment discrimination lawsuit (Dukes v. Walmart) on behalf of 1.5 million female employees alleging systematic pay and promotion discrimination', type: 'legal' },
+     { date: '2018', event: 'Department of Labor identifies sharp increase in child labor violations, beginning a 69% surge in violations over five years as enforcement weakens and some states pass laws loosening protections', type: 'default' },
+     { date: '2021-02', event: 'Amazon workers in Bessemer, Alabama begin first major union drive at an Amazon warehouse. NLRB later finds Amazon illegally interfered with the election through surveillance and pressure tactics', type: 'political' },
+     { date: '2021-12', event: 'Starbucks workers at a Buffalo, NY location become first corporate-owned U.S. store to unionize. Over 400 stores organize within two years under Starbucks Workers United', type: 'political' },
+     { date: '2023-03-29', event: 'Former Starbucks CEO Howard Schultz testifies before Senate HELP Committee. Senator Bernie Sanders grills him on union busting; Schultz\'s contemptuous responses draw bipartisan criticism', type: 'political' },
+     { date: '2023-02', event: 'New York Times investigation reveals migrant children as young as 12 working in meatpacking plants, auto parts factories, and food processing across the U.S.; DOL confirms massive increase in violations', type: 'critical' },
+     { date: '2024-04-23', event: 'FTC votes to ban non-compete agreements affecting an estimated 30 million American workers. Federal court in Texas blocks the rule before it takes effect', type: 'legal' },
+     { date: '2024-06', event: 'Private sector union membership stands at 6%, down from 35% in the 1950s. The share of income going to the top 1% has doubled as union density halved over four decades', type: 'default' }
    ],
 
     defendants: [
