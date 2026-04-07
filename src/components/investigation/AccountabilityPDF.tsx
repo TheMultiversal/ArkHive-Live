@@ -28,7 +28,7 @@ const statusColor: Record<string, string> = {
 const s = StyleSheet.create({
   page: { backgroundColor: c.white, padding: 42, paddingTop: 48, paddingBottom: 70, fontFamily: 'Courier', color: c.text },
   wm: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center', zIndex: 0 },
-  wmImg: { width: 350, height: 350, opacity: 0.10 },
+  wmImg: { width: 400, height: 400, opacity: 0.08 },
   banner: { backgroundColor: c.black, padding: 8, marginBottom: 14, textAlign: 'center', borderWidth: 1.5, borderColor: c.black },
   bannerText: { fontSize: 7.5, color: c.white, letterSpacing: 4, textTransform: 'uppercase', fontWeight: 'bold' },
   hdr: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 18, paddingBottom: 10, borderBottomWidth: 2, borderBottomColor: c.blood },
@@ -177,7 +177,7 @@ function Ft({ date }: { date: string }) {
 
 function Sec({ n, title, children }: { n: string; title: string; children: React.ReactNode }) {
   return (
-    <View style={s.sec} minPresenceAhead={30}>
+    <View style={s.sec} minPresenceAhead={120}>
       <View style={s.secHdr} wrap={false}>
         <Text style={s.secNum}>{n}</Text>
         <Text style={s.secTitle}>{title}</Text>
@@ -854,13 +854,13 @@ export default function AccountabilityPDF({
       </Page>
 
       {/* ============================================================
-          12–13: WEALTH TRACE + AUTHORITIES (combined)
+          12: WEALTH TRACE
           ============================================================ */}
       <Page size="A4" style={s.page}>
         <Cls />
         <Wm uri={sealDataUri} />
         <View style={s.banner}>
-          <Text style={s.bannerText}>SECTION 12–13 | WEALTH TRACE & AUTHORITIES</Text>
+          <Text style={s.bannerText}>SECTION 12 | WEALTH TRACE | {data.wealthTrace.length} ENTRIES</Text>
         </View>
 
         <Sec n="12" title="Where the Money Is Now">
@@ -880,7 +880,18 @@ export default function AccountabilityPDF({
           ))}
         </Sec>
 
-        <View style={s.div} />
+        <Ft date={genDate} />
+      </Page>
+
+      {/* ============================================================
+          13: AUTHORITIES WITH POWER TO ACT
+          ============================================================ */}
+      <Page size="A4" style={s.page}>
+        <Cls />
+        <Wm uri={sealDataUri} />
+        <View style={s.banner}>
+          <Text style={s.bannerText}>SECTION 13 | AUTHORITIES WITH POWER TO ACT | {data.authoritiesWithPower.length} AUTHORITIES</Text>
+        </View>
 
         <Sec n="13" title="Authorities With Power to Act">
           {data.authoritiesWithPower.map((auth, idx) => (
