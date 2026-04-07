@@ -25,7 +25,7 @@ interface ArkHiveSealProps {
    27–29. Triple inner ring with beaded fill (120 beads)
    30.   Laurel wreaths (28 leaves per side + berries + veins + stem)
    31.   Inner field ring
-   32.   Latin motto: VERITAS · LUX · JUSTITIA
+   32.   Latin motto: VERITAS · LUX · JUSTITIA (full circle)
    33.   Inverted pyramid, 16 courses, brick + hatched fill
    34.   All-seeing eye: 36 iris striations, double eyelid, 11 lash lines
    35.   24 radiating glory rays
@@ -34,9 +34,10 @@ interface ArkHiveSealProps {
    38.   Motto ribbon: "TRUTH · ACCOUNTABILITY · TRANSPARENCY"
    39.   900-dot primary microprint simulation ring
    40.   300-dot secondary microprint ring
-   41.   60-dot inner security bead ring
+   41.   80-dot inner security bead ring
    42.   Concentric security hairlines (6 rings)
-   43–45. Sacred geometry radial hash clusters
+   43–45. Sacred geometry radial hash clusters (12 positions)
+   46.   Inner decorative diamond ring (48 marks)
    ================================================================ */
 
 export default function ArkHiveSeal({ size = 120, className = '' }: ArkHiveSealProps) {
@@ -286,13 +287,13 @@ export default function ArkHiveSeal({ size = 120, className = '' }: ArkHiveSealP
       {/* === 31. INNER FIELD RING === */}
       <circle cx="100" cy="100" r="44" stroke={B} strokeWidth="0.6" fill="none" opacity="0.5" />
 
-      {/* === 32. LATIN MOTTO: VERITAS · LUX · JUSTITIA === */}
+      {/* === 32. LATIN MOTTO: VERITAS · LUX · JUSTITIA (full circle) === */}
       <defs>
-        <path id="latinArc" d="M 56,100 a 44,44 0 1,1 88,0" />
+        <path id="latinArc" d="M 56,100 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0" />
       </defs>
-      <text fill={B} fontSize="2.8" fontFamily="Georgia, serif" fontWeight="bold" letterSpacing="2" opacity="0.4">
-        <textPath href="#latinArc" startOffset="50%" textAnchor="middle">
-          VERITAS · LUX · JUSTITIA
+      <text fill={B} fontSize="2.5" fontFamily="Georgia, serif" fontWeight="bold" letterSpacing="1.5" opacity="0.35">
+        <textPath href="#latinArc" startOffset="0%">
+          VERITAS · LUX · JUSTITIA · VERITAS · LUX · JUSTITIA · VERITAS · LUX · JUSTITIA · VERITAS · LUX · JUSTITIA
         </textPath>
       </text>
 
@@ -450,10 +451,10 @@ export default function ArkHiveSeal({ size = 120, className = '' }: ArkHiveSealP
         return <circle key={`mp2-${i}`} cx={100 + 48 * Math.cos(a)} cy={100 + 48 * Math.sin(a)} r="0.08" fill={B} opacity="0.06" />;
       })}
 
-      {/* === 41. 60-DOT INNER SECURITY BEAD RING === */}
-      {Array.from({ length: 60 }).map((_, i) => {
-        const a = (i * TAU) / 60;
-        return <circle key={`sb-${i}`} cx={100 + 45 * Math.cos(a)} cy={100 + 45 * Math.sin(a)} r="0.22" fill={B} opacity="0.15" />;
+      {/* === 41. 80-DOT INNER SECURITY BEAD RING === */}
+      {Array.from({ length: 80 }).map((_, i) => {
+        const a = (i * TAU) / 80;
+        return <circle key={`sb-${i}`} cx={100 + 45 * Math.cos(a)} cy={100 + 45 * Math.sin(a)} r="0.25" fill={B} opacity="0.2" />;
       })}
 
       {/* === 42. CONCENTRIC SECURITY HAIRLINES === */}
@@ -461,18 +462,29 @@ export default function ArkHiveSeal({ size = 120, className = '' }: ArkHiveSealP
         <circle key={`sec-${i}`} cx="100" cy="100" r={r} stroke={B} strokeWidth="0.06" fill="none" opacity={0.04 + i * 0.01} />
       ))}
 
-      {/* === 43–45. SACRED GEOMETRY RADIAL HASH CLUSTERS === */}
-      {[0, 60, 120, 180, 240, 300].map((deg, gi) => {
+      {/* === 43–45. SACRED GEOMETRY RADIAL HASH CLUSTERS (full circle, 12 positions) === */}
+      {Array.from({ length: 12 }).map((_, gi) => {
+        const deg = gi * 30;
         const rad = (deg * PI) / 180;
         const hx = 100 + 47 * Math.cos(rad);
         const hy = 100 + 47 * Math.sin(rad);
-        return Array.from({ length: 5 }).map((_, hi) => {
-          const ha = rad + (hi - 2) * 0.08;
+        return Array.from({ length: 7 }).map((_, hi) => {
+          const ha = rad + (hi - 3) * 0.06;
           return <line key={`hash-${gi}-${hi}`}
             x1={hx + 1.5 * Math.cos(ha)} y1={hy + 1.5 * Math.sin(ha)}
             x2={hx + 3.5 * Math.cos(ha)} y2={hy + 3.5 * Math.sin(ha)}
-            stroke={B} strokeWidth="0.08" opacity="0.08" />;
+            stroke={B} strokeWidth="0.1" opacity="0.12" />;
         });
+      })}
+
+      {/* === 46. INNER DECORATIVE DIAMOND RING (48 marks, full circle) === */}
+      {Array.from({ length: 48 }).map((_, i) => {
+        const a = (i * TAU) / 48;
+        const x = 100 + 46 * Math.cos(a);
+        const y = 100 + 46 * Math.sin(a);
+        return <path key={`idm-${i}`}
+          d={`M ${x},${y - 0.8} L ${x + 0.5},${y} L ${x},${y + 0.8} L ${x - 0.5},${y} Z`}
+          fill={B} opacity="0.2" />;
       })}
     </svg>
   );
@@ -808,11 +820,17 @@ export async function getArkHiveSealPngDataUri(): Promise<string> {
   circle(440, 4, 0.6);
   circle(435, 1, 0.2);
 
-  // ==== 32. LATIN MOTTO RING ====
+  // ==== 32. LATIN MOTTO RING (full circle, repeated) ====
   arcText(
-    'V E R I T A S  \u00b7  L U X  \u00b7  J U S T I T I A',
-    455, -PI * 0.35, -PI * 0.65, true, 16, 0.4,
+    'V E R I T A S  \u00b7  L U X  \u00b7  J U S T I T I A  \u00b7  V E R I T A S  \u00b7  L U X  \u00b7  J U S T I T I A  \u00b7  V E R I T A S  \u00b7  L U X  \u00b7  J U S T I T I A',
+    455, 0, TAU * 0.97, true, 14, 0.35,
   );
+
+  // ==== 32b. INNER DECORATIVE DIAMOND RING (48 marks, full circle) ====
+  for (let i = 0; i < 48; i++) {
+    const a = (i * TAU) / 48;
+    diamond(cx + 450 * Math.cos(a), cy + 450 * Math.sin(a), 3, 5, 0.2);
+  }
 
   // ==== 33. INVERTED PYRAMID (16 courses + brick + cross-hatch) ====
   const pyrTop = cy - 160;

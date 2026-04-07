@@ -109,58 +109,94 @@ function Cls() {
   const bk = '#000000';
   return (
     <>
-      {/* ═══════════ EXOTIC MULTI-LAYER GOVERNMENT CERTIFICATE BORDER ═══════════ */}
-      <View style={{ position: 'absolute', top: 3, left: 3, right: 3, bottom: 3 }} fixed>
-        {/* Layer 1: Heavy outer frame */}
-        <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderWidth: 3, borderColor: bk }} />
-        {/* Layer 2: Double-line outer */}
-        <View style={{ position: 'absolute', top: 3, left: 3, right: 3, bottom: 3, borderWidth: 0.5, borderColor: bk, opacity: 0.7 }} />
-        {/* Layer 3: Ornamental band frame */}
-        <View style={{ position: 'absolute', top: 6, left: 6, right: 6, bottom: 6, borderWidth: 1.5, borderColor: bk, opacity: 0.5 }} />
-        {/* Layer 4: Inner fine rule */}
-        <View style={{ position: 'absolute', top: 9, left: 9, right: 9, bottom: 9, borderWidth: 0.3, borderColor: bk, opacity: 0.35 }} />
-        {/* Layer 5: Medium inset frame */}
-        <View style={{ position: 'absolute', top: 12, left: 12, right: 12, bottom: 12, borderWidth: 0.8, borderColor: bk, opacity: 0.25 }} />
-        {/* Layer 6: Delicate hairline frame */}
-        <View style={{ position: 'absolute', top: 16, left: 16, right: 16, bottom: 16, borderWidth: 0.25, borderColor: bk, opacity: 0.18 }} />
-        {/* Layer 7: Ghost innermost frame */}
-        <View style={{ position: 'absolute', top: 20, left: 20, right: 20, bottom: 20, borderWidth: 0.5, borderColor: bk, opacity: 0.1 }} />
+      {/* ═══════════ ANCIENT DIVINE ACCOUNTABILITY BORDER ═══════════ */}
+      <View style={{ position: 'absolute', top: 2, left: 2, right: 2, bottom: 2 }} fixed>
 
-        {/* ── OUTER CORNER REINFORCEMENTS (large L-brackets) ── */}
-        <View style={{ position: 'absolute', top: -1, left: -1, width: 30, height: 30, borderBottomWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
-        <View style={{ position: 'absolute', top: -1, right: -1, width: 30, height: 30, borderBottomWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
-        <View style={{ position: 'absolute', bottom: -1, left: -1, width: 30, height: 30, borderTopWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
-        <View style={{ position: 'absolute', bottom: -1, right: -1, width: 30, height: 30, borderTopWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
+        {/* ── LAYER 1: Thick outer frame ── */}
+        <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, borderWidth: 3.5, borderColor: bk }} />
+        {/* ── LAYER 2: Double-line ── */}
+        <View style={{ position: 'absolute', top: 4, left: 4, right: 4, bottom: 4, borderWidth: 0.75, borderColor: bk, opacity: 0.8 }} />
+        {/* ── LAYER 3: Ornamental band outer ── */}
+        <View style={{ position: 'absolute', top: 7, left: 7, right: 7, bottom: 7, borderWidth: 2, borderColor: bk, opacity: 0.45 }} />
+        {/* ── LAYER 4: Fine rule ── */}
+        <View style={{ position: 'absolute', top: 10, left: 10, right: 10, bottom: 10, borderWidth: 0.3, borderColor: bk, opacity: 0.3 }} />
+        {/* ── LAYER 5: Text band outer boundary ── */}
+        <View style={{ position: 'absolute', top: 12, left: 12, right: 12, bottom: 12, borderWidth: 0.75, borderColor: bk, opacity: 0.5 }} />
+
+        {/* ── RUNNING SACRED MOTTO TEXT IN BORDER BAND ── */}
+        <Text style={{ position: 'absolute', top: 13.5, left: 30, right: 30, fontSize: 3.2, color: bk, opacity: 0.12, textAlign: 'center', letterSpacing: 1.2 }}>
+          JUSTITIA + VERITAS + DEO VINDICE + ACCOUNTABILITY + TRUTH + TRANSPARENCY + JUSTITIA + VERITAS
+        </Text>
+        <Text style={{ position: 'absolute', bottom: 13.5, left: 30, right: 30, fontSize: 3.2, color: bk, opacity: 0.12, textAlign: 'center', letterSpacing: 1.2 }}>
+          IN GOD WE TRUST + ACCOUNTABILITY + VERITAS LUX JUSTITIA + TRUTH + TRANSPARENCY + IN GOD WE TRUST
+        </Text>
+
+        {/* ── LAYER 6: Text band inner boundary ── */}
+        <View style={{ position: 'absolute', top: 18, left: 18, right: 18, bottom: 18, borderWidth: 0.75, borderColor: bk, opacity: 0.4 }} />
+        {/* ── LAYER 7: Medium inner frame ── */}
+        <View style={{ position: 'absolute', top: 20, left: 20, right: 20, bottom: 20, borderWidth: 0.5, borderColor: bk, opacity: 0.25 }} />
+        {/* ── LAYER 8: Hairline frame ── */}
+        <View style={{ position: 'absolute', top: 23, left: 23, right: 23, bottom: 23, borderWidth: 0.3, borderColor: bk, opacity: 0.15 }} />
+        {/* ── LAYER 9: Ghost innermost frame ── */}
+        <View style={{ position: 'absolute', top: 26, left: 26, right: 26, bottom: 26, borderWidth: 0.2, borderColor: bk, opacity: 0.08 }} />
+
+        {/* ── CORNER CROSS ORNAMENTS (divine motif) ── */}
+        {/* Top-left cross */}
+        <View style={{ position: 'absolute', top: -2, left: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
+        <View style={{ position: 'absolute', top: 4, left: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
+        {/* Top-right cross */}
+        <View style={{ position: 'absolute', top: -2, right: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
+        <View style={{ position: 'absolute', top: 4, right: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
+        {/* Bottom-left cross */}
+        <View style={{ position: 'absolute', bottom: -2, left: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
+        <View style={{ position: 'absolute', bottom: 4, left: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
+        {/* Bottom-right cross */}
+        <View style={{ position: 'absolute', bottom: -2, right: 11.5, width: 1.5, height: 14, backgroundColor: bk, opacity: 0.5 }} />
+        <View style={{ position: 'absolute', bottom: 4, right: 5.5, width: 14, height: 1.5, backgroundColor: bk, opacity: 0.5 }} />
+
+        {/* ── OUTER CORNER L-BRACKET REINFORCEMENTS ── */}
+        <View style={{ position: 'absolute', top: -1, left: -1, width: 32, height: 32, borderBottomWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
+        <View style={{ position: 'absolute', top: -1, right: -1, width: 32, height: 32, borderBottomWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
+        <View style={{ position: 'absolute', bottom: -1, left: -1, width: 32, height: 32, borderTopWidth: 3.5, borderRightWidth: 3.5, borderColor: bk }} />
+        <View style={{ position: 'absolute', bottom: -1, right: -1, width: 32, height: 32, borderTopWidth: 3.5, borderLeftWidth: 3.5, borderColor: bk }} />
 
         {/* ── INNER CORNER BRACKETS (medium) ── */}
-        <View style={{ position: 'absolute', top: 11, left: 11, width: 18, height: 18, borderBottomWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
-        <View style={{ position: 'absolute', top: 11, right: 11, width: 18, height: 18, borderBottomWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
-        <View style={{ position: 'absolute', bottom: 11, left: 11, width: 18, height: 18, borderTopWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
-        <View style={{ position: 'absolute', bottom: 11, right: 11, width: 18, height: 18, borderTopWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        <View style={{ position: 'absolute', top: 11, left: 11, width: 20, height: 20, borderBottomWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        <View style={{ position: 'absolute', top: 11, right: 11, width: 20, height: 20, borderBottomWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        <View style={{ position: 'absolute', bottom: 11, left: 11, width: 20, height: 20, borderTopWidth: 1.5, borderRightWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
+        <View style={{ position: 'absolute', bottom: 11, right: 11, width: 20, height: 20, borderTopWidth: 1.5, borderLeftWidth: 1.5, borderColor: bk, opacity: 0.35 }} />
 
         {/* ── INNERMOST CORNER TICKS (small) ── */}
-        <View style={{ position: 'absolute', top: 19, left: 19, width: 10, height: 10, borderBottomWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', top: 19, right: 19, width: 10, height: 10, borderBottomWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', bottom: 19, left: 19, width: 10, height: 10, borderTopWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', bottom: 19, right: 19, width: 10, height: 10, borderTopWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', top: 22, left: 22, width: 10, height: 10, borderBottomWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', top: 22, right: 22, width: 10, height: 10, borderBottomWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', bottom: 22, left: 22, width: 10, height: 10, borderTopWidth: 0.75, borderRightWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
+        <View style={{ position: 'absolute', bottom: 22, right: 22, width: 10, height: 10, borderTopWidth: 0.75, borderLeftWidth: 0.75, borderColor: bk, opacity: 0.2 }} />
 
-        {/* ── SIDE-MIDPOINT DIAMOND ORNAMENTS ── */}
-        {/* Top center diamond */}
-        <View style={{ position: 'absolute', top: 1, left: '50%', marginLeft: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
-        {/* Bottom center diamond */}
-        <View style={{ position: 'absolute', bottom: 1, left: '50%', marginLeft: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
-        {/* Left center diamond */}
-        <View style={{ position: 'absolute', top: '50%', left: 1, marginTop: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
-        {/* Right center diamond */}
-        <View style={{ position: 'absolute', top: '50%', right: 1, marginTop: -4, width: 8, height: 8, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        {/* ── SIDE-MIDPOINT DIAMOND ORNAMENTS (all 4 sides) ── */}
+        <View style={{ position: 'absolute', top: 0, left: '50%', marginLeft: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        <View style={{ position: 'absolute', bottom: 0, left: '50%', marginLeft: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        <View style={{ position: 'absolute', top: '50%', left: 0, marginTop: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
+        <View style={{ position: 'absolute', top: '50%', right: 0, marginTop: -5, width: 10, height: 10, backgroundColor: bk, transform: 'rotate(45deg)', opacity: 0.45 }} />
 
-        {/* ── SIDE-MIDPOINT FLANKING LINES ── */}
-        {/* Top center flanking lines */}
-        <View style={{ position: 'absolute', top: 4.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', top: 4.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
-        {/* Bottom center flanking lines */}
-        <View style={{ position: 'absolute', bottom: 4.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
-        <View style={{ position: 'absolute', bottom: 4.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.2 }} />
+        {/* ── QUARTER-POINT CROSS ORNAMENTS (sides) ── */}
+        {/* Top side 1/4 */}
+        <View style={{ position: 'absolute', top: 3, left: '25%', marginLeft: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
+        <View style={{ position: 'absolute', top: 6, left: '25%', marginLeft: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
+        {/* Top side 3/4 */}
+        <View style={{ position: 'absolute', top: 3, right: '25%', marginRight: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
+        <View style={{ position: 'absolute', top: 6, right: '25%', marginRight: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
+        {/* Bottom side 1/4 */}
+        <View style={{ position: 'absolute', bottom: 3, left: '25%', marginLeft: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
+        <View style={{ position: 'absolute', bottom: 6, left: '25%', marginLeft: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
+        {/* Bottom side 3/4 */}
+        <View style={{ position: 'absolute', bottom: 3, right: '25%', marginRight: -0.5, width: 1, height: 8, backgroundColor: bk, opacity: 0.18 }} />
+        <View style={{ position: 'absolute', bottom: 6, right: '25%', marginRight: -3.5, width: 8, height: 1, backgroundColor: bk, opacity: 0.18 }} />
+
+        {/* ── FLANKING LINES (top & bottom center) ── */}
+        <View style={{ position: 'absolute', top: 5.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
+        <View style={{ position: 'absolute', top: 5.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
+        <View style={{ position: 'absolute', bottom: 5.5, left: '30%', right: '52%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
+        <View style={{ position: 'absolute', bottom: 5.5, left: '52%', right: '30%', height: 0, borderTopWidth: 0.5, borderColor: bk, opacity: 0.15 }} />
       </View>
       {/* Classification header */}
       <View style={s.classHdr} fixed>
@@ -1138,14 +1174,23 @@ export default function AccountabilityPDF({
             { term: 'Accountability Target', def: 'An individual or entity identified as bearing primary responsibility for the documented harm and against whom legal, regulatory, or civic action is recommended.' },
             { term: 'Civil Forfeiture', def: 'A legal process by which the government can seize assets that are proceeds of criminal activity or were used to facilitate crime, without necessarily charging the owner.' },
             { term: 'Clawback', def: 'A legal mechanism to recover funds that were improperly distributed, typically through fraud, breach of fiduciary duty, or unjust enrichment.' },
+            { term: 'Consent Decree', def: 'A court-approved agreement between parties that resolves a dispute without admission of guilt or liability. Enforceable as a court order if violated.' },
             { term: 'Constructive Trust', def: 'An equitable remedy imposed by a court to prevent unjust enrichment when property was acquired through wrongful conduct.' },
+            { term: 'Discovery', def: 'The pretrial process by which parties obtain evidence from each other through depositions, interrogatories, requests for production, and subpoenas.' },
             { term: 'Disgorgement', def: 'A court-ordered remedy requiring the return of ill-gotten gains. Commonly used by the SEC in securities fraud cases.' },
+            { term: 'Fiduciary Duty', def: 'A legal obligation to act in the best interest of another party. Breach of fiduciary duty can give rise to civil liability and equitable remedies.' },
             { term: 'FOIA (Freedom of Information Act)', def: 'A federal law (5 U.S.C. § 552) that grants the public the right to request access to records from federal agencies.' },
+            { term: 'Forfeiture in Rem', def: 'A legal proceeding against the property itself rather than the owner, used to seize assets connected to criminal activity regardless of the owner\'s conviction status.' },
             { term: 'Indictment', def: 'A formal accusation of a crime, issued by a grand jury after review of evidence presented by prosecutors.' },
+            { term: 'Injunction', def: 'A court order requiring a party to do or refrain from doing a specific act. May be temporary (preliminary) or permanent.' },
+            { term: 'Mens Rea', def: 'The mental state or criminal intent required to establish guilt for a particular offense. Levels include purposely, knowingly, recklessly, and negligently.' },
             { term: 'Qui Tam', def: 'A provision of the False Claims Act (31 U.S.C. § 3730) allowing private citizens to file lawsuits on behalf of the government against parties who have defrauded the government.' },
             { term: 'Restitution', def: 'A court-ordered payment from the convicted party to the victim(s) to compensate for financial losses caused by criminal conduct.' },
             { term: 'RICO (Racketeer Influenced and Corrupt Organizations Act)', def: 'A federal law (18 U.S.C. § 1961-1968) providing extended penalties for criminal acts performed as part of an ongoing criminal organization.' },
+            { term: 'Standing', def: 'The legal right of a party to bring a lawsuit. Requires demonstrating a concrete injury, causation, and that the injury is redressable by the court.' },
             { term: 'Statute of Limitations', def: 'The maximum period of time after an event within which legal proceedings may be initiated. Varies by offense and jurisdiction.' },
+            { term: 'Subpoena', def: 'A court order compelling a witness to testify (subpoena ad testificandum) or produce documents (subpoena duces tecum). Failure to comply may result in contempt.' },
+            { term: 'Treble Damages', def: 'A statutory provision allowing courts to triple the amount of actual damages awarded, used as a deterrent in antitrust, RICO, and certain fraud cases.' },
             { term: 'Unjust Enrichment', def: 'A legal principle that a person should not profit at another\'s expense without making restitution for the reasonable value of the benefit received.' },
             { term: 'Wealth Trace', def: 'The process of tracking the movement and current location of assets derived from criminal activity through transfers, investments, and legal entities.' },
             { term: 'Whistleblower', def: 'An individual who reports misconduct, fraud, or illegal activity within an organization to authorities or the public. Protected under various federal and state statutes.' },
