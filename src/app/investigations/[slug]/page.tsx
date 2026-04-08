@@ -19,6 +19,7 @@ import GlitchText from '@/components/effects/GlitchText';
 import CrystalButton from '@/components/ui/CrystalButton';
 import EvidenceTierBadge from '@/components/ui/EvidenceTierBadge';
 import investigationDatabase from '@/data/investigations';
+import investigationDefendants from '@/data/investigations/investigationDefendants';
 import accountabilityDatabase from '@/data/accountability';
 
 const NetworkTree = dynamic(() => import('@/components/investigation/NetworkTree'), { ssr: false });
@@ -837,7 +838,12 @@ export default function InvestigationPage() {
 
   const sev = investigation.severity || 'medium';
   const sevCfg = severityConfig[sev] || severityConfig.medium;
-  const defendants = investigation.defendants || [];
+  const rawDefendants = investigation.defendants || [];
+  const defendantImages = investigationDefendants[slug] || [];
+  const defendants = rawDefendants.map((d: any) => {
+    const match = defendantImages.find((x: any) => x.name === d.name);
+    return match?.imageUrl ? { ...d, imageUrl: match.imageUrl } : d;
+  });
   const affiliations = investigation.affiliations || [];
   const moneyTrail = investigation.moneyTrail || [];
   const timeline = investigation.timeline || [];
