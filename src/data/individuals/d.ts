@@ -2418,25 +2418,46 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'david-solomon': {
  name: 'David Solomon',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'David Solomon. Profile pending review.',
+ title: 'Convicted Investment Fund Manager; Drexel Burnham Lambert Co-Conspirator',
+ role: 'Investment Fund Manager; Securities Fraud Conspirator',
+ riskLevel: 'high',
+ description: 'David Solomon (not to be confused with current Goldman Sachs CEO David Solomon) was an investment fund manager whose Solomon Asset Management fund had extensive illegal dealings with Michael Milken\'s high-yield bond department at Drexel Burnham Lambert during the 1980s. Solomon\'s fund served as a vehicle for illegal stock parking, insider trading, and the generation of phony tax losses in coordination with Milken. Two of Michael Milken\'s six felony guilty plea counts in April 1990 directly involved illegal transactions between Milken and Solomon\'s fund. Solomon was convicted of securities fraud for his role in the insider trading conspiracy and for facilitating illegal arrangements that helped Milken and Drexel hide the true nature of their transactions. His fund\'s dealings with Drexel exemplified how Milken used a network of captive investors to manipulate markets and evade regulatory scrutiny.',
+ birthDate: 'Unknown',
+ birthPlace: 'United States',
  education: [],
  affiliations: [
+ { name: 'Solomon Asset Management', role: 'Principal and Fund Manager', type: 'corporation' as const },
+ { name: 'Drexel Burnham Lambert', role: 'Client of high-yield bond department', type: 'corporation' as const },
  ],
  controversies: [
+ 'Two of Michael Milken\'s six felony guilty plea counts directly involved illegal transactions with Solomon\'s fund',
+ 'Fund had illegal arrangements with Drexel including insider trading and generation of phony tax losses',
+ 'Convicted of securities fraud for conspiring with Milken and Drexel\'s high-yield bond department',
+ 'Solomon Asset Management served as a vehicle for stock parking schemes to hide true ownership of securities',
+ 'Coordinated with Milken to generate artificial tax losses for fund investors through sham transactions',
  ],
- charges: [],
+ charges: [
+ { statute: '15 U.S.C. § 78j(b), SEC Rule 10b-5', description: 'Securities Fraud — participating in insider trading and market manipulation with Drexel Burnham Lambert', category: 'Federal' },
+ { statute: '26 U.S.C. § 7206', description: 'Tax Fraud — generating phony tax losses through sham transactions with Milken', category: 'Federal' },
+ ],
  relatedInvestigations: [
+ { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
  ],
  timeline: [
+ { date: '1983-1988', event: 'Solomon Asset Management enters into extensive illegal arrangements with Michael Milken\'s high-yield bond department at Drexel' },
+ { date: '1988-1989', event: 'Federal investigation uncovers illegal transactions between Solomon fund and Drexel' },
+ { date: 'April 24, 1990', event: 'Two of Michael Milken\'s six guilty plea counts specifically reference illegal transactions with Solomon\'s fund' },
+ { date: '1990', event: 'Convicted of securities fraud for role in the Drexel insider trading conspiracy' },
  ],
  socialMedia: [],
  sources: [
+ { title: 'United States v. Michael Milken, Plea Agreement (S.D.N.Y., 1990)', url: 'https://www.justice.gov/archives/jm/criminal-resource-manual-2071', date: '1990' },
+ { title: 'Den of Thieves by James B. Stewart', url: 'https://archive.org/details/denofthieves00stew', date: '1991' },
  ],
  aliases: [],
  knownAssociates: [
+ { name: 'Michael Milken', relationship: 'Junk bond king whose guilty plea included counts involving illegal transactions with Solomon\'s fund', href: '/entities/individuals/michael-milken' },
+ { name: 'Drexel Burnham Lambert', relationship: 'Investment bank whose high-yield bond department facilitated illegal transactions with Solomon\'s fund' },
  ],
  },
 
@@ -6814,6 +6835,43 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Ivan Boesky', relationship: 'Received insider tips from Levine; subsequently exposed by Levine cooperation', href: '/entities/individuals/ivan-boesky' },
       { name: 'Michael Milken', relationship: 'Ultimately brought down through chain of cooperation starting with Levine', href: '/entities/individuals/michael-milken' },
+    ],
+  },
+  'david-brown': {
+    name: 'David Brown',
+    title: 'Convicted Insider Trader; Goldman Sachs Investment Banker in the Dennis Levine Ring',
+    role: 'Investment Banker, Goldman Sachs & Co.',
+    riskLevel: 'high',
+    description: 'David Brown was a Goldman Sachs investment banker who participated in Dennis Levine\'s insider trading ring during the 1980s. Brown shared nonpublic transaction details from Goldman Sachs deals with Levine, who traded on the information through secret offshore accounts. His participation meant that Goldman Sachs had two employees implicated in the scandal (Brown in the Levine ring, Robert Freeman in the Boesky network), demonstrating that even Wall Street\'s most prestigious firm was deeply penetrated by the corruption. Brown pleaded guilty and cooperated with prosecutors.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Goldman Sachs', role: 'Investment Banker', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Member of Dennis Levine\'s insider trading ring at Goldman Sachs',
+      'Goldman Sachs had two separate employees (Brown and Robert Freeman) implicated in the scandal',
+      'Shared nonpublic deal information that was traded on through secret offshore accounts',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b), SEC Rule 10b-5', description: 'Insider Trading Conspiracy: Passing material nonpublic transaction information from Goldman Sachs to Dennis Levine', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1980-1986', event: 'Passes inside deal information from Goldman Sachs to Dennis Levine as member of insider trading ring' },
+      { date: '1986', event: 'Pleads guilty to insider trading conspiracy and cooperates with prosecutors' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'James B. Stewart, Den of Thieves (1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Levine', relationship: 'Ringleader of the insider trading ring', href: '/entities/individuals/dennis-levine' },
+      { name: 'Robert Freeman', relationship: 'Fellow Goldman Sachs employee also convicted in the scandal (separate network)', href: '/entities/individuals/robert-freeman' },
     ],
   },
   'david-brown-goldman': {

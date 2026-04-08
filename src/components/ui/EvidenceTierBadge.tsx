@@ -7,11 +7,11 @@ import type { InvestigationData } from '@/data/investigations/types';
 /* ================================================================
    EVIDENCE TIER SYSTEM
    ================================================================
-   Tier 1: Convicted       — Court judgments, completed cases
-   Tier 2: Indicted        — Active criminal proceedings
-   Tier 3: Documented      — Declassified / officially acknowledged
-   Tier 4: Active Litigation — Civil lawsuits, ongoing investigations
-   Tier 5: Patterns        — Allegations with supporting evidence
+   Tier 1: Court Records   — Verified court documents & judicial outcomes
+   Tier 2: Active Cases     — Active criminal / regulatory proceedings
+   Tier 3: Documented       — Declassified / officially acknowledged
+   Tier 4: Under Review     — Civil suits, ongoing investigations
+   Tier 5: Monitoring       — Patterns with supporting evidence
 
    Nothing is dismissed. Everything has a home based on evidence level.
    Items move UP tiers as evidence accumulates.
@@ -28,16 +28,16 @@ const tierConfig: Record<EvidenceTier, {
   icon: typeof Gavel;
 }> = {
   1: {
-    label: 'CONVICTED',
-    desc: 'Court judgments / completed cases',
+    label: 'COURT RECORDS',
+    desc: 'Verified court documents & judicial outcomes on file',
     color: '#ef4444',
     bg: 'rgba(239,68,68,0.08)',
     border: 'rgba(239,68,68,0.25)',
     icon: Gavel,
   },
   2: {
-    label: 'INDICTED',
-    desc: 'Active criminal proceedings',
+    label: 'ACTIVE CASES',
+    desc: 'Active criminal / regulatory proceedings',
     color: '#f97316',
     bg: 'rgba(249,115,22,0.08)',
     border: 'rgba(249,115,22,0.25)',
@@ -52,7 +52,7 @@ const tierConfig: Record<EvidenceTier, {
     icon: FileCheck,
   },
   4: {
-    label: 'LITIGATION',
+    label: 'UNDER REVIEW',
     desc: 'Civil suits / ongoing investigations',
     color: '#3b82f6',
     bg: 'rgba(59,130,246,0.08)',
@@ -60,8 +60,8 @@ const tierConfig: Record<EvidenceTier, {
     icon: Shield,
   },
   5: {
-    label: 'PATTERNS',
-    desc: 'Allegations with supporting evidence',
+    label: 'MONITORING',
+    desc: 'Patterns with supporting evidence',
     color: '#8b5cf6',
     bg: 'rgba(139,92,246,0.08)',
     border: 'rgba(139,92,246,0.25)',

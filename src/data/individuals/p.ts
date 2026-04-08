@@ -2541,6 +2541,43 @@ const profiles: Record<string, IndividualProfile> = {
   },
 
 
+ 'peter-brant': {
+ name: 'Peter Brant',
+ title: 'Former Equity Trader, Kidder, Peabody & Co.; Convicted of Perjury',
+ role: 'Kidder Peabody equity trader convicted of perjury for lying about receiving inside information from Martin Siegel',
+ riskLevel: 'medium',
+ description: 'Peter Brant was an equity trader at Kidder, Peabody & Co. who was convicted of perjury for lying to prosecutors about receiving inside information from Martin Siegel about pending mergers and acquisitions transactions. Siegel, the star M&A banker at Kidder Peabody, had been passing inside information not only to Ivan Boesky but apparently to traders within his own firm. Brant\'s conviction demonstrated that the insider trading culture at Kidder Peabody extended far deeper than any single individual, with illicit information flowing from the M&A department to traders on the equity desk.',
+ birthDate: 'Unknown',
+ birthPlace: 'Unknown',
+ education: [],
+ affiliations: [
+  { name: 'Kidder, Peabody & Co.', role: 'Equity Trader', type: 'corporation' as const },
+ ],
+ controversies: [
+  'Received inside information from Martin Siegel about pending M&A transactions at Kidder Peabody',
+  'Convicted of perjury for lying to prosecutors about receiving the inside information',
+  'Part of broader pattern of illicit information sharing at Kidder Peabody',
+ ],
+ charges: [
+  { statute: '18 U.S.C. § 1621', description: 'Perjury — lying to federal prosecutors about receiving insider information', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
+ ],
+ timeline: [
+  { date: '1984-1986', event: 'Receives inside information from Martin Siegel about pending M&A deals at Kidder Peabody' },
+  { date: '1990', event: 'Convicted of perjury for lying about receiving inside information from Siegel' },
+ ],
+ socialMedia: [],
+ sources: [
+  { title: 'James B. Stewart, Den of Thieves (Simon & Schuster, 1991)', url: 'https://www.simonandschuster.com/books/Den-of-Thieves/James-B-Stewart/9780671792275', date: '1991' },
+ ],
+ aliases: [],
+ knownAssociates: [
+  { name: 'Martin Siegel', relationship: 'Source of inside M&A information at Kidder Peabody', href: '/entities/individuals/martin-siegel' },
+  { name: 'Richard Wigton', relationship: 'Fellow Kidder Peabody employee caught in insider trading investigation', href: '/entities/individuals/richard-wigton' },
+ ],
+ },
  'peter-brant-trader': {
  name: 'Peter Brant',
  title: 'Former Equity Trader, Kidder, Peabody & Co.',
