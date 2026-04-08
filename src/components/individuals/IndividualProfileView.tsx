@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import {
@@ -50,6 +51,19 @@ interface IndividualProfileViewProps {
 }
 
 export default function IndividualProfileView({ individual, slug }: IndividualProfileViewProps) {
+ // Image fallback chain: photo field → /defendants/{slug}.jpg → /defendants/{slug}.svg → User icon
+ const initialSrc = individual.photo || (slug ? `/defendants/${slug}.jpg` : null);
+ const svgFallback = slug ? `/defendants/${slug}.svg` : null;
+ const [imgSrc, setImgSrc] = useState<string | null>(initialSrc);
+
+ const handleImgError = () => {
+   if (imgSrc && !imgSrc.endsWith('.svg') && svgFallback) {
+     setImgSrc(svgFallback);
+   } else {
+     setImgSrc(null);
+   }
+ };
+
  // Dynamic cross-reference: find all investigations that mention this individual
  const dynamicInvestigations = slug ? Object.entries(investigationDatabase).filter(([, inv]) =>
    inv.affiliations?.some((a) => a.href === `/entities/individuals/${slug}`) ||
@@ -68,12 +82,25 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  Back to Individuals
  </Link>
 
- <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
- <div>
- <div className="flex items-center gap-4 mb-2">
- <div className="w-12 h-12 bg-[#0d0d0d] flex items-center justify-center">
- <User className="w-6 h-6 text-zinc-300"/>
+ <div className="flex flex-col md:flex-row md:items-start gap-6">
+ {/* Profile Image */}
+ {imgSrc ? (
+ <div className="w-32 h-32 md:w-40 md:h-40 bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] overflow-hidden flex-shrink-0">
+ {/* eslint-disable-next-line @next/next/no-img-element */}
+ <img
+   src={imgSrc}
+   alt={individual.name}
+   className="w-full h-full object-cover"
+   onError={handleImgError}
+ />
  </div>
+ ) : (
+ <div className="w-32 h-32 md:w-40 md:h-40 bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] flex items-center justify-center flex-shrink-0">
+ <User className="w-16 h-16 text-zinc-600"/>
+ </div>
+ )}
+ <div className="flex-1">
+ <div className="flex flex-wrap items-center gap-3 mb-3">
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[individual.riskLevel || 'medium']}`}>
  {individual.riskLevel || 'medium'} risk
  </span>
