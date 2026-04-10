@@ -849,6 +849,7 @@ export default function InvestigationPage() {
   });
   const affiliations = investigation.affiliations || [];
   const moneyTrail = investigation.moneyTrail || [];
+  const whereIsTheMoneyNow = investigation.whereIsTheMoneyNow || [];
   const timeline = investigation.timeline || [];
   const statutes = investigation.statutes || [];
   const sources = investigation.sources || [];
@@ -922,13 +923,14 @@ export default function InvestigationPage() {
     if (accountabilityContent) s.push({ id: 'engine', number: String(n++).padStart(2, '0'), label: 'Engine', icon: Crosshair });
     if (mainContent?.length > 0) s.push({ id: 'investigation', number: String(n++).padStart(2, '0'), label: 'Investigation', icon: FileText });
     if (moneyTrail.length > 0) s.push({ id: 'money', number: String(n++).padStart(2, '0'), label: 'Money Trail', icon: DollarSign });
+    if (whereIsTheMoneyNow.length > 0) s.push({ id: 'money-now', number: String(n++).padStart(2, '0'), label: 'Where Is The Money Now', icon: Landmark });
     if (affiliations.length > 0 || defendants.length > 0) s.push({ id: 'entities', number: String(n++).padStart(2, '0'), label: 'Network', icon: Users });
     if (defendants.length > 0 || affiliations.length > 0) s.push({ id: 'network', number: String(n++).padStart(2, '0'), label: 'Analysis', icon: Eye });
     if (accountabilityData) s.push({ id: 'action-center', number: String(n++).padStart(2, '0'), label: 'Action Center', icon: Megaphone });
     if (timeline.length > 0) s.push({ id: 'timeline', number: String(n++).padStart(2, '0'), label: 'Timeline', icon: Calendar });
     if (sources.length > 0) s.push({ id: 'sources', number: String(n++).padStart(2, '0'), label: 'Sources', icon: ExternalLink });
     return s;
-  }, [defendants.length, statutes.length, accountabilityContent, accountabilityData, mainContent?.length, moneyTrail.length, affiliations.length, timeline.length, sources.length]);
+  }, [defendants.length, statutes.length, accountabilityContent, accountabilityData, mainContent?.length, moneyTrail.length, whereIsTheMoneyNow.length, affiliations.length, timeline.length, sources.length]);
 
   const secNum = useCallback((id: string) => visibleSections.find(s => s.id === id)?.number || '??', [visibleSections]);
 
@@ -1525,6 +1527,130 @@ export default function InvestigationPage() {
             </motion.div>
           </>
         )}
+
+        {/* WHERE IS THE MONEY NOW */}
+        {whereIsTheMoneyNow.length > 0 && (
+          <>
+            <motion.div
+              id="money-now"
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, margin: '-80px' }}
+              transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="mb-1"
+            >
+              <CollapsibleGlass
+                number={secNum('money-now')} title="Where Is The Money Now" icon={<Landmark className="w-4 h-4" />}
+                count={whereIsTheMoneyNow.length} accentColor="#b91c1c"
+                expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
+                badge={
+                  (() => {
+                    const evaded = whereIsTheMoneyNow.filter((w: any) => w.restitutionStatus === 'evaded').length;
+                    return evaded > 0
+                      ? <span className="text-[9px] font-mono text-red-500/60">{evaded} evaded</span>
+                      : undefined;
+                  })()
+                }
+              >
+                <div className="mb-4 p-3 bg-red-500/[0.03] border border-red-500/[0.08]">
+                  <p className="text-[10px] text-zinc-400 leading-relaxed">
+                    <span className="text-red-400/80 font-bold uppercase tracking-wider text-[9px]">Wealth Tracing</span>
+                    <span className="mx-2 text-zinc-600">&mdash;</span>
+                    Tracks where the money from these crimes ultimately ended up. Includes current holders, transfer methods, legal entities used, and available recovery mechanisms.
+                  </p>
+                </div>
+                <motion.div
+                  className="space-y-2"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={{ visible: { transition: { staggerChildren: 0.04 } } }}
+                >
+                  {whereIsTheMoneyNow.map((entry: any, idx: number) => {
+                    const statusColors: Record<string, { text: string; bg: string; border: string; label: string }> = {
+                      paid: { text: 'text-emerald-400/80', bg: 'bg-emerald-500/[0.06]', border: 'border-emerald-500/20', label: 'PAID' },
+                      partial: { text: 'text-yellow-400/80', bg: 'bg-yellow-500/[0.06]', border: 'border-yellow-500/20', label: 'PARTIAL' },
+                      unpaid: { text: 'text-red-400/80', bg: 'bg-red-500/[0.06]', border: 'border-red-500/20', label: 'UNPAID' },
+                      evaded: { text: 'text-red-500', bg: 'bg-red-500/[0.08]', border: 'border-red-500/30', label: 'EVADED' },
+                      unknown: { text: 'text-zinc-400/80', bg: 'bg-zinc-500/[0.06]', border: 'border-zinc-500/20', label: 'UNKNOWN' },
+                    };
+                    const status = entry.restitutionStatus ? statusColors[entry.restitutionStatus] || statusColors.unknown : null;
+                    return (
+                      <motion.div
+                        key={idx}
+                        variants={{ hidden: { opacity: 0, y: 8 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } }}
+                        className="p-3 sm:p-4 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] bg-[rgba(255,255,255,0.012)] border border-white/[0.04] hover:border-red-500/[0.08]"
+                      >
+                        <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
+                          <div className="flex items-center gap-2 min-w-0">
+                            <Landmark className="w-3.5 h-3.5 text-red-500/40 flex-shrink-0" />
+                            <span className="text-sm font-bold text-zinc-200 break-words">{entry.name}</span>
+                          </div>
+                          <div className="flex items-center gap-2 flex-shrink-0">
+                            {status && (
+                              <span className={`text-[7px] font-black uppercase tracking-[0.15em] px-1.5 py-0.5 ${status.text} ${status.bg} border ${status.border}`}>
+                                {status.label}
+                              </span>
+                            )}
+                            {entry.estimatedValue && (
+                              <span className="text-sm font-black font-mono text-red-400/90 tabular-nums">{entry.estimatedValue}</span>
+                            )}
+                          </div>
+                        </div>
+                        <p className="text-[10px] text-zinc-500 mb-2">{entry.relationship}</p>
+                        <div className="mb-2 p-2 bg-zinc-900/40 border border-white/[0.03]">
+                          <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-1">Transfer Method</span>
+                          <p className="text-[10px] text-zinc-400 leading-relaxed">{entry.transferMethod}</p>
+                        </div>
+                        {(entry.orderedAmount || entry.collectedAmount) && (
+                          <div className="flex gap-4 mb-2 text-[10px]">
+                            {entry.orderedAmount && (
+                              <div>
+                                <span className="text-zinc-600 uppercase text-[8px] font-bold tracking-wider">Ordered: </span>
+                                <span className="text-zinc-300 font-mono tabular-nums">{entry.orderedAmount}</span>
+                              </div>
+                            )}
+                            {entry.collectedAmount && (
+                              <div>
+                                <span className="text-zinc-600 uppercase text-[8px] font-bold tracking-wider">Collected: </span>
+                                <span className="text-zinc-300 font-mono tabular-nums">{entry.collectedAmount}</span>
+                              </div>
+                            )}
+                          </div>
+                        )}
+                        {entry.legalEntities && entry.legalEntities.length > 0 && (
+                          <div className="mb-2">
+                            <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-1">Legal Entities</span>
+                            <div className="flex flex-wrap gap-1">
+                              {entry.legalEntities.map((le: string, i: number) => (
+                                <span key={i} className="text-[9px] font-mono text-zinc-400 bg-zinc-800/50 border border-white/[0.04] px-1.5 py-0.5">
+                                  {le}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                        {entry.recoveryMechanisms && entry.recoveryMechanisms.length > 0 && (
+                          <div>
+                            <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-1">Recovery Mechanisms</span>
+                            <div className="flex flex-wrap gap-1">
+                              {entry.recoveryMechanisms.map((rm: string, i: number) => (
+                                <span key={i} className="text-[9px] font-mono text-red-400/60 bg-red-500/[0.04] border border-red-500/[0.08] px-1.5 py-0.5">
+                                  {rm}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </motion.div>
+                    );
+                  })}
+                </motion.div>
+              </CollapsibleGlass>
+            </motion.div>
+          </>
+        )}
+
 
         {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 08 // CONNECTED ENTITIES Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {(affiliations.length > 0 || defendants.length > 0) && (

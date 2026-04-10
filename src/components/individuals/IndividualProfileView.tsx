@@ -18,6 +18,7 @@ import {
  Users,
  BookOpen,
  Download,
+ Landmark,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 import EvidenceTierBadge, { computeEvidenceTier } from '@/components/ui/EvidenceTierBadge';
@@ -387,6 +388,89 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  </div>
  ))}
  </div>
+ </motion.section>
+ )}
+
+ {/* Where Is The Money Now */}
+ {(individual.whereIsTheMoneyNow?.length || individual.financialInfo || individual.corporateHoldings?.length) && (
+ <motion.section
+ initial={{ opacity: 0, y: 20 }}
+ animate={{ opacity: 1, y: 0 }}
+ transition={{ delay: 0.32 }}
+ className="glass-card p-6"
+ >
+ <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+ <Landmark className="w-5 h-5 text-red-400/80"/>
+ Where Is The Money Now
+ </h2>
+ {individual.netWorth && (
+ <div className="mb-4 p-3 bg-red-500/[0.03] border border-red-500/[0.08]">
+ <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider block mb-1">Current Net Worth</span>
+ <span className="text-lg font-black font-mono text-red-400/90">{individual.netWorth}</span>
+ </div>
+ )}
+ {individual.financialInfo && (
+ <p className="text-sm text-zinc-400 leading-relaxed mb-4">{individual.financialInfo}</p>
+ )}
+ {individual.corporateHoldings && individual.corporateHoldings.length > 0 && (
+ <div className="mb-4">
+ <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider block mb-2">Corporate Holdings</span>
+ <div className="space-y-1">
+ {individual.corporateHoldings.map((h, i) => (
+ <div key={i} className="text-sm p-2 bg-zinc-900/40 border border-white/[0.03]">
+ <span className="text-zinc-300 font-bold">{h.name}</span>
+ <span className="text-zinc-500 ml-2">— {h.role}</span>
+ </div>
+ ))}
+ </div>
+ </div>
+ )}
+ {individual.whereIsTheMoneyNow && individual.whereIsTheMoneyNow.map((entry, idx) => {
+ const statusColors: Record<string, { text: string; bg: string; border: string; label: string }> = {
+ paid: { text: 'text-emerald-400/80', bg: 'bg-emerald-500/[0.06]', border: 'border-emerald-500/20', label: 'PAID' },
+ partial: { text: 'text-yellow-400/80', bg: 'bg-yellow-500/[0.06]', border: 'border-yellow-500/20', label: 'PARTIAL' },
+ unpaid: { text: 'text-red-400/80', bg: 'bg-red-500/[0.06]', border: 'border-red-500/20', label: 'UNPAID' },
+ evaded: { text: 'text-red-500', bg: 'bg-red-500/[0.08]', border: 'border-red-500/30', label: 'EVADED' },
+ unknown: { text: 'text-zinc-400/80', bg: 'bg-zinc-500/[0.06]', border: 'border-zinc-500/20', label: 'UNKNOWN' },
+ };
+ const status = entry.restitutionStatus ? statusColors[entry.restitutionStatus] || statusColors.unknown : null;
+ return (
+ <div key={idx} className="p-3 mb-2 bg-[rgba(255,255,255,0.012)] border border-white/[0.04] hover:border-red-500/[0.08] transition-all">
+ <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
+ <span className="text-sm font-bold text-zinc-200">{entry.name}</span>
+ <div className="flex items-center gap-2">
+ {status && (
+ <span className={`text-[7px] font-black uppercase tracking-[0.15em] px-1.5 py-0.5 ${status.text} ${status.bg} border ${status.border}`}>
+ {status.label}
+ </span>
+ )}
+ {entry.estimatedValue && (
+ <span className="text-sm font-black font-mono text-red-400/90">{entry.estimatedValue}</span>
+ )}
+ </div>
+ </div>
+ <p className="text-[10px] text-zinc-500 mb-2">{entry.relationship}</p>
+ <div className="mb-2 p-2 bg-zinc-900/40 border border-white/[0.03]">
+ <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-1">Transfer Method</span>
+ <p className="text-[10px] text-zinc-400 leading-relaxed">{entry.transferMethod}</p>
+ </div>
+ {entry.legalEntities && entry.legalEntities.length > 0 && (
+ <div className="flex flex-wrap gap-1 mb-2">
+ {entry.legalEntities.map((le, i) => (
+ <span key={i} className="text-[9px] font-mono text-zinc-400 bg-zinc-800/50 border border-white/[0.04] px-1.5 py-0.5">{le}</span>
+ ))}
+ </div>
+ )}
+ {entry.recoveryMechanisms && entry.recoveryMechanisms.length > 0 && (
+ <div className="flex flex-wrap gap-1">
+ {entry.recoveryMechanisms.map((rm, i) => (
+ <span key={i} className="text-[9px] font-mono text-red-400/60 bg-red-500/[0.04] border border-red-500/[0.08] px-1.5 py-0.5">{rm}</span>
+ ))}
+ </div>
+ )}
+ </div>
+ );
+ })}
  </motion.section>
  )}
 

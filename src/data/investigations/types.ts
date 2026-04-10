@@ -29,6 +29,27 @@ export interface TimelineEvent {
   type?: 'critical' | 'legal' | 'political' | 'financial' | 'default';
 }
 
+/** Tracks where money/wealth ended up after crimes — "Where is the Money Now" */
+export interface WealthDestination {
+  /** Name of current holder or entity */
+  name: string;
+  /** Relationship to original perpetrator or crime */
+  relationship: string;
+  /** How wealth was transferred or concealed */
+  transferMethod: string;
+  /** Estimated current value */
+  estimatedValue?: string;
+  /** Legal entities involved (trusts, LLCs, foundations) */
+  legalEntities?: string[];
+  /** Available legal mechanisms to pursue recovery */
+  recoveryMechanisms?: string[];
+  /** Whether restitution was ordered and status */
+  restitutionStatus?: 'paid' | 'partial' | 'unpaid' | 'evaded' | 'unknown';
+  /** Original amount ordered vs collected */
+  orderedAmount?: string;
+  collectedAmount?: string;
+}
+
 export type ConvictionStatus = 'convicted' | 'indicted' | 'charged' | 'acquitted' | 'pardoned' | 'pending' | 'settled' | 'appealing' | 'incarcerated' | 'released';
 
 export interface Defendant {
@@ -73,4 +94,6 @@ export interface InvestigationData {
   statutes?: { code: string; description?: string }[];
   // Defendants tracked for conviction data
   defendants?: Defendant[];
+  // "Where is the Money Now" — tracks current location of wealth from crimes
+  whereIsTheMoneyNow?: WealthDestination[];
 }

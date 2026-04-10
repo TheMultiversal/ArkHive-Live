@@ -1,7 +1,7 @@
 'use client';
 
 import { Document, Page, Text, View, StyleSheet, Image } from '@react-pdf/renderer';
-import type { InvestigationData, Defendant, TimelineEvent, MoneyTransaction, InvestigationAffiliation, InvestigationSource } from '@/data/investigations/types';
+import type { InvestigationData, Defendant, TimelineEvent, MoneyTransaction, InvestigationAffiliation, InvestigationSource, WealthDestination } from '@/data/investigations/types';
 
 /* ================================================================
    COLORS — Print-friendly: black text on white, no color accents.
@@ -181,6 +181,7 @@ export default function InvestigationDossierPDF({
   const statutes = investigation.statutes || [];
   const affiliations: InvestigationAffiliation[] = investigation.affiliations || [];
   const sources: InvestigationSource[] = investigation.sources || [];
+  const whereIsTheMoneyNow: WealthDestination[] = investigation.whereIsTheMoneyNow || [];
   const content = investigation.content || [];
   const tags = investigation.tags || [];
 
@@ -203,17 +204,21 @@ export default function InvestigationDossierPDF({
   ];
 
   // TOC
-  const tocEntries = [
+  const tocEntries: { n: string; title: string }[] = [
     { n: '01', title: 'EXECUTIVE SUMMARY' },
     { n: '02', title: 'FULL INVESTIGATION NARRATIVE' },
     { n: '03', title: 'ALL NAMED DEFENDANTS' },
     { n: '04', title: 'CHRONOLOGICAL TIMELINE' },
     { n: '05', title: 'FINANCIAL TRAIL (MONEY TRAIL)' },
-    { n: '06', title: 'ENTITY NETWORK' },
-    { n: '07', title: 'APPLICABLE STATUTES' },
-    { n: '08', title: 'SOURCES & CITATIONS' },
-    { n: '09', title: 'LEGAL DISCLAIMER & NOTICE' },
   ];
+  let tocNum = 6;
+  if (whereIsTheMoneyNow.length > 0) tocEntries.push({ n: String(tocNum++).padStart(2, '0'), title: 'WHERE IS THE MONEY NOW' });
+  tocEntries.push(
+    { n: String(tocNum++).padStart(2, '0'), title: 'ENTITY NETWORK' },
+    { n: String(tocNum++).padStart(2, '0'), title: 'APPLICABLE STATUTES' },
+    { n: String(tocNum++).padStart(2, '0'), title: 'SOURCES & CITATIONS' },
+    { n: String(tocNum++).padStart(2, '0'), title: 'LEGAL DISCLAIMER & NOTICE' },
+  );
 
   return (
     <Document>
@@ -463,12 +468,85 @@ export default function InvestigationDossierPDF({
         </Page>
       )}
 
-      {/* ═══════ SEC 06: ENTITY NETWORK ═══════ */}
+      {/* ═══════ SEC 06: WHERE IS THE MONEY NOW ═══════ */}
+      {whereIsTheMoneyNow.length > 0 && (
+        <Page size="A4" style={s.page} wrap>
+          <Cls />
+          <Wm uri={sealDataUri} />
+          <Sec n={`SECTION ${String(6).padStart(2, '0')}`} title="WHERE IS THE MONEY NOW">
+            <Text style={{ ...s.body, fontSize: 7, marginBottom: 8 }}>
+              {whereIsTheMoneyNow.length} wealth destinations traced. Tracks where the money from these crimes ultimately ended up.
+            </Text>
+            {whereIsTheMoneyNow.map((entry: WealthDestination, i: number) => {
+              const statusLabels: Record<string, string> = { paid: 'PAID', partial: 'PARTIAL', unpaid: 'UNPAID', evaded: 'EVADED', unknown: 'UNKNOWN' };
+              return (
+                <View key={i} style={s.card} wrap={false}>
+                  <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 3 }}>
+                    <Text style={{ ...s.bold, fontSize: 9 }}>{entry.name}</Text>
+                    <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                      {entry.restitutionStatus && (
+                        <Text style={{ ...s.statusBadge, color: entry.restitutionStatus === 'evaded' ? '#000000' : c.muted, marginRight: 6 }}>
+                          {statusLabels[entry.restitutionStatus] || 'UNKNOWN'}
+                        </Text>
+                      )}
+                      {entry.estimatedValue && <Text style={{ fontSize: 8, color: c.blood, fontWeight: 'bold' }}>{entry.estimatedValue}</Text>}
+                    </View>
+                  </View>
+                  <Text style={{ ...s.cardBody, marginBottom: 2 }}>{entry.relationship}</Text>
+                  <Text style={s.label}>TRANSFER METHOD</Text>
+                  <Text style={{ ...s.cardBody, fontStyle: 'italic' }}>{entry.transferMethod}</Text>
+                  {(entry.orderedAmount || entry.collectedAmount) && (
+                    <View style={{ flexDirection: 'row', marginTop: 3 }}>
+                      {entry.orderedAmount && (
+                        <View style={{ width: '50%' }}>
+                          <Text style={s.label}>ORDERED</Text>
+                          <Text style={s.cardBody}>{entry.orderedAmount}</Text>
+                        </View>
+                      )}
+                      {entry.collectedAmount && (
+                        <View style={{ width: '50%' }}>
+                          <Text style={s.label}>COLLECTED</Text>
+                          <Text style={s.cardBody}>{entry.collectedAmount}</Text>
+                        </View>
+                      )}
+                    </View>
+                  )}
+                  {entry.legalEntities && entry.legalEntities.length > 0 && (
+                    <>
+                      <Text style={s.label}>LEGAL ENTITIES</Text>
+                      {entry.legalEntities.map((le, li) => (
+                        <View key={li} style={s.bRow}>
+                          <Text style={s.bDot}>■</Text>
+                          <Text style={s.bTxt}>{le}</Text>
+                        </View>
+                      ))}
+                    </>
+                  )}
+                  {entry.recoveryMechanisms && entry.recoveryMechanisms.length > 0 && (
+                    <>
+                      <Text style={s.label}>RECOVERY MECHANISMS</Text>
+                      {entry.recoveryMechanisms.map((rm, ri) => (
+                        <View key={ri} style={s.bRow}>
+                          <Text style={s.bDot}>■</Text>
+                          <Text style={s.bTxt}>{rm}</Text>
+                        </View>
+                      ))}
+                    </>
+                  )}
+                </View>
+              );
+            })}
+          </Sec>
+          <Ft date={genDate} />
+        </Page>
+      )}
+
+      {/* ═══════ ENTITY NETWORK ═══════ */}
       {affiliations.length > 0 && (
         <Page size="A4" style={s.page} wrap>
           <Cls />
           <Wm uri={sealDataUri} />
-          <Sec n="SECTION 06" title="ENTITY NETWORK">
+          <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 7 : 6).padStart(2, '0')}`} title="ENTITY NETWORK">
             <Text style={{ ...s.body, fontSize: 7, marginBottom: 8 }}>
               {affiliations.length} entities linked to this investigation.
             </Text>
@@ -489,12 +567,12 @@ export default function InvestigationDossierPDF({
         </Page>
       )}
 
-      {/* ═══════ SEC 07: STATUTES ═══════ */}
+      {/* ═══════ STATUTES ═══════ */}
       {statutes.length > 0 && (
         <Page size="A4" style={s.page} wrap>
           <Cls />
           <Wm uri={sealDataUri} />
-          <Sec n="SECTION 07" title="APPLICABLE STATUTES">
+          <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 8 : 7).padStart(2, '0')}`} title="APPLICABLE STATUTES">
             {statutes.map((st, i) => (
               <View key={i} style={s.statuteCard} wrap={false}>
                 <Text style={s.statuteCode}>{st.code}</Text>
@@ -506,12 +584,12 @@ export default function InvestigationDossierPDF({
         </Page>
       )}
 
-      {/* ═══════ SEC 08: SOURCES ═══════ */}
+      {/* ═══════ SOURCES ═══════ */}
       {sources.length > 0 && (
         <Page size="A4" style={s.page} wrap>
           <Cls />
           <Wm uri={sealDataUri} />
-          <Sec n="SECTION 08" title="SOURCES & CITATIONS">
+          <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 9 : 8).padStart(2, '0')}`} title="SOURCES & CITATIONS">
             {sources.map((src, i) => (
               <View key={i} style={s.sourceRow} wrap={false}>
                 <Text style={s.sourceNum}>[{String(i + 1).padStart(2, '0')}]</Text>
@@ -524,11 +602,11 @@ export default function InvestigationDossierPDF({
         </Page>
       )}
 
-      {/* ═══════ SEC 09: LEGAL DISCLAIMER ═══════ */}
+      {/* ═══════ LEGAL DISCLAIMER ═══════ */}
       <Page size="A4" style={s.page}>
         <Cls />
         <Wm uri={sealDataUri} />
-        <Sec n="SECTION 09" title="LEGAL DISCLAIMER & NOTICE">
+        <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 10 : 9).padStart(2, '0')}`} title="LEGAL DISCLAIMER & NOTICE">
           <Text style={s.body}>
             This document has been generated by ArkHive, an investigative journalism and accountability platform.
             All information contained herein has been compiled from publicly available sources including court records,

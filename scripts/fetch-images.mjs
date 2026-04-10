@@ -51,6 +51,16 @@ const WIKIPEDIA_OVERRIDES = {
   'boyd-jefferies': 'Boyd_Jefferies',
 };
 
+// Slugs where Wikipedia/Commons returns an image for the WRONG person — skip these
+const FALSE_POSITIVE_BLACKLIST = new Set([
+  'fred-joseph',       // Returns 1931 Massachusetts politician, not Drexel's Fred Joseph
+  'james-sherwin',     // Returns pottery/ceramics, not the person
+  'james-holmes',      // Returns painting, not the defendant
+  'caroline-ellison',  // Returns 1800s painting, not the FTX executive
+  'jackie-johnson',    // Returns wrong person
+  'william-bryan',     // Returns wrong person (common name)
+]);
+
 // ════════════════════════════════════════════════════════════
 // HTTP HELPERS
 // ════════════════════════════════════════════════════════════
@@ -192,6 +202,11 @@ async function fetchImageForPerson(slug, personName, dryRun = false) {
   }
   if (fs.existsSync(pngPath) && fs.statSync(pngPath).size > 5000) {
     return { slug, status: 'skip', reason: 'Has PNG already' };
+  }
+
+  // Skip known false positives (Wikipedia returns wrong person's image)
+  if (FALSE_POSITIVE_BLACKLIST.has(slug)) {
+    return { slug, status: 'not-found', reason: 'Blacklisted — Wikipedia image is wrong person' };
   }
 
   // Determine Wikipedia article title

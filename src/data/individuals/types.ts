@@ -1,3 +1,5 @@
+import type { WealthDestination } from '@/data/investigations/types';
+
 // Individual profile data interface, shared by all shard files
 
 /**
@@ -180,4 +182,6 @@ export interface IndividualProfile {
   networkEdges?: NetworkEdge[];
   /** Financial information summary */
   financialInfo?: string;
+  /** Where is the Money Now — tracks where wealth ended up */
+  whereIsTheMoneyNow?: WealthDestination[];
 }

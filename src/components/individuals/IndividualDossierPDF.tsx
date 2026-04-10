@@ -177,6 +177,7 @@ export default function IndividualDossierPDF({
   if (individual.familyMembers?.length) tocEntries.push({ n: nextSec(), title: 'FAMILY CONNECTIONS' });
   if (individual.assetFreezes?.length) tocEntries.push({ n: nextSec(), title: 'ASSET FREEZES & SEIZURES' });
   if (individual.whistleblowerTestimonies?.length) tocEntries.push({ n: nextSec(), title: 'WHISTLEBLOWER TESTIMONIES' });
+  if (individual.whereIsTheMoneyNow?.length || individual.financialInfo || individual.corporateHoldings?.length) tocEntries.push({ n: nextSec(), title: 'WHERE IS THE MONEY NOW' });
   if (individual.sources?.length) tocEntries.push({ n: nextSec(), title: 'SOURCES & CITATIONS' });
   tocEntries.push({ n: nextSec(), title: 'LEGAL DISCLAIMER & NOTICE' });
 
@@ -611,6 +612,99 @@ export default function IndividualDossierPDF({
                 </View>
               </View>
             ))}
+          </Sec>
+          <Ft date={genDate} />
+        </Page>
+      )}
+
+      {/* ═══════ WHERE IS THE MONEY NOW ═══════ */}
+      {(individual.whereIsTheMoneyNow?.length || individual.financialInfo || individual.corporateHoldings?.length) && (
+        <Page size="A4" style={s.page} wrap>
+          <Cls />
+          <Wm uri={sealDataUri} />
+          <Sec n={ns()} title="WHERE IS THE MONEY NOW">
+            {individual.netWorth && (
+              <View style={{ marginBottom: 8 }}>
+                <Text style={s.label}>CURRENT NET WORTH</Text>
+                <Text style={{ ...s.bold, fontSize: 12 }}>{individual.netWorth}</Text>
+              </View>
+            )}
+            {individual.financialInfo && (
+              <View style={{ marginBottom: 8 }}>
+                <Text style={s.label}>FINANCIAL PROFILE</Text>
+                <Text style={s.body}>{individual.financialInfo}</Text>
+              </View>
+            )}
+            {individual.corporateHoldings && individual.corporateHoldings.length > 0 && (
+              <View style={{ marginBottom: 8 }}>
+                <Text style={s.label}>CORPORATE HOLDINGS</Text>
+                {individual.corporateHoldings.map((h, i) => (
+                  <View key={i} style={s.bRow}>
+                    <Text style={s.bDot}>■</Text>
+                    <Text style={s.bTxt}>{h.name} — {h.role}</Text>
+                  </View>
+                ))}
+              </View>
+            )}
+            {individual.whereIsTheMoneyNow && individual.whereIsTheMoneyNow.map((entry, i) => {
+              const statusLabels: Record<string, string> = { paid: 'PAID', partial: 'PARTIAL', unpaid: 'UNPAID', evaded: 'EVADED', unknown: 'UNKNOWN' };
+              return (
+                <View key={i} style={s.card} wrap={false}>
+                  <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 3 }}>
+                    <Text style={{ ...s.bold, fontSize: 9 }}>{entry.name}</Text>
+                    <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                      {entry.restitutionStatus && (
+                        <Text style={{ ...s.statusBadge, color: entry.restitutionStatus === 'evaded' ? '#000000' : c.muted, marginRight: 6 }}>
+                          {statusLabels[entry.restitutionStatus] || 'UNKNOWN'}
+                        </Text>
+                      )}
+                      {entry.estimatedValue && <Text style={{ fontSize: 8, color: c.blood, fontWeight: 'bold' }}>{entry.estimatedValue}</Text>}
+                    </View>
+                  </View>
+                  <Text style={{ ...s.cardBody, marginBottom: 2 }}>{entry.relationship}</Text>
+                  <Text style={s.label}>TRANSFER METHOD</Text>
+                  <Text style={{ ...s.cardBody, fontStyle: 'italic' }}>{entry.transferMethod}</Text>
+                  {(entry.orderedAmount || entry.collectedAmount) && (
+                    <View style={{ flexDirection: 'row', marginTop: 3 }}>
+                      {entry.orderedAmount && (
+                        <View style={{ width: '50%' }}>
+                          <Text style={s.label}>ORDERED</Text>
+                          <Text style={s.cardBody}>{entry.orderedAmount}</Text>
+                        </View>
+                      )}
+                      {entry.collectedAmount && (
+                        <View style={{ width: '50%' }}>
+                          <Text style={s.label}>COLLECTED</Text>
+                          <Text style={s.cardBody}>{entry.collectedAmount}</Text>
+                        </View>
+                      )}
+                    </View>
+                  )}
+                  {entry.legalEntities && entry.legalEntities.length > 0 && (
+                    <>
+                      <Text style={s.label}>LEGAL ENTITIES</Text>
+                      {entry.legalEntities.map((le, li) => (
+                        <View key={li} style={s.bRow}>
+                          <Text style={s.bDot}>■</Text>
+                          <Text style={s.bTxt}>{le}</Text>
+                        </View>
+                      ))}
+                    </>
+                  )}
+                  {entry.recoveryMechanisms && entry.recoveryMechanisms.length > 0 && (
+                    <>
+                      <Text style={s.label}>RECOVERY MECHANISMS</Text>
+                      {entry.recoveryMechanisms.map((rm, ri) => (
+                        <View key={ri} style={s.bRow}>
+                          <Text style={s.bDot}>■</Text>
+                          <Text style={s.bTxt}>{rm}</Text>
+                        </View>
+                      ))}
+                    </>
+                  )}
+                </View>
+              );
+            })}
           </Sec>
           <Ft date={genDate} />
         </Page>
