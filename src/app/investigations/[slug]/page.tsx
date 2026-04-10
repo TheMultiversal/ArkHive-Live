@@ -15,12 +15,15 @@ import {
   Target, ArrowRight, Eye, Lock,
   Maximize2, Minimize2, ChevronUp, Download,
 } from 'lucide-react';
+import { pdf } from '@react-pdf/renderer';
 import GlitchText from '@/components/effects/GlitchText';
 import CrystalButton from '@/components/ui/CrystalButton';
 import EvidenceTierBadge from '@/components/ui/EvidenceTierBadge';
 import investigationDatabase from '@/data/investigations';
 import investigationDefendants from '@/data/investigations/investigationDefendants';
 import accountabilityDatabase from '@/data/accountability';
+import InvestigationDossierPDF from '@/components/investigation/InvestigationDossierPDF';
+import { getArkHiveSealPngDataUri } from '@/components/ui/ArkHiveSeal';
 
 const NetworkTree = dynamic(() => import('@/components/investigation/NetworkTree'), { ssr: false });
 const AccountabilityActionCenter = dynamic(() => import('@/components/investigation/AccountabilityActionCenter'), { ssr: false });
@@ -879,6 +882,34 @@ export default function InvestigationPage() {
   const [expandTrigger, setExpandTrigger] = useState(0);
   const [collapseTrigger, setCollapseTrigger] = useState(0);
   const [showBackToTop, setShowBackToTop] = useState(false);
+  const [generatingPDF, setGeneratingPDF] = useState(false);
+
+  const handleDownloadDossierPDF = useCallback(async () => {
+    setGeneratingPDF(true);
+    try {
+      const sealUri = await getArkHiveSealPngDataUri();
+      const doc = (
+        <InvestigationDossierPDF
+          investigation={investigation}
+          slug={slug}
+          sealDataUri={sealUri}
+        />
+      );
+      const blob = await pdf(doc).toBlob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `ArkHive-Investigation-Dossier-${slug}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error('PDF generation failed:', err);
+    } finally {
+      setGeneratingPDF(false);
+    }
+  }, [investigation, slug]);
 
   const visibleSections = useMemo(() => {
     const s: { id: string; number: string; label: string; icon: React.ElementType }[] = [
@@ -1120,6 +1151,14 @@ export default function InvestigationPage() {
             </span>
           </div>
           <div className="flex items-center gap-2">
+            <button
+              onClick={handleDownloadDossierPDF}
+              disabled={generatingPDF}
+              className="flex items-center gap-1.5 px-3 py-1.5 text-[9px] font-bold text-zinc-300 hover:text-white border border-white/[0.05] hover:border-white/[0.12] transition-all uppercase tracking-wider"
+              style={generatingPDF ? { opacity: 0.5 } : {}}
+            >
+              <Download className="w-3 h-3" /> {generatingPDF ? 'Generating...' : 'Download PDF'}
+            </button>
             <button
               onClick={() => setExpandTrigger(v => v + 1)}
               className="flex items-center gap-1.5 px-3 py-1.5 text-[9px] font-bold text-zinc-300 hover:text-white border border-white/[0.05] hover:border-white/[0.12] transition-all uppercase tracking-wider"

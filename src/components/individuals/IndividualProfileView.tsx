@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { pdf } from '@react-pdf/renderer';
 import {
  User,
  ArrowLeft,
@@ -16,11 +17,14 @@ import {
  Scale,
  Users,
  BookOpen,
+ Download,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 import EvidenceTierBadge, { computeEvidenceTier } from '@/components/ui/EvidenceTierBadge';
 import investigationDatabase from '@/data/investigations';
 import type { IndividualProfile } from '@/data/individuals/types';
+import IndividualDossierPDF from '@/components/individuals/IndividualDossierPDF';
+import { getArkHiveSealPngDataUri } from '@/components/ui/ArkHiveSeal';
 
 export type { IndividualProfile };
 
@@ -55,6 +59,7 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  const initialSrc = individual.photo || (slug ? `/defendants/${slug}.jpg` : null);
  const svgFallback = slug ? `/defendants/${slug}.svg` : null;
  const [imgSrc, setImgSrc] = useState<string | null>(initialSrc);
+ const [generatingPDF, setGeneratingPDF] = useState(false);
 
  const handleImgError = () => {
    if (imgSrc && !imgSrc.endsWith('.svg') && svgFallback) {
@@ -63,6 +68,33 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
      setImgSrc(null);
    }
  };
+
+ const handleDownloadPDF = useCallback(async () => {
+   setGeneratingPDF(true);
+   try {
+     const sealUri = await getArkHiveSealPngDataUri();
+     const doc = (
+       <IndividualDossierPDF
+         individual={individual}
+         slug={slug || individual.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}
+         sealDataUri={sealUri}
+       />
+     );
+     const blob = await pdf(doc).toBlob();
+     const url = URL.createObjectURL(blob);
+     const a = document.createElement('a');
+     a.href = url;
+     a.download = `ArkHive-Individual-Dossier-${slug || 'profile'}.pdf`;
+     document.body.appendChild(a);
+     a.click();
+     document.body.removeChild(a);
+     URL.revokeObjectURL(url);
+   } catch (err) {
+     console.error('PDF generation failed:', err);
+   } finally {
+     setGeneratingPDF(false);
+   }
+ }, [individual, slug]);
 
  // Dynamic cross-reference: find all investigations that mention this individual
  const dynamicInvestigations = slug ? Object.entries(investigationDatabase).filter(([, inv]) =>
@@ -81,6 +113,19 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  <ArrowLeft className="w-4 h-4"/>
  Back to Individuals
  </Link>
+
+ <div className="flex items-center justify-between mb-6">
+ <div />
+ <button
+   onClick={handleDownloadPDF}
+   disabled={generatingPDF}
+   className="flex items-center gap-2 px-4 py-2 text-[10px] font-bold text-zinc-300 hover:text-white border border-white/[0.08] hover:border-white/[0.15] transition-all uppercase tracking-[0.15em]"
+   style={generatingPDF ? { opacity: 0.5 } : {}}
+ >
+   <Download className="w-3.5 h-3.5" />
+   {generatingPDF ? 'Generating PDF...' : 'Download Dossier PDF'}
+ </button>
+ </div>
 
  <div className="flex flex-col md:flex-row md:items-start gap-6">
  {/* Profile Image */}
