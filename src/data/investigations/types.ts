@@ -29,7 +29,7 @@ export interface TimelineEvent {
   type?: 'critical' | 'legal' | 'political' | 'financial' | 'default';
 }
 
-/** Tracks where money/wealth ended up after crimes — "Where is the Money Now" */
+/** Tracks where money/wealth ended up after crimes  -  "Where is the Money Now" */
 export interface WealthDestination {
   /** Name of current holder or entity */
   name: string;
@@ -94,6 +94,28 @@ export interface InvestigationData {
   statutes?: { code: string; description?: string }[];
   // Defendants tracked for conviction data
   defendants?: Defendant[];
-  // "Where is the Money Now" — tracks current location of wealth from crimes
+  // "Where is the Money Now"  -  tracks current location of wealth from crimes
   whereIsTheMoneyNow?: WealthDestination[];
+  // "Scrubbed from the Internet"  -  information that has been removed, suppressed, or destroyed
+  scrubbedFromInternet?: ScrubbedItem[];
+}
+
+/** Tracks information that has been removed, suppressed, classified, or destroyed */
+export interface ScrubbedItem {
+  /** What was removed or suppressed */
+  title: string;
+  /** Category of suppression */
+  type: 'removed' | 'redacted' | 'classified' | 'sealed' | 'deleted' | 'destroyed' | 'gagged' | 'buried';
+  /** Description of what was scrubbed and its significance */
+  description: string;
+  /** Original source or location if known */
+  originalSource?: string;
+  /** When it was discovered missing or removed */
+  dateRemoved?: string;
+  /** Who is responsible for the removal or suppression */
+  removedBy?: string;
+  /** Archive or cached version URL if available */
+  archiveUrl?: string;
+  /** Whether it has been recovered or preserved */
+  recoveryStatus: 'recovered' | 'partial' | 'lost' | 'preserved' | 'ongoing';
 }

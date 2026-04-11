@@ -2,6 +2,8 @@ import type { InvestigationData } from './types';
 import moneyTrails from './moneyTrails';
 import investigationStatutes from './investigationStatutes';
 import investigationDefendants from './investigationDefendants';
+import whereIsTheMoneyNowData from './whereIsTheMoneyNow';
+import scrubbedFromInternetData from './scrubbedFromInternet';
 
 import shard_1 from './1';
 import shard_2 from './2';
@@ -83,6 +85,20 @@ for (const [slug, statutes] of Object.entries(investigationStatutes)) {
 for (const [slug, defendants] of Object.entries(investigationDefendants)) {
   if (investigationDatabase[slug] && !investigationDatabase[slug].defendants?.length) {
     investigationDatabase[slug].defendants = defendants;
+  }
+}
+
+// Merge centralized whereIsTheMoneyNow data into investigations that don't already have it
+for (const [slug, destinations] of Object.entries(whereIsTheMoneyNowData)) {
+  if (investigationDatabase[slug] && !investigationDatabase[slug].whereIsTheMoneyNow?.length) {
+    investigationDatabase[slug].whereIsTheMoneyNow = destinations;
+  }
+}
+
+// Merge centralized scrubbedFromInternet data into investigations that don't already have it
+for (const [slug, items] of Object.entries(scrubbedFromInternetData)) {
+  if (investigationDatabase[slug] && !investigationDatabase[slug].scrubbedFromInternet?.length) {
+    investigationDatabase[slug].scrubbedFromInternet = items;
   }
 }
 

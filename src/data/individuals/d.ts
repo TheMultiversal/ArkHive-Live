@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -2437,8 +2437,8 @@ const profiles: Record<string, IndividualProfile> = {
  'Coordinated with Milken to generate artificial tax losses for fund investors through sham transactions',
  ],
  charges: [
- { statute: '15 U.S.C. § 78j(b), SEC Rule 10b-5', description: 'Securities Fraud — participating in insider trading and market manipulation with Drexel Burnham Lambert', category: 'Federal' },
- { statute: '26 U.S.C. § 7206', description: 'Tax Fraud — generating phony tax losses through sham transactions with Milken', category: 'Federal' },
+ { statute: '15 U.S.C. § 78j(b), SEC Rule 10b-5', description: 'Securities Fraud  -  participating in insider trading and market manipulation with Drexel Burnham Lambert', category: 'Federal' },
+ { statute: '26 U.S.C. § 7206', description: 'Tax Fraud  -  generating phony tax losses through sham transactions with Milken', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
@@ -6488,7 +6488,7 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'david-petraeus': {
     name: 'David Petraeus',
-    bio: 'David Howell Petraeus is a retired four-star Army general who served as Commander of U.S. Central Command, Commander of forces in Iraq and Afghanistan, and Director of the CIA (2011-2012). He resigned from the CIA after an FBI investigation revealed he had shared classified information, including the identities of covert officers and war strategy documents, with his biographer and mistress Paula Broadwell. Despite the severity of the leak — which included the names of covert operatives, information more sensitive than anything Edward Snowden disclosed according to some analysts — Petraeus was allowed to plead guilty to a single misdemeanor and received no prison time. The disparity between his treatment and that of lower-ranking service members and whistleblowers who received years in prison for similar or lesser offenses became a landmark example of the two-tiered justice system.',
+    bio: 'David Howell Petraeus is a retired four-star Army general who served as Commander of U.S. Central Command, Commander of forces in Iraq and Afghanistan, and Director of the CIA (2011-2012). He resigned from the CIA after an FBI investigation revealed he had shared classified information, including the identities of covert officers and war strategy documents, with his biographer and mistress Paula Broadwell. Despite the severity of the leak  -  which included the names of covert operatives, information more sensitive than anything Edward Snowden disclosed according to some analysts  -  Petraeus was allowed to plead guilty to a single misdemeanor and received no prison time. The disparity between his treatment and that of lower-ranking service members and whistleblowers who received years in prison for similar or lesser offenses became a landmark example of the two-tiered justice system.',
     riskLevel: 'high' as const,
     status: 'active',
     lastKnownLocation: 'New York, New York',
@@ -6509,7 +6509,7 @@ const profiles: Record<string, IndividualProfile> = {
     charges: [
       { statute: '18 U.S.C. § 1924', description: 'Unauthorized removal and retention of classified material', category: 'National security' },
     ],
-    criminalHistory: 'Pleaded guilty to a single misdemeanor charge of unauthorized removal and retention of classified material in March 2015. Sentenced to 2 years probation and $100,000 fine. No prison time. The plea deal was widely criticized as extraordinarily lenient — Chelsea Manning received 35 years, Reality Winner received 5 years, and John Kiriakou received 30 months for comparable or lesser classified information disclosures.',
+    criminalHistory: 'Pleaded guilty to a single misdemeanor charge of unauthorized removal and retention of classified material in March 2015. Sentenced to 2 years probation and $100,000 fine. No prison time. The plea deal was widely criticized as extraordinarily lenient  -  Chelsea Manning received 35 years, Reality Winner received 5 years, and John Kiriakou received 30 months for comparable or lesser classified information disclosures.',
     financialInfo: 'After leaving government, Petraeus became chairman of KKR Global Institute at the private equity firm, earning an estimated $3-4 million annually. KKR manages $500+ billion in assets including significant defense industry holdings.',
     sources: [
       { title: 'DOJ: United States v. David Howell Petraeus - Plea Agreement', url: 'https://www.justice.gov/', date: '2015' },

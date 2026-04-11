@@ -1,4 +1,4 @@
-﻿// Investigation data shard
+// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_m: Record<string, InvestigationData> = {
@@ -374,7 +374,7 @@ const investigations_m: Record<string, InvestigationData> = {
    timeline: [
      { date: '1988-01', event: 'Chomsky and Herman publish "Manufacturing Consent" documenting five-filter propaganda model of corporate media', type: 'default' },
      { date: '2003-03', event: 'Major media outlets amplify Bush administration WMD claims without scrutiny; NYT later apologizes for Iraq War coverage failures', type: 'default' },
-     { date: '2018-04-02', event: 'Sinclair Broadcasting forces local anchors across 190+ stations to read identical script attacking "fake news" — viral video exposes media consolidation', type: 'default' },
+     { date: '2018-04-02', event: 'Sinclair Broadcasting forces local anchors across 190+ stations to read identical script attacking "fake news"  -  viral video exposes media consolidation', type: 'default' },
      { date: '2023-04-18', event: 'Dominion Voting Systems settles defamation suit against Fox News for $787.5M; internal communications prove Fox knowingly aired false election claims', type: 'legal' }
    ],
 
@@ -2184,7 +2184,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'William Calley', type: 'individual', relationship: 'Platoon leader who ordered and carried out mass murder; only person convicted, sentence commuted', href: '/entities/individuals/william-calley' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Army CID investigated; 26 soldiers charged but only Calley convicted — systemic failure of military justice', href: '/entities/agencies/doj' }
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Army CID investigated; 26 soldiers charged but only Calley convicted  -  systemic failure of military justice', href: '/entities/agencies/doj' }
     ],
    eventOriginDate: '1968-03-16',
    lastActivityDate: '1974-11-19',
@@ -2525,18 +2525,18 @@ const investigations_m: Record<string, InvestigationData> = {
   },
   'mass-incarceration-prison-industrial-complex': {
     title: 'Mass Incarceration and the Prison-Industrial Complex',
-    subtitle: 'How the United States became the world\'s largest jailer — incarcerating 2 million people at $80 billion per year while private prison corporations and prison labor extract billions in profit from human caging',
+    subtitle: 'How the United States became the world\'s largest jailer  -  incarcerating 2 million people at $80 billion per year while private prison corporations and prison labor extract billions in profit from human caging',
     severity: 'critical' as const,
     category: 'Criminal Justice',
     date: '2024-09-01',
     lastUpdated: '2025-02-15',
-    summary: 'The United States incarcerates more people than any nation in history — approximately 2 million people behind bars at any given time, with 5% of the world\'s population but 25% of its prisoners. This system costs taxpayers $80+ billion annually while generating massive profits for private prison corporations like CoreCivic and GEO Group, phone and commissary companies, and industries exploiting prison labor paying cents per hour. The crisis is rooted in the War on Drugs, mandatory minimum sentencing, three-strikes laws, and the 13th Amendment\'s explicit exception allowing slavery "as punishment for crime" — creating a system that disproportionately cages Black Americans at five times the rate of whites.',
+    summary: 'The United States incarcerates more people than any nation in history  -  approximately 2 million people behind bars at any given time, with 5% of the world\'s population but 25% of its prisoners. This system costs taxpayers $80+ billion annually while generating massive profits for private prison corporations like CoreCivic and GEO Group, phone and commissary companies, and industries exploiting prison labor paying cents per hour. The crisis is rooted in the War on Drugs, mandatory minimum sentencing, three-strikes laws, and the 13th Amendment\'s explicit exception allowing slavery "as punishment for crime"  -  creating a system that disproportionately cages Black Americans at five times the rate of whites.',
     content: [
-      'The United States maintains the highest incarceration rate in the world at 664 per 100,000 people — higher than Russia, China, or any authoritarian regime. This was not always the case: American incarceration rates were comparable to other Western democracies until the 1970s when the War on Drugs, launched by President Nixon whose adviser John Ehrlichman later admitted was designed to criminalize Black communities, triggered an explosion in imprisonment that saw the prison population increase 500% over four decades.',
+      'The United States maintains the highest incarceration rate in the world at 664 per 100,000 people  -  higher than Russia, China, or any authoritarian regime. This was not always the case: American incarceration rates were comparable to other Western democracies until the 1970s when the War on Drugs, launched by President Nixon whose adviser John Ehrlichman later admitted was designed to criminalize Black communities, triggered an explosion in imprisonment that saw the prison population increase 500% over four decades.',
       'The prison-industrial complex generates enormous profits from human incarceration. CoreCivic (formerly Corrections Corporation of America) and GEO Group, the two largest private prison operators, earned combined revenues exceeding $3.4 billion in 2023. These companies spend millions lobbying for tougher sentencing laws and immigration enforcement that keeps their facilities full. Their contracts with government agencies often include occupancy guarantees requiring taxpayers to pay for empty beds if incarceration rates drop.',
       'Prison labor represents a multi-billion dollar industry operating under the 13th Amendment\'s exception clause that explicitly permits slavery as punishment for crime. Approximately 800,000 incarcerated people perform labor ranging from manufacturing to firefighting, earning between $0.23 and $1.15 per hour in state prisons. Major corporations have profited from prison labor including Whole Foods, McDonald\'s, Walmart, and Victoria\'s Secret. In California, incarcerated firefighters battle wildfires for $1 per hour but are often barred from becoming professional firefighters upon release.',
       'Racial disparities permeate every level of the system. Black Americans are incarcerated at five times the rate of white Americans. Despite using drugs at similar rates, Black people are 3.7 times more likely to be arrested for marijuana possession. The cash bail system keeps 470,000 unconvicted people in jail simply because they cannot afford bail, with the average bail amount representing 8 months\' income for detained defendants. Prosecutors, who control 90%+ of case outcomes through plea bargaining, charge Black defendants more harshly even when controlling for offense type and criminal history.',
-      'Solitary confinement, classified as torture by the United Nations, is used routinely in American prisons. An estimated 80,000 people are held in solitary on any given day, including juveniles and people with mental illness. Incarcerated people face astronomical charges for phone calls ($1 per minute in some facilities), medical co-pays that exceed their hourly wages, and commissary markups of 300-500%. Upon release, formerly incarcerated people face over 44,000 legal restrictions on housing, employment, and voting rights — creating a permanent underclass.'
+      'Solitary confinement, classified as torture by the United Nations, is used routinely in American prisons. An estimated 80,000 people are held in solitary on any given day, including juveniles and people with mental illness. Incarcerated people face astronomical charges for phone calls ($1 per minute in some facilities), medical co-pays that exceed their hourly wages, and commissary markups of 300-500%. Upon release, formerly incarcerated people face over 44,000 legal restrictions on housing, employment, and voting rights  -  creating a permanent underclass.'
     ],
     tags: ['mass incarceration', 'prison industrial complex', 'private prisons', 'prison labor', '13th amendment', 'war on drugs', 'racial disparity', 'solitary confinement', 'cash bail'],
     sources: [
@@ -2552,7 +2552,7 @@ const investigations_m: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-15',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '1970-01-01', event: 'The United States incarcerates more people than any nation in history — approximately 2 million people behind bars at any given time, wit', type: 'legal' },
+     { date: '1970-01-01', event: 'The United States incarcerates more people than any nation in history  -  approximately 2 million people behind bars at any given time, wit', type: 'legal' },
      { date: '2023', event: 'CoreCivic (formerly Corrections Corporation of America) and GEO Group, the two largest private prison operators, earned combined revenues exceeding $3.4 billion in 2023.', type: 'financial' }
    ],
 

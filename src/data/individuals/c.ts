@@ -4808,7 +4808,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former Chief of Staff of the U.S. Air Force',
     role: 'Military Commander',
     riskLevel: 'critical' as const,
-    description: 'U.S. Air Force general who directed the firebombing campaign that destroyed 67 Japanese cities during World War II, killing an estimated 330,000-900,000 civilians. Later oversaw the Strategic Air Command nuclear arsenal and advocated for preemptive nuclear strikes against the Soviet Union, Cuba, and other adversaries. His firebombing of Tokyo on March 9-10, 1945 killed approximately 100,000 people in a single night — more than the immediate deaths from either atomic bomb. LeMay himself acknowledged that if the U.S. had lost the war, he would have been tried as a war criminal.',
+    description: 'U.S. Air Force general who directed the firebombing campaign that destroyed 67 Japanese cities during World War II, killing an estimated 330,000-900,000 civilians. Later oversaw the Strategic Air Command nuclear arsenal and advocated for preemptive nuclear strikes against the Soviet Union, Cuba, and other adversaries. His firebombing of Tokyo on March 9-10, 1945 killed approximately 100,000 people in a single night  -  more than the immediate deaths from either atomic bomb. LeMay himself acknowledged that if the U.S. had lost the war, he would have been tried as a war criminal.',
     birthDate: '1906-11-15',
     birthPlace: 'Columbus, Ohio',
     education: ['Civil Engineering (did not graduate), Ohio State University', 'Flying Cadet Training, U.S. Army Air Corps (1929)'],
@@ -4988,9 +4988,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: '2002', event: 'Appointed U.S. Attorney for the Southern District of California' },
-      { date: '2005-11-28', event: 'Congressman Duke Cunningham pleads guilty to $2.4 million in bribes — largest congressional bribery case in history' },
+      { date: '2005-11-28', event: 'Congressman Duke Cunningham pleads guilty to $2.4 million in bribes  -  largest congressional bribery case in history' },
       { date: '2006-03', event: 'Secures Cunningham sentencing; continues investigating defense contractor Brent Wilkes and CIA official Kyle "Dusty" Foggo' },
-      { date: '2006-11', event: 'Kyle Sampson emails state "The real problem we have right now with Carol Lam" — recommending her replacement be ready immediately' },
+      { date: '2006-11', event: 'Kyle Sampson emails state "The real problem we have right now with Carol Lam"  -  recommending her replacement be ready immediately' },
       { date: '2007-01', event: 'Notified of termination as part of the coordinated U.S. Attorney purge' },
       { date: '2007-02-15', event: 'Officially removed from office; ongoing corruption investigations disrupted' },
       { date: '2007-06', event: 'Despite her removal, the Foggo investigation continues and Foggo is eventually convicted of fraud and conspiracy' },
@@ -4998,7 +4998,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'DOJ Inspector General Report on U.S. Attorney Dismissals', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', date: '2008' },
-      { title: 'Cunningham Bribery Case — DOJ Press Release', url: 'https://www.justice.gov/news', date: '2006' },
+      { title: 'Cunningham Bribery Case  -  DOJ Press Release', url: 'https://www.justice.gov/news', date: '2006' },
     ],
     knownAssociates: [
       { name: 'Alberto Gonzales', relationship: 'Attorney General who authorized her firing', href: '/entities/individuals/alberto-gonzales' },

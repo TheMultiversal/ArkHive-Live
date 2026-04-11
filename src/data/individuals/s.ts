@@ -4724,7 +4724,7 @@ const profiles: Record<string, IndividualProfile> = {
       'Primary architect of Muslim travel ban executive order that caused chaos at airports and was repeatedly blocked by courts',
       'Designed the family separation policy that deliberately took over 5,500 children from parents at the border',
       'Leaked emails revealed promotion of white nationalist websites like VDARE and American Renaissance to Breitbart editors',
-      'Slashed refugee admissions from 110,000 to 15,000 — the lowest level in the history of the program',
+      'Slashed refugee admissions from 110,000 to 15,000  -  the lowest level in the history of the program',
       'Pushed for ending DACA and TPS protections affecting hundreds of thousands of longtime U.S. residents',
       'Advocated for dramatic reductions in legal immigration including cutting family-based and diversity visas',
       'Drafted executive orders with disregard for legal review leading to repeated court defeats',

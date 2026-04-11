@@ -1,4 +1,4 @@
-﻿// Investigation data shard
+// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_s: Record<string, InvestigationData> = {
@@ -603,7 +603,7 @@ const investigations_s: Record<string, InvestigationData> = {
    moneyTrail: [
      { date: '2016-10-27', from: 'Michael Cohen (Essential Consultants LLC)', to: 'Stormy Daniels (Stephanie Clifford)', amount: '$130,000', purpose: 'Hush money payment to silence affair allegation before 2016 election', documented: true },
      { date: '2016-08-05', from: 'American Media Inc (National Enquirer)', to: 'Karen McDougal', amount: '$150,000', purpose: 'Catch-and-kill payment to suppress affair story', documented: true },
-     { date: '2017-02-14', from: 'Trump Organization', to: 'Michael Cohen', amount: '$420,000', purpose: 'Reimbursement disguised as legal retainer fees — the basis of 34 felony falsified business records charges', documented: true },
+     { date: '2017-02-14', from: 'Trump Organization', to: 'Michael Cohen', amount: '$420,000', purpose: 'Reimbursement disguised as legal retainer fees  -  the basis of 34 felony falsified business records charges', documented: true },
      { date: '2016-10-26', from: 'Michael Cohen (personal HELOC)', to: 'Essential Consultants LLC', amount: '$130,000', purpose: 'Cohen took out home equity line of credit to fund the Daniels payment', documented: true },
      { date: '2017-01-01', from: 'Allen Weisselberg', to: 'Michael Cohen', amount: '$50,000', purpose: 'Reimbursement for tech services payments, grossed up for taxes', documented: true }
    ],
@@ -764,7 +764,7 @@ const investigations_s: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1970-01-01', event: 'For decades, international financial institutions and private creditors have trapped developing nations in cycles of debt that transfer w', type: 'default' },
-     { date: '2025-01', event: 'The Shock Doctrine by Naomi Klein — Current status: monitoring continues with active documentation', type: 'default' }
+     { date: '2025-01', event: 'The Shock Doctrine by Naomi Klein  -  Current status: monitoring continues with active documentation', type: 'default' }
    ],
 
  defendants: [
@@ -3451,7 +3451,7 @@ const investigations_s: Record<string, InvestigationData> = {
     category: 'Technology',
     date: '2024-09-15',
     lastUpdated: '2025-03-05',
-    summary: 'Internal documents from Meta (Facebook/Instagram), TikTok, YouTube, and other social media platforms reveal that these companies knew their products were causing significant mental health harm to children and teenagers — and deliberately chose to suppress that research to protect profits. The Facebook Files, leaked by whistleblower Frances Haugen in 2021, showed Instagram\'s own researchers found the platform made body image issues worse for 1 in 3 teen girls. Meta internal studies found teens blamed Instagram for increases in anxiety and depression. TikTok\'s algorithm promotes increasingly extreme content. The Surgeon General declared a youth mental health crisis in 2021, with teen depression up 60% and suicide attempts up 30% since 2011 — coinciding precisely with smartphone and social media adoption.',
+    summary: 'Internal documents from Meta (Facebook/Instagram), TikTok, YouTube, and other social media platforms reveal that these companies knew their products were causing significant mental health harm to children and teenagers  -  and deliberately chose to suppress that research to protect profits. The Facebook Files, leaked by whistleblower Frances Haugen in 2021, showed Instagram\'s own researchers found the platform made body image issues worse for 1 in 3 teen girls. Meta internal studies found teens blamed Instagram for increases in anxiety and depression. TikTok\'s algorithm promotes increasingly extreme content. The Surgeon General declared a youth mental health crisis in 2021, with teen depression up 60% and suicide attempts up 30% since 2011  -  coinciding precisely with smartphone and social media adoption.',
     content: [
       'The evidence that social media platforms knowingly harm children while suppressing that evidence has become overwhelming. In September 2021, whistleblower Frances Haugen leaked thousands of internal Meta documents to Congress and the Wall Street Journal. The "Facebook Files" revealed Instagram\'s own researchers conducted studies showing: 32% of teen girls said Instagram made body image issues worse, teens blamed Instagram for increases in rates of anxiety and depression, and the company was aware that its recommendation algorithms pushed vulnerable teens toward eating disorder and self-harm content.',
       'Meta\'s response to its own internal findings was not to protect children but to protect profits. Despite researchers recommending product changes to reduce harm, leadership rejected changes that would reduce engagement metrics. When external researchers published findings about social media harms, Meta funded counter-research and lobbied against protective legislation. The company launched Instagram Kids despite internal concerns, only shelving it after the Haugen revelations generated public outrage. Meta continues to fight age verification requirements.',
@@ -3473,7 +3473,7 @@ const investigations_s: Record<string, InvestigationData> = {
    lastActivityDate: '2025-03-05',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2011', event: 'The Surgeon General declared a youth mental health crisis in 2021, with teen depression up 60% and suicide attempts up 30% since 2011 — coinciding precisely with smartphone and social media adoption.', type: 'critical' },
+     { date: '2011', event: 'The Surgeon General declared a youth mental health crisis in 2021, with teen depression up 60% and suicide attempts up 30% since 2011  -  coinciding precisely with smartphone and social media adoption.', type: 'critical' },
      { date: '2021', event: 'The Facebook Files, leaked by whistleblower Frances Haugen in 2021, showed Instagram\'s own researchers found the platform made body image issues worse for 1 in 3 teen girls.', type: 'default' },
      { date: '2021-09', event: 'In September 2021, whistleblower Frances Haugen leaked thousands of internal Meta documents to Congress and the Wall Street Journal.', type: 'political' },
      { date: '2023', event: 'Between 2011 and 2023: teen depression increased 60%, teen anxiety diagnoses doubled, emergency room visits for self-harm among girls aged 10-14 tripled, and teen suicide rates increased 30%.', type: 'default' }

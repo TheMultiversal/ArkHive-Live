@@ -379,8 +379,8 @@ function CollapsibleGlass({
    ACCOUNTABILITY ENGINE
    ================================================================ */
 
-function AccountabilityEngine({ content, slug, investigation }: {
-  content: string; slug: string; investigation: any;
+function AccountabilityEngine({ content, slug, investigation, accountabilityData: acctData }: {
+  content: string | null; slug: string; investigation: any; accountabilityData?: any;
 }) {
   const [completedOps, setCompletedOps] = useState<Set<number>>(new Set());
   const [viewCount, setViewCount] = useState(0);
@@ -432,11 +432,31 @@ function AccountabilityEngine({ content, slug, investigation }: {
     URL.revokeObjectURL(url);
   }, []);
 
-  const rawActions = content.replace(/^\s*WHAT YOU CAN DO TO HOLD THEM ACCOUNTABLE:\s*/i, '').split(/\(\d+\)\s*/).filter(Boolean);
-  const operations = rawActions.map((action, idx) => {
-    const { text, urls } = extractUrls(action.trim());
-    return { id: idx, text, urls, track: categorizeOp(text) };
-  });
+  const rawActions = content ? content.replace(/^\s*WHAT YOU CAN DO TO HOLD THEM ACCOUNTABLE:\s*/i, '').split(/\(\d+\)\s*/).filter(Boolean) : [];
+  let operations: { id: number; text: string; urls: { url: string; domain: string }[]; track: OpTrack }[];
+
+  if (rawActions.length > 0) {
+    operations = rawActions.map((action, idx) => {
+      const { text, urls } = extractUrls(action.trim());
+      return { id: idx, text, urls, track: categorizeOp(text) };
+    });
+  } else if (acctData) {
+    let idx = 0;
+    operations = [];
+    for (const path of (acctData.actionPaths || [])) {
+      for (const step of (path.steps || [])) {
+        const desc = step.description || '';
+        operations.push({
+          id: idx++,
+          text: `${step.title}: ${desc}`,
+          urls: [],
+          track: categorizeOp(`${step.title} ${desc} ${(step.legalBasis || []).join(' ')} ${step.filingTarget || ''}`),
+        });
+      }
+    }
+  } else {
+    operations = [];
+  }
   const grouped = trackOrder.reduce((acc, track) => {
     const ops = operations.filter(op => op.track === track);
     if (ops.length > 0) acc[track] = ops;
@@ -850,6 +870,7 @@ export default function InvestigationPage() {
   const affiliations = investigation.affiliations || [];
   const moneyTrail = investigation.moneyTrail || [];
   const whereIsTheMoneyNow = investigation.whereIsTheMoneyNow || [];
+  const scrubbedFromInternet = investigation.scrubbedFromInternet || [];
   const timeline = investigation.timeline || [];
   const statutes = investigation.statutes || [];
   const sources = investigation.sources || [];
@@ -920,17 +941,18 @@ export default function InvestigationPage() {
     let n = 3;
     if (defendants.length > 0) s.push({ id: 'defendants', number: String(n++).padStart(2, '0'), label: 'Defendants', icon: Gavel });
     if (statutes.length > 0) s.push({ id: 'statutes', number: String(n++).padStart(2, '0'), label: 'Statutes', icon: Scale });
-    if (accountabilityContent) s.push({ id: 'engine', number: String(n++).padStart(2, '0'), label: 'Engine', icon: Crosshair });
+    if (accountabilityContent || accountabilityData) s.push({ id: 'engine', number: String(n++).padStart(2, '0'), label: 'Engine', icon: Crosshair });
     if (mainContent?.length > 0) s.push({ id: 'investigation', number: String(n++).padStart(2, '0'), label: 'Investigation', icon: FileText });
     if (moneyTrail.length > 0) s.push({ id: 'money', number: String(n++).padStart(2, '0'), label: 'Money Trail', icon: DollarSign });
     if (whereIsTheMoneyNow.length > 0) s.push({ id: 'money-now', number: String(n++).padStart(2, '0'), label: 'Where Is The Money Now', icon: Landmark });
+    if (scrubbedFromInternet.length > 0) s.push({ id: 'scrubbed', number: String(n++).padStart(2, '0'), label: 'Scrubbed', icon: Lock });
     if (affiliations.length > 0 || defendants.length > 0) s.push({ id: 'entities', number: String(n++).padStart(2, '0'), label: 'Network', icon: Users });
     if (defendants.length > 0 || affiliations.length > 0) s.push({ id: 'network', number: String(n++).padStart(2, '0'), label: 'Analysis', icon: Eye });
     if (accountabilityData) s.push({ id: 'action-center', number: String(n++).padStart(2, '0'), label: 'Action Center', icon: Megaphone });
     if (timeline.length > 0) s.push({ id: 'timeline', number: String(n++).padStart(2, '0'), label: 'Timeline', icon: Calendar });
     if (sources.length > 0) s.push({ id: 'sources', number: String(n++).padStart(2, '0'), label: 'Sources', icon: ExternalLink });
     return s;
-  }, [defendants.length, statutes.length, accountabilityContent, accountabilityData, mainContent?.length, moneyTrail.length, whereIsTheMoneyNow.length, affiliations.length, timeline.length, sources.length]);
+  }, [defendants.length, statutes.length, accountabilityContent, accountabilityData, mainContent?.length, moneyTrail.length, whereIsTheMoneyNow.length, scrubbedFromInternet.length, affiliations.length, timeline.length, sources.length]);
 
   const secNum = useCallback((id: string) => visibleSections.find(s => s.id === id)?.number || '??', [visibleSections]);
 
@@ -1408,7 +1430,7 @@ export default function InvestigationPage() {
         )}
 
         {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 05 // ACCOUNTABILITY ENGINE Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
-        {accountabilityContent && (
+        {(accountabilityContent || accountabilityData) && (
           <>
             <motion.div
               id="engine"
@@ -1423,7 +1445,7 @@ export default function InvestigationPage() {
                 accentColor="#ef4444"
                 expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
               >
-                <AccountabilityEngine content={accountabilityContent} slug={slug} investigation={investigation} />
+                <AccountabilityEngine content={accountabilityContent} slug={slug} investigation={investigation} accountabilityData={accountabilityData} />
               </CollapsibleGlass>
             </motion.div>
           </>
@@ -1651,6 +1673,122 @@ export default function InvestigationPage() {
           </>
         )}
 
+        {/* SCRUBBED FROM THE INTERNET */}
+        {scrubbedFromInternet.length > 0 && (
+          <>
+            <motion.div
+              id="scrubbed"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-80px' }}
+              transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="mb-1"
+            >
+              <CollapsibleGlass
+                number={secNum('scrubbed')} title="Scrubbed from the Internet" icon={<Lock className="w-4 h-4" />}
+                count={scrubbedFromInternet.length} accentColor="#991b1b"
+                expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
+                badge={
+                  (() => {
+                    const lost = scrubbedFromInternet.filter((s: any) => s.recoveryStatus === 'lost').length;
+                    return lost > 0
+                      ? <span className="text-[9px] font-mono text-red-500/60">{lost} permanently lost</span>
+                      : undefined;
+                  })()
+                }
+              >
+                <div className="mb-4 p-3 bg-red-500/[0.03] border border-red-500/[0.08]">
+                  <p className="text-[10px] text-zinc-400 leading-relaxed">
+                    <span className="text-red-400/80 font-bold uppercase tracking-wider text-[9px]">Information Suppression Tracking</span>
+                    <span className="mx-2 text-zinc-600">|</span>
+                    Documents, records, and evidence that have been removed, redacted, classified, sealed, deleted, destroyed, or buried by those in power. ArkHive preserves what they try to erase.
+                  </p>
+                </div>
+                <motion.div
+                  className="space-y-2"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={{ visible: { transition: { staggerChildren: 0.04 } } }}
+                >
+                  {scrubbedFromInternet.map((item: any, idx: number) => {
+                    const typeConfig: Record<string, { text: string; bg: string; border: string; label: string }> = {
+                      removed:    { text: 'text-red-400/80',    bg: 'bg-red-500/[0.06]',    border: 'border-red-500/20',    label: 'REMOVED' },
+                      redacted:   { text: 'text-orange-400/80', bg: 'bg-orange-500/[0.06]',  border: 'border-orange-500/20', label: 'REDACTED' },
+                      classified: { text: 'text-yellow-400/80', bg: 'bg-yellow-500/[0.06]',  border: 'border-yellow-500/20', label: 'CLASSIFIED' },
+                      sealed:     { text: 'text-amber-400/80',  bg: 'bg-amber-500/[0.06]',   border: 'border-amber-500/20',  label: 'SEALED' },
+                      deleted:    { text: 'text-red-500',       bg: 'bg-red-500/[0.08]',    border: 'border-red-500/30',    label: 'DELETED' },
+                      destroyed:  { text: 'text-red-500',       bg: 'bg-red-500/[0.10]',    border: 'border-red-500/35',    label: 'DESTROYED' },
+                      gagged:     { text: 'text-purple-400/80', bg: 'bg-purple-500/[0.06]',  border: 'border-purple-500/20', label: 'GAGGED' },
+                      buried:     { text: 'text-zinc-400/80',   bg: 'bg-zinc-500/[0.06]',   border: 'border-zinc-500/20',   label: 'BURIED' },
+                    };
+                    const recoveryConfig: Record<string, { text: string; bg: string; border: string; label: string }> = {
+                      recovered:  { text: 'text-emerald-400/80', bg: 'bg-emerald-500/[0.06]', border: 'border-emerald-500/20', label: 'RECOVERED' },
+                      partial:    { text: 'text-yellow-400/80',  bg: 'bg-yellow-500/[0.06]',  border: 'border-yellow-500/20',  label: 'PARTIAL' },
+                      lost:       { text: 'text-red-500',        bg: 'bg-red-500/[0.08]',     border: 'border-red-500/30',     label: 'LOST' },
+                      preserved:  { text: 'text-emerald-400/80', bg: 'bg-emerald-500/[0.06]', border: 'border-emerald-500/20', label: 'PRESERVED' },
+                      ongoing:    { text: 'text-blue-400/80',    bg: 'bg-blue-500/[0.06]',    border: 'border-blue-500/20',    label: 'ONGOING' },
+                    };
+                    const tCfg = typeConfig[item.type] || typeConfig.removed;
+                    const rCfg = recoveryConfig[item.recoveryStatus] || recoveryConfig.lost;
+                    return (
+                      <motion.div
+                        key={idx}
+                        variants={{ hidden: { opacity: 0, y: 8 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } }}
+                        className="p-3 sm:p-4 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] bg-[rgba(255,255,255,0.012)] border border-white/[0.04] hover:border-red-500/[0.08] relative overflow-hidden"
+                      >
+                        <div className="absolute left-0 top-0 bottom-0 w-[3px] bg-red-500/20" />
+                        <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
+                          <div className="flex items-center gap-2 min-w-0 pl-2">
+                            <Lock className="w-3.5 h-3.5 text-red-500/40 flex-shrink-0" />
+                            <span className="text-sm font-bold text-zinc-200 break-words">{item.title}</span>
+                          </div>
+                          <div className="flex items-center gap-2 flex-shrink-0">
+                            <span className={`text-[7px] font-black uppercase tracking-[0.15em] px-1.5 py-0.5 ${tCfg.text} ${tCfg.bg} border ${tCfg.border}`}>
+                              {tCfg.label}
+                            </span>
+                            <span className={`text-[7px] font-black uppercase tracking-[0.15em] px-1.5 py-0.5 ${rCfg.text} ${rCfg.bg} border ${rCfg.border}`}>
+                              {rCfg.label}
+                            </span>
+                          </div>
+                        </div>
+                        <p className="text-[11px] text-zinc-400 leading-[1.8] mb-3 pl-2">{item.description}</p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pl-2">
+                          {item.originalSource && (
+                            <div className="p-2 bg-zinc-900/40 border border-white/[0.03]">
+                              <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-0.5">Original Source</span>
+                              <p className="text-[10px] text-zinc-400">{item.originalSource}</p>
+                            </div>
+                          )}
+                          {item.removedBy && (
+                            <div className="p-2 bg-zinc-900/40 border border-white/[0.03]">
+                              <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-0.5">Removed By</span>
+                              <p className="text-[10px] text-zinc-400">{item.removedBy}</p>
+                            </div>
+                          )}
+                          {item.dateRemoved && (
+                            <div className="p-2 bg-zinc-900/40 border border-white/[0.03]">
+                              <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-0.5">Date Removed</span>
+                              <p className="text-[10px] text-zinc-400 font-mono tabular-nums">{item.dateRemoved}</p>
+                            </div>
+                          )}
+                          {item.archiveUrl && (
+                            <div className="p-2 bg-zinc-900/40 border border-white/[0.03]">
+                              <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider block mb-0.5">Archive</span>
+                              <a href={item.archiveUrl} target="_blank" rel="noopener noreferrer" className="text-[10px] text-red-400/70 hover:text-red-400 transition-colors inline-flex items-center gap-1">
+                                View Archived Copy <ExternalLink className="w-2.5 h-2.5" />
+                              </a>
+                            </div>
+                          )}
+                        </div>
+                      </motion.div>
+                    );
+                  })}
+                </motion.div>
+              </CollapsibleGlass>
+            </motion.div>
+          </>
+        )}
 
         {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 08 // CONNECTED ENTITIES Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {(affiliations.length > 0 || defendants.length > 0) && (

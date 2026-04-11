@@ -1,4 +1,4 @@
-﻿// Investigation data shard
+// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_d: Record<string, InvestigationData> = {
@@ -55,7 +55,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2020-01-01', from: 'Unknown donors', to: 'Sixteen Thirty Fund', amount: '$410,000,000', purpose: 'Largest progressive dark money vehicle distributed funds without disclosing donors', documented: true },
      { date: '2016-01-01', from: 'Koch Industries / Freedom Partners', to: 'Americans for Prosperity', amount: '$400,000,000', purpose: 'Political engagement spending in the 2016 election cycle', documented: true },
      { date: '2010-01-01', from: 'Dark money organizations', to: 'Federal election campaigns', amount: '$1,000,000,000', purpose: 'Total dark money spent on federal elections from 2010-2022 per Brennan Center analysis', documented: true },
-     { date: '2022-01-01', from: 'Barre Seid', to: 'Marble Freedom Trust (Leonard Leo)', amount: '$1,600,000,000', purpose: 'Single largest known political donation in US history — electronics company sale proceeds', documented: true }
+     { date: '2022-01-01', from: 'Barre Seid', to: 'Marble Freedom Trust (Leonard Leo)', amount: '$1,600,000,000', purpose: 'Single largest known political donation in US history  -  electronics company sale proceeds', documented: true }
    ],
 
  defendants: [
@@ -1024,7 +1024,7 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2007-01-01', from: 'Russia / Azerbaijan / Former Soviet states', to: 'Danske Bank Estonia → Deutsche Bank (correspondent)', amount: '$230,000,000,000', purpose: 'Suspicious transactions through correspondent banking relationship that Deutsche Bank failed to terminate despite warnings', documented: true },
      { date: '2017-01-01', from: 'Deutsche Bank', to: 'US Department of Justice', amount: '$7,200,000,000', purpose: 'Settlement for mortgage-backed securities fraud that fueled the 2008 financial crisis', documented: true },
      { date: '2015-01-01', from: 'Deutsche Bank', to: 'US / UK regulators', amount: '$2,500,000,000', purpose: 'Fines for role in LIBOR interest rate manipulation scandal', documented: true },
-     { date: '2017-01-01', from: 'Deutsche Bank', to: 'US / UK regulators', amount: '$630,000,000', purpose: 'Fines for Russian mirror trading scheme — no individual executives criminally charged', documented: true },
+     { date: '2017-01-01', from: 'Deutsche Bank', to: 'US / UK regulators', amount: '$630,000,000', purpose: 'Fines for Russian mirror trading scheme  -  no individual executives criminally charged', documented: true },
      { date: '2015-01-01', from: 'Deutsche Bank', to: 'US Treasury (OFAC)', amount: '$258,000,000', purpose: 'Fines for violating sanctions against Iran, Syria, Libya, Myanmar, and Sudan', documented: true },
      { date: '2020-07-01', from: 'Deutsche Bank', to: 'NY Dept of Financial Services', amount: '$150,000,000', purpose: 'Fine for compliance failures in Jeffrey Epstein banking relationship (2013-2018)', documented: true },
      { date: '2023-01-01', from: 'Deutsche Bank', to: 'Federal Reserve', amount: '$186,000,000', purpose: 'Additional fine related to compliance and money laundering failures', documented: true }
@@ -2318,7 +2318,7 @@ const investigations_d: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1980-01-01', event: 'The defense budget wastes billions on cost overruns, failed programs, and unnecessary weapons', type: 'default' },
-     { date: '2025-01', event: 'Commission on Wartime Contracting — Current status: monitoring continues with active documentation', type: 'default' }
+     { date: '2025-01', event: 'Commission on Wartime Contracting  -  Current status: monitoring continues with active documentation', type: 'default' }
    ],
 
     defendants: [
@@ -2579,7 +2579,7 @@ const investigations_d: Record<string, InvestigationData> = {
       'The scale of domestic surveillance revealed by Edward Snowden in 2013 was unprecedented in human history. The NSA\'s PRISM program collected data directly from the servers of Google, Apple, Facebook, Microsoft, Yahoo, and other major technology companies. The UPSTREAM program tapped directly into the fiber optic cables carrying internet traffic. The bulk phone metadata program collected records of virtually every phone call made in and to the United States. These programs operated in complete secrecy, authorized by the Foreign Intelligence Surveillance Court (FISC) through classified legal interpretations that were withheld from Congress and the public.',
       'Section 702 of the Foreign Intelligence Surveillance Act, ostensibly designed to target foreign communications, has become a backdoor for warrantless surveillance of Americans. The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone. A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects without proper justification.',
       'The surveillance extends far beyond intelligence agencies. Local police departments across the country have acquired military-grade surveillance technology including Stingray cell-site simulators that intercept phone calls, automatic license plate readers that track vehicle movements, facial recognition systems with documented racial bias, and predictive policing algorithms that target minority communities. The Department of Homeland Security operates fusion centers that aggregate data from federal, state, and local agencies, creating comprehensive dossiers on individuals who have never been accused of any crime.',
-      'The legal architecture enabling mass surveillance has been constructed through classified legal opinions, secret courts, and legislative manipulations. The USA PATRIOT Act\'s Section 215 was secretly interpreted to authorize bulk collection of all Americans\' phone records — an interpretation so extreme that the law\'s author, Rep. Jim Sensenbrenner, called it "an abuse of the act." The FISA Amendments Act repeatedly renewed with bipartisan support despite documented violations. National Security Letters allow the FBI to demand records from companies with gag orders preventing disclosure of the demand\'s existence.',
+      'The legal architecture enabling mass surveillance has been constructed through classified legal opinions, secret courts, and legislative manipulations. The USA PATRIOT Act\'s Section 215 was secretly interpreted to authorize bulk collection of all Americans\' phone records  -  an interpretation so extreme that the law\'s author, Rep. Jim Sensenbrenner, called it "an abuse of the act." The FISA Amendments Act repeatedly renewed with bipartisan support despite documented violations. National Security Letters allow the FBI to demand records from companies with gag orders preventing disclosure of the demand\'s existence.',
       'Whistleblowers who exposed illegal surveillance have been prosecuted while the architects of unconstitutional programs face no accountability. Thomas Drake, William Binney, and J. Kirk Wiebe reported NSA waste and constitutionality concerns through proper channels and were retaliated against. Edward Snowden remains in exile in Russia. Meanwhile, James Clapper, Director of National Intelligence, lied under oath to Congress denying mass surveillance existed and was never charged with perjury. The surveillance state continues expanding with no meaningful reform.'
     ],
     tags: ['NSA', 'surveillance', 'PRISM', 'Section 702', 'FISA', 'Snowden', 'Fourth Amendment', 'warrantless wiretapping', 'Stingray', 'facial recognition', 'fusion centers'],

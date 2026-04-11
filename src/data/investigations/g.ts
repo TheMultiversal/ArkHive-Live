@@ -1,4 +1,4 @@
-﻿// Investigation data shard
+// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_g: Record<string, InvestigationData> = {
@@ -1105,7 +1105,7 @@ const investigations_g: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1980-01-01', event: 'Global terrorism is not simply the product of individual radicalization but of complex networks involving state sponsorship, intelligence', type: 'critical' },
-     { date: '2025-01', event: '9/11 Commission Report — Current status: monitoring continues with active documentation', type: 'critical' }
+     { date: '2025-01', event: '9/11 Commission Report  -  Current status: monitoring continues with active documentation', type: 'critical' }
    ],
 
  defendants: [
@@ -1873,7 +1873,7 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2010-07-15', event: 'Well finally capped after 87 days; 4.9 million barrels of oil released into the Gulf of Mexico', type: 'default' },
      { date: '2010-09-19', event: 'Relief well permanently seals the Macondo wellhead; BP declares well effectively dead', type: 'default' },
      { date: '2012-11-15', event: 'BP pleads guilty to 11 felony counts of manslaughter and agrees to record $4.5B criminal settlement', type: 'legal' },
-     { date: '2015-07-02', event: 'DOJ announces $18.7B civil settlement with BP — largest environmental settlement in U.S. history', type: 'legal' },
+     { date: '2015-07-02', event: 'DOJ announces $18.7B civil settlement with BP  -  largest environmental settlement in U.S. history', type: 'legal' },
      { date: '2016-04-04', event: 'Final tally: BP pays $65B+ total including cleanup, fines, and settlements; Gulf ecosystem damage ongoing', type: 'financial' }
    ],
 
@@ -2159,12 +2159,12 @@ const investigations_g: Record<string, InvestigationData> = {
   },
   'genetic-data-privacy-exploitation': {
     title: 'Genetic Data Privacy Exploitation and DNA Surveillance',
-    subtitle: 'Over 40 million Americans have submitted DNA to consumer genetic testing companies like 23andMe, Ancestry, and others —',
+    subtitle: 'Over 40 million Americans have submitted DNA to consumer genetic testing companies like 23andMe, Ancestry, and others  - ',
     severity: 'high' as const,
     category: 'Privacy',
     date: '2024-10-15',
     lastUpdated: '2025-01-30',
-    summary: 'Over 40 million Americans have submitted DNA to consumer genetic testing companies like 23andMe, Ancestry, and others — creating databases that are vulnerable to hacking, corporate exploitation, and warrantless law enforcement access. 23andMe suffered a data breach in 2023 exposing the genetic data of 6.9 million users. The company then filed for bankruptcy in 2024, raising alarm about what would happen to its massive DNA database in liquidation. Law enforcement has used genetic genealogy databases to conduct suspicionless searches of millions of Americans\' DNA without warrants. Pharmaceutical companies purchase genetic data to develop drugs without compensating or adequately consenting the data subjects.',
+    summary: 'Over 40 million Americans have submitted DNA to consumer genetic testing companies like 23andMe, Ancestry, and others  -  creating databases that are vulnerable to hacking, corporate exploitation, and warrantless law enforcement access. 23andMe suffered a data breach in 2023 exposing the genetic data of 6.9 million users. The company then filed for bankruptcy in 2024, raising alarm about what would happen to its massive DNA database in liquidation. Law enforcement has used genetic genealogy databases to conduct suspicionless searches of millions of Americans\' DNA without warrants. Pharmaceutical companies purchase genetic data to develop drugs without compensating or adequately consenting the data subjects.',
     content: [
       'The consumer genetic testing industry has created the largest genetic databases in human history with minimal regulatory oversight. Over 40 million Americans have voluntarily submitted their DNA, and because of the nature of genetic data, these databases effectively capture genetic information about hundreds of millions of relatives who never consented to testing. 23andMe alone holds genetic data on 12+ million people. Ancestry.com has 20+ million DNA kits. These companies operate under terms of service, not medical privacy protections, and HIPAA does not apply to consumer genetic testing.',
       'The 23andMe bankruptcy crisis of 2024-2025 illustrates the catastrophic risks. After a 2023 data breach exposed 6.9 million users\' genetic data including ancestry information exploited to target specific ethnic groups, 23andMe\'s stock collapsed 98% from its peak. The company filed for bankruptcy, and users faced the terrifying prospect of their DNA data being sold as a corporate asset to the highest bidder. California\'s Attorney General issued an unprecedented advisory urging 23andMe customers to delete their data. The incident demonstrated that genetic privacy protections are effectively nonexistent.',

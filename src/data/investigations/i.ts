@@ -1,4 +1,4 @@
-﻿// Investigation data shard
+// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_i: Record<string, InvestigationData> = {
@@ -1564,7 +1564,7 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '2006-03-24', event: 'Mearsheimer and Walt publish "The Israel Lobby" paper; face intense backlash and accusations of antisemitism', type: 'default' },
      { date: '2019-02', event: 'Rep. Ilhan Omar criticized for comments about AIPAC influence; sparks national debate about permissible criticism of Israel lobby', type: 'political' },
      { date: '2022-11', event: 'AIPAC\'s United Democracy Project super PAC spends $30M+ in first election cycle; defeats multiple progressive candidates', type: 'financial' },
-     { date: '2024-06-25', event: 'AIPAC-affiliated PAC spends $14.5M to defeat Rep. Jamaal Bowman in primary — most expensive House primary in history', type: 'financial' }
+     { date: '2024-06-25', event: 'AIPAC-affiliated PAC spends $14.5M to defeat Rep. Jamaal Bowman in primary  -  most expensive House primary in history', type: 'financial' }
    ],
 
     defendants: [
@@ -1863,7 +1863,7 @@ const investigations_i: Record<string, InvestigationData> = {
   },
   'indigenous-land-rights-resource-extraction': {
     title: 'Indigenous Land Rights Violations and Resource Extraction',
-    subtitle: 'How the U.S. government continues to violate treaty rights and enable corporate resource extraction on Native lands — from the Trail of Tears to Standing Rock to the ongoing uranium contamination of Navajo Nation',
+    subtitle: 'How the U.S. government continues to violate treaty rights and enable corporate resource extraction on Native lands  -  from the Trail of Tears to Standing Rock to the ongoing uranium contamination of Navajo Nation',
     severity: 'critical' as const,
     category: 'Human Rights',
     date: '2024-06-15',

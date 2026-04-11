@@ -6330,7 +6330,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former Governor of Michigan',
     role: 'Governor',
     riskLevel: 'critical' as const,
-    description: 'Republican Governor of Michigan (2011-2019) whose administration\'s decision to switch Flint\'s water source to the corrosive Flint River in April 2014 — as a cost-cutting measure — caused a catastrophic public health crisis. The switch leached lead from aging pipes into drinking water consumed by nearly 100,000 residents, causing permanent brain damage in thousands of children, outbreaks of Legionnaires\' disease that killed at least 12 people, and a humanitarian disaster that became an international symbol of environmental racism and government failure.',
+    description: 'Republican Governor of Michigan (2011-2019) whose administration\'s decision to switch Flint\'s water source to the corrosive Flint River in April 2014  -  as a cost-cutting measure  -  caused a catastrophic public health crisis. The switch leached lead from aging pipes into drinking water consumed by nearly 100,000 residents, causing permanent brain damage in thousands of children, outbreaks of Legionnaires\' disease that killed at least 12 people, and a humanitarian disaster that became an international symbol of environmental racism and government failure.',
     birthDate: '1958-08-19',
     birthPlace: 'Battle Creek, Michigan',
     education: ['B.A., MBA, and J.D., University of Michigan (1982)'],

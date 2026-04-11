@@ -2898,7 +2898,7 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'gina-haspel': {
     name: 'Gina Haspel',
-    bio: 'Gina Cheri Haspel served as the Director of the Central Intelligence Agency from 2018 to 2021, the first woman to hold the position. Her appointment was deeply controversial due to her role in the CIA\'s post-9/11 torture program. In 2002, Haspel oversaw a CIA black site in Thailand (codenamed "Cat\'s Eye") where detainees were subjected to waterboarding, sleep deprivation, confinement boxes, and other forms of torture. In 2005, she drafted the order to destroy 92 videotapes documenting the interrogation sessions — evidence that was under preservation requests from Congress, federal courts, and the 9/11 Commission. Despite the destruction of evidence and her direct involvement in torture, she was confirmed as CIA Director by the Senate 54-45.',
+    bio: 'Gina Cheri Haspel served as the Director of the Central Intelligence Agency from 2018 to 2021, the first woman to hold the position. Her appointment was deeply controversial due to her role in the CIA\'s post-9/11 torture program. In 2002, Haspel oversaw a CIA black site in Thailand (codenamed "Cat\'s Eye") where detainees were subjected to waterboarding, sleep deprivation, confinement boxes, and other forms of torture. In 2005, she drafted the order to destroy 92 videotapes documenting the interrogation sessions  -  evidence that was under preservation requests from Congress, federal courts, and the 9/11 Commission. Despite the destruction of evidence and her direct involvement in torture, she was confirmed as CIA Director by the Senate 54-45.',
     riskLevel: 'high' as const,
     status: 'active',
     lastKnownLocation: 'Undisclosed',

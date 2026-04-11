@@ -2559,7 +2559,7 @@ const profiles: Record<string, IndividualProfile> = {
   'Part of broader pattern of illicit information sharing at Kidder Peabody',
  ],
  charges: [
-  { statute: '18 U.S.C. § 1621', description: 'Perjury — lying to federal prosecutors about receiving insider information', category: 'Federal' },
+  { statute: '18 U.S.C. § 1621', description: 'Perjury  -  lying to federal prosecutors about receiving insider information', category: 'Federal' },
  ],
  relatedInvestigations: [
   { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },

@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -4686,7 +4686,7 @@ const profiles: Record<string, IndividualProfile> = {
    'Reinstated recognition of ACICS accreditor that had approved fraudulent for-profit colleges like ITT Tech and Corinthian',
    'Delayed and weakened gainful employment rule designed to hold for-profit colleges accountable for poor outcomes',
    'Family donated $200+ million to Republican causes before appointment; critics called it pay-to-play cabinet selection',
-   'Confirmed as Secretary only through Vice President Pence\'s historic tie-breaking vote — first ever for a cabinet nominee',
+   'Confirmed as Secretary only through Vice President Pence\'s historic tie-breaking vote  -  first ever for a cabinet nominee',
    'Proposed massive budget cuts to public education while championing voucher programs benefiting private/religious schools',
    'Refused to commit that schools receiving federal funds would not discriminate against LGBTQ+ students or students with disabilities',
    'Department under her leadership sat on 150,000+ pending borrower defense claims without processing them',
@@ -4757,7 +4757,7 @@ const profiles: Record<string, IndividualProfile> = {
    'Internal documents showed Law personally received reports of abuse and approved reassignments of accused priests',
    'At least 1,000 victims identified in Boston Archdiocese alone during the period of Law\'s cover-up',
    'Never criminally charged despite extensive evidence of obstruction; grand jury cited him but no indictment pursued',
-   'After resignation in disgrace, Vatican appointed him Archpriest of prestigious Roman basilica — perceived as reward for silence',
+   'After resignation in disgrace, Vatican appointed him Archpriest of prestigious Roman basilica  -  perceived as reward for silence',
    'Boston Globe Spotlight investigation that exposed the cover-up won the 2003 Pulitzer Prize for Public Service',
   ],
   charges: [
@@ -4811,7 +4811,7 @@ const profiles: Record<string, IndividualProfile> = {
   title: 'Governor of Georgia',
   role: 'Governor',
   riskLevel: 'high' as const,
-  description: 'Republican Governor of Georgia who won the 2018 gubernatorial election while simultaneously serving as Georgia Secretary of State — the office responsible for overseeing the very election he was running in. As Secretary of State, Kemp purged over 1.4 million voters from the rolls, placed 53,000 voter registrations on hold (70% from Black voters), closed 214 polling locations primarily in minority communities, and implemented exact-match signature verification that disproportionately rejected minority applications. His refusal to recuse from overseeing his own election against Stacey Abrams remains one of the most brazen conflicts of interest in modern American politics.',
+  description: 'Republican Governor of Georgia who won the 2018 gubernatorial election while simultaneously serving as Georgia Secretary of State  -  the office responsible for overseeing the very election he was running in. As Secretary of State, Kemp purged over 1.4 million voters from the rolls, placed 53,000 voter registrations on hold (70% from Black voters), closed 214 polling locations primarily in minority communities, and implemented exact-match signature verification that disproportionately rejected minority applications. His refusal to recuse from overseeing his own election against Stacey Abrams remains one of the most brazen conflicts of interest in modern American politics.',
   birthDate: '1963-11-02',
   birthPlace: 'Athens, Georgia',
   education: ['B.S. in Agriculture, University of Georgia (1987)'],

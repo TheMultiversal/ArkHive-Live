@@ -182,6 +182,6 @@ export interface IndividualProfile {
   networkEdges?: NetworkEdge[];
   /** Financial information summary */
   financialInfo?: string;
-  /** Where is the Money Now — tracks where wealth ended up */
+  /** Where is the Money Now  -  tracks where wealth ended up */
   whereIsTheMoneyNow?: WealthDestination[];
 }

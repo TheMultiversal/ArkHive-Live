@@ -1,7 +1,7 @@
 'use client';
 
 import { Document, Page, Text, View, StyleSheet, Image } from '@react-pdf/renderer';
-import type { InvestigationData, Defendant, TimelineEvent, MoneyTransaction, InvestigationAffiliation, InvestigationSource, WealthDestination } from '@/data/investigations/types';
+import type { InvestigationData, Defendant, TimelineEvent, MoneyTransaction, InvestigationAffiliation, InvestigationSource, WealthDestination, ScrubbedItem } from '@/data/investigations/types';
 
 /* ================================================================
    COLORS — Print-friendly: black text on white, no color accents.
@@ -182,6 +182,7 @@ export default function InvestigationDossierPDF({
   const affiliations: InvestigationAffiliation[] = investigation.affiliations || [];
   const sources: InvestigationSource[] = investigation.sources || [];
   const whereIsTheMoneyNow: WealthDestination[] = investigation.whereIsTheMoneyNow || [];
+  const scrubbedFromInternet: ScrubbedItem[] = investigation.scrubbedFromInternet || [];
   const content = investigation.content || [];
   const tags = investigation.tags || [];
 
@@ -213,6 +214,7 @@ export default function InvestigationDossierPDF({
   ];
   let tocNum = 6;
   if (whereIsTheMoneyNow.length > 0) tocEntries.push({ n: String(tocNum++).padStart(2, '0'), title: 'WHERE IS THE MONEY NOW' });
+  if (scrubbedFromInternet.length > 0) tocEntries.push({ n: String(tocNum++).padStart(2, '0'), title: 'SCRUBBED FROM THE INTERNET' });
   tocEntries.push(
     { n: String(tocNum++).padStart(2, '0'), title: 'ENTITY NETWORK' },
     { n: String(tocNum++).padStart(2, '0'), title: 'APPLICABLE STATUTES' },
@@ -541,12 +543,42 @@ export default function InvestigationDossierPDF({
         </Page>
       )}
 
+      {/* ═══════ SCRUBBED FROM THE INTERNET ═══════ */}
+      {scrubbedFromInternet.length > 0 && (
+        <Page size="A4" style={s.page} wrap>
+          <Cls />
+          <Wm uri={sealDataUri} />
+          <Sec n={`SECTION ${String(6 + (whereIsTheMoneyNow.length > 0 ? 1 : 0)).padStart(2, '0')}`} title="SCRUBBED FROM THE INTERNET">
+            <Text style={{ ...s.body, fontSize: 7, marginBottom: 8 }}>
+              {scrubbedFromInternet.length} items tracked. Documents, records, and evidence that have been removed, redacted, classified, sealed, deleted, destroyed, or buried.
+            </Text>
+            {scrubbedFromInternet.map((item: ScrubbedItem, i: number) => {
+              const typeLabels: Record<string, string> = { removed: 'REMOVED', redacted: 'REDACTED', classified: 'CLASSIFIED', sealed: 'SEALED', deleted: 'DELETED', destroyed: 'DESTROYED', gagged: 'GAGGED', buried: 'BURIED' };
+              const recoveryLabels: Record<string, string> = { recovered: 'RECOVERED', partial: 'PARTIAL', lost: 'PERMANENTLY LOST', preserved: 'PRESERVED', ongoing: 'ONGOING' };
+              return (
+                <View key={i} style={{ marginBottom: 6, padding: 6, borderWidth: 0.5, borderColor: '#cccccc', borderLeftWidth: 2, borderLeftColor: '#000000' }} wrap={false}>
+                  <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 3 }}>
+                    <Text style={{ fontSize: 7.5, fontWeight: 'bold', color: c.text, flex: 1 }}>{item.title}</Text>
+                    <Text style={{ fontSize: 6, color: c.muted, textTransform: 'uppercase' }}>[{typeLabels[item.type] || item.type}] [{recoveryLabels[item.recoveryStatus] || item.recoveryStatus}]</Text>
+                  </View>
+                  <Text style={{ fontSize: 6.5, color: c.sub, lineHeight: 1.6, marginBottom: 3 }}>{item.description}</Text>
+                  {item.originalSource && <Text style={{ fontSize: 6, color: c.muted }}>Source: {item.originalSource}</Text>}
+                  {item.removedBy && <Text style={{ fontSize: 6, color: c.muted }}>Removed by: {item.removedBy}</Text>}
+                  {item.dateRemoved && <Text style={{ fontSize: 6, color: c.muted }}>Date: {item.dateRemoved}</Text>}
+                </View>
+              );
+            })}
+          </Sec>
+          <Ft date={genDate} />
+        </Page>
+      )}
+
       {/* ═══════ ENTITY NETWORK ═══════ */}
       {affiliations.length > 0 && (
         <Page size="A4" style={s.page} wrap>
           <Cls />
           <Wm uri={sealDataUri} />
-          <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 7 : 6).padStart(2, '0')}`} title="ENTITY NETWORK">
+          <Sec n={`SECTION ${String(6 + (whereIsTheMoneyNow.length > 0 ? 1 : 0) + (scrubbedFromInternet.length > 0 ? 1 : 0)).padStart(2, '0')}`} title="ENTITY NETWORK">
             <Text style={{ ...s.body, fontSize: 7, marginBottom: 8 }}>
               {affiliations.length} entities linked to this investigation.
             </Text>
@@ -572,7 +604,7 @@ export default function InvestigationDossierPDF({
         <Page size="A4" style={s.page} wrap>
           <Cls />
           <Wm uri={sealDataUri} />
-          <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 8 : 7).padStart(2, '0')}`} title="APPLICABLE STATUTES">
+          <Sec n={`SECTION ${String(7 + (whereIsTheMoneyNow.length > 0 ? 1 : 0) + (scrubbedFromInternet.length > 0 ? 1 : 0)).padStart(2, '0')}`} title="APPLICABLE STATUTES">
             {statutes.map((st, i) => (
               <View key={i} style={s.statuteCard} wrap={false}>
                 <Text style={s.statuteCode}>{st.code}</Text>
@@ -589,7 +621,7 @@ export default function InvestigationDossierPDF({
         <Page size="A4" style={s.page} wrap>
           <Cls />
           <Wm uri={sealDataUri} />
-          <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 9 : 8).padStart(2, '0')}`} title="SOURCES & CITATIONS">
+          <Sec n={`SECTION ${String(8 + (whereIsTheMoneyNow.length > 0 ? 1 : 0) + (scrubbedFromInternet.length > 0 ? 1 : 0)).padStart(2, '0')}`} title="SOURCES & CITATIONS">
             {sources.map((src, i) => (
               <View key={i} style={s.sourceRow} wrap={false}>
                 <Text style={s.sourceNum}>[{String(i + 1).padStart(2, '0')}]</Text>
@@ -606,7 +638,7 @@ export default function InvestigationDossierPDF({
       <Page size="A4" style={s.page}>
         <Cls />
         <Wm uri={sealDataUri} />
-        <Sec n={`SECTION ${String(whereIsTheMoneyNow.length > 0 ? 10 : 9).padStart(2, '0')}`} title="LEGAL DISCLAIMER & NOTICE">
+        <Sec n={`SECTION ${String(9 + (whereIsTheMoneyNow.length > 0 ? 1 : 0) + (scrubbedFromInternet.length > 0 ? 1 : 0)).padStart(2, '0')}`} title="LEGAL DISCLAIMER & NOTICE">
           <Text style={s.body}>
             This document has been generated by ArkHive, an investigative journalism and accountability platform.
             All information contained herein has been compiled from publicly available sources including court records,

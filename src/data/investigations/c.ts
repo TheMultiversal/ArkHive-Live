@@ -1,4 +1,4 @@
-﻿// Investigation data shard
+// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_c: Record<string, InvestigationData> = {
@@ -456,7 +456,7 @@ const investigations_c: Record<string, InvestigationData> = {
    lastActivityDate: '2025-01-08',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2023', event: 'Harlan Crow Gift Network — initial events and core patterns documented', type: 'default' },
+     { date: '2023', event: 'Harlan Crow Gift Network  -  initial events and core patterns documented', type: 'default' },
      { date: '2024', event: 'Ongoing developments and continued investigative reporting', type: 'default' }
    ],
 
@@ -994,7 +994,7 @@ const investigations_c: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1970-01-01', event: 'For over three decades, fossil fuel companies funded a sophisticated disinformation network to manufacture doubt about climate science', type: 'critical' },
-     { date: '2014-01', event: 'Drilled Podcast — Current status: monitoring continues with active documentation', type: 'critical' }
+     { date: '2014-01', event: 'Drilled Podcast  -  Current status: monitoring continues with active documentation', type: 'critical' }
    ],
 
  defendants: [
@@ -1985,7 +1985,7 @@ const investigations_c: Record<string, InvestigationData> = {
    lastActivityDate: '2025-12-30',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020', event: 'China Business Complicity — initial events and core patterns documented', type: 'default' },
+     { date: '2020', event: 'China Business Complicity  -  initial events and core patterns documented', type: 'default' },
      { date: '2025', event: 'Continued developments in china business complicity with new evidence emerging', type: 'default' }
    ],
 
@@ -6381,10 +6381,10 @@ const investigations_c: Record<string, InvestigationData> = {
     summary: 'Child labor violations in the United States have increased 283% since 2015, with the Department of Labor discovering children working in slaughterhouses, meat processing plants, automobile factories, and roofing operations. In 2023, the DOL found 5,792 children employed in violation of federal law, including 502 in hazardous occupations. Rather than strengthening protections, at least 14 states have introduced or passed legislation to weaken child labor laws, extending hours, allowing younger children to work, and reducing penalties for violations. Many exploited children are unaccompanied migrant minors who are funneled through HHS custody into labor trafficking networks that supply many of America\'s largest corporations.',
     content: [
       'In February 2023, the Department of Labor announced a $1.5 million penalty against Packers Sanitation Services Inc. (PSSI) after discovering 102 children aged 13-17 working overnight shifts cleaning meat processing equipment at 13 facilities in eight states. Children were using caustic chemicals to clean razor-sharp saws and bone-cutting equipment. Several suffered chemical burns and injuries. PSSI cleaned facilities for JBS, Cargill, and other major meatpacking companies. The case was just the tip of the iceberg: DOL investigations have since found children working in commercial bakeries, at auto parts suppliers for Hyundai and Kia, on roofing crews, and in industrial laundries.',
-      'The New York Times investigation "Alone and Exploited" revealed a shadow workforce of migrant children, many unaccompanied minors who came through HHS custody. The investigation found children as young as 12 working full-time in factories, farm fields, and food processing facilities across the country. HHS had placed these children with sponsors — many of whom were labor traffickers, not family members — and then lost track of them. HHS admitted it had lost contact with approximately 85,000 unaccompanied minors. Many were working to pay off debts to smugglers, in conditions meeting the federal definition of forced labor.',
+      'The New York Times investigation "Alone and Exploited" revealed a shadow workforce of migrant children, many unaccompanied minors who came through HHS custody. The investigation found children as young as 12 working full-time in factories, farm fields, and food processing facilities across the country. HHS had placed these children with sponsors  -  many of whom were labor traffickers, not family members  -  and then lost track of them. HHS admitted it had lost contact with approximately 85,000 unaccompanied minors. Many were working to pay off debts to smugglers, in conditions meeting the federal definition of forced labor.',
       'The corporate supply chain exploits child labor through subcontracting layers that provide plausible deniability. Hyundai\'s Alabama supplier, SL Alabama, was found by Reuters to be employing children as young as 12 on auto assembly lines. Hearthside Food Solutions, which produces snacks for major brands, employed children through staffing agencies. The multi-layered subcontracting structure means companies like General Mills, Frito-Lay, and major automakers benefit from child labor while claiming ignorance of their suppliers\' practices.',
       'In a stunning reversal of a century of progressive labor reform, at least 14 states since 2021 have introduced or passed laws weakening child labor protections. Arkansas eliminated age verification requirements for workers under 16. Iowa allowed 14-year-olds to work in industrial laundries and 15-year-olds to work on assembly lines. New Hampshire and New Jersey expanded hours for minors. Ohio permitted 14 and 15-year-olds to work until 9 PM on school nights. These legislative changes were promoted by industry groups including the National Restaurant Association and state chambers of commerce.',
-      'DOL enforcement is woefully inadequate. The Wage and Hour Division has approximately 780 investigators to cover 11 million workplaces. Penalties for child labor violations are capped at $15,138 per violation for non-serious violations and $68,801 for violations causing death or serious injury — amounts that represent rounding errors for corporations earning billions. Criminal prosecution is rare. The PSSI case, involving 102 children at 13 facilities, resulted in zero criminal charges. For corporations, employing children is a cost-effective business decision because penalties are cheaper than paying adult wages.'
+      'DOL enforcement is woefully inadequate. The Wage and Hour Division has approximately 780 investigators to cover 11 million workplaces. Penalties for child labor violations are capped at $15,138 per violation for non-serious violations and $68,801 for violations causing death or serious injury  -  amounts that represent rounding errors for corporations earning billions. Criminal prosecution is rare. The PSSI case, involving 102 children at 13 facilities, resulted in zero criminal charges. For corporations, employing children is a cost-effective business decision because penalties are cheaper than paying adult wages.'
     ],
     tags: ['child labor', 'meatpacking', 'migrant children', 'HHS', 'unaccompanied minors', 'labor trafficking', 'state labor laws', 'PSSI', 'supply chain', 'DOL enforcement'],
     sources: [
