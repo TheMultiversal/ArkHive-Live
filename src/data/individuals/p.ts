@@ -1244,33 +1244,44 @@ const profiles: Record<string, IndividualProfile> = {
 
  'paul-goldenheim': {
  name: 'Paul Goldenheim',
- title: 'Former Chief Medical Officer of Purdue Pharma; pled guilty to misbranding charges',
- role: 'Former Chief Medical Officer of Purdue Pharma; pled guilty to misbranding charges',
+ title: 'Former Chief Medical Officer of Purdue Pharma; Convicted of Federal Misbranding Charges (2007)',
+ role: 'Purdue Pharma chief medical officer who oversaw the scientific claims behind OxyContin marketing and pleaded guilty to misbranding; Ogrosky memo recommended felony charges',
  riskLevel: 'high',
- description: 'Paul Goldenheim. Profile pending review.',
- education: [],
+ description: 'Paul Goldenheim, M.D., served as Executive Vice President of Scientific and Medical Affairs and Chief Medical Officer at Purdue Pharma. In this role, he was responsible for the scientific and medical claims that underpinned OxyContin\'s marketing, including the pivotal assertion that the drug\'s extended-release formulation reduced its abuse potential -- a claim unsupported by controlled addiction studies. As CMO, Goldenheim oversaw the medical affairs function that provided the scientific veneer for Purdue\'s marketing representations to physicians, including the fabricated "less than one percent" addiction claim. In October 2006, Kirk Ogrosky, Deputy Chief of the DOJ Fraud Division, wrote an internal memorandum recommending that Goldenheim, along with president Michael Friedman and general counsel Howard Udell, be charged with felonies including wire fraud and money laundering based on evidence that Purdue executives had committed federal crimes to boost OxyContin sales. Instead of pursuing felony charges, the DOJ negotiated a plea bargain. On May 10, 2007, Goldenheim pleaded guilty to a single misdemeanor count of misbranding OxyContin "with the intent to defraud or mislead." He was sentenced to 400 hours of community service in drug treatment programs and paid a personal fine as part of a combined $34.5 million penalty shared with Friedman and Udell. Goldenheim received no prison time. His role was particularly significant because, as the company\'s senior medical officer, he bore direct responsibility for the accuracy of Purdue\'s claims about OxyContin\'s pharmacological properties, addiction risk, and safety profile -- claims that were central to Purdue\'s fraud.',
+ education: ['M.D.'],
  affiliations: [
- { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ { name: 'Purdue Pharma', role: 'Executive VP of Scientific and Medical Affairs; Chief Medical Officer; oversaw scientific claims behind OxyContin marketing', type: 'corporation' as const },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
+ 'Ogrosky memo (October 2006) recommended felony charges including wire fraud and money laundering against Goldenheim, but DOJ accepted misdemeanor plea instead',
+ 'As Chief Medical Officer, bore direct responsibility for the accuracy of Purdue\'s claims about OxyContin\'s addiction risk and abuse potential',
+ 'Oversaw the medical affairs function that provided scientific justification for the false "less than 1%" addiction claim to physicians',
+ 'Pleaded guilty to misbranding OxyContin "with the intent to defraud or mislead" but received only 400 hours community service -- no prison time',
+ 'The extended-release "abuse-deterrent" claim he oversaw was unsupported by controlled addiction studies; Purdue\'s own testing showed 68% of oxycodone could be extracted when crushed',
+ 'No Sackler family member was charged in the 2007 case despite directing the overall marketing strategy',
  ],
- charges: [],
+ charges: [
+ { statute: '21 U.S.C. § 331 -- FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead"; sentenced to 400 hours community service; no prison time', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
+ ],
  relatedInvestigations: [
- { title: 'Purdue Pharma Oxycontin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
+ { title: 'Opioid Crisis: Corporate Mass Murder', slug: 'opioid-crisis-corporate-mass-murder', severity: 'critical' },
+ { title: 'Purdue Pharma OxyContin', slug: 'purdue-pharma-oxycontin', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Former Chief Medical Officer of Purdue Pharma; pled guilty to misbranding charges' },
+ { date: '2006-10', event: 'Kirk Ogrosky, DOJ Fraud Division Deputy Chief, writes internal memo recommending felony charges against Goldenheim, Friedman, and Udell' },
+ { date: '2007-05-10', event: 'Pleads guilty to federal misbranding charge; Purdue pays $634.5 million corporate fine; shares $34.5 million personal fine with Friedman and Udell' },
+ { date: '2007', event: 'Sentenced to 400 hours of community service; receives no prison time despite Ogrosky memo recommending felonies' },
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Paul Goldenheim', url: 'https://www.google.com/search?q=Paul%20Goldenheim', date: '' },
+ { title: 'DOJ: United States v. Purdue Frederick Co. -- 2007 Guilty Plea', url: 'https://www.justice.gov/archive/opa/pr/2007/May/07_civ_370.html', date: '2007-05-10' },
+ { title: 'Patrick Radden Keefe: Empire of Pain -- The Secret History of the Sackler Dynasty', url: 'https://www.penguinrandomhouse.com/books/612024/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
  ],
  aliases: [],
  knownAssociates: [
- { name: 'Michael Friedman', relationship: 'Fellow Purdue Pharma exec convicted of OxyContin fraud', href: '/entities/individuals/michael-friedman' },
- { name: 'Howard Udell', relationship: 'Fellow Purdue exec who pled guilty alongside Goldenheim', href: '/entities/individuals/howard-udell' },
- { name: 'Richard Sackler', relationship: 'Sackler family head behind OxyContin marketing', href: '/entities/individuals/richard-sackler' },
+ { name: 'Michael Friedman', relationship: 'Purdue president who pleaded guilty to misbranding alongside Goldenheim in 2007; shared $34.5M personal fine', href: '/entities/individuals/michael-friedman' },
+ { name: 'Howard Udell', relationship: 'Purdue general counsel who pleaded guilty to misbranding alongside Goldenheim in 2007', href: '/entities/individuals/howard-udell' },
+ { name: 'Richard Sackler', relationship: 'Sackler family patriarch who directed the OxyContin marketing strategy', href: '/entities/individuals/richard-sackler' },
  ],
  },
 

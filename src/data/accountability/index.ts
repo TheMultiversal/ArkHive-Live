@@ -45,6 +45,7 @@ import { financialCrisisAccountability } from './financial-crisis-accountability
 import { hushMoneyAccountability } from './hush-money';
 import { liborScandalAccountability } from './libor-scandal';
 import { myLaiMassacreAccountability } from './my-lai-massacre';
+import { opioidCrisisAccountability } from './opioid-crisis-corporate-mass-murder';
 import { pandemicProfiteeringAccountability } from './pandemic-profiteering-covid-corruption';
 import { policeBrutalityAccountability } from './police-brutality';
 import { russianInterferenceAccountability } from './russian-interference';
@@ -103,6 +104,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'hush-money': hushMoneyAccountability,
   'libor-scandal': liborScandalAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,
+  'opioid-crisis-corporate-mass-murder': opioidCrisisAccountability,
   'pandemic-profiteering-covid-corruption': pandemicProfiteeringAccountability,
   'police-brutality': policeBrutalityAccountability,
   'russian-interference': russianInterferenceAccountability,
