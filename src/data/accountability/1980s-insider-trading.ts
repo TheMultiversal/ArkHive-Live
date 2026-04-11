@@ -1,4 +1,4 @@
-﻿import type { AccountabilityData } from '@/types/accountability';
+import type { AccountabilityData } from '@/types/accountability';
 
 export const insiderTradingAccountability: AccountabilityData = {
   investigationSlug: '1980s-insider-trading',
@@ -803,15 +803,15 @@ export const insiderTradingAccountability: AccountabilityData = {
   // WHAT SUCCESS LOOKS LIKE
   // ============================================================
   successCriteria: [
-    'Complete disgorgement and asset seizure from ALL convicted defendants — Milken, Boesky, Levine, Bilzerian, Siegel, Freeman, Jefferies, Sherwin, Lewis, Wilkis, Sokolow, Reich, Brown, Jones, Newberg, Solomon, Dahl, Brant, Posner, Meier — plus interest and penalties for decades of evasion',
+    'Complete disgorgement and asset seizure from ALL convicted defendants  -  Milken, Boesky, Levine, Bilzerian, Siegel, Freeman, Jefferies, Sherwin, Lewis, Wilkis, Sokolow, Reich, Brown, Jones, Newberg, Solomon, Dahl, Brant, Posner, Meier  -  plus interest and penalties for decades of evasion',
     'Full asset recovery from the families, trusts, and estates of ALL defendants: no family member, spouse, child, or descendant shall retain any wealth, property, investment, or asset traceable to or derived from the proceeds of insider trading, securities fraud, or any related criminal activity',
-    'Constructive trust imposed on ALL defendant family assets — including but not limited to the Milken family, Boesky estate trusts, Bilzerian family assets (including those held by Dan Bilzerian), Posner family holdings, and all trusts, LLCs, and shell entities used to conceal or transfer stolen wealth',
+    'Constructive trust imposed on ALL defendant family assets  -  including but not limited to the Milken family, Boesky estate trusts, Bilzerian family assets (including those held by Dan Bilzerian), Posner family holdings, and all trusts, LLCs, and shell entities used to conceal or transfer stolen wealth',
     'Congressional investigation into the Milken pardon process, with public hearings and full transparency regarding the circumstances of presidential pardons granted to convicted financial criminals',
     'Legislation eliminating statute of limitations on civil recovery from securities fraud, ensuring that the passage of time cannot shield criminals or their descendants from accountability',
-    'Mandatory asset disclosure requirements for ALL convicted financial criminals, their immediate families, and any legal entity in which they hold direct or beneficial interest — extending to second-generation descendants',
+    'Mandatory asset disclosure requirements for ALL convicted financial criminals, their immediate families, and any legal entity in which they hold direct or beneficial interest  -  extending to second-generation descendants',
     'Full IRS audit of ALL defendants, their estates, their family members, and their known associates, with recovery of all unpaid taxes on unreported criminal income and fraudulently sheltered assets',
     'Public accountability record ensuring that no defendant, family member, or descendant of these criminals can hold public office, serve on corporate boards, manage investment funds, or operate in any financial capacity without full public disclosure of how their wealth was obtained',
-    'Establishment of a precedent that criminal wealth cannot be legitimized through the passage of time, philanthropic rebranding, transfer to the next generation, or any other mechanism — stolen wealth remains stolen regardless of how many hands it passes through',
-    'All settled and acquitted defendants — including Kidder Peabody, Fred Joseph, Bank Leu, Lowell Milken, and all RICO-overturned defendants — must face renewed scrutiny and civil asset recovery proceedings given the systemic nature of the conspiracy',
+    'Establishment of a precedent that criminal wealth cannot be legitimized through the passage of time, philanthropic rebranding, transfer to the next generation, or any other mechanism  -  stolen wealth remains stolen regardless of how many hands it passes through',
+    'All settled and acquitted defendants  -  including Kidder Peabody, Fred Joseph, Bank Leu, Lowell Milken, and all RICO-overturned defendants  -  must face renewed scrutiny and civil asset recovery proceedings given the systemic nature of the conspiracy',
   ],
 };

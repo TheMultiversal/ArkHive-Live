@@ -1,0 +1,258 @@
+import type { AccountabilityData } from '@/types/accountability';
+
+export const charlestonMassacreAccountability: AccountabilityData = {
+  investigationSlug: 'charleston-massacre',
+  crimeSummary: 'On June 17, 2015, 21-year-old white supremacist Dylann Roof entered Emanuel African Methodist Episcopal Church in Charleston, South Carolina, during a Bible study. After sitting with the congregation for nearly an hour, he opened fire, murdering nine Black parishioners including senior pastor and state senator Clementa Pinckney. Roof stated his intent was to start a race war. He had been radicalized online through white supremacist websites and had written a manifesto filled with racist hatred. The massacre exposed the ongoing threat of white supremacist terrorism, the failure of the FBI background check system (Roof obtained his gun due to a clerical error despite a prior drug arrest), and the continued display of the Confederate flag on the South Carolina statehouse grounds.',
+  totalHarm: 'Nine murdered: Rev. Clementa Pinckney, Cynthia Hurd, Rev. Sharonda Coleman-Singleton, Tywanza Sanders, Ethel Lee Lance, Susie Jackson, Rev. Daniel Simmons, Rev. DePayne Middleton-Doctor, Myra Thompson. Survivors traumatized. The Black community\'s sense of safety in their own churches destroyed.',
+  victimsAffected: 'Nine murdered, three survivors with gunshot wounds, the Emmanuel AME Church community, the city of Charleston, and Black Americans nationwide whose churches  -  historically the safest space in the community  -  were shown to be targets.',
+  primaryTargets: [
+    {
+      name: 'Dylann Roof',
+      role: 'Perpetrator. Self-radicalized white supremacist who planned and executed the attack with the stated goal of starting a race war.',
+      currentStatus: 'Convicted on 33 federal charges including hate crimes. Sentenced to death (2017). First person sentenced to death for a federal hate crime. Also convicted of 9 counts of murder in state court.',
+      accountabilityPath: 'Roof was held accountable. The investigation should focus on how he was radicalized and the systemic failures that enabled the attack.',
+      obstacles: ['Federal death sentence under appeal', 'Biden moratorium on federal executions'],
+    },
+    {
+      name: 'FBI Background Check Failure',
+      role: 'Roof purchased his Glock .45 from a licensed dealer. The FBI failed to complete his background check within 3 days (the "Charleston Loophole"), allowing the sale to proceed by default despite a prior felony drug arrest that should have disqualified him.',
+      currentStatus: 'The "default proceed" loophole remains in effect. Legislation to close it has failed repeatedly. An estimated 4,000+ prohibited buyers obtain guns annually through this gap.',
+      accountabilityPath: 'Legislation to close the default proceed loophole by extending the background check review period.',
+      obstacles: ['NRA lobbying', 'Senate filibuster', 'Gun lobby frames as "government delay"'],
+    },
+    {
+      name: 'Online Radicalization Infrastructure',
+      role: 'Roof was radicalized through white supremacist websites including the Council of Conservative Citizens, Stormfront, and other hate sites.',
+      currentStatus: 'Online radicalization has intensified since 2015. Buffalo (2022), Pittsburgh (2018), Christchurch (2019), El Paso (2019) all followed similar patterns.',
+      accountabilityPath: 'Platform accountability for hosting radicalizing content. DOJ designating domestic violent extremist organizations.',
+      obstacles: ['First Amendment protections', 'Section 230 liability shield', 'Political resistance to naming white supremacy as terrorism'],
+    },
+  ],
+  legalMechanisms: [
+    {
+      name: 'Federal Hate Crime Laws',
+      statute: '18 U.S.C. § 249 (Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act)',
+      description: 'Federal hate crime statute used to prosecute Roof. Provided federal jurisdiction alongside state murder charges.',
+      hasStatuteOfLimitations: false,
+      limitationPeriod: 'No statute of limitations for hate crimes resulting in death',
+      reachesHeirs: false,
+      authorizedActors: ['DOJ'],
+      applicability: 'directly_applicable',
+    },
+    {
+      name: 'Domestic Terrorism Legislation',
+      statute: 'Proposed: Domestic Terrorism Prevention Act',
+      description: 'The U.S. has no federal domestic terrorism statute comparable to international terrorism provisions.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: false,
+      authorizedActors: ['Congress'],
+      applicability: 'potentially_applicable',
+    },
+    {
+      name: 'Charleston Loophole Closure',
+      statute: 'Proposed: Enhanced Background Checks Act',
+      description: 'Legislation to eliminate the "default proceed" provision that allowed Roof to purchase his weapon.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: false,
+      authorizedActors: ['Congress'],
+      applicability: 'directly_applicable',
+    },
+  ],
+  wealthTrace: [
+    {
+      name: 'Victim Compensation',
+      relationship: 'Support for victims and community',
+      transferMethod: '$3.3 million raised through donations. Federal Crime Victims Fund provided additional support.',
+      estimatedValue: '$3.3M+ in donations plus federal victim compensation',
+      legalEntities: ['Federal Crime Victims Fund', 'Emanuel AME Church'],
+      recoveryMechanisms: ['Crime Victims Fund', 'Charitable donations'],
+    },
+  ],
+  authoritiesWithPower: [
+    {
+      name: 'FBI Domestic Terrorism Unit',
+      title: 'FBI Counterterrorism Division',
+      jurisdiction: 'Domestic terrorism investigation',
+      powers: ['Investigate white supremacist networks', 'Monitor online radicalization', 'Infiltrate extremist organizations'],
+    },
+    {
+      name: 'Congress',
+      title: 'U.S. Congress',
+      jurisdiction: 'Federal legislation',
+      powers: ['Close Charleston loophole', 'Pass domestic terrorism statute', 'Fund prevention programs'],
+    },
+  ],
+  successCriteria: [
+    'Charleston loophole closed by federal legislation requiring completed background checks before any firearm transfer -- Dylann Roof obtained his weapon because the FBI did not complete his check within the 3-day default-proceed window, and his drug arrest disqualified him from purchase',
+    'Federal domestic terrorism statute enacted providing the same investigative and prosecutorial tools for white supremacist terrorism that exist for international terrorism -- the Charleston massacre was an act of domestic terrorism, but the U.S. has no federal domestic terrorism charge',
+    'Confederate flag and Confederate monuments removed from all government property -- South Carolina removed the Confederate flag from its statehouse grounds after Charleston, but hundreds of Confederate monuments remain on public land nationwide',
+    'Full investigation and documentation of the white supremacist online radicalization pipeline that produced Roof: Council of Conservative Citizens website to manifesto to murder -- the pipeline has not been disrupted',
+    'FBI threat assessment reform ensuring that when background check disqualifying information exists (Roof\'s drug arrest), it is captured regardless of jurisdictional data-sharing failures -- the specific failure was an examiner not knowing which police department to contact',
+    'NICS fully modernized with complete state and local criminal record integration, adequate staffing to complete all checks within 72 hours, and no default-proceed loophole -- the system failed because of underfunding and bad data',
+    'Permanent memorial and educational program at Emanuel AME Church honoring the nine victims and the history of racial violence against Black churches in America -- from 16th Street Baptist to Emanuel AME, the pattern continues',
+    'Federal funding for community-based violence prevention programs targeting white supremacist radicalization with the same resources allocated to international terrorism prevention -- the threat assessment must match the threat',
+  ],
+
+  actionPaths: [
+    {
+      role: 'citizen',
+      overview: 'Nine people were murdered in church during Bible study because of the color of their skin. The killer got his gun because of a loophole.',
+      urgency: 'immediate',
+      relevantMechanisms: ['Charleston Loophole Closure', 'Federal Hate Crime Laws'],
+      steps: [
+        {
+          step: 1,
+          title: 'Close the Charleston Loophole',
+          description: 'Contact representatives to support eliminating the "default proceed" background check gap. Dylann Roof should never have been able to purchase a firearm -- his drug arrest disqualified him, but the FBI\'s 3-day window expired before the check was completed.',
+          estimatedTime: '20 minutes',
+          filingTarget: 'Your House and Senate representatives; Senate Judiciary Committee',
+        },
+        {
+          step: 2,
+          title: 'Report Online Extremism',
+          description: 'Report white supremacist content and credible threats of violence to the FBI (tips.fbi.gov) and platform moderators. Roof was radicalized online through the Council of Conservative Citizens website and white supremacist forums.',
+          estimatedTime: '15 minutes',
+        },
+        {
+          step: 3,
+          title: 'Confederate Monument Removal',
+          description: 'Advocate for removal of Confederate monuments from public property in your community. After Charleston, South Carolina removed the Confederate flag from its statehouse -- but hundreds of monuments remain on public land. These monuments celebrate the ideology that motivated Roof.',
+          estimatedTime: 'Ongoing',
+        },
+      ],
+    },
+    {
+      role: 'journalist',
+      overview: 'Track white supremacist radicalization pipelines. Document the connection between ideology and violence.',
+      urgency: 'high',
+      relevantMechanisms: ['Domestic Terrorism Legislation', 'Federal Hate Crime Laws'],
+      steps: [
+        {
+          step: 1,
+          title: 'Radicalization Pipeline Documentation',
+          description: 'Map the online infrastructure that radicalizes young men into white supremacist violence. Roof\'s path from the Council of Conservative Citizens website to his manifesto to Emanuel AME is documented -- but the pipeline continues to radicalize new attackers.',
+          estimatedTime: '3-6 months',
+        },
+        {
+          step: 2,
+          title: 'Background Check System Failures',
+          description: 'Investigate the scope of NICS background check failures: how many disqualifying records are missing from the database, how many default-proceed sales occur annually, and how many firearms have been sold to prohibited persons through the loophole.',
+          estimatedTime: '2-4 months',
+        },
+        {
+          step: 3,
+          title: 'Black Church Violence History',
+          description: 'Document the long history of racial violence against Black churches from the 16th Street Baptist Church bombing (1963) through Emanuel AME (2015). Connect the historical pattern to present-day white supremacist targeting of Black religious institutions.',
+          estimatedTime: '3-6 months',
+        },
+      ],
+    },
+    {
+      role: 'lawyer',
+      overview: 'Push for domestic terrorism legislation. Challenge platforms hosting radicalizing content. Litigate on behalf of victims.',
+      urgency: 'high',
+      relevantMechanisms: ['Federal Hate Crime Laws', 'Domestic Terrorism Legislation'],
+      steps: [
+        {
+          step: 1,
+          title: 'Platform Negligence Litigation',
+          description: 'Develop legal theories for holding platforms liable when their content and algorithms promote radicalizing white supremacist content that leads to violence. The Council of Conservative Citizens website that radicalized Roof continues to operate.',
+          legalBasis: ['Section 230 exceptions for material support', 'State negligence theories', 'Aiding and abetting theories'],
+          estimatedTime: '12-24 months',
+        },
+        {
+          step: 2,
+          title: 'NICS Failure Liability',
+          description: 'Explore legal liability for the NICS background check failure that allowed Roof to obtain his weapon. The FBI examiner could not complete the check because of a jurisdictional data-sharing failure. Can victims sue for systemic negligence in the background check system?',
+          legalBasis: ['Federal Tort Claims Act', 'Negligence per se (failure to enforce disqualification)'],
+          estimatedTime: '12-24 months',
+        },
+        {
+          step: 3,
+          title: 'Domestic Terrorism Legislation Drafting',
+          description: 'Draft model domestic terrorism legislation providing prosecution parity between domestic and international terrorism. The absence of a federal domestic terrorism charge means that white supremacist mass murders are prosecuted with less severe tools than comparable international attacks.',
+          legalBasis: ['Existing international terrorism statutes as models', 'Constitutional due process requirements'],
+          estimatedTime: '6-12 months',
+        },
+      ],
+    },
+    {
+      role: 'elected_official',
+      overview: 'Close the Charleston loophole. Pass domestic terrorism legislation. Name white supremacy as terrorism.',
+      urgency: 'immediate',
+      relevantMechanisms: ['Charleston Loophole Closure', 'Domestic Terrorism Legislation'],
+      steps: [
+        {
+          step: 1,
+          title: 'Enhanced Background Checks Act',
+          description: 'Pass legislation closing the default-proceed loophole by requiring completed background checks before any firearm transfer. Extend the review period to 10 business days. No firearm should be transferred to a buyer whose background has not been fully checked.',
+          estimatedTime: '6-12 months legislative timeline',
+        },
+        {
+          step: 2,
+          title: 'Domestic Terrorism Statute',
+          description: 'Pass a federal domestic terrorism statute with prosecution parity for domestic and international terrorism. The Charleston massacre was terrorism. The Buffalo massacre was terrorism. The El Paso massacre was terrorism. Prosecute them accordingly.',
+          estimatedTime: '6-12 months legislative timeline',
+        },
+        {
+          step: 3,
+          title: 'Confederate Monument Removal',
+          description: 'Support federal legislation removing Confederate monuments from federal property and incentivizing state and local removal. The ideology celebrated by these monuments is the ideology that motivated the murder of nine people in Emanuel AME Church.',
+          estimatedTime: '6-12 months legislative timeline',
+        },
+      ],
+    },
+    {
+      role: 'law_enforcement',
+      overview: 'The FBI Director named domestic violent extremism the top domestic threat. Resource it accordingly.',
+      urgency: 'immediate',
+      relevantMechanisms: ['Federal Hate Crime Laws', 'Domestic Terrorism Legislation'],
+      steps: [
+        {
+          step: 1,
+          title: 'DVE Resource Parity',
+          description: 'Allocate FBI resources to domestic violent extremism in proportion to the assessed threat. If DVE is the top domestic threat, it should receive the top domestic resource allocation -- not a fraction of international terrorism funding.',
+          estimatedTime: 'Ongoing',
+        },
+        {
+          step: 2,
+          title: 'NICS System Fix',
+          description: 'Fix the specific data-sharing failures that allowed Roof\'s purchase. Ensure complete integration of state and local criminal records into the NICS database. Staff NICS adequately to complete all checks within the statutory window.',
+          estimatedTime: '6-12 months',
+        },
+        {
+          step: 3,
+          title: 'Online Radicalization Monitoring',
+          description: 'Expand monitoring of white supremacist radicalization spaces online. Roof was radicalized in publicly accessible spaces -- detection should not require sophisticated intelligence operations, just adequate attention.',
+          estimatedTime: 'Ongoing',
+        },
+      ],
+    },
+    {
+      role: 'regulator',
+      overview: 'Fix the background check system. Mandate completion before proceeding. Close data-sharing gaps.',
+      urgency: 'immediate',
+      relevantMechanisms: ['Charleston Loophole Closure'],
+      steps: [
+        {
+          step: 1,
+          title: 'NICS Modernization',
+          description: 'Modernize NICS: complete state and local record integration, adequate staffing, and elimination of the default-proceed loophole. The system failed Dylann Roof\'s background check because of underfunding and incomplete data.',
+          estimatedTime: '6-12 months',
+        },
+        {
+          step: 2,
+          title: 'State Record Integration',
+          description: 'Mandate and fund complete integration of state and local criminal records into the federal NICS database. The specific failure in Roof\'s case involved a jurisdictional gap between a city police department and the FBI examiner. Close every gap.',
+          estimatedTime: '12-24 months',
+        },
+        {
+          step: 3,
+          title: 'Default-Proceed Elimination',
+          description: 'Eliminate the default-proceed provision that allows firearm transfers after 3 business days regardless of check completion. If a background check cannot be completed, the transfer should not proceed -- the safety default should be denial, not approval.',
+          estimatedTime: '6-12 months',
+        },
+      ],
+    },
+  ],
+};

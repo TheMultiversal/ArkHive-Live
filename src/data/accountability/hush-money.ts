@@ -1,0 +1,246 @@
+import type { AccountabilityData } from '@/types/accountability';
+
+export const hushMoneyAccountability: AccountabilityData = {
+  investigationSlug: 'hush-money',
+  crimeSummary: 'In the weeks before the 2016 presidential election, Donald Trump orchestrated payments to silence women who alleged sexual encounters, in a scheme to suppress damaging information from voters. Michael Cohen, Trump\'s personal attorney, paid $130,000 to Stormy Daniels and arranged a $150,000 payment through AMI (National Enquirer parent) to Karen McDougal. Trump reimbursed Cohen through a series of checks falsely recorded as legal retainer payments  -  creating 34 false business records. Manhattan DA Alvin Bragg brought state felony charges. A jury convicted Trump on all 34 counts of falsifying business records in the first degree (May 2024). This made Trump the first former U.S. president convicted of felony crimes.',
+  totalHarm: 'Voter fraud through suppression of material information from the electorate. 34 felony counts of falsifying business records. Federal campaign finance violations (treated as underlying crime elevating the charges). Erosion of the principle that no person is above the law. Damage to public trust in electoral integrity.',
+  victimsAffected: 'The American electorate, denied material information about a presidential candidate. Stormy Daniels and Karen McDougal, whose stories were suppressed. Michael Cohen, who served prison time while Trump initially escaped consequences. The rule of law itself.',
+  primaryTargets: [
+    {
+      name: 'Donald J. Trump',
+      role: 'Directed the hush money payments and approved the false business records.',
+      currentStatus: 'Convicted on all 34 felony counts (May 30, 2024). Sentencing repeatedly delayed due to presidential immunity considerations after 2024 election. Sentenced to unconditional discharge in January 2025  -  no prison time, probation, or fine. First convicted felon to serve as President.',
+      accountabilityPath: 'Conviction achieved. Sentencing completed (unconditional discharge). State conviction not subject to presidential pardon. Historical accountability as first president convicted of felonies.',
+      obstacles: ['Unconditional discharge imposed', 'Presidential term shields from consequences', 'Appeal pending'],
+    },
+    {
+      name: 'Michael Cohen',
+      role: 'Trump\'s personal attorney who executed the payments.',
+      currentStatus: 'Pled guilty to federal campaign finance violations and other charges. Served 13.5 months in federal prison plus home confinement. Key prosecution witness in Trump trial.',
+      accountabilityPath: 'Already served sentence. Cooperated with prosecution. Published account of involvement.',
+      obstacles: ['Sentence completed'],
+    },
+    {
+      name: 'David Pecker / AMI (National Enquirer)',
+      role: 'CEO of American Media Inc. who coordinated "catch and kill" scheme to suppress negative stories about Trump.',
+      currentStatus: 'Entered non-prosecution agreement with SDNY. Testified as prosecution witness. Sold National Enquirer. No criminal penalty.',
+      accountabilityPath: 'Non-prosecution agreement limits further federal action. His testimony was essential to the case.',
+      obstacles: ['Non-prosecution agreement', 'Cooperating witness protections'],
+    },
+  ],
+  legalMechanisms: [
+    {
+      name: 'New York Penal Law  -  Falsifying Business Records',
+      statute: 'N.Y. Penal Law § 175.10',
+      description: '34 counts of first-degree falsifying business records. Elevated to felony by intent to conceal another crime (campaign finance violation).',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '5 years (tolled during immunity period)',
+      reachesHeirs: false,
+      authorizedActors: ['Manhattan DA'],
+      applicability: 'directly_applicable',
+      notes: 'Conviction achieved. Not subject to presidential pardon.',
+    },
+    {
+      name: 'Federal Campaign Finance Law',
+      statute: '52 U.S.C. § 30101 et seq.',
+      description: 'The hush money payments constituted unreported campaign contributions. Cohen pled guilty to federal campaign finance violations. Trump was identified as "Individual-1" who directed the violations.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '5 years',
+      reachesHeirs: false,
+      authorizedActors: ['DOJ', 'FEC'],
+      applicability: 'directly_applicable',
+      notes: 'DOJ policy against prosecuting sitting president prevented federal charges. SOL may have expired.',
+    },
+  ],
+  wealthTrace: [
+    {
+      name: 'Hush Money Payment Chain',
+      relationship: 'Payments to suppress information from voters',
+      transferMethod: '$130,000 to Stormy Daniels via Cohen. $150,000 to Karen McDougal via AMI. Cohen reimbursed $420,000 through Trump Organization checks falsely labeled as legal retainer.',
+      estimatedValue: '$420,000 in documented payments',
+      legalEntities: ['Trump Organization', 'Essential Consultants LLC (Cohen)', 'American Media Inc.'],
+      recoveryMechanisms: ['State criminal conviction achieved'],
+    },
+  ],
+  authoritiesWithPower: [
+    {
+      name: 'Manhattan District Attorney',
+      title: 'DA, New York County',
+      jurisdiction: 'State criminal prosecution',
+      powers: ['Conviction achieved', 'Appeal defense', 'Sentence enforcement'],
+    },
+  ],
+  successCriteria: [
+    'Full sentencing and appellate resolution of the 34-count conviction establishing binding precedent that concealing payments to suppress information from voters constitutes criminal falsification of business records -- this is the first criminal conviction of a former or sitting president',
+    'Federal prosecution of the underlying campaign finance violations for which Cohen served prison time and Trump was identified as "Individual-1" who directed the scheme -- the DOJ\'s policy against indicting a sitting president prevented charges, but that protection has expired',
+    'AMI/National Enquirer accountability for the "catch and kill" operation including David Pecker\'s $150,000 payment to Karen McDougal -- weaponizing a media company to suppress information from voters is not journalism, it is campaign finance fraud',
+    'FEC structural reform enabling enforcement of campaign finance violations by powerful individuals -- the FEC\'s structural deadlock ensured no federal enforcement action during the underlying scheme or afterward',
+    'Legislation closing the intermediary payment loophole: mandate disclosure of all payments made to suppress information that would be material to voters during an election -- the Cohen-Essential Consultants LLC-Daniels payment chain should not be replicable',
+    'Complete documentation of the Trump Organization\'s role in the reimbursement scheme: 11 checks, 12 invoices, 12 ledger entries -- $420,000 disguised as a legal retainer, with the Trump Organization\'s CFO Allen Weisselberg\'s handwritten notes calculating the grossed-up repayment',
+    'Precedent established that "catch and kill" agreements made for the purpose of influencing elections constitute in-kind campaign contributions subject to disclosure and limitation -- the practice is campaign finance fraud disguised as media transactions',
+    'Public recognition that the conviction stands regardless of political outcome -- the principle that no one is above the law either means something or it does not',
+  ],
+
+  actionPaths: [
+    {
+      role: 'citizen',
+      overview: 'A president was convicted of 34 felonies for concealing payments to suppress information from voters. The principle that no one is above the law was tested.',
+      urgency: 'high',
+      relevantMechanisms: ['New York Penal Law  -  Falsifying Business Records', 'Federal Campaign Finance Law'],
+      steps: [
+        {
+          step: 1,
+          title: 'Support Judicial Independence',
+          description: 'Defend the independence of state prosecutors and judges from political interference. The Manhattan DA\'s prosecution faced extraordinary political pressure -- the ability to hold powerful individuals accountable depends on prosecutorial independence.',
+          estimatedTime: 'Ongoing',
+        },
+        {
+          step: 2,
+          title: 'Demand FEC Reform',
+          description: 'Contact representatives to demand FEC reform. The FEC\'s structural deadlock ensured no federal enforcement of the campaign finance violations at the heart of this case. An odd number of commissioners and independent enforcement arm are minimum requirements.',
+          estimatedTime: '20 minutes',
+          filingTarget: 'Your House and Senate representatives; Senate Rules Committee',
+        },
+        {
+          step: 3,
+          title: 'Defend the Rule of Law',
+          description: 'When political figures argue that the prosecution was politically motivated, respond with the facts: 12 jurors reviewed the evidence, deliberated, and convicted unanimously on all 34 counts. A jury of citizens is the foundation of American justice.',
+          estimatedTime: 'Ongoing',
+        },
+      ],
+    },
+    {
+      role: 'journalist',
+      overview: 'The hush money scheme is part of a broader pattern of using legal and financial mechanisms to suppress information from voters.',
+      urgency: 'high',
+      relevantMechanisms: ['Federal Campaign Finance Law', 'New York Penal Law  -  Falsifying Business Records'],
+      steps: [
+        {
+          step: 1,
+          title: 'Catch-and-Kill Full Investigation',
+          description: 'AMI\'s "catch and kill" operations extended far beyond the Trump payments. Document the full scope of weaponized media suppression: every story killed, every payment made, every person silenced. Pecker\'s testimony revealed a systematic operation.',
+          estimatedTime: '3-6 months',
+        },
+        {
+          step: 2,
+          title: 'Weisselberg Documentation',
+          description: 'Document Allen Weisselberg\'s role as the financial architect of the reimbursement scheme. His handwritten notes calculating Cohen\'s grossed-up repayment are the most damning documents. Track his post-conviction cooperation (or lack thereof).',
+          estimatedTime: '2-4 months',
+        },
+        {
+          step: 3,
+          title: 'Appellate and Sentencing Coverage',
+          description: 'Provide comprehensive, factual coverage of the sentencing, appeal, and any enforcement proceedings. Document any attempts to interfere with the judicial process. The historical record of the first presidential criminal conviction must be complete.',
+          estimatedTime: 'Ongoing',
+        },
+      ],
+    },
+    {
+      role: 'lawyer',
+      overview: 'Defend the conviction on appeal. Establish precedent. Address the DOJ sitting-president policy.',
+      urgency: 'high',
+      relevantMechanisms: ['New York Penal Law  -  Falsifying Business Records', 'Federal Campaign Finance Law'],
+      steps: [
+        {
+          step: 1,
+          title: 'Appellate Defense',
+          description: 'Prepare robust appellate arguments defending the conviction and the legal theory elevating business record falsification to felonies based on intent to conceal campaign finance violations. The theory is novel but legally sound.',
+          legalBasis: ['N.Y. Penal Law Section 175.10', 'N.Y. Election Law Section 17-152', '52 U.S.C. Section 30101 et seq.'],
+          estimatedTime: '12-24 months',
+        },
+        {
+          step: 2,
+          title: 'Catch-and-Kill Legal Theory',
+          description: 'Develop binding legal precedent establishing that catch-and-kill agreements made to influence elections constitute in-kind campaign contributions. The Cohen plea and Trump conviction create the factual basis -- now establish the doctrinal framework.',
+          legalBasis: ['FEC regulations on in-kind contributions', 'FECA reporting requirements'],
+          estimatedTime: '12-24 months',
+        },
+        {
+          step: 3,
+          title: 'DOJ Policy Reform Advocacy',
+          description: 'Advocate for reform of the OLC opinion against indicting a sitting president. The policy prevented federal charges while Trump was in office and effectively ran the statute of limitations. A constitutional officer should not be above the law by policy memo.',
+          legalBasis: ['OLC opinions of 1973 and 2000', 'Constitutional accountability principles'],
+          estimatedTime: 'Ongoing advocacy',
+        },
+      ],
+    },
+    {
+      role: 'elected_official',
+      overview: 'Campaign finance enforcement failed here. The FEC is dysfunctional. The DOJ policy shielded a president from prosecution. Reform all three.',
+      urgency: 'high',
+      relevantMechanisms: ['Federal Campaign Finance Law'],
+      steps: [
+        {
+          step: 1,
+          title: 'FEC Structural Reform',
+          description: 'Reform the FEC: odd number of commissioners, independent enforcement arm, mandatory investigation triggers for credible complaints. The structural deadlock that prevented enforcement of the campaign finance violations at the heart of this case must be fixed.',
+          estimatedTime: '6-12 months legislative timeline',
+        },
+        {
+          step: 2,
+          title: 'Close Intermediary Payment Loopholes',
+          description: 'Pass legislation requiring disclosure of all payments made through intermediaries to suppress information material to elections. The Cohen-Essential Consultants-Daniels payment chain should not be replicable.',
+          estimatedTime: '6-12 months legislative timeline',
+        },
+        {
+          step: 3,
+          title: 'Presidential Accountability',
+          description: 'Codify by statute that sitting presidents are not immune from criminal investigation and can be indicted. The OLC opinion is a policy memo, not a constitutional mandate -- replace it with legislation.',
+          estimatedTime: 'Multi-year legislative effort',
+        },
+      ],
+    },
+    {
+      role: 'law_enforcement',
+      overview: 'Conviction achieved by state prosecution. Investigate related schemes and enforce the judgment.',
+      urgency: 'high',
+      relevantMechanisms: ['New York Penal Law  -  Falsifying Business Records', 'Federal Campaign Finance Law'],
+      steps: [
+        {
+          step: 1,
+          title: 'Related Scheme Investigation',
+          description: 'Investigate whether similar catch-and-kill or payment suppression schemes were used in other contexts by the same or different actors. Pecker\'s testimony suggested a systematic practice -- determine the full scope.',
+          estimatedTime: '3-6 months',
+        },
+        {
+          step: 2,
+          title: 'Judgment Enforcement',
+          description: 'Ensure enforcement of whatever sentence is imposed. Any attempt to use political power to nullify a criminal conviction undermines the rule of law. Prepare contingency plans for enforcement challenges.',
+          estimatedTime: 'Ongoing',
+        },
+        {
+          step: 3,
+          title: 'Federal Campaign Finance Investigation',
+          description: 'DOJ should evaluate whether federal campaign finance charges remain viable now that the sitting-president policy no longer applies. Cohen served prison time for the same conduct Trump directed -- the disparity in consequences is a disparity in justice.',
+          estimatedTime: '6-12 months',
+        },
+      ],
+    },
+    {
+      role: 'regulator',
+      overview: 'Campaign finance disclosure and media weaponization are regulatory failures that enabled this scheme.',
+      urgency: 'high',
+      relevantMechanisms: ['Federal Campaign Finance Law'],
+      steps: [
+        {
+          step: 1,
+          title: 'Intermediary Payment Disclosure',
+          description: 'Require disclosure of payments made through intermediaries that serve to suppress information material to elections. The Essential Consultants LLC structure was specifically designed to evade disclosure -- close this loophole.',
+          estimatedTime: '6-12 months',
+        },
+        {
+          step: 2,
+          title: 'Media Company Election Activity',
+          description: 'Establish guidelines for when media company activities constitute in-kind campaign contributions. AMI\'s catch-and-kill operations were campaign services, not journalism. The press exemption should not cover coordinated suppression.',
+          estimatedTime: '6-12 months',
+        },
+        {
+          step: 3,
+          title: 'Corporate Campaign Involvement Transparency',
+          description: 'Require corporate disclosure of all election-related activities including catch-and-kill agreements, NDA payments related to political figures, and other mechanisms used to suppress information during election periods.',
+          estimatedTime: '6-12 months',
+        },
+      ],
+    },
+  ],
+};
