@@ -3,17 +3,17 @@ import type { AccountabilityData } from '@/types/accountability';
 export const boeingSafetyAccountability: AccountabilityData = {
   investigationSlug: 'boeing-safety-crisis',
 
-  crimeSummary: 'Boeing\'s criminal negligence killed 346 people in two 737 MAX crashes  -  Lion Air Flight 610 (October 2018, 189 dead) and Ethiopian Airlines Flight 302 (March 2019, 157 dead). Both crashes were caused by the same design flaw: the MCAS (Maneuvering Characteristics Augmentation System), a flight control system Boeing added to compensate for engine placement changes but concealed from pilots, airlines, and regulators. Boeing deliberately hid MCAS from training manuals and pilot documentation to avoid costly simulator requirements that would have reduced the 737 MAX\'s competitive advantage over Airbus. Internal communications revealed engineers called the plane "designed by clowns, supervised by monkeys." Boeing\'s own test pilot flagged MCAS problems during development but was ignored. The FAA\'s regulatory capture  -  allowing Boeing to effectively certify its own aircraft through the Organization Designation Authorization (ODA) program  -  was a critical enabler. Boeing entered a $2.5 billion deferred prosecution agreement (DPA) in January 2021 for conspiracy to defraud the FAA. When Boeing violated the DPA terms, DOJ offered a new plea deal in 2024 with a $243.6 million fine  -  which victims\' families called "a slap on the wrist."',
+  crimeSummary: 'Boeing\'s criminal negligence killed 346 people in two 737 MAX crashes -- Lion Air Flight 610 (October 2018, 189 dead) and Ethiopian Airlines Flight 302 (March 2019, 157 dead). Both crashes were caused by the same design flaw: the MCAS (Maneuvering Characteristics Augmentation System), a flight control system Boeing added to compensate for engine placement changes but concealed from pilots, airlines, and regulators. Boeing deliberately hid MCAS from training manuals and pilot documentation to avoid costly simulator requirements that would have reduced the 737 MAX\'s competitive advantage over Airbus. Internal communications revealed engineers called the plane "designed by clowns, supervised by monkeys." Boeing\'s own test pilot flagged MCAS problems during development but was ignored. The FAA\'s regulatory capture -- allowing Boeing to effectively certify its own aircraft through the Organization Designation Authorization (ODA) program -- was a critical enabler. Boeing entered a $2.5 billion deferred prosecution agreement (DPA) in January 2021 for conspiracy to defraud the FAA. On January 5, 2024, Alaska Airlines Flight 1282 (a 737 MAX 9) suffered a catastrophic door plug blowout at 16,000 feet after four retention bolts were never reinstalled during manufacturing -- proving Boeing\'s safety culture remained broken five years after the fatal crashes. Whistleblower John Barnett, who had reported safety defects at Boeing\'s South Carolina plant for years, was found dead on March 9, 2024 during his deposition in a lawsuit against Boeing. Another whistleblower, Spirit AeroSystems employee Joshua Dean, died in May 2024 after raising quality concerns about 737 MAX fuselage production. When Boeing violated its DPA terms, DOJ determined the company had breached the agreement and Boeing pled guilty to a federal felony charge of conspiracy to defraud the United States in July 2024, with a $243.6 million fine -- which victims\' families called "a slap on the wrist" for 346 deaths.',
 
-  totalHarm: '346 people killed in two preventable crashes. Lion Air Flight 610: 189 dead (Indonesia, October 29, 2018). Ethiopian Airlines Flight 302: 157 dead from 35 nations (Addis Ababa, March 10, 2019). Global grounding of 387 737 MAX aircraft for 20 months. $20+ billion in total costs to Boeing (compensation, lost orders, grounding costs). Permanent destruction of trust in aviation safety regulatory framework.',
+  totalHarm: '346 people killed in two preventable 737 MAX crashes. Lion Air Flight 610: 189 dead (Indonesia, October 29, 2018). Ethiopian Airlines Flight 302: 157 dead from 35 nations (Addis Ababa, March 10, 2019). Alaska Airlines Flight 1282: catastrophic door plug blowout on January 5, 2024 -- 171 passengers and 6 crew narrowly survived when four retention bolts were never reinstalled during manufacturing. Global grounding of 387 737 MAX aircraft for 20 months (2019-2020), second production cap imposed in 2024. Boeing whistleblower John Barnett found dead during lawsuit deposition (March 9, 2024). Spirit AeroSystems whistleblower Joshua Dean died May 2024 after raising quality concerns. $20+ billion in total costs to Boeing (compensation, lost orders, grounding costs, production slowdowns). $43 billion diverted from safety investment into stock buybacks (2013-2019). Permanent destruction of trust in aviation safety regulatory framework.',
 
-  victimsAffected: '346 passengers and crew killed. Their families across 35 nations who have fought for six years for accountability. Every passenger who flies on a Boeing aircraft and trusts the FAA certification process. Boeing employees who raised safety concerns and were ignored or retaliated against. The global aviation industry whose regulatory credibility was shattered.',
+  victimsAffected: '346 passengers and crew killed across two crashes. Their families across 35 nations who have fought for six years for accountability. 177 passengers and crew aboard Alaska Airlines Flight 1282 who survived the door plug blowout. Every passenger who flies on a Boeing aircraft and trusts the FAA certification process. Boeing employees and whistleblowers who raised safety concerns and were ignored, retaliated against, or died under suspicious circumstances -- including John Barnett (found dead March 2024 during deposition), Joshua Dean (died May 2024 after raising production quality concerns), and Sam Salehpour (currently facing retaliation for reporting gaps in 787 Dreamliner fuselage assembly). The global aviation industry whose regulatory credibility was shattered.',
 
   primaryTargets: [
     {
       name: 'Boeing Company',
       role: 'Manufacturer of the 737 MAX. Corporate decision-making prioritized production speed and stock price over safety. Concealed MCAS from pilots and regulators.',
-      currentStatus: 'Entered $2.5 billion DPA in 2021 (conspiracy to defraud FAA). Violated DPA terms. Offered new plea deal in 2024 with $243.6 million additional fine. Families opposing the deal as inadequate. Stock price recovered. New CEO Kelly Ortberg installed August 2024.',
+      currentStatus: 'Entered $2.5 billion DPA in 2021 (conspiracy to defraud FAA). Violated DPA terms. Pled guilty to federal felony charge of conspiracy to defraud the United States in July 2024 with $243.6 million additional fine. Families opposing the deal as inadequate. Alaska Airlines Flight 1282 door plug blowout in January 2024 proved ongoing manufacturing failures. New CEO Kelly Ortberg installed August 2024. Stock price has suffered but company remains operational as sole major U.S. commercial aircraft manufacturer.',
       accountabilityPath: 'The DPA and plea deal are widely considered grossly inadequate for 346 deaths. Ongoing civil litigation by families. Congressional oversight. FAA regulatory reform. State-level criminal investigation. International criminal jurisdiction in countries where victims were nationals.',
       obstacles: [
         'Boeing is "too important to fail"  -  major defense contractor',
@@ -25,7 +25,7 @@ export const boeingSafetyAccountability: AccountabilityData = {
     {
       name: 'Dennis Muilenburg',
       role: 'CEO of Boeing during both crashes and the cover-up. Resisted grounding the MAX after the first crash. Continued to claim the plane was safe.',
-      currentStatus: 'Fired in December 2019. Received $62.2 million exit package. No criminal charges. No personal financial penalty. Now CEO of a technology startup.',
+      currentStatus: 'Fired in December 2019. Received $62.2 million exit package ($26.5M pension, $36.7M stock/equity). No criminal charges. No personal financial penalty. No clawback provisions enforced despite criminal corporate conduct.',
       accountabilityPath: 'Muilenburg received $62.2 million for leading a company that killed 346 people through criminal negligence. Civil constructive trust on exit compensation. State AG consumer protection actions. Shareholder derivative claims for breach of fiduciary duty. The exit package included $26.5 million in pension value and $36.7 million in stock  -  all traceable to decisions that led to the crashes.',
       obstacles: [
         'Never personally charged',
@@ -47,12 +47,37 @@ export const boeingSafetyAccountability: AccountabilityData = {
     {
       name: 'FAA / Organization Designation Authorization',
       role: 'The FAA delegated aircraft certification to Boeing itself through the ODA program  -  allowing Boeing to certify the safety of its own aircraft. This regulatory capture was a direct cause of the crashes.',
-      currentStatus: 'Congress passed Aircraft Certification, Safety, and Accountability Act in 2020. Some ODA reforms implemented. But fundamental structure of industry self-certification continues. FAA leadership repeatedly captured by industry.',
-      accountabilityPath: 'Congressional oversight of FAA implementation of reforms. Investigation of whether ODA reforms are actually being enforced. Audit of FAA revolving door with industry.',
+      currentStatus: 'Congress passed Aircraft Certification, Safety, and Accountability Act in 2020. Some ODA reforms implemented. But fundamental structure of industry self-certification continues. FAA leadership repeatedly captured by industry. Alaska Airlines Flight 1282 blowout in 2024 demonstrated that certification failures persist.',
+      accountabilityPath: 'Congressional oversight of FAA implementation of reforms. Investigation of whether ODA reforms are actually being enforced. Audit of FAA revolving door with industry. Examination of why the door plug configuration on 737 MAX 9 was not caught during FAA certification.',
       obstacles: [
         'Government sovereign immunity',
         'Industry lobbying against stricter regulation',
         'FAA funding dependent on industry fees',
+        'Revolving door between FAA and Boeing continues',
+      ],
+    },
+    {
+      name: 'Dave Calhoun',
+      role: 'CEO of Boeing from January 2020 to August 2024, appointed to "fix" Boeing\'s safety culture after the crashes. Instead presided over continued quality failures including the Alaska Airlines 1282 door plug blowout, the DPA violation, and the felony guilty plea.',
+      currentStatus: 'Resigned as CEO in March 2024 after Alaska Airlines Flight 1282 blowout. Received substantial exit compensation. Replaced by Kelly Ortberg in August 2024. No criminal charges despite overseeing continued safety failures and the DPA violation.',
+      accountabilityPath: 'Calhoun was brought in specifically to reform Boeing\'s safety culture but oversaw continued manufacturing defects, quality control failures, and a DPA violation. Shareholder derivative action for breach of fiduciary duty. SEC investigation of executive compensation tied to safety performance metrics that were never met.',
+      obstacles: [
+        'Positioned as the "reformer" despite continued failures',
+        'Departure framed as voluntary rather than for cause',
+        'No criminal liability framework for CEO-level negligence',
+        'Boeing board protected him from clawback provisions',
+      ],
+    },
+    {
+      name: 'Spirit AeroSystems',
+      role: 'Manufacturer of the 737 MAX fuselage at its Wichita, Kansas facility. Responsible for the door plug that blew out on Alaska Airlines Flight 1282. Quality control deficiencies at Spirit contributed to manufacturing defects across multiple Boeing aircraft programs.',
+      currentStatus: 'Boeing reacquired Spirit AeroSystems in a $4.7 billion deal announced in July 2024, bringing fuselage production back in-house after years of outsourcing that degraded quality control. Whistleblower Joshua Dean, a Spirit quality auditor who raised concerns about 737 fuselage defects, died in May 2024.',
+      accountabilityPath: 'Investigation of Spirit AeroSystems\' quality control failures. Criminal referral for manufacturing defects that endangered lives. Investigation of the circumstances surrounding whistleblower Joshua Dean\'s death. Examination of whether Boeing\'s outsourcing model was designed to diffuse accountability for manufacturing defects.',
+      obstacles: [
+        'Spirit being reabsorbed into Boeing complicates separate accountability',
+        'Manufacturing defects may be attributed to systemic cost-cutting rather than individual decisions',
+        'Joshua Dean\'s death limits available whistleblower testimony',
+        'Complexity of supply chain accountability in aerospace',
       ],
     },
   ],
@@ -133,10 +158,26 @@ export const boeingSafetyAccountability: AccountabilityData = {
     {
       name: 'Boeing Stock Buybacks',
       relationship: 'Instead of investing in safety, Boeing spent $43 billion on stock buybacks (2013-2019)',
-      transferMethod: 'Boeing spent $43 billion buying back its own stock to inflate share price  -  money that could have funded safety engineering, proper MCAS design, simulator training, and quality control.',
+      transferMethod: 'Boeing spent $43 billion buying back its own stock to inflate share price -- money that could have funded safety engineering, proper MCAS design, simulator training, and quality control.',
       estimatedValue: '$43 billion in buybacks (2013-2019)',
       legalEntities: ['Boeing Company (NYSE: BA)', 'Shareholder distributions'],
       recoveryMechanisms: ['Congressional Investigation', 'SEC Investigation of Buyback Timing'],
+    },
+    {
+      name: 'Dave Calhoun Compensation',
+      relationship: 'CEO appointed to reform Boeing safety culture who presided over continued failures',
+      transferMethod: 'Calhoun received approximately $33 million in total compensation for 2023 alone, including salary, stock awards, and incentive pay -- while serving as CEO during the period Boeing violated its DPA and the Alaska Airlines 1282 door plug blowout exposed ongoing manufacturing defects.',
+      estimatedValue: '$33+ million (2023 compensation); total tenure compensation estimated at $100+ million',
+      legalEntities: ['Personal holdings', 'Boeing stock grants', 'Retirement accounts'],
+      recoveryMechanisms: ['Shareholder Derivative Action', 'Compensation Clawback', 'Constructive Trust'],
+    },
+    {
+      name: 'Spirit AeroSystems Reacquisition',
+      relationship: 'Boeing reacquired its own former subsidiary after outsourcing degraded quality',
+      transferMethod: 'Boeing spun off Spirit AeroSystems in 2005, outsourcing fuselage production to cut costs. After years of quality failures culminating in the Alaska Airlines 1282 blowout, Boeing reacquired Spirit for $4.7 billion in 2024 -- essentially paying billions to buy back manufacturing capability it destroyed through its own cost-cutting strategy.',
+      estimatedValue: '$4.7 billion (reacquisition cost); original Spirit spinoff degraded quality control worth incalculable safety cost',
+      legalEntities: ['Spirit AeroSystems Holdings (NYSE: SPR)', 'Boeing Company (NYSE: BA)'],
+      recoveryMechanisms: ['SEC Investigation', 'Shareholder Derivative Action for Original Spinoff Decision'],
     },
   ],
 

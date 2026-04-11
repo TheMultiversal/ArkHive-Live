@@ -1881,29 +1881,59 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'mark-forkner': {
- name: 'Mark Forkner',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Mark Forkner. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Congressional hearing transcripts reference Mark Forkner in connection with policy decisions that disproportionately benefited associated financial interests.',
- 'Third-party audit reports flagged irregularities in programs overseen by Mark Forkner, though no formal investigation was initiated at the time.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
+    name: 'Mark Forkner',
+    title: 'Former Boeing Chief Technical Pilot -- Only Person Charged in 346 Deaths',
+    role: 'Boeing 737 MAX Chief Technical Pilot (2012-2018)',
+    riskLevel: 'high',
+    description: 'Mark Forkner served as Boeing\'s chief technical pilot for the 737 MAX program, responsible for communicating with the FAA about the aircraft\'s flight characteristics and pilot training requirements. In November 2016, he discovered during simulator testing that the Maneuvering Characteristics Augmentation System (MCAS) behaved far more aggressively than he had told the FAA, messaging a colleague: "So I basically lied to the regulators (unknowingly)." He did not formally correct the record. Forkner was the only individual ever charged in connection with the two 737 MAX crashes that killed 346 people. On October 14, 2021, he was indicted on six counts of wire fraud for allegedly deceiving the FAA about MCAS. On March 23, 2022, a federal jury in Fort Worth, Texas acquitted him on all counts after less than two hours of deliberation, finding that the FAA shared responsibility for the certification failures. His acquittal meant that nobody would go to prison for 346 deaths.',
+    birthPlace: 'United States',
+    education: [],
+    affiliations: [
+      { name: 'Boeing', role: 'Chief Technical Pilot, 737 MAX (2012-2018)', type: 'corporation' as const },
+      { name: 'FAA', role: 'Primary Boeing liaison for 737 MAX flight crew training requirements', type: 'agency' as const },
+    ],
+    controversies: [
+      'MCAS CONCEALMENT: In November 2016, Forkner discovered during simulator testing that MCAS was behaving far more aggressively than he had represented to the FAA. He messaged colleague Patrik Gustavsson: "So I basically lied to the regulators (unknowingly)." He did not formally update his prior representations to the FAA about MCAS authority limits.',
+      'FAA COMMUNICATION: Forkner was Boeing\'s primary point of contact with the FAA for 737 MAX pilot training requirements. He successfully argued that MCAS was a minor enough modification that pilots would not need new simulator training, saving airlines millions but leaving pilots unaware of the system that could override their control inputs.',
+      'TRAINING MANUAL OMISSION: Under Forkner\'s oversight, MCAS was removed from the 737 MAX flight crew operations manual and pilot training materials. Pilots worldwide flew the aircraft without knowing MCAS existed until after Lion Air Flight 610 crashed, killing 189 people.',
+      'ONLY INDIVIDUAL CHARGED: Despite the systemic nature of the fraud, Forkner was the sole person indicted in connection with 346 deaths across two crashes. His defense argued he was a scapegoat for institutional failures by both Boeing management and the FAA. The jury agreed.',
+      'INTERNAL MESSAGES: Beyond the "lied to the regulators" message, other internal Boeing communications showed Forkner and colleagues joking about the aircraft\'s handling: "MCAS is now active down to M .2" and discussing how to minimize pilot training to save airlines money.',
+    ],
+    charges: [
+      { charge: 'Wire Fraud (6 counts)', status: 'Acquitted', date: 'March 23, 2022', source: 'U.S. v. Forkner, N.D. Texas' },
+    ],
+    relatedInvestigations: [
+      { title: 'Boeing Safety Crisis', slug: 'boeing-safety-crisis', severity: 'critical' },
+      { title: 'Boeing 737 MAX Disaster', slug: 'boeing-737-max', severity: 'critical' },
+      { title: 'Boeing: A Criminal Enterprise', slug: 'boeing-criminal-enterprise', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2012', event: 'Begins role as Boeing\'s chief technical pilot for the 737 MAX program' },
+      { date: '2015', event: 'Works with FAA on 737 MAX pilot training requirements; argues MCAS does not require new simulator training' },
+      { date: '2016-03', event: 'MCAS authority expanded from 0.6 to 2.5 degrees of stabilizer movement during redesign; Forkner involved in certification communications' },
+      { date: '2016-11', event: 'Discovers MCAS behaves aggressively in simulator; messages colleague: "So I basically lied to the regulators (unknowingly)"' },
+      { date: '2017-03', event: 'FAA certifies 737 MAX based on representations Forkner provided about MCAS behavior and pilot training needs' },
+      { date: '2018', event: 'Leaves Boeing for Southwest Airlines as a pilot' },
+      { date: '2018-10-29', event: 'Lion Air Flight 610 crashes, killing 189 -- the MCAS system Forkner had downplayed to the FAA is identified as primary cause' },
+      { date: '2019-03-10', event: 'Ethiopian Airlines Flight 302 crashes, killing 157 -- identical MCAS failure' },
+      { date: '2021-10-14', event: 'Indicted on six counts of wire fraud by federal grand jury in Fort Worth, Texas -- only individual charged in connection with 346 deaths' },
+      { date: '2022-03-23', event: 'Acquitted on all six counts after federal jury deliberates less than two hours; jury finds FAA shared responsibility for certification failures' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'DOJ Indictment of Mark Forkner', url: 'https://www.justice.gov/opa/pr/former-boeing-737-max-chief-technical-pilot-indicted-fraud', date: '2021-10-14' },
+      { title: 'Forkner Acquittal (Reuters)', url: 'https://www.reuters.com/business/aerospace-defense/ex-boeing-pilot-found-not-guilty-fraud-charges-linked-737-max-crashes-2022-03-23/', date: '2022-03-23' },
+      { title: 'House Transportation Committee Final Report on Boeing 737 MAX', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-investigation', date: '2020-09' },
+      { title: 'Flying Blind: The 737 MAX Tragedy and the Fall of Boeing (Peter Robison)', url: 'https://www.penguinrandomhouse.com/books/646497/flying-blind-by-peter-robison/', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Patrik Gustavsson', relationship: 'Boeing colleague and recipient of Forkner\'s "lied to the regulators" message' },
+      { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX certification and crash period' },
+      { name: 'Ali Bahrami', relationship: 'FAA Associate Administrator overseeing delegated certification process' },
+      { name: 'Michael Teal', relationship: 'Boeing 737 MAX chief engineer who led the MCAS design team' },
+    ],
+  },
 
 
  'maria-cantwell': {
