@@ -1,4 +1,4 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -118,9 +118,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Nominated as Ambassador to France (nepotism)',
  ],
  charges: [
- { statute: '26 U.S.C. § 7206', description: 'Tax evasion; convicted, pardoned', category: 'Financial Crimes' },
- { statute: '52 U.S.C. § 30116', description: 'Illegal campaign contributions; convicted, pardoned', category: 'Election Crimes' },
- { statute: '18 U.S.C. § 1512', description: 'Witness tampering; convicted, pardoned', category: 'Obstruction' },
+ { statute: '26 U.S.C. Â§ 7206', description: 'Tax evasion; convicted, pardoned', category: 'Financial Crimes' },
+ { statute: '52 U.S.C. Â§ 30116', description: 'Illegal campaign contributions; convicted, pardoned', category: 'Election Crimes' },
+ { statute: '18 U.S.C. Â§ 1512', description: 'Witness tampering; convicted, pardoned', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Trump Pardon Corruption', slug: 'pardons-corruption', severity: 'critical' },
@@ -211,13 +211,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Case dismissed by Judge Cannon, DOJ appealing',
  ],
  charges: [
- { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice; Conspired to delete surveillance footage showing document movement', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence; Asked IT staff to delete security camera footage', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Altering/destroying records; Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI; Lied about knowledge of documents and conversations', category: 'False Statements' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States; Part of scheme to obstruct investigation', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting obstruction; Actively assisted in cover-up at"boss"direction', category: 'Accessory' },
- { statute: '18 U.S.C. § 793(e) (Espionage Act Accessory)', description: 'Accessory to willful retention; Facilitated concealment of classified documents at property he managed', category: 'Espionage' },
+ { statute: '18 U.S.C. Â§ 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice; Conspired to delete surveillance footage showing document movement', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence; Asked IT staff to delete security camera footage', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1519 (Evidence Concealment)', description: 'Altering/destroying records; Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1001 (False Statements)', description: 'Making false statements to FBI; Lied about knowledge of documents and conversations', category: 'False Statements' },
+ { statute: '18 U.S.C. Â§ 371 (Conspiracy)', description: 'Conspiracy to defraud United States; Part of scheme to obstruct investigation', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Â§ 2 (Aiding and Abetting)', description: 'Aiding and abetting obstruction; Actively assisted in cover-up at"boss"direction', category: 'Accessory' },
+ { statute: '18 U.S.C. Â§ 793(e) (Espionage Act Accessory)', description: 'Accessory to willful retention; Facilitated concealment of classified documents at property he managed', category: 'Espionage' },
  ],
  relatedInvestigations: [
  { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
@@ -646,7 +646,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace; Planning and waging aggressive war', category: 'International' },
  { statute: 'Nuremberg Principle VI(c)', description: 'Crime Against Humanity; My Lai cover-up enabling atrocities', category: 'International' },
  { statute: 'UCMJ Article 134', description: 'Making False Official Statements; UN presentation based on known false intel', category: 'Military' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements; Knowingly presenting dubious intelligence as fact', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'False Statements; Knowingly presenting dubious intelligence as fact', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
@@ -764,7 +764,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity; Torture program approval', category: 'International' },
  { statute: 'Convention Against Torture Article 2', description: 'Torture; Authorized CIA enhanced interrogation', category: 'International' },
  { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace; Planning aggressive war on false pretenses', category: 'International' },
- { statute: '18 U.S.C. § 2340A', description: 'Torture; Authorization of waterboarding and other techniques', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 2340A', description: 'Torture; Authorization of waterboarding and other techniques', category: 'Federal' },
  { statute: 'Geneva Convention Common Article 3', description: 'Outrages on personal dignity; Torture program', category: 'International' },
  ],
  relatedInvestigations: [
@@ -1711,9 +1711,9 @@ const profiles: Record<string, IndividualProfile> = {
  'STARTUP FRAUD: Pattern in tech industry',
  ],
  charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CHARGED' },
- { statute: '18 U.S.C. � 1343', description: 'Wire Fraud', category: 'CHARGED' },
- { statute: '18 U.S.C. � 1344', description: 'Bank Fraud', category: 'CHARGED' },
+ { statute: '15 U.S.C. ï¿½ 78j(b)', description: 'Securities Fraud', category: 'CHARGED' },
+ { statute: '18 U.S.C. ï¿½ 1343', description: 'Wire Fraud', category: 'CHARGED' },
+ { statute: '18 U.S.C. ï¿½ 1344', description: 'Bank Fraud', category: 'CHARGED' },
  ],
  relatedInvestigations: [
  { title: 'Startup Fraud', slug: 'startup-fraud', severity: 'high' },
@@ -1787,8 +1787,8 @@ const profiles: Record<string, IndividualProfile> = {
  'TOXIC CHEMICALS: Food packaging with PFAS',
  ],
  charges: [
- { statute: '29 U.S.C. � 206', description: 'Fair Labor Standards Act, Wage violations', category: 'MULTIPLE SETTLEMENTS' },
- { statute: '29 U.S.C. � 158', description: 'NLRA, Union interference', category: 'NLRB COMPLAINTS' },
+ { statute: '29 U.S.C. ï¿½ 206', description: 'Fair Labor Standards Act, Wage violations', category: 'MULTIPLE SETTLEMENTS' },
+ { statute: '29 U.S.C. ï¿½ 158', description: 'NLRA, Union interference', category: 'NLRB COMPLAINTS' },
  ],
  relatedInvestigations: [
  { title: 'Fast Food Labor Exploitation', slug: 'fast-food-labor', severity: 'high' },
@@ -2652,7 +2652,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
- { name: 'Harry Laughlin', relationship: 'Protégé and Cold Spring Harbor eugenics colleague', href: '/entities/individuals/harry-laughlin' },
+ { name: 'Harry Laughlin', relationship: 'ProtÃ©gÃ© and Cold Spring Harbor eugenics colleague', href: '/entities/individuals/harry-laughlin' },
  { name: 'Paul Popenoe', relationship: 'Fellow eugenics movement leader', href: '/entities/individuals/paul-popenoe' },
  { name: 'Margaret Sanger', relationship: 'Birth control pioneer with overlapping eugenics connections', href: '/entities/individuals/margaret-sanger' },
  ],
@@ -3464,33 +3464,44 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'cliff-baxter': {
- name: 'Cliff Baxter',
- title: 'Former Enron Vice Chairman found dead of apparent suicide before testifying',
- role: 'Former Enron Vice Chairman found dead of apparent suicide before testifying',
+ name: 'J. Clifford Baxter',
+ title: 'Former Enron Vice Chairman who raised internal concerns about Enron accounting; found dead of apparent self-inflicted gunshot wound before testifying',
+ role: 'Former Vice Chairman, Enron Corporation',
  riskLevel: 'high',
- description: 'Cliff Baxter. Profile pending review.',
- education: [],
+ description: 'John Clifford "Cliff" Baxter served as Vice Chairman and Chief Strategy Officer of Enron Corporation until he resigned in May 2001. Baxter was one of the few senior Enron executives who internally raised concerns about the company accounting practices, particularly the off-balance-sheet SPE transactions designed by CFO Andrew Fastow. According to multiple sources including Sherron Watkins, Baxter had argued forcefully against some of the more egregious partnership deals and had confronted Skilling about the propriety of the LJM transactions. His resignation in May 2001, three months before Skilling own departure, was seen internally as a sign that the company was in trouble. After Enron filed for bankruptcy in December 2001, Baxter was placed on the SEC witness list as a key individual who could testify about what senior executives knew regarding the fraud. On January 25, 2002, Baxter was found dead in his Mercedes-Benz in Sugar Land, Texas, of a single gunshot wound. The Harris County Medical Examiner ruled the death a suicide. He left a note. The timing of his death, just weeks before he was to be questioned by congressional investigators and the SEC, fueled extensive speculation, though no evidence of foul play was found. A wrongful death lawsuit was later filed by his estate against Enron executives.',
+ birthDate: 'September 27, 1958',
+ birthPlace: 'Amityville, New York, United States',
+ deathDate: 'January 25, 2002',
+ education: ['New York University (undergraduate)', 'Columbia Business School (MBA)'],
  affiliations: [
- { name: 'Enron', role: 'Executive', type: 'corporation' },
+ { name: 'Enron Corporation', role: 'Vice Chairman and Chief Strategy Officer (resigned May 2001)', type: 'corporation' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- 'Court documents from related proceedings reference Cliff Baxter as a key decision-maker during periods where regulatory violations were later documented.',
- 'Network analysis reveals Cliff Baxter holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Internally raised concerns about Enron off-balance-sheet partnerships and confronted Jeffrey Skilling about the LJM transactions, according to multiple witnesses including Sherron Watkins.',
+ 'Resigned from Enron in May 2001, three months before Skilling departure, in what was seen internally as a warning sign about the company direction.',
+ 'Found dead of apparent self-inflicted gunshot wound on January 25, 2002, in Sugar Land, Texas. Was on SEC witness list and scheduled to be questioned by congressional investigators. Death ruled suicide by Harris County Medical Examiner.',
+ 'Sold approximately $35.2 million in Enron stock before the collapse. SEC investigation into his trading was terminated after his death.',
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
+ { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Former Enron Vice Chairman found dead of apparent suicide before testifying' }, ],
+ { date: '1958-09-27', event: 'Born in Amityville, New York' },
+ { date: '2001-05', event: 'Resigns as Enron Vice Chairman. Had been one of few senior executives to raise internal concerns about SPE transactions.' },
+ { date: '2001-12-02', event: 'Enron files for bankruptcy. Baxter placed on SEC witness list as potential key witness about executive knowledge of fraud.' },
+ { date: '2002-01-25', event: 'Found dead in his car in Sugar Land, Texas, of a single gunshot wound. Harris County Medical Examiner rules death a suicide. Was weeks away from being questioned by congressional investigators.' },
+ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Cliff Baxter', url: 'https://en.wikipedia.org/wiki/Cliff_Baxter', date: '' }, ],
- aliases: [],
+ { title: 'New York Times: Former Enron Executive Found Dead', url: 'https://www.nytimes.com/2002/01/26/business/former-enron-executive-is-found-dead.html', date: '2002-01-26' },
+ { title: 'Wikipedia: J. Clifford Baxter', url: 'https://en.wikipedia.org/wiki/J._Clifford_Baxter', date: '' },
+ ],
+ aliases: ['Cliff Baxter', 'J. Clifford Baxter', 'John Clifford Baxter'],
  knownAssociates: [
- { name: 'Jeffrey Skilling', relationship: 'Enron vice chairman under Skilling who planned to testify', href: '/entities/individuals/jeffrey-skilling' },
- { name: 'Sherron Watkins', relationship: 'Fellow Enron insider who raised alarm about fraud', href: '/entities/individuals/sherron-watkins' },
+ { name: 'Jeffrey Skilling', relationship: 'Enron CEO whom Baxter confronted about LJM partnership transactions', href: '/entities/individuals/jeffrey-skilling' },
+ { name: 'Sherron Watkins', relationship: 'Fellow Enron insider who corroborated Baxter had raised internal concerns about accounting', href: '/entities/individuals/sherron-watkins' },
+ { name: 'Andrew Fastow', relationship: 'Enron CFO whose off-balance-sheet partnerships Baxter questioned internally', href: '/entities/individuals/andrew-fastow' },
  ],
  },
 
@@ -3641,7 +3652,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Wikipedia: Craig Whitlock', url: 'https://en.wikipedia.org/wiki/Craig_Whitlock', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'John Sopko', relationship: 'SIGAR inspector whose Afghanistan reports aligned with Whitlock\'s exposé', href: '/entities/individuals/john-sopko' },
+ { name: 'John Sopko', relationship: 'SIGAR inspector whose Afghanistan reports aligned with Whitlock\'s exposÃ©', href: '/entities/individuals/john-sopko' },
  { name: 'Daniel Ellsberg', relationship: 'Pentagon Papers leaker; Whitlock exposed similar Afghanistan deception', href: '/entities/individuals/daniel-ellsberg' },
  ],
  },

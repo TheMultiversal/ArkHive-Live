@@ -4048,7 +4048,59 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Richard Wigton', relationship: 'Co-arrested at Kidder Peabody; both had charges dropped', href: '/entities/individuals/richard-wigton' },
   { name: 'Martin Siegel', relationship: 'Kidder Peabody M&A banker whose insider trading exposed others at the firm', href: '/entities/individuals/martin-siegel' },
  ],
- }
+ },
+
+  'timothy-belden': {
+    name: 'Timothy Belden',
+    title: 'Former head of Enron Energy Services trading who masterminded California energy price manipulation schemes',
+    role: 'Former Head of Trading, Enron Energy Services',
+    riskLevel: 'high',
+    birthDate: '1967',
+    birthPlace: 'United States',
+    description: 'Timothy Belden was the head of trading at Enron Energy Services and the primary architect of the trading strategies that manipulated California\'s energy market during the 2000-2001 electricity crisis. Belden developed and directed multiple schemes -- with names like "Death Star," "Fat Boy," and "Get Shorty" -- that exploited flaws in California\'s deregulated electricity market to generate massive profits for Enron while causing rolling blackouts and skyrocketing energy bills for millions of Californians.\n\nBelden held a Master\'s degree in Public Policy from UC Berkeley\'s Goldman School of Public Policy and had spent five years at Lawrence Berkeley National Laboratory before joining Enron, giving him deep technical knowledge of energy systems that he weaponized for profit. At Enron, he received a $5 million bonus for his trading desk\'s extraordinary returns -- returns that were the product of market manipulation rather than legitimate trading skill.\n\nOn October 17, 2002, Belden pleaded guilty to one count of conspiracy to commit wire fraud, becoming an important cooperating witness for federal prosecutors. On February 14, 2007, he was sentenced to two years of supervised release and ordered to forfeit $2.1 million -- a notably lenient sentence that reflected the value of his cooperation. After serving his sentence, Belden co-founded Energy GPS LLC in Portland, Oregon in 2009 with former colleague Jeff Richter, an energy consulting and analytics firm.',
+    education: [
+      'UC Berkeley, Goldman School of Public Policy (MS, Public Policy)',
+    ],
+    affiliations: [
+      { name: 'Enron Corporation', role: 'Head of Trading, Enron Energy Services', type: 'corporation' },
+      { name: 'Lawrence Berkeley National Laboratory', role: 'Researcher (5 years, pre-Enron)', type: 'agency' },
+      { name: 'Energy GPS LLC', role: 'Co-founder (post-conviction, 2009)', type: 'corporation' },
+    ],
+    controversies: [
+      'Masterminded California energy price manipulation schemes ("Death Star," "Fat Boy," "Get Shorty")',
+      'Trading strategies caused rolling blackouts and soaring energy bills for millions of Californians',
+      'Received $5 million bonus from Enron for profits generated through market manipulation',
+      'Exploited flaws in California deregulation to create artificial congestion and inflate prices',
+      'Co-founded Energy GPS LLC after conviction -- returning to the energy industry he exploited',
+    ],
+    charges: [
+      { charge: 'Conspiracy to Commit Wire Fraud', status: 'convicted', date: '2002-10-17' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1967', event: 'Born in the United States' },
+      { date: '1992', event: 'Earned Master\'s degree in Public Policy from UC Berkeley Goldman School of Public Policy' },
+      { date: '1992', event: 'Joined Lawrence Berkeley National Laboratory as a researcher' },
+      { date: '1997', event: 'Joined Enron Energy Services as a trader; rose to head of trading' },
+      { date: '2000-05', event: 'California electricity crisis began; Belden\'s trading desk implemented manipulation schemes' },
+      { date: '2001', event: 'Received $5 million bonus from Enron for trading desk profits' },
+      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy' },
+      { date: '2002-10-17', event: 'Pleaded guilty to one count of conspiracy to commit wire fraud' },
+      { date: '2007-02-14', event: 'Sentenced to two years supervised release and forfeiture of $2.1 million' },
+      { date: '2009', event: 'Co-founded Energy GPS LLC in Portland, Oregon with Jeff Richter' },
+    ],
+    sources: [
+      { title: 'Timothy Belden -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Timothy_Belden', date: '2024' },
+      { title: 'Enron Trader Pleads Guilty to Conspiracy -- The New York Times', url: 'https://www.nytimes.com/2002/10/18/business/enron-trader-pleads-guilty-to-conspiracy.html', date: '2002-10-18' },
+      { title: 'California Electricity Crisis -- Wikipedia', url: 'https://en.wikipedia.org/wiki/2000%E2%80%9301_California_electricity_crisis', date: '2024' },
+    ],
+    knownAssociates: [
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO who oversaw the energy trading operations; convicted on 19 counts', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman who approved aggressive trading strategies', href: '/entities/individuals/ken-lay' },
+    ],
+  },
 };
 
 export default profiles;

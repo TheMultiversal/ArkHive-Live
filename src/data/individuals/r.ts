@@ -1,11 +1,11 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
  'roger-stone': {
  name: 'Roger Jason Stone Jr.',
  title: 'Convicted Felon (Pardoned), Professional Dirty Trickster',
- role: 'Political Consultant, Trump Advisor, Nixon Protégé',
+ role: 'Political Consultant, Trump Advisor, Nixon ProtÃ©gÃ©',
  riskLevel: 'critical',
  description: 'Roger Jason Stone Jr. is a longtime Republican political consultant, lobbyist, and self-described dirty trickster who served as a key ally to Donald Trump. He was convicted of seven felonies including witness tampering and lying to Congress about his WikiLeaks contacts during the 2016 campaign, then pardoned by Trump. He had documented contacts with the Proud Boys and Oath Keepers before January 6th.',
  birthDate: 'August 27, 1952',
@@ -35,9 +35,9 @@ const profiles: Record<string, IndividualProfile> = {
  'LOBBYING DICTATORS: Black Manafort Stone lobbied for dictators including Marcos (Philippines), Mobutu (Zaire), Angola rebels',
  ],
  charges: [
- { statute: '18 U.S.C. § 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -115,13 +115,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Testified about Manafort tax and bank fraud',
  ],
  charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy Against the United States (Pled Guilty); Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1001', description: 'Making False Statements (Pled Guilty); Lied to investigators about contacts and transactions', category: 'Obstruction' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Foreign Agent Registration Act Violation; Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
- { statute: '26 U.S.C. § 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy; Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
- { statute: '18 U.S.C. § 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy; Helped submit false loan applications to banks', category: 'Bank Fraud' },
- { statute: '31 U.S.C. § 5314 (FBAR)', description: 'Foreign Account Reporting Violations; Failed to report foreign bank accounts', category: 'Financial Crime' },
- { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'Money Laundering Conspiracy; Moved Ukraine payments through shell companies', category: 'Money Laundering' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy Against the United States (Pled Guilty); Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'Making False Statements (Pled Guilty); Lied to investigators about contacts and transactions', category: 'Obstruction' },
+ { statute: '22 U.S.C. Â§ 611 (FARA)', description: 'Foreign Agent Registration Act Violation; Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
+ { statute: '26 U.S.C. Â§ 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy; Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
+ { statute: '18 U.S.C. Â§ 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy; Helped submit false loan applications to banks', category: 'Bank Fraud' },
+ { statute: '31 U.S.C. Â§ 5314 (FBAR)', description: 'Foreign Account Reporting Violations; Failed to report foreign bank accounts', category: 'Financial Crime' },
+ { statute: '18 U.S.C. Â§ 1956 (Money Laundering)', description: 'Money Laundering Conspiracy; Moved Ukraine payments through shell companies', category: 'Money Laundering' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -353,12 +353,12 @@ const profiles: Record<string, IndividualProfile> = {
  'More publicly active than reclusive father',
  ],
  charges: [
- { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure; Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
- { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination; Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
- { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; As board member, oversaw company that committed serious data protection breaches (fined £500,000)', category: 'International Law' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US; Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
- { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Dark Money Concerns; Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
+ { statute: '18 U.S.C. Â§ 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure; Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
+ { statute: '52 U.S.C. Â§ 30121 (Foreign National Contributions)', description: 'Foreign Coordination; Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
+ { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; As board member, oversaw company that committed serious data protection breaches (fined Â£500,000)', category: 'International Law' },
+ { statute: '18 U.S.C. Â§ 371 (Conspiracy)', description: 'Conspiracy to Defraud US; Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
+ { statute: '52 U.S.C. Â§ 30104 (Disclosure)', description: 'Dark Money Concerns; Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. Â§ 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -532,12 +532,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Bought investment in Trump-connected company',
  ],
  charges: [
- { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud; Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme; Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
- { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations; Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 1014', description: 'Potential Bank Fraud; Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 1344', description: 'Potential Bank Fraud Scheme; Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
+ { statute: '31 U.S.C. Â§ 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations; Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
  { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations; Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Potential Conspiracy; Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
  { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations; Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
  ],
  relatedInvestigations: [
@@ -950,7 +950,7 @@ const profiles: Record<string, IndividualProfile> = {
  'NO PROSECUTION: DOJ declined to charge despite evidence',
  ],
  charges: [
- { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
+ { statute: '15 U.S.C. Â§ 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
  ],
  relatedInvestigations: [
  { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
@@ -1067,11 +1067,11 @@ const profiles: Record<string, IndividualProfile> = {
  'CENTER FOR RENEWING AMERICA: Organization coordinates"war room"for implementing Project 2025',
  ],
  charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States; Project 2025 coordination', category: 'Federal' },
- { statute: '2 U.S.C. § 684', description: 'Impoundment Control Act Violations; Illegal withholding of funds', category: 'Federal' },
- { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices; Schedule F politicization plan', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy to Defraud United States; Project 2025 coordination', category: 'Federal' },
+ { statute: '2 U.S.C. Â§ 684', description: 'Impoundment Control Act Violations; Illegal withholding of funds', category: 'Federal' },
+ { statute: '5 U.S.C. Â§ 2302', description: 'Prohibited Personnel Practices; Schedule F politicization plan', category: 'Federal' },
  { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations; Unitary executive overreach', category: 'Constitutional' },
- { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employees; Political coercion plans', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 595', description: 'Interference by Administrative Employees; Political coercion plans', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Project 2025 Authoritarian Blueprint', slug: 'project-2025', severity: 'critical' },
@@ -1392,9 +1392,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Escaped accountability through special counsel investigation',
  ],
  charges: [
- { statute: 'Intelligence Identities Protection Act: 50 U.S.C. § 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
- { statute: 'Espionage Act: 18 U.S.C. § 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
- { statute: 'Obstruction of Justice: 18 U.S.C. § 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
+ { statute: 'Intelligence Identities Protection Act: 50 U.S.C. Â§ 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
+ { statute: 'Espionage Act: 18 U.S.C. Â§ 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
+ { statute: 'Obstruction of Justice: 18 U.S.C. Â§ 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Plame Leak Scandal', slug: 'plame-leak', severity: 'high' },
@@ -1481,10 +1481,10 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity; Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 70(1)(c)', description: 'Obstruction of Justice: Destroyed evidence to prevent accountability', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed operations to overthrow the Chilean government', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
  ],
  relatedInvestigations: [
  { title: 'MKUltra Mind Control Program', slug: 'mkultra', severity: 'critical' },
@@ -1566,8 +1566,8 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes; Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes; Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
  ],
  relatedInvestigations: [
  { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
@@ -1789,7 +1789,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'CEO of News UK',
  role: 'Media Executive, Phone Hacking Central Figure',
  riskLevel: 'high',
- description: 'Rebekah Brooks (née Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
+ description: 'Rebekah Brooks (nÃ©e Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
  birthDate: 'May 27, 1968',
  birthPlace: 'Warrington, Cheshire, UK',
  education: ['Appleton Hall County Grammar School'],
@@ -1887,7 +1887,7 @@ const profiles: Record<string, IndividualProfile> = {
  'CONGRESSIONAL TESTIMONY: Testified to Congress about delayed response',
  ],
  charges: [
- { statute: '10 U.S.C. § 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
+ { statute: '10 U.S.C. Â§ 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -2593,9 +2593,9 @@ const profiles: Record<string, IndividualProfile> = {
  '30+ YEAR SENTENCE: Die-in-prison sentence',
  ],
  charges: [
- { statute: '18 U.S.C. � 1962', description: 'RICO, Sex trafficking enterprise', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1591', description: 'Sex trafficking of minors', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 2251', description: 'Child pornography production', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1962', description: 'RICO, Sex trafficking enterprise', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1591', description: 'Sex trafficking of minors', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 2251', description: 'Child pornography production', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'R. Kelly Sex Crimes', slug: 'r-kelly-sex-crimes', severity: 'critical' },
@@ -2678,9 +2678,9 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATH PENALTY: Sentenced to death',
  ],
  charges: [
- { statute: '18 U.S.C. � 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED, DEATH' },
- { statute: '18 U.S.C. � 249', description: 'Hate crime resulting in death', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 924(c)', description: 'Use of firearm in violent crime', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED, DEATH' },
+ { statute: '18 U.S.C. ï¿½ 249', description: 'Hate crime resulting in death', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 924(c)', description: 'Use of firearm in violent crime', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Tree of Life Massacre', slug: 'tree-of-life-massacre', severity: 'critical' },
@@ -2747,9 +2747,9 @@ const profiles: Record<string, IndividualProfile> = {
  'LAPTOP MISSING: Never recovered',
  ],
  charges: [
- { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED: 3 YEARS' },
- { statute: '18 U.S.C. � 641', description: 'Theft of government property', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1752', description: 'Unlawful entry', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED: 3 YEARS' },
+ { statute: '18 U.S.C. ï¿½ 641', description: 'Theft of government property', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1752', description: 'Unlawful entry', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -3042,11 +3042,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'ramon-fonseca': {
- name: 'Ramón Fonseca',
+ name: 'RamÃ³n Fonseca',
  title: 'Co-founder of Mossack Fonseca and adviser to Panama\'s president; oversaw the creation of thousands of shell companies',
  role: 'Co-founder of Mossack Fonseca and adviser to Panama\'s president; oversaw the creation of thousands of shell companies',
  riskLevel: 'high',
- description: 'Ramón Fonseca. Profile pending review.',
+ description: 'RamÃ³n Fonseca. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Ralph Abernathy', type: 'organization' },
@@ -3063,7 +3063,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Ramón Fonseca', url: 'https://en.wikipedia.org/wiki/Ramón_Fonseca', date: '' },
+ { title: 'Wikipedia: RamÃ³n Fonseca', url: 'https://en.wikipedia.org/wiki/RamÃ³n_Fonseca', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3337,32 +3337,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  'rebecca-mark': {
  name: 'Rebecca Mark',
- title: 'CEO of Enron International who oversaw disastrous Dabhol Power project and overseas expansion',
- role: 'CEO of Enron International who oversaw disastrous Dabhol Power project and overseas expansion',
+ title: 'Former CEO of Enron International and Azurix Corp who led Enron disastrous $3 billion Dabhol Power Plant project in India',
+ role: 'Former CEO, Enron International and Enron Development Corp; CEO, Azurix Corp',
  riskLevel: 'high',
- description: 'Rebecca Mark. Profile pending review.',
- education: [],
+ description: 'Rebecca P. Mark-Jusbasche was CEO of Enron International and Enron Development Corporation, where she led Enron aggressive overseas expansion strategy centered on building massive physical assets in developing countries. Her signature project was the $2.9 billion Dabhol Power Plant in Maharashtra, India, the largest foreign direct investment in Indian history at the time. The project became one of the greatest international infrastructure disasters of the 1990s: it was plagued by corruption allegations (Human Rights Watch documented use of police violence against local protesters), cost overruns, and a power purchase agreement that required India to buy electricity at rates far above market price. The Maharashtra state government attempted to cancel the contract, leading to years of litigation. Mark represented the opposite of Jeffrey Skilling "asset-light" trading model; the two were bitter internal rivals. Skilling faction eventually won out, and Mark was sidelined to lead Azurix, Enron water utility venture, which IPO launched in June 1999 but quickly lost half its value. Mark resigned from Enron in August 2000, selling approximately $82.5 million in Enron stock before the collapse. She was named in SEC civil actions and shareholder lawsuits but was never criminally charged. The Dabhol plant sat idle for years after Enron bankruptcy before being sold to Ratnagiri Gas and Power Pvt Ltd.',
+ education: ['Baylor University (BBA)', 'Harvard Business School (MBA, 1990)'],
  affiliations: [
- { name: 'Enron', role: 'Executive', type: 'corporation' },
+ { name: 'Enron Corporation', role: 'CEO, Enron International / Enron Development Corp (1991-1999); CEO, Azurix Corp (1999-2000)', type: 'corporation' },
+ { name: 'Azurix Corp', role: 'CEO (IPO June 1999; water utility spinoff from Enron)', type: 'corporation' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- 'Investigative analysis reveals Rebecca Mark was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- 'Third-party audit reports flagged irregularities in programs overseen by Rebecca Mark, though no formal investigation was initiated at the time.',
+ 'Led development of the $2.9 billion Dabhol Power Plant in India, which became one of the greatest international infrastructure failures of the 1990s. Power purchase agreements required India to buy electricity at rates triple the market price.',
+ 'Human Rights Watch documented that Indian police used violence against local villagers protesting the Dabhol project, including beatings and destruction of homes, allegedly with Enron knowledge.',
+ 'Led Azurix, Enron water utility IPO (June 1999), which quickly lost half its value due to mismanagement of water systems including a sewage contamination crisis in Buenos Aires.',
+ 'Sold approximately $82.5 million in Enron stock before the company collapse. Named in SEC civil actions and shareholder lawsuits but never criminally charged.',
+ 'Bitter internal rivalry with Jeffrey Skilling over company direction (asset-heavy international vs. asset-light trading) shaped Enron corporate culture of aggressive risk-taking.',
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
+ { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as CEO of Enron International who oversaw disastrous Dabhol Power project and overseas expansion' }, ],
+ { date: '1991', event: 'Becomes head of Enron Development Corporation, leading international expansion' },
+ { date: '1995', event: 'Begins construction of Dabhol Power Plant in Maharashtra, India. Human Rights Watch later documents police violence against local protesters.' },
+ { date: '1999-06', event: 'Azurix Corp (Enron water utility spinoff) IPO at $19/share. Stock quickly drops to under $10.' },
+ { date: '2000-08', event: 'Resigns from Enron. Sells approximately $82.5 million in Enron stock before collapse.' },
+ { date: '2001-12-02', event: 'Enron files for bankruptcy. Dabhol plant sits idle. Mark named in shareholder lawsuits.' },
+ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Rebecca Mark', url: 'https://en.wikipedia.org/wiki/Rebecca_Mark', date: '' }, ],
- aliases: [],
+ { title: 'Wikipedia: Rebecca Mark-Jusbasche', url: 'https://en.wikipedia.org/wiki/Rebecca_Mark-Jusbasche', date: '' },
+ { title: 'Human Rights Watch: The Enron Corporation in India', url: 'https://www.hrw.org/reports/1999/enron/', date: '1999-01-01' },
+ ],
+ aliases: ['Rebecca Mark-Jusbasche', 'Rebecca P. Mark'],
  knownAssociates: [
- { name: 'Kenneth Lay', relationship: 'Enron executive under Lay\'s leadership', href: '/entities/individuals/kenneth-lay' },
- { name: 'Jeffrey Skilling', relationship: 'Rival Enron executive', href: '/entities/individuals/jeffrey-skilling' },
+ { name: 'Kenneth Lay', relationship: 'Enron Chairman who supported Mark international expansion strategy', href: '/entities/individuals/ken-lay' },
+ { name: 'Jeffrey Skilling', relationship: 'Enron CEO and Mark bitter internal rival; Skilling favored asset-light trading vs. Mark asset-heavy model', href: '/entities/individuals/jeffrey-skilling' },
  ],
  },
 
@@ -3437,11 +3447,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'rene-schneider': {
- name: 'René Schneider',
+ name: 'RenÃ© Schneider',
  title: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
  role: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
  riskLevel: 'high',
- description: 'René Schneider. Profile pending review.',
+ description: 'RenÃ© Schneider. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -3459,7 +3469,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: René Schneider', url: 'https://en.wikipedia.org/wiki/René_Schneider', date: '' },
+ { title: 'Wikipedia: RenÃ© Schneider', url: 'https://en.wikipedia.org/wiki/RenÃ©_Schneider', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3763,11 +3773,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'rigoberta-menchu': {
- name: 'Rigoberta Menchú',
+ name: 'Rigoberta MenchÃº',
  title: 'Indigenous K\'iche\' activist who won 1992 Nobel Peace Prize for documenting genocide',
  role: 'Indigenous K\'iche\' activist who won 1992 Nobel Peace Prize for documenting genocide',
  riskLevel: 'high',
- description: 'Rigoberta Menchú. Profile pending review.',
+ description: 'Rigoberta MenchÃº. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Rick Dearborn', type: 'organization' },
@@ -3784,7 +3794,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Rigoberta Menchú', url: 'https://en.wikipedia.org/wiki/Rigoberta_Menchú', date: '' },
+ { title: 'Wikipedia: Rigoberta MenchÃº', url: 'https://en.wikipedia.org/wiki/Rigoberta_MenchÃº', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4278,8 +4288,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'robert-scherrer': {
  name: 'Robert Scherrer',
- title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network: his reports were largely ignored',
- role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
+ title: 'FBI Legal AttachÃ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network: his reports were largely ignored',
+ role: 'FBI Legal AttachÃ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
  riskLevel: 'high',
  description: 'Robert Scherrer. Profile pending review.',
  education: [],
@@ -6355,7 +6365,7 @@ const profiles: Record<string, IndividualProfile> = {
         category: 'regulatory',
       },
       {
-        statute: 'Safe Drinking Water Act (42 U.S.C. § 300f) - Regulatory Failure',
+        statute: 'Safe Drinking Water Act (42 U.S.C. Â§ 300f) - Regulatory Failure',
         description: 'State under his leadership failed to enforce federal safe drinking water standards and implement required corrosion control treatment',
         category: 'regulatory',
       },
@@ -6705,6 +6715,101 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: [],
     knownAssociates: [],
+  },
+
+  'richard-causey': {
+    name: 'Richard Causey',
+    title: 'Former Enron Chief Accounting Officer who pleaded guilty to securities fraud after initially standing trial alongside Lay and Skilling',
+    role: 'Former Chief Accounting Officer, Enron Corporation',
+    riskLevel: 'high',
+    description: 'Richard Causey served as Chief Accounting Officer (CAO) of Enron Corporation, the executive directly responsible for the company\'s financial reporting and compliance with accounting standards. He was indicted on six felony charges for his role in disguising Enron\'s true financial condition from investors, regulators, and the public -- a fraud that ultimately destroyed the seventh-largest company in America and wiped out billions in shareholder and employee retirement savings.\n\nCausey was originally a co-defendant alongside Chairman Kenneth Lay and CEO Jeffrey Skilling in what the Department of Justice called the most significant corporate fraud prosecution in American history. He initially pleaded not guilty and appeared set to stand trial with his co-defendants. However, on December 28, 2005 -- just weeks before the trial was scheduled to begin in January 2006 -- Causey changed his plea to guilty on a single count of securities fraud in exchange for the government dropping the remaining five charges.\n\nHis decision to plead guilty was a significant blow to the defense because it deprived Lay and Skilling of a co-defendant who could have shared the burden of cross-examination and presented a united front. Causey was sentenced to seven years in federal prison, later reduced to approximately five and a half years. As CAO, Causey had direct knowledge of the accounting manipulations at the heart of Enron\'s fraud, including the misuse of mark-to-market accounting and the concealment of debt through special purpose entities.',
+    affiliations: [
+      { name: 'Enron Corporation', role: 'Chief Accounting Officer', type: 'corporation' },
+      { name: 'Arthur Andersen LLP', role: 'Former external auditor (professional relationship)', type: 'corporation' },
+    ],
+    controversies: [
+      'Indicted on six felony charges for disguising Enron\'s financial condition from investors and regulators',
+      'Initially pleaded not guilty as co-defendant with Lay and Skilling; changed plea to guilty on Dec 28, 2005',
+      'Plea change weeks before trial deprived Lay and Skilling of a co-defendant',
+      'Directly responsible for financial reporting that concealed billions in debt through SPEs',
+      'Oversaw accounting practices including aggressive mark-to-market that inflated revenue',
+    ],
+    charges: [
+      { charge: 'Securities Fraud', status: 'convicted', date: '2005-12-28' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy' },
+      { date: '2004-01', event: 'Indicted alongside Kenneth Lay and Jeffrey Skilling on six felony charges' },
+      { date: '2004-07', event: 'Pleaded not guilty to all charges; prepared to stand trial with Lay and Skilling' },
+      { date: '2005-12-28', event: 'Changed plea to guilty on one count of securities fraud; five remaining charges dropped' },
+      { date: '2006-01', event: 'Trial of Lay and Skilling began without Causey as co-defendant' },
+      { date: '2007-11', event: 'Sentenced to seven years in federal prison (later reduced to approximately 5.5 years)' },
+    ],
+    sources: [
+      { title: 'Causey Pleads Guilty in Enron Case -- The New York Times', url: 'https://www.nytimes.com/2005/12/28/business/causey-pleads-guilty-in-enron-case.html', date: '2005-12-28' },
+      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+    ],
+    knownAssociates: [
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman and original co-defendant; convicted on all six counts', href: '/entities/individuals/ken-lay' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO and original co-defendant; convicted on 19 of 28 counts', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Andrew Fastow', relationship: 'Enron CFO who designed the SPE structure that Causey\'s accounting practices concealed', href: '/entities/individuals/andrew-fastow' },
+      { name: 'David Duncan', relationship: 'Arthur Andersen lead auditor who signed off on Enron\'s fraudulent financial statements', href: '/entities/individuals/david-duncan' },
+    ],
+  },
+
+  'richard-kinder': {
+    name: 'Richard Kinder',
+    title: 'Former Enron President who left in 1996 before the scandal, founded Kinder Morgan, and became a billionaire energy mogul',
+    role: 'Former President and COO, Enron Corporation; Co-founder and Executive Chairman, Kinder Morgan',
+    riskLevel: 'low',
+    birthDate: '1944-10-19',
+    birthPlace: 'Cape Girardeau, Missouri, United States',
+    netWorth: '$11 billion (estimated, 2014 peak)',
+    description: 'Richard Kinder served as President and Chief Operating Officer of Enron Corporation from 1990 to 1996, a period when the company was still primarily a natural gas pipeline operator before the aggressive expansion into derivatives trading and off-balance-sheet finance that would eventually destroy it. He left Enron in December 1996 -- years before the fraud that would lead to the company\'s 2001 collapse -- and went on to co-found Kinder Morgan with college friend William V. Morgan, building it into the largest midstream energy company in North America.\n\nBorn in Cape Girardeau, Missouri, Kinder earned his BA (1966) and JD (1968) from the University of Missouri, where he was a member of Sigma Nu fraternity and became friends with future Enron founder Kenneth Lay. After practicing law briefly, Kinder joined Florida Gas Transmission Company, which was later folded into what became Enron.\n\nAfter leaving Enron, Kinder purchased the Enron Liquids Pipeline for just $40 million -- a deal that proved extraordinarily prescient as the asset became the foundation of the Kinder Morgan empire. The Wall Street Journal called him "The Luckiest Ex-Enron Employee" because of his fortuitous departure before the scandal erupted.\n\nKinder married Nancy McNeil, who had been Kenneth Lay\'s assistant at Enron, in September 1997. He has given over $850 million in philanthropic grants through the Kinder Foundation, supporting education, parks, and civic projects primarily in Houston. Though never charged with any wrongdoing related to Enron, Kinder\'s tenure as President during the early 1990s overlapped with the beginning of the culture that would eventually produce the fraud.',
+    education: [
+      'University of Missouri (BA, 1966)',
+      'University of Missouri School of Law (JD, 1968)',
+    ],
+    affiliations: [
+      { name: 'Enron Corporation', role: 'President and Chief Operating Officer (1990-1996)', type: 'corporation' },
+      { name: 'Kinder Morgan', role: 'Co-founder and Executive Chairman', type: 'corporation' },
+      { name: 'Florida Gas Transmission', role: 'Executive (pre-Enron merger)', type: 'corporation' },
+    ],
+    controversies: [
+      'Left Enron in December 1996, before the worst fraud occurred -- "The Luckiest Ex-Enron Employee" per WSJ',
+      'Purchased Enron Liquids Pipeline for $40 million, parlayed into Kinder Morgan empire',
+      'Served as Enron President during early 1990s when the corporate culture enabling fraud was developing',
+      'Never charged with any wrongdoing related to Enron',
+      'College friend of Kenneth Lay and married Lay\'s former assistant Nancy McNeil',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1944-10-19', event: 'Born in Cape Girardeau, Missouri' },
+      { date: '1966', event: 'Earned BA from University of Missouri' },
+      { date: '1968', event: 'Earned JD from University of Missouri School of Law' },
+      { date: '1990', event: 'Became President and COO of Enron Corporation' },
+      { date: '1996-12', event: 'Left Enron Corporation -- years before the fraud was exposed' },
+      { date: '1997-02', event: 'Co-founded Kinder Morgan Inc. with William V. Morgan; purchased Enron Liquids Pipeline for $40 million' },
+      { date: '1997-09', event: 'Married Nancy McNeil, former assistant to Kenneth Lay at Enron' },
+      { date: '2001-12-02', event: 'Enron filed for bankruptcy; Kinder had been gone for five years' },
+      { date: '2007', event: 'Led $22 billion management buyout of Kinder Morgan -- largest leveraged buyout in pipeline industry history' },
+      { date: '2014', event: 'Kinder Morgan consolidated subsidiaries in $71 billion deal; estimated net worth peaked at $11 billion' },
+    ],
+    sources: [
+      { title: 'Richard Kinder -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Richard_Kinder', date: '2024' },
+      { title: 'The Luckiest Ex-Enron Employee -- The Wall Street Journal', url: 'https://www.wsj.com/articles/SB101116709235424520', date: '2002' },
+      { title: 'Kinder Foundation Grants and Philanthropy', url: 'https://www.kinderfoundation.org/', date: '2024' },
+    ],
+    knownAssociates: [
+      { name: 'Kenneth Lay', relationship: 'College friend and Enron co-founder; Kinder served as Lay\'s President and COO for six years', href: '/entities/individuals/ken-lay' },
+      { name: 'Jeffrey Skilling', relationship: 'Succeeded Kinder\'s influence at Enron; became CEO and was later convicted on 19 counts', href: '/entities/individuals/jeffrey-skilling' },
+    ],
   },
 };
 

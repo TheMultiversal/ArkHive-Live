@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -574,7 +574,7 @@ const mockNotifications: NotificationItem[] = [
  message: 'Enron Scandal: Arthur Andersen document destruction order added to evidence archive.',
  read: true,
  timestamp: new Date(Date.now() - 1000 * 60 * 60 * 340),
- actionUrl: '/investigations/enron-scandal',
+ actionUrl: '/investigations/enron-corporate-fraud-scandal',
  },
  {
  id: 'notif_60',
@@ -713,7 +713,7 @@ function NotificationCard({
  href={notification.actionUrl}
  className="inline-block mt-2 text-sm text-zinc-300 hover:text-white transition-colors"
  >
- View details →
+ View details â†’
  </a>
  )}
  </div>

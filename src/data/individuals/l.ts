@@ -1,4 +1,4 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -25,9 +25,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Testified Trump knew"exactly what was going on"',
  ],
  charges: [
- { statute: '52 U.S.C. § 30121', description: 'Foreign national campaign contributions', category: 'Election Crimes' },
- { statute: '52 U.S.C. § 30122', description: 'Straw donor contributions', category: 'Election Crimes' },
- { statute: '18 U.S.C. § 1014', description: 'Wire fraud', category: 'Financial Crimes' },
+ { statute: '52 U.S.C. Â§ 30121', description: 'Foreign national campaign contributions', category: 'Election Crimes' },
+ { statute: '52 U.S.C. Â§ 30122', description: 'Straw donor contributions', category: 'Election Crimes' },
+ { statute: '18 U.S.C. Â§ 1014', description: 'Wire fraud', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
  { title: 'Ukraine Extortion Scheme', slug: 'ukraine-extortion', severity: 'critical' },
@@ -126,16 +126,16 @@ const profiles: Record<string, IndividualProfile> = {
  'FBI investigated for campaign contribution reimbursement scheme',
  ],
  charges: [
- { statute: '52 U.S.C. § 30122', description: 'Campaign Finance Straw Donor Scheme; FBI investigated allegations he reimbursed employees for political donations to Republican candidates', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30109', description: 'Excessive Campaign Contributions; Allegations of illegal bundling through employee reimbursement scheme', category: 'Potential Election' },
- { statute: '18 U.S.C. § 595', description: 'Potential Interference with Elections; Removed 671 mail sorting machines and banned overtime during critical mail-in voting period', category: 'Potential Federal' },
- { statute: '39 U.S.C. § 101 (Postal Service Obligations)', description: 'Dereliction of Duty; Failed to maintain timely mail service during election period when mail-in voting was critical', category: 'Potential Regulatory' },
- { statute: '18 U.S.C. § 1708', description: 'Potential Mail Delay; Systematic delays to mail service through operational changes during election', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 594', description: 'Potential Voter Intimidation Through Mail Delays; Actions created fear that mail-in ballots would not be counted', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; Former company XPO Logistics had $286M+ in USPS contracts while he ran USPS', category: 'Ethics' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain; Conflicts between USPS leadership and former business interests', category: 'Ethics' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Coordinated operational changes that impacted mail ballot delivery across multiple states', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 20511', description: 'Conspiracy Against Rights; Operational changes disproportionately affected Democratic areas and mail-in voters', category: 'Potential Civil Rights' },
+ { statute: '52 U.S.C. Â§ 30122', description: 'Campaign Finance Straw Donor Scheme; FBI investigated allegations he reimbursed employees for political donations to Republican candidates', category: 'Potential Federal' },
+ { statute: '52 U.S.C. Â§ 30109', description: 'Excessive Campaign Contributions; Allegations of illegal bundling through employee reimbursement scheme', category: 'Potential Election' },
+ { statute: '18 U.S.C. Â§ 595', description: 'Potential Interference with Elections; Removed 671 mail sorting machines and banned overtime during critical mail-in voting period', category: 'Potential Federal' },
+ { statute: '39 U.S.C. Â§ 101 (Postal Service Obligations)', description: 'Dereliction of Duty; Failed to maintain timely mail service during election period when mail-in voting was critical', category: 'Potential Regulatory' },
+ { statute: '18 U.S.C. Â§ 1708', description: 'Potential Mail Delay; Systematic delays to mail service through operational changes during election', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 594', description: 'Potential Voter Intimidation Through Mail Delays; Actions created fear that mail-in ballots would not be counted', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 208', description: 'Conflict of Interest; Former company XPO Logistics had $286M+ in USPS contracts while he ran USPS', category: 'Ethics' },
+ { statute: '5 C.F.R. Â§ 2635.702', description: 'Use of Public Office for Private Gain; Conflicts between USPS leadership and former business interests', category: 'Ethics' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Potential Conspiracy; Coordinated operational changes that impacted mail ballot delivery across multiple states', category: 'Potential Federal' },
+ { statute: '52 U.S.C. Â§ 20511', description: 'Conspiracy Against Rights; Operational changes disproportionately affected Democratic areas and mail-in voters', category: 'Potential Civil Rights' },
  ],
  relatedInvestigations: [
  { title: 'Voter Suppression Operations', slug: 'voter-suppression', severity: 'critical' },
@@ -235,11 +235,11 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Civil Defamation Liability', description: 'Smartmatic Lawsuit; Show cancelled after being named defendant for broadcasting false voting machine claims', category: 'Civil' },
  { statute: 'Civil Defamation Liability', description: 'Dominion Lawsuit; Named in $1.6 billion lawsuit for repeatedly promoting false election fraud claims', category: 'Civil' },
- { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Voting Rights; Broadcast coordinated disinformation campaign to undermine election results', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud; Knowingly broadcast false statements about election integrity for profit and influence', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction; Broadcast claims designed to prevent certification and overturn election', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Participated in Trump campaign calls while broadcasting favorable coverage', category: 'Potential Federal' },
- { statute: 'FCC Regulations 47 C.F.R. § 73.1217', description: 'Broadcast Violations; Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
+ { statute: '52 U.S.C. Â§ 20511', description: 'Potential Conspiracy to Deprive Voting Rights; Broadcast coordinated disinformation campaign to undermine election results', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 1343', description: 'Potential Wire Fraud; Knowingly broadcast false statements about election integrity for profit and influence', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 1512(c)', description: 'Potential Obstruction; Broadcast claims designed to prevent certification and overturn election', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Potential Conspiracy; Participated in Trump campaign calls while broadcasting favorable coverage', category: 'Potential Federal' },
+ { statute: 'FCC Regulations 47 C.F.R. Â§ 73.1217', description: 'Broadcast Violations; Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
  ],
  relatedInvestigations: [
  { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
@@ -783,7 +783,7 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes; Attack on Civilians: Bombing campaigns killed hundreds of thousands of Vietnamese civilians', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Escalated war based on fabricated casus belli', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements: Deceived Congress and public about Tonkin incident', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'False Statements: Deceived Congress and public about Tonkin incident', category: 'Federal Crimes' },
  ],
  relatedInvestigations: [
  { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
@@ -1237,7 +1237,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [
  { statute: 'Michigan CSC First Degree', description: 'Criminal sexual conduct', category: 'CONVICTED, 40-175 YEARS' },
- { statute: '18 U.S.C. � 2251', description: 'Child pornography', category: 'CONVICTED, 60 YEARS FEDERAL' },
+ { statute: '18 U.S.C. ï¿½ 2251', description: 'Child pornography', category: 'CONVICTED, 60 YEARS FEDERAL' },
  ],
  relatedInvestigations: [
  { title: 'USA Gymnastics Abuse', slug: 'usa-gymnastics-abuse', severity: 'critical' },
@@ -1363,8 +1363,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CROSSBOW: Military-style equipment',
  ],
  charges: [
- { statute: '26 U.S.C. � 5861', description: 'Possession of unregistered destructive devices', category: 'CONVICTED: 46 MONTHS' },
- { statute: '18 U.S.C. � 922', description: 'Unlawful possession of firearms', category: 'CONVICTED' },
+ { statute: '26 U.S.C. ï¿½ 5861', description: 'Possession of unregistered destructive devices', category: 'CONVICTED: 46 MONTHS' },
+ { statute: '18 U.S.C. ï¿½ 922', description: 'Unlawful possession of firearms', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1526,8 +1526,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CONVICTION: Found guilty of federal charges',
  ],
  charges: [
- { statute: '18 U.S.C. � 1512(c)(2)', description: 'Obstruction of an official proceeding', category: 'Sedition' },
- { statute: '18 U.S.C. � 1752', description: 'Unlawful entry on restricted grounds', category: 'Federal' },
+ { statute: '18 U.S.C. ï¿½ 1512(c)(2)', description: 'Obstruction of an official proceeding', category: 'Sedition' },
+ { statute: '18 U.S.C. ï¿½ 1752', description: 'Unlawful entry on restricted grounds', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -2611,7 +2611,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
-  { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
+  { title: 'Enron Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
   { date: '1997', event: 'Becomes CEO of Enron Energy Services' },
@@ -2627,7 +2627,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
-  { name: 'Kenneth Lay', relationship: 'Enron chairman under whom Pai profited enormously before collapse', href: '/entities/individuals/kenneth-lay' },
+  { name: 'Kenneth Lay', relationship: 'Enron chairman under whom Pai profited enormously before collapse', href: '/entities/individuals/ken-lay' },
   { name: 'Jeffrey Skilling', relationship: 'Enron CEO who designed the mark-to-market accounting Pai\'s division exploited', href: '/entities/individuals/jeffrey-skilling' },
  ],
  },
@@ -3754,7 +3754,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Fabrice Tourre', relationship: 'Goldman trader who structured Abacus CDO' },
       { name: 'John Paulson', relationship: 'Hedge fund manager who selected bonds to bet against' },
     ],
-  },'erik-prince': {
+  },
+'erik-prince': {
     name: 'Erik Prince',
     title: 'Founder of Blackwater',
     role: 'Private Military Contractor with Worldwide Shadow Operations',
@@ -3888,8 +3889,8 @@ const profiles: Record<string, IndividualProfile> = {
   'Funded a $1.6 million lawsuit challenging James B. Stewart\'s "Den of Thieves" book',
  ],
  charges: [
-  { statute: '18 U.S.C. § 1962', description: 'Racketeering (RICO) (2 counts)', category: 'Financial Crimes' },
-  { statute: '15 U.S.C. § 78j(b)', description: 'Securities fraud (11 counts)', category: 'Financial Crimes' },
+  { statute: '18 U.S.C. Â§ 1962', description: 'Racketeering (RICO) (2 counts)', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. Â§ 78j(b)', description: 'Securities fraud (11 counts)', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
   { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
@@ -3919,7 +3920,95 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Bruce Lee Newberg', relationship: 'Co-indicted on 98-count indictment along with the Milken brothers', href: '/entities/individuals/bruce-lee-newberg' },
   { name: 'Fred Joseph', relationship: 'CEO of Drexel Burnham Lambert', href: '/entities/individuals/fred-joseph' },
  ],
- }
+ },
+
+  'lea-fastow': {
+    name: 'Lea Fastow',
+    title: 'Former Enron Assistant Treasurer convicted of tax fraud for helping husband Andrew Fastow hide millions in income from off-balance-sheet partnerships',
+    role: 'Former Assistant Treasurer, Enron Corporation',
+    riskLevel: 'medium',
+    birthPlace: 'Houston, Texas, United States',
+    description: 'Lea Weingarten Fastow served as an assistant treasurer at Enron Corporation, where she worked alongside her husband Andrew Fastow. The daughter of Miriam Hadar Weingarten, a former Miss Israel (1958), Lea met Andrew at Tufts University. Both earned MBAs from Northwestern University\'s Kellogg School of Management and briefly worked together at Continental Illinois National Bank in Chicago before joining Enron.\n\nLea Fastow was initially indicted on six felony counts including conspiracy to commit wire fraud, money laundering conspiracy, and filing fraudulent tax returns. Prosecutors alleged she helped her husband conceal income generated through his management of the LJM partnerships -- named after herself and their two sons (Lea, Jeffrey, Matthew). The original plea bargain called for five months imprisonment and five months home detention, but U.S. District Judge David Hittner rejected the deal as too lenient and imposed a full 12-month prison sentence.\n\nShe entered the Federal Detention Center in Houston on July 12, 2004. Her conviction was part of the broader prosecution of Fastow family finances -- Andrew had personally profited $45 million from partnerships designed to hide Enron\'s massive debt. Because both parents faced imprisonment, their two sons were temporarily cared for by family members. Lea\'s case illustrates how Enron\'s fraud extended beyond the executive suite into family finances and tax evasion.',
+    education: [
+      'Tufts University (BA)',
+      'Northwestern University, Kellogg School of Management (MBA)',
+    ],
+    affiliations: [
+      { name: 'Enron Corporation', role: 'Assistant Treasurer', type: 'corporation' },
+      { name: 'Continental Illinois National Bank', role: 'Structured Finance (pre-Enron)', type: 'corporation' },
+    ],
+    controversies: [
+      'Helped husband Andrew Fastow conceal income from LJM partnerships on family tax returns',
+      'Initially indicted on six felony counts; charges reduced to single misdemeanor tax charge via plea negotiation',
+      'Judge David Hittner rejected original plea deal of 5 months prison + 5 months home detention as too lenient; imposed 12 months',
+      'Both parents imprisoned simultaneously, requiring family members to care for their two sons',
+    ],
+    charges: [
+      { charge: 'Filing a Fraudulent Tax Return (misdemeanor)', status: 'convicted', date: '2004-05-06' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1983', event: 'Met Andrew Fastow at Tufts University' },
+      { date: '1984', event: 'Married Andrew Fastow' },
+      { date: '1986', event: 'Earned MBA from Northwestern University Kellogg School of Management' },
+      { date: '1990', event: 'Joined Enron Corporation with husband Andrew' },
+      { date: '1999', event: 'Served as Enron Assistant Treasurer while husband ran LJM partnerships' },
+      { date: '2002-10', event: 'Initially indicted on six felony counts alongside husband' },
+      { date: '2004-01', event: 'Six felony counts dismissed in favor of single misdemeanor tax charge' },
+      { date: '2004-05-06', event: 'Pleaded guilty to misdemeanor tax fraud' },
+      { date: '2004-07-12', event: 'Entered Federal Detention Center in Houston to begin 12-month sentence' },
+      { date: '2005', event: 'Released from prison after serving sentence' },
+    ],
+    sources: [
+      { title: 'Fastow\'s Wife Pleads Guilty in Enron Case', url: 'https://web.archive.org/web/20100825181831/http://www.usatoday.com/money/industries/energy/2004-05-06-lea-fastow-plea_x.htm', date: '2004-05-06' },
+      { title: 'Lea Fastow to Begin Serving Prison Term', url: 'https://www.latimes.com/archives/la-xpm-2004-jul-12-fi-fastow12-story.html', date: '2004-07-12' },
+      { title: 'A Long Fall for Enron Couple -- USA Today', url: 'http://usatoday30.usatoday.com/money/industries/energy/2004-01-08-fastowsfate_x.htm', date: '2004-01-08' },
+    ],
+    knownAssociates: [
+      { name: 'Andrew Fastow', relationship: 'Husband and Enron CFO who designed the SPE fraud structure; pled guilty to 2 counts, sentenced to 6 years', href: '/entities/individuals/andrew-fastow' },
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman and CEO who approved board ethics waiver allowing Fastow to run LJM partnerships', href: '/entities/individuals/ken-lay' },
+      { name: 'Michael Kopper', relationship: 'Andrew Fastow\'s chief lieutenant at Enron who managed Chewco and other SPEs', href: '/entities/individuals/michael-kopper' },
+    ],
+  },
+
+  'linda-lay': {
+    name: 'Linda Lay',
+    title: 'Wife of Enron Chairman Kenneth Lay who sold 500,000 shares of Enron stock minutes before collapse went public -- never charged',
+    role: 'Spouse of Kenneth Lay; Enron Insider Stock Seller',
+    riskLevel: 'medium',
+    description: 'Linda Phillips Herrold Lay is the widow of Enron Corporation founder and chairman Kenneth Lay. She became a figure of public scrutiny after it was revealed she sold roughly 500,000 shares of Enron stock ten to thirty minutes before news of Enron\'s imminent collapse was made public on November 28, 2001 -- timing that raised serious questions about whether she had advance knowledge of the company\'s deteriorating financial condition.\n\nDespite the suspicious timing of her stock sales, Linda Lay was never charged with any crime related to the Enron scandal. She appeared on NBC\'s Today show in January 2002 tearfully claiming the family was "fighting for liquidity" and that they were "basically wiped out." Investigators later revealed the Lays owned multiple luxury properties and Ken Lay had received $300 million in stock sales over the preceding years.\n\nAfter Kenneth Lay\'s conviction on all six counts of securities and wire fraud on May 25, 2006, and his death on July 5, 2006 (before sentencing), his convictions were vacated under the legal doctrine of abatement. Linda Lay fought to retain the family assets that the SEC and federal prosecutors were seeking to recover. The SEC had been pursuing more than $90 million from Kenneth Lay at the time of his death. Linda\'s non-prosecution, despite the timing of her stock sales, remains one of the more controversial aspects of the Enron case.',
+    affiliations: [
+      { name: 'Enron Corporation', role: 'Spouse of Chairman and CEO Kenneth Lay; insider stockholder', type: 'corporation' },
+    ],
+    controversies: [
+      'Sold roughly 500,000 shares of Enron stock 10-30 minutes before news of collapse went public on November 28, 2001',
+      'Claimed on NBC Today show (January 2002) that family was "fighting for liquidity" despite $300M+ in prior stock sales',
+      'Never charged despite suspiciously timed stock sales',
+      'Fought to retain family assets after SEC sought $90M+ from Kenneth Lay estate',
+      'Kenneth Lay\'s convictions vacated after his death, shielding estate from some legal consequences',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2001-11-28', event: 'Sold roughly 500,000 shares of Enron stock 10-30 minutes before collapse news went public' },
+      { date: '2002-01', event: 'Appeared on NBC Today show claiming family was "fighting for liquidity"' },
+      { date: '2006-05-25', event: 'Husband Kenneth Lay convicted on all six counts of securities and wire fraud' },
+      { date: '2006-07-05', event: 'Kenneth Lay died of heart attack in Aspen, Colorado, before sentencing' },
+      { date: '2006-10', event: 'Lay\'s convictions vacated under abatement doctrine due to death before sentencing' },
+    ],
+    sources: [
+      { title: 'A Woman of Conviction -- The Washington Post', url: 'https://web.archive.org/web/20121108154230/http://www.washingtonpost.com/wp-dyn/content/article/2006/06/09/AR2006060901922_pf.html', date: '2006-06-10' },
+      { title: 'Enron\'s Collapse: Inquiry -- The New York Times', url: 'https://www.nytimes.com/2002/01/12/business/enron-s-collapse-the-relationships-bush-and-democrats-disputing-ties-to-enron.html', date: '2002-01-12' },
+    ],
+    knownAssociates: [
+      { name: 'Kenneth Lay', relationship: 'Husband; Enron founder and chairman convicted on 6 counts before dying; convictions vacated', href: '/entities/individuals/ken-lay' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO convicted of 19 counts; co-defendant with her husband', href: '/entities/individuals/jeffrey-skilling' },
+    ],
+  },
 };
 
 export default profiles;

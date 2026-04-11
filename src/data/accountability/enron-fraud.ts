@@ -1,7 +1,7 @@
 import type { AccountabilityData } from '@/types/accountability';
 
 export const enronFraudAccountability: AccountabilityData = {
-  investigationSlug: 'enron-fraud',
+  investigationSlug: 'enron-corporate-fraud-scandal',
 
   crimeSummary: 'Enron Corporation, once the seventh-largest company in America with $101 billion in claimed revenues, was revealed to be the largest corporate fraud in U.S. history at the time of its discovery. Through a systematic conspiracy involving senior executives, accountants, bankers, and lawyers, Enron used off-balance-sheet special purpose entities (SPEs), mark-to-market accounting manipulation, and outright fabrication of financial results to hide billions in debt and inflate profits. CEO Jeffrey Skilling and Chairman Kenneth Lay orchestrated a culture of fraud that enriched executives through stock sales while employees and investors lost everything. CFO Andrew Fastow created hundreds of shell entities  -  including LJM1, LJM2, and the Raptors  -  specifically designed to hide losses and enrich himself personally. The conspiracy was enabled by Arthur Andersen LLP, one of the Big Five accounting firms, which destroyed documents and provided fraudulent audit opinions. When Enron collapsed in December 2001, $74 billion in shareholder value was destroyed, 20,000 employees lost their jobs and retirement savings, and the reverberations triggered a crisis of confidence in American corporate governance.',
 

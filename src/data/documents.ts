@@ -1,4 +1,4 @@
-// Generated: 2026-03-06T04:59:39.128Z
+﻿// Generated: 2026-03-06T04:59:39.128Z
 // Total: 1051 documents from 164 investigations
 
 export interface DocumentEntry {
@@ -530,7 +530,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "35",
-    "title": "Guardian: Cambridge Analytica Exposé",
+    "title": "Guardian: Cambridge Analytica ExposÃ©",
     "description": "Source document from the Cambridge Analytica investigation.",
     "type": "pdf",
     "classification": "public",
@@ -1505,7 +1505,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "100",
-    "title": "Ríos Montt Convicted of Genocide, International Justice Monitor",
+    "title": "RÃ­os Montt Convicted of Genocide, International Justice Monitor",
     "description": "Source document from the Guatemala Genocide investigation.",
     "type": "pdf",
     "classification": "public",
@@ -10355,7 +10355,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "690",
-    "title": "Panama Papers: A Global Investigation, Süddeutsche Zeitung",
+    "title": "Panama Papers: A Global Investigation, SÃ¼ddeutsche Zeitung",
     "description": "Source document from the Panama Papers investigation.",
     "type": "pdf",
     "classification": "public",
@@ -12133,7 +12133,7 @@ export const documents: DocumentEntry[] = [
     "size": "156 KB",
     "category": "Legal",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 359,
     "previewAvailable": true,
     "url": "https://www.supremecourt.gov/opinions"
@@ -12838,7 +12838,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.1 MB",
     "category": "Legal",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 3986,
     "previewAvailable": true,
     "url": "https://www.supremecourt.gov/opinions"
@@ -12853,7 +12853,7 @@ export const documents: DocumentEntry[] = [
     "size": "156 KB",
     "category": "Media & Books",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 2852,
     "previewAvailable": true,
     "url": "https://www.pbs.org/"
@@ -13070,7 +13070,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "871",
-    "title": "Shake Hands with the Devil, Roméo Dallaire",
+    "title": "Shake Hands with the Devil, RomÃ©o Dallaire",
     "description": "Source document from the Rwanda Genocide Inaction investigation.",
     "type": "text",
     "classification": "public",
@@ -13243,7 +13243,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.1 MB",
     "category": "Congressional",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 1668,
     "previewAvailable": true,
     "url": "https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/html/CPRT-107SPRT80393.htm"
@@ -13258,7 +13258,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.8 MB",
     "category": "Congressional",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 1326,
     "previewAvailable": true,
     "url": "https://www.congress.gov/bill/107th-congress/house-bill/3763"
@@ -13273,7 +13273,7 @@ export const documents: DocumentEntry[] = [
     "size": "248 KB",
     "category": "Research",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 1179,
     "previewAvailable": true,
     "url": "https://www.c-span.org/video/?168627-1/enron-hearing"
@@ -13318,7 +13318,7 @@ export const documents: DocumentEntry[] = [
     "size": "2.1 MB",
     "category": "Financial",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 3898,
     "previewAvailable": true,
     "url": "https://www.sec.gov/spotlight/enron.htm"
@@ -13513,7 +13513,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.8 MB",
     "category": "Research",
     "investigation": "Enron Scandal",
-    "investigationSlug": "enron-scandal",
+    "investigationSlug": "enron-corporate-fraud-scandal",
     "downloadCount": 3829,
     "previewAvailable": true,
     "url": "https://fortune.com/"
@@ -15380,7 +15380,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "1025",
-    "title": "New York Times: Seymour Hersh CIA Exposé",
+    "title": "New York Times: Seymour Hersh CIA ExposÃ©",
     "description": "Source document from the Mkultra investigation.",
     "type": "pdf",
     "classification": "public",

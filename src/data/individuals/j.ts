@@ -1,4 +1,4 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -35,16 +35,16 @@ const profiles: Record<string, IndividualProfile> = {
  'BLACKMAIL OPERATION: Victims and witnesses testified to hidden cameras throughout properties, suggesting kompromat operation',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
- { statute: '18 U.S.C. Â§ 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
- { statute: '18 U.S.C. Â§ 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
- { statute: '18 U.S.C. Â§ 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
  { statute: 'Florida Statute 796.03', description: 'Soliciting prostitution from minor (2008 conviction)', category: 'Sexual Crimes' },
  { statute: 'Florida Statute 800.04', description: 'Lewd and lascivious acts on child under 16', category: 'Sexual Crimes' },
- { statute: 'NY Penal Law Â§ 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
- { statute: '18 U.S.C. Â§ 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
- { statute: '18 U.S.C. Â§ 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
- { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
+ { statute: 'NY Penal Law Ã‚Â§ 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
+ { statute: '18 U.S.C. Ã‚Â§ 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
  ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -107,7 +107,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Social associate (1992-2019), Mar-a-Lago neighbor, praised as"terrific guy who likes them young"', href: '/entities/individuals/donald-trump' },
  { name: 'Ghislaine Maxwell', relationship: 'Girlfriend, co-conspirator, convicted sex trafficker, chief recruiter', href: '/entities/individuals/ghislaine-maxwell' },
  { name: 'Bill Clinton', relationship: '26+ flights on Lolita Express per flight logs, visited island', href: '/entities/individuals/bill-clinton' },
- { name: 'Prince Andrew', relationship: 'Close friend, photographed with victim Virginia Giuffre, settled lawsuit for Â£12M', href: '/entities/individuals/prince-andrew' },
+ { name: 'Prince Andrew', relationship: 'Close friend, photographed with victim Virginia Giuffre, settled lawsuit for Ã‚Â£12M', href: '/entities/individuals/prince-andrew' },
  { name: 'Bill Gates', relationship: 'Multiple meetings documented AFTER 2008 conviction, flew on Lolita Express', href: '/entities/individuals/bill-gates' },
  { name: 'Les Wexner', relationship: 'Primary financial backer, gave $77M NYC mansion, power of attorney', href: '/entities/individuals/les-wexner' },
  { name: 'Alan Dershowitz', relationship: 'Defense attorney, named by victims, flew on jet', href: '/entities/individuals/alan-dershowitz' },
@@ -229,8 +229,8 @@ const profiles: Record<string, IndividualProfile> = {
  'Sheltered in Ecuadorian embassy 7 years',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 793', description: 'Espionage Act violations (US indictment)', category: 'National Security' },
- { statute: '18 U.S.C. Â§ 1030', description: 'Computer intrusion conspiracy', category: 'Cybercrimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 793', description: 'Espionage Act violations (US indictment)', category: 'National Security' },
+ { statute: '18 U.S.C. Ã‚Â§ 1030', description: 'Computer intrusion conspiracy', category: 'Cybercrimes' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -491,7 +491,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Used government resources for personal schemes',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1591', description: 'Sex trafficking of a child', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 1591', description: 'Sex trafficking of a child', category: 'Human Trafficking' },
  { statute: 'Identity Theft', description: 'Creating fraudulent identification documents', category: 'Fraud' },
  { statute: 'Wire Fraud', description: 'Financial fraud schemes', category: 'Financial Crimes' },
  { statute: 'Stalking', description: 'Stalking political opponent', category: 'Harassment' },
@@ -542,12 +542,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Whereabouts unknown since 2017',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1001', description: 'Potential False Statements; Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
- { statute: '18 U.S.C. Â§ 371', description: 'Potential Conspiracy; Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
- { statute: '18 U.S.C. Â§ 951', description: 'Potential Foreign Agent Activities; Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
- { statute: '52 U.S.C. Â§ 30121', description: 'Foreign National Election Interference; Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
- { statute: '22 U.S.C. Â§ 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
- { statute: '18 U.S.C. Â§ 1503', description: 'Potential Obstruction; Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Potential False Statements; Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Potential Conspiracy; Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 951', description: 'Potential Foreign Agent Activities; Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
+ { statute: '52 U.S.C. Ã‚Â§ 30121', description: 'Foreign National Election Interference; Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
+ { statute: '22 U.S.C. Ã‚Â§ 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1503', description: 'Potential Obstruction; Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
  { statute: 'Mueller Report Referral', description: 'Mueller Report documented his lies and suspicious disappearance; potential criminal referral', category: 'Documented' },
  ],
  relatedInvestigations: [
@@ -692,7 +692,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Sentenced to 41 months in prison',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1512(c)(2)', description: 'Obstruction of an Official Proceeding', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(c)(2)', description: 'Obstruction of an Official Proceeding', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1214,9 +1214,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Called for violence before January 6',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. Â§ 1361', description: 'Destruction of government property (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1361', description: 'Destruction of government property (convicted)', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1506,8 +1506,8 @@ const profiles: Record<string, IndividualProfile> = {
  '2016 CAMPAIGN: Spent $130+ million, finished with 3 delegates,"please clap"moment',
  ],
  charges: [
- { statute: '52 U.S.C. Â§ 20507', description: 'Voter Roll Purge Irregularities; Potentially discriminatory list maintenance', category: 'Election Crimes' },
- { statute: '52 U.S.C. Â§ 10307', description: 'Voting Rights Act; Disproportionate impact on minority voters', category: 'Civil Rights' },
+ { statute: '52 U.S.C. Ã‚Â§ 20507', description: 'Voter Roll Purge Irregularities; Potentially discriminatory list maintenance', category: 'Election Crimes' },
+ { statute: '52 U.S.C. Ã‚Â§ 10307', description: 'Voting Rights Act; Disproportionate impact on minority voters', category: 'Civil Rights' },
  { statute: 'Florida Ethics Laws', description: 'Conflict of Interest; Overseeing election benefiting brother', category: 'State' },
  ],
  relatedInvestigations: [
@@ -1601,11 +1601,11 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Systematic persecution of civil rights leaders and political activists', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity; Murder: Facilitated assassinations of Black Panther leaders', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Other Inhumane Acts: Psychological torture through surveillance, blackmail, and harassment', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Â§ 241', description: 'Conspiracy Against Rights: COINTELPRO systematically violated First Amendment rights', category: 'Civil Rights Violations' },
- { statute: '18 U.S.C. Â§ 242', description: 'Deprivation of Rights Under Color of Law: Official capacity used to violate constitutional rights', category: 'Civil Rights Violations' },
- { statute: '18 U.S.C. Â§ 2511', description: 'Illegal Wiretapping: Warrantless surveillance of thousands of Americans', category: 'Surveillance Crimes' },
- { statute: '18 U.S.C. Â§ 1111', description: 'Murder: Accessory to assassination of Fred Hampton and others', category: 'Violent Crimes' },
- { statute: '18 U.S.C. Â§ 873', description: 'Blackmail: Used secret files to blackmail politicians and activists', category: 'Coercion' },
+ { statute: '18 U.S.C. Ã‚Â§ 241', description: 'Conspiracy Against Rights: COINTELPRO systematically violated First Amendment rights', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. Ã‚Â§ 242', description: 'Deprivation of Rights Under Color of Law: Official capacity used to violate constitutional rights', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. Ã‚Â§ 2511', description: 'Illegal Wiretapping: Warrantless surveillance of thousands of Americans', category: 'Surveillance Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1111', description: 'Murder: Accessory to assassination of Fred Hampton and others', category: 'Violent Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 873', description: 'Blackmail: Used secret files to blackmail politicians and activists', category: 'Coercion' },
  ],
  relatedInvestigations: [
  { title: 'COINTELPRO', slug: 'cointelpro', severity: 'critical' },
@@ -1661,10 +1661,10 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Designed policy to systematically target Black Americans and political opponents', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Â§ 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Â§ 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Â§ 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
  ],
  relatedInvestigations: [
  { title: 'War on Drugs', slug: 'war-on-drugs', severity: 'critical' },
@@ -1747,7 +1747,7 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Geneva Conventions: Common Article 3', description: 'Authored legal framework enabling torture of detainees', category: 'War Crimes' },
  { statute: 'Convention Against Torture', description: 'Provided legal cover for prohibited torture techniques', category: 'International Crime' },
- { statute: '18 U.S.C. Â§ 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Ã‚Â§ 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
  { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
@@ -1840,7 +1840,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  timeline: [
  { date: 'August 2, 1925', event: 'Born in Mercedes, Argentina' },
- { date: 'March 24, 1976', event: 'Leads coup against Isabel PerÃ³n' },
+ { date: 'March 24, 1976', event: 'Leads coup against Isabel PerÃƒÂ³n' },
  { date: '1976-1981', event: 'Rules as head of junta' },
  { date: '1985', event: 'Convicted of human rights crimes' },
  { date: '2010', event: 'Convicted again after amnesty overturned' },
@@ -1948,9 +1948,9 @@ const profiles: Record<string, IndividualProfile> = {
  'IMPRISONED: First AG to go to prison',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1503', description: 'Obstruction of Justice', category: 'Federal Crime' },
- { statute: '18 U.S.C. Â§ 1623', description: 'Perjury', category: 'Federal Crime' },
- { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Ã‚Â§ 1503', description: 'Obstruction of Justice', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Ã‚Â§ 1623', description: 'Perjury', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
  { title: 'Watergate', slug: 'watergate', severity: 'critical' },
@@ -2225,44 +2225,69 @@ const profiles: Record<string, IndividualProfile> = {
 
  'jeffrey-skilling': {
  name: 'Jeffrey Skilling',
- title: 'Convicted Fraudster',
- role: 'Former CEO of Enron',
+ title: 'Former Enron President and CEO convicted on 19 counts of securities fraud, wire fraud, conspiracy, and insider trading; served 12 years in federal prison',
+ role: 'Former President and CEO, Enron Corporation',
  riskLevel: 'critical',
- description: 'Jeff Skilling was CEO of Enron and architect of its fraudulent business practices. He was convicted of securities fraud and sentenced to 24 years (later reduced to 14). He was released in 2019.',
+ description: 'Jeffrey Keith Skilling served as President (1997-2001) and CEO (February-August 2001) of Enron Corporation and was the principal architect of the business model and accounting practices that enabled the largest corporate fraud in American history at that time. A McKinsey consultant who joined Enron in 1990, Skilling transformed the company from a traditional pipeline operator into an energy trading powerhouse by aggressively implementing mark-to-market accounting, which allowed Enron to book projected decades of future profit immediately upon signing contracts. He created a cutthroat corporate culture with a "rank and yank" performance review system that encouraged reckless risk-taking and punished those who questioned financial practices. Skilling resigned abruptly as CEO on August 14, 2001, after only six months in the role, claiming "personal reasons" while selling $66 million or more in stock. He was later convicted on 19 of 28 counts including conspiracy to commit securities and wire fraud, securities fraud, insider trading, and making false statements. Sentenced to 24 years and 4 months (the longest white-collar sentence to that point), his sentence was reduced to 14 years in 2013 after a cooperative deal in which he agreed to forfeit $42 million to an Enron victim compensation fund. The Supreme Court narrowed the honest services fraud statute in Skilling v. United States (2010). He was released from federal custody on February 21, 2019, after serving approximately 12 years. He subsequently founded Veld LLC, a Houston-based energy consulting firm.',
  birthDate: 'November 25, 1953',
- birthPlace: 'Pittsburgh, Pennsylvania',
- education: ['Southern Methodist University', 'Harvard Business School (MBA)'],
+ birthPlace: 'Pittsburgh, Pennsylvania, United States',
+ education: ['Southern Methodist University (BS, Applied Sciences, 1975)', 'Harvard Business School (MBA, Baker Scholar, 1979)'],
  affiliations: [
- { name: 'Enron', role: 'President & CEO', type: 'corporation' as const },
- { name: 'McKinsey & Company', role: 'Consultant', type: 'corporation' as const },
+ { name: 'Enron Corporation', role: 'President (1997-2001), CEO (February-August 2001)', type: 'corporation' as const },
+ { name: 'McKinsey & Company', role: 'Management Consultant (1979-1990); head of energy and chemical consulting practice', type: 'corporation' as const },
+ { name: 'Veld LLC', role: 'Founder (post-release energy consulting firm, Houston)', type: 'corporation' as const },
  ],
  knownAssociates: [
- { name: 'Kenneth Lay', relationship: 'Chairman (deceased)', href: '/entities/individuals/kenneth-lay' },
- { name: 'Andrew Fastow', relationship: 'CFO (convicted)' },
+ { name: 'Kenneth Lay', relationship: 'Enron Chairman and CEO who recruited Skilling from McKinsey and whose company Skilling transformed into a trading powerhouse', href: '/entities/individuals/ken-lay' },
+ { name: 'Andrew Fastow', relationship: 'Enron CFO hired by Skilling who designed the off-balance-sheet SPEs. Became key prosecution witness against Skilling at trial.', href: '/entities/individuals/andrew-fastow' },
+ { name: 'Rebecca Mark', relationship: 'CEO of Enron International; Skilling internal rival who favored asset-heavy international deals vs. Skilling asset-light trading model', href: '/entities/individuals/rebecca-mark' },
+ { name: 'Sherron Watkins', relationship: 'Enron VP who warned Lay about accounting fraud in August 2001; her memo became central evidence', href: '/entities/individuals/sherron-watkins' },
+ { name: 'Kenneth Rice', relationship: 'CEO of Enron Broadband Services who cooperated with prosecution and testified against Skilling', href: '/entities/individuals/kenneth-rice' },
  ],
  controversies: [
- 'FRAUD ARCHITECT: Created mark-to-market accounting abuses',
- 'EMPLOYEE HARM: Forced rank-and-yank performance reviews',
- 'DENIAL:"I am absolutely innocent "despite evidence',
- 'CALIFORNIA CRISIS: Oversaw energy market manipulation',
+ 'Architect of Enron mark-to-market accounting culture that allowed booking projected decades of future profit immediately upon signing contracts, creating billions in phantom earnings while hiding negative cash flow and $38 billion in actual debt.',
+ 'Created the "rank and yank" (Performance Review Committee) system where the bottom 15% of employees were fired each review cycle, fostering a culture of reckless risk-taking and discouraging anyone from questioning financial practices.',
+ 'Resigned as CEO on August 14, 2001, after only six months in the role, citing "personal reasons." Sold $66 million or more in Enron stock around this time while possessing material non-public information about the company impending collapse.',
+ 'Oversaw Enron Energy Services and Enron Broadband divisions where massive losses were concealed through mark-to-market accounting and fraudulent revenue recognition.',
+ 'Called Fortune reporter Bethany McLean "unethical" for asking how Enron made money in her March 2001 article "Is Enron Overpriced?"',
+ 'Convicted on 19 of 28 counts including conspiracy, securities fraud, wire fraud, insider trading, and false statements. Supreme Court later narrowed honest services fraud in Skilling v. United States (2010).',
  ],
  charges: [
- { statute: 'Securities Fraud', description: 'Conspiracy to commit fraud', category: 'Federal Crime' },
- { statute: 'Insider Trading', description: 'Selling stock on inside information', category: 'Federal Crime' },
+ { charge: 'Conspiracy to Commit Securities and Wire Fraud (18 U.S.C. 371)', status: 'convicted', date: '2006-05-25' },
+ { charge: 'Securities Fraud (15 U.S.C. 78j(b) / Rule 10b-5)', status: 'convicted', date: '2006-05-25' },
+ { charge: 'Wire Fraud (18 U.S.C. 1343)', status: 'convicted', date: '2006-05-25' },
+ { charge: 'Insider Trading (15 U.S.C. 78ff)', status: 'convicted', date: '2006-05-25' },
+ { charge: 'False Statements (18 U.S.C. 1001)', status: 'convicted', date: '2006-05-25' },
  ],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
+ { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
- { date: 'November 25, 1953', event: 'Born in Pittsburgh' },
- { date: '1990', event: 'Joins Enron from McKinsey' },
- { date: 'February 2001', event: 'Becomes CEO' },
- { date: 'August 2001', event: 'Resigns as CEO' },
- { date: 'October 2006', event: 'Sentenced to 24 years' },
- { date: '2013', event: 'Sentence reduced to 14 years' },
- { date: '2019', event: 'Released from prison' },
+ { date: '1953-11-25', event: 'Born in Pittsburgh, Pennsylvania' },
+ { date: '1975', event: 'Graduated from Southern Methodist University with BS in Applied Sciences' },
+ { date: '1979', event: 'Graduated from Harvard Business School as a Baker Scholar (top 5% of class). Joined McKinsey & Company.' },
+ { date: '1990', event: 'Joined Enron from McKinsey at the invitation of Kenneth Lay. Began transforming company from pipeline operator into energy trading firm.' },
+ { date: '1991', event: 'Became CEO of Enron Finance Corp; implemented mark-to-market accounting for energy derivatives. Pioneered "asset-light" trading strategy.' },
+ { date: '1997', event: 'Named President and COO of Enron Corporation' },
+ { date: '2001-02-12', event: 'Named CEO of Enron, replacing Kenneth Lay (who remained as Chairman). Stock at $79.14.' },
+ { date: '2001-08-14', event: 'Abruptly resigns as CEO after only six months, citing "personal reasons." Sells $66M+ in stock. Lay reclaims CEO role.' },
+ { date: '2004-02-19', event: 'Indicted on 35 counts of fraud, insider trading, conspiracy, and making false statements to auditors' },
+ { date: '2006-01-30', event: 'Trial begins in Houston before Judge Sim Lake. Prosecution presents 30,000 documents; eight former Enron executives testify against Skilling.' },
+ { date: '2006-05-25', event: 'Convicted on 19 of 28 counts including conspiracy, securities fraud, wire fraud, insider trading, and false statements.' },
+ { date: '2006-10-23', event: 'Sentenced to 24 years and 4 months in federal prison, the longest white-collar sentence at that time. Ordered to forfeit $45 million.' },
+ { date: '2010-06-24', event: 'Supreme Court rules in Skilling v. United States, narrowing honest services fraud statute (18 U.S.C. 1346). Some charges sent back for review but convictions largely upheld.' },
+ { date: '2013-06-21', event: 'Resentenced to 14 years after cooperative deal with DOJ. Agreed to forfeit $42 million to Enron victim compensation fund.' },
+ { date: '2019-02-21', event: 'Released from federal halfway house after serving approximately 12 years' },
+ { date: '2019', event: 'Founded Veld LLC, Houston-based energy consulting firm' },
  ],
- sources: [{ title: 'Wikipedia: Jeffrey Skilling', url: 'https://en.wikipedia.org/wiki/Jeffrey_Skilling' }, { title: 'Bloomberg: Jeffrey Skilling', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Jeffrey Skilling', url: 'https://en.wikipedia.org/wiki/Jeffrey_Skilling', date: '' },
+ { title: 'DOJ Press Release: Skilling Conviction', url: 'https://www.justice.gov/archive/opa/pr/2006/May/06_crm_328.html', date: '2006-05-25' },
+ { title: 'Skilling v. United States, 561 U.S. 358 (2010)', url: 'https://www.supremecourt.gov/opinions/09pdf/08-1394.pdf', date: '2010-06-24' },
+ { title: 'SEC Enforcement Action: Jeffrey Skilling', url: 'https://www.sec.gov/litigation/litreleases/lr18517.htm', date: '2004-02-19' },
+ ],
+ aliases: ['Jeff Skilling'],
  },
  'jane-garvey': {
  name: 'Jane Garvey',
@@ -2830,8 +2855,8 @@ const profiles: Record<string, IndividualProfile> = {
  'MONEY LAUNDERING: Hid assets in Switzerland',
  ],
  charges: [
- { statute: '15 U.S.C. ï¿½ 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. ï¿½ 1956', description: 'Money Laundering', category: 'CONVICTED' },
+ { statute: '15 U.S.C. Ã¯Â¿Â½ 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1956', description: 'Money Laundering', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Penny Stock Fraud', slug: 'penny-stock-fraud', severity: 'high' },
@@ -2871,9 +2896,9 @@ const profiles: Record<string, IndividualProfile> = {
  'CONVICTED: One of only pharma execs jailed',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 1962', description: 'RICO, Racketeering conspiracy', category: 'CONVICTED' },
- { statute: '42 U.S.C. ï¿½ 1320a-7b', description: 'Anti-Kickback Statute violations', category: 'CONVICTED' },
- { statute: '18 U.S.C. ï¿½ 1343', description: 'Wire Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1962', description: 'RICO, Racketeering conspiracy', category: 'CONVICTED' },
+ { statute: '42 U.S.C. Ã¯Â¿Â½ 1320a-7b', description: 'Anti-Kickback Statute violations', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1343', description: 'Wire Fraud', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Insys Opioid Scandal', slug: 'insys-opioid-scandal', severity: 'critical' },
@@ -2915,7 +2940,7 @@ const profiles: Record<string, IndividualProfile> = {
  'AVOIDED PROSECUTION: No personal criminal charges',
  ],
  charges: [
- { statute: '21 U.S.C. ï¿½ 823', description: 'Controlled Substances Act, Distribution violations', category: 'CORPORATE SETTLEMENT' },
+ { statute: '21 U.S.C. Ã¯Â¿Â½ 823', description: 'Controlled Substances Act, Distribution violations', category: 'CORPORATE SETTLEMENT' },
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Mass death through negligence', category: 'INTERNATIONAL' },
  ],
  relatedInvestigations: [
@@ -3132,7 +3157,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former Maricopa County Sheriff',
  role: 'Sheriff, Racial Profiling, Contempt CONVICTED, Pardoned',
  riskLevel: 'critical',
- description: 'Joe Arpaio was Maricopa County Sheriff for 24 years, running jails he called "concentration camps "with outdoor tent prisons in 120ï¿½F heat. He was convicted of criminal contempt for defying court orders to stop racial profiling but was pardoned by Trump before sentencing.',
+ description: 'Joe Arpaio was Maricopa County Sheriff for 24 years, running jails he called "concentration camps "with outdoor tent prisons in 120Ã¯Â¿Â½F heat. He was convicted of criminal contempt for defying court orders to stop racial profiling but was pardoned by Trump before sentencing.',
  birthDate: 'June 14, 1932',
  birthPlace: 'Springfield, Massachusetts',
  education: ['U.S. Army', 'DEA'],
@@ -3143,7 +3168,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Pardoned by Trump', href: '/entities/individuals/donald-trump' },
  ],
  controversies: [
- 'TENT CITY: Outdoor jail in 120ï¿½F Arizona heat',
+ 'TENT CITY: Outdoor jail in 120Ã¯Â¿Â½F Arizona heat',
  '"CONCENTRATION CAMPS": His own description',
  'RACIAL PROFILING: Systematic Latino targeting',
  'CONTEMPT CONVICTION: Defied court orders',
@@ -3151,7 +3176,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATHS IN CUSTODY: Dozens died in his jails',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 401', description: 'Criminal contempt of court', category: 'CONVICTED, PARDONED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 401', description: 'Criminal contempt of court', category: 'CONVICTED, PARDONED' },
  { statute: 'Civil Rights Violations', description: 'DOJ found pattern of violations', category: 'DOJ FINDING' },
  ],
  relatedInvestigations: [
@@ -3265,8 +3290,8 @@ const profiles: Record<string, IndividualProfile> = {
  'PENSION KEPT: Collected pension until death',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 1621', description: 'Perjury', category: 'CONVICTED, 4.5 YEARS' },
- { statute: '18 U.S.C. ï¿½ 1512', description: 'Obstruction', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1621', description: 'Perjury', category: 'CONVICTED, 4.5 YEARS' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1512', description: 'Obstruction', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Chicago Police Torture', slug: 'chicago-police-torture', severity: 'critical' },
@@ -3334,8 +3359,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CHEMICAL ASSAULT: Deployed bear spray at police',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 111', description: 'Assaulting officers with dangerous weapon', category: 'CONVICTED, 80 MONTHS' },
- { statute: '18 U.S.C. ï¿½ 231', description: 'Civil disorder', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 111', description: 'Assaulting officers with dangerous weapon', category: 'CONVICTED, 80 MONTHS' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 231', description: 'Civil disorder', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -3394,8 +3419,8 @@ const profiles: Record<string, IndividualProfile> = {
  'MENTAL ILLNESS CLAIMS: Debated at trial',
  ],
  charges: [
- { statute: 'Colorado Rev. Stat. ï¿½ 18-3-102', description: 'First-degree murder (12 counts)', category: 'CONVICTED, 12 LIFE SENTENCES' },
- { statute: 'Colorado Rev. Stat. ï¿½ 18-3-102', description: 'Attempted murder (70 counts)', category: 'CONVICTED' },
+ { statute: 'Colorado Rev. Stat. Ã¯Â¿Â½ 18-3-102', description: 'First-degree murder (12 counts)', category: 'CONVICTED, 12 LIFE SENTENCES' },
+ { statute: 'Colorado Rev. Stat. Ã¯Â¿Â½ 18-3-102', description: 'Attempted murder (70 counts)', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Aurora Theater Shooting', slug: 'aurora-shooting', severity: 'critical' },
@@ -3430,7 +3455,7 @@ const profiles: Record<string, IndividualProfile> = {
  'FAILED TO SECURE: Gun was accessible',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws ï¿½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
+ { statute: 'Michigan Comp. Laws Ã¯Â¿Â½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -3467,7 +3492,7 @@ const profiles: Record<string, IndividualProfile> = {
  'SCHOOL MEETING: Hours before shooting',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws ï¿½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
+ { statute: 'Michigan Comp. Laws Ã¯Â¿Â½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -3820,8 +3845,8 @@ const profiles: Record<string, IndividualProfile> = {
  'FEDERAL CONVICTION: Civil rights violations',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
- { statute: 'Tennessee Code ï¿½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
+ { statute: 'Tennessee Code Ã¯Â¿Â½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'Police Brutality', slug: 'police-brutality-crisis', severity: 'critical' },
@@ -4062,11 +4087,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jacobo-arbenz': {
- name: 'Jacobo Ãrbenz',
+ name: 'Jacobo ÃƒÂrbenz',
  title: 'Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program',
  role: 'Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program',
  riskLevel: 'high',
- description: 'Jacobo Ãrbenz. Profile pending review.',
+ description: 'Jacobo ÃƒÂrbenz. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
@@ -4086,7 +4111,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jacobo Ãrbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz', date: '' },
+ { title: 'Wikipedia: Jacobo ÃƒÂrbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -5745,7 +5770,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Lee Harvey Oswald', relationship: 'Wounded in JFK assassination Oswald allegedly committed', href: '/entities/individuals/lee-harvey-oswald' },
  { name: 'Abraham Zapruder', relationship: 'Filmed assassination motorcade showing Connally being shot', href: '/entities/individuals/abraham-zapruder' },
- { name: 'Ben Barnes', relationship: 'Political protÃ©gÃ© who claimed October Surprise involvement', href: '/entities/individuals/ben-barnes' },
+ { name: 'Ben Barnes', relationship: 'Political protÃƒÂ©gÃƒÂ© who claimed October Surprise involvement', href: '/entities/individuals/ben-barnes' },
  ],
  },
 
@@ -6253,11 +6278,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jose-napoleon-duarte': {
- name: 'José Napoleón Duarte',
+ name: 'JosÃ© NapoleÃ³n Duarte',
  title: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  role: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  riskLevel: 'high',
- description: 'José Napoleón Duarte. Profile pending review.',
+ description: 'JosÃ© NapoleÃ³n Duarte. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -6265,8 +6290,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Investigative journalists have documented a pattern of revolving-door employment between José Napoleón Duarte\'s operations and the regulatory bodies meant to provide oversight.',
- 'Internal documents obtained through litigation discovery show José Napoleón Duarte was briefed on risks later downplayed in public communications.',
+ 'Investigative journalists have documented a pattern of revolving-door employment between JosÃ© NapoleÃ³n Duarte\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Internal documents obtained through litigation discovery show JosÃ© NapoleÃ³n Duarte was briefed on risks later downplayed in public communications.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -6275,7 +6300,7 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: José Napoleón Duarte', url: 'https://en.wikipedia.org/wiki/José_Napoleón_Duarte', date: '' }, ],
+ { title: 'Wikipedia: JosÃ© NapoleÃ³n Duarte', url: 'https://en.wikipedia.org/wiki/JosÃ©_NapoleÃ³n_Duarte', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Roberto DAubuisson', relationship: 'Political rival and death squad leader Duarte opposed', href: '/entities/individuals/roberto-daubuisson' },
@@ -6285,14 +6310,14 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jose-ramos-horta': {
- name: 'José Ramos-Horta',
+ name: 'JosÃ© Ramos-Horta',
  title: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  role: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  riskLevel: 'high',
- description: 'José Ramos-Horta. Profile pending review.',
+ description: 'JosÃ© Ramos-Horta. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: José Napoleón Duarte', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JosÃ© NapoleÃ³n Duarte', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -6306,7 +6331,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: José Ramos-Horta', url: 'https://en.wikipedia.org/wiki/José_Ramos-Horta', date: '' },
+ { title: 'Wikipedia: JosÃ© Ramos-Horta', url: 'https://en.wikipedia.org/wiki/JosÃ©_Ramos-Horta', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6635,19 +6660,19 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'juan-mendez': {
- name: 'Juan MÃ©ndez',
+ name: 'Juan MÃƒÂ©ndez',
  title: 'UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes torture',
  role: 'UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes torture',
  riskLevel: 'high',
- description: 'Juan MÃ©ndez. Profile pending review.',
+ description: 'Juan MÃƒÂ©ndez. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Dr. Juan Funes', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Public filings and regulatory records indicate Juan MÃ©ndez facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Network analysis reveals Juan MÃ©ndez holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Public filings and regulatory records indicate Juan MÃƒÂ©ndez facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+ 'Network analysis reveals Juan MÃƒÂ©ndez holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -6657,7 +6682,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes tor' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Juan MÃ©ndez', url: 'https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez', date: '' }, ],
+ { title: 'Wikipedia: Juan MÃƒÂ©ndez', url: 'https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Romeo Dallaire', relationship: 'Fellow human rights and international justice figure', href: '/entities/individuals/romeo-dallaire' },
@@ -6790,11 +6815,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'jurgen-mossack': {
- name: 'Jürgen Mossack',
+ name: 'JÃ¼rgen Mossack',
  title: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  role: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  riskLevel: 'high',
- description: 'Jürgen Mossack. Profile pending review.',
+ description: 'JÃ¼rgen Mossack. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Julius Rosenberg', type: 'organization' },
@@ -6811,7 +6836,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jürgen Mossack', url: 'https://en.wikipedia.org/wiki/Jürgen_Mossack', date: '' },
+ { title: 'Wikipedia: JÃ¼rgen Mossack', url: 'https://en.wikipedia.org/wiki/JÃ¼rgen_Mossack', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6820,14 +6845,14 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'juvenal-habyarimana': {
- name: 'Juvénal Habyarimana',
+ name: 'JuvÃ©nal Habyarimana',
  title: 'Rwandan President whose assassination triggered the genocide',
  role: 'Rwandan President whose assassination triggered the genocide',
  riskLevel: 'high',
- description: 'Juvénal Habyarimana. Profile pending review.',
+ description: 'JuvÃ©nal Habyarimana. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: Jürgen Mossack', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JÃ¼rgen Mossack', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -6841,7 +6866,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Juvénal Habyarimana', url: 'https://en.wikipedia.org/wiki/Juvénal_Habyarimana', date: '' },
+ { title: 'Wikipedia: JuvÃ©nal Habyarimana', url: 'https://en.wikipedia.org/wiki/JuvÃ©nal_Habyarimana', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6858,7 +6883,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'J.W. Milam. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: Juvénal Habyarimana', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JuvÃ©nal Habyarimana', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -7112,11 +7137,11 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'critical',
  description: 'Josef Mengele was a Nazi SS physician and war criminal known as the"Angel of Death"who performed horrific pseudo-scientific experiments on prisoners at the Auschwitz concentration camp, including experiments on twins, forced hypothermia, and other tortures. After the war, he fled to South America where he was given sanctuary in Paraguay and later lived in Brazil. Despite international manhunts, he was never brought to justice and died in 1979.',
  birthDate: 'March 16, 1911',
- birthPlace: 'GÃ¼nzburg, Bavaria, Germany',
+ birthPlace: 'GÃƒÂ¼nzburg, Bavaria, Germany',
  deathDate: 'February 7, 1979',
  education: ['PhD in Anthropology, University of Munich', 'Medical Degree, University of Frankfurt'],
  affiliations: [
- { name: 'Nazi SS', role: 'SS-HauptsturmfÃ¼hrer (Captain)', type: 'organization' },
+ { name: 'Nazi SS', role: 'SS-HauptsturmfÃƒÂ¼hrer (Captain)', type: 'organization' },
  { name: 'Auschwitz Concentration Camp', role: 'Chief Medical Officer, selections and experiments', type: 'agency' },
  ],
  controversies: [
@@ -7479,7 +7504,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
+ { title: 'Enron Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
  { date: '2002', event: 'SEC investigation launched' },
@@ -8359,12 +8384,12 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       {
-        statute: '8 U.S.C. § 1232 - Family Separation Policy',
+        statute: '8 U.S.C. Â§ 1232 - Family Separation Policy',
         description: 'Announced and implemented zero tolerance prosecution policy that deliberately separated thousands of children from parents with no reunification plan',
         category: 'human-rights',
       },
       {
-        statute: '18 U.S.C. § 981 - Expanded Civil Asset Forfeiture',
+        statute: '18 U.S.C. Â§ 981 - Expanded Civil Asset Forfeiture',
         description: 'Reinstated federal adoption of civil asset forfeiture allowing seizure of property from people never charged with crimes; DOJ IG found widespread abuse',
         category: 'constitutional',
       },
@@ -8718,7 +8743,7 @@ const profiles: Record<string, IndividualProfile> = {
   'Pleaded guilty to securities fraud',
  ],
  charges: [
-  { statute: '15 U.S.C. § 78j(b)', description: 'Securities fraud', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. Â§ 78j(b)', description: 'Securities fraud', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
   { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },

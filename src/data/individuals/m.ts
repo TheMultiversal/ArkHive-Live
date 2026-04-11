@@ -5900,6 +5900,85 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ivan Boesky', relationship: 'Paid Siegel cash for inside M&A information', href: '/entities/individuals/ivan-boesky' },
     ],
   },
+
+  'michael-kopper': {
+    name: 'Michael Kopper',
+    title: 'First Enron executive to plead guilty; Andrew Fastow\'s chief lieutenant who managed the Chewco SPE and defrauded shareholders of millions',
+    role: 'Former Managing Director, Enron Global Finance',
+    riskLevel: 'high',
+    description: 'Michael Kopper was Andrew Fastow\'s chief lieutenant at Enron Corporation, where he worked for more than seven years in the company\'s Global Finance division. On August 21, 2002, Kopper became the first Enron executive to plead guilty to criminal charges, admitting to conspiracy to commit wire fraud and money laundering for his role in helping Fastow loot the company through off-balance-sheet partnerships.\n\nKopper managed the Chewco Investments limited partnership, one of the key special purpose entities (SPEs) used to hide Enron\'s debt from investors. Chewco was named after the Star Wars character Chewbacca -- a reflection of the whimsical naming convention that Enron\'s financial engineers used for vehicles designed to commit serious fraud. The partnership was created in 1997 to buy out CalPERS\' stake in a joint venture called JEDI, and its improper accounting was one of the first dominoes to fall in Enron\'s unraveling.\n\nKenneth Lay testified that he did not even know who Michael Kopper was despite Kopper managing hundreds of millions in Enron-related partnerships -- an illustration of either Lay\'s willful blindness or the astonishing lack of oversight at Enron. Kopper cooperated extensively with prosecutors and provided testimony that helped build the case against Fastow and other executives. He was sentenced to 37 months in federal prison.',
+    affiliations: [
+      { name: 'Enron Corporation', role: 'Managing Director, Global Finance', type: 'corporation' },
+    ],
+    controversies: [
+      'Managed Chewco Investments SPE used to hide Enron debt and defraud shareholders',
+      'First Enron executive to plead guilty to criminal charges (August 21, 2002)',
+      'Conspired with CFO Andrew Fastow to personally profit from off-balance-sheet partnerships',
+      'Kenneth Lay testified he did not even know who Kopper was, despite Kopper managing hundreds of millions in partnerships',
+      'Cooperated with prosecutors and provided key testimony against Fastow and other executives',
+    ],
+    charges: [
+      { charge: 'Conspiracy to Commit Wire Fraud', status: 'convicted', date: '2002-08-21' },
+      { charge: 'Money Laundering', status: 'convicted', date: '2002-08-21' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1994', event: 'Joined Enron Corporation in the Global Finance division' },
+      { date: '1997', event: 'Managed creation and operation of Chewco Investments SPE to buy out CalPERS stake in JEDI partnership' },
+      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy -- the largest in U.S. history at the time' },
+      { date: '2002-08-21', event: 'Became the first Enron executive to plead guilty; admitted conspiracy to commit wire fraud and money laundering' },
+      { date: '2006-09', event: 'Sentenced to 37 months in federal prison' },
+    ],
+    sources: [
+      { title: 'First Enron Executive Pleads Guilty -- The Washington Post', url: 'https://www.washingtonpost.com/archive/business/2002/08/22/former-enron-executive-cooperates/6c65a85e-7c4e-4e36-b2c9-7c3a18d42a9f/', date: '2002-08-22' },
+      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+    ],
+    knownAssociates: [
+      { name: 'Andrew Fastow', relationship: 'Direct supervisor and co-conspirator; Enron CFO who designed the SPE fraud structure', href: '/entities/individuals/andrew-fastow' },
+      { name: 'Lea Fastow', relationship: 'Wife of Andrew Fastow and Enron Assistant Treasurer; convicted of tax fraud', href: '/entities/individuals/lea-fastow' },
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman who claimed not to know Kopper despite his key role in partnerships', href: '/entities/individuals/ken-lay' },
+    ],
+  },
+
+  'mark-koenig': {
+    name: 'Mark Koenig',
+    title: 'Former Enron Head of Investor Relations who cooperated with prosecutors and testified against Skilling and Lay',
+    role: 'Former Head of Investor Relations, Enron Corporation',
+    riskLevel: 'medium',
+    description: 'Mark Koenig served as Enron Corporation\'s Head of Investor Relations, the executive responsible for communicating the company\'s financial performance and outlook to Wall Street analysts and institutional investors. In this role, Koenig was directly involved in presenting Enron\'s financials to the market -- financials that were later revealed to be systematically manipulated through off-balance-sheet partnerships and mark-to-market accounting fraud.\n\nKoenig cooperated with federal prosecutors and became one of the government\'s key witnesses in the landmark trial of Enron Chairman Kenneth Lay and CEO Jeffrey Skilling. He was one of eight former Enron executives who testified for the prosecution, providing insider accounts of how Enron\'s leadership misrepresented the company\'s true financial condition to investors. His testimony was particularly valuable because of his direct role as the conduit between Enron\'s executive suite and Wall Street.\n\nIn exchange for his cooperation, Koenig received a relatively lenient sentence of 18 months in federal prison -- significantly less than the sentences imposed on non-cooperating defendants like Skilling (24 years, later reduced to 14) and Fastow (6 years before cooperation credit).',
+    affiliations: [
+      { name: 'Enron Corporation', role: 'Head of Investor Relations', type: 'corporation' },
+    ],
+    controversies: [
+      'Presented fraudulent financial results to Wall Street analysts and institutional investors as Head of Investor Relations',
+      'Cooperated with federal prosecutors and testified against Skilling and Lay at trial',
+      'One of eight former Enron executives who testified for the prosecution',
+    ],
+    charges: [
+      { charge: 'Securities Fraud (cooperating)', status: 'convicted' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy' },
+      { date: '2004', event: 'Agreed to cooperate with federal prosecutors against former Enron colleagues' },
+      { date: '2006-01', event: 'Testified as prosecution witness in United States v. Lay and Skilling trial' },
+      { date: '2006-05-25', event: 'Lay and Skilling convicted, vindicating Koenig\'s cooperation' },
+      { date: '2007', event: 'Sentenced to 18 months in federal prison' },
+    ],
+    sources: [
+      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+      { title: 'Former Enron Executive Testifies -- Houston Chronicle', url: 'https://www.chron.com/business/enron/', date: '2006' },
+    ],
+    knownAssociates: [
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman; testified against Lay at trial', href: '/entities/individuals/ken-lay' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO; testified against Skilling at trial', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Paula Rieker', relationship: 'Enron Investor Relations colleague; also cooperated with prosecution', href: '/entities/individuals/paula-rieker' },
+    ],
+  },
 };
 
 export default profiles;

@@ -1,4 +1,4 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -71,11 +71,11 @@ const profiles: Record<string, IndividualProfile> = {
  'Georgia RICO guilty plea',
  ],
  charges: [
- { statute: 'O.C.G.A. § 16-10-1', description: 'Conspiracy to Commit Filing False Documents (Pled Guilty); Georgia guilty plea', category: 'Fraud' },
- { statute: '18 U.S.C. § 371 (Conspiracy to Defraud US)', description: 'Fake Electors Architect; Wrote legal memos outlining scheme to submit fraudulent electoral certificates', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress; Scheme designed to obstruct January 6 certification', category: 'Obstruction' },
- { statute: '52 U.S.C. § 20511 (Election Fraud)', description: 'Election Fraud; Created blueprint for submitting false electoral slates in 7 states', category: 'Election Crime' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Documents; Fake elector certificates signed under his legal guidance were false federal documents', category: 'Fraud' },
+ { statute: 'O.C.G.A. Â§ 16-10-1', description: 'Conspiracy to Commit Filing False Documents (Pled Guilty); Georgia guilty plea', category: 'Fraud' },
+ { statute: '18 U.S.C. Â§ 371 (Conspiracy to Defraud US)', description: 'Fake Electors Architect; Wrote legal memos outlining scheme to submit fraudulent electoral certificates', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Â§ 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress; Scheme designed to obstruct January 6 certification', category: 'Obstruction' },
+ { statute: '52 U.S.C. Â§ 20511 (Election Fraud)', description: 'Election Fraud; Created blueprint for submitting false electoral slates in 7 states', category: 'Election Crime' },
+ { statute: '18 U.S.C. Â§ 1001 (False Statements)', description: 'False Documents; Fake elector certificates signed under his legal guidance were false federal documents', category: 'Fraud' },
  { statute: 'Wisconsin AG Investigation', description: 'Under Investigation; Faces potential charges in Wisconsin for fake electors scheme', category: 'State Crimes' },
  { statute: 'Michigan AG Investigation', description: 'Under Investigation; Faces potential charges in Michigan for fake electors scheme', category: 'State Crimes' },
  { statute: 'Bar Disciplinary Proceedings', description: 'Professional Misconduct; Faces bar discipline for ethical violations in election scheme', category: 'Ethics' },
@@ -125,8 +125,8 @@ const profiles: Record<string, IndividualProfile> = {
  'Passed polling data to Russian intelligence services',
  ],
  charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to obstruct justice', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1512', description: 'Obstruction of justice', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy to obstruct justice', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1512', description: 'Obstruction of justice', category: 'Obstruction' },
  { statute: 'Treasury OFAC Sanctions', description: 'Russian election interference agent', category: 'National Security' },
  ],
  relatedInvestigations: [
@@ -299,7 +299,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'David Pecker', relationship: 'Paid her $150K for silence', href: '/entities/individuals/david-pecker' },
  { name: 'Michael Cohen', relationship: 'Coordinated payment', href: '/entities/individuals/michael-cohen' },
  ],
- },
+ },
+
 
  'kellyanne-conway': {
  name: 'Kellyanne Elizabeth Conway',
@@ -325,12 +326,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Public feuds with husband over Trump',
  ],
  charges: [
- { statute: '5 U.S.C. § 7323 (Hatch Act)', description: 'Multiple Documented Violations; Office of Special Counsel found Conway violated Hatch Act on numerous occasions through political activity in official capacity', category: 'Federal Ethics' },
- { statute: '5 U.S.C. § 7323(a)(1)', description: 'Hatch Act Violation; Used official position to advocate for and against candidates in 2018 and 2020 elections', category: 'Federal Ethics' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain; Promoted Ivanka Trump products from White House podium', category: 'Ethics' },
- { statute: '5 C.F.R. § 2635.101', description: 'Standards of Ethical Conduct Violations; OSC recommended removal from federal service (ignored by Trump)', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements -"Alternative facts"defense of demonstrably false inauguration crowd claims', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512', description: 'Potential Obstruction; Defied subpoena from House Oversight Committee', category: 'Potential Federal' },
+ { statute: '5 U.S.C. Â§ 7323 (Hatch Act)', description: 'Multiple Documented Violations; Office of Special Counsel found Conway violated Hatch Act on numerous occasions through political activity in official capacity', category: 'Federal Ethics' },
+ { statute: '5 U.S.C. Â§ 7323(a)(1)', description: 'Hatch Act Violation; Used official position to advocate for and against candidates in 2018 and 2020 elections', category: 'Federal Ethics' },
+ { statute: '5 C.F.R. Â§ 2635.702', description: 'Use of Public Office for Private Gain; Promoted Ivanka Trump products from White House podium', category: 'Ethics' },
+ { statute: '5 C.F.R. Â§ 2635.101', description: 'Standards of Ethical Conduct Violations; OSC recommended removal from federal service (ignored by Trump)', category: 'Ethics' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'Potential False Statements -"Alternative facts"defense of demonstrably false inauguration crowd claims', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 1512', description: 'Potential Obstruction; Defied subpoena from House Oversight Committee', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  ],
@@ -565,9 +566,9 @@ const profiles: Record<string, IndividualProfile> = {
   'Sentenced to 12 years in federal prison for seditious conspiracy',
  ],
  charges: [
-  { statute: '18 U.S.C. § 2384', description: 'Seditious conspiracy', category: 'Sedition' },
-  { statute: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of an official proceeding', category: 'Obstruction' },
-  { statute: '18 U.S.C. § 1361', description: 'Destruction of government property', category: 'Property Crime' },
+  { statute: '18 U.S.C. Â§ 2384', description: 'Seditious conspiracy', category: 'Sedition' },
+  { statute: '18 U.S.C. Â§ 1512(c)(2)', description: 'Obstruction of an official proceeding', category: 'Obstruction' },
+  { statute: '18 U.S.C. Â§ 1361', description: 'Destruction of government property', category: 'Property Crime' },
  ],
  relatedInvestigations: [
   { title: 'January 6 Capitol Attack', slug: 'january-6-capitol-attack', severity: 'critical' },
@@ -765,7 +766,8 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Richard Burr', relationship: 'Fellow COVID insider trader', href: '/entities/individuals/richard-burr' },
  ],
- },
+ },
+
 
  'karl-rove': {
  name: 'Karl Christian Rove',
@@ -798,11 +800,11 @@ const profiles: Record<string, IndividualProfile> = {
  'REFUSED SUBPOENA: Refused to testify before Congress, cited executive privilege',
  ],
  charges: [
- { statute: '50 U.S.C. § 421 (IIPA)', description: 'Intelligence Identities Protection Act; Leaked Plame identity', category: 'National Security' },
- { statute: '18 U.S.C. § 1505', description: 'Obstruction of Justice; Evading congressional testimony', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements; Misleading statements about Plame role', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy; Coordinated Plame leak with Libby, Cheney', category: 'Conspiracy' },
- { statute: '52 U.S.C. § 20511', description: 'Voter Intimidation; Suppression tactics', category: 'Election Crimes' },
+ { statute: '50 U.S.C. Â§ 421 (IIPA)', description: 'Intelligence Identities Protection Act; Leaked Plame identity', category: 'National Security' },
+ { statute: '18 U.S.C. Â§ 1505', description: 'Obstruction of Justice; Evading congressional testimony', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'False Statements; Misleading statements about Plame role', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy; Coordinated Plame leak with Libby, Cheney', category: 'Conspiracy' },
+ { statute: '52 U.S.C. Â§ 20511', description: 'Voter Intimidation; Suppression tactics', category: 'Election Crimes' },
  { statute: 'Presidential Records Act', description: 'Destruction of Records; 22 million deleted emails', category: 'Federal' },
  ],
  relatedInvestigations: [
@@ -885,9 +887,9 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Executive Order 14024', description: 'Sanctioned Individual; Harmful foreign activities of Russian government', category: 'OFAC Sanctions' },
  { statute: 'EU Council Decision 2022/327', description: 'EU Sanctions; Russian economic support', category: 'European Union' },
- { statute: '22 U.S.C. § 611', description: 'FARA Implications; Unregistered foreign agent activities', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy; Coordinating with US persons to influence policy', category: 'Federal' },
- { statute: '50 U.S.C. § 1705 (IEEPA)', description: 'Sanctions Violations; Economic engagement post-sanctions', category: 'Federal' },
+ { statute: '22 U.S.C. Â§ 611', description: 'FARA Implications; Unregistered foreign agent activities', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy; Coordinating with US persons to influence policy', category: 'Federal' },
+ { statute: '50 U.S.C. Â§ 1705 (IEEPA)', description: 'Sanctions Violations; Economic engagement post-sanctions', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -1382,7 +1384,7 @@ const profiles: Record<string, IndividualProfile> = {
   'OxyContin\'s original marketing falsely claimed the drug had a lower addiction risk than other opioids; Purdue pled guilty to misbranding in 2007 and again in 2020',
  ],
  charges: [
-  { statute: '21 U.S.C. § 331', description: 'Purdue Pharma pled guilty to federal charges of misbranding OxyContin (2007 and 2020); Sackler family members not individually charged', category: 'Drug Misbranding' },
+  { statute: '21 U.S.C. Â§ 331', description: 'Purdue Pharma pled guilty to federal charges of misbranding OxyContin (2007 and 2020); Sackler family members not individually charged', category: 'Drug Misbranding' },
  ],
  relatedInvestigations: [
   { title: 'Opioid Crisis', slug: 'opioid-crisis-purdue-pharma', severity: 'critical' },
@@ -1483,7 +1485,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DANIEL LARSEN: Kept innocent man in prison',
  ],
  charges: [
- { statute: '42 U.S.C. � 1983', description: 'Civil rights issues in prosecutions', category: 'CIVIL LITIGATION' },
+ { statute: '42 U.S.C. ï¿½ 1983', description: 'Civil rights issues in prosecutions', category: 'CIVIL LITIGATION' },
  ],
  relatedInvestigations: [
  { title: 'Prosecutorial Misconduct', slug: 'prosecutorial-misconduct', severity: 'high' },
@@ -1550,8 +1552,8 @@ const profiles: Record<string, IndividualProfile> = {
   'Brooklyn Center Police Department had no policy requiring officers to carry their Taser and firearm on opposite sides of the body',
  ],
  charges: [
-  { statute: 'Minn. Stat. § 609.20(1)', description: 'First-degree manslaughter; predicated on reckless handling/use of a firearm', category: 'Manslaughter' },
-  { statute: 'Minn. Stat. § 609.205(1)', description: 'Second-degree manslaughter; culpable negligence creating unreasonable risk', category: 'Manslaughter' },
+  { statute: 'Minn. Stat. Â§ 609.20(1)', description: 'First-degree manslaughter; predicated on reckless handling/use of a firearm', category: 'Manslaughter' },
+  { statute: 'Minn. Stat. Â§ 609.205(1)', description: 'Second-degree manslaughter; culpable negligence creating unreasonable risk', category: 'Manslaughter' },
  ],
  relatedInvestigations: [
   { title: 'Police Shootings', slug: 'police-use-of-force', severity: 'critical' },
@@ -1686,13 +1688,13 @@ const profiles: Record<string, IndividualProfile> = {
   'Previous venture Consumers\' Buyline was shuttered by 20 state attorneys general as an illegal pyramid scheme in the 1990s',
  ],
  charges: [
-  { statute: '18 U.S.C. § 1591', description: 'Sex trafficking', category: 'Human Trafficking' },
-  { statute: '18 U.S.C. § 1591', description: 'Sex trafficking conspiracy', category: 'Human Trafficking' },
-  { statute: '18 U.S.C. § 1962(c)', description: 'Racketeering conspiracy', category: 'Racketeering' },
-  { statute: '18 U.S.C. § 1589', description: 'Forced labor conspiracy', category: 'Human Trafficking' },
-  { statute: '18 U.S.C. § 1343', description: 'Wire fraud conspiracy', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 2251', description: 'Possession of child pornography', category: 'Sexual Exploitation' },
-  { statute: '18 U.S.C. § 1512', description: 'Identity theft', category: 'Fraud' },
+  { statute: '18 U.S.C. Â§ 1591', description: 'Sex trafficking', category: 'Human Trafficking' },
+  { statute: '18 U.S.C. Â§ 1591', description: 'Sex trafficking conspiracy', category: 'Human Trafficking' },
+  { statute: '18 U.S.C. Â§ 1962(c)', description: 'Racketeering conspiracy', category: 'Racketeering' },
+  { statute: '18 U.S.C. Â§ 1589', description: 'Forced labor conspiracy', category: 'Human Trafficking' },
+  { statute: '18 U.S.C. Â§ 1343', description: 'Wire fraud conspiracy', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 2251', description: 'Possession of child pornography', category: 'Sexual Exploitation' },
+  { statute: '18 U.S.C. Â§ 1512', description: 'Identity theft', category: 'Fraud' },
  ],
  relatedInvestigations: [
   { title: 'Human Trafficking Networks', slug: 'human-trafficking-networks-exposed', severity: 'critical' },
@@ -1747,15 +1749,13 @@ const profiles: Record<string, IndividualProfile> = {
   'Conviction on all counts was vacated after his death; meaning legally he died an innocent man despite overwhelming evidence of guilt',
  ],
  charges: [
-  { statute: '15 U.S.C. § 78j(b)', description: 'Securities fraud (6 counts)', category: 'Securities Fraud' },
-  { statute: '18 U.S.C. § 1343', description: 'Wire fraud (4 counts)', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 371', description: 'Conspiracy', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 1001', description: 'Making false statements to banks', category: 'Fraud' },
+  { statute: '15 U.S.C. Â§ 78j(b)', description: 'Securities fraud (6 counts)', category: 'Securities Fraud' },
+  { statute: '18 U.S.C. Â§ 1343', description: 'Wire fraud (4 counts)', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 1001', description: 'Making false statements to banks', category: 'Fraud' },
  ],
  relatedInvestigations: [
-  { title: 'Enron Scandal', slug: 'enron-accounting-fraud-and-energy-manipulation', severity: 'critical' },
-  { title: 'California Energy Crisis', slug: 'california-energy-crisis-manipulation', severity: 'critical' },
-  { title: 'Corporate Accounting Fraud', slug: 'corporate-accounting-fraud-and-audit-failures', severity: 'high' },
+  { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
   { date: 'April 15, 1942', event: 'Born in Tyrone, Missouri to a preacher and salesman family' },
@@ -1895,9 +1895,9 @@ const profiles: Record<string, IndividualProfile> = {
  'WATERBOARDED: 183 times by CIA',
  ],
  charges: [
- { statute: '18 U.S.C. � 2332b', description: 'Terrorism resulting in death', category: 'Terrorism' },
- { statute: '18 U.S.C. � 1111', description: 'Murder (2,976 counts)', category: 'Homicide' },
- { statute: '18 U.S.C. � 1958', description: 'Murder for hire, Daniel Pearl', category: 'Homicide' },
+ { statute: '18 U.S.C. ï¿½ 2332b', description: 'Terrorism resulting in death', category: 'Terrorism' },
+ { statute: '18 U.S.C. ï¿½ 1111', description: 'Murder (2,976 counts)', category: 'Homicide' },
+ { statute: '18 U.S.C. ï¿½ 1958', description: 'Murder for hire, Daniel Pearl', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'September 11 Attacks', slug: 'september-11', severity: 'critical' },
@@ -3234,46 +3234,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-  'kenneth-lay': {
-    name: 'Kenneth Lay',
-    title: 'Former CEO, Enron Corporation',
-    role: 'CEO of Enron during its collapse; convicted of fraud and conspiracy',
-    riskLevel: 'high',
-    description: 'Kenneth Lee "Ken" Lay was an American businessman who was the CEO and chairman of Enron Corporation, a major energy company based in Houston, Texas. He was convicted of fraud and conspiracy in connection with the Enron scandal, which led to the company\'s bankruptcy and the loss of billions in shareholder value.',
-    birthDate: 'April 15, 1942',
-    birthPlace: 'Tyrone, Missouri, USA',
-    education: ['University of Missouri, B.S. in Economics', 'University of Houston, M.B.A.'],
-    affiliations: [
-      { name: 'Enron Corporation', role: 'CEO and Chairman (1985-2001)', type: 'corporation' },
-    ],
-    controversies: [
-      'Convicted of 10 counts of fraud and conspiracy related to Enron\'s collapse',
-      'Testified before Congress claiming Enron was in good shape while knowing it was insolvent',
-      'Received millions in bonuses while employees lost pensions',
-    ],
-    charges: [
-      { statute: 'Securities fraud', description: 'Convicted', category: '2006' },
-      { statute: 'Wire fraud', description: 'Convicted', category: '2006' },
-    ],
-    relatedInvestigations: [
-      { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
-    ],
-    timeline: [
-      { date: 'April 15, 1942', event: 'Born in Tyrone, Missouri' },
-      { date: '1985', event: 'Became CEO of Enron' },
-      { date: '2001', event: 'Enron files for bankruptcy' },
-      { date: '2006', event: 'Convicted of fraud' },
-      { date: 'July 5, 2006', event: 'Died before sentencing' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'SEC v. Enron', url: 'https://www.sec.gov/litigation/litreleases/lr17627.htm', date: '2002' },
-    ],
-    aliases: ['Ken Lay'],
-    knownAssociates: [
-      { name: 'Jeffrey Skilling', relationship: 'Enron CFO, also convicted', href: '/entities/individuals/jeffrey-skilling' },
-    ],
-  },
   'klaus-barbie': {
     name: 'Klaus Barbie',
     title: 'Nazi War Criminal, "Butcher of Lyon"',
@@ -3413,7 +3373,8 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Kim Jong-il', relationship: 'Father and predecessor as Supreme Leader', href: '/entities/individuals/kim-jong-il' },
     ],
-  },  'kris-kobach': {
+  },
+  'kris-kobach': {
     name: 'Kris Kobach',
     title: 'Kansas Attorney General / Former Secretary of State',
     role: 'State Official',
@@ -3439,7 +3400,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       {
-        statute: '52 U.S.C. § 20504 - National Voter Registration Act Violations',
+        statute: '52 U.S.C. Â§ 20504 - National Voter Registration Act Violations',
         description: 'Proof-of-citizenship requirements found to violate NVRA by federal court; Kobach found in contempt for non-compliance',
         category: 'constitutional',
       },
@@ -3613,6 +3574,46 @@ const profiles: Record<string, IndividualProfile> = {
  'DOD IG COMPLAINT: Filed formal complaints with the DoD Inspector General about NSA programs',
  ],
  },
+
+  'kenneth-rice': {
+    name: 'Kenneth Rice',
+    title: 'Former CEO of Enron Broadband Services who cooperated with prosecutors and helped convict Skilling and Lay',
+    role: 'Former CEO, Enron Broadband Services',
+    riskLevel: 'high',
+    description: 'Kenneth Rice served as the CEO of Enron Broadband Services (EBS), the division that Enron promoted as its entry into the telecommunications and streaming media market. Under Rice\'s leadership, EBS was used to inflate Enron\'s stock price through wildly exaggerated claims about its broadband capabilities and deal pipeline -- claims that were central to Enron\'s narrative of transforming from an energy pipeline company into a cutting-edge technology conglomerate.\n\nRice became one of the most important cooperating witnesses in the Enron prosecution. His testimony at the trial of Chairman Kenneth Lay and CEO Jeffrey Skilling was crucial because he could speak directly to how Enron\'s top executives knowingly misrepresented the company\'s broadband business to investors. He was one of eight former executives who took the stand for the prosecution, providing detailed accounts of internal meetings where Enron\'s leadership discussed the gap between what they told Wall Street and actual business performance.\n\nIn June 2007, Rice was sentenced to 27 months in federal prison -- a significant reduction from what non-cooperating defendants received, reflecting the value prosecutors placed on his testimony. His cooperation was instrumental in securing the May 25, 2006 convictions of both Lay (all six counts) and Skilling (19 of 28 counts).',
+    affiliations: [
+      { name: 'Enron Corporation', role: 'CEO, Enron Broadband Services', type: 'corporation' },
+    ],
+    controversies: [
+      'Led Enron Broadband Services, which made exaggerated claims about broadband capabilities to inflate stock price',
+      'Cooperated extensively with federal prosecutors against Kenneth Lay and Jeffrey Skilling',
+      'One of eight former Enron executives who testified for the prosecution at the landmark trial',
+      'Testimony directly contradicted Skilling\'s claims of ignorance about the true state of Enron\'s businesses',
+    ],
+    charges: [
+      { charge: 'Securities Fraud (cooperating)', status: 'convicted', date: '2007-06' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2000-01', event: 'Enron announced launch of Broadband Services division at analyst conference, stock surged' },
+      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy' },
+      { date: '2004', event: 'Agreed to cooperate with federal prosecutors' },
+      { date: '2006-01', event: 'Testified as prosecution witness in United States v. Lay and Skilling' },
+      { date: '2006-05-25', event: 'Lay convicted on all six counts; Skilling convicted on 19 of 28 counts' },
+      { date: '2007-06', event: 'Sentenced to 27 months in federal prison' },
+    ],
+    sources: [
+      { title: 'Former Enron Broadband CEO Gets 27 Months -- Reuters', url: 'https://www.reuters.com/article/us-enron-rice-idUSN2742757720070627', date: '2007-06-27' },
+      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+    ],
+    knownAssociates: [
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO who promoted broadband strategy; Rice testified against him at trial', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman; Rice testified against Lay at trial', href: '/entities/individuals/ken-lay' },
+      { name: 'Mark Koenig', relationship: 'Fellow cooperating witness; Head of Investor Relations who also testified against Lay and Skilling', href: '/entities/individuals/mark-koenig' },
+    ],
+  },
 };
 
 export default profiles;

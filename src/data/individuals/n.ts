@@ -1825,6 +1825,56 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'Presidential candidate and president whose campaign infrastructure Mercer funded through Bannon, Breitbart, and Cambridge Analytica', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+  'nancy-temple': {
+    name: 'Nancy Temple',
+    title: 'Arthur Andersen in-house attorney whose email about document destruction became key evidence in the Enron auditor obstruction case',
+    role: 'Former In-House Attorney, Arthur Andersen LLP',
+    riskLevel: 'medium',
+    birthPlace: 'United States',
+    description: 'Nancy Temple was an in-house attorney at Arthur Andersen LLP whose October 16, 2001 email became the pivotal piece of evidence in the criminal prosecution of the accounting firm for obstruction of justice in its destruction of Enron-related documents. Temple\'s email advised Andersen auditor Michael Odom and lead Enron engagement partner David Duncan to remove references to consultations with the legal group and to delete her name from audit memos -- actions that prosecutors argued constituted consciousness of guilt and an attempt to corrupt the audit process.\n\nTemple graduated from the University of Illinois College of Business with a BS in Accountancy (1986) and earned her JD from Harvard Law School (1989). She practiced at the prestigious firm Sidley Austin (then Sidley Austin Brown & Wood) for eleven years, making partner, before joining Arthur Andersen as in-house counsel. At Andersen, she became centrally involved in advising on document retention policies during the period when the SEC was investigating Enron.\n\nJurors later indicated that their guilty verdict in the Andersen obstruction trial was based in significant part on Temple\'s email and the document destruction it appeared to authorize. The conviction was devastating -- it effectively killed Arthur Andersen, one of the Big Five accounting firms, destroying 85,000 jobs worldwide. However, on May 31, 2005, the U.S. Supreme Court unanimously overturned the conviction in a decision written by Chief Justice Rehnquist, finding that the jury instructions had been too broad.\n\nDespite her central role in the events, Nancy Temple was never personally charged with any crime. She later worked at Freeman, Freeman & Salzman P.C. and co-founded Katten & Temple LLP in April 2008.',
+    education: [
+      'University of Illinois College of Business (BS, Accountancy, 1986)',
+      'Harvard Law School (JD, 1989)',
+    ],
+    affiliations: [
+      { name: 'Arthur Andersen LLP', role: 'In-house Attorney', type: 'corporation' },
+      { name: 'Sidley Austin', role: 'Attorney, then Partner (11 years)', type: 'corporation' },
+      { name: 'Katten & Temple LLP', role: 'Co-founder (April 2008)', type: 'corporation' },
+    ],
+    controversies: [
+      'October 16, 2001 email advised removing references to legal consultations and her name from audit memos',
+      'Email became key evidence in Andersen obstruction conviction that destroyed the firm and 85,000 jobs',
+      'Jurors indicated guilty verdict was based in significant part on her email',
+      'Supreme Court unanimously overturned Andersen conviction on May 31, 2005 (overbroad jury instructions)',
+      'Never personally charged with any crime despite central role in document destruction advice',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1986', event: 'Graduated University of Illinois College of Business with BS in Accountancy' },
+      { date: '1989', event: 'Earned JD from Harvard Law School' },
+      { date: '1989', event: 'Joined Sidley Austin Brown & Wood (now Sidley Austin) as an associate' },
+      { date: '2000', event: 'Joined Arthur Andersen LLP as in-house counsel after making partner at Sidley Austin' },
+      { date: '2001-10-16', event: 'Sent pivotal email advising deletion of references to legal group consultation and her name from audit memos' },
+      { date: '2001-10-23', event: 'SEC launched formal investigation of Enron; document destruction at Andersen continued' },
+      { date: '2002-03', event: 'Arthur Andersen indicted for obstruction of justice in Enron document destruction' },
+      { date: '2002-06-15', event: 'Arthur Andersen convicted of obstruction of justice; firm collapsed shortly after' },
+      { date: '2005-05-31', event: 'U.S. Supreme Court unanimously overturned Andersen conviction (Arthur Andersen LLP v. United States)' },
+      { date: '2008-04', event: 'Co-founded Katten & Temple LLP' },
+    ],
+    sources: [
+      { title: 'Nancy Temple -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Nancy_Temple', date: '2024' },
+      { title: 'Arthur Andersen LLP v. United States, 544 U.S. 696 (2005)', url: 'https://supreme.justia.com/cases/federal/us/544/696/', date: '2005-05-31' },
+      { title: 'The Fall of Andersen -- Chicago Tribune', url: 'https://www.chicagotribune.com/', date: '2002' },
+    ],
+    knownAssociates: [
+      { name: 'David Duncan', relationship: 'Arthur Andersen lead Enron engagement partner; received Temple\'s email about document retention', href: '/entities/individuals/david-duncan' },
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman whose company\'s fraud triggered the Andersen document destruction', href: '/entities/individuals/ken-lay' },
+    ],
+  },
 };
 
 export default profiles;

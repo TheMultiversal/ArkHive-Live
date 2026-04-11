@@ -1,7 +1,8 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
-const profiles: Record<string, IndividualProfile> = {
+const profiles: Record<string, IndividualProfile> = {
+
  'sergey-kislyak': {
  name: 'Sergey Kislyak',
  title: 'Documented Individual',
@@ -29,7 +30,8 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
+ },
+
  'stormy-daniels': {
  name: 'Stephanie Gregory Clifford',
  title: 'Adult Film Actress, Director',
@@ -742,10 +744,10 @@ const profiles: Record<string, IndividualProfile> = {
  'OBSTRUCTION PATTERN: Lied repeatedly to FBI and grand jury to protect superiors',
  ],
  charges: [
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice; Impeding Plame investigation (CONVICTED)', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1623', description: 'Perjury; False testimony to grand jury (CONVICTED, 2 counts)', category: 'Federal' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements; Lying to FBI (CONVICTED)', category: 'Federal' },
- { statute: '50 U.S.C. § 421 (IIPA)', description: 'Intelligence Identities Protection Act; Plame leak (not charged)', category: 'National Security' },
+ { statute: '18 U.S.C. Â§ 1503', description: 'Obstruction of Justice; Impeding Plame investigation (CONVICTED)', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1623', description: 'Perjury; False testimony to grand jury (CONVICTED, 2 counts)', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'False Statements; Lying to FBI (CONVICTED)', category: 'Federal' },
+ { statute: '50 U.S.C. Â§ 421 (IIPA)', description: 'Intelligence Identities Protection Act; Plame leak (not charged)', category: 'National Security' },
  ],
  relatedInvestigations: [
  { title: 'Valerie Plame Leak', slug: 'plame-leak', severity: 'critical' },
@@ -981,9 +983,9 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity; Torture: Systematic torture through drug experiments and psychological abuse', category: 'International Crime' },
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Human Experimentation: Non-consensual experimentation causing death and permanent injury', category: 'International Crime' },
- { statute: '18 U.S.C. § 1111', description: 'Murder: Death of Frank Olson and other experiment subjects', category: 'Violent Crime' },
- { statute: '18 U.S.C. § 1112', description: 'Manslaughter: Deaths from reckless human experimentation', category: 'Violent Crime' },
- { statute: '18 U.S.C. § 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1111', description: 'Murder: Death of Frank Olson and other experiment subjects', category: 'Violent Crime' },
+ { statute: '18 U.S.C. Â§ 1112', description: 'Manslaughter: Deaths from reckless human experimentation', category: 'Violent Crime' },
+ { statute: '18 U.S.C. Â§ 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'MKUltra Mind Control', slug: 'mkultra', severity: 'critical' },
@@ -1043,7 +1045,7 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'low',
  description: 'Salvador Allende was the first Marxist to be elected president of a Latin American country in a free election. He was overthrown on September 11, 1973 in a CIA-backed military coup led by Augusto Pinochet. Allende died during the coup, either by suicide or murder, as the military bombed the presidential palace. His death ushered in 17 years of brutal dictatorship.',
  birthDate: 'June 26, 1908',
- birthPlace: 'Valparaíso, Chile',
+ birthPlace: 'ValparaÃ­so, Chile',
  deathDate: 'September 11, 1973',
  education: ['University of Chile, Medical School'],
  affiliations: [
@@ -1064,7 +1066,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'CIA Coups', slug: 'cia-coups', severity: 'critical' },
  ],
  timeline: [
- { date: 'June 26, 1908', event: 'Born in Valparaíso, Chile' },
+ { date: 'June 26, 1908', event: 'Born in ValparaÃ­so, Chile' },
  { date: 'September 4, 1970', event: 'Elected President of Chile' },
  { date: 'November 3, 1970', event: 'Inaugurated as President' },
  { date: 'September 11, 1973', event: 'Dies during military coup' },
@@ -1301,7 +1303,8 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Supreme Court opinions', url: 'https://scholar.google.com/scholar?q=Supreme%20Court%20opinions', date: 'Various' },
  ],
- },
+ },
+
 
  'sam-altman': {
  name: 'Sam Altman',
@@ -1769,8 +1772,8 @@ const profiles: Record<string, IndividualProfile> = {
  'ICE CONTRACTS: Azure services for immigration enforcement',
  ],
  charges: [
- { statute: '15 U.S.C. � 2', description: 'Monopolization, Cloud market dominance', category: 'UNDER INVESTIGATION' },
- { statute: '17 U.S.C. � 106', description: 'Copyright Infringement, Copilot training data', category: 'CIVIL LITIGATION' },
+ { statute: '15 U.S.C. ï¿½ 2', description: 'Monopolization, Cloud market dominance', category: 'UNDER INVESTIGATION' },
+ { statute: '17 U.S.C. ï¿½ 106', description: 'Copyright Infringement, Copilot training data', category: 'CIVIL LITIGATION' },
  ],
  relatedInvestigations: [
  { title: 'Military Industrial AI', slug: 'military-industrial-ai', severity: 'high' },
@@ -1838,7 +1841,7 @@ const profiles: Record<string, IndividualProfile> = {
  'EXECUTIVE PAY: Millions while crisis continued',
  ],
  charges: [
- { statute: '21 U.S.C. � 823', description: 'CSA, Distribution violations', category: 'CORPORATE SETTLEMENT' },
+ { statute: '21 U.S.C. ï¿½ 823', description: 'CSA, Distribution violations', category: 'CORPORATE SETTLEMENT' },
  ],
  relatedInvestigations: [
  { title: 'Opioid Distribution Crisis', slug: 'opioid-distribution', severity: 'critical' },
@@ -1855,14 +1858,14 @@ const profiles: Record<string, IndividualProfile> = {
 
  },
  'stephane-bancel': {
- name: 'St�phane Bancel',
+ name: 'Stï¿½phane Bancel',
  title: 'Moderna CEO',
  role: 'Moderna CEO, Patent Disputes, Pricing',
  riskLevel: 'medium',
- description: 'St�phane Bancel led Moderna through COVID vaccine development, becoming a billionaire. However, Moderna\'s vaccine was built on government-funded research, and the company has been criticized for pricing, profit margins, and patent disputes with NIH over who invented the key technology.',
+ description: 'Stï¿½phane Bancel led Moderna through COVID vaccine development, becoming a billionaire. However, Moderna\'s vaccine was built on government-funded research, and the company has been criticized for pricing, profit margins, and patent disputes with NIH over who invented the key technology.',
  birthDate: 'July 1972',
  birthPlace: 'France',
- education: ['�cole Centrale Paris', 'Harvard Business School'],
+ education: ['ï¿½cole Centrale Paris', 'Harvard Business School'],
  netWorth: '$4 billion',
  affiliations: [
  { name: 'Moderna', role: 'CEO', type: 'corporation' as const },
@@ -1886,7 +1889,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2011', event: 'Becomes Moderna CEO' },
  { date: '2020', event: 'COVID vaccine success' },
  ],
- sources: [{ title: 'Wikipedia: St�phane Bancel', url: 'https://en.wikipedia.org/wiki/Stéphane_Bancel' }, { title: 'Bloomberg: St�phane Bancel', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: Stï¿½phane Bancel', url: 'https://en.wikipedia.org/wiki/StÃ©phane_Bancel' }, { title: 'Bloomberg: Stï¿½phane Bancel', url: 'https://www.bloomberg.com/' }],
  knownAssociates: [
  { name: 'Albert Bourla', relationship: 'Fellow COVID-19 vaccine CEO, Pfizer', href: '/entities/individuals/albert-bourla' },
  { name: 'Anthony Fauci', relationship: 'Worked with Fauci on mRNA vaccine development', href: '/entities/individuals/anthony-fauci' }
@@ -2069,7 +2072,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Omar Mateen', relationship: 'Perpetrator of Pulse nightclub shooting in similar era', href: '/entities/individuals/omar-mateen' }
  ],
 
- },
+ },
+
 
 
 
@@ -2729,42 +2733,64 @@ const profiles: Record<string, IndividualProfile> = {
 
  'sherron-watkins': {
  name: 'Sherron Watkins',
- title: 'Enron VP who warned Kenneth Lay about accounting fraud in August 2001, whistleblower',
- role: 'Enron VP who warned Kenneth Lay about accounting fraud in August 2001, whistleblower',
- riskLevel: 'high',
- description: 'Sherron Watkins. Profile pending review.',
- education: [],
+ title: 'Former Enron Vice President who warned CEO Kenneth Lay about accounting fraud in August 2001; named Time Person of the Year 2002 as whistleblower',
+ role: 'Former Vice President of Corporate Development, Enron Corporation; Whistleblower',
+ riskLevel: 'low',
+ description: 'Sherron Smith Watkins is a former Enron Vice President of Corporate Development who became one of the most famous whistleblowers in American corporate history. On August 15, 2001, Watkins sent an anonymous seven-page memo to Enron Chairman and CEO Kenneth Lay warning that the company would "implode in a wave of accounting scandals." The memo detailed concerns about CFO Andrew Fastow off-balance-sheet partnerships (LJM, Raptors) and questioned whether Enron could survive their unwinding. When Lay received the memo, he directed outside counsel Vinson & Elkins to investigate. However, V&E had earned $35 million or more per year from Enron and had helped structure some of the very transactions Watkins questioned; predictably, they found nothing wrong. Watkins was a CPA who had previously worked at Arthur Andersen (Enron auditor) for eight years before joining Enron in 1993. After her identity became known, she testified before the Senate Commerce Committee on February 14, 2002, providing devastating testimony about the culture of fraud and intimidation at Enron. She was named one of Time magazine Persons of the Year for 2002 alongside WorldCom whistleblower Cynthia Cooper and FBI whistleblower Coleen Rowley. She co-authored "Power Failure: The Inside Story of the Collapse of Enron" (2003) with journalist Mimi Swartz. Although Watkins is celebrated as a whistleblower, critics have noted she did not report externally to the SEC or law enforcement; she reported internally to the CEO and has said she was trying to save the company rather than expose it. The Sarbanes-Oxley Act of 2002, passed in direct response to Enron, included whistleblower protections partly inspired by her experience.',
+ birthDate: 'August 28, 1959',
+ birthPlace: 'Tomball, Texas, United States',
+ education: ['University of Texas at Austin (BBA, Accounting, 1981)', 'University of Texas at Austin (Masters of Professional Accounting, 1982)'],
  affiliations: [
- { name: 'Whistleblower', role: 'Whistleblower', type: 'organization' },
+ { name: 'Enron Corporation', role: 'Vice President of Corporate Development (1993-2002)', type: 'corporation' },
+ { name: 'Arthur Andersen', role: 'Senior Auditor (1982-1990); eight years before joining Enron', type: 'corporation' },
+ { name: 'MG Trade Finance', role: 'Controller (1990-1993); worked in commodities trading before Enron', type: 'corporation' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
+ 'Sent anonymous 7-page memo to CEO Kenneth Lay on August 15, 2001, warning Enron would "implode in a wave of accounting scandals." Detailed specific concerns about Fastow LJM partnerships and Raptor hedging vehicles. Memo became central evidence in congressional hearings and criminal trials.',
+ 'Testified before Senate Commerce Committee on February 14, 2002, providing detailed account of Enron fraud culture and how internal concerns were suppressed. Her testimony helped establish the factual record used by prosecutors.',
+ 'Named Time magazine Person of the Year 2002 alongside WorldCom whistleblower Cynthia Cooper and FBI whistleblower Coleen Rowley.',
+ 'Critics note she reported only internally to the CEO (not to SEC or law enforcement) and has stated she was trying to save the company, not expose it. She continued working at Enron after sending the memo and until the bankruptcy.',
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
+ { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
- { date: '2001', event: 'documented in this investigative archive for their role as Enron VP who warned Kenneth Lay about accounting fraud in August 2001, whistleblower.' },
+ { date: '1959-08-28', event: 'Born in Tomball, Texas' },
+ { date: '1981', event: 'Graduated from University of Texas at Austin with BBA in Accounting' },
+ { date: '1982', event: 'Earned Masters of Professional Accounting from UT Austin. Joined Arthur Andersen as auditor.' },
+ { date: '1990', event: 'Left Arthur Andersen after eight years. Joined MG Trade Finance as controller.' },
+ { date: '1993', event: 'Joined Enron Corporation in corporate development division' },
+ { date: '2001-08-15', event: 'Sent anonymous 7-page memo to CEO Kenneth Lay warning that Enron would "implode in a wave of accounting scandals." Detailed concerns about Fastow off-balance-sheet partnerships.' },
+ { date: '2001-08', event: 'Lay directs Vinson & Elkins (Enron outside counsel earning $35M+/year from the company) to investigate Watkins claims. V&E concludes no further investigation is needed.' },
+ { date: '2001-10', event: 'Identity as memo author becomes known internally at Enron. Watkins is transferred and marginalized but not fired.' },
+ { date: '2001-12-02', event: 'Enron files for bankruptcy. Watkins memo becomes central document in investigations.' },
+ { date: '2002-02-14', event: 'Testifies before Senate Commerce Committee, providing detailed account of Enron fraud culture and how internal warnings were suppressed.' },
+ { date: '2002-12', event: 'Named Time magazine Person of the Year 2002 alongside Cynthia Cooper (WorldCom) and Coleen Rowley (FBI)' },
+ { date: '2003', event: 'Co-authored "Power Failure: The Inside Story of the Collapse of Enron" with journalist Mimi Swartz' },
+ { date: '2002-07-30', event: 'Sarbanes-Oxley Act signed into law. Includes whistleblower protections partly inspired by Watkins experience at Enron.' },
  ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Sherron Watkins', url: 'https://en.wikipedia.org/wiki/Sherron_Watkins', date: '' },
+ { title: 'Sherron Watkins Senate Testimony (C-SPAN)', url: 'https://www.c-span.org/video/?168627-1/enron-hearing', date: '2002-02-14' },
+ { title: 'Time Persons of the Year 2002', url: 'https://content.time.com/time/specials/packages/article/0,28804,2019712_2019694_2019693,00.html', date: '2002-12-22' },
  ],
- aliases: [],
+ aliases: ['Sherron Smith Watkins'],
  knownAssociates: [
- { name: 'Kenneth Lay', relationship: 'Enron chairman Watkins warned about accounting fraud', href: '/entities/individuals/kenneth-lay' },
- { name: 'Jeffrey Skilling', relationship: 'Enron CEO whose fraud Watkins exposed', href: '/entities/individuals/jeffrey-skilling' },
- { name: 'Andrew Fastow', relationship: 'Enron CFO whose fraudulent entities Watkins reported', href: '/entities/individuals/andrew-fastow' },
+ { name: 'Kenneth Lay', relationship: 'Enron Chairman/CEO to whom Watkins sent warning memo in August 2001; Lay failed to act on warnings', href: '/entities/individuals/ken-lay' },
+ { name: 'Jeffrey Skilling', relationship: 'Enron CEO whose resignation just before Watkins memo prompted her concerns about impending collapse', href: '/entities/individuals/jeffrey-skilling' },
+ { name: 'Andrew Fastow', relationship: 'Enron CFO whose off-balance-sheet partnerships were the primary subject of Watkins whistleblower memo', href: '/entities/individuals/andrew-fastow' },
+ { name: 'Cynthia Cooper', relationship: 'WorldCom whistleblower; fellow Time Person of the Year 2002', href: '/entities/individuals/cynthia-cooper' },
  ],
  },
 
  'sigmundur-gunnlaugsson': {
- name: 'Sigmundur Davíð Gunnlaugsson',
+ name: 'Sigmundur DavÃ­Ã° Gunnlaugsson',
  title: 'Prime Minister of Iceland who resigned after papers revealed he held undisclosed offshore investments',
  role: 'Prime Minister of Iceland who resigned after papers revealed he held undisclosed offshore investments',
  riskLevel: 'high',
- description: 'Sigmundur Davíð Gunnlaugsson. Profile pending review.',
+ description: 'Sigmundur DavÃ­Ã° Gunnlaugsson. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Sherron Watkins', type: 'organization' },
@@ -2781,7 +2807,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Sigmundur Davíð Gunnlaugsson', url: 'https://en.wikipedia.org/wiki/Sigmundur_Davíð_Gunnlaugsson', date: '' },
+ { title: 'Wikipedia: Sigmundur DavÃ­Ã° Gunnlaugsson', url: 'https://en.wikipedia.org/wiki/Sigmundur_DavÃ­Ã°_Gunnlaugsson', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2798,7 +2824,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'Sirhan Bishara Sirhan. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: Sigmundur Davíð Gunnlaugsson', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: Sigmundur DavÃ­Ã° Gunnlaugsson', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -4029,7 +4055,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
+ { title: 'Enron Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
  { date: '2002', event: 'WorldCom fraud exposed' },

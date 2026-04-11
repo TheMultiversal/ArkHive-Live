@@ -1,4 +1,4 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -155,9 +155,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Convicted on federal fraud charges',
  ],
  charges: [
- { statute: '18 U.S.C. § 1014', description: 'Wire fraud conspiracy', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 1956', description: 'Money laundering conspiracy', category: 'Financial Crimes' },
- { statute: '26 U.S.C. § 7206', description: 'Tax fraud', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. Â§ 1014', description: 'Wire fraud conspiracy', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. Â§ 1956', description: 'Money laundering conspiracy', category: 'Financial Crimes' },
+ { statute: '26 U.S.C. Â§ 7206', description: 'Tax fraud', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
  { title: 'Build the Wall Fraud', slug: 'build-the-wall-fraud', severity: 'high' },
@@ -337,12 +337,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Compared slaves to immigrants seeking better life',
  ],
  charges: [
- { statute: '31 U.S.C. § 1341 (Antideficiency Act)', description: 'Violation of Spending Limits; HUD IG found office spent $31,000 on dining furniture exceeding $5,000 statutory limit without proper authorization', category: 'Federal Spending' },
- { statute: '5 C.F.R. § 2635.702', description: 'Potential Use of Office for Private Gain; Son assisted with official HUD business trip and was promoted at department contractor', category: 'Potential Ethics' },
- { statute: '42 U.S.C. § 3608 (Fair Housing Act)', description: 'Failure to Affirmatively Further Fair Housing; Suspended Obama-era AFFH rule requiring localities to address segregation', category: 'Civil Rights' },
- { statute: '42 U.S.C. § 3604', description: 'Fair Housing Act Enforcement Failures; Weakened enforcement of housing discrimination complaints during tenure', category: 'Civil Rights' },
- { statute: '42 U.S.C. § 1437f (Section 8)', description: 'Policy Violations; Proposed increased rent burdens on poorest tenants, partially blocked by Congress', category: 'Housing Policy' },
- { statute: '5 U.S.C. § 3110 (Anti-Nepotism)', description: 'Potential Nepotism Concerns; Son reportedly involved in HUD matters and events while working for department contractor', category: 'Potential Ethics' },
+ { statute: '31 U.S.C. Â§ 1341 (Antideficiency Act)', description: 'Violation of Spending Limits; HUD IG found office spent $31,000 on dining furniture exceeding $5,000 statutory limit without proper authorization', category: 'Federal Spending' },
+ { statute: '5 C.F.R. Â§ 2635.702', description: 'Potential Use of Office for Private Gain; Son assisted with official HUD business trip and was promoted at department contractor', category: 'Potential Ethics' },
+ { statute: '42 U.S.C. Â§ 3608 (Fair Housing Act)', description: 'Failure to Affirmatively Further Fair Housing; Suspended Obama-era AFFH rule requiring localities to address segregation', category: 'Civil Rights' },
+ { statute: '42 U.S.C. Â§ 3604', description: 'Fair Housing Act Enforcement Failures; Weakened enforcement of housing discrimination complaints during tenure', category: 'Civil Rights' },
+ { statute: '42 U.S.C. Â§ 1437f (Section 8)', description: 'Policy Violations; Proposed increased rent burdens on poorest tenants, partially blocked by Congress', category: 'Housing Policy' },
+ { statute: '5 U.S.C. Â§ 3110 (Anti-Nepotism)', description: 'Potential Nepotism Concerns; Son reportedly involved in HUD matters and events while working for department contractor', category: 'Potential Ethics' },
  ],
  relatedInvestigations: [
  ],
@@ -1480,7 +1480,7 @@ const profiles: Record<string, IndividualProfile> = {
  'REDLINING: Ongoing discrimination allegations',
  ],
  charges: [
- { statute: '12 U.S.C. � 5531', description: 'Consumer Financial Protection Act, Mortgage fraud', category: 'SETTLED, $16.65B' },
+ { statute: '12 U.S.C. ï¿½ 5531', description: 'Consumer Financial Protection Act, Mortgage fraud', category: 'SETTLED, $16.65B' },
  { statute: 'Fair Housing Act', description: 'Lending discrimination', category: 'ONGOING LITIGATION' },
  ],
  relatedInvestigations: [
@@ -1596,10 +1596,10 @@ const profiles: Record<string, IndividualProfile> = {
  'WIFE CHARGED: Also indicted on bribery',
  ],
  charges: [
- { statute: '18 U.S.C. � 201', description: 'Bribery', category: 'CONVICTED 2024' },
- { statute: '18 U.S.C. � 1343', description: 'Honest services fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1346', description: 'Wire fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 951', description: 'Acting as foreign agent', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 201', description: 'Bribery', category: 'CONVICTED 2024' },
+ { statute: '18 U.S.C. ï¿½ 1343', description: 'Honest services fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1346', description: 'Wire fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 951', description: 'Acting as foreign agent', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Menendez Bribery', slug: 'menendez-bribery', severity: 'critical' },
@@ -1786,17 +1786,17 @@ const profiles: Record<string, IndividualProfile> = {
   'The Madoff Recovery Initiative led by trustee Irving Picard has recovered over $14.5 billion of the $17.5 billion in principal losses through lawsuits against feeder funds and net winners',
  ],
  charges: [
-  { statute: '18 U.S.C. § 1341', description: 'Mail fraud', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 1343', description: 'Wire fraud', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 1348', description: 'Securities fraud', category: 'Financial Crime' },
-  { statute: '15 U.S.C. § 80b-6', description: 'Investment adviser fraud', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 1956', description: 'Money laundering', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 1957', description: 'Monetary transactions in property derived from specified unlawful activity', category: 'Financial Crime' },
-  { statute: '18 U.S.C. § 1001', description: 'False statements', category: 'Perjury' },
-  { statute: '18 U.S.C. § 1621', description: 'Perjury', category: 'Perjury' },
-  { statute: '26 U.S.C. § 7206', description: 'False filing of income taxes', category: 'Tax Evasion' },
-  { statute: '15 U.S.C. § 78j(b)', description: 'Fraud in connection with securities', category: 'Securities Fraud' },
-  { statute: '18 U.S.C. § 371', description: 'International money laundering conspiracy', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 1341', description: 'Mail fraud', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 1343', description: 'Wire fraud', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 1348', description: 'Securities fraud', category: 'Financial Crime' },
+  { statute: '15 U.S.C. Â§ 80b-6', description: 'Investment adviser fraud', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 1956', description: 'Money laundering', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 1957', description: 'Monetary transactions in property derived from specified unlawful activity', category: 'Financial Crime' },
+  { statute: '18 U.S.C. Â§ 1001', description: 'False statements', category: 'Perjury' },
+  { statute: '18 U.S.C. Â§ 1621', description: 'Perjury', category: 'Perjury' },
+  { statute: '26 U.S.C. Â§ 7206', description: 'False filing of income taxes', category: 'Tax Evasion' },
+  { statute: '15 U.S.C. Â§ 78j(b)', description: 'Fraud in connection with securities', category: 'Securities Fraud' },
+  { statute: '18 U.S.C. Â§ 371', description: 'International money laundering conspiracy', category: 'Financial Crime' },
  ],
  relatedInvestigations: [
   { title: 'SEC Regulatory Capture and Failure', slug: 'wall-street-capture-of-sec', severity: 'critical' },
@@ -2403,8 +2403,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'bastian-obermayer': {
  name: 'Bastian Obermayer',
- title: 'Süddeutsche Zeitung journalist who received the leak and organized the global investigation with ICIJ',
- role: 'Süddeutsche Zeitung journalist who received the leak and organized the global investigation with ICIJ',
+ title: 'SÃ¼ddeutsche Zeitung journalist who received the leak and organized the global investigation with ICIJ',
+ role: 'SÃ¼ddeutsche Zeitung journalist who received the leak and organized the global investigation with ICIJ',
  riskLevel: 'high',
  description: 'Bastian Obermayer. Profile pending review.',
  education: [],
@@ -2419,7 +2419,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Panama Papers', slug: 'panama-papers', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Süddeutsche Zeitung journalist who received the leak and organized the global investigation with ICI' },
+ { date: 'Ongoing', event: 'Active in role as SÃ¼ddeutsche Zeitung journalist who received the leak and organized the global investigation with ICI' },
  ],
  socialMedia: [],
  sources: [
@@ -2530,7 +2530,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
- { name: 'John Connally', relationship: 'Protégé of Connally who claimed October Surprise role', href: '/entities/individuals/john-connally' },
+ { name: 'John Connally', relationship: 'ProtÃ©gÃ© of Connally who claimed October Surprise role', href: '/entities/individuals/john-connally' },
  { name: 'Gary Sick', relationship: 'Academic who investigated October Surprise that Barnes corroborated', href: '/entities/individuals/gary-sick' },
  ],
  },
@@ -2568,32 +2568,44 @@ const profiles: Record<string, IndividualProfile> = {
 
  'ben-glisan': {
  name: 'Ben Glisan',
- title: 'Enron Treasurer who pleaded guilty and became first Enron executive to go to prison',
- role: 'Enron Treasurer who pleaded guilty and became first Enron executive to go to prison',
+ title: 'Former Enron Treasurer convicted of conspiracy to commit wire and securities fraud; first Enron executive imprisoned',
+ role: 'Former Treasurer, Enron Corporation',
  riskLevel: 'high',
- description: 'Ben Glisan. Profile pending review.',
- education: [],
+ description: 'Ben F. Glisan Jr. served as Treasurer of Enron Corporation and was directly involved in structuring the off-balance-sheet transactions that concealed billions in debt from investors. Working under CFO Andrew Fastow, Glisan helped design and execute several of the Special Purpose Entities (SPEs) central to the Enron fraud, including participating in the Southampton Place partnership that generated illicit profits for insiders. Glisan personally invested $5,800 in Southampton Place and received a return of $1 million within weeks. When the Enron Task Force prosecutors closed in, Glisan pleaded guilty to a single count of conspiracy to commit wire and securities fraud on September 10, 2003. In an unusual move, he waived his right to remain free pending sentencing and was immediately taken into custody at the plea hearing, making him the first Enron executive to go to prison. He was sentenced to 5 years in federal prison. His early cooperation provided prosecutors with critical inside information about the SPE transactions, though he was less cooperative than other witnesses and refused to testify at the Lay/Skilling trial.',
+ education: ['University of Texas at Austin (BBA, Accounting)', 'University of Texas at Austin (MBA)'],
  affiliations: [
- { name: 'Enron', role: 'Executive', type: 'corporation' },
+ { name: 'Enron Corporation', role: 'Treasurer (2000-2001); previously Assistant Treasurer', type: 'corporation' },
+ { name: 'Arthur Andersen', role: 'Former auditor at Andersen before joining Enron', type: 'corporation' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- 'Court documents from related proceedings reference Ben Glisan as a key decision-maker during periods where regulatory violations were later documented.',
- 'Third-party audit reports flagged irregularities in programs overseen by Ben Glisan, though no formal investigation was initiated at the time.',
+ 'Invested $5,800 in the Southampton Place partnership (an insider fund connected to Fastow SPEs) and received a return of approximately $1 million within weeks, an astronomical and fraudulent return.',
+ 'Helped structure off-balance-sheet SPE transactions including Raptor hedging vehicles designed to hide losses and inflate earnings. His knowledge of the mechanics of the fraud was central to the prosecution case.',
+ 'Pleaded guilty on September 10, 2003, and immediately went to prison, waiving his right to remain free pending sentencing. First Enron executive incarcerated.',
+ 'Declined to testify at the Lay/Skilling trial despite his insider knowledge, limiting his value as a cooperator compared to Fastow and other witnesses.',
  ],
- charges: [],
+ charges: [
+ { charge: 'Conspiracy to Commit Wire and Securities Fraud (18 U.S.C. 371)', status: 'convicted', date: '2003-09-10' },
+ ],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
+ { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Enron Treasurer who pleaded guilty and became first Enron executive to go to prison' }, ],
+ { date: '2000', event: 'Promoted to Treasurer of Enron Corporation, reporting to CFO Andrew Fastow' },
+ { date: '2001', event: 'Participated in structuring Raptor and other SPE transactions that hid billions in Enron losses' },
+ { date: '2001-12-02', event: 'Enron files for bankruptcy. Glisan among executives under investigation by Enron Task Force.' },
+ { date: '2003-09-10', event: 'Pleads guilty to conspiracy to commit wire and securities fraud. Waives right to remain free and is immediately taken into custody, becoming first Enron executive imprisoned.' },
+ { date: '2003-09-10', event: 'Sentenced to 5 years in federal prison' },
+ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Ben Glisan', url: 'https://en.wikipedia.org/wiki/Ben_Glisan', date: '' }, ],
- aliases: [],
+ { title: 'DOJ Press Release: Ben Glisan Guilty Plea', url: 'https://www.justice.gov/archive/opa/pr/2003/September/03_crm_495.htm', date: '2003-09-10' },
+ { title: 'Wikipedia: Ben Glisan', url: 'https://en.wikipedia.org/wiki/Ben_Glisan', date: '' },
+ ],
+ aliases: ['Ben F. Glisan Jr.'],
  knownAssociates: [
- { name: 'Andrew Fastow', relationship: 'Enron treasurer who worked under Fastow\'s financial schemes', href: '/entities/individuals/andrew-fastow' },
- { name: 'Jeffrey Skilling', relationship: 'Enron CEO during Glisan\'s participation in fraud', href: '/entities/individuals/jeffrey-skilling' },
+ { name: 'Andrew Fastow', relationship: 'Enron CFO and Glisan direct superior who designed the SPE fraud architecture', href: '/entities/individuals/andrew-fastow' },
+ { name: 'Jeffrey Skilling', relationship: 'Enron CEO and President during the fraud period', href: '/entities/individuals/jeffrey-skilling' },
+ { name: 'Michael Kopper', relationship: 'Fellow Fastow lieutenant who managed Chewco and other SPEs', href: '/entities/individuals/michael-kopper' },
  ],
  },
 
@@ -3820,32 +3832,50 @@ const profiles: Record<string, IndividualProfile> = {
 
  'bethany-mclean': {
  name: 'Bethany McLean',
- title: 'Fortune magazine journalist who first publicly questioned Enron\'s business model and financial practices',
- role: 'Journalist',
+ title: 'Investigative journalist who first publicly questioned Enron financial health in her landmark Fortune article "Is Enron Overpriced?"',
+ role: 'Journalist / Author',
  riskLevel: 'low',
- description: 'Bethany McLean. Profile pending review.',
- education: [],
+ description: 'Bethany McLean was a Fortune magazine reporter who in March 2001 published the article "Is Enron Overpriced?" -- the first major piece of journalism to publicly question the financial health of what was then the seventh-largest company in America. McLean, a former Goldman Sachs investment banking analyst, noticed that Enron could not explain how it actually made money despite its enormous stated revenues. When she called CEO Jeffrey Skilling for comment, he called her "unethical" for asking the question. Her article planted the seed that led to the unraveling of the largest corporate fraud in American history at that time. She later co-authored "The Smartest Guys in the Room" (2003) with Peter Elkind, the definitive account of the Enron scandal, which became a bestseller and was adapted into an Oscar-nominated documentary. McLean went on to become a contributing editor at Vanity Fair and authored "All the Devils Are Here" (2010, with Joe Nocera) about the 2008 financial crisis and "Shaky Ground" (2015) about Fannie Mae and Freddie Mac. She is widely regarded as one of the most important financial journalists of her generation.',
+ education: ['Williams College (BA, Mathematics and English)'],
  affiliations: [
- { name: 'Fortune Magazine', role: 'Reporter', type: 'corporation' },
+ { name: 'Fortune Magazine', role: 'Reporter (1998-2005)', type: 'corporation' },
+ { name: 'Vanity Fair', role: 'Contributing Editor', type: 'corporation' },
+ { name: 'Goldman Sachs', role: 'Former Investment Banking Analyst', type: 'corporation' },
+ { name: 'CNBC / Bloomberg', role: 'Financial Commentator', type: 'corporation' },
  ],
  controversies: [
- 'Broke the story questioning Enron\'s financials despite industry pressure',
- 'Public filings and regulatory records indicate Bethany McLean facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Third-party audit reports flagged irregularities in programs overseen by Bethany McLean, though no formal investigation was initiated at the time.',
+ 'Published "Is Enron Overpriced?" in Fortune (March 5, 2001), the first major article to question Enron financial health. Enron CEO Jeffrey Skilling called her "unethical" in response. CFO Andrew Fastow flew to New York to pressure her editors. The article triggered wider scrutiny that contributed to the eventual exposure of $74 billion in fraud.',
+ 'Co-authored "The Smartest Guys in the Room" (2003) which became the definitive account of the Enron scandal and was adapted into a 2005 Oscar-nominated documentary directed by Alex Gibney.',
+ 'Co-authored "All the Devils Are Here" (2010) with Joe Nocera, investigating the causes of the 2008 financial crisis and the role of Wall Street firms, regulators, and government-sponsored enterprises.',
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
+ { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
  ],
  timeline: [
- { date: '2001', event: 'Published"Is Enron Overpriced?"in Fortune magazine, first major media questioning of Enron' }, ],
+ { date: '1970', event: 'Born in Missouri' },
+ { date: '1992', event: 'Graduated from Williams College with BA in Mathematics and English' },
+ { date: '1992', event: 'Worked as investment banking analyst at Goldman Sachs' },
+ { date: '1998', event: 'Joined Fortune magazine as a reporter covering corporate finance and Wall Street' },
+ { date: '2001-03-05', event: 'Published "Is Enron Overpriced?" in Fortune magazine. The article noted that no Wall Street analyst could explain how Enron actually made money. Skilling called her "unethical"; Fastow flew to Fortune offices to intimidate her editors.' },
+ { date: '2001-12-02', event: 'Enron files for bankruptcy, vindicating McLean original reporting. Her article credited as the first major crack in the Enron facade.' },
+ { date: '2003', event: 'Published "The Smartest Guys in the Room: The Amazing Rise and Scandalous Fall of Enron" with co-author Peter Elkind. Became a bestseller and the definitive Enron account.' },
+ { date: '2005', event: '"Enron: The Smartest Guys in the Room" documentary based on her book released. Nominated for Academy Award for Best Documentary Feature.' },
+ { date: '2010', event: 'Published "All the Devils Are Here: The Hidden History of the Financial Crisis" with co-author Joe Nocera, examining the 2008 crisis.' },
+ { date: '2015', event: 'Published "Shaky Ground: The Strange Saga of the U.S. Mortgage Giants" about Fannie Mae and Freddie Mac.' },
+ ],
  socialMedia: [],
  sources: [
- { title: 'Enron Scandal', url: '/investigations/enron-scandal', date: '' }, ],
+ { title: 'Is Enron Overpriced? (Original Fortune Article)', url: 'https://fortune.com/2001/03/05/is-enron-overpriced/', date: '2001-03-05' },
+ { title: 'The Smartest Guys in the Room (Book)', url: 'https://www.penguinrandomhouse.com/books/292147/the-smartest-guys-in-the-room-by-bethany-mclean-and-peter-elkind/', date: '2003-10-01' },
+ { title: 'Bethany McLean Profile (Columbia Journalism Review)', url: 'https://archives.cjr.org/feature/bethany_mclean.php', date: '2005-01-01' },
+ ],
  aliases: [],
  knownAssociates: [
- { name: 'Sherron Watkins', relationship: 'Watkins\' internal warnings corroborated McLean\'s Enron expose', href: '/entities/individuals/sherron-watkins' },
- { name: 'Jeffrey Skilling', relationship: 'Enron CEO whose fraud McLean helped expose', href: '/entities/individuals/jeffrey-skilling' },
+ { name: 'Peter Elkind', relationship: 'Co-author of "The Smartest Guys in the Room" (2003)', href: '' },
+ { name: 'Sherron Watkins', relationship: 'Enron whistleblower whose internal warnings corroborated McLean reporting', href: '/entities/individuals/sherron-watkins' },
+ { name: 'Jeffrey Skilling', relationship: 'Enron CEO who called McLean "unethical" for questioning the company', href: '/entities/individuals/jeffrey-skilling' },
+ { name: 'Joe Nocera', relationship: 'Co-author of "All the Devils Are Here" (2010)', href: '' },
  ],
  },
 
@@ -3928,11 +3958,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'bartolome-de-las-casas': {
- name: 'Bartolomé de las Casas',
+ name: 'BartolomÃ© de las Casas',
  title: 'Spanish Dominican Friar and Advocate for Indigenous Rights',
  role: 'Activist',
  riskLevel: 'low',
- description: 'Bartolomé de las Casas was a Spanish Dominican friar, priest, and writer who became the first resident Bishop of Chiapas. He documented Christopher Columbus\'s and subsequent colonizers\' atrocities against indigenous peoples in his seminal work "A Short Account of the Destruction of the Indies"(1552). He became one of the earliest advocates for the rights of indigenous peoples and is often considered a pioneer of human rights.',
+ description: 'BartolomÃ© de las Casas was a Spanish Dominican friar, priest, and writer who became the first resident Bishop of Chiapas. He documented Christopher Columbus\'s and subsequent colonizers\' atrocities against indigenous peoples in his seminal work "A Short Account of the Destruction of the Indies"(1552). He became one of the earliest advocates for the rights of indigenous peoples and is often considered a pioneer of human rights.',
  birthDate: 'November 11, 1484',
  birthPlace: 'Seville, Crown of Castile',
  deathDate: 'July 18, 1566',
@@ -4694,7 +4724,7 @@ const profiles: Record<string, IndividualProfile> = {
   ],
   charges: [
    {
-    statute: '20 U.S.C. § 1087e - Higher Education Act Violations',
+    statute: '20 U.S.C. Â§ 1087e - Higher Education Act Violations',
     description: 'Federal judge held DeVos Department in contempt for continuing to collect on loans from defrauded Corinthian Colleges students in violation of court order',
     category: 'regulatory',
    },
@@ -4762,12 +4792,12 @@ const profiles: Record<string, IndividualProfile> = {
   ],
   charges: [
    {
-    statute: 'Mass. Gen. Laws ch. 119 § 51A - Mandatory Reporter Failure',
+    statute: 'Mass. Gen. Laws ch. 119 Â§ 51A - Mandatory Reporter Failure',
     description: 'Failed to report known child sexual abuse to authorities as required by Massachusetts mandatory reporting laws',
     category: 'human-rights',
    },
    {
-    statute: '18 U.S.C. § 1512 - Obstruction (equivalent state charges)',
+    statute: '18 U.S.C. Â§ 1512 - Obstruction (equivalent state charges)',
     description: 'Systematically concealed evidence of child abuse, destroyed records, and transferred predator priests to avoid detection',
     category: 'obstruction',
    },
@@ -4831,7 +4861,7 @@ const profiles: Record<string, IndividualProfile> = {
   ],
   charges: [
    {
-    statute: '52 U.S.C. § 20507 - National Voter Registration Act Violations',
+    statute: '52 U.S.C. Â§ 20507 - National Voter Registration Act Violations',
     description: 'Purged voters using methods that violated NVRA requirements for notification and safeguards; multiple lawsuits filed',
     category: 'constitutional',
    },

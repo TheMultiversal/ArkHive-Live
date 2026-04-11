@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from"next/link";
@@ -191,12 +191,12 @@ const timelineEvents: TimelineEvent[] = [
  {
  date:"January 11, 2002",
  sortDate:"2002-01-11",
- title:"Guantánamo Bay Opens",
+ title:"GuantÃ¡namo Bay Opens",
  description:"Indefinite detention without trial begins. Torture including waterboarding, force-feeding. 780 detained, most never charged.",
  category:"War Crimes",
  severity:"critical",
  slug:"cia-torture-program",
- tags: ["Guantánamo","Torture"],
+ tags: ["GuantÃ¡namo","Torture"],
  },
  {
  date:"March 20, 2003",
@@ -751,8 +751,8 @@ const timelineEvents: TimelineEvent[] = [
  {
  date:"1982-1983",
  sortDate:"1982-01-01",
- title:"Guatemala Genocide (Ríos Montt)",
- description:"U.S.-backed dictator Ríos Montt oversaw genocide of Mayan people. 200,000 killed during 36-year civil war. Reagan praised him.",
+ title:"Guatemala Genocide (RÃ­os Montt)",
+ description:"U.S.-backed dictator RÃ­os Montt oversaw genocide of Mayan people. 200,000 killed during 36-year civil war. Reagan praised him.",
  category:"War Crimes",
  severity:"critical",
  slug:"guatemala-genocide",
@@ -965,7 +965,7 @@ const timelineEvents: TimelineEvent[] = [
  description:"Enron's massive accounting fraud destroyed $74 billion in value. Executives criminally charged. Arthur Andersen dissolved. 20,000 jobs lost.",
  category:"Financial Crimes",
  severity:"critical",
- slug:"enron-scandal",
+ slug:"enron-corporate-fraud-scandal",
  tags: ["Fraud","Enron","Accounting"],
  },
  {
@@ -2925,7 +2925,7 @@ const timelineEvents: TimelineEvent[] = [
  date: 'June 7, 2023',
  sortDate: '2023-06-07',
  title: 'International Authoritarian Network',
- description: 'Putin, Xi, Orbán, and the global strongman alliance',
+ description: 'Putin, Xi, OrbÃ¡n, and the global strongman alliance',
  category: 'Geopolitics',
  severity: 'high',
  slug: 'authoritarian-network',
@@ -3484,7 +3484,7 @@ const timelineEvents: TimelineEvent[] = [
  {
  date: 'October 30, 2012',
  sortDate: '2012-10-30',
- title: 'Nestlé Baby Formula Scandal',
+ title: 'NestlÃ© Baby Formula Scandal',
  description: 'Marketing that killed infants',
  category: 'Corporate Malfeasance',
  severity: 'critical',

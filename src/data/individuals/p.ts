@@ -2654,6 +2654,44 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'James Sutton Regan', relationship: 'Managing general partner at Princeton/Newport; co-defendant', href: '/entities/individuals/james-sutton-regan' },
     ],
   },
+
+  'paula-rieker': {
+    name: 'Paula Rieker',
+    title: 'Former Enron Investor Relations Managing Director convicted of insider trading; cooperated with prosecution',
+    role: 'Former Managing Director of Investor Relations, Enron Corporation',
+    riskLevel: 'medium',
+    description: 'Paula Rieker served as Managing Director of Investor Relations at Enron Corporation, where she was responsible for communicating the company\'s financial performance and business outlook to Wall Street analysts and institutional shareholders. In this role, Rieker had access to material non-public information about Enron\'s true financial condition -- information she used for personal profit through insider trading.\n\nRieker was convicted of insider trading for selling Enron stock based on confidential knowledge of the company\'s deteriorating financial situation before it became public. She cooperated with federal prosecutors and provided testimony that helped build the government\'s case against Enron\'s top executives, including CEO Jeffrey Skilling and Chairman Kenneth Lay. Her cooperation, combined with the nature of her offense, resulted in a sentence of probation rather than imprisonment -- a significant leniency that reflected prosecutors\' reliance on her as a cooperating witness.\n\nRieker\'s case illustrates the depth to which Enron\'s fraud permeated even the departments responsible for external communications. As a senior member of the Investor Relations team, she occupied the critical junction between Enron\'s internal knowledge of its fraudulent accounting and the optimistic narrative the company presented to the market.',
+    affiliations: [
+      { name: 'Enron Corporation', role: 'Managing Director, Investor Relations', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted of insider trading for selling Enron stock based on material non-public information',
+      'Used access to confidential financial data to profit before Enron\'s collapse became public',
+      'Cooperated with federal prosecutors and testified against Enron executives',
+      'Received probation rather than prison time due to cooperation agreement',
+    ],
+    charges: [
+      { charge: 'Insider Trading', status: 'convicted' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Corporate Fraud Scandal', slug: 'enron-corporate-fraud-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy' },
+      { date: '2004', event: 'Pleaded guilty to insider trading; agreed to cooperate with federal prosecutors' },
+      { date: '2006', event: 'Testified as prosecution witness in the trial of Kenneth Lay and Jeffrey Skilling' },
+      { date: '2007', event: 'Sentenced to probation for insider trading conviction' },
+    ],
+    sources: [
+      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+      { title: 'Former Enron Executive Charged with Insider Trading -- DOJ Press Release', url: 'https://www.justice.gov/archive/dag/cftf/chargingdocs/riekerinfo.pdf', date: '2004' },
+    ],
+    knownAssociates: [
+      { name: 'Mark Koenig', relationship: 'Enron Head of Investor Relations and fellow cooperating witness', href: '/entities/individuals/mark-koenig' },
+      { name: 'Jeffrey Skilling', relationship: 'Enron CEO; Rieker testified against him at trial', href: '/entities/individuals/jeffrey-skilling' },
+      { name: 'Kenneth Lay', relationship: 'Enron Chairman; Rieker testified against him at trial', href: '/entities/individuals/ken-lay' },
+    ],
+  },
 };
 
 export default profiles;
