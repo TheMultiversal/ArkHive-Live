@@ -745,36 +745,6 @@ const scrubbedFromInternetData: Record<string, ScrubbedItem[]> = {
     },
   ],
 
-  'cia-torture': [
-    {
-      title: 'CIA Destroyed 92 Interrogation Videotapes',
-      type: 'destroyed',
-      description: 'The CIA destroyed 92 videotapes documenting the waterboarding and torture of Abu Zubaydah and Abd al-Rahim al-Nashiri at black sites. CIA Director Jose Rodriguez ordered the destruction in November 2005 despite multiple court orders and congressional requests to preserve them. A special prosecutor investigated but filed no charges. The tapes were the only direct visual record of the CIA torture program.',
-      originalSource: 'CIA black site facilities',
-      dateRemoved: '2005-11',
-      removedBy: 'Jose Rodriguez, CIA Clandestine Service Director',
-      recoveryStatus: 'lost',
-    },
-    {
-      title: 'Senate Torture Report (6,700 Pages) Still Classified',
-      type: 'classified',
-      description: 'The Senate Select Committee on Intelligence produced a 6,700-page report on the CIA torture program. Only a 525-page executive summary was released in December 2014. The full report, containing detailed accounts of torture techniques, lies to Congress, and the program complete failure to produce actionable intelligence, remains classified. The CIA fought to keep even the summary secret.',
-      originalSource: 'Senate Select Committee on Intelligence',
-      dateRemoved: 'Ongoing since 2014',
-      removedBy: 'CIA / Executive branch classification',
-      recoveryStatus: 'partial',
-    },
-    {
-      title: 'CIA "Enhanced Interrogation" Legal Memos',
-      type: 'redacted',
-      description: 'The "Torture Memos" written by OLC attorneys John Yoo and Jay Bybee were heavily redacted when partially released. The full legal analysis authorizing waterboarding, stress positions, sleep deprivation, and other techniques on detainees, including the internal dissent from career DOJ attorneys, has never been fully disclosed.',
-      originalSource: 'DOJ Office of Legal Counsel',
-      dateRemoved: '2002-2009',
-      removedBy: 'DOJ / CIA',
-      recoveryStatus: 'partial',
-    },
-  ],
-
   'civil-rights': [
     {
       title: 'FBI COINTELPRO Files on Civil Rights Leaders',

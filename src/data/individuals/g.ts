@@ -578,7 +578,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Geneva Convention III Article 17', description: 'POW Torture; Authorized illegal interrogation of detainees', category: 'International' },
  ],
  relatedInvestigations: [
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
+ { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
  { title: 'September 11 Attacks & Accountability Failures', slug: 'september-11', severity: 'critical' },
  { title: 'Extraordinary Rendition', slug: 'rendition', severity: 'critical' },

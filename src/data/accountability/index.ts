@@ -97,7 +97,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'charleston-massacre': charlestonMassacreAccountability,
   'chicago-police-torture': chicagoPolTortureAccountability,
   'child-exploitation': childExploitationAccountability,
-  'cia-torture': ciaTortureAccountability,
+  'cia-torture-program': ciaTortureAccountability,
   'civil-rights': civilRightsAccountability,
   'civil-rights-rollbacks': civilRightsRollbacksAccountability,
   'climate-denial': climateDenialAccountability,

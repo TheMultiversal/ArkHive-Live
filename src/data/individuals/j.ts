@@ -1750,7 +1750,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: '18 U.S.C. Ã‚Â§ 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
+ { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
  { title: 'Rendition', slug: 'rendition', severity: 'critical' },
  ],
  timeline: [
@@ -1881,7 +1881,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Convention Against Torture', description: 'Authorized torture techniques', category: 'International Crime' },
  ],
  relatedInvestigations: [
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
+ { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
  ],
  timeline: [
  { date: 'October 24, 1953', event: 'Born in Las Vegas, Nevada' },

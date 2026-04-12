@@ -95,12 +95,6 @@ const investigationDefendants: Record<string, Defendant[]> = {
     { name: 'Allen Weisselberg', imageUrl: '/defendants/allen-weisselberg.svg', role: 'CFO who orchestrated tax fraud and false valuations', status: 'convicted', charges: ['Grand larceny', 'Tax fraud'], sentence: '5 months', convictionDate: '2022-08-18' },
     { name: 'Trump Organization', imageUrl: '/defendants/trump-organization.jpg', role: 'Corporate entity found guilty of fraud schemes', status: 'convicted', charges: ['Tax fraud', 'Scheme to defraud', 'Falsifying business records'], fine: '$1.6 million', convictionDate: '2022-12-06' },
   ],
-  'cia-torture': [
-    { name: 'James Mitchell', imageUrl: '/defendants/james-mitchell.svg', role: 'Psychologist who designed CIA torture program', status: 'pending', notes: 'Contracted by CIA; testified at Guantanamo hearings; settled civil lawsuit with ACLU' },
-    { name: 'Bruce Jessen', imageUrl: '/defendants/bruce-jessen.jpg', role: 'Psychologist who co-designed torture program', status: 'pending', notes: 'Contracted by CIA alongside Mitchell; their firm paid $81 million' },
-    { name: 'Gina Haspel', imageUrl: '/defendants/gina-haspel.jpg', role: 'CIA officer who oversaw black site; later CIA Director', status: 'pending', notes: 'Ran Thailand black site; promoted to CIA Director 2018; never charged' },
-    { name: 'Jose Rodriguez', imageUrl: '/defendants/jose-rodriguez.jpg', role: 'CIA official who ordered destruction of interrogation tapes', status: 'pending', notes: 'Destroyed 92 tapes; DOJ declined to prosecute in 2010' },
-  ],
   'covid-misinfo': [
     { name: 'Alex Jones', imageUrl: '/defendants/alex-jones.jpg', role: 'Promoted conspiracy theories and dangerous treatments', status: 'convicted', fine: '$1.5 billion', notes: 'Defamation judgment in Sandy Hook case; separately spread COVID misinformation' },
     { name: 'Fox News', imageUrl: '/defendants/fox-news.jpg', role: 'Amplified misinformation about treatments and vaccines', status: 'settled', fine: '$787.5 million', notes: 'Dominion Voting Systems defamation settlement 2023; largest media defamation settlement in US history' },

@@ -1,7 +1,7 @@
 import type { AccountabilityData } from '@/types/accountability';
 
 export const ciaTortureAccountability: AccountabilityData = {
-  investigationSlug: 'cia-torture',
+  investigationSlug: 'cia-torture-program',
 
   crimeSummary: 'Following 9/11, the CIA established a global network of secret "black site" prisons where detainees were subjected to systematic torture euphemistically called "enhanced interrogation techniques." Waterboarding, sleep deprivation for up to 180 hours, stress positions, rectal feeding, mock executions, confinement in coffin-sized boxes, and hypothermia were among the documented methods. The program was authorized by DOJ\'s Office of Legal Counsel through the infamous "torture memos" written by John Yoo and Jay Bybee, which provided legal cover for techniques that clearly violated the Geneva Conventions, the UN Convention Against Torture (ratified by the U.S.), and U.S. federal torture statutes. At least 119 individuals were held in black sites. The Senate Intelligence Committee\'s "Torture Report" (2014) found that the program was far more brutal than the CIA represented to Congress, that it produced no unique intelligence, and that the CIA systematically lied about its effectiveness. No CIA officer, contractor, or official has been criminally prosecuted for torture. The sole prosecution was of CIA officer John Kiriakou  -  who blew the whistle on the program and served 30 months in prison.',
 

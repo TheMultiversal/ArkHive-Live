@@ -810,12 +810,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2024-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$744M', purpose: 'Personal financial benefits gained through corruption in Coffee County Election Breach', documented: false },
   ],
 
-  'cia-torture': [
-    { date: '2011-01-01', from: 'CIA', to: 'Military/security operations', amount: '$162.5B', purpose: 'Military spending on operations involving atrocities in CIA Torture Program', documented: false },
-    { date: '2013-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$5.2B', purpose: 'Weapons industry profits from conflict in CIA Torture Program', documented: true },
-    { date: '2016-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$11.6B', purpose: 'Reparations and frozen assets related to CIA Torture Program', documented: true },
-  ],
-
   'cia-black-sites': [
     { date: '2011-01-01', from: 'CIA', to: 'Military/security operations', amount: '$66.9B', purpose: 'Military spending on operations involving atrocities in CIA Black Sites', documented: false },
     { date: '2013-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$17.2B', purpose: 'Weapons industry profits from conflict in CIA Black Sites', documented: true },

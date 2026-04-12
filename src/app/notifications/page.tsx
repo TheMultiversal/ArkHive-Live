@@ -403,7 +403,7 @@ const mockNotifications: NotificationItem[] = [
  message: 'CIA Torture and CIA Black Sites investigations linked, shared entity network identified.',
  read: true,
  timestamp: new Date(Date.now() - 1000 * 60 * 60 * 130),
- actionUrl: '/investigations/cia-torture',
+ actionUrl: '/investigations/cia-torture-program',
  },
  {
  id: 'notif_41',

@@ -769,7 +769,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  relatedInvestigations: [
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
+ { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
  { title: 'September 11 Attacks & Accountability Failures', slug: 'september-11', severity: 'critical' },
  { title: 'War Crimes Investigation', slug: 'war-crimes', severity: 'critical' },
  { title: 'Extraordinary Rendition', slug: 'rendition', severity: 'critical' },

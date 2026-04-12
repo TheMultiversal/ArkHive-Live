@@ -955,38 +955,6 @@ const whereIsTheMoneyNowData: Record<string, WealthDestination[]> = {
     },
   ],
 
-  'cia-torture': [
-    {
-      name: 'Mitchell, Jessen & Associates',
-      relationship: 'Two psychologists who designed the CIA "enhanced interrogation" (torture) program and were paid $81 million',
-      transferMethod: 'James Mitchell and Bruce Jessen received a $81 million contract from CIA to design torture techniques including waterboarding, stress positions, rectal feeding, and sleep deprivation.',
-      estimatedValue: '$81 million paid; firm dissolved. Mitchell and Jessen settled ACLU lawsuit in 2017 (terms undisclosed).',
-      legalEntities: ['Mitchell, Jessen & Associates'],
-      recoveryMechanisms: ['ACLU Civil Lawsuit (settled)', 'Senate Intelligence Committee Investigation', 'International Criminal Accountability'],
-      restitutionStatus: 'evaded',
-      orderedAmount: '$81,000,000',
-      collectedAmount: '$0',
-    },
-    {
-      name: 'CIA / U.S. Government',
-      relationship: 'Operated global network of "black sites" where at least 119 people were subjected to torture between 2002-2007',
-      transferMethod: 'Hundreds of millions in black budget funds used to build and operate secret prisons in Poland, Romania, Thailand, Lithuania, and other countries. Program cost over $300 million.',
-      estimatedValue: '$300+ million program cost. Zero CIA personnel held accountable. Senate Torture Report (2014) remains partially classified.',
-      legalEntities: ['Central Intelligence Agency', 'Various foreign government partners'],
-      recoveryMechanisms: ['Senate Intelligence Committee Report', 'International Criminal Court', 'European Court of Human Rights rulings'],
-      restitutionStatus: 'evaded',
-    },
-    {
-      name: 'Jose Rodriguez / CIA Leadership',
-      relationship: 'CIA Counterterrorism Center director who ordered destruction of 92 interrogation videotapes to prevent accountability',
-      transferMethod: 'Rodriguez destroyed evidence of torture on tape despite orders to preserve them. No criminal charges filed. Wrote a book defending the program.',
-      estimatedValue: 'Rodriguez retired with full pension and benefits',
-      legalEntities: ['CIA Counterterrorism Center'],
-      recoveryMechanisms: ['DOJ Investigation (no charges)', 'Congressional Oversight', 'FOIA Litigation'],
-      restitutionStatus: 'evaded',
-    },
-  ],
-
   'civil-rights': [
     {
       name: 'Systematic Wealth Extraction from Black Americans',
