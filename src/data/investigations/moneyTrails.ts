@@ -1835,11 +1835,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2006-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$1.8B', purpose: 'Settlements and compensation to victims of The U.S. Drone Program: Extrajudicial Killing and Civilian Casualties', documented: true },
   ],
 
-  'domestic-surveillance-state': [
-    { date: '2024-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$1.6B', purpose: 'Government spending on operations that violated civil rights in The Domestic Surveillance State: Mass Spying on Americans', documented: true },
-    { date: '2025-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$2.5B', purpose: 'Settlements and compensation to victims of The Domestic Surveillance State: Mass Spying on Americans', documented: true },
-  ],
-
   'disability-benefits-denial-machine': [
     { date: '2024-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$11.9B', purpose: 'Government spending on programs implicated in Social Security Disability Denial Machine', documented: true },
     { date: '2025-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$2.1B', purpose: 'Settlement costs and remediation arising from Social Security Disability Denial Machine', documented: true },
@@ -3905,12 +3900,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2019-01-01', from: 'Police department', to: 'Militarized equipment purchases', amount: '$387M', purpose: 'Equipment and training spending related to NYPD Racial Profiling: Stop-and-Frisk and Systemic Discrimination', documented: true },
   ],
 
-  'nsa-stellarwind-warrantless-wiretapping': [
-    { date: '2025-01-01', from: 'Government agencies', to: 'NSA', amount: '$2.4B', purpose: 'Contracts for surveillance technology related to NSA Stellarwind Warrantless Wiretapping', documented: false },
-    { date: '2025-01-01', from: 'NSA', to: 'Data monetization revenue', amount: '$171.9B', purpose: 'Revenue from data collection practices exposed in NSA Stellarwind Warrantless Wiretapping', documented: true },
-    { date: '2025-01-01', from: 'NSA', to: 'Regulatory fines and settlements', amount: '$6.1B', purpose: 'Privacy violation penalties resulting from NSA Stellarwind Warrantless Wiretapping', documented: true },
-  ],
-
   'nuclear-weapons-complex-environmental-crime': [
     { date: '2018-01-01', from: 'DOE', to: 'Revenue from polluting operations', amount: '$164.4B', purpose: 'Revenue from operations causing environmental damage in Nuclear Weapons Complex Environmental Crime', documented: true },
     { date: '2023-01-01', from: 'DOE', to: 'EPA fines and cleanup costs', amount: '$17.0B', purpose: 'Environmental remediation and regulatory penalties for Nuclear Weapons Complex Environmental Crime', documented: true },
@@ -3972,11 +3961,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1945-01-01', from: 'DOE', to: 'Revenue from harmful products/practices', amount: '$65.6B', purpose: 'Revenue generated from products or practices at center of Nuclear Testing Fallout: Irradiated Citizens and Abandoned Veterans', documented: true },
     { date: '1947-01-01', from: 'DOE', to: 'Lobbying and political influence', amount: '$1.4B', purpose: 'Lobbying expenditures to prevent regulation related to Nuclear Testing Fallout: Irradiated Citizens and Abandoned Veterans', documented: true },
     { date: '1949-01-01', from: 'DOE', to: 'Settlements and victim compensation', amount: '$6.1B', purpose: 'Legal settlements and compensation arising from Nuclear Testing Fallout: Irradiated Citizens and Abandoned Veterans', documented: true },
-  ],
-
-  'nsa-mass-surveillance-constitutional-erosion': [
-    { date: '2024-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$6.1B', purpose: 'Government spending on operations that violated civil rights in NSA Mass Surveillance and Constitutional Rights Erosion', documented: true },
-    { date: '2025-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$7.9B', purpose: 'Settlements and compensation to victims of NSA Mass Surveillance and Constitutional Rights Erosion', documented: true },
   ],
 
   'nursing-home-neglect-deaths': [
@@ -5093,11 +5077,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2011-01-01', from: 'Government', to: 'Victim support and restitution', amount: '$215M', purpose: 'Victim restitution and support programs from Sovereign Debt Exploitation', documented: true },
   ],
 
-  'surveillance-state': [
-    { date: '2012-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$2.0B', purpose: 'Government spending on operations that violated civil rights in The Surveillance State', documented: true },
-    { date: '2016-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$5.2B', purpose: 'Settlements and compensation to victims of The Surveillance State', documented: true },
-  ],
-
   'serbia-bombing': [
     { date: '2010-01-01', from: 'US taxpayers', to: 'Pentagon', amount: '$82.3B', purpose: 'Budget allocation for operations connected to NATO Bombing of Serbia/Kosovo', documented: false },
     { date: '2011-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$14.2B', purpose: 'Contractor profits from programs related to NATO Bombing of Serbia/Kosovo', documented: true },
@@ -5750,12 +5729,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1501-01-01', from: 'Leopold II', to: 'Military/security operations', amount: '$92.7B', purpose: 'Military spending on operations involving atrocities in Transatlantic Slave Trade', documented: false },
     { date: '1503-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$68.4B', purpose: 'Weapons industry profits from conflict in Transatlantic Slave Trade', documented: true },
     { date: '1506-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$12.2B', purpose: 'Reparations and frozen assets related to Transatlantic Slave Trade', documented: true },
-  ],
-
-
-  'total-information-awareness': [
-    { date: '2013-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$7.0B', purpose: 'Government spending on operations that violated civil rights in Total Information Awareness and Mass Surveillance Architecture', documented: true },
-    { date: '2017-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$580M', purpose: 'Settlements and compensation to victims of Total Information Awareness and Mass Surveillance Architecture', documented: true },
   ],
 
   'tiktok-national-security-data-harvesting': [

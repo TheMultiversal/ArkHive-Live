@@ -775,58 +775,6 @@ const investigations_s: Record<string, InvestigationData> = {
 
  ],
  },
-  'surveillance-state': {
- title: 'The Surveillance State',
- subtitle: 'Mass surveillance of Americans by their own government',
- severity: 'critical',
- category: 'Civil Liberties',
- date: 'August 23, 2012',
- lastUpdated: 'May 17, 2025',
- summary: 'After 9/11, the U.S. government built the most extensive surveillance apparatus in human history. The NSA collects phone records of every American, intercepts internet communications globally, and has secret access to tech company servers. Edward Snowden\'s revelations showed surveillance far exceeding what officials admitted. Despite reforms, mass surveillance continues, enabled by secret courts, compliant companies, and bipartisan support for "national security."',
- content: [
- 'PRE-SNOWDEN DENIALS: Before Snowden, officials denied mass surveillance. NSA Director James Clapper told Congress the NSA didn\'t collect data on millions of Americans. This was a lie. The surveillance was systematic and comprehensive.',
- 'STELLAR WIND: After 9/11, the Bush administration secretly authorized warrantless surveillance of American communications, program codenamed Stellar Wind. It violated the Foreign Intelligence Surveillance Act but continued for years with no legal authorization.',
- 'PRISM: Snowden revealed PRISM, NSA\'s program collecting data directly from tech company servers: Microsoft, Yahoo, Google, Facebook, Apple, and others. The companies variously denied knowledge or cooperation, but the documents showed extensive access.',
- 'METADATA COLLECTION: The NSA collected "metadata "on every phone call made in America, who called whom, when, for how long. Officials claimed metadata isn\'t content, but metadata reveals intimate details of life: doctors, lawyers, lovers, political activities.',
- 'SECTION 215: The legal basis for bulk collection was a strained interpretation of Patriot Act Section 215, which allowed collecting records "relevant" to investigations. The government claimed all phone records were relevant because terrorists might use phones.',
- 'FISA COURT RUBBER STAMP: The Foreign Intelligence Surveillance Court was supposed to provide judicial oversight. Instead, it approved virtually every government request and allowed legal interpretations so broad as to authorize mass surveillance the law\'s authors never intended.',
- 'UPSTREAM COLLECTION: The NSA also collects data "upstream"|tapping fiber optic cables carrying internet traffic. This collects communications of millions of people, including Americans, as data flows through collection points.',
- 'XKEYSCORE: This NSA program allows analysts to search collected internet data, emails, social media, browsing history, with minimal restrictions. Snowden said an analyst could surveil anyone from "you to your accountant to a federal judge."',
- 'TECH COMPANY COMPLICITY: Technology companies cooperated with NSA surveillance while publicly denying it. Some were compelled by secret court orders. Others cooperated more willingly. The full extent of complicity remains unclear.',
- 'REFORM THEATER: After Snowden, Congress passed the USA Freedom Act, supposedly ending bulk phone records collection. But the law had loopholes. Other surveillance programs continued unchanged. The surveillance state adapted rather than retreated.',
- 'ONGOING SURVEILLANCE: Section 702 of FISA, authorizing warrantless surveillance of foreigners, inevitably collects American communications. The FBI queries this data for domestic criminal investigations, a backdoor around warrant requirements.',
- 'CHILLING EFFECTS: Mass surveillance chills free speech and association. Knowing the government might be watching changes behavior, what people say, whom they contact, what they read. The surveillance state is incompatible with freedom.'
- ],
- tags: ['NSA', 'Surveillance', 'Edward Snowden', 'PRISM', 'FISA', 'Privacy', 'Civil Liberties', 'Patriot Act'],
- sources: [
- { title: 'Snowden Documents Archive', url: 'https://www.aclu.org/nsa-documents-search', type: 'Primary Documents' },
- { title: 'Washington Post, NSA Slides on PRISM', url: 'https://www.washingtonpost.com/investigations/us-intelligence-mining-data-from-nine-us-internet-companies-in-broad-secret-program/2013/06/06/3a0c0da8-cebf-11e2-8845-d970ccb04497_story.html', type: 'Investigation' },
- { title: 'Guardian, NSA Collecting Phone Records', url: 'https://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order', type: 'Investigation' },
- { title: 'EFF, NSA Spying', url: 'https://www.eff.org/nsa-spying', type: 'Analysis' },
- { title: 'Permanent Record by Edward Snowden', url: 'https://us.macmillan.com/books/9781250237231/permanentrecord', type: 'Book' }
- ],
- affiliations: [
- { id: '1', name: 'NSA', type: 'agency', relationship: 'Primary surveillance agency', href: '/entities/agencies/nsa' },
- { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Whistleblower who exposed programs', href: '/entities/individuals/edward-snowden' },
- { id: '3', name: 'James Clapper', type: 'individual', relationship: 'DNI who lied to Congress', href: '/entities/individuals/james-clapper' },
- { id: '4', name: 'FISA Court', type: 'agency', relationship: 'Secret court enabling surveillance', href: '/entities/agencies/fisa-court' },
- { id: '5', name: 'Google', type: 'corporation', relationship: 'PRISM participant', href: '/entities/corporations/google' },
- { id: '6', name: 'Facebook', type: 'corporation', relationship: 'PRISM participant', href: '/entities/corporations/facebook' }
- ],
-   eventOriginDate: '2012-08-23',
-   lastActivityDate: '2025-05-17',
-   pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001-10-26', event: 'Patriot Act signed into law, enabling mass surveillance programs including bulk phone metadata collection under Section 215', type: 'critical' },
-     { date: '2020', event: 'Continued developments in snowden documents archive with new evidence emerging', type: 'default' }
-   ],
-
- defendants: [
-
-   { name: 'NSA/Tech Companies', role: 'Mass surveillance apparatus monitoring billions of communications globally', status: 'pending', notes: 'Snowden revelations showed complicity of Google, Apple, Microsoft, Facebook in PRISM program' }
-
- ],
- },
   'serbia-bombing': {
  title: 'NATO Bombing of Serbia/Kosovo',
  subtitle: '78 days of bombing that killed civilians and set dangerous precedents',

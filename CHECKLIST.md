@@ -297,7 +297,7 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/doj-two-tiered-justice-system [d.ts]
 - [ ] /investigations/domestic-extremism [d.ts]
 - [ ] /investigations/domestic-servitude-hidden-victims [d.ts]
-- [ ] /investigations/domestic-surveillance-state [d.ts]
+- [x] /investigations/domestic-surveillance-state [d.ts] -- DELETED (consolidated into nsa-mass-surveillance)
 - [ ] /investigations/domestic-terrorism [d.ts]
 - [ ] /investigations/domestic-terrorism-in-america [d.ts]
 - [ ] /investigations/domestic-violence-system-failures [d.ts]
@@ -674,8 +674,8 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/north-korean-prison-camps [n.ts]
 - [ ] /investigations/nra-corruption [n.ts]
 - [ ] /investigations/nra-russia [n.ts]
-- [ ] /investigations/nsa-mass-surveillance-constitutional-erosion [n.ts]
-- [ ] /investigations/nsa-stellarwind-warrantless-wiretapping [n.ts]
+- [x] /investigations/nsa-mass-surveillance-constitutional-erosion [n.ts] -- DELETED (consolidated into nsa-mass-surveillance)
+- [x] /investigations/nsa-stellarwind-warrantless-wiretapping [n.ts] -- DELETED (consolidated into nsa-mass-surveillance)
 - [ ] /investigations/nsa-warrantless-wiretapping [n.ts]
 - [ ] /investigations/nuclear-testing-fallout-veterans [n.ts]
 - [ ] /investigations/nuclear-testing-human-experimentation [n.ts]
@@ -946,7 +946,7 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/supreme-court-ethics-crisis [s.ts]
 - [ ] /investigations/surveillance-capitalism [s.ts]
 - [ ] /investigations/surveillance-expansion [s.ts]
-- [ ] /investigations/surveillance-state [s.ts]
+- [x] /investigations/surveillance-state [s.ts] -- DELETED (consolidated into nsa-mass-surveillance)
 - [ ] /investigations/sutherland-springs-shooting [s.ts]
 - [ ] /investigations/swiss-bank-secrecy-complicity [s.ts]
 - [ ] /investigations/syrian-chemical-weapons [s.ts]
@@ -982,7 +982,7 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/tobacco-industry-playbook-in-pharma [t.ts]
 - [ ] /investigations/torture-accountability [t.ts]
 - [ ] /investigations/torture-program [t.ts]
-- [ ] /investigations/total-information-awareness [t.ts]
+- [x] /investigations/total-information-awareness [t.ts] -- DELETED (consolidated into nsa-mass-surveillance)
 - [ ] /investigations/toxic-waste-dumping-developing-nations [t.ts]
 - [ ] /investigations/trade-based-money-laundering-schemes [t.ts]
 - [ ] /investigations/trafficking-corridors-central-america [t.ts]

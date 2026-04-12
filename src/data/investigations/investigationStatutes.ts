@@ -1608,11 +1608,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 1591', description: 'Sex Trafficking' },
   ],
-  'domestic-surveillance-state': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 1621', description: 'Perjury' },
-    { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
-  ],
   'domestic-terrorism': [
     { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
     { code: '18 U.S.C. § 1344', description: 'Bank Fraud' },
@@ -3661,17 +3656,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '22 U.S.C. § 611', description: 'Foreign Agents Registration Act' },
     { code: '18 U.S.C. § 371', description: 'Conspiracy' },
   ],
-  'nsa-mass-surveillance-constitutional-erosion': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 1621', description: 'Perjury' },
-  ],
-  'nsa-stellarwind-warrantless-wiretapping': [
-    { code: '50 U.S.C. § 1801', description: 'Foreign Intelligence Surveillance Act' },
-    { code: '18 U.S.C. § 2511', description: 'Wiretap Act' },
-    { code: '12 U.S.C. § 3401', description: 'Right to Financial Privacy Act' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 2340A', description: 'Torture' },
-  ],
   'nsa-warrantless-wiretapping': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
@@ -5150,9 +5134,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
-  'surveillance-state': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-  ],
   'sutherland-springs-shooting': [
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
@@ -5328,10 +5309,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 2340A', description: 'Torture' },
     { code: '18 U.S.C. § 2441', description: 'War Crimes Act' },
-  ],
-  'total-information-awareness': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
   ],
   'toxic-waste-dumping-developing-nations': [
     { code: '42 U.S.C. § 7413', description: 'Clean Air Act Violations' },

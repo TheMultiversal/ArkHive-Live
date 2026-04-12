@@ -2678,7 +2678,7 @@ const timelineEvents: TimelineEvent[] = [
  description: 'Mass surveillance of Americans by their own government',
  category: 'Civil Liberties',
  severity: 'critical',
- slug: 'surveillance-state',
+ slug: 'nsa-mass-surveillance',
  tags: ['Surveillance'],
  },
  {

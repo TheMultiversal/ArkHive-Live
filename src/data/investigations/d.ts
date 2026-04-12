@@ -2567,46 +2567,6 @@ const investigations_d: Record<string, InvestigationData> = {
 
     ],
   },
-  'domestic-surveillance-state': {
-    title: 'The Domestic Surveillance State: Mass Spying on Americans',
-    subtitle: 'How NSA, FBI, and intelligence agencies built a massive surveillance apparatus collecting data on virtually every American citizen in violation of the Fourth Amendment',
-    severity: 'critical' as const,
-    category: 'Civil Liberties',
-    date: '2024-07-20',
-    lastUpdated: '2025-03-01',
-    summary: 'Since 2001, U.S. intelligence agencies have constructed the most comprehensive surveillance apparatus in human history, collecting the phone records, emails, internet activity, financial transactions, and location data of virtually every American citizen. The program, exposed by NSA whistleblower Edward Snowden in 2013, operates through Section 702 of FISA, Executive Order 12333, and secret FISC court orders that have been described by the court\'s own judges as unconstitutional. The FBI conducted an estimated 3.4 million warrantless searches of Americans\' communications in a single year using data collected under these programs.',
-    content: [
-      'The scale of domestic surveillance revealed by Edward Snowden in 2013 was unprecedented in human history. The NSA\'s PRISM program collected data directly from the servers of Google, Apple, Facebook, Microsoft, Yahoo, and other major technology companies. The UPSTREAM program tapped directly into the fiber optic cables carrying internet traffic. The bulk phone metadata program collected records of virtually every phone call made in and to the United States. These programs operated in complete secrecy, authorized by the Foreign Intelligence Surveillance Court (FISC) through classified legal interpretations that were withheld from Congress and the public.',
-      'Section 702 of the Foreign Intelligence Surveillance Act, ostensibly designed to target foreign communications, has become a backdoor for warrantless surveillance of Americans. The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone. A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects without proper justification.',
-      'The surveillance extends far beyond intelligence agencies. Local police departments across the country have acquired military-grade surveillance technology including Stingray cell-site simulators that intercept phone calls, automatic license plate readers that track vehicle movements, facial recognition systems with documented racial bias, and predictive policing algorithms that target minority communities. The Department of Homeland Security operates fusion centers that aggregate data from federal, state, and local agencies, creating comprehensive dossiers on individuals who have never been accused of any crime.',
-      'The legal architecture enabling mass surveillance has been constructed through classified legal opinions, secret courts, and legislative manipulations. The USA PATRIOT Act\'s Section 215 was secretly interpreted to authorize bulk collection of all Americans\' phone records  -  an interpretation so extreme that the law\'s author, Rep. Jim Sensenbrenner, called it "an abuse of the act." The FISA Amendments Act repeatedly renewed with bipartisan support despite documented violations. National Security Letters allow the FBI to demand records from companies with gag orders preventing disclosure of the demand\'s existence.',
-      'Whistleblowers who exposed illegal surveillance have been prosecuted while the architects of unconstitutional programs face no accountability. Thomas Drake, William Binney, and J. Kirk Wiebe reported NSA waste and constitutionality concerns through proper channels and were retaliated against. Edward Snowden remains in exile in Russia. Meanwhile, James Clapper, Director of National Intelligence, lied under oath to Congress denying mass surveillance existed and was never charged with perjury. The surveillance state continues expanding with no meaningful reform.'
-    ],
-    tags: ['NSA', 'surveillance', 'PRISM', 'Section 702', 'FISA', 'Snowden', 'Fourth Amendment', 'warrantless wiretapping', 'Stingray', 'facial recognition', 'fusion centers'],
-    sources: [
-      { title: 'ODNI: FISA Section 702 Annual Transparency Report', url: 'https://www.dni.gov/index.php/ic-legal-reference-book/fisa-amendments-act', type: 'Government Report' },
-      { title: 'PCLOB: Report on the Surveillance Program Operated Under Section 702', url: 'https://www.pclob.gov/reports/', type: 'Government Report' },
-      { title: 'The Intercept: The Snowden Archive', url: 'https://theintercept.com/snowden/', type: 'Investigation' }
-    ],
-    affiliations: [
-      { id: '1', name: 'NSA', type: 'agency', relationship: 'Operates mass collection programs including PRISM and UPSTREAM; collected metadata on all domestic phone calls; monitors internet backbone', href: '/entities/agencies/nsa' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 3.4 million warrantless searches of Americans in Section 702 database; uses National Security Letters with gag orders', href: '/entities/agencies/fbi' }
-    ],
-   eventOriginDate: '2001-01-01',
-   lastActivityDate: '2025-03-01',
-   pageUpdatedDate: '2026-03-18',
-      timeline: [
-     { date: '2013', event: 'The program, exposed by NSA whistleblower Edward Snowden in 2013, operates through Section 702 of FISA, Executive Order 12333, and secret FISC court orders that have been described by the court\'s own judges as...', type: 'legal' },
-     { date: '2021', event: 'The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone.', type: 'financial' },
-     { date: '2023', event: 'A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects', type: 'political' }
-     ],
-
-    defendants: [
-
-      { name: 'Domestic Terrorism Actors', role: 'FBI designated domestic violent extremism as top terrorism threat post-January 6', status: 'charged', notes: 'DHS: white supremacist extremism most persistent lethal threat. 231 domestic terrorism incidents 2010-2021.' }
-
-    ],
-  },
   'disability-benefits-denial-machine': {
     title: 'Social Security Disability Denial Machine',
     subtitle: 'The Social Security disability system has been engineered to deny benefits to people who qualify for them.',

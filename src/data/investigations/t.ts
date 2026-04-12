@@ -2446,55 +2446,6 @@ const investigations_t: Record<string, InvestigationData> = {
 
     ],
   },
-  'total-information-awareness': {
-    title: 'Total Information Awareness and Mass Surveillance Architecture',
-    subtitle: 'How the U.S. government built the largest surveillance apparatus in human history, from TIA to PRISM to present-day programs',
-    severity: 'critical',
-    category: 'Intelligence / Civil Liberties',
-    date: 'June 6, 2013',
-    lastUpdated: 'March 1, 2026',
-    summary: 'After 9/11, the U.S. government constructed a mass surveillance infrastructure that collects, stores, and analyzes the communications and digital activities of billions of people worldwide, including American citizens. From the Total Information Awareness program (2002) to NSA\'s PRISM, XKeyscore, and STELLARWIND, to the FBI\'s use of Section 702 and National Security Letters, to the modern data broker pipeline that circumvents the Fourth Amendment - the surveillance state has expanded continuously regardless of which party controls the White House or Congress. Edward Snowden\'s 2013 disclosures revealed only a fraction of the apparatus.',
-    content: [
-      'TOTAL INFORMATION AWARENESS (2002-2003): After 9/11, DARPA created TIA under Admiral John Poindexter (previously convicted in Iran-Contra, conviction reversed on appeal). TIA aimed to create a unified database of all electronic transactions, communications, travel, financial, educational, and medical records of every person in the United States. Congress publicly "defunded" TIA in 2003 after public outcry, but classified budget documents later revealed that its component programs were simply transferred to the NSA and other intelligence agencies under new names and classified budgets.',
-      'NSA DOMESTIC SURVEILLANCE (2001-PRESENT): President Bush authorized STELLARWIND immediately after 9/11, allowing warrantless wiretapping of domestic communications. When the New York Times revealed the program in 2005, the administration retroactively legalized it through the FISA Amendments Act of 2008. Snowden\'s 2013 disclosures revealed PRISM (collecting data directly from tech companies including Google, Microsoft, Apple, Facebook, Yahoo), XKeyscore (real-time search of internet activity), and the bulk collection of all domestic phone metadata under Section 215 of the PATRIOT Act. The USA FREEDOM Act of 2015 supposedly ended bulk phone metadata collection but the NSA continued collecting call detail records until 2019.',
-      'SECTION 702 AND THE BACKDOOR SEARCH LOOPHOLE: Section 702 of FISA authorizes warrantless surveillance of non-U.S. persons abroad, but the "incidental collection" of American communications is massive. The FBI conducts "backdoor searches" querying this database using American identifiers (names, email addresses, phone numbers) without a warrant. In 2021, the FISA Court revealed the FBI had conducted 3.4 million warrantless searches of Americans\' communications in one year. Section 702 was reauthorized in 2024 with expanded authority despite documented abuses.',
-      'THE DATA BROKER PIPELINE: Intelligence and law enforcement agencies have discovered they can purchase from commercial data brokers the same location, communication, and behavioral data that would require a warrant to collect directly. The DHS, FBI, IRS, and military purchase cellphone location data, web browsing histories, and app usage data from companies like Venntel, Babel Street, and X-Mode/Outlogic. In 2023, the EFF documented how this "fourth amendment for sale" pipeline allows government agencies to track any American\'s movements, associations, and online activity without judicial oversight.',
-      'FUSION CENTERS AND LOCAL SURVEILLANCE: The DHS operates 80+ fusion centers that aggregate intelligence from federal, state, and local agencies. Senate investigations found fusion centers produced reports on lawful political activity, religious practices, and First Amendment-protected speech. Meanwhile, local police departments have deployed Stingray cell-site simulators, automated license plate readers, predictive policing algorithms, and social media monitoring tools - often funded by DHS grants and operating with minimal oversight or public disclosure.'
-    ],
-    tags: ['surveillance', 'NSA', 'PRISM', 'privacy', 'fourth-amendment', 'FISA', 'Snowden', 'intelligence', 'civil-liberties'],
-    sources: [
-      { title: 'Edward Snowden Archive (The Intercept)', url: 'https://theintercept.com/snowden-sidtoday/', type: 'Leaked Documents' },
-      { title: 'EFF - NSA Spying', url: 'https://www.eff.org/nsa-spying', type: 'Advocacy Report' },
-      { title: 'FISA Court Opinions (declassified)', url: 'https://www.intelligence.gov/ic-on-the-record/fisa-transparency', type: 'Court Document' },
-      { title: 'Senate Intelligence Committee FISA Reports', url: 'https://www.intelligence.senate.gov/', type: 'Congressional Report' }
-    ],
-    affiliations: [
-      { id: '1', name: 'NSA', type: 'agency', relationship: 'Operates PRISM, XKeyscore, STELLARWIND, and bulk collection programs collecting billions of communications records', href: '/entities/agencies/nsa' },
-      { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducts millions of warrantless backdoor searches of Section 702 database; uses National Security Letters to compel disclosure', href: '/entities/agencies/fbi' },
-      { id: '3', name: 'DHS', type: 'agency', relationship: 'Operates fusion centers; purchases commercial surveillance data to circumvent warrant requirements', href: '/entities/agencies/dhs' },
-      { id: '4', name: 'Edward Snowden', type: 'individual', relationship: 'NSA contractor who disclosed mass surveillance programs in 2013', href: '/entities/individuals/edward-snowden' }
-    ],
-   eventOriginDate: '2001-01-01',
-   lastActivityDate: '2026-03-01',
-   pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001', event: 'NSA DOMESTIC SURVEILLANCE (2001-PRESENT): President Bush authorized STELLARWIND immediately after 9/11, allowing warrantless wiretapping of domestic communications', type: 'political' },
-     { date: '2002', event: 'TOTAL INFORMATION AWARENESS (2002-2003): After 9/11, DARPA created TIA under Admiral John Poindexter (previously convicted in Iran-Contra, conviction reversed on appeal)', type: 'legal' },
-     { date: '2003', event: 'Congress publicly "defunded" TIA in 2003 after public outcry, but classified budget documents later revealed that its component programs were simply transferred to the NSA and other intelligence ag', type: 'political' },
-     { date: '2005', event: 'When the New York Times revealed the program in 2005, the administration retroactively legalized it through the FISA Amendments Act of 2008', type: 'default' },
-     { date: '2013', event: 'Snowden\'s 2013 disclosures revealed PRISM (collecting data directly from tech companies including Google, Microsoft, Apple, Facebook, Yahoo), XKeyscore (real-time search of internet activity), and ...', type: 'default' },
-     { date: '2015', event: 'The USA FREEDOM Act of 2015 supposedly ended bulk phone metadata collection but the NSA continued collecting call detail records until 2019', type: 'default' },
-     { date: '2021', event: 'In 2021, the FISA Court revealed the FBI had conducted 3.4 million warrantless searches of Americans\' communications in one year', type: 'legal' },
-     { date: '2023', event: 'In 2023, the EFF documented how this "fourth amendment for sale" pipeline allows government agencies to track any American\'s movements, associations, and online activity without judicial oversight', type: 'default' },
-     { date: '2024', event: 'Section 702 was reauthorized in 2024 with expanded authority despite documented abuses', type: 'default' }
-   ],
-
-    defendants: [
-
-      { name: 'John Poindexter / DARPA', role: 'Developed TIA program to conduct mass surveillance on Americans through data mining', status: 'pending', notes: 'Congress defunded TIA in 2003. Components reportedly continued under other names in classified programs.' }
-
-    ],
-  },
   'tiktok-national-security-data-harvesting': {
     title: 'TikTok National Security Data Harvesting',
     subtitle: 'How a Chinese-owned app with 170 million American users became a national security battleground over data access, algorithmic manipulation, and foreign influence',
