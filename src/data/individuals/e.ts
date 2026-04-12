@@ -2012,7 +2012,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
  ],
  timeline: [
  { date: 'Ongoing', event: 'Active in role as Navy commander who ordered Agent Orange spraying, his own son died from exposure' },
@@ -2045,7 +2045,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
  ],
  timeline: [
  { date: 'Ongoing', event: 'Active in role as Navy lieutenant exposed to Agent Orange ordered by his father, died of cancer' },

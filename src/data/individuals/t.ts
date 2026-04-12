@@ -2859,7 +2859,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
  ],
  timeline: [
  { date: 'Ongoing', event: 'Active in role as Vietnamese surgeon who documented Agent Orange health effects in Vietnamese population' },

@@ -3598,7 +3598,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
  ],
  timeline: [
  { date: 'Ongoing', event: 'Active in role as VA benefits counselor who first connected veteran illness to Agent Orange exposure' },

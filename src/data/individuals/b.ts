@@ -3336,7 +3336,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+      { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
     ],
     timeline: [
       { date: '1946', event: 'Born in New York' },

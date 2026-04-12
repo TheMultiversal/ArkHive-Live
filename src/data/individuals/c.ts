@@ -2364,7 +2364,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Agent Orange', slug: 'agent-orange', severity: 'high' },
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
  ],
  timeline: [
  { date: 'Ongoing', event: 'Active in role as Dow Chemical executive who knew about dioxin risks but suppressed information' }, ],

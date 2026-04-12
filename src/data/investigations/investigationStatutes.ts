@@ -79,17 +79,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
   ],
-  'agent-orange-chemical-warfare-vietnam': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-    { code: '18 U.S.C. § 2441', description: 'War Crimes Act' },
-  ],
-  'agent-orange-dioxin-legacy': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
   'agribusiness-capture-of-usda': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },

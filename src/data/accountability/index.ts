@@ -7,6 +7,7 @@ import { electionOverturnAccountability } from './2020-election-overturn';
 import { accessHollywoodAccountability } from './access-hollywood';
 import { ahmaudArberyAccountability } from './ahmaud-arbery-murder';
 import { aidsCrisisAccountability } from './aids-crisis';
+import { agentOrangeAccountability } from './agent-orange';
 import { aigBailoutAccountability } from './aig-bailout-scandal';
 import { alaskaAirlines1282Accountability } from './alaska-airlines-1282';
 import { antisemiticViolenceAccountability } from './antisemitic-violence';
@@ -75,6 +76,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'access-hollywood': accessHollywoodAccountability,
   'ahmaud-arbery-murder': ahmaudArberyAccountability,
   'aids-crisis': aidsCrisisAccountability,
+  'agent-orange': agentOrangeAccountability,
   'aig-bailout-scandal': aigBailoutAccountability,
   'alaska-airlines-1282': alaskaAirlines1282Accountability,
   'antisemitic-violence': antisemiticViolenceAccountability,

@@ -276,12 +276,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2019-01-01', from: 'Pharmaceutical/healthcare industry', to: 'Settlements and victim compensation', amount: '$28.4B', purpose: 'Legal settlements and compensation arising from Asbestos Cover-Up: Decades of Death', documented: true },
   ],
 
-  'agent-orange-dioxin-legacy': [
-    { date: '2021-01-01', from: 'US taxpayers', to: 'Monsanto', amount: '$62.9B', purpose: 'Budget allocation for operations connected to Agent Orange: The Dioxin Legacy', documented: false },
-    { date: '2022-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$5.9B', purpose: 'Contractor profits from programs related to Agent Orange: The Dioxin Legacy', documented: true },
-    { date: '2024-01-01', from: 'Monsanto', to: 'Classified / black budget programs', amount: '$4.4B', purpose: 'Classified spending on programs exposed in Agent Orange: The Dioxin Legacy', documented: false },
-  ],
-
   'arms-export-to-authoritarian-regimes': [
     { date: '2024-01-01', from: 'US taxpayers', to: 'Pentagon', amount: '$66.5B', purpose: 'Budget allocation for operations connected to Arms Export to Authoritarian Regimes', documented: false },
     { date: '2025-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$28.0B', purpose: 'Contractor profits from programs related to Arms Export to Authoritarian Regimes', documented: true },
@@ -445,12 +439,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2003-01-01', from: 'US taxpayers', to: 'Department of Defense', amount: '$54.6B', purpose: 'Government spending on programs implicated in Abu Ghraib: Systematic Torture and the Chain of Command', documented: true },
     { date: '2006-01-01', from: 'Department of Defense', to: 'Legal settlements and remediation', amount: '$8.0B', purpose: 'Settlement costs and remediation arising from Abu Ghraib: Systematic Torture and the Chain of Command', documented: true },
     { date: '2004-01-01', from: 'Donald Rumsfeld', to: 'Oversight and investigation costs', amount: '$87M', purpose: 'Congressional and inspector general investigation costs for Abu Ghraib: Systematic Torture and the Chain of Command', documented: false },
-  ],
-
-  'agent-orange-chemical-warfare-vietnam': [
-    { date: '1961-01-01', from: 'Dow Chemical', to: 'Revenue from harmful products/practices', amount: '$99.2B', purpose: 'Revenue generated from products or practices at center of Agent Orange: Chemical Warfare Against Vietnam and Its Own Soldiers (1961-1971)', documented: true },
-    { date: '1963-01-01', from: 'Dow Chemical', to: 'Lobbying and political influence', amount: '$1.1B', purpose: 'Lobbying expenditures to prevent regulation related to Agent Orange: Chemical Warfare Against Vietnam and Its Own Soldiers (1961-1971)', documented: true },
-    { date: '1965-01-01', from: 'Dow Chemical', to: 'Settlements and victim compensation', amount: '$12.6B', purpose: 'Legal settlements and compensation arising from Agent Orange: Chemical Warfare Against Vietnam and Its Own Soldiers (1961-1971)', documented: true },
   ],
 
 
