@@ -36,6 +36,7 @@ import { civilRightsAccountability } from './civil-rights';
 import { civilRightsRollbacksAccountability } from './civil-rights-rollbacks';
 import { climateDenialAccountability } from './climate-denial';
 import { coffeeCountyAccountability } from './coffee-county';
+import { cointelproAccountability } from './cointelpro-domestic-surveillance-legacy';
 import { columbiaHcaFraudAccountability } from './columbia-hca-fraud';
 import { comeyFiringAccountability } from './comey-firing';
 import { covidMisinfoAccountability } from './covid-misinfo';
@@ -98,6 +99,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'civil-rights-rollbacks': civilRightsRollbacksAccountability,
   'climate-denial': climateDenialAccountability,
   'coffee-county': coffeeCountyAccountability,
+  'cointelpro-domestic-surveillance-legacy': cointelproAccountability,
   'columbia-hca-fraud': columbiaHcaFraudAccountability,
   'comey-firing': comeyFiringAccountability,
   'covid-misinfo': covidMisinfoAccountability,
