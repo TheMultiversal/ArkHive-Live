@@ -2163,7 +2163,7 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [],
  relatedInvestigations: [
  { title: 'Civil Asset Forfeiture', slug: 'civil-asset-forfeiture', severity: 'high' },
- { title: 'Drone Assassination Program', slug: 'drone-assassination-program', severity: 'high' },
+ { title: 'Drone Assassination Program', slug: 'drone-assassinations', severity: 'critical' },
  { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
  { title: 'Whistleblower Persecution', slug: 'whistleblower-persecution', severity: 'high' },
  ],

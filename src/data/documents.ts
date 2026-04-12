@@ -1048,7 +1048,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.8 MB",
     "category": "Military & Defense",
     "investigation": "Drone Assassination Program",
-    "investigationSlug": "drone-assassination-program",
+    "investigationSlug": "drone-assassinations",
     "downloadCount": 1995,
     "previewAvailable": true,
     "url": "https://theintercept.com/drone-papers/"
@@ -1063,7 +1063,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.4 MB",
     "category": "Military & Defense",
     "investigation": "Drone Assassination Program",
-    "investigationSlug": "drone-assassination-program",
+    "investigationSlug": "drone-assassinations",
     "downloadCount": 3890,
     "previewAvailable": true,
     "url": "https://law.stanford.edu/publications/living-under-drones-death-injury-and-trauma-to-civilians-from-us-drone-practices-in-pakistan/"
@@ -1078,7 +1078,7 @@ export const documents: DocumentEntry[] = [
     "size": "780 KB",
     "category": "Military & Defense",
     "investigation": "Drone Assassination Program",
-    "investigationSlug": "drone-assassination-program",
+    "investigationSlug": "drone-assassinations",
     "downloadCount": 4513,
     "previewAvailable": true,
     "url": "https://www.thebureauinvestigates.com/projects/drone-war"
@@ -1093,7 +1093,7 @@ export const documents: DocumentEntry[] = [
     "size": "780 KB",
     "category": "Military & Defense",
     "investigation": "Drone Assassination Program",
-    "investigationSlug": "drone-assassination-program",
+    "investigationSlug": "drone-assassinations",
     "downloadCount": 3662,
     "previewAvailable": true,
     "url": "https://www.amnesty.org/en/documents/asa33/013/2013/en/"
@@ -1108,7 +1108,7 @@ export const documents: DocumentEntry[] = [
     "size": "780 KB",
     "category": "Military & Defense",
     "investigation": "Drone Assassination Program",
-    "investigationSlug": "drone-assassination-program",
+    "investigationSlug": "drone-assassinations",
     "downloadCount": 1929,
     "previewAvailable": true,
     "url": "https://www.nytimes.com/2021/09/10/world/asia/us-air-strike-drone-kabul-afghanistan-isis.html"

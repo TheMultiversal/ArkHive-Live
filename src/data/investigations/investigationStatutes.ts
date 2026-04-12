@@ -1638,31 +1638,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 1962', description: 'RICO - Racketeering' },
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
   ],
-  'drone-assassinations': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
-  'drone-program-civilian-casualties': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
-  'drone-strike-program': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-  ],
-  'drone-strikes-civilian-casualties': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-    { code: '18 U.S.C. § 2441', description: 'War Crimes Act' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
-  'drone-warfare-civilian-casualties': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 2441', description: 'War Crimes Act' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
   'drug-patent-abuse-consumer-impact': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },

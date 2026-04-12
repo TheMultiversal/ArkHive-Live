@@ -37,6 +37,7 @@ import { civilRightsRollbacksAccountability } from './civil-rights-rollbacks';
 import { climateDenialAccountability } from './climate-denial';
 import { coffeeCountyAccountability } from './coffee-county';
 import { cointelproAccountability } from './cointelpro-domestic-surveillance-legacy';
+import { droneAssassinationsAccountability } from './drone-assassinations';
 import { columbiaHcaFraudAccountability } from './columbia-hca-fraud';
 import { comeyFiringAccountability } from './comey-firing';
 import { covidMisinfoAccountability } from './covid-misinfo';
@@ -108,6 +109,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'comey-firing': comeyFiringAccountability,
   'covid-misinfo': covidMisinfoAccountability,
   'crow-network': crowNetworkAccountability,
+  'drone-assassinations': droneAssassinationsAccountability,
   'crypto-exchange-fraud-ecosystem': cryptoFraudAccountability,
   'enron-fraud': enronFraudAccountability,
   'financial-crisis-accountability-failure': financialCrisisAccountability,

@@ -1582,12 +1582,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2018-01-01', from: 'Energy Transfer Partners', to: 'Environmental lobbying', amount: '$122M', purpose: 'Lobbying to weaken regulations related to Dakota Access Pipeline', documented: true },
   ],
 
-  'drone-assassinations': [
-    { date: '2011-01-01', from: 'CIA', to: 'Military/security operations', amount: '$83.6B', purpose: 'Military spending on operations involving atrocities in Drone Assassination Program', documented: false },
-    { date: '2013-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$29.9B', purpose: 'Weapons industry profits from conflict in Drone Assassination Program', documented: true },
-    { date: '2016-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$470M', purpose: 'Reparations and frozen assets related to Drone Assassination Program', documented: true },
-  ],
-
   'democratic-backsliding': [
     { date: '2022-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$1.0B', purpose: 'Undisclosed political spending connected to Democratic Backsliding', documented: false },
     { date: '2023-01-01', from: 'Corporate donors', to: 'Republican National Committee', amount: '$1.0B', purpose: 'Campaign contributions and financial benefits flowing through Democratic Backsliding', documented: true },
@@ -1627,12 +1621,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2012-01-01', from: 'FEC', to: 'Illicit financial flows', amount: '$2.3B', purpose: 'Fraudulent financial activity in Donor Crimes: When Political Money Comes From Criminal Enterprise', documented: true },
     { date: '2015-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against FEC', amount: '$3.5B', purpose: 'Fines and penalties imposed for violations uncovered in Donor Crimes: When Political Money Comes From Criminal Enterprise', documented: true },
     { date: '2014-01-01', from: 'FEC', to: 'Affected investors / victims', amount: '$10.1B', purpose: 'Restitution and settlement payments to victims of Donor Crimes: When Political Money Comes From Criminal Enterprise', documented: true },
-  ],
-
-  'drone-strike-program': [
-    { date: '2018-01-01', from: 'US taxpayers', to: 'CIA', amount: '$110.2B', purpose: 'Budget allocation for operations connected to U.S. Drone Strike Program: Assassination by Algorithm', documented: false },
-    { date: '2019-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$19.2B', purpose: 'Contractor profits from programs related to U.S. Drone Strike Program: Assassination by Algorithm', documented: true },
-    { date: '2021-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$32.1B', purpose: 'Classified spending on programs exposed in U.S. Drone Strike Program: Assassination by Algorithm', documented: false },
   ],
 
   'dupont-crimes': [
@@ -1681,12 +1669,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2018-01-01', from: 'Eli Lilly', to: 'Revenue from harmful products/practices', amount: '$25.3B', purpose: 'Revenue generated from products or practices at center of Drug Price Gouging Insulin Crisis', documented: true },
     { date: '2020-01-01', from: 'Eli Lilly', to: 'Lobbying and political influence', amount: '$67M', purpose: 'Lobbying expenditures to prevent regulation related to Drug Price Gouging Insulin Crisis', documented: true },
     { date: '2022-01-01', from: 'Eli Lilly', to: 'Settlements and victim compensation', amount: '$17.5B', purpose: 'Legal settlements and compensation arising from Drug Price Gouging Insulin Crisis', documented: true },
-  ],
-
-  'drone-warfare-civilian-casualties': [
-    { date: '2024-01-01', from: 'US taxpayers', to: 'CIA', amount: '$96.8B', purpose: 'Budget allocation for operations connected to Drone Warfare Civilian Casualties', documented: false },
-    { date: '2025-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$7.7B', purpose: 'Contractor profits from programs related to Drone Warfare Civilian Casualties', documented: true },
-    { date: '2025-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$36.8B', purpose: 'Classified spending on programs exposed in Drone Warfare Civilian Casualties', documented: false },
   ],
 
   'depleted-uranium-battlefield-legacy': [
@@ -1830,11 +1812,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2002-01-01', from: 'DuPont', to: 'Legal penalties and settlements', amount: '$3.9B', purpose: 'Fines and settlements resulting from DuPont Teflon PFOA Coverup', documented: true },
   ],
 
-  'drone-program-civilian-casualties': [
-    { date: '2002-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$15.5B', purpose: 'Government spending on operations that violated civil rights in The U.S. Drone Program: Extrajudicial Killing and Civilian Casualties', documented: true },
-    { date: '2006-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$1.8B', purpose: 'Settlements and compensation to victims of The U.S. Drone Program: Extrajudicial Killing and Civilian Casualties', documented: true },
-  ],
-
   'disability-benefits-denial-machine': [
     { date: '2024-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$11.9B', purpose: 'Government spending on programs implicated in Social Security Disability Denial Machine', documented: true },
     { date: '2025-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$2.1B', purpose: 'Settlement costs and remediation arising from Social Security Disability Denial Machine', documented: true },
@@ -1845,12 +1822,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2024-01-01', from: 'City/county taxpayers', to: 'Police department', amount: '$2.0B', purpose: 'Department funding during period of misconduct in Domestic Violence System Failures', documented: true },
     { date: '2025-01-01', from: 'Municipal government', to: 'Misconduct settlements', amount: '$49M', purpose: 'Taxpayer-funded settlements for misconduct exposed in Domestic Violence System Failures', documented: true },
     { date: '2025-01-01', from: 'Police department', to: 'Militarized equipment purchases', amount: '$234M', purpose: 'Equipment and training spending related to Domestic Violence System Failures', documented: true },
-  ],
-
-  'drone-strikes-civilian-casualties': [
-    { date: '2001-01-01', from: 'US taxpayers', to: 'CIA', amount: '$45.4B', purpose: 'Government spending on programs implicated in The U.S. Drone Strike Program: Extrajudicial Killing and the Civilian Death Toll', documented: true },
-    { date: '2004-01-01', from: 'CIA', to: 'Legal settlements and remediation', amount: '$10.5B', purpose: 'Settlement costs and remediation arising from The U.S. Drone Strike Program: Extrajudicial Killing and the Civilian Death Toll', documented: true },
-    { date: '2002-01-01', from: 'CIA', to: 'Oversight and investigation costs', amount: '$94M', purpose: 'Congressional and inspector general investigation costs for The U.S. Drone Strike Program: Extrajudicial Killing and the Civilian Death Toll', documented: false },
   ],
 
   'des-diethylstilbestrol-pharmaceutical-disaster': [

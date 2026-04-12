@@ -643,7 +643,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Drone Assassination Program', slug: 'drone-assassination-program', severity: 'high' },
+ { title: 'Drone Assassination Program', slug: 'drone-assassinations', severity: 'critical' },
  ],
  timeline: [
  { date: '2017', event: 'citizen daughter of Anwar, killed in a Trump-ordered SEAL raid on Yemen on January 29, 2017' },
@@ -1147,7 +1147,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Drone Assassination Program', slug: 'drone-assassination-program', severity: 'critical' },
+ { title: 'Drone Assassination Program', slug: 'drone-assassinations', severity: 'critical' },
  ],
  timeline: [
  { date: '2011', event: 'Grandson Abdulrahman al-Awlaki, a 16-year-old US citizen, killed by US drone strike in Yemen' },
@@ -1155,7 +1155,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Drone Assassination Program', url: '/investigations/drone-assassination-program', date: '' },
+ { title: 'Drone Assassination Program', url: '/investigations/drone-assassinations', date: '' },
  ],
  aliases: [],
  knownAssociates: [
