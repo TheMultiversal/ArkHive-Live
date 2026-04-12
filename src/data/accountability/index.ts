@@ -43,6 +43,7 @@ import { crowNetworkAccountability } from './crow-network';
 import { cryptoFraudAccountability } from './crypto-exchange-fraud-ecosystem';
 import { enronFraudAccountability } from './enron-fraud';
 import { financialCrisisAccountability } from './financial-crisis-accountability-failure';
+import { georgeFloydAccountability } from './george-floyd';
 import { hushMoneyAccountability } from './hush-money';
 import { liborScandalAccountability } from './libor-scandal';
 import { myLaiMassacreAccountability } from './my-lai-massacre';
@@ -103,6 +104,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'crypto-exchange-fraud-ecosystem': cryptoFraudAccountability,
   'enron-fraud': enronFraudAccountability,
   'financial-crisis-accountability-failure': financialCrisisAccountability,
+  'george-floyd': georgeFloydAccountability,
   'hush-money': hushMoneyAccountability,
   'libor-scandal': liborScandalAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,
