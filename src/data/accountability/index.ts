@@ -1,6 +1,7 @@
 import type { AccountabilityData } from '@/types/accountability';
 import { insiderTradingAccountability } from './1980s-insider-trading';
 import { oneMdbAccountability } from './1mdb-scandal';
+import { financialCrisis2008Accountability } from './2008-financial-crisis';
 import { electionInterference2016Accountability } from './2016-election';
 import { electionOverturnAccountability } from './2020-election-overturn';
 import { accessHollywoodAccountability } from './access-hollywood';
@@ -60,6 +61,7 @@ import { whiteSupremacistViolenceAccountability } from './white-supremacist-viol
 const accountabilityDatabase: Record<string, AccountabilityData> = {
   '1980s-insider-trading': insiderTradingAccountability,
   '1mdb-scandal': oneMdbAccountability,
+  '2008-financial-crisis': financialCrisis2008Accountability,
   '2016-election': electionInterference2016Accountability,
   '2020-election-overturn': electionOverturnAccountability,
   'access-hollywood': accessHollywoodAccountability,
