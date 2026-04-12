@@ -2224,6 +2224,49 @@ const profiles: Record<string, IndividualProfile> = {
      { name: 'Karl Rove', relationship: 'Fellow architect of attorney firings scheme', href: '/entities/individuals/karl-rove' },
    ],
  },
+ 'hans-von-sponeck': {
+ name: 'Hans von Sponeck',
+ title: 'Former UN Assistant Secretary-General',
+ role: 'UN Humanitarian Coordinator in Iraq who resigned in protest over sanctions',
+ riskLevel: 'low',
+ description: 'Hans-Christof von Sponeck is a German diplomat who served over 30 years at the United Nations before becoming the second consecutive UN Humanitarian Coordinator in Iraq to resign in protest over the sanctions regime. He succeeded Denis Halliday in November 1998, taking the post despite Halliday\'s warnings. After 13 months witnessing the same devastating humanitarian conditions, von Sponeck resigned on February 13, 2000, calling the sanctions "totally incompatible with the UN Charter" and "indefensible." Jutta Burghardt, head of the World Food Programme in Iraq, resigned the same day. Von Sponeck\'s resignation was significant because it demonstrated that Halliday\'s concerns were not those of a single individual -- three consecutive senior UN officials with direct knowledge of ground conditions all reached the same conclusion: the sanctions were causing mass civilian death. After leaving the UN, von Sponeck wrote "A Different Kind of War: The UN Sanctions Regime in Iraq" (2006), documenting the sanctions\' humanitarian impact from his insider perspective. He later served as a visiting scholar at various European universities.',
+ birthDate: '1939',
+ birthPlace: 'Germany',
+ education: ['University of Bonn', 'Graduate studies in economics and political science'],
+ affiliations: [
+ { name: 'United Nations', role: 'Assistant Secretary-General; Humanitarian Coordinator in Iraq (1998-2000); 30+ year career', type: 'organization' },
+ { name: 'UNDP', role: 'Various senior positions including Resident Coordinator in Ghana, India, Pakistan', type: 'organization' },
+ { name: 'Oil-for-Food Programme', role: 'Oversaw humanitarian operations in Iraq as Coordinator', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Denis Halliday', relationship: 'Predecessor as UN Humanitarian Coordinator in Iraq; resigned October 1998 calling sanctions "genocide"; warned von Sponeck about conditions', href: '/entities/individuals/denis-halliday' },
+ { name: 'Jutta Burghardt', relationship: 'Head of World Food Programme in Iraq; resigned same day as von Sponeck, February 13, 2000' },
+ { name: 'Kofi Annan', relationship: 'UN Secretary-General who accepted von Sponeck\'s resignation' },
+ ],
+ controversies: [
+ 'RESIGNATION IN PROTEST: Resigned as Humanitarian Coordinator in February 2000 after determining sanctions were indefensible. Second consecutive coordinator to resign. Called sanctions "totally incompatible with the UN Charter."',
+ 'CHALLENGED OFFICIAL NARRATIVE: Publicly contradicted U.S. and UK claims that Saddam Hussein was solely responsible for humanitarian suffering. Provided detailed evidence that sanctions committee blocking of imports was a primary cause of civilian death.',
+ 'SANCTIONS DOCUMENTATION: Published "A Different Kind of War" (2006) providing insider documentation of how the sanctions committee operated, how dual-use restrictions blocked essential humanitarian supplies, and how bureaucratic delays cost lives.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Iraq Sanctions and the Death of 500,000 Children', slug: 'iraq-sanctions', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1939', event: 'Born in Germany' },
+ { date: '1968', event: 'Begins career at the United Nations' },
+ { date: '1998-11', event: 'Appointed UN Humanitarian Coordinator in Baghdad, succeeding Denis Halliday who had resigned in protest' },
+ { date: '2000-02-13', event: 'Resigns as Humanitarian Coordinator calling sanctions "totally incompatible with the UN Charter." Jutta Burghardt, WFP head in Iraq, resigns same day.' },
+ { date: '2003', event: 'Opposes U.S.-led invasion of Iraq; argues invasion follows 13 years of sanctions that already devastated the country' },
+ { date: '2006', event: 'Publishes "A Different Kind of War: The UN Sanctions Regime in Iraq" documenting the humanitarian catastrophe from his insider perspective' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Hans von Sponeck resignation coverage (BBC, 2000)', url: 'https://news.bbc.co.uk/2/hi/middle_east/642880.stm', date: '2000' },
+ { title: 'A Different Kind of War: The UN Sanctions Regime in Iraq (2006)', url: 'https://www.worldcat.org/title/different-kind-of-war-the-un-sanctions-regime-in-iraq/oclc/65400508', date: '2006' },
+ ],
+ aliases: ['Hans-Christof von Sponeck'],
+ },
 };
 
 export default profiles;

@@ -1310,6 +1310,102 @@ const whereIsTheMoneyNowData: Record<string, WealthDestination[]> = {
   ],
 
 
+  // ========== I ==========
+
+  'iraq-sanctions': [
+    {
+      name: 'Oil-for-Food Programme Revenue (Total)',
+      relationship: 'The Oil-for-Food Programme generated $54 billion in Iraqi oil sales from 1996 to 2003, held in escrow at BNP Paribas. Iraq had no direct access to its own revenue -- every purchase required approval from a 15-member sanctions committee where any member could block imports.',
+      transferMethod: 'Iraqi oil sold on world markets; revenue deposited in UN escrow account; disbursed only after sanctions committee approved each purchase request for humanitarian goods.',
+      estimatedValue: '$54 billion total oil revenue generated',
+      legalEntities: ['United Nations', 'BNP Paribas (escrow bank)', 'Iraq Sanctions Committee', 'Office of the Iraq Programme'],
+      recoveryMechanisms: ['Programme terminated 2003', 'Residual funds transferred to Development Fund for Iraq', 'No mechanism to recover costs of delayed humanitarian aid'],
+      restitutionStatus: 'unknown',
+    },
+    {
+      name: 'Kuwait Reparations Diversion',
+      relationship: 'Twenty-five percent of all Iraqi oil revenue -- approximately $13.5 billion -- was automatically diverted to the United Nations Compensation Commission to pay reparations to Kuwait and other claimants, while Iraqi children died from malnutrition and preventable disease.',
+      transferMethod: 'Mandatory 25% deduction from Iraqi oil revenue before any humanitarian spending. UNCC processed over 2.6 million claims from governments, corporations, and individuals.',
+      estimatedValue: '$13.5 billion diverted to Kuwaiti reparations (25% of all Iraqi oil revenue)',
+      legalEntities: ['UN Compensation Commission', 'State of Kuwait', 'Various government and corporate claimants'],
+      recoveryMechanisms: ['UNCC completed final payments in 2022', 'No mechanism for Iraqi counterclaims'],
+      restitutionStatus: 'unpaid',
+    },
+    {
+      name: 'Illegal Oil Smuggling Revenue',
+      relationship: 'Saddam Hussein\'s regime circumvented sanctions through illegal oil smuggling, generating $5.7 billion outside UN control. Oil was smuggled through Turkey, Jordan, Syria, and by ship through the Persian Gulf.',
+      transferMethod: 'Bilateral trade protocols with neighboring states; tanker shipments outside OFFP framework; revenue went directly to regime without humanitarian distribution.',
+      estimatedValue: '$5.7 billion in illegal oil smuggling revenues',
+      legalEntities: ['Government of Iraq', 'Turkish oil traders', 'Jordanian pipeline operators', 'Syrian state oil companies'],
+      recoveryMechanisms: ['Volcker Commission documented but no recovery attempted', 'Funds absorbed into regime operations and palaces'],
+      restitutionStatus: 'evaded',
+    },
+    {
+      name: 'Kickback and Surcharge Scheme',
+      relationship: 'The Iraqi regime extracted $4.4 billion in illicit surcharges on oil sales and after-sales kickbacks from suppliers. Over 2,200 companies from dozens of countries participated, paying 10% surcharges on humanitarian contracts to do business with Iraq.',
+      transferMethod: 'Oil buyers paid undisclosed surcharges into Iraqi-controlled accounts; humanitarian goods suppliers inflated prices by 10% and kicked back the excess to the regime.',
+      estimatedValue: '$4.4 billion in illicit kickbacks and surcharges',
+      legalEntities: ['2,200+ companies worldwide', 'Iraqi Ministry of Oil', 'Iraqi front companies', 'Banque de Commerce et de Placements (Switzerland)'],
+      recoveryMechanisms: ['Volcker Commission investigation', 'Some companies faced national prosecutions', 'Australian Wheat Board investigation'],
+      restitutionStatus: 'evaded',
+    },
+    {
+      name: 'BNP Paribas Bank Fees',
+      relationship: 'BNP Paribas served as sole bank administering the $64 billion Oil-for-Food Programme, earning over $700 million in fees while making payments without proof of delivery and facilitating transactions for a programme plagued by corruption.',
+      transferMethod: 'Banking fees on all programme transactions; letters of credit; escrow account management; made payments to suppliers without confirmation that goods were delivered to Iraq.',
+      estimatedValue: '$700+ million in bank fees',
+      legalEntities: ['BNP Paribas S.A.'],
+      recoveryMechanisms: ['No recovery actions taken', 'Volcker Commission criticized BNP performance but bank faced no sanctions'],
+      restitutionStatus: 'evaded',
+    },
+    {
+      name: 'Benon Sevan (Personal Enrichment)',
+      relationship: 'The Executive Director of the Oil-for-Food Programme personally accepted $147,184 in bribes from Saddam\'s government and was allocated 7.3 million barrels of oil through African Middle East Petroleum Co., a front company.',
+      transferMethod: 'Bribes paid through oil allocations to front company; cash payments; Sevan directed favorable oil contracts to Iraqi-preferred buyers in exchange for personal payments.',
+      estimatedValue: '$147,184 in documented bribes + unknown value of 7.3 million barrel oil allocation',
+      legalEntities: ['African Middle East Petroleum Co. (front company)', 'Office of the Iraq Programme (UN)'],
+      recoveryMechanisms: ['Indicted January 2007 (U.S. prosecutors)', 'Fled to Cyprus', 'Never extradited'],
+      restitutionStatus: 'evaded',
+    },
+    {
+      name: 'Alexander Yakovlev (Personal Enrichment)',
+      relationship: 'Russian UN procurement officer who accepted nearly $1 million in bribes from OFFP contractors in exchange for steering contracts.',
+      transferMethod: 'Cash bribes from companies seeking OFFP contracts; Yakovlev steered procurement decisions to paying companies.',
+      estimatedValue: '$950,000 in bribes',
+      legalEntities: ['United Nations Procurement Division'],
+      recoveryMechanisms: ['Pleaded guilty after Secretary-General waived diplomatic immunity', 'Resigned from UN'],
+      restitutionStatus: 'partial',
+    },
+    {
+      name: 'Australian Wheat Board Kickbacks',
+      relationship: 'AWB Ltd (formerly the Australian Wheat Board) paid approximately $300 million in kickbacks to Saddam Hussein\'s regime through a Jordanian trucking company front, making it the single largest source of kickbacks in the OFFP scandal.',
+      transferMethod: 'AWB inflated contract prices by 10% and routed kickbacks through Alia Transportation Company (Jordanian front); funds went to Iraqi Ministry of Trade.',
+      estimatedValue: '$300 million in kickbacks',
+      legalEntities: ['AWB Ltd', 'Alia Transportation Company (Jordan)', 'Iraqi Ministry of Trade'],
+      recoveryMechanisms: ['Australian Cole Inquiry (2006)', 'ASIC civil proceedings', 'No criminal charges against executives'],
+      restitutionStatus: 'unpaid',
+    },
+    {
+      name: 'Russian Oil Allocation Recipients',
+      relationship: 'Russia received approximately 30% of all Oil-for-Food oil allocations -- the largest share of any country. Russian companies and individuals close to the Kremlin received preferential oil contracts at below-market prices.',
+      transferMethod: 'Iraqi regime directed oil allocations to Russian entities to secure Russia\'s veto on the Security Council against sanctions reform. Russian companies resold oil at market prices, pocketing the difference.',
+      estimatedValue: 'Approximately $16 billion in oil allocations (30% of $54B)',
+      legalEntities: ['Russian oil companies', 'Kremlin-connected entities', 'Russian diplomatic corps'],
+      recoveryMechanisms: ['Volcker Commission documented', 'No enforcement action -- Russia holds UNSC veto'],
+      restitutionStatus: 'evaded',
+    },
+    {
+      name: 'UN Administrative Costs',
+      relationship: 'Three percent of all Iraqi oil revenue was diverted to cover UN operational costs for administering the sanctions regime -- meaning Iraq was forced to pay for the programme implementing its own economic punishment.',
+      transferMethod: 'Automatic 3% deduction from oil revenue for UN administrative expenses, weapons inspection costs, and programme operations.',
+      estimatedValue: '$1.2 billion in administrative costs deducted from humanitarian funds',
+      legalEntities: ['United Nations Secretariat', 'UNSCOM/UNMOVIC (weapons inspectors)', 'Office of the Iraq Programme'],
+      recoveryMechanisms: ['No recovery mechanism exists', 'Costs were legally authorized by UNSC resolutions'],
+      restitutionStatus: 'unpaid',
+    },
+  ],
+
+
   // ========== L ==========
 
   'libor-scandal': [

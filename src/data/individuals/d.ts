@@ -7013,7 +7013,53 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Michael Milken', relationship: 'Two of Milken\'s guilty plea counts involved Solomon\'s fund', href: '/entities/individuals/michael-milken' },
   { name: 'Terren Peizer', relationship: 'Drexel salesman who managed Solomon\'s account; later testified against Milken', href: '/entities/individuals/terren-peizer' },
  ],
- }
+ },
+ 'denis-halliday': {
+ name: 'Denis Halliday',
+ title: 'Former UN Assistant Secretary-General',
+ role: 'UN Humanitarian Coordinator in Iraq who resigned calling sanctions "genocide"',
+ riskLevel: 'low',
+ description: 'Denis J. Halliday is an Irish diplomat who served 34 years at the United Nations, rising to the rank of Assistant Secretary-General. In September 1997, he was appointed UN Humanitarian Coordinator in Baghdad, overseeing the Oil-for-Food Programme. After witnessing the devastating impact of comprehensive sanctions on Iraqi civilians -- particularly children dying from treatable diseases due to the ban on medical supplies and water treatment chemicals -- he resigned in October 1998 in protest. He publicly declared: "I don\'t want to administer a programme that satisfies the definition of genocide." His resignation was the first of three consecutive UN humanitarian coordinators to quit over the Iraq sanctions, followed by Hans von Sponeck in 2000 and Jutta Burghardt the same day. After leaving the UN, Halliday became one of the most prominent international critics of the sanctions regime, arguing that sanctions constituted a deliberate violation of the rights of 24 million Iraqi civilians. He testified before the European Parliament, the Irish Parliament, and numerous international forums advocating for the lifting of sanctions.',
+ birthDate: '1941',
+ birthPlace: 'Ireland',
+ education: ['Trinity College Dublin', 'School of Oriental and African Studies (SOAS), University of London'],
+ affiliations: [
+ { name: 'United Nations', role: 'Assistant Secretary-General; Humanitarian Coordinator in Iraq (1997-1998); 34-year career', type: 'organization' },
+ { name: 'UNDP', role: 'Various senior positions over 34 years including Malaysia, Indonesia, Iran', type: 'organization' },
+ { name: 'Oil-for-Food Programme', role: 'Oversaw humanitarian operations in Iraq as Coordinator', type: 'organization' },
+ ],
+ knownAssociates: [
+ { name: 'Hans von Sponeck', relationship: 'Successor as UN Humanitarian Coordinator in Iraq; also resigned in February 2000 over same concerns about sanctions', href: '/entities/individuals/hans-von-sponeck' },
+ { name: 'Jutta Burghardt', relationship: 'WFP head in Iraq who resigned same day as von Sponeck; shared Halliday\'s view that sanctions were unconscionable' },
+ { name: 'Kofi Annan', relationship: 'UN Secretary-General who accepted Halliday\'s resignation; publicly expressed regret at losing him but maintained the UN\'s sanctions implementation role' },
+ { name: 'Noam Chomsky', relationship: 'Collaborated on projects documenting sanctions impact; co-contributed to "War in Iraq" anthology opposing the invasion' },
+ ],
+ controversies: [
+ 'GENOCIDE ACCUSATION: Publicly declared Iraq sanctions constituted genocide, directly contradicting the position of the United States, United Kingdom, and the UN Security Council. Called the Oil-for-Food Programme a "fig leaf" for an inhumane policy.',
+ 'RESIGNATION IN PROTEST: Resigned after 34-year UN career, sacrificing his pension and diplomatic career rather than continue administering a programme he believed killed children. His resignation was a direct indictment of the Clinton administration and UNSC permanent members.',
+ 'ANTI-INVASION ACTIVISM: Vocally opposed the 2003 U.S.-led invasion of Iraq, arguing it was based on false pretenses and would compound the suffering already caused by 13 years of sanctions.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Iraq Sanctions and the Death of 500,000 Children', slug: 'iraq-sanctions', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1941', event: 'Born in Ireland' },
+ { date: '1964', event: 'Begins career at the United Nations; serves in various development and humanitarian roles' },
+ { date: '1997-09', event: 'Appointed UN Humanitarian Coordinator in Baghdad, overseeing Oil-for-Food Programme in Iraq' },
+ { date: '1998-10', event: 'Resigns after 34 years at UN: "I don\'t want to administer a programme that satisfies the definition of genocide." Becomes first of three consecutive coordinators to resign' },
+ { date: '1999', event: 'Begins international speaking tour against sanctions; testifies before European Parliament on humanitarian impact' },
+ { date: '2000-02', event: 'Successor Hans von Sponeck and WFP chief Jutta Burghardt resign on same day, validating Halliday\'s concerns' },
+ { date: '2003', event: 'Publicly opposes U.S.-led invasion of Iraq; argues invasion will compound suffering from 13 years of sanctions' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Denis Halliday interview, The Guardian (2000)', url: 'https://www.theguardian.com/theguardian/2000/nov/29/guardianweekly.guardianweekly1', date: '2000' },
+ { title: 'Interview with Democracy Now! on Iraq sanctions resignation', url: 'https://www.democracynow.org/', date: '2001' },
+ { title: 'Halliday testimony to European Parliament subcommittee', url: 'https://www.europarl.europa.eu/', date: '1999' },
+ ],
+ aliases: [],
+ },
 };
 
 export default profiles;

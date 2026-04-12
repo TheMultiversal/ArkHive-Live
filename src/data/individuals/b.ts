@@ -100,6 +100,7 @@ const profiles: Record<string, IndividualProfile> = {
   { title: 'Jeffrey Epstein Network', slug: 'jeffrey-epstein-network', severity: 'critical' },
   { title: 'Clinton Foundation Foreign Donations', slug: 'clinton-foundation-foreign-donations', severity: 'high' },
   { title: 'Mass Incarceration Industrial Complex', slug: 'mass-incarceration-industrial-complex', severity: 'critical' },
+  { title: 'Iraq Sanctions and the Death of 500,000 Children', slug: 'iraq-sanctions', severity: 'critical' },
  ],
  timeline: [
   { date: 'August 19, 1946', event: 'Born William Jefferson Blythe III in Hope, Arkansas; father died in car accident three months before birth' },

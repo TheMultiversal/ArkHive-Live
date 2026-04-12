@@ -45,6 +45,7 @@ import { enronFraudAccountability } from './enron-fraud';
 import { financialCrisisAccountability } from './financial-crisis-accountability-failure';
 import { georgeFloydAccountability } from './george-floyd';
 import { hushMoneyAccountability } from './hush-money';
+import { iraqSanctionsAccountability } from './iraq-sanctions';
 import { liborScandalAccountability } from './libor-scandal';
 import { myLaiMassacreAccountability } from './my-lai-massacre';
 import { opioidCrisisAccountability } from './opioid-crisis-corporate-mass-murder';
@@ -106,6 +107,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'financial-crisis-accountability-failure': financialCrisisAccountability,
   'george-floyd': georgeFloydAccountability,
   'hush-money': hushMoneyAccountability,
+  'iraq-sanctions': iraqSanctionsAccountability,
   'libor-scandal': liborScandalAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,
   'opioid-crisis-corporate-mass-murder': opioidCrisisAccountability,
