@@ -410,7 +410,7 @@ export default function Home() {
  { name:"Tuskegee Experiments", href:"/investigations/tuskegee-experiment"},
  { name:"Operation Northwoods", href:"/investigations/operation-northwoods-false-flag-planning"},
  { name:"Gulf of Tonkin", href:"/investigations/gulf-of-tonkin-fabricated-incident"},
- { name:"Iran-Contra", href:"/investigations/iran-contra-scandal"},
+ { name:"Iran-Contra", href:"/investigations/iran-contra-full-financial-trail"},
  { name:"CIA Torture Program", href:"/investigations/cia-black-site-torture-program"},
  { name:"NSA Mass Surveillance", href:"/investigations/nsa-mass-surveillance-constitutional-erosion"},
  { name:"Operation Paperclip", href:"/investigations/operation-paperclip-nazi-scientists"},

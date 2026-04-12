@@ -282,7 +282,7 @@ const D = {
   ],
 
   // ── I ──────────────────────────────────────────────────────────────
-  '^iran-contra|^iran-contra-scandal': [
+  '^iran-contra-full-financial-trail': [
     { name: 'Oliver North', role: 'NSC staff member who directed Iran arms sales and illegal Contra funding', status: 'convicted', notes: 'Convicted on 3 felonies in 1989; overturned on appeal due to immunized testimony. Never served prison time.' },
     { name: 'John Poindexter', role: 'National Security Advisor who authorized the diversion of Iran arms sale profits to Contras', status: 'convicted', notes: 'Convicted on 5 felonies; reversed on appeal. Never served time.' },
     { name: 'Caspar Weinberger', role: 'Secretary of Defense who concealed knowledge of Iran-Contra from investigators', status: 'pardoned', notes: 'Indicted on perjury/obstruction charges; pardoned by Bush Sr. on Dec 24, 1992, 11 days before trial.' },

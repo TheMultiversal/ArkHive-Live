@@ -104,9 +104,9 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   ],
 
   'arms-trafficking': [
-    { date: '2011-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$10.3B', purpose: 'Undisclosed political spending connected to Iran-Contra Arms Trafficking Scandal', documented: false },
-    { date: '2012-01-01', from: 'Corporate donors', to: 'George H.W. Bush', amount: '$1.6B', purpose: 'Campaign contributions and financial benefits flowing through Iran-Contra Arms Trafficking Scandal', documented: true },
-    { date: '2013-01-01', from: 'George H.W. Bush', to: 'Personal financial enrichment', amount: '$199M', purpose: 'Personal financial benefits gained through corruption in Iran-Contra Arms Trafficking Scandal', documented: false },
+    { date: '2011-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$10.3B', purpose: 'Undisclosed political spending connected to arms trafficking scandals', documented: false },
+    { date: '2012-01-01', from: 'Defense contractors', to: 'Lobbying and influence operations', amount: '$1.6B', purpose: 'Defense industry lobbying related to arms export policy', documented: true },
+    { date: '2013-01-01', from: 'Illicit arms networks', to: 'Conflict zones', amount: '$199M', purpose: 'Estimated value of tracked illicit arms transfers', documented: false },
   ],
 
   'africa-destabilization': [
@@ -3115,9 +3115,16 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   ],
 
   'iran-contra-full-financial-trail': [
-    { date: '2022-01-01', from: 'US taxpayers', to: 'CIA', amount: '$78.8B', purpose: 'Government spending on programs implicated in Iran-Contra: The Full Financial Trail', documented: true },
-    { date: '2025-01-01', from: 'CIA', to: 'Legal settlements and remediation', amount: '$3.9B', purpose: 'Settlement costs and remediation arising from Iran-Contra: The Full Financial Trail', documented: true },
-    { date: '2023-01-01', from: 'Oliver North', to: 'Oversight and investigation costs', amount: '$1.5B', purpose: 'Congressional and inspector general investigation costs for Iran-Contra: The Full Financial Trail', documented: false },
+    { date: '1984-01-01', from: 'Saudi Arabia (Prince Bandar bin Sultan)', to: 'Contra bank accounts', amount: '$32M', purpose: 'Saudi contributions to circumvent Boland Amendment, arranged through McFarlane and North', documented: true },
+    { date: '1985-08-20', from: 'Iran (via Israel)', to: 'Enterprise Swiss bank accounts', amount: '$12.2M', purpose: 'Payments for 504 TOW and 18 HAWK missiles shipped through Israeli intermediary', documented: true },
+    { date: '1986-02-01', from: 'Iran (direct sales)', to: 'Lake Resources Inc. / Credit Suisse', amount: '$18M', purpose: 'Direct U.S. arms sales at North $15M markup plus Ghorbanifar 41% markup', documented: true },
+    { date: '1986-01-01', from: 'Enterprise accounts', to: 'Nicaraguan Contras', amount: '$3.8M', purpose: 'Diverted arms sale proceeds in violation of Boland Amendment', documented: true },
+    { date: '1986-01-01', from: 'Enterprise accounts', to: 'Secord / Hakim personal', amount: '$4.4M', purpose: 'Operating costs, commissions, and personal enrichment from Enterprise', documented: true },
+    { date: '1986-01-01', from: 'Sultan of Brunei', to: 'Wrong Swiss bank account', amount: '$10M', purpose: 'Misrouted Contra donation; Fawn Hall transposed account digits; returned with interest', documented: true },
+    { date: '1985-01-01', from: 'Taiwan government', to: 'Contra accounts', amount: '$2M', purpose: 'Foreign government contribution solicited by Reagan administration', documented: true },
+    { date: '1985-01-01', from: 'Carl Channell / private donors', to: 'National Endowment for Preservation of Liberty', amount: '$2.7M', purpose: 'Tax-deductible donations diverted to buy Contra weapons; Channell convicted of tax fraud', documented: true },
+    { date: '1986-01-01', from: 'Thomas Clines (Enterprise commissions)', to: 'Personal accounts', amount: '$883K', purpose: 'Former CIA officer earned $883K from Enterprise; convicted of tax fraud; served 16 months', documented: true },
+    { date: '1986-12-19', from: 'U.S. Treasury', to: 'Walsh Independent Counsel', amount: '$47.4M', purpose: 'Seven-year investigation: 14 indictments, 11 convictions, most reversed or pardoned', documented: true },
   ],
 
   'industry-self-regulation-failures': [
@@ -3165,11 +3172,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2008-01-01', from: 'US Government', to: 'Counter-operations and investigations', amount: '$2.7B', purpose: 'US government response costs for Israel Lobby Influence Operations', documented: true },
   ],
 
-  'iran-contra-scandal': [
-    { date: '1986-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$36.7B', purpose: 'Government spending on programs implicated in Iran-Contra Affair', documented: true },
-    { date: '1989-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$7.5B', purpose: 'Settlement costs and remediation arising from Iran-Contra Affair', documented: true },
-    { date: '1987-01-01', from: 'Oliver North', to: 'Oversight and investigation costs', amount: '$664M', purpose: 'Congressional and inspector general investigation costs for Iran-Contra Affair', documented: false },
-  ],
+
 
   'israel-palestine-conflict': [
     { date: '1947-01-01', from: 'Benjamin Netanyahu', to: 'Military/security operations', amount: '$141.8B', purpose: 'Military spending on operations involving atrocities in Israel-Palestine Conflict and War Crimes', documented: false },

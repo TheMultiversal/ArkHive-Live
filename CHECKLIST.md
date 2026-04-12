@@ -547,7 +547,6 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/intelligence-impunity [i.ts]
 - [ ] /investigations/ip-theft [i.ts]
 - [ ] /investigations/iran-contra-full-financial-trail [i.ts]
-- [ ] /investigations/iran-contra-scandal [i.ts]
 - [ ] /investigations/iran-coup-1953 [i.ts]
 - [ ] /investigations/iraq-sanctions [i.ts]
 - [ ] /investigations/iraq-war [i.ts]
