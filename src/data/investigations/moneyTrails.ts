@@ -3666,11 +3666,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'DOJ / FBI', to: 'Assets seized', amount: '$2.3B', purpose: 'Law enforcement seizures in MS-13 Transnational Operations', documented: true },
   ],
 
-  'mkultra-full-declassification-analysis': [
-    { date: '2017-01-01', from: 'US taxpayers', to: 'Intelligence agencies', amount: '$66.9B', purpose: 'Budget allocation for operations connected to MKUltra Full Declassification Analysis', documented: false },
-    { date: '2018-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$16.2B', purpose: 'Contractor profits from programs related to MKUltra Full Declassification Analysis', documented: true },
-    { date: '2020-01-01', from: 'Intelligence agencies', to: 'Classified / black budget programs', amount: '$14.7B', purpose: 'Classified spending on programs exposed in MKUltra Full Declassification Analysis', documented: false },
-  ],
+
 
   'medicare-fraud-systematic-exploitation': [
     { date: '2019-01-01', from: 'HHS', to: 'Illicit financial flows', amount: '$17.0B', purpose: 'Fraudulent financial activity in Medicare Fraud Systematic Exploitation', documented: true },
@@ -3758,11 +3754,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1973-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$15.9B', purpose: 'Reparations and frozen assets related to My Lai Massacre', documented: true },
   ],
 
-  'mk-ultra': [
-    { date: '1953-01-01', from: 'CIA', to: 'Military/security operations', amount: '$50.5B', purpose: 'Military spending on operations involving atrocities in MK-Ultra Mind Control Program', documented: false },
-    { date: '1955-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$49.0B', purpose: 'Weapons industry profits from conflict in MK-Ultra Mind Control Program', documented: true },
-    { date: '1958-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$14.5B', purpose: 'Reparations and frozen assets related to MK-Ultra Mind Control Program', documented: true },
-  ],
+
 
   'medicare-medicaid-fraud-trillion-dollar-theft': [
     { date: '2019-01-01', from: 'HHS', to: 'Revenue from harmful products/practices', amount: '$55.5B', purpose: 'Revenue generated from products or practices at center of Medicare and Medicaid Fraud: The Trillion-Dollar Theft From America\'s Sick and Elderly', documented: true },
@@ -3817,11 +3809,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'DOD', to: 'Classified / black budget programs', amount: '$38.0B', purpose: 'Classified spending on programs exposed in Military Burn Pit Exposure', documented: false },
   ],
 
-  'mk-ultra-cia-mind-control': [
-    { date: '1953-01-01', from: 'US taxpayers', to: 'CIA', amount: '$10.3B', purpose: 'Government spending on programs implicated in MK-ULTRA: The CIA\'s Secret Program of Human Experimentation and Mind Control', documented: true },
-    { date: '1956-01-01', from: 'CIA', to: 'Legal settlements and remediation', amount: '$8.6B', purpose: 'Settlement costs and remediation arising from MK-ULTRA: The CIA\'s Secret Program of Human Experimentation and Mind Control', documented: true },
-    { date: '1954-01-01', from: 'Sidney Gottlieb', to: 'Oversight and investigation costs', amount: '$1.7B', purpose: 'Congressional and inspector general investigation costs for MK-ULTRA: The CIA\'s Secret Program of Human Experimentation and Mind Control', documented: false },
-  ],
+
 
   'mandatory-sterilization-programs-united-states': [
     { date: '1907-01-01', from: 'U.S. Public Health Service', to: 'Revenue from harmful products/practices', amount: '$14.1B', purpose: 'Revenue generated from products or practices at center of Forced Sterilization Programs in the United States (1907-1981)', documented: true },
@@ -3830,8 +3818,18 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   ],
 
   'mkultra-cia-human-experimentation': [
-    { date: '1953-01-01', from: 'CIA', to: 'Operations and activities', amount: '$2.2B', purpose: 'Financial flows connected to MK-ULTRA: The CIA Mind Control Program That Tortured Thousands', documented: true },
-    { date: '1956-01-01', from: 'CIA', to: 'Legal and remediation costs', amount: '$11.2B', purpose: 'Accountability costs arising from MK-ULTRA: The CIA Mind Control Program That Tortured Thousands', documented: true },
+    { date: '1953-04-13', from: 'U.S. Taxpayers (CIA Budget)', to: 'MK-ULTRA Program', amount: '$25,000,000+', purpose: 'Total estimated program expenditure 1953-1973 (~$87.5M adjusted for inflation)', documented: true },
+    { date: '1953-04-01', from: 'CIA', to: 'Sandoz Pharmaceuticals', amount: '$240,000', purpose: 'Purchase of entire U.S. supply of LSD from Sandoz in Basel, Switzerland', documented: true },
+    { date: '1954-01-01', from: 'CIA', to: 'Eli Lilly and Company', amount: '$400,000 (est.)', purpose: 'Contract to develop domestic LSD synthesis capability', documented: false },
+    { date: '1957-01-01', from: 'CIA (via Society for Investigation of Human Ecology)', to: 'Dr. Donald Ewen Cameron / Allan Memorial Institute', amount: '$69,000', purpose: 'Funding for Subproject 68 psychic driving experiments at McGill University (1957-1964)', documented: true },
+    { date: '1957-01-01', from: 'Canadian Government', to: 'Dr. Donald Ewen Cameron', amount: '$500,000 (CAD)', purpose: 'Additional Canadian government funding for Cameron research at Allan Memorial Institute', documented: true },
+    { date: '1955-01-01', from: 'CIA', to: 'Operation Midnight Climax', amount: '$100,000/year (est.)', purpose: 'Operating expenses for CIA safe houses in San Francisco and New York (1955-1965)', documented: false },
+    { date: '1953-01-01', from: 'CIA (via front organizations)', to: '80+ universities, hospitals, and research institutions', amount: 'Millions (undisclosed)', purpose: 'Grants laundered through Society for Investigation of Human Ecology, Macy Foundation, Geschickter Fund', documented: false },
+    { date: '1975-07-01', from: 'U.S. Government (Congressional Act)', to: 'Olson Family', amount: '$750,000', purpose: 'Compensation to Frank Olson family via special act of Congress after Church Committee revelations', documented: true },
+    { date: '1988-01-01', from: 'Canadian Government', to: '77 Cameron Victims', amount: '$7,700,000 (CAD)', purpose: 'Class-action settlement paying $100,000 CAD each to 77 identified victims of Cameron experiments', documented: true },
+    { date: '2004-01-01', from: 'Canadian Government', to: 'Allan Memorial Institute', amount: '$500,000 (CAD)', purpose: 'Additional funding for counseling services for surviving MK-ULTRA victims', documented: true },
+    { date: '1977-11-01', from: 'U.S. Government', to: 'Richard Helms (fine)', amount: '$2,000', purpose: 'Misdemeanor fine for failure to testify fully before Congress -- the sole financial penalty for any MK-ULTRA participant', documented: true },
+    { date: '1973-01-01', from: 'CIA', to: 'Document Destruction', amount: '$0', purpose: 'CIA Director Helms ordered destruction of hundreds of thousands of pages of MK-ULTRA records; financial cost of destruction unknown but eliminated accountability', documented: true },
   ],
 
 
@@ -4468,11 +4466,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2002-01-01', from: 'FINRA', to: 'Affected investors / victims', amount: '$7.8B', purpose: 'Restitution and settlement payments to victims of Penny Stock Pump and Dump Networks', documented: true },
   ],
 
-  'project-mkultra-subproject-registry': [
-    { date: '1953-01-01', from: 'US taxpayers', to: 'CIA', amount: '$77.2B', purpose: 'Budget allocation for operations connected to Project MKUltra Subproject Registry', documented: false },
-    { date: '1954-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$58.6B', purpose: 'Contractor profits from programs related to Project MKUltra Subproject Registry', documented: true },
-    { date: '1956-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$11.8B', purpose: 'Classified spending on programs exposed in Project MKUltra Subproject Registry', documented: false },
-  ],
+
 
   'pentagon-papers-full-implications': [
     { date: '1971-01-01', from: 'US taxpayers', to: 'Pentagon', amount: '$97.9B', purpose: 'Budget allocation for operations connected to Pentagon Papers Full Implications', documented: false },

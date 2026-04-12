@@ -28,7 +28,7 @@ const FEATURED_INVESTIGATIONS: {
  { slug: 'treason', title: 'Treason & Foreign Collusion', subtitle: 'Systematic betrayal of national interests for personal gain', severity: 'critical' },
  { slug: 'torture-program', title: 'CIA Torture Program', subtitle: 'Black sites, waterboarding, and zero accountability', severity: 'critical' },
  { slug: 'emf-assault', title: 'Havana Syndrome & Directed Energy Attacks', subtitle: 'Unexplained weapons targeting US personnel worldwide', severity: 'critical' },
- { slug: 'mkultra-full-declassification-analysis', title: 'MKUltra Declassification', subtitle: 'CIA mind control experiments on unwitting subjects', severity: 'critical' },
+ { slug: 'mkultra-cia-human-experimentation', title: 'MKUltra Declassification', subtitle: 'CIA mind control experiments on unwitting subjects', severity: 'critical' },
  { slug: 'military-industrial', title: 'Military Industrial Complex', subtitle: '$900B war economy Eisenhower warned about', severity: 'critical' },
  { slug: 'surveillance-state', title: 'The Surveillance State', subtitle: 'Mass domestic spying infrastructure exposed', severity: 'critical' },
  { slug: 'trump-tower-moscow', title: 'Trump Tower Moscow Project', subtitle: 'Secret Russian deal during presidential campaign', severity: 'critical' },

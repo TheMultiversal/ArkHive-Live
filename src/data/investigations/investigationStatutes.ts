@@ -3544,29 +3544,24 @@ const investigationStatutes: Record<string, { code: string; description?: string
   'mississippi-welfare': [
     { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
   ],
-  'mk-ultra': [
-    { code: '18 U.S.C. § 2340A', description: 'Torture' },
-    { code: '18 U.S.C. § 1091', description: 'Genocide' },
-    { code: '18 U.S.C. § 2441', description: 'War Crimes' },
-  ],
-  'mk-ultra-cia-mind-control': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-    { code: '18 U.S.C. § 2340A', description: 'Torture' },
-    { code: '18 U.S.C. § 1503', description: 'Obstruction of Justice' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
+
+
   'mkultra-cia-human-experimentation': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 2340A', description: 'Torture' },
-    { code: '18 U.S.C. § 2441', description: 'War Crimes Act' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
+    { code: '18 U.S.C. \u00A7 2340A', description: 'Federal Torture Statute -- non-consensual drug administration, psychic driving, sensory deprivation' },
+    { code: '21 U.S.C. \u00A7 841', description: 'Controlled Substances Act -- illegal manufacture, distribution, and administration of LSD and mescaline' },
+    { code: '18 U.S.C. \u00A7 1111', description: 'Federal Murder Statute -- death of Frank Olson and unknown number of unidentified victims' },
+    { code: '42 U.S.C. \u00A7 1983', description: 'Civil Rights Act -- deprivation of constitutional rights under color of government authority' },
+    { code: '18 U.S.C. \u00A7 241', description: 'Conspiracy Against Rights -- coordinated multi-agency conspiracy to experiment on unwitting citizens' },
+    { code: '18 U.S.C. \u00A7 242', description: 'Deprivation of Rights Under Color of Law -- government agents administering drugs and torture' },
+    { code: '18 U.S.C. \u00A7 1505', description: 'Obstruction of Congressional Proceedings -- Helms ordered destruction of MK-ULTRA records in 1973' },
+    { code: '18 U.S.C. \u00A7 1519', description: 'Destruction of Records in Federal Investigations -- systematic destruction of program documentation' },
+    { code: '18 U.S.C. \u00A7 1621', description: 'Perjury -- false testimony before Congress by CIA officials about program scope' },
+    { code: '45 C.F.R. \u00A7 46 (Belmont Report)', description: 'Federal Human Subjects Protection -- experiments conducted without informed consent' },
+    { code: '10 U.S.C. \u00A7 1107', description: 'Prohibition on Use of Military Personnel as Test Subjects -- Army servicemembers dosed without consent' },
+    { code: 'Nuremberg Code (1947)', description: 'International human experimentation standards -- MK-ULTRA violated every principle' },
+    { code: '18 U.S.C. \u00A7 2441', description: 'War Crimes Act -- treatment of subjects constituted cruel and inhuman treatment under Geneva Conventions' },
   ],
-  'mkultra-full-declassification-analysis': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 2340A', description: 'Torture' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
+
   'modern-behavioral-influence-programs': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 2340A', description: 'Torture' },
@@ -4434,11 +4429,7 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
-  'project-mkultra-subproject-registry': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 2340A', description: 'Torture' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
+
   'project-shamrock-communications-surveillance': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },

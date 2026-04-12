@@ -651,10 +651,7 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/mind-control-programs-modern-era [m.ts]
 - [ ] /investigations/mining-industry-environmental-destruction [m.ts]
 - [ ] /investigations/mississippi-welfare [m.ts]
-- [ ] /investigations/mk-ultra [m.ts]
-- [ ] /investigations/mk-ultra-cia-mind-control [m.ts]
-- [ ] /investigations/mkultra-cia-human-experimentation [m.ts]
-- [ ] /investigations/mkultra-full-declassification-analysis [m.ts]
+- [x] /investigations/mkultra-cia-human-experimentation [m.ts]
 - [ ] /investigations/modern-behavioral-influence-programs [m.ts]
 - [ ] /investigations/monsanto-crimes [m.ts]
 - [ ] /investigations/monsanto-roundup-cancer-coverup [m.ts]
@@ -3930,7 +3927,7 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/mccarthyism-red-scare
 - [ ] /investigations/medical-bankruptcy
 - [ ] /investigations/missing-murdered-indigenous-women
-- [ ] /investigations/mkultra
+- [x] /investigations/mkultra-cia-human-experimentation
 - [ ] /investigations/mlk-assassination
 - [ ] /investigations/money-laundering
 - [ ] /investigations/move-bombing

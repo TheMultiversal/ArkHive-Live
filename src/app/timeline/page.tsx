@@ -85,7 +85,7 @@ const timelineEvents: TimelineEvent[] = [
  description:"CIA conducted illegal experiments on unwitting Americans. LSD, electroshock, mind control. Most records destroyed.",
  category:"Crimes Against Humanity",
  severity:"critical",
- slug:"mkultra",
+ slug:"mkultra-cia-human-experimentation",
  tags: ["CIA","Experimentation"],
  },
  {

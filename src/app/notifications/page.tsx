@@ -142,7 +142,7 @@ const mockNotifications: NotificationItem[] = [
  message: 'CIA FOIA release: 847 pages of previously classified MKUltra documents now available in archive.',
  read: false,
  timestamp: new Date(Date.now() - 1000 * 60 * 60 * 2),
- actionUrl: '/investigations/mkultra',
+ actionUrl: '/investigations/mkultra-cia-human-experimentation',
  },
  {
  id: 'notif_12',
