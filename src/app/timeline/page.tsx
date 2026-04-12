@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 import Link from"next/link";
@@ -895,7 +895,7 @@ const timelineEvents: TimelineEvent[] = [
  description:"Tobacco industry hid cancer evidence for decades. Internal documents proved they knew. $246 billion Master Settlement. 480,000 Americans die annually.",
  category:"Corporate Crimes",
  severity:"critical",
- slug:"big-tobacco-coverup",
+ slug:"big-tobacco-lies",
  tags: ["Tobacco","Cancer","Cover-up"],
  },
  {

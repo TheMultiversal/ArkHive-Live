@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -448,7 +448,7 @@ const mockNotifications: NotificationItem[] = [
  message: 'Complete congressional testimony transcript added: Big Tobacco executives under oath, 1994.',
  read: true,
  timestamp: new Date(Date.now() - 1000 * 60 * 60 * 170),
- actionUrl: '/investigations/big-tobacco-coverup',
+ actionUrl: '/investigations/big-tobacco-lies',
  },
  {
  id: 'notif_46',

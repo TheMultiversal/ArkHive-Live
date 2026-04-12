@@ -328,7 +328,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.1 MB",
     "category": "Research",
     "investigation": "Big Tobacco Coverup",
-    "investigationSlug": "big-tobacco-coverup",
+    "investigationSlug": "big-tobacco-lies",
     "downloadCount": 2400,
     "previewAvailable": true,
     "url": "https://www.industrydocuments.ucsf.edu/tobacco/"
@@ -12718,7 +12718,7 @@ export const documents: DocumentEntry[] = [
     "size": "2.4 MB",
     "category": "Health",
     "investigation": "Big Tobacco Coverup",
-    "investigationSlug": "big-tobacco-coverup",
+    "investigationSlug": "big-tobacco-lies",
     "downloadCount": 1338,
     "previewAvailable": true,
     "url": "https://www.publichealthlawcenter.org/sites/default/files/resources/doj-final-opinion.pdf"
@@ -14038,7 +14038,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.4 MB",
     "category": "Legal",
     "investigation": "Big Tobacco Coverup",
-    "investigationSlug": "big-tobacco-coverup",
+    "investigationSlug": "big-tobacco-lies",
     "downloadCount": 4147,
     "previewAvailable": true,
     "url": "https://www.naag.org/our-work/naag-center-for-tobacco-and-public-health/the-master-settlement-agreement/"
@@ -14248,7 +14248,7 @@ export const documents: DocumentEntry[] = [
     "size": "8.3 MB",
     "category": "Research",
     "investigation": "Big Tobacco Coverup",
-    "investigationSlug": "big-tobacco-coverup",
+    "investigationSlug": "big-tobacco-lies",
     "downloadCount": 1361,
     "previewAvailable": true,
     "url": "https://www.cbsnews.com/"
@@ -14263,7 +14263,7 @@ export const documents: DocumentEntry[] = [
     "size": "156 KB",
     "category": "Media & Books",
     "investigation": "Big Tobacco Coverup",
-    "investigationSlug": "big-tobacco-coverup",
+    "investigationSlug": "big-tobacco-lies",
     "downloadCount": 3115,
     "previewAvailable": true,
     "url": "https://www.ucpress.edu/book/9780520213722/the-cigarette-papers"
@@ -15658,7 +15658,7 @@ export const documents: DocumentEntry[] = [
     "size": "12.1 MB",
     "category": "Research",
     "investigation": "Big Tobacco Coverup",
-    "investigationSlug": "big-tobacco-coverup",
+    "investigationSlug": "big-tobacco-lies",
     "downloadCount": 636,
     "previewAvailable": true,
     "url": "https://www.sourcewatch.org/index.php/A_Frank_Statement_to_Cigarette_Smokers"

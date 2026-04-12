@@ -43,6 +43,41 @@ export const bigTobaccoAccountability: AccountabilityData = {
         'Industry settled rather than face individual liability',
       ],
     },
+    {
+      name: 'British American Tobacco (BAT)',
+      role: 'Parent company of Brown & Williamson. Named RICO defendant #8 and #9. Shipped millions of internal documents to offshore UK storage to evade U.S. discovery. Acquired Reynolds American for $49.4 billion in 2017, consolidating global cigarette market dominance.',
+      currentStatus: 'Market cap: $70+ billion. Controls roughly 40% of ex-China global cigarette market. Aggressively targets developing nations in Africa and Asia where regulation is weakest. Subject to RICO judgment but headquartered in London.',
+      accountabilityPath: 'RICO judgment enforcement across jurisdictions. International regulatory action through WHO FCTC. Shareholder pressure. Host country litigation in Africa and Asia where BAT operates.',
+      obstacles: [
+        'UK-based  -  complicates U.S. enforcement',
+        'Massive global footprint reduces leverage of any single jurisdiction',
+        'Developing nations lack regulatory capacity to challenge BAT',
+        'Industry captures local politicians in Africa and Asia',
+      ],
+    },
+    {
+      name: 'Lorillard Tobacco Company',
+      role: 'Newport brand  -  the dominant menthol cigarette brand that targeted young smokers and communities of color. Named RICO defendant #4. Part of MSA.',
+      currentStatus: 'Acquired by R.J. Reynolds in 2015, which was then acquired by BAT in 2017. Newport brand continues to be the #1 menthol cigarette in America. The menthol marketing strategy targeting Black communities has continued under new ownership.',
+      accountabilityPath: 'FDA menthol ban (proposed 2022, delayed). Newport brand accountability through new parent company BAT/Reynolds. Individual wrongful death litigation for menthol-related cancer deaths.',
+      obstacles: [
+        'Brand absorbed into larger corporate structure',
+        'Menthol ban has been repeatedly delayed under industry lobbying',
+        'Industry used the Congressional Black Caucus to oppose regulation framed as "protecting Black consumers"',
+      ],
+    },
+    {
+      name: 'Hill & Knowlton (WPP Group)',
+      role: 'The PR firm that designed the entire doubt-manufacturing strategy at the 1953 Plaza Hotel meeting. Created the "Frank Statement to Cigarette Smokers" and established the template that the fossil fuel, chemical, and pharmaceutical industries would copy for decades.',
+      currentStatus: 'Now operating as Hill+Knowlton Strategies, a subsidiary of WPP Group. Still one of the largest PR firms in the world. Has never been held accountable for its central role in designing the tobacco industry\'s conspiracy of deception.',
+      accountabilityPath: 'Potential civil liability as a co-conspirator who designed and implemented the fraud campaign. State consumer protection claims. Reputational accountability. Corporate accountability campaigns.',
+      obstacles: [
+        'PR firms have historically avoided liability for client campaigns',
+        'Statute of limitations on most claims has expired',
+        'Firm has been restructured multiple times',
+        'The "advisor" vs. "principal" distinction shields PR firms',
+      ],
+    },
   ],
 
   legalMechanisms: [
@@ -105,6 +140,30 @@ export const bigTobaccoAccountability: AccountabilityData = {
       estimatedValue: '$206 billion total; only ~3% directed to tobacco prevention',
       legalEntities: ['State general funds', 'MSA securitization bonds', 'Various state-created funds'],
       recoveryMechanisms: ['State legislative reform to direct MSA funds to cessation', 'Audit of securitization deals'],
+    },
+    {
+      name: 'British American Tobacco plc',
+      relationship: 'Acquired Reynolds American for $49.4B in 2017, consolidating most of the U.S. tobacco market outside Altria',
+      transferMethod: 'BAT accumulated profits from the same fraud conspiracy, then used those profits to acquire its co-conspirators. Now controls R.J. Reynolds, Brown & Williamson legacy brands, and Lorillard brands. Aggressively expanding in Africa and Asia using marketing tactics banned domestically.',
+      estimatedValue: 'Market cap: $70+ billion. Annual revenue: $30+ billion. Controls ~40% of ex-China global cigarette market.',
+      legalEntities: ['British American Tobacco plc (LSE: BATS)', 'Reynolds American Inc.', 'R.J. Reynolds Tobacco Holdings', 'Lorillard LLC'],
+      recoveryMechanisms: ['RICO judgment enforcement', 'MSA compliance monitoring', 'International regulatory action through WHO FCTC', 'Shareholder litigation'],
+    },
+    {
+      name: 'Philip Morris International (PMI)',
+      relationship: 'Spun off from Altria in 2008 to isolate international operations from U.S. litigation risk',
+      transferMethod: 'Altria spun off PMI to shield international tobacco profits from domestic legal liability. PMI now generates 75%+ of revenue outside the U.S., targeting developing nations. Promotes IQOS heated tobacco as "harm reduction" while continuing to sell traditional cigarettes in markets where regulation is weakest.',
+      estimatedValue: 'Market cap: $190+ billion. Annual revenue: $35+ billion.',
+      legalEntities: ['Philip Morris International Inc. (NYSE: PM)', 'Various country-level subsidiaries'],
+      recoveryMechanisms: ['WHO FCTC enforcement', 'Host country litigation', 'International arbitration', 'U.S. RICO jurisdiction arguments for overseas operations'],
+    },
+    {
+      name: 'Tobacco Bond Securitization',
+      relationship: 'Wall Street purchased future MSA payment streams from states at deep discounts, creating a perverse incentive structure',
+      transferMethod: 'States sold future MSA payments for upfront cash to Wall Street investors. Over $36 billion in tobacco bonds were issued. Declining cigarette sales now threaten bond defaults, meaning states that securitized lose both health benefits AND financial returns. States with outstanding tobacco bonds have a financial incentive to keep cigarette sales HIGH to service bond debt.',
+      estimatedValue: '$97 billion in outstanding tobacco bonds. Many downgraded to junk ratings.',
+      legalEntities: ['Various state and county bond issuers', 'Goldman Sachs', 'JPMorgan Chase', 'Other municipal bond underwriters'],
+      recoveryMechanisms: ['Bond restructuring', 'Legislative action to decouple state budgets from tobacco revenue', 'Consumer advocacy'],
     },
   ],
 

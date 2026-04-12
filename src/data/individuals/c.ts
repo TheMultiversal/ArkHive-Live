@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -118,9 +118,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Nominated as Ambassador to France (nepotism)',
  ],
  charges: [
- { statute: '26 U.S.C. Â§ 7206', description: 'Tax evasion; convicted, pardoned', category: 'Financial Crimes' },
- { statute: '52 U.S.C. Â§ 30116', description: 'Illegal campaign contributions; convicted, pardoned', category: 'Election Crimes' },
- { statute: '18 U.S.C. Â§ 1512', description: 'Witness tampering; convicted, pardoned', category: 'Obstruction' },
+ { statute: '26 U.S.C. Ã‚Â§ 7206', description: 'Tax evasion; convicted, pardoned', category: 'Financial Crimes' },
+ { statute: '52 U.S.C. Ã‚Â§ 30116', description: 'Illegal campaign contributions; convicted, pardoned', category: 'Election Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512', description: 'Witness tampering; convicted, pardoned', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Trump Pardon Corruption', slug: 'pardons-corruption', severity: 'critical' },
@@ -211,13 +211,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Case dismissed by Judge Cannon, DOJ appealing',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice; Conspired to delete surveillance footage showing document movement', category: 'Obstruction' },
- { statute: '18 U.S.C. Â§ 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence; Asked IT staff to delete security camera footage', category: 'Obstruction' },
- { statute: '18 U.S.C. Â§ 1519 (Evidence Concealment)', description: 'Altering/destroying records; Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
- { statute: '18 U.S.C. Â§ 1001 (False Statements)', description: 'Making false statements to FBI; Lied about knowledge of documents and conversations', category: 'False Statements' },
- { statute: '18 U.S.C. Â§ 371 (Conspiracy)', description: 'Conspiracy to defraud United States; Part of scheme to obstruct investigation', category: 'Conspiracy' },
- { statute: '18 U.S.C. Â§ 2 (Aiding and Abetting)', description: 'Aiding and abetting obstruction; Actively assisted in cover-up at"boss"direction', category: 'Accessory' },
- { statute: '18 U.S.C. Â§ 793(e) (Espionage Act Accessory)', description: 'Accessory to willful retention; Facilitated concealment of classified documents at property he managed', category: 'Espionage' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice; Conspired to delete surveillance footage showing document movement', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence; Asked IT staff to delete security camera footage', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1519 (Evidence Concealment)', description: 'Altering/destroying records; Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001 (False Statements)', description: 'Making false statements to FBI; Lied about knowledge of documents and conversations', category: 'False Statements' },
+ { statute: '18 U.S.C. Ã‚Â§ 371 (Conspiracy)', description: 'Conspiracy to defraud United States; Part of scheme to obstruct investigation', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Ã‚Â§ 2 (Aiding and Abetting)', description: 'Aiding and abetting obstruction; Actively assisted in cover-up at"boss"direction', category: 'Accessory' },
+ { statute: '18 U.S.C. Ã‚Â§ 793(e) (Espionage Act Accessory)', description: 'Accessory to willful retention; Facilitated concealment of classified documents at property he managed', category: 'Espionage' },
  ],
  relatedInvestigations: [
  { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
@@ -646,7 +646,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace; Planning and waging aggressive war', category: 'International' },
  { statute: 'Nuremberg Principle VI(c)', description: 'Crime Against Humanity; My Lai cover-up enabling atrocities', category: 'International' },
  { statute: 'UCMJ Article 134', description: 'Making False Official Statements; UN presentation based on known false intel', category: 'Military' },
- { statute: '18 U.S.C. Â§ 1001', description: 'False Statements; Knowingly presenting dubious intelligence as fact', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'False Statements; Knowingly presenting dubious intelligence as fact', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
@@ -764,7 +764,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity; Torture program approval', category: 'International' },
  { statute: 'Convention Against Torture Article 2', description: 'Torture; Authorized CIA enhanced interrogation', category: 'International' },
  { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace; Planning aggressive war on false pretenses', category: 'International' },
- { statute: '18 U.S.C. Â§ 2340A', description: 'Torture; Authorization of waterboarding and other techniques', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2340A', description: 'Torture; Authorization of waterboarding and other techniques', category: 'Federal' },
  { statute: 'Geneva Convention Common Article 3', description: 'Outrages on personal dignity; Torture program', category: 'International' },
  ],
  relatedInvestigations: [
@@ -1711,9 +1711,9 @@ const profiles: Record<string, IndividualProfile> = {
  'STARTUP FRAUD: Pattern in tech industry',
  ],
  charges: [
- { statute: '15 U.S.C. ï¿½ 78j(b)', description: 'Securities Fraud', category: 'CHARGED' },
- { statute: '18 U.S.C. ï¿½ 1343', description: 'Wire Fraud', category: 'CHARGED' },
- { statute: '18 U.S.C. ï¿½ 1344', description: 'Bank Fraud', category: 'CHARGED' },
+ { statute: '15 U.S.C. Ã¯Â¿Â½ 78j(b)', description: 'Securities Fraud', category: 'CHARGED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1343', description: 'Wire Fraud', category: 'CHARGED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1344', description: 'Bank Fraud', category: 'CHARGED' },
  ],
  relatedInvestigations: [
  { title: 'Startup Fraud', slug: 'startup-fraud', severity: 'high' },
@@ -1787,8 +1787,8 @@ const profiles: Record<string, IndividualProfile> = {
  'TOXIC CHEMICALS: Food packaging with PFAS',
  ],
  charges: [
- { statute: '29 U.S.C. ï¿½ 206', description: 'Fair Labor Standards Act, Wage violations', category: 'MULTIPLE SETTLEMENTS' },
- { statute: '29 U.S.C. ï¿½ 158', description: 'NLRA, Union interference', category: 'NLRB COMPLAINTS' },
+ { statute: '29 U.S.C. Ã¯Â¿Â½ 206', description: 'Fair Labor Standards Act, Wage violations', category: 'MULTIPLE SETTLEMENTS' },
+ { statute: '29 U.S.C. Ã¯Â¿Â½ 158', description: 'NLRA, Union interference', category: 'NLRB COMPLAINTS' },
  ],
  relatedInvestigations: [
  { title: 'Fast Food Labor Exploitation', slug: 'fast-food-labor', severity: 'high' },
@@ -2263,7 +2263,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+ { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
  ],
  timeline: [
  { date: '1988', event: 'Surgeon General who declared nicotine as addictive as heroin and cocaine in 1988.' },
@@ -2652,7 +2652,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
- { name: 'Harry Laughlin', relationship: 'ProtÃ©gÃ© and Cold Spring Harbor eugenics colleague', href: '/entities/individuals/harry-laughlin' },
+ { name: 'Harry Laughlin', relationship: 'ProtÃƒÂ©gÃƒÂ© and Cold Spring Harbor eugenics colleague', href: '/entities/individuals/harry-laughlin' },
  { name: 'Paul Popenoe', relationship: 'Fellow eugenics movement leader', href: '/entities/individuals/paul-popenoe' },
  { name: 'Margaret Sanger', relationship: 'Birth control pioneer with overlapping eugenics connections', href: '/entities/individuals/margaret-sanger' },
  ],
@@ -3652,7 +3652,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Wikipedia: Craig Whitlock', url: 'https://en.wikipedia.org/wiki/Craig_Whitlock', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'John Sopko', relationship: 'SIGAR inspector whose Afghanistan reports aligned with Whitlock\'s exposÃ©', href: '/entities/individuals/john-sopko' },
+ { name: 'John Sopko', relationship: 'SIGAR inspector whose Afghanistan reports aligned with Whitlock\'s exposÃƒÂ©', href: '/entities/individuals/john-sopko' },
  { name: 'Daniel Ellsberg', relationship: 'Pentagon Papers leaker; Whitlock exposed similar Afghanistan deception', href: '/entities/individuals/daniel-ellsberg' },
  ],
  },

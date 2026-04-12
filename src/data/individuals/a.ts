@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -259,11 +259,11 @@ const profiles: Record<string, IndividualProfile> = {
  'Used psychological profiling for voter manipulation',
  ],
  charges: [
- { statute: 'UK Companies Act 2006 Â§ 216', description: 'UK Director Disqualification; Banned from serving as company director for 7 years for misleading practices', category: 'UK Regulatory' },
+ { statute: 'UK Companies Act 2006 Ã‚Â§ 216', description: 'UK Director Disqualification; Banned from serving as company director for 7 years for misleading practices', category: 'UK Regulatory' },
  { statute: 'UK Data Protection Act 1998', description: 'Data Protection Violations; Oversaw illegal harvesting of 87 million Facebook users\' personal data without consent', category: 'UK Criminal' },
- { statute: '18 U.S.C. Â§ 1030 (CFAA)', description: 'Potential Computer Fraud; Unauthorized access to Facebook user data through deceptive app practices', category: 'Potential Federal' },
- { statute: '18 U.S.C. Â§ 1343', description: 'Potential Wire Fraud; Used harvested data to manipulate voters through psychological targeting', category: 'Potential Federal' },
- { statute: '52 U.S.C. Â§ 30121', description: 'Potential Foreign National Campaign Contribution; UK citizen providing substantial services to US presidential campaign', category: 'Potential Election' },
+ { statute: '18 U.S.C. Ã‚Â§ 1030 (CFAA)', description: 'Potential Computer Fraud; Unauthorized access to Facebook user data through deceptive app practices', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1343', description: 'Potential Wire Fraud; Used harvested data to manipulate voters through psychological targeting', category: 'Potential Federal' },
+ { statute: '52 U.S.C. Ã‚Â§ 30121', description: 'Potential Foreign National Campaign Contribution; UK citizen providing substantial services to US presidential campaign', category: 'Potential Election' },
  { statute: 'UK Bribery Act 2010', description: 'Bribery Admissions; Caught on camera discussing using bribes and honey traps to influence politicians', category: 'UK Criminal' },
  { statute: 'UK Parliament Contempt', description: 'Contempt of Parliament; Provided false testimony to UK Parliament about Cambridge Analytica practices', category: 'UK Legislative' },
  { statute: 'GDPR Article 83', description: 'EU Data Protection Violations; Massive violations of European data protection rights', category: 'EU Regulatory' },
@@ -409,13 +409,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Defended deal claiming it was better than state charges alone',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 3771 (Crime Victims\' Rights Act)', description: 'VIOLATED; Federal judge ruled Acosta\'s office violated victims\' rights by failing to notify Epstein\'s victims of plea deal', category: 'Federal: Adjudicated' },
- { statute: '18 U.S.C. Â§ 1591 (Sex Trafficking of Minors)', description: 'Prosecutorial Misconduct; Failed to prosecute Epstein on federal sex trafficking charges despite FBI evidence of 36+ minor victims', category: 'Dereliction' },
- { statute: '18 U.S.C. Â§ 371', description: 'Potential Conspiracy; Non-prosecution agreement shielded unnamed co-conspirators from federal prosecution', category: 'Potential Federal' },
- { statute: '18 U.S.C. Â§ 1519', description: 'Potential Obstruction; Secret plea deal concealed from victims prevented accountability', category: 'Potential Federal' },
- { statute: '28 U.S.C. Â§ 530B (DOJ Standards)', description: 'Professional Misconduct; DOJ OPR found he exercised"poor judgment"but declined prosecution', category: 'Professional Ethics' },
+ { statute: '18 U.S.C. Ã‚Â§ 3771 (Crime Victims\' Rights Act)', description: 'VIOLATED; Federal judge ruled Acosta\'s office violated victims\' rights by failing to notify Epstein\'s victims of plea deal', category: 'Federal: Adjudicated' },
+ { statute: '18 U.S.C. Ã‚Â§ 1591 (Sex Trafficking of Minors)', description: 'Prosecutorial Misconduct; Failed to prosecute Epstein on federal sex trafficking charges despite FBI evidence of 36+ minor victims', category: 'Dereliction' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Potential Conspiracy; Non-prosecution agreement shielded unnamed co-conspirators from federal prosecution', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1519', description: 'Potential Obstruction; Secret plea deal concealed from victims prevented accountability', category: 'Potential Federal' },
+ { statute: '28 U.S.C. Ã‚Â§ 530B (DOJ Standards)', description: 'Professional Misconduct; DOJ OPR found he exercised"poor judgment"but declined prosecution', category: 'Professional Ethics' },
  { statute: 'FL Bar Rule 4-8.4', description: 'Potential Attorney Misconduct; Florida Bar considered investigation into his handling of Epstein case', category: 'Professional' },
- { statute: '18 U.S.C. Â§ 242', description: 'Deprivation of Rights Under Color of Law; Victims denied their legal rights to participate in federal proceedings', category: 'Civil Rights' },
+ { statute: '18 U.S.C. Ã‚Â§ 242', description: 'Deprivation of Rights Under Color of Law; Victims denied their legal rights to participate in federal proceedings', category: 'Civil Rights' },
  { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'International Law Concern; Facilitated impunity for systematic sexual abuse of minors through sweetheart deal', category: 'International' },
  ],
  relatedInvestigations: [
@@ -507,12 +507,12 @@ const profiles: Record<string, IndividualProfile> = {
       'Resigned after January 6 but did not invoke 25th',
     ],
     charges: [
-      { statute: '18 U.S.C. Â§ 208', description: 'Potential Conflict of Interest; Former Eli Lilly executive overseeing drug pricing policy while maintaining pharmaceutical industry ties', category: 'Potential Ethics' },
-      { statute: '42 U.S.C. Â§ 247d (Public Health Emergencies)', description: 'Emergency Response Failures; Failed to timely declare public health emergency and ensure adequate testing/PPE during COVID-19', category: 'Public Health' },
-      { statute: '6 U.S.C. Â§ 279 (Unaccompanied Alien Children)', description: 'Child Welfare Violations; HHS lost track of thousands of migrant children placed with sponsors, failed proper oversight', category: 'Immigration' },
-      { statute: '8 U.S.C. Â§ 1232 (Trafficking Victims Protection)', description: 'Protection Failures; Inadequate screening for trafficking victims among separated children at HHS facilities', category: 'Immigration' },
-      { statute: '21 U.S.C. Â§ 360bbb-3 (Emergency Use Authorization)', description: 'EUA Mismanagement; Political interference in FDA emergency authorizations during pandemic response', category: 'Public Health' },
-      { statute: '5 U.S.C. Â§ 3331', description: 'Oath of Office Concerns; Resigned after January 6 rather than invoke 25th Amendment despite believing Trump unfit', category: 'Constitutional' },
+      { statute: '18 U.S.C. Ã‚Â§ 208', description: 'Potential Conflict of Interest; Former Eli Lilly executive overseeing drug pricing policy while maintaining pharmaceutical industry ties', category: 'Potential Ethics' },
+      { statute: '42 U.S.C. Ã‚Â§ 247d (Public Health Emergencies)', description: 'Emergency Response Failures; Failed to timely declare public health emergency and ensure adequate testing/PPE during COVID-19', category: 'Public Health' },
+      { statute: '6 U.S.C. Ã‚Â§ 279 (Unaccompanied Alien Children)', description: 'Child Welfare Violations; HHS lost track of thousands of migrant children placed with sponsors, failed proper oversight', category: 'Immigration' },
+      { statute: '8 U.S.C. Ã‚Â§ 1232 (Trafficking Victims Protection)', description: 'Protection Failures; Inadequate screening for trafficking victims among separated children at HHS facilities', category: 'Immigration' },
+      { statute: '21 U.S.C. Ã‚Â§ 360bbb-3 (Emergency Use Authorization)', description: 'EUA Mismanagement; Political interference in FDA emergency authorizations during pandemic response', category: 'Public Health' },
+      { statute: '5 U.S.C. Ã‚Â§ 3331', description: 'Oath of Office Concerns; Resigned after January 6 rather than invoke 25th Amendment despite believing Trump unfit', category: 'Constitutional' },
       { statute: '42 C.F.R. Part 73 (Select Agents)', description: 'Biosecurity Oversight Failures; HHS oversight of lab safety during pandemic response raised concerns', category: 'Public Health' },
     ],
     relatedInvestigations: [
@@ -600,12 +600,12 @@ const profiles: Record<string, IndividualProfile> = {
       'Has defended many controversial figures',
     ],
     charges: [
-      { statute: '18 U.S.C. Â§ 1591 (Sex Trafficking)', description: 'Accused Participant; Virginia Giuffre and other victims accused Dershowitz of sexual abuse as part of Epstein trafficking operation', category: 'Trafficking Accusation' },
-      { statute: '18 U.S.C. Â§ 2422(b) (Coercion/Enticement)', description: 'Victim Allegations; Accused of receiving trafficked minors from Epstein for sexual abuse on multiple occasions', category: 'Accusation' },
-      { statute: '18 U.S.C. Â§ 1591(a)(2) (Benefitting from Trafficking)', description: 'Alleged Beneficiary; Accused of knowingly receiving services from victims of sex trafficking', category: 'Accusation' },
+      { statute: '18 U.S.C. Ã‚Â§ 1591 (Sex Trafficking)', description: 'Accused Participant; Virginia Giuffre and other victims accused Dershowitz of sexual abuse as part of Epstein trafficking operation', category: 'Trafficking Accusation' },
+      { statute: '18 U.S.C. Ã‚Â§ 2422(b) (Coercion/Enticement)', description: 'Victim Allegations; Accused of receiving trafficked minors from Epstein for sexual abuse on multiple occasions', category: 'Accusation' },
+      { statute: '18 U.S.C. Ã‚Â§ 1591(a)(2) (Benefitting from Trafficking)', description: 'Alleged Beneficiary; Accused of knowingly receiving services from victims of sex trafficking', category: 'Accusation' },
       { statute: 'Florida Rule 4-8.4 (Misconduct)', description: 'Attorney Ethics Concerns; Represented Epstein while potentially being involved in underlying crimes', category: 'Ethics' },
-      { statute: '18 U.S.C. Â§ 3 (Accessory After the Fact)', description: 'Sweetheart Deal Role; Negotiated 2008 plea deal that gave Epstein immunity for co-conspirators, potentially including himself', category: 'Obstruction' },
-      { statute: 'Mann Act (18 U.S.C. Â§ 2421)', description: 'Interstate Transportation Allegations; Flight logs show travel on Epstein\'s plane during period of trafficking', category: 'Trafficking' },
+      { statute: '18 U.S.C. Ã‚Â§ 3 (Accessory After the Fact)', description: 'Sweetheart Deal Role; Negotiated 2008 plea deal that gave Epstein immunity for co-conspirators, potentially including himself', category: 'Obstruction' },
+      { statute: 'Mann Act (18 U.S.C. Ã‚Â§ 2421)', description: 'Interstate Transportation Allegations; Flight logs show travel on Epstein\'s plane during period of trafficking', category: 'Trafficking' },
     ],
     relatedInvestigations: [
       { title: 'Epstein Network Investigation', slug: 'epstein-network', severity: 'critical' },
@@ -698,13 +698,13 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       { statute: 'Texas Felony Conviction (2007-2008)', description: 'Prior Criminal Record; Convicted of property theft and credit card fraud', category: 'Fraud' },
-      { statute: '18 U.S.C. Â§ 2384 (Seditious Conspiracy)', description: 'Potential Sedition; Claimed coordination with Congress members to obstruct certification, boasted of planning January 6', category: 'Sedition' },
-      { statute: '18 U.S.C. Â§ 371 (Conspiracy to Defraud US)', description: 'Election Interference; Organized nationwide campaign to prevent lawful transfer of power', category: 'Conspiracy' },
-      { statute: '18 U.S.C. Â§ 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress; Organized rally with intent to disrupt January 6 certification', category: 'Obstruction' },
-      { statute: '18 U.S.C. Â§ 373 (Solicitation)', description: 'Solicitation to Commit Violence; Speeches and social media incited followers to march on Capitol', category: 'Incitement' },
-      { statute: '52 U.S.C. Â§ 20511 (Election Interference)', description: 'Intimidation of Election Officials; Stop the Steal targeted election workers with threats', category: 'Election Crime' },
-      { statute: '18 U.S.C. Â§ 2101 (Inciting a Riot)', description: 'Riot Incitement; Rally speeches contributed directly to mob violence at Capitol', category: 'Incitement' },
-      { statute: '18 U.S.C. Â§ 1001 (False Statements)', description: 'False Claims; Spread knowingly false election fraud allegations', category: 'Fraud' },
+      { statute: '18 U.S.C. Ã‚Â§ 2384 (Seditious Conspiracy)', description: 'Potential Sedition; Claimed coordination with Congress members to obstruct certification, boasted of planning January 6', category: 'Sedition' },
+      { statute: '18 U.S.C. Ã‚Â§ 371 (Conspiracy to Defraud US)', description: 'Election Interference; Organized nationwide campaign to prevent lawful transfer of power', category: 'Conspiracy' },
+      { statute: '18 U.S.C. Ã‚Â§ 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress; Organized rally with intent to disrupt January 6 certification', category: 'Obstruction' },
+      { statute: '18 U.S.C. Ã‚Â§ 373 (Solicitation)', description: 'Solicitation to Commit Violence; Speeches and social media incited followers to march on Capitol', category: 'Incitement' },
+      { statute: '52 U.S.C. Ã‚Â§ 20511 (Election Interference)', description: 'Intimidation of Election Officials; Stop the Steal targeted election workers with threats', category: 'Election Crime' },
+      { statute: '18 U.S.C. Ã‚Â§ 2101 (Inciting a Riot)', description: 'Riot Incitement; Rally speeches contributed directly to mob violence at Capitol', category: 'Incitement' },
+      { statute: '18 U.S.C. Ã‚Â§ 1001 (False Statements)', description: 'False Claims; Spread knowingly false election fraud allegations', category: 'Fraud' },
     ],
     relatedInvestigations: [
       { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1753,13 +1753,13 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'augusto-pinochet': {
- name: 'Augusto JosÃ© RamÃ³n Pinochet Ugarte',
+ name: 'Augusto JosÃƒÂ© RamÃƒÂ³n Pinochet Ugarte',
  title: 'Former Chilean Dictator',
  role: 'US-Backed Dictator, Mass Murderer, Torturer',
  riskLevel: 'critical',
  description: 'Augusto Pinochet was a Chilean general who seized power in a US-backed coup on September 11, 1973, overthrowing democratically elected socialist president Salvador Allende. His 17-year military dictatorship murdered over 3,200 people, tortured 40,000+, and forced 200,000 into exile. The CIA actively supported his coup and subsequent regime. He implemented brutal repression while imposing Chicago School economic"shock therapy."He died in 2006 without facing justice for his crimes against humanity.',
  birthDate: 'November 25, 1915',
- birthPlace: 'ValparaÃ­so, Chile',
+ birthPlace: 'ValparaÃƒÂ­so, Chile',
  deathDate: 'December 10, 2006',
  netWorth: '$28 million (hidden accounts discovered after death)',
  education: ['Chilean Military Academy (1933-1936)', 'Chilean War Academy'],
@@ -1796,7 +1796,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Convention Against Torture Article 1', description: 'Torture as State Policy', category: 'International' },
  { statute: 'UN Declaration on Enforced Disappearance', description: 'Systematic Enforced Disappearance', category: 'International' },
  { statute: 'Chilean Criminal Code', description: 'Murder, Kidnapping, Torture (300+ charges filed)', category: 'Chile' },
- { statute: '18 U.S.C. Â§ 2331', description: 'Letelier Assassination; International Terrorism on US Soil', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2331', description: 'Letelier Assassination; International Terrorism on US Soil', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Operation Condor', slug: 'operation-condor', severity: 'critical' },
@@ -1806,7 +1806,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Kissinger War Crimes', slug: 'kissinger-crimes', severity: 'critical' },
  ],
  timeline: [
- { date: 'November 25, 1915', event: 'Born in ValparaÃ­so, Chile' },
+ { date: 'November 25, 1915', event: 'Born in ValparaÃƒÂ­so, Chile' },
  { date: '1933', event: 'Enters Chilean Military Academy' },
  { date: '1970', event: 'Salvador Allende elected president democratically' },
  { date: '1970', event: 'Nixon orders CIA to"make the economy scream"' },
@@ -1906,7 +1906,7 @@ const profiles: Record<string, IndividualProfile> = {
  controversies: [
  'MKULTRA AUTHORIZATION: Dulles personally authorized the MKUltra program in 1953, approving experiments that drugged unwitting American citizens with LSD and other substances, causing permanent psychological damage and deaths.',
  'IRAN COUP (1953): Orchestrated Operation Ajax, overthrowing democratically elected Prime Minister Mohammad Mosaddegh to protect British and American oil interests. Installed the Shah, whose brutal rule led to the 1979 Iranian Revolution.',
- 'GUATEMALA COUP (1954): Directed Operation PBSuccess, overthrowing democratically elected President Jacobo Ãrbenz to protect United Fruit Company interests. The coup triggered decades of military dictatorship and genocide.',
+ 'GUATEMALA COUP (1954): Directed Operation PBSuccess, overthrowing democratically elected President Jacobo ÃƒÂrbenz to protect United Fruit Company interests. The coup triggered decades of military dictatorship and genocide.',
  'OPERATION MOCKINGBIRD: Expanded CIA infiltration of American media. Personally cultivated relationships with journalists and publishers. By the 1970s, the CIA influenced over 400 journalists.',
  'BAY OF PIGS: Assured President Kennedy the invasion would succeed. When it failed disastrously, Kennedy fired him, reportedly saying he wanted to"splinter the CIA into a thousand pieces."',
  'WARREN COMMISSION: Despite being fired by JFK and having potential motive for the assassination, Dulles was appointed to investigate Kennedy\'s murder. Critics argue he steered the investigation away from intelligence connections.',
@@ -1917,9 +1917,9 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Human Experimentation: MKUltra program drugged unwitting citizens, causing permanent harm and deaths', category: 'International Crime' },
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Operation Mockingbird suppressed political dissent through media manipulation', category: 'International Crime' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Orchestrated coups overthrowing sovereign governments in Iran and Guatemala', category: 'International Crime' },
- { statute: '18 U.S.C. Â§ 1111', description: 'Murder: Deaths resulting from MKUltra experiments on unwitting subjects', category: 'Violent Crime' },
- { statute: '18 U.S.C. Â§ 242', description: 'Deprivation of Rights Under Color of Law: Systematic violation of citizens\' constitutional rights', category: 'Civil Rights' },
- { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy to Defraud the United States: Conspiracy to overthrow foreign governments', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Ã‚Â§ 1111', description: 'Murder: Deaths resulting from MKUltra experiments on unwitting subjects', category: 'Violent Crime' },
+ { statute: '18 U.S.C. Ã‚Â§ 242', description: 'Deprivation of Rights Under Color of Law: Systematic violation of citizens\' constitutional rights', category: 'Civil Rights' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to Defraud the United States: Conspiracy to overthrow foreign governments', category: 'Conspiracy' },
  ],
  relatedInvestigations: [
  { title: 'MKUltra Mind Control', slug: 'mkultra', severity: 'critical' },
@@ -1933,7 +1933,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'February 26, 1953', event: 'Becomes CIA Director under Eisenhower' },
  { date: 'April 13, 1953', event: 'Authorizes MKUltra mind control program' },
  { date: 'August 19, 1953', event: 'Operation Ajax overthrows Mosaddegh in Iran' },
- { date: 'June 27, 1954', event: 'Operation PBSuccess overthrows Ãrbenz in Guatemala' },
+ { date: 'June 27, 1954', event: 'Operation PBSuccess overthrows ÃƒÂrbenz in Guatemala' },
  { date: 'Early 1950s', event: 'Expands Operation Mockingbird media infiltration' },
  { date: 'April 17, 1961', event: 'Bay of Pigs invasion fails' },
  { date: 'November 29, 1961', event: 'Fired by President Kennedy' },
@@ -3177,8 +3177,8 @@ const profiles: Record<string, IndividualProfile> = {
       'NETFLIX DEAL: Profited from criminal story',
     ],
     charges: [
-      { statute: 'New York Penal Law ï¿½ 155.35', description: 'Grand larceny', category: 'CONVICTED: 4-12 YEARS' },
-      { statute: 'New York Penal Law ï¿½ 165.15', description: 'Theft of services', category: 'CONVICTED' },
+      { statute: 'New York Penal Law Ã¯Â¿Â½ 155.35', description: 'Grand larceny', category: 'CONVICTED: 4-12 YEARS' },
+      { statute: 'New York Penal Law Ã¯Â¿Â½ 165.15', description: 'Theft of services', category: 'CONVICTED' },
     ],
     relatedInvestigations: [
       { title: 'Social Engineering Fraud', slug: 'social-engineering-fraud', severity: 'medium' },
@@ -4350,7 +4350,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+      { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
     ],
     timeline: [
       { date: '1963', event: 'documented in this investigative archive for their role as General Counsel of Brown & Williamson; authored the infamous 1963 memo admitting nicotine is addictive.' },
@@ -4434,10 +4434,10 @@ const profiles: Record<string, IndividualProfile> = {
 
   'akua-njeri': {
     name: 'Deborah Johnson (Akua Njeri)',
-    title: 'Hampton\'s fiancÃ©e, 8 months pregnant, who was in bed with him when he was killed',
-    role: 'Hampton\'s fiancÃ©e, 8 months pregnant, who was in bed with him when he was killed',
+    title: 'Hampton\'s fiancÃƒÂ©e, 8 months pregnant, who was in bed with him when he was killed',
+    role: 'Hampton\'s fiancÃƒÂ©e, 8 months pregnant, who was in bed with him when he was killed',
     riskLevel: 'high',
-    description: 'Deborah Johnson (Akua Njeri) is documented in this investigative archive for their role as Hampton\'s fiancÃ©e, 8 months pregnant, who was in bed with him when he was killed.',
+    description: 'Deborah Johnson (Akua Njeri) is documented in this investigative archive for their role as Hampton\'s fiancÃƒÂ©e, 8 months pregnant, who was in bed with him when he was killed.',
     education: [],
     affiliations: [
     ],
@@ -5309,7 +5309,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+      { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as CEO of Lorillard Tobacco; denied addictiveness under oath' },
@@ -7417,22 +7417,22 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       {
-        statute: '18 U.S.C. Â§ 1343 - Wire Fraud',
+        statute: '18 U.S.C. Ã‚Â§ 1343 - Wire Fraud',
         description: 'Defrauded Celsius customers by making false statements about platform safety while secretly misusing their funds for risky trades',
         category: 'financial',
       },
       {
-        statute: '15 U.S.C. Â§ 77q - Securities Fraud',
+        statute: '15 U.S.C. Ã‚Â§ 77q - Securities Fraud',
         description: 'Operated unregistered securities offering through Celsius Earn program; made materially false statements to investors',
         category: 'financial',
       },
       {
-        statute: '7 U.S.C. Â§ 9 - Commodities Fraud',
+        statute: '7 U.S.C. Ã‚Â§ 9 - Commodities Fraud',
         description: 'Manipulated price of CEL token through fraudulent and manipulative trading practices',
         category: 'financial',
       },
       {
-        statute: '18 U.S.C. Â§ 1348 - Securities and Commodities Fraud Conspiracy',
+        statute: '18 U.S.C. Ã‚Â§ 1348 - Securities and Commodities Fraud Conspiracy',
         description: 'Conspired with others to defraud Celsius investors through coordinated scheme involving false statements and market manipulation',
         category: 'financial',
       },

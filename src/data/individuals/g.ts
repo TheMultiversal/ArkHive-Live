@@ -55,12 +55,12 @@ const profiles: Record<string, IndividualProfile> = {
  'EXTENSIVE VICTIM LIST: Trial featured testimony from 4 victims but evidence suggested dozens more',
  ],
  charges: [
- { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of a minor (Count 5)', category: 'Human Trafficking' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to entice minors to travel to engage in illegal sex acts (Count 1)', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 2422(b)', description: 'Enticement of a minor to travel to engage in illegal sex acts (Count 2)', category: 'Human Trafficking' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to transport minors with intent to engage in criminal sexual activity (Count 3)', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 2423(a)', description: 'Transportation of a minor with intent to engage in criminal sexual activity (Count 4)', category: 'Human Trafficking' },
- { statute: '18 U.S.C. § 1001', description: 'Perjury (lying under oath in civil deposition)', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1591', description: 'Sex trafficking of a minor (Count 5)', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to entice minors to travel to engage in illegal sex acts (Count 1)', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Ã‚Â§ 2422(b)', description: 'Enticement of a minor to travel to engage in illegal sex acts (Count 2)', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to transport minors with intent to engage in criminal sexual activity (Count 3)', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Ã‚Â§ 2423(a)', description: 'Transportation of a minor with intent to engage in criminal sexual activity (Count 4)', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Perjury (lying under oath in civil deposition)', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -71,7 +71,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '1961', event: 'Born Christmas Day in France to Robert Maxwell' },
  { date: '1984', event: 'Graduates Oxford University' },
  { date: 'Nov 1991', event: 'Father Robert Maxwell dies mysteriously, falls from yacht Lady Ghislaine' },
- { date: '1991', event: 'Family discovers Robert Maxwell plundered £440M from company pension funds' },
+ { date: '1991', event: 'Family discovers Robert Maxwell plundered Ã‚Â£440M from company pension funds' },
  { date: '1992', event: 'Moves to New York, begins relationship with Jeffrey Epstein' },
  { date: '1994', event: 'Begins actively recruiting victims for Epstein' },
  { date: '1999', event: 'Recruits Virginia Giuffre (then Roberts) from Mar-a-Lago at age 16' },
@@ -244,11 +244,11 @@ const profiles: Record<string, IndividualProfile> = {
  'Pardoned by Trump',
  ],
  charges: [
- { statute: '18 U.S.C. § 1001', description: 'Making False Statements to FBI (Pled Guilty); Lied about timeline of Russian contacts during campaign', category: 'Obstruction' },
- { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Assistance; Received advance notice of Russian"dirt"on Clinton from foreign nationals', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russia Coordination; Served as conduit between Trump campaign and Russian-connected individuals', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation; Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
- { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Foreign Agent; Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Making False Statements to FBI (Pled Guilty); Lied about timeline of Russian contacts during campaign', category: 'Obstruction' },
+ { statute: '52 U.S.C. Ã‚Â§ 30121 (Foreign Contributions)', description: 'Foreign Election Assistance; Received advance notice of Russian"dirt"on Clinton from foreign nationals', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. Ã‚Â§ 371 (Conspiracy)', description: 'Russia Coordination; Served as conduit between Trump campaign and Russian-connected individuals', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation; Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 951 (Foreign Agent)', description: 'Potential Foreign Agent; Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
  { statute: 'Presidential Pardon', description: 'Pardoned by Trump; December 2020 pardon wiped conviction but not underlying conduct', category: 'Pardoned' },
  ],
  relatedInvestigations: [
@@ -573,8 +573,8 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(i)', description: 'Enforced Disappearance; Black site detention program', category: 'International' },
  { statute: 'Convention Against Torture Article 1', description: 'Torture; Direct authorization of torture techniques', category: 'International' },
  { statute: 'Convention Against Torture Article 3', description: 'Refoulement; Rendition to torture states', category: 'International' },
- { statute: '18 U.S.C. § 2340A', description: 'Torture; Authorized waterboarding and enhanced interrogation', category: 'Federal' },
- { statute: '18 U.S.C. § 1519', description: 'Destruction of Evidence; Torture tape destruction', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2340A', description: 'Torture; Authorized waterboarding and enhanced interrogation', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1519', description: 'Destruction of Evidence; Torture tape destruction', category: 'Federal' },
  { statute: 'Geneva Convention III Article 17', description: 'POW Torture; Authorized illegal interrogation of detainees', category: 'International' },
  ],
  relatedInvestigations: [
@@ -696,13 +696,13 @@ const profiles: Record<string, IndividualProfile> = {
  'FOREIGN AGENT: Never registered under FARA despite lobbying for UAE',
  ],
  charges: [
- { statute: '18 U.S.C. § 2252A', description: 'Possession of Child Pornography (2020 conviction)', category: 'Child Exploitation' },
- { statute: '18 U.S.C. § 2423', description: 'Transportation of Minor for Sexual Activity (2020 conviction)', category: 'Child Exploitation' },
- { statute: '18 U.S.C. § 2252', description: 'Transportation of Child Pornography (2003 conviction)', category: 'Child Exploitation' },
+ { statute: '18 U.S.C. Ã‚Â§ 2252A', description: 'Possession of Child Pornography (2020 conviction)', category: 'Child Exploitation' },
+ { statute: '18 U.S.C. Ã‚Â§ 2423', description: 'Transportation of Minor for Sexual Activity (2020 conviction)', category: 'Child Exploitation' },
+ { statute: '18 U.S.C. Ã‚Â§ 2252', description: 'Transportation of Child Pornography (2003 conviction)', category: 'Child Exploitation' },
  { statute: 'Czech Criminal Code', description: 'Child Pornography (1991 conviction)', category: 'Czech Republic' },
- { statute: '22 U.S.C. § 611', description: 'FARA Violation; Failure to register as foreign agent', category: 'Federal' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign Campaign Contributions; UAE money to Republicans', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy; Foreign influence operations', category: 'Federal' },
+ { statute: '22 U.S.C. Ã‚Â§ 611', description: 'FARA Violation; Failure to register as foreign agent', category: 'Federal' },
+ { statute: '52 U.S.C. Ã‚Â§ 30121', description: 'Foreign Campaign Contributions; UAE money to Republicans', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy; Foreign influence operations', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
@@ -1188,7 +1188,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [
  { statute: 'TVPA', description: 'Trafficking Victims Protection, Forced labor', category: 'CIVIL LITIGATION' },
- { statute: '42 U.S.C. � 1983', description: 'Civil Rights, Conditions of confinement', category: 'CIVIL LITIGATION' },
+ { statute: '42 U.S.C. Ã¯Â¿Â½ 1983', description: 'Civil Rights, Conditions of confinement', category: 'CIVIL LITIGATION' },
  ],
  relatedInvestigations: [
  { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'critical' },
@@ -1271,7 +1271,7 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Mass death', category: 'INTERNATIONAL' },
  ],
  relatedInvestigations: [
- { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-conspiracy', severity: 'critical' },
+ { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
  ],
  timeline: [
  { date: '1937', event: 'Born in Australia' },
@@ -1306,9 +1306,9 @@ const profiles: Record<string, IndividualProfile> = {
  '7+ YEARS: Substantial sentence',
  ],
  charges: [
- { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED, 87 MONTHS' },
- { statute: '18 U.S.C. � 930', description: 'Carrying firearm on Capitol grounds', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1512', description: 'Witness tampering', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED, 87 MONTHS' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 930', description: 'Carrying firearm on Capitol grounds', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1512', description: 'Witness tampering', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1376,8 +1376,8 @@ const profiles: Record<string, IndividualProfile> = {
  'ARMED PURSUIT: Brought weapons to hunt jogger',
  ],
  charges: [
- { statute: 'Georgia Code � 16-5-1', description: 'Felony murder', category: 'CONVICTED, LIFE' },
- { statute: '18 U.S.C. � 249', description: 'Federal hate crime', category: 'CONVICTED, LIFE' },
+ { statute: 'Georgia Code Ã¯Â¿Â½ 16-5-1', description: 'Felony murder', category: 'CONVICTED, LIFE' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 249', description: 'Federal hate crime', category: 'CONVICTED, LIFE' },
  ],
  relatedInvestigations: [
  { title: 'Ahmaud Arbery Murder', slug: 'ahmaud-arbery-murder', severity: 'critical' },
@@ -1451,8 +1451,8 @@ const profiles: Record<string, IndividualProfile> = {
  'OFFICER DEATH: Sicknick died next day',
  ],
  charges: [
- { statute: '18 U.S.C. � 111', description: 'Assaulting officers', category: 'CONVICTED, 24 MONTHS' },
- { statute: '18 U.S.C. � 231', description: 'Civil disorder', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 111', description: 'Assaulting officers', category: 'CONVICTED, 24 MONTHS' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 231', description: 'Civil disorder', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -2204,19 +2204,19 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'guillermo-garcia-sal': {
- name: 'Guillermo García',
+ name: 'Guillermo GarcÃƒÂ­a',
  title: 'Defense Minister (1979-1983) who oversaw military operations during worst period of violence',
  role: 'Defense Minister (1979-1983) who oversaw military operations during worst period of violence',
  riskLevel: 'high',
- description: 'Guillermo García. Profile pending review.',
+ description: 'Guillermo GarcÃƒÂ­a. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Guillermo García coordinated messaging strategies designed to suppress unfavorable information.',
- 'Third-party audit reports flagged irregularities in programs overseen by Guillermo García, though no formal investigation was initiated at the time.',
+ 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Guillermo GarcÃƒÂ­a coordinated messaging strategies designed to suppress unfavorable information.',
+ 'Third-party audit reports flagged irregularities in programs overseen by Guillermo GarcÃƒÂ­a, though no formal investigation was initiated at the time.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -2225,7 +2225,7 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Guillermo García', url: 'https://en.wikipedia.org/wiki/Salvadoran_Civil_War', date: '' }, ],
+ { title: 'Wikipedia: Guillermo GarcÃƒÂ­a', url: 'https://en.wikipedia.org/wiki/Salvadoran_Civil_War', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Oscar Romero', relationship: 'Salvadoran military linked to Romero assassination and civil war', href: '/entities/individuals/oscar-romero' },
@@ -2394,7 +2394,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Convict Leasing: Slavery By Another Name', slug: 'convict-leasing', severity: 'critical' },
  ],
  timeline: [
- { date: '1885', event: 'Published exposés documenting the brutality of the convict leasing system in the South' }, ],
+ { date: '1885', event: 'Published exposÃƒÂ©s documenting the brutality of the convict leasing system in the South' }, ],
  socialMedia: [],
  sources: [
  { title: 'Convict Leasing: Slavery By Another Name', url: '/investigations/convict-leasing', date: '' }, ],
@@ -2924,7 +2924,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       { statute: 'N/A - Never Charged', description: 'Oversaw CIA black site where detainees were waterboarded and tortured', category: 'International law violation' },
-      { statute: '18 U.S.C. § 1519', description: 'Drafted order to destroy 92 interrogation videotapes under federal preservation requests', category: 'Obstruction/Evidence destruction' },
+      { statute: '18 U.S.C. Ã‚Â§ 1519', description: 'Drafted order to destroy 92 interrogation videotapes under federal preservation requests', category: 'Obstruction/Evidence destruction' },
     ],
     criminalHistory: 'Never charged despite direct involvement in torture and destruction of evidence. The DOJ investigated the tape destruction but declined to prosecute anyone. European courts have issued arrest warrants for CIA officials involved in rendition and torture programs, making travel to certain countries legally risky.',
     financialInfo: 'Career CIA officer. Financial details largely classified. Net worth estimated at $2-4 million based on senior government service pay scales.',

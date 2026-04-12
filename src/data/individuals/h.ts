@@ -26,11 +26,11 @@ const profiles: Record<string, IndividualProfile> = {
  'Text:"We all look like domestic terrorists now"',
  ],
  charges: [
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Admitted to"white lies"for Trump; potential false statements to investigators', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction; Participated in creating cover story on Air Force One for hush money reimbursements', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 2', description: 'Potential Aiding and Abetting; Knowledge of and participation in scheme to conceal campaign finance violations', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30109', description: 'Potential Campaign Finance Violation; Aware of hush money payments during campaign and helped coordinate messaging', category: 'Potential Election' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Participated in meetings and communications about concealing payments', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Potential False Statements; Admitted to"white lies"for Trump; potential false statements to investigators', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(c)(2)', description: 'Potential Obstruction; Participated in creating cover story on Air Force One for hush money reimbursements', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2', description: 'Potential Aiding and Abetting; Knowledge of and participation in scheme to conceal campaign finance violations', category: 'Potential Federal' },
+ { statute: '52 U.S.C. Ã‚Â§ 30109', description: 'Potential Campaign Finance Violation; Aware of hush money payments during campaign and helped coordinate messaging', category: 'Potential Election' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Potential Conspiracy; Participated in meetings and communications about concealing payments', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
@@ -396,8 +396,8 @@ const profiles: Record<string, IndividualProfile> = {
  'BENEFITS THREAT: Withheld benefits from union stores',
  ],
  charges: [
- { statute: '29 U.S.C. � 158(a)(1)', description: 'NLRA, Interference with union rights', category: 'NLRB VIOLATIONS' },
- { statute: '29 U.S.C. � 158(a)(3)', description: 'NLRA, Discrimination against union members', category: 'NLRB VIOLATIONS' },
+ { statute: '29 U.S.C. Ã¯Â¿Â½ 158(a)(1)', description: 'NLRA, Interference with union rights', category: 'NLRB VIOLATIONS' },
+ { statute: '29 U.S.C. Ã¯Â¿Â½ 158(a)(3)', description: 'NLRA, Discrimination against union members', category: 'NLRB VIOLATIONS' },
  ],
  relatedInvestigations: [
  { title: 'Starbucks Union Busting', slug: 'starbucks-union-busting', severity: 'critical' },
@@ -1115,7 +1115,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+ { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
  ],
  timeline: [
  { date: '1994', event: 'Congressman who chaired the 1994 hearings where tobacco CEOs denied nicotine' }, ],
@@ -1434,7 +1434,7 @@ const profiles: Record<string, IndividualProfile> = {
  'No Sackler family member was charged in the 2007 case despite directing the marketing strategy Udell oversaw legally',
  ],
  charges: [
- { statute: '21 U.S.C. § 331 -- FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead"; sentenced to 400 hours community service; no prison time', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
+ { statute: '21 U.S.C. Ã‚Â§ 331 -- FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead"; sentenced to 400 hours community service; no prison time', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
  ],
  relatedInvestigations: [
  { title: 'Opioid Crisis: Corporate Mass Murder', slug: 'opioid-crisis-corporate-mass-murder', severity: 'critical' },
@@ -2161,7 +2161,7 @@ const profiles: Record<string, IndividualProfile> = {
    description: "Leader of Nazi Germany responsible for the Holocaust, World War II, and the systematic murder of six million Jews and millions of others. His regime represents the ultimate failure of accountability.",
    education: [],
    affiliations: [
-     { name: "Nazi Party", role: "Führer", type: "organization" },
+     { name: "Nazi Party", role: "FÃƒÂ¼hrer", type: "organization" },
    ],
    controversies: [
      "The Holocaust - systematic genocide of 6 million Jews",
@@ -2196,8 +2196,8 @@ const profiles: Record<string, IndividualProfile> = {
      'Claimed executive privilege to block congressional investigation',
    ],
    charges: [
-     { statute: '2 U.S.C. § 192', description: 'Contempt of Congress - held in contempt for refusing to comply with House Judiciary Committee subpoena', category: 'Federal' },
-     { statute: '18 U.S.C. § 1505', description: 'Potential obstruction of congressional proceedings by refusing testimony', category: 'Potential Federal' },
+     { statute: '2 U.S.C. Ã‚Â§ 192', description: 'Contempt of Congress - held in contempt for refusing to comply with House Judiciary Committee subpoena', category: 'Federal' },
+     { statute: '18 U.S.C. Ã‚Â§ 1505', description: 'Potential obstruction of congressional proceedings by refusing testimony', category: 'Potential Federal' },
    ],
    relatedInvestigations: [
      { title: 'Bush Administration U.S. Attorney Firings', slug: 'attorney-firings', severity: 'high' },

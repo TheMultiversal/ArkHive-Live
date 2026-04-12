@@ -21,12 +21,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Eric Trump Foundation self-dealing allegations',
  ],
  charges: [
- { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud Liability; Found liable for persistent fraud in NY AG lawsuit; banned from serving as NY company officer for 2 years', category: 'State Civil' },
- { statute: 'New York Penal Law § 175.10', description: 'Potential Falsifying Business Records; Signed financial statements containing material misrepresentations', category: 'Potential State' },
- { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud; Submitted inflated financial statements to obtain loans', category: 'Potential Federal' },
- { statute: 'New York Not-for-Profit Corp. Law § 720', description: 'Foundation Self-Dealing; Eric Trump Foundation investigation found charity funds diverted to Trump Organization', category: 'State Nonprofit' },
- { statute: 'IRS 26 U.S.C. § 4941', description: 'Potential Self-Dealing Violations; Eric Trump Foundation ceased operations amid self-dealing investigation', category: 'Potential Tax' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Testimony regarding knowledge of financial statement preparation', category: 'Potential Federal' },
+ { statute: 'New York Exec. Law Ã‚Â§ 63(12)', description: 'Civil Fraud Liability; Found liable for persistent fraud in NY AG lawsuit; banned from serving as NY company officer for 2 years', category: 'State Civil' },
+ { statute: 'New York Penal Law Ã‚Â§ 175.10', description: 'Potential Falsifying Business Records; Signed financial statements containing material misrepresentations', category: 'Potential State' },
+ { statute: '18 U.S.C. Ã‚Â§ 1014', description: 'Potential Bank Fraud; Submitted inflated financial statements to obtain loans', category: 'Potential Federal' },
+ { statute: 'New York Not-for-Profit Corp. Law Ã‚Â§ 720', description: 'Foundation Self-Dealing; Eric Trump Foundation investigation found charity funds diverted to Trump Organization', category: 'State Nonprofit' },
+ { statute: 'IRS 26 U.S.C. Ã‚Â§ 4941', description: 'Potential Self-Dealing Violations; Eric Trump Foundation ceased operations amid self-dealing investigation', category: 'Potential Tax' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Potential False Statements; Testimony regarding knowledge of financial statement preparation', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'Trump Organization Financial Fraud', slug: 'trump-org-fraud', severity: 'critical' },
@@ -407,9 +407,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Celebrated violence at Capitol',
  ],
  charges: [
- { statute: '18 U.S.C. § 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of official proceeding (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(c)(2)', description: 'Obstruction of official proceeding (convicted)', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -459,12 +459,12 @@ const profiles: Record<string, IndividualProfile> = {
  'FOREIGN INFLUENCE: Regular communication with Putin, Xi Jinping while holding US security clearances',
  ],
  charges: [
- { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Securities Fraud;"Funding secured"tweet, market manipulation', category: 'Federal (SEC settled)' },
- { statute: '29 U.S.C. § 158(a)(1) (NLRA)', description: 'Unfair Labor Practices; Union busting, worker retaliation', category: 'Federal (NLRB findings)' },
- { statute: '52 U.S.C. § 10307(c)', description: 'Potential Vote Buying; $1M voter payments in swing states', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; DOGE role while receiving government contracts', category: 'Potential Federal' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential FARA Violation; Foreign government communications while in government role', category: 'Potential Federal' },
- { statute: '47 U.S.C. § 230', description: 'Platform Liability; Knowingly amplifying harmful content after removing protections', category: 'Civil' },
+ { statute: '15 U.S.C. Ã‚Â§ 78j(b) (Securities Exchange Act)', description: 'Securities Fraud;"Funding secured"tweet, market manipulation', category: 'Federal (SEC settled)' },
+ { statute: '29 U.S.C. Ã‚Â§ 158(a)(1) (NLRA)', description: 'Unfair Labor Practices; Union busting, worker retaliation', category: 'Federal (NLRB findings)' },
+ { statute: '52 U.S.C. Ã‚Â§ 10307(c)', description: 'Potential Vote Buying; $1M voter payments in swing states', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 208', description: 'Conflict of Interest; DOGE role while receiving government contracts', category: 'Potential Federal' },
+ { statute: '22 U.S.C. Ã‚Â§ 611 (FARA)', description: 'Potential FARA Violation; Foreign government communications while in government role', category: 'Potential Federal' },
+ { statute: '47 U.S.C. Ã‚Â§ 230', description: 'Platform Liability; Knowingly amplifying harmful content after removing protections', category: 'Civil' },
  ],
  relatedInvestigations: [
  { title: 'Psychological Manipulation Campaigns', slug: 'psychological-manipulation', severity: 'critical' },
@@ -992,8 +992,8 @@ const profiles: Record<string, IndividualProfile> = {
  'SENATE GALLERY: Entered gallery',
  ],
  charges: [
- { statute: '18 U.S.C. � 1512(c)(2)', description: 'Obstruction of Official Proceeding', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1752', description: 'Entering Restricted Building with Weapon', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1512(c)(2)', description: 'Obstruction of Official Proceeding', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1752', description: 'Entering Restricted Building with Weapon', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6th Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1085,8 +1085,8 @@ const profiles: Record<string, IndividualProfile> = {
  'DREW SHOOTING PLANS: Teachers saw, sent home',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws � 750.316', description: 'First-degree murder (4 counts)', category: 'CONVICTED, LIFE WITHOUT PAROLE' },
- { statute: 'Michigan Comp. Laws � 750.83', description: 'Terrorism causing death', category: 'CONVICTED' },
+ { statute: 'Michigan Comp. Laws Ã¯Â¿Â½ 750.316', description: 'First-degree murder (4 counts)', category: 'CONVICTED, LIFE WITHOUT PAROLE' },
+ { statute: 'Michigan Comp. Laws Ã¯Â¿Â½ 750.83', description: 'Terrorism causing death', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -1126,7 +1126,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATH SQUAD SUPPORT: 1980s Central America',
  ],
  charges: [
- { statute: '18 U.S.C. � 1001', description: 'Withholding information from Congress', category: 'CONVICTED, PARDONED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1001', description: 'Withholding information from Congress', category: 'CONVICTED, PARDONED' },
  ],
  relatedInvestigations: [
  { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
@@ -1267,8 +1267,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CHRISTIAN TERRORISM: Motivated by religious extremism',
  ],
  charges: [
- { statute: '18 U.S.C. � 844', description: 'Use of explosives, multiple bombings', category: 'Terrorism' },
- { statute: '18 U.S.C. � 1111', description: 'Murder', category: 'Homicide' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 844', description: 'Use of explosives, multiple bombings', category: 'Terrorism' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1111', description: 'Murder', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'Domestic Terrorism', slug: 'domestic-terrorism', severity: 'critical' },
@@ -1310,8 +1310,8 @@ const profiles: Record<string, IndividualProfile> = {
  'VIDEO EVIDENCE: Actions captured on body camera',
  ],
  charges: [
- { statute: '18 U.S.C. � 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
- { statute: 'Tennessee Code � 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
+ { statute: 'Tennessee Code Ã¯Â¿Â½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'Police Brutality', slug: 'police-brutality-crisis', severity: 'critical' },
@@ -1612,7 +1612,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+ { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
  ],
  timeline: [
  { date: 'Ongoing', event: 'Active in role as CEO of Liggett Group; later broke ranks and settled with states' },
@@ -1726,11 +1726,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'efrain-rios-montt': {
- name: 'Efraín Ríos Montt',
+ name: 'EfraÃƒÂ­n RÃƒÂ­os Montt',
  title: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people, a direct consequence of the 1954 coup',
  role: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people, a direct consequence of the 1954 coup',
  riskLevel: 'high',
- description: 'Efraín Ríos Montt. Profile pending review.',
+ description: 'EfraÃƒÂ­n RÃƒÂ­os Montt. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Edwin Gray', type: 'organization' },
@@ -1750,7 +1750,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Efraín Ríos Montt', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt', date: '' },
+ { title: 'Wikipedia: EfraÃƒÂ­n RÃƒÂ­os Montt', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3353,7 +3353,7 @@ const profiles: Record<string, IndividualProfile> = {
     description: 'Hungarian-American theoretical physicist known as the father of the hydrogen bomb. Key figure in the development of thermonuclear weapons that were thousands of times more powerful than the atomic bombs dropped on Japan. Instrumental in destroying J. Robert Oppenheimer\'s security clearance in 1954, effectively ending the career of the scientist who had moral objections to the H-bomb. Lifelong advocate for nuclear weapons proliferation, the Strategic Defense Initiative (Star Wars), and opponent of nuclear test ban treaties.',
     birthDate: '1908-01-15',
     birthPlace: 'Budapest, Austria-Hungary',
-    education: ['Ph.D. in Physics, University of Leipzig (1930)', 'Research Fellow, University of Göttingen (1931)'],
+    education: ['Ph.D. in Physics, University of Leipzig (1930)', 'Research Fellow, University of GÃƒÂ¶ttingen (1931)'],
     affiliations: [
       { name: 'Lawrence Livermore National Laboratory', role: 'Co-Founder and Director', type: 'agency' as const },
       { name: 'Manhattan Project', role: 'Senior Physicist', type: 'agency' as const },

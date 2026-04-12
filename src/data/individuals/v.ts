@@ -30,9 +30,9 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation; Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
  { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity; Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
  { statute: 'UN Charter Article 2(4)', description: 'War of Aggression; Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference; Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States; Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
- { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse; GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
+ { statute: '52 U.S.C. Ã‚Â§ 30121', description: 'Foreign Election Interference; Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to Defraud the United States; Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1030', description: 'Computer Fraud and Abuse; GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
  { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture; Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
  { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons; Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
  { statute: 'Geneva Convention IV', description: 'Protection of Civilians; Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
@@ -909,7 +909,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+ { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
  ],
  timeline: [
  { date: '1980', event: 'Hired by Philip Morris to study nicotine addiction in laboratory animals' },
@@ -1198,9 +1198,9 @@ const profiles: Record<string, IndividualProfile> = {
   'Known associate of Michael Milken; junk bond-financed raids',
  ],
  charges: [
-  { statute: '26 U.S.C. § 7201', description: 'Tax evasion (no contest plea)', category: 'Financial Crimes' },
-  { statute: '18 U.S.C. § 1001', description: 'Fraud (inflating charitable donation values)', category: 'Financial Crimes' },
-  { statute: '15 U.S.C. § 78j(b)', description: 'Stock concealment (SEC civil)', category: 'Financial Crimes' },
+  { statute: '26 U.S.C. Ã‚Â§ 7201', description: 'Tax evasion (no contest plea)', category: 'Financial Crimes' },
+  { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Fraud (inflating charitable donation values)', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. Ã‚Â§ 78j(b)', description: 'Stock concealment (SEC civil)', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
   { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },

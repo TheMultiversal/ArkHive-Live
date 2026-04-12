@@ -432,12 +432,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
   'big-tech-monopoly': [
     { code: '15 U.S.C. § 1', description: 'Sherman Antitrust Act' },
   ],
-  'big-tobacco-conspiracy': [
-    { code: '18 U.S.C. § 1001', description: 'False Statements' },
-    { code: '18 U.S.C. § 1505', description: 'Obstruction of Proceedings' },
-    { code: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices' },
-    { code: '18 U.S.C. § 371', description: 'Conspiracy' },
-  ],
   'big-tobacco-lies': [
     { code: '18 U.S.C. § 1962', description: 'RICO - Racketeering' },
     { code: '18 U.S.C. § 371', description: 'Conspiracy' },

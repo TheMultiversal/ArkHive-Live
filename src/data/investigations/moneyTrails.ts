@@ -541,12 +541,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2024-01-01', from: 'Amazon Corp', to: 'Regulatory fines and settlements', amount: '$9.3B', purpose: 'Privacy violation penalties resulting from Big Tech Monopoly', documented: true },
   ],
 
-  'big-tobacco-conspiracy': [
-    { date: '2025-01-01', from: 'US taxpayers', to: 'DOJ', amount: '$16.1B', purpose: 'Government spending on programs implicated in Big Tobacco Conspiracy', documented: true },
-    { date: '2025-01-01', from: 'DOJ', to: 'Legal settlements and remediation', amount: '$4.4B', purpose: 'Settlement costs and remediation arising from Big Tobacco Conspiracy', documented: true },
-    { date: '2025-01-01', from: 'Philip Morris', to: 'Oversight and investigation costs', amount: '$889M', purpose: 'Congressional and inspector general investigation costs for Big Tobacco Conspiracy', documented: false },
-  ],
-
   'billionaire-tax-avoidance': [
     { date: '2016-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$48.0B', purpose: 'Government spending on programs implicated in Billionaire Tax Avoidance', documented: true },
     { date: '2019-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$622M', purpose: 'Settlement costs and remediation arising from Billionaire Tax Avoidance', documented: true },

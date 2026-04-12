@@ -29,11 +29,11 @@ const profiles: Record<string, IndividualProfile> = {
  'PRISON TIME: Served time at Otisville federal prison, then home confinement',
  ],
  charges: [
- { statute: '52 U.S.C. § 30116(a)(1)(A)', description: 'Causing unlawful corporate campaign contribution (Stormy payment)', category: 'Election Crimes' },
- { statute: '52 U.S.C. § 30116(a)(7)', description: 'Excessive campaign contribution', category: 'Election Crimes' },
- { statute: '26 U.S.C. § 7201', description: 'Tax evasion; $1.4 million in unreported income', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 1014', description: 'Making false statements to financial institution', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 1001', description: 'Making false statements to Congress (Trump Tower Moscow)', category: 'Obstruction' },
+ { statute: '52 U.S.C. Ã‚Â§ 30116(a)(1)(A)', description: 'Causing unlawful corporate campaign contribution (Stormy payment)', category: 'Election Crimes' },
+ { statute: '52 U.S.C. Ã‚Â§ 30116(a)(7)', description: 'Excessive campaign contribution', category: 'Election Crimes' },
+ { statute: '26 U.S.C. Ã‚Â§ 7201', description: 'Tax evasion; $1.4 million in unreported income', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1014', description: 'Making false statements to financial institution', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Making false statements to Congress (Trump Tower Moscow)', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
@@ -137,8 +137,8 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 8 (War Crimes)', description: 'Yemen War Crimes; Directing military campaign causing 400,000+ deaths including deliberate targeting of civilians', category: 'International Criminal' },
  { statute: 'Geneva Convention IV Article 147', description: 'Grave Breaches; Willful killing, torture, extensive destruction not justified by military necessity in Yemen', category: 'International Humanitarian Law' },
  { statute: 'UN Convention Against Torture', description: 'Systematic Torture; Torture of dissidents including women\'s rights activists detained during crackdowns', category: 'International' },
- { statute: '18 U.S.C. § 1116', description: 'Murder of Internationally Protected Person; Khashoggi was a US resident journalist murdered in consulate', category: 'US Federal' },
- { statute: '18 U.S.C. § 2332', description: 'Extraterritorial Murder; Ordering killing of US person outside United States', category: 'US Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1116', description: 'Murder of Internationally Protected Person; Khashoggi was a US resident journalist murdered in consulate', category: 'US Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2332', description: 'Extraterritorial Murder; Ordering killing of US person outside United States', category: 'US Federal' },
  { statute: 'Arms Export Control Act', description: 'Weapons Diversion; US weapons provided under $110B deal used for war crimes in Yemen violating end-use agreements', category: 'US Law' },
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Persecution; Systematic persecution of dissidents, journalists, women\'s rights activists', category: 'International Criminal' },
  { statute: 'UN Charter Article 2(4)', description: 'Blockade Violations; Naval blockade of Yemen contributing to world\'s worst humanitarian crisis', category: 'International' },
@@ -357,9 +357,9 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Civil Defamation Liability', description: 'Dominion Lawsuit; Specifically named for broadcasting false claims about Dominion voting machines', category: 'Civil' },
  { statute: 'Civil Defamation Liability', description: 'Smartmatic Lawsuit; Named defendant for broadcasting false claims about voting systems', category: 'Civil' },
- { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Rights; Broadcast disinformation designed to undermine election results', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud; Knowingly broadcast false statements after being told claims were false', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction; First-mover in broadcasting claims intended to prevent certification of election', category: 'Potential Federal' },
+ { statute: '52 U.S.C. Ã‚Â§ 20511', description: 'Potential Conspiracy to Deprive Rights; Broadcast disinformation designed to undermine election results', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1343', description: 'Potential Wire Fraud; Knowingly broadcast false statements after being told claims were false', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(c)', description: 'Potential Obstruction; First-mover in broadcasting claims intended to prevent certification of election', category: 'Potential Federal' },
  { statute: 'FCC Regulations', description: 'Potential Broadcast Violations; Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
  ],
  relatedInvestigations: [
@@ -433,14 +433,14 @@ const profiles: Record<string, IndividualProfile> = {
  'AG nomination withdrawn due to scandal',
  ],
  charges: [
- { statute: '18 U.S.C. § 1591', description: 'Potential Sex Trafficking; DOJ investigated allegations of sex with 17-year-old (declined to prosecute)', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 2422(b)', description: 'Potential Coercion and Enticement of Minor; Allegations of paying for sex with 17-year-old', category: 'Potential Federal' },
- { statute: 'Florida Stat. § 794.05', description: 'Potential Unlawful Sexual Activity with Minor; Alleged sexual contact with 17-year-old', category: 'Potential State' },
- { statute: '18 U.S.C. § 2252', description: 'Potential Sexual Exploitation; Allegations of showing nude photos of women to colleagues without consent', category: 'Potential Federal' },
- { statute: '21 U.S.C. § 841', description: 'Potential Drug Distribution; Allegations of providing drugs to women in exchange for sex', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1952', description: 'Potential Interstate Travel for Prostitution; Alleged travel across state lines for sexual activity', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1591', description: 'Potential Sex Trafficking; DOJ investigated allegations of sex with 17-year-old (declined to prosecute)', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 2422(b)', description: 'Potential Coercion and Enticement of Minor; Allegations of paying for sex with 17-year-old', category: 'Potential Federal' },
+ { statute: 'Florida Stat. Ã‚Â§ 794.05', description: 'Potential Unlawful Sexual Activity with Minor; Alleged sexual contact with 17-year-old', category: 'Potential State' },
+ { statute: '18 U.S.C. Ã‚Â§ 2252', description: 'Potential Sexual Exploitation; Allegations of showing nude photos of women to colleagues without consent', category: 'Potential Federal' },
+ { statute: '21 U.S.C. Ã‚Â§ 841', description: 'Potential Drug Distribution; Allegations of providing drugs to women in exchange for sex', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1952', description: 'Potential Interstate Travel for Prostitution; Alleged travel across state lines for sexual activity', category: 'Potential Federal' },
  { statute: 'House Ethics Rules', description: 'Multiple Violations; Sexual misconduct, drug use, showing explicit images in workplace (House Ethics report suppressed)', category: 'Ethics' },
- { statute: 'Florida Stat. § 796.07', description: 'Potential Prostitution; Allegations of paying for sex with adult women', category: 'Potential State' },
+ { statute: 'Florida Stat. Ã‚Â§ 796.07', description: 'Potential Prostitution; Allegations of paying for sex with adult women', category: 'Potential State' },
  ],
  relatedInvestigations: [
  { title: 'Sex Trafficking Investigation', slug: 'gaetz-sex-trafficking', severity: 'critical' },
@@ -516,14 +516,14 @@ const profiles: Record<string, IndividualProfile> = {
  'Blocked State Department witnesses from testifying at impeachment',
  ],
  charges: [
- { statute: '18 U.S.C. § 1505 (Obstruction of Congressional Proceedings)', description: 'Obstruction of Impeachment Investigation; Blocked State Department witnesses from testifying, refused to produce subpoenaed documents', category: 'Obstruction' },
- { statute: '2 U.S.C. § 192 (Contempt of Congress)', description: 'Defiance of Subpoenas; Refused to comply with House impeachment inquiry subpoenas for documents and testimony', category: 'Contempt' },
- { statute: '5 U.S.C. § 7323 (Hatch Act)', description: 'Illegal Campaign Activity; OSC found Hatch Act violations for political speech during official foreign travel, RNC speech from Jerusalem', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Ukraine Pressure Campaign; Central role in scheme to pressure Ukraine for political investigations, on July 25 call', category: 'Conspiracy' },
- { statute: '22 U.S.C. § 4028 (Prohibited Personnel Practices)', description: 'Ambassador Removal; Complicit in removal of Ambassador Yovanovitch based on political considerations and corrupt purpose', category: 'Personnel' },
- { statute: '31 U.S.C. § 1301(a) (Purpose Statute)', description: 'Misuse of Appropriated Funds; Madison Dinners using State Department funds for political donor events', category: 'Federal Spending' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office; Used official position and government resources for personal political advancement', category: 'Ethics' },
- { statute: '5 C.F.R. § 2635.705', description: 'Misuse of Government Resources; Wife used State Department staff for personal errands and holiday card mailing', category: 'Ethics' },
+ { statute: '18 U.S.C. Ã‚Â§ 1505 (Obstruction of Congressional Proceedings)', description: 'Obstruction of Impeachment Investigation; Blocked State Department witnesses from testifying, refused to produce subpoenaed documents', category: 'Obstruction' },
+ { statute: '2 U.S.C. Ã‚Â§ 192 (Contempt of Congress)', description: 'Defiance of Subpoenas; Refused to comply with House impeachment inquiry subpoenas for documents and testimony', category: 'Contempt' },
+ { statute: '5 U.S.C. Ã‚Â§ 7323 (Hatch Act)', description: 'Illegal Campaign Activity; OSC found Hatch Act violations for political speech during official foreign travel, RNC speech from Jerusalem', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. Ã‚Â§ 371 (Conspiracy)', description: 'Ukraine Pressure Campaign; Central role in scheme to pressure Ukraine for political investigations, on July 25 call', category: 'Conspiracy' },
+ { statute: '22 U.S.C. Ã‚Â§ 4028 (Prohibited Personnel Practices)', description: 'Ambassador Removal; Complicit in removal of Ambassador Yovanovitch based on political considerations and corrupt purpose', category: 'Personnel' },
+ { statute: '31 U.S.C. Ã‚Â§ 1301(a) (Purpose Statute)', description: 'Misuse of Appropriated Funds; Madison Dinners using State Department funds for political donor events', category: 'Federal Spending' },
+ { statute: '5 C.F.R. Ã‚Â§ 2635.702', description: 'Use of Public Office; Used official position and government resources for personal political advancement', category: 'Ethics' },
+ { statute: '5 C.F.R. Ã‚Â§ 2635.705', description: 'Misuse of Government Resources; Wife used State Department staff for personal errands and holiday card mailing', category: 'Ethics' },
  ],
  relatedInvestigations: [
  { title: 'Ukraine Extortion', slug: 'ukraine-extortion', severity: 'critical' },
@@ -640,7 +640,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Deported to Russia, now a lawmaker there',
  ],
  charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to act as unregistered foreign agent', category: 'Espionage' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to act as unregistered foreign agent', category: 'Espionage' },
  ],
  relatedInvestigations: [
  { title: 'NRA Russia Investigation', slug: 'nra-russia', severity: 'critical' },
@@ -1581,7 +1581,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'June 16, 1882',
  birthPlace: 'Tehran, Iran',
  deathDate: 'March 5, 1967',
- education: ['Sciences Po, Paris', 'University of Neuchâtel'],
+ education: ['Sciences Po, Paris', 'University of NeuchÃƒÂ¢tel'],
  affiliations: [
  { name: 'Iranian Government', role: 'Prime Minister (1951-1953)', type: 'agency' },
  ],
@@ -1641,7 +1641,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DICTATOR: Rigged elections, murdered opponents',
  ],
  charges: [
- { statute: '21 U.S.C. § 846', description: 'Drug Trafficking Conspiracy', category: 'Federal Crime' },
+ { statute: '21 U.S.C. Ã‚Â§ 846', description: 'Drug Trafficking Conspiracy', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
  { title: 'Panama Invasion', slug: 'panama-invasion', severity: 'critical' },
@@ -2257,11 +2257,11 @@ const profiles: Record<string, IndividualProfile> = {
  'Multiple former associates cooperated against him, including Ivan Boesky (who wore a wire), Dennis Levine, and Martin Siegel',
  ],
  charges: [
- { statute: '18 U.S.C. § 1962 (RICO)', description: 'Racketeering  -  operating a criminal enterprise through Drexel\'s high-yield bond department', category: 'Federal' },
- { statute: '15 U.S.C. § 78j(b), SEC Rule 10b-5', description: 'Securities Fraud  -  manipulating securities prices and trading on insider information', category: 'Federal' },
- { statute: '18 U.S.C. § 1341', description: 'Mail Fraud  -  using the mails to further securities fraud schemes', category: 'Federal' },
- { statute: '26 U.S.C. § 7206', description: 'Tax Fraud  -  aiding in the filing of false tax returns for clients', category: 'Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Concealment  -  hiding information from the SEC during investigations', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1962 (RICO)', description: 'Racketeering  -  operating a criminal enterprise through Drexel\'s high-yield bond department', category: 'Federal' },
+ { statute: '15 U.S.C. Ã‚Â§ 78j(b), SEC Rule 10b-5', description: 'Securities Fraud  -  manipulating securities prices and trading on insider information', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1341', description: 'Mail Fraud  -  using the mails to further securities fraud schemes', category: 'Federal' },
+ { statute: '26 U.S.C. Ã‚Â§ 7206', description: 'Tax Fraud  -  aiding in the filing of false tax returns for clients', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Concealment  -  hiding information from the SEC during investigations', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },
@@ -2374,15 +2374,15 @@ const profiles: Record<string, IndividualProfile> = {
 
  'mark-schneider': {
  name: 'Mark Schneider',
- title: 'Nestl� CEO',
- role: 'Nestl� CEO, Water Privatization, Child Labor',
+ title: 'NestlÃ¯Â¿Â½ CEO',
+ role: 'NestlÃ¯Â¿Â½ CEO, Water Privatization, Child Labor',
  riskLevel: 'critical',
- description: 'Mark Schneider leads Nestl�, the world\'s largest food company. Nestl� has been accused of extracting water from drought-stricken areas, using child labor in cocoa supply chains, aggressive baby formula marketing in developing countries, and contributing to the plastic pollution crisis.',
+ description: 'Mark Schneider leads NestlÃ¯Â¿Â½, the world\'s largest food company. NestlÃ¯Â¿Â½ has been accused of extracting water from drought-stricken areas, using child labor in cocoa supply chains, aggressive baby formula marketing in developing countries, and contributing to the plastic pollution crisis.',
  birthDate: 'November 1965',
  birthPlace: 'Germany',
  education: ['St. Gallen University', 'Harvard Business School'],
  affiliations: [
- { name: 'Nestl�', role: 'CEO', type: 'corporation' as const },
+ { name: 'NestlÃ¯Â¿Â½', role: 'CEO', type: 'corporation' as const },
  ],
  controversies: [
  'WATER EXTRACTION: Bottling during droughts while communities suffer',
@@ -2397,12 +2397,12 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Other inhumane acts', category: 'INTERNATIONAL' },
  ],
  relatedInvestigations: [
- { title: 'Nestl� Human Rights Abuses', slug: 'nestle-human-rights', severity: 'critical' },
+ { title: 'NestlÃ¯Â¿Â½ Human Rights Abuses', slug: 'nestle-human-rights', severity: 'critical' },
  { title: 'Corporate Water Theft', slug: 'corporate-water-theft', severity: 'critical' },
  ],
  timeline: [
  { date: 'November 1965', event: 'Born in Germany' },
- { date: '2017', event: 'Becomes Nestl� CEO' },
+ { date: '2017', event: 'Becomes NestlÃ¯Â¿Â½ CEO' },
  ],
  sources: [{ title: 'Wikipedia: Mark Schneider', url: 'https://en.wikipedia.org/wiki/Mark_Schneider' }, { title: 'Bloomberg: Mark Schneider', url: 'https://www.bloomberg.com/' }],
  knownAssociates: [
@@ -2841,9 +2841,9 @@ const profiles: Record<string, IndividualProfile> = {
  '$6,000 SHOWER CURTAIN: Symbol of excess (Kozlowski trial)',
  ],
  charges: [
- { statute: 'NY Penal Law � 155.42', description: 'Grand larceny in the first degree', category: 'Theft' },
- { statute: 'NY General Business Law � 352-c', description: 'Securities fraud', category: 'Securities' },
- { statute: 'NY Penal Law � 105', description: 'Criminal conspiracy', category: 'Federal' },
+ { statute: 'NY Penal Law Ã¯Â¿Â½ 155.42', description: 'Grand larceny in the first degree', category: 'Theft' },
+ { statute: 'NY General Business Law Ã¯Â¿Â½ 352-c', description: 'Securities fraud', category: 'Securities' },
+ { statute: 'NY Penal Law Ã¯Â¿Â½ 105', description: 'Criminal conspiracy', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Corporate Fraud Scandals', slug: 'corporate-fraud-scandals', severity: 'high' },
@@ -3552,11 +3552,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'matthias-mueller': {
- name: 'Matthias Müller',
+ name: 'Matthias MÃƒÂ¼ller',
  title: 'Succeeded Winterkorn as CEO; oversaw VW\'s crisis response and settlement negotiations',
  role: 'Succeeded Winterkorn as CEO; oversaw VW\'s crisis response and settlement negotiations',
  riskLevel: 'high',
- description: 'Matthias Müller. Profile pending review.',
+ description: 'Matthias MÃƒÂ¼ller. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Mary Turner', type: 'organization' },
@@ -3573,7 +3573,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Matthias Müller', url: 'https://en.wikipedia.org/wiki/Matthias_Müller', date: '' },
+ { title: 'Wikipedia: Matthias MÃƒÂ¼ller', url: 'https://en.wikipedia.org/wiki/Matthias_MÃƒÂ¼ller', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3676,29 +3676,29 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'mauricio-rodriguez-sanchez': {
- name: 'Mauricio Rodríguez Sánchez',
- title: 'Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial',
- role: 'Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial',
+ name: 'Mauricio RodrÃƒÂ­guez SÃƒÂ¡nchez',
+ title: 'Head of military intelligence during RÃƒÂ­os Montt regime; co-defendant in genocide trial',
+ role: 'Head of military intelligence during RÃƒÂ­os Montt regime; co-defendant in genocide trial',
  riskLevel: 'high',
- description: 'Mauricio Rodríguez Sánchez. Profile pending review.',
+ description: 'Mauricio RodrÃƒÂ­guez SÃƒÂ¡nchez. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Investigative journalists have documented a pattern of revolving-door employment between Mauricio Rodríguez Sánchez\'s operations and the regulatory bodies meant to provide oversight.',
- 'Congressional hearing transcripts reference Mauricio Rodríguez Sánchez in connection with policy decisions that disproportionately benefited associated financial interests.',
+ 'Investigative journalists have documented a pattern of revolving-door employment between Mauricio RodrÃƒÂ­guez SÃƒÂ¡nchez\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Congressional hearing transcripts reference Mauricio RodrÃƒÂ­guez SÃƒÂ¡nchez in connection with policy decisions that disproportionately benefited associated financial interests.',
  ],
  charges: [],
  relatedInvestigations: [
  { title: 'Guatemala Genocide', slug: 'guatemala-genocide', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Head of military intelligence during Ríos Montt regime; co-defendant in genocide trial' }, ],
+ { date: 'Ongoing', event: 'Active in role as Head of military intelligence during RÃƒÂ­os Montt regime; co-defendant in genocide trial' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Mauricio Rodríguez Sánchez', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt#Trial', date: '' }, ],
+ { title: 'Wikipedia: Mauricio RodrÃƒÂ­guez SÃƒÂ¡nchez', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt#Trial', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Efrain Rios Montt', relationship: 'Intelligence chief under Rios Montt during genocide', href: '/entities/individuals/efrain-rios-montt' },
@@ -3886,7 +3886,7 @@ const profiles: Record<string, IndividualProfile> = {
  'No Sackler family member was charged in the 2007 case despite directing the marketing strategy Friedman executed',
  ],
  charges: [
- { statute: '21 U.S.C. § 331 -- FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead" regarding addiction risk; sentenced to 400 hours community service', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
+ { statute: '21 U.S.C. Ã‚Â§ 331 -- FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead" regarding addiction risk; sentenced to 400 hours community service', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
  ],
  relatedInvestigations: [
  { title: 'Opioid Crisis: Corporate Mass Murder', slug: 'opioid-crisis-corporate-mass-murder', severity: 'critical' },
@@ -4118,7 +4118,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'high' },
+ { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
  ],
  timeline: [ ],
  socialMedia: [],
@@ -5705,22 +5705,22 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       {
-        statute: '18 U.S.C. § 1962 - RICO / Racketeering',
+        statute: '18 U.S.C. Ã‚Â§ 1962 - RICO / Racketeering',
         description: 'Participated in racketeering conspiracy using his judicial office to enrich himself through kickbacks from private juvenile detention facilities',
         category: 'financial',
       },
       {
-        statute: '18 U.S.C. § 666 - Federal Program Bribery',
+        statute: '18 U.S.C. Ã‚Â§ 666 - Federal Program Bribery',
         description: 'Accepted $2.8 million in bribes/kickbacks in exchange for steering juvenile defendants to specific private detention facilities',
         category: 'financial',
       },
       {
-        statute: '26 U.S.C. § 7201 - Tax Evasion',
+        statute: '26 U.S.C. Ã‚Â§ 7201 - Tax Evasion',
         description: 'Failed to report $2.8 million in kickback income on federal tax returns',
         category: 'financial',
       },
       {
-        statute: '18 U.S.C. § 1956 - Money Laundering',
+        statute: '18 U.S.C. Ã‚Â§ 1956 - Money Laundering',
         description: 'Laundered kickback proceeds through real estate transactions and shell companies to conceal their criminal origin',
         category: 'financial',
       },
@@ -5776,7 +5776,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       {
-        statute: '18 U.S.C. § 2340A - Torture (legal complicity)',
+        statute: '18 U.S.C. Ã‚Â§ 2340A - Torture (legal complicity)',
         description: 'As head of DOJ Criminal Division, provided legal opinions that justified CIA enhanced interrogation techniques constituting torture under international law',
         category: 'human-rights',
       },

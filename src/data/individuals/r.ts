@@ -1,11 +1,11 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
  'roger-stone': {
  name: 'Roger Jason Stone Jr.',
  title: 'Convicted Felon (Pardoned), Professional Dirty Trickster',
- role: 'Political Consultant, Trump Advisor, Nixon ProtÃ©gÃ©',
+ role: 'Political Consultant, Trump Advisor, Nixon ProtÃƒÂ©gÃƒÂ©',
  riskLevel: 'critical',
  description: 'Roger Jason Stone Jr. is a longtime Republican political consultant, lobbyist, and self-described dirty trickster who served as a key ally to Donald Trump. He was convicted of seven felonies including witness tampering and lying to Congress about his WikiLeaks contacts during the 2016 campaign, then pardoned by Trump. He had documented contacts with the Proud Boys and Oath Keepers before January 6th.',
  birthDate: 'August 27, 1952',
@@ -35,9 +35,9 @@ const profiles: Record<string, IndividualProfile> = {
  'LOBBYING DICTATORS: Black Manafort Stone lobbied for dictators including Marcos (Philippines), Mobutu (Zaire), Angola rebels',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
- { statute: '18 U.S.C. Â§ 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
- { statute: '18 U.S.C. Â§ 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -115,13 +115,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Testified about Manafort tax and bank fraud',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy Against the United States (Pled Guilty); Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
- { statute: '18 U.S.C. Â§ 1001', description: 'Making False Statements (Pled Guilty); Lied to investigators about contacts and transactions', category: 'Obstruction' },
- { statute: '22 U.S.C. Â§ 611 (FARA)', description: 'Foreign Agent Registration Act Violation; Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
- { statute: '26 U.S.C. Â§ 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy; Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
- { statute: '18 U.S.C. Â§ 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy; Helped submit false loan applications to banks', category: 'Bank Fraud' },
- { statute: '31 U.S.C. Â§ 5314 (FBAR)', description: 'Foreign Account Reporting Violations; Failed to report foreign bank accounts', category: 'Financial Crime' },
- { statute: '18 U.S.C. Â§ 1956 (Money Laundering)', description: 'Money Laundering Conspiracy; Moved Ukraine payments through shell companies', category: 'Money Laundering' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy Against the United States (Pled Guilty); Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Making False Statements (Pled Guilty); Lied to investigators about contacts and transactions', category: 'Obstruction' },
+ { statute: '22 U.S.C. Ã‚Â§ 611 (FARA)', description: 'Foreign Agent Registration Act Violation; Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
+ { statute: '26 U.S.C. Ã‚Â§ 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy; Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
+ { statute: '18 U.S.C. Ã‚Â§ 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy; Helped submit false loan applications to banks', category: 'Bank Fraud' },
+ { statute: '31 U.S.C. Ã‚Â§ 5314 (FBAR)', description: 'Foreign Account Reporting Violations; Failed to report foreign bank accounts', category: 'Financial Crime' },
+ { statute: '18 U.S.C. Ã‚Â§ 1956 (Money Laundering)', description: 'Money Laundering Conspiracy; Moved Ukraine payments through shell companies', category: 'Money Laundering' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -353,12 +353,12 @@ const profiles: Record<string, IndividualProfile> = {
  'More publicly active than reclusive father',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure; Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
- { statute: '52 U.S.C. Â§ 30121 (Foreign National Contributions)', description: 'Foreign Coordination; Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
- { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; As board member, oversaw company that committed serious data protection breaches (fined Â£500,000)', category: 'International Law' },
- { statute: '18 U.S.C. Â§ 371 (Conspiracy)', description: 'Conspiracy to Defraud US; Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
- { statute: '52 U.S.C. Â§ 30104 (Disclosure)', description: 'Dark Money Concerns; Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
- { statute: '18 U.S.C. Â§ 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
+ { statute: '18 U.S.C. Ã‚Â§ 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure; Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
+ { statute: '52 U.S.C. Ã‚Â§ 30121 (Foreign National Contributions)', description: 'Foreign Coordination; Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
+ { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; As board member, oversaw company that committed serious data protection breaches (fined Ã‚Â£500,000)', category: 'International Law' },
+ { statute: '18 U.S.C. Ã‚Â§ 371 (Conspiracy)', description: 'Conspiracy to Defraud US; Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
+ { statute: '52 U.S.C. Ã‚Â§ 30104 (Disclosure)', description: 'Dark Money Concerns; Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. Ã‚Â§ 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -532,12 +532,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Bought investment in Trump-connected company',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 1014', description: 'Potential Bank Fraud; Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
- { statute: '18 U.S.C. Â§ 1344', description: 'Potential Bank Fraud Scheme; Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
- { statute: '31 U.S.C. Â§ 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations; Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1014', description: 'Potential Bank Fraud; Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 1344', description: 'Potential Bank Fraud Scheme; Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
+ { statute: '31 U.S.C. Ã‚Â§ 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations; Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
  { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations; Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
- { statute: '18 U.S.C. Â§ 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
- { statute: '18 U.S.C. Â§ 371', description: 'Potential Conspiracy; Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Potential Conspiracy; Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
  { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations; Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
  ],
  relatedInvestigations: [
@@ -950,7 +950,7 @@ const profiles: Record<string, IndividualProfile> = {
  'NO PROSECUTION: DOJ declined to charge despite evidence',
  ],
  charges: [
- { statute: '15 U.S.C. Â§ 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
+ { statute: '15 U.S.C. Ã‚Â§ 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
  ],
  relatedInvestigations: [
  { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
@@ -1067,11 +1067,11 @@ const profiles: Record<string, IndividualProfile> = {
  'CENTER FOR RENEWING AMERICA: Organization coordinates"war room"for implementing Project 2025',
  ],
  charges: [
- { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy to Defraud United States; Project 2025 coordination', category: 'Federal' },
- { statute: '2 U.S.C. Â§ 684', description: 'Impoundment Control Act Violations; Illegal withholding of funds', category: 'Federal' },
- { statute: '5 U.S.C. Â§ 2302', description: 'Prohibited Personnel Practices; Schedule F politicization plan', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to Defraud United States; Project 2025 coordination', category: 'Federal' },
+ { statute: '2 U.S.C. Ã‚Â§ 684', description: 'Impoundment Control Act Violations; Illegal withholding of funds', category: 'Federal' },
+ { statute: '5 U.S.C. Ã‚Â§ 2302', description: 'Prohibited Personnel Practices; Schedule F politicization plan', category: 'Federal' },
  { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations; Unitary executive overreach', category: 'Constitutional' },
- { statute: '18 U.S.C. Â§ 595', description: 'Interference by Administrative Employees; Political coercion plans', category: 'Federal' },
+ { statute: '18 U.S.C. Ã‚Â§ 595', description: 'Interference by Administrative Employees; Political coercion plans', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Project 2025 Authoritarian Blueprint', slug: 'project-2025', severity: 'critical' },
@@ -1392,9 +1392,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Escaped accountability through special counsel investigation',
  ],
  charges: [
- { statute: 'Intelligence Identities Protection Act: 50 U.S.C. Â§ 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
- { statute: 'Espionage Act: 18 U.S.C. Â§ 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
- { statute: 'Obstruction of Justice: 18 U.S.C. Â§ 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
+ { statute: 'Intelligence Identities Protection Act: 50 U.S.C. Ã‚Â§ 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
+ { statute: 'Espionage Act: 18 U.S.C. Ã‚Â§ 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
+ { statute: 'Obstruction of Justice: 18 U.S.C. Ã‚Â§ 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Plame Leak Scandal', slug: 'plame-leak', severity: 'high' },
@@ -1481,10 +1481,10 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity; Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 70(1)(c)', description: 'Obstruction of Justice: Destroyed evidence to prevent accountability', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed operations to overthrow the Chilean government', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Â§ 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Â§ 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Â§ 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Â§ 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
  ],
  relatedInvestigations: [
  { title: 'MKUltra Mind Control Program', slug: 'mkultra', severity: 'critical' },
@@ -1566,8 +1566,8 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes; Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes; Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Â§ 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Â§ 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Ã‚Â§ 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
  ],
  relatedInvestigations: [
  { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
@@ -1789,7 +1789,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'CEO of News UK',
  role: 'Media Executive, Phone Hacking Central Figure',
  riskLevel: 'high',
- description: 'Rebekah Brooks (nÃ©e Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
+ description: 'Rebekah Brooks (nÃƒÂ©e Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
  birthDate: 'May 27, 1968',
  birthPlace: 'Warrington, Cheshire, UK',
  education: ['Appleton Hall County Grammar School'],
@@ -1887,7 +1887,7 @@ const profiles: Record<string, IndividualProfile> = {
  'CONGRESSIONAL TESTIMONY: Testified to Congress about delayed response',
  ],
  charges: [
- { statute: '10 U.S.C. Â§ 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
+ { statute: '10 U.S.C. Ã‚Â§ 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -2593,9 +2593,9 @@ const profiles: Record<string, IndividualProfile> = {
  '30+ YEAR SENTENCE: Die-in-prison sentence',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 1962', description: 'RICO, Sex trafficking enterprise', category: 'CONVICTED' },
- { statute: '18 U.S.C. ï¿½ 1591', description: 'Sex trafficking of minors', category: 'CONVICTED' },
- { statute: '18 U.S.C. ï¿½ 2251', description: 'Child pornography production', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1962', description: 'RICO, Sex trafficking enterprise', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1591', description: 'Sex trafficking of minors', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 2251', description: 'Child pornography production', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'R. Kelly Sex Crimes', slug: 'r-kelly-sex-crimes', severity: 'critical' },
@@ -2678,9 +2678,9 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATH PENALTY: Sentenced to death',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED, DEATH' },
- { statute: '18 U.S.C. ï¿½ 249', description: 'Hate crime resulting in death', category: 'CONVICTED' },
- { statute: '18 U.S.C. ï¿½ 924(c)', description: 'Use of firearm in violent crime', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED, DEATH' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 249', description: 'Hate crime resulting in death', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 924(c)', description: 'Use of firearm in violent crime', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Tree of Life Massacre', slug: 'tree-of-life-massacre', severity: 'critical' },
@@ -2747,9 +2747,9 @@ const profiles: Record<string, IndividualProfile> = {
  'LAPTOP MISSING: Never recovered',
  ],
  charges: [
- { statute: '18 U.S.C. ï¿½ 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED: 3 YEARS' },
- { statute: '18 U.S.C. ï¿½ 641', description: 'Theft of government property', category: 'CONVICTED' },
- { statute: '18 U.S.C. ï¿½ 1752', description: 'Unlawful entry', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED: 3 YEARS' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 641', description: 'Theft of government property', category: 'CONVICTED' },
+ { statute: '18 U.S.C. Ã¯Â¿Â½ 1752', description: 'Unlawful entry', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -3042,11 +3042,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'ramon-fonseca': {
- name: 'RamÃ³n Fonseca',
+ name: 'RamÃƒÂ³n Fonseca',
  title: 'Co-founder of Mossack Fonseca and adviser to Panama\'s president; oversaw the creation of thousands of shell companies',
  role: 'Co-founder of Mossack Fonseca and adviser to Panama\'s president; oversaw the creation of thousands of shell companies',
  riskLevel: 'high',
- description: 'RamÃ³n Fonseca. Profile pending review.',
+ description: 'RamÃƒÂ³n Fonseca. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Ralph Abernathy', type: 'organization' },
@@ -3063,7 +3063,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: RamÃ³n Fonseca', url: 'https://en.wikipedia.org/wiki/RamÃ³n_Fonseca', date: '' },
+ { title: 'Wikipedia: RamÃƒÂ³n Fonseca', url: 'https://en.wikipedia.org/wiki/RamÃƒÂ³n_Fonseca', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3447,11 +3447,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'rene-schneider': {
- name: 'RenÃ© Schneider',
+ name: 'RenÃƒÂ© Schneider',
  title: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
  role: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
  riskLevel: 'high',
- description: 'RenÃ© Schneider. Profile pending review.',
+ description: 'RenÃƒÂ© Schneider. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -3469,7 +3469,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: RenÃ© Schneider', url: 'https://en.wikipedia.org/wiki/RenÃ©_Schneider', date: '' },
+ { title: 'Wikipedia: RenÃƒÂ© Schneider', url: 'https://en.wikipedia.org/wiki/RenÃƒÂ©_Schneider', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3773,11 +3773,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'rigoberta-menchu': {
- name: 'Rigoberta MenchÃº',
+ name: 'Rigoberta MenchÃƒÂº',
  title: 'Indigenous K\'iche\' activist who won 1992 Nobel Peace Prize for documenting genocide',
  role: 'Indigenous K\'iche\' activist who won 1992 Nobel Peace Prize for documenting genocide',
  riskLevel: 'high',
- description: 'Rigoberta MenchÃº. Profile pending review.',
+ description: 'Rigoberta MenchÃƒÂº. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Rick Dearborn', type: 'organization' },
@@ -3794,7 +3794,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Rigoberta MenchÃº', url: 'https://en.wikipedia.org/wiki/Rigoberta_MenchÃº', date: '' },
+ { title: 'Wikipedia: Rigoberta MenchÃƒÂº', url: 'https://en.wikipedia.org/wiki/Rigoberta_MenchÃƒÂº', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4288,8 +4288,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'robert-scherrer': {
  name: 'Robert Scherrer',
- title: 'FBI Legal AttachÃ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network: his reports were largely ignored',
- role: 'FBI Legal AttachÃ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
+ title: 'FBI Legal AttachÃƒÂ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network: his reports were largely ignored',
+ role: 'FBI Legal AttachÃƒÂ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
  riskLevel: 'high',
  description: 'Robert Scherrer. Profile pending review.',
  education: [],
@@ -5508,7 +5508,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Big Tobacco Coverup', slug: 'big-tobacco-coverup', severity: 'critical' },
+ { title: 'Big Tobacco Conspiracy', slug: 'big-tobacco-lies', severity: 'critical' },
  ],
  timeline: [
  { date: '1994', event: 'Filed Mississippi tobacco lawsuit' },
@@ -6320,8 +6320,8 @@ const profiles: Record<string, IndividualProfile> = {
       'Family philanthropy to Met Museum, Louvre, Guggenheim, Smithsonian, Oxford, Harvard, and Yale characterized as reputation laundering from profits of mass death; over 20 institutions removed the Sackler name',
     ],
     charges: [
-      { statute: '21 U.S.C. § 331 -- FDCA Misbranding', description: 'Purdue pleaded guilty to misbranding OxyContin with intent to defraud and mislead (2007); Sackler not individually charged despite directing the marketing strategy', category: 'Drug Misbranding' },
-      { statute: '18 U.S.C. § 371 -- Conspiracy', description: 'Purdue admitted in 2020 to conspiring to defraud the United States by impeding the DEA; Sackler directed company strategy but was not individually charged', category: 'federal' },
+      { statute: '21 U.S.C. Â§ 331 -- FDCA Misbranding', description: 'Purdue pleaded guilty to misbranding OxyContin with intent to defraud and mislead (2007); Sackler not individually charged despite directing the marketing strategy', category: 'Drug Misbranding' },
+      { statute: '18 U.S.C. Â§ 371 -- Conspiracy', description: 'Purdue admitted in 2020 to conspiring to defraud the United States by impeding the DEA; Sackler directed company strategy but was not individually charged', category: 'federal' },
       { statute: 'Civil -- Massachusetts AG Lawsuit (2018)', description: 'Named defendant in Commonwealth v. Purdue Pharma et al.; complaint detailed personal emails, marketing directives, and role in OxyContin strategy', category: 'CIVIL' },
       { statute: 'Civil -- Harrington v. Purdue Pharma L.P. (2024)', description: 'Supreme Court struck down Sackler attempt to gain civil immunity through Purdue bankruptcy without personally filing for bankruptcy', category: 'CIVIL' },
     ],
@@ -6397,7 +6397,7 @@ const profiles: Record<string, IndividualProfile> = {
         category: 'regulatory',
       },
       {
-        statute: 'Safe Drinking Water Act (42 U.S.C. Â§ 300f) - Regulatory Failure',
+        statute: 'Safe Drinking Water Act (42 U.S.C. Ã‚Â§ 300f) - Regulatory Failure',
         description: 'State under his leadership failed to enforce federal safe drinking water standards and implement required corrosion control treatment',
         category: 'regulatory',
       },
