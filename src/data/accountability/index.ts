@@ -60,6 +60,7 @@ import { trumpOrgAccountability } from './trump-org-fraud';
 import { tuskegeeExperimentAccountability } from './tuskegee-experiment';
 import { wallStreetBailoutAccountability } from './wall-street-bailout';
 import { warOnDrugsAccountability } from './war-on-drugs';
+import { watergateAccountability } from './watergate';
 import { wellsFargoAccountability } from './wells-fargo-fraud';
 import { whiteSupremacistViolenceAccountability } from './white-supremacist-violence';
 
@@ -125,6 +126,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'tuskegee-experiment': tuskegeeExperimentAccountability,
   'wall-street-bailout': wallStreetBailoutAccountability,
   'war-on-drugs': warOnDrugsAccountability,
+  'watergate': watergateAccountability,
   'wells-fargo-fraud': wellsFargoAccountability,
   'white-supremacist-violence': whiteSupremacistViolenceAccountability,
 };
