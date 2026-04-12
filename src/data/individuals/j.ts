@@ -5698,7 +5698,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  relatedInvestigations: [
  { title: 'The Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'critical' },
- { title: 'The Tuskegee Syphilis Experiment', slug: 'tuskegee-syphilis-experiment', severity: 'critical' },
+ { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
  ],
  timeline: [
  { date: '1915-06-29', event: 'Born in Cleveland, Ohio' },

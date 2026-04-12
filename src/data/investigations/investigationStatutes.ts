@@ -5492,11 +5492,7 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
-  'tuskegee-syphilis-experiment': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-    { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
-  ],
+
   'tyco-corporate-looting': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
@@ -6245,11 +6241,19 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 371', description: 'Conspiracy to Defraud' },
   ],
   'tuskegee-experiment': [
-    { code: '42 U.S.C. § 1983', description: 'Civil Rights Violation' },
-    { code: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law' },
-    { code: '45 C.F.R. § 46', description: 'Common Rule - Protection of Human Subjects' },
-    { code: 'Nuremberg Code Principle 1', description: 'Voluntary consent absolutely essential' },
-    { code: '18 U.S.C. § 1111', description: 'Murder (deliberate withholding of treatment)' },
+    { code: '42 U.S.C. § 1983', description: 'Civil Rights Violation -- Deprivation of rights, privileges, or immunities secured by the Constitution' },
+    { code: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law -- Willful subjection to deprivation of rights by government actors' },
+    { code: '18 U.S.C. § 1111', description: 'Murder -- Deliberate withholding of treatment resulting in death of 128+ men' },
+    { code: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States -- Multi-decade coordinated deception by federal officials' },
+    { code: '18 U.S.C. § 1001', description: 'False Statements -- Systematically lying to participants about their diagnosis and the nature of the study' },
+    { code: '45 C.F.R. § 46', description: 'Common Rule -- Protection of Human Subjects (codified after study; study was catalyst for its creation)' },
+    { code: 'Nuremberg Code (1947), Principle 1', description: 'Voluntary consent of the human subject is absolutely essential -- violated for entire 40-year duration' },
+    { code: 'Declaration of Helsinki (1964), Article 25', description: 'Informed consent requirement for medical research -- study continued 8 years after adoption with zero compliance' },
+    { code: 'U.S. Constitution, 14th Amendment', description: 'Equal Protection Clause -- racially targeted study deliberately selected Black men based on race' },
+    { code: 'Henderson Act (1943)', description: 'Required testing and treatment for venereal diseases -- study participants deliberately exempted from law' },
+    { code: 'National Research Act, P.L. 93-348 (1974)', description: 'Created in direct response to Tuskegee -- mandated IRBs and ethical oversight for all federally funded research' },
+    { code: 'AMA Principles of Medical Ethics (1957)', description: 'Physician obligation to informed consent and patient welfare -- violated by every PHS physician involved' },
+    { code: 'ICCPR Article 7', description: 'International Covenant on Civil and Political Rights -- prohibition on medical or scientific experimentation without free consent' },
   ],
   'wall-street-bailout': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
