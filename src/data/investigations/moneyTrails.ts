@@ -2259,12 +2259,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Goldman Sachs', to: 'Affected investors / victims', amount: '$14.2B', purpose: 'Restitution and settlement payments to victims of Financial Crisis Profiteering: How Wall Street Made Billions From the Crash It Created', documented: true },
   ],
 
-  'flint-water': [
-    { date: '2014-01-01', from: 'Industrial polluters', to: 'Revenue from polluting operations', amount: '$41.9B', purpose: 'Revenue from operations causing environmental damage in Flint Water Crisis', documented: true },
-    { date: '2019-01-01', from: 'Industrial polluters', to: 'EPA fines and cleanup costs', amount: '$5.1B', purpose: 'Environmental remediation and regulatory penalties for Flint Water Crisis', documented: true },
-    { date: '2016-01-01', from: 'Industrial polluters', to: 'Environmental lobbying', amount: '$431M', purpose: 'Lobbying to weaken regulations related to Flint Water Crisis', documented: true },
-  ],
-
   'foreign-bribery': [
     { date: '2018-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$4.2B', purpose: 'Undisclosed political spending connected to Foreign Bribery: How U.S. Corporations Buy Governments Abroad', documented: false },
     { date: '2019-01-01', from: 'Corporate donors', to: 'Foreign Bribery', amount: '$59M', purpose: 'Campaign contributions and financial benefits flowing through Foreign Bribery: How U.S. Corporations Buy Governments Abroad', documented: true },
@@ -2460,12 +2454,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2015-01-01', from: 'DOE', to: 'Illicit financial flows', amount: '$15.6B', purpose: 'Fraudulent financial activity in The For-Profit College Scam: Predatory Education and the Student Debt Crisis', documented: true },
     { date: '2018-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against DOE', amount: '$4.3B', purpose: 'Fines and penalties imposed for violations uncovered in The For-Profit College Scam: Predatory Education and the Student Debt Crisis', documented: true },
     { date: '2017-01-01', from: 'DOE', to: 'Affected investors / victims', amount: '$3.6B', purpose: 'Restitution and settlement payments to victims of The For-Profit College Scam: Predatory Education and the Student Debt Crisis', documented: true },
-  ],
-
-  'flint-water-crisis': [
-    { date: '2014-01-01', from: 'Industrial polluters', to: 'Revenue from polluting operations', amount: '$138.2B', purpose: 'Revenue from operations causing environmental damage in Flint Water Crisis', documented: true },
-    { date: '2019-01-01', from: 'Industrial polluters', to: 'EPA fines and cleanup costs', amount: '$6.3B', purpose: 'Environmental remediation and regulatory penalties for Flint Water Crisis', documented: true },
-    { date: '2016-01-01', from: 'Industrial polluters', to: 'Environmental lobbying', amount: '$88M', purpose: 'Lobbying to weaken regulations related to Flint Water Crisis', documented: true },
   ],
 
   'facebook-instagram-teen-mental-health': [

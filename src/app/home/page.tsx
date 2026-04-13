@@ -42,7 +42,7 @@ const FEATURED_INVESTIGATIONS: {
  { slug: 'insider-trading-congressional-members', title: 'Congressional Insider Trading', subtitle: 'Lawmakers profiting from classified briefings', severity: 'high' },
  { slug: 'foster-care-to-trafficking-pipeline', title: 'Foster Care to Trafficking Pipeline', subtitle: 'Children disappearing from state custody into exploitation', severity: 'critical' },
  { slug: 'forced-sterilization-historical-patterns', title: 'Forced Sterilization Programs', subtitle: 'Government eugenics programs targeting minorities', severity: 'critical' },
- { slug: 'flint-water', title: 'Flint Water Crisis', subtitle: 'Government poisoned a city and covered it up', severity: 'critical' },
+ { slug: 'flint-water-crisis', title: 'Flint Water Crisis', subtitle: 'Government poisoned a city and covered it up', severity: 'critical' },
  { slug: 'fbi-assassinations', title: 'FBI Assassinations', subtitle: 'COINTELPRO, targeted killings, and state violence', severity: 'critical' },
 ];
 
