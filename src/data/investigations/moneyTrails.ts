@@ -6205,12 +6205,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1965-01-01', from: 'DOD', to: 'Legal penalties and settlements', amount: '$4.1B', purpose: 'Fines and settlements resulting from The Military-Industrial Complex: War Profiteering and the Revolving Door', documented: true },
   ],
 
-  'wells-fargo-fake-accounts-scandal': [
-    { date: '2016-01-01', from: 'Wells Fargo', to: 'Revenue from harmful practices', amount: '$58.8B', purpose: 'Wells Fargo revenue while engaging in practices exposed by Wells Fargo Fake Accounts Scandal', documented: true },
-    { date: '2018-01-01', from: 'Wells Fargo', to: 'Anti-regulation lobbying', amount: '$1.0B', purpose: 'Lobbying spending by Wells Fargo to avoid accountability in Wells Fargo Fake Accounts Scandal', documented: true },
-    { date: '2020-01-01', from: 'Wells Fargo', to: 'Legal penalties and settlements', amount: '$16.4B', purpose: 'Fines and settlements resulting from Wells Fargo Fake Accounts Scandal', documented: true },
-  ],
-
   'wage-theft-americas-largest-theft': [
     { date: '2014-01-01', from: 'DOL', to: 'Revenue from harmful practices', amount: '$96.9B', purpose: 'DOL revenue while engaging in practices exposed by Wage Theft: America\'s Largest Theft', documented: true },
     { date: '2016-01-01', from: 'DOL', to: 'Anti-regulation lobbying', amount: '$96M', purpose: 'Lobbying spending by DOL to avoid accountability in Wage Theft: America\'s Largest Theft', documented: true },

@@ -8314,7 +8314,7 @@ const profiles: Record<string, IndividualProfile> = {
       { statute: '12 U.S.C. 1818(i)', description: 'OCC civil money penalty - $17.5 million personal fine', category: 'federal' },
       { statute: '12 U.S.C. 5531-5536', description: 'CFPB consent order - unfair and deceptive practices ($100M penalty)', category: 'federal' },
     ],
-    relatedInvestigations: ['/investigations/wells-fargo-fake-accounts-scandal'],
+    relatedInvestigations: ['/investigations/wells-fargo-fraud'],
     timeline: [
       { date: '2007', event: 'Becomes CEO of Wells Fargo' },
       { date: '2013-12', event: 'LA Times first reports on fake accounts; management denies scope' },
