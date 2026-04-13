@@ -1,7 +1,7 @@
 import type { AccountabilityData } from '@/types/accountability';
 
 export const liborScandalAccountability: AccountabilityData = {
-  investigationSlug: 'libor-scandal',
+  investigationSlug: 'banking-libor-manipulation',
   crimeSummary: 'From at least 2003 to 2012, traders at the world\'s largest banks systematically manipulated the London Interbank Offered Rate (LIBOR)  -  the benchmark interest rate underlying $350+ trillion in financial contracts including mortgages, student loans, credit cards, and derivatives. Banks including Barclays, UBS, Deutsche Bank, Rabobank, and others colluded to submit false rates, enriching their trading positions at the expense of borrowers worldwide. The manipulation was open and brazen  -  traders communicated requests via chat rooms and emails with messages like "Dude. I owe you big time!" Internal communications show manipulation was widespread, systematic, and known to senior management.',
   totalHarm: 'LIBOR underpinned $350+ trillion in financial instruments. Even small manipulations (fractions of a basis point) across that volume produced billions in stolen value. U.S. municipalities, pension funds, and consumers were systematically cheated. Estimated total harm: tens of billions globally. The manipulation also distorted the perception of bank health during the 2008 crisis, contributing to delayed regulatory response.',
   victimsAffected: 'Every person with a LIBOR-indexed mortgage, student loan, credit card, or financial product. U.S. municipalities that lost hundreds of millions on interest rate swaps. Pension funds. The city of Baltimore, Charles Schwab, and other entities filed major lawsuits.',

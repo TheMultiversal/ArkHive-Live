@@ -698,11 +698,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Boeing', to: 'Oversight and investigation costs', amount: '$526M', purpose: 'Congressional and inspector general investigation costs for Boeing Starliner: Billions Over Budget, Years Behind Schedule, and Astronauts Stranded in Space', documented: false },
   ],
 
-  'banking-libor-manipulation': [
-    { date: '2012-01-01', from: 'LIBOR Manipulation', to: 'Illicit financial flows', amount: '$9.8B', purpose: 'Fraudulent financial activity in LIBOR Manipulation: The Biggest Financial Fraud in History', documented: true },
-    { date: '2015-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against LIBOR Manipulation', amount: '$5.9B', purpose: 'Fines and penalties imposed for violations uncovered in LIBOR Manipulation: The Biggest Financial Fraud in History', documented: true },
-    { date: '2014-01-01', from: 'LIBOR Manipulation', to: 'Affected investors / victims', amount: '$15.4B', purpose: 'Restitution and settlement payments to victims of LIBOR Manipulation: The Biggest Financial Fraud in History', documented: true },
-  ],
 
 
   // ========== P ==========

@@ -121,7 +121,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'hush-money': hushMoneyAccountability,
   'iran-contra-full-financial-trail': iranContraAccountability,
   'iraq-sanctions': iraqSanctionsAccountability,
-  'libor-scandal': liborScandalAccountability,
+  'banking-libor-manipulation': liborScandalAccountability,
   'mkultra-cia-human-experimentation': mkultraCiaHumanExperimentationAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,
   'nsa-mass-surveillance': nsaMassSurveillanceAccountability,

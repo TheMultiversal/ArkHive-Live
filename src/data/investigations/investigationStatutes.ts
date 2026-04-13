@@ -362,13 +362,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
   ],
-  'banking-libor-manipulation': [
-    { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
-    { code: '18 U.S.C. § 1344', description: 'Bank Fraud' },
-    { code: '18 U.S.C. § 1956', description: 'Money Laundering' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-  ],
   'banking-lobby-capture-of-fed': [
     { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
     { code: '18 U.S.C. § 1344', description: 'Bank Fraud' },
