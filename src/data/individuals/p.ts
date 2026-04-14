@@ -2666,6 +2666,52 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
 
+  'peter-buxtun': {
+    name: 'Peter Buxtun',
+    title: 'USPHS Whistleblower Who Exposed the Tuskegee Syphilis Study to the Press',
+    role: 'PHS venereal disease interviewer and investigator who repeatedly tried to stop the Tuskegee study through internal channels before going to the press, ending the 40-year experiment',
+    riskLevel: 'low' as const,
+    description: 'Peter Buxtun (born 1937) is a former United States Public Health Service venereal disease interviewer and investigator who became the whistleblower responsible for ending the Tuskegee syphilis study. Buxtun first learned of the study in 1966 while working for the PHS in San Francisco and was immediately horrified by its ethics. He filed formal objections with PHS officials in 1966 and again in 1968, arguing that the study was fundamentally immoral and should be terminated. Both times, his concerns were reviewed by panels of physicians within the PHS and the Centers for Disease Control, and both times the panels voted to continue the study, with some members arguing that the data was too valuable to abandon. Rebuffed by the institution he served, Buxtun took the extraordinary step of leaking information about the study to Jean Heller, an Associated Press reporter, in 1972. Heller\'s front-page story on July 25, 1972, ignited a national scandal that led to immediate termination of the study, congressional hearings chaired by Senator Edward Kennedy, a $10 million out-of-court settlement for the surviving participants, and ultimately the creation of the National Research Act of 1974 and the modern system of Institutional Review Boards (IRBs) that govern human subjects research. Buxtun received no recognition for his actions until decades later and faced professional repercussions within the PHS for his whistleblowing. He is now recognized as one of the most important whistleblowers in American medical history.',
+    birthDate: '1937',
+    education: ['University of Oregon'],
+    affiliations: [
+      { name: 'United States Public Health Service', role: 'Venereal disease interviewer and investigator; stationed in San Francisco when he discovered and objected to the Tuskegee study', type: 'agency' },
+    ],
+    controversies: [
+      'Discovered the Tuskegee study in 1966 and immediately recognized it as a profound ethical violation',
+      'Filed formal internal objections with PHS officials in 1966 and 1968; both times panels of physicians voted to continue the study',
+      'Faced professional marginalization within the PHS for his persistent objections to the study',
+      'After exhausting internal channels, leaked study information to AP reporter Jean Heller in 1972, triggering the public exposure',
+      'His whistleblowing led directly to the creation of the National Research Act of 1974 and the modern IRB system',
+      'Received no formal recognition or protection as a whistleblower for decades after his actions',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1937', event: 'Born (exact date not widely documented)' },
+      { date: '1966', event: 'Learns of the Tuskegee syphilis study while working as a PHS venereal disease interviewer in San Francisco; files first formal objection' },
+      { date: '1968', event: 'Files second formal objection with PHS officials; a CDC advisory panel reviews and votes to continue the study' },
+      { date: '1972', event: 'After years of being rebuffed internally, provides study information to AP reporter Jean Heller' },
+      { date: 'July 25, 1972', event: 'Jean Heller\'s front-page AP story exposes the Tuskegee study to the nation; immediate public outrage follows' },
+      { date: 'November 1972', event: 'The study is officially terminated following the public exposure' },
+      { date: '1973', event: 'Congressional hearings chaired by Senator Edward Kennedy investigate the study' },
+      { date: '1974', event: 'National Research Act of 1974 signed into law, creating the modern system of Institutional Review Boards (IRBs) for human subjects research' },
+      { date: '1997', event: 'President Bill Clinton issues a formal apology for the Tuskegee study; Buxtun\'s role as whistleblower receives renewed public attention' },
+    ],
+    sources: [
+      { title: 'James H. Jones, Bad Blood: The Tuskegee Syphilis Experiment (Free Press, 1981; expanded 1993)', date: '1981' },
+      { title: 'Susan M. Reverby, Examining Tuskegee: The Infamous Syphilis Study and Its Legacy (UNC Press, 2009)', date: '2009' },
+      { title: 'CDC, "The Tuskegee Timeline"', url: 'https://www.cdc.gov/tuskegee/timeline.htm', date: '2024' },
+      { title: 'Jean Heller, "Syphilis Victims in U.S. Study Went Untreated for 40 Years," Associated Press, July 25, 1972', date: '1972' },
+    ],
+    knownAssociates: [
+      { name: 'Jean Heller', relationship: 'AP reporter to whom Buxtun leaked the study; her story ended the 40-year experiment', href: '/entities/individuals/jean-heller' },
+      { name: 'John Charles Cutler', relationship: 'PHS physician involved in both the Tuskegee and Guatemala syphilis experiments; exemplified the institutional culture Buxtun fought against', href: '/entities/individuals/john-charles-cutler' },
+    ],
+  },
+
   'paula-rieker': {
     name: 'Paula Rieker',
     title: 'Former Enron Investor Relations Managing Director convicted of insider trading; cooperated with prosecution',

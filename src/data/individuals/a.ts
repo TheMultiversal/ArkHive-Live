@@ -2168,6 +2168,50 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+  'anne-r-yobs': {
+    name: 'Dr. Anne R. Yobs',
+    title: 'CDC Physician Who Continued the Tuskegee Syphilis Study in the 1960s',
+    role: 'CDC physician who reviewed and supported the continuation of the Tuskegee study in the 1960s, even as ethical standards in medical research were beginning to evolve',
+    riskLevel: 'high' as const,
+    description: 'Dr. Anne R. Yobs was a physician at the Centers for Disease Control (CDC, then the Communicable Disease Center) who played a role in continuing the Tuskegee syphilis study during the 1960s. By the time Yobs became involved, the study had been running for approximately three decades and penicillin had been the standard cure for syphilis for nearly twenty years. Yobs reviewed study data and supported the decision to continue the non-treatment protocol at a time when the Nuremberg Code (1947) and the Declaration of Helsinki (1964) had already established international standards for ethical human subjects research. Yobs was involved in the 1969 CDC review of the study that concluded it should continue to its "endpoint" (the deaths of all remaining subjects and their autopsies). This review, which occurred after Peter Buxtun had already filed his first formal objection in 1966, represented one of the final institutional decisions to perpetuate the study before its public exposure in 1972. Yobs\'s participation illustrates how the study was sustained not only by its original architects but by successive generations of public health professionals who inherited the project and chose continuation over ethical reckoning.',
+    birthDate: 'Unknown',
+    deathDate: 'Unknown',
+    affiliations: [
+      { name: 'Centers for Disease Control (CDC)', role: 'Physician; reviewed and supported continuation of the Tuskegee study during the 1960s', type: 'agency' },
+      { name: 'United States Public Health Service', role: 'PHS officer; participated in institutional reviews of the Tuskegee study', type: 'agency' },
+    ],
+    controversies: [
+      'Participated in the 1969 CDC review that recommended continuing the Tuskegee study to its "endpoint" (the deaths of all remaining subjects)',
+      'Supported continuation of the non-treatment protocol decades after penicillin became the standard cure for syphilis',
+      'Reviewed study data and endorsed ongoing withholding of treatment from Black men with syphilis',
+      'Involvement occurred after both the Nuremberg Code (1947) and the Declaration of Helsinki (1964) had established ethical standards for human subjects research',
+      'Continued to support the study after Peter Buxtun had already filed his first formal objection in 1966',
+      'Represents the institutional complicity of the CDC in perpetuating the experiment through successive generations of physicians',
+    ],
+    charges: [
+      { charge: 'No criminal charges were ever filed', status: 'pending', date: 'N/A', source: 'Yobs faced no legal consequences for her participation in the Tuskegee study review.' },
+    ],
+    relatedInvestigations: [
+      { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1960s', event: 'Becomes involved in the Tuskegee syphilis study through her position at the CDC' },
+      { date: '1966', event: 'Peter Buxtun files his first formal objection to the study with PHS officials; Yobs is among those in the institutional apparatus that allows the study to continue' },
+      { date: '1969', event: 'Participates in the CDC review of the Tuskegee study that recommends continuation to "endpoint" (death and autopsy of all subjects)' },
+      { date: '1972', event: 'The study is publicly exposed by AP journalist Jean Heller; Yobs is identified as one of the CDC physicians who supported its continuation' },
+    ],
+    sources: [
+      { title: 'James H. Jones, Bad Blood: The Tuskegee Syphilis Experiment (Free Press, 1981; expanded 1993)', date: '1981' },
+      { title: 'Susan M. Reverby, Examining Tuskegee: The Infamous Syphilis Study and Its Legacy (UNC Press, 2009)', date: '2009' },
+      { title: 'CDC, "The Tuskegee Timeline"', url: 'https://www.cdc.gov/tuskegee/timeline.htm', date: '2024' },
+    ],
+    knownAssociates: [
+      { name: 'John R. Heller Jr.', relationship: 'Former USPHS Division of Venereal Diseases Director who oversaw the study during an earlier period; Yobs inherited the institutional legacy', href: '/entities/individuals/john-r-heller-jr' },
+      { name: 'John Charles Cutler', relationship: 'PHS physician involved in related unethical syphilis experiments; part of the broader institutional culture', href: '/entities/individuals/john-charles-cutler' },
+      { name: 'Peter Buxtun', relationship: 'PHS whistleblower whose objections in 1966 and 1968 were overridden by the institutional reviews in which Yobs participated', href: '/entities/individuals/peter-buxtun' },
+    ],
+  },
+
   'archer-blood': {
     name: 'Archer Blood',
     title: 'U.S. Consul General to Dhaka',

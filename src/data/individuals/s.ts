@@ -1015,6 +1015,55 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'sidney-olansky': {
+ name: 'Dr. Sidney Olansky',
+ title: 'USPHS Physician Who Conducted Hands-On Research with Tuskegee Syphilis Study Subjects',
+ role: 'PHS physician who directly examined study subjects and published research papers exploiting data from untreated Black men with syphilis',
+ riskLevel: 'critical' as const,
+ description: 'Dr. Sidney Olansky was a United States Public Health Service physician who played a direct and sustained role in the Tuskegee syphilis study during the 1950s and 1960s. Unlike the administrators who oversaw the study from Washington, Olansky was a hands-on researcher who personally examined the study subjects, collected clinical data, and authored or co-authored multiple medical journal publications based on the suffering of men who were deliberately denied treatment. Olansky was instrumental in the 1950s-era medical publications that documented the progression of untreated syphilis in the Tuskegee cohort. These papers were published in mainstream medical journals and read by physicians across the country, yet none prompted ethical objection from the broader medical community. By the time Olansky was actively publishing, penicillin had been the standard treatment for syphilis for nearly a decade. His willingness to continue observing and documenting the deterioration of men who could have been cured represented a continuation of the fundamental ethical violation at the study\'s core. Olansky helped ensure, through his publications and clinical work, that the study maintained its veneer of scientific legitimacy long past the point where any honest reckoning with medical ethics would have demanded its termination. He was never charged with any crime.',
+ birthDate: 'Unknown',
+ deathDate: 'Unknown',
+ affiliations: [
+ { name: 'United States Public Health Service', role: 'Physician and researcher; directly examined Tuskegee subjects and published clinical findings from the ongoing non-treatment experiment', type: 'agency' },
+ { name: 'Emory University School of Medicine', role: 'Later academic appointment; continued career in dermatology and venereology after Tuskegee involvement', type: 'organization' },
+ ],
+ controversies: [
+ 'Personally examined Tuskegee syphilis study subjects and collected clinical data from men deliberately denied treatment for syphilis',
+ 'Authored and co-authored multiple medical journal articles exploiting data from the untreated cohort, publishing in mainstream venues without ethical objection',
+ 'Continued research and publication during the 1950s when penicillin was already standard of care, making the withholding of treatment medically indefensible',
+ 'Helped maintain the study\'s scientific legitimacy through his publications, dissuading potential ethical challenges from other researchers',
+ 'Participated in the deliberate deception of study subjects, who were told they were receiving treatment when they were not',
+ 'Advocated for the continuation of the study in internal USPHS discussions, arguing that the data\'s value justified the ongoing non-treatment protocol',
+ 'Never faced criminal charges, professional discipline, or public accountability for his role in the experiment',
+ ],
+ charges: [
+ { charge: 'No criminal charges were ever filed', status: 'pending', date: 'N/A', source: 'Olansky faced no legal consequences for his participation in the Tuskegee study.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1950s', event: 'Begins active role in the Tuskegee syphilis study, personally examining subjects and collecting clinical data' },
+ { date: '1950s', event: 'Authors and co-authors medical journal articles based on Tuskegee study data; publications appear in mainstream journals without ethical objection' },
+ { date: '1950s-1960s', event: 'Advocates internally for continued study, arguing the accumulated data justifies ongoing non-treatment' },
+ { date: '1960s', event: 'Continues involvement as the study persists through its fourth decade without any participant receiving treatment' },
+ { date: '1972', event: 'The study is publicly exposed by AP journalist Jean Heller; Olansky is not among those singled out for public accountability' },
+ { date: '1973', event: 'The study is formally terminated following public outcry; congressional hearings are held' },
+ ],
+ sources: [
+ { title: 'James H. Jones, Bad Blood: The Tuskegee Syphilis Experiment (Free Press, 1981; expanded 1993)', date: '1981' },
+ { title: 'Susan M. Reverby, Examining Tuskegee: The Infamous Syphilis Study and Its Legacy (UNC Press, 2009)', date: '2009' },
+ { title: 'Allan M. Brandt, "Racism and Research: The Case of the Tuskegee Syphilis Study," Hastings Center Report 8(6), December 1978', date: '1978' },
+ { title: 'CDC, "The Tuskegee Timeline"', url: 'https://www.cdc.gov/tuskegee/timeline.htm', date: '2024' },
+ ],
+ knownAssociates: [
+ { name: 'John R. Heller Jr.', relationship: 'USPHS Division of Venereal Diseases Director who oversaw the study during Olansky\'s active research period', href: '/entities/individuals/john-r-heller-jr' },
+ { name: 'Eunice Rivers', relationship: 'Study nurse who maintained daily contact with subjects and facilitated Olansky\'s research access', href: '/entities/individuals/eunice-rivers' },
+ { name: 'Raymond Vonderlehr', relationship: 'Original study designer whose non-treatment protocol Olansky continued', href: '/entities/individuals/raymond-vonderlehr' },
+ { name: 'John Charles Cutler', relationship: 'PHS colleague involved in related unethical syphilis research in Guatemala', href: '/entities/individuals/john-charles-cutler' },
+ ],
+ },
+
 
 
 
@@ -3231,34 +3280,45 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'susan-reverby': {
- name: 'Susan Reverby',
- title: 'Wellesley College historian who discovered the experiments in Cutler\'s archived papers in 2010',
- role: 'Wellesley College historian who discovered the experiments in Cutler\'s archived papers in 2010',
- riskLevel: 'high',
- description: 'Susan Reverby. Profile pending review.',
- education: [],
+ name: 'Dr. Susan M. Reverby',
+ title: 'Wellesley College Historian Who Discovered the Guatemala Syphilis Experiments and Wrote the Definitive Tuskegee Study History',
+ role: 'Medical historian whose archival research discovered the concealed Guatemala syphilis experiments and whose scholarship has defined the modern understanding of the Tuskegee study',
+ riskLevel: 'low',
+ description: 'Dr. Susan M. Reverby is a professor of women\'s and gender studies at Wellesley College and one of the foremost historians of American public health ethics. Reverby is responsible for two of the most consequential scholarly contributions in the field: her comprehensive history of the Tuskegee syphilis study, "Examining Tuskegee: The Infamous Syphilis Study and Its Legacy" (2009), and her 2010 discovery of the Guatemala syphilis experiments in the archived papers of John Charles Cutler, a PHS physician who had been involved in both the Tuskegee and Guatemala programs. In 2010, while researching Cutler\'s personal papers at the University of Pittsburgh archives, Reverby discovered detailed records of the Guatemala experiments (1946-1948), in which the U.S. Public Health Service deliberately infected Guatemalan prisoners, sex workers, soldiers, and patients in a mental hospital with syphilis, gonorrhea, and chancroid without their knowledge or consent. Reverby shared her findings with the U.S. government, which led to a formal apology from President Barack Obama and Secretary of State Hillary Clinton to the government and people of Guatemala in October 2010. The Presidential Commission for the Study of Bioethical Issues subsequently investigated the experiments and published its findings as "Ethically Impossible" in 2011. Reverby\'s work on Tuskegee has also fundamentally shaped how scholars, ethicists, and the public understand the study\'s legacy, including its devastating impact on Black Americans\' trust in the medical system. Her scholarship demonstrates the critical role of historical research in exposing institutional wrongdoing and advancing ethical reform.',
  affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- { name: 'British Government', role: 'British Official', type: 'agency' },
+ { name: 'Wellesley College', role: 'Marion Butler McLean Professor Emerita in the History of Ideas; Women\'s and Gender Studies', type: 'organization' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
+ 'Discovered the concealed Guatemala syphilis experiments (1946-1948) in John Charles Cutler\'s archived papers at the University of Pittsburgh in 2010',
+ 'Her discovery led to a formal presidential apology from Barack Obama and Secretary of State Clinton to Guatemala in October 2010',
+ 'Triggered the Presidential Commission for the Study of Bioethical Issues investigation that produced the "Ethically Impossible" report in 2011',
+ 'Published the definitive modern history of the Tuskegee syphilis study, reshaping scholarly and public understanding of the experiment and its legacy',
+ 'Her work has influenced debates about informed consent, institutional review boards, and the ongoing impact of medical racism on Black Americans\' trust in healthcare',
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
+ { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
+ { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Wellesley College historian who discovered the experiments in Cutler' },
+ { date: '2000s', event: 'Begins intensive archival research into the Tuskegee syphilis study and related PHS programs' },
+ { date: '2009', event: 'Publishes "Examining Tuskegee: The Infamous Syphilis Study and Its Legacy" (UNC Press), the definitive modern history of the study' },
+ { date: '2010', event: 'Discovers detailed records of the Guatemala syphilis experiments in John Charles Cutler\'s archived papers at the University of Pittsburgh' },
+ { date: 'October 1, 2010', event: 'President Obama and Secretary of State Clinton issue formal apology to Guatemala following Reverby\'s discovery' },
+ { date: '2011', event: 'Presidential Commission for the Study of Bioethical Issues publishes "Ethically Impossible," confirming the Guatemala experiments; Reverby\'s research is central to the investigation' },
+ { date: '2011', event: 'Publishes "Normal Exposure and Inoculation Syphilis: A PHS \'Tuskegee\' Doctor in Guatemala, 1946-1948" in the Journal of Policy History' },
  ],
- socialMedia: [],
  sources: [
- { title: 'Wikipedia: Susan Reverby', url: 'https://en.wikipedia.org/wiki/Susan_Reverby', date: '' },
+ { title: 'Susan M. Reverby, Examining Tuskegee: The Infamous Syphilis Study and Its Legacy (UNC Press, 2009)', date: '2009' },
+ { title: 'Susan M. Reverby, "Normal Exposure" and Inoculation Syphilis: A PHS "Tuskegee" Doctor in Guatemala, 1946-1948, Journal of Policy History, 2011', date: '2011' },
+ { title: 'Presidential Commission for the Study of Bioethical Issues, "Ethically Impossible" (September 2011)', date: '2011' },
+ { title: 'James H. Jones, Bad Blood: The Tuskegee Syphilis Experiment (Free Press, 1981; expanded 1993)', date: '1981' },
  ],
- aliases: [],
  knownAssociates: [
- { name: 'John Charles Cutler', relationship: 'Historian who discovered Cutler\'s Guatemala STD experiments', href: '/entities/individuals/john-charles-cutler' },
- { name: 'Thomas Parran', relationship: 'Uncovered PHS\'s unethical experiment history under Parran', href: '/entities/individuals/thomas-parran' },
+ { name: 'John Charles Cutler', relationship: 'PHS physician whose archived papers Reverby discovered, revealing the Guatemala experiments', href: '/entities/individuals/john-charles-cutler' },
+ { name: 'Thomas Parran', relationship: 'Surgeon General whose PHS authorized the experiments Reverby uncovered', href: '/entities/individuals/thomas-parran' },
+ { name: 'Peter Buxtun', relationship: 'Tuskegee whistleblower whose story Reverby documented in her historical research', href: '/entities/individuals/peter-buxtun' },
+ { name: 'Fred Gray', relationship: 'Civil rights attorney who fought for the Tuskegee subjects; Gray\'s legal work is documented in Reverby\'s scholarship', href: '/entities/individuals/fred-gray' },
  ],
  },
 

@@ -111,6 +111,52 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'oliver-c-wenger': {
+ name: 'Dr. Oliver C. Wenger',
+ title: 'USPHS Regional Venereal Disease Officer Who Coordinated the Tuskegee Syphilis Study on the Ground',
+ role: 'PHS regional officer who helped organize and manage the Tuskegee study from its earliest days, ensuring local cooperation and maintaining the deception of study subjects',
+ riskLevel: 'critical' as const,
+ description: 'Dr. Oliver C. Wenger was a United States Public Health Service regional venereal disease officer who played a critical early role in organizing and executing the Tuskegee syphilis study. Based at the PHS Venereal Disease Clinic in Hot Springs, Arkansas, Wenger was instrumental in the practical logistics of the study, helping to establish the cooperation of local institutions, including the Tuskegee Institute and the Macon County Health Department, that made the experiment possible. Wenger was one of the architects of the deception strategy that kept the study subjects enrolled. He helped develop the misleading language of "treatment" that was used with the men, including the notorious "last chance for special free treatment" letters that actually referred to diagnostic spinal taps (lumbar punctures) disguised as therapy. These spinal taps carried their own medical risks and provided no therapeutic benefit. Wenger understood from the beginning that the study was an observation of untreated syphilis and that the men were not being offered genuine medical care. His regional position gave him the practical expertise to navigate local conditions in Macon County, Alabama, where the study took place, and his involvement helped ensure that the study could operate with minimal external scrutiny for decades. Wenger was never charged with any crime.',
+ birthDate: 'Unknown',
+ deathDate: 'Unknown',
+ affiliations: [
+ { name: 'United States Public Health Service', role: 'Regional Venereal Disease Officer, Hot Springs, Arkansas; organized local logistics and institutional cooperation for the Tuskegee study', type: 'agency' },
+ { name: 'PHS Venereal Disease Clinic, Hot Springs', role: 'Director; base of operations for coordinating regional syphilis programs including the Tuskegee study', type: 'agency' },
+ ],
+ controversies: [
+ 'Helped organize and coordinate the Tuskegee syphilis study from its earliest days, establishing the institutional relationships that enabled the experiment',
+ 'Co-designed the deception strategy used to keep subjects enrolled, including misleading language about "treatment" that disguised diagnostic procedures as therapy',
+ 'Helped craft the "last chance for special free treatment" letters that lured men into painful and medically risky spinal taps (lumbar punctures) under false pretenses',
+ 'Understood from the outset that the study was observation of untreated syphilis and that no genuine medical care was being provided to subjects',
+ 'Used his regional expertise and institutional connections to minimize external scrutiny of the study for decades',
+ 'Helped ensure local cooperation from the Tuskegee Institute and Macon County Health Department, institutions whose participation lent the study undeserved credibility',
+ 'Never faced criminal charges or professional consequences for his role in the experiment',
+ ],
+ charges: [
+ { charge: 'No criminal charges were ever filed', status: 'pending', date: 'N/A', source: 'Wenger faced no legal consequences for his participation in the Tuskegee study.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1932', event: 'Helps organize the Tuskegee syphilis study, establishing cooperation between PHS, Tuskegee Institute, and Macon County Health Department' },
+ { date: '1932-1933', event: 'Co-develops the deception strategy to keep subjects enrolled, including misleading language about "treatment" and fabricated diagnostic procedures' },
+ { date: '1933', event: 'Study transitions from a planned six-month observation to an indefinite non-treatment experiment; Wenger helps facilitate this expansion' },
+ { date: '1930s-1940s', event: 'Continues to coordinate study logistics from Hot Springs while other PHS officials manage day-to-day operations in Macon County' },
+ { date: '1972', event: 'The Tuskegee study is publicly exposed; Wenger is identified as one of the original organizers' },
+ ],
+ sources: [
+ { title: 'James H. Jones, Bad Blood: The Tuskegee Syphilis Experiment (Free Press, 1981; expanded 1993)', date: '1981' },
+ { title: 'Susan M. Reverby, Examining Tuskegee: The Infamous Syphilis Study and Its Legacy (UNC Press, 2009)', date: '2009' },
+ { title: 'CDC, "The Tuskegee Timeline"', url: 'https://www.cdc.gov/tuskegee/timeline.htm', date: '2024' },
+ ],
+ knownAssociates: [
+ { name: 'Taliaferro Clark', relationship: 'PHS officer who originated the study concept; Wenger helped translate Clark\'s plan into operational reality', href: '/entities/individuals/taliaferro-clark' },
+ { name: 'Raymond Vonderlehr', relationship: 'PHS physician who designed the long-term study protocol that Wenger helped implement on the ground', href: '/entities/individuals/raymond-vonderlehr' },
+ { name: 'Eunice Rivers', relationship: 'Nurse whose daily management of subjects Wenger helped coordinate through institutional channels', href: '/entities/individuals/eunice-rivers' },
+ ],
+ },
+
  'oliver-north': {
  name: 'Oliver Laurence North',
  title: 'Former NSC Staff, Convicted Iran-Contra Figure',

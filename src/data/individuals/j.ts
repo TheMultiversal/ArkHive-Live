@@ -2444,6 +2444,58 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
+ 'john-r-heller-jr': {
+ name: 'Dr. John R. Heller Jr.',
+ title: 'USPHS Venereal Disease Division Director Who Continued the Tuskegee Syphilis Study for Decades',
+ role: 'Successor to Vonderlehr who directed the Tuskegee study through the penicillin era, ensuring treatment continued to be withheld even after a cure became standard of care',
+ riskLevel: 'critical' as const,
+ description: 'Dr. John R. Heller Jr. (1905-1989) was the United States Public Health Service physician who served as Director of the Division of Venereal Diseases from the mid-1940s through the 1950s, overseeing the Tuskegee syphilis study during its most indefensible period. Heller took charge of the study after Raymond Vonderlehr\'s departure and directed it through the critical years when penicillin became the standard treatment for syphilis. By 1947, penicillin was widely available and recognized as a reliable cure. Under Heller\'s direction, the USPHS made the deliberate decision not only to continue withholding treatment from the Tuskegee subjects but to actively intervene to prevent them from receiving penicillin through other sources, including local VD treatment programs. Heller oversaw the publication of multiple medical journal articles based on the study data, with each publication providing an opportunity for the medical community to challenge the ethics of the experiment. None did. When later asked about the ethics of the study, Heller offered one of the most chilling justifications in the history of medical research, stating: "The men\'s status did not warrant ethical debate. They were subjects, not patients; clinical material, not sick people." This statement confirmed that the study\'s architects viewed their subjects as less than fully human. Heller was never charged with any crime and suffered no professional consequences.',
+ birthDate: '1905',
+ deathDate: '1989',
+ education: ['Medical degree from a U.S. medical school (specific institution not fully documented in public records)'],
+ affiliations: [
+ { name: 'United States Public Health Service', role: 'Director, Division of Venereal Diseases; oversaw the Tuskegee study during the penicillin era and ensured treatment continued to be withheld', type: 'agency' },
+ { name: 'National Cancer Institute', role: 'Later served as director, applying his USPHS career advancement built partly on Tuskegee study publications', type: 'agency' },
+ ],
+ controversies: [
+ 'Directed the Tuskegee syphilis study during the penicillin era (mid-1940s through 1950s), the most ethically indefensible period when a proven cure was being deliberately withheld',
+ 'Made the deliberate decision to continue denying penicillin to study subjects after it became standard of care for syphilis in 1947',
+ 'Actively intervened to prevent Tuskegee subjects from receiving treatment through local VD clinics and public health programs',
+ 'Oversaw publication of medical journal articles using data from the untreated men, providing repeated opportunities for ethical concern that went unraised',
+ 'Stated that "The men\'s status did not warrant ethical debate. They were subjects, not patients; clinical material, not sick people," revealing dehumanizing ideology underlying the study',
+ 'Rose to become Director of the National Cancer Institute, suffering no career consequences for his role in the Tuskegee experiment',
+ 'Never expressed public remorse or acknowledged wrongdoing before his death in 1989',
+ ],
+ charges: [
+ { charge: 'No criminal charges were ever filed', status: 'pending', date: 'N/A', source: 'Heller died in 1989, three years before the study was widely reexamined in public consciousness.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1905', event: 'Born in the United States' },
+ { date: 'Mid-1940s', event: 'Takes over direction of the Tuskegee syphilis study from Raymond Vonderlehr as the new USPHS Division of Venereal Diseases Director' },
+ { date: '1947', event: 'Penicillin becomes widely available and recognized as a reliable cure for syphilis; Heller ensures the Tuskegee subjects continue to be denied treatment' },
+ { date: '1947-1950s', event: 'Oversees active intervention to block study subjects from receiving penicillin through local VD treatment programs and public health clinics' },
+ { date: '1950s', event: 'Publishes and oversees publication of medical journal articles based on Tuskegee study data, building professional reputation on the experiment' },
+ { date: '1950s-1960s', event: 'Transitions to leadership of the National Cancer Institute, rising in government service with no accountability for the ongoing experiment' },
+ { date: '1972', event: 'The Tuskegee study is publicly exposed by AP journalist Jean Heller; Heller is not among those publicly held accountable' },
+ { date: '1989', event: 'Dies without ever facing criminal charges, professional discipline, or public accountability for his role in the study' },
+ ],
+ sources: [
+ { title: 'James H. Jones, Bad Blood: The Tuskegee Syphilis Experiment (Free Press, 1981; expanded 1993)', date: '1981' },
+ { title: 'Susan M. Reverby, Examining Tuskegee: The Infamous Syphilis Study and Its Legacy (UNC Press, 2009)', date: '2009' },
+ { title: 'CDC, "The Tuskegee Timeline"', url: 'https://www.cdc.gov/tuskegee/timeline.htm', date: '2024' },
+ { title: 'Allan M. Brandt, "Racism and Research: The Case of the Tuskegee Syphilis Study," Hastings Center Report 8(6), December 1978', date: '1978' },
+ ],
+ knownAssociates: [
+ { name: 'Raymond Vonderlehr', relationship: 'Predecessor as Division of Venereal Diseases Director who designed the study; Heller continued and expanded the non-treatment protocol', href: '/entities/individuals/raymond-vonderlehr' },
+ { name: 'Eunice Rivers', relationship: 'Nurse who maintained day-to-day contact with subjects under Heller\'s direction; critical to preventing men from seeking outside treatment', href: '/entities/individuals/eunice-rivers' },
+ { name: 'Sidney Olansky', relationship: 'PHS physician who conducted hands-on research with the Tuskegee subjects under Heller\'s administrative direction', href: '/entities/individuals/sidney-olansky' },
+ { name: 'John Charles Cutler', relationship: 'PHS colleague who served as advisor to the study and conducted the separate Guatemala syphilis experiments', href: '/entities/individuals/john-charles-cutler' },
+ ],
+ },
+
  'john-hickey': {
  name: 'John Hickey',
  title: 'Profile Under Review',
@@ -7040,6 +7092,43 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Francois Duvalier', relationship: 'Father "Papa Doc" from whom Baby Doc inherited dictatorship', href: '/entities/individuals/francois-duvalier' },
  { name: 'Michel Martelly', relationship: 'Later Haitian leader connected to Duvalier-era forces', href: '/entities/individuals/michel-martelly' },
+ ],
+ },
+
+ 'jean-heller': {
+ name: 'Jean Heller',
+ title: 'Associated Press Journalist Who Broke the Tuskegee Syphilis Study Story',
+ role: 'AP reporter whose front-page story on July 25, 1972 exposed the 40-year Tuskegee experiment to the American public, triggering its immediate termination',
+ riskLevel: 'low' as const,
+ description: 'Jean Heller is an American journalist who, while working for the Associated Press in 1972, wrote the story that exposed the Tuskegee syphilis study to the American public. On July 25, 1972, Heller\'s front-page article revealed that the United States Public Health Service had been conducting a 40-year experiment in which hundreds of Black men in Macon County, Alabama, were deliberately left untreated for syphilis, even after penicillin became the standard cure in the 1940s. The story was based on information provided by Peter Buxtun, a PHS venereal disease investigator who had spent six years trying to stop the study through internal channels before turning to the press. Heller\'s reporting ignited an immediate national outcry that forced the termination of the study, led to congressional hearings chaired by Senator Edward Kennedy, resulted in a $10 million settlement for surviving participants, and ultimately produced the National Research Act of 1974 and the modern Institutional Review Board (IRB) system. Heller went on to a distinguished career in investigative journalism, later working for the St. Petersburg Times (now the Tampa Bay Times), where she covered stories ranging from government corruption to environmental issues. Her Tuskegee story remains one of the most consequential pieces of investigative journalism in American history.',
+ birthDate: 'Unknown',
+ affiliations: [
+ { name: 'Associated Press', role: 'Reporter; broke the Tuskegee syphilis study story on July 25, 1972', type: 'corporation' },
+ { name: 'St. Petersburg Times (now Tampa Bay Times)', role: 'Investigative journalist; continued distinguished career after the Tuskegee story', type: 'corporation' },
+ ],
+ controversies: [
+ 'Published the story that exposed the 40-year Tuskegee syphilis study, one of the most consequential pieces of investigative journalism in American history',
+ 'Story triggered immediate termination of the study, congressional hearings, and fundamental reform of human subjects research protections',
+ 'Reporting led directly to the $10 million settlement for surviving study participants and the creation of the IRB system',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Tuskegee Syphilis Study: 40 Years of Medical Genocide', slug: 'tuskegee-experiment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1972', event: 'Receives information about the Tuskegee syphilis study from PHS whistleblower Peter Buxtun' },
+ { date: 'July 25, 1972', event: 'Publishes front-page AP story "Syphilis Victims in U.S. Study Went Untreated for 40 Years," exposing the Tuskegee experiment to the nation' },
+ { date: 'August 1972', event: 'Story generates massive public outcry; government officials scramble to respond' },
+ { date: 'November 1972', event: 'The Tuskegee study is formally terminated as a direct result of the public exposure from Heller\'s reporting' },
+ { date: '1973', event: 'Congressional hearings chaired by Senator Edward Kennedy investigate the study, building on Heller\'s reporting' },
+ ],
+ sources: [
+ { title: 'Jean Heller, "Syphilis Victims in U.S. Study Went Untreated for 40 Years," Associated Press, July 25, 1972', date: '1972' },
+ { title: 'James H. Jones, Bad Blood: The Tuskegee Syphilis Experiment (Free Press, 1981; expanded 1993)', date: '1981' },
+ { title: 'Susan M. Reverby, Examining Tuskegee: The Infamous Syphilis Study and Its Legacy (UNC Press, 2009)', date: '2009' },
+ ],
+ knownAssociates: [
+ { name: 'Peter Buxtun', relationship: 'PHS whistleblower who provided Heller with the information that led to her Tuskegee story after six years of failed internal objections', href: '/entities/individuals/peter-buxtun' },
  ],
  },
 
