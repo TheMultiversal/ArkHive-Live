@@ -335,9 +335,9 @@ export default function IndividualDossierPDF({
             </Text>
             {individual.affiliations.map((aff, i) => (
               <View key={i} style={s.card} wrap={false}>
-                <Text style={{ fontSize: 5.5, color: c.blood, letterSpacing: 1, textTransform: 'uppercase', fontWeight: 'bold' }}>{aff.type}</Text>
+                <Text style={{ fontSize: 5.5, color: c.blood, letterSpacing: 1, textTransform: 'uppercase', fontWeight: 'bold' }}>{'type' in aff ? aff.type : 'affiliated'}</Text>
                 <Text style={s.cardTitle}>{aff.name}</Text>
-                <Text style={s.cardBody}>{aff.role}</Text>
+                <Text style={s.cardBody}>{'role' in aff ? aff.role : aff.relationship}</Text>
               </View>
             ))}
           </Sec>
@@ -720,7 +720,7 @@ export default function IndividualDossierPDF({
               <View key={i} style={s.sourceRow} wrap={false}>
                 <Text style={s.sourceNum}>[{String(i + 1).padStart(2, '0')}]</Text>
                 <Text style={s.sourceTitle}>
-                  {src.title}{src.url ? ` — ${src.url}` : ''}{src.date ? ` (${src.date})` : ''}
+                  {typeof src === 'string' ? src : `${src.title}${src.url ? ` — ${src.url}` : ''}${src.date ? ` (${src.date})` : ''}`}
                 </Text>
               </View>
             ))}

@@ -2378,6 +2378,98 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'esequiel-torres': {
+ name: 'Esequiel Torres',
+ title: 'My Lai Participant Who Refused',
+ role: 'Sergeant, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ riskLevel: 'medium',
+ description: 'Esequiel Torres was a Sergeant in Charlie Company who participated in the initial phase of the My Lai massacre on March 16, 1968, operating an M60 machine gun during the assault on the hamlet. According to testimony, Torres initially fired the heavy machine gun but then refused to continue shooting at unarmed civilians, representing one of the few documented cases of a soldier stopping his participation during the massacre. Torres was subsequently charged with murder and assault with intent to murder in connection with the My Lai massacre. He was tried by court-martial and acquitted. Torres later lived quietly after the war and died in 2015. His case illustrates the complex moral reality of My Lai: even among those who initially participated, some soldiers recognized the horror of what was happening and stopped, though the damage was already catastrophic.',
+ birthDate: '',
+ birthPlace: '',
+ deathDate: '2015',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Sergeant in Charlie Company, 1st Battalion, 20th Infantry Regiment, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Ground participant in the March 16, 1968 assault on My Lai hamlet', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'M60 Machine Gun Operation at My Lai',
+ description: 'Torres manned an M60 machine gun during Charlie Company\'s assault on My Lai, firing the heavy weapon during the initial phase of the operation. The M60\'s devastating firepower against unarmed civilians made it one of the most lethal instruments employed during the massacre.',
+ date: 'March 16, 1968',
+ impact: 'The use of heavy automatic weapons against an undefended civilian village resulted in mass casualties among the population of My Lai.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Refusal to Continue Firing',
+ description: 'According to testimony gathered during investigations, Torres stopped firing his M60 machine gun at some point during the assault after recognizing that the targets were unarmed civilians. His refusal to continue represents one of the few documented instances of moral resistance during the massacre itself.',
+ date: 'March 16, 1968',
+ impact: 'Torres\'s refusal demonstrated that individual soldiers could and did recognize the unlawfulness of what was occurring, undermining claims that the situation was too chaotic to distinguish.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Court-Martial for Murder and Assault',
+ description: 'Torres was charged with murder and assault with intent to murder for his role in the My Lai massacre. Despite his participation in the initial firing, he was tried by court-martial and acquitted, joining the pattern of near-universal acquittals for My Lai defendants.',
+ date: '1970-1971',
+ impact: 'His acquittal contributed to the outcome where only Lieutenant Calley was convicted for the massacre of over 500 civilians.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Participation Despite Initial Reluctance',
+ description: 'Torres\'s case highlights the immense pressure placed on soldiers to follow orders in combat. Even soldiers who recognized the operation as wrong initially participated before finding the moral courage to stop, illustrating how military command structure enabled atrocity.',
+ date: 'March 16, 1968',
+ impact: 'The dynamic of initial compliance followed by refusal reveals how the chain of command and combat environment overwhelmed individual moral judgment.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Peers Commission Investigation',
+ description: 'Torres was identified by the Peers Commission as one of the participants who should face charges. The commission documented his role as an M60 gunner during the operation and noted testimony about his subsequent refusal to continue firing.',
+ date: '1970',
+ impact: 'The Peers Commission recommended charges against 30 individuals, though very few were ultimately convicted.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Post-War Life and Legacy',
+ description: 'After the war, Torres lived quietly and rarely spoke publicly about his experiences at My Lai. He died in 2015, one of the last surviving participants of the massacre. His case remains cited in military ethics discussions about moral courage and the duty to disobey unlawful orders.',
+ date: '2015',
+ impact: 'Torres\'s story became part of the broader narrative about the human cost of following unlawful orders and the psychological toll on participants.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ ],
+ timeline: [
+ { date: 'March 16, 1968', event: 'Operated M60 machine gun during Charlie Company\'s assault on My Lai hamlet' },
+ { date: 'March 16, 1968', event: 'Refused to continue firing after recognizing targets were unarmed civilians' },
+ { date: 'March 1968 - November 1969', event: 'Massacre concealed by the military chain of command through falsified reports' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed by journalist Seymour Hersh' },
+ { date: '1970', event: 'Identified by Peers Commission for prosecution' },
+ { date: '1970-1971', event: 'Charged with murder and assault with intent to murder' },
+ { date: '1971', event: 'Acquitted by military court-martial' },
+ { date: '2015', event: 'Died, one of the last surviving My Lai massacre participants' },
+ ],
+ keyPositions: [
+ 'Sergeant, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ ],
+ knownAssociates: [
+ { name: 'William Calley', relationship: 'Platoon leader who ordered the killings and only person convicted', href: '/entities/individuals/william-calley' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander who gave the pre-operation briefing', href: '/entities/individuals/ernest-medina' },
+ { name: 'Paul Meadlo', relationship: 'Fellow Charlie Company soldier who testified about the massacre on CBS', href: '/entities/individuals/paul-meadlo' },
+ { name: 'David Mitchell', relationship: 'Fellow Charlie Company SSG also tried and acquitted for My Lai', href: '/entities/individuals/david-mitchell-my-lai' },
+ ],
+ charges: [
+ { statute: 'UCMJ Article 118 - Murder', description: 'Charged with murder of Vietnamese civilians during the My Lai massacre', category: 'War Crimes' },
+ { statute: 'UCMJ Article 134 - Assault with Intent to Murder', description: 'Charged with assault with intent to murder unarmed Vietnamese civilians', category: 'War Crimes' },
+ ],
+ status: 'acquitted',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Library of Congress - Vietnam War Records',
+ ],
+ },
+
+
  'estelle-reel': {
  name: 'Estelle Reel',
  title: 'Superintendent of Indian Schools (1898-1910). Standardized curriculum focused on manual labor, domestic service, and eradication of Native identity across all federal Indian schools.',
@@ -2834,41 +2926,205 @@ const profiles: Record<string, IndividualProfile> = {
 
  'ernest-medina': {
  name: 'Ernest Medina',
- title: 'US Army Captain who commanded Charlie Company during the My Lai Massacre in Vietnam',
- role: 'Military Officer',
+ title: 'Charlie Company Commander at My Lai',
+ role: 'Captain, Commander of Charlie Company, 1st Battalion, 20th Infantry Regiment, Americal Division',
  riskLevel: 'critical',
- description: 'Ernest Medina commanded Charlie Company, 1st Battalion, 20th Infantry during the My Lai Massacre on March 16, 1968, where US soldiers killed between 347 and 504 unarmed Vietnamese civilians. He was acquitted at court-martial despite evidence of his involvement.',
- education: [],
+ description: 'Captain Ernest "Mad Dog" Medina commanded Charlie Company, 1st Battalion, 20th Infantry Regiment during the My Lai massacre on March 16, 1968. As the company commander, Medina gave the pre-operation briefing to his troops on the evening of March 15, 1968, in which he conveyed orders for the assault on the Son My village area. The content of this briefing became one of the most contested facts of the My Lai case. Multiple soldiers testified that Medina ordered them to kill everything in the village, including women, children, and animals, and to destroy all structures and food supplies. Medina denied giving explicit orders to kill civilians, claiming he ordered his troops to engage the enemy and destroy the village but not to execute noncombatants. During the massacre itself, Medina remained in the village and, by his own admission, shot at least one Vietnamese woman at close range, though he claimed he believed she was reaching for a weapon. Witnesses testified that Medina personally killed additional civilians and that he was aware of the mass killings occurring throughout the hamlet but did nothing to stop them. Medina was charged with the overall responsibility for the murder of 175 Vietnamese civilians, but was acquitted by court-martial in September 1971 in a verdict that shocked many observers. His defense attorney, F. Lee Bailey, argued that Medina could not be held responsible for actions he did not directly witness or order. After his acquittal, Medina left the Army and lived quietly in Marinette, Wisconsin, working in various civilian jobs. His case became a landmark in military law regarding command responsibility.',
+ birthDate: 'August 27, 1936',
+ birthPlace: 'Springer, New Mexico',
+ deathDate: 'May 8, 2018',
+ education: ['Officer Candidate School, Fort Benning'],
  affiliations: [
- { name: 'United States Army', role: 'Captain, Charlie Company Commander', type: 'agency' },
+ { name: 'United States Army', relationship: 'Captain, Commander of Charlie Company, 1st Battalion, 20th Infantry Regiment, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Company commander who led the ground assault on My Lai hamlet', href: '/investigations/my-lai-massacre' },
  ],
  controversies: [
- 'Commanded the unit responsible for the My Lai Massacre of hundreds of unarmed Vietnamese civilians',
- 'Third-party audit reports flagged irregularities in programs overseen by Ernest Medina, though no formal investigation was initiated at the time.',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'critical' },
+ {
+ title: 'The Pre-Operation Briefing',
+ description: 'On the evening of March 15, 1968, Medina briefed Charlie Company on the next day\'s operation. Multiple soldiers testified that Medina told them to kill everything that moved in the village, including women, children, and livestock. Medina denied giving explicit orders to kill civilians, leading to the central dispute of the My Lai case.',
+ date: 'March 15, 1968',
+ impact: 'The disputed briefing became the foundation for conflicting claims about whether the massacre was ordered or spontaneous, with soldiers claiming they followed Medina\'s orders.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Personal Killing of Vietnamese Civilian',
+ description: 'Medina admitted to shooting a Vietnamese woman at close range during the operation, claiming he thought she was reaching for a weapon. Other witnesses testified that the woman was unarmed and posed no threat. This admission made Medina one of the few officers to acknowledge personally killing a civilian.',
+ date: 'March 16, 1968',
+ impact: 'Medina\'s admission established that even officers participated directly in the killing of civilians at My Lai.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Failure to Stop the Massacre',
+ description: 'Even accepting Medina\'s claim that he did not order the killing of civilians, witnesses testified that he was present in the village during the massacre and was aware of the mass killings occurring. As company commander, he had both the authority and the duty to order a cease-fire and stop the killing, but he took no meaningful action to halt the massacre.',
+ date: 'March 16, 1968',
+ impact: 'Medina\'s failure to intervene while aware of the killing established the command responsibility question that became central to My Lai jurisprudence.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Court-Martial and Acquittal',
+ description: 'Medina was charged with responsibility for the murder of 175 Vietnamese civilians as the commanding officer. Leading defense attorney F. Lee Bailey represented him, arguing that command responsibility required direct knowledge and failure to act, which could not be proven beyond reasonable doubt. Medina was acquitted in September 1971.',
+ date: 'September 22, 1971',
+ impact: 'Medina\'s acquittal, combined with Calley\'s conviction, created the paradox that subordinates were ordered to kill but the officer who gave the orders was found not responsible.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Falsification of Body Count',
+ description: 'After the operation, the official after-action report from Charlie Company claimed 128 enemy killed in action against only 3 weapons recovered. As company commander, Medina bore direct responsibility for these grossly falsified reports that characterized a civilian massacre as a successful combat engagement.',
+ date: 'March 1968',
+ impact: 'The falsified body count was a key element of the cover-up that concealed the massacre for over 18 months.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: '"Mad Dog" Reputation',
+ description: 'Medina was known to his troops by the nickname "Mad Dog" for his aggressive leadership style. His emphasis on body counts and aggressive patrolling reflected the broader command culture in Vietnam that prioritized kill statistics over civilian protection.',
+ date: '1967-1968',
+ impact: 'Medina\'s aggressive command style contributed to the culture within Charlie Company that made the massacre possible.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Paul Meadlo\'s Accusation',
+ description: 'After losing his foot to a land mine the day after the massacre, PFC Paul Meadlo screamed at Medina: "God punished me, and God will punish you." Meadlo later testified on CBS that Medina\'s briefing left no doubt that they were to kill everyone in the village.',
+ date: 'March 17, 1968',
+ impact: 'Meadlo\'s dramatic accusation became one of the most powerful pieces of testimony linking Medina to the massacre orders.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Post-Acquittal Life',
+ description: 'After acquittal, Medina resigned from the Army and moved to Marinette, Wisconsin, where he worked in various civilian jobs. He rarely spoke publicly about My Lai and lived in relative obscurity until his death in 2018 at age 81.',
+ date: '1971-2018',
+ impact: 'Medina\'s quiet post-acquittal life contrasted with the suffering of My Lai survivors and the ongoing trauma of the massacre\'s legacy.',
+ sources: ['https://www.nytimes.com/2018/05/09/obituaries/ernest-medina-my-lai-dead.html'],
+ },
  ],
  timeline: [
- { date: '1968', event: 'Commanded Charlie Company during the My Lai Massacre in Vietnam' }, ],
- socialMedia: [],
- sources: [
- { title: 'Vietnam War Crimes', url: '/investigations/vietnam-war-crimes', date: '' }, ],
- aliases: [],
+ { date: 'August 27, 1936', event: 'Born in Springer, New Mexico' },
+ { date: '1964', event: 'Commissioned as Army officer through Officer Candidate School at Fort Benning' },
+ { date: '1967', event: 'Deployed to Vietnam as commander of Charlie Company, 1st Battalion, 20th Infantry Regiment' },
+ { date: 'March 15, 1968', event: 'Briefed Charlie Company on the operation against Son My village, content of briefing disputed as possible kill order' },
+ { date: 'March 16, 1968', event: 'Led Charlie Company into My Lai hamlet; massacre of 347-504 civilians occurred under his command' },
+ { date: 'March 16, 1968', event: 'Acknowledged shooting at least one Vietnamese woman; witnesses testified he killed additional civilians' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed by journalist Seymour Hersh' },
+ { date: '1970', event: 'Peers Commission found Medina bore significant responsibility for the massacre' },
+ { date: 'September 22, 1971', event: 'Acquitted by military court-martial of responsibility for 175 civilian deaths; defended by F. Lee Bailey' },
+ { date: '1971', event: 'Resigned from the Army and moved to Marinette, Wisconsin' },
+ { date: 'May 8, 2018', event: 'Died at age 81 in Marinette, Wisconsin' },
+ ],
+ keyPositions: [
+ 'Captain, Commander of Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ ],
  knownAssociates: [
- { name: 'William Calley', relationship: 'Company commander whose orders Calley carried out at My Lai', href: '/entities/individuals/william-calley' },
- { name: 'Hugh Thompson Jr', relationship: 'Helicopter pilot who tried to stop Medina\'s company at My Lai', href: '/entities/individuals/hugh-thompson-jr' },
- { name: 'Seymour Hersh', relationship: 'Journalist who exposed My Lai massacre', href: '/entities/individuals/seymour-hersh' },
+ { name: 'William Calley', relationship: 'Platoon leader who executed Medina\'s alleged orders at My Lai', href: '/entities/individuals/william-calley' },
+ { name: 'Hugh Thompson Jr.', relationship: 'Helicopter pilot who tried to stop Medina\'s company from killing civilians', href: '/entities/individuals/hugh-thompson-jr' },
+ { name: 'Seymour Hersh', relationship: 'Journalist who exposed the My Lai massacre', href: '/entities/individuals/seymour-hersh' },
+ { name: 'Frank Barker', relationship: 'Task Force Barker commander who gave Medina his operational orders', href: '/entities/individuals/frank-barker' },
+ { name: 'Paul Meadlo', relationship: 'Charlie Company soldier who accused Medina and testified on CBS', href: '/entities/individuals/paul-meadlo' },
+ ],
+ charges: [
+ { statute: 'UCMJ Article 118 - Murder', description: 'Charged with overall responsibility for the murder of 175 Vietnamese civilians as company commander', category: 'War Crimes' },
+ ],
+ status: 'acquitted',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'New York Times - Ernest Medina Obituary (2018)',
+ 'Michael Bilton and Kevin Sim - Four Hours in My Lai (1992)',
  ],
  },
 
 
-
-
-
-
-
+ 'eugene-kotouc': {
+ name: 'Eugene Kotouc',
+ title: 'My Lai Intelligence Officer',
+ role: 'Captain, Intelligence Officer, Task Force Barker, Americal Division',
+ riskLevel: 'critical',
+ description: 'Eugene Kotouc was a Captain serving as the intelligence officer for Task Force Barker during the My Lai massacre on March 16, 1968. As the unit\'s S-2 (intelligence officer), Kotouc was responsible for gathering and analyzing intelligence about enemy activity in the Son My village area, including the assessment that the 48th Local Force Battalion of the Viet Cong was operating from My Lai. He was charged with maiming and assault on a Vietnamese detainee, specifically cutting off a finger during an interrogation session the night before the massacre. Witnesses testified that Kotouc tortured detainees and may have executed at least one suspect. He was tried by court-martial in 1971 and acquitted of all charges. Kotouc died in 2008. His case exemplifies how military intelligence operations in Vietnam relied on coercive interrogation techniques that produced unreliable intelligence, which in turn led to operations targeting civilian populations mistakenly identified as enemy combatants.',
+ birthDate: '',
+ birthPlace: '',
+ deathDate: '2008',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Captain and Intelligence Officer (S-2) for Task Force Barker, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Intelligence officer responsible for target assessment that led to the My Lai operation', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'Faulty Intelligence Leading to My Lai',
+ description: 'As Task Force Barker\'s intelligence officer, Kotouc was responsible for the assessment that the 48th Local Force Battalion was operating from My Lai (Son My village). This intelligence, which proved catastrophically wrong, indicated battalion-strength enemy forces of 250-280 soldiers. In reality, the hamlet contained almost entirely civilians, with no significant enemy presence on the day of the operation.',
+ date: 'March 1968',
+ impact: 'The faulty intelligence assessment directly led to the operation that killed between 347 and 504 unarmed civilians, making it one of the worst intelligence failures of the Vietnam War.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Torture and Maiming of Vietnamese Detainee',
+ description: 'Kotouc was charged with cutting off a finger of a Vietnamese detainee during an interrogation session the night before the My Lai operation. Witnesses testified that the interrogation involved severe physical abuse intended to extract information about Viet Cong positions in the area.',
+ date: 'March 15, 1968',
+ impact: 'The torture of detainees the night before the massacre demonstrated the dehumanizing treatment of Vietnamese people that pervaded the operation from its planning stages.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Alleged Execution of Detainee',
+ description: 'Beyond the maiming charge, witnesses reported that Kotouc may have executed at least one Vietnamese suspect during or after interrogation. While not formally charged with murder, these allegations pointed to an intelligence operation that operated far outside the bounds of lawful conduct.',
+ date: 'March 1968',
+ impact: 'Allegations of summary execution by intelligence officers reflected a systemic pattern of extrajudicial killings in Vietnam.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Court-Martial and Acquittal',
+ description: 'Kotouc was tried by court-martial in 1971 on charges of maiming and assault for cutting off a detainee\'s finger during interrogation. Despite witness testimony, the military jury acquitted him of all charges, continuing the pattern of impunity for My Lai-connected personnel.',
+ date: '1971',
+ impact: 'His acquittal meant that no intelligence officer was held accountable for the role of flawed intelligence and detainee abuse in enabling the My Lai massacre.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Intelligence Discrepancies in After-Action Reports',
+ description: 'After the operation, reports claimed 128 "enemy" killed in action against only 3 weapons recovered. As the intelligence officer, Kotouc would have been aware that this ratio was completely inconsistent with combat against an armed enemy force, yet no effort was made to investigate',
+ date: 'March 1968',
+ impact: 'The failure to flag obvious discrepancies between claimed enemy casualties and weapons recovered enabled the cover-up to persist for over 18 months.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Coercive Interrogation Practices',
+ description: 'Kotouc\'s interrogation methods exemplified the widespread use of coercive techniques by military intelligence in Vietnam, including physical violence, threats, and mutilation. These practices produced unreliable intelligence that frequently led to operations against civilian populations.',
+ date: '1968',
+ impact: 'The systemic use of torture in intelligence gathering contributed to numerous operations targeting civilians misidentified as enemy combatants.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ ],
+ timeline: [
+ { date: 'March 15, 1968', event: 'Conducted interrogation of Vietnamese detainee the night before the My Lai operation, allegedly cutting off a finger during questioning' },
+ { date: 'March 16, 1968', event: 'Provided intelligence assessment for Task Force Barker\'s operation against My Lai hamlet' },
+ { date: 'March 16, 1968', event: 'After-action reports claim 128 enemy KIA against 3 weapons recovered, a discrepancy his intelligence section should have flagged' },
+ { date: 'March 1968 - November 1969', event: 'Massacre concealed by military chain of command for over 18 months' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed by journalist Seymour Hersh' },
+ { date: '1970', event: 'Identified by Peers Commission for prosecution for maiming and assault' },
+ { date: '1971', event: 'Tried by court-martial for maiming and assault on a Vietnamese detainee' },
+ { date: '1971', event: 'Acquitted of all charges by military court-martial jury' },
+ { date: '2008', event: 'Died' },
+ ],
+ keyPositions: [
+ 'Captain, Intelligence Officer (S-2), Task Force Barker',
+ ],
+ knownAssociates: [
+ { name: 'Frank Barker', relationship: 'Task Force Barker commander for whom Kotouc served as intelligence officer', href: '/entities/individuals/frank-barker' },
+ { name: 'William Calley', relationship: 'Platoon leader convicted of murder at My Lai', href: '/entities/individuals/william-calley' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander who received intelligence briefings from Kotouc', href: '/entities/individuals/ernest-medina' },
+ { name: 'Dennis Johnson', relationship: 'Fellow intelligence officer from 52nd Military Intelligence Detachment', href: '/entities/individuals/dennis-johnson-my-lai' },
+ ],
+ charges: [
+ { statute: 'UCMJ Article 124 - Maiming', description: 'Charged with cutting off the finger of a Vietnamese detainee during interrogation', category: 'War Crimes' },
+ { statute: 'UCMJ Article 128 - Assault', description: 'Charged with assault on a Vietnamese detainee during coercive interrogation', category: 'War Crimes' },
+ ],
+ status: 'acquitted',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Michael Bilton and Kevin Sim - Four Hours in My Lai (1992)',
+ ],
+ },
 
 
  'eugenia-charles': {

@@ -132,10 +132,11 @@ export interface IndividualProfile {
   birthDate?: string;
   birthPlace?: string;
   deathDate?: string;
+  deathCause?: string;
   education?: string[];
   netWorth?: string;
-  affiliations?: { name: string; role: string; type: 'agency' | 'corporation' | 'organization' | 'individual' }[];
-  controversies?: string[];
+  affiliations?: ({ name: string; role: string; type: 'agency' | 'corporation' | 'organization' | 'individual' } | { name: string; relationship: string; href?: string })[];
+  controversies?: (string | { title: string; description: string; date?: string; impact?: string; sources?: string[] })[];
   relatedInvestigations?: { title: string; slug: string; severity: string }[] | string[];
   timeline?: { date: string; event: string }[];
   criminalHistory?: string[] | string;
@@ -147,9 +148,10 @@ export interface IndividualProfile {
     | { description: string; status?: string; source?: string }
     | string
   )[];
-  sources?: { title: string; url?: string; date?: string }[];
+  sources?: ({ title: string; url?: string; date?: string } | string)[];
   aliases?: string[];
   knownAssociates?: { name: string; relationship: string; href?: string }[];
+  keyPositions?: string[];
   /** Deep criminal dossier with full crime categories, statutes, narratives, charges, and references */
   crimeDossier?: CrimeCategory[];
   /** Family members and close relations */

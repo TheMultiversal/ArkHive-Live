@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -2344,6 +2344,95 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  { name: 'Randy Weaver', relationship: 'ATF informant who bought illegal firearms from Weaver', href: '/entities/individuals/randy-weaver' },
+ ],
+ },
+
+ 'kenneth-hodges': {
+ name: 'Kenneth Hodges',
+ title: 'My Lai Massacre Participant',
+ role: 'Sergeant, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ riskLevel: 'critical',
+ description: 'Kenneth Hodges was a Sergeant in Charlie Company who participated in the My Lai massacre on March 16, 1968. He was charged with rape and murder of Vietnamese civilians during the operation. Multiple witnesses testified about sexual violence committed by soldiers during the massacre, and Hodges was among those specifically identified. The charges against Hodges were ultimately dropped before trial, joining the near-universal pattern of impunity for My Lai participants. The sexual violence at My Lai, including gang rape and the murder of rape victims, was one of the most underreported aspects of the massacre. While the Peers Commission documented extensive evidence of sexual assault, the military justice system proved unwilling to pursue these charges to conviction. Hodges became one of the many My Lai participants who escaped all legal consequences for their actions during one of the worst atrocities committed by American forces in Vietnam.',
+ birthDate: '',
+ birthPlace: '',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Sergeant in Charlie Company, 1st Battalion, 20th Infantry Regiment, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Ground participant in the March 16, 1968 assault on My Lai hamlet', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'Rape Charges at My Lai',
+ description: 'Hodges was charged with rape during the My Lai massacre. Witnesses testified about widespread sexual violence committed by Charlie Company soldiers against Vietnamese women and girls during the operation, and Hodges was among those specifically identified as perpetrators.',
+ date: 'March 16, 1968',
+ impact: 'The sexual violence at My Lai added another dimension of horror to the massacre, with women and girls subjected to assault before being killed.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Murder Charges in Connection with Massacre',
+ description: 'In addition to rape charges, Hodges was charged with murder for his role in killing unarmed Vietnamese civilians during the My Lai operation. As a sergeant, he held a position of authority within the platoon and bore additional responsibility for the conduct of soldiers under him.',
+ date: 'March 16, 1968',
+ impact: 'Between 347 and 504 unarmed civilians were killed during the massacre that Hodges participated in.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Charges Dropped Before Trial',
+ description: 'Despite being charged with both rape and murder, the charges against Hodges were dropped before trial. The decision to drop charges reflected the military justice system\'s systematic reluctance to prosecute My Lai participants, particularly on sexual violence charges that were harder to prove with the passage of time.',
+ date: '1970-1971',
+ impact: 'The dropping of rape charges sent a message that sexual violence during wartime would face even less accountability than murder, compounding impunity.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Sexual Violence as Systematic Pattern at My Lai',
+ description: 'Hodges\'s charges were part of a broader pattern of sexual violence documented at My Lai. The Peers Commission found evidence that multiple soldiers committed rapes during the operation, often killing their victims afterward. This systematic sexual violence demonstrated that My Lai was not simply a combat excess but a complete breakdown of military discipline and moral conduct.',
+ date: 'March 16, 1968',
+ impact: 'The documented pattern of sexual violence showed the massacre involved multiple forms of war crime, not only mass killing.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Peers Commission Documentation',
+ description: 'The Peers Commission investigation identified Hodges as one of the soldiers who should face charges for actions at My Lai. The commission documented testimony from multiple witnesses about his conduct during the operation, recommending prosecution on both rape and murder charges.',
+ date: '1970',
+ impact: 'Despite the Peers Commission\'s thorough documentation, the military justice system failed to follow through with prosecution.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Impunity for My Lai Sexual Violence',
+ description: 'The dropping of rape charges against Hodges and other soldiers reflected a broader failure to address sexual violence as a weapon of war. No soldier was ever convicted of sexual assault at My Lai despite extensive documentation of these crimes by the Peers Commission.',
+ date: '1971',
+ impact: 'The complete lack of accountability for sexual violence at My Lai set a precedent of impunity that would persist in subsequent conflicts.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ ],
+ timeline: [
+ { date: 'March 16, 1968', event: 'Participated in Charlie Company\'s assault on My Lai hamlet as a Sergeant' },
+ { date: 'March 16, 1968', event: 'Committed rape and murder of Vietnamese civilians during the massacre according to witness testimony' },
+ { date: 'March 1968 - November 1969', event: 'Massacre concealed by military chain of command for over 18 months' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed by journalist Seymour Hersh' },
+ { date: '1970', event: 'Identified by Peers Commission for prosecution on rape and murder charges' },
+ { date: '1970-1971', event: 'Charged with rape and murder by the U.S. Army' },
+ { date: '1971', event: 'All charges dropped before trial' },
+ ],
+ keyPositions: [
+ 'Sergeant, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ ],
+ knownAssociates: [
+ { name: 'William Calley', relationship: 'Platoon leader who ordered the killings and only person convicted', href: '/entities/individuals/william-calley' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander who gave the pre-operation briefing', href: '/entities/individuals/ernest-medina' },
+ { name: 'David Mitchell', relationship: 'Fellow Charlie Company SSG tried and acquitted for My Lai', href: '/entities/individuals/david-mitchell-my-lai' },
+ { name: 'Paul Meadlo', relationship: 'Fellow Charlie Company soldier who testified about the massacre', href: '/entities/individuals/paul-meadlo' },
+ ],
+ charges: [
+ { statute: 'UCMJ Article 120 - Rape', description: 'Charged with rape of Vietnamese civilians during the My Lai massacre', category: 'War Crimes' },
+ { statute: 'UCMJ Article 118 - Murder', description: 'Charged with murder of Vietnamese civilians during the My Lai massacre', category: 'War Crimes' },
+ ],
+ status: 'charges dropped',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Michael Bilton and Kevin Sim - Four Hours in My Lai (1992)',
  ],
  },
 

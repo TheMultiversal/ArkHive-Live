@@ -2303,6 +2303,95 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+ 'dennis-johnson-my-lai': {
+ name: 'Dennis Johnson',
+ title: 'My Lai Intelligence Officer',
+ role: 'Captain, 52nd Military Intelligence Detachment, Americal Division',
+ riskLevel: 'high',
+ description: 'Dennis Johnson was a Captain in the 52nd Military Intelligence Detachment attached to the Americal Division during the Vietnam War. He was among the military intelligence personnel present during operations connected to the My Lai massacre on March 16, 1968. Johnson was charged by the Army in connection with the massacre and its aftermath, but charges were ultimately dropped before trial. The intelligence apparatus surrounding Task Force Barker\'s operation played a critical role both in the faulty intelligence that characterized My Lai as a Viet Cong stronghold and in the subsequent suppression of accurate information about what actually transpired. The 52nd Military Intelligence Detachment was responsible for the interrogation of Vietnamese detainees and the assessment of enemy activity in Quang Ngai Province, and its personnel were aware of discrepancies between the official after-action reports claiming hundreds of enemy killed and the reality of a civilian massacre.',
+ birthDate: '',
+ birthPlace: '',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Captain in the 52nd Military Intelligence Detachment, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Intelligence personnel connected to the My Lai operation and its aftermath', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'Connection to My Lai Massacre Intelligence Failures',
+ description: 'Johnson was part of the military intelligence apparatus that provided faulty intelligence characterizing My Lai hamlet as a Viet Cong stronghold with an estimated battalion-strength enemy force. This flawed intelligence assessment contributed directly to the aggressive rules of engagement that soldiers used to justify the massacre of unarmed civilians.',
+ date: 'March 1968',
+ impact: 'The faulty intelligence led Charlie Company to approach a village of civilians as if it were a fortified enemy position, contributing to the deaths of over 500 unarmed people.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Charges Filed and Subsequently Dropped',
+ description: 'Johnson was among the soldiers charged by the Army following the Peers Commission investigation into the My Lai massacre. His charges related to his role in intelligence operations connected to the massacre. The charges were dropped before trial, continuing the pattern of near-total impunity for My Lai participants.',
+ date: '1970-1971',
+ impact: 'The dropping of charges against intelligence personnel ensured that the role of military intelligence in enabling the massacre was never fully adjudicated.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Intelligence Detachment Role in Cover-Up',
+ description: 'The 52nd Military Intelligence Detachment was positioned to know the truth about what happened at My Lai through interrogation of detainees and assessment of field reports. The massive discrepancy between claimed enemy killed (128) and actual weapons recovered (3) should have immediately flagged the operation as problematic.',
+ date: 'March-April 1968',
+ impact: 'Intelligence personnel who should have flagged obvious discrepancies in the after-action reports failed to do so, enabling the cover-up to persist for over a year.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Detainee Interrogation Concerns',
+ description: 'Military intelligence personnel in the 52nd Detachment were responsible for interrogating Vietnamese detainees captured during operations in Quang Ngai Province. Questions were raised about the treatment of detainees and the accuracy of intelligence extracted through these interrogations.',
+ date: '1968',
+ impact: 'Interrogation practices in Vietnam frequently involved coercion and abuse, producing unreliable intelligence that led to operations against civilian populations.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Peers Commission Identification',
+ description: 'The Peers Commission, led by Lieutenant General William Peers, identified Johnson as one of the individuals who should face charges in connection with the My Lai massacre. The commission\'s thorough investigation recommended prosecution of 30 individuals across multiple ranks and roles.',
+ date: '1970',
+ impact: 'Despite the Peers Commission\'s recommendations, the vast majority of those identified, including Johnson, were never convicted.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Failure to Report War Crimes',
+ description: 'As an intelligence officer, Johnson had both the training and the responsibility to recognize and report violations of the laws of war. The failure of intelligence personnel to flag the obvious massacre reflected a systemic breakdown in accountability within the Americal Division.',
+ date: '1968',
+ impact: 'The failure of military intelligence to report obvious war crimes allowed the cover-up to succeed for over 18 months.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ ],
+ timeline: [
+ { date: 'March 16, 1968', event: 'Task Force Barker conducts operation against My Lai hamlet based on intelligence assessments from the 52nd Military Intelligence Detachment' },
+ { date: 'March-April 1968', event: 'After-action reports claim 128 enemy killed against 3 weapons recovered, a discrepancy intelligence should have flagged' },
+ { date: 'March 1968 - November 1969', event: 'Massacre concealed through systematic suppression of accurate information within the Americal Division' },
+ { date: 'November 1969', event: 'Journalist Seymour Hersh exposes the My Lai massacre publicly' },
+ { date: '1970', event: 'Peers Commission identifies Johnson for prosecution in connection with My Lai' },
+ { date: '1970-1971', event: 'Charges filed against Johnson by the U.S. Army' },
+ { date: '1971', event: 'Charges against Johnson dropped before trial' },
+ ],
+ keyPositions: [
+ 'Captain, 52nd Military Intelligence Detachment, Americal Division',
+ ],
+ knownAssociates: [
+ { name: 'Eugene Kotouc', relationship: 'Fellow intelligence officer charged in connection with My Lai detainee abuse', href: '/entities/individuals/eugene-kotouc' },
+ { name: 'William Calley', relationship: 'Platoon leader convicted of murder at My Lai', href: '/entities/individuals/william-calley' },
+ { name: 'Samuel Koster', relationship: 'Americal Division commander involved in cover-up', href: '/entities/individuals/samuel-koster' },
+ { name: 'Oran Henderson', relationship: '11th Brigade commander acquitted of cover-up charges', href: '/entities/individuals/oran-henderson' },
+ ],
+ charges: [
+ { statute: 'UCMJ - Charges Related to My Lai Massacre', description: 'Charged in connection with intelligence operations related to the My Lai massacre and its aftermath', category: 'War Crimes' },
+ ],
+ status: 'charges dropped',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Library of Congress - Vietnam War Records',
+ ],
+ },
+
  'dennis-kozlowski': {
  name: 'L. Dennis Kozlowski',
  title: 'Former Tyco CEO',
@@ -2922,6 +3011,93 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
+ 'david-mitchell-my-lai': {
+ name: 'David Mitchell',
+ title: 'Charged My Lai Participant',
+ role: 'Staff Sergeant, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ riskLevel: 'critical',
+ description: 'David Mitchell was a Staff Sergeant in Charlie Company who participated in the My Lai massacre on March 16, 1968. He was one of the few soldiers besides Lieutenant William Calley to face court-martial for the atrocity. Witnesses testified that Mitchell fired into groups of unarmed Vietnamese civilians at a drainage ditch where between 70 and 170 villagers were executed. Despite eyewitness testimony from fellow soldiers and Vietnamese survivors identifying him as a shooter at the ditch, Mitchell was acquitted by a military jury in November 1970. His acquittal, along with most other My Lai defendants, demonstrated the military justice system\'s reluctance to hold enlisted soldiers accountable for following what they claimed were orders from superior officers. The pattern of acquittals meant that only Lieutenant Calley was ever convicted for the massacre of over 500 civilians.',
+ birthDate: '',
+ birthPlace: '',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Staff Sergeant in Charlie Company, 1st Battalion, 20th Infantry Regiment, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Ground participant in the March 16, 1968 assault on My Lai hamlet', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'Participation in the My Lai Massacre',
+ description: 'Mitchell participated in the mass killing of unarmed Vietnamese civilians at My Lai on March 16, 1968. Eyewitnesses testified he fired into groups of villagers at the drainage ditch where dozens to hundreds of civilians were executed.',
+ date: 'March 16, 1968',
+ impact: 'Between 347 and 504 unarmed civilians were killed during the massacre, including women, children, and elderly villagers.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Court-Martial and Acquittal',
+ description: 'Mitchell was tried by court-martial for assault with intent to murder approximately 30 Vietnamese civilians at the ditch. Despite testimony from multiple eyewitnesses placing him as an active shooter, the military jury acquitted him in November 1970.',
+ date: 'November 1970',
+ impact: 'His acquittal established the pattern that would see nearly all My Lai defendants escape conviction, leaving only Calley to bear legal responsibility.',
+ sources: ['https://www.nytimes.com/1970/11/21/archives/mitchell-is-acquitted-of-assault-in-mylai.html'],
+ },
+ {
+ title: 'Firing at the Drainage Ditch',
+ description: 'Multiple witnesses testified that Mitchell was among the soldiers who fired M16 rifles into groups of unarmed civilians herded into a drainage ditch on the eastern edge of My Lai. The ditch killing was one of the most concentrated acts of mass murder during the operation.',
+ date: 'March 16, 1968',
+ impact: 'The ditch became the site of one of the most horrific episodes of the massacre, with estimates of 70 to 170 bodies found there.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Claims of Following Orders Defense',
+ description: 'Mitchell\'s defense centered on the claim that soldiers were following orders from superior officers, particularly Captain Ernest Medina and Lieutenant William Calley. This defense proved effective with the military jury despite the principle that orders to commit war crimes are unlawful.',
+ date: '1970',
+ impact: 'The "following orders" defense succeeded for Mitchell and nearly all other enlisted defendants, undermining accountability for war crimes.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Peers Commission Testimony',
+ description: 'Mitchell was identified in the Peers Commission investigation as one of the primary participants in the massacre. The commission, led by Lieutenant General William Peers, recommended his prosecution along with dozens of other soldiers and officers.',
+ date: '1970',
+ impact: 'The Peers Commission documented the full scale of the massacre and cover-up, recommending charges against 30 individuals.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Witness Testimony Against Him',
+ description: 'Several fellow soldiers testified that they saw Mitchell firing at civilians. Vietnamese survivors who were wounded but survived the ditch killings also provided testimony identifying American soldiers at the scene.',
+ date: '1970',
+ impact: 'Despite compelling eyewitness testimony, the military jury chose to acquit, reflecting broader institutional reluctance to convict.',
+ sources: ['https://www.nytimes.com/1970/11/21/archives/mitchell-is-acquitted-of-assault-in-mylai.html'],
+ },
+ ],
+ timeline: [
+ { date: 'March 16, 1968', event: 'Participated in Charlie Company\'s assault on My Lai hamlet, firing at unarmed civilians at the drainage ditch' },
+ { date: 'March 1968 - November 1969', event: 'Massacre concealed by military chain of command through falsified reports and suppression of evidence' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed by journalist Seymour Hersh, leading to investigations' },
+ { date: '1970', event: 'Identified by the Peers Commission as a primary participant and recommended for prosecution' },
+ { date: '1970', event: 'Charged with assault with intent to murder approximately 30 Vietnamese civilians' },
+ { date: 'November 1970', event: 'Acquitted by military court-martial jury despite eyewitness testimony placing him at the ditch' },
+ ],
+ keyPositions: [
+ 'Staff Sergeant, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ ],
+ knownAssociates: [
+ { name: 'William Calley', relationship: 'Platoon leader who ordered the killings and only person convicted for My Lai', href: '/entities/individuals/william-calley' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander who gave the pre-operation briefing', href: '/entities/individuals/ernest-medina' },
+ { name: 'Paul Meadlo', relationship: 'Fellow Charlie Company soldier who testified about the massacre on CBS', href: '/entities/individuals/paul-meadlo' },
+ { name: 'Hugh Thompson Jr.', relationship: 'Helicopter pilot who intervened to stop the massacre', href: '/entities/individuals/hugh-thompson-jr' },
+ ],
+ charges: [
+ { statute: 'UCMJ Article 134 - Assault with Intent to Murder', description: 'Charged with assault with intent to murder approximately 30 Vietnamese civilians at a drainage ditch during My Lai massacre', category: 'War Crimes' },
+ ],
+ status: 'acquitted',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'New York Times - Mitchell Acquittal Coverage (November 1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ ],
+ },
+
  'david-miscavige': {
  name: 'David Miscavige',
  title: 'Profile Under Review',

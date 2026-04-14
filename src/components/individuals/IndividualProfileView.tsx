@@ -197,19 +197,21 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  {(individual.affiliations || []).map((affiliation, index) => {
  const slug = affiliation.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
  const typePathMap: Record<string, string> = { agency: 'agencies', corporation: 'corporations', organization: 'organizations', individual: 'individuals' };
- const href = `/entities/${typePathMap[affiliation.type]}/${slug}`;
+ const affType = 'type' in affiliation ? affiliation.type : 'organization';
+ const affRole = 'role' in affiliation ? affiliation.role : affiliation.relationship;
+ const affHref = 'href' in affiliation && affiliation.href ? affiliation.href : `/entities/${typePathMap[affType]}/${slug}`;
  return (
  <Link
  key={index}
- href={href}
- className={`flex items-center justify-between p-4 border hover:border-zinc-600/50 transition-all group ${affiliationTypeColors[affiliation.type]}`}
+ href={affHref}
+ className={`flex items-center justify-between p-4 border hover:border-zinc-600/50 transition-all group ${affiliationTypeColors[affType]}`}
  >
  <div>
  <p className="font-medium group-hover:text-white transition-colors">{affiliation.name}</p>
- <p className="text-sm text-zinc-500">{affiliation.role}</p>
+ <p className="text-sm text-zinc-500">{affRole}</p>
  </div>
  <div className="flex items-center gap-2">
- <span className="text-xs uppercase">{affiliation.type}</span>
+ <span className="text-xs uppercase">{affType}</span>
  <ExternalLink className="w-3 h-3 text-zinc-600 group-hover:text-white transition-colors"/>
  </div>
  </Link>
@@ -237,7 +239,7 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  >
  <div className="flex items-start gap-3">
  <AlertTriangle className="w-4 h-4 text-zinc-300/60 mt-0.5 flex-shrink-0"/>
- <p className="text-zinc-300 text-sm leading-relaxed">{controversy}</p>
+ <p className="text-zinc-300 text-sm leading-relaxed">{typeof controversy === 'string' ? controversy : `${controversy.title}: ${controversy.description}`}</p>
  </div>
  </div>
  ))}
@@ -490,8 +492,19 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  {(individual.sources || []).length} documented sources from official records, investigations, and reports
  </p>
  <div className="space-y-2">
- {(individual.sources || []).map((source, index) => (
- source.url ? (
+ {(individual.sources || []).map((source, index) => {
+ if (typeof source === 'string') {
+ return (
+ <div
+ key={index}
+ className="flex items-start gap-3 p-3 bg-zinc-900 border border-[rgba(255,255,255,0.08)] text-sm"
+ >
+ <FileText className="w-4 h-4 text-zinc-500 mt-0.5 flex-shrink-0"/>
+ <span className="text-zinc-300">{source}</span>
+ </div>
+ );
+ }
+ return source.url ? (
  <a
  key={index}
  href={source.url}
@@ -520,8 +533,8 @@ export default function IndividualProfileView({ individual, slug }: IndividualPr
  )}
  </div>
  </div>
- )
- ))}
+ );
+ })}
  </div>
  </motion.section>
  )}

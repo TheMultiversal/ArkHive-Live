@@ -694,6 +694,94 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'mendel-rivers': {
+ name: 'L. Mendel Rivers',
+ title: 'House Armed Services Chairman Who Attacked Thompson',
+ role: 'Chairman, House Armed Services Committee, U.S. Representative from South Carolina',
+ riskLevel: 'high',
+ description: 'Lucius Mendel Rivers was a powerful Democratic Congressman from South Carolina who served as Chairman of the House Armed Services Committee from 1965 until his death in 1970. When the My Lai massacre became public in November 1969, Rivers used his position as the most powerful military oversight figure in Congress to attack the whistleblowers rather than investigate the atrocity. He specifically targeted Warrant Officer Hugh Thompson, the helicopter pilot who had intervened to stop the massacre by landing between American soldiers and Vietnamese civilians and threatening to fire on U.S. troops if they continued killing. Rivers called for Thompson to be investigated and potentially court-martialed for training his weapons on fellow American soldiers, attempting to transform the hero into the villain. Rivers also pressured the military to limit court-martial proceedings and minimize accountability. His district in Charleston, South Carolina, was home to numerous military installations, making him deeply invested in protecting the military establishment from scandal. Rivers represented the institutional response that prioritized protecting the military\'s image over accountability for war crimes, and his attack on Thompson demonstrated how political power could be wielded to silence those who exposed atrocities.',
+ birthDate: 'September 28, 1905',
+ birthPlace: 'Gumville, South Carolina',
+ deathDate: 'December 28, 1970',
+ education: ['College of Charleston', 'University of South Carolina School of Law'],
+ affiliations: [
+ { name: 'U.S. House of Representatives', relationship: 'Chairman of House Armed Services Committee (1965-1970), most powerful military oversight figure in Congress', href: '/entities/agencies/us-congress' },
+ { name: 'Democratic Party', relationship: 'South Carolina Democrat who represented military-heavy Charleston district for 30 years', href: '/entities/organizations/democratic-party' },
+ ],
+ controversies: [
+ {
+ title: 'Attack on Hugh Thompson',
+ description: 'Rivers used his position as House Armed Services Chairman to call for the investigation and potential court-martial of Hugh Thompson, the helicopter pilot who intervened to stop the My Lai massacre. Rivers framed Thompson\'s threat to fire on American soldiers as grounds for punishment, attempting to transform the man who saved civilian lives into a criminal.',
+ date: 'November-December 1969',
+ impact: 'Rivers\' attack on Thompson chilled whistleblowing and sent a message that exposing military misconduct would be punished rather than rewarded.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Obstruction of My Lai Accountability',
+ description: 'As the most powerful military oversight figure in Congress, Rivers used his influence to pressure the military to limit court-martial proceedings and minimize the scope of accountability for the My Lai massacre. Rather than demanding a thorough investigation, he sought to contain the political damage.',
+ date: '1969-1970',
+ impact: 'Rivers\' obstruction helped ensure that only one person, Lieutenant Calley, was ever convicted for the massacre of over 500 civilians.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Protecting Military Establishment Over Accountability',
+ description: 'Rivers\' response to My Lai epitomized the institutional priority of protecting the military\'s reputation over pursuing justice. His district contained numerous military bases including the Charleston Naval Shipyard, making him deeply invested in the military-industrial complex.',
+ date: '1969-1970',
+ impact: 'His example demonstrated how Congressional oversight could be captured by the very institutions it was supposed to oversee, enabling impunity for war crimes.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Military Base Empire in Congressional District',
+ description: 'Rivers channeled enormous military spending into his South Carolina district, making Charleston home to more military installations than almost any other Congressional district. This dependency on military spending created a powerful incentive to protect the military from accountability that might reduce its budget or prestige.',
+ date: '1941-1970',
+ impact: 'Rivers\' military patronage network illustrated how Congressional-military financial relationships compromise the independence of civilian oversight.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Framing Whistleblowers as Traitors',
+ description: 'Rivers\' strategy of attacking Thompson set a template that would be repeated in subsequent military scandals: discredit the messenger rather than address the message. By framing those who exposed the massacre as disloyal soldiers, Rivers attempted to shift the narrative away from the atrocity itself.',
+ date: '1969-1970',
+ impact: 'The attack on Thompson established a pattern of retaliation against military whistleblowers that persists to this day.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Support for Vietnam War Escalation',
+ description: 'As Armed Services Chairman, Rivers was a strong proponent of military escalation in Vietnam and resisted efforts to limit the war. His unwavering support for the military campaign made him hostile to any narrative that suggested American forces were committing atrocities.',
+ date: '1965-1970',
+ impact: 'Rivers\' hawkish stance on Vietnam meant that My Lai accountability directly threatened his political position and legislative priorities.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ ],
+ timeline: [
+ { date: 'September 28, 1905', event: 'Born in Gumville, South Carolina' },
+ { date: '1941', event: 'Elected to U.S. House of Representatives from South Carolina\'s 1st district' },
+ { date: '1965', event: 'Became Chairman of the House Armed Services Committee, the most powerful military oversight position in Congress' },
+ { date: 'March 16, 1968', event: 'My Lai massacre occurs under the military establishment Rivers oversaw' },
+ { date: 'November 1969', event: 'My Lai publicly exposed; Rivers moves to attack whistleblowers rather than investigate' },
+ { date: 'November-December 1969', event: 'Called for investigation and potential court-martial of Hugh Thompson for intervening to stop the massacre' },
+ { date: '1970', event: 'Used committee power to pressure military to limit scope of My Lai prosecutions' },
+ { date: 'December 28, 1970', event: 'Died in Birmingham, Alabama, at age 65' },
+ ],
+ keyPositions: [
+ 'Chairman, House Armed Services Committee (1965-1970)',
+ 'U.S. Representative, South Carolina 1st District (1941-1970)',
+ ],
+ knownAssociates: [
+ { name: 'Hugh Thompson Jr.', relationship: 'My Lai hero whom Rivers attempted to punish for stopping the massacre', href: '/entities/individuals/hugh-thompson-jr' },
+ { name: 'William Calley', relationship: 'Only person convicted for My Lai, whose case Rivers sought to minimize', href: '/entities/individuals/william-calley' },
+ { name: 'Samuel Koster', relationship: 'Americal Division commander involved in cover-up', href: '/entities/individuals/samuel-koster' },
+ ],
+ charges: [],
+ status: 'deceased',
+ sources: [
+ 'PBS American Experience - My Lai',
+ 'National Archives - My Lai Massacre Records',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Library of Congress - Congressional Records',
+ 'Michael Bilton and Kevin Sim - Four Hours in My Lai (1992)',
+ ],
+ },
+
  'merrick-garland': {
  name: 'Merrick Garland',
  title: 'Attorney General of the United States',

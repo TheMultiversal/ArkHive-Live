@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -2938,6 +2938,102 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Jeffrey Epstein', relationship: 'Employer for approximately two decades', href: '/entities/individuals/jeffrey-epstein' },
  { name: 'Ghislaine Maxwell', relationship: 'Fellow Epstein associate', href: '/entities/individuals/ghislaine-maxwell' },
+ ],
+ },
+
+ 'lawrence-colburn': {
+ name: 'Lawrence Colburn',
+ title: 'My Lai Helicopter Crew Hero',
+ role: 'Specialist 4, Door Gunner, OH-23 Observation Helicopter, 123rd Aviation Battalion',
+ riskLevel: 'low',
+ description: 'Lawrence Colburn was the door gunner aboard the OH-23 Raven observation helicopter piloted by Warrant Officer Hugh Thompson during the My Lai massacre on March 16, 1968. At just 18 years old, Colburn took one of the most extraordinary moral stands in American military history: he aimed his M60 machine gun at fellow American soldiers to prevent them from killing Vietnamese civilians that Thompson was trying to rescue. When Thompson landed the helicopter between advancing Charlie Company troops and a group of terrified Vietnamese civilians hiding in a bunker, Colburn covered them with his weapon, prepared to fire on U.S. soldiers if they attempted to harm the civilians. Thompson then organized the evacuation of approximately 10-12 civilians by calling in additional helicopters. Colburn also witnessed crew chief Glenn Andreotta wade into a drainage ditch filled with bodies to rescue a living child. After the war, Colburn struggled with the psychological aftermath of My Lai and was initially ostracized for his crew\'s intervention. He was not recognized for his heroism until 1998, thirty years later, when the Army awarded him the Soldier\'s Medal. Colburn became a vocal advocate for military ethics education and returned to Vietnam multiple times, even meeting survivors of the massacre. He died on December 13, 2016, at the age of 67.',
+ birthDate: 'October 3, 1949',
+ birthPlace: 'Mount Vernon, Washington',
+ deathDate: 'December 13, 2016',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Specialist 4, Door Gunner in the 123rd Aviation Battalion, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Helicopter crew member who intervened to stop the My Lai massacre', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'Aiming Weapon at Fellow American Soldiers',
+ description: 'When pilot Hugh Thompson landed the helicopter between American soldiers and Vietnamese civilians, 18-year-old Colburn aimed his M60 door gun at the U.S. troops and was ordered by Thompson to fire if the Americans attempted to harm the civilians. This act of training a weapon on fellow soldiers to protect enemy civilians was virtually unprecedented in American military history.',
+ date: 'March 16, 1968',
+ impact: 'Colburn\'s willingness to fire on fellow Americans to protect Vietnamese civilians demonstrated that the duty to prevent war crimes supersedes unit loyalty and national allegiance.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Witnessing the My Lai Massacre',
+ description: 'From his position as door gunner, Colburn witnessed the systematic killing of unarmed Vietnamese civilians by Charlie Company. He saw soldiers firing into groups of women, children, and elderly villagers, and observed the mass execution at the drainage ditch where Andreotta later rescued a living child.',
+ date: 'March 16, 1968',
+ impact: 'Colburn\'s eyewitness testimony became crucial evidence in establishing the scope and deliberateness of the massacre.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Ostracism and Death Threats After My Lai',
+ description: 'After the My Lai massacre became public, Colburn, Thompson, and Andreotta\'s families received death threats and were ostracized by other soldiers and portions of the American public who viewed them as traitors for intervening against fellow troops. Colburn described being called a traitor and receiving threatening correspondence.',
+ date: '1969-1998',
+ impact: 'The persecution of those who tried to stop the massacre revealed how deeply the culture of military loyalty could distort moral judgment in American society.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Thirty-Year Delay in Recognition',
+ description: 'Colburn was not awarded the Soldier\'s Medal for his heroism at My Lai until March 6, 1998, thirty years after the event. The Army initially suppressed recognition of Thompson\'s crew, and it took decades of advocacy before the military acknowledged their moral courage.',
+ date: 'March 6, 1998',
+ impact: 'The three-decade delay demonstrated the military establishment\'s deep resistance to acknowledging what happened at My Lai and honoring those who tried to stop it.',
+ sources: ['https://www.army.mil/article/19780/my_lai_heroes_three_decades_later'],
+ },
+ {
+ title: 'Return Visits to Vietnam and Survivor Meetings',
+ description: 'Colburn returned to My Lai multiple times after the war, meeting Vietnamese survivors of the massacre. He developed personal relationships with survivors and their families, seeking reconciliation and healing. These visits became a powerful symbol of the possibility of atonement.',
+ date: '1998-2016',
+ impact: 'Colburn\'s return visits and meetings with survivors provided a model for post-conflict reconciliation and demonstrated individual accountability.',
+ sources: ['https://www.nytimes.com/2016/12/14/us/lawrence-colburn-who-helped-stop-my-lai-massacre-is-dead-at-67.html'],
+ },
+ {
+ title: 'Military Ethics Advocacy',
+ description: 'After receiving belated recognition, Colburn became a vocal advocate for military ethics education, speaking at military academies and training facilities about the duty to disobey unlawful orders and the moral responsibility of individual soldiers. He used his experience at My Lai to teach future soldiers about moral courage.',
+ date: '1998-2016',
+ impact: 'Colburn\'s advocacy helped establish My Lai as a central case study in military ethics education worldwide.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Psychological Impact and PTSD',
+ description: 'Colburn struggled with post-traumatic stress disorder from his experiences at My Lai and during the broader Vietnam War. The trauma of witnessing mass murder by his own countrymen, combined with the subsequent ostracism, took a severe toll on his mental health for decades.',
+ date: 'Ongoing',
+ impact: 'Colburn\'s PTSD illustrated how My Lai traumatized not only its victims but also the witnesses who tried to intervene.',
+ sources: ['https://www.nytimes.com/2016/12/14/us/lawrence-colburn-who-helped-stop-my-lai-massacre-is-dead-at-67.html'],
+ },
+ ],
+ timeline: [
+ { date: 'October 3, 1949', event: 'Born in Mount Vernon, Washington' },
+ { date: '1967', event: 'Deployed to Vietnam at age 18 as helicopter door gunner with the 123rd Aviation Battalion' },
+ { date: 'March 16, 1968', event: 'Aimed M60 machine gun at American soldiers to protect Vietnamese civilians during the My Lai massacre' },
+ { date: 'March 16, 1968', event: 'Helped evacuate approximately 10-12 Vietnamese civilians to safety during Thompson\'s helicopter intervention' },
+ { date: 'April 8, 1968', event: 'Crew chief Glenn Andreotta killed in action three weeks after My Lai' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed, leading to ostracism and death threats against Thompson\'s crew' },
+ { date: 'March 6, 1998', event: 'Awarded Soldier\'s Medal for heroism at My Lai, thirty years after the event' },
+ { date: '1998-2016', event: 'Returned to Vietnam multiple times, met with massacre survivors, and advocated for military ethics education' },
+ { date: 'December 13, 2016', event: 'Died at age 67 in Canton, Georgia' },
+ ],
+ keyPositions: [
+ 'Specialist 4, Door Gunner, OH-23 Observation Helicopter, 123rd Aviation Battalion',
+ ],
+ knownAssociates: [
+ { name: 'Hugh Thompson Jr.', relationship: 'Helicopter pilot who led the intervention to stop the My Lai massacre', href: '/entities/individuals/hugh-thompson-jr' },
+ { name: 'Glenn Andreotta', relationship: 'Crew chief who rescued a living child from the drainage ditch, KIA 3 weeks later', href: '/entities/individuals/glenn-andreotta' },
+ { name: 'William Calley', relationship: 'Platoon leader whose killing operations Thompson\'s crew tried to stop', href: '/entities/individuals/william-calley' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander responsible for the troops committing the massacre', href: '/entities/individuals/ernest-medina' },
+ ],
+ charges: [],
+ status: 'deceased',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'PBS American Experience - My Lai',
+ 'U.S. Army - My Lai Heroes: Three Decades Later (1998)',
+ 'New York Times - Lawrence Colburn Obituary (2016)',
+ 'Michael Bilton and Kevin Sim - Four Hours in My Lai (1992)',
  ],
  },
 

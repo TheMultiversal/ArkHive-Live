@@ -2227,6 +2227,93 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'paul-meadlo': {
+ name: 'Paul Meadlo',
+ title: 'My Lai Participant Who Testified Publicly',
+ role: 'Private First Class, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ riskLevel: 'critical',
+ description: 'Paul Meadlo was a Private First Class in Charlie Company who participated in the My Lai massacre on March 16, 1968, and later became one of the most important witnesses to the atrocity. Meadlo was among the soldiers who, under Lieutenant William Calley\'s direct orders, fired into groups of unarmed Vietnamese civilians, including women, children, and elderly villagers. The day after the massacre, Meadlo stepped on a land mine that blew off his foot, an injury he later described as divine punishment for his actions at My Lai. In November 1969, Meadlo became the first identified participant to speak publicly about the massacre when journalist Seymour Hersh tracked him down, and he subsequently appeared on CBS Evening News with Walter Cronkite, telling the nation in devastating detail that "we were ordered to shoot" and describing how he personally shot men, women, and children. His CBS interview, broadcast to millions of Americans, was one of the most shocking moments of Vietnam War coverage and forced the nation to confront the reality of what had happened at My Lai. Meadlo was never charged with any crime, as military authorities determined he had been following orders. His testimony became some of the most critical evidence establishing the scope and deliberateness of the massacre.',
+ birthDate: '1949',
+ birthPlace: 'Terre Haute, Indiana',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Private First Class in Charlie Company, 1st Battalion, 20th Infantry Regiment, Americal Division', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Ground participant in the March 16, 1968 assault on My Lai hamlet who later became key witness', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'Direct Participation in My Lai Massacre',
+ description: 'Meadlo was among the soldiers who fired into groups of unarmed Vietnamese civilians at My Lai under Lieutenant Calley\'s orders. He described how he and Calley stood at the edge of a drainage ditch and fired clip after clip into the civilians who had been herded there. He estimated participating in the killing of approximately 100 people.',
+ date: 'March 16, 1968',
+ impact: 'Meadlo\'s detailed account of personally shooting civilians established the premeditated, systematic nature of the massacre beyond any doubt.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Landmark CBS Evening News Interview',
+ description: 'In November 1969, Meadlo appeared on CBS Evening News with Walter Cronkite and told the nation: "We were ordered to shoot. We huddled them up and I poured about four clips into the group." He described shooting men, women, children, and babies. The interview was one of the most shocking moments of Vietnam War television coverage.',
+ date: 'November 1969',
+ impact: 'Meadlo\'s CBS interview forced millions of Americans to confront the reality of what their soldiers had done at My Lai, transforming it from allegation to undeniable truth.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Land Mine Injury the Day After the Massacre',
+ description: 'On March 17, 1968, the day after the My Lai massacre, Meadlo stepped on a land mine that blew off his foot. As he was being evacuated, he reportedly screamed at Captain Medina: "God punished me, and God will punish you." He later described the injury as divine retribution for his participation in the massacre.',
+ date: 'March 17, 1968',
+ impact: 'Meadlo\'s immediate interpretation of his injury as punishment reflected the psychological devastation that the massacre inflicted on its participants.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Following Orders Defense',
+ description: 'Meadlo consistently stated that he was following direct orders from Lieutenant Calley to shoot the civilians. His testimony was critical in establishing that the killings were ordered rather than spontaneous. Meadlo was never charged because military authorities accepted that he had been following orders from his platoon leader.',
+ date: '1969-1970',
+ impact: 'Meadlo\'s testimony established the chain of command responsibility that should have led to accountability for officers, though ultimately only Calley was convicted.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Seymour Hersh Interview',
+ description: 'Journalist Seymour Hersh tracked Meadlo down in Indiana as part of his investigation into the My Lai massacre. Meadlo agreed to speak, becoming the first identified participant to publicly describe the killings. His willingness to talk was instrumental in breaking the story that won Hersh the Pulitzer Prize.',
+ date: 'November 1969',
+ impact: 'Meadlo\'s decision to speak to Hersh provided the first firsthand confirmation of the massacre from a participant, making the story impossible to dismiss.',
+ sources: ['https://www.pulitzer.org/winners/seymour-m-hersh'],
+ },
+ {
+ title: 'Psychological Trauma and Post-War Life',
+ description: 'Meadlo returned to Terre Haute, Indiana after losing his foot and struggled with severe post-traumatic stress disorder. He lived quietly, rarely speaking publicly after his initial interviews, haunted by his participation in the massacre for the rest of his life.',
+ date: 'Post-1968',
+ impact: 'Meadlo\'s psychological devastation illustrated the lasting human cost of war crimes on perpetrators as well as victims.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ ],
+ timeline: [
+ { date: '1949', event: 'Born in Terre Haute, Indiana' },
+ { date: '1967', event: 'Deployed to Vietnam with Charlie Company, 1st Battalion, 20th Infantry Regiment' },
+ { date: 'March 16, 1968', event: 'Participated in the My Lai massacre, firing into groups of unarmed Vietnamese civilians under Calley\'s orders' },
+ { date: 'March 17, 1968', event: 'Stepped on land mine the day after the massacre, losing his foot; screamed that "God punished me"' },
+ { date: '1968', event: 'Medically evacuated and discharged from the Army' },
+ { date: 'November 1969', event: 'Interviewed by journalist Seymour Hersh, becoming first identified participant to speak publicly' },
+ { date: 'November 1969', event: 'Appeared on CBS Evening News with Walter Cronkite, telling the nation "we were ordered to shoot"' },
+ { date: '1970', event: 'Provided testimony to the Peers Commission investigation' },
+ ],
+ keyPositions: [
+ 'Private First Class, Charlie Company, 1st Battalion, 20th Infantry Regiment',
+ ],
+ knownAssociates: [
+ { name: 'William Calley', relationship: 'Platoon leader who gave Meadlo direct orders to shoot civilians at the ditch', href: '/entities/individuals/william-calley' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander to whom Meadlo screamed "God will punish you" after his injury', href: '/entities/individuals/ernest-medina' },
+ { name: 'Seymour Hersh', relationship: 'Journalist who tracked Meadlo down and broke the My Lai story', href: '/entities/individuals/seymour-hersh' },
+ { name: 'David Mitchell', relationship: 'Fellow Charlie Company SSG also involved in the massacre', href: '/entities/individuals/david-mitchell-my-lai' },
+ ],
+ charges: [],
+ status: 'never charged',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'CBS Evening News - Paul Meadlo Interview (November 1969)',
+ 'Michael Bilton and Kevin Sim - Four Hours in My Lai (1992)',
+ ],
+ },
+
  'paul-nakasone': {
  name: 'Paul Nakasone',
  title: 'Profile Under Review',

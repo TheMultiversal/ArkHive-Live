@@ -981,6 +981,86 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'william-guinn': {
+ name: 'William Guinn',
+ title: 'My Lai Province Advisor',
+ role: 'Lieutenant Colonel, Deputy Province Senior Advisor, Quang Ngai Province',
+ riskLevel: 'high',
+ description: 'Lieutenant Colonel William Guinn served as the Deputy Province Senior Advisor for Quang Ngai Province during the period of the My Lai massacre on March 16, 1968. In this role, Guinn was part of the advisory apparatus that worked alongside Vietnamese provincial officials and the U.S. military forces operating in the province. As a provincial advisor, Guinn had access to intelligence about military operations and their impact on civilian populations in Quang Ngai Province, one of the most contested areas of the Vietnam War. Following the exposure of the My Lai massacre, the Peers Commission investigation identified Guinn as one of the individuals who bore responsibility in connection with the massacre and its aftermath. He was charged by the Army, but the charges were dropped before trial. Guinn\'s case highlighted the role of the advisory system in Vietnam, where American officers embedded with Vietnamese institutions had insight into ground-level realities that should have flagged the massacre but instead contributed to its concealment.',
+ birthDate: '',
+ birthPlace: '',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Lieutenant Colonel serving as Deputy Province Senior Advisor for Quang Ngai Province', href: '/entities/agencies/us-army' },
+ { name: 'Task Force Barker', relationship: 'Provincial advisory officer with knowledge of operations in the My Lai area', href: '/investigations/my-lai-massacre' },
+ ],
+ controversies: [
+ {
+ title: 'Provincial Advisory Role During My Lai',
+ description: 'As Deputy Province Senior Advisor, Guinn was part of the U.S. advisory apparatus in Quang Ngai Province during the period of the My Lai massacre. Provincial advisors had access to intelligence about military operations and their effects on civilian populations, placing Guinn in a position to know about the aftermath of the March 16 operation.',
+ date: 'March 1968',
+ impact: 'The advisory system\'s failure to flag the massacre despite its proximity to ground-level information demonstrated systemic dysfunction in civilian-military coordination.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Charges Filed and Subsequently Dropped',
+ description: 'Guinn was charged by the Army following the Peers Commission investigation, which identified him as bearing responsibility in connection with the My Lai massacre and its aftermath. The charges were dropped before trial, continuing the pattern of near-total impunity for My Lai-connected personnel.',
+ date: '1970-1971',
+ impact: 'The dropping of charges against advisory personnel ensured that the civilian advisory system\'s role in enabling or concealing the massacre was never fully examined.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Failure to Report Civilian Casualties',
+ description: 'Provincial advisors were positioned to receive reports about civilian casualties from Vietnamese sources, which often differed significantly from the official U.S. military after-action reports. Guinn\'s failure to report or escalate discrepancies between military claims of enemy casualties and the reality of civilian deaths contributed to the cover-up.',
+ date: 'March-April 1968',
+ impact: 'The advisory system\'s silence about obvious discrepancies between claimed combat results and actual civilian impact enabled the cover-up to persist unchallenged.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Quang Ngai Province Civilian Impact',
+ description: 'Quang Ngai Province was one of the most heavily contested areas of the Vietnam War and suffered enormous civilian casualties from American operations. The provincial advisory team was aware of the impact on civilians but consistently prioritized military objectives over civilian protection.',
+ date: '1968',
+ impact: 'The systemic disregard for civilian casualties in Quang Ngai Province created the conditions where a massacre could occur and be covered up.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Peers Commission Identification',
+ description: 'The Peers Commission identified Guinn as one of the individuals who should face charges in connection with the My Lai massacre. The commission examined the role of advisory personnel in the information chain and found that advisors had access to information that should have exposed the massacre.',
+ date: '1970',
+ impact: 'The Peers Commission\'s inclusion of advisory personnel in its recommendations acknowledged the broader institutional complicity beyond combat units.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ ],
+ timeline: [
+ { date: 'March 16, 1968', event: 'My Lai massacre occurs in Quang Ngai Province while Guinn served as Deputy Province Senior Advisor' },
+ { date: 'March-April 1968', event: 'Provincial advisory system failed to flag discrepancies between military reports and civilian reality' },
+ { date: 'March 1968 - November 1969', event: 'Massacre concealed through suppression of information at multiple levels' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed by journalist Seymour Hersh' },
+ { date: '1970', event: 'Peers Commission identifies Guinn for prosecution' },
+ { date: '1970-1971', event: 'Charged by the U.S. Army in connection with My Lai' },
+ { date: '1971', event: 'Charges dropped before trial' },
+ ],
+ keyPositions: [
+ 'Lieutenant Colonel, Deputy Province Senior Advisor, Quang Ngai Province',
+ ],
+ knownAssociates: [
+ { name: 'Samuel Koster', relationship: 'Americal Division commander operating in Quang Ngai Province', href: '/entities/individuals/samuel-koster' },
+ { name: 'Oran Henderson', relationship: '11th Brigade commander operating in the advisory area', href: '/entities/individuals/oran-henderson' },
+ { name: 'William Calley', relationship: 'Platoon leader convicted of murder at My Lai', href: '/entities/individuals/william-calley' },
+ ],
+ charges: [
+ { statute: 'UCMJ - Charges Related to My Lai Massacre', description: 'Charged in connection with advisory role related to the My Lai massacre and its aftermath', category: 'Military Misconduct' },
+ ],
+ status: 'charges dropped',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Library of Congress - Vietnam War Records',
+ ],
+ },
+
  'william-harper': {
  name: 'William Harper',
  title: 'Criminalist who analyzed bullets and concluded two different guns were fired',
@@ -1114,6 +1194,95 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+ 'william-peers': {
+ name: 'William Peers',
+ title: 'Peers Commission Investigation Leader',
+ role: 'Lieutenant General, United States Army; Director, Peers Inquiry into the My Lai Incident',
+ riskLevel: 'low',
+ description: 'Lieutenant General William R. Peers was the distinguished Army officer appointed by the Secretary of the Army and Chief of Staff to lead the investigation into the My Lai massacre and its cover-up. In November 1969, following the public exposure of the massacre by journalist Seymour Hersh, the Army needed a senior officer of unquestioned integrity to conduct a thorough investigation. Peers, a decorated combat veteran of World War II and Korea with extensive experience in Southeast Asia, was selected for his reputation for honesty and thoroughness. From November 1969 through March 1970, the Peers Commission interviewed over 400 witnesses, reviewed thousands of documents, and produced a comprehensive report that documented both the massacre itself and the systematic cover-up by the military chain of command. The commission recommended charges against 30 individuals, including two generals, and found that the massacre was far more extensive than initially reported, with between 175 and 400 civilian deaths documented by the commission. Peers was frustrated that the military justice system ultimately convicted only Lieutenant William Calley out of the 30 recommended for prosecution. He later wrote a book, "The My Lai Inquiry," detailing his findings and his dismay at the failure of accountability.',
+ birthDate: 'June 17, 1914',
+ birthPlace: 'Stuart, Iowa',
+ deathDate: 'April 6, 1984',
+ education: ['University of California, Los Angeles', 'United States Military Academy at West Point (ROTC equivalent program)'],
+ affiliations: [
+ { name: 'United States Army', relationship: 'Lieutenant General who led the official investigation into the My Lai massacre and cover-up', href: '/entities/agencies/us-army' },
+ ],
+ controversies: [
+ {
+ title: 'Leading the My Lai Investigation',
+ description: 'Peers led the most comprehensive investigation into the My Lai massacre, interviewing over 400 witnesses and reviewing thousands of documents. His commission produced a report that documented both the scope of the massacre and the systematic cover-up by the chain of command, from company level through division headquarters.',
+ date: 'November 1969 - March 1970',
+ impact: 'The Peers Commission produced the definitive account of the My Lai massacre and recommended charges against 30 individuals across multiple ranks.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Recommendation of 30 Court-Martials',
+ description: 'The Peers Commission recommended that 30 individuals face charges, including Major General Samuel Koster (the Americal Division commander) and Brigadier General George Young. The recommendations covered murder, assault, rape, dereliction of duty, and cover-up charges spanning the full chain of command.',
+ date: 'March 1970',
+ impact: 'Despite these comprehensive recommendations, only Lieutenant Calley was ultimately convicted, demonstrating the military justice system\'s failure to follow through on the commission\'s findings.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Documentation of the Cover-Up',
+ description: 'The Peers Commission documented how the cover-up of the massacre extended from the company level through the brigade and division levels. Officers at every level either actively participated in suppressing information or failed to investigate obvious evidence of the atrocity, including the massive discrepancy between claimed enemy casualties and weapons recovered.',
+ date: '1970',
+ impact: 'The commission\'s documentation of the cover-up revealed systemic institutional dysfunction that protected perpetrators and punished truth-tellers.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Frustration with Failed Accountability',
+ description: 'Peers was deeply frustrated that only one of the 30 individuals he recommended for prosecution was ultimately convicted. He later wrote "The My Lai Inquiry" expressing his dismay at the military justice system\'s failure to hold the chain of command accountable for both the massacre and the cover-up.',
+ date: '1979',
+ impact: 'Peers\'s public frustration with the outcome provided powerful testimony from within the military establishment about the failure of military justice.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'Establishing the Full Scope of the Massacre',
+ description: 'The Peers Commission established that the massacre was far more extensive than initially reported, documenting between 175 and 400 individual deaths (with some estimates reaching higher). The commission also documented sexual violence, destruction of property, and the killing of livestock as part of the systematic attack on the village.',
+ date: '1970',
+ impact: 'The commission\'s documentation established the true scale of the atrocity and made clear this was not an isolated incident but a systematic operation.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Integrity Under Political Pressure',
+ description: 'Despite political pressure to minimize the findings or limit the scope of the investigation, Peers insisted on a thorough and honest inquiry. His refusal to whitewash the results demonstrated that institutional integrity was possible even under intense political pressure.',
+ date: '1969-1970',
+ impact: 'Peers\'s integrity set a standard for military investigations that, while rarely matched, demonstrated what genuine accountability efforts should look like.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ ],
+ timeline: [
+ { date: 'June 17, 1914', event: 'Born in Stuart, Iowa' },
+ { date: '1938', event: 'Commissioned as Army officer' },
+ { date: 'World War II', event: 'Served in Burma and China with the Office of Strategic Services (OSS)' },
+ { date: '1950-1953', event: 'Served in Korea' },
+ { date: 'November 1969', event: 'Appointed to lead the investigation into the My Lai massacre and cover-up' },
+ { date: 'November 1969 - March 1970', event: 'Led the Peers Commission, interviewing over 400 witnesses and reviewing thousands of documents' },
+ { date: 'March 1970', event: 'Peers Commission report completed, recommending charges against 30 individuals' },
+ { date: '1979', event: 'Published "The My Lai Inquiry" expressing dismay at the failure of accountability' },
+ { date: 'April 6, 1984', event: 'Died at age 69' },
+ ],
+ keyPositions: [
+ 'Lieutenant General, United States Army',
+ 'Director, Peers Inquiry into the My Lai Incident (1969-1970)',
+ ],
+ knownAssociates: [
+ { name: 'Samuel Koster', relationship: 'Americal Division commander whom Peers recommended for prosecution', href: '/entities/individuals/samuel-koster' },
+ { name: 'Oran Henderson', relationship: '11th Brigade commander whom Peers recommended for prosecution', href: '/entities/individuals/oran-henderson' },
+ { name: 'William Calley', relationship: 'Only person ultimately convicted from Peers\'s 30 recommended prosecutions', href: '/entities/individuals/william-calley' },
+ { name: 'Ronald Ridenhour', relationship: 'Soldier whistleblower whose letter triggered the Army investigation', href: '/entities/individuals/ronald-ridenhour' },
+ ],
+ charges: [],
+ status: 'deceased',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'William R. Peers - The My Lai Inquiry (1979)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Library of Congress - Vietnam War Records',
+ ],
+ },
 
  'william-pepper': {
  name: 'William Pepper',

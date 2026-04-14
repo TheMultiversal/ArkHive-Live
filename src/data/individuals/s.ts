@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -2359,48 +2359,109 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'samuel-koster': {
- name: 'Samuel Koster',
- title: 'Major General commanding the Americal Division during My Lai. Suppressed the initial investigation, lied about what happened, and helped cover up the massacre for over a year. Reduced in rank but never prosecuted.',
- role: 'Major General commanding the Americal Division during My Lai. Suppressed the initial investigation, lied about what happened, and helped cover up the massacre for over a year. Reduced in rank but never prosecuted.',
- riskLevel: 'high',
- description: 'Samuel Koster. Profile pending review.',
- education: [],
+ name: 'Samuel W. Koster',
+ title: 'Americal Division Commander at My Lai',
+ role: 'Major General, Commanding General of Americal Division (23rd Infantry Division)',
+ riskLevel: 'critical',
+ description: 'Major General Samuel W. Koster was the commanding general of the Americal Division (23rd Infantry Division) at the time of the My Lai massacre on March 16, 1968. As the highest-ranking officer in the chain of command above the massacre, Koster bore ultimate responsibility for both the atrocity itself and the systematic cover-up that followed. When helicopter pilot Hugh Thompson reported the mass killing of civilians through his chain of command, the reports reached Koster\'s headquarters. Rather than launching a thorough investigation, Koster accepted the falsified after-action reports that characterized the massacre as a successful combat engagement against Viet Cong forces. Koster personally visited My Lai by helicopter on March 16 and likely had direct knowledge that something extraordinary had occurred. The Peers Commission later found that Koster had suppressed information about the massacre, failed to order proper investigations, and knowingly accepted false reports of enemy casualties. Despite these findings, Koster\'s military career was remarkably insulated from accountability. After Vietnam, he was assigned as the superintendent of the United States Military Academy at West Point, one of the most prestigious positions in the Army. When the cover-up unraveled in 1969-1970, Koster was relieved of command at West Point. He was charged with dereliction of duty and failure to obey lawful regulations, but all charges were eventually dropped. As administrative punishment, Koster was demoted from major general to brigadier general and stripped of his Distinguished Service Medal, making him the highest-ranking Army officer reduced in rank since the Civil War. He retired in 1973 and died in November 2006.',
+ birthDate: 'June 10, 1919',
+ birthPlace: 'Baltimore, Maryland',
+ deathDate: 'November 18, 2006',
+ education: ['United States Military Academy, West Point (Class of 1942)'],
  affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'United States Army', relationship: 'Major General, Commanding General of the Americal Division (23rd Infantry Division)', href: '/entities/agencies/us-army' },
+ { name: 'United States Military Academy', relationship: 'Served as Superintendent of West Point from 1968-1970 before being relieved', href: '/entities/agencies/us-army' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- 'Investigative analysis reveals Samuel Koster was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
+ {
+ title: 'Suppression of Massacre Reports',
+ description: 'When Hugh Thompson\'s real-time reports of the civilian massacre reached Americal Division headquarters, Koster failed to order a proper investigation. Instead, the reports were minimized, ignored, or buried. The Peers Commission found that Koster\'s headquarters actively suppressed information about the massacre.',
+ date: 'March 16-17, 1968',
+ impact: 'Koster\'s suppression of Thompson\'s reports enabled the cover-up to persist for over 18 months, during which no accountability was sought for the deaths of 347-504 civilians.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Acceptance of Falsified After-Action Reports',
+ description: 'The official after-action reports from the My Lai operation claimed 128 enemy killed in action with only 3 weapons recovered and zero civilian casualties. Koster accepted these patently absurd figures without question, despite Thompson\'s contradictory reports and the obvious impossibility of the claimed kill ratio.',
+ date: 'March-April 1968',
+ impact: 'By accepting false reports, Koster provided the official narrative that concealed a massacre of hundreds of civilians as a successful military operation.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Assignment to West Point Superintendent During Cover-Up',
+ description: 'Despite having presided over both the massacre and its cover-up, Koster was assigned as superintendent of West Point, the most prestigious command in Army education. He served in this role from 1968-1970, responsible for shaping the ethical development of future officers, while the massacre he helped conceal remained hidden.',
+ date: '1968-1970',
+ impact: 'Koster\'s assignment to the institution responsible for military ethics education while concealing a war crime represented one of the most profound institutional failures of accountability in Army history.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Relief from West Point Command',
+ description: 'After the My Lai massacre became public through Seymour Hersh\'s reporting, Koster was relieved of command as superintendent of West Point in 1970. His removal from the most visible leadership position in Army education was deeply embarrassing to the institution.',
+ date: '1970',
+ impact: 'The spectacle of removing the West Point superintendent for a war crime cover-up damaged the Army\'s institutional credibility and morale.',
+ sources: ['https://www.pbs.org/wgbh/americanexperience/films/mylai/'],
+ },
+ {
+ title: 'Demotion and Loss of Distinguished Service Medal',
+ description: 'As administrative punishment, Koster was reduced in rank from major general to brigadier general and stripped of his Distinguished Service Medal. He became the highest-ranking U.S. Army officer demoted since the Civil War. Despite the severity of the underlying offense, the punishment was widely viewed as inadequate.',
+ date: '1971',
+ impact: 'Koster\'s demotion, while historically significant, reinforced the perception that senior officers faced only token consequences for war crimes and cover-ups.',
+ sources: ['https://www.loc.gov/item/2018690253/'],
+ },
+ {
+ title: 'All Criminal Charges Dropped',
+ description: 'Koster was charged with dereliction of duty and failure to obey lawful regulations in connection with the cover-up, but all charges were dropped without trial. The decision to drop charges against the highest-ranking officer involved exemplified the two-tiered justice system that protected senior leaders.',
+ date: '1971',
+ impact: 'The dismissal of charges against Koster, while Lieutenant Calley was convicted, created a profound injustice in the distribution of accountability for the massacre.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
+ {
+ title: 'Peers Commission Findings',
+ description: 'The Peers Commission, established by the Army to investigate the cover-up, found that Koster bore significant responsibility for suppressing investigation of the massacre. The commission documented how Koster\'s headquarters created a culture of impunity that enabled the cover-up.',
+ date: '1970',
+ impact: 'The Peers Commission report provided the most authoritative documentation of the command failures that enabled both the massacre and its concealment.',
+ sources: ['https://www.archives.gov/research/military/vietnam-war/my-lai-massacre'],
+ },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Major General commanding the Americal Division during My Lai. Suppressed the initial investigation, ' }, ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Samuel Koster', url: 'https://en.wikipedia.org/wiki/Samuel_Koster', date: '' }, ],
- aliases: [],
+ { date: 'June 10, 1919', event: 'Born in Baltimore, Maryland' },
+ { date: '1942', event: 'Graduated from United States Military Academy at West Point' },
+ { date: '1967-1968', event: 'Assumed command of the Americal Division (23rd Infantry Division) in Vietnam' },
+ { date: 'March 16, 1968', event: 'My Lai massacre occurred under his division command; received reports from Hugh Thompson about civilian killings' },
+ { date: 'March-April 1968', event: 'Accepted falsified after-action reports and failed to order proper investigation of the massacre' },
+ { date: '1968', event: 'Assigned as Superintendent of the United States Military Academy at West Point' },
+ { date: 'November 1969', event: 'My Lai massacre publicly exposed by journalist Seymour Hersh' },
+ { date: '1970', event: 'Relieved of command as West Point superintendent' },
+ { date: '1970', event: 'Peers Commission found Koster bore significant responsibility for cover-up' },
+ { date: '1971', event: 'All criminal charges dropped; demoted from major general to brigadier general; stripped of Distinguished Service Medal' },
+ { date: '1973', event: 'Retired from the United States Army' },
+ { date: 'November 18, 2006', event: 'Died at age 87' },
+ ],
+ keyPositions: [
+ 'Commanding General, Americal Division (23rd Infantry Division)',
+ 'Superintendent, United States Military Academy at West Point',
+ ],
  knownAssociates: [
- { name: 'William Calley', relationship: 'Division commander who covered up Calley\'s My Lai massacre', href: '/entities/individuals/william-calley' },
- { name: 'Hugh Thompson Jr', relationship: 'Helicopter pilot who tried to stop massacre under Koster\'s command', href: '/entities/individuals/hugh-thompson-jr' },
+ { name: 'Oran Henderson', relationship: 'Brigade commander who reported to Koster and participated in the cover-up', href: '/entities/individuals/oran-henderson' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander who operated under Koster\'s divisional authority', href: '/entities/individuals/ernest-medina' },
+ { name: 'Hugh Thompson Jr.', relationship: 'Helicopter pilot whose massacare reports were suppressed by Koster\'s headquarters', href: '/entities/individuals/hugh-thompson-jr' },
+ { name: 'William Calley', relationship: 'Platoon leader convicted for the massacre that occurred under Koster\'s division command', href: '/entities/individuals/william-calley' },
+ { name: 'William Peers', relationship: 'Lieutenant General who led the investigation that documented Koster\'s role in the cover-up', href: '/entities/individuals/william-peers' },
+ ],
+ charges: [
+ { statute: 'UCMJ Article 92 - Dereliction of Duty', description: 'Charged with failure to properly investigate reports of the massacre and dereliction of command responsibilities', category: 'Military Offense' },
+ { statute: 'UCMJ Article 92 - Failure to Obey Lawful Regulation', description: 'Charged with failure to obey regulations requiring investigation and reporting of potential war crimes', category: 'Military Offense' },
+ ],
+ status: 'charges dropped',
+ sources: [
+ 'National Archives - My Lai Massacre Records',
+ 'Peers Commission Report (1970)',
+ 'PBS American Experience - My Lai',
+ 'Seymour Hersh - Cover-Up (1972)',
+ 'Michael Bilton and Kevin Sim - Four Hours in My Lai (1992)',
+ 'U.S. Army Center of Military History',
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'samuel-weaver': {
@@ -2657,36 +2718,107 @@ const profiles: Record<string, IndividualProfile> = {
 
  'seymour-hersh': {
  name: 'Seymour Hersh',
- title: 'Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting (based on interviews with participants) forced the Army to acknowledge the atrocity and won the Pulitzer Prize.',
- role: 'Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred. His reporting (based on interviews with participants) forced the Army to acknowledge the atrocity and won the Pulitzer Prize.',
- riskLevel: 'high',
- description: 'Seymour Hersh. Profile pending review.',
- education: [],
+ title: 'Investigative Journalist Who Exposed the My Lai Massacre',
+ role: 'Investigative Journalist, Pulitzer Prize-Winning Reporter',
+ riskLevel: 'low',
+ description: 'Seymour Myron Hersh is one of the most important and influential investigative journalists in American history. In November 1969, working as a freelance reporter for the small Dispatch News Service, Hersh broke the story of the My Lai massacre after receiving a tip from former soldier Ronald Ridenhour and tracking down Lieutenant William Calley at Fort Benning, Georgia. Unable to place the story with mainstream media outlets, Hersh distributed it through Dispatch News Service, and the story was picked up by over 30 newspapers. His reporting exposed the March 16, 1968 massacre of 347-504 Vietnamese civilians by American soldiers of Charlie Company, revealing one of the worst war crimes committed by U.S. forces in the Vietnam War. For this work, Hersh won the 1970 Pulitzer Prize for International Reporting. The My Lai exposure was only the beginning of Hersh\'s career as America\'s foremost investigative reporter. In 1974, he exposed the CIA\'s massive domestic spying program (Operation CHAOS) in a front-page New York Times article that led to the Church Committee investigations. In 2004, Hersh broke the Abu Ghraib prisoner abuse scandal for The New Yorker, revealing systematic torture and abuse of Iraqi detainees by U.S. military personnel. Throughout his career spanning more than five decades, Hersh has consistently investigated the most powerful institutions in American government and military, often facing intense opposition, legal threats, and government pressure. His work has been credited with fundamentally changing American journalism and establishing the modern standard for accountability reporting on government misconduct.',
+ birthDate: 'April 8, 1937',
+ birthPlace: 'Chicago, Illinois',
+ education: ['University of Chicago (History, 1958)'],
  affiliations: [
- { name: 'Media', role: 'Journalist', type: 'corporation' },
- { name: 'United States Military', role: 'Service Member', type: 'agency' },
+ { name: 'Dispatch News Service', relationship: 'Reporter who distributed the My Lai massacre story through this small wire service', href: '/investigations/my-lai-massacre' },
+ { name: 'The New York Times', relationship: 'Washington correspondent who broke the CIA domestic spying story in 1974', href: '/entities/corporations/new-york-times' },
+ { name: 'The New Yorker', relationship: 'Staff writer who broke the Abu Ghraib prisoner abuse scandal in 2004', href: '/entities/corporations/the-new-yorker' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Vietnam War Crimes', slug: 'vietnam-war-crimes', severity: 'high' },
+ {
+ title: 'Breaking the My Lai Massacre Story',
+ description: 'In November 1969, Hersh tracked down William Calley at Fort Benning after receiving a tip about a lieutenant being charged with murdering civilians. Hersh interviewed Calley and other soldiers, piecing together the full horror of the March 16, 1968 massacre. When major media outlets declined the story, he distributed it through the small Dispatch News Service.',
+ date: 'November 12, 1969',
+ impact: 'The My Lai exposure fundamentally changed American public opinion about the Vietnam War and established the modern template for investigative war crimes reporting.',
+ sources: ['https://www.pulitzer.org/winners/seymour-m-hersh'],
+ },
+ {
+ title: 'Pulitzer Prize for International Reporting',
+ description: 'Hersh won the 1970 Pulitzer Prize for International Reporting for his My Lai coverage. He followed up the initial story with a series of articles and two books, "My Lai 4" (1970) and "Cover-Up" (1972), that exposed the full extent of the massacre and the military\'s systematic concealment.',
+ date: '1970',
+ impact: 'The Pulitzer recognition validated Hersh\'s freelance reporting against the institutional media\'s initial reluctance to cover the story.',
+ sources: ['https://www.pulitzer.org/winners/seymour-m-hersh'],
+ },
+ {
+ title: 'Exposing CIA Domestic Spying Operations',
+ description: 'On December 22, 1974, Hersh published a front-page New York Times article exposing a massive illegal domestic espionage operation by the CIA, codenamed Operation CHAOS. The program had spied on hundreds of thousands of American citizens, including anti-war activists, civil rights leaders, and journalists, in direct violation of the CIA\'s charter.',
+ date: 'December 22, 1974',
+ impact: 'Hersh\'s CIA expose led directly to the Church Committee hearings in the Senate, resulting in sweeping intelligence reforms and the creation of the Foreign Intelligence Surveillance Court.',
+ sources: ['https://www.nytimes.com/1974/12/22/archives/huge-cia-operation-reported-in-us-against-antiwar-forces.html'],
+ },
+ {
+ title: 'Abu Ghraib Prisoner Abuse Expose',
+ description: 'In April 2004, Hersh published a series of articles in The New Yorker revealing the systematic torture and abuse of Iraqi prisoners at the Abu Ghraib prison by U.S. military personnel. His reporting, accompanied by the release of graphic photographs, exposed a pattern of prisoner abuse authorized at the highest levels of the Bush administration.',
+ date: 'April 2004',
+ impact: 'The Abu Ghraib revelations caused a worldwide scandal, severely damaged America\'s international reputation, and became the most significant prisoner abuse scandal since Vietnam.',
+ sources: ['https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib'],
+ },
+ {
+ title: 'Government Retaliation and Pressure',
+ description: 'Throughout his career, Hersh faced persistent government pressure, legal threats, and attempts at retaliation for his reporting. After the My Lai story, the military and Nixon administration attempted to discredit him. Following the CIA story, intelligence officials tried to undermine his credibility. After Abu Ghraib, the Pentagon launched an aggressive campaign against his reporting.',
+ date: '1969-present',
+ impact: 'The persistent government pressure on Hersh demonstrated both the power and the danger of investigative journalism that exposes state secrets and government misconduct.',
+ sources: ['https://www.pulitzer.org/winners/seymour-m-hersh'],
+ },
+ {
+ title: 'Creating the Modern Accountability Journalism Template',
+ description: 'Hersh\'s methodology of cultivating deep sources within government and military institutions, combined with relentless documentary verification, established the modern template for investigative accountability journalism. His approach influenced generations of reporters including Bob Woodward, Dana Priest, and James Risen.',
+ date: '1969-present',
+ impact: 'Hersh\'s investigative methods became the gold standard for exposing government misconduct and established the principle that no institution is too powerful to investigate.',
+ sources: ['https://www.pulitzer.org/winners/seymour-m-hersh'],
+ },
+ {
+ title: 'Controversial Later Reporting',
+ description: 'In his later career, some of Hersh\'s reporting became controversial, including claims about the killing of Osama bin Laden and assertions about chemical weapons use in Syria. Critics argued that some claims relied on anonymous sources that could not be independently verified, while supporters maintained that Hersh continued to challenge official narratives.',
+ date: '2013-2023',
+ impact: 'The debates over Hersh\'s later work raised fundamental questions about source verification, editorial oversight, and the role of iconoclastic journalism in the modern media landscape.',
+ sources: ['https://www.newyorker.com/news/news-desk/what-went-wrong-with-seymour-hershs-bin-laden-story'],
+ },
  ],
  timeline: [
- { date: '1969', event: 'documented in this investigative archive for their role as Investigative journalist who broke the My Lai massacre story in November 1969, over a year after it occurred' },
+ { date: 'April 8, 1937', event: 'Born in Chicago, Illinois to immigrant parents' },
+ { date: '1958', event: 'Graduated from the University of Chicago with a degree in History' },
+ { date: '1960s', event: 'Worked as Pentagon correspondent for the Associated Press' },
+ { date: 'November 12, 1969', event: 'Published first My Lai massacre story through Dispatch News Service, exposing the killing of Vietnamese civilians by U.S. soldiers' },
+ { date: '1970', event: 'Won Pulitzer Prize for International Reporting for My Lai coverage' },
+ { date: '1970', event: 'Published "My Lai 4: A Report on the Massacre and Its Aftermath"' },
+ { date: '1972', event: 'Published "Cover-Up," documenting the military\'s systematic concealment of the massacre' },
+ { date: 'December 22, 1974', event: 'Published front-page New York Times expose of CIA\'s domestic spying operation (Operation CHAOS)' },
+ { date: '1975', event: 'CIA expose led to Church Committee investigations and sweeping intelligence reforms' },
+ { date: 'April 2004', event: 'Broke Abu Ghraib prisoner abuse scandal in The New Yorker' },
+ { date: '2004', event: 'Won George Polk Award for his Abu Ghraib reporting' },
+ { date: '2018', event: 'Published memoir "Reporter: A Memoir" reflecting on five decades of investigative journalism' },
  ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Seymour Hersh', url: 'https://en.wikipedia.org/wiki/Seymour_Hersh', date: '' },
+ keyPositions: [
+ 'Washington Correspondent, The New York Times',
+ 'Staff Writer, The New Yorker',
+ 'Freelance Reporter, Dispatch News Service',
  ],
- aliases: [],
  knownAssociates: [
- { name: 'William Calley', relationship: 'Journalist who broke My Lai massacre story', href: '/entities/individuals/william-calley' },
- { name: 'Hugh Thompson Jr', relationship: 'Helicopter pilot hero of Hersh\'s My Lai reporting', href: '/entities/individuals/hugh-thompson-jr' },
- { name: 'Daniel Ellsberg', relationship: 'Fellow figure in exposing government deception', href: '/entities/individuals/daniel-ellsberg' },
+ { name: 'Ronald Ridenhour', relationship: 'Former soldier who tipped Hersh off about the My Lai massacre charges', href: '/entities/individuals/ronald-ridenhour' },
+ { name: 'William Calley', relationship: 'Lieutenant charged with My Lai murders whom Hersh tracked down and interviewed', href: '/entities/individuals/william-calley' },
+ { name: 'Hugh Thompson Jr.', relationship: 'Helicopter pilot hero who corroborated the massacre story', href: '/entities/individuals/hugh-thompson-jr' },
+ { name: 'Ernest Medina', relationship: 'Charlie Company commander whose role Hersh documented in his investigation', href: '/entities/individuals/ernest-medina' },
+ { name: 'Daniel Ellsberg', relationship: 'Pentagon Papers whistleblower and fellow government accountability advocate', href: '/entities/individuals/daniel-ellsberg' },
+ ],
+ charges: [],
+ status: 'active',
+ sources: [
+ 'Pulitzer Prize - Seymour M. Hersh (1970)',
+ 'Seymour Hersh - My Lai 4: A Report on the Massacre and Its Aftermath (1970)',
+ 'Seymour Hersh - Cover-Up (1972)',
+ 'Seymour Hersh - Reporter: A Memoir (2018)',
+ 'The New Yorker - Torture at Abu Ghraib (May 2004)',
+ 'The New York Times - CIA Domestic Spying (December 1974)',
  ],
  },
+
 
  'sheldon-whitehouse': {
  name: 'Sheldon Whitehouse',
