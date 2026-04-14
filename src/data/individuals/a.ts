@@ -1752,6 +1752,43 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
+ 'arthur-galston': {
+ name: 'Arthur Galston',
+ title: 'Plant Biologist and Bioethicist',
+ role: 'Scientist whose research was weaponized into Agent Orange',
+ riskLevel: 'low',
+ description: 'Arthur Galston was an American plant biologist whose doctoral research on growth regulators at the University of Illinois inadvertently led to the development of Agent Orange. His 1943 discovery that the chemical 2,4,5-T could be used as a defoliant was later weaponized by the U.S. military without his consent. Galston spent decades campaigning against the military use of herbicides and became a leading voice in the movement to establish ethical guidelines for scientific research.',
+ birthDate: '1920-04-21',
+ birthPlace: 'New York City, New York',
+ deathDate: '2008-06-15',
+ education: ['Cornell University (BS)', 'University of Illinois (PhD, Plant Biology)'],
+ affiliations: [
+ { name: 'Yale University', role: 'Professor of Biology (1955-1990)', type: 'organization' },
+ { name: 'American Society of Plant Biologists', role: 'Member and advocate', type: 'organization' },
+ ],
+ controversies: [
+ 'UNWITTING CONTRIBUTION: Galston\'s doctoral research showed that 2,4,5-T at high concentrations caused plants to drop their leaves. The U.S. military took this finding and developed it into the defoliant Agent Orange without Galston\'s involvement or consent.',
+ 'ANTI-HERBICIDE ACTIVISM: Upon learning that his research had been weaponized, Galston became one of the most vocal scientific critics of Operation Ranch Hand. He testified before Congress and petitioned President Nixon to halt herbicide spraying in Vietnam.',
+ 'ETHICAL ADVOCACY: Galston helped establish the field of bioethics, arguing that scientists have a moral responsibility for the applications of their discoveries. He proposed the principle now known as the "Galston Rule" that scientists must consider the potential misuse of their research.',
+ 'DIPLOMATIC EFFORTS: Galston traveled to Vietnam multiple times to study the environmental effects of Agent Orange and advocated for remediation and victim compensation.',
+ ],
+ relatedInvestigations: [
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1943', event: 'Doctoral research at University of Illinois discovers defoliant properties of 2,4,5-T' },
+ { date: '1961', event: 'U.S. military begins Operation Ranch Hand, spraying Agent Orange in Vietnam' },
+ { date: '1966', event: 'Begins public campaign against military use of herbicides' },
+ { date: '1970', event: 'Testified before Senate subcommittee on herbicide use in Vietnam' },
+ { date: '1971', event: 'U.S. military halts use of Agent Orange in Vietnam' },
+ { date: '2008-06-15', event: 'Died at age 88 in Hamden, Connecticut' },
+ ],
+ sources: [
+ 'New York Times Obituary: Arthur Galston, Agent Orange Researcher (2008)',
+ 'Yale Bulletin: Arthur Galston Memorial (2008)',
+ 'Science Magazine: The Scientist Who Fought Agent Orange (2008)',
+ ],
+ },
  'augusto-pinochet': {
  name: 'Augusto JosÃƒÂ© RamÃƒÂ³n Pinochet Ugarte',
  title: 'Former Chilean Dictator',

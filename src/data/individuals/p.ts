@@ -2,6 +2,43 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
+ 'paul-reutershan': {
+ name: 'Paul Reutershan',
+ title: 'Vietnam Veteran and Agent Orange Activist',
+ role: 'Veteran who founded the first Agent Orange lawsuit movement',
+ riskLevel: 'low',
+ description: 'Paul Reutershan was a Vietnam War veteran and helicopter crew chief who became the first prominent advocate to connect Agent Orange exposure to veterans\' illnesses. After being diagnosed with abdominal cancer at age 28, Reutershan publicly declared on the Today show in 1978 that "I died in Vietnam, but I didn\'t even know it." He founded Agent Orange Victims International and initiated the first class-action lawsuit against the chemical manufacturers before dying of cancer in December 1978.',
+ birthDate: '1950',
+ deathDate: '1978-12-14',
+ deathCause: 'Abdominal cancer linked to Agent Orange exposure',
+ affiliations: [
+ { name: 'U.S. Army', role: 'Helicopter Crew Chief, Vietnam (1966-1969)', type: 'agency' },
+ { name: 'Agent Orange Victims International', role: 'Founder', type: 'organization' },
+ ],
+ controversies: [
+ 'FIRST PUBLIC ADVOCATE: Reutershan was among the first Vietnam veterans to publicly link his cancer diagnosis to Agent Orange exposure during his military service. His 1978 Today show appearance brought national attention to the issue.',
+ 'LAWSUIT PIONEER: Reutershan initiated the first class-action lawsuit against Dow Chemical and other Agent Orange manufacturers. After his death, the case was continued by attorney Victor Yannacone, eventually resulting in a $180 million settlement in 1984.',
+ 'VA DENIAL: The Veterans Administration initially denied any connection between Agent Orange and veterans\' health problems, leaving Reutershan and other sick veterans without medical care or disability benefits.',
+ 'LEGACY: Reutershan\'s activism laid the groundwork for decades of advocacy that eventually led to the Agent Orange Act of 1991 and subsequent VA recognition of numerous diseases linked to herbicide exposure.',
+ ],
+ relatedInvestigations: [
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1966', event: 'Deployed to Vietnam as helicopter crew chief; exposed to Agent Orange during missions' },
+ { date: '1969', event: 'Returned from Vietnam' },
+ { date: '1978-06', event: 'Diagnosed with abdominal cancer at age 28' },
+ { date: '1978', event: 'Appeared on Today show declaring "I died in Vietnam, but I didn\'t even know it"' },
+ { date: '1978', event: 'Founded Agent Orange Victims International' },
+ { date: '1978', event: 'Filed class-action lawsuit against Agent Orange manufacturers' },
+ { date: '1978-12-14', event: 'Died of cancer at age 28; lawsuit continued by attorney Victor Yannacone' },
+ ],
+ sources: [
+ 'Wilcox, Fred: Waiting for an Army to Die - The Tragedy of Agent Orange (1983)',
+ 'New York Times: Vietnam Vet Dies After Agent Orange Crusade (1978)',
+ 'PBS: Agent Orange History Timeline (2011)',
+ ],
+ },
  'prince-andrew': {
  name: 'Prince Andrew Albert Christian Edward',
  title: 'Duke of York, Epstein Associate',

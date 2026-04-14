@@ -1,7 +1,45 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
+ 'benon-sevan': {
+ name: 'Benon Sevan',
+ title: 'Former Executive Director, UN Oil-for-Food Programme',
+ role: 'UN official accused of corruption in Iraq sanctions program',
+ riskLevel: 'high',
+ description: 'Benon Sevan was a Cypriot-born United Nations official who served as Executive Director of the Iraq Oil-for-Food Programme from 1997 to 2004. Established under Security Council Resolution 986, the program was intended to allow Iraq to sell oil on the world market in exchange for food, medicine, and other humanitarian necessities for Iraqi citizens. An independent investigation led by Paul Volcker found that Sevan had received approximately $160,000 in kickbacks from Iraqi oil allocations and recommended criminal prosecution.',
+ birthDate: '1937',
+ birthPlace: 'Nicosia, Cyprus',
+ affiliations: [
+ { name: 'United Nations', role: 'Executive Director, Oil-for-Food Programme (1997-2004)', type: 'organization' },
+ ],
+ controversies: [
+ 'OIL ALLOCATIONS: The Volcker Committee investigation found that Sevan solicited and received oil allocations from Iraq worth millions of barrels, using a front company called Africa Middle East Petroleum Company (AMEP) headed by his friend Fakhry Abdelnour.',
+ 'KICKBACK PAYMENTS: Sevan allegedly received approximately $160,000 in payments traced to AMEP, which profited from Iraqi oil allocations. He claimed the payments were from his aunt, though investigators found his aunt was a retired Cyprus government employee on a modest pension.',
+ 'FLED JURISDICTION: After being indicted in 2005 by a U.S. federal grand jury on charges of bribery and conspiracy, Sevan fled to Cyprus, which has no extradition treaty with the United States. He has remained outside U.S. jurisdiction since.',
+ 'PROGRAMME CORRUPTION: Under Sevan\'s leadership, the Oil-for-Food Programme became riddled with corruption. The Volcker report found that 2,253 companies from 66 countries paid illegal surcharges and kickbacks totaling $1.8 billion to Saddam Hussein\'s regime.',
+ 'SUSPICIOUS DEATH: Fakhry Abdelnour, the key intermediary and head of AMEP, fell to his death from a balcony in New York in 2005 shortly before he was to testify before investigators.',
+ ],
+ relatedInvestigations: [
+ { title: 'Iraq Sanctions', slug: 'iraq-sanctions', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1997', event: 'Appointed Executive Director of UN Oil-for-Food Programme' },
+ { date: '2003', event: 'Iraq War begins; Oil-for-Food Programme suspended' },
+ { date: '2004-04', event: 'UN Secretary-General Kofi Annan appoints Paul Volcker to investigate programme' },
+ { date: '2005-01', event: 'Volcker Committee interim report names Sevan as having received oil allocations' },
+ { date: '2005-08', event: 'Suspended from UN pending investigation; stripped of diplomatic immunity' },
+ { date: '2005-09', event: 'Volcker Committee final report recommends criminal prosecution' },
+ { date: '2005-10', event: 'Flees to Cyprus following U.S. federal indictment' },
+ { date: '2007-01', event: 'Indicted by U.S. federal grand jury on bribery and conspiracy charges' },
+ ],
+ sources: [
+ 'Independent Inquiry Committee (Volcker Report): Oil-for-Food Programme (2005)',
+ 'U.S. Department of Justice: Benon Sevan Indictment (2007)',
+ 'New York Times: UN Official Flees to Cyprus (2005)',
+ 'BBC: Oil-for-Food Scandal Explained (2005)',
+ ],
+ },
  'bill-gates': {
  name: 'Bill Gates',
  title: 'Co-founder of Microsoft; Billionaire Philanthropist',
@@ -134,6 +172,105 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'brad-wurfel': {
+ name: 'Brad Wurfel',
+ title: 'Former Spokesperson, Michigan DEQ',
+ role: 'State communications official who dismissed Flint water concerns',
+ riskLevel: 'medium',
+ description: 'Brad Wurfel served as the communications director for the Michigan Department of Environmental Quality during the Flint water crisis. He publicly dismissed concerns about Flint\'s water safety and disparaged researchers and residents who raised alarms. Wurfel resigned in December 2015 as the crisis became undeniable and was later charged with misconduct in office.',
+ affiliations: [
+ { name: 'Michigan DEQ', role: 'Communications Director', type: 'agency' },
+ ],
+ controversies: [
+ 'DISMISSED CONCERNS: Wurfel publicly mocked and dismissed concerns from Flint residents about their water quality. He told reporters that residents who were worried were being "irresponsible" and that the water met all safety standards.',
+ 'ATTACKED RESEARCHERS: Wurfel disparaged Virginia Tech professor Marc Edwards, who was documenting lead contamination, telling media that Edwards was "just raising his profile" and that his research was not credible.',
+ 'DISMISSED PEDIATRICIAN: When Dr. Mona Hanna-Attisha presented data showing elevated blood lead levels in Flint children, Wurfel\'s office initially dismissed her findings as causing "near-hysteria."',
+ 'CRIMINAL CHARGES: In 2021, Wurfel was charged with two counts of misconduct in office and one count of extortion for allegedly threatening to withhold state resources from a county health officer who raised concerns.',
+ 'RESIGNATION: Wurfel resigned in December 2015 after Governor Snyder acknowledged the crisis and appointed an advisory task force.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2015-02', event: 'Began publicly dismissing Flint water quality concerns' },
+ { date: '2015-07', event: 'Attacked credibility of Marc Edwards and EPA researcher Miguel Del Toral' },
+ { date: '2015-09', event: 'Dismissed Dr. Mona Hanna-Attisha\'s findings on elevated blood lead levels' },
+ { date: '2015-12', event: 'Resigned from MDEQ amid growing crisis' },
+ { date: '2021-01-14', event: 'Charged with misconduct in office and extortion' },
+ ],
+ sources: [
+ 'Detroit Free Press: MDEQ Spokesman Dismissed Water Concerns (2016)',
+ 'Michigan Radio: Wurfel Charged in New Flint Investigation (2021)',
+ 'Bridge Michigan: How State Officials Dismissed Flint Warnings (2016)',
+ ],
+ },
+ 'bill-schuette': {
+ name: 'Bill Schuette',
+ title: 'Former Attorney General of Michigan',
+ role: 'Michigan AG who led initial Flint water prosecution',
+ riskLevel: 'medium',
+ description: 'Bill Schuette served as Attorney General of Michigan from 2011 to 2019 and appointed a special counsel to investigate the Flint water crisis. His prosecution team filed charges against 15 current and former state and city officials. However, his successor, Dana Nessel, dismissed all pending cases in 2019, criticizing the original investigation\'s methods, before launching a new probe that used grand jury proceedings.',
+ affiliations: [
+ { name: 'State of Michigan', role: 'Attorney General (2011-2019)', type: 'agency' },
+ { name: 'Republican Party', role: 'Member and gubernatorial candidate', type: 'organization' },
+ ],
+ controversies: [
+ 'FLINT PROSECUTION: Schuette appointed Todd Flood as special counsel to investigate the water crisis. While his office charged 15 officials, critics questioned whether the prosecution went high enough in targeting decision-makers.',
+ 'POLITICAL MOTIVATIONS: Critics alleged that Schuette, who ran for governor in 2018, used the Flint prosecution for political advantage while not aggressively pursuing Governor Snyder.',
+ 'PROSECUTION METHODS CRITICIZED: Successor AG Dana Nessel dismissed all pending cases, claiming Schuette\'s team used "fundamentally flawed" investigative methods, including conducting one-person grand jury proceedings improperly.',
+ 'DELAYED JUSTICE: The original prosecution took years and produced few convictions before being scrapped, leaving Flint residents feeling that justice had been denied.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2016-01', event: 'Appointed special counsel Todd Flood to investigate Flint water crisis' },
+ { date: '2016-04', event: 'First criminal charges filed against MDEQ employees' },
+ { date: '2017-06', event: 'Manslaughter charges filed against Nick Lyon and other officials' },
+ { date: '2018-11', event: 'Lost Republican gubernatorial primary; succeeded by AG Dana Nessel' },
+ { date: '2019-06', event: 'Successor AG Nessel drops all pending cases, criticizes investigation methods' },
+ ],
+ sources: [
+ 'Detroit Free Press: Schuette Launches Flint Water Investigation (2016)',
+ 'Michigan Radio: AG Nessel Drops Flint Cases, Starts Fresh (2019)',
+ 'Bridge Michigan: Schuette\'s Flint Prosecution Record (2018)',
+ ],
+ },
+ 'brandon-bryant': {
+ name: 'Brandon Bryant',
+ title: 'Former U.S. Air Force Drone Sensor Operator',
+ role: 'Drone warfare whistleblower',
+ riskLevel: 'low',
+ description: 'Brandon Bryant is a former U.S. Air Force sensor operator who served on Predator drone missions from 2006 to 2011. He was one of the first drone operators to publicly speak out about the psychological toll of remote warfare and the civilian casualties caused by the U.S. drone program. Bryant has stated that his unit was credited with 1,626 kills during his service. He was awarded the certificate that tallied his kills upon discharge and has since become a prominent critic of the drone assassination program.',
+ birthDate: '1986',
+ birthPlace: 'Missoula, Montana',
+ affiliations: [
+ { name: 'U.S. Air Force', role: 'Sensor Operator, Predator Drone Program (2006-2011)', type: 'agency' },
+ ],
+ controversies: [
+ 'WHISTLEBLOWER TESTIMONY: Bryant was among the first drone operators to publicly describe the psychological devastation of remote killing. He described watching people die through infrared cameras and the dehumanizing language used to describe targets.',
+ 'CIVILIAN CASUALTIES: Bryant has testified about witnessing strikes that killed civilians, including a strike in Afghanistan where he watched a child walk into the blast zone moments before impact. He has described the moral injury of these events.',
+ 'KILL COUNT CERTIFICATE: Upon leaving the Air Force, Bryant received a certificate stating his squadron was credited with 1,626 kills. He has shown this document publicly to illustrate the industrialized nature of drone warfare.',
+ 'PTSD AND RETALIATION: Bryant has spoken about severe PTSD resulting from his service. He has alleged that the Air Force and government agencies surveilled and harassed him after he began speaking publicly.',
+ 'LEGAL CHALLENGES: Bryant participated in efforts to challenge the legality of the drone program, providing testimony about targeting procedures and the minimal oversight of strike decisions.',
+ ],
+ relatedInvestigations: [
+ { title: 'Drone Assassinations', slug: 'drone-assassinations', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2006', event: 'Began service as sensor operator on Predator drone missions at Nellis Air Force Base' },
+ { date: '2007', event: 'First kill; described watching a man bleed out through infrared camera' },
+ { date: '2011', event: 'Left Air Force; received kill count certificate for 1,626 kills' },
+ { date: '2013-10', event: 'Gave first major public interview to GQ magazine about drone warfare' },
+ { date: '2015', event: 'Testified before German Parliament about Ramstein Air Base role in drone program' },
+ { date: '2015-11', event: 'Signed open letter with three other former drone operators urging President Obama to end drone strikes' },
+ ],
+ sources: [
+ 'GQ: Confessions of a Drone Warrior (2013)',
+ 'Der Spiegel: Dreams in Infrared - The Woes of an American Drone Operator (2012)',
+ 'NBC News: Former Drone Operators Urge End to Killings (2015)',
+ ],
+ },
  'brian-kolfage': {
  name: 'Brian Kolfage',
  title: 'Convicted Felon',

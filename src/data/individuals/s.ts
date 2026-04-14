@@ -32,6 +32,37 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'stephen-busch': {
+ name: 'Stephen Busch',
+ title: 'Former District Supervisor, MDEQ Office of Drinking Water',
+ role: 'State environmental official who oversaw Flint water compliance',
+ riskLevel: 'high',
+ description: 'Stephen Busch was the District 11 Supervisor for the Michigan Department of Environmental Quality\'s Office of Drinking Water and Municipal Assistance. He was directly responsible for overseeing Flint\'s water treatment and compliance. Busch was charged with criminal misconduct for allegedly misleading EPA officials and the public about Flint\'s water safety, including falsely claiming that corrosion control treatment was being applied.',
+ affiliations: [
+ { name: 'Michigan DEQ', role: 'District 11 Supervisor, Office of Drinking Water', type: 'agency' },
+ ],
+ controversies: [
+ 'FALSE CORROSION CLAIMS: Busch told EPA officials that Flint was applying "optimized corrosion control" to its water when it was not. This claim delayed federal intervention and allowed lead exposure to continue.',
+ 'CRIMINAL CHARGES: In April 2016, Busch was charged with misconduct in office, conspiracy, and willful neglect of duty. In 2021, he was charged again with perjury and misconduct in office under a new investigation.',
+ 'EPA DECEPTION: Email evidence showed Busch actively misled EPA regulators about Flint\'s water treatment practices, contributing to the delay in recognizing the severity of the crisis.',
+ 'RESISTANCE TO TESTING: Busch and MDEQ colleagues reportedly used sampling methods that minimized lead detection, including pre-flushing and using smaller bottles.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2014-04', event: 'Oversaw Flint water treatment compliance when city switched to Flint River' },
+ { date: '2015', event: 'Told EPA that Flint was using optimized corrosion control when it was not' },
+ { date: '2016-04-20', event: 'Charged with misconduct, conspiracy, and neglect of duty' },
+ { date: '2019-06', event: 'Charges dropped by incoming Solicitor General' },
+ { date: '2021-01-14', event: 'Recharged with perjury and misconduct in office under new grand jury investigation' },
+ ],
+ sources: [
+ 'Michigan AG: Criminal Charges in Flint Water Crisis (2016)',
+ 'Detroit Free Press: MDEQ Officials Charged in Flint Crisis (2016)',
+ 'Bridge Michigan: New Flint Water Charges Filed (2021)',
+ ],
+ },
  'stormy-daniels': {
  name: 'Stephanie Gregory Clifford',
  title: 'Adult Film Actress, Director',

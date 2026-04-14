@@ -110,6 +110,98 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'miguel-del-toral': {
+ name: 'Miguel Del Toral',
+ title: 'Regulations Manager, EPA Region 5',
+ role: 'EPA whistleblower who first documented Flint lead contamination',
+ riskLevel: 'low',
+ description: 'Miguel Del Toral was a regulations manager at EPA Region 5 who authored the first official report documenting dangerous lead levels in Flint, Michigan\'s drinking water. His June 2015 memo was initially suppressed by his own agency before being leaked to the press, helping to expose the crisis. Del Toral is widely regarded as a hero of the Flint water crisis for his persistence in raising alarms about the contaminated water.',
+ affiliations: [
+ { name: 'U.S. Environmental Protection Agency', role: 'Regulations Manager, Region 5', type: 'agency' },
+ ],
+ controversies: [
+ 'SUPPRESSED MEMO: In June 2015, Del Toral wrote an internal memo documenting elevated lead levels in Flint homes and the failure to apply corrosion control treatment. EPA management initially suppressed the memo and his regional administrator described it as merely a "preliminary draft."',
+ 'RETALIATION CONCERNS: After his memo was leaked to the ACLU in July 2015, Del Toral faced internal pushback from EPA leadership. His superiors attempted to minimize his findings and restrict his communications.',
+ 'VINDICATION: Del Toral\'s findings were ultimately confirmed by Virginia Tech researchers led by Marc Edwards and by pediatrician Dr. Mona Hanna-Attisha. His early warnings could have prevented months of continued exposure if acted upon.',
+ 'EPA FAILURES: Del Toral\'s case exposed the EPA\'s institutional failures in protecting public health, including the agency\'s deference to Michigan state officials who were dismissing contamination evidence.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2015-02', event: 'Began investigating Flint water quality concerns after resident complaints about lead' },
+ { date: '2015-04', event: 'Found extreme lead levels at the home of Flint resident LeeAnne Walters' },
+ { date: '2015-06-24', event: 'Authored internal EPA memo documenting lead contamination and failure to apply corrosion control' },
+ { date: '2015-07', event: 'Memo leaked to ACLU reporter Curt Guyette; EPA management attempts to suppress findings' },
+ { date: '2015-09', event: 'Findings confirmed by Virginia Tech researchers and Dr. Mona Hanna-Attisha' },
+ { date: '2016', event: 'Recognized as key figure in exposing the crisis' },
+ ],
+ sources: [
+ 'ACLU: Del Toral Memo on Flint Water (2015)',
+ 'Michigan Radio: The EPA Employee Who First Flagged Flint (2016)',
+ 'The Atlantic: The Whistleblower Who Exposed Flint\'s Water Crisis (2016)',
+ ],
+ },
+ 'mike-glasgow': {
+ name: 'Mike Glasgow',
+ title: 'Former Water Quality Supervisor, City of Flint',
+ role: 'Flint water plant supervisor during the crisis',
+ riskLevel: 'medium',
+ description: 'Michael Glasgow served as the Laboratory and Water Quality Supervisor at the Flint Water Treatment Plant during the water crisis. He raised internal concerns about the plant\'s readiness to treat Flint River water but was overruled by state officials. Glasgow later testified that he did not believe the plant was ready for the switch and that MDEQ officials assured him corrosion control was not needed.',
+ affiliations: [
+ { name: 'City of Flint', role: 'Laboratory and Water Quality Supervisor, Water Treatment Plant', type: 'agency' },
+ ],
+ controversies: [
+ 'INTERNAL WARNINGS: Glasgow emailed supervisors before the switch expressing concerns that the Flint plant was not ready to treat river water. He was overruled by state emergency managers and MDEQ officials.',
+ 'MANIPULATED TESTING: Glasgow was charged with tampering with evidence for allegedly altering lead and copper testing reports to make water appear safer than it was. He pleaded no contest.',
+ 'COOPERATION WITH INVESTIGATORS: Glasgow cooperated with investigators and testified about the failures that led to the crisis, providing crucial insider information about how state officials pressured city employees.',
+ 'UNDERSTAFFED PLANT: Glasgow testified that the Flint water plant was severely understaffed and lacked the technical expertise to properly treat the corrosive Flint River water.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2014-04', event: 'Expressed concerns about Flint plant readiness before river water switch' },
+ { date: '2014-05', event: 'Overruled by state officials; Flint begins using Flint River water' },
+ { date: '2016-04-20', event: 'Charged with willful neglect of duty and tampering with evidence' },
+ { date: '2016-11', event: 'Pleaded no contest to amended misdemeanor charge; cooperated with investigation' },
+ ],
+ sources: [
+ 'CNN: Flint Water Plant Supervisor Warned About Switch (2016)',
+ 'Michigan Radio: Glasgow Testimony in Flint Water Cases (2017)',
+ 'Detroit Free Press: Flint Officials Charged in Water Crisis (2016)',
+ ],
+ },
+ 'mike-prysby': {
+ name: 'Mike Prysby',
+ title: 'Former District Engineer, MDEQ',
+ role: 'State environmental engineer who approved Flint River use without corrosion control',
+ riskLevel: 'high',
+ description: 'Michael Prysby was a District Engineer with the Michigan Department of Environmental Quality who approved the use of the Flint River as a drinking water source without requiring corrosion control treatment. His failure to require this standard treatment allowed lead from aging pipes to leach into the drinking water of approximately 100,000 Flint residents.',
+ affiliations: [
+ { name: 'Michigan DEQ', role: 'District Engineer, Office of Drinking Water', type: 'agency' },
+ ],
+ controversies: [
+ 'APPROVED WITHOUT CORROSION CONTROL: Prysby approved permits for Flint to use the Flint River without requiring corrosion control treatment, a standard practice required by federal law for water systems with lead service lines.',
+ 'CRIMINAL CHARGES: In April 2016, Prysby was charged with misconduct in office, conspiracy, willful neglect of duty, and violations of the Michigan Safe Drinking Water Act.',
+ 'INADEQUATE TREATMENT: Prysby was responsible for ensuring the Flint water treatment plant met standards but failed to require proper treatment before the switch from Detroit water.',
+ 'PLEA DEAL: Under the original prosecution, Prysby entered a plea agreement, but charges were later dropped in 2019 when a new prosecutor took over. He was recharged in 2021.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2014-04', event: 'Approved Flint\'s use of Flint River water without corrosion control' },
+ { date: '2016-04-20', event: 'Charged with multiple criminal counts related to water crisis' },
+ { date: '2019-06', event: 'Charges dropped by incoming Solicitor General' },
+ { date: '2021-01-14', event: 'Recharged under new grand jury proceedings' },
+ ],
+ sources: [
+ 'Michigan AG: Flint Water Investigation Charges (2016)',
+ 'MLive: MDEQ Engineer Charged in Flint Crisis (2016)',
+ 'Detroit Free Press: New Flint Water Charges Announced (2021)',
+ ],
+ },
  'mohammed-bin-salman': {
  name: 'Mohammed bin Salman bin Abdulaziz Al Saud',
  title: 'Crown Prince of Saudi Arabia',

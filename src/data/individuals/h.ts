@@ -90,6 +90,34 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'howard-croft': {
+ name: 'Howard Croft',
+ title: 'Former Director, Flint Department of Public Works',
+ role: 'City public works director during water switch',
+ riskLevel: 'medium',
+ description: 'Howard Croft served as Director of the Flint Department of Public Works during the switch from Detroit water to the Flint River. He oversaw the city\'s water infrastructure and was charged with failing to ensure the water treatment plant was properly prepared for the transition. Croft was accused of neglecting his duty to protect public health by not ensuring adequate water treatment was in place.',
+ affiliations: [
+ { name: 'City of Flint', role: 'Director, Department of Public Works', type: 'agency' },
+ ],
+ controversies: [
+ 'FAILED PREPARATION: Croft was responsible for the city\'s water infrastructure but allegedly failed to ensure the treatment plant was properly upgraded before switching to Flint River water.',
+ 'CRIMINAL CHARGES: In July 2016, Croft was charged with misconduct in office and willful neglect of duty for his role in the water crisis.',
+ 'INFRASTRUCTURE NEGLECT: Under Croft\'s oversight, the aging Flint water infrastructure continued to deteriorate. The lead service lines throughout the city posed a known risk that was not adequately addressed.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2014-04', event: 'Oversaw Flint\'s water infrastructure during switch to Flint River' },
+ { date: '2016-07-29', event: 'Charged with misconduct in office and willful neglect of duty' },
+ { date: '2019-06', event: 'Charges dropped by incoming Solicitor General' },
+ ],
+ sources: [
+ 'Michigan AG: Additional Flint Water Crisis Charges (2016)',
+ 'MLive: Flint Public Works Director Charged (2016)',
+ 'Detroit Free Press: Flint Water Criminal Cases Overview (2018)',
+ ],
+ },
  'hr-mcmaster': {
  name: 'Hr Mcmaster',
  title: 'Profile Under Review',

@@ -2,6 +2,84 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
+ 'j-alexander-kueng': {
+ name: 'J. Alexander Kueng',
+ title: 'Former Minneapolis Police Officer',
+ role: 'Officer involved in George Floyd\'s murder',
+ riskLevel: 'high',
+ description: 'J. Alexander Kueng was a rookie Minneapolis police officer involved in the murder of George Floyd on May 25, 2020. Kueng held Floyd\'s back while Officer Derek Chauvin knelt on Floyd\'s neck for over nine minutes. Despite being on only his third shift as a fully licensed officer, Kueng failed to intervene as Floyd pleaded that he could not breathe. He was later convicted on both state and federal charges for his role in Floyd\'s death.',
+ affiliations: [
+ { name: 'Minneapolis Police Department', role: 'Police Officer (2019-2020)', type: 'agency' },
+ ],
+ controversies: [
+ 'FAILURE TO INTERVENE: Kueng held George Floyd\'s back during the restraint that killed him. Despite Floyd\'s repeated pleas and bystanders urging officers to stop, Kueng did not attempt to intervene or reposition Floyd.',
+ 'ROOKIE OFFICER: Kueng was on only his third shift as a fully licensed officer when Floyd was killed. Chauvin was his training officer. Kueng had checked Floyd\'s pulse at one point and said he could not find one, yet did not call for medical aid or ask Chauvin to stop.',
+ 'STATE CONVICTION: In October 2022, Kueng pleaded guilty to a state charge of aiding and abetting second-degree manslaughter in Floyd\'s death. He was sentenced to 3.5 years in prison.',
+ 'FEDERAL CONVICTION: In February 2022, Kueng was convicted by a federal jury of violating Floyd\'s civil rights by failing to intervene. He was sentenced to 3 years in federal prison, to be served concurrently with his state sentence.',
+ 'SYSTEMIC FAILURE: Kueng\'s case highlighted the failure of police training culture, where rookie officers felt unable to challenge senior officers even when witnessing lethal force being applied to a restrained, unarmed person.',
+ ],
+ relatedInvestigations: [
+ { title: 'George Floyd', slug: 'george-floyd', severity: 'critical' },
+ { title: 'George Floyd Murder', slug: 'george-floyd-murder', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019', event: 'Hired by Minneapolis Police Department' },
+ { date: '2020-05-25', event: 'Present during murder of George Floyd; held Floyd\'s back while Chauvin knelt on his neck' },
+ { date: '2020-06-03', event: 'Charged with aiding and abetting second-degree murder' },
+ { date: '2022-02-24', event: 'Convicted of federal civil rights violation' },
+ { date: '2022-07-27', event: 'Sentenced to 3 years in federal prison' },
+ { date: '2022-10-24', event: 'Pleaded guilty to state charge of aiding and abetting second-degree manslaughter' },
+ { date: '2022-12-09', event: 'Sentenced to 3.5 years in state prison' },
+ ],
+ sources: [
+ 'Department of Justice Press Release: Federal Civil Rights Charges (2021)',
+ 'Star Tribune: Minneapolis Officers Charged in George Floyd Death (2020)',
+ 'AP News: Kueng Pleads Guilty in State Case (2022)',
+ ],
+ },
+ 'jamie-dimon': {
+ name: 'Jamie Dimon',
+ title: 'Chairman and CEO, JPMorgan Chase',
+ role: 'Head of largest U.S. bank during and after 2008 financial crisis',
+ riskLevel: 'high',
+ description: 'Jamie Dimon has served as Chairman and CEO of JPMorgan Chase since 2005, leading the largest bank in the United States through the 2008 financial crisis and beyond. While Dimon was credited with navigating JPMorgan through the crisis better than competitors, his bank subsequently paid over $35 billion in fines for various regulatory violations including mortgage fraud, market manipulation, and the London Whale trading scandal.',
+ birthDate: '1956-03-13',
+ birthPlace: 'New York City, New York',
+ education: ['Tufts University (BA, Psychology and Economics)', 'Harvard Business School (MBA)'],
+ affiliations: [
+ { name: 'JPMorgan Chase', role: 'Chairman and CEO (2005-present)', type: 'corporation' },
+ { name: 'Federal Reserve Bank of New York', role: 'Board of Directors (2007-2012)', type: 'agency' },
+ { name: 'Business Roundtable', role: 'Chairman', type: 'organization' },
+ ],
+ controversies: [
+ 'LONDON WHALE: In 2012, JPMorgan lost over $6 billion through risky derivatives trades made by Bruno Iksil. Dimon initially dismissed the losses as a "tempest in a teapot." The bank paid $920 million in fines to regulators.',
+ 'MORTGAGE FRAUD SETTLEMENT: In 2013, JPMorgan agreed to a $13 billion settlement with the DOJ for misleading investors about the quality of mortgage-backed securities sold before the 2008 crisis, the largest settlement in U.S. history at the time.',
+ 'FED BOARD CONFLICT: Dimon served on the board of the Federal Reserve Bank of New York while JPMorgan received emergency lending from the Fed during the 2008 crisis, raising serious conflict-of-interest concerns.',
+ 'BERNIE MADOFF: JPMorgan served as Madoff\'s primary banker for decades. The bank paid $2.6 billion in penalties for failing to report suspicious activity despite internal warnings about Madoff\'s operation.',
+ 'BEAR STEARNS ACQUISITION: JPMorgan acquired Bear Stearns in 2008 at a fire-sale price with $29 billion in Fed guarantees, profiting from the crisis while Bear Stearns shareholders and employees were devastated.',
+ 'EPSTEIN BANKING: JPMorgan maintained a banking relationship with Jeffrey Epstein for years after his 2008 conviction. The bank paid $290 million to settle a lawsuit from Epstein victims in 2023.',
+ 'FOREX MANIPULATION: In 2015, JPMorgan pleaded guilty to conspiring to manipulate foreign exchange markets. The bank paid $550 million in fines.',
+ ],
+ relatedInvestigations: [
+ { title: '2008 Financial Crisis', slug: '2008-financial-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2005-12', event: 'Became CEO of JPMorgan Chase' },
+ { date: '2008-03', event: 'JPMorgan acquires Bear Stearns with $29B in Fed guarantees at $2/share' },
+ { date: '2008-09', event: 'Navigated JPMorgan through financial crisis; acquired Washington Mutual' },
+ { date: '2012-05', event: 'London Whale trading losses revealed; initially dismissed as minor' },
+ { date: '2013-11', event: 'JPMorgan pays record $13 billion DOJ settlement for mortgage fraud' },
+ { date: '2014-01', event: 'JPMorgan pays $2.6 billion in Madoff-related penalties' },
+ { date: '2015-05', event: 'JPMorgan pleads guilty to forex manipulation conspiracy' },
+ { date: '2023-06', event: 'JPMorgan pays $290 million to settle Epstein victim lawsuit' },
+ ],
+ sources: [
+ 'Department of Justice: JPMorgan $13 Billion Settlement (2013)',
+ 'SEC: London Whale Enforcement Actions (2013)',
+ 'New York Times: JPMorgan and the Madoff Settlement (2014)',
+ 'Reuters: JPMorgan Epstein Settlement (2023)',
+ ],
+ },
  'jeffrey-epstein': {
  name: 'Jeffrey Edward Epstein',
  title: 'Convicted Sex Offender & Trafficker',
@@ -205,6 +283,37 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'jerry-ambrose': {
+ name: 'Jerry Ambrose',
+ title: 'Former Emergency Manager, City of Flint',
+ role: 'Emergency manager who continued use of contaminated water',
+ riskLevel: 'high',
+ description: 'Jerry Ambrose served as Emergency Manager of Flint, Michigan from January to April 2015 during a critical period of the water crisis. He continued the use of the Flint River as the city\'s water source despite growing evidence of contamination. Ambrose signed documents allowing the continued use of the contaminated water and rejected proposals to reconnect to the Detroit water system, citing cost concerns.',
+ affiliations: [
+ { name: 'City of Flint', role: 'Emergency Manager (2015)', type: 'agency' },
+ { name: 'State of Michigan', role: 'Appointed Emergency Manager', type: 'agency' },
+ ],
+ controversies: [
+ 'REJECTED RECONNECTION: In March 2015, Ambrose rejected a proposal from the Flint City Council to reconnect to the Detroit water system, calling it "incomprehensible" and citing costs of approximately $12 million per year, despite increasing evidence of contamination.',
+ 'CONTINUED CONTAMINATION: During his tenure, residents continued to receive lead-contaminated water. Ambrose maintained that the water was safe despite visible discoloration and resident complaints about rashes, hair loss, and illness.',
+ 'EMERGENCY MANAGER AUTHORITY: Under Michigan\'s emergency manager law, Ambrose had virtually unchecked authority over city operations, stripping elected officials of decision-making power in a majority-Black city.',
+ 'CRIMINAL CHARGES: Ambrose was charged in 2021 with four counts of misconduct in office for his role in the water crisis. He was accused of failing to protect public health.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2015-01-13', event: 'Appointed Emergency Manager of Flint' },
+ { date: '2015-03', event: 'Rejected Flint City Council vote to reconnect to Detroit water' },
+ { date: '2015-04-29', event: 'Replaced as Emergency Manager; city returned to local control' },
+ { date: '2021-01-14', event: 'Charged with four counts of misconduct in office' },
+ ],
+ sources: [
+ 'Michigan Attorney General: Flint Water Crisis Investigation (2021)',
+ 'Bridge Michigan: Flint Emergency Manager Rejected Reconnection (2016)',
+ 'Detroit News: Ambrose Charged in Flint Water Crisis (2021)',
+ ],
+ },
  'julian-assange': {
  name: 'Julian Paul Assange',
  title: 'WikiLeaks Founder',

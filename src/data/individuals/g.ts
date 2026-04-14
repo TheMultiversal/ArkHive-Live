@@ -174,6 +174,40 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'gladys-kessler': {
+ name: 'Gladys Kessler',
+ title: 'Senior U.S. District Judge',
+ role: 'Federal judge who ruled tobacco companies engaged in racketeering',
+ riskLevel: 'low',
+ description: 'Gladys Kessler is a senior U.S. District Judge for the District of Columbia who presided over the landmark 2006 RICO case against the tobacco industry, United States v. Philip Morris. In her 1,683-page ruling, Judge Kessler found that major tobacco companies had engaged in a decades-long conspiracy to deceive the public about the health risks of smoking and the addictive nature of nicotine, violating the Racketeer Influenced and Corrupt Organizations Act.',
+ birthDate: '1938-07-25',
+ education: ['Brooklyn College (BA)', 'Harvard Law School (JD)'],
+ affiliations: [
+ { name: 'U.S. District Court for the District of Columbia', role: 'District Judge (1994-present, Senior status 2007)', type: 'agency' },
+ ],
+ controversies: [
+ 'LANDMARK RICO RULING: In August 2006, Judge Kessler issued a 1,683-page opinion in United States v. Philip Morris, finding that major tobacco companies had violated RICO by conspiring to deceive the public for decades about the dangers of smoking.',
+ 'CORRECTIVE STATEMENTS: Kessler ordered tobacco companies to publish corrective statements about the health effects of smoking, the addictiveness of nicotine, and their history of deception. Implementation was delayed for years through appeals.',
+ 'NO MONETARY PENALTY: Despite finding the companies guilty of racketeering, Kessler did not impose the $280-billion disgorgement sought by the government, ruling that RICO did not allow backward-looking remedies, only forward-looking corrective measures. This was seen as a limitation of the ruling.',
+ 'INDUSTRY DECEPTION DOCUMENTED: Kessler\'s ruling provided the most comprehensive judicial documentation of the tobacco industry\'s conspiracy, finding that companies knew smoking caused cancer as early as the 1950s and systematically lied about it.',
+ ],
+ relatedInvestigations: [
+ { title: 'Big Tobacco Lies', slug: 'big-tobacco-lies', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1994-06-20', event: 'Nominated to the U.S. District Court by President Clinton' },
+ { date: '1999', event: 'DOJ files RICO lawsuit against tobacco companies; case assigned to Kessler' },
+ { date: '2004-09', event: 'Trial begins in United States v. Philip Morris' },
+ { date: '2006-08-17', event: 'Issues 1,683-page ruling finding tobacco companies guilty of RICO violations' },
+ { date: '2009', event: 'D.C. Circuit upholds core RICO findings on appeal' },
+ { date: '2017-11', event: 'Tobacco companies finally begin publishing court-ordered corrective statements' },
+ ],
+ sources: [
+ 'United States v. Philip Morris, 449 F. Supp. 2d 1 (D.D.C. 2006)',
+ 'Washington Post: Judge Rules Tobacco Companies Guilty of Racketeering (2006)',
+ 'Campaign for Tobacco-Free Kids: DOJ RICO Case Background (2012)',
+ ],
+ },
  'gordon-sondland': {
  name: 'Gordon David Sondland',
  title: 'Former US Ambassador to EU',

@@ -2,6 +2,41 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
+ 'thomas-lane': {
+ name: 'Thomas Lane',
+ title: 'Former Minneapolis Police Officer',
+ role: 'Officer involved in George Floyd\'s murder',
+ riskLevel: 'high',
+ description: 'Thomas Lane was a rookie Minneapolis police officer involved in the murder of George Floyd on May 25, 2020. Lane held Floyd\'s legs during the restraint while Officer Derek Chauvin knelt on Floyd\'s neck. Lane had suggested rolling Floyd onto his side twice but did not physically intervene. He was convicted on federal civil rights charges and pleaded guilty to state aiding and abetting manslaughter.',
+ affiliations: [
+ { name: 'Minneapolis Police Department', role: 'Police Officer (2019-2020)', type: 'agency' },
+ ],
+ controversies: [
+ 'FAILURE TO INTERVENE: Lane held George Floyd\'s legs during the restraint. He twice asked Chauvin if they should roll Floyd on his side, but when Chauvin refused, Lane did not take further action to protect Floyd\'s life.',
+ 'ROOKIE TRAINING: Lane was on only his fourth day as a fully licensed officer. His deference to training officer Chauvin highlighted systemic failures in police culture where junior officers feel unable to challenge lethal force decisions.',
+ 'STATE PLEA: In May 2022, Lane pleaded guilty to a state charge of aiding and abetting second-degree manslaughter. He was sentenced to 3 years in prison.',
+ 'FEDERAL CONVICTION: In February 2022, Lane was found guilty by a federal jury of depriving Floyd of his civil rights. He was sentenced to 2.5 years in federal prison.',
+ 'PRIOR CAREER: Before becoming a police officer, Lane worked at a juvenile detention center and held a degree in criminology. He joined the MPD as a cadet before being hired as an officer.',
+ ],
+ relatedInvestigations: [
+ { title: 'George Floyd', slug: 'george-floyd', severity: 'critical' },
+ { title: 'George Floyd Murder', slug: 'george-floyd-murder', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2019', event: 'Hired by Minneapolis Police Department as officer' },
+ { date: '2020-05-25', event: 'Present during murder of George Floyd; held Floyd\'s legs during restraint' },
+ { date: '2020-06-03', event: 'Charged with aiding and abetting second-degree murder' },
+ { date: '2022-02-24', event: 'Found guilty of federal civil rights violation by jury' },
+ { date: '2022-05-18', event: 'Pleaded guilty to state charge of aiding and abetting manslaughter' },
+ { date: '2022-07-21', event: 'Sentenced to 2.5 years in federal prison' },
+ { date: '2022-09-21', event: 'Sentenced to 3 years in state prison, concurrent with federal sentence' },
+ ],
+ sources: [
+ 'Department of Justice: Federal Civil Rights Trial (2022)',
+ 'Star Tribune: Thomas Lane Guilty Plea in George Floyd Case (2022)',
+ 'New York Times: Three Officers Convicted in Floyd Civil Rights Case (2022)',
+ ],
+ },
  'tom-barrack': {
  name: 'Thomas Joseph Barrack Jr.',
  title: 'Billionaire Real Estate Investor',
@@ -81,6 +116,41 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'tran-to-nga': {
+ name: 'Tran To Nga',
+ title: 'Vietnamese-French Activist and Agent Orange Victim',
+ role: 'Vietnamese journalist who sued Agent Orange manufacturers in French courts',
+ riskLevel: 'low',
+ description: 'Tran To Nga is a Vietnamese-born French citizen who filed a landmark lawsuit in French courts against 14 multinational companies that manufactured Agent Orange. Exposed to the herbicide as a young journalist covering the Vietnam War in 1966, she has suffered from multiple Agent Orange-related illnesses including diabetes, a rare allergy condition, and heart disease. Her case became a landmark international legal challenge to hold chemical companies accountable for Agent Orange\'s effects on civilian populations.',
+ birthDate: '1942',
+ birthPlace: 'Vietnam',
+ affiliations: [
+ { name: 'Vietnam-Dioxin Collective', role: 'Plaintiff and Advocate', type: 'organization' },
+ ],
+ controversies: [
+ 'FRENCH LAWSUIT: In 2014, Tran filed suit against 14 companies including Dow Chemical and Monsanto in the Evry court near Paris. This was the first time Agent Orange manufacturers faced legal action outside the United States.',
+ 'INITIAL DISMISSAL: In May 2021, the French court dismissed her case on jurisdictional grounds, ruling that the companies had acted on U.S. government orders and were protected by sovereign immunity. Tran immediately appealed.',
+ 'APPEAL: Tran continued her legal fight through the French appeals system. Her case drew international attention and support from environmental and human rights organizations worldwide.',
+ 'PERSONAL TOLL: Tran has suffered from Type 2 diabetes, tuberculosis, a rare allergy condition called alpha-thalassemia, and heart disease. Her daughter was born with a heart defect and died at age 17. Her granddaughter was born with a blood disorder.',
+ 'INTERNATIONAL SYMBOL: At over 80 years old, Tran became an international symbol of the ongoing fight for Agent Orange victims\' recognition and compensation, particularly for the estimated 3 million Vietnamese affected.',
+ ],
+ relatedInvestigations: [
+ { title: 'Agent Orange', slug: 'agent-orange', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1966', event: 'Exposed to Agent Orange while working as a journalist covering the Ho Chi Minh trail in Vietnam' },
+ { date: '1975', event: 'Remained in Vietnam after the war, later moved to France' },
+ { date: '2014-05', event: 'Filed landmark lawsuit against 14 chemical companies in French court' },
+ { date: '2021-05-10', event: 'French court dismisses case on jurisdictional grounds' },
+ { date: '2021-05', event: 'Filed immediate appeal; case continues through French courts' },
+ { date: '2024-08-22', event: 'French appeals court upholds dismissal; announces further appeal to Court of Cassation' },
+ ],
+ sources: [
+ 'The Guardian: Vietnamese Woman Takes on Agent Orange Companies in French Court (2014)',
+ 'Reuters: French Court Dismisses Agent Orange Lawsuit (2021)',
+ 'Al Jazeera: Agent Orange Survivor Takes on US Chemical Firms (2021)',
+ ],
+ },
  'tucker-carlson': {
  name: 'Tucker Carlson',
  title: 'Profile Under Review',

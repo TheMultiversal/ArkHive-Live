@@ -2,6 +2,74 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
+ 'daniel-jones': {
+ name: 'Daniel Jones',
+ title: 'Former Senior Investigator, Senate Intelligence Committee',
+ role: 'Lead author of the CIA Torture Report',
+ riskLevel: 'low',
+ description: 'Daniel Jones is a former senior investigator for the Senate Select Committee on Intelligence who served as the primary author of the Committee Study of the Central Intelligence Agency\'s Detention and Interrogation Program, commonly known as the "CIA Torture Report." Over six years, Jones led a team that reviewed over 6.3 million pages of CIA documents to produce a 6,700-page report documenting the CIA\'s use of "enhanced interrogation techniques" and finding that torture was ineffective and that the CIA misled Congress and the White House about its program.',
+ education: ['Georgetown University', 'Johns Hopkins University (MA)'],
+ affiliations: [
+ { name: 'Senate Select Committee on Intelligence', role: 'Senior Investigator (2007-2015)', type: 'agency' },
+ { name: 'Advance Democracy Inc.', role: 'Founder and President', type: 'organization' },
+ ],
+ controversies: [
+ 'CIA TORTURE REPORT: Jones led the investigation that produced the 6,700-page study documenting CIA torture, finding that "enhanced interrogation techniques" did not produce actionable intelligence and that the CIA systematically misrepresented the program to Congress, the White House, and the public.',
+ 'CIA OBSTRUCTION: During the investigation, the CIA was found to have searched Senate computers being used by Jones and his team. CIA Director John Brennan initially denied the searches, then apologized when the Inspector General confirmed them.',
+ 'CLASSIFICATION BATTLE: The full 6,700-page report remains classified. Only a 525-page executive summary was released in December 2014. Jones fought for broader declassification against CIA and executive branch resistance.',
+ 'CRIMINAL REFERRAL: After the CIA admitted to searching Senate computers, Jones and his colleagues referred the matter to the DOJ for criminal investigation. No charges were filed against any CIA employees.',
+ 'POST-SENATE WORK: After leaving the Senate, Jones founded Advance Democracy Inc., a nonpartisan organization that conducts public interest research and investigations.',
+ ],
+ relatedInvestigations: [
+ { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2007', event: 'Joined Senate Intelligence Committee staff' },
+ { date: '2009-03', event: 'Committee votes to investigate CIA detention and interrogation program' },
+ { date: '2009-2014', event: 'Led review of 6.3 million pages of CIA documents over six years' },
+ { date: '2012-12', event: 'Committee approves 6,700-page report on a 9-6 vote' },
+ { date: '2014-03', event: 'CIA admits to searching Senate Intelligence Committee computers' },
+ { date: '2014-07', event: 'CIA Inspector General confirms unauthorized CIA access to Senate computers' },
+ { date: '2014-12-09', event: '525-page executive summary of Torture Report released publicly' },
+ { date: '2019', event: 'Jones portrayed by Adam Driver in the film The Report' },
+ ],
+ sources: [
+ 'Senate Intelligence Committee: SSCI Study of the CIA\'s Detention and Interrogation Program (2014)',
+ 'New York Times: The Senate Investigator Taking on the CIA (2014)',
+ 'Washington Post: CIA Searched Senate Staff Computers (2014)',
+ ],
+ },
+ 'dennis-muchmore': {
+ name: 'Dennis Muchmore',
+ title: 'Former Chief of Staff to Michigan Governor Rick Snyder',
+ role: 'Governor\'s chief of staff during Flint water crisis',
+ riskLevel: 'high',
+ description: 'Dennis Muchmore served as Chief of Staff to Michigan Governor Rick Snyder during the Flint water crisis. Internal emails revealed that Muchmore was aware of Flint water problems months before the public was informed and played a central role in managing the governor\'s response. He left the administration in 2015 and his wife was a spokesperson for the Flint water utility\'s parent company, creating an apparent conflict of interest.',
+ affiliations: [
+ { name: 'Office of the Governor of Michigan', role: 'Chief of Staff to Gov. Rick Snyder', type: 'agency' },
+ ],
+ controversies: [
+ 'EARLY KNOWLEDGE: Emails released through FOIA requests showed Muchmore was aware of Flint water problems as early as February 2015. He emailed colleagues about the water quality issues months before the state publicly acknowledged the crisis.',
+ 'CONFLICT OF INTEREST: Muchmore\'s wife worked as a spokesperson for the Flint water utility\'s parent company, creating an apparent conflict of interest that was not publicly disclosed during the crisis.',
+ 'MANAGED RESPONSE: Muchmore helped coordinate the governor\'s office response to the crisis, which critics described as prioritizing public relations over public health.',
+ 'DELAYED ACTION: Despite internal awareness, the governor\'s office did not declare a state of emergency until January 2016, approximately 18 months after the water switch and nearly a year after Muchmore\'s emails showed awareness of problems.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2015-02', event: 'Emails show awareness of Flint water quality problems' },
+ { date: '2015-07', event: 'Internal emails discuss growing Flint water concerns' },
+ { date: '2015-09', event: 'Emailed about Flint being a "political" problem before health problem' },
+ { date: '2015-12', event: 'Left Snyder administration' },
+ { date: '2016-01', event: 'Governor Snyder declares state of emergency in Flint, weeks after Muchmore\'s departure' },
+ ],
+ sources: [
+ 'CNN: Snyder Aide Knew About Water Concerns Months Before Public (2016)',
+ 'Detroit Free Press: Muchmore Emails Reveal Early Flint Water Knowledge (2016)',
+ 'MLive: Conflict of Interest Questions in Flint Crisis (2016)',
+ ],
+ },
  'donald-trump': {
  name: 'Donald John Trump',
  title: '45th & 47th President of the United States',

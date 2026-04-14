@@ -285,6 +285,38 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'nick-lyon': {
+ name: 'Nick Lyon',
+ title: 'Former Director, Michigan Department of Health and Human Services',
+ role: 'State health director during Flint water crisis',
+ riskLevel: 'high',
+ description: 'Nick Lyon served as Director of the Michigan Department of Health and Human Services during the Flint water crisis. He was charged with involuntary manslaughter for allegedly failing to alert the public about an outbreak of Legionnaires\' disease connected to the contaminated water supply. Lyon was accused of knowing about the outbreak for nearly a year before notifying the public, during which time 12 people died.',
+ affiliations: [
+ { name: 'Michigan DHHS', role: 'Director (2015-2019)', type: 'agency' },
+ { name: 'State of Michigan', role: 'Cabinet Member under Gov. Rick Snyder', type: 'agency' },
+ ],
+ controversies: [
+ 'LEGIONNAIRES\' DISEASE COVER-UP: Lyon was informed in early 2015 about a spike in Legionnaires\' disease cases in Genesee County linked to Flint\'s contaminated water but allegedly did not notify county health officials or the public for approximately a year, during which 12 people died.',
+ 'INVOLUNTARY MANSLAUGHTER CHARGES: In June 2017, Lyon was charged with two counts of involuntary manslaughter related to Legionnaires\' disease deaths. He was the highest-ranking official charged in the Flint water crisis.',
+ 'MISCONDUCT IN OFFICE: Lyon was also charged with misconduct in office for allegedly obstructing university researchers who were trying to study the Legionnaires\' outbreak.',
+ 'CHARGES DROPPED AND REFILED: The original charges were dropped in 2019 when a new prosecutor took over. In January 2021, a new grand jury investigation led to nine defendants being charged, though Lyon was not among those initially re-charged.',
+ ],
+ relatedInvestigations: [
+ { title: 'Flint Water Crisis', slug: 'flint-water-crisis', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2015-04', event: 'Became Director of Michigan DHHS' },
+ { date: '2015-01', event: 'Legionnaires\' disease outbreak begins in Genesee County' },
+ { date: '2016-01', event: 'Public finally informed of Legionnaires\' disease connection to Flint water' },
+ { date: '2017-06-14', event: 'Charged with involuntary manslaughter and misconduct in office' },
+ { date: '2019-06-13', event: 'All charges dropped by new Solicitor General' },
+ ],
+ sources: [
+ 'Detroit Free Press: Nick Lyon Charged in Flint Water Crisis (2017)',
+ 'Michigan Attorney General Press Release: Flint Water Crisis Charges (2017)',
+ 'NBC News: Flint Water Crisis Charges Dropped Against All Defendants (2019)',
+ ],
+ },
  'norm-dicks': {
  name: 'Norm Dicks',
  title: 'Profile Under Review',
