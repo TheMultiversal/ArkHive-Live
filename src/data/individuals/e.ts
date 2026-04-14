@@ -21,12 +21,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Eric Trump Foundation self-dealing allegations',
  ],
  charges: [
- { statute: 'New York Exec. Law Ã‚Â§ 63(12)', description: 'Civil Fraud Liability; Found liable for persistent fraud in NY AG lawsuit; banned from serving as NY company officer for 2 years', category: 'State Civil' },
- { statute: 'New York Penal Law Ã‚Â§ 175.10', description: 'Potential Falsifying Business Records; Signed financial statements containing material misrepresentations', category: 'Potential State' },
- { statute: '18 U.S.C. Ã‚Â§ 1014', description: 'Potential Bank Fraud; Submitted inflated financial statements to obtain loans', category: 'Potential Federal' },
- { statute: 'New York Not-for-Profit Corp. Law Ã‚Â§ 720', description: 'Foundation Self-Dealing; Eric Trump Foundation investigation found charity funds diverted to Trump Organization', category: 'State Nonprofit' },
- { statute: 'IRS 26 U.S.C. Ã‚Â§ 4941', description: 'Potential Self-Dealing Violations; Eric Trump Foundation ceased operations amid self-dealing investigation', category: 'Potential Tax' },
- { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Potential False Statements; Testimony regarding knowledge of financial statement preparation', category: 'Potential Federal' },
+ { statute: 'New York Exec. Law Ãƒâ€šÃ‚Â§ 63(12)', description: 'Civil Fraud Liability; Found liable for persistent fraud in NY AG lawsuit; banned from serving as NY company officer for 2 years', category: 'State Civil' },
+ { statute: 'New York Penal Law Ãƒâ€šÃ‚Â§ 175.10', description: 'Potential Falsifying Business Records; Signed financial statements containing material misrepresentations', category: 'Potential State' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1014', description: 'Potential Bank Fraud; Submitted inflated financial statements to obtain loans', category: 'Potential Federal' },
+ { statute: 'New York Not-for-Profit Corp. Law Ãƒâ€šÃ‚Â§ 720', description: 'Foundation Self-Dealing; Eric Trump Foundation investigation found charity funds diverted to Trump Organization', category: 'State Nonprofit' },
+ { statute: 'IRS 26 U.S.C. Ãƒâ€šÃ‚Â§ 4941', description: 'Potential Self-Dealing Violations; Eric Trump Foundation ceased operations amid self-dealing investigation', category: 'Potential Tax' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1001', description: 'Potential False Statements; Testimony regarding knowledge of financial statement preparation', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'Trump Organization Financial Fraud', slug: 'trump-org-fraud', severity: 'critical' },
@@ -407,9 +407,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Celebrated violence at Capitol',
  ],
  charges: [
- { statute: '18 U.S.C. Ã‚Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. Ã‚Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. Ã‚Â§ 1512(c)(2)', description: 'Obstruction of official proceeding (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1512(c)(2)', description: 'Obstruction of official proceeding (convicted)', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -459,12 +459,12 @@ const profiles: Record<string, IndividualProfile> = {
  'FOREIGN INFLUENCE: Regular communication with Putin, Xi Jinping while holding US security clearances',
  ],
  charges: [
- { statute: '15 U.S.C. Ã‚Â§ 78j(b) (Securities Exchange Act)', description: 'Securities Fraud;"Funding secured"tweet, market manipulation', category: 'Federal (SEC settled)' },
- { statute: '29 U.S.C. Ã‚Â§ 158(a)(1) (NLRA)', description: 'Unfair Labor Practices; Union busting, worker retaliation', category: 'Federal (NLRB findings)' },
- { statute: '52 U.S.C. Ã‚Â§ 10307(c)', description: 'Potential Vote Buying; $1M voter payments in swing states', category: 'Potential Federal' },
- { statute: '18 U.S.C. Ã‚Â§ 208', description: 'Conflict of Interest; DOGE role while receiving government contracts', category: 'Potential Federal' },
- { statute: '22 U.S.C. Ã‚Â§ 611 (FARA)', description: 'Potential FARA Violation; Foreign government communications while in government role', category: 'Potential Federal' },
- { statute: '47 U.S.C. Ã‚Â§ 230', description: 'Platform Liability; Knowingly amplifying harmful content after removing protections', category: 'Civil' },
+ { statute: '15 U.S.C. Ãƒâ€šÃ‚Â§ 78j(b) (Securities Exchange Act)', description: 'Securities Fraud;"Funding secured"tweet, market manipulation', category: 'Federal (SEC settled)' },
+ { statute: '29 U.S.C. Ãƒâ€šÃ‚Â§ 158(a)(1) (NLRA)', description: 'Unfair Labor Practices; Union busting, worker retaliation', category: 'Federal (NLRB findings)' },
+ { statute: '52 U.S.C. Ãƒâ€šÃ‚Â§ 10307(c)', description: 'Potential Vote Buying; $1M voter payments in swing states', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 208', description: 'Conflict of Interest; DOGE role while receiving government contracts', category: 'Potential Federal' },
+ { statute: '22 U.S.C. Ãƒâ€šÃ‚Â§ 611 (FARA)', description: 'Potential FARA Violation; Foreign government communications while in government role', category: 'Potential Federal' },
+ { statute: '47 U.S.C. Ãƒâ€šÃ‚Â§ 230', description: 'Platform Liability; Knowingly amplifying harmful content after removing protections', category: 'Civil' },
  ],
  relatedInvestigations: [
  { title: 'Psychological Manipulation Campaigns', slug: 'psychological-manipulation', severity: 'critical' },
@@ -992,8 +992,8 @@ const profiles: Record<string, IndividualProfile> = {
  'SENATE GALLERY: Entered gallery',
  ],
  charges: [
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1512(c)(2)', description: 'Obstruction of Official Proceeding', category: 'CONVICTED' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1752', description: 'Entering Restricted Building with Weapon', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1512(c)(2)', description: 'Obstruction of Official Proceeding', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1752', description: 'Entering Restricted Building with Weapon', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6th Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1085,8 +1085,8 @@ const profiles: Record<string, IndividualProfile> = {
  'DREW SHOOTING PLANS: Teachers saw, sent home',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws Ã¯Â¿Â½ 750.316', description: 'First-degree murder (4 counts)', category: 'CONVICTED, LIFE WITHOUT PAROLE' },
- { statute: 'Michigan Comp. Laws Ã¯Â¿Â½ 750.83', description: 'Terrorism causing death', category: 'CONVICTED' },
+ { statute: 'Michigan Comp. Laws ÃƒÂ¯Ã‚Â¿Ã‚Â½ 750.316', description: 'First-degree murder (4 counts)', category: 'CONVICTED, LIFE WITHOUT PAROLE' },
+ { statute: 'Michigan Comp. Laws ÃƒÂ¯Ã‚Â¿Ã‚Â½ 750.83', description: 'Terrorism causing death', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -1126,7 +1126,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATH SQUAD SUPPORT: 1980s Central America',
  ],
  charges: [
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1001', description: 'Withholding information from Congress', category: 'CONVICTED, PARDONED' },
+ { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1001', description: 'Withholding information from Congress', category: 'CONVICTED, PARDONED' },
  ],
  relatedInvestigations: [
  { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
@@ -1267,8 +1267,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CHRISTIAN TERRORISM: Motivated by religious extremism',
  ],
  charges: [
- { statute: '18 U.S.C. Ã¯Â¿Â½ 844', description: 'Use of explosives, multiple bombings', category: 'Terrorism' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1111', description: 'Murder', category: 'Homicide' },
+ { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 844', description: 'Use of explosives, multiple bombings', category: 'Terrorism' },
+ { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1111', description: 'Murder', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'Domestic Terrorism', slug: 'domestic-terrorism', severity: 'critical' },
@@ -1310,8 +1310,8 @@ const profiles: Record<string, IndividualProfile> = {
  'VIDEO EVIDENCE: Actions captured on body camera',
  ],
  charges: [
- { statute: '18 U.S.C. Ã¯Â¿Â½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
- { statute: 'Tennessee Code Ã¯Â¿Â½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
+ { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
+ { statute: 'Tennessee Code ÃƒÂ¯Ã‚Â¿Ã‚Â½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'Police Brutality', slug: 'police-brutality-crisis', severity: 'critical' },
@@ -1761,11 +1761,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'efrain-rios-montt': {
- name: 'EfraÃƒÂ­n RÃƒÂ­os Montt',
+ name: 'EfraÃƒÆ’Ã‚Â­n RÃƒÆ’Ã‚Â­os Montt',
  title: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people, a direct consequence of the 1954 coup',
  role: 'Guatemalan dictator (1982-83) who carried out genocide against Maya people, a direct consequence of the 1954 coup',
  riskLevel: 'high',
- description: 'EfraÃƒÂ­n RÃƒÂ­os Montt. Profile pending review.',
+ description: 'EfraÃƒÆ’Ã‚Â­n RÃƒÆ’Ã‚Â­os Montt. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Edwin Gray', type: 'organization' },
@@ -1785,13 +1785,64 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: EfraÃƒÂ­n RÃƒÂ­os Montt', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt', date: '' },
+ { title: 'Wikipedia: EfraÃƒÆ’Ã‚Â­n RÃƒÆ’Ã‚Â­os Montt', url: 'https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt', date: '' },
  ],
  aliases: [],
  knownAssociates: [
  { name: 'Rigoberta Menchu', relationship: 'Nobel laureate who fought for justice for Rios Montt genocide', href: '/entities/individuals/rigoberta-menchu' },
  { name: 'Elliott Abrams', relationship: 'US official who supported Rios Montt\'s regime', href: '/entities/individuals/elliott-abrams' },
  { name: 'Ronald Reagan', relationship: 'Reagan called Rios Montt" a man of great personal integrity"', href: '/entities/individuals/ronald-reagan' },
+ ],
+ },
+
+ 'egil-krogh': {
+ name: 'Egil "Bud" Krogh Jr.',
+ title: 'Head of the White House Plumbers Who Ordered the Ellsberg Psychiatrist Break-In',
+ role: 'Nixon White House aide who co-directed the Special Investigations Unit ("Plumbers") and authorized the burglary of Daniel Ellsberg\'s psychiatrist\'s office, pleading guilty to civil rights violations',
+ riskLevel: 'high' as const,
+ description: 'Egil "Bud" Krogh Jr. (1939-2020) was a Nixon White House aide who served as co-director of the Special Investigations Unit, known as the "Plumbers," which was established in July 1971 ostensibly to prevent national security leaks following the publication of the Pentagon Papers. The Plumbers unit became the direct precursor to the Watergate break-in and one of the most consequential illegal operations in American presidential history.\n\nKrogh, working under domestic policy adviser John Ehrlichman, supervised the Plumbers together with David Young. The unit\'s first major operation was the September 3, 1971, burglary of the office of Dr. Lewis Fielding, the psychiatrist of Pentagon Papers leaker Daniel Ellsberg. Krogh authorized the break-in, which was carried out by G. Gordon Liddy and E. Howard Hunt along with the same team of Cuban exiles who would later be arrested at Watergate: Bernard Barker, Eugenio Martinez, and Felipe De Diego.\n\nThe Ellsberg psychiatrist burglary was one of the first crimes of the Watergate era and established the pattern of illegal covert operations that would culminate in the Watergate break-in. When the burglary was exposed during the Watergate investigation, it led to the dismissal of all charges against Ellsberg in the Pentagon Papers case.\n\nIn November 1973, Krogh pleaded guilty to conspiring to violate the civil rights of Dr. Fielding. He was sentenced to two to six years in prison, with all but six months suspended. He served four and a half months at the Allenwood Federal Prison Camp. After his release, Krogh returned to law practice and spent decades speaking publicly about ethics and the dangers of following illegal orders. He was readmitted to the Washington State Bar in 1980. Krogh died in 2020.',
+ birthDate: 'August 3, 1939',
+ deathDate: 'January 18, 2020',
+ education: ['University of Washington, BA', 'University of Washington School of Law, JD'],
+ affiliations: [
+ { name: 'Nixon White House', role: 'Deputy Assistant to the President for Domestic Affairs; co-director of the Special Investigations Unit ("Plumbers")', type: 'agency' },
+ ],
+ controversies: [
+ 'Co-directed the White House "Plumbers" unit that carried out the burglary of Daniel Ellsberg\'s psychiatrist\'s office on September 3, 1971',
+ 'Authorized the Fielding office break-in, which was carried out by Liddy, Hunt, and the same Cuban exile team later arrested at Watergate',
+ 'The exposure of the psychiatrist burglary led to the dismissal of all charges against Daniel Ellsberg in the Pentagon Papers case',
+ 'The Plumbers unit he supervised became the direct organizational precursor to the Watergate break-in',
+ 'Pleaded guilty to conspiring to violate the civil rights of Dr. Lewis Fielding; served four and a half months in federal prison',
+ 'Later expressed genuine remorse and spent decades speaking publicly about ethics and the dangers of following illegal orders from authority',
+ ],
+ charges: [
+ { charge: 'Conspiracy to violate the civil rights of Dr. Lewis Fielding', status: 'convicted', date: '1973-11', source: 'Pleaded guilty; sentenced to 2-6 years with all but 6 months suspended. Served 4.5 months at Allenwood Federal Prison Camp.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'August 3, 1939', event: 'Born' },
+ { date: '1969', event: 'Joins the Nixon White House under domestic policy adviser John Ehrlichman' },
+ { date: 'July 1971', event: 'Appointed co-director of the Special Investigations Unit ("Plumbers") after the Pentagon Papers leak' },
+ { date: 'September 3, 1971', event: 'Authorizes the burglary of Dr. Lewis Fielding\'s office, Ellsberg\'s psychiatrist; carried out by Liddy, Hunt, and Cuban exiles' },
+ { date: 'June 17, 1972', event: 'The same team that conducted the Fielding burglary is arrested at the Watergate complex' },
+ { date: '1973', event: 'The Fielding burglary is exposed during the expanding Watergate investigation, leading to dismissal of charges against Ellsberg' },
+ { date: 'November 1973', event: 'Pleads guilty to conspiracy to violate civil rights' },
+ { date: '1974', event: 'Serves four and a half months at Allenwood Federal Prison Camp' },
+ { date: '1980', event: 'Readmitted to the Washington State Bar' },
+ { date: 'January 18, 2020', event: 'Dies at age 80' },
+ ],
+ sources: [
+ { title: 'Egil Krogh, Integrity: Good People, Bad Choices, and Life Lessons from the White House (PublicAffairs, 2007)', date: '2007' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'John Ehrlichman', relationship: 'Nixon domestic policy adviser who was Krogh\'s direct superior and authorized Plumbers operations', href: '/entities/individuals/john-ehrlichman' },
+ { name: 'G. Gordon Liddy', relationship: 'Fellow Plumbers member who carried out the Fielding burglary and later led the Watergate break-in', href: '/entities/individuals/g-gordon-liddy' },
+ { name: 'E. Howard Hunt', relationship: 'CIA veteran and Plumbers member who carried out the Fielding burglary with Liddy', href: '/entities/individuals/e-howard-hunt' },
+ { name: 'Richard Nixon', relationship: 'President who authorized the creation of the Plumbers unit', href: '/entities/individuals/richard-nixon' },
  ],
  },
 
@@ -2396,6 +2447,58 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'eugenio-martinez': {
+ name: 'Eugenio Rolando Martinez',
+ title: 'Active CIA Asset and Cuban Exile Arrested in the Watergate Break-In',
+ role: 'Cuban exile and active CIA informant who was one of the five burglars arrested inside the DNC headquarters at the Watergate complex, the only active CIA asset on the break-in team',
+ riskLevel: 'high' as const,
+ description: 'Eugenio Rolando Martinez (1922-2021) was a Cuban exile and active CIA informant who was one of the five men arrested inside the Democratic National Committee headquarters at the Watergate complex on June 17, 1972. Martinez was notable as the only member of the Watergate burglary team who was an active, reporting CIA asset at the time of the break-in, a fact that fueled decades of speculation about the agency\'s possible foreknowledge.\n\nMartinez had fled Cuba after the Castro revolution and became deeply involved in anti-Castro exile activities in Miami. He participated in the Bay of Pigs invasion in 1961 and subsequently made an estimated 300 clandestine boat missions to Cuba for the CIA, earning the agency\'s Medal of Honor equivalent. He remained on the CIA payroll as a $100-per-month informant at the time of the Watergate break-in, reporting to his CIA handler about exile community activities.\n\nMartinez was recruited for the Watergate operation by Bernard Barker, a fellow Cuban exile and Bay of Pigs veteran who had been working with E. Howard Hunt on White House operations. Like Barker, Martinez believed they were participating in a national security operation aimed at uncovering Cuban or other foreign funding of the Democratic Party, not a domestic political espionage mission.\n\nMartinez pleaded guilty to conspiracy, burglary, and wiretapping in January 1973 and was sentenced to one to four years in prison. He served approximately 14 months before being released. Judge Sirica later reduced his sentence. The question of whether the CIA had advance knowledge of the Watergate operation through Martinez\'s handler reports was never definitively resolved. Martinez died in 2021 at age 98.',
+ birthDate: 'July 7, 1922',
+ birthPlace: 'Havana, Cuba',
+ deathDate: 'May 1, 2021',
+ education: ['University of Havana, Law degree'],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'Active informant ($100/month) at the time of Watergate; previously conducted an estimated 300 clandestine missions to Cuba', type: 'agency' },
+ { name: 'Committee to Re-Elect the President', role: 'Unwitting operative; recruited by Bernard Barker and E. Howard Hunt for the DNC break-in', type: 'organization' },
+ ],
+ controversies: [
+ 'One of five burglars arrested inside the DNC headquarters at the Watergate complex on June 17, 1972',
+ 'Was an active, paid CIA informant at the time of the break-in, the only active CIA asset on the burglary team',
+ 'His CIA handler status raised unresolved questions about whether the agency had advance knowledge of the Watergate operation',
+ 'Previously participated in the burglary of Daniel Ellsberg\'s psychiatrist\'s office as part of the White House Plumbers operations',
+ 'Made approximately 300 clandestine boat missions to Cuba for the CIA before the Watergate operation',
+ 'Pleaded guilty and served approximately 14 months in prison',
+ ],
+ charges: [
+ { charge: 'Conspiracy, burglary, and wiretapping', status: 'convicted', date: '1973-01', source: 'Pleaded guilty; sentenced to 1-4 years, served approximately 14 months.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'July 7, 1922', event: 'Born in Havana, Cuba' },
+ { date: '1959-1960', event: 'Flees Cuba after the Castro revolution; becomes involved in anti-Castro exile activities in Miami' },
+ { date: 'April 1961', event: 'Participates in the Bay of Pigs invasion' },
+ { date: '1961-1972', event: 'Conducts approximately 300 clandestine boat missions to Cuba for the CIA' },
+ { date: 'September 1971', event: 'Participates in the burglary of Dr. Lewis Fielding\'s office (Ellsberg\'s psychiatrist) with the Plumbers team' },
+ { date: 'June 17, 1972', event: 'Arrested with four others inside the DNC headquarters at the Watergate complex' },
+ { date: 'January 1973', event: 'Pleads guilty to conspiracy, burglary, and wiretapping' },
+ { date: '1973-1974', event: 'Serves approximately 14 months in federal prison' },
+ { date: 'May 1, 2021', event: 'Dies at age 98' },
+ ],
+ sources: [
+ { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Eugenio Martinez, "Mission Impossible: The Watergate Burglars," Harper\'s Magazine (October 1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'Bernard Barker', relationship: 'Fellow Cuban exile and Bay of Pigs veteran who recruited Martinez for the Watergate break-in', href: '/entities/individuals/bernard-barker' },
+ { name: 'E. Howard Hunt', relationship: 'Former CIA officer who organized the Watergate break-in team through Barker', href: '/entities/individuals/e-howard-hunt' },
+ { name: 'Virgilio Gonzalez', relationship: 'Fellow Cuban exile burglar arrested at Watergate; served as the team\'s locksmith', href: '/entities/individuals/virgilio-gonzalez' },
+ { name: 'Frank Sturgis', relationship: 'Fellow Watergate burglar with anti-Castro and intelligence community connections', href: '/entities/individuals/frank-sturgis' },
+ ],
+ },
+
  'eunice-rivers': {
  name: 'Eunice Verdell Rivers Laurie',
  title: 'Tuskegee Study Nurse Who Maintained 40 Years of Subject Contact and Trust',
@@ -2527,38 +2630,90 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'e-howard-hunt': {
- name: 'E. Howard Hunt',
- title: 'CIA officer and Watergate conspirator who organized the burglary of Daniel Ellsberg\'s psychiatrist to discredit the Pentagon Papers leaker',
- role: 'Intelligence Officer',
- riskLevel: 'high',
- description: 'E. Howard Hunt. Profile pending review.',
- education: [],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'Operations Officer', type: 'agency' },
- ],
- controversies: [
- 'Organized break-in of Pentagon Papers leaker\'s psychiatrist office',
- 'Key Watergate conspirator',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'The Pentagon Papers', slug: 'pentagon-papers', severity: 'critical' },
- ],
- timeline: [
- { date: '1971', event: 'Organized burglary of Daniel Ellsberg\'s psychiatrist\'s office to discredit Pentagon Papers source' },
- ],
- socialMedia: [],
- sources: [
- { title: 'The Pentagon Papers', url: '/investigations/pentagon-papers', date: '' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'G. Gordon Liddy', relationship: 'Watergate operative partner', href: '/entities/individuals/g-gordon-liddy' },
- { name: 'Richard Nixon', relationship: 'White House Plumber who carried out Nixon\'s dirty tricks', href: '/entities/individuals/richard-nixon' },
- { name: 'Allen Dulles', relationship: 'CIA officer under Dulles involved in Bay of Pigs', href: '/entities/individuals/allen-dulles' },
- ],
- },
+   'e-howard-hunt': {
+    name: 'E. Howard Hunt',
+    title: 'Former CIA Officer and Watergate Mastermind',
+    role: 'Watergate Planner, White House Plumber, CIA Covert Operations Veteran',
+    riskLevel: 'critical',
+    description: 'Everette Howard Hunt Jr. was a career CIA covert operations officer who became one of the principal architects of the Watergate break-in and one of the most consequential figures in American political scandal history. Over a 23-year CIA career, Hunt participated in some of the agency\'s most significant Cold War operations, including the 1954 overthrow of Guatemalan President Jacobo Arbenz and the disastrous 1961 Bay of Pigs invasion, where he served as political action officer for the Cuban exile brigade. After retiring from the CIA, Hunt was recruited by Charles Colson to join the White House "Plumbers" unit in 1971, ostensibly to stop national security leaks following the Pentagon Papers disclosure. Operating from a White House office, Hunt organized the September 1971 break-in of Dr. Lewis Fielding\'s office (Daniel Ellsberg\'s psychiatrist) and then masterminded the Watergate operation with G. Gordon Liddy. Hunt recruited the four Cuban-American burglars (Bernard Barker, Eugenio Martinez, Frank Sturgis, and Virgilio Gonzalez) from his Bay of Pigs contacts and directed the operation from a Howard Johnson\'s hotel room across from the Watergate complex. After the burglars\' arrest, Hunt became the linchpin of the cover-up, demanding increasingly large hush money payments from the White House, reportedly receiving over $200,000. He pleaded guilty and was sentenced to 2.5 to 8 years, serving 33 months in federal prison. In his final years, Hunt made a deathbed confession to his son implicating Vice President Lyndon Johnson in the assassination of President John F. Kennedy, a claim that remains highly controversial. A prolific spy novelist who wrote over 80 books, Hunt embodied the dangerous intersection of intelligence operations and domestic political warfare that defined the Nixon era.',
+    birthDate: 'October 9, 1918',
+    deathDate: 'January 23, 2007',
+    birthPlace: 'Hamburg, New York, USA',
+    education: ['B.A., Brown University (1940)'],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Operations Officer (1949-1970)', type: 'agency' },
+      { name: 'White House Special Investigations Unit', role: 'Plumber (1971-1972)', type: 'agency' },
+      { name: 'Committee to Re-elect the President', role: 'Intelligence Coordinator (1972)', type: 'organization' },
+      { name: 'Robert R. Mullen Company', role: 'CIA-linked PR firm cover (1970-1972)', type: 'corporation' },
+      { name: 'Office of Strategic Services (OSS)', role: 'Officer, World War II', type: 'agency' },
+    ],
+    controversies: [
+      'WATERGATE MASTERMIND: Co-planned and directed the break-in at DNC headquarters, recruiting burglars from his CIA Cuban exile contacts and supervising the operation from across the street',
+      'FIELDING BREAK-IN: Organized the September 1971 burglary of Daniel Ellsberg\'s psychiatrist\'s office seeking material to discredit the Pentagon Papers leaker',
+      'HUSH MONEY DEMANDS: Demanded and received over $200,000 in hush money from the White House, threatening to reveal "seamy things" about the administration if not paid',
+      'BAY OF PIGS: Served as CIA political action officer for the failed 1961 invasion, helping select and manage the Cuban exile political leadership for the operation',
+      'GUATEMALA COUP: Participated in the 1954 CIA-orchestrated overthrow of democratically elected Guatemalan President Jacobo Arbenz, an operation that destabilized Central America for decades',
+      'WHITE HOUSE PLUMBERS: Operated as a covert agent from within the White House, conducting illegal break-ins and intelligence operations under presidential authority',
+      'CLEMENCY EXPECTATIONS: Pressed for presidential clemency through intermediaries, leveraging his knowledge of administration secrets as both threat and bargaining chip',
+      'JFK CONFESSION: Made controversial deathbed claims implicating LBJ and CIA figures in the Kennedy assassination, recorded by his son Saint John Hunt',
+      'CUBAN EXILE EXPLOITATION: Recruited men from the Cuban exile community who trusted him from CIA anti-Castro operations, leading them into criminal activity for domestic political purposes',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 371', description: 'Conspiracy to Commit Burglary and Wiretapping; Co-planned Watergate break-in and DNC wiretapping operation', category: 'Federal' },
+      { statute: '22 D.C. Code 1801(b)', description: 'Burglary; Directed unlawful entry into DNC headquarters at Watergate complex', category: 'Federal' },
+      { statute: '18 U.S.C. 2511', description: 'Interception of Wire Communications; Supervised placement of wiretaps on DNC telephones', category: 'Federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy (Fielding Break-in); Organized burglary of Daniel Ellsberg\'s psychiatrist\'s office', category: 'Federal' },
+    ],
+    relatedInvestigations: [
+      { title: 'Watergate Scandal', slug: 'watergate', severity: 'critical' },
+      { title: 'The Pentagon Papers', slug: 'pentagon-papers', severity: 'critical' },
+      { title: 'CIA Covert Operations', slug: 'cia-covert-ops', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'October 9, 1918', event: 'Born in Hamburg, New York' },
+      { date: '1940', event: 'Graduates from Brown University' },
+      { date: '1943-1945', event: 'Serves in Office of Strategic Services (OSS) during World War II in China' },
+      { date: '1949', event: 'Joins the Central Intelligence Agency as covert operations officer' },
+      { date: '1954', event: 'Participates in CIA coup overthrowing Guatemalan President Jacobo Arbenz (Operation PBSUCCESS)' },
+      { date: '1960-1961', event: 'Serves as CIA political action officer for Bay of Pigs invasion planning' },
+      { date: 'April 1961', event: 'Bay of Pigs invasion fails; Hunt blamed for flawed political planning' },
+      { date: '1970', event: 'Retires from CIA; takes position at Robert R. Mullen Company (CIA-linked PR firm)' },
+      { date: 'July 1971', event: 'Recruited by Charles Colson to join White House "Plumbers" unit' },
+      { date: 'August 1971', event: 'Conducts reconnaissance of Dr. Lewis Fielding\'s office in Beverly Hills' },
+      { date: 'September 3, 1971', event: 'Directs break-in of Daniel Ellsberg\'s psychiatrist\'s office; operatives find no useful material' },
+      { date: 'Early 1972', event: 'Works with Liddy to develop "Gemstone" intelligence plan for CRP' },
+      { date: 'May 1972', event: 'Recruits Barker, Martinez, Sturgis, and Gonzalez from Cuban exile contacts for Watergate operation' },
+      { date: 'May 26-27, 1972', event: 'First Watergate break-in attempt fails when operatives cannot pick DNC lock' },
+      { date: 'June 17, 1972', event: 'Directs second break-in from Howard Johnson\'s hotel room; five burglars arrested inside DNC' },
+      { date: 'June 19, 1972', event: 'Name found in address books of arrested burglars, linking White House to break-in' },
+      { date: 'June-December 1972', event: 'Demands and receives hush money payments from White House, threatening to reveal secrets' },
+      { date: 'January 11, 1973', event: 'Pleads guilty to six counts before Judge John Sirica' },
+      { date: 'March 23, 1973', event: 'Sentenced to provisional term of 2.5 to 8 years by Judge Sirica' },
+      { date: '1973-1977', event: 'Serves 33 months in federal prison; wife Dorothy dies in plane crash carrying $10,000 in hush money' },
+      { date: '1974', event: 'Testifies before Senate Watergate Committee' },
+      { date: 'Post-prison', event: 'Writes spy novels and memoirs; publishes autobiography "Undercover: Memoirs of an American Secret Agent"' },
+      { date: '2004', event: 'Makes deathbed confession to son implicating LBJ and CIA figures in JFK assassination' },
+      { date: 'January 23, 2007', event: 'Dies in Miami at age 88' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Senate Watergate Committee Testimony and Records', url: 'https://www.senate.gov/about/powers-procedures/investigations/watergate.htm', date: '1973-1974' },
+      { title: 'Watergate Special Prosecution Force Records', url: 'https://www.justice.gov/archives/jm/watergate-special-prosecution-force', date: '1973-1975' },
+      { title: 'National Archives: Nixon White House Tapes', url: 'https://www.archives.gov/research/investigations/watergate', date: '1972-1974' },
+      { title: 'CIA Historical Review Program: Bay of Pigs Records', url: 'https://www.cia.gov/readingroom/collection/bay-pigs-release', date: '2011' },
+      { title: 'New York Times Obituary: E. Howard Hunt', url: 'https://www.nytimes.com/2007/01/24/washington/24hunt.html', date: '2007' },
+      { title: 'E. Howard Hunt, "Undercover: Memoirs of an American Secret Agent"', url: 'https://scholar.google.com/scholar?q=Hunt+Undercover+Memoirs+American+Secret+Agent', date: '1974' },
+    ],
+    aliases: ['Eduardo', 'Edward Hamilton', 'John Baxter'],
+    knownAssociates: [
+      { name: 'G. Gordon Liddy', relationship: 'Co-planner of Watergate break-in and White House Plumber partner', href: '/entities/individuals/g-gordon-liddy' },
+      { name: 'Bernard Barker', relationship: 'Watergate burglar recruited from Bay of Pigs contacts', href: '/entities/individuals/bernard-barker' },
+      { name: 'Frank Sturgis', relationship: 'Watergate burglar recruited from anti-Castro network', href: '/entities/individuals/frank-sturgis' },
+      { name: 'Charles Colson', relationship: 'White House special counsel who recruited Hunt for Plumbers', href: '/entities/individuals/charles-colson' },
+      { name: 'Richard Nixon', relationship: 'President whose administration directed illegal operations', href: '/entities/individuals/richard-nixon' },
+      { name: 'James McCord', relationship: 'Fellow Watergate burglar and former CIA security officer', href: '/entities/individuals/james-mccord' },
+    ],
+  },
 
  'edmund-richardson': {
  name: 'Edmund Richardson',
@@ -3412,7 +3567,7 @@ const profiles: Record<string, IndividualProfile> = {
     description: 'Hungarian-American theoretical physicist known as the father of the hydrogen bomb. Key figure in the development of thermonuclear weapons that were thousands of times more powerful than the atomic bombs dropped on Japan. Instrumental in destroying J. Robert Oppenheimer\'s security clearance in 1954, effectively ending the career of the scientist who had moral objections to the H-bomb. Lifelong advocate for nuclear weapons proliferation, the Strategic Defense Initiative (Star Wars), and opponent of nuclear test ban treaties.',
     birthDate: '1908-01-15',
     birthPlace: 'Budapest, Austria-Hungary',
-    education: ['Ph.D. in Physics, University of Leipzig (1930)', 'Research Fellow, University of GÃƒÂ¶ttingen (1931)'],
+    education: ['Ph.D. in Physics, University of Leipzig (1930)', 'Research Fellow, University of GÃƒÆ’Ã‚Â¶ttingen (1931)'],
     affiliations: [
       { name: 'Lawrence Livermore National Laboratory', role: 'Co-Founder and Director', type: 'agency' as const },
       { name: 'Manhattan Project', role: 'Senior Physicist', type: 'agency' as const },

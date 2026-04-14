@@ -35,16 +35,16 @@ const profiles: Record<string, IndividualProfile> = {
  'BLACKMAIL OPERATION: Victims and witnesses testified to hidden cameras throughout properties, suggesting kompromat operation',
  ],
  charges: [
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
  { statute: 'Florida Statute 796.03', description: 'Soliciting prostitution from minor (2008 conviction)', category: 'Sexual Crimes' },
  { statute: 'Florida Statute 800.04', description: 'Lewd and lascivious acts on child under 16', category: 'Sexual Crimes' },
- { statute: 'NY Penal Law Ãƒâ€šÃ‚Â§ 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
+ { statute: 'NY Penal Law ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
  ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -107,7 +107,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Social associate (1992-2019), Mar-a-Lago neighbor, praised as"terrific guy who likes them young"', href: '/entities/individuals/donald-trump' },
  { name: 'Ghislaine Maxwell', relationship: 'Girlfriend, co-conspirator, convicted sex trafficker, chief recruiter', href: '/entities/individuals/ghislaine-maxwell' },
  { name: 'Bill Clinton', relationship: '26+ flights on Lolita Express per flight logs, visited island', href: '/entities/individuals/bill-clinton' },
- { name: 'Prince Andrew', relationship: 'Close friend, photographed with victim Virginia Giuffre, settled lawsuit for Ãƒâ€šÃ‚Â£12M', href: '/entities/individuals/prince-andrew' },
+ { name: 'Prince Andrew', relationship: 'Close friend, photographed with victim Virginia Giuffre, settled lawsuit for ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£12M', href: '/entities/individuals/prince-andrew' },
  { name: 'Bill Gates', relationship: 'Multiple meetings documented AFTER 2008 conviction, flew on Lolita Express', href: '/entities/individuals/bill-gates' },
  { name: 'Les Wexner', relationship: 'Primary financial backer, gave $77M NYC mansion, power of attorney', href: '/entities/individuals/les-wexner' },
  { name: 'Alan Dershowitz', relationship: 'Defense attorney, named by victims, flew on jet', href: '/entities/individuals/alan-dershowitz' },
@@ -229,8 +229,8 @@ const profiles: Record<string, IndividualProfile> = {
  'Sheltered in Ecuadorian embassy 7 years',
  ],
  charges: [
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 793', description: 'Espionage Act violations (US indictment)', category: 'National Security' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1030', description: 'Computer intrusion conspiracy', category: 'Cybercrimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 793', description: 'Espionage Act violations (US indictment)', category: 'National Security' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1030', description: 'Computer intrusion conspiracy', category: 'Cybercrimes' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -491,7 +491,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Used government resources for personal schemes',
  ],
  charges: [
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1591', description: 'Sex trafficking of a child', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1591', description: 'Sex trafficking of a child', category: 'Human Trafficking' },
  { statute: 'Identity Theft', description: 'Creating fraudulent identification documents', category: 'Fraud' },
  { statute: 'Wire Fraud', description: 'Financial fraud schemes', category: 'Financial Crimes' },
  { statute: 'Stalking', description: 'Stalking political opponent', category: 'Harassment' },
@@ -542,12 +542,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Whereabouts unknown since 2017',
  ],
  charges: [
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1001', description: 'Potential False Statements; Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 371', description: 'Potential Conspiracy; Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 951', description: 'Potential Foreign Agent Activities; Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
- { statute: '52 U.S.C. Ãƒâ€šÃ‚Â§ 30121', description: 'Foreign National Election Interference; Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
- { statute: '22 U.S.C. Ãƒâ€šÃ‚Â§ 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1503', description: 'Potential Obstruction; Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1001', description: 'Potential False Statements; Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Potential Conspiracy; Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 951', description: 'Potential Foreign Agent Activities; Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
+ { statute: '52 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 30121', description: 'Foreign National Election Interference; Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
+ { statute: '22 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1503', description: 'Potential Obstruction; Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
  { statute: 'Mueller Report Referral', description: 'Mueller Report documented his lies and suspicious disappearance; potential criminal referral', category: 'Documented' },
  ],
  relatedInvestigations: [
@@ -692,7 +692,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Sentenced to 41 months in prison',
  ],
  charges: [
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1512(c)(2)', description: 'Obstruction of an Official Proceeding', category: 'Obstruction' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1512(c)(2)', description: 'Obstruction of an Official Proceeding', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1214,9 +1214,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Called for violence before January 6',
  ],
  charges: [
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1361', description: 'Destruction of government property (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1361', description: 'Destruction of government property (convicted)', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1506,8 +1506,8 @@ const profiles: Record<string, IndividualProfile> = {
  '2016 CAMPAIGN: Spent $130+ million, finished with 3 delegates,"please clap"moment',
  ],
  charges: [
- { statute: '52 U.S.C. Ãƒâ€šÃ‚Â§ 20507', description: 'Voter Roll Purge Irregularities; Potentially discriminatory list maintenance', category: 'Election Crimes' },
- { statute: '52 U.S.C. Ãƒâ€šÃ‚Â§ 10307', description: 'Voting Rights Act; Disproportionate impact on minority voters', category: 'Civil Rights' },
+ { statute: '52 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 20507', description: 'Voter Roll Purge Irregularities; Potentially discriminatory list maintenance', category: 'Election Crimes' },
+ { statute: '52 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 10307', description: 'Voting Rights Act; Disproportionate impact on minority voters', category: 'Civil Rights' },
  { statute: 'Florida Ethics Laws', description: 'Conflict of Interest; Overseeing election benefiting brother', category: 'State' },
  ],
  relatedInvestigations: [
@@ -1552,6 +1552,87 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+
+ 
+
+ 'jeb-stuart-magruder': {
+ name: 'Jeb Stuart Magruder',
+ title: 'Former Deputy Director, Committee to Re-elect the President',
+ role: 'Watergate Conspirator, Cover-up Coordinator',
+ riskLevel: 'high',
+ description: 'Jeb Stuart Magruder served as deputy director of the Committee to Re-elect the President (CRP) under John Mitchell and was one of the central figures in both the planning and cover-up of the Watergate break-in. Named after Confederate general J.E.B. Stuart, Magruder was a young, ambitious political operative who approved the Watergate operation alongside Mitchell and John Dean. He personally destroyed documents linking CRP to the burglary and committed extensive perjury before the grand jury, FBI, and Senate Watergate Committee. Magruder was among the first high-ranking Nixon officials to cooperate with prosecutors, providing devastating testimony against Mitchell, Haldeman, and Ehrlichman. He pleaded guilty to conspiracy to obstruct justice, defraud the United States, and intercept wire communications, receiving a sentence of 10 months to 4 years and serving approximately 7 months in federal prison. After his release, Magruder underwent a dramatic personal transformation, earning a divinity degree from Princeton Theological Seminary and becoming a Presbyterian minister in Lexington, Kentucky. In 2003, he made the startling claim that Richard Nixon had personally ordered the Watergate break-in, contradicting decades of Nixon\'s denials. His memoir "An American Life: One Man\'s Road to Watergate" provided an insider account of how ambition and loyalty to the president led to criminal conduct.',
+ birthDate: 'November 5, 1934',
+ deathDate: 'May 11, 2014',
+ birthPlace: 'Staten Island, New York, USA',
+ education: ['B.A., Williams College (1958)', 'M.B.A., University of Chicago (1963)', 'M.Div., Princeton Theological Seminary (1981)'],
+ affiliations: [
+ { name: 'Committee to Re-elect the President', role: 'Deputy Director (1971-1972)', type: 'organization' },
+ { name: 'White House', role: 'Special Assistant to the President (1969-1971)', type: 'agency' },
+ { name: 'U.S. Department of Commerce', role: 'Policy Council Member', type: 'agency' },
+ { name: 'First Presbyterian Church, Lexington', role: 'Senior Pastor (1990-2001)', type: 'organization' },
+ ],
+ controversies: [
+ 'WATERGATE APPROVAL: As CRP deputy director, participated in meetings where the Watergate operation was approved alongside Mitchell and Dean',
+ 'DOCUMENT DESTRUCTION: Personally shredded documents linking CRP to the Watergate burglars immediately after the break-in was discovered',
+ 'EXTENSIVE PERJURY: Committed perjury before the federal grand jury, FBI investigators, and the Senate Watergate Committee to conceal CRP involvement',
+ 'GEMSTONE PLANS: Attended the January and February 1972 meetings where G. Gordon Liddy presented escalating intelligence-gathering proposals including bugging, burglary, and kidnapping',
+ 'COVER-UP COORDINATION: Worked with John Dean, John Mitchell, and others to coordinate false testimony and conceal the connection between CRP and the burglars',
+ 'SLUSH FUND: Had knowledge of and access to CRP\'s secret cash fund used for dirty tricks and hush money payments',
+ 'COOPERATION DEAL: Provided testimony against former colleagues in exchange for reduced charges, devastating the defense of Mitchell, Haldeman, and Ehrlichman',
+ 'NIXON ACCUSATION: In 2003, claimed Nixon personally ordered the Watergate break-in during a phone call, contradicting the former president\'s lifelong denials',
+ ],
+ charges: [
+ { statute: '18 U.S.C. 371', description: 'Conspiracy to Obstruct Justice; Coordinated cover-up of Watergate break-in involvement', category: 'Federal' },
+ { statute: '18 U.S.C. 371', description: 'Conspiracy to Defraud the United States; Undermined lawful government functions through deception', category: 'Federal' },
+ { statute: '18 U.S.C. 2511', description: 'Conspiracy to Intercept Wire Communications; Approved illegal wiretapping at DNC headquarters', category: 'Federal' },
+ { statute: '18 U.S.C. 1621', description: 'Perjury; False testimony before grand jury and Senate committee', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate Scandal', slug: 'watergate', severity: 'critical' },
+ { title: 'Nixon Administration Cover-ups', slug: 'nixon-coverups', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'November 5, 1934', event: 'Born on Staten Island, New York' },
+ { date: '1958', event: 'Graduates from Williams College' },
+ { date: '1963', event: 'Earns MBA from University of Chicago' },
+ { date: '1969', event: 'Joins Nixon White House as special assistant to the president' },
+ { date: '1971', event: 'Becomes deputy director of Committee to Re-elect the President' },
+ { date: 'January 27, 1972', event: 'Attends first meeting where G. Gordon Liddy presents $1 million intelligence plan ("Gemstone")' },
+ { date: 'February 4, 1972', event: 'Attends second Gemstone meeting with Mitchell, Dean, and Liddy' },
+ { date: 'March 30, 1972', event: 'Attends meeting where scaled-down Watergate operation reportedly approved' },
+ { date: 'June 17, 1972', event: 'Five burglars arrested at DNC headquarters in Watergate complex' },
+ { date: 'June 18, 1972', event: 'Begins destroying incriminating documents linking CRP to the burglary' },
+ { date: 'August 1972', event: 'Commits perjury before federal grand jury investigating Watergate' },
+ { date: 'January 1973', event: 'Commits perjury during Watergate burglars\' trial' },
+ { date: 'April 1973', event: 'Begins cooperating with federal prosecutors, implicates Mitchell and Dean' },
+ { date: 'June 14, 1973', event: 'Provides devastating public testimony before Senate Watergate Committee' },
+ { date: 'August 16, 1973', event: 'Pleads guilty to conspiracy to obstruct justice and related charges' },
+ { date: 'May 21, 1974', event: 'Sentenced to 10 months to 4 years in federal prison by Judge Sirica' },
+ { date: 'January 1975', event: 'Released from prison after serving approximately 7 months' },
+ { date: '1974', event: 'Publishes memoir "An American Life: One Man\'s Road to Watergate"' },
+ { date: '1981', event: 'Graduates from Princeton Theological Seminary with Master of Divinity' },
+ { date: '1990', event: 'Becomes senior pastor of First Presbyterian Church in Lexington, Kentucky' },
+ { date: '2001', event: 'Retires from ministry' },
+ { date: '2003', event: 'Claims in PBS documentary that Nixon personally ordered the Watergate break-in' },
+ { date: 'May 11, 2014', event: 'Dies in Danbury, Connecticut at age 79' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Senate Watergate Committee Testimony of Jeb Stuart Magruder', url: 'https://www.senate.gov/about/powers-procedures/investigations/watergate.htm', date: '1973' },
+ { title: 'Jeb Stuart Magruder, "An American Life: One Man\'s Road to Watergate"', url: 'https://scholar.google.com/scholar?q=Magruder+An+American+Life+Watergate', date: '1974' },
+ { title: 'United States v. Magruder - Federal Case Records', url: 'https://www.justice.gov/archives/jm/watergate-special-prosecution-force', date: '1973' },
+ { title: 'New York Times Obituary: Jeb Stuart Magruder', url: 'https://www.nytimes.com/2014/05/12/us/jeb-stuart-magruder-watergate-figure-dies-at-79.html', date: '2014' },
+ { title: 'PBS Frontline: Magruder Claims Nixon Ordered Break-in', url: 'https://www.pbs.org/wgbh/pages/frontline/shows/watergate/', date: '2003' },
+ ],
+ aliases: ['Jeb'],
+ knownAssociates: [
+ { name: 'John Mitchell', relationship: 'CRP director and co-conspirator who approved Watergate plan', href: '/entities/individuals/john-mitchell' },
+ { name: 'John Dean', relationship: 'White House counsel, attended Gemstone meetings together', href: '/entities/individuals/john-dean' },
+ { name: 'G. Gordon Liddy', relationship: 'CRP counsel who devised Watergate operation', href: '/entities/individuals/g-gordon-liddy' },
+ { name: 'H.R. Haldeman', relationship: 'White House Chief of Staff, testified against at trial', href: '/entities/individuals/h-r-haldeman' },
+ { name: 'Richard Nixon', relationship: 'President, claimed Nixon ordered the break-in', href: '/entities/individuals/richard-nixon' },
+ ],
+ },
 
  'john-poindexter': {
  name: 'John Poindexter',
@@ -1601,11 +1682,11 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Systematic persecution of civil rights leaders and political activists', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity; Murder: Facilitated assassinations of Black Panther leaders', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Other Inhumane Acts: Psychological torture through surveillance, blackmail, and harassment', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 241', description: 'Conspiracy Against Rights: COINTELPRO systematically violated First Amendment rights', category: 'Civil Rights Violations' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 242', description: 'Deprivation of Rights Under Color of Law: Official capacity used to violate constitutional rights', category: 'Civil Rights Violations' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 2511', description: 'Illegal Wiretapping: Warrantless surveillance of thousands of Americans', category: 'Surveillance Crimes' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1111', description: 'Murder: Accessory to assassination of Fred Hampton and others', category: 'Violent Crimes' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 873', description: 'Blackmail: Used secret files to blackmail politicians and activists', category: 'Coercion' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 241', description: 'Conspiracy Against Rights: COINTELPRO systematically violated First Amendment rights', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 242', description: 'Deprivation of Rights Under Color of Law: Official capacity used to violate constitutional rights', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2511', description: 'Illegal Wiretapping: Warrantless surveillance of thousands of Americans', category: 'Surveillance Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1111', description: 'Murder: Accessory to assassination of Fred Hampton and others', category: 'Violent Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 873', description: 'Blackmail: Used secret files to blackmail politicians and activists', category: 'Coercion' },
  ],
  relatedInvestigations: [
  { title: 'COINTELPRO', slug: 'cointelpro', severity: 'critical' },
@@ -1661,10 +1742,10 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Designed policy to systematically target Black Americans and political opponents', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
  ],
  relatedInvestigations: [
  { title: 'War on Drugs', slug: 'war-on-drugs', severity: 'critical' },
@@ -1747,7 +1828,7 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Geneva Conventions: Common Article 3', description: 'Authored legal framework enabling torture of detainees', category: 'War Crimes' },
  { statute: 'Convention Against Torture', description: 'Provided legal cover for prohibited torture techniques', category: 'International Crime' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
  { title: 'CIA Torture Program', slug: 'cia-torture-program', severity: 'critical' },
@@ -1840,7 +1921,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  timeline: [
  { date: 'August 2, 1925', event: 'Born in Mercedes, Argentina' },
- { date: 'March 24, 1976', event: 'Leads coup against Isabel PerÃƒÆ’Ã‚Â³n' },
+ { date: 'March 24, 1976', event: 'Leads coup against Isabel PerÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n' },
  { date: '1976-1981', event: 'Rules as head of junta' },
  { date: '1985', event: 'Convicted of human rights crimes' },
  { date: '2010', event: 'Convicted again after amnesty overturned' },
@@ -1948,9 +2029,9 @@ const profiles: Record<string, IndividualProfile> = {
  'IMPRISONED: First AG to go to prison',
  ],
  charges: [
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1503', description: 'Obstruction of Justice', category: 'Federal Crime' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1623', description: 'Perjury', category: 'Federal Crime' },
- { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy', category: 'Federal Crime' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1503', description: 'Obstruction of Justice', category: 'Federal Crime' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1623', description: 'Perjury', category: 'Federal Crime' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
  { title: 'Watergate', slug: 'watergate', severity: 'critical' },
@@ -2948,8 +3029,8 @@ const profiles: Record<string, IndividualProfile> = {
  'MONEY LAUNDERING: Hid assets in Switzerland',
  ],
  charges: [
- { statute: '15 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1956', description: 'Money Laundering', category: 'CONVICTED' },
+ { statute: '15 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 1956', description: 'Money Laundering', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Penny Stock Fraud', slug: 'penny-stock-fraud', severity: 'high' },
@@ -2989,9 +3070,9 @@ const profiles: Record<string, IndividualProfile> = {
  'CONVICTED: One of only pharma execs jailed',
  ],
  charges: [
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1962', description: 'RICO, Racketeering conspiracy', category: 'CONVICTED' },
- { statute: '42 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1320a-7b', description: 'Anti-Kickback Statute violations', category: 'CONVICTED' },
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1343', description: 'Wire Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 1962', description: 'RICO, Racketeering conspiracy', category: 'CONVICTED' },
+ { statute: '42 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 1320a-7b', description: 'Anti-Kickback Statute violations', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 1343', description: 'Wire Fraud', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Insys Opioid Scandal', slug: 'insys-opioid-scandal', severity: 'critical' },
@@ -3033,7 +3114,7 @@ const profiles: Record<string, IndividualProfile> = {
  'AVOIDED PROSECUTION: No personal criminal charges',
  ],
  charges: [
- { statute: '21 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 823', description: 'Controlled Substances Act, Distribution violations', category: 'CORPORATE SETTLEMENT' },
+ { statute: '21 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 823', description: 'Controlled Substances Act, Distribution violations', category: 'CORPORATE SETTLEMENT' },
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Mass death through negligence', category: 'INTERNATIONAL' },
  ],
  relatedInvestigations: [
@@ -3250,7 +3331,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former Maricopa County Sheriff',
  role: 'Sheriff, Racial Profiling, Contempt CONVICTED, Pardoned',
  riskLevel: 'critical',
- description: 'Joe Arpaio was Maricopa County Sheriff for 24 years, running jails he called "concentration camps "with outdoor tent prisons in 120ÃƒÂ¯Ã‚Â¿Ã‚Â½F heat. He was convicted of criminal contempt for defying court orders to stop racial profiling but was pardoned by Trump before sentencing.',
+ description: 'Joe Arpaio was Maricopa County Sheriff for 24 years, running jails he called "concentration camps "with outdoor tent prisons in 120ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½F heat. He was convicted of criminal contempt for defying court orders to stop racial profiling but was pardoned by Trump before sentencing.',
  birthDate: 'June 14, 1932',
  birthPlace: 'Springfield, Massachusetts',
  education: ['U.S. Army', 'DEA'],
@@ -3261,7 +3342,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Pardoned by Trump', href: '/entities/individuals/donald-trump' },
  ],
  controversies: [
- 'TENT CITY: Outdoor jail in 120ÃƒÂ¯Ã‚Â¿Ã‚Â½F Arizona heat',
+ 'TENT CITY: Outdoor jail in 120ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½F Arizona heat',
  '"CONCENTRATION CAMPS": His own description',
  'RACIAL PROFILING: Systematic Latino targeting',
  'CONTEMPT CONVICTION: Defied court orders',
@@ -3269,7 +3350,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATHS IN CUSTODY: Dozens died in his jails',
  ],
  charges: [
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 401', description: 'Criminal contempt of court', category: 'CONVICTED, PARDONED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 401', description: 'Criminal contempt of court', category: 'CONVICTED, PARDONED' },
  { statute: 'Civil Rights Violations', description: 'DOJ found pattern of violations', category: 'DOJ FINDING' },
  ],
  relatedInvestigations: [
@@ -3334,6 +3415,61 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'james-mccord': {
+   name: 'James W. McCord Jr.',
+   title: 'Former CIA Security Chief and Watergate Burglar Whose Letter Broke the Cover-Up',
+   role: 'Former CIA security officer and CRP security coordinator who was one of the five burglars arrested at Watergate, and whose letter to Judge Sirica broke open the cover-up',
+   riskLevel: 'critical' as const,
+   description: 'James Walter McCord Jr. (1924-2017) was a retired CIA security officer who served as security coordinator for the Committee to Re-Elect the President (CRP) and was one of the five men arrested inside the Democratic National Committee headquarters at the Watergate complex on June 17, 1972. McCord\'s decision to write a letter to Judge John Sirica alleging that the defendants had been pressured to plead guilty and remain silent was one of the most consequential single acts in the Watergate scandal, breaking open the cover-up that the Nixon White House had maintained for nine months.\n\nMcCord served in the CIA for nineteen years, rising to become chief of the agency\'s Office of Security before retiring in 1970. He was hired as security coordinator for CRP, where he reported to G. Gordon Liddy. McCord was responsible for the technical aspects of the Watergate operation, including the installation of listening devices on the phones of DNC chairman Larry O\'Brien. The first break-in on May 28, 1972, succeeded in placing bugs, but when one malfunctioned, McCord returned with the team on June 17 for the second entry, where they were caught.\n\nMcCord was the most experienced and highest-ranking member of the break-in team. Unlike the Cuban exile members, he had deep professional intelligence community credentials and understood the institutional implications of the operation. After the arrests, the White House pressured all five burglars plus Hunt and Liddy to plead guilty and remain silent, promising executive clemency and financial support.\n\nHowever, on March 19, 1973, McCord wrote a letter to Judge Sirica stating that political pressure had been applied to the defendants to plead guilty and remain silent, that perjury had been committed during the trial, and that others besides those convicted were involved in the Watergate operation. This letter, read aloud in court on March 23, 1973, shattered the cover-up and led directly to the expansion of the investigation that ultimately brought down the Nixon presidency.\n\nMcCord was convicted of conspiracy, burglary, and wiretapping and sentenced to one to five years. His sentence was later reduced, and he served approximately four months. He died in 2017.',
+   birthDate: 'January 26, 1924',
+   deathDate: 'June 15, 2017',
+   education: ['University of Texas, BA', 'George Washington University, MS'],
+   affiliations: [
+     { name: 'Central Intelligence Agency', role: 'Chief of Physical Security, Office of Security (1951-1970); 19-year career in CIA security operations', type: 'agency' },
+     { name: 'Committee to Re-Elect the President', role: 'Security coordinator; responsible for the technical aspects of the Watergate break-in including wiretap installation', type: 'organization' },
+   ],
+   controversies: [
+     'One of five burglars arrested inside the DNC headquarters at the Watergate complex on June 17, 1972',
+     'As a retired CIA security chief, was the most credentialed intelligence professional on the break-in team',
+     'Installed wiretapping devices on DNC phones during the first Watergate break-in on May 28, 1972',
+     'Wrote the March 19, 1973 letter to Judge Sirica that broke open the Watergate cover-up, alleging perjury, political pressure, and involvement of others not yet charged',
+     'His letter, read in court on March 23, 1973, was one of the single most consequential acts in the entire Watergate affair',
+     'Convicted of conspiracy, burglary, and wiretapping; served approximately four months',
+   ],
+   charges: [
+     { charge: 'Conspiracy, burglary, and wiretapping', status: 'convicted', date: '1973-01-30', source: 'Convicted at trial (did not plead guilty); sentenced to 1-5 years, served approximately four months after sentence reduction.' },
+   ],
+   relatedInvestigations: [
+     { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+   ],
+   timeline: [
+     { date: 'January 26, 1924', event: 'Born' },
+     { date: '1951', event: 'Joins the CIA' },
+     { date: '1951-1970', event: '19-year CIA career culminating as chief of physical security in the Office of Security' },
+     { date: '1970', event: 'Retires from the CIA' },
+     { date: '1972', event: 'Hired as security coordinator for the Committee to Re-Elect the President' },
+     { date: 'May 28, 1972', event: 'First Watergate break-in succeeds; McCord installs wiretapping devices on DNC phones' },
+     { date: 'June 17, 1972', event: 'Second Watergate break-in; McCord arrested with four others inside the DNC headquarters' },
+     { date: 'January 30, 1973', event: 'Convicted at trial of conspiracy, burglary, and wiretapping' },
+     { date: 'March 19, 1973', event: 'Writes letter to Judge Sirica alleging perjury, political pressure on defendants, and involvement of others' },
+     { date: 'March 23, 1973', event: 'Sirica reads McCord\'s letter in court; the Watergate cover-up begins to unravel' },
+     { date: '1973-1974', event: 'Cooperates with investigators; testifies before the Senate Watergate Committee' },
+     { date: 'June 15, 2017', event: 'Dies at age 93' },
+   ],
+   sources: [
+     { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+     { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+     { title: 'James McCord, A Piece of Tape: The Watergate Story: Fact and Fiction (Washington Media Services, 1974)', date: '1974' },
+     { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+   ],
+   knownAssociates: [
+     { name: 'G. Gordon Liddy', relationship: 'CRP general counsel who directed McCord in the Watergate operation', href: '/entities/individuals/g-gordon-liddy' },
+     { name: 'E. Howard Hunt', relationship: 'Fellow Watergate conspirator and former CIA officer who helped organize the break-in', href: '/entities/individuals/e-howard-hunt' },
+     { name: 'Bernard Barker', relationship: 'Fellow Watergate burglar; Cuban exile who led the entry team', href: '/entities/individuals/bernard-barker' },
+     { name: 'John Mitchell', relationship: 'CRP chairman who approved the Watergate operation at meetings McCord attended', href: '/entities/individuals/john-mitchell' },
+   ],
+ },
+
 
  'james-mitchell': {
  name: 'James Mitchell',
@@ -3383,8 +3519,8 @@ const profiles: Record<string, IndividualProfile> = {
  'PENSION KEPT: Collected pension until death',
  ],
  charges: [
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1621', description: 'Perjury', category: 'CONVICTED, 4.5 YEARS' },
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 1512', description: 'Obstruction', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 1621', description: 'Perjury', category: 'CONVICTED, 4.5 YEARS' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 1512', description: 'Obstruction', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Chicago Police Torture', slug: 'chicago-police-torture', severity: 'critical' },
@@ -3452,8 +3588,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CHEMICAL ASSAULT: Deployed bear spray at police',
  ],
  charges: [
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 111', description: 'Assaulting officers with dangerous weapon', category: 'CONVICTED, 80 MONTHS' },
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 231', description: 'Civil disorder', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 111', description: 'Assaulting officers with dangerous weapon', category: 'CONVICTED, 80 MONTHS' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 231', description: 'Civil disorder', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -3512,8 +3648,8 @@ const profiles: Record<string, IndividualProfile> = {
  'MENTAL ILLNESS CLAIMS: Debated at trial',
  ],
  charges: [
- { statute: 'Colorado Rev. Stat. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 18-3-102', description: 'First-degree murder (12 counts)', category: 'CONVICTED, 12 LIFE SENTENCES' },
- { statute: 'Colorado Rev. Stat. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 18-3-102', description: 'Attempted murder (70 counts)', category: 'CONVICTED' },
+ { statute: 'Colorado Rev. Stat. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 18-3-102', description: 'First-degree murder (12 counts)', category: 'CONVICTED, 12 LIFE SENTENCES' },
+ { statute: 'Colorado Rev. Stat. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 18-3-102', description: 'Attempted murder (70 counts)', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Aurora Theater Shooting', slug: 'aurora-shooting', severity: 'critical' },
@@ -3548,7 +3684,7 @@ const profiles: Record<string, IndividualProfile> = {
  'FAILED TO SECURE: Gun was accessible',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws ÃƒÂ¯Ã‚Â¿Ã‚Â½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
+ { statute: 'Michigan Comp. Laws ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -3585,7 +3721,7 @@ const profiles: Record<string, IndividualProfile> = {
  'SCHOOL MEETING: Hours before shooting',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws ÃƒÂ¯Ã‚Â¿Ã‚Â½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
+ { statute: 'Michigan Comp. Laws ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -3938,8 +4074,8 @@ const profiles: Record<string, IndividualProfile> = {
  'FEDERAL CONVICTION: Civil rights violations',
  ],
  charges: [
- { statute: '18 U.S.C. ÃƒÂ¯Ã‚Â¿Ã‚Â½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
- { statute: 'Tennessee Code ÃƒÂ¯Ã‚Â¿Ã‚Â½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
+ { statute: 'Tennessee Code ÃƒÆ’Ã‚Â¯Ãƒâ€šÃ‚Â¿Ãƒâ€šÃ‚Â½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'Police Brutality', slug: 'police-brutality-crisis', severity: 'critical' },
@@ -4180,11 +4316,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jacobo-arbenz': {
- name: 'Jacobo ÃƒÆ’Ã‚Ârbenz',
+ name: 'Jacobo ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Ârbenz',
  title: 'Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program',
  role: 'Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program',
  riskLevel: 'high',
- description: 'Jacobo ÃƒÆ’Ã‚Ârbenz. Profile pending review.',
+ description: 'Jacobo ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Ârbenz. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
@@ -4204,7 +4340,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jacobo ÃƒÆ’Ã‚Ârbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz', date: '' },
+ { title: 'Wikipedia: Jacobo ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Ârbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -5863,7 +5999,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Lee Harvey Oswald', relationship: 'Wounded in JFK assassination Oswald allegedly committed', href: '/entities/individuals/lee-harvey-oswald' },
  { name: 'Abraham Zapruder', relationship: 'Filmed assassination motorcade showing Connally being shot', href: '/entities/individuals/abraham-zapruder' },
- { name: 'Ben Barnes', relationship: 'Political protÃƒÆ’Ã‚Â©gÃƒÆ’Ã‚Â© who claimed October Surprise involvement', href: '/entities/individuals/ben-barnes' },
+ { name: 'Ben Barnes', relationship: 'Political protÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©gÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© who claimed October Surprise involvement', href: '/entities/individuals/ben-barnes' },
  ],
  },
 
@@ -6371,11 +6507,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jose-napoleon-duarte': {
- name: 'JosÃƒÂ© NapoleÃƒÂ³n Duarte',
+ name: 'JosÃƒÆ’Ã‚Â© NapoleÃƒÆ’Ã‚Â³n Duarte',
  title: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  role: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  riskLevel: 'high',
- description: 'JosÃƒÂ© NapoleÃƒÂ³n Duarte. Profile pending review.',
+ description: 'JosÃƒÆ’Ã‚Â© NapoleÃƒÆ’Ã‚Â³n Duarte. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -6383,8 +6519,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Investigative journalists have documented a pattern of revolving-door employment between JosÃƒÂ© NapoleÃƒÂ³n Duarte\'s operations and the regulatory bodies meant to provide oversight.',
- 'Internal documents obtained through litigation discovery show JosÃƒÂ© NapoleÃƒÂ³n Duarte was briefed on risks later downplayed in public communications.',
+ 'Investigative journalists have documented a pattern of revolving-door employment between JosÃƒÆ’Ã‚Â© NapoleÃƒÆ’Ã‚Â³n Duarte\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Internal documents obtained through litigation discovery show JosÃƒÆ’Ã‚Â© NapoleÃƒÆ’Ã‚Â³n Duarte was briefed on risks later downplayed in public communications.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -6393,7 +6529,7 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JosÃƒÂ© NapoleÃƒÂ³n Duarte', url: 'https://en.wikipedia.org/wiki/JosÃƒÂ©_NapoleÃƒÂ³n_Duarte', date: '' }, ],
+ { title: 'Wikipedia: JosÃƒÆ’Ã‚Â© NapoleÃƒÆ’Ã‚Â³n Duarte', url: 'https://en.wikipedia.org/wiki/JosÃƒÆ’Ã‚Â©_NapoleÃƒÆ’Ã‚Â³n_Duarte', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Roberto DAubuisson', relationship: 'Political rival and death squad leader Duarte opposed', href: '/entities/individuals/roberto-daubuisson' },
@@ -6403,14 +6539,14 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jose-ramos-horta': {
- name: 'JosÃƒÂ© Ramos-Horta',
+ name: 'JosÃƒÆ’Ã‚Â© Ramos-Horta',
  title: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  role: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  riskLevel: 'high',
- description: 'JosÃƒÂ© Ramos-Horta. Profile pending review.',
+ description: 'JosÃƒÆ’Ã‚Â© Ramos-Horta. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: JosÃƒÂ© NapoleÃƒÂ³n Duarte', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JosÃƒÆ’Ã‚Â© NapoleÃƒÆ’Ã‚Â³n Duarte', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -6424,7 +6560,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JosÃƒÂ© Ramos-Horta', url: 'https://en.wikipedia.org/wiki/JosÃƒÂ©_Ramos-Horta', date: '' },
+ { title: 'Wikipedia: JosÃƒÆ’Ã‚Â© Ramos-Horta', url: 'https://en.wikipedia.org/wiki/JosÃƒÆ’Ã‚Â©_Ramos-Horta', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6753,19 +6889,19 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'juan-mendez': {
- name: 'Juan MÃƒÆ’Ã‚Â©ndez',
+ name: 'Juan MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ndez',
  title: 'UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes torture',
  role: 'UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes torture',
  riskLevel: 'high',
- description: 'Juan MÃƒÆ’Ã‚Â©ndez. Profile pending review.',
+ description: 'Juan MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ndez. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Dr. Juan Funes', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Public filings and regulatory records indicate Juan MÃƒÆ’Ã‚Â©ndez facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Network analysis reveals Juan MÃƒÆ’Ã‚Â©ndez holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Public filings and regulatory records indicate Juan MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ndez facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+ 'Network analysis reveals Juan MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ndez holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -6775,7 +6911,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes tor' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Juan MÃƒÆ’Ã‚Â©ndez', url: 'https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez', date: '' }, ],
+ { title: 'Wikipedia: Juan MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©ndez', url: 'https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Romeo Dallaire', relationship: 'Fellow human rights and international justice figure', href: '/entities/individuals/romeo-dallaire' },
@@ -6908,11 +7044,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'jurgen-mossack': {
- name: 'JÃƒÂ¼rgen Mossack',
+ name: 'JÃƒÆ’Ã‚Â¼rgen Mossack',
  title: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  role: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  riskLevel: 'high',
- description: 'JÃƒÂ¼rgen Mossack. Profile pending review.',
+ description: 'JÃƒÆ’Ã‚Â¼rgen Mossack. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Julius Rosenberg', type: 'organization' },
@@ -6929,7 +7065,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JÃƒÂ¼rgen Mossack', url: 'https://en.wikipedia.org/wiki/JÃƒÂ¼rgen_Mossack', date: '' },
+ { title: 'Wikipedia: JÃƒÆ’Ã‚Â¼rgen Mossack', url: 'https://en.wikipedia.org/wiki/JÃƒÆ’Ã‚Â¼rgen_Mossack', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6938,14 +7074,14 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'juvenal-habyarimana': {
- name: 'JuvÃƒÂ©nal Habyarimana',
+ name: 'JuvÃƒÆ’Ã‚Â©nal Habyarimana',
  title: 'Rwandan President whose assassination triggered the genocide',
  role: 'Rwandan President whose assassination triggered the genocide',
  riskLevel: 'high',
- description: 'JuvÃƒÂ©nal Habyarimana. Profile pending review.',
+ description: 'JuvÃƒÆ’Ã‚Â©nal Habyarimana. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: JÃƒÂ¼rgen Mossack', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JÃƒÆ’Ã‚Â¼rgen Mossack', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -6959,7 +7095,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JuvÃƒÂ©nal Habyarimana', url: 'https://en.wikipedia.org/wiki/JuvÃƒÂ©nal_Habyarimana', date: '' },
+ { title: 'Wikipedia: JuvÃƒÆ’Ã‚Â©nal Habyarimana', url: 'https://en.wikipedia.org/wiki/JuvÃƒÆ’Ã‚Â©nal_Habyarimana', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6976,7 +7112,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'J.W. Milam. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: JuvÃƒÂ©nal Habyarimana', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JuvÃƒÆ’Ã‚Â©nal Habyarimana', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -7267,11 +7403,11 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'critical',
  description: 'Josef Mengele was a Nazi SS physician and war criminal known as the"Angel of Death"who performed horrific pseudo-scientific experiments on prisoners at the Auschwitz concentration camp, including experiments on twins, forced hypothermia, and other tortures. After the war, he fled to South America where he was given sanctuary in Paraguay and later lived in Brazil. Despite international manhunts, he was never brought to justice and died in 1979.',
  birthDate: 'March 16, 1911',
- birthPlace: 'GÃƒÆ’Ã‚Â¼nzburg, Bavaria, Germany',
+ birthPlace: 'GÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼nzburg, Bavaria, Germany',
  deathDate: 'February 7, 1979',
  education: ['PhD in Anthropology, University of Munich', 'Medical Degree, University of Frankfurt'],
  affiliations: [
- { name: 'Nazi SS', role: 'SS-HauptsturmfÃƒÆ’Ã‚Â¼hrer (Captain)', type: 'organization' },
+ { name: 'Nazi SS', role: 'SS-HauptsturmfÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¼hrer (Captain)', type: 'organization' },
  { name: 'Auschwitz Concentration Camp', role: 'Chief Medical Officer, selections and experiments', type: 'agency' },
  ],
  controversies: [
@@ -8514,12 +8650,12 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [
       {
-        statute: '8 U.S.C. Ã‚Â§ 1232 - Family Separation Policy',
+        statute: '8 U.S.C. Ãƒâ€šÃ‚Â§ 1232 - Family Separation Policy',
         description: 'Announced and implemented zero tolerance prosecution policy that deliberately separated thousands of children from parents with no reunification plan',
         category: 'human-rights',
       },
       {
-        statute: '18 U.S.C. Ã‚Â§ 981 - Expanded Civil Asset Forfeiture',
+        statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 981 - Expanded Civil Asset Forfeiture',
         description: 'Reinstated federal adoption of civil asset forfeiture allowing seizure of property from people never charged with crimes; DOJ IG found widespread abuse',
         category: 'constitutional',
       },
@@ -8918,7 +9054,7 @@ const profiles: Record<string, IndividualProfile> = {
   'Pleaded guilty to securities fraud',
  ],
  charges: [
-  { statute: '15 U.S.C. Ã‚Â§ 78j(b)', description: 'Securities fraud', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. Ãƒâ€šÃ‚Â§ 78j(b)', description: 'Securities fraud', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
   { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },

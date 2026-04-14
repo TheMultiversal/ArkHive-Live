@@ -1355,6 +1355,103 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'herbert-kalmbach': {
+ name: 'Herbert W. Kalmbach',
+ title: 'Nixon\'s Personal Attorney Who Raised and Distributed Hush Money for Watergate Cover-Up',
+ role: 'President Nixon\'s personal attorney who raised and distributed hundreds of thousands of dollars in hush money to the Watergate burglars and funded the Segretti dirty tricks campaign',
+ riskLevel: 'high' as const,
+ description: 'Herbert Warren Kalmbach (1921-2017) was President Richard Nixon\'s personal attorney and one of his most trusted political fundraisers. Kalmbach played a dual role in the Watergate scandal: he was the primary fundraiser who channeled secret Nixon campaign cash to Donald Segretti\'s dirty tricks operation, and he was the initial conduit for hush money payments to the Watergate burglars.\n\nAs Nixon\'s personal lawyer, Kalmbach controlled a secret cash fund derived from campaign contributions. After the Watergate arrests on June 17, 1972, John Dean asked Kalmbach to raise money to pay the burglars for their silence. Kalmbach raised approximately $210,000 to $220,000 from GOP fundraisers and campaign sources and channeled it to the burglars\' attorney through intermediaries. When Kalmbach grew uncomfortable with the arrangement and sought reassurance from John Ehrlichman that the payments were proper, Ehrlichman told him they were, a claim Kalmbach later cited in his own defense.\n\nKalmbach had also arranged payments of approximately $45,000 to Donald Segretti for the dirty tricks campaign against Democratic candidates, working with White House aide Dwight Chapin to recruit Segretti.\n\nIn February 1974, Kalmbach pleaded guilty to two charges: promising a federal job as a reward for political fundraising (an ambassadorship in exchange for campaign contributions) and operating an illegal political committee. He was sentenced to six to eighteen months in prison and fined $10,000. He served six months. Kalmbach cooperated with prosecutors and testified before the Senate Watergate Committee and at the trials of other Watergate defendants. He died in 2017.',
+ birthDate: 'November 19, 1921',
+ deathDate: 'September 12, 2017',
+ education: ['University of Southern California, BA', 'University of Southern California Law School, JD'],
+ affiliations: [
+ { name: 'Nixon White House', role: 'Personal attorney to the President; controlled secret campaign cash fund used for hush money and dirty tricks', type: 'agency' },
+ { name: 'Committee to Re-Elect the President', role: 'Principal fundraiser; raised and distributed hush money to Watergate burglars and funded the Segretti operation', type: 'organization' },
+ ],
+ controversies: [
+ 'Raised approximately $210,000-$220,000 in hush money for the Watergate burglars at the direction of John Dean',
+ 'Channeled approximately $45,000 in secret Nixon campaign funds to Donald Segretti for the dirty tricks campaign against Democrats',
+ 'Controlled secret cash reserves from campaign contributions used for illegal political operations',
+ 'Promised a federal ambassadorship as a reward for political fundraising, a felony offense',
+ 'Operated an illegal political committee that funneled campaign cash outside proper legal channels',
+ 'Pleaded guilty and served six months; cooperated with prosecutors and testified against other defendants',
+ ],
+ charges: [
+ { charge: 'Promising a federal job (ambassadorship) as reward for political fundraising', status: 'convicted', date: '1974-02', source: 'Pleaded guilty; sentenced to 6-18 months and fined $10,000. Served six months.' },
+ { charge: 'Operating an illegal political committee', status: 'convicted', date: '1974-02', source: 'Pleaded guilty as part of cooperation agreement with prosecutors.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'November 19, 1921', event: 'Born' },
+ { date: '1960s', event: 'Becomes Richard Nixon\'s personal attorney and one of his most trusted political fundraisers' },
+ { date: '1971', event: 'Arranges payment of approximately $45,000 to Donald Segretti for the dirty tricks campaign, working with Dwight Chapin' },
+ { date: 'June 1972', event: 'After the Watergate arrests, raises and distributes approximately $210,000-$220,000 in hush money at John Dean\'s direction' },
+ { date: 'Summer 1972', event: 'Grows uncomfortable with the hush money arrangement; seeks reassurance from Ehrlichman that payments are proper' },
+ { date: '1973', event: 'Cooperates with Watergate prosecutors and testifies before the Senate Watergate Committee' },
+ { date: 'February 1974', event: 'Pleads guilty to promising a federal job for fundraising and operating an illegal political committee' },
+ { date: '1974', event: 'Sentenced to 6-18 months and $10,000 fine; serves six months' },
+ { date: 'September 12, 2017', event: 'Dies at age 95' },
+ ],
+ sources: [
+ { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'Richard Nixon', relationship: 'President whom Kalmbach served as personal attorney and political fundraiser', href: '/entities/individuals/richard-nixon' },
+ { name: 'John Dean', relationship: 'White House Counsel who directed Kalmbach to raise hush money for the Watergate burglars', href: '/entities/individuals/john-dean' },
+ { name: 'Dwight Chapin', relationship: 'Nixon aide who worked with Kalmbach to recruit and fund Donald Segretti', href: '/entities/individuals/dwight-chapin' },
+ { name: 'Donald Segretti', relationship: 'Political operative paid approximately $45,000 from Kalmbach\'s secret fund for dirty tricks', href: '/entities/individuals/donald-segretti' },
+ ],
+ },
+
+ 'herbert-porter': {
+ name: 'Herbert L. "Bart" Porter',
+ title: 'Nixon Campaign Official Who Pleaded Guilty to Lying About Dirty Tricks Payments',
+ role: 'Committee to Re-Elect the President scheduling director who pleaded guilty to making false statements to the FBI about payments to Gordon Liddy for political espionage',
+ riskLevel: 'medium' as const,
+ description: 'Herbert Lloyd "Bart" Porter (1938-) served as the scheduling director for the Committee to Re-Elect the President (CRP) and became one of the Watergate defendants who contributed to the unraveling of the cover-up. Porter was responsible for approving disbursements from the CRP budget and authorized payments to G. Gordon Liddy that Porter knew were for intelligence-gathering (political espionage) activities rather than the legitimate campaign purposes cited on the paperwork.\n\nWhen FBI agents investigated the Watergate break-in, Porter lied about the purpose of the $100,000 in payments he had authorized to Liddy, telling investigators the money was for a legitimate program to infiltrate radical groups that might disrupt Republican campaign events. This was the false cover story that Jeb Stuart Magruder had developed and that Porter agreed to support.\n\nIn January 1974, Porter pleaded guilty to making false statements to the FBI. He was sentenced to five to fifteen months in prison, with all but thirty days suspended, and placed on probation. He served one month. Porter testified before the Senate Watergate Committee and at the subsequent trials, providing testimony about the financial operations of CRP and the cover-up of the political espionage program.\n\nPorter was among the lower-ranking Watergate defendants, a campaign functionary who went along with a cover story devised by his superiors. His case illustrated how the cover-up extended beyond the senior White House staff to encompass mid-level campaign officials who were pressured to lie to protect the re-election effort.',
+ birthDate: '1938',
+ education: ['University of Southern California, BA'],
+ affiliations: [
+ { name: 'Committee to Re-Elect the President', role: 'Scheduling director; authorized payments to G. Gordon Liddy and lied to the FBI about their purpose', type: 'organization' },
+ ],
+ controversies: [
+ 'Authorized approximately $100,000 in CRP payments to G. Gordon Liddy for political espionage activities',
+ 'Lied to FBI agents about the purpose of the Liddy payments, supporting a cover story devised by Jeb Stuart Magruder',
+ 'Pleaded guilty to making false statements to the FBI; served one month of a suspended sentence',
+ 'Participated in the broader Watergate cover-up by helping maintain false accounts of CRP financial activities',
+ 'Testified before the Senate Watergate Committee about CRP operations and the cover-up',
+ ],
+ charges: [
+ { charge: 'Making false statements to the FBI (18 U.S.C. 1001)', status: 'convicted', date: '1974-01', source: 'Pleaded guilty; sentenced to 5-15 months with all but 30 days suspended. Served one month.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1938', event: 'Born' },
+ { date: '1972', event: 'Serves as scheduling director at the Committee to Re-Elect the President' },
+ { date: '1972', event: 'Authorizes payments to G. Gordon Liddy for political espionage; later lies to FBI about their purpose' },
+ { date: 'June 17, 1972', event: 'Watergate break-in; Porter becomes part of the cover-up by supporting Magruder\'s false account' },
+ { date: '1973', event: 'Testifies before the Senate Watergate Committee about CRP financial operations' },
+ { date: 'January 1974', event: 'Pleads guilty to making false statements to the FBI' },
+ { date: '1974', event: 'Sentenced with all but 30 days suspended; serves one month' },
+ ],
+ sources: [
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ { title: 'Fred Emery, Watergate: The Corruption of American Politics and the Fall of Richard Nixon (Times Books, 1994)', date: '1994' },
+ ],
+ knownAssociates: [
+ { name: 'Jeb Stuart Magruder', relationship: 'CRP deputy director who devised the cover story Porter agreed to support', href: '/entities/individuals/jeb-stuart-magruder' },
+ { name: 'G. Gordon Liddy', relationship: 'Received approximately $100,000 in CRP payments authorized by Porter for political espionage', href: '/entities/individuals/g-gordon-liddy' },
+ { name: 'John Mitchell', relationship: 'CRP chairman who oversaw the campaign operations Porter worked within', href: '/entities/individuals/john-mitchell' },
+ ],
+ },
+
  'herman-wallace': {
  name: 'Herman Wallace',
  title: 'Angola 3 member held in solitary for 41 years; released 3 days before his death from liver cancer',

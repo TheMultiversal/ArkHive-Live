@@ -1343,10 +1343,54 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
-
-
-
-
+ 'frederick-larue': {
+ name: 'Frederick C. LaRue',
+ title: 'Nixon Aide Who Managed Watergate Hush Money Payments and Pleaded Guilty to Obstruction',
+ role: 'Nixon campaign and White House adviser who managed the distribution of hush money payments to the Watergate burglars, becoming one of the first Watergate defendants to plead guilty',
+ riskLevel: 'high' as const,
+ description: 'Frederick Cheney LaRue (1928-2004) was a wealthy Mississippi oil man and Nixon political adviser who became a central figure in the Watergate cover-up as the person who managed the distribution of hush money to the Watergate burglars. LaRue served as a special assistant to Attorney General John Mitchell at the Committee to Re-Elect the President (CRP) and was present at key meetings where the Watergate break-in was discussed.\n\nLaRue was present at two meetings in Key Biscayne in late January and February 1972 where G. Gordon Liddy presented his intelligence-gathering plans to Mitchell, John Dean, and Jeb Magruder. After the plans were scaled back, LaRue was aware of the operation\'s existence. Following the arrests at the Watergate on June 17, 1972, LaRue became responsible for managing the cash payments to the burglars to ensure their silence and cooperation.\n\nLaRue distributed approximately $300,000 in cash from a secret CRP fund to the burglars and their attorneys. He worked closely with John Dean and others in the cover-up operation. The hush money payments became one of the most damning elements of the obstruction of justice case against the Nixon administration.\n\nIn June 1973, LaRue became one of the first Watergate defendants to plead guilty, entering a plea to conspiracy to obstruct justice. He cooperated extensively with prosecutors and testified before the Senate Watergate Committee. He was sentenced to six months in federal prison, of which he served four and a half months. LaRue died in 2004.',
+ birthDate: 'October 17, 1928',
+ deathDate: 'July 24, 2004',
+ education: [],
+ affiliations: [
+ { name: 'Committee to Re-Elect the President', role: 'Special assistant to John Mitchell; managed the distribution of approximately $300,000 in hush money to Watergate burglars', type: 'organization' },
+ ],
+ controversies: [
+ 'Managed the distribution of approximately $300,000 in hush money payments to the Watergate burglars and their attorneys',
+ 'Present at meetings where G. Gordon Liddy presented intelligence-gathering plans to Mitchell, Dean, and Magruder',
+ 'Played a central role in the financial cover-up that became one of the most damning elements of the Watergate obstruction case',
+ 'Pleaded guilty to conspiracy to obstruct justice; was one of the first Watergate defendants to cooperate with prosecutors',
+ 'Testified before the Senate Watergate Committee about the cover-up operations',
+ ],
+ charges: [
+ { charge: 'Conspiracy to obstruct justice', status: 'convicted', date: '1973-06', source: 'Pleaded guilty; sentenced to six months, served four and a half months.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'October 17, 1928', event: 'Born' },
+ { date: '1971-1972', event: 'Serves as special assistant to Attorney General John Mitchell at CRP' },
+ { date: 'January-February 1972', event: 'Present at Key Biscayne meetings where Liddy presents intelligence-gathering plans' },
+ { date: 'June 17, 1972', event: 'Watergate burglars arrested; LaRue becomes involved in the cover-up' },
+ { date: 'June 1972 - early 1973', event: 'Manages distribution of approximately $300,000 in hush money to burglars and their attorneys' },
+ { date: 'June 1973', event: 'Pleads guilty to conspiracy to obstruct justice; cooperates with prosecutors' },
+ { date: '1973-1974', event: 'Testifies before the Senate Watergate Committee' },
+ { date: '1974', event: 'Sentenced to six months; serves four and a half months in federal prison' },
+ { date: 'July 24, 2004', event: 'Dies at age 75' },
+ ],
+ sources: [
+ { title: 'Jim Newton, "Frederick LaRue, 75; Nixon Aide Managed Hush Money," Los Angeles Times (July 28, 2004)', date: '2004' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'John Mitchell', relationship: 'Attorney General and CRP chairman whom LaRue served as special assistant', href: '/entities/individuals/john-mitchell' },
+ { name: 'John Dean', relationship: 'White House Counsel who coordinated with LaRue on the cover-up operations', href: '/entities/individuals/john-dean' },
+ { name: 'Jeb Stuart Magruder', relationship: 'CRP deputy director who was present at planning meetings with LaRue', href: '/entities/individuals/jeb-stuart-magruder' },
+ { name: 'Richard Nixon', relationship: 'President whose re-election campaign LaRue served and whose cover-up he facilitated', href: '/entities/individuals/richard-nixon' },
+ ],
+ },
 
 
 
@@ -1505,6 +1549,58 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Oscar Danilo Blandon', relationship: 'CIA-connected supplier who sold Ross cocaine', href: '/entities/individuals/oscar-danilo-blandon' },
  { name: 'Norwin Meneses', relationship: 'Nicaraguan drug lord in CIA-Contra pipeline to Ross', href: '/entities/individuals/norwin-meneses' },
  { name: 'Gary Webb', relationship: 'Journalist who exposed CIA-Contra-Ross drug connection', href: '/entities/individuals/gary-webb' },
+ ],
+ },
+
+ 'frank-sturgis': {
+ name: 'Frank Sturgis',
+ title: 'Anti-Castro Operative and Watergate Burglar with Deep Intelligence Community Ties',
+ role: 'Anti-Castro militant with alleged CIA connections who was one of the five burglars arrested inside the DNC headquarters at the Watergate complex',
+ riskLevel: 'high' as const,
+ description: 'Frank Angelo Fiorini, known as Frank Sturgis (1924-1993), was an American soldier of fortune, anti-Castro militant, and alleged intelligence operative who was one of the five men arrested inside the Democratic National Committee headquarters at the Watergate complex on June 17, 1972. Sturgis had one of the most colorful and controversial backgrounds of any Watergate figure, with connections spanning the CIA, anti-Castro Cuban exile groups, and organized crime.\n\nSturgis served in the U.S. Marine Corps and Army during World War II and the Korean War. He initially supported Fidel Castro\'s revolution, running guns to the rebels and briefly serving as a security official in the new government before turning against Castro and becoming one of the most active anti-Castro operatives in southern Florida. He participated in numerous anti-Castro raids and plots throughout the early 1960s and was repeatedly linked to CIA operations, though the precise nature and extent of his agency relationship remains disputed.\n\nSturgis was recruited for the Watergate break-in by Bernard Barker and E. Howard Hunt. Like the Cuban exile members of the team, Sturgis reportedly believed the operation was related to national security rather than domestic political espionage. He was arrested alongside Barker, Virgilio Gonzalez, Eugenio Martinez, and James McCord inside the DNC offices.\n\nSturgis pleaded guilty to conspiracy, burglary, and wiretapping in January 1973 and was sentenced to one to four years in prison. He served approximately 14 months. After his release, Sturgis became the subject of intense speculation about his potential involvement in other covert operations, including the assassination of John F. Kennedy, though no credible evidence supported these theories. He died in 1993.',
+ birthDate: 'December 9, 1924',
+ birthPlace: 'Norfolk, Virginia',
+ deathDate: 'December 4, 1993',
+ education: [],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'Alleged operative; participated in numerous anti-Castro operations with suspected CIA backing from the early 1960s', type: 'agency' },
+ { name: 'Committee to Re-Elect the President', role: 'Unwitting operative; recruited by Barker and Hunt for the DNC break-in', type: 'organization' },
+ ],
+ controversies: [
+ 'One of five burglars arrested inside the DNC headquarters at the Watergate complex on June 17, 1972',
+ 'Had extensive connections to anti-Castro Cuban exile groups, the CIA, and alleged organized crime figures in southern Florida',
+ 'Initially supported the Castro revolution before becoming one of the most active anti-Castro operatives in the exile community',
+ 'Pleaded guilty to conspiracy, burglary, and wiretapping; served approximately 14 months in prison',
+ 'Was the subject of intense speculation about involvement in other covert operations, including JFK assassination conspiracy theories',
+ 'Recruited alongside Cuban exiles for what he reportedly believed was a national security operation, not domestic political espionage',
+ ],
+ charges: [
+ { charge: 'Conspiracy, burglary, and wiretapping', status: 'convicted', date: '1973-01', source: 'Pleaded guilty; sentenced to 1-4 years, served approximately 14 months.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'December 9, 1924', event: 'Born as Frank Angelo Fiorini in Norfolk, Virginia' },
+ { date: '1942-1945', event: 'Serves in the U.S. Marine Corps during World War II' },
+ { date: 'Late 1950s', event: 'Runs guns to Castro\'s rebels; briefly serves as a security official in the new Cuban government' },
+ { date: '1959', event: 'Turns against Castro and becomes active in anti-Castro exile operations in southern Florida' },
+ { date: '1960s', event: 'Participates in numerous anti-Castro raids and plots with suspected CIA backing' },
+ { date: 'June 17, 1972', event: 'Arrested with four others inside the DNC headquarters at the Watergate complex' },
+ { date: 'January 1973', event: 'Pleads guilty to conspiracy, burglary, and wiretapping' },
+ { date: '1973-1974', event: 'Serves approximately 14 months in prison' },
+ { date: 'December 4, 1993', event: 'Dies at age 68' },
+ ],
+ sources: [
+ { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'Bernard Barker', relationship: 'Fellow Watergate burglar and Cuban exile operative who helped recruit Sturgis', href: '/entities/individuals/bernard-barker' },
+ { name: 'E. Howard Hunt', relationship: 'Former CIA officer who organized the Watergate break-in team', href: '/entities/individuals/e-howard-hunt' },
+ { name: 'Virgilio Gonzalez', relationship: 'Fellow Watergate burglar; Cuban exile locksmith on the break-in team', href: '/entities/individuals/virgilio-gonzalez' },
+ { name: 'Eugenio Martinez', relationship: 'Fellow Watergate burglar and active CIA informant', href: '/entities/individuals/eugenio-martinez' },
  ],
  },
 

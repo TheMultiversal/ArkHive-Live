@@ -5033,6 +5033,53 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'donald-segretti': {
+ name: 'Donald H. Segretti',
+ title: 'Nixon Campaign Dirty Tricks Operative Convicted of Campaign Law Violations',
+ role: 'Attorney recruited by the Nixon White House to conduct political sabotage and dirty tricks against Democratic candidates during the 1972 presidential campaign',
+ riskLevel: 'medium' as const,
+ description: 'Donald Henry Segretti (born 1941) was a young attorney recruited by Nixon White House appointments secretary Dwight Chapin and personal attorney Herbert Kalmbach to conduct a campaign of political sabotage and "dirty tricks" against Democratic presidential candidates during the 1972 primary season. Segretti\'s operation, funded with Nixon campaign cash, involved forging letters, disrupting campaign events, planting false stories, and sowing discord among Democratic candidates.\n\nSegretti\'s most notorious dirty trick was the "Canuck letter," a forged letter published in the Manchester Union Leader in February 1972 that falsely attributed a slur against French-Canadians to Democratic frontrunner Edmund Muskie. The letter contributed to Muskie\'s emotional breakdown at a press conference outside the newspaper\'s offices, which effectively ended his presidential campaign. Segretti also distributed fake campaign literature, hired agents to infiltrate Democratic campaigns, and organized fake demonstrations.\n\nSegretti recruited approximately 28 operatives across 12 states for his dirty tricks campaign. He was paid approximately $45,000 from Nixon campaign funds channeled through Herbert Kalmbach. When the Watergate investigation expanded beyond the break-in itself, Segretti\'s sabotage operation was exposed by Washington Post reporters Bob Woodward and Carl Bernstein.\n\nIn October 1973, Segretti pleaded guilty to three counts of distributing illegal campaign literature and was sentenced to six months in federal prison, of which he served four and a half months. After his release, Segretti returned to private law practice in California.',
+ birthDate: '1941',
+ education: ['University of Southern California, BA', 'University of California, Berkeley, School of Law, JD'],
+ affiliations: [
+ { name: 'Committee to Re-Elect the President', role: 'Covert sabotage operative funded with CRP cash through Herbert Kalmbach; ran a network of approximately 28 agents across 12 states', type: 'organization' },
+ ],
+ controversies: [
+ 'Conducted a systematic campaign of political sabotage and dirty tricks against Democratic presidential candidates during the 1972 primaries',
+ 'Responsible for or involved in the forged "Canuck letter" that contributed to the destruction of Edmund Muskie\'s presidential campaign',
+ 'Recruited approximately 28 operatives across 12 states to infiltrate Democratic campaigns, forge documents, and disrupt events',
+ 'Paid approximately $45,000 from Nixon campaign funds laundered through Herbert Kalmbach',
+ 'Distributed fake campaign literature designed to sow discord among Democratic candidates and damage their reputations',
+ 'Convicted of three counts of distributing illegal campaign literature; served four and a half months in federal prison',
+ ],
+ charges: [
+ { charge: 'Distributing illegal campaign literature (3 counts)', status: 'convicted', date: '1973-10', source: 'Pleaded guilty; sentenced to six months, served four and a half months.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1941', event: 'Born' },
+ { date: '1971', event: 'Recruited by Dwight Chapin and Herbert Kalmbach to run political sabotage operations against Democratic candidates' },
+ { date: '1971-1972', event: 'Recruits approximately 28 operatives across 12 states; begins dirty tricks campaign' },
+ { date: 'February 1972', event: 'The forged "Canuck letter" is published, contributing to the destruction of Edmund Muskie\'s presidential campaign' },
+ { date: '1972', event: 'Distributes fake campaign literature and organizes disruptions throughout the Democratic primary season' },
+ { date: 'October 1972', event: 'Exposed by Washington Post reporters Woodward and Bernstein as a Nixon campaign operative' },
+ { date: 'October 1973', event: 'Pleads guilty to three counts of distributing illegal campaign literature' },
+ { date: '1974', event: 'Sentenced to six months in federal prison; serves four and a half months' },
+ ],
+ sources: [
+ { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'Dwight Chapin', relationship: 'Nixon White House appointments secretary who recruited Segretti for the dirty tricks campaign', href: '/entities/individuals/dwight-chapin' },
+ { name: 'Herbert Kalmbach', relationship: 'Nixon\'s personal attorney who channeled campaign funds to pay Segretti', href: '/entities/individuals/herbert-kalmbach' },
+ { name: 'Richard Nixon', relationship: 'President whose re-election campaign funded Segretti\'s sabotage operations', href: '/entities/individuals/richard-nixon' },
+ ],
+ },
+
  'donald-vidrine': {
  name: 'Donald Vidrine',
  title: 'BP well site leader who approved proceeding despite failed negative pressure test',
@@ -5266,6 +5313,53 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+ 'dwight-chapin': {
+ name: 'Dwight L. Chapin',
+ title: 'Nixon White House Aide Convicted of Perjury for Lying About Dirty Tricks Campaign',
+ role: 'Nixon White House appointments secretary who recruited Donald Segretti to run a political sabotage campaign and was convicted of making false declarations to a grand jury',
+ riskLevel: 'medium' as const,
+ description: 'Dwight Lee Chapin (born 1940) served as appointments secretary to President Richard Nixon, a position that gave him regular personal access to the president. Despite the relatively modest title, Chapin was an influential member of Nixon\'s inner circle who played a key role in one of the most consequential aspects of the Watergate scandal: the campaign of political dirty tricks against Democratic presidential candidates.\n\nChapin, together with Nixon\'s personal attorney Herbert Kalmbach, recruited Donald Segretti to lead a covert campaign of political sabotage during the 1972 Democratic primaries. Segretti\'s operation involved forging letters, planting false stories, disrupting campaign events, and sowing discord among Democratic candidates. The most damaging operation was the forged "Canuck letter" that helped destroy Edmund Muskie\'s presidential campaign.\n\nWhen the dirty tricks campaign was exposed by Washington Post reporters Bob Woodward and Carl Bernstein in October 1972, Chapin left the White House in January 1973. He was subsequently called before a federal grand jury investigating the Watergate scandal. In April 1974, Chapin was convicted of two counts of making false declarations to the grand jury regarding his knowledge of and involvement in the political espionage and sabotage activities. He was sentenced to 10 to 30 months in federal prison and served approximately eight months.\n\nAfter his release, Chapin pursued a career in the private sector, eventually becoming an executive at W.R. Grace and Company and later founding a communications consulting firm.',
+ birthDate: 'December 2, 1940',
+ education: ['University of Southern California, BA'],
+ affiliations: [
+ { name: 'Nixon White House', role: 'Appointments Secretary to the President (1969-1973); recruited and supervised the dirty tricks campaign against Democratic candidates', type: 'agency' },
+ ],
+ controversies: [
+ 'Recruited Donald Segretti to conduct a campaign of political sabotage and dirty tricks against Democratic presidential candidates',
+ 'Together with Herbert Kalmbach, arranged for Nixon campaign funds to pay Segretti approximately $45,000 for the sabotage operation',
+ 'The dirty tricks campaign he organized contributed to the destruction of Edmund Muskie\'s presidential candidacy through forged letters and planted stories',
+ 'Made false statements to a federal grand jury about his knowledge of and involvement in political espionage activities',
+ 'Convicted of two counts of making false declarations to a grand jury; served approximately eight months in federal prison',
+ ],
+ charges: [
+ { charge: 'Making false declarations to a grand jury (2 counts)', status: 'convicted', date: '1974-04', source: 'Convicted; sentenced to 10-30 months, served approximately eight months.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'December 2, 1940', event: 'Born' },
+ { date: '1969', event: 'Joins the Nixon White House as appointments secretary to the president' },
+ { date: '1971', event: 'Recruits Donald Segretti, with Herbert Kalmbach, to run a dirty tricks campaign against Democratic candidates' },
+ { date: '1972', event: 'Segretti\'s sabotage operations run throughout the Democratic primaries' },
+ { date: 'October 1972', event: 'Dirty tricks campaign exposed by Woodward and Bernstein at the Washington Post' },
+ { date: 'January 1973', event: 'Leaves the White House as the scandal expands' },
+ { date: 'April 1974', event: 'Convicted of two counts of making false declarations to a grand jury' },
+ { date: '1974-1975', event: 'Serves approximately eight months in federal prison' },
+ ],
+ sources: [
+ { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'Donald Segretti', relationship: 'USC classmate whom Chapin recruited to run the dirty tricks campaign', href: '/entities/individuals/donald-segretti' },
+ { name: 'Herbert Kalmbach', relationship: 'Nixon\'s personal attorney who co-arranged the funding for Segretti\'s operations', href: '/entities/individuals/herbert-kalmbach' },
+ { name: 'H.R. Haldeman', relationship: 'Nixon Chief of Staff and Chapin\'s direct superior in the White House', href: '/entities/individuals/h-r-haldeman' },
+ { name: 'Richard Nixon', relationship: 'President whom Chapin served as appointments secretary', href: '/entities/individuals/richard-nixon' },
+ ],
+ },
 
  'dwight-d-eisenhower': {
  name: 'Dwight D. Eisenhower',

@@ -2675,6 +2675,60 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'charles-colson': {
+ name: 'Charles W. Colson',
+ title: 'Nixon\'s "Hatchet Man" Who Pleaded Guilty to Obstructing Justice in Watergate',
+ role: 'Special Counsel to President Nixon known as his political "hatchet man" who pleaded guilty to obstruction of justice for efforts to defame Pentagon Papers leaker Daniel Ellsberg',
+ riskLevel: 'high' as const,
+ description: 'Charles Wendell Colson (1931-2012) served as Special Counsel to President Richard Nixon from 1969 to 1973 and was widely regarded as one of the most ruthless political operatives in the Nixon White House. Known as Nixon\'s "hatchet man," Colson was responsible for developing the administration\'s "enemies list" and orchestrating aggressive political tactics against perceived opponents.\n\nColson was deeply involved in the political dirty tricks and cover-up operations that defined the Watergate era. He helped recruit E. Howard Hunt into the White House Special Investigations Unit (the "Plumbers"), and he was involved in efforts to discredit Daniel Ellsberg after Ellsberg leaked the Pentagon Papers. Colson proposed firebombing the Brookings Institution to retrieve documents he believed were damaging to the administration, though the plan was never carried out.\n\nIn June 1974, Colson pleaded guilty to obstruction of justice in connection with the effort to defame Daniel Ellsberg, specifically for devising a scheme to influence the outcome of Ellsberg\'s trial. He was sentenced to one to three years in prison and served seven months at Maxwell Federal Prison in Alabama.\n\nDuring his imprisonment, Colson experienced a religious conversion and founded Prison Fellowship Ministries in 1976, which became the largest prison outreach program in the world. He spent the rest of his career as an evangelical Christian leader and prison reform advocate. Colson died in 2012 at age 80.',
+ birthDate: 'October 16, 1931',
+ birthPlace: 'Boston, Massachusetts',
+ deathDate: 'April 21, 2012',
+ education: ['Brown University, BA (1953)', 'George Washington University Law School, JD (1959)'],
+ affiliations: [
+ { name: 'Nixon White House', role: 'Special Counsel to the President (1969-1973); chief political operative responsible for the enemies list and aggressive tactics', type: 'agency' },
+ { name: 'Prison Fellowship Ministries', role: 'Founder (1976); established the world\'s largest prison outreach program after his own incarceration', type: 'organization' },
+ ],
+ controversies: [
+ 'Developed the Nixon administration\'s "enemies list" targeting political opponents, journalists, and activists for government harassment',
+ 'Helped recruit E. Howard Hunt into the White House Plumbers unit that carried out the Ellsberg psychiatrist office burglary and later the Watergate break-in',
+ 'Proposed firebombing the Brookings Institution to retrieve documents he believed were damaging to the Nixon administration',
+ 'Pleaded guilty to obstruction of justice for devising a scheme to defame Daniel Ellsberg and influence the outcome of his trial',
+ 'Served seven months in federal prison after being sentenced to one to three years',
+ 'Was widely considered the most ruthless political operative in the Nixon White House, willing to "walk over his own grandmother" in Nixon\'s service',
+ ],
+ charges: [
+ { charge: 'Obstruction of justice (defaming Daniel Ellsberg to influence his trial)', status: 'convicted', date: '1974-06', source: 'Pleaded guilty; sentenced to 1-3 years, served 7 months at Maxwell Federal Prison.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'October 16, 1931', event: 'Born in Boston, Massachusetts' },
+ { date: '1953', event: 'Graduates from Brown University' },
+ { date: '1959', event: 'Receives JD from George Washington University Law School' },
+ { date: '1969', event: 'Joins the Nixon White House as Special Counsel to the President' },
+ { date: '1971', event: 'Helps recruit E. Howard Hunt into the White House Plumbers; develops the enemies list' },
+ { date: '1971', event: 'Proposes firebombing the Brookings Institution to retrieve sensitive documents' },
+ { date: 'March 1973', event: 'Leaves the White House as the Watergate scandal intensifies' },
+ { date: 'June 1974', event: 'Pleads guilty to obstruction of justice related to the Ellsberg case' },
+ { date: '1974-1975', event: 'Serves seven months at Maxwell Federal Prison; undergoes religious conversion' },
+ { date: '1976', event: 'Founds Prison Fellowship Ministries' },
+ { date: 'April 21, 2012', event: 'Dies at age 80' },
+ ],
+ sources: [
+ { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Charles Colson, Born Again (Chosen Books, 1976)', date: '1976' },
+ ],
+ knownAssociates: [
+ { name: 'Richard Nixon', relationship: 'President whom Colson served as Special Counsel and chief political operative', href: '/entities/individuals/richard-nixon' },
+ { name: 'E. Howard Hunt', relationship: 'Former CIA officer whom Colson helped recruit into the White House Plumbers', href: '/entities/individuals/e-howard-hunt' },
+ { name: 'H.R. Haldeman', relationship: 'Nixon\'s Chief of Staff; fellow senior White House aide in the Watergate conspiracy', href: '/entities/individuals/h-r-haldeman' },
+ { name: 'John Dean', relationship: 'White House Counsel who cooperated with prosecutors; fellow Watergate defendant', href: '/entities/individuals/john-dean' },
+ ],
+ },
+
  'charles-davenport': {
  name: 'Charles Davenport',
  title: 'Founded Eugenics Record Office at Cold Spring Harbor, architect of American eugenics',

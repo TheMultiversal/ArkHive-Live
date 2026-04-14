@@ -5,7 +5,7 @@ const profiles: Record<string, IndividualProfile> = {
  'roger-stone': {
  name: 'Roger Jason Stone Jr.',
  title: 'Convicted Felon (Pardoned), Professional Dirty Trickster',
- role: 'Political Consultant, Trump Advisor, Nixon ProtÃƒÂ©gÃƒÂ©',
+ role: 'Political Consultant, Trump Advisor, Nixon ProtÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©',
  riskLevel: 'critical',
  description: 'Roger Jason Stone Jr. is a longtime Republican political consultant, lobbyist, and self-described dirty trickster who served as a key ally to Donald Trump. He was convicted of seven felonies including witness tampering and lying to Congress about his WikiLeaks contacts during the 2016 campaign, then pardoned by Trump. He had documented contacts with the Proud Boys and Oath Keepers before January 6th.',
  birthDate: 'August 27, 1952',
@@ -35,9 +35,9 @@ const profiles: Record<string, IndividualProfile> = {
  'LOBBYING DICTATORS: Black Manafort Stone lobbied for dictators including Marcos (Philippines), Mobutu (Zaire), Angola rebels',
  ],
  charges: [
- { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
- { statute: '18 U.S.C. Ã‚Â§ 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
- { statute: '18 U.S.C. Ã‚Â§ 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -115,13 +115,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Testified about Manafort tax and bank fraud',
  ],
  charges: [
- { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy Against the United States (Pled Guilty); Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
- { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Making False Statements (Pled Guilty); Lied to investigators about contacts and transactions', category: 'Obstruction' },
- { statute: '22 U.S.C. Ã‚Â§ 611 (FARA)', description: 'Foreign Agent Registration Act Violation; Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
- { statute: '26 U.S.C. Ã‚Â§ 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy; Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
- { statute: '18 U.S.C. Ã‚Â§ 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy; Helped submit false loan applications to banks', category: 'Bank Fraud' },
- { statute: '31 U.S.C. Ã‚Â§ 5314 (FBAR)', description: 'Foreign Account Reporting Violations; Failed to report foreign bank accounts', category: 'Financial Crime' },
- { statute: '18 U.S.C. Ã‚Â§ 1956 (Money Laundering)', description: 'Money Laundering Conspiracy; Moved Ukraine payments through shell companies', category: 'Money Laundering' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy Against the United States (Pled Guilty); Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1001', description: 'Making False Statements (Pled Guilty); Lied to investigators about contacts and transactions', category: 'Obstruction' },
+ { statute: '22 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 611 (FARA)', description: 'Foreign Agent Registration Act Violation; Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
+ { statute: '26 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy; Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy; Helped submit false loan applications to banks', category: 'Bank Fraud' },
+ { statute: '31 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 5314 (FBAR)', description: 'Foreign Account Reporting Violations; Failed to report foreign bank accounts', category: 'Financial Crime' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1956 (Money Laundering)', description: 'Money Laundering Conspiracy; Moved Ukraine payments through shell companies', category: 'Money Laundering' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -353,12 +353,12 @@ const profiles: Record<string, IndividualProfile> = {
  'More publicly active than reclusive father',
  ],
  charges: [
- { statute: '18 U.S.C. Ã‚Â§ 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure; Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
- { statute: '52 U.S.C. Ã‚Â§ 30121 (Foreign National Contributions)', description: 'Foreign Coordination; Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
- { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; As board member, oversaw company that committed serious data protection breaches (fined Ã‚Â£500,000)', category: 'International Law' },
- { statute: '18 U.S.C. Ã‚Â§ 371 (Conspiracy)', description: 'Conspiracy to Defraud US; Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
- { statute: '52 U.S.C. Ã‚Â§ 30104 (Disclosure)', description: 'Dark Money Concerns; Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
- { statute: '18 U.S.C. Ã‚Â§ 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure; Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
+ { statute: '52 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 30121 (Foreign National Contributions)', description: 'Foreign Coordination; Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
+ { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; As board member, oversaw company that committed serious data protection breaches (fined ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£500,000)', category: 'International Law' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371 (Conspiracy)', description: 'Conspiracy to Defraud US; Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
+ { statute: '52 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 30104 (Disclosure)', description: 'Dark Money Concerns; Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -532,12 +532,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Bought investment in Trump-connected company',
  ],
  charges: [
- { statute: '18 U.S.C. Ã‚Â§ 1014', description: 'Potential Bank Fraud; Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
- { statute: '18 U.S.C. Ã‚Â§ 1344', description: 'Potential Bank Fraud Scheme; Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
- { statute: '31 U.S.C. Ã‚Â§ 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations; Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1014', description: 'Potential Bank Fraud; Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1344', description: 'Potential Bank Fraud Scheme; Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
+ { statute: '31 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations; Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
  { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations; Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
- { statute: '18 U.S.C. Ã‚Â§ 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
- { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Potential Conspiracy; Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Potential Conspiracy; Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
  { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations; Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
  ],
  relatedInvestigations: [
@@ -882,6 +882,78 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 
+
+ 'robert-mardian': {
+ name: 'Robert Mardian',
+ title: 'Former Assistant Attorney General',
+ role: 'Watergate Conspirator, Political Intelligence Coordinator',
+ riskLevel: 'high',
+ description: 'Robert Charles Mardian served as Assistant Attorney General for the Internal Security Division under the Nixon administration and later became political coordinator for the Committee to Re-elect the President (CRP). As head of Internal Security, Mardian oversaw the government\'s domestic surveillance programs including wiretaps authorized by the White House without court orders. When he moved to CRP, he became a key figure in the cover-up, receiving classified wiretap records from FBI Director L. Patrick Gray and allegedly helping to destroy them. Mardian was one of five defendants in the landmark Watergate cover-up trial of United States v. Mitchell (1974), where he was convicted of conspiracy to obstruct justice. However, his conviction was overturned on appeal in 1977 because his lawyer had become ill during trial, depriving him of effective representation. Rather than face retrial, prosecutors allowed the case to be dismissed. Before Watergate, Mardian had been a prominent Arizona Republican activist and had supervised the government\'s prosecution of the Pentagon Papers case and monitored anti-Vietnam War protesters. His role bridged the Nixon administration\'s legitimate law enforcement functions with its illegal political surveillance operations.',
+ birthDate: 'October 22, 1923',
+ deathDate: 'July 17, 2006',
+ birthPlace: 'Pasadena, California, USA',
+ education: ['B.S., University of Southern California', 'J.D., University of Southern California Law School'],
+ affiliations: [
+ { name: 'U.S. Department of Justice', role: 'Assistant Attorney General, Internal Security Division (1970-1972)', type: 'agency' },
+ { name: 'Committee to Re-elect the President', role: 'Political Coordinator (1972)', type: 'organization' },
+ { name: 'Mardian & Mardian Construction', role: 'Family business, Arizona', type: 'corporation' },
+ { name: 'Arizona Republican Party', role: 'State Chairman (1960s)', type: 'organization' },
+ ],
+ controversies: [
+ 'DOMESTIC SURVEILLANCE: As Assistant AG for Internal Security, oversaw warrantless wiretapping programs targeting anti-war activists, journalists, and political opponents',
+ 'WIRETAP RECORDS DESTRUCTION: Received classified wiretap logs from FBI Director L. Patrick Gray and allegedly participated in their destruction to conceal illegal surveillance',
+ 'WATERGATE COVER-UP: Served as intermediary between CRP and White House during cover-up, helping coordinate strategy to conceal involvement in the break-in',
+ 'PENTAGON PAPERS PROSECUTION: Supervised government case against Daniel Ellsberg, which was later dismissed due to government misconduct',
+ 'POLITICAL SURVEILLANCE: Coordinated political intelligence gathering at CRP that blurred lines between legitimate campaign activity and illegal espionage',
+ 'COINTELPRO KNOWLEDGE: Had oversight of domestic intelligence operations that intersected with FBI\'s COINTELPRO activities against civil rights and anti-war movements',
+ 'COVER-UP TRIAL: Convicted alongside Mitchell, Haldeman, and Ehrlichman in the Watergate cover-up trial, one of the highest-profile political trials in American history',
+ 'APPEAL REVERSAL: Conviction overturned not on merits but on procedural grounds (attorney illness), leaving questions about full accountability unresolved',
+ ],
+ charges: [
+ { statute: '18 U.S.C. 371', description: 'Conspiracy to Obstruct Justice; Participated in concealing Watergate involvement', category: 'Federal' },
+ { statute: '18 U.S.C. 1503', description: 'Obstruction of Justice; Actions to impede Watergate investigation', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate Scandal', slug: 'watergate', severity: 'critical' },
+ { title: 'Nixon Administration Surveillance', slug: 'nixon-surveillance', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'October 22, 1923', event: 'Born in Pasadena, California to Armenian-American family' },
+ { date: '1950s', event: 'Joins family construction business, becomes active in Arizona Republican politics' },
+ { date: '1964', event: 'Works on Barry Goldwater presidential campaign' },
+ { date: '1969', event: 'Appointed general counsel to Department of Health, Education and Welfare' },
+ { date: '1970', event: 'Becomes Assistant Attorney General for Internal Security Division' },
+ { date: '1970-1972', event: 'Oversees domestic surveillance programs, wiretaps on journalists and activists' },
+ { date: 'Early 1972', event: 'Transitions to Committee to Re-elect the President as political coordinator' },
+ { date: 'June 17, 1972', event: 'Watergate break-in occurs; becomes involved in cover-up discussions' },
+ { date: 'Summer 1972', event: 'Receives and allegedly helps destroy classified wiretap records from FBI Director Gray' },
+ { date: 'March 1, 1974', event: 'Indicted by Watergate grand jury alongside Mitchell, Haldeman, Ehrlichman, and others' },
+ { date: 'October 1974', event: 'Watergate cover-up trial begins before Judge Sirica' },
+ { date: 'January 1, 1975', event: 'Found guilty of conspiracy to obstruct justice' },
+ { date: '1977', event: 'Conviction reversed by U.S. Court of Appeals due to attorney\'s illness during trial' },
+ { date: '1977', event: 'Government declines to retry; case dismissed' },
+ { date: 'Post-Watergate', event: 'Returns to Arizona, resumes private law practice and business' },
+ { date: 'July 17, 2006', event: 'Dies in Orange County, California at age 82' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'United States v. Mitchell - Watergate Cover-up Trial Records', url: 'https://www.justice.gov/archives/jm/watergate-special-prosecution-force', date: '1974-1975' },
+ { title: 'Watergate Special Prosecution Force Report', url: 'https://www.archives.gov/research/investigations/watergate', date: '1975' },
+ { title: 'New York Times Obituary: Robert C. Mardian', url: 'https://www.nytimes.com/2006/07/20/washington/20mardian.html', date: '2006' },
+ { title: 'Senate Watergate Committee Final Report', url: 'https://www.senate.gov/about/powers-procedures/investigations/watergate.htm', date: '1974' },
+ { title: 'Appeals Court Reversal Decision', url: 'https://scholar.google.com/scholar?q=United+States+v.+Mardian+appeal+watergate', date: '1977' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'John Mitchell', relationship: 'Attorney General and CRP director, co-defendant at trial', href: '/entities/individuals/john-mitchell' },
+ { name: 'H.R. Haldeman', relationship: 'Co-defendant in Watergate cover-up trial', href: '/entities/individuals/h-r-haldeman' },
+ { name: 'John Ehrlichman', relationship: 'Co-defendant in Watergate cover-up trial', href: '/entities/individuals/john-ehrlichman' },
+ { name: 'L. Patrick Gray', relationship: 'FBI Director who passed wiretap records to Mardian', href: '/entities/individuals/l-patrick-gray' },
+ { name: 'Richard Nixon', relationship: 'President whose administration Mardian served', href: '/entities/individuals/richard-nixon' },
+ ],
+ },
+
  'robert-maxwell': {
  name: 'Robert Maxwell',
  title: 'Profile Under Review',
@@ -905,6 +977,79 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+
+ 
+
+ 'richard-kleindienst': {
+ name: 'Richard Kleindienst',
+ title: 'Former United States Attorney General',
+ role: 'Watergate Figure, First Attorney General Convicted of a Crime',
+ riskLevel: 'high',
+ description: 'Richard Gordon Kleindienst served as the 68th Attorney General of the United States under President Richard Nixon from June 1972 to April 1973, making him the chief law enforcement officer during the critical early months of the Watergate scandal. Kleindienst had previously served as Deputy Attorney General under John Mitchell and was confirmed as AG only after contentious Senate hearings where he was questioned about the administration\'s settlement of an antitrust case against ITT Corporation in exchange for a campaign contribution. He resigned under pressure on April 30, 1973, the same day Nixon fired John Dean and accepted the resignations of H.R. Haldeman and John Ehrlichman in the "Saturday Night Massacre" precursor known as the "Monday Night Massacre." Kleindienst became the first Attorney General in U.S. history to be convicted of a crime when he pleaded guilty to a misdemeanor charge of refusing to testify accurately before a Senate committee about the ITT affair. He had told senators that no one at the White House had contacted him about the ITT case, when in fact Nixon had personally called him and ordered him to drop the appeal. He received a suspended sentence of 30 days and a  fine, prompting critics to decry the light punishment. His case illustrated how political loyalty corrupted the Justice Department\'s independence during the Nixon era.',
+ birthDate: 'August 5, 1923',
+ deathDate: 'February 3, 2000',
+ birthPlace: 'Winslow, Arizona, USA',
+ education: ['B.A., Harvard University (1947)', 'LL.B., Harvard Law School (1950)'],
+ affiliations: [
+ { name: 'U.S. Department of Justice', role: 'Attorney General (1972-1973); Deputy AG (1969-1972)', type: 'agency' },
+ { name: 'Arizona Republican Party', role: 'State Chairman', type: 'organization' },
+ { name: 'Jennings, Strouss & Salmon', role: 'Private law practice, Phoenix', type: 'corporation' },
+ { name: 'Barry Goldwater Campaign', role: 'National Director of Field Operations (1964)', type: 'organization' },
+ ],
+ controversies: [
+ 'ITT SCANDAL: Lied to Senate Judiciary Committee about White House interference in ITT antitrust settlement tied to ,000 Republican convention pledge',
+ 'PERJURY BEFORE SENATE: Testified no one at the White House contacted him about ITT case when Nixon personally called and ordered him to drop the antitrust appeal',
+ 'FIRST AG CONVICTED: Became first sitting or former Attorney General convicted of a crime in U.S. history, a milestone in government corruption',
+ 'WATERGATE RECUSAL FAILURE: As Attorney General during Watergate\'s early months, failed to ensure aggressive investigation of the break-in',
+ 'NIXON PHONE CALL: Received direct order from President Nixon to drop ITT appeal, capitulated to presidential pressure undermining DOJ independence',
+ 'LIGHT SENTENCE: Received only a suspended 30-day sentence and  fine for lying to Congress, criticized as enabling future government dishonesty',
+ 'CONFIRMATION HEARINGS: Senate confirmation as AG was deeply contentious, with allegations of the ITT quid pro quo nearly derailing nomination',
+ 'RESIGNATION TIMING: Resigned same day as Haldeman and Ehrlichman, part of Nixon\'s desperate attempt to contain the Watergate scandal',
+ ],
+ charges: [
+ { statute: '2 U.S.C. 192', description: 'Refusal to Answer Pertinent Questions Before Senate Committee; Misled Senate Judiciary Committee about White House contact regarding ITT case', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate Scandal', slug: 'watergate', severity: 'critical' },
+ { title: 'ITT Antitrust Scandal', slug: 'itt-antitrust', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'August 5, 1923', event: 'Born in Winslow, Arizona' },
+ { date: '1943-1946', event: 'Serves in U.S. Army Air Forces during World War II' },
+ { date: '1947', event: 'Graduates from Harvard University' },
+ { date: '1950', event: 'Earns law degree from Harvard Law School' },
+ { date: '1950s-1960s', event: 'Practices law in Phoenix, becomes active in Arizona Republican politics' },
+ { date: '1964', event: 'Serves as national director of field operations for Barry Goldwater presidential campaign' },
+ { date: 'January 1969', event: 'Appointed Deputy Attorney General under John Mitchell' },
+ { date: '1971', event: 'Nixon calls Kleindienst directly, orders him to drop ITT antitrust appeal' },
+ { date: 'February 1972', event: 'Nominated as Attorney General to replace Mitchell' },
+ { date: 'March 1972', event: 'Testifies before Senate Judiciary Committee, denies any White House contact on ITT case' },
+ { date: 'June 12, 1972', event: 'Confirmed as Attorney General after contentious hearings' },
+ { date: 'June 17, 1972', event: 'Watergate break-in occurs five days after his confirmation' },
+ { date: 'April 30, 1973', event: 'Resigns as Attorney General alongside departures of Haldeman, Ehrlichman, and Dean' },
+ { date: 'May 16, 1974', event: 'Pleads guilty to misdemeanor charge of refusing to testify accurately before Senate' },
+ { date: 'June 1974', event: 'Sentenced to suspended 30-day sentence and  fine' },
+ { date: '1975', event: 'Arizona State Bar suspends his law license for one year' },
+ { date: '1976', event: 'Returns to private law practice in Arizona' },
+ { date: 'February 3, 2000', event: 'Dies in Prescott, Arizona at age 76' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Senate Judiciary Committee ITT Hearings Transcript', url: 'https://www.senate.gov/about/powers-procedures/investigations/watergate.htm', date: '1972' },
+ { title: 'Watergate Special Prosecution Force Records', url: 'https://www.justice.gov/archives/jm/watergate-special-prosecution-force', date: '1973-1975' },
+ { title: 'New York Times Obituary: Richard G. Kleindienst', url: 'https://www.nytimes.com/2000/02/04/us/richard-g-kleindienst-76-nixon-attorney-general-who-quit.html', date: '2000' },
+ { title: 'National Archives: Watergate Investigation Records', url: 'https://www.archives.gov/research/investigations/watergate', date: '1974' },
+ { title: 'Congressional Record: Kleindienst Confirmation Debate', url: 'https://scholar.google.com/scholar?q=Kleindienst+confirmation+ITT+scandal', date: '1972' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Richard Nixon', relationship: 'President who appointed him AG and pressured him on ITT', href: '/entities/individuals/richard-nixon' },
+ { name: 'John Mitchell', relationship: 'Predecessor as AG and fellow Watergate figure', href: '/entities/individuals/john-mitchell' },
+ { name: 'John Dean', relationship: 'White House counsel, resigned same day', href: '/entities/individuals/john-dean' },
+ { name: 'H.R. Haldeman', relationship: 'White House Chief of Staff, resigned same day', href: '/entities/individuals/h-r-haldeman' },
+ { name: 'Barry Goldwater', relationship: 'Political mentor, 1964 campaign director', href: '/entities/individuals/barry-goldwater' },
+ ],
+ },
 
  'richard-nixon': {
  name: 'Richard Nixon',
@@ -950,7 +1095,7 @@ const profiles: Record<string, IndividualProfile> = {
  'NO PROSECUTION: DOJ declined to charge despite evidence',
  ],
  charges: [
- { statute: '15 U.S.C. Ã‚Â§ 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
+ { statute: '15 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
  ],
  relatedInvestigations: [
  { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
@@ -1067,11 +1212,11 @@ const profiles: Record<string, IndividualProfile> = {
  'CENTER FOR RENEWING AMERICA: Organization coordinates"war room"for implementing Project 2025',
  ],
  charges: [
- { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to Defraud United States; Project 2025 coordination', category: 'Federal' },
- { statute: '2 U.S.C. Ã‚Â§ 684', description: 'Impoundment Control Act Violations; Illegal withholding of funds', category: 'Federal' },
- { statute: '5 U.S.C. Ã‚Â§ 2302', description: 'Prohibited Personnel Practices; Schedule F politicization plan', category: 'Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy to Defraud United States; Project 2025 coordination', category: 'Federal' },
+ { statute: '2 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 684', description: 'Impoundment Control Act Violations; Illegal withholding of funds', category: 'Federal' },
+ { statute: '5 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2302', description: 'Prohibited Personnel Practices; Schedule F politicization plan', category: 'Federal' },
  { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations; Unitary executive overreach', category: 'Constitutional' },
- { statute: '18 U.S.C. Ã‚Â§ 595', description: 'Interference by Administrative Employees; Political coercion plans', category: 'Federal' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 595', description: 'Interference by Administrative Employees; Political coercion plans', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Project 2025 Authoritarian Blueprint', slug: 'project-2025', severity: 'critical' },
@@ -1392,9 +1537,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Escaped accountability through special counsel investigation',
  ],
  charges: [
- { statute: 'Intelligence Identities Protection Act: 50 U.S.C. Ã‚Â§ 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
- { statute: 'Espionage Act: 18 U.S.C. Ã‚Â§ 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
- { statute: 'Obstruction of Justice: 18 U.S.C. Ã‚Â§ 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
+ { statute: 'Intelligence Identities Protection Act: 50 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
+ { statute: 'Espionage Act: 18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
+ { statute: 'Obstruction of Justice: 18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Plame Leak Scandal', slug: 'plame-leak', severity: 'high' },
@@ -1481,10 +1626,10 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity; Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 70(1)(c)', description: 'Obstruction of Justice: Destroyed evidence to prevent accountability', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed operations to overthrow the Chilean government', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Ã‚Â§ 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Ã‚Â§ 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Ã‚Â§ 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1001', description: 'False Statements: Lies to Congressional committees', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1512', description: 'Obstruction of Justice: Evidence destruction to impede investigations', category: 'Federal Crimes' },
  ],
  relatedInvestigations: [
  { title: 'MKUltra Mind Control Program', slug: 'mkultra', severity: 'critical' },
@@ -1566,8 +1711,8 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes; Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes; Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
- { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
- { statute: '18 U.S.C. Ã‚Â§ 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
  ],
  relatedInvestigations: [
  { title: 'Gulf of Tonkin Incident', slug: 'gulf-of-tonkin', severity: 'critical' },
@@ -1789,7 +1934,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'CEO of News UK',
  role: 'Media Executive, Phone Hacking Central Figure',
  riskLevel: 'high',
- description: 'Rebekah Brooks (nÃƒÂ©e Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
+ description: 'Rebekah Brooks (nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©e Wade) is CEO of News UK (formerly News International), the British newspaper arm of Rupert Murdoch\'s empire. She was editor of News of the World (2000-2003) and The Sun (2003-2009) when systematic phone hacking of celebrities, politicians, and crime victims occurred. She was arrested and charged with phone hacking and obstruction of justice but acquitted in 2014. Despite the scandal, she was rehired as CEO in 2015, demonstrating Murdoch\'s loyalty to her.',
  birthDate: 'May 27, 1968',
  birthPlace: 'Warrington, Cheshire, UK',
  education: ['Appleton Hall County Grammar School'],
@@ -1887,7 +2032,7 @@ const profiles: Record<string, IndividualProfile> = {
  'CONGRESSIONAL TESTIMONY: Testified to Congress about delayed response',
  ],
  charges: [
- { statute: '10 U.S.C. Ã‚Â§ 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
+ { statute: '10 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 892', description: 'Potential dereliction of duty during insurrection', category: 'Military Justice' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -2593,9 +2738,9 @@ const profiles: Record<string, IndividualProfile> = {
  '30+ YEAR SENTENCE: Die-in-prison sentence',
  ],
  charges: [
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1962', description: 'RICO, Sex trafficking enterprise', category: 'CONVICTED' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1591', description: 'Sex trafficking of minors', category: 'CONVICTED' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 2251', description: 'Child pornography production', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 1962', description: 'RICO, Sex trafficking enterprise', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 1591', description: 'Sex trafficking of minors', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 2251', description: 'Child pornography production', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'R. Kelly Sex Crimes', slug: 'r-kelly-sex-crimes', severity: 'critical' },
@@ -2678,9 +2823,9 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATH PENALTY: Sentenced to death',
  ],
  charges: [
- { statute: '18 U.S.C. Ã¯Â¿Â½ 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED, DEATH' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 249', description: 'Hate crime resulting in death', category: 'CONVICTED' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 924(c)', description: 'Use of firearm in violent crime', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 247', description: 'Obstruction of religious practice resulting in death', category: 'CONVICTED, DEATH' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 249', description: 'Hate crime resulting in death', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 924(c)', description: 'Use of firearm in violent crime', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Tree of Life Massacre', slug: 'tree-of-life-massacre', severity: 'critical' },
@@ -2747,9 +2892,9 @@ const profiles: Record<string, IndividualProfile> = {
  'LAPTOP MISSING: Never recovered',
  ],
  charges: [
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED: 3 YEARS' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 641', description: 'Theft of government property', category: 'CONVICTED' },
- { statute: '18 U.S.C. Ã¯Â¿Â½ 1752', description: 'Unlawful entry', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED: 3 YEARS' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 641', description: 'Theft of government property', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ 1752', description: 'Unlawful entry', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -3042,11 +3187,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'ramon-fonseca': {
- name: 'RamÃƒÂ³n Fonseca',
+ name: 'RamÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n Fonseca',
  title: 'Co-founder of Mossack Fonseca and adviser to Panama\'s president; oversaw the creation of thousands of shell companies',
  role: 'Co-founder of Mossack Fonseca and adviser to Panama\'s president; oversaw the creation of thousands of shell companies',
  riskLevel: 'high',
- description: 'RamÃƒÂ³n Fonseca. Profile pending review.',
+ description: 'RamÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n Fonseca. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Ralph Abernathy', type: 'organization' },
@@ -3063,7 +3208,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: RamÃƒÂ³n Fonseca', url: 'https://en.wikipedia.org/wiki/RamÃƒÂ³n_Fonseca', date: '' },
+ { title: 'Wikipedia: RamÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n Fonseca', url: 'https://en.wikipedia.org/wiki/RamÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n_Fonseca', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3505,11 +3650,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'rene-schneider': {
- name: 'RenÃƒÂ© Schneider',
+ name: 'RenÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© Schneider',
  title: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
  role: 'Chilean Army Commander-in-Chief who upheld the constitution and refused to block Allende\'s inauguration. Assassinated in a CIA-backed kidnapping attempt on October 22, 1970, the Agency provided weapons and $50,000 to the plotters',
  riskLevel: 'high',
- description: 'RenÃƒÂ© Schneider. Profile pending review.',
+ description: 'RenÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© Schneider. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
@@ -3527,7 +3672,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: RenÃƒÂ© Schneider', url: 'https://en.wikipedia.org/wiki/RenÃƒÂ©_Schneider', date: '' },
+ { title: 'Wikipedia: RenÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© Schneider', url: 'https://en.wikipedia.org/wiki/RenÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©_Schneider', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3831,11 +3976,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'rigoberta-menchu': {
- name: 'Rigoberta MenchÃƒÂº',
+ name: 'Rigoberta MenchÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº',
  title: 'Indigenous K\'iche\' activist who won 1992 Nobel Peace Prize for documenting genocide',
  role: 'Indigenous K\'iche\' activist who won 1992 Nobel Peace Prize for documenting genocide',
  riskLevel: 'high',
- description: 'Rigoberta MenchÃƒÂº. Profile pending review.',
+ description: 'Rigoberta MenchÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Rick Dearborn', type: 'organization' },
@@ -3852,7 +3997,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Rigoberta MenchÃƒÂº', url: 'https://en.wikipedia.org/wiki/Rigoberta_MenchÃƒÂº', date: '' },
+ { title: 'Wikipedia: Rigoberta MenchÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº', url: 'https://en.wikipedia.org/wiki/Rigoberta_MenchÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4346,8 +4491,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'robert-scherrer': {
  name: 'Robert Scherrer',
- title: 'FBI Legal AttachÃƒÂ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network: his reports were largely ignored',
- role: 'FBI Legal AttachÃƒÂ© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
+ title: 'FBI Legal AttachÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network: his reports were largely ignored',
+ role: 'FBI Legal AttachÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
  riskLevel: 'high',
  description: 'Robert Scherrer. Profile pending review.',
  education: [],
@@ -6378,8 +6523,8 @@ const profiles: Record<string, IndividualProfile> = {
       'Family philanthropy to Met Museum, Louvre, Guggenheim, Smithsonian, Oxford, Harvard, and Yale characterized as reputation laundering from profits of mass death; over 20 institutions removed the Sackler name',
     ],
     charges: [
-      { statute: '21 U.S.C. Â§ 331, FDCA Misbranding', description: 'Purdue pleaded guilty to misbranding OxyContin with intent to defraud and mislead (2007); Sackler not individually charged despite directing the marketing strategy', category: 'Drug Misbranding' },
-      { statute: '18 U.S.C. Â§ 371, Conspiracy', description: 'Purdue admitted in 2020 to conspiring to defraud the United States by impeding the DEA; Sackler directed company strategy but was not individually charged', category: 'federal' },
+      { statute: '21 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 331, FDCA Misbranding', description: 'Purdue pleaded guilty to misbranding OxyContin with intent to defraud and mislead (2007); Sackler not individually charged despite directing the marketing strategy', category: 'Drug Misbranding' },
+      { statute: '18 U.S.C. ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371, Conspiracy', description: 'Purdue admitted in 2020 to conspiring to defraud the United States by impeding the DEA; Sackler directed company strategy but was not individually charged', category: 'federal' },
       { statute: 'Civil, Massachusetts AG Lawsuit (2018)', description: 'Named defendant in Commonwealth v. Purdue Pharma et al.; complaint detailed personal emails, marketing directives, and role in OxyContin strategy', category: 'CIVIL' },
       { statute: 'Civil, Harrington v. Purdue Pharma L.P. (2024)', description: 'Supreme Court struck down Sackler attempt to gain civil immunity through Purdue bankruptcy without personally filing for bankruptcy', category: 'CIVIL' },
     ],
@@ -6455,7 +6600,7 @@ const profiles: Record<string, IndividualProfile> = {
         category: 'regulatory',
       },
       {
-        statute: 'Safe Drinking Water Act (42 U.S.C. Ã‚Â§ 300f) - Regulatory Failure',
+        statute: 'Safe Drinking Water Act (42 U.S.C. ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 300f) - Regulatory Failure',
         description: 'State under his leadership failed to enforce federal safe drinking water standards and implement required corrosion control treatment',
         category: 'regulatory',
       },

@@ -30,9 +30,9 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation; Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
  { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity; Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
  { statute: 'UN Charter Article 2(4)', description: 'War of Aggression; Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
- { statute: '52 U.S.C. Ã‚Â§ 30121', description: 'Foreign Election Interference; Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
- { statute: '18 U.S.C. Ã‚Â§ 371', description: 'Conspiracy to Defraud the United States; Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
- { statute: '18 U.S.C. Ã‚Â§ 1030', description: 'Computer Fraud and Abuse; GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
+ { statute: '52 U.S.C. Ãƒâ€šÃ‚Â§ 30121', description: 'Foreign Election Interference; Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy to Defraud the United States; Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
+ { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1030', description: 'Computer Fraud and Abuse; GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
  { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture; Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
  { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons; Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
  { statute: 'Geneva Convention IV', description: 'Protection of Civilians; Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
@@ -677,6 +677,74 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 
+
+ 'virgilio-gonzalez': {
+ name: 'Virgilio Gonzalez',
+ title: 'Watergate Burglar',
+ role: 'Watergate Break-in Operative, Cuban Exile Locksmith',
+ riskLevel: 'high',
+ description: 'Virgilio Gonzalez was a Cuban exile and professional locksmith who served as one of the five men arrested inside the Democratic National Committee headquarters at the Watergate complex on June 17, 1972. Born in Havana, Gonzalez fled Cuba after Fidel Castro\'s revolution and settled in Miami, where he became part of the tight-knit Cuban exile community that maintained close ties to the CIA through anti-Castro operations. His locksmithing skills made him valuable to the Watergate operation, as he was tasked with picking the locks at the DNC offices. Gonzalez participated in the failed first break-in attempt on May 26-27, 1972, where he was unable to pick the lock on the DNC door, leading to a return trip on June 17 when the team was caught. He was recruited by fellow Cuban exile Bernard Barker, who in turn was working for E. Howard Hunt and G. Gordon Liddy. Gonzalez initially refused to cooperate with prosecutors, maintaining silence about who had ordered the operation, consistent with anti-Castro operatives\' code of loyalty. He pleaded guilty; Judge Sirica ultimately sentenced him to 1 to 4 years, and he served approximately 14 months before being paroled. Gonzalez largely retreated from public life after his release, returning to his locksmith trade in Miami. He remained one of the least known but most operationally essential members of the Watergate break-in team.',
+ birthDate: 'March 17, 1926',
+ deathDate: 'June 11, 2014',
+ birthPlace: 'Havana, Cuba',
+ education: [],
+ affiliations: [
+ { name: 'Anti-Castro Cuban Exile Community', role: 'Member, Miami (1960s-1970s)', type: 'organization' },
+ { name: 'Central Intelligence Agency', role: 'Asset through Cuban exile operations', type: 'agency' },
+ { name: 'Committee to Re-elect the President', role: 'Break-in operative (1972)', type: 'organization' },
+ ],
+ controversies: [
+ 'WATERGATE BREAK-IN: One of five burglars arrested inside DNC headquarters at Watergate complex on June 17, 1972, triggering the greatest political scandal in American history',
+ 'LOCKSMITH ROLE: Recruited specifically for lockpicking skills to gain entry to DNC offices; failed on first attempt May 26-27, necessitating the fateful return trip',
+ 'CIA CONNECTIONS: Part of Cuban exile network with extensive CIA ties dating back to Bay of Pigs and anti-Castro operations',
+ 'FIRST BREAK-IN FAILURE: Could not pick the DNC door lock during the initial May 1972 attempt, which required the team to return for the operation that led to their arrest',
+ 'CODE OF SILENCE: Maintained silence about who ordered the break-in, refusing to cooperate with prosecutors and protecting the chain of command back to CRP and the White House',
+ 'GUILTY PLEA: Pleaded guilty to charges related to the break-in; sentenced to 1-4 years by Judge Sirica',
+ 'CUBAN EXILE EXPLOITATION: Used by American intelligence and political operatives who exploited the Cuban exile community\'s anti-Communist fervor for domestic political purposes',
+ ],
+ charges: [
+ { statute: '22 D.C. Code 1801(b)', description: 'Burglary; Unlawful entry into DNC headquarters at Watergate complex', category: 'Federal' },
+ { statute: '18 U.S.C. 2511', description: 'Interception of Wire Communications; Participated in operation to place wiretaps on DNC phones', category: 'Federal' },
+ { statute: '18 U.S.C. 371', description: 'Conspiracy; Conspired with others to burglarize and wiretap DNC headquarters', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate Scandal', slug: 'watergate', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 17, 1926', event: 'Born in Havana, Cuba' },
+ { date: '1959', event: 'Flees Cuba after Castro\'s revolution, settles in Miami' },
+ { date: '1960s', event: 'Works as locksmith in Miami; becomes involved in anti-Castro exile community with CIA connections' },
+ { date: '1961', event: 'Part of Cuban exile community during Bay of Pigs era' },
+ { date: 'May 1972', event: 'Recruited by Bernard Barker for covert operation in Washington, D.C.' },
+ { date: 'May 26-27, 1972', event: 'First Watergate break-in attempt fails when Gonzalez cannot pick the DNC office lock' },
+ { date: 'June 17, 1972', event: 'Arrested inside DNC headquarters at Watergate complex at approximately 2:30 AM with Barker, Martinez, Sturgis, and McCord' },
+ { date: 'June 1972', event: 'Arraigned; bail attempt fails; held in D.C. jail' },
+ { date: 'September 1972', event: 'Indicted by federal grand jury along with the other burglars, Hunt, and Liddy' },
+ { date: 'January 11, 1973', event: 'Pleads guilty before Judge John Sirica' },
+ { date: 'March 23, 1973', event: 'Sentenced by Judge Sirica to 1 to 4 years in federal prison' },
+ { date: '1974', event: 'Paroled after serving approximately 14 months' },
+ { date: 'Post-release', event: 'Returns to Miami, resumes locksmith work, largely avoids public attention' },
+ { date: 'June 11, 2014', event: 'Dies in Miami at age 88' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Watergate Trial Records - United States v. Liddy et al.', url: 'https://www.justice.gov/archives/jm/watergate-special-prosecution-force', date: '1973' },
+ { title: 'Senate Watergate Committee Final Report', url: 'https://www.senate.gov/about/powers-procedures/investigations/watergate.htm', date: '1974' },
+ { title: 'National Archives: Watergate Break-in Records', url: 'https://www.archives.gov/research/investigations/watergate', date: '1972-1974' },
+ { title: 'Miami Herald Coverage of Watergate Burglars', url: 'https://scholar.google.com/scholar?q=Virgilio+Gonzalez+Watergate+burglar+Miami', date: '1972' },
+ { title: 'All the President\'s Men - Woodward and Bernstein', url: 'https://scholar.google.com/scholar?q=All+the+Presidents+Men+Woodward+Bernstein', date: '1974' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Bernard Barker', relationship: 'Fellow Watergate burglar who recruited Gonzalez', href: '/entities/individuals/bernard-barker' },
+ { name: 'Eugenio Martinez', relationship: 'Fellow Cuban exile and Watergate burglar', href: '/entities/individuals/eugenio-martinez' },
+ { name: 'Frank Sturgis', relationship: 'Fellow Watergate burglar', href: '/entities/individuals/frank-sturgis' },
+ { name: 'James McCord', relationship: 'Fellow Watergate burglar and former CIA officer', href: '/entities/individuals/james-mccord' },
+ { name: 'E. Howard Hunt', relationship: 'CIA officer who planned and directed the break-in', href: '/entities/individuals/e-howard-hunt' },
+ ],
+ },
+
  'virginia-foxx': {
  name: 'Virginia Foxx',
  title: 'U.S. Representative (R-NC); Chair of House Education and Workforce Committee',
@@ -1198,9 +1266,9 @@ const profiles: Record<string, IndividualProfile> = {
   'Known associate of Michael Milken; junk bond-financed raids',
  ],
  charges: [
-  { statute: '26 U.S.C. Ã‚Â§ 7201', description: 'Tax evasion (no contest plea)', category: 'Financial Crimes' },
-  { statute: '18 U.S.C. Ã‚Â§ 1001', description: 'Fraud (inflating charitable donation values)', category: 'Financial Crimes' },
-  { statute: '15 U.S.C. Ã‚Â§ 78j(b)', description: 'Stock concealment (SEC civil)', category: 'Financial Crimes' },
+  { statute: '26 U.S.C. Ãƒâ€šÃ‚Â§ 7201', description: 'Tax evasion (no contest plea)', category: 'Financial Crimes' },
+  { statute: '18 U.S.C. Ãƒâ€šÃ‚Â§ 1001', description: 'Fraud (inflating charitable donation values)', category: 'Financial Crimes' },
+  { statute: '15 U.S.C. Ãƒâ€šÃ‚Â§ 78j(b)', description: 'Stock concealment (SEC civil)', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
   { title: '1980s Insider Trading Scandals', slug: '1980s-insider-trading', severity: 'critical' },

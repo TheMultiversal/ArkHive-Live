@@ -2702,6 +2702,58 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'bernard-barker': {
+ name: 'Bernard L. Barker',
+ title: 'CIA-Connected Cuban Exile Who Led the Watergate Burglary Team',
+ role: 'CIA-connected Cuban exile and Bay of Pigs veteran who was one of the five burglars caught inside Democratic National Committee headquarters at the Watergate complex',
+ riskLevel: 'high' as const,
+ description: 'Bernard Leon Barker (1917-2009) was a Cuban-American who served as one of the five burglars arrested inside the Democratic National Committee headquarters at the Watergate complex on June 17, 1972. Barker was born in Havana to an American father and Cuban mother, served in the U.S. Army Air Forces during World War II (where he was shot down and held as a POW), and later became deeply involved in anti-Castro Cuban exile activities.\n\nBarker had a long relationship with the CIA dating to the late 1950s and early 1960s. He served as a fieldagent during the Bay of Pigs invasion in 1961 and maintained contact with former CIA officer E. Howard Hunt, who recruited him for the White House Plumbers unit and later for the Watergate break-in. Barker believed he was participating in a national security operation aimed at identifying foreign (specifically Cuban) funding of the Democratic Party.\n\nBarker recruited fellow Cuban exiles Virgilio Gonzalez and Eugenio Martinez, along with Frank Sturgis, for the break-in team. They were arrested alongside James McCord inside the DNC offices early on June 17, 1972. Barker was found carrying $6,300 in consecutively numbered $100 bills that were later traced to Nixon campaign funds laundered through a Mexican bank, one of the first threads that connected the burglary to the Nixon re-election campaign.\n\nBarker pleaded guilty to conspiracy, burglary, and wiretapping in January 1973 and was sentenced to 18 months to 6 years. He served approximately 14 months before being released. Judge John Sirica later reduced his sentence. Barker maintained throughout his life that he believed he was serving his country. He died in 2009 at age 92.',
+ birthDate: 'March 17, 1917',
+ birthPlace: 'Havana, Cuba',
+ deathDate: 'June 5, 2009',
+ education: [],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'Field agent during Bay of Pigs invasion (1961); maintained contact through E. Howard Hunt for subsequent operations', type: 'agency' },
+ { name: 'Committee to Re-Elect the President', role: 'Unwitting operative; carried laundered Nixon campaign funds during the Watergate break-in', type: 'organization' },
+ ],
+ controversies: [
+ 'One of five burglars arrested inside the Democratic National Committee headquarters at the Watergate complex on June 17, 1972',
+ 'Carried $6,300 in consecutively numbered $100 bills traced to Nixon campaign funds laundered through a Mexican bank',
+ 'Recruited fellow Cuban exiles Virgilio Gonzalez and Eugenio Martinez for the burglary team',
+ 'Had a long CIA relationship dating to the Bay of Pigs invasion; was recruited for Watergate by former CIA officer E. Howard Hunt',
+ 'Previously participated in the burglary of Daniel Ellsberg\'s psychiatrist\'s office as part of the White House Plumbers unit',
+ 'Maintained he believed the operation was a legitimate national security mission targeting foreign funding of the Democratic Party',
+ ],
+ charges: [
+ { charge: 'Conspiracy, burglary, and wiretapping', status: 'convicted', date: '1973-01', source: 'Pleaded guilty; sentenced to 18 months to 6 years, served approximately 14 months.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Watergate: The Scandal That Brought Down a President', slug: 'watergate-nixon-scandal', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'March 17, 1917', event: 'Born in Havana, Cuba' },
+ { date: '1942-1945', event: 'Serves in the U.S. Army Air Forces during WWII; shot down and held as POW' },
+ { date: '1959-1961', event: 'Becomes involved in anti-Castro Cuban exile activities; recruited as CIA asset' },
+ { date: 'April 1961', event: 'Participates in the Bay of Pigs invasion as CIA field agent' },
+ { date: 'September 1971', event: 'Recruited by E. Howard Hunt for the White House Plumbers; participates in burglary of Ellsberg\'s psychiatrist\'s office' },
+ { date: 'June 17, 1972', event: 'Arrested with four others inside the DNC headquarters at the Watergate complex' },
+ { date: 'January 1973', event: 'Pleads guilty to conspiracy, burglary, and wiretapping' },
+ { date: '1973', event: 'Sentenced to 18 months to 6 years; serves approximately 14 months' },
+ { date: 'June 5, 2009', event: 'Dies at age 92' },
+ ],
+ sources: [
+ { title: 'Carl Bernstein and Bob Woodward, All the President\'s Men (Simon & Schuster, 1974)', date: '1974' },
+ { title: 'Stanley Kutler, The Wars of Watergate (Alfred A. Knopf, 1990)', date: '1990' },
+ { title: 'Senate Select Committee on Presidential Campaign Activities (Ervin Committee) Final Report (1974)', date: '1974' },
+ ],
+ knownAssociates: [
+ { name: 'E. Howard Hunt', relationship: 'Former CIA officer who recruited Barker for the Plumbers and Watergate break-in', href: '/entities/individuals/e-howard-hunt' },
+ { name: 'Virgilio Gonzalez', relationship: 'Cuban exile locksmith recruited by Barker for the Watergate burglary team', href: '/entities/individuals/virgilio-gonzalez' },
+ { name: 'Eugenio Martinez', relationship: 'Cuban exile and active CIA asset recruited by Barker for Watergate', href: '/entities/individuals/eugenio-martinez' },
+ { name: 'Frank Sturgis', relationship: 'Fellow Watergate burglar with intelligence community connections', href: '/entities/individuals/frank-sturgis' },
+ ],
+ },
+
  'bernard-coard': {
  name: 'Bernard Coard',
  title: 'Deputy PM who led the coup against Bishop, giving U.S. a pretext',
