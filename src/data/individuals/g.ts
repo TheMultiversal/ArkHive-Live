@@ -514,6 +514,61 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
+ 'george-hunter-white': {
+ name: 'George Hunter White',
+ title: 'Federal Bureau of Narcotics Agent Who Ran CIA Operation Midnight Climax',
+ role: 'Federal narcotics agent who operated CIA-funded safe houses where unwitting American citizens were drugged with LSD and observed through one-way mirrors',
+ riskLevel: 'critical' as const,
+ description: 'George Hunter White (1911-1975) was a senior agent of the Federal Bureau of Narcotics (FBN) who served as the CIA\'s primary field operative for Operation Midnight Climax, one of the most disturbing subprojects of the MKUltra mind control program. Between 1955 and 1965, White operated clandestine safe houses in San Francisco and New York City that functioned as CIA-funded brothels where unwitting American citizens were dosed with LSD and other drugs while government agents observed through one-way mirrors.\n\nWhite had joined the FBN in 1934 and developed a reputation as an aggressive, hard-drinking agent with a talent for undercover work. During World War II, he worked with the Office of Strategic Services (OSS) testing truth serums on prisoners and enemy agents, which brought him to the attention of CIA chemist Sidney Gottlieb. When MKUltra launched in 1953, Gottlieb recruited White to create operational environments where LSD could be tested on unwitting subjects in real-world settings.\n\nThe Operation Midnight Climax safe houses were furnished and decorated to attract targets. Prostitutes, paid by the CIA, would lure men to the safe houses, where their drinks were secretly dosed with LSD. White and other agents watched through one-way mirrors, taking notes on the subjects\' reactions. The apartments were equipped with surveillance recording equipment. White ran these operations with little oversight and considerable personal excess, reportedly drinking heavily during surveillance sessions.\n\nIn his retirement diary, White wrote what became one of the most quoted lines in CIA history: "I toiled wholeheartedly in the vineyards because it was fun, fun, fun. Where else could a red-blooded American boy lie, kill, cheat, steal, rape, and pillage with the sanction and blessing of the All-Highest?" White was never prosecuted for any of his activities. He died in 1975, just before the Church Committee hearings exposed MKUltra.',
+ birthDate: 'June 22, 1911',
+ deathDate: 'October 1975',
+ education: [],
+ affiliations: [
+ { name: 'Federal Bureau of Narcotics', role: 'Senior Agent (1934-1966); used his position as cover for CIA mind control operations', type: 'agency' },
+ { name: 'Central Intelligence Agency', role: 'Field operative for Operation Midnight Climax, MKUltra subproject; operated safe houses in San Francisco and New York', type: 'agency' },
+ { name: 'Office of Strategic Services', role: 'Wartime operative (WWII); tested truth serums on prisoners and enemy agents', type: 'agency' },
+ ],
+ controversies: [
+ 'Operated CIA-funded safe houses (Operation Midnight Climax) where unwitting American citizens were secretly drugged with LSD and observed through one-way mirrors (1955-1965)',
+ 'Recruited prostitutes paid by the CIA to lure men to the safe houses, where their drinks were surreptitiously dosed with psychoactive substances',
+ 'Conducted experiments on unwitting subjects without any medical supervision, informed consent, or safety protocols',
+ 'Operated with virtually no oversight, turning the safe houses into personal fiefdoms where he reportedly drank heavily during surveillance operations',
+ 'Wrote in his retirement diary: "Where else could a red-blooded American boy lie, kill, cheat, steal, rape, and pillage with the sanction and blessing of the All-Highest?"',
+ 'Tested truth serums on prisoners during World War II as part of OSS operations, a precursor to his later MKUltra involvement',
+ 'Never faced any criminal charges or professional sanctions for a decade of illegal drug testing on American citizens',
+ ],
+ charges: [
+ { charge: 'No criminal charges were ever filed', status: 'pending', date: 'N/A', source: 'White died in 1975 shortly before the Church Committee hearings exposed MKUltra.' },
+ ],
+ relatedInvestigations: [
+ { title: 'MKUltra: CIA Human Experimentation Program', slug: 'mkultra-cia-human-experimentation', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'June 22, 1911', event: 'Born' },
+ { date: '1934', event: 'Joins the Federal Bureau of Narcotics' },
+ { date: '1942-1945', event: 'Works with the Office of Strategic Services during World War II, testing truth serums on prisoners' },
+ { date: '1953', event: 'Recruited by Sidney Gottlieb to support MKUltra field operations' },
+ { date: '1955', event: 'Begins operating Operation Midnight Climax safe houses in San Francisco and New York City' },
+ { date: '1955-1965', event: 'Runs CIA-funded brothels where unwitting citizens are drugged with LSD and observed through one-way mirrors' },
+ { date: '1963', event: 'CIA Inspector General John Earman raises concerns about Operation Midnight Climax; operations begin to wind down' },
+ { date: '1965', event: 'Operation Midnight Climax officially terminated' },
+ { date: '1966', event: 'Retires from the Federal Bureau of Narcotics; writes notorious diary entries about his CIA work' },
+ { date: 'October 1975', event: 'Dies shortly before the Church Committee hearings publicly expose the MKUltra program' },
+ ],
+ sources: [
+ { title: 'Stephen Kinzer, Poisoner in Chief: Sidney Gottlieb and the CIA Search for Mind Control (Henry Holt, 2019)', date: '2019' },
+ { title: 'John Marks, The Search for the Manchurian Candidate: The CIA and Mind Control (Times Books, 1979)', date: '1979' },
+ { title: 'Senate Select Committee on Intelligence, Project MKUltra, the CIA\'s Program of Research in Behavioral Modification (August 3, 1977)', date: '1977' },
+ { title: 'H.P. Albarelli Jr., A Terrible Mistake: The Murder of Frank Olson and the CIA\'s Secret Cold War Experiments (Trine Day, 2009)', date: '2009' },
+ ],
+ knownAssociates: [
+ { name: 'Sidney Gottlieb', relationship: 'MKUltra program director who recruited White and funded the Operation Midnight Climax safe houses', href: '/entities/individuals/sidney-gottlieb' },
+ { name: 'John Earman', relationship: 'CIA Inspector General who raised concerns about White\'s Midnight Climax operations in 1963 report', href: '/entities/individuals/john-earman' },
+ { name: 'Allen Dulles', relationship: 'CIA Director who authorized MKUltra, the program under which White operated', href: '/entities/individuals/allen-dulles' },
+ ],
+ },
+
+
  'george-hw-bush': {
  name: 'George Hw Bush',
  title: 'Profile Under Review',

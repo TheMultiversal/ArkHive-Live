@@ -8552,6 +8552,51 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Donald Trump', relationship: 'President who appointed and later fired Sessions over Russia recusal', href: '/entities/individuals/donald-trump' },
     ],
   },
+
+  'john-earman': {
+    name: 'John S. Earman',
+    title: 'CIA Inspector General Who Issued 1963 Internal Warning About MKUltra',
+    role: 'CIA Inspector General who conducted the only internal review of MKUltra during its operational period, warning of ethical and legal risks that were ignored by agency leadership',
+    riskLevel: 'medium' as const,
+    description: 'John S. Earman served as Inspector General of the Central Intelligence Agency during the early 1960s. In 1963, he conducted an internal investigation of the MKUltra program and produced a report that stands as the only formal internal critique of the program during its operational lifespan. The Earman Report, as it became known, raised serious concerns about the ethical, legal, and operational risks posed by MKUltra\'s activities, particularly the testing of LSD and other substances on unwitting human subjects.\n\nEarman\'s investigation was prompted in part by the growing scope and recklessness of MKUltra activities, including George Hunter White\'s Operation Midnight Climax safe houses and the continued lack of informed consent in drug experiments. His 1963 report warned that the program\'s practices could cause "serious adverse reaction in U.S. public opinion" if exposed, and that the testing of drugs on unwitting subjects was potentially illegal. He specifically criticized the lack of adequate medical supervision and the absence of mechanisms to track the long-term effects on subjects.\n\nDespite the Inspector General\'s warnings, CIA leadership, particularly Deputy Director for Plans Richard Helms and Technical Services Division chief Sidney Gottlieb, largely ignored or minimized Earman\'s recommendations. Some MKUltra subprojects were terminated or reduced in scope, but the program continued in various forms until 1973, when Helms (by then DCI) ordered the destruction of most MKUltra records. Earman\'s report survived the purge only because it was filed separately in the Inspector General\'s records, and it became a key document when the Church Committee investigated MKUltra in 1975.\n\nEarman represents a complex figure in the MKUltra narrative: a bureaucratic insider who identified the program\'s illegality but whose warnings were institutionally suppressed. His report did not prevent further abuses but provided crucial documentation that later enabled congressional oversight and public accountability.',
+    education: [],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Inspector General (early 1960s); authored the 1963 internal report criticizing MKUltra\'s ethical and legal violations', type: 'agency' },
+    ],
+    controversies: [
+      'Authored the 1963 Inspector General\'s report on MKUltra that identified serious ethical, legal, and operational risks, including the testing of drugs on unwitting subjects',
+      'His warnings were largely ignored by CIA leadership, particularly Richard Helms and Sidney Gottlieb, who continued modified versions of the program',
+      'The report criticized the lack of medical supervision, informed consent, and tracking of long-term effects on MKUltra subjects',
+      'His report survived the 1973 destruction of MKUltra records only because it was filed in separate Inspector General archives, becoming a key historical document',
+      'While identifying illegality, Earman operated within institutional channels that were insufficient to stop the abuses he documented',
+    ],
+    charges: [
+      { charge: 'No charges filed; Earman was an internal critic rather than a perpetrator', status: 'pending', date: 'N/A', source: 'Earman\'s 1963 report was critical of MKUltra but was suppressed by CIA leadership.' },
+    ],
+    relatedInvestigations: [
+      { title: 'MKUltra: CIA Human Experimentation Program', slug: 'mkultra-cia-human-experimentation', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'Early 1960s', event: 'Serves as CIA Inspector General' },
+      { date: '1963', event: 'Conducts internal investigation of MKUltra; produces the Earman Report warning of ethical and legal risks' },
+      { date: '1963', event: 'Report warns that testing drugs on unwitting subjects is potentially illegal and could cause "serious adverse reaction in U.S. public opinion"' },
+      { date: '1963-1964', event: 'CIA leadership, particularly Richard Helms and Sidney Gottlieb, largely ignore or minimize the Inspector General\'s recommendations' },
+      { date: '1973', event: 'Richard Helms orders destruction of MKUltra records; Earman\'s report survives because it was filed separately in IG archives' },
+      { date: '1975', event: 'Church Committee obtains the Earman Report; it becomes a key document in exposing MKUltra to Congress and the public' },
+      { date: '1977', event: 'Senate Select Committee on Intelligence hearings reference the Earman Report extensively in public testimony' },
+    ],
+    sources: [
+      { title: 'CIA Inspector General\'s Report on MKUltra (1963)', date: '1963' },
+      { title: 'Stephen Kinzer, Poisoner in Chief: Sidney Gottlieb and the CIA Search for Mind Control (Henry Holt, 2019)', date: '2019' },
+      { title: 'Senate Select Committee on Intelligence, Project MKUltra, the CIA\'s Program of Research in Behavioral Modification (August 3, 1977)', date: '1977' },
+    ],
+    knownAssociates: [
+      { name: 'Sidney Gottlieb', relationship: 'MKUltra program director whose activities were the subject of Earman\'s critical 1963 report', href: '/entities/individuals/sidney-gottlieb' },
+      { name: 'Richard Helms', relationship: 'CIA Deputy Director for Plans (later DCI) who ignored Earman\'s warnings and later ordered MKUltra records destroyed', href: '/entities/individuals/richard-helms' },
+      { name: 'George Hunter White', relationship: 'FBN agent running Operation Midnight Climax safe houses, whose activities were among those Earman criticized', href: '/entities/individuals/george-hunter-white' },
+    ],
+  },
+
   'john-eastman': {
     name: 'John Eastman',
     title: 'Former Chapman University Law Professor',
@@ -8892,6 +8937,52 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Lisa Ann Jones', relationship: 'Fellow Drexel trader in Milken\'s operation; convicted of perjury', href: '/entities/individuals/lisa-ann-jones' },
   { name: 'Bruce Lee Newberg', relationship: 'Fellow Drexel trader in Milken\'s operation; convicted of racketeering', href: '/entities/individuals/bruce-lee-newberg' },
  ],
+ },
+
+ 'james-starrs': {
+   name: 'Dr. James E. Starrs',
+   title: 'Forensic Pathologist Who Exhumed Frank Olson and Found Evidence of Homicide',
+   role: 'George Washington University forensic science professor who led the 1994 exhumation of Frank Olson, finding evidence of a cranial wound inconsistent with the CIA\'s suicide narrative',
+   riskLevel: 'low' as const,
+   description: 'Dr. James E. Starrs (1930-2015) was a professor of law and forensic science at George Washington University who became a central figure in the investigation into the 1953 death of CIA biochemist Frank Olson. In 1994, at the request of the Olson family, Starrs led a team that exhumed Frank Olson\'s remains from Frederick, Maryland, and conducted a comprehensive forensic examination.\n\nOlson had fallen from the 13th floor of the Hotel Statler in New York City on November 28, 1953. The CIA initially reported his death as a suicide following a mental breakdown. It was not until 1975 that the Rockefeller Commission revealed Olson had been secretly dosed with LSD by CIA chemist Sidney Gottlieb as part of MKUltra, and that his death occurred during the ensuing psychological crisis. The CIA paid the Olson family a $750,000 settlement in 1975, and President Ford personally apologized.\n\nHowever, the family remained convinced that Olson had been murdered to prevent him from revealing classified information about CIA biological weapons research and MKUltra experiments he had witnessed. They retained Starrs to conduct an independent forensic examination. Starrs\'s team found a previously undetected cranial wound: a hematoma on the left side of Olson\'s skull that was consistent with a blow from a blunt object and inconsistent with injuries sustained in the fall. Starrs concluded that the evidence was "rankly and starkly suggestive of homicide" rather than suicide. He recommended that the Manhattan District Attorney investigate the death as a homicide.\n\nThe New York District Attorney\'s office opened an investigation but ultimately closed it in 2009 without filing charges, citing insufficient evidence for prosecution. Starrs\'s findings nonetheless transformed the public understanding of Olson\'s death from a tragic accident to a probable assassination, and the Olson family filed a wrongful death lawsuit against the CIA that continued into the 2010s.',
+   birthDate: '1930',
+   deathDate: '2015',
+   education: ['George Washington University Law School'],
+   affiliations: [
+     { name: 'George Washington University', role: 'Professor of Law and Forensic Science; leading expert in forensic exhumation who examined dozens of historical cases', type: 'organization' },
+   ],
+   controversies: [
+     'Led the 1994 exhumation of Frank Olson\'s remains and discovered a previously undetected cranial hematoma inconsistent with the CIA\'s suicide narrative',
+     'Publicly declared Olson\'s death "rankly and starkly suggestive of homicide," directly contradicting the official CIA account',
+     'Recommended criminal investigation by the Manhattan District Attorney, which was opened but ultimately closed without charges in 2009',
+     'His findings reignited the Olson family\'s legal battle against the CIA and fundamentally changed the public understanding of Olson\'s death',
+     'Conducted numerous other high-profile forensic exhumations, including investigations related to Jesse James and the Donner Party',
+   ],
+   charges: [
+     { charge: 'N/A; Starrs was an investigator, not a subject of investigation', status: 'pending', date: 'N/A', source: 'Starrs was the forensic scientist who examined Olson\'s remains, not a participant in MKUltra.' },
+   ],
+   relatedInvestigations: [
+     { title: 'MKUltra: CIA Human Experimentation Program', slug: 'mkultra-cia-human-experimentation', severity: 'critical' },
+   ],
+   timeline: [
+     { date: '1930', event: 'Born' },
+     { date: '1960s-1990s', event: 'Career as professor of law and forensic science at George Washington University; becomes a leading expert in forensic exhumation' },
+     { date: '1994', event: 'Leading a forensic team, exhumes Frank Olson\'s remains from Frederick, Maryland, at the request of the Olson family' },
+     { date: '1994', event: 'Discovers cranial hematoma on left side of Olson\'s skull inconsistent with a fall; concludes evidence is "rankly and starkly suggestive of homicide"' },
+     { date: '1996', event: 'Manhattan District Attorney opens investigation into Olson\'s death based on Starrs\'s findings' },
+     { date: '2009', event: 'Manhattan DA\'s office closes investigation without filing charges, citing insufficient evidence for prosecution' },
+     { date: '2015', event: 'Dies' },
+   ],
+   sources: [
+     { title: 'H.P. Albarelli Jr., A Terrible Mistake: The Murder of Frank Olson and the CIA\'s Secret Cold War Experiments (Trine Day, 2009)', date: '2009' },
+     { title: 'Stephen Kinzer, Poisoner in Chief: Sidney Gottlieb and the CIA Search for Mind Control (Henry Holt, 2019)', date: '2019' },
+     { title: 'Eric Olson, Frank Olson Project (frankOlsonproject.org)', date: '1994' },
+   ],
+   knownAssociates: [
+     { name: 'Frank Olson', relationship: 'CIA biochemist whose remains Starrs exhumed in 1994, finding evidence of homicide', href: '/entities/individuals/frank-olson' },
+     { name: 'Harold Abramson', relationship: 'CIA-funded researcher who was the last known person to see Olson alive; Starrs\'s findings cast further suspicion on the circumstances', href: '/entities/individuals/harold-abramson' },
+     { name: 'Sidney Gottlieb', relationship: 'MKUltra director who ordered the secret LSD dosing of Olson that preceded his death', href: '/entities/individuals/sidney-gottlieb' },
+   ],
  },
 
  'james-sutton-regan': {

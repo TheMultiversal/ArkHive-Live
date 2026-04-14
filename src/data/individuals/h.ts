@@ -699,6 +699,112 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'harold-abramson': {
+ name: 'Dr. Harold Abramson',
+ title: 'CIA-Funded LSD Researcher and Key Figure in the Frank Olson Death',
+ role: 'Columbia University physician and allergist who conducted CIA-funded LSD experiments and was the last known person to see Frank Olson alive before his fatal fall',
+ riskLevel: 'high' as const,
+ description: 'Dr. Harold Alexander Abramson (1899-1980) was an American physician, allergist, and researcher at Columbia University and Cold Spring Harbor Laboratory who became one of the CIA\'s most prolific LSD researchers under the MKUltra program. Despite having no psychiatric training, Abramson received direct CIA funding to study the effects of LSD on human subjects and played a central and deeply suspicious role in the death of Army biochemist Frank Olson in November 1953.\n\nAbramson was among the first scientists recruited by CIA chemist Sidney Gottlieb to study LSD\'s potential for interrogation and mind control. He conducted experiments at Columbia University and Mount Sinai Hospital, testing LSD on both knowing and unknowing subjects, including himself. Abramson published research on LSD\'s effects on Siamese fighting fish, which drew ridicule but was part of a broader program of CIA-funded behavioral studies.\n\nHis most consequential involvement came after Frank Olson was secretly dosed with LSD at a CIA retreat at Deep Creek Lodge in November 1953. When Olson experienced a severe psychological crisis, Gottlieb sent him to Abramson rather than a proper psychiatrist, likely to avoid exposing the classified program. Abramson met with Olson multiple times in New York City in the days before Olson plunged from the 13th floor of the Hotel Statler on November 28, 1953. Abramson\'s account of Olson\'s mental state and the events leading to his death have been questioned for decades. When Olson\'s body was exhumed in 1994, forensic pathologist James Starrs found evidence of a blow to the head consistent with homicide rather than suicide. The Olson family\'s lawsuit against the CIA continued into the 2010s.',
+ birthDate: '1899',
+ deathDate: '1980',
+ education: ['Columbia University, MD'],
+ affiliations: [
+ { name: 'Columbia University', role: 'Physician and researcher; conducted CIA-funded LSD experiments under MKUltra', type: 'organization' },
+ { name: 'Central Intelligence Agency', role: 'MKUltra researcher; received direct funding for LSD experiments on human subjects', type: 'agency' },
+ { name: 'Mount Sinai Hospital', role: 'Conducted LSD research on patients', type: 'organization' },
+ { name: 'Cold Spring Harbor Laboratory', role: 'Research affiliate', type: 'organization' },
+ ],
+ controversies: [
+ 'Conducted CIA-funded LSD experiments on human subjects at Columbia University and Mount Sinai Hospital under MKUltra, despite having no psychiatric training',
+ 'Was the last known person to see Frank Olson alive before his fatal 13th-floor fall from the Hotel Statler on November 28, 1953',
+ 'Treated Olson for psychological distress after his secret LSD dosing, rather than referring him to a psychiatrist, likely to protect the classified MKUltra program',
+ 'His account of the events leading to Olson\'s death has been questioned by investigators for decades; 1994 exhumation found evidence consistent with homicide',
+ 'Received direct CIA funding routed through front organizations to conduct experiments on both willing and unwitting subjects',
+ 'Published research on the effects of LSD on Siamese fighting fish as part of CIA-funded behavioral research programs',
+ ],
+ charges: [
+ { charge: 'No criminal charges were ever filed', status: 'pending', date: 'N/A', source: 'Abramson was never prosecuted for his role in MKUltra experiments or the circumstances of Frank Olson\'s death.' },
+ ],
+ relatedInvestigations: [
+ { title: 'MKUltra: CIA Human Experimentation Program', slug: 'mkultra-cia-human-experimentation', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1899', event: 'Born' },
+ { date: '1940s', event: 'Begins career as physician and allergist at Columbia University' },
+ { date: 'Early 1950s', event: 'Recruited by Sidney Gottlieb as one of the first MKUltra LSD researchers' },
+ { date: 'November 19, 1953', event: 'Frank Olson secretly dosed with LSD at Deep Creek Lodge CIA retreat' },
+ { date: 'November 24-27, 1953', event: 'Meets with Frank Olson multiple times in New York City as Olson\'s psychological state deteriorates' },
+ { date: 'November 28, 1953', event: 'Frank Olson falls to his death from the 13th floor of the Hotel Statler; Abramson is the last known person to have seen him alive' },
+ { date: '1953-1960s', event: 'Continues CIA-funded LSD research at Columbia and other institutions' },
+ { date: '1975', event: 'Church Committee and Rockefeller Commission expose Olson\'s LSD dosing and death; Abramson\'s role becomes public' },
+ { date: '1980', event: 'Dies without ever facing prosecution or formal investigation' },
+ ],
+ sources: [
+ { title: 'Stephen Kinzer, Poisoner in Chief: Sidney Gottlieb and the CIA Search for Mind Control (Henry Holt, 2019)', date: '2019' },
+ { title: 'H.P. Albarelli Jr., A Terrible Mistake: The Murder of Frank Olson and the CIA\'s Secret Cold War Experiments (Trine Day, 2009)', date: '2009' },
+ { title: 'Senate Select Committee on Intelligence, Project MKUltra, the CIA\'s Program of Research in Behavioral Modification (August 3, 1977)', date: '1977' },
+ ],
+ knownAssociates: [
+ { name: 'Sidney Gottlieb', relationship: 'MKUltra program director who recruited Abramson and sent the distressed Frank Olson to him rather than a proper psychiatrist', href: '/entities/individuals/sidney-gottlieb' },
+ { name: 'Frank Olson', relationship: 'Army biochemist secretly dosed with LSD; Abramson was treating him in the days before his fatal fall', href: '/entities/individuals/frank-olson' },
+ { name: 'James Starrs', relationship: 'Forensic pathologist who exhumed Olson\'s body in 1994 and found evidence inconsistent with suicide', href: '/entities/individuals/james-starrs' },
+ ],
+ },
+
+ 'harris-isbell': {
+ name: 'Dr. Harris Isbell',
+ title: 'CIA-Funded Researcher Who Dosed Black Prisoners with LSD for 77 Consecutive Days',
+ role: 'Director of the Addiction Research Center in Lexington, Kentucky, who conducted CIA-funded LSD experiments on incarcerated Black men, paying them with heroin',
+ riskLevel: 'critical' as const,
+ description: 'Dr. Harris Isbell (1910-1994) was the director of the Addiction Research Center at the Public Health Service Hospital in Lexington, Kentucky, where he conducted some of the most racially exploitative experiments in the MKUltra program. From the early 1950s through the early 1960s, Isbell used incarcerated drug addicts, predominantly Black men, as human guinea pigs for CIA-funded experiments with LSD, mescaline, and other psychoactive substances.\n\nThe Public Health Service hospital in Lexington was nominally a treatment facility for drug addiction, but it also functioned as a federal prison. Isbell exploited this captive population ruthlessly. He administered LSD to prisoners for 77 consecutive days, steadily increasing doses to study tolerance. He gave subjects combinations of multiple psychoactive drugs simultaneously. His subjects, who had little meaningful ability to refuse, were "compensated" with their drug of addiction: heroin, morphine, or other opiates. The subjects were quite literally paid in the substance that had caused their incarceration.\n\nIsbell\'s experiments were funded by the CIA through the National Institute of Mental Health, which served as a conduit to obscure the intelligence agency\'s involvement. He published his results in medical journals, often without disclosing the CIA funding or the coercive conditions under which the experiments were conducted. The racist dimension of his work was unmistakable: Isbell exploited a population of incarcerated Black men in a system that had criminalized their addiction while using that same addiction as leverage to recruit them for dangerous experiments.\n\nIsbell was never prosecuted or disciplined. He continued his career in pharmacology research and died in 1994. The full scope of his work only became clear when the Church Committee exposed MKUltra in 1975 and journalist John Marks published The Search for the Manchurian Candidate in 1979.',
+ birthDate: '1910',
+ deathDate: '1994',
+ education: ['Medical degree (institution records incomplete)'],
+ affiliations: [
+ { name: 'Addiction Research Center, Lexington, Kentucky', role: 'Director; conducted CIA-funded LSD and drug experiments on incarcerated predominantly Black men', type: 'organization' },
+ { name: 'Central Intelligence Agency', role: 'MKUltra researcher; received CIA funding through NIMH conduit for drug experiments on prisoners', type: 'agency' },
+ { name: 'U.S. Public Health Service', role: 'Operated within the Public Health Service Hospital system, using prisoners as experimental subjects', type: 'agency' },
+ ],
+ controversies: [
+ 'Administered LSD to incarcerated Black men for 77 consecutive days, progressively increasing doses, in one of the longest continuous drug experiments ever documented',
+ 'Paid prisoner-subjects with heroin, morphine, and other opiates, exploiting their addiction to coerce participation in dangerous experiments',
+ 'Conducted experiments on a captive population with no meaningful ability to provide informed consent, in a facility that was both hospital and federal prison',
+ 'Published experimental results in medical journals without disclosing CIA funding or the coercive conditions under which subjects were recruited',
+ 'Experimented predominantly on Black prisoners, making his work one of the starkest examples of racial exploitation in American medical research alongside the Tuskegee Syphilis Study',
+ 'Administered combinations of multiple psychoactive substances simultaneously to subjects, with unknown and potentially lethal interaction risks',
+ 'Never faced any criminal prosecution, professional discipline, or medical board review for decades of unethical experimentation',
+ ],
+ charges: [
+ { charge: 'No criminal charges were ever filed', status: 'pending', date: 'N/A', source: 'Isbell was never prosecuted despite decades of coercive experimentation on prisoners. He died in 1994.' },
+ ],
+ relatedInvestigations: [
+ { title: 'MKUltra: CIA Human Experimentation Program', slug: 'mkultra-cia-human-experimentation', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1910', event: 'Born' },
+ { date: '1945', event: 'Becomes director of the Addiction Research Center at the Public Health Service Hospital in Lexington, Kentucky' },
+ { date: 'Early 1950s', event: 'Begins receiving CIA funding through the National Institute of Mental Health for LSD and drug experiments on prisoners' },
+ { date: '1953-1963', event: 'Conducts extensive MKUltra experiments with LSD, mescaline, and other drugs on incarcerated subjects, paying them with heroin' },
+ { date: '1955', event: 'Administers LSD to subjects for 77 consecutive days in escalating-dose tolerance study' },
+ { date: '1950s-1960s', event: 'Publishes experimental results in medical journals, omitting CIA funding and coercive recruitment methods' },
+ { date: '1963', event: 'CIA Inspector General John Earman raises concerns about MKUltra research ethics; some projects begin to wind down' },
+ { date: '1975', event: 'Church Committee exposes MKUltra; Isbell\'s Lexington experiments become public knowledge' },
+ { date: '1979', event: 'John Marks publishes The Search for the Manchurian Candidate, providing detailed account of Isbell\'s experiments' },
+ { date: '1994', event: 'Dies without ever facing prosecution or accountability' },
+ ],
+ sources: [
+ { title: 'John Marks, The Search for the Manchurian Candidate: The CIA and Mind Control (Times Books, 1979)', date: '1979' },
+ { title: 'Stephen Kinzer, Poisoner in Chief: Sidney Gottlieb and the CIA Search for Mind Control (Henry Holt, 2019)', date: '2019' },
+ { title: 'Senate Select Committee on Intelligence, Project MKUltra, the CIA\'s Program of Research in Behavioral Modification (August 3, 1977)', date: '1977' },
+ { title: 'Harriet Washington, Medical Apartheid: The Dark History of Medical Experimentation on Black Americans (Doubleday, 2006)', date: '2006' },
+ ],
+ knownAssociates: [
+ { name: 'Sidney Gottlieb', relationship: 'MKUltra program director who funded Isbell\'s Lexington experiments through NIMH conduit', href: '/entities/individuals/sidney-gottlieb' },
+ { name: 'John Earman', relationship: 'CIA Inspector General who raised ethical concerns about MKUltra research including Isbell\'s experiments', href: '/entities/individuals/john-earman' },
+ { name: 'Richard Helms', relationship: 'CIA official who oversaw MKUltra and later ordered destruction of program records', href: '/entities/individuals/richard-helms' },
+ ],
+ },
+
  'harrison-trevathan': {
  name: 'Harrison Trevathan',
  title: 'Mayor of Corbin, Kentucky during 1919 racial cleansing that expelled all Black residents',
@@ -933,10 +1039,58 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
+ 'henry-murray': {
+ name: 'Dr. Henry A. Murray',
+ title: 'Harvard Psychologist Whose CIA-Linked Stress Experiments Targeted Young Subjects Including Ted Kaczynski',
+ role: 'Harvard professor who conducted psychologically abusive stress experiments on undergraduate students from 1959 to 1962, funded in part by the CIA, with lasting consequences for at least one subject',
+ riskLevel: 'high' as const,
+ description: 'Dr. Henry Alexander Murray (1893-1988) was a prominent American psychologist at Harvard University known for developing the Thematic Apperception Test (TAT) and for his influential theories of personality. However, Murray also conducted a series of ethically devastating psychological experiments on Harvard undergraduates from 1959 to 1962 that have become one of the most troubling chapters in the intersection of academic psychology and CIA-funded research.\n\nMurray\'s experiments, sometimes called the "dyadic stress tests," recruited Harvard undergraduates (reportedly about 22 subjects) and subjected them to intense psychological abuse designed to break down their sense of identity. Students were asked to write detailed personal essays about their beliefs, aspirations, and vulnerabilities. They were then subjected to brutal, humiliating interrogations by a confederate who systematically attacked and ridiculed their most deeply held beliefs while their reactions were filmed and monitored. The experiments lasted approximately three years, with subjects returning repeatedly for additional sessions.\n\nMurray had extensive connections to the intelligence community dating to World War II, when he worked with the Office of Strategic Services (OSS) developing psychological profiles and assessment techniques. His postwar Harvard experiments received funding that some researchers have traced to CIA channels. The precise extent of CIA involvement remains disputed, as MKUltra records were largely destroyed in 1973 on the orders of Richard Helms.\n\nOne of Murray\'s subjects was a 16-year-old mathematics prodigy named Ted Kaczynski, who participated in the experiments from 1959 to 1962 during his undergraduate years at Harvard. While Kaczynski\'s later actions as the Unabomber had many contributing factors, multiple researchers have noted the potential psychological impact of Murray\'s sustained assault on Kaczynski\'s identity during his formative years. Murray himself was never investigated or held accountable for his experiments. He died in 1988.',
+ birthDate: 'May 13, 1893',
+ birthPlace: 'New York City, New York',
+ deathDate: 'June 23, 1988',
+ education: ['Harvard University, BA (1915)', 'Columbia University College of Physicians and Surgeons, MD (1919)', 'University of Cambridge, PhD in Biochemistry (1927)'],
+ affiliations: [
+ { name: 'Harvard University', role: 'Professor of Psychology (1927-1962); conducted psychologically abusive stress experiments on undergraduates', type: 'organization' },
+ { name: 'Office of Strategic Services', role: 'Wartime psychological profiling and assessment work (WWII); developed techniques later applied in postwar experiments', type: 'agency' },
+ { name: 'Central Intelligence Agency', role: 'Received funding linked to CIA channels for postwar psychological experiments at Harvard; precise extent disputed due to destruction of MKUltra records', type: 'agency' },
+ ],
+ controversies: [
+ 'Conducted psychologically abusive "dyadic stress tests" on Harvard undergraduates from 1959 to 1962, subjecting them to sustained humiliation and identity assault',
+ 'Recruited approximately 22 students who were asked to reveal their deepest beliefs and then brutally interrogated by confederates who systematically attacked those beliefs while filming their reactions',
+ 'One of his subjects was 16-year-old Harvard undergraduate Ted Kaczynski, who later became the Unabomber; the potential psychological impact of Murray\'s experiments on Kaczynski has been widely discussed',
+ 'Had extensive ties to the intelligence community through wartime OSS work; his Harvard experiments received funding some researchers have traced to CIA channels',
+ 'Conducted experiments without anything resembling modern informed consent or ethical oversight; subjects had no understanding of the true purpose or intensity of the research',
+ 'Never faced any investigation, prosecution, or professional sanction for experiments that would be considered profoundly unethical by any modern standard',
+ ],
+ charges: [
+ { charge: 'No criminal charges or formal investigations were ever initiated', status: 'pending', date: 'N/A', source: 'Murray died in 1988 without facing any accountability. Precise CIA involvement remains partially obscured by 1973 destruction of MKUltra records.' },
+ ],
+ relatedInvestigations: [
+ { title: 'MKUltra: CIA Human Experimentation Program', slug: 'mkultra-cia-human-experimentation', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'May 13, 1893', event: 'Born in New York City' },
+ { date: '1915', event: 'Graduates from Harvard University' },
+ { date: '1919', event: 'Receives MD from Columbia University' },
+ { date: '1927', event: 'Receives PhD in biochemistry from Cambridge; joins Harvard psychology faculty' },
+ { date: '1938', event: 'Publishes Explorations in Personality, introducing the Thematic Apperception Test' },
+ { date: '1943-1945', event: 'Works with the Office of Strategic Services developing psychological assessment and profiling techniques' },
+ { date: '1959', event: 'Begins "dyadic stress test" experiments on Harvard undergraduates; 16-year-old Ted Kaczynski is among the subjects' },
+ { date: '1959-1962', event: 'Conducts approximately three years of psychologically abusive experiments on approximately 22 Harvard undergraduates' },
+ { date: '1962', event: 'Retires from Harvard; experiments end' },
+ { date: 'June 23, 1988', event: 'Dies at age 95 without ever facing investigation or accountability' },
+ { date: '2000s', event: 'Renewed attention to Murray\'s experiments in the context of Kaczynski\'s history and broader MKUltra revelations' },
+ ],
+ sources: [
+ { title: 'Alston Chase, Harvard and the Unabomber: The Education of an American Terrorist (W.W. Norton, 2003)', date: '2003' },
+ { title: 'Stephen Kinzer, Poisoner in Chief: Sidney Gottlieb and the CIA Search for Mind Control (Henry Holt, 2019)', date: '2019' },
+ { title: 'Senate Select Committee on Intelligence, Project MKUltra, the CIA\'s Program of Research in Behavioral Modification (August 3, 1977)', date: '1977' },
+ ],
+ knownAssociates: [
+ { name: 'Sidney Gottlieb', relationship: 'MKUltra program director whose network of academic researchers likely included Murray\'s Harvard experiments', href: '/entities/individuals/sidney-gottlieb' },
+ { name: 'Allen Dulles', relationship: 'CIA Director who authorized MKUltra, the program under which Murray\'s experiments may have been funded', href: '/entities/individuals/allen-dulles' },
+ ],
+ },
 
 
  'henry-cabot-lodge-jr': {
