@@ -122,7 +122,7 @@ const roles: ActionRole[] = [
         title: 'Consult a Whistleblower Attorney',
         description: 'Before making any disclosure, consult a lawyer who specializes in whistleblower cases. The Government Accountability Project and National Whistleblower Center provide free legal consultations. An attorney can advise on which protections apply to your specific situation and which disclosure channels will best protect you.',
         tools: [
-          { label: 'Government Accountability Project', href: 'https://whistleblower.org/', external: true },
+          { label: 'Government Accountability Project', href: 'https://whistleblower.org/contact-us/', external: true },
           { label: 'National Whistleblower Center', href: 'https://www.whistleblowers.org/', external: true },
         ],
       },
@@ -145,7 +145,7 @@ const roles: ActionRole[] = [
       },
     ],
     resources: [
-      { title: 'Government Accountability Project', url: 'https://whistleblower.org/', type: 'Legal Aid' },
+      { title: 'Government Accountability Project', url: 'https://whistleblower.org/contact-us/', type: 'Legal Aid' },
       { title: 'National Whistleblower Center', url: 'https://www.whistleblowers.org/', type: 'Legal Aid' },
       { title: 'SEC Whistleblower Program', url: 'https://www.sec.gov/whistleblower', type: 'Government' },
       { title: 'SecureDrop Directory', url: 'https://securedrop.org/directory', type: 'Security' },
@@ -191,7 +191,7 @@ const roles: ActionRole[] = [
         description: 'Use the documented evidence to file complaints with relevant regulatory agencies. For financial crimes, file with the SEC, CFTC, or OCC. For environmental violations, file with the EPA. For civil rights violations, file with the DOJ Civil Rights Division. Each investigation identifies the responsible agencies.',
         tools: [
           { label: 'SEC Tips and Complaints', href: 'https://www.sec.gov/tcr', external: true },
-          { label: 'EPA Enforcement Complaints', href: 'https://www.epa.gov/enforcement/report-environmental-violations', external: true },
+          { label: 'EPA Enforcement Complaints', href: 'https://echo.epa.gov/report-environmental-violations', external: true },
           { label: 'DOJ Civil Rights Division', href: 'https://civilrights.justice.gov/report/', external: true },
         ],
       },
@@ -217,7 +217,9 @@ const roles: ActionRole[] = [
       { title: 'Reporters Committee FOIA Guide', url: 'https://www.rcfp.org/open-government-guide/', type: 'Legal Guide' },
       { title: 'Cornell Legal Information Institute', url: 'https://www.law.cornell.edu/', type: 'Legal Reference' },
       { title: 'DOJ Office of Professional Responsibility', url: 'https://www.justice.gov/opr', type: 'Government' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Government' },
+      { title: 'SEC EDGAR Company Search', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Government' },
+      { title: 'Oversight.gov: Report Fraud/Abuse', url: 'https://www.oversight.gov/where-report-fraud-waste-abuse-or-retaliation', type: 'Government' },
+      { title: 'Office of Special Counsel', url: 'https://osc.gov/', type: 'Government' },
     ],
     legalProtections: [
       '28 U.S.C. § 1331: Federal question jurisdiction for constitutional and statutory violations.',
@@ -261,7 +263,7 @@ const roles: ActionRole[] = [
         tools: [
           { label: 'Follow the Money Trail', href: '/money-trail' },
           { label: 'OpenSecrets', href: 'https://www.opensecrets.org/', external: true },
-          { label: 'SEC EDGAR', href: 'https://www.sec.gov/cgi-bin/browse-edgar', external: true },
+          { label: 'SEC EDGAR Filings', href: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', external: true },
         ],
       },
       {
@@ -286,7 +288,8 @@ const roles: ActionRole[] = [
       { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org/', type: 'Database' },
       { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', type: 'Database' },
       { title: 'MuckRock (FOIA Platform)', url: 'https://www.muckrock.com/', type: 'Research Tool' },
-      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Government' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Government' },
+      { title: 'MuckRock FOIA Platform', url: 'https://www.muckrock.com/', type: 'Research Tool' },
     ],
   },
   {
@@ -312,7 +315,7 @@ const roles: ActionRole[] = [
         title: 'Report to the Inspector General',
         description: 'Every federal agency and military branch has an Inspector General office. IG complaints are legally protected disclosures under the Inspector General Act and the Whistleblower Protection Act. For military matters, the DoD IG handles fraud, waste, abuse, and misconduct.',
         tools: [
-          { label: 'DoD Inspector General', href: 'https://www.dodig.mil/', external: true },
+          { label: 'DoD Inspector General Hotline', href: 'https://www.dodig.mil/Components/Administrative-Investigations/DoD-Hotline/', external: true },
           { label: 'Inspector General Network', href: 'https://www.ignet.gov/', external: true },
         ],
       },
@@ -340,7 +343,9 @@ const roles: ActionRole[] = [
       },
     ],
     resources: [
-      { title: 'DoD Inspector General', url: 'https://www.dodig.mil/', type: 'Government' },
+      { title: 'DoD Inspector General Hotline', url: 'https://www.dodig.mil/Components/Administrative-Investigations/DoD-Hotline/', type: 'Government' },
+      { title: 'Oversight.gov Reporting Portal', url: 'https://www.oversight.gov/where-report-fraud-waste-abuse-or-retaliation', type: 'Government' },
+      { title: 'Office of Special Counsel', url: 'https://osc.gov/', type: 'Government' },
       { title: 'FBI Tips Portal', url: 'https://tips.fbi.gov/', type: 'Government' },
       { title: 'Military Whistleblower Protection (10 U.S.C. § 1034)', url: 'https://www.law.cornell.edu/uscode/text/10/1034', type: 'Legal Reference' },
       { title: 'GAO Reports Database', url: 'https://www.gao.gov/reports-testimonies', type: 'Government' },
@@ -536,8 +541,8 @@ function RoleCard({ role }: { role: ActionRole }) {
 function QuickAccessTools() {
   const tools = [
     { icon: Search, label: 'Search Investigations', href: '/search', desc: 'Find any investigation, person, or entity' },
-    { icon: FileText, label: 'Download PDF Dossiers', href: '/investigations', desc: 'Generate evidence dossiers from any investigation' },
-    { icon: Target, label: 'Accountability Engine', href: '/investigations', desc: 'Generate legal templates from investigation data' },
+    { icon: FileText, label: 'Download PDF Dossiers', href: '/documents', desc: 'Browse and download investigation evidence documents' },
+    { icon: Target, label: 'Convictions Database', href: '/convictions', desc: 'Track defendants, charges, sentences, and outcomes' },
     { icon: Globe, label: 'Entity Network Map', href: '/network', desc: 'Visualize connections between people and organizations' },
     { icon: Briefcase, label: 'Money Trail', href: '/money-trail', desc: 'Follow the financial flows across all investigations' },
     { icon: Building2, label: 'Statutes Database', href: '/statutes', desc: 'Every federal law cited across all investigations' },
@@ -616,12 +621,39 @@ export default function TakeActionPage() {
             <div>
               <h3 className="text-sm font-bold text-red-300 uppercase tracking-wider">Immediate Danger?</h3>
               <p className="text-sm text-zinc-400 mt-1 leading-relaxed">
-                If you are in immediate danger as a whistleblower or witness, contact the{' '}
-                <a href="https://whistleblower.org/urgent-help/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline">
-                  Government Accountability Project emergency line
+                If you are in immediate danger, call <span className="text-red-400 font-bold">911</span> immediately.
+                For whistleblower emergencies, contact the{' '}
+                <a href="https://whistleblower.org/contact-us/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline">
+                  Government Accountability Project
                 </a>{' '}
-                or call 911. If you fear government surveillance, use a clean device on a public network.
+                at <a href="tel:+12024570034" className="text-red-400 hover:underline font-mono">(202) 457-0034</a>, or
+                the{' '}
+                <a href="https://www.whistleblowers.org/contact-us/" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline">
+                  National Whistleblower Center
+                </a>.
+                For federal fraud, waste, or abuse, report to{' '}
+                <a href="https://www.oversight.gov/where-report-fraud-waste-abuse-or-retaliation" target="_blank" rel="noopener noreferrer" className="text-red-400 hover:underline">
+                  Oversight.gov
+                </a>.
+                If you fear government surveillance, use a clean device on a public network.
               </p>
+              <div className="flex flex-wrap gap-3 mt-3">
+                <a href="tel:911" className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 border border-red-900/50 bg-red-950/30 text-red-300 hover:bg-red-900/30 transition-colors rounded-md font-bold">
+                  <Phone className="w-3 h-3" /> 911 Emergency
+                </a>
+                <a href="tel:+12024570034" className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 border border-red-900/50 bg-red-950/30 text-red-300 hover:bg-red-900/30 transition-colors rounded-md">
+                  <Phone className="w-3 h-3" /> GAP: (202) 457-0034
+                </a>
+                <a href="https://www.oversight.gov/where-report-fraud-waste-abuse-or-retaliation" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 border border-red-900/50 bg-red-950/30 text-red-300 hover:bg-red-900/30 transition-colors rounded-md">
+                  <ExternalLink className="w-3 h-3" /> Report Fraud/Abuse
+                </a>
+                <a href="https://osc.gov/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 border border-red-900/50 bg-red-950/30 text-red-300 hover:bg-red-900/30 transition-colors rounded-md">
+                  <ExternalLink className="w-3 h-3" /> Office of Special Counsel
+                </a>
+                <a href="https://whistleblower.gov/contactus" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 border border-red-900/50 bg-red-950/30 text-red-300 hover:bg-red-900/30 transition-colors rounded-md">
+                  <Phone className="w-3 h-3" /> CFTC Hotline: (866) 873-5675
+                </a>
+              </div>
             </div>
           </div>
         </div>
