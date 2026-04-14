@@ -201,16 +201,16 @@ export const bigTobaccoAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'FDA finalization of menthol cigarette ban -- the single policy that would save the most Black lives, delayed repeatedly under industry pressure since 2013',
-    'FDA mandate reducing nicotine in cigarettes to non-addictive levels -- the authority exists under the Family Smoking Prevention and Tobacco Control Act and has never been exercised',
-    'Full accounting and redirection of MSA funds to smoking cessation programs instead of state general budgets -- states currently spend less than 3% of MSA and tobacco tax revenue on cessation',
+    'FDA finalization of menthol cigarette ban, the single policy that would save the most Black lives, delayed repeatedly under industry pressure since 2013',
+    'FDA mandate reducing nicotine in cigarettes to non-addictive levels, the authority exists under the Family Smoking Prevention and Tobacco Control Act and has never been exercised',
+    'Full accounting and redirection of MSA funds to smoking cessation programs instead of state general budgets, states currently spend less than 3% of MSA and tobacco tax revenue on cessation',
     'Strict enforcement of the 2006 RICO judgment corrective statement requirements and marketing restrictions with meaningful penalties for non-compliance',
     'Extension of the RICO fraud findings to cover industry pivot to vaping and heated tobacco products marketed to youth under "harm reduction" branding',
     'Criminal prosecution under state consumer fraud statutes for ongoing deception about nicotine addiction and youth marketing through social media influencers',
     'Personal liability for executives who directed marketing campaigns targeting minors after the MSA expressly prohibited such targeting',
     'Elimination of all remaining tobacco industry political donations and lobbying expenditures through strengthened campaign finance restrictions on convicted RICO enterprises',
     'Full compensation for Engle progeny plaintiffs in Florida and expansion of individual wrongful death litigation in other jurisdictions',
-    'International accountability through WHO Framework Convention on Tobacco Control enforcement -- holding U.S. companies accountable for marketing tactics banned domestically that they deploy in developing nations',
+    'International accountability through WHO Framework Convention on Tobacco Control enforcement, holding U.S. companies accountable for marketing tactics banned domestically that they deploy in developing nations',
   ],
 
 

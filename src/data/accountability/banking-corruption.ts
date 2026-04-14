@@ -35,14 +35,14 @@ export const bankingCorruptionAccountability: AccountabilityData = {
     { name: 'OCC', title: 'Office of the Comptroller of the Currency', jurisdiction: 'National bank regulation', powers: ['Revoke charters', 'Remove executives', 'Impose consent orders'] },
   ],
   successCriteria: [
-    'End of the "too big to jail" doctrine -- legislation mandating criminal prosecution (not DPAs) for banks that commit repeated criminal offenses, with automatic charter revocation after a third criminal violation',
-    'Individual criminal prosecution of bank executives who authorized or knowingly facilitated money laundering, sanctions evasion, and market manipulation -- fines paid by shareholders are not accountability for executives who made the decisions',
+    'End of the "too big to jail" doctrine, legislation mandating criminal prosecution (not DPAs) for banks that commit repeated criminal offenses, with automatic charter revocation after a third criminal violation',
+    'Individual criminal prosecution of bank executives who authorized or knowingly facilitated money laundering, sanctions evasion, and market manipulation, fines paid by shareholders are not accountability for executives who made the decisions',
     'HSBC accountability: criminal prosecution of the individuals who designed the specially-sized teller windows for drug cash boxes, who stripped identifying information from Iranian transactions, and who approved the systematic BSA/AML compliance failures',
-    'Full disgorgement of criminal profits -- fines must exceed the profits from criminal conduct, not represent 3-5% of annual revenue that can be absorbed as a cost of doing business and written off as a tax deduction',
-    'Mandatory restitution to victims of cartel violence funded by laundered money -- HSBC laundered $881 million for the Sinaloa cartel, and the weapons purchased with that money killed thousands of people who have no legal recourse',
-    'Elimination of the revolving door between bank regulators and the banks they regulate -- mandatory cooling-off periods and lifetime bans on regulated-entity employment for senior regulators',
+    'Full disgorgement of criminal profits, fines must exceed the profits from criminal conduct, not represent 3-5% of annual revenue that can be absorbed as a cost of doing business and written off as a tax deduction',
+    'Mandatory restitution to victims of cartel violence funded by laundered money, HSBC laundered $881 million for the Sinaloa cartel, and the weapons purchased with that money killed thousands of people who have no legal recourse',
+    'Elimination of the revolving door between bank regulators and the banks they regulate, mandatory cooling-off periods and lifetime bans on regulated-entity employment for senior regulators',
     'Complete public accounting of every DPA entered into by a major bank, the violations that triggered the DPA, the compliance failures during the DPA term, and subsequent criminal conduct after the DPA expired',
-    'Banking license revocation authority exercised against repeat criminal offenders -- OCC and FinCEN have this authority and have never used it against a systemically important institution',
+    'Banking license revocation authority exercised against repeat criminal offenders, OCC and FinCEN have this authority and have never used it against a systemically important institution',
   ],
 
   actionPaths: [
@@ -64,12 +64,12 @@ export const bankingCorruptionAccountability: AccountabilityData = {
           description: 'Contact your representatives to demand legislation ending DPAs for repeat corporate criminal offenders. Banks should not receive better treatment than individuals who commit the same crimes.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your House and Senate representatives; Senate Banking Committee; House Financial Services Committee',
-          templateText: 'Dear [Representative/Senator],\n\nHSBC laundered $881 million for drug cartels. No banker went to prison. They received a deferred prosecution agreement -- a fine equal to 5 weeks of revenue. Then AG Eric Holder admitted some banks are "too big to jail."\n\nI urge you to:\n1. Pass legislation requiring criminal prosecution after a second DPA\n2. Mandate individual prosecution of executives who authorize criminal conduct\n3. Require fines that exceed criminal profits, not represent rounding errors\n4. End the revolving door between regulators and banks\n\nBanks that launder drug money should not exist.\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear [Representative/Senator],\n\nHSBC laundered $881 million for drug cartels. No banker went to prison. They received a deferred prosecution agreement, a fine equal to 5 weeks of revenue. Then AG Eric Holder admitted some banks are "too big to jail."\n\nI urge you to:\n1. Pass legislation requiring criminal prosecution after a second DPA\n2. Mandate individual prosecution of executives who authorize criminal conduct\n3. Require fines that exceed criminal profits, not represent rounding errors\n4. End the revolving door between regulators and banks\n\nBanks that launder drug money should not exist.\n\nSincerely,\n[Your Name]',
         },
         {
           step: 3,
           title: 'Support Whistleblower Organizations',
-          description: 'Support banking industry whistleblower protection organizations. Bank employees who expose criminal conduct face retaliation -- support the organizations that protect them and amplify their disclosures.',
+          description: 'Support banking industry whistleblower protection organizations. Bank employees who expose criminal conduct face retaliation, support the organizations that protect them and amplify their disclosures.',
           estimatedTime: '20 minutes',
         },
       ],
@@ -95,7 +95,7 @@ export const bankingCorruptionAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Cartel Violence Victim Documentation',
-          description: 'Document the human cost of bank-facilitated money laundering. HSBC laundered $881 million for the Sinaloa cartel -- connect the laundered money to specific weapons purchases, specific operations, specific violence. Put faces on the victims that bank fines are supposed to address.',
+          description: 'Document the human cost of bank-facilitated money laundering. HSBC laundered $881 million for the Sinaloa cartel, connect the laundered money to specific weapons purchases, specific operations, specific violence. Put faces on the victims that bank fines are supposed to address.',
           estimatedTime: '6-12 months',
         },
       ],
@@ -109,7 +109,7 @@ export const bankingCorruptionAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Cartel Violence Victim Litigation',
-          description: 'Represent families of cartel violence victims in civil suits against banks that facilitated cartel operations through money laundering. HSBC knowingly processed $881 million in cartel drug money -- weapons purchased with that money killed people. The causal chain is documentable.',
+          description: 'Represent families of cartel violence victims in civil suits against banks that facilitated cartel operations through money laundering. HSBC knowingly processed $881 million in cartel drug money, weapons purchased with that money killed people. The causal chain is documentable.',
           legalBasis: ['Anti-Terrorism Act (18 U.S.C. Section 2333)', 'Negligence per se (BSA violations)', 'Aiding and abetting tortious conduct'],
           estimatedTime: '24-48 months',
         },
@@ -138,7 +138,7 @@ export const bankingCorruptionAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'End Repeat DPAs',
-          description: 'Pass legislation requiring criminal prosecution -- not DPAs -- after a second criminal violation by the same institution. No more revolving-door agreements that treat criminal conduct as a regulatory matter.',
+          description: 'Pass legislation requiring criminal prosecution, not DPAs, after a second criminal violation by the same institution. No more revolving-door agreements that treat criminal conduct as a regulatory matter.',
           estimatedTime: '6-12 months legislative timeline',
         },
         {
@@ -157,14 +157,14 @@ export const bankingCorruptionAccountability: AccountabilityData = {
     },
     {
       role: 'law_enforcement',
-      overview: 'Prosecute individual bankers. The Yates Memo directed individual accountability -- enforce it.',
+      overview: 'Prosecute individual bankers. The Yates Memo directed individual accountability, enforce it.',
       urgency: 'high',
       relevantMechanisms: ['Bank Secrecy Act / Anti-Money Laundering', 'International Emergency Economic Powers Act (IEEPA)'],
       steps: [
         {
           step: 1,
           title: 'Individual Prosecution Priority',
-          description: 'Prioritize prosecution of individual bankers who authorized or facilitated money laundering, not just institutional fines. The HSBC compliance officer who knew about cartel money laundering. The Deutsche Bank trader who executed mirror trades. Institutional fines are paid by shareholders -- individual prosecution creates personal deterrence.',
+          description: 'Prioritize prosecution of individual bankers who authorized or facilitated money laundering, not just institutional fines. The HSBC compliance officer who knew about cartel money laundering. The Deutsche Bank trader who executed mirror trades. Institutional fines are paid by shareholders, individual prosecution creates personal deterrence.',
           estimatedTime: 'Ongoing',
         },
         {
@@ -176,7 +176,7 @@ export const bankingCorruptionAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'International Coordination',
-          description: 'Coordinate with international law enforcement (UK FCA, EU banking regulators, FATF) on cross-border money laundering prosecutions. Deutsche Bank\'s mirror trading moved $10 billion from Russia through multiple jurisdictions -- international cooperation is essential.',
+          description: 'Coordinate with international law enforcement (UK FCA, EU banking regulators, FATF) on cross-border money laundering prosecutions. Deutsche Bank\'s mirror trading moved $10 billion from Russia through multiple jurisdictions, international cooperation is essential.',
           estimatedTime: 'Ongoing',
         },
       ],
@@ -190,7 +190,7 @@ export const bankingCorruptionAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Charter Revocation for Repeat Offenders',
-          description: 'Use existing authority to revoke or restrict banking charters for institutions with repeated criminal violations. OCC has never revoked the charter of a systemically important bank. The authority exists -- the political will to use it does not.',
+          description: 'Use existing authority to revoke or restrict banking charters for institutions with repeated criminal violations. OCC has never revoked the charter of a systemically important bank. The authority exists, the political will to use it does not.',
           estimatedTime: '6-12 months',
         },
         {

@@ -8,10 +8,10 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
   primaryTargets: [
     {
       name: 'Rick Scott',
-      role: 'CEO of Columbia/HCA during the fraud period (1993-1997). Built the company through aggressive acquisition and cost-cutting into the nation\'s largest for-profit hospital chain. Oversaw the corporate culture that systematically defrauded Medicare and Medicaid. Set revenue targets that incentivized fraudulent billing. Invoked the Fifth Amendment 75 times in deposition -- refusing to answer questions about the fraud he oversaw.',
-      currentStatus: 'Never charged criminally. Forced out as CEO in 1997 but received $10 million severance, $300 million in stock, and 5 years consulting at $950,000/year. Used personal fortune (~$200 million) to self-fund campaigns. Elected Governor of Florida (2010, 2014) and U.S. Senator (2018). Currently serving in the U.S. Senate with an estimated net worth of $500+ million -- largely derived from the company that committed the largest healthcare fraud in American history.',
-      accountabilityPath: 'Criminal statute of limitations expired. Political accountability through elections -- voters have twice elected him knowing the fraud history. Civil disgorgement through shareholder derivative actions. Public record preservation to prevent historical rehabilitation.',
-      obstacles: ['Criminal statute of limitations expired', 'Political accountability failed -- re-elected multiple times', 'Fifth Amendment protection shielded deposition testimony', 'Personal fortune enables overwhelming political spending', 'No federal clawback mechanism for executive compensation derived from fraud'],
+      role: 'CEO of Columbia/HCA during the fraud period (1993-1997). Built the company through aggressive acquisition and cost-cutting into the nation\'s largest for-profit hospital chain. Oversaw the corporate culture that systematically defrauded Medicare and Medicaid. Set revenue targets that incentivized fraudulent billing. Invoked the Fifth Amendment 75 times in deposition, refusing to answer questions about the fraud he oversaw.',
+      currentStatus: 'Never charged criminally. Forced out as CEO in 1997 but received $10 million severance, $300 million in stock, and 5 years consulting at $950,000/year. Used personal fortune (~$200 million) to self-fund campaigns. Elected Governor of Florida (2010, 2014) and U.S. Senator (2018). Currently serving in the U.S. Senate with an estimated net worth of $500+ million, largely derived from the company that committed the largest healthcare fraud in American history.',
+      accountabilityPath: 'Criminal statute of limitations expired. Political accountability through elections, voters have twice elected him knowing the fraud history. Civil disgorgement through shareholder derivative actions. Public record preservation to prevent historical rehabilitation.',
+      obstacles: ['Criminal statute of limitations expired', 'Political accountability failed, re-elected multiple times', 'Fifth Amendment protection shielded deposition testimony', 'Personal fortune enables overwhelming political spending', 'No federal clawback mechanism for executive compensation derived from fraud'],
     },
     {
       name: 'Columbia/HCA Corporate Leadership Team',
@@ -25,7 +25,7 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
       role: 'The reorganized successor to Columbia/HCA. Despite pleading guilty to 14 felonies and paying $1.7 billion in fines, the company was never excluded from Medicare/Medicaid participation. HCA continues to operate as the nation\'s largest for-profit hospital chain with $60+ billion annual revenue and over 180 hospitals.',
       currentStatus: 'Continues to operate and profit massively. Taken private by KKR, Bain Capital, and Merrill Lynch in 2006 for $33 billion, then re-IPO\'d in 2011. The Frist family (co-founders) and private equity firms have extracted billions. No meaningful structural reform was mandated as part of the settlement.',
       accountabilityPath: 'Ongoing compliance monitoring. Corporate integrity agreement terms. Shareholder advocacy for governance reform. State regulatory oversight of hospital operations.',
-      obstacles: ['Too big to exclude from Medicare', 'Fines were absorbed as cost of doing business -- less than one year\'s profit', 'No structural reform mandated', 'Private equity ownership further distances from accountability'],
+      obstacles: ['Too big to exclude from Medicare', 'Fines were absorbed as cost of doing business, less than one year\'s profit', 'No structural reform mandated', 'Private equity ownership further distances from accountability'],
     },
     {
       name: 'The Frist Family',
@@ -53,7 +53,7 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
       reachesHeirs: true,
       authorizedActors: ['DOJ Civil Division', 'U.S. Attorneys', 'Private whistleblower relators'],
       applicability: 'directly_applicable',
-      notes: 'The Columbia/HCA case was the most successful qui tam prosecution in history at the time. It demonstrated that whistleblowers -- not regulators -- are the primary mechanism for detecting healthcare fraud. The case led to significant strengthening of qui tam protections.',
+      notes: 'The Columbia/HCA case was the most successful qui tam prosecution in history at the time. It demonstrated that whistleblowers, not regulators, are the primary mechanism for detecting healthcare fraud. The case led to significant strengthening of qui tam protections.',
     },
     {
       name: 'Anti-Kickback Statute',
@@ -68,7 +68,7 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
     {
       name: 'Medicare/Medicaid Program Exclusion',
       statute: '42 U.S.C. Section 1320a-7',
-      description: 'HHS has mandatory and permissive authority to exclude entities from Medicare/Medicaid participation. Mandatory exclusion is required for entities convicted of healthcare fraud felonies. Columbia/HCA was NOT excluded despite 14 felony convictions -- because excluding the nation\'s largest hospital chain would have disrupted healthcare access for millions of patients. This "too big to exclude" problem remains unresolved.',
+      description: 'HHS has mandatory and permissive authority to exclude entities from Medicare/Medicaid participation. Mandatory exclusion is required for entities convicted of healthcare fraud felonies. Columbia/HCA was NOT excluded despite 14 felony convictions, because excluding the nation\'s largest hospital chain would have disrupted healthcare access for millions of patients. This "too big to exclude" problem remains unresolved.',
       hasStatuteOfLimitations: false,
       reachesHeirs: false,
       authorizedActors: ['HHS OIG'],
@@ -94,7 +94,7 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['DOJ', 'FDA (for FDCA violations)', 'HHS OIG'],
       applicability: 'directly_applicable',
-      notes: 'The failure to use the responsible corporate officer doctrine against Rick Scott was one of the most significant missed opportunities in the case. The doctrine was specifically designed for situations like this -- where a CEO creates the conditions for fraud even without direct participation in each fraudulent act.',
+      notes: 'The failure to use the responsible corporate officer doctrine against Rick Scott was one of the most significant missed opportunities in the case. The doctrine was specifically designed for situations like this, where a CEO creates the conditions for fraud even without direct participation in each fraudulent act.',
     },
     {
       name: 'Executive Compensation Clawback',
@@ -123,10 +123,10 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
     {
       name: 'Rick Scott Personal Fortune',
       relationship: 'Wealth extracted from company during and after the fraud period',
-      transferMethod: 'Scott received $10 million severance, $300 million in stock options, and 5 years of consulting at $950,000/year when forced out as CEO in 1997. He self-funded his first gubernatorial campaign with $73 million (2010) and his Senate race with $63 million (2018). His current net worth is estimated at $500+ million -- substantially all derived from Columbia/HCA.',
+      transferMethod: 'Scott received $10 million severance, $300 million in stock options, and 5 years of consulting at $950,000/year when forced out as CEO in 1997. He self-funded his first gubernatorial campaign with $73 million (2010) and his Senate race with $63 million (2018). His current net worth is estimated at $500+ million, substantially all derived from Columbia/HCA.',
       estimatedValue: '$500+ million personal fortune; $300M+ in stock at departure; $136M+ in self-funded political campaigns',
-      legalEntities: ['Rick Scott personal accounts', 'Frances Ann Scott (wife) -- assets held jointly or transferred', 'Richard L. Scott Investments LLC', 'Campaign accounts'],
-      recoveryMechanisms: ['Criminal SOL expired -- no criminal forfeiture available', 'No existing clawback mechanism applied retroactively', 'Political accountability through elections (failed -- voters re-elected Scott)', 'Public record preservation as deterrent'],
+      legalEntities: ['Rick Scott personal accounts', 'Frances Ann Scott (wife), assets held jointly or transferred', 'Richard L. Scott Investments LLC', 'Campaign accounts'],
+      recoveryMechanisms: ['Criminal SOL expired, no criminal forfeiture available', 'No existing clawback mechanism applied retroactively', 'Political accountability through elections (failed, voters re-elected Scott)', 'Public record preservation as deterrent'],
     },
     {
       name: 'Frist Family Fortune',
@@ -139,18 +139,18 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
     {
       name: 'Private Equity Profits',
       relationship: 'Leveraged buyout profits from company with fraud-tainted history',
-      transferMethod: 'KKR, Bain Capital, and Merrill Lynch took HCA private in 2006 for $33 billion -- one of the largest leveraged buyouts in history. They re-IPO\'d in 2011. The private equity firms extracted billions in profits, management fees, and dividends from a company that had been convicted of 14 felonies.',
+      transferMethod: 'KKR, Bain Capital, and Merrill Lynch took HCA private in 2006 for $33 billion, one of the largest leveraged buyouts in history. They re-IPO\'d in 2011. The private equity firms extracted billions in profits, management fees, and dividends from a company that had been convicted of 14 felonies.',
       estimatedValue: 'Private equity firms invested ~$5.3 billion equity, extracted $4+ billion in dividends alone before re-IPO',
       legalEntities: ['KKR & Co.', 'Bain Capital', 'Bank of America/Merrill Lynch'],
-      recoveryMechanisms: ['No legal mechanism -- LBO was post-settlement', 'Public documentation of profit extraction from fraud-tainted entity'],
+      recoveryMechanisms: ['No legal mechanism, LBO was post-settlement', 'Public documentation of profit extraction from fraud-tainted entity'],
     },
     {
       name: 'Columbia/HCA Settlement Funds',
       relationship: 'Fines and penalties paid to federal and state governments',
-      transferMethod: 'Columbia/HCA paid $1.7 billion in total fines and settlements. Of this, approximately $151 million went to whistleblowers. The remainder went to the federal government and state Medicaid programs. While $1.7 billion sounds massive, it represented less than one year\'s profit for the company -- a cost of doing business, not meaningful deterrence.',
+      transferMethod: 'Columbia/HCA paid $1.7 billion in total fines and settlements. Of this, approximately $151 million went to whistleblowers. The remainder went to the federal government and state Medicaid programs. While $1.7 billion sounds massive, it represented less than one year\'s profit for the company, a cost of doing business, not meaningful deterrence.',
       estimatedValue: '$1.7 billion total settlement; $151 million to whistleblowers; remainder to government',
       legalEntities: ['U.S. Treasury', 'State Medicaid programs', 'Whistleblower relators'],
-      recoveryMechanisms: ['Funds already distributed -- but the disparity between fines paid and wealth extracted demonstrates the inadequacy of current penalties'],
+      recoveryMechanisms: ['Funds already distributed, but the disparity between fines paid and wealth extracted demonstrates the inadequacy of current penalties'],
     },
   ],
 
@@ -189,9 +189,9 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
   ],
 
   successCriteria: [
-    'Personal financial disgorgement from Rick Scott of all compensation and stock profits derived from Columbia/HCA during the fraud period -- the Fifth Amendment protects against self-incrimination, not against civil recovery of fraudulently obtained wealth',
-    'Mandatory personal debarment from federal healthcare programs for any executive who oversees an organization convicted of healthcare fraud felonies -- the corporate veil must not be a shield for individual accountability',
-    'Elimination of the "too big to exclude" loophole by creating mandatory breakup authority for healthcare companies convicted of systemic fraud felonies -- no entity should be immune from program exclusion because of its size',
+    'Personal financial disgorgement from Rick Scott of all compensation and stock profits derived from Columbia/HCA during the fraud period, the Fifth Amendment protects against self-incrimination, not against civil recovery of fraudulently obtained wealth',
+    'Mandatory personal debarment from federal healthcare programs for any executive who oversees an organization convicted of healthcare fraud felonies, the corporate veil must not be a shield for individual accountability',
+    'Elimination of the "too big to exclude" loophole by creating mandatory breakup authority for healthcare companies convicted of systemic fraud felonies, no entity should be immune from program exclusion because of its size',
     'Retroactive executive compensation clawback legislation that reaches back to cases like Columbia/HCA, ensuring that no executive profits from overseeing the largest healthcare fraud in history',
     'Strengthening of the Responsible Corporate Officer doctrine to create a presumption of personal liability for C-suite executives when their organizations commit systemic fraud',
     'Whistleblower protection enhancement to increase qui tam recovery percentages and provide absolute protection against retaliation for healthcare fraud whistleblowers',
@@ -212,7 +212,7 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
           description: 'Demand that the Senate Finance Committee investigate how Rick Scott profited from the largest healthcare fraud in American history and used those proceeds to fund his political career. The Senate has oversight authority over both Medicare fraud enforcement and its own members\' conduct.',
           estimatedTime: '30 minutes',
           filingTarget: 'Senate Finance Committee: finance.senate.gov/contact',
-          templateText: 'Dear [Senator/Committee Chair],\n\nRick Scott, as CEO of Columbia/HCA, oversaw the largest healthcare fraud in American history -- $1.7 billion in fines and 14 felony convictions. He invoked the Fifth Amendment 75 times in deposition. He was never charged. He received $300+ million in stock and severance and used the money to buy his way into political office.\n\nI request that the Senate Finance Committee investigate:\n1. The DOJ\'s decision not to prosecute Scott individually\n2. Whether executive clawback mechanisms should be enacted retroactively\n3. Whether any member of this body should be allowed to profit from the largest healthcare fraud in history\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear [Senator/Committee Chair],\n\nRick Scott, as CEO of Columbia/HCA, oversaw the largest healthcare fraud in American history, $1.7 billion in fines and 14 felony convictions. He invoked the Fifth Amendment 75 times in deposition. He was never charged. He received $300+ million in stock and severance and used the money to buy his way into political office.\n\nI request that the Senate Finance Committee investigate:\n1. The DOJ\'s decision not to prosecute Scott individually\n2. Whether executive clawback mechanisms should be enacted retroactively\n3. Whether any member of this body should be allowed to profit from the largest healthcare fraud in history\n\nSincerely,\n[Your Name]',
         },
         {
           step: 2,
@@ -250,7 +250,7 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Interview Whistleblowers',
-          description: 'Locate and interview the original Columbia/HCA qui tam relators. Document their experiences -- the retaliation they faced, the personal cost of coming forward, and what they think about Scott becoming a Senator. Their stories are essential to the public record.',
+          description: 'Locate and interview the original Columbia/HCA qui tam relators. Document their experiences, the retaliation they faced, the personal cost of coming forward, and what they think about Scott becoming a Senator. Their stories are essential to the public record.',
           estimatedTime: '2-4 months',
         },
       ],
@@ -286,7 +286,7 @@ export const columbiaHcaFraudAccountability: AccountabilityData = {
     },
     {
       role: 'elected_official',
-      overview: 'The Rick Scott pipeline -- from healthcare fraud CEO to Senator -- must never happen again. Pass executive accountability laws. Mandate individual debarment. Create retroactive clawback authority.',
+      overview: 'The Rick Scott pipeline, from healthcare fraud CEO to Senator, must never happen again. Pass executive accountability laws. Mandate individual debarment. Create retroactive clawback authority.',
       urgency: 'immediate',
       relevantMechanisms: ['Medicare/Medicaid Program Exclusion', 'Executive Compensation Clawback', 'Responsible Corporate Officer Doctrine'],
       steps: [

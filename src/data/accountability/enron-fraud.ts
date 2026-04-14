@@ -271,16 +271,16 @@ export const enronFraudAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Full recovery of remaining Enron executive assets through constructive trust and unjust enrichment claims -- Skilling retained wealth after serving reduced sentence, Lay estate retained assets after conviction vacated by death',
-    'Tax fraud investigation of unreported income from off-book entities with no statute of limitations -- Enron\'s SPE network generated income that was never properly reported',
-    'Comprehensive accounting of where the $74 billion in destroyed value went -- how much was recovered through settlements, how much reached victims, what percentage of executive enrichment was clawed back',
-    'Reform of the abatement ab initio doctrine so convicted fraudsters cannot escape civil and criminal forfeiture through death before exhausting appeals -- the Lay loophole',
+    'Full recovery of remaining Enron executive assets through constructive trust and unjust enrichment claims, Skilling retained wealth after serving reduced sentence, Lay estate retained assets after conviction vacated by death',
+    'Tax fraud investigation of unreported income from off-book entities with no statute of limitations, Enron\'s SPE network generated income that was never properly reported',
+    'Comprehensive accounting of where the $74 billion in destroyed value went, how much was recovered through settlements, how much reached victims, what percentage of executive enrichment was clawed back',
+    'Reform of the abatement ab initio doctrine so convicted fraudsters cannot escape civil and criminal forfeiture through death before exhausting appeals, the Lay loophole',
     'Investigation of Jeffrey Skilling\'s post-prison ventures to determine whether Enron-derived capital is being used for new business enterprises',
-    'GAO study on the effectiveness of Sarbanes-Oxley enforcement in the 20+ years since enactment -- has it prevented Enron-scale fraud or merely created compliance theater',
+    'GAO study on the effectiveness of Sarbanes-Oxley enforcement in the 20+ years since enactment, has it prevented Enron-scale fraud or merely created compliance theater',
     'Full enforcement of all remaining restitution orders with verification that collected funds reached actual victims rather than being absorbed by administrative costs',
     'Permanent public archive of all Enron-related court documents, internal communications, Special Purpose Entity structures, and accounting manipulations as an educational resource',
-    'Accountability for Arthur Andersen partners who participated in or ignored the fraud -- the firm\'s dissolution scattered individuals who have never been individually held responsible',
-    'Strengthened criminal penalties for corporate fraud ensuring that sentences are proportional to harm caused -- 24 years reduced to 14 for destroying 20,000 jobs and $74 billion in wealth is not proportional',
+    'Accountability for Arthur Andersen partners who participated in or ignored the fraud, the firm\'s dissolution scattered individuals who have never been individually held responsible',
+    'Strengthened criminal penalties for corporate fraud ensuring that sentences are proportional to harm caused, 24 years reduced to 14 for destroying 20,000 jobs and $74 billion in wealth is not proportional',
   ],
 
 

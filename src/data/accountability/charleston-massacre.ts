@@ -83,14 +83,14 @@ export const charlestonMassacreAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Charleston loophole closed by federal legislation requiring completed background checks before any firearm transfer -- Dylann Roof obtained his weapon because the FBI did not complete his check within the 3-day default-proceed window, and his drug arrest disqualified him from purchase',
-    'Federal domestic terrorism statute enacted providing the same investigative and prosecutorial tools for white supremacist terrorism that exist for international terrorism -- the Charleston massacre was an act of domestic terrorism, but the U.S. has no federal domestic terrorism charge',
-    'Confederate flag and Confederate monuments removed from all government property -- South Carolina removed the Confederate flag from its statehouse grounds after Charleston, but hundreds of Confederate monuments remain on public land nationwide',
-    'Full investigation and documentation of the white supremacist online radicalization pipeline that produced Roof: Council of Conservative Citizens website to manifesto to murder -- the pipeline has not been disrupted',
-    'FBI threat assessment reform ensuring that when background check disqualifying information exists (Roof\'s drug arrest), it is captured regardless of jurisdictional data-sharing failures -- the specific failure was an examiner not knowing which police department to contact',
-    'NICS fully modernized with complete state and local criminal record integration, adequate staffing to complete all checks within 72 hours, and no default-proceed loophole -- the system failed because of underfunding and bad data',
-    'Permanent memorial and educational program at Emanuel AME Church honoring the nine victims and the history of racial violence against Black churches in America -- from 16th Street Baptist to Emanuel AME, the pattern continues',
-    'Federal funding for community-based violence prevention programs targeting white supremacist radicalization with the same resources allocated to international terrorism prevention -- the threat assessment must match the threat',
+    'Charleston loophole closed by federal legislation requiring completed background checks before any firearm transfer, Dylann Roof obtained his weapon because the FBI did not complete his check within the 3-day default-proceed window, and his drug arrest disqualified him from purchase',
+    'Federal domestic terrorism statute enacted providing the same investigative and prosecutorial tools for white supremacist terrorism that exist for international terrorism, the Charleston massacre was an act of domestic terrorism, but the U.S. has no federal domestic terrorism charge',
+    'Confederate flag and Confederate monuments removed from all government property, South Carolina removed the Confederate flag from its statehouse grounds after Charleston, but hundreds of Confederate monuments remain on public land nationwide',
+    'Full investigation and documentation of the white supremacist online radicalization pipeline that produced Roof: Council of Conservative Citizens website to manifesto to murder, the pipeline has not been disrupted',
+    'FBI threat assessment reform ensuring that when background check disqualifying information exists (Roof\'s drug arrest), it is captured regardless of jurisdictional data-sharing failures, the specific failure was an examiner not knowing which police department to contact',
+    'NICS fully modernized with complete state and local criminal record integration, adequate staffing to complete all checks within 72 hours, and no default-proceed loophole, the system failed because of underfunding and bad data',
+    'Permanent memorial and educational program at Emanuel AME Church honoring the nine victims and the history of racial violence against Black churches in America, from 16th Street Baptist to Emanuel AME, the pattern continues',
+    'Federal funding for community-based violence prevention programs targeting white supremacist radicalization with the same resources allocated to international terrorism prevention, the threat assessment must match the threat',
   ],
 
   actionPaths: [
@@ -103,7 +103,7 @@ export const charlestonMassacreAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Close the Charleston Loophole',
-          description: 'Contact representatives to support eliminating the "default proceed" background check gap. Dylann Roof should never have been able to purchase a firearm -- his drug arrest disqualified him, but the FBI\'s 3-day window expired before the check was completed.',
+          description: 'Contact representatives to support eliminating the "default proceed" background check gap. Dylann Roof should never have been able to purchase a firearm, his drug arrest disqualified him, but the FBI\'s 3-day window expired before the check was completed.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your House and Senate representatives; Senate Judiciary Committee',
         },
@@ -116,7 +116,7 @@ export const charlestonMassacreAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Confederate Monument Removal',
-          description: 'Advocate for removal of Confederate monuments from public property in your community. After Charleston, South Carolina removed the Confederate flag from its statehouse -- but hundreds of monuments remain on public land. These monuments celebrate the ideology that motivated Roof.',
+          description: 'Advocate for removal of Confederate monuments from public property in your community. After Charleston, South Carolina removed the Confederate flag from its statehouse, but hundreds of monuments remain on public land. These monuments celebrate the ideology that motivated Roof.',
           estimatedTime: 'Ongoing',
         },
       ],
@@ -130,7 +130,7 @@ export const charlestonMassacreAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Radicalization Pipeline Documentation',
-          description: 'Map the online infrastructure that radicalizes young men into white supremacist violence. Roof\'s path from the Council of Conservative Citizens website to his manifesto to Emanuel AME is documented -- but the pipeline continues to radicalize new attackers.',
+          description: 'Map the online infrastructure that radicalizes young men into white supremacist violence. Roof\'s path from the Council of Conservative Citizens website to his manifesto to Emanuel AME is documented, but the pipeline continues to radicalize new attackers.',
           estimatedTime: '3-6 months',
         },
         {
@@ -211,7 +211,7 @@ export const charlestonMassacreAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'DVE Resource Parity',
-          description: 'Allocate FBI resources to domestic violent extremism in proportion to the assessed threat. If DVE is the top domestic threat, it should receive the top domestic resource allocation -- not a fraction of international terrorism funding.',
+          description: 'Allocate FBI resources to domestic violent extremism in proportion to the assessed threat. If DVE is the top domestic threat, it should receive the top domestic resource allocation, not a fraction of international terrorism funding.',
           estimatedTime: 'Ongoing',
         },
         {
@@ -223,7 +223,7 @@ export const charlestonMassacreAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Online Radicalization Monitoring',
-          description: 'Expand monitoring of white supremacist radicalization spaces online. Roof was radicalized in publicly accessible spaces -- detection should not require sophisticated intelligence operations, just adequate attention.',
+          description: 'Expand monitoring of white supremacist radicalization spaces online. Roof was radicalized in publicly accessible spaces, detection should not require sophisticated intelligence operations, just adequate attention.',
           estimatedTime: 'Ongoing',
         },
       ],
@@ -249,7 +249,7 @@ export const charlestonMassacreAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Default-Proceed Elimination',
-          description: 'Eliminate the default-proceed provision that allows firearm transfers after 3 business days regardless of check completion. If a background check cannot be completed, the transfer should not proceed -- the safety default should be denial, not approval.',
+          description: 'Eliminate the default-proceed provision that allows firearm transfers after 3 business days regardless of check completion. If a background check cannot be completed, the transfer should not proceed, the safety default should be denial, not approval.',
           estimatedTime: '6-12 months',
         },
       ],

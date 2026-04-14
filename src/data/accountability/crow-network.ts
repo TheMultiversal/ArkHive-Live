@@ -35,12 +35,12 @@ export const crowNetworkAccountability: AccountabilityData = {
     { name: 'DOJ', title: 'Department of Justice', jurisdiction: 'Criminal enforcement', powers: ['Prosecute disclosure violations', 'Investigate potential bribery', 'Tax fraud referral'] },
   ],
   successCriteria: [
-    'Enforceable Supreme Court ethics code with an independent enforcement mechanism -- not the toothless, self-policed code adopted in November 2023 that has no investigation or sanction authority',
-    'Mandatory recusal standards for Supreme Court Justices with judicial review -- Justices should not be the sole arbiters of their own conflicts of interest',
-    'Criminal investigation of Thomas\'s 20 years of financial disclosure violations under the Ethics in Government Act Section 104 -- the law provides criminal penalties that have never been applied to a Justice',
-    'Full public accounting of every gift, benefit, and financial transaction between Crow and Thomas -- including any transactions not yet disclosed by ProPublica',
-    'Thomas recusal or removal from all cases involving organizations funded by Harlan Crow or the Crow network -- retroactive review of past decisions where recusal was required but not observed',
-    'Gift tax investigation by the IRS of Crow\'s unreported gifts to Thomas -- gifts to federal officials exceeding the annual exclusion must be reported, and structured gifts to avoid reporting may constitute tax fraud',
+    'Enforceable Supreme Court ethics code with an independent enforcement mechanism, not the toothless, self-policed code adopted in November 2023 that has no investigation or sanction authority',
+    'Mandatory recusal standards for Supreme Court Justices with judicial review, Justices should not be the sole arbiters of their own conflicts of interest',
+    'Criminal investigation of Thomas\'s 20 years of financial disclosure violations under the Ethics in Government Act Section 104, the law provides criminal penalties that have never been applied to a Justice',
+    'Full public accounting of every gift, benefit, and financial transaction between Crow and Thomas, including any transactions not yet disclosed by ProPublica',
+    'Thomas recusal or removal from all cases involving organizations funded by Harlan Crow or the Crow network, retroactive review of past decisions where recusal was required but not observed',
+    'Gift tax investigation by the IRS of Crow\'s unreported gifts to Thomas, gifts to federal officials exceeding the annual exclusion must be reported, and structured gifts to avoid reporting may constitute tax fraud',
     'Complete mapping and public documentation of the influence pipeline: Crow funds organizations that fund litigation that comes before Thomas who rules favorably on cases benefiting Crow\'s interests',
     'Permanent legislative reform ensuring no future Justice can operate a two-decade undisclosed gift pipeline with a party who has interests before the Court',
   ],
@@ -55,15 +55,15 @@ export const crowNetworkAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Demand SCOTUS Ethics Legislation',
-          description: 'Contact your senators to demand passage of enforceable Supreme Court ethics legislation with mandatory recusal rules and an independent enforcement mechanism. The November 2023 "ethics code" has no enforcement -- it is theater.',
+          description: 'Contact your senators to demand passage of enforceable Supreme Court ethics legislation with mandatory recusal rules and an independent enforcement mechanism. The November 2023 "ethics code" has no enforcement, it is theater.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your Senate representatives; Senate Judiciary Committee',
-          templateText: 'Dear Senator [Name],\n\nSupreme Court Justice Clarence Thomas accepted $4+ million in gifts from billionaire Harlan Crow over 20 years -- luxury vacations, real estate transactions, tuition payments, a $19,000 Bible -- and disclosed none of it. Crow funds organizations that bring cases before the Court on which Thomas sits.\n\nThe Court\'s November 2023 "ethics code" has no enforcement mechanism. I urge you to:\n\n1. Pass the Supreme Court Ethics, Recusal, and Transparency Act\n2. Establish an independent enforcement mechanism\n3. Mandate recusal when a Justice has financial relationships with parties\n4. Investigate Thomas\'s 20 years of disclosure violations\n\nA Justice who can be bought is not a Justice.\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear Senator [Name],\n\nSupreme Court Justice Clarence Thomas accepted $4+ million in gifts from billionaire Harlan Crow over 20 years, luxury vacations, real estate transactions, tuition payments, a $19,000 Bible, and disclosed none of it. Crow funds organizations that bring cases before the Court on which Thomas sits.\n\nThe Court\'s November 2023 "ethics code" has no enforcement mechanism. I urge you to:\n\n1. Pass the Supreme Court Ethics, Recusal, and Transparency Act\n2. Establish an independent enforcement mechanism\n3. Mandate recusal when a Justice has financial relationships with parties\n4. Investigate Thomas\'s 20 years of disclosure violations\n\nA Justice who can be bought is not a Justice.\n\nSincerely,\n[Your Name]',
         },
         {
           step: 2,
           title: 'Share the ProPublica Investigation',
-          description: 'Most Americans don\'t know the full scope of the Crow-Thomas relationship. Share the ProPublica investigation. The documented facts -- not opinions, not speculation, but documented facts -- are damning enough.',
+          description: 'Most Americans don\'t know the full scope of the Crow-Thomas relationship. Share the ProPublica investigation. The documented facts, not opinions, not speculation, but documented facts, are damning enough.',
           estimatedTime: '15 minutes',
         },
         {
@@ -76,7 +76,7 @@ export const crowNetworkAccountability: AccountabilityData = {
     },
     {
       role: 'journalist',
-      overview: 'ProPublica broke this story. Continue investigating -- the full scope of Crow\'s influence network remains unmapped.',
+      overview: 'ProPublica broke this story. Continue investigating, the full scope of Crow\'s influence network remains unmapped.',
       urgency: 'immediate',
       relevantMechanisms: ['Ethics in Government Act (Financial Disclosure)', 'SCOTUS Ethics Legislation'],
       steps: [
@@ -89,7 +89,7 @@ export const crowNetworkAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Other Justices Investigation',
-          description: 'Investigate whether other Justices have similar undisclosed gift relationships. Thomas was exposed because ProPublica investigated -- who else has been receiving unreported gifts? The Supreme Court\'s self-policing has clearly failed.',
+          description: 'Investigate whether other Justices have similar undisclosed gift relationships. Thomas was exposed because ProPublica investigated, who else has been receiving unreported gifts? The Supreme Court\'s self-policing has clearly failed.',
           estimatedTime: '6-12 months',
         },
         {
@@ -109,7 +109,7 @@ export const crowNetworkAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Recusal Motion Campaign',
-          description: 'Identify all cases where Thomas should have recused due to Crow connections. File motions for review in active cases where Crow-funded organizations are parties. Build the record of recusal failures even if the motions are denied -- they create the evidentiary basis for legislation.',
+          description: 'Identify all cases where Thomas should have recused due to Crow connections. File motions for review in active cases where Crow-funded organizations are parties. Build the record of recusal failures even if the motions are denied, they create the evidentiary basis for legislation.',
           legalBasis: ['28 U.S.C. Section 455 (disqualification of justice)', 'Due Process Clause', 'Canon 3 of the Code of Conduct for United States Judges'],
           estimatedTime: '6-12 months',
         },
@@ -176,7 +176,7 @@ export const crowNetworkAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Property Transaction Investigation',
-          description: 'Investigate the real estate transactions between Crow and Thomas family. The $133,363 Savannah property purchase -- after which Thomas\'s mother continued to live rent-free while Crow never developed the property -- raises questions about whether the transaction was a disguised gift or bribe.',
+          description: 'Investigate the real estate transactions between Crow and Thomas family. The $133,363 Savannah property purchase, after which Thomas\'s mother continued to live rent-free while Crow never developed the property, raises questions about whether the transaction was a disguised gift or bribe.',
           estimatedTime: '6-12 months',
         },
       ],
@@ -190,7 +190,7 @@ export const crowNetworkAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Independent Enforcement Authority',
-          description: 'Establish an independent enforcement authority for Supreme Court ethics and financial disclosure compliance. The current system -- where the Court polices itself and the Judicial Conference has no enforcement power over SCOTUS -- has demonstrably failed.',
+          description: 'Establish an independent enforcement authority for Supreme Court ethics and financial disclosure compliance. The current system, where the Court polices itself and the Judicial Conference has no enforcement power over SCOTUS, has demonstrably failed.',
           estimatedTime: '6-12 months',
         },
         {
@@ -202,7 +202,7 @@ export const crowNetworkAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Recusal Review Mechanism',
-          description: 'Create an independent panel to review recusal decisions by Supreme Court Justices. The current system -- where each Justice decides their own recusal with no review -- is a structural invitation to corruption.',
+          description: 'Create an independent panel to review recusal decisions by Supreme Court Justices. The current system, where each Justice decides their own recusal with no review, is a structural invitation to corruption.',
           estimatedTime: '6-12 months',
         },
       ],

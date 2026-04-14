@@ -11,7 +11,7 @@ export const accessHollywoodAccountability: AccountabilityData = {
       role: 'Recorded on tape in 2005 describing a pattern of sexual assault: "I just start kissing them. It\'s like a magnet. Just kiss. I don\'t even wait. And when you\'re a star, they let you do it. You can do anything... Grab \'em by the pussy." Over 20 women subsequently accused Trump of sexual misconduct consistent with what he described on the tape, including forced kissing, groping, and rape.',
       currentStatus: 'Found liable for sexual abuse and defamation of E. Jean Carroll by a federal civil jury in 2023. Ordered to pay $5 million (sexual abuse + defamation) and $83.3 million (defamation in second trial), totaling $88.3 million. Never criminally charged for any sexual assault allegation. Elected president in 2016 and 2024 despite the tape, the allegations, and the civil liability finding.',
       accountabilityPath: 'Criminal statute of limitations has expired for most allegations. Civil liability established through Carroll verdicts. Additional civil suits possible under lookback window legislation. Judgment enforcement and collection are the immediate priority.',
-      obstacles: ['Criminal SOL expired for most allegations', 'Presidential immunity during terms in office', 'Political consequences have been nonexistent -- elected twice after tape and allegations', 'DOJ policy against indicting a sitting president', 'Carroll judgment under appeal'],
+      obstacles: ['Criminal SOL expired for most allegations', 'Presidential immunity during terms in office', 'Political consequences have been nonexistent, elected twice after tape and allegations', 'DOJ policy against indicting a sitting president', 'Carroll judgment under appeal'],
     },
     {
       name: 'NBC / Access Hollywood Production',
@@ -145,13 +145,13 @@ export const accessHollywoodAccountability: AccountabilityData = {
   ],
 
   successCriteria: [
-    'Full collection of the $88.3 million Carroll judgment -- enforced against Trump\'s personal assets with no discount, no settlement, and no political interference',
-    'Lookback window legislation enacted in every state -- the Carroll verdict proved that accountability is possible decades after the assault, but only if the legal window exists',
-    'Additional civil suits filed by other Trump accusers under lookback window legislation -- the Carroll verdict demonstrated the pattern; other accusers deserve the same opportunity',
-    'Permanent ban on NDAs in sexual assault cases -- the hush money scheme that suppressed allegations before the 2016 election must be made impossible to repeat',
-    'Full execution of the 34-count felony sentence from the Manhattan DA case -- the only criminal prosecution in the Access Hollywood ecosystem must result in meaningful consequences',
-    'Public archival record of every sexual assault allegation, every accuser\'s account, every denial, and every legal outcome -- this record must survive any attempt at historical revision',
-    'Institutional accountability for NBC\'s decision to suppress the Access Hollywood tape for 11 years -- a full investigation into who knew about the tape, who decided not to release it, and whether political considerations influenced the decision',
+    'Full collection of the $88.3 million Carroll judgment, enforced against Trump\'s personal assets with no discount, no settlement, and no political interference',
+    'Lookback window legislation enacted in every state, the Carroll verdict proved that accountability is possible decades after the assault, but only if the legal window exists',
+    'Additional civil suits filed by other Trump accusers under lookback window legislation, the Carroll verdict demonstrated the pattern; other accusers deserve the same opportunity',
+    'Permanent ban on NDAs in sexual assault cases, the hush money scheme that suppressed allegations before the 2016 election must be made impossible to repeat',
+    'Full execution of the 34-count felony sentence from the Manhattan DA case, the only criminal prosecution in the Access Hollywood ecosystem must result in meaningful consequences',
+    'Public archival record of every sexual assault allegation, every accuser\'s account, every denial, and every legal outcome, this record must survive any attempt at historical revision',
+    'Institutional accountability for NBC\'s decision to suppress the Access Hollywood tape for 11 years, a full investigation into who knew about the tape, who decided not to release it, and whether political considerations influenced the decision',
     'Reform of political party accountability mechanisms so that a candidate who admits to sexual assault on tape cannot receive a major party nomination without any institutional consequence',
   ],
 
@@ -165,10 +165,10 @@ export const accessHollywoodAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Support Lookback Window Legislation',
-          description: 'Contact your state legislators to support Adult Survivors Act legislation modeled on New York\'s law. The Carroll verdict proved that accountability is possible decades after the assault -- but only if the legal window exists. Every state needs this law.',
+          description: 'Contact your state legislators to support Adult Survivors Act legislation modeled on New York\'s law. The Carroll verdict proved that accountability is possible decades after the assault, but only if the legal window exists. Every state needs this law.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your state legislators',
-          templateText: 'Dear [Legislator],\n\nThe E. Jean Carroll verdict demonstrated that lookback window legislation works. A jury found Donald Trump liable for sexual assault committed in the 1990s -- accountability that was only possible because New York\'s Adult Survivors Act opened a window for filing claims.\n\nI urge you to pass Adult Survivors Act legislation in our state. At least 20 women accused Trump of sexual misconduct. Many cannot pursue justice because of statue of limitations barriers. Every state that passes lookback window legislation gives survivors another chance at accountability.\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear [Legislator],\n\nThe E. Jean Carroll verdict demonstrated that lookback window legislation works. A jury found Donald Trump liable for sexual assault committed in the 1990s, accountability that was only possible because New York\'s Adult Survivors Act opened a window for filing claims.\n\nI urge you to pass Adult Survivors Act legislation in our state. At least 20 women accused Trump of sexual misconduct. Many cannot pursue justice because of statue of limitations barriers. Every state that passes lookback window legislation gives survivors another chance at accountability.\n\nSincerely,\n[Your Name]',
         },
         {
           step: 2,
@@ -274,7 +274,7 @@ export const accessHollywoodAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Equal Investigation Standard',
-          description: 'Apply the same investigative rigor to sexual assault allegations against powerful individuals as against anyone else. The failure to investigate the 20+ allegations against Trump criminally -- despite his admissions on tape -- represents a systemic failure.',
+          description: 'Apply the same investigative rigor to sexual assault allegations against powerful individuals as against anyone else. The failure to investigate the 20+ allegations against Trump criminally, despite his admissions on tape, represents a systemic failure.',
           estimatedTime: 'Ongoing',
         },
         {
@@ -286,7 +286,7 @@ export const accessHollywoodAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Investigate Suppression Networks',
-          description: 'When patterns of hush money payments and catch-and-kill operations are identified, investigate proactively. Do not wait for victims to come forward -- the suppression system is designed specifically to prevent that.',
+          description: 'When patterns of hush money payments and catch-and-kill operations are identified, investigate proactively. Do not wait for victims to come forward, the suppression system is designed specifically to prevent that.',
           estimatedTime: 'Case-by-case',
         },
       ],
@@ -300,7 +300,7 @@ export const accessHollywoodAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'FEC Campaign Finance Enforcement',
-          description: 'The FEC must investigate and enforce campaign finance violations related to hush money payments. The FEC\'s failure to act on the Trump hush money payments -- despite Michael Cohen\'s conviction for the same conduct -- represents a regulatory failure that must be corrected.',
+          description: 'The FEC must investigate and enforce campaign finance violations related to hush money payments. The FEC\'s failure to act on the Trump hush money payments, despite Michael Cohen\'s conviction for the same conduct, represents a regulatory failure that must be corrected.',
           estimatedTime: 'Ongoing',
         },
         {

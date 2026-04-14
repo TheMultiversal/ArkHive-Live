@@ -71,14 +71,14 @@ export const hushMoneyAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Full sentencing and appellate resolution of the 34-count conviction establishing binding precedent that concealing payments to suppress information from voters constitutes criminal falsification of business records -- this is the first criminal conviction of a former or sitting president',
-    'Federal prosecution of the underlying campaign finance violations for which Cohen served prison time and Trump was identified as "Individual-1" who directed the scheme -- the DOJ\'s policy against indicting a sitting president prevented charges, but that protection has expired',
-    'AMI/National Enquirer accountability for the "catch and kill" operation including David Pecker\'s $150,000 payment to Karen McDougal -- weaponizing a media company to suppress information from voters is not journalism, it is campaign finance fraud',
-    'FEC structural reform enabling enforcement of campaign finance violations by powerful individuals -- the FEC\'s structural deadlock ensured no federal enforcement action during the underlying scheme or afterward',
-    'Legislation closing the intermediary payment loophole: mandate disclosure of all payments made to suppress information that would be material to voters during an election -- the Cohen-Essential Consultants LLC-Daniels payment chain should not be replicable',
-    'Complete documentation of the Trump Organization\'s role in the reimbursement scheme: 11 checks, 12 invoices, 12 ledger entries -- $420,000 disguised as a legal retainer, with the Trump Organization\'s CFO Allen Weisselberg\'s handwritten notes calculating the grossed-up repayment',
-    'Precedent established that "catch and kill" agreements made for the purpose of influencing elections constitute in-kind campaign contributions subject to disclosure and limitation -- the practice is campaign finance fraud disguised as media transactions',
-    'Public recognition that the conviction stands regardless of political outcome -- the principle that no one is above the law either means something or it does not',
+    'Full sentencing and appellate resolution of the 34-count conviction establishing binding precedent that concealing payments to suppress information from voters constitutes criminal falsification of business records, this is the first criminal conviction of a former or sitting president',
+    'Federal prosecution of the underlying campaign finance violations for which Cohen served prison time and Trump was identified as "Individual-1" who directed the scheme, the DOJ\'s policy against indicting a sitting president prevented charges, but that protection has expired',
+    'AMI/National Enquirer accountability for the "catch and kill" operation including David Pecker\'s $150,000 payment to Karen McDougal, weaponizing a media company to suppress information from voters is not journalism, it is campaign finance fraud',
+    'FEC structural reform enabling enforcement of campaign finance violations by powerful individuals, the FEC\'s structural deadlock ensured no federal enforcement action during the underlying scheme or afterward',
+    'Legislation closing the intermediary payment loophole: mandate disclosure of all payments made to suppress information that would be material to voters during an election, the Cohen-Essential Consultants LLC-Daniels payment chain should not be replicable',
+    'Complete documentation of the Trump Organization\'s role in the reimbursement scheme: 11 checks, 12 invoices, 12 ledger entries, $420,000 disguised as a legal retainer, with the Trump Organization\'s CFO Allen Weisselberg\'s handwritten notes calculating the grossed-up repayment',
+    'Precedent established that "catch and kill" agreements made for the purpose of influencing elections constitute in-kind campaign contributions subject to disclosure and limitation, the practice is campaign finance fraud disguised as media transactions',
+    'Public recognition that the conviction stands regardless of political outcome, the principle that no one is above the law either means something or it does not',
   ],
 
   actionPaths: [
@@ -91,7 +91,7 @@ export const hushMoneyAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Support Judicial Independence',
-          description: 'Defend the independence of state prosecutors and judges from political interference. The Manhattan DA\'s prosecution faced extraordinary political pressure -- the ability to hold powerful individuals accountable depends on prosecutorial independence.',
+          description: 'Defend the independence of state prosecutors and judges from political interference. The Manhattan DA\'s prosecution faced extraordinary political pressure, the ability to hold powerful individuals accountable depends on prosecutorial independence.',
           estimatedTime: 'Ongoing',
         },
         {
@@ -151,7 +151,7 @@ export const hushMoneyAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Catch-and-Kill Legal Theory',
-          description: 'Develop binding legal precedent establishing that catch-and-kill agreements made to influence elections constitute in-kind campaign contributions. The Cohen plea and Trump conviction create the factual basis -- now establish the doctrinal framework.',
+          description: 'Develop binding legal precedent establishing that catch-and-kill agreements made to influence elections constitute in-kind campaign contributions. The Cohen plea and Trump conviction create the factual basis, now establish the doctrinal framework.',
           legalBasis: ['FEC regulations on in-kind contributions', 'FECA reporting requirements'],
           estimatedTime: '12-24 months',
         },
@@ -185,7 +185,7 @@ export const hushMoneyAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Presidential Accountability',
-          description: 'Codify by statute that sitting presidents are not immune from criminal investigation and can be indicted. The OLC opinion is a policy memo, not a constitutional mandate -- replace it with legislation.',
+          description: 'Codify by statute that sitting presidents are not immune from criminal investigation and can be indicted. The OLC opinion is a policy memo, not a constitutional mandate, replace it with legislation.',
           estimatedTime: 'Multi-year legislative effort',
         },
       ],
@@ -199,7 +199,7 @@ export const hushMoneyAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Related Scheme Investigation',
-          description: 'Investigate whether similar catch-and-kill or payment suppression schemes were used in other contexts by the same or different actors. Pecker\'s testimony suggested a systematic practice -- determine the full scope.',
+          description: 'Investigate whether similar catch-and-kill or payment suppression schemes were used in other contexts by the same or different actors. Pecker\'s testimony suggested a systematic practice, determine the full scope.',
           estimatedTime: '3-6 months',
         },
         {
@@ -211,7 +211,7 @@ export const hushMoneyAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Federal Campaign Finance Investigation',
-          description: 'DOJ should evaluate whether federal campaign finance charges remain viable now that the sitting-president policy no longer applies. Cohen served prison time for the same conduct Trump directed -- the disparity in consequences is a disparity in justice.',
+          description: 'DOJ should evaluate whether federal campaign finance charges remain viable now that the sitting-president policy no longer applies. Cohen served prison time for the same conduct Trump directed, the disparity in consequences is a disparity in justice.',
           estimatedTime: '6-12 months',
         },
       ],
@@ -225,7 +225,7 @@ export const hushMoneyAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Intermediary Payment Disclosure',
-          description: 'Require disclosure of payments made through intermediaries that serve to suppress information material to elections. The Essential Consultants LLC structure was specifically designed to evade disclosure -- close this loophole.',
+          description: 'Require disclosure of payments made through intermediaries that serve to suppress information material to elections. The Essential Consultants LLC structure was specifically designed to evade disclosure, close this loophole.',
           estimatedTime: '6-12 months',
         },
         {

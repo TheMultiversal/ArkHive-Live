@@ -34,13 +34,13 @@ export const bothamJeanAccountability: AccountabilityData = {
     { name: 'Texas Legislature', title: 'Texas State Legislature', jurisdiction: 'State law reform', powers: ['Reform castle doctrine', 'Mandate independent investigations', 'Police accountability legislation'] },
   ],
   successCriteria: [
-    'Mandatory independent investigation of all police-involved killings by an agency entirely separate from the officer\'s department -- the DPD investigating its own officer\'s killing of Botham Jean was a structural conflict of interest',
-    'Legislation prohibiting the search of a victim\'s home in officer-involved shootings without specific probable cause of criminal activity by the victim -- the search warrant executed on Jean\'s apartment to find marijuana was victim character assassination',
-    'Same-day arrest protocols for officers involved in off-duty shootings -- Guyger was not arrested for three days, a privilege no civilian suspect would receive under identical circumstances',
-    'Murder sentencing reform ensuring that 10 years for the murder of an unarmed man in his own home is not an available outcome -- the 5-99 year range in Texas should have resulted in a sentence reflecting the gravity of the crime',
+    'Mandatory independent investigation of all police-involved killings by an agency entirely separate from the officer\'s department, the DPD investigating its own officer\'s killing of Botham Jean was a structural conflict of interest',
+    'Legislation prohibiting the search of a victim\'s home in officer-involved shootings without specific probable cause of criminal activity by the victim, the search warrant executed on Jean\'s apartment to find marijuana was victim character assassination',
+    'Same-day arrest protocols for officers involved in off-duty shootings, Guyger was not arrested for three days, a privilege no civilian suspect would receive under identical circumstances',
+    'Murder sentencing reform ensuring that 10 years for the murder of an unarmed man in his own home is not an available outcome, the 5-99 year range in Texas should have resulted in a sentence reflecting the gravity of the crime',
     'Federal George Floyd Justice in Policing Act enacted, ending qualified immunity, establishing national use of force standards, and creating mandatory independent prosecution in police killings',
     'Dallas Police Department institutional reforms: mandatory bias training, independent civilian oversight board with subpoena power, and policy prohibiting the public release of victim\'s criminal history absent relevance to the shooting',
-    'Complete public documentation of the differential treatment: three-day arrest delay, victim\'s apartment searched for drugs, officer allowed to leave the scene -- contrasted with how a civilian who entered the wrong apartment and killed a police officer would be treated',
+    'Complete public documentation of the differential treatment: three-day arrest delay, victim\'s apartment searched for drugs, officer allowed to leave the scene, contrasted with how a civilian who entered the wrong apartment and killed a police officer would be treated',
     'Civil rights investigation by DOJ into DPD\'s pattern and practice of differential treatment of officer suspects versus civilian suspects in shooting investigations',
   ],
 
@@ -54,15 +54,15 @@ export const bothamJeanAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Demand Independent Investigations',
-          description: 'Advocate for state laws requiring independent investigation of all police-involved shootings -- not investigation by the officer\'s own department. DPD investigated its own officer in the Jean case before the Texas Rangers took over.',
+          description: 'Advocate for state laws requiring independent investigation of all police-involved shootings, not investigation by the officer\'s own department. DPD investigated its own officer in the Jean case before the Texas Rangers took over.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your state legislators; city council; police oversight board',
-          templateText: 'Dear [State Legislator],\n\nOn September 6, 2018, off-duty Dallas Police Officer Amber Guyger entered Botham Jean\'s apartment and murdered him. DPD\'s response: she was not arrested for three days. A search warrant was executed on JEAN\'S apartment -- to find marijuana. She received 10 years for murder.\n\nI urge you to:\n1. Pass mandatory independent investigation laws for police-involved killings\n2. Prohibit victim character assassination in officer-involved shooting investigations\n3. Require same-day arrest protocols for officer suspects\n\nBotham Jean deserved better. We all do.\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear [State Legislator],\n\nOn September 6, 2018, off-duty Dallas Police Officer Amber Guyger entered Botham Jean\'s apartment and murdered him. DPD\'s response: she was not arrested for three days. A search warrant was executed on JEAN\'S apartment, to find marijuana. She received 10 years for murder.\n\nI urge you to:\n1. Pass mandatory independent investigation laws for police-involved killings\n2. Prohibit victim character assassination in officer-involved shooting investigations\n3. Require same-day arrest protocols for officer suspects\n\nBotham Jean deserved better. We all do.\n\nSincerely,\n[Your Name]',
         },
         {
           step: 2,
           title: 'Remember Botham Jean',
-          description: 'Share Botham Jean\'s story. He was 26, from St. Lucia, a Harding University graduate, active church member, PricewaterhouseCoopers accountant. He was murdered eating ice cream in his own apartment. He is not a statistic -- he was a person.',
+          description: 'Share Botham Jean\'s story. He was 26, from St. Lucia, a Harding University graduate, active church member, PricewaterhouseCoopers accountant. He was murdered eating ice cream in his own apartment. He is not a statistic, he was a person.',
           estimatedTime: 'Ongoing',
         },
         {
@@ -88,13 +88,13 @@ export const bothamJeanAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Victim Character Assassination Pattern',
-          description: 'Document how often victims of police violence have their criminal history, drug use, or personal life publicized as part of the investigation response. The search of Jean\'s apartment for marijuana was not unique -- it is a pattern designed to retroactively justify the killing.',
+          description: 'Document how often victims of police violence have their criminal history, drug use, or personal life publicized as part of the investigation response. The search of Jean\'s apartment for marijuana was not unique, it is a pattern designed to retroactively justify the killing.',
           estimatedTime: '3-6 months',
         },
         {
           step: 3,
           title: 'Sentencing Disparity Analysis',
-          description: 'Investigate sentencing disparities in police murder convictions versus civilian murder convictions for equivalent conduct. Guyger received 10 years for murdering an unarmed man in his home -- what sentence would a civilian receive for the same act?',
+          description: 'Investigate sentencing disparities in police murder convictions versus civilian murder convictions for equivalent conduct. Guyger received 10 years for murdering an unarmed man in his home, what sentence would a civilian receive for the same act?',
           estimatedTime: '3-6 months',
         },
       ],
@@ -108,14 +108,14 @@ export const bothamJeanAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Independent Prosecution Legislation',
-          description: 'Draft and advocate for state laws requiring independent prosecutors -- not DAs who work with police daily -- for all police shooting cases. The structural conflict of interest between DAs and police departments makes fair prosecution impossible.',
+          description: 'Draft and advocate for state laws requiring independent prosecutors, not DAs who work with police daily, for all police shooting cases. The structural conflict of interest between DAs and police departments makes fair prosecution impossible.',
           legalBasis: ['Due Process Clause', 'Equal Protection Clause', 'Right to fair trial'],
           estimatedTime: '12-24 months',
         },
         {
           step: 2,
           title: 'Qualified Immunity Challenges',
-          description: 'Continue challenging qualified immunity in Section 1983 cases. The Jean family\'s civil suit required navigating qualified immunity -- a doctrine that protects officers who violate rights unless the violation was "clearly established" in nearly identical prior cases.',
+          description: 'Continue challenging qualified immunity in Section 1983 cases. The Jean family\'s civil suit required navigating qualified immunity, a doctrine that protects officers who violate rights unless the violation was "clearly established" in nearly identical prior cases.',
           legalBasis: ['42 U.S.C. Section 1983', 'Harlow v. Fitzgerald, 457 U.S. 800 (1982)'],
           estimatedTime: '12-36 months',
         },
@@ -169,7 +169,7 @@ export const bothamJeanAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'End Victim Investigation Bias',
-          description: 'Prohibit the execution of search warrants on shooting victims\' homes absent articulable probable cause of victim criminal conduct relevant to the shooting. The marijuana found in Jean\'s apartment had nothing to do with his murder -- searching his home was designed to justify the killing.',
+          description: 'Prohibit the execution of search warrants on shooting victims\' homes absent articulable probable cause of victim criminal conduct relevant to the shooting. The marijuana found in Jean\'s apartment had nothing to do with his murder, searching his home was designed to justify the killing.',
           estimatedTime: '1-3 months policy reform',
         },
         {

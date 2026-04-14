@@ -3,7 +3,7 @@ import type { AccountabilityData } from '@/types/accountability';
 export const georgeFloydAccountability: AccountabilityData = {
   investigationSlug: 'george-floyd',
 
-  crimeSummary: 'On May 25, 2020, Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for 9 minutes and 29 seconds while three fellow officers -- Tou Thao, J. Alexander Kueng, and Thomas Lane -- assisted in the restraint or blocked bystanders from intervening. Floyd was accused of using a counterfeit $20 bill. The murder, recorded by 17-year-old bystander Darnella Frazier, directly contradicted the Minneapolis Police Department\'s initial press release, which described the death as a "medical incident during police interaction" and made no mention of the knee-on-neck restraint. The video sparked the largest protest movement in American history -- an estimated 15 to 26 million Americans participated across all 50 states and more than 60 countries. All four officers were convicted in both state and federal courts. The City of Minneapolis paid a record $27 million wrongful death settlement. The DOJ\'s subsequent pattern-or-practice investigation found that MPD engaged in systemic racial discrimination, excessive force, violations of free speech rights, and discrimination against people with behavioral health disabilities. Derek Chauvin had 18 prior complaints with only 2 resulting in discipline. MPD used neck restraints at least 237 times from 2015 to 2020. The systemic failure extended beyond Minneapolis: despite unprecedented public mobilization, the George Floyd Justice in Policing Act failed in the Senate, no federal police reform was enacted, police budgets increased in most major cities, at least 36 states introduced laws restricting protest rights, and the structural conditions that made Floyd\'s murder possible remain unchanged in the vast majority of the nation\'s 18,000 law enforcement agencies.',
+  crimeSummary: 'On May 25, 2020, Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for 9 minutes and 29 seconds while three fellow officers, Tou Thao, J. Alexander Kueng, and Thomas Lane, assisted in the restraint or blocked bystanders from intervening. Floyd was accused of using a counterfeit $20 bill. The murder, recorded by 17-year-old bystander Darnella Frazier, directly contradicted the Minneapolis Police Department\'s initial press release, which described the death as a "medical incident during police interaction" and made no mention of the knee-on-neck restraint. The video sparked the largest protest movement in American history, an estimated 15 to 26 million Americans participated across all 50 states and more than 60 countries. All four officers were convicted in both state and federal courts. The City of Minneapolis paid a record $27 million wrongful death settlement. The DOJ\'s subsequent pattern-or-practice investigation found that MPD engaged in systemic racial discrimination, excessive force, violations of free speech rights, and discrimination against people with behavioral health disabilities. Derek Chauvin had 18 prior complaints with only 2 resulting in discipline. MPD used neck restraints at least 237 times from 2015 to 2020. The systemic failure extended beyond Minneapolis: despite unprecedented public mobilization, the George Floyd Justice in Policing Act failed in the Senate, no federal police reform was enacted, police budgets increased in most major cities, at least 36 states introduced laws restricting protest rights, and the structural conditions that made Floyd\'s murder possible remain unchanged in the vast majority of the nation\'s 18,000 law enforcement agencies.',
 
   totalHarm: 'One man murdered by the police officers sworn to protect the public. An estimated $550 million in property damage across 1,500 locations in Minneapolis-Saint Paul alone. National insured losses of $1 to $2 billion from protest-related property damage across 140 cities. 19 deaths connected to the unrest nationwide. Over 14,000 arrests, predominantly for minor offenses. The psychological trauma inflicted on witness Darnella Frazier (a 17-year-old forced to carry the evidentiary burden that should have rested on the police body cameras and internal accountability system). The collective trauma of Black Americans who watched another police murder go viral. The cascading harm of the Minneapolis 3rd Precinct fire and surrounding property destruction, which disproportionately impacted minority-owned businesses in the very communities protesting systemic racism. The political weaponization of "defund the police" to block any reform, including measures that never proposed defunding. Over $50 billion in corporate racial equity pledges that were largely performative and unfulfilled. The DOJ finding that MPD systematically violated the constitutional rights of Minneapolis residents for at least a decade. And the ongoing harm: police continue killing approximately 1,100 Americans annually, qualified immunity remains intact, and no federal police reform was enacted.',
 
@@ -19,7 +19,7 @@ export const georgeFloydAccountability: AccountabilityData = {
         'Criminal accountability largely achieved through convictions and sentencing',
         'Federal and state sentences running concurrently limit total prison time',
         '22.5-year state sentence fell below 30-year maximum prosecutors argued for',
-        'Appeals exhausted -- convictions are final',
+        'Appeals exhausted, convictions are final',
       ],
     },
     {
@@ -29,7 +29,7 @@ export const georgeFloydAccountability: AccountabilityData = {
       accountabilityPath: 'Federal consent decree enforcement with independent monitor. State oversight via Minnesota Department of Human Rights settlement. City Council structural reforms. Civilian oversight board empowerment. Union contract reform to enable officer accountability.',
       obstacles: [
         'Police union (Minneapolis Police Federation) contract provisions limit disciplinary authority',
-        'Consent decree still under negotiation -- terms not finalized',
+        'Consent decree still under negotiation, terms not finalized',
         'Change in federal administration could affect DOJ enforcement willingness',
         'Voter rejection of Question 2 limits structural reform path',
         'Police staffing shortages complicate accountability measures',
@@ -44,19 +44,19 @@ export const georgeFloydAccountability: AccountabilityData = {
         'Police unions are politically powerful at state and local level',
         'Collective bargaining rights are constitutionally protected',
         'Arbitration clauses difficult to reform without legislative action',
-        'National pattern -- reform in one city does not address systemic problem',
+        'National pattern, reform in one city does not address systemic problem',
       ],
     },
     {
       name: 'U.S. Senate (Qualified Immunity / Police Reform Failure)',
-      role: 'The George Floyd Justice in Policing Act -- banning chokeholds, ending qualified immunity, creating a national police misconduct registry, and mandating use-of-force data collection -- passed the House twice (June 2020, March 2021). Senate negotiations between Tim Scott and Cory Booker collapsed over qualified immunity. Senate filibuster prevented the bill from reaching a floor vote. The failure to enact federal police reform after the largest social movement in American history represents the most consequential legislative abdication.',
+      role: 'The George Floyd Justice in Policing Act, banning chokeholds, ending qualified immunity, creating a national police misconduct registry, and mandating use-of-force data collection, passed the House twice (June 2020, March 2021). Senate negotiations between Tim Scott and Cory Booker collapsed over qualified immunity. Senate filibuster prevented the bill from reaching a floor vote. The failure to enact federal police reform after the largest social movement in American history represents the most consequential legislative abdication.',
       currentStatus: 'No federal police reform enacted. Qualified immunity remains intact. No national police misconduct registry exists. Use-of-force data collection remains voluntary. The political window for reform has closed as the "defund" backlash hardened opposition.',
       accountabilityPath: 'Voter pressure on senators who blocked reform. Grassroots organizing to revive qualified immunity reform. State-level police reform legislation as alternative path. Judicial reform of qualified immunity doctrine through Supreme Court reconsideration.',
       obstacles: [
         'Senate filibuster requires 60 votes for cloture',
         'Qualified immunity opposition from police unions, Republican caucus, and some moderate Democrats',
         '"Defund the police" backlash has been weaponized against all reform proposals',
-        'Political window may have closed -- crime rhetoric dominates current political discourse',
+        'Political window may have closed, crime rhetoric dominates current political discourse',
         'Supreme Court has repeatedly declined to reconsider qualified immunity doctrine',
       ],
     },
@@ -72,7 +72,7 @@ export const georgeFloydAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['DOJ Civil Rights Division', 'FBI', 'U.S. Attorney offices'],
       applicability: 'directly_applicable',
-      notes: 'Successfully applied in this case. Can be used for future police misconduct prosecutions where state prosecutors fail to act. Requires proof of "willfulness" -- a high bar that historically limited federal prosecution of police.',
+      notes: 'Successfully applied in this case. Can be used for future police misconduct prosecutions where state prosecutors fail to act. Requires proof of "willfulness", a high bar that historically limited federal prosecution of police.',
     },
     {
       name: 'Pattern or Practice Investigation Authority',
@@ -82,7 +82,7 @@ export const georgeFloydAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['DOJ Civil Rights Division', 'FBI (investigative support)', 'Federal courts (consent decree enforcement)'],
       applicability: 'directly_applicable',
-      notes: 'Powerful but slow -- investigation took 2+ years. Consent decrees are effective but require sustained DOJ commitment to enforcement. Vulnerable to changes in federal administration priorities.',
+      notes: 'Powerful but slow, investigation took 2+ years. Consent decrees are effective but require sustained DOJ commitment to enforcement. Vulnerable to changes in federal administration priorities.',
     },
     {
       name: 'Section 1983 Civil Rights Action',
@@ -114,7 +114,7 @@ export const georgeFloydAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['citizen', 'lawyer', 'elected_official'],
       applicability: 'requires_new_action',
-      notes: 'The single largest structural barrier to police accountability in America. The Supreme Court has repeatedly declined to reconsider the doctrine. Legislative abolition (George Floyd Act) failed. State-level reform is the remaining path -- Colorado, New Mexico, and New York City have eliminated or limited qualified immunity for state law claims.',
+      notes: 'The single largest structural barrier to police accountability in America. The Supreme Court has repeatedly declined to reconsider the doctrine. Legislative abolition (George Floyd Act) failed. State-level reform is the remaining path, Colorado, New Mexico, and New York City have eliminated or limited qualified immunity for state law claims.',
     },
     {
       name: 'Minnesota Department of Human Rights Authority',
@@ -153,7 +153,7 @@ export const georgeFloydAccountability: AccountabilityData = {
     {
       name: 'City of Minneapolis Taxpayers',
       relationship: 'Municipal entity that bore all financial costs of officer misconduct through settlements, security costs, consent decree compliance, and budget disruption',
-      transferMethod: 'Wrongful death settlement ($27M), security costs ($5M+), projected consent decree compliance ($30-50M), property tax burden, and repeated misconduct settlements. The taxpayers -- not the officers or the police union -- bear 100% of the financial consequences.',
+      transferMethod: 'Wrongful death settlement ($27M), security costs ($5M+), projected consent decree compliance ($30-50M), property tax burden, and repeated misconduct settlements. The taxpayers, not the officers or the police union, bear 100% of the financial consequences.',
       estimatedValue: '$60,000,000+ (combined settlements, security, and projected compliance)',
       legalEntities: ['City of Minneapolis', 'Minneapolis taxpayers', 'Hennepin County taxpayers', 'State of Minnesota taxpayers'],
       recoveryMechanisms: ['Municipal indemnification reform', 'Police liability insurance requirements', 'Union contribution to settlement costs', 'Officer compensation clawback provisions'],
@@ -194,37 +194,37 @@ export const georgeFloydAccountability: AccountabilityData = {
     {
       name: 'DOJ Civil Rights Division',
       title: 'Assistant Attorney General for Civil Rights',
-      jurisdiction: 'Federal -- nationwide authority over civil rights enforcement and pattern-or-practice investigations',
+      jurisdiction: 'Federal, nationwide authority over civil rights enforcement and pattern-or-practice investigations',
       powers: ['Enforce Minneapolis consent decree through federal court', 'Initiate pattern-or-practice investigations of other police departments under 34 U.S.C. SS 12601', 'Prosecute civil rights violations under 18 U.S.C. SS 242', 'Seek court-appointed independent monitors for non-compliant departments'],
     },
     {
       name: 'Minnesota Attorney General',
       title: 'Minnesota Attorney General',
-      jurisdiction: 'State of Minnesota -- criminal prosecution and civil enforcement authority',
+      jurisdiction: 'State of Minnesota, criminal prosecution and civil enforcement authority',
       powers: ['Prosecute police officers for state criminal offenses (as demonstrated in Chauvin case)', 'Enforce state civil rights laws', 'Investigate law enforcement agencies for discriminatory practices', 'Issue reports on police misconduct patterns'],
     },
     {
       name: 'Minneapolis City Council',
       title: 'Minneapolis City Council (13 members)',
-      jurisdiction: 'City of Minneapolis -- legislative and budget authority over MPD',
+      jurisdiction: 'City of Minneapolis, legislative and budget authority over MPD',
       powers: ['Appropriate funds for consent decree compliance', 'Reform police union contract provisions during collective bargaining', 'Strengthen civilian oversight structures', 'Set policies on use of force, body cameras, and officer discipline', 'Approve or reject police budget allocations'],
     },
     {
       name: 'Minnesota Department of Human Rights',
       title: 'Commissioner of Human Rights',
-      jurisdiction: 'State of Minnesota -- civil rights enforcement and investigation',
+      jurisdiction: 'State of Minnesota, civil rights enforcement and investigation',
       powers: ['Enforce stipulated agreement banning MPD neck restraints and requiring officer intervention', 'Investigate discriminatory practices by law enforcement agencies', 'Seek court orders for compliance with civil rights obligations'],
     },
     {
       name: 'Federal District Court (Consent Decree)',
       title: 'U.S. District Judge overseeing Minneapolis consent decree',
-      jurisdiction: 'Federal -- court enforcement of consent decree terms',
+      jurisdiction: 'Federal, court enforcement of consent decree terms',
       powers: ['Enforce consent decree compliance through contempt proceedings', 'Appoint and oversee independent monitor', 'Modify consent decree terms based on compliance progress', 'Order specific reforms if MPD fails to meet benchmarks'],
     },
     {
       name: 'U.S. Congress',
       title: 'Members of Congress (House and Senate)',
-      jurisdiction: 'Federal -- legislative authority over police reform',
+      jurisdiction: 'Federal, legislative authority over police reform',
       powers: ['Pass qualified immunity reform legislation', 'Create national police misconduct registry', 'Mandate use-of-force data collection for agencies receiving federal funds', 'Condition federal law enforcement grants on accountability standards'],
     },
   ],
@@ -294,7 +294,7 @@ export const georgeFloydAccountability: AccountabilityData = {
     'Federal qualified immunity reform is enacted, removing the "clearly established law" barrier that shields officers from civil liability for constitutional violations',
     'A national police misconduct registry is created, preventing officers fired for misconduct from being hired by other departments',
     'Comprehensive use-of-force data collection is mandated for all law enforcement agencies receiving federal funds, with public reporting',
-    'Minneapolis Police Department officer complaint and discipline rates demonstrate accountability -- officers with repeated complaints face meaningful consequences before harming civilians',
+    'Minneapolis Police Department officer complaint and discipline rates demonstrate accountability, officers with repeated complaints face meaningful consequences before harming civilians',
     'The Minneapolis Police Federation contract is reformed to preserve civilian oversight authority, mandate complaint record retention, and eliminate arbitration provisions that routinely overturn discipline',
     'Anti-protest laws enacted in response to the Floyd protests are struck down by federal courts or repealed by state legislatures',
     'Corporate racial equity pledges are audited and corporations are held accountable for material misrepresentations in ESG disclosures',

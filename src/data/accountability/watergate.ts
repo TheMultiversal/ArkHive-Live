@@ -6,9 +6,9 @@ export const watergateAccountability: AccountabilityData = {
   // ============================================================
   // WHAT HAPPENED
   // ============================================================
-  crimeSummary: 'From 1971 to 1974, President Richard Nixon and senior White House and campaign officials conducted a criminal conspiracy to sabotage political opponents, burglarize the Democratic National Committee headquarters, obstruct federal investigations, bribe witnesses, destroy evidence, misuse the CIA and FBI, commit perjury, and systematically defy congressional subpoenas. The conspiracy was directed from the Oval Office and recorded on the White House taping system. 69 people were charged, 48 convicted or pled guilty -- including two Cabinet members (Attorney General John Mitchell and Commerce Secretary Maurice Stans). Nixon resigned to avoid certain impeachment and removal, and was pardoned by his successor Gerald Ford before any charges could be filed. The scandal exposed a "cancer growing on the presidency" (John Dean) that subverted the rule of law at the highest level of American government.',
+  crimeSummary: 'From 1971 to 1974, President Richard Nixon and senior White House and campaign officials conducted a criminal conspiracy to sabotage political opponents, burglarize the Democratic National Committee headquarters, obstruct federal investigations, bribe witnesses, destroy evidence, misuse the CIA and FBI, commit perjury, and systematically defy congressional subpoenas. The conspiracy was directed from the Oval Office and recorded on the White House taping system. 69 people were charged, 48 convicted or pled guilty, including two Cabinet members (Attorney General John Mitchell and Commerce Secretary Maurice Stans). Nixon resigned to avoid certain impeachment and removal, and was pardoned by his successor Gerald Ford before any charges could be filed. The scandal exposed a "cancer growing on the presidency" (John Dean) that subverted the rule of law at the highest level of American government.',
 
-  totalHarm: 'Subversion of a presidential election through criminal espionage, sabotage, and money laundering. Destruction of public trust in the presidency -- Gallup measured a collapse from 66% to 24% presidential approval. Over $500,000 in hush money paid from campaign slush funds to buy witness silence. Wrongful prosecution of Daniel Ellsberg (case dismissed due to government misconduct). CRP slush fund of $60+ million including at least $780,000 in illegal corporate contributions. Constitutional crisis triggered by the Saturday Night Massacre. The Ford pardon established the precedent -- unbroken to this day -- that a president can direct crimes from the Oval Office and face no personal criminal consequences.',
+  totalHarm: 'Subversion of a presidential election through criminal espionage, sabotage, and money laundering. Destruction of public trust in the presidency, Gallup measured a collapse from 66% to 24% presidential approval. Over $500,000 in hush money paid from campaign slush funds to buy witness silence. Wrongful prosecution of Daniel Ellsberg (case dismissed due to government misconduct). CRP slush fund of $60+ million including at least $780,000 in illegal corporate contributions. Constitutional crisis triggered by the Saturday Night Massacre. The Ford pardon established the precedent, unbroken to this day, that a president can direct crimes from the Oval Office and face no personal criminal consequences.',
 
   victimsAffected: 'The American public, whose democratic process was subverted by criminal espionage against the opposition party. Daniel Ellsberg, whose psychiatrist\'s office was burglarized by White House operatives. Democratic National Committee members and staff whose offices were burglarized and wiretapped. Journalists, activists, and political figures on the White House "enemies list" who were subjected to IRS audits, surveillance, and harassment. Martha Mitchell, wife of CRP director John Mitchell, who was physically restrained and sedated when she attempted to expose the scandal. Thousands of employees of the 21+ corporations pressured to make illegal campaign contributions. The institutional integrity of the Department of Justice, the FBI, the CIA, the IRS, and the presidency itself.',
 
@@ -22,7 +22,7 @@ export const watergateAccountability: AccountabilityData = {
       currentStatus: 'Resigned August 9, 1974. Pardoned September 8, 1974 by Gerald Ford "for all offenses against the United States which he has committed or may have committed." Died April 22, 1994. Collected full presidential pension and benefits for 20 years after resignation. Never admitted criminal guilt.',
       accountabilityPath: 'Ford\'s pardon prevented all criminal accountability. The only remaining path is formal congressional recognition of Nixon\'s criminality and review of the presidential pardon power to prevent future abuse of the self-pardon/successor-pardon mechanism.',
       obstacles: [
-        'Deceased -- no personal accountability possible',
+        'Deceased, no personal accountability possible',
         'Ford\'s unconditional pardon foreclosed all criminal prosecution',
         'Political rehabilitation campaign partially restored his legacy',
         'Supreme Court\'s Trump v. United States (2024) expanded presidential immunity beyond Watergate-era standards',
@@ -30,7 +30,7 @@ export const watergateAccountability: AccountabilityData = {
     },
     {
       name: 'Gerald Ford (Posthumous)',
-      role: 'Issued the unconditional presidential pardon on September 8, 1974 -- 30 days after taking office -- without requiring any admission of guilt, apology, or cooperation from Nixon. The pardon covered "all offenses" whether committed or potentially committed.',
+      role: 'Issued the unconditional presidential pardon on September 8, 1974, 30 days after taking office, without requiring any admission of guilt, apology, or cooperation from Nixon. The pardon covered "all offenses" whether committed or potentially committed.',
       currentStatus: 'Died December 26, 2006. The pardon is widely credited with costing Ford the 1976 election against Jimmy Carter. Ford\'s own press secretary resigned in protest. No evidence of an explicit pardon deal with Nixon, though historians believe implicit understandings "greased his departure."',
       accountabilityPath: 'Constitutional amendment limiting the presidential pardon power to prevent pardons of co-conspirators or predecessors without congressional approval. The Ford pardon remains the foundational precedent for executive impunity.',
       obstacles: [
@@ -43,7 +43,7 @@ export const watergateAccountability: AccountabilityData = {
       name: 'Senior Convicted Conspirators (Mitchell, Haldeman, Ehrlichman)',
       role: 'Attorney General Mitchell approved the break-in plan and committed perjury. Chief of Staff Haldeman relayed Nixon\'s CIA obstruction order. Domestic Advisor Ehrlichman oversaw the Plumbers and ordered evidence destruction. All three convicted on conspiracy, obstruction, and perjury charges.',
       currentStatus: 'All sentenced to 2.5 to 8 years; all served approximately 18-19 months in minimum-security facilities. Mitchell died 1988. Haldeman died 1993. Ehrlichman died 1999. None served more than two years despite directing one of the most consequential criminal conspiracies in American history.',
-      accountabilityPath: 'Historical -- sentences were served. The disparity between the scale of constitutional crimes (directing obstruction of justice from the Oval Office, subverting a presidential election) and the actual time served (18 months in minimum security) illustrates the structural leniency afforded to powerful political criminals.',
+      accountabilityPath: 'Historical, sentences were served. The disparity between the scale of constitutional crimes (directing obstruction of justice from the Oval Office, subverting a presidential election) and the actual time served (18 months in minimum security) illustrates the structural leniency afforded to powerful political criminals.',
       obstacles: [
         'All deceased',
         'Sentences completed',
@@ -64,7 +64,7 @@ export const watergateAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['Attorney General', 'Special Division of the D.C. Circuit (under expired Ethics in Government Act)'],
       applicability: 'directly_applicable',
-      notes: 'Current special counsel regulations provide less independence than the expired statute -- the AG can fire the special counsel. The Saturday Night Massacre demonstrated the vulnerability of this mechanism.',
+      notes: 'Current special counsel regulations provide less independence than the expired statute, the AG can fire the special counsel. The Saturday Night Massacre demonstrated the vulnerability of this mechanism.',
     },
     {
       name: 'Congressional Impeachment Power',
@@ -79,7 +79,7 @@ export const watergateAccountability: AccountabilityData = {
     {
       name: 'Federal Conspiracy and Obstruction Prosecution',
       statute: '18 U.S.C. § 371 (Conspiracy); 18 U.S.C. § 1503 (Obstruction of Justice)',
-      description: 'The Watergate Special Prosecution Force secured 48 convictions or guilty pleas out of 69 indictments, including the "Watergate Seven" on 24 counts. Sentences were remarkably lenient -- most defendants served less than two years for directing one of the most consequential criminal conspiracies in American history.',
+      description: 'The Watergate Special Prosecution Force secured 48 convictions or guilty pleas out of 69 indictments, including the "Watergate Seven" on 24 counts. Sentences were remarkably lenient, most defendants served less than two years for directing one of the most consequential criminal conspiracies in American history.',
       hasStatuteOfLimitations: true,
       limitationPeriod: '5 years for most federal offenses',
       reachesHeirs: false,
@@ -115,11 +115,11 @@ export const watergateAccountability: AccountabilityData = {
   wealthTrace: [
     {
       name: 'Nixon Estate',
-      relationship: 'Direct beneficiary -- Richard Nixon collected full presidential pension ($200,000+/year), Secret Service protection, and earned millions from book deals and the Frost/Nixon interviews ($600,000+) after resignation',
+      relationship: 'Direct beneficiary, Richard Nixon collected full presidential pension ($200,000+/year), Secret Service protection, and earned millions from book deals and the Frost/Nixon interviews ($600,000+) after resignation',
       transferMethod: 'Presidential pension, commercial media deals, book royalties, speaking fees',
       estimatedValue: '$4,000,000+ in post-resignation income and benefits',
       legalEntities: ['Nixon Presidential Library and Museum (now federally administered)', 'Richard Nixon Foundation'],
-      recoveryMechanisms: ['No recovery mechanism -- pension was statutory entitlement', 'Ford\'s pardon prevented any criminal forfeiture or restitution orders'],
+      recoveryMechanisms: ['No recovery mechanism, pension was statutory entitlement', 'Ford\'s pardon prevented any criminal forfeiture or restitution orders'],
     },
     {
       name: 'CRP Slush Fund Recipients',
@@ -134,7 +134,7 @@ export const watergateAccountability: AccountabilityData = {
       relationship: 'Defendants and their families received $500,000+ in cash payments to buy silence and prevent cooperation with investigators',
       transferMethod: 'Cash drops in airport lockers and phone booths using pseudonyms. Herbert Kalmbach and Anthony Ulasewicz served as intermediaries. Dorothy Hunt carried $10,000 in cash when she died in United Air Lines Flight 553.',
       estimatedValue: '$500,000+',
-      recoveryMechanisms: ['Cash was spent or dispersed -- no practical recovery mechanism', 'Criminal restitution was not ordered as part of plea agreements'],
+      recoveryMechanisms: ['Cash was spent or dispersed, no practical recovery mechanism', 'Criminal restitution was not ordered as part of plea agreements'],
     },
   ],
 
@@ -186,7 +186,7 @@ export const watergateAccountability: AccountabilityData = {
       role: 'citizen',
       overview: 'Watergate established the fundamental question: can a president be above the law? The answer remains unresolved. Citizens can advocate for constitutional reforms to close the accountability gaps Watergate exposed and Ford\'s pardon exploited.',
       steps: [
-        { step: 1, title: 'Understand the Pardon Precedent', description: 'Ford\'s unconditional pardon of Nixon -- without requiring admission of guilt, apology, or cooperation -- remains the foundational precedent for presidential impunity. Learn how this precedent shapes current debates about executive accountability.' },
+        { step: 1, title: 'Understand the Pardon Precedent', description: 'Ford\'s unconditional pardon of Nixon, without requiring admission of guilt, apology, or cooperation, remains the foundational precedent for presidential impunity. Learn how this precedent shapes current debates about executive accountability.' },
         { step: 2, title: 'Support Pardon Reform Legislation', description: 'Contact your representatives in Congress to support constitutional amendments or legislation limiting the presidential pardon power, particularly regarding self-pardons and pardons of co-conspirators.' },
         { step: 3, title: 'Advocate for Independent Counsel Restoration', description: 'The Ethics in Government Act\'s independent counsel provision expired in 1999. Support legislation restoring a truly independent prosecution mechanism that cannot be fired by the president (preventing future Saturday Night Massacres).' },
         { step: 4, title: 'Monitor Current Accountability Mechanisms', description: 'Follow the work of the DOJ Inspector General, congressional oversight committees, and FOIA litigation organizations to ensure post-Watergate safeguards remain functional.' },
@@ -196,11 +196,11 @@ export const watergateAccountability: AccountabilityData = {
     },
     {
       role: 'journalist',
-      overview: 'Watergate remains the gold standard for investigative journalism. The lessons of Woodward and Bernstein -- follow the money, protect sources, verify independently -- apply to every subsequent presidential scandal.',
+      overview: 'Watergate remains the gold standard for investigative journalism. The lessons of Woodward and Bernstein, follow the money, protect sources, verify independently, apply to every subsequent presidential scandal.',
       steps: [
         { step: 1, title: 'Continue FOIA Litigation for Sealed Materials', description: 'File FOIA requests for remaining classified or sealed Watergate-era documents, including materials related to the 18.5-minute gap, sealed Oliver wiretap transcripts, and Nixon grand jury testimony.' },
         { step: 2, title: 'Document Structural Vulnerabilities', description: 'Report on how post-Watergate reforms have been weakened or circumvented, including the lapsed independent counsel statute, expanded executive privilege claims, and judicial rulings expanding presidential immunity.' },
-        { step: 3, title: 'Apply Watergate Investigative Methods to Current Scandals', description: 'Use the Watergate pattern -- following money trails, cultivating government sources, subpoena enforcement litigation, and public records analysis -- as a template for investigating current executive branch misconduct.' },
+        { step: 3, title: 'Apply Watergate Investigative Methods to Current Scandals', description: 'Use the Watergate pattern, following money trails, cultivating government sources, subpoena enforcement litigation, and public records analysis, as a template for investigating current executive branch misconduct.' },
       ],
       relevantMechanisms: ['FOIA litigation', 'Source protection', 'Financial records analysis', 'Congressional hearing testimony'],
       urgency: 'standard',
@@ -218,7 +218,7 @@ export const watergateAccountability: AccountabilityData = {
     },
     {
       role: 'elected_official',
-      overview: 'Congress has the power -- and the constitutional obligation -- to close the accountability gaps that Watergate exposed and that remain open fifty years later.',
+      overview: 'Congress has the power, and the constitutional obligation, to close the accountability gaps that Watergate exposed and that remain open fifty years later.',
       steps: [
         { step: 1, title: 'Restore Independent Counsel Authority', description: 'Introduce and support legislation creating a permanently authorized independent counsel mechanism with statutory protection against firing by the president or attorney general, directly addressing the Saturday Night Massacre vulnerability.' },
         { step: 2, title: 'Constitutional Amendment on Pardon Power', description: 'Propose a constitutional amendment limiting the presidential pardon power to prevent pardons of co-conspirators, subordinates involved in the same criminal scheme, or self-pardons. The Ford-Nixon pardon demonstrated the danger of unchecked clemency power.' },

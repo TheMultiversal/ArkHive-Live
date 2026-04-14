@@ -1367,7 +1367,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former Purdue Pharma Board Member; Sackler Family OxyContin Fortune',
  role: 'Daughter of Mortimer Sackler who served on Purdue Pharma board during the opioid crisis; family extracted $10.7 billion while company fueled epidemic killing 500,000+ Americans',
  riskLevel: 'critical',
- description: 'Kathe Sackler (born 1948) is the daughter of Mortimer Sackler, one of three physician brothers who purchased Purdue Frederick Company in 1952, and half-sister of Richard Sackler (son of Raymond Sackler). She served on Purdue Pharma\'s board of directors during the period when the company aggressively marketed OxyContin while knowing the drug was being widely abused and was highly addictive. Court documents revealed the Sackler family extracted approximately $10.7 billion from Purdue Pharma between 2008 and 2018, transferring enormous wealth to family members and offshore accounts even as the company faced mounting lawsuits over its role in the opioid crisis that has killed more than 500,000 Americans since 1999. Internal emails showed board members including Kathe Sackler were briefed on rising abuse rates and participated in decisions to continue aggressive marketing. She was one of eight Sackler family members named as defendants in the 2018 wave of state lawsuits, including the Massachusetts Attorney General\'s comprehensive complaint. In 2019, Purdue Pharma filed for bankruptcy as part of a proposed settlement. The Sackler family offered $6 billion (later increased) in exchange for a shield from future civil lawsuits, a provision the U.S. Supreme Court struck down in June 2024 in Harrington v. Purdue Pharma, ruling that bankruptcy courts cannot release non-debtor third parties from liability without consent of the claimants. On January 23, 2025, the Sackler family reached a final $7.4 billion settlement -- $6.5 billion from the family over 15 years. No member of the Sackler family has faced criminal prosecution.',
+ description: 'Kathe Sackler (born 1948) is the daughter of Mortimer Sackler, one of three physician brothers who purchased Purdue Frederick Company in 1952, and half-sister of Richard Sackler (son of Raymond Sackler). She served on Purdue Pharma\'s board of directors during the period when the company aggressively marketed OxyContin while knowing the drug was being widely abused and was highly addictive. Court documents revealed the Sackler family extracted approximately $10.7 billion from Purdue Pharma between 2008 and 2018, transferring enormous wealth to family members and offshore accounts even as the company faced mounting lawsuits over its role in the opioid crisis that has killed more than 500,000 Americans since 1999. Internal emails showed board members including Kathe Sackler were briefed on rising abuse rates and participated in decisions to continue aggressive marketing. She was one of eight Sackler family members named as defendants in the 2018 wave of state lawsuits, including the Massachusetts Attorney General\'s comprehensive complaint. In 2019, Purdue Pharma filed for bankruptcy as part of a proposed settlement. The Sackler family offered $6 billion (later increased) in exchange for a shield from future civil lawsuits, a provision the U.S. Supreme Court struck down in June 2024 in Harrington v. Purdue Pharma, ruling that bankruptcy courts cannot release non-debtor third parties from liability without consent of the claimants. On January 23, 2025, the Sackler family reached a final $7.4 billion settlement, $6.5 billion from the family over 15 years. No member of the Sackler family has faced criminal prosecution.',
  birthDate: '1948',
  birthPlace: 'United States',
  education: [],
@@ -1385,9 +1385,9 @@ const profiles: Record<string, IndividualProfile> = {
   'OxyContin\'s original marketing falsely claimed the drug had a lower addiction risk than other opioids; Purdue pled guilty to misbranding in 2007 and again in 2020',
  ],
  charges: [
-  { statute: '21 U.S.C. § 331 -- FDCA Misbranding', description: 'Purdue Pharma pled guilty to federal charges of misbranding OxyContin (2007 and 2020); Sackler family members not individually charged', category: 'Drug Misbranding' },
-  { statute: 'Civil -- Massachusetts AG Lawsuit (2018)', description: 'Named defendant in Commonwealth v. Purdue Pharma et al.; one of eight Sackler family members sued', category: 'CIVIL' },
-  { statute: 'Civil -- Harrington v. Purdue Pharma L.P. (2024)', description: 'Supreme Court struck down Sackler attempt to gain civil immunity through Purdue bankruptcy', category: 'CIVIL' },
+  { statute: '21 U.S.C. § 331, FDCA Misbranding', description: 'Purdue Pharma pled guilty to federal charges of misbranding OxyContin (2007 and 2020); Sackler family members not individually charged', category: 'Drug Misbranding' },
+  { statute: 'Civil, Massachusetts AG Lawsuit (2018)', description: 'Named defendant in Commonwealth v. Purdue Pharma et al.; one of eight Sackler family members sued', category: 'CIVIL' },
+  { statute: 'Civil, Harrington v. Purdue Pharma L.P. (2024)', description: 'Supreme Court struck down Sackler attempt to gain civil immunity through Purdue bankruptcy', category: 'CIVIL' },
  ],
  relatedInvestigations: [
   { title: 'Opioid Crisis: Corporate Mass Murder', slug: 'opioid-crisis-corporate-mass-murder', severity: 'critical' },
@@ -1402,12 +1402,12 @@ const profiles: Record<string, IndividualProfile> = {
   { date: '2019', event: 'Purdue Pharma files for Chapter 11 bankruptcy amid thousands of lawsuits' },
   { date: '2020-10-21', event: 'Purdue Pharma pleads guilty to three federal criminal charges; agrees to $8.3 billion settlement' },
   { date: '2024-06-27', event: 'U.S. Supreme Court rules 5-4 in Harrington v. Purdue Pharma that bankruptcy courts cannot shield Sacklers from lawsuits' },
-  { date: '2025-01-23', event: 'Sackler family reaches final $7.4 billion settlement -- $6.5B over 15 years -- to resolve all remaining litigation' },
+  { date: '2025-01-23', event: 'Sackler family reaches final $7.4 billion settlement, $6.5B over 15 years, to resolve all remaining litigation' },
  ],
  socialMedia: [],
  sources: [
   { title: 'Supreme Court: Harrington v. Purdue Pharma L.P., 603 U.S. ___ (2024)', url: 'https://www.supremecourt.gov/opinions/23pdf/23-124_p86b.pdf', date: '2024-06-27' },
-  { title: 'Patrick Radden Keefe: Empire of Pain -- The Secret History of the Sackler Dynasty', url: 'https://www.penguinrandomhouse.com/books/612024/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
+  { title: 'Patrick Radden Keefe: Empire of Pain, The Secret History of the Sackler Dynasty', url: 'https://www.penguinrandomhouse.com/books/612024/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
   { title: 'House Oversight Committee: Investigation into Purdue Pharma and the Sackler Family', url: 'https://oversight.house.gov/', date: '2020' },
   { title: 'Massachusetts AG: Commonwealth v. Purdue Pharma et al.', url: 'https://www.mass.gov/lists/ag-purdue-pharma-documents', date: '2019' },
  ],
@@ -3589,7 +3589,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former CEO of Enron Broadband Services who cooperated with prosecutors and helped convict Skilling and Lay',
     role: 'Former CEO, Enron Broadband Services',
     riskLevel: 'high',
-    description: 'Kenneth Rice served as the CEO of Enron Broadband Services (EBS), the division that Enron promoted as its entry into the telecommunications and streaming media market. Under Rice\'s leadership, EBS was used to inflate Enron\'s stock price through wildly exaggerated claims about its broadband capabilities and deal pipeline -- claims that were central to Enron\'s narrative of transforming from an energy pipeline company into a cutting-edge technology conglomerate.\n\nRice became one of the most important cooperating witnesses in the Enron prosecution. His testimony at the trial of Chairman Kenneth Lay and CEO Jeffrey Skilling was crucial because he could speak directly to how Enron\'s top executives knowingly misrepresented the company\'s broadband business to investors. He was one of eight former executives who took the stand for the prosecution, providing detailed accounts of internal meetings where Enron\'s leadership discussed the gap between what they told Wall Street and actual business performance.\n\nIn June 2007, Rice was sentenced to 27 months in federal prison -- a significant reduction from what non-cooperating defendants received, reflecting the value prosecutors placed on his testimony. His cooperation was instrumental in securing the May 25, 2006 convictions of both Lay (all six counts) and Skilling (19 of 28 counts).',
+    description: 'Kenneth Rice served as the CEO of Enron Broadband Services (EBS), the division that Enron promoted as its entry into the telecommunications and streaming media market. Under Rice\'s leadership, EBS was used to inflate Enron\'s stock price through wildly exaggerated claims about its broadband capabilities and deal pipeline, claims that were central to Enron\'s narrative of transforming from an energy pipeline company into a cutting-edge technology conglomerate.\n\nRice became one of the most important cooperating witnesses in the Enron prosecution. His testimony at the trial of Chairman Kenneth Lay and CEO Jeffrey Skilling was crucial because he could speak directly to how Enron\'s top executives knowingly misrepresented the company\'s broadband business to investors. He was one of eight former executives who took the stand for the prosecution, providing detailed accounts of internal meetings where Enron\'s leadership discussed the gap between what they told Wall Street and actual business performance.\n\nIn June 2007, Rice was sentenced to 27 months in federal prison, a significant reduction from what non-cooperating defendants received, reflecting the value prosecutors placed on his testimony. His cooperation was instrumental in securing the May 25, 2006 convictions of both Lay (all six counts) and Skilling (19 of 28 counts).',
     affiliations: [
       { name: 'Enron Corporation', role: 'CEO, Enron Broadband Services', type: 'corporation' },
     ],
@@ -3614,8 +3614,8 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2007-06', event: 'Sentenced to 27 months in federal prison' },
     ],
     sources: [
-      { title: 'Former Enron Broadband CEO Gets 27 Months -- Reuters', url: 'https://www.reuters.com/article/us-enron-rice-idUSN2742757720070627', date: '2007-06-27' },
-      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+      { title: 'Former Enron Broadband CEO Gets 27 Months, Reuters', url: 'https://www.reuters.com/article/us-enron-rice-idUSN2742757720070627', date: '2007-06-27' },
+      { title: 'Enron Scandal, Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
     ],
     knownAssociates: [
       { name: 'Jeffrey Skilling', relationship: 'Enron CEO who promoted broadband strategy; Rice testified against him at trial', href: '/entities/individuals/jeffrey-skilling' },

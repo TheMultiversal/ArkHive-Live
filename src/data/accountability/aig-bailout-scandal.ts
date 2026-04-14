@@ -15,14 +15,14 @@ export const aigBailoutAccountability: AccountabilityData = {
     },
     {
       name: 'Martin Sullivan',
-      role: 'CEO of AIG from 2005-2008, during the period when AIGFP\'s CDS exposure reached catastrophic levels. Sullivan failed to understand or control the risks being taken by AIGFP. He received $47 million in compensation during his brief tenure, including a $15 million golden parachute when fired in June 2008 -- just months before the bailout.',
+      role: 'CEO of AIG from 2005-2008, during the period when AIGFP\'s CDS exposure reached catastrophic levels. Sullivan failed to understand or control the risks being taken by AIGFP. He received $47 million in compensation during his brief tenure, including a $15 million golden parachute when fired in June 2008, just months before the bailout.',
       currentStatus: 'Never charged. Retained all compensation. Moved into private consulting. The SEC filed civil charges related to AIG\'s prior accounting fraud but Sullivan\'s role in the CDS crisis was never addressed.',
       accountabilityPath: 'SOL expired for most claims. SEC civil action was related to earlier conduct, not the CDS crisis itself.',
       obstacles: ['Criminal SOL expired', 'Failure to understand risk is harder to prosecute than active fraud', 'Prior SEC settlement may complicate new actions'],
     },
     {
       name: 'Goldman Sachs (Backdoor Bailout Recipient)',
-      role: 'Goldman Sachs received $12.9 billion at 100 cents on the dollar through the AIG bailout -- a backdoor taxpayer bailout. Goldman was simultaneously: (a) selling AIG the CDS it knew AIG could not honor, (b) demanding collateral calls that accelerated AIG\'s collapse, and (c) purchasing CDS on AIG itself to profit from AIG\'s failure. Goldman CEO Lloyd Blankfein attended the September 2008 meeting at the NY Fed where the AIG bailout terms were set.',
+      role: 'Goldman Sachs received $12.9 billion at 100 cents on the dollar through the AIG bailout, a backdoor taxpayer bailout. Goldman was simultaneously: (a) selling AIG the CDS it knew AIG could not honor, (b) demanding collateral calls that accelerated AIG\'s collapse, and (c) purchasing CDS on AIG itself to profit from AIG\'s failure. Goldman CEO Lloyd Blankfein attended the September 2008 meeting at the NY Fed where the AIG bailout terms were set.',
       currentStatus: 'Goldman received full payment. No clawback was attempted despite Goldman\'s role in creating the crisis. Goldman repaid its own $10 billion TARP funds in June 2009 but retained the $12.9 billion backdoor bailout through AIG. Goldman later paid $550 million to settle SEC charges related to its Abacus CDO deal (separate but related conduct).',
       accountabilityPath: 'Opportunity for direct recovery may have passed. Legislative reform to prevent 100% par payments in future bailouts. Public documentation of the backdoor bailout as a permanent record.',
       obstacles: ['Payments were made under valid contracts', 'NY Fed structured the payments', 'Goldman argues it was hedged and would have survived without AIG payments', 'Political connections protected Goldman'],
@@ -60,7 +60,7 @@ export const aigBailoutAccountability: AccountabilityData = {
       reachesHeirs: true,
       authorizedActors: ['SEC Enforcement Division', 'DOJ Criminal Division', 'U.S. Attorneys'],
       applicability: 'directly_applicable',
-      notes: 'SOL has expired for most CDS-related securities fraud claims. SEC filed limited charges against some executives but the core AIGFP leadership -- Cassano and his team -- escaped prosecution. The DOJ investigation was closed in 2010.',
+      notes: 'SOL has expired for most CDS-related securities fraud claims. SEC filed limited charges against some executives but the core AIGFP leadership, Cassano and his team, escaped prosecution. The DOJ investigation was closed in 2010.',
     },
     {
       name: 'Dodd-Frank Derivatives Reform',
@@ -96,7 +96,7 @@ export const aigBailoutAccountability: AccountabilityData = {
     {
       name: 'FIRREA Bank Fraud',
       statute: '12 U.S.C. Section 1833a (Financial Institutions Reform, Recovery, and Enforcement Act)',
-      description: 'FIRREA provides a civil penalty of up to $1 million per violation for fraud affecting federally insured financial institutions. It has a 10-year statute of limitations -- longer than most financial fraud statutes. DOJ used FIRREA successfully against banks in other crisis-era cases (e.g., Bank of America, $16.65 billion settlement).',
+      description: 'FIRREA provides a civil penalty of up to $1 million per violation for fraud affecting federally insured financial institutions. It has a 10-year statute of limitations, longer than most financial fraud statutes. DOJ used FIRREA successfully against banks in other crisis-era cases (e.g., Bank of America, $16.65 billion settlement).',
       hasStatuteOfLimitations: true,
       limitationPeriod: '10 years (may have reached some AIG conduct)',
       reachesHeirs: false,
@@ -128,7 +128,7 @@ export const aigBailoutAccountability: AccountabilityData = {
     {
       name: 'AIG Executive Compensation Pool',
       relationship: 'Senior executives who profited from the risk buildup',
-      transferMethod: 'AIG CEO Martin Sullivan received $47 million (2005-2008), including $15 million golden parachute. CEO Robert Willumstad received $22 million for 3 months of work before being replaced by the government. $165 million in retention bonuses were paid to AIGFP employees AFTER the bailout -- funded by taxpayer money.',
+      transferMethod: 'AIG CEO Martin Sullivan received $47 million (2005-2008), including $15 million golden parachute. CEO Robert Willumstad received $22 million for 3 months of work before being replaced by the government. $165 million in retention bonuses were paid to AIGFP employees AFTER the bailout, funded by taxpayer money.',
       estimatedValue: '$500+ million in total executive compensation during the risk buildup period; $165M in post-bailout bonuses',
       legalEntities: ['AIG Inc.', 'Individual executive accounts', 'Deferred compensation trusts'],
       recoveryMechanisms: ['AIG voluntarily recovered approximately $50M in bonuses', 'Government "special master" (Kenneth Feinberg) reviewed but could not mandate return', 'Moral suasion was the primary tool'],
@@ -136,7 +136,7 @@ export const aigBailoutAccountability: AccountabilityData = {
     {
       name: 'Goldman Sachs Backdoor Bailout',
       relationship: 'Counterparty that received 100% par payment through AIG bailout',
-      transferMethod: 'Goldman Sachs received $12.9 billion at 100 cents on the dollar for CDS contracts with AIG. Goldman was simultaneously buying CDS protection against AIG\'s failure and calling for additional AIG collateral -- effectively forcing AIG into the bailout that guaranteed Goldman\'s payment. The NY Fed structured the payments without negotiating any discount.',
+      transferMethod: 'Goldman Sachs received $12.9 billion at 100 cents on the dollar for CDS contracts with AIG. Goldman was simultaneously buying CDS protection against AIG\'s failure and calling for additional AIG collateral, effectively forcing AIG into the bailout that guaranteed Goldman\'s payment. The NY Fed structured the payments without negotiating any discount.',
       estimatedValue: '$12.9 billion in direct payments; additional billions in collateral returned',
       legalEntities: ['Goldman Sachs Group Inc.', 'Goldman Sachs International'],
       recoveryMechanisms: ['Payments were contractually valid', 'Reform: Dodd-Frank Section 1101 prevents future single-company bailouts', 'Public record of the backdoor bailout'],
@@ -144,7 +144,7 @@ export const aigBailoutAccountability: AccountabilityData = {
     {
       name: 'Other Counterparty Payments',
       relationship: 'Foreign and domestic banks paid at par through AIG bailout',
-      transferMethod: 'In addition to Goldman Sachs: Societe Generale ($11.9B), Deutsche Bank ($11.8B), Barclays ($8.5B), Merrill Lynch ($6.8B), Bank of America ($5.2B), UBS ($5.0B), Citigroup ($2.3B), and others received full par payments through the AIG bailout. Total counterparty payments exceeded $60 billion -- all funded by American taxpayers.',
+      transferMethod: 'In addition to Goldman Sachs: Societe Generale ($11.9B), Deutsche Bank ($11.8B), Barclays ($8.5B), Merrill Lynch ($6.8B), Bank of America ($5.2B), UBS ($5.0B), Citigroup ($2.3B), and others received full par payments through the AIG bailout. Total counterparty payments exceeded $60 billion, all funded by American taxpayers.',
       estimatedValue: '$60+ billion in total counterparty payments at 100 cents on the dollar',
       legalEntities: ['Societe Generale', 'Deutsche Bank', 'Barclays', 'Merrill Lynch', 'UBS', 'Citigroup', 'Others'],
       recoveryMechanisms: ['No clawback mechanism applied', 'Payments completed under valid contracts', 'Reform: prevent 100% par payments in future emergency scenarios'],
@@ -185,13 +185,13 @@ export const aigBailoutAccountability: AccountabilityData = {
   ],
 
   successCriteria: [
-    'Full implementation and enforcement of Dodd-Frank Title VII derivatives reforms -- central clearing, margin requirements, position reporting -- without further industry-driven rollback or exemptions',
-    'Permanent prohibition on single-company bailouts and mandatory haircuts on counterparty payments in any future emergency lending scenario -- no more 100-cents-on-the-dollar backdoor bailouts',
+    'Full implementation and enforcement of Dodd-Frank Title VII derivatives reforms, central clearing, margin requirements, position reporting, without further industry-driven rollback or exemptions',
+    'Permanent prohibition on single-company bailouts and mandatory haircuts on counterparty payments in any future emergency lending scenario, no more 100-cents-on-the-dollar backdoor bailouts',
     'Retroactive documentation and public accounting of the AIG backdoor bailout: who received how much, who made the decision to pay at par, and who benefited from the attempted secrecy',
     'Executive compensation reform requiring real-time clawback provisions in all financial institution employment contracts, triggered automatically when the institution requires government assistance',
-    'Personal debarment from the financial industry for executives whose risk-taking requires taxpayer bailout -- Joseph Cassano earned $315 million building the position that required $182 billion in taxpayer rescue, and faced zero consequences',
-    'Prosecution reform ensuring that DOJ applies the same standards to financial fraud as to other forms of theft -- $182 billion in taxpayer exposure should not result in zero criminal charges while a $500 bank robbery produces mandatory prison time',
-    'Maintenance of SIFI designations for large insurance companies with derivatives exposure -- the "too interconnected to fail" dynamic that created the AIG crisis must be permanently supervised',
+    'Personal debarment from the financial industry for executives whose risk-taking requires taxpayer bailout, Joseph Cassano earned $315 million building the position that required $182 billion in taxpayer rescue, and faced zero consequences',
+    'Prosecution reform ensuring that DOJ applies the same standards to financial fraud as to other forms of theft, $182 billion in taxpayer exposure should not result in zero criminal charges while a $500 bank robbery produces mandatory prison time',
+    'Maintenance of SIFI designations for large insurance companies with derivatives exposure, the "too interconnected to fail" dynamic that created the AIG crisis must be permanently supervised',
     'Congressional investigation into the NY Fed\'s decision to pay AIG counterparties at par and the subsequent attempt to conceal the payments from the public and from the SEC',
   ],
 
@@ -233,7 +233,7 @@ export const aigBailoutAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Map Current Derivatives Risk',
-          description: 'Investigate whether uncleared derivatives risk is building up in new corners of the financial system -- particularly in non-bank financial institutions (private equity, insurance companies, hedge funds) that may be outside the Dodd-Frank regulatory perimeter.',
+          description: 'Investigate whether uncleared derivatives risk is building up in new corners of the financial system, particularly in non-bank financial institutions (private equity, insurance companies, hedge funds) that may be outside the Dodd-Frank regulatory perimeter.',
           estimatedTime: '3-6 months',
         },
         {
@@ -274,7 +274,7 @@ export const aigBailoutAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'FIRREA as Blueprint',
-          description: 'Advocate for expanded use of FIRREA\'s 10-year SOL and civil penalty provisions in future financial fraud cases. FIRREA\'s longer SOL could have been used against AIG executives -- document this missed opportunity to ensure it is not repeated.',
+          description: 'Advocate for expanded use of FIRREA\'s 10-year SOL and civil penalty provisions in future financial fraud cases. FIRREA\'s longer SOL could have been used against AIG executives, document this missed opportunity to ensure it is not repeated.',
           legalBasis: ['12 U.S.C. Section 1833a', 'United States v. Bank of America (2014)'],
           estimatedTime: '6-12 months',
         },
@@ -327,7 +327,7 @@ export const aigBailoutAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Individual Accountability First',
-          description: 'Apply the Yates Memo principle: no corporate resolution without identification of all responsible individuals. The AIG pattern -- where the entity pays fines and no individual is charged -- must not be repeated.',
+          description: 'Apply the Yates Memo principle: no corporate resolution without identification of all responsible individuals. The AIG pattern, where the entity pays fines and no individual is charged, must not be repeated.',
           estimatedTime: 'Ongoing policy implementation',
         },
       ],
@@ -341,7 +341,7 @@ export const aigBailoutAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Derivatives Market Surveillance',
-          description: 'CFTC and SEC must maintain real-time surveillance of CDS market concentration. When any single entity\'s CDS exposure exceeds predetermined thresholds, immediate supervisory intervention must be triggered -- not years later when the position becomes unmanageable.',
+          description: 'CFTC and SEC must maintain real-time surveillance of CDS market concentration. When any single entity\'s CDS exposure exceeds predetermined thresholds, immediate supervisory intervention must be triggered, not years later when the position becomes unmanageable.',
           estimatedTime: 'Ongoing',
         },
         {
@@ -353,7 +353,7 @@ export const aigBailoutAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Stress Test Derivatives Exposure',
-          description: 'Include severe CDS market disruption scenarios in all financial institution stress tests. The AIG failure demonstrated that CDS counterparty risk can be systemic -- stress tests must capture this.',
+          description: 'Include severe CDS market disruption scenarios in all financial institution stress tests. The AIG failure demonstrated that CDS counterparty risk can be systemic, stress tests must capture this.',
           estimatedTime: 'Annual cycle',
         },
       ],

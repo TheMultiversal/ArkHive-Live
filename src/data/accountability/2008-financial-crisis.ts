@@ -3,11 +3,11 @@ import type { AccountabilityData } from '@/types/accountability';
 export const financialCrisis2008Accountability: AccountabilityData = {
   investigationSlug: '2008-financial-crisis',
 
-  crimeSummary: 'The 2008 financial crisis was the most devastating economic catastrophe since the Great Depression, caused by Wall Street\'s deliberate and systematic fraud in the mortgage-backed securities market. Major banks -- including Goldman Sachs, JPMorgan Chase, Lehman Brothers, Bear Stearns, Citigroup, Bank of America, and Countrywide Financial -- knowingly packaged toxic subprime mortgages into complex financial instruments (CDOs and MBS), secured fraudulent AAA ratings from captured rating agencies paid by the same banks, sold these products to pension funds, municipalities, and retail investors as safe investments, and then secretly bet against them using credit default swaps. When the housing bubble burst, 8.7 million Americans lost their jobs, 10 million families lost their homes to foreclosure, household wealth declined by $13 trillion, and the global economy plunged into the worst recession in 80 years. The U.S. government responded with a $700 billion taxpayer-funded bailout (TARP) plus $7.77 trillion in secret Federal Reserve emergency lending commitments, rescuing the very institutions that caused the crisis. Despite the Financial Crisis Inquiry Commission concluding the crisis was "avoidable" and driven by "widespread failures in financial regulation" and "dramatic breakdowns in corporate governance," the Department of Justice under Attorney General Eric Holder adopted a de facto "too big to jail" policy, declining to prosecute any top Wall Street executive. Only 47 bankers worldwide served jail time -- more than half from Iceland. In the United States, a single senior banker was imprisoned: Kareem Serageldin of Credit Suisse, sentenced to 30 months. By contrast, after the much smaller savings and loan crisis of the 1980s, the DOJ secured over 1,000 felony convictions. The banks that caused the crisis emerged larger, more powerful, and more profitable than before, while Black families lost 53% of their wealth and Latino families lost 66%.',
+  crimeSummary: 'The 2008 financial crisis was the most devastating economic catastrophe since the Great Depression, caused by Wall Street\'s deliberate and systematic fraud in the mortgage-backed securities market. Major banks, including Goldman Sachs, JPMorgan Chase, Lehman Brothers, Bear Stearns, Citigroup, Bank of America, and Countrywide Financial, knowingly packaged toxic subprime mortgages into complex financial instruments (CDOs and MBS), secured fraudulent AAA ratings from captured rating agencies paid by the same banks, sold these products to pension funds, municipalities, and retail investors as safe investments, and then secretly bet against them using credit default swaps. When the housing bubble burst, 8.7 million Americans lost their jobs, 10 million families lost their homes to foreclosure, household wealth declined by $13 trillion, and the global economy plunged into the worst recession in 80 years. The U.S. government responded with a $700 billion taxpayer-funded bailout (TARP) plus $7.77 trillion in secret Federal Reserve emergency lending commitments, rescuing the very institutions that caused the crisis. Despite the Financial Crisis Inquiry Commission concluding the crisis was "avoidable" and driven by "widespread failures in financial regulation" and "dramatic breakdowns in corporate governance," the Department of Justice under Attorney General Eric Holder adopted a de facto "too big to jail" policy, declining to prosecute any top Wall Street executive. Only 47 bankers worldwide served jail time, more than half from Iceland. In the United States, a single senior banker was imprisoned: Kareem Serageldin of Credit Suisse, sentenced to 30 months. By contrast, after the much smaller savings and loan crisis of the 1980s, the DOJ secured over 1,000 felony convictions. The banks that caused the crisis emerged larger, more powerful, and more profitable than before, while Black families lost 53% of their wealth and Latino families lost 66%.',
 
-  totalHarm: '$13 trillion in American household wealth destroyed. 10 million families lost their homes to foreclosure. 8.7 million jobs eliminated. Black families lost 53% of their wealth; Latino families lost 66% -- the largest destruction of minority wealth in American history. Global GDP declined by $2+ trillion. Approximately 10,000 excess suicides attributed to the economic crisis in the U.S. and Europe (2008-2010). TARP committed $700 billion in taxpayer funds, the Federal Reserve extended $7.77 trillion in secret lending commitments, and AIG alone required $182 billion. The "too big to fail" banks that caused the crisis emerged even larger and more concentrated. Wall Street paid $150+ billion in settlements -- all from corporate treasuries (shareholder money), with no admission of wrongdoing and no personal executive accountability. Dodd-Frank reforms were weakened by 2,000+ industry lobbyists and partially rolled back in 2018. The crisis triggered a global recession that devastated economies worldwide.',
+  totalHarm: '$13 trillion in American household wealth destroyed. 10 million families lost their homes to foreclosure. 8.7 million jobs eliminated. Black families lost 53% of their wealth; Latino families lost 66%, the largest destruction of minority wealth in American history. Global GDP declined by $2+ trillion. Approximately 10,000 excess suicides attributed to the economic crisis in the U.S. and Europe (2008-2010). TARP committed $700 billion in taxpayer funds, the Federal Reserve extended $7.77 trillion in secret lending commitments, and AIG alone required $182 billion. The "too big to fail" banks that caused the crisis emerged even larger and more concentrated. Wall Street paid $150+ billion in settlements, all from corporate treasuries (shareholder money), with no admission of wrongdoing and no personal executive accountability. Dodd-Frank reforms were weakened by 2,000+ industry lobbyists and partially rolled back in 2018. The crisis triggered a global recession that devastated economies worldwide.',
 
-  victimsAffected: '10 million American families who lost their homes to foreclosure between 2007 and 2012. 8.7 million workers who lost their jobs. Pension funds, municipalities, and retail investors who were sold toxic mortgage-backed securities fraudulently rated AAA. Black and Latino communities who were deliberately targeted with predatory subprime loans -- Wells Fargo loan officers called Black borrowers "mud people" and marketed "ghetto loans." Retirees whose 401(k) and pension savings were decimated. Small business owners who lost access to credit. Homeowners trapped in underwater mortgages who could not sell or refinance. Communities devastated by foreclosure blight. An estimated 10,000 people who died by suicide attributable to the economic crisis. Global populations affected by the worldwide recession that followed.',
+  victimsAffected: '10 million American families who lost their homes to foreclosure between 2007 and 2012. 8.7 million workers who lost their jobs. Pension funds, municipalities, and retail investors who were sold toxic mortgage-backed securities fraudulently rated AAA. Black and Latino communities who were deliberately targeted with predatory subprime loans, Wells Fargo loan officers called Black borrowers "mud people" and marketed "ghetto loans." Retirees whose 401(k) and pension savings were decimated. Small business owners who lost access to credit. Homeowners trapped in underwater mortgages who could not sell or refinance. Communities devastated by foreclosure blight. An estimated 10,000 people who died by suicide attributable to the economic crisis. Global populations affected by the worldwide recession that followed.',
 
   primaryTargets: [
     {
@@ -98,7 +98,7 @@ export const financialCrisis2008Accountability: AccountabilityData = {
       notes: 'Never used against top bank executives for crisis-era conduct. Only one banker (Serageldin, Credit Suisse) was convicted. S&L crisis saw 1,000+ convictions under same statute.',
     },
     {
-      name: 'RICO -- Racketeer Influenced and Corrupt Organizations Act',
+      name: 'RICO, Racketeer Influenced and Corrupt Organizations Act',
       statute: '18 U.S.C. 1962',
       description: 'The coordinated, cross-institutional pattern of fraud involving mortgage originators, investment banks, rating agencies, and servicers constituted an ongoing criminal enterprise. RICO allows treble damages and personal liability.',
       hasStatuteOfLimitations: true,
@@ -109,7 +109,7 @@ export const financialCrisis2008Accountability: AccountabilityData = {
       notes: 'Never invoked against any Wall Street institution or executive for financial crisis conduct. Used extensively in the 1980s S&L prosecutions (United States v. Milken).',
     },
     {
-      name: 'FIRREA -- Financial Institutions Reform, Recovery, and Enforcement Act',
+      name: 'FIRREA, Financial Institutions Reform, Recovery, and Enforcement Act',
       statute: '12 U.S.C. 1833a',
       description: 'Allows civil penalties up to $1 million per violation (or $5 million for continuing violations) for fraud affecting federally insured institutions. DOJ used this for civil settlements but not criminal charges.',
       hasStatuteOfLimitations: true,
@@ -120,7 +120,7 @@ export const financialCrisis2008Accountability: AccountabilityData = {
       notes: 'DOJ used FIRREA for record civil settlements ($16.65B BofA, $13B JPMorgan) but declined criminal charges under the statute.',
     },
     {
-      name: 'SEC Rule 10b-5 -- Securities Exchange Act',
+      name: 'SEC Rule 10b-5, Securities Exchange Act',
       statute: '15 U.S.C. 78j(b)',
       description: 'Prohibits fraud in connection with securities trading. Covers material misrepresentations and omissions. Used for civil enforcement only during the financial crisis, including the $550M Goldman ABACUS settlement.',
       hasStatuteOfLimitations: true,
@@ -152,7 +152,7 @@ export const financialCrisis2008Accountability: AccountabilityData = {
       notes: 'Used successfully in civil settlements and whistleblower actions. Countrywide found liable under "Hustle" program for selling defective loans to Fannie Mae.',
     },
     {
-      name: 'Sarbanes-Oxley Act -- Records Destruction and CEO Certification',
+      name: 'Sarbanes-Oxley Act, Records Destruction and CEO Certification',
       statute: '18 U.S.C. 1519, 1350',
       description: 'CEO/CFO certification of financial statements. Destruction of records in federal investigations. Up to 20 years imprisonment for document destruction. Applicable to Lehman Repo 105 and bank document practices.',
       hasStatuteOfLimitations: true,
@@ -177,7 +177,7 @@ export const financialCrisis2008Accountability: AccountabilityData = {
   wealthTrace: [
     {
       name: 'Goldman Sachs',
-      relationship: 'Primary perpetrator -- designed and sold toxic CDOs while betting against them',
+      relationship: 'Primary perpetrator, designed and sold toxic CDOs while betting against them',
       transferMethod: 'Profited from mortgage shorts, AIG backdoor payments ($12.9B), TARP ($10B), and Fed emergency lending at near-zero rates. Converted to bank holding company to access Fed discount window.',
       estimatedValue: 'Market cap $180+ billion. 2023 revenue: $46 billion. 2009 bonus pool: $16.2 billion.',
       legalEntities: ['Goldman Sachs Group Inc.', 'Goldman Sachs & Co. LLC', 'GS Capital Partners'],

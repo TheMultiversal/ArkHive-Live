@@ -34,14 +34,14 @@ export const briberyCorrruptionAccountability: AccountabilityData = {
     { name: 'FEC', title: 'Federal Election Commission', jurisdiction: 'Campaign finance enforcement', powers: ['Enforce campaign finance law', 'Investigate violations', 'Issue fines  -  but structurally deadlocked by 3-3 partisan design'] },
   ],
   successCriteria: [
-    'FEC structural reform -- change from 3-3 partisan deadlock to an odd number of commissioners or establish an independent enforcement arm with mandatory investigation triggers',
-    'DISCLOSE Act passage requiring transparency for all election spending above $10,000 -- the American public has a right to know who is funding the campaigns that seek to govern them',
-    'Constitutional amendment to overturn Citizens United restoring Congress\'s authority to regulate campaign spending -- 20 states have already called for one',
-    'Full investigation and prosecution of foreign money flowing into American elections through intermediaries like the NRA -- the Butina conviction revealed a pipeline that remains incompletely investigated',
-    'McDonnell v. United States reversal through legislation -- the Supreme Court\'s narrowing of "official act" to near-impossibility makes bribery prosecution of public officials functionally impossible unless they are caught with gold bars in their jacket',
-    'Mandatory FARA registration enforcement for all lobbyists representing foreign interests -- current enforcement is selective and politically influenced',
-    'Complete public documentation linking dark money spending to specific policy outcomes -- the Princeton finding that average citizens\' policy preferences have "near-zero" impact must be connected to specific donor-legislator-vote chains',
-    'State-level transparency laws in all 50 states requiring disclosure of donors to organizations making election-related expenditures -- if federal reporting is blocked, state-level disclosure is the backstop',
+    'FEC structural reform, change from 3-3 partisan deadlock to an odd number of commissioners or establish an independent enforcement arm with mandatory investigation triggers',
+    'DISCLOSE Act passage requiring transparency for all election spending above $10,000, the American public has a right to know who is funding the campaigns that seek to govern them',
+    'Constitutional amendment to overturn Citizens United restoring Congress\'s authority to regulate campaign spending, 20 states have already called for one',
+    'Full investigation and prosecution of foreign money flowing into American elections through intermediaries like the NRA, the Butina conviction revealed a pipeline that remains incompletely investigated',
+    'McDonnell v. United States reversal through legislation, the Supreme Court\'s narrowing of "official act" to near-impossibility makes bribery prosecution of public officials functionally impossible unless they are caught with gold bars in their jacket',
+    'Mandatory FARA registration enforcement for all lobbyists representing foreign interests, current enforcement is selective and politically influenced',
+    'Complete public documentation linking dark money spending to specific policy outcomes, the Princeton finding that average citizens\' policy preferences have "near-zero" impact must be connected to specific donor-legislator-vote chains',
+    'State-level transparency laws in all 50 states requiring disclosure of donors to organizations making election-related expenditures, if federal reporting is blocked, state-level disclosure is the backstop',
   ],
 
   actionPaths: [
@@ -108,7 +108,7 @@ export const briberyCorrruptionAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'State Transparency Litigation',
-          description: 'Litigate to uphold and expand state-level campaign finance transparency laws that survive Citizens United scrutiny. Citizens United banned spending limits but explicitly preserved disclosure requirements -- use this to defend state transparency laws.',
+          description: 'Litigate to uphold and expand state-level campaign finance transparency laws that survive Citizens United scrutiny. Citizens United banned spending limits but explicitly preserved disclosure requirements, use this to defend state transparency laws.',
           legalBasis: ['Citizens United v. FEC (disclosure upheld)', 'State disclosure authority', 'Anti-corruption interest'],
           estimatedTime: '12-24 months',
         },
@@ -122,7 +122,7 @@ export const briberyCorrruptionAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'FARA Enforcement Actions',
-          description: 'File civil actions and criminal referrals for unregistered foreign agent activity. Current FARA enforcement is inconsistent -- push DOJ to apply the law uniformly regardless of the political connections of the unregistered agent.',
+          description: 'File civil actions and criminal referrals for unregistered foreign agent activity. Current FARA enforcement is inconsistent, push DOJ to apply the law uniformly regardless of the political connections of the unregistered agent.',
           legalBasis: ['22 U.S.C. Section 611 et seq.', '18 U.S.C. Section 951 (foreign government agent)'],
           estimatedTime: 'Ongoing',
         },
@@ -175,14 +175,14 @@ export const briberyCorrruptionAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Financial Intelligence on Political Corruption',
-          description: 'Coordinate with FinCEN on suspicious financial patterns involving elected officials. Gold bars and cash (Menendez) are obvious -- but electronic transfers, cryptocurrency, and shell companies are the modern corruption tools. Follow the digital money.',
+          description: 'Coordinate with FinCEN on suspicious financial patterns involving elected officials. Gold bars and cash (Menendez) are obvious, but electronic transfers, cryptocurrency, and shell companies are the modern corruption tools. Follow the digital money.',
           estimatedTime: 'Ongoing',
         },
       ],
     },
     {
       role: 'regulator',
-      overview: 'Fix the FEC. The 3-3 partisan deadlock is by design -- it ensures non-enforcement.',
+      overview: 'Fix the FEC. The 3-3 partisan deadlock is by design, it ensures non-enforcement.',
       urgency: 'high',
       relevantMechanisms: ['DISCLOSE Act'],
       steps: [

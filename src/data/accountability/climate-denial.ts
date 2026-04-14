@@ -126,16 +126,16 @@ export const climateDenialAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'State AG fraud judgments against fossil fuel companies following the tobacco MSA model -- establishing legal liability for decades of climate deception and securing billions in damages',
+    'State AG fraud judgments against fossil fuel companies following the tobacco MSA model, establishing legal liability for decades of climate deception and securing billions in damages',
     'RICO prosecution of the coordinated denial network including API, Heartland Institute, Competitive Enterprise Institute, and industry-funded front groups that manufactured doubt about settled science',
-    'Full disgorgement of profits earned during the period of knowing climate deception -- parallel to tobacco industry disgorgement, covering 1990-present for companies that actively funded denial',
-    'Elimination of all direct and indirect fossil fuel subsidies totaling $20+ billion annually in the U.S. alone -- taxpayers must stop financing the industry that deceived them',
+    'Full disgorgement of profits earned during the period of knowing climate deception, parallel to tobacco industry disgorgement, covering 1990-present for companies that actively funded denial',
+    'Elimination of all direct and indirect fossil fuel subsidies totaling $20+ billion annually in the U.S. alone, taxpayers must stop financing the industry that deceived them',
     'Mandatory climate risk disclosure enforced by SEC with criminal penalties for material misrepresentation of climate exposure to investors',
-    'Tax-exempt status revocation for organizations that promoted climate denial while receiving fossil fuel industry funding -- Heartland Institute, ALEC, Competitive Enterprise Institute, and others',
-    'Comprehensive public archive of all internal industry documents showing knowledge of climate harm -- modeled on the tobacco industry document archive at UCSF',
+    'Tax-exempt status revocation for organizations that promoted climate denial while receiving fossil fuel industry funding, Heartland Institute, ALEC, Competitive Enterprise Institute, and others',
+    'Comprehensive public archive of all internal industry documents showing knowledge of climate harm, modeled on the tobacco industry document archive at UCSF',
     'Just transition funding for fossil fuel workers and communities financed by industry pollution fees rather than taxpayer subsidies',
     'Climate reparations framework for developing nations and vulnerable communities disproportionately harmed by emissions they did not create',
-    'Personal liability for executives who directed climate denial campaigns while possessing internal scientific evidence of harm -- following the tobacco executive perjury precedent',
+    'Personal liability for executives who directed climate denial campaigns while possessing internal scientific evidence of harm, following the tobacco executive perjury precedent',
   ],
 
   actionPaths: [
@@ -168,7 +168,7 @@ export const climateDenialAccountability: AccountabilityData = {
       relevantMechanisms: ['State Consumer Protection / Fraud', 'RICO', 'International Climate Litigation'],
       steps: [
         { step: 1, title: 'State AG Climate Litigation', description: 'Support or initiate state AG consumer fraud actions against fossil fuel companies, following the tobacco litigation model.', legalBasis: ['State consumer protection statutes'], estimatedTime: '12-24 months' },
-        { step: 2, title: 'Climate RICO Action', description: 'Develop and file RICO claims against the coordinated climate denial enterprise. API\'s 1998 strategy document and subsequent implementation constitute a pattern of fraud through an enterprise -- directly paralleling the successful tobacco RICO case.', legalBasis: ['18 U.S.C. 1961-1968'], estimatedTime: '24-36 months' },
+        { step: 2, title: 'Climate RICO Action', description: 'Develop and file RICO claims against the coordinated climate denial enterprise. API\'s 1998 strategy document and subsequent implementation constitute a pattern of fraud through an enterprise, directly paralleling the successful tobacco RICO case.', legalBasis: ['18 U.S.C. 1961-1968'], estimatedTime: '24-36 months' },
         { step: 3, title: 'Shareholder Climate Fraud Actions', description: 'File securities fraud suits on behalf of shareholders who were misled about climate risk. ExxonMobil\'s internal projections contradicted its public statements to investors for decades.', legalBasis: ['Securities Exchange Act 10b-5'], estimatedTime: '12-24 months' },
       ],
     },
@@ -180,7 +180,7 @@ export const climateDenialAccountability: AccountabilityData = {
       steps: [
         { step: 1, title: 'End Fossil Fuel Subsidies', description: 'Eliminate $20+ billion in annual direct and indirect fossil fuel subsidies. Redirect funding to clean energy.', estimatedTime: 'Legislative timeline' },
         { step: 2, title: 'Carbon Fee and Dividend', description: 'Implement carbon pricing that accounts for the true cost of fossil fuel emissions, with revenue returned to citizens.', estimatedTime: 'Legislative timeline' },
-        { step: 3, title: 'Fossil Fuel Executive Testimony', description: 'Subpoena fossil fuel executives to testify under oath about what their companies knew about climate change and when. Follow the tobacco hearing model -- the 1994 tobacco CEO testimony was a turning point.', estimatedTime: 'Legislative timeline' },
+        { step: 3, title: 'Fossil Fuel Executive Testimony', description: 'Subpoena fossil fuel executives to testify under oath about what their companies knew about climate change and when. Follow the tobacco hearing model, the 1994 tobacco CEO testimony was a turning point.', estimatedTime: 'Legislative timeline' },
       ],
     },
     {

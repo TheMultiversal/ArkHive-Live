@@ -34,14 +34,14 @@ export const buffaloMassacreAccountability: AccountabilityData = {
     { name: 'Congress', title: 'U.S. Congress', jurisdiction: 'Federal legislation', powers: ['Assault weapons ban', 'Domestic terrorism statute', 'Platform accountability legislation'] },
   ],
   successCriteria: [
-    'Federal assault weapons ban enacted with high-capacity magazine prohibition -- Gendron used an AR-15 style rifle he illegally modified, and the availability of military-style weapons to 18-year-olds is a policy choice, not a constitutional requirement',
-    'Federal domestic terrorism statute enacted providing law enforcement with the same tools for domestic white supremacist terrorism that exist for international terrorism -- the Buffalo massacre, El Paso, Pittsburgh, and Christchurch are the same ideology producing the same mass casualties',
-    'Platform accountability legislation requiring algorithmic auditing and creating liability for recommendation engines that amplify radicalizing content -- Gendron was radicalized online through algorithmically amplified content',
-    'Tucker Carlson and Fox News held civilly accountable for amplifying the Great Replacement theory across 400+ episodes -- the direct line from mainstream amplification to mass murder radicalization must be documented and litigated',
-    'Comprehensive threat assessment reform ensuring that when an 18-year-old makes a threat at school (as Gendron did), the evaluation and follow-up are sufficient to prevent mass violence -- Gendron was flagged, briefly evaluated, and released',
-    'Tops Friendly Markets location preserved as a memorial alongside full community investment -- the store was a lifeline in a food desert, and the community lost both neighbors and access to food',
+    'Federal assault weapons ban enacted with high-capacity magazine prohibition, Gendron used an AR-15 style rifle he illegally modified, and the availability of military-style weapons to 18-year-olds is a policy choice, not a constitutional requirement',
+    'Federal domestic terrorism statute enacted providing law enforcement with the same tools for domestic white supremacist terrorism that exist for international terrorism, the Buffalo massacre, El Paso, Pittsburgh, and Christchurch are the same ideology producing the same mass casualties',
+    'Platform accountability legislation requiring algorithmic auditing and creating liability for recommendation engines that amplify radicalizing content, Gendron was radicalized online through algorithmically amplified content',
+    'Tucker Carlson and Fox News held civilly accountable for amplifying the Great Replacement theory across 400+ episodes, the direct line from mainstream amplification to mass murder radicalization must be documented and litigated',
+    'Comprehensive threat assessment reform ensuring that when an 18-year-old makes a threat at school (as Gendron did), the evaluation and follow-up are sufficient to prevent mass violence, Gendron was flagged, briefly evaluated, and released',
+    'Tops Friendly Markets location preserved as a memorial alongside full community investment, the store was a lifeline in a food desert, and the community lost both neighbors and access to food',
     'Complete documentation of the mainstream-to-extremist radicalization pipeline that produced Gendron: every website, every video, every algorithm that moved an 18-year-old from curiosity to ideology to mass murder in a Black neighborhood 200 miles from his home',
-    'Federal funding for community-based violence prevention programs specifically targeting online radicalization of young men by white supremacist ideology -- prevention must match the scale of the threat',
+    'Federal funding for community-based violence prevention programs specifically targeting online radicalization of young men by white supremacist ideology, prevention must match the scale of the threat',
   ],
 
   actionPaths: [
@@ -54,14 +54,14 @@ export const buffaloMassacreAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Support Assault Weapons Ban',
-          description: 'Contact representatives to support federal assault weapons legislation with a high-capacity magazine ban. Gendron illegally modified his weapon to accept high-capacity magazines in New York -- but in most states, no modification would have been needed.',
+          description: 'Contact representatives to support federal assault weapons legislation with a high-capacity magazine ban. Gendron illegally modified his weapon to accept high-capacity magazines in New York, but in most states, no modification would have been needed.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your House and Senate representatives; Senate Judiciary Committee',
         },
         {
           step: 2,
           title: 'Counter Replacement Theory',
-          description: 'When you encounter Great Replacement rhetoric -- on TV, online, or in conversation -- challenge it directly. Contact advertisers on programs that amplify replacement theory. Report extremist content to platforms and the FBI (tips.fbi.gov).',
+          description: 'When you encounter Great Replacement rhetoric, on TV, online, or in conversation, challenge it directly. Contact advertisers on programs that amplify replacement theory. Report extremist content to platforms and the FBI (tips.fbi.gov).',
           estimatedTime: 'Ongoing',
         },
         {
@@ -162,7 +162,7 @@ export const buffaloMassacreAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Reform Threat Assessment Protocols',
-          description: 'Overhaul threat assessment protocols to include mandatory follow-up after initial evaluation. Gendron was briefly evaluated and released -- the system failed at the most critical moment. Multi-disciplinary threat assessment teams with follow-up requirements are the minimum standard.',
+          description: 'Overhaul threat assessment protocols to include mandatory follow-up after initial evaluation. Gendron was briefly evaluated and released, the system failed at the most critical moment. Multi-disciplinary threat assessment teams with follow-up requirements are the minimum standard.',
           estimatedTime: '3-6 months',
         },
         {
@@ -174,7 +174,7 @@ export const buffaloMassacreAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Domestic Terrorism Resource Parity',
-          description: 'Allocate resources to domestic terrorism investigation proportionate to the threat. The FBI Director has acknowledged DVE as the top domestic threat -- resource allocation must match that assessment.',
+          description: 'Allocate resources to domestic terrorism investigation proportionate to the threat. The FBI Director has acknowledged DVE as the top domestic threat, resource allocation must match that assessment.',
           estimatedTime: 'Ongoing',
         },
       ],
@@ -200,7 +200,7 @@ export const buffaloMassacreAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Extremist Content Reporting Requirements',
-          description: 'Require platforms to report to law enforcement when users access, create, or share content that constitutes specific, credible threats of mass violence -- similar to existing CSAM reporting requirements.',
+          description: 'Require platforms to report to law enforcement when users access, create, or share content that constitutes specific, credible threats of mass violence, similar to existing CSAM reporting requirements.',
           estimatedTime: '6-12 months',
         },
       ],

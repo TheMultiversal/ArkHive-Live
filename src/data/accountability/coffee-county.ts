@@ -41,14 +41,14 @@ export const coffeeCountyAccountability: AccountabilityData = {
     { name: 'CISA', title: 'Cybersecurity and Infrastructure Security Agency', jurisdiction: 'Election infrastructure security', powers: ['Assess vulnerabilities', 'Mandate security standards', 'Coordinate incident response'] },
   ],
   successCriteria: [
-    'Criminal conviction of all individuals who facilitated unauthorized access to election equipment -- including local officials, operatives, and those who directed the breach from outside Coffee County',
-    'Full prosecution of the broader conspiracy connecting Coffee County, Mesa County, and other election equipment breaches -- the individual cases must be prosecuted as the coordinated conspiracy they were',
-    'Complete forensic accounting of all $250+ million raised through the "Election Defense Fund" and allied fundraising -- determining what percentage went to actual legal challenges versus personal enrichment',
+    'Criminal conviction of all individuals who facilitated unauthorized access to election equipment, including local officials, operatives, and those who directed the breach from outside Coffee County',
+    'Full prosecution of the broader conspiracy connecting Coffee County, Mesa County, and other election equipment breaches, the individual cases must be prosecuted as the coordinated conspiracy they were',
+    'Complete forensic accounting of all $250+ million raised through the "Election Defense Fund" and allied fundraising, determining what percentage went to actual legal challenges versus personal enrichment',
     'Federal election security standards enacted requiring: tamper-evident physical security, mandatory access logging, chain-of-custody documentation, and criminal penalties for unauthorized access to election systems',
-    'Election worker protection legislation in all 50 states -- criminalizing threats and harassment of election workers and providing federal resources for security',
-    'Mandatory replacement of all compromised election equipment at the expense of those who caused the breach -- not at taxpayer expense',
+    'Election worker protection legislation in all 50 states, criminalizing threats and harassment of election workers and providing federal resources for security',
+    'Mandatory replacement of all compromised election equipment at the expense of those who caused the breach, not at taxpayer expense',
     'Complete public documentation of the full network of election equipment breaches: who ordered them, who funded them, who executed them, and where the stolen data went',
-    'Sidney Powell\'s cooperation agreement must produce meaningful testimony leading to accountability for those who directed the conspiracy -- a misdemeanor plea deal without consequential testimony is not accountability',
+    'Sidney Powell\'s cooperation agreement must produce meaningful testimony leading to accountability for those who directed the conspiracy, a misdemeanor plea deal without consequential testimony is not accountability',
   ],
 
   actionPaths: [
@@ -102,7 +102,7 @@ export const coffeeCountyAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Follow the Election Defense Fund Money',
-          description: 'Conduct a forensic analysis of the $250+ million raised through post-election fundraising. What percentage went to actual legal challenges? What went to personal enrichment? The January 6 Committee found the "Election Defense Fund" did not exist -- the money went to Trump PACs.',
+          description: 'Conduct a forensic analysis of the $250+ million raised through post-election fundraising. What percentage went to actual legal challenges? What went to personal enrichment? The January 6 Committee found the "Election Defense Fund" did not exist, the money went to Trump PACs.',
           estimatedTime: '6-12 months',
         },
       ],
@@ -123,7 +123,7 @@ export const coffeeCountyAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Donor Fraud Litigation',
-          description: 'Represent donors who contributed to the "Election Defense Fund" believing their money would fund legitimate legal challenges. The fund did not exist -- the money went to PACs. This is potentially actionable as wire fraud or fraudulent solicitation.',
+          description: 'Represent donors who contributed to the "Election Defense Fund" believing their money would fund legitimate legal challenges. The fund did not exist, the money went to PACs. This is potentially actionable as wire fraud or fraudulent solicitation.',
           legalBasis: ['18 U.S.C. Section 1343 (wire fraud)', 'State consumer protection', 'FEC regulations'],
           estimatedTime: '12-24 months',
         },
@@ -177,13 +177,13 @@ export const coffeeCountyAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Prosecute the Full Conspiracy',
-          description: 'Prosecute election equipment breaches as the coordinated conspiracy they are -- not as isolated local incidents. The Coffee County, Mesa County, and other breaches were directed by the same network of operatives and funders.',
+          description: 'Prosecute election equipment breaches as the coordinated conspiracy they are, not as isolated local incidents. The Coffee County, Mesa County, and other breaches were directed by the same network of operatives and funders.',
           estimatedTime: '12-24 months',
         },
         {
           step: 3,
           title: 'Fake Elector Investigation',
-          description: 'Investigate the overlap between election equipment breach facilitators and the fake elector scheme. Cathy Latham was both the Coffee County breach facilitator and a fake elector -- this overlap is likely not unique to Coffee County.',
+          description: 'Investigate the overlap between election equipment breach facilitators and the fake elector scheme. Cathy Latham was both the Coffee County breach facilitator and a fake elector, this overlap is likely not unique to Coffee County.',
           estimatedTime: '6-12 months',
         },
       ],

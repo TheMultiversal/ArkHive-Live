@@ -2,7 +2,7 @@ import type { AccountabilityData } from '@/types/accountability';
 
 export const mkultraCiaHumanExperimentationAccountability: AccountabilityData = {
   investigationSlug: 'mkultra-cia-human-experimentation',
-  crimeSummary: 'From 1953 to 1973, the CIA operated MK-ULTRA -- the most extensive program of human experimentation in United States history. Authorized by CIA Director Allen Dulles and managed by Dr. Sidney Gottlieb, the program encompassed 149+ subprojects across 80+ institutions including 44 universities, 12 hospitals, 15 research facilities, and 3 prisons. The CIA administered LSD, mescaline, barbiturates, amphetamines, and other psychoactive substances to thousands of unwitting subjects -- including its own employees, military service members, mental patients, prisoners, sex workers, and members of the general public. Dr. Donald Ewen Cameron\'s Subproject 68 at McGill University subjected patients to weeks-long drug-induced comas, massive electroshock treatments (30-40 times normal therapeutic levels), and "psychic driving" -- forcing patients to listen to repetitive messages for up to 16 hours a day. CIA biochemist Frank Olson was covertly dosed with LSD on November 19, 1953 and fell to his death from a 13th-floor hotel window nine days later under circumstances that a 1994 forensic exhumation found consistent with homicide. In January 1973, CIA Director Richard Helms ordered the destruction of virtually all MK-ULTRA files. Only approximately 20,000 pages survived because they had been misfiled in the CIA financial records office.',
+  crimeSummary: 'From 1953 to 1973, the CIA operated MK-ULTRA, the most extensive program of human experimentation in United States history. Authorized by CIA Director Allen Dulles and managed by Dr. Sidney Gottlieb, the program encompassed 149+ subprojects across 80+ institutions including 44 universities, 12 hospitals, 15 research facilities, and 3 prisons. The CIA administered LSD, mescaline, barbiturates, amphetamines, and other psychoactive substances to thousands of unwitting subjects, including its own employees, military service members, mental patients, prisoners, sex workers, and members of the general public. Dr. Donald Ewen Cameron\'s Subproject 68 at McGill University subjected patients to weeks-long drug-induced comas, massive electroshock treatments (30-40 times normal therapeutic levels), and "psychic driving", forcing patients to listen to repetitive messages for up to 16 hours a day. CIA biochemist Frank Olson was covertly dosed with LSD on November 19, 1953 and fell to his death from a 13th-floor hotel window nine days later under circumstances that a 1994 forensic exhumation found consistent with homicide. In January 1973, CIA Director Richard Helms ordered the destruction of virtually all MK-ULTRA files. Only approximately 20,000 pages survived because they had been misfiled in the CIA financial records office.',
   totalHarm: 'Thousands of unwitting victims experimented upon across 149+ subprojects. Confirmed deaths include Frank Olson (1953) and Harold Blauer (mescaline injection, 1953). Unknown number of additional deaths in unrecorded experiments. At least 77 Canadian victims of Cameron\'s psychic driving suffered permanent cognitive damage. Hundreds of military service members dosed without consent at Edgewood Arsenal. Untold numbers of victims can never be identified because Helms destroyed the records in 1973. The Supreme Court\'s 1987 ruling in United States v. Stanley (5-4) blocked military victims from seeking damages, with Justice O\'Connor dissenting that the government had engaged in "experimentation with combatants."',
   victimsAffected: 'Thousands of individuals across 149+ subprojects. 77 identified Canadian victims of Cameron experiments. Unknown hundreds of military subjects at Edgewood Arsenal. Unknown number of unwitting civilians dosed in Operation Midnight Climax safe houses in San Francisco and New York. The true number is unknowable because Helms destroyed the records.',
   primaryTargets: [
@@ -17,29 +17,29 @@ export const mkultraCiaHumanExperimentationAccountability: AccountabilityData = 
       name: 'Sidney Gottlieb',
       role: 'Chief of CIA Technical Services Staff and director of MK-ULTRA from 1953-1973. Personally authorized most subprojects, including the dosing of Frank Olson. Approved funding to 80+ institutions through front organizations. After retirement, attempted to destroy remaining evidence.',
       currentStatus: 'Deceased (1999). Never criminally charged for any MK-ULTRA activities. Testified before the Church Committee in 1977 but invoked national security to avoid detailed answers.',
-      accountabilityPath: 'Historical accountability -- ensuring his role is documented in the public record. Support for victims he harmed.',
-      obstacles: ['Deceased -- beyond legal reach'],
+      accountabilityPath: 'Historical accountability, ensuring his role is documented in the public record. Support for victims he harmed.',
+      obstacles: ['Deceased, beyond legal reach'],
     },
     {
       name: 'Richard Helms',
-      role: 'CIA Director who in January 1973 ordered the destruction of virtually all MK-ULTRA records. Later lied to Congress about the scope of the program. Received only a $2,000 misdemeanor fine -- paid by CIA colleagues.',
+      role: 'CIA Director who in January 1973 ordered the destruction of virtually all MK-ULTRA records. Later lied to Congress about the scope of the program. Received only a $2,000 misdemeanor fine, paid by CIA colleagues.',
       currentStatus: 'Deceased (2002). Received a misdemeanor conviction for failure to testify fully before Congress. The $2,000 fine was paid by CIA colleagues who held a fundraiser. He publicly stated the conviction was a "badge of honor."',
       accountabilityPath: 'Historical accountability only. The destruction of records he ordered remains the single greatest obstacle to full MK-ULTRA accountability.',
-      obstacles: ['Deceased -- beyond legal reach'],
+      obstacles: ['Deceased, beyond legal reach'],
     },
     {
       name: 'Dr. Donald Ewen Cameron',
       role: 'President of the American Psychiatric Association and director of Subproject 68 at McGill University\'s Allan Memorial Institute (1957-1964). Subjected patients to drug-induced comas lasting weeks, massive electroshock at 30-40 times therapeutic levels, and "psychic driving" using repetitive taped messages for 16+ hours daily.',
       currentStatus: 'Deceased (1967). Never faced any criminal or professional consequences during his lifetime. Was president of the World Psychiatric Association. The Canadian government settled with 77 of his victims in 1988.',
       accountabilityPath: 'Institutional accountability through McGill University and the Canadian government. Ongoing support for surviving victims and descendants.',
-      obstacles: ['Deceased -- beyond legal reach', 'McGill University has been slow to acknowledge full institutional responsibility'],
+      obstacles: ['Deceased, beyond legal reach', 'McGill University has been slow to acknowledge full institutional responsibility'],
     },
   ],
   legalMechanisms: [
     {
       name: 'Federal Torture Statute',
       statute: '18 U.S.C. \u00A7 2340A',
-      description: 'Prohibits torture by U.S. nationals or on U.S. soil. MK-ULTRA experiments -- including forced drug administration, prolonged sensory deprivation, and massive electroshock -- constitute torture under any reasonable legal definition.',
+      description: 'Prohibits torture by U.S. nationals or on U.S. soil. MK-ULTRA experiments, including forced drug administration, prolonged sensory deprivation, and massive electroshock, constitute torture under any reasonable legal definition.',
       hasStatuteOfLimitations: false,
       reachesHeirs: false,
       authorizedActors: ['DOJ', 'FBI'],
@@ -49,7 +49,7 @@ export const mkultraCiaHumanExperimentationAccountability: AccountabilityData = 
     {
       name: 'Common Rule (Human Subjects Protection)',
       statute: '45 C.F.R. \u00A7 46 (Belmont Report)',
-      description: 'Federal regulations requiring informed consent for human subjects research. MK-ULTRA operated in complete violation of these principles -- which were strengthened in direct response to the program\'s exposure.',
+      description: 'Federal regulations requiring informed consent for human subjects research. MK-ULTRA operated in complete violation of these principles, which were strengthened in direct response to the program\'s exposure.',
       hasStatuteOfLimitations: false,
       reachesHeirs: false,
       authorizedActors: ['HHS OHRP', 'IRBs', 'FDA'],
@@ -94,7 +94,7 @@ export const mkultraCiaHumanExperimentationAccountability: AccountabilityData = 
       transferMethod: 'Approximately $25 million flowed through CIA classified budget to 149+ subprojects from 1953-1973. Funds were laundered through front organizations including the Society for Investigation of Human Ecology, Josiah Macy Foundation, and Geschickter Fund for Medical Research to conceal CIA involvement.',
       estimatedValue: '$25 million (1953-1973 dollars), approximately $87.5 million adjusted for inflation',
       legalEntities: ['Central Intelligence Agency', 'Society for Investigation of Human Ecology', 'Josiah Macy Foundation', 'Geschickter Fund for Medical Research'],
-      recoveryMechanisms: ['None -- classified budget prevented oversight or recovery'],
+      recoveryMechanisms: ['None, classified budget prevented oversight or recovery'],
     },
     {
       name: 'Victim Compensation (Olson Family)',
@@ -116,9 +116,9 @@ export const mkultraCiaHumanExperimentationAccountability: AccountabilityData = 
       name: 'Destroyed Evidence (Accountability Cost)',
       relationship: 'Helms\'s 1973 destruction order eliminated the primary evidence base',
       transferMethod: 'Hundreds of thousands of pages destroyed. Only 20,000 pages survived through misfiling. The destruction prevented identification of most victims and eliminated the possibility of comprehensive financial accounting.',
-      estimatedValue: 'Unquantifiable -- elimination of accountability for potentially billions in program expenditures',
+      estimatedValue: 'Unquantifiable, elimination of accountability for potentially billions in program expenditures',
       legalEntities: ['Central Intelligence Agency'],
-      recoveryMechanisms: ['None -- evidence destruction was designed to prevent recovery'],
+      recoveryMechanisms: ['None, evidence destruction was designed to prevent recovery'],
     },
   ],
   authoritiesWithPower: [
@@ -220,7 +220,7 @@ export const mkultraCiaHumanExperimentationAccountability: AccountabilityData = 
       urgency: 'standard',
       relevantMechanisms: ['Federal Torture Statute'],
       steps: [
-        { step: 1, title: 'Review Surviving Records for Unidentified Crimes', description: 'Conduct systematic review of the 20,000 surviving pages for evidence of crimes -- including deaths, assaults, and drug administration -- that were never investigated. Some participants in MK-ULTRA subprojects may still be living.', estimatedTime: '6-12 months' },
+        { step: 1, title: 'Review Surviving Records for Unidentified Crimes', description: 'Conduct systematic review of the 20,000 surviving pages for evidence of crimes, including deaths, assaults, and drug administration, that were never investigated. Some participants in MK-ULTRA subprojects may still be living.', estimatedTime: '6-12 months' },
         { step: 2, title: 'Investigate Frank Olson Case', description: 'The 1994 forensic exhumation found evidence consistent with homicide. The Manhattan DA investigated but never brought charges. Review whether new evidence or forensic techniques warrant reopening the case.', estimatedTime: '3-6 months' },
       ],
     },

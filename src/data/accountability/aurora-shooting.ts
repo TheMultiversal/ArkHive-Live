@@ -34,13 +34,13 @@ export const auroraShootingAccountability: AccountabilityData = {
     { name: 'Colorado Legislature', title: 'Colorado General Assembly', jurisdiction: 'State firearms regulation', powers: ['Passed red flag law (2019)', 'High-capacity magazine ban', 'State assault weapons regulation'] },
   ],
   successCriteria: [
-    'Universal background checks for all firearms sales including private sales, gun shows, and online transactions -- Holmes passed his background checks, but the current system has no mechanism to flag concerning purchase patterns',
-    'Online ammunition sales regulated with ID verification, purchase volume tracking, and suspicious activity reporting -- Holmes purchased 6,000+ rounds online with zero verification or flags',
-    'Extreme risk protection orders (red flag laws) enacted in all 50 states -- Colorado passed its law in 2019, seven years after Aurora. Had red flag laws existed and Dr. Fenton had been able to petition, the massacre might have been prevented',
+    'Universal background checks for all firearms sales including private sales, gun shows, and online transactions, Holmes passed his background checks, but the current system has no mechanism to flag concerning purchase patterns',
+    'Online ammunition sales regulated with ID verification, purchase volume tracking, and suspicious activity reporting, Holmes purchased 6,000+ rounds online with zero verification or flags',
+    'Extreme risk protection orders (red flag laws) enacted in all 50 states, Colorado passed its law in 2019, seven years after Aurora. Had red flag laws existed and Dr. Fenton had been able to petition, the massacre might have been prevented',
     'Threat assessment continuity reform: when a mental health professional identifies homicidal ideation, the threat assessment process must not terminate simply because the subject leaves an institutional context (as happened when Holmes withdrew from CU)',
     'PLCAA repeal or reform allowing victims of mass shootings to sue firearms manufacturers and ammunition sellers whose products and sales practices facilitated mass casualty events',
-    'High-capacity magazine bans enacted federally -- Holmes used a 100-round drum magazine that jammed during the attack, likely saving additional lives',
-    'Cinemark-style liability reform ensuring that venues cannot force shooting victims\' families to pay the venue\'s legal fees when victims\' lawsuits are unsuccessfully brought -- the Aurora victims\' families were ordered to pay Cinemark\'s attorney costs',
+    'High-capacity magazine bans enacted federally, Holmes used a 100-round drum magazine that jammed during the attack, likely saving additional lives',
+    'Cinemark-style liability reform ensuring that venues cannot force shooting victims\' families to pay the venue\'s legal fees when victims\' lawsuits are unsuccessfully brought, the Aurora victims\' families were ordered to pay Cinemark\'s attorney costs',
     'Comprehensive public documentation of every systemic failure: the legal purchase of an arsenal, the online ammunition with zero oversight, the mental health intervention that stopped when Holmes withdrew, and the legal immunity that prevented civil accountability',
   ],
 
@@ -54,7 +54,7 @@ export const auroraShootingAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Support Red Flag Laws',
-          description: 'Advocate for extreme risk protection order laws in your state. In states that have them, learn how to petition. Red flag laws allow courts to temporarily remove firearms from individuals posing a danger -- had they existed in 2012, Dr. Fenton\'s concerns about Holmes could have triggered an ERPO.',
+          description: 'Advocate for extreme risk protection order laws in your state. In states that have them, learn how to petition. Red flag laws allow courts to temporarily remove firearms from individuals posing a danger, had they existed in 2012, Dr. Fenton\'s concerns about Holmes could have triggered an ERPO.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your state legislators; Governor\'s office',
           templateText: 'Dear [State Legislator],\n\nOn July 20, 2012, James Holmes legally purchased four firearms and 6,000+ rounds of ammunition, then murdered 12 people in an Aurora, Colorado movie theater. His psychiatrist had identified homicidal ideation but had no legal mechanism to intervene.\n\nI urge you to:\n1. Pass an extreme risk protection order (red flag) law\n2. Regulate online ammunition sales with ID verification\n3. Support universal background checks for all firearms sales\n\n12 people died. Veronica Moser-Sullivan was 6 years old.\n\nSincerely,\n[Your Name]',
@@ -69,7 +69,7 @@ export const auroraShootingAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Support Survivors and Families',
-          description: 'Support Aurora survivor organizations and gun violence prevention groups: Everytown, Moms Demand Action, Sandy Hook Promise. The Aurora families were ordered to pay Cinemark\'s legal fees after their lawsuit failed -- the system punished them for seeking accountability.',
+          description: 'Support Aurora survivor organizations and gun violence prevention groups: Everytown, Moms Demand Action, Sandy Hook Promise. The Aurora families were ordered to pay Cinemark\'s legal fees after their lawsuit failed, the system punished them for seeking accountability.',
           estimatedTime: '20 minutes',
         },
       ],
@@ -89,13 +89,13 @@ export const auroraShootingAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Online Ammunition Market Investigation',
-          description: 'Investigate the online ammunition market. How many retailers sell ammunition with no identity verification? What volume limits exist? How are suspicious purchases flagged? Holmes purchased 6,000+ rounds -- did any retailer question the order?',
+          description: 'Investigate the online ammunition market. How many retailers sell ammunition with no identity verification? What volume limits exist? How are suspicious purchases flagged? Holmes purchased 6,000+ rounds, did any retailer question the order?',
           estimatedTime: '3-6 months',
         },
         {
           step: 3,
           title: 'Threat Assessment Gap Documentation',
-          description: 'Investigate how many mass shooters had prior mental health contacts that failed to trigger intervention. Holmes is not unique -- document the pattern of mental health professionals identifying danger but lacking legal tools to prevent it.',
+          description: 'Investigate how many mass shooters had prior mental health contacts that failed to trigger intervention. Holmes is not unique, document the pattern of mental health professionals identifying danger but lacking legal tools to prevent it.',
           estimatedTime: '6-12 months',
         },
       ],
@@ -144,13 +144,13 @@ export const auroraShootingAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Online Ammunition Regulation',
-          description: 'Pass legislation requiring ID verification, purchase volume tracking, and suspicious activity reporting for online ammunition sales. Holmes purchased 6,000+ rounds online with zero flags -- this must be made impossible.',
+          description: 'Pass legislation requiring ID verification, purchase volume tracking, and suspicious activity reporting for online ammunition sales. Holmes purchased 6,000+ rounds online with zero flags, this must be made impossible.',
           estimatedTime: '6-12 months legislative timeline',
         },
         {
           step: 3,
           title: 'High-Capacity Magazine Ban',
-          description: 'Reinstate and strengthen the federal assault weapons ban including a ban on high-capacity magazines. Holmes used a 100-round drum magazine -- its malfunction saved lives. Legislation should ensure such magazines are not legally available.',
+          description: 'Reinstate and strengthen the federal assault weapons ban including a ban on high-capacity magazines. Holmes used a 100-round drum magazine, its malfunction saved lives. Legislation should ensure such magazines are not legally available.',
           estimatedTime: '6-12 months legislative timeline',
         },
       ],
@@ -196,7 +196,7 @@ export const auroraShootingAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Purchase Volume Tracking',
-          description: 'Implement purchase volume tracking and suspicious activity reporting for ammunition sales. Require sellers to flag purchases exceeding reasonable personal use quantities -- 6,000+ rounds purchased by a single individual over two months should trigger an automatic review.',
+          description: 'Implement purchase volume tracking and suspicious activity reporting for ammunition sales. Require sellers to flag purchases exceeding reasonable personal use quantities, 6,000+ rounds purchased by a single individual over two months should trigger an automatic review.',
           estimatedTime: '6-12 months',
         },
         {

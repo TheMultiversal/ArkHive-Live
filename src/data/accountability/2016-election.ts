@@ -84,14 +84,14 @@ export const electionInterference2016Accountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'John Lewis Voting Rights Advancement Act enacted restoring preclearance and protecting against voter suppression -- the 2016 election was the first presidential election without full VRA protection after Shelby County, and the damage was immediate',
-    'Complete accounting of foreign money in the 2016 election cycle: NRA-Russian funds ($30M per Senate investigation), Cambridge Analytica foreign data operations, and all other channels of foreign influence -- every dollar traced to its source',
-    'Election security infrastructure hardened: paper ballot backup in all jurisdictions, mandatory audits, air-gapped voter registration databases, and federal standards for election cybersecurity -- Russian hackers probed election systems in all 50 states',
-    'FARA enforcement strengthened with mandatory registration and criminal penalties for unregistered foreign agent activity -- the Manafort prosecution demonstrated that FARA had been effectively unenforced for decades',
+    'John Lewis Voting Rights Advancement Act enacted restoring preclearance and protecting against voter suppression, the 2016 election was the first presidential election without full VRA protection after Shelby County, and the damage was immediate',
+    'Complete accounting of foreign money in the 2016 election cycle: NRA-Russian funds ($30M per Senate investigation), Cambridge Analytica foreign data operations, and all other channels of foreign influence, every dollar traced to its source',
+    'Election security infrastructure hardened: paper ballot backup in all jurisdictions, mandatory audits, air-gapped voter registration databases, and federal standards for election cybersecurity, Russian hackers probed election systems in all 50 states',
+    'FARA enforcement strengthened with mandatory registration and criminal penalties for unregistered foreign agent activity, the Manafort prosecution demonstrated that FARA had been effectively unenforced for decades',
     'Social media election interference prevention: mandatory disclosure of political ad buyers, foreign bot detection requirements, and platform cooperation with intelligence agencies on foreign influence operations',
     'Cambridge Analytica-type operations permanently prohibited: enforceable data protection legislation preventing harvesting of personal data for political microtargeting without explicit informed consent',
-    'Complete public documentation of the Manafort-Kilimnik connection, the Trump Tower meeting, and all other contacts between the Trump campaign and Russian operatives -- the Mueller Report documented coordination short of criminal conspiracy, and the full story must be part of the historical record',
-    'FEC reform enabling actual enforcement of campaign finance laws -- the structural 3-3 deadlock that prevented enforcement during the most foreign-influenced election in modern history must be fixed',
+    'Complete public documentation of the Manafort-Kilimnik connection, the Trump Tower meeting, and all other contacts between the Trump campaign and Russian operatives, the Mueller Report documented coordination short of criminal conspiracy, and the full story must be part of the historical record',
+    'FEC reform enabling actual enforcement of campaign finance laws, the structural 3-3 deadlock that prevented enforcement during the most foreign-influenced election in modern history must be fixed',
   ],
 
   actionPaths: [
@@ -104,7 +104,7 @@ export const electionInterference2016Accountability: AccountabilityData = {
         {
           step: 1,
           title: 'Support VRA Restoration',
-          description: 'Contact senators to support the John Lewis Voting Rights Advancement Act. The 2016 election was the first presidential election without full VRA protection -- voter suppression was immediate and documented.',
+          description: 'Contact senators to support the John Lewis Voting Rights Advancement Act. The 2016 election was the first presidential election without full VRA protection, voter suppression was immediate and documented.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your Senate representatives; Senate Judiciary Committee',
         },
@@ -172,7 +172,7 @@ export const electionInterference2016Accountability: AccountabilityData = {
         {
           step: 3,
           title: 'FARA Enforcement Actions',
-          description: 'Push for consistent FARA enforcement against unregistered foreign agents. The Manafort prosecution showed that FARA had been unenforced for decades -- use the precedent to demand uniform application.',
+          description: 'Push for consistent FARA enforcement against unregistered foreign agents. The Manafort prosecution showed that FARA had been unenforced for decades, use the precedent to demand uniform application.',
           legalBasis: ['22 U.S.C. Sections 611-621 (FARA)', '18 U.S.C. Section 951 (foreign government agent)'],
           estimatedTime: 'Ongoing',
         },
@@ -219,13 +219,13 @@ export const electionInterference2016Accountability: AccountabilityData = {
         {
           step: 2,
           title: 'Social Media Coordination',
-          description: 'Develop formal coordination mechanisms with social media platforms for detecting and disrupting foreign influence operations. The Internet Research Agency\'s operations were detected too late -- real-time cooperation is necessary.',
+          description: 'Develop formal coordination mechanisms with social media platforms for detecting and disrupting foreign influence operations. The Internet Research Agency\'s operations were detected too late, real-time cooperation is necessary.',
           estimatedTime: 'Ongoing',
         },
         {
           step: 3,
           title: 'FARA Proactive Enforcement',
-          description: 'Proactively investigate potential FARA violations rather than waiting for voluntary registration. The Manafort case demonstrated that FARA was widely ignored -- systematic enforcement is the only way to deter foreign influence operations.',
+          description: 'Proactively investigate potential FARA violations rather than waiting for voluntary registration. The Manafort case demonstrated that FARA was widely ignored, systematic enforcement is the only way to deter foreign influence operations.',
           estimatedTime: 'Ongoing',
         },
       ],
@@ -239,7 +239,7 @@ export const electionInterference2016Accountability: AccountabilityData = {
         {
           step: 1,
           title: 'Dark Money Disclosure Rules',
-          description: 'Promulgate rules requiring disclosure of donors to organizations that spend on elections. The current system allows unlimited anonymous spending through 501(c)(4) organizations -- transparency is the minimum requirement for democratic elections.',
+          description: 'Promulgate rules requiring disclosure of donors to organizations that spend on elections. The current system allows unlimited anonymous spending through 501(c)(4) organizations, transparency is the minimum requirement for democratic elections.',
           estimatedTime: '6-12 months',
         },
         {

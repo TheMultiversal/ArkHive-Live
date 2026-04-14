@@ -564,7 +564,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: '74th U.S. Treasury Secretary; Former Goldman Sachs CEO; Architect of the $700 Billion Wall Street Bailout',
  role: 'U.S. Treasury Secretary (2006-2009); Goldman Sachs Chairman and CEO (1999-2006)',
  riskLevel: 'critical',
- description: 'Henry Merritt "Hank" Paulson Jr. served as the 74th United States Secretary of the Treasury from 2006 to 2009, presiding over the federal government\'s response to the worst financial crisis since the Great Depression. Before entering government, Paulson spent 32 years at Goldman Sachs, rising to Chairman and CEO in 1999. Upon becoming Treasury Secretary, Paulson liquidated his approximately $700 million Goldman Sachs stake tax-free under a federal ethics provision designed to prevent conflicts of interest -- the same provision that created one, as his personal fortune now depended on the survival of the financial system his former firm dominated. When AIG was bailed out with $182 billion in taxpayer funds, $12.9 billion flowed directly to Goldman Sachs as an AIG counterparty, paid at 100 cents on the dollar while ordinary creditors received fractions. Paulson initially presented Congress with a three-page proposal demanding $700 billion in bailout authority with no judicial review, no oversight, and no accountability. When the House initially rejected the plan, he reportedly got on one knee before Speaker Nancy Pelosi to plead for passage. On October 14, 2008, Paulson summoned the CEOs of the nine largest banks to a mandatory meeting at Treasury, placed a one-page term sheet in front of each, and told them they would all accept TARP funds whether they wanted them or not -- distributing $125 billion in a single afternoon. Critics note that Paulson allowed Lehman Brothers (Goldman\'s chief rival) to fail while rescuing AIG (Goldman\'s largest counterparty). He consistently prioritized the interests of Wall Street over homeowners: TARP funds flowed to banks, not to the millions of Americans facing foreclosure. After leaving office, Paulson faced no investigation despite his Goldman ties, the conflict of interest in the AIG bailout, and his role in designing a bailout that socialized Wall Street\'s losses while privatizing its gains.',
+ description: 'Henry Merritt "Hank" Paulson Jr. served as the 74th United States Secretary of the Treasury from 2006 to 2009, presiding over the federal government\'s response to the worst financial crisis since the Great Depression. Before entering government, Paulson spent 32 years at Goldman Sachs, rising to Chairman and CEO in 1999. Upon becoming Treasury Secretary, Paulson liquidated his approximately $700 million Goldman Sachs stake tax-free under a federal ethics provision designed to prevent conflicts of interest, the same provision that created one, as his personal fortune now depended on the survival of the financial system his former firm dominated. When AIG was bailed out with $182 billion in taxpayer funds, $12.9 billion flowed directly to Goldman Sachs as an AIG counterparty, paid at 100 cents on the dollar while ordinary creditors received fractions. Paulson initially presented Congress with a three-page proposal demanding $700 billion in bailout authority with no judicial review, no oversight, and no accountability. When the House initially rejected the plan, he reportedly got on one knee before Speaker Nancy Pelosi to plead for passage. On October 14, 2008, Paulson summoned the CEOs of the nine largest banks to a mandatory meeting at Treasury, placed a one-page term sheet in front of each, and told them they would all accept TARP funds whether they wanted them or not, distributing $125 billion in a single afternoon. Critics note that Paulson allowed Lehman Brothers (Goldman\'s chief rival) to fail while rescuing AIG (Goldman\'s largest counterparty). He consistently prioritized the interests of Wall Street over homeowners: TARP funds flowed to banks, not to the millions of Americans facing foreclosure. After leaving office, Paulson faced no investigation despite his Goldman ties, the conflict of interest in the AIG bailout, and his role in designing a bailout that socialized Wall Street\'s losses while privatizing its gains.',
  birthDate: 'March 28, 1946',
  birthPlace: 'Palm Beach, Florida, USA',
  education: ['Dartmouth College, BA English (1968)', 'Harvard Business School, MBA (1970)'],
@@ -576,11 +576,11 @@ const profiles: Record<string, IndividualProfile> = {
  controversies: [
  'Designed and executed the $700 billion TARP bailout that rescued Wall Street while millions of Americans lost their homes',
  'Former Goldman Sachs CEO whose personal $700 million Goldman stake was liquidated tax-free upon entering government',
- 'AIG bailout directed $12.9 billion to Goldman Sachs at 100 cents on the dollar while Paulson was Treasury Secretary -- the most direct conflict of interest in the crisis',
+ 'AIG bailout directed $12.9 billion to Goldman Sachs at 100 cents on the dollar while Paulson was Treasury Secretary, the most direct conflict of interest in the crisis',
  'Allowed Lehman Brothers (Goldman\'s chief rival) to fail while rescuing AIG (Goldman\'s largest counterparty), raising questions about favoritism',
  'Initially presented Congress with a three-page demand for $700 billion with no oversight, no judicial review, and no accountability',
  'Summoned nine bank CEOs on October 14, 2008 and forced them to accept TARP funds, distributing $125 billion in one afternoon',
- 'TARP funds flowed entirely to banks, not to homeowners facing foreclosure -- socializing losses while privatizing gains',
+ 'TARP funds flowed entirely to banks, not to homeowners facing foreclosure, socializing losses while privatizing gains',
  'Reportedly got on one knee before Speaker Pelosi to beg for bailout passage after the House initially rejected it',
  'Faced no investigation or prosecution despite the Goldman-AIG conflict of interest and the design of a bailout that funneled taxpayer money to his former colleagues',
  ],
@@ -1428,13 +1428,13 @@ const profiles: Record<string, IndividualProfile> = {
  controversies: [
  'Ogrosky memo (October 2006) recommended felony charges including wire fraud and money laundering against Udell, but DOJ accepted misdemeanor plea instead',
  'As general counsel, was responsible for legal compliance of the marketing practices that falsely claimed OxyContin was less addictive',
- 'Pleaded guilty to misbranding OxyContin "with the intent to defraud or mislead" but received only 400 hours community service -- no prison time',
+ 'Pleaded guilty to misbranding OxyContin "with the intent to defraud or mislead" but received only 400 hours community service, no prison time',
  'Combined personal fine of $34.5 million (shared with Friedman and Goldenheim) was a fraction of OxyContin revenue during his tenure',
  'Legal oversight role meant Udell was uniquely positioned to have known the marketing claims violated FDA regulations and the Controlled Substances Act',
  'No Sackler family member was charged in the 2007 case despite directing the marketing strategy Udell oversaw legally',
  ],
  charges: [
- { statute: '21 U.S.C. Ã‚Â§ 331 -- FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead"; sentenced to 400 hours community service; no prison time', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
+ { statute: '21 U.S.C. Ã‚Â§ 331, FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead"; sentenced to 400 hours community service; no prison time', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
  ],
  relatedInvestigations: [
  { title: 'Opioid Crisis: Corporate Mass Murder', slug: 'opioid-crisis-corporate-mass-murder', severity: 'critical' },
@@ -1448,8 +1448,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ: United States v. Purdue Frederick Co. -- 2007 Guilty Plea', url: 'https://www.justice.gov/archive/opa/pr/2007/May/07_civ_370.html', date: '2007-05-10' },
- { title: 'Patrick Radden Keefe: Empire of Pain -- The Secret History of the Sackler Dynasty', url: 'https://www.penguinrandomhouse.com/books/612024/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
+ { title: 'DOJ: United States v. Purdue Frederick Co., 2007 Guilty Plea', url: 'https://www.justice.gov/archive/opa/pr/2007/May/07_civ_370.html', date: '2007-05-10' },
+ { title: 'Patrick Radden Keefe: Empire of Pain, The Secret History of the Sackler Dynasty', url: 'https://www.penguinrandomhouse.com/books/612024/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2229,7 +2229,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former UN Assistant Secretary-General',
  role: 'UN Humanitarian Coordinator in Iraq who resigned in protest over sanctions',
  riskLevel: 'low',
- description: 'Hans-Christof von Sponeck is a German diplomat who served over 30 years at the United Nations before becoming the second consecutive UN Humanitarian Coordinator in Iraq to resign in protest over the sanctions regime. He succeeded Denis Halliday in November 1998, taking the post despite Halliday\'s warnings. After 13 months witnessing the same devastating humanitarian conditions, von Sponeck resigned on February 13, 2000, calling the sanctions "totally incompatible with the UN Charter" and "indefensible." Jutta Burghardt, head of the World Food Programme in Iraq, resigned the same day. Von Sponeck\'s resignation was significant because it demonstrated that Halliday\'s concerns were not those of a single individual -- three consecutive senior UN officials with direct knowledge of ground conditions all reached the same conclusion: the sanctions were causing mass civilian death. After leaving the UN, von Sponeck wrote "A Different Kind of War: The UN Sanctions Regime in Iraq" (2006), documenting the sanctions\' humanitarian impact from his insider perspective. He later served as a visiting scholar at various European universities.',
+ description: 'Hans-Christof von Sponeck is a German diplomat who served over 30 years at the United Nations before becoming the second consecutive UN Humanitarian Coordinator in Iraq to resign in protest over the sanctions regime. He succeeded Denis Halliday in November 1998, taking the post despite Halliday\'s warnings. After 13 months witnessing the same devastating humanitarian conditions, von Sponeck resigned on February 13, 2000, calling the sanctions "totally incompatible with the UN Charter" and "indefensible." Jutta Burghardt, head of the World Food Programme in Iraq, resigned the same day. Von Sponeck\'s resignation was significant because it demonstrated that Halliday\'s concerns were not those of a single individual, three consecutive senior UN officials with direct knowledge of ground conditions all reached the same conclusion: the sanctions were causing mass civilian death. After leaving the UN, von Sponeck wrote "A Different Kind of War: The UN Sanctions Regime in Iraq" (2006), documenting the sanctions\' humanitarian impact from his insider perspective. He later served as a visiting scholar at various European universities.',
  birthDate: '1939',
  birthPlace: 'Germany',
  education: ['University of Bonn', 'Graduate studies in economics and political science'],

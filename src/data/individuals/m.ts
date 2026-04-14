@@ -1551,7 +1551,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'January 27, 1993', event: 'Confirmed as U.S. Ambassador to the United Nations by the Senate' },
  { date: 'April-July 1994', event: 'During Rwandan genocide, participates in Clinton administration decisions to avoid calling massacres "genocide" and block UN action' },
  { date: 'May 12, 1996', event: 'Appears on CBS 60 Minutes; tells Lesley Stahl that 500,000 dead Iraqi children from sanctions is "worth it"' },
- { date: 'January 23, 1997', event: 'Sworn in as 64th Secretary of State -- the first woman to hold the position' },
+ { date: 'January 23, 1997', event: 'Sworn in as 64th Secretary of State, the first woman to hold the position' },
  { date: 'February 1997', event: 'Washington Post reveals her Jewish heritage and that three grandparents died in the Holocaust; she claims she did not know' },
  { date: 'February 1998', event: 'Town hall at Ohio State University to make case for military action against Iraq; audience erupts in protest, drowning out Albright, Berger, and Cohen' },
  { date: 'October 1998', event: 'Denis Halliday resigns as UN Humanitarian Coordinator in Baghdad calling sanctions "genocide"; Albright dismisses his concerns' },
@@ -1923,7 +1923,7 @@ const profiles: Record<string, IndividualProfile> = {
 
  'mark-forkner': {
     name: 'Mark Forkner',
-    title: 'Former Boeing Chief Technical Pilot -- Only Person Charged in 346 Deaths',
+    title: 'Former Boeing Chief Technical Pilot, Only Person Charged in 346 Deaths',
     role: 'Boeing 737 MAX Chief Technical Pilot (2012-2018)',
     riskLevel: 'high',
     description: 'Mark Forkner served as Boeing\'s chief technical pilot for the 737 MAX program, responsible for communicating with the FAA about the aircraft\'s flight characteristics and pilot training requirements. In November 2016, he discovered during simulator testing that the Maneuvering Characteristics Augmentation System (MCAS) behaved far more aggressively than he had told the FAA, messaging a colleague: "So I basically lied to the regulators (unknowingly)." He did not formally correct the record. Forkner was the only individual ever charged in connection with the two 737 MAX crashes that killed 346 people. On October 14, 2021, he was indicted on six counts of wire fraud for allegedly deceiving the FAA about MCAS. On March 23, 2022, a federal jury in Fort Worth, Texas acquitted him on all counts after less than two hours of deliberation, finding that the FAA shared responsibility for the certification failures. His acquittal meant that nobody would go to prison for 346 deaths.',
@@ -1955,9 +1955,9 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2016-11', event: 'Discovers MCAS behaves aggressively in simulator; messages colleague: "So I basically lied to the regulators (unknowingly)"' },
       { date: '2017-03', event: 'FAA certifies 737 MAX based on representations Forkner provided about MCAS behavior and pilot training needs' },
       { date: '2018', event: 'Leaves Boeing for Southwest Airlines as a pilot' },
-      { date: '2018-10-29', event: 'Lion Air Flight 610 crashes, killing 189 -- the MCAS system Forkner had downplayed to the FAA is identified as primary cause' },
-      { date: '2019-03-10', event: 'Ethiopian Airlines Flight 302 crashes, killing 157 -- identical MCAS failure' },
-      { date: '2021-10-14', event: 'Indicted on six counts of wire fraud by federal grand jury in Fort Worth, Texas -- only individual charged in connection with 346 deaths' },
+      { date: '2018-10-29', event: 'Lion Air Flight 610 crashes, killing 189, the MCAS system Forkner had downplayed to the FAA is identified as primary cause' },
+      { date: '2019-03-10', event: 'Ethiopian Airlines Flight 302 crashes, killing 157, identical MCAS failure' },
+      { date: '2021-10-14', event: 'Indicted on six counts of wire fraud by federal grand jury in Fort Worth, Texas, only individual charged in connection with 346 deaths' },
       { date: '2022-03-23', event: 'Acquitted on all six counts after federal jury deliberates less than two hours; jury finds FAA shared responsibility for certification failures' },
     ],
     socialMedia: [],
@@ -3872,21 +3872,21 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former President of Purdue Pharma; Convicted of Federal Misbranding Charges (2007)',
  role: 'Purdue Pharma president who pleaded guilty to misbranding OxyContin and was recommended for felony prosecution in the Ogrosky memo but received only community service',
  riskLevel: 'high',
- description: 'Michael Friedman served as president and chief executive of Purdue Pharma during the period when OxyContin was aggressively marketed with false claims about its addiction risk. As the company\'s senior operational executive, Friedman was responsible for executing the marketing strategy directed by the Sackler family that portrayed OxyContin as less addictive than competing opioids using the fabricated "less than one percent" addiction claim. In October 2006, Kirk Ogrosky, Deputy Chief of the DOJ Fraud Division, wrote an internal memorandum recommending that Friedman be charged with felonies including wire fraud and money laundering based on evidence that Purdue executives had committed multiple federal crimes to boost OxyContin sales. Instead of pursuing felony charges, the DOJ negotiated a plea agreement. On May 10, 2007, Friedman pleaded guilty to a single misdemeanor count of misbranding OxyContin "with the intent to defraud or mislead." He was sentenced to 400 hours of community service in drug treatment programs and paid a personal fine as part of a combined $34.5 million penalty shared with co-defendants Howard Udell (general counsel) and Paul Goldenheim (chief medical officer). Friedman received no prison time. The 2007 plea was widely criticized as inadequate given the scale of harm caused by Purdue\'s marketing -- by that time, hundreds of thousands of Americans were addicted to OxyContin and overdose deaths were climbing rapidly. Purdue as a corporation paid $634.5 million. The Ogrosky memo, which was not made public until years later, demonstrated that prosecutors believed the evidence supported far more serious charges than what was ultimately pursued.',
+ description: 'Michael Friedman served as president and chief executive of Purdue Pharma during the period when OxyContin was aggressively marketed with false claims about its addiction risk. As the company\'s senior operational executive, Friedman was responsible for executing the marketing strategy directed by the Sackler family that portrayed OxyContin as less addictive than competing opioids using the fabricated "less than one percent" addiction claim. In October 2006, Kirk Ogrosky, Deputy Chief of the DOJ Fraud Division, wrote an internal memorandum recommending that Friedman be charged with felonies including wire fraud and money laundering based on evidence that Purdue executives had committed multiple federal crimes to boost OxyContin sales. Instead of pursuing felony charges, the DOJ negotiated a plea agreement. On May 10, 2007, Friedman pleaded guilty to a single misdemeanor count of misbranding OxyContin "with the intent to defraud or mislead." He was sentenced to 400 hours of community service in drug treatment programs and paid a personal fine as part of a combined $34.5 million penalty shared with co-defendants Howard Udell (general counsel) and Paul Goldenheim (chief medical officer). Friedman received no prison time. The 2007 plea was widely criticized as inadequate given the scale of harm caused by Purdue\'s marketing, by that time, hundreds of thousands of Americans were addicted to OxyContin and overdose deaths were climbing rapidly. Purdue as a corporation paid $634.5 million. The Ogrosky memo, which was not made public until years later, demonstrated that prosecutors believed the evidence supported far more serious charges than what was ultimately pursued.',
  education: [],
  affiliations: [
  { name: 'Purdue Pharma', role: 'President and Chief Executive; oversaw OxyContin marketing during peak fraud period', type: 'corporation' as const },
  ],
  controversies: [
  'Ogrosky memo (October 2006) recommended felony charges including wire fraud and money laundering against Friedman, but DOJ instead accepted misdemeanor plea',
- 'Pleaded guilty to misbranding OxyContin "with the intent to defraud or mislead" but received only 400 hours of community service -- no prison time',
+ 'Pleaded guilty to misbranding OxyContin "with the intent to defraud or mislead" but received only 400 hours of community service, no prison time',
  'As president, was responsible for executing the marketing strategy that falsely claimed OxyContin addiction risk was "less than 1%"',
  'Combined personal fine of $34.5 million (shared with Udell and Goldenheim) was a fraction of OxyContin revenue during his tenure',
  'Purdue\'s 2007 corporate guilty plea of $634.5 million did not slow OxyContin marketing; the company generated over $35 billion total revenue',
  'No Sackler family member was charged in the 2007 case despite directing the marketing strategy Friedman executed',
  ],
  charges: [
- { statute: '21 U.S.C. Ã‚Â§ 331 -- FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead" regarding addiction risk; sentenced to 400 hours community service', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
+ { statute: '21 U.S.C. Ã‚Â§ 331, FDCA Misbranding', description: 'Pleaded guilty on May 10, 2007 to misbranding OxyContin "with the intent to defraud or mislead" regarding addiction risk; sentenced to 400 hours community service', category: 'Drug Misbranding', source: 'DOJ: United States v. Purdue Frederick Co., W.D. Va. (2007)' },
  ],
  relatedInvestigations: [
  { title: 'Opioid Crisis: Corporate Mass Murder', slug: 'opioid-crisis-corporate-mass-murder', severity: 'critical' },
@@ -3900,8 +3900,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ: United States v. Purdue Frederick Co. -- 2007 Guilty Plea', url: 'https://www.justice.gov/archive/opa/pr/2007/May/07_civ_370.html', date: '2007-05-10' },
- { title: 'Patrick Radden Keefe: Empire of Pain -- The Secret History of the Sackler Dynasty', url: 'https://www.penguinrandomhouse.com/books/612024/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
+ { title: 'DOJ: United States v. Purdue Frederick Co., 2007 Guilty Plea', url: 'https://www.justice.gov/archive/opa/pr/2007/May/07_civ_370.html', date: '2007-05-10' },
+ { title: 'Patrick Radden Keefe: Empire of Pain, The Secret History of the Sackler Dynasty', url: 'https://www.penguinrandomhouse.com/books/612024/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
  { title: 'New York Times: Purdue Pharma Executives and Company Plead Guilty', url: 'https://www.nytimes.com/', date: '2007-05-10' },
  ],
  aliases: [],
@@ -5991,7 +5991,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'First Enron executive to plead guilty; Andrew Fastow\'s chief lieutenant who managed the Chewco SPE and defrauded shareholders of millions',
     role: 'Former Managing Director, Enron Global Finance',
     riskLevel: 'high',
-    description: 'Michael Kopper was Andrew Fastow\'s chief lieutenant at Enron Corporation, where he worked for more than seven years in the company\'s Global Finance division. On August 21, 2002, Kopper became the first Enron executive to plead guilty to criminal charges, admitting to conspiracy to commit wire fraud and money laundering for his role in helping Fastow loot the company through off-balance-sheet partnerships.\n\nKopper managed the Chewco Investments limited partnership, one of the key special purpose entities (SPEs) used to hide Enron\'s debt from investors. Chewco was named after the Star Wars character Chewbacca -- a reflection of the whimsical naming convention that Enron\'s financial engineers used for vehicles designed to commit serious fraud. The partnership was created in 1997 to buy out CalPERS\' stake in a joint venture called JEDI, and its improper accounting was one of the first dominoes to fall in Enron\'s unraveling.\n\nKenneth Lay testified that he did not even know who Michael Kopper was despite Kopper managing hundreds of millions in Enron-related partnerships -- an illustration of either Lay\'s willful blindness or the astonishing lack of oversight at Enron. Kopper cooperated extensively with prosecutors and provided testimony that helped build the case against Fastow and other executives. He was sentenced to 37 months in federal prison.',
+    description: 'Michael Kopper was Andrew Fastow\'s chief lieutenant at Enron Corporation, where he worked for more than seven years in the company\'s Global Finance division. On August 21, 2002, Kopper became the first Enron executive to plead guilty to criminal charges, admitting to conspiracy to commit wire fraud and money laundering for his role in helping Fastow loot the company through off-balance-sheet partnerships.\n\nKopper managed the Chewco Investments limited partnership, one of the key special purpose entities (SPEs) used to hide Enron\'s debt from investors. Chewco was named after the Star Wars character Chewbacca, a reflection of the whimsical naming convention that Enron\'s financial engineers used for vehicles designed to commit serious fraud. The partnership was created in 1997 to buy out CalPERS\' stake in a joint venture called JEDI, and its improper accounting was one of the first dominoes to fall in Enron\'s unraveling.\n\nKenneth Lay testified that he did not even know who Michael Kopper was despite Kopper managing hundreds of millions in Enron-related partnerships, an illustration of either Lay\'s willful blindness or the astonishing lack of oversight at Enron. Kopper cooperated extensively with prosecutors and provided testimony that helped build the case against Fastow and other executives. He was sentenced to 37 months in federal prison.',
     affiliations: [
       { name: 'Enron Corporation', role: 'Managing Director, Global Finance', type: 'corporation' },
     ],
@@ -6012,13 +6012,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '1994', event: 'Joined Enron Corporation in the Global Finance division' },
       { date: '1997', event: 'Managed creation and operation of Chewco Investments SPE to buy out CalPERS stake in JEDI partnership' },
-      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy -- the largest in U.S. history at the time' },
+      { date: '2001-12-02', event: 'Enron filed for Chapter 11 bankruptcy, the largest in U.S. history at the time' },
       { date: '2002-08-21', event: 'Became the first Enron executive to plead guilty; admitted conspiracy to commit wire fraud and money laundering' },
       { date: '2006-09', event: 'Sentenced to 37 months in federal prison' },
     ],
     sources: [
-      { title: 'First Enron Executive Pleads Guilty -- The Washington Post', url: 'https://www.washingtonpost.com/archive/business/2002/08/22/former-enron-executive-cooperates/6c65a85e-7c4e-4e36-b2c9-7c3a18d42a9f/', date: '2002-08-22' },
-      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+      { title: 'First Enron Executive Pleads Guilty, The Washington Post', url: 'https://www.washingtonpost.com/archive/business/2002/08/22/former-enron-executive-cooperates/6c65a85e-7c4e-4e36-b2c9-7c3a18d42a9f/', date: '2002-08-22' },
+      { title: 'Enron Scandal, Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
     ],
     knownAssociates: [
       { name: 'Andrew Fastow', relationship: 'Direct supervisor and co-conspirator; Enron CFO who designed the SPE fraud structure', href: '/entities/individuals/andrew-fastow' },
@@ -6032,7 +6032,7 @@ const profiles: Record<string, IndividualProfile> = {
     title: 'Former Enron Head of Investor Relations who cooperated with prosecutors and testified against Skilling and Lay',
     role: 'Former Head of Investor Relations, Enron Corporation',
     riskLevel: 'medium',
-    description: 'Mark Koenig served as Enron Corporation\'s Head of Investor Relations, the executive responsible for communicating the company\'s financial performance and outlook to Wall Street analysts and institutional investors. In this role, Koenig was directly involved in presenting Enron\'s financials to the market -- financials that were later revealed to be systematically manipulated through off-balance-sheet partnerships and mark-to-market accounting fraud.\n\nKoenig cooperated with federal prosecutors and became one of the government\'s key witnesses in the landmark trial of Enron Chairman Kenneth Lay and CEO Jeffrey Skilling. He was one of eight former Enron executives who testified for the prosecution, providing insider accounts of how Enron\'s leadership misrepresented the company\'s true financial condition to investors. His testimony was particularly valuable because of his direct role as the conduit between Enron\'s executive suite and Wall Street.\n\nIn exchange for his cooperation, Koenig received a relatively lenient sentence of 18 months in federal prison -- significantly less than the sentences imposed on non-cooperating defendants like Skilling (24 years, later reduced to 14) and Fastow (6 years before cooperation credit).',
+    description: 'Mark Koenig served as Enron Corporation\'s Head of Investor Relations, the executive responsible for communicating the company\'s financial performance and outlook to Wall Street analysts and institutional investors. In this role, Koenig was directly involved in presenting Enron\'s financials to the market, financials that were later revealed to be systematically manipulated through off-balance-sheet partnerships and mark-to-market accounting fraud.\n\nKoenig cooperated with federal prosecutors and became one of the government\'s key witnesses in the landmark trial of Enron Chairman Kenneth Lay and CEO Jeffrey Skilling. He was one of eight former Enron executives who testified for the prosecution, providing insider accounts of how Enron\'s leadership misrepresented the company\'s true financial condition to investors. His testimony was particularly valuable because of his direct role as the conduit between Enron\'s executive suite and Wall Street.\n\nIn exchange for his cooperation, Koenig received a relatively lenient sentence of 18 months in federal prison, significantly less than the sentences imposed on non-cooperating defendants like Skilling (24 years, later reduced to 14) and Fastow (6 years before cooperation credit).',
     affiliations: [
       { name: 'Enron Corporation', role: 'Head of Investor Relations', type: 'corporation' },
     ],
@@ -6055,8 +6055,8 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2007', event: 'Sentenced to 18 months in federal prison' },
     ],
     sources: [
-      { title: 'Enron Scandal -- Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
-      { title: 'Former Enron Executive Testifies -- Houston Chronicle', url: 'https://www.chron.com/business/enron/', date: '2006' },
+      { title: 'Enron Scandal, Wikipedia', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '2024' },
+      { title: 'Former Enron Executive Testifies, Houston Chronicle', url: 'https://www.chron.com/business/enron/', date: '2006' },
     ],
     knownAssociates: [
       { name: 'Kenneth Lay', relationship: 'Enron Chairman; testified against Lay at trial', href: '/entities/individuals/ken-lay' },

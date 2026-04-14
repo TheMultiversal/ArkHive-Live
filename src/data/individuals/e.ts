@@ -662,10 +662,10 @@ const profiles: Record<string, IndividualProfile> = {
 
  'ed-pierson': {
     name: 'Ed Pierson',
-    title: 'Boeing Whistleblower -- Former Senior Manager Who Warned of Catastrophe Before Lion Air Crash',
+    title: 'Boeing Whistleblower, Former Senior Manager Who Warned of Catastrophe Before Lion Air Crash',
     role: 'Former Boeing Senior Manager, 737 Program (Renton Factory)',
     riskLevel: 'high',
-    description: 'Ed Pierson is a retired U.S. Navy commander and former Boeing senior manager at the 737 production facility in Renton, Washington. In June 2018 -- four months before Lion Air Flight 610 crashed, killing 189 people -- Pierson sent urgent warnings to Boeing leadership about dangerous production conditions at the Renton factory, including excessive overtime, schedule pressure, worker fatigue, and quality control breakdowns. He urged the company to shut down the production line until safety conditions improved. His warnings were ignored. After the Lion Air and Ethiopian Airlines crashes killed a combined 346 people, Pierson became a key whistleblower, testifying before Congress and founding the Foundation for Aviation Safety. He has since advocated for systemic reform of Boeing\'s production culture and FAA oversight.',
+    description: 'Ed Pierson is a retired U.S. Navy commander and former Boeing senior manager at the 737 production facility in Renton, Washington. In June 2018, four months before Lion Air Flight 610 crashed, killing 189 people, Pierson sent urgent warnings to Boeing leadership about dangerous production conditions at the Renton factory, including excessive overtime, schedule pressure, worker fatigue, and quality control breakdowns. He urged the company to shut down the production line until safety conditions improved. His warnings were ignored. After the Lion Air and Ethiopian Airlines crashes killed a combined 346 people, Pierson became a key whistleblower, testifying before Congress and founding the Foundation for Aviation Safety. He has since advocated for systemic reform of Boeing\'s production culture and FAA oversight.',
     birthPlace: 'United States',
     education: [
       'United States Naval Academy',
@@ -678,9 +678,9 @@ const profiles: Record<string, IndividualProfile> = {
     controversies: [
       'PRE-CRASH WARNINGS IGNORED: In June 2018, Pierson sent emails to Boeing senior vice president Scott Campbell warning that the 737 production line at Renton was in a state of chaos. Workers were exhausted from mandatory overtime, quality inspections were being rushed or skipped, and the factory was operating under extreme schedule pressure to meet delivery targets. He explicitly recommended shutting down the line. His warnings were dismissed.',
       'CONGRESSIONAL TESTIMONY: Pierson testified before the House Transportation Committee during its investigation into the 737 MAX crashes. He provided detailed accounts of the production conditions he witnessed at Renton and the warnings he had raised to management. His testimony was cited in the Committee\'s 238-page final report as evidence of Boeing\'s systemic prioritization of production speed over safety.',
-      'LION AIR CONNECTION: Pierson has argued that the production conditions he warned about directly contributed to quality defects in the 737 MAX aircraft involved in the Lion Air crash. While MCAS was the primary cause, manufacturing quality issues -- including improperly installed components and rushed inspections -- compounded the systemic failures.',
+      'LION AIR CONNECTION: Pierson has argued that the production conditions he warned about directly contributed to quality defects in the 737 MAX aircraft involved in the Lion Air crash. While MCAS was the primary cause, manufacturing quality issues, including improperly installed components and rushed inspections, compounded the systemic failures.',
       'FOUNDATION FOR AVIATION SAFETY: After the crashes, Pierson founded the Foundation for Aviation Safety, a nonprofit dedicated to improving aviation safety standards, holding manufacturers accountable, and supporting whistleblowers in the aviation industry. He has continued to advocate for reforms to Boeing\'s production culture and the FAA\'s oversight framework.',
-      'CONTINUED ADVOCACY: Following the Alaska Airlines Flight 1282 door plug blowout in January 2024, Pierson publicly reiterated his warnings about Boeing\'s production culture, noting that the same systemic problems he identified in 2018 -- schedule pressure, quality shortcuts, and management indifference -- remained unresolved six years later.',
+      'CONTINUED ADVOCACY: Following the Alaska Airlines Flight 1282 door plug blowout in January 2024, Pierson publicly reiterated his warnings about Boeing\'s production culture, noting that the same systemic problems he identified in 2018, schedule pressure, quality shortcuts, and management indifference, remained unresolved six years later.',
     ],
     charges: [],
     relatedInvestigations: [
@@ -693,8 +693,8 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2015', event: 'Joins Boeing as a senior manager at the 737 production facility in Renton, Washington' },
       { date: '2018-06', event: 'Sends urgent emails to Boeing SVP Scott Campbell warning about dangerous production conditions at Renton factory; recommends shutting down the 737 line' },
       { date: '2018-07', event: 'Warnings ignored by Boeing leadership; production continues at accelerated pace to meet delivery targets' },
-      { date: '2018-10-29', event: 'Lion Air Flight 610 crashes, killing 189 -- the aircraft was built at the Renton factory where Pierson had raised safety alarms four months earlier' },
-      { date: '2019-03-10', event: 'Ethiopian Airlines Flight 302 crashes, killing 157 -- second identical MCAS failure on a Renton-produced aircraft' },
+      { date: '2018-10-29', event: 'Lion Air Flight 610 crashes, killing 189, the aircraft was built at the Renton factory where Pierson had raised safety alarms four months earlier' },
+      { date: '2019-03-10', event: 'Ethiopian Airlines Flight 302 crashes, killing 157, second identical MCAS failure on a Renton-produced aircraft' },
       { date: '2019', event: 'Comes forward publicly as a whistleblower about production conditions at Boeing' },
       { date: '2019-12', event: 'Testifies before the House Transportation Committee about Boeing production chaos and management\'s refusal to act on his warnings' },
       { date: '2020', event: 'Founds the Foundation for Aviation Safety to advocate for systemic reform of aviation manufacturing and oversight' },

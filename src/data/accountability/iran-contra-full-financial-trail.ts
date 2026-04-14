@@ -2,9 +2,9 @@ import type { AccountabilityData } from '@/types/accountability';
 
 export const iranContraAccountability: AccountabilityData = {
   investigationSlug: 'iran-contra-full-financial-trail',
-  crimeSummary: 'From 1985 to 1986, senior Reagan administration officials secretly sold over 2,500 missiles and spare parts to Iran -- a designated state sponsor of terrorism under U.S. arms embargo -- and diverted approximately $3.8 million of the proceeds to fund the Nicaraguan Contras in direct violation of the Boland Amendment (P.L. 98-473), which explicitly prohibited U.S. government assistance to the Contras. The covert operation was managed through "the Enterprise," a network of shell companies and Swiss bank accounts run by Oliver North, Richard Secord, and Albert Hakim. Additional funding was solicited from Saudi Arabia ($32 million), Brunei ($10 million, misrouted), Taiwan ($2 million), and private donors. The Kerry Committee documented that the Contra supply network facilitated cocaine trafficking into the United States. Independent Counsel Lawrence Walsh obtained 14 indictments and 11 convictions over seven years. Key convictions (North, Poindexter) were reversed because immunized congressional testimony tainted trial proceedings. President George H.W. Bush pardoned six defendants on Christmas Eve 1992. Only Thomas Clines served prison time (16 months for tax fraud).',
+  crimeSummary: 'From 1985 to 1986, senior Reagan administration officials secretly sold over 2,500 missiles and spare parts to Iran, a designated state sponsor of terrorism under U.S. arms embargo, and diverted approximately $3.8 million of the proceeds to fund the Nicaraguan Contras in direct violation of the Boland Amendment (P.L. 98-473), which explicitly prohibited U.S. government assistance to the Contras. The covert operation was managed through "the Enterprise," a network of shell companies and Swiss bank accounts run by Oliver North, Richard Secord, and Albert Hakim. Additional funding was solicited from Saudi Arabia ($32 million), Brunei ($10 million, misrouted), Taiwan ($2 million), and private donors. The Kerry Committee documented that the Contra supply network facilitated cocaine trafficking into the United States. Independent Counsel Lawrence Walsh obtained 14 indictments and 11 convictions over seven years. Key convictions (North, Poindexter) were reversed because immunized congressional testimony tainted trial proceedings. President George H.W. Bush pardoned six defendants on Christmas Eve 1992. Only Thomas Clines served prison time (16 months for tax fraud).',
   totalHarm: 'Direct violations of the Boland Amendment and Arms Export Control Act undermined constitutional separation of powers. Arms sales strengthened Iran during the Iran-Iraq War. Contra operations included documented human rights abuses (torture, murder of civilians, forced disappearances). The Kerry Committee found "substantial evidence" that the Contra supply network facilitated cocaine trafficking into the United States, contributing to the crack epidemic. Seven American hostages were targeted; only three released through arms deals while three more were kidnapped. The Walsh investigation cost taxpayers $47.4 million with minimal accountability achieved. The pardons and conviction reversals established a precedent that covert executive lawbreaking carries no meaningful consequences.',
-  victimsAffected: 'Nicaraguan civilians subjected to Contra violence. American hostages in Lebanon (7 held, only 3 freed, 3 more taken). U.S. communities devastated by crack cocaine facilitated through Contra supply networks. American taxpayers who bore the $47.4 million investigation cost. The constitutional order -- the affair demonstrated that the executive branch could violate explicit congressional prohibitions and escape accountability.',
+  victimsAffected: 'Nicaraguan civilians subjected to Contra violence. American hostages in Lebanon (7 held, only 3 freed, 3 more taken). U.S. communities devastated by crack cocaine facilitated through Contra supply networks. American taxpayers who bore the $47.4 million investigation cost. The constitutional order, the affair demonstrated that the executive branch could violate explicit congressional prohibitions and escape accountability.',
   primaryTargets: [
     {
       name: 'Oliver North',
@@ -30,8 +30,8 @@ export const iranContraAccountability: AccountabilityData = {
     {
       name: 'Elliott Abrams',
       role: 'Assistant Secretary of State who withheld evidence from Congress about Contra funding. Convicted of two misdemeanor counts, pardoned by Bush.',
-      currentStatus: 'Appointed Special Representative for Venezuela (2019) and later Special Representative for Iran by President Trump -- rewarded with authority over the same region where he broke the law.',
-      accountabilityPath: 'Congressional oversight -- Abrams\' appointment to the Iran portfolio despite his Iran-Contra conviction represents institutional endorsement of the original crimes.',
+      currentStatus: 'Appointed Special Representative for Venezuela (2019) and later Special Representative for Iran by President Trump, rewarded with authority over the same region where he broke the law.',
+      accountabilityPath: 'Congressional oversight, Abrams\' appointment to the Iran portfolio despite his Iran-Contra conviction represents institutional endorsement of the original crimes.',
       obstacles: ['Presidential pardon', 'Political rehabilitation', 'No mechanism to prevent pardoned officials from serving in future administrations'],
     },
   ],
@@ -74,7 +74,7 @@ export const iranContraAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['Senate Select Committee on Intelligence', 'House Permanent Select Committee on Intelligence'],
       applicability: 'directly_applicable',
-      notes: 'The Iran-Contra immunity paradox demonstrated that congressional investigation and criminal prosecution are structurally incompatible -- the act of informing the public shielded the perpetrators from prison.',
+      notes: 'The Iran-Contra immunity paradox demonstrated that congressional investigation and criminal prosecution are structurally incompatible, the act of informing the public shielded the perpetrators from prison.',
     },
     {
       name: 'Independent Counsel Statute',
@@ -84,7 +84,7 @@ export const iranContraAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['Three-judge panel of the D.C. Circuit'],
       applicability: 'requires_new_action',
-      notes: 'The expiration of the independent counsel statute means future scandals of this magnitude would be investigated by the Attorney General\'s office -- the same executive branch that committed the original violations.',
+      notes: 'The expiration of the independent counsel statute means future scandals of this magnitude would be investigated by the Attorney General\'s office, the same executive branch that committed the original violations.',
     },
     {
       name: 'Freedom of Information Act',
@@ -112,14 +112,14 @@ export const iranContraAccountability: AccountabilityData = {
       transferMethod: '$32 million wired from Saudi accounts to Contra bank accounts at direction of Prince Bandar bin Sultan, coordinated with McFarlane and North.',
       estimatedValue: '$32 million',
       legalEntities: ['Saudi embassy', 'Contra bank accounts'],
-      recoveryMechanisms: ['None sought -- treated as voluntary foreign aid'],
+      recoveryMechanisms: ['None sought, treated as voluntary foreign aid'],
     },
     {
       name: 'Walsh Investigation Costs',
       relationship: 'Taxpayer-funded accountability effort',
       transferMethod: 'Seven-year independent counsel investigation funded by U.S. Treasury.',
       estimatedValue: '$47.4 million',
-      recoveryMechanisms: ['None -- cost borne entirely by taxpayers with minimal accountability achieved'],
+      recoveryMechanisms: ['None, cost borne entirely by taxpayers with minimal accountability achieved'],
     },
     {
       name: 'Thomas Clines Enterprise Profits',
@@ -169,7 +169,7 @@ export const iranContraAccountability: AccountabilityData = {
       steps: [
         { step: 1, title: 'File FOIA requests for classified records', description: 'File FOIA requests for remaining classified Iran-Contra documents, particularly CIA operational files and Reagan White House records. Many documents remain classified under national security exemptions.', estimatedTime: '6-12 months for processing' },
         { step: 2, title: 'Investigate CIA-DOJ drug reporting exemption', description: 'Investigate the current status of the 1982 CIA-DOJ Memorandum of Understanding exempting CIA from drug reporting requirements. This agreement allowed CIA to maintain relationships with drug-trafficking Contra figures without legal obligation to report.', estimatedTime: '3-6 months' },
-        { step: 3, title: 'Document career trajectories of Iran-Contra figures', description: 'Document the career trajectories of all Iran-Contra figures to illustrate the absence of consequences. North (NRA president), Abrams (Trump appointee), Poindexter (DARPA director) -- the pattern of rehabilitation is itself newsworthy.', estimatedTime: '2-3 months' },
+        { step: 3, title: 'Document career trajectories of Iran-Contra figures', description: 'Document the career trajectories of all Iran-Contra figures to illustrate the absence of consequences. North (NRA president), Abrams (Trump appointee), Poindexter (DARPA director), the pattern of rehabilitation is itself newsworthy.', estimatedTime: '2-3 months' },
       ],
       relevantMechanisms: ['Freedom of Information Act', 'Congressional Oversight Power'],
       urgency: 'standard',
@@ -178,8 +178,8 @@ export const iranContraAccountability: AccountabilityData = {
       role: 'lawyer',
       overview: 'Legal scholars can analyze the Iran-Contra immunity paradox and advocate for structural reforms to prevent future abuse of the pardon power',
       steps: [
-        { step: 1, title: 'Analyze immunity paradox precedent', description: 'Publish legal analysis of the immunity paradox -- how congressional immunity grants structurally prevented criminal accountability. The D.C. Circuit rulings in North and Poindexter created a precedent where public testimony shields perpetrators from prosecution.', estimatedTime: '6 months' },
-        { step: 2, title: 'Advocate for self-protective pardon reform', description: 'Advocate for constitutional amendment or legislation restricting self-protective presidential pardons. Bush pardoned defendants whose trials would have implicated Bush himself -- this represents a conflict of interest with no current legal remedy.', estimatedTime: 'Years' },
+        { step: 1, title: 'Analyze immunity paradox precedent', description: 'Publish legal analysis of the immunity paradox, how congressional immunity grants structurally prevented criminal accountability. The D.C. Circuit rulings in North and Poindexter created a precedent where public testimony shields perpetrators from prosecution.', estimatedTime: '6 months' },
+        { step: 2, title: 'Advocate for self-protective pardon reform', description: 'Advocate for constitutional amendment or legislation restricting self-protective presidential pardons. Bush pardoned defendants whose trials would have implicated Bush himself, this represents a conflict of interest with no current legal remedy.', estimatedTime: 'Years' },
         { step: 3, title: 'Support independent counsel revival', description: 'Support revival of independent counsel mechanism with immunity coordination provisions. The statute expired in 1999; any replacement should address the immunity-prosecution conflict exposed by Iran-Contra.', estimatedTime: 'Years' },
       ],
       relevantMechanisms: ['Independent Counsel Statute', 'Congressional Oversight Power'],

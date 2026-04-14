@@ -34,14 +34,14 @@ export const campaignFinanceAccountability: AccountabilityData = {
     { name: 'DOJ', title: 'Department of Justice', jurisdiction: 'Federal criminal election law', powers: ['Prosecute campaign finance crimes', 'FARA enforcement', 'Public integrity cases'] },
   ],
   successCriteria: [
-    'FEC structural reform -- odd number of commissioners with independent enforcement arm and mandatory investigation triggers, ending the 3-3 partisan deadlock that ensures non-enforcement',
-    'Full investigation of Russian money flowing through the NRA and other intermediary organizations into American elections -- the Butina conviction revealed one pipeline, but the full scope remains unexamined',
-    'Trump sentencing and appellate resolution establishing binding precedent that campaign finance concealment through business record falsification is criminal conduct -- the 34-count conviction must create lasting legal consequences',
-    'NRA organizational reform or dissolution and reconstitution under new leadership -- $5.4 million in LaPierre personal misuse was committed while the organization served as a conduit for foreign influence operations',
-    'DISCLOSE Act passage requiring disclosure of all donors contributing $10,000+ to organizations engaged in election spending -- dark money undermines the informed electorate that is the foundation of democratic governance',
-    'Foreign campaign contribution ban enforcement strengthened with mandatory due diligence requirements for organizations making election expenditures -- the current honor system is laughable',
+    'FEC structural reform, odd number of commissioners with independent enforcement arm and mandatory investigation triggers, ending the 3-3 partisan deadlock that ensures non-enforcement',
+    'Full investigation of Russian money flowing through the NRA and other intermediary organizations into American elections, the Butina conviction revealed one pipeline, but the full scope remains unexamined',
+    'Trump sentencing and appellate resolution establishing binding precedent that campaign finance concealment through business record falsification is criminal conduct, the 34-count conviction must create lasting legal consequences',
+    'NRA organizational reform or dissolution and reconstitution under new leadership, $5.4 million in LaPierre personal misuse was committed while the organization served as a conduit for foreign influence operations',
+    'DISCLOSE Act passage requiring disclosure of all donors contributing $10,000+ to organizations engaged in election spending, dark money undermines the informed electorate that is the foundation of democratic governance',
+    'Foreign campaign contribution ban enforcement strengthened with mandatory due diligence requirements for organizations making election expenditures, the current honor system is laughable',
     'Complete public accounting of every NRA expenditure: political spending by recipient, LaPierre personal spending by category, and all foreign-sourced funds by origin country and intermediary',
-    'Legislation restoring meaningful campaign contribution limits that survive judicial review -- if Citizens United cannot be overturned, develop alternative frameworks that provide transparency and accountability within the current constitutional framework',
+    'Legislation restoring meaningful campaign contribution limits that survive judicial review, if Citizens United cannot be overturned, develop alternative frameworks that provide transparency and accountability within the current constitutional framework',
   ],
 
   actionPaths: [
@@ -57,7 +57,7 @@ export const campaignFinanceAccountability: AccountabilityData = {
           description: 'The FEC is designed to deadlock. Contact your representatives to demand structural reform: odd number of commissioners, independent enforcement arm, mandatory investigation triggers for credible complaints.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your House and Senate representatives; Senate Rules Committee',
-          templateText: 'Dear [Representative/Senator],\n\nA president was convicted of 34 felonies for concealing payments to hide information from voters. The NRA funneled Russian money into elections through Maria Butina. Wayne LaPierre stole $5.4 million from NRA members. The FEC did nothing -- because it is structurally designed to do nothing.\n\nI urge you to:\n1. Reform the FEC with an odd number of commissioners\n2. Pass the DISCLOSE Act\n3. Strengthen foreign money detection and enforcement\n4. Hold the NRA accountable for serving as a foreign influence conduit\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear [Representative/Senator],\n\nA president was convicted of 34 felonies for concealing payments to hide information from voters. The NRA funneled Russian money into elections through Maria Butina. Wayne LaPierre stole $5.4 million from NRA members. The FEC did nothing, because it is structurally designed to do nothing.\n\nI urge you to:\n1. Reform the FEC with an odd number of commissioners\n2. Pass the DISCLOSE Act\n3. Strengthen foreign money detection and enforcement\n4. Hold the NRA accountable for serving as a foreign influence conduit\n\nSincerely,\n[Your Name]',
         },
         {
           step: 2,
@@ -163,7 +163,7 @@ export const campaignFinanceAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'NRA-Russia Pipeline Investigation',
-          description: 'Fully investigate the scope of foreign money flowing through the NRA and similar organizations into U.S. elections. Butina\'s conviction established the existence of the pipeline -- now trace every dollar that flowed through it.',
+          description: 'Fully investigate the scope of foreign money flowing through the NRA and similar organizations into U.S. elections. Butina\'s conviction established the existence of the pipeline, now trace every dollar that flowed through it.',
           estimatedTime: '12-24 months',
         },
         {

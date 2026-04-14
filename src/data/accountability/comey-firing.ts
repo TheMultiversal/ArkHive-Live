@@ -15,14 +15,14 @@ export const comeyFiringAccountability: AccountabilityData = {
     },
     {
       name: 'The OLC Opinion (1973/2000)',
-      role: 'The Office of Legal Counsel opinions from 1973 (during Watergate) and reaffirmed in 2000 hold that a sitting president cannot be criminally indicted. This internal DOJ policy memo -- which has never been tested in court and has no binding legal authority beyond DOJ -- was the sole reason Mueller declined to make a prosecutorial decision on obstruction. It is not law; it is a self-imposed DOJ constraint that functionally creates absolute presidential immunity during tenure.',
+      role: 'The Office of Legal Counsel opinions from 1973 (during Watergate) and reaffirmed in 2000 hold that a sitting president cannot be criminally indicted. This internal DOJ policy memo, which has never been tested in court and has no binding legal authority beyond DOJ, was the sole reason Mueller declined to make a prosecutorial decision on obstruction. It is not law; it is a self-imposed DOJ constraint that functionally creates absolute presidential immunity during tenure.',
       currentStatus: 'Still in effect. Has never been challenged in court. Functionally creates a system where the president can commit obstruction of justice without any criminal consequence during their term, and post-presidency prosecution depends on political will that has never materialized.',
       accountabilityPath: 'Congress could override by statute. A future AG could rescind the opinion. A prosecutor could simply ignore it and force a court test. None have acted.',
-      obstacles: ['Self-reinforcing -- the opinion prevents the prosecution that would test it', 'No AG has had the political will to challenge it', 'Constitutional separation of powers arguments', 'Post-Watergate norms have eroded without replacement'],
+      obstacles: ['Self-reinforcing, the opinion prevents the prosecution that would test it', 'No AG has had the political will to challenge it', 'Constitutional separation of powers arguments', 'Post-Watergate norms have eroded without replacement'],
     },
     {
       name: 'Attorney General William Barr',
-      role: 'After receiving the Mueller Report, Barr released a 4-page summary letter that materially mischaracterized Mueller\'s conclusions. Barr stated Mueller "did not establish" that the president committed obstruction -- omitting Mueller\'s explicit statement that the report "does not exonerate" Trump and that Mueller had applied the OLC framework preventing charges. Mueller wrote to Barr protesting the summary\'s characterization. Barr\'s framing shaped the public narrative for weeks before the actual report was released, permanently distorting public understanding.',
+      role: 'After receiving the Mueller Report, Barr released a 4-page summary letter that materially mischaracterized Mueller\'s conclusions. Barr stated Mueller "did not establish" that the president committed obstruction, omitting Mueller\'s explicit statement that the report "does not exonerate" Trump and that Mueller had applied the OLC framework preventing charges. Mueller wrote to Barr protesting the summary\'s characterization. Barr\'s framing shaped the public narrative for weeks before the actual report was released, permanently distorting public understanding.',
       currentStatus: 'Barr resigned in December 2020. He has never been sanctioned for his mischaracterization of the Mueller Report. He was appointed AG specifically because he had written an unsolicited memo arguing against the obstruction investigation.',
       accountabilityPath: 'Bar ethics investigation for misrepresenting the Mueller Report to Congress and the public. Congressional contempt for refusal to comply with subpoenas. Historical documentation of the distortion.',
       obstacles: ['Prosecutorial discretion broadly protects AGs', 'Bar complaints are slow and rarely result in discipline', 'Political protection from the administration he served'],
@@ -32,14 +32,14 @@ export const comeyFiringAccountability: AccountabilityData = {
       role: 'Rosenstein wrote the memo used as the initial pretext for Comey\'s firing, then appointed Mueller as Special Counsel when the pretext collapsed. Rosenstein signed at least one FISA renewal application and oversaw the Mueller investigation while also being a potential witness in the obstruction case. He later publicly praised Trump and criticized the investigation he had initiated.',
       currentStatus: 'Left DOJ in 2019. Returned to private practice. His dual role as the person who provided the firing pretext AND appointed the special counsel investigating the firing remains one of the most conflicted positions in modern DOJ history.',
       accountabilityPath: 'Historical documentation. Congressional testimony (already provided). Ethics review of the conflict inherent in writing the Comey firing memo and then overseeing the obstruction investigation.',
-      obstacles: ['Rosenstein claims the memo was genuine and not a pretext', 'No clear ethical violation -- he was placed in an impossible situation', 'Political dynamics blur individual accountability'],
+      obstacles: ['Rosenstein claims the memo was genuine and not a pretext', 'No clear ethical violation, he was placed in an impossible situation', 'Political dynamics blur individual accountability'],
     },
     {
       name: 'White House Counsel Don McGahn',
-      role: 'McGahn testified to Mueller that Trump ordered him to fire Mueller (June 2017), creating another obstruction event. Trump then directed McGahn to create a false written record denying the order -- a second obstruction event (witness tampering/evidence fabrication). McGahn refused to create the false record. McGahn\'s testimony is among the strongest evidence of obstruction in the Mueller Report.',
+      role: 'McGahn testified to Mueller that Trump ordered him to fire Mueller (June 2017), creating another obstruction event. Trump then directed McGahn to create a false written record denying the order, a second obstruction event (witness tampering/evidence fabrication). McGahn refused to create the false record. McGahn\'s testimony is among the strongest evidence of obstruction in the Mueller Report.',
       currentStatus: 'McGahn left the White House in October 2018. He was a key cooperating witness in the Mueller investigation. His testimony was critical to documenting the obstruction, but the system failed to convert that evidence into accountability.',
       accountabilityPath: 'McGahn\'s testimony is already part of the public record through the Mueller Report. He was a witness, not a target. The system\'s failure to act on his testimony is the accountability gap.',
-      obstacles: ['McGahn cooperated -- he is not the target of accountability', 'Executive privilege claims delayed his Congressional testimony until 2021', 'His testimony was powerful but the system could not convert it to consequences'],
+      obstacles: ['McGahn cooperated, he is not the target of accountability', 'Executive privilege claims delayed his Congressional testimony until 2021', 'His testimony was powerful but the system could not convert it to consequences'],
     },
   ],
 
@@ -88,7 +88,7 @@ export const comeyFiringAccountability: AccountabilityData = {
     {
       name: 'Impeachment',
       statute: 'U.S. Constitution Article I, Section 2 & 3; Article II, Section 4',
-      description: 'The constitutional remedy for presidential misconduct. The House can impeach (majority vote) and the Senate can convict and remove (two-thirds vote). The House did not impeach Trump for the Comey firing or Mueller obstruction -- instead impeaching him for Ukraine (2019) and January 6 (2021). Both impeachments resulted in Senate acquittal.',
+      description: 'The constitutional remedy for presidential misconduct. The House can impeach (majority vote) and the Senate can convict and remove (two-thirds vote). The House did not impeach Trump for the Comey firing or Mueller obstruction, instead impeaching him for Ukraine (2019) and January 6 (2021). Both impeachments resulted in Senate acquittal.',
       hasStatuteOfLimitations: false,
       reachesHeirs: false,
       authorizedActors: ['House of Representatives (impeachment)', 'Senate (trial and conviction)'],
@@ -109,7 +109,7 @@ export const comeyFiringAccountability: AccountabilityData = {
     {
       name: 'Presidential Pardon Power as Obstruction Tool',
       relationship: 'Pardons used to reward silence and obstruct investigation',
-      transferMethod: 'Trump pardoned or commuted sentences for key figures: Roger Stone (commuted, then pardoned), Paul Manafort (pardoned), Michael Flynn (pardoned), Steve Bannon (pardoned). Mueller documented that dangling pardons to encourage non-cooperation constituted potential witness tampering. The pardon power was used as an obstruction instrument -- cooperate with investigators and lose the pardon; stay silent and be rewarded.',
+      transferMethod: 'Trump pardoned or commuted sentences for key figures: Roger Stone (commuted, then pardoned), Paul Manafort (pardoned), Michael Flynn (pardoned), Steve Bannon (pardoned). Mueller documented that dangling pardons to encourage non-cooperation constituted potential witness tampering. The pardon power was used as an obstruction instrument, cooperate with investigators and lose the pardon; stay silent and be rewarded.',
       estimatedValue: 'Not directly financial, but pardons prevented cooperation that could have produced additional financial recoveries and criminal accountability',
       legalEntities: ['Roger Stone', 'Paul Manafort', 'Michael Flynn', 'Steve Bannon'],
       recoveryMechanisms: ['No mechanism to reverse pardons', 'Pardoned individuals lose Fifth Amendment privilege and can be compelled to testify', 'State charges not covered by federal pardons'],
@@ -144,13 +144,13 @@ export const comeyFiringAccountability: AccountabilityData = {
   ],
 
   successCriteria: [
-    'Legislation protecting the FBI director from politically motivated removal -- requiring demonstrated cause, providing for judicial review, and creating an injunctive mechanism during active investigations of the president',
-    'Rescission or legislative override of the OLC opinion that a sitting president cannot be indicted -- no person should be above the law, and a DOJ policy memo should not create functional presidential immunity for criminal conduct',
+    'Legislation protecting the FBI director from politically motivated removal, requiring demonstrated cause, providing for judicial review, and creating an injunctive mechanism during active investigations of the president',
+    'Rescission or legislative override of the OLC opinion that a sitting president cannot be indicted, no person should be above the law, and a DOJ policy memo should not create functional presidential immunity for criminal conduct',
     'Reform of the special counsel regulations to provide genuine independence: guaranteed public report release, protection from AG interference in charging decisions, direct congressional reporting authority, and protection from removal without cause',
-    'Congressional enforcement of its own subpoena power -- the systematic defiance of Congressional subpoenas during the Mueller investigation and subsequent proceedings must be made legally consequential',
+    'Congressional enforcement of its own subpoena power, the systematic defiance of Congressional subpoenas during the Mueller investigation and subsequent proceedings must be made legally consequential',
     'Public education requirement: the Mueller Report documented 10 instances of potential obstruction of justice by a sitting president, and the majority of Americans have never read the report or been accurately informed of its contents',
-    'AG accountability mechanism for mischaracterizing special counsel reports -- Barr\'s 4-page summary that distorted Mueller\'s conclusions must never be repeated, and AGs who misrepresent investigation findings to Congress must face consequences',
-    'Pardon reform preventing the use of presidential pardons to obstruct ongoing investigations -- pardons issued to witnesses in investigations of the president should trigger automatic special counsel appointment and compelled testimony',
+    'AG accountability mechanism for mischaracterizing special counsel reports, Barr\'s 4-page summary that distorted Mueller\'s conclusions must never be repeated, and AGs who misrepresent investigation findings to Congress must face consequences',
+    'Pardon reform preventing the use of presidential pardons to obstruct ongoing investigations, pardons issued to witnesses in investigations of the president should trigger automatic special counsel appointment and compelled testimony',
     'A permanent, accessible public record documenting the complete obstruction timeline: every instance documented by Mueller, every subsequent cover-up, every pardon issued to silence witnesses, and every institution that failed to act',
   ],
 
@@ -172,7 +172,7 @@ export const comeyFiringAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Read and Share the Mueller Report',
-          description: 'The Mueller Report is freely available at justice.gov. Read Volume II (obstruction). Share the key findings. AG Barr\'s summary was misleading -- the actual report documents substantial obstruction evidence that was never acted upon.',
+          description: 'The Mueller Report is freely available at justice.gov. Read Volume II (obstruction). Share the key findings. AG Barr\'s summary was misleading, the actual report documents substantial obstruction evidence that was never acted upon.',
           estimatedTime: '2-4 hours to read Volume II',
         },
         {
@@ -259,7 +259,7 @@ export const comeyFiringAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'OLC Opinion Override',
-          description: 'Pass legislation explicitly providing that no DOJ policy or opinion shall prevent the investigation, indictment, or prosecution of any person -- including the president -- for federal crimes. Override the OLC opinion by statute.',
+          description: 'Pass legislation explicitly providing that no DOJ policy or opinion shall prevent the investigation, indictment, or prosecution of any person, including the president, for federal crimes. Override the OLC opinion by statute.',
           estimatedTime: '6-12 months legislative timeline',
         },
         {

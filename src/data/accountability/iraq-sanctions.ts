@@ -2,7 +2,7 @@ import type { AccountabilityData } from '@/types/accountability';
 
 export const iraqSanctionsAccountability: AccountabilityData = {
   investigationSlug: 'iraq-sanctions',
-  crimeSummary: 'From 1990 to 2003, comprehensive UN sanctions on Iraq -- enforced primarily by the United States and United Kingdom -- caused a humanitarian catastrophe that devastated 24 million people. An estimated 400,000-500,000 excess Iraqi children died from malnutrition, waterborne disease, and lack of medical care. The Oil-for-Food Programme meant to alleviate suffering became the largest corruption scandal in UN history, with $10.1 billion in illegal revenues. Three consecutive UN humanitarian coordinators resigned in protest, each calling the sanctions a form of genocide.',
+  crimeSummary: 'From 1990 to 2003, comprehensive UN sanctions on Iraq, enforced primarily by the United States and United Kingdom, caused a humanitarian catastrophe that devastated 24 million people. An estimated 400,000-500,000 excess Iraqi children died from malnutrition, waterborne disease, and lack of medical care. The Oil-for-Food Programme meant to alleviate suffering became the largest corruption scandal in UN history, with $10.1 billion in illegal revenues. Three consecutive UN humanitarian coordinators resigned in protest, each calling the sanctions a form of genocide.',
   totalHarm: '$10.1 billion in illegal OFFP revenues; $54 billion in Iraqi oil revenue controlled by foreign powers; estimated 400,000-500,000 excess child deaths; Iraq\'s GDP per capita collapsed from $1,371 (1990) to $241 (1995); destruction of Iraq\'s middle class, medical system, water infrastructure, and educational institutions; 13 years of collective punishment of 24 million civilians',
   victimsAffected: '24 million Iraqi civilians subjected to comprehensive sanctions for 13 years; estimated 400,000-500,000 excess child deaths under age 5; entire generation deprived of adequate nutrition, education, and medical care; Iraq\'s professional class destroyed; lasting psychological and social trauma',
   primaryTargets: [
@@ -11,7 +11,7 @@ export const iraqSanctionsAccountability: AccountabilityData = {
       role: 'U.S. Ambassador to UN (1993-1997), Secretary of State (1997-2001); publicly defended sanctions killing children as "worth it"; strongest advocate for maintaining comprehensive sanctions',
       currentStatus: 'Died March 23, 2022. Received Presidential Medal of Freedom in 2012. Never held accountable for sanctions advocacy.',
       accountabilityPath: 'Historical accountability through documentation, academic research, and public discourse. No legal mechanism available post-death.',
-      obstacles: ['Died 2022 -- beyond legal reach', 'U.S. sovereign immunity doctrine', 'No international criminal jurisdiction over sanctions policy', 'Political establishment consensus defended sanctions'],
+      obstacles: ['Died 2022, beyond legal reach', 'U.S. sovereign immunity doctrine', 'No international criminal jurisdiction over sanctions policy', 'Political establishment consensus defended sanctions'],
     },
     {
       name: 'Bill Clinton',
@@ -44,7 +44,7 @@ export const iraqSanctionsAccountability: AccountabilityData = {
   ],
   legalMechanisms: [
     {
-      name: 'Fourth Geneva Convention -- Prohibition of Collective Punishment',
+      name: 'Fourth Geneva Convention, Prohibition of Collective Punishment',
       statute: 'Fourth Geneva Convention, Article 33',
       description: 'Prohibits collective punishment of civilian populations. Comprehensive sanctions that target an entire civilian population for the actions of their government arguably constitute collective punishment under international humanitarian law.',
       hasStatuteOfLimitations: false,
@@ -54,7 +54,7 @@ export const iraqSanctionsAccountability: AccountabilityData = {
       notes: 'No international court has ruled that economic sanctions constitute collective punishment under Geneva Conventions. The ICJ advisory opinion on legality of nuclear weapons (1996) addressed proportionality but not sanctions specifically.',
     },
     {
-      name: 'Geneva Protocol I -- Protection of Objects Indispensable to Civilian Survival',
+      name: 'Geneva Protocol I, Protection of Objects Indispensable to Civilian Survival',
       statute: 'Additional Protocol I, Article 54',
       description: 'Prohibits attacking, destroying, or rendering useless objects indispensable to the survival of the civilian population, including drinking water installations and supplies. Blocking chlorine and water treatment chemicals arguably violated this principle.',
       hasStatuteOfLimitations: false,
@@ -66,7 +66,7 @@ export const iraqSanctionsAccountability: AccountabilityData = {
     {
       name: 'Convention on the Rights of the Child',
       statute: 'Convention on the Rights of the Child (1989)',
-      description: 'Guarantees children\'s right to life, survival, development, health care, adequate nutrition, and clean water. The United States signed but never ratified this convention -- the only UN member state not to do so.',
+      description: 'Guarantees children\'s right to life, survival, development, health care, adequate nutrition, and clean water. The United States signed but never ratified this convention, the only UN member state not to do so.',
       hasStatuteOfLimitations: false,
       reachesHeirs: false,
       authorizedActors: ['UN Committee on the Rights of the Child', 'State parties', 'UNICEF'],
@@ -84,7 +84,7 @@ export const iraqSanctionsAccountability: AccountabilityData = {
       notes: 'U.S. signed but never ratified. UK, France, Russia, China are all parties. Committee has issued general comments on extraterritorial obligations.',
     },
     {
-      name: 'U.S. Wire Fraud -- Oil-for-Food Corruption',
+      name: 'U.S. Wire Fraud, Oil-for-Food Corruption',
       statute: '18 U.S.C. SS 1343',
       description: 'Federal wire fraud statute used to indict Benon Sevan and others for receiving illegal payments through international wire transfers in the OFFP corruption scheme.',
       hasStatuteOfLimitations: true,
@@ -135,19 +135,19 @@ export const iraqSanctionsAccountability: AccountabilityData = {
     {
       name: 'UN Secretary-General',
       title: 'Secretary-General of the United Nations',
-      jurisdiction: 'Global -- authority over UN agencies and programmes',
+      jurisdiction: 'Global, authority over UN agencies and programmes',
       powers: ['Commission investigations into past UN programme failures', 'Issue official apology for humanitarian consequences of UN-administered sanctions', 'Propose UNSC reforms to prevent comprehensive civilian sanctions', 'Establish lessons-learned process for sanctions policy'],
     },
     {
       name: 'International Criminal Court Prosecutor',
       title: 'Prosecutor of the International Criminal Court',
-      jurisdiction: 'Global -- jurisdiction over genocide, crimes against humanity, war crimes (per Rome Statute)',
+      jurisdiction: 'Global, jurisdiction over genocide, crimes against humanity, war crimes (per Rome Statute)',
       powers: ['Investigate whether sanctions constituted crimes against humanity', 'Issue arrest warrants for surviving officials', 'Establish legal precedent on sanctions as collective punishment'],
     },
     {
       name: 'U.S. Congress',
       title: 'United States Congress',
-      jurisdiction: 'United States -- legislative authority over sanctions policy',
+      jurisdiction: 'United States, legislative authority over sanctions policy',
       powers: ['Pass legislation requiring humanitarian impact assessments before imposing comprehensive sanctions', 'Establish independent monitoring of sanctions humanitarian consequences', 'Hold hearings on historical accountability for Iraq sanctions policy', 'Reform IEEPA to include humanitarian safeguards'],
     },
     {
@@ -195,7 +195,7 @@ export const iraqSanctionsAccountability: AccountabilityData = {
       role: 'journalist',
       urgency: 'standard',
       overview: 'Journalists can pursue accountability through investigative reporting on the long-term humanitarian consequences of Iraq sanctions, the unresolved Oil-for-Food corruption, and the application of lessons learned (or not learned) to current sanctions regimes.',
-      relevantMechanisms: ['Fourth Geneva Convention -- Prohibition of Collective Punishment', 'U.S. Wire Fraud -- Oil-for-Food Corruption'],
+      relevantMechanisms: ['Fourth Geneva Convention, Prohibition of Collective Punishment', 'U.S. Wire Fraud, Oil-for-Food Corruption'],
       steps: [
         {
           step: 1,
@@ -228,7 +228,7 @@ export const iraqSanctionsAccountability: AccountabilityData = {
       role: 'lawyer',
       urgency: 'standard',
       overview: 'Legal professionals can pursue accountability through international law scholarship, litigation to establish precedent on sanctions as collective punishment, and advocacy for legal reforms requiring humanitarian impact assessments.',
-      relevantMechanisms: ['Fourth Geneva Convention -- Prohibition of Collective Punishment', 'Geneva Protocol I -- Protection of Objects Indispensable to Civilian Survival', 'International Criminal Court Jurisdiction'],
+      relevantMechanisms: ['Fourth Geneva Convention, Prohibition of Collective Punishment', 'Geneva Protocol I, Protection of Objects Indispensable to Civilian Survival', 'International Criminal Court Jurisdiction'],
       steps: [
         {
           step: 1,
@@ -285,8 +285,8 @@ export const iraqSanctionsAccountability: AccountabilityData = {
     {
       role: 'regulator',
       urgency: 'standard',
-      overview: 'Regulators -- particularly OFAC and the Treasury Department -- can implement humanitarian safeguards in sanctions administration, streamline humanitarian exemption processes, and ensure that sanctions target regimes rather than civilian populations.',
-      relevantMechanisms: ['Fourth Geneva Convention -- Prohibition of Collective Punishment', 'Convention on the Rights of the Child'],
+      overview: 'Regulators, particularly OFAC and the Treasury Department, can implement humanitarian safeguards in sanctions administration, streamline humanitarian exemption processes, and ensure that sanctions target regimes rather than civilian populations.',
+      relevantMechanisms: ['Fourth Geneva Convention, Prohibition of Collective Punishment', 'Convention on the Rights of the Child'],
       steps: [
         {
           step: 1,

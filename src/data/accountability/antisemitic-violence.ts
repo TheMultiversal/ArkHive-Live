@@ -34,13 +34,13 @@ export const antisemiticViolenceAccountability: AccountabilityData = {
     { name: 'Congress', title: 'U.S. Congress', jurisdiction: 'Federal legislation', powers: ['Pass domestic terrorism statute', 'Increase NSGP funding', 'Platform accountability legislation'] },
   ],
   successCriteria: [
-    'Full funding of the Nonprofit Security Grant Program (NSGP) at levels matching the threat -- current funding covers a fraction of applicant requests, leaving Jewish institutions and other targeted communities unprotected',
+    'Full funding of the Nonprofit Security Grant Program (NSGP) at levels matching the threat, current funding covers a fraction of applicant requests, leaving Jewish institutions and other targeted communities unprotected',
     'Federal domestic terrorism statute enacted with provisions specifically addressing ideologically motivated mass casualty attacks on houses of worship and community institutions',
-    'Platform accountability legislation requiring social media companies to assess and mitigate radicalization risk -- Bowers was radicalized on Gab, and algorithmic amplification of replacement theory content on mainstream platforms feeds the pipeline',
-    'Every antisemitic mass casualty attack prosecuted as both a federal hate crime and, where applicable, under any future domestic terrorism statute -- with sentences reflecting the severity of targeting people at prayer',
+    'Platform accountability legislation requiring social media companies to assess and mitigate radicalization risk, Bowers was radicalized on Gab, and algorithmic amplification of replacement theory content on mainstream platforms feeds the pipeline',
+    'Every antisemitic mass casualty attack prosecuted as both a federal hate crime and, where applicable, under any future domestic terrorism statute, with sentences reflecting the severity of targeting people at prayer',
     'Mandatory annual FBI/DHS reporting on antisemitic threat indicators: incident counts by type, online threat assessment, organizational tracking, and resource allocation proportionate to the threat',
-    'Comprehensive school and community education programs on the history of antisemitism, the Holocaust, and how conspiracy theories lead to violence -- ADL\'s 3,697 incidents in 2022 reflect a society that has failed at education',
-    'Interstate coordination for threat identification -- the Colleyville synagogue hostage situation (2022) demonstrated that threats may originate across state lines, requiring coordinated intelligence sharing',
+    'Comprehensive school and community education programs on the history of antisemitism, the Holocaust, and how conspiracy theories lead to violence, ADL\'s 3,697 incidents in 2022 reflect a society that has failed at education',
+    'Interstate coordination for threat identification, the Colleyville synagogue hostage situation (2022) demonstrated that threats may originate across state lines, requiring coordinated intelligence sharing',
     'Complete public documentation of the radicalization pipeline for each major attack: what content was consumed, on what platforms, through what algorithmic recommendations, leading to what violent action',
   ],
 
@@ -61,13 +61,13 @@ export const antisemiticViolenceAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Show Solidarity',
-          description: 'Attend interfaith events. Visit synagogues. Show up for Jewish communities the way they show up for others. After Tree of Life, non-Jewish communities rallied around Pittsburgh synagogues -- this solidarity must be sustained, not just reactive.',
+          description: 'Attend interfaith events. Visit synagogues. Show up for Jewish communities the way they show up for others. After Tree of Life, non-Jewish communities rallied around Pittsburgh synagogues, this solidarity must be sustained, not just reactive.',
           estimatedTime: 'Ongoing',
         },
         {
           step: 3,
           title: 'Demand NSGP Full Funding',
-          description: 'Contact your representatives to demand full funding of the Nonprofit Security Grant Program. Jewish institutions and other targeted communities need physical security -- armed guards, surveillance, bulletproof glass, active shooter protocols. The cost of antisemitism should not be borne by its targets.',
+          description: 'Contact your representatives to demand full funding of the Nonprofit Security Grant Program. Jewish institutions and other targeted communities need physical security, armed guards, surveillance, bulletproof glass, active shooter protocols. The cost of antisemitism should not be borne by its targets.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your House and Senate representatives; House and Senate Appropriations Committees',
         },
@@ -88,7 +88,7 @@ export const antisemiticViolenceAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Mainstream Amplification Investigation',
-          description: 'Document how mainstream media figures and politicians amplify replacement theory and conspiracy theories that feed antisemitic violence. The Tree of Life shooter\'s manifesto echoed mainstream talking points about "invasion" -- trace the pipeline from cable news to Gab to the synagogue.',
+          description: 'Document how mainstream media figures and politicians amplify replacement theory and conspiracy theories that feed antisemitic violence. The Tree of Life shooter\'s manifesto echoed mainstream talking points about "invasion", trace the pipeline from cable news to Gab to the synagogue.',
           estimatedTime: '3-6 months',
         },
         {
@@ -156,14 +156,14 @@ export const antisemiticViolenceAccountability: AccountabilityData = {
     },
     {
       role: 'law_enforcement',
-      overview: 'Prioritize domestic white supremacist terrorism -- FBI\'s own assessment identifies it as the top threat. Fund prevention over response.',
+      overview: 'Prioritize domestic white supremacist terrorism, FBI\'s own assessment identifies it as the top threat. Fund prevention over response.',
       urgency: 'immediate',
       relevantMechanisms: ['Federal Hate Crime Act', 'Domestic Terrorism Enhancement'],
       steps: [
         {
           step: 1,
           title: 'Threat Prevention Resource Allocation',
-          description: 'Resource domestic terrorism prevention commensurate with the threat. The FBI identifies white supremacist terrorism as the #1 domestic threat -- allocate counterterrorism resources accordingly, with specific focus on antisemitic threat indicators.',
+          description: 'Resource domestic terrorism prevention commensurate with the threat. The FBI identifies white supremacist terrorism as the #1 domestic threat, allocate counterterrorism resources accordingly, with specific focus on antisemitic threat indicators.',
           estimatedTime: 'Ongoing',
         },
         {

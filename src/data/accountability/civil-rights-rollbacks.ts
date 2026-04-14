@@ -34,20 +34,20 @@ export const civilRightsRollbacksAccountability: AccountabilityData = {
     { name: 'DOJ Civil Rights Division', title: 'DOJ Civil Rights Division', jurisdiction: 'Federal civil rights enforcement', powers: ['Resume pattern-or-practice investigations', 'Restore consent decree policy', 'Title VI enforcement'] },
   ],
   successCriteria: [
-    'John Lewis Voting Rights Advancement Act enacted -- restoring VRA preclearance with an updated coverage formula that responds to current discriminatory practices, not just 1960s data',
-    'All 1,688 polling places closed in formerly covered jurisdictions after Shelby County documented and reopened or replaced with accessible alternatives -- voters in these jurisdictions were deliberately disenfranchised',
-    'DOJ pattern-or-practice investigation authority fully funded and exercised -- the Sessions-era freeze on consent decrees must never be repeated, and communities under unconstitutional policing policies need federal intervention',
-    'Affirmative action replacement mechanisms developed and implemented at every university that previously used race-conscious admissions -- SFFA v. Harvard eliminated the tool but did not eliminate the need',
+    'John Lewis Voting Rights Advancement Act enacted, restoring VRA preclearance with an updated coverage formula that responds to current discriminatory practices, not just 1960s data',
+    'All 1,688 polling places closed in formerly covered jurisdictions after Shelby County documented and reopened or replaced with accessible alternatives, voters in these jurisdictions were deliberately disenfranchised',
+    'DOJ pattern-or-practice investigation authority fully funded and exercised, the Sessions-era freeze on consent decrees must never be repeated, and communities under unconstitutional policing policies need federal intervention',
+    'Affirmative action replacement mechanisms developed and implemented at every university that previously used race-conscious admissions, SFFA v. Harvard eliminated the tool but did not eliminate the need',
     'Supreme Court reform legislation enacted: enforceable ethics code, term limits, and expanded court to address the structural conservative supermajority created through norm-breaking confirmation processes',
     'State-level voting rights expansion in all 50 states: automatic voter registration, same-day registration, universal vote-by-mail option, and prohibition on voter purges without verified confirmation',
-    'Complete documentation of every civil rights protection rolled back by executive action, Supreme Court decision, or legislative obstruction since 2013 -- creating a baseline for restoration',
+    'Complete documentation of every civil rights protection rolled back by executive action, Supreme Court decision, or legislative obstruction since 2013, creating a baseline for restoration',
     'Federal civil rights enforcement apparatus rebuilt: Civil Rights Division fully staffed and funded, Title VI enforcement restored, consent decrees with police departments resumed, and transgender protections codified by statute',
   ],
 
   actionPaths: [
     {
       role: 'citizen',
-      overview: 'The Voting Rights Act -- the crown jewel of civil rights legislation -- has been gutted. 1,688 polling places closed. Your right to vote is under attack.',
+      overview: 'The Voting Rights Act, the crown jewel of civil rights legislation, has been gutted. 1,688 polling places closed. Your right to vote is under attack.',
       urgency: 'immediate',
       relevantMechanisms: ['Voting Rights Act Restoration', 'Equal Protection Clause / 14th Amendment'],
       steps: [
@@ -60,7 +60,7 @@ export const civilRightsRollbacksAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Demand VRA Restoration',
-          description: 'Contact your senators to demand passage of the John Lewis Voting Rights Advancement Act. The VRA preclearance requirement protected minority voting rights for 48 years -- its elimination led to immediate, documented voter suppression.',
+          description: 'Contact your senators to demand passage of the John Lewis Voting Rights Advancement Act. The VRA preclearance requirement protected minority voting rights for 48 years, its elimination led to immediate, documented voter suppression.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your Senate representatives; Senate Judiciary Committee',
           templateText: 'Dear Senator [Name],\n\nSince Shelby County v. Holder (2013) gutted the Voting Rights Act, 1,688 polling places have closed in formerly covered jurisdictions. Within hours of the decision, Texas announced a voter ID law previously blocked. This is the intended consequence.\n\nI urge you to:\n1. Pass the John Lewis Voting Rights Advancement Act\n2. Support filibuster reform for voting rights legislation\n3. Fund DOJ Civil Rights Division at levels matching the threat\n\nThe right to vote is the foundation of democracy. Protect it.\n\nSincerely,\n[Your Name]',
@@ -122,7 +122,7 @@ export const civilRightsRollbacksAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Challenge New Restrictions',
-          description: 'File immediate legal challenges to new voter restriction laws enacted after Shelby County. Use preliminary injunctions to block implementation before elections. Time is critical -- laws that suppress votes in even one election cause irreparable harm.',
+          description: 'File immediate legal challenges to new voter restriction laws enacted after Shelby County. Use preliminary injunctions to block implementation before elections. Time is critical, laws that suppress votes in even one election cause irreparable harm.',
           legalBasis: ['VRA Section 2', 'Equal Protection', 'Anderson-Burdick framework'],
           estimatedTime: '3-12 months per challenge',
         },
@@ -137,7 +137,7 @@ export const civilRightsRollbacksAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'John Lewis VRA Passage',
-          description: 'Pass the John Lewis Voting Rights Advancement Act. If the filibuster blocks passage, create a carve-out exception for voting rights legislation. The right to vote is the foundation of every other right -- it warrants extraordinary procedural measures.',
+          description: 'Pass the John Lewis Voting Rights Advancement Act. If the filibuster blocks passage, create a carve-out exception for voting rights legislation. The right to vote is the foundation of every other right, it warrants extraordinary procedural measures.',
           estimatedTime: '6-12 months legislative timeline',
         },
         {
@@ -201,7 +201,7 @@ export const civilRightsRollbacksAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Civil Rights Data Collection',
-          description: 'Mandate and maintain comprehensive civil rights data collection across all domains: voting access, police use of force, education equity, housing discrimination, employment discrimination. Data is the foundation of enforcement -- without it, violations are invisible.',
+          description: 'Mandate and maintain comprehensive civil rights data collection across all domains: voting access, police use of force, education equity, housing discrimination, employment discrimination. Data is the foundation of enforcement, without it, violations are invisible.',
           estimatedTime: 'Ongoing',
         },
       ],

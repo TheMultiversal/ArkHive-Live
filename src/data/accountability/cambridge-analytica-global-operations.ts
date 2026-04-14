@@ -154,15 +154,15 @@ export const cambridgeAnalyticaAccountability: AccountabilityData = {
   ],
   successCriteria: [
     'Comprehensive federal privacy law enacted with private right of action, opt-in consent requirements, data minimization mandates, and meaningful penalties for violations',
-    'Full accounting of the 87 million-person dataset -- confirmation of deletion or identification of successor entities possessing the data',
+    'Full accounting of the 87 million-person dataset, confirmation of deletion or identification of successor entities possessing the data',
     'Criminal prosecution of individuals who facilitated unauthorized data harvesting and weaponized psychographic profiles for election manipulation across multiple countries',
     'Effective enforcement of Meta\'s FTC consent decree with structural remedies beyond financial penalties for subsequent violations',
     'Algorithmic transparency requirements forcing social media platforms to disclose how behavioral data is used for political targeting and content amplification',
-    'Mandatory independent audits of political data operations during election cycles -- no more self-policing by platforms with inherent conflicts of interest',
-    'Successor entity accountability -- Emerdata, Auspex International, and all organizations where Cambridge Analytica staff reconstituted must be investigated and monitored',
-    'International cooperation framework for investigating cross-border data exploitation -- Cambridge Analytica operated in 68 countries',
+    'Mandatory independent audits of political data operations during election cycles, no more self-policing by platforms with inherent conflicts of interest',
+    'Successor entity accountability, Emerdata, Auspex International, and all organizations where Cambridge Analytica staff reconstituted must be investigated and monitored',
+    'International cooperation framework for investigating cross-border data exploitation, Cambridge Analytica operated in 68 countries',
     'Personal liability for Mark Zuckerberg and Meta executives who were warned about platform data abuse and failed to act, as documented in internal communications',
-    'Ban on psychological profiling for political advertising without explicit informed consent -- the weaponization of personality data against democratic processes must be prohibited',
+    'Ban on psychological profiling for political advertising without explicit informed consent, the weaponization of personality data against democratic processes must be prohibited',
   ],
 
 
@@ -270,7 +270,7 @@ export const cambridgeAnalyticaAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Platform Structural Remedies',
-          description: 'Consider structural remedies for platforms that have repeatedly demonstrated inability to self-regulate -- including separation of advertising and social networking functions.',
+          description: 'Consider structural remedies for platforms that have repeatedly demonstrated inability to self-regulate, including separation of advertising and social networking functions.',
           estimatedTime: 'Legislative timeline',
         },
       ],

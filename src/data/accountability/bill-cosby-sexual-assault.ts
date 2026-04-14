@@ -9,7 +9,7 @@ export const billCosbyAccountability: AccountabilityData = {
     {
       name: 'Bill Cosby',
       role: 'Serial sexual predator who drugged and sexually assaulted at least 60 women over five decades (1965-2015). Used Quaaludes, Benadryl, alcohol, and other intoxicants to incapacitate victims. Exploited his celebrity status and mentoring relationships to isolate young women.',
-      currentStatus: 'Convicted in 2018 (3-10 years) for drugging and sexually assaulting Andrea Constand. Conviction overturned by Pennsylvania Supreme Court in 2021 -- NOT on innocence but because a previous DA had made an informal non-prosecution promise that the court held was binding. Released after serving nearly 3 years. Civil lawsuits ongoing. Sued by multiple accusers under lookback window legislation.',
+      currentStatus: 'Convicted in 2018 (3-10 years) for drugging and sexually assaulting Andrea Constand. Conviction overturned by Pennsylvania Supreme Court in 2021, NOT on innocence but because a previous DA had made an informal non-prosecution promise that the court held was binding. Released after serving nearly 3 years. Civil lawsuits ongoing. Sued by multiple accusers under lookback window legislation.',
       accountabilityPath: 'Criminal retrial barred by double jeopardy after reversal. Civil litigation continues: Cosby settled with Constand for $3.38 million (2006). Multiple civil suits filed under NY Adult Survivors Act and similar lookback windows. Asset discovery in civil cases may reveal full extent of wealth available for recovery.',
       obstacles: ['Criminal conviction overturned on procedural grounds', 'Double jeopardy bars retrial on Constand case', 'Most allegations outside statute of limitations', 'Cosby retains significant wealth estimated at $400 million'],
     },
@@ -36,7 +36,7 @@ export const billCosbyAccountability: AccountabilityData = {
     },
     {
       name: 'Montgomery County DA Bruce Castor',
-      role: 'As Montgomery County District Attorney in 2005, Bruce Castor declined to prosecute the Andrea Constand allegations, instead making an alleged informal "promise" that Cosby would not be charged. This promise -- which Castor later claimed was made to facilitate Cosby\'s civil deposition testimony -- became the basis for the Pennsylvania Supreme Court\'s reversal of Cosby\'s conviction. Castor\'s decision effectively gave Cosby a decade of immunity.',
+      role: 'As Montgomery County District Attorney in 2005, Bruce Castor declined to prosecute the Andrea Constand allegations, instead making an alleged informal "promise" that Cosby would not be charged. This promise, which Castor later claimed was made to facilitate Cosby\'s civil deposition testimony, became the basis for the Pennsylvania Supreme Court\'s reversal of Cosby\'s conviction. Castor\'s decision effectively gave Cosby a decade of immunity.',
       currentStatus: 'Castor was voted out of office. Later served as one of Trump\'s impeachment defense attorneys. His 2005 decision directly led to the reversal of the only successful criminal prosecution of Cosby.',
       accountabilityPath: 'Bar ethics review of the non-prosecution decision. Investigation into whether political or personal considerations influenced the decision not to charge. Legislative reform to prevent informal non-prosecution promises from creating binding immunity.',
       obstacles: ['Prosecutorial discretion is broadly protected', 'The PA Supreme Court validated his position', 'No mechanism to retroactively challenge prosecutorial decisions'],
@@ -68,7 +68,7 @@ export const billCosbyAccountability: AccountabilityData = {
     {
       name: 'Civil Sexual Assault Claims',
       statute: 'State tort law; intentional infliction of emotional distress; battery; fraud',
-      description: 'Civil lawsuits for damages. Civil suits have lower burden of proof (preponderance of the evidence vs. beyond reasonable doubt). Multiple Cosby accusers have filed civil suits. Cosby\'s civil deposition testimony in the Constand case -- where he admitted obtaining Quaaludes to give to women he wanted to have sex with -- is powerful evidence in civil proceedings.',
+      description: 'Civil lawsuits for damages. Civil suits have lower burden of proof (preponderance of the evidence vs. beyond reasonable doubt). Multiple Cosby accusers have filed civil suits. Cosby\'s civil deposition testimony in the Constand case, where he admitted obtaining Quaaludes to give to women he wanted to have sex with, is powerful evidence in civil proceedings.',
       hasStatuteOfLimitations: true,
       limitationPeriod: 'Varies by state; extended by lookback windows and tolling doctrines',
       reachesHeirs: true,
@@ -105,7 +105,7 @@ export const billCosbyAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['State bar disciplinary committees', 'State supreme courts'],
       applicability: 'potentially_applicable',
-      notes: 'Cosby\'s legal team\'s tactics -- hiring private investigators to follow and intimidate accusers, strategically weaponizing NDAs, and filing retaliatory defamation claims against victims -- constitute potential ethics violations that should be investigated by state bars.',
+      notes: 'Cosby\'s legal team\'s tactics, hiring private investigators to follow and intimidate accusers, strategically weaponizing NDAs, and filing retaliatory defamation claims against victims, constitute potential ethics violations that should be investigated by state bars.',
     },
     {
       name: 'ERISA and Pension Claims',
@@ -169,7 +169,7 @@ export const billCosbyAccountability: AccountabilityData = {
     {
       name: 'New York Attorney General',
       title: 'Attorney General of the State of New York',
-      jurisdiction: 'New York -- where several assaults occurred and where lookback window claims were filed',
+      jurisdiction: 'New York, where several assaults occurred and where lookback window claims were filed',
       powers: ['Enforce Adult Survivors Act', 'Consumer protection actions against institutions that enabled abuse', 'Civil fraud investigation', 'Coordinate with federal agencies'],
     },
     {
@@ -188,12 +188,12 @@ export const billCosbyAccountability: AccountabilityData = {
 
   successCriteria: [
     'Complete civil recovery from Cosby\'s $400 million in personal assets, with proceeds directed to a victim compensation fund accessible to all 60+ accusers regardless of whether they filed within any particular statutory window',
-    'Elimination of statutes of limitations for sexual assault in all 50 states -- the Cosby case proved that power, celebrity, and institutional complicity can suppress allegations for decades, and time limitations reward the most effective cover-ups',
-    'Full investigation into NBC, Temple University, and other institutions that maintained relationships with Cosby despite knowledge of allegations -- institutional enablers must face consequences proportional to their role in extending the predation',
-    'Professional discipline for attorneys who used intimidation, surveillance, and aggressive NDA tactics to suppress sexual assault allegations -- the legal profession must not be a tool for silencing victims',
+    'Elimination of statutes of limitations for sexual assault in all 50 states, the Cosby case proved that power, celebrity, and institutional complicity can suppress allegations for decades, and time limitations reward the most effective cover-ups',
+    'Full investigation into NBC, Temple University, and other institutions that maintained relationships with Cosby despite knowledge of allegations, institutional enablers must face consequences proportional to their role in extending the predation',
+    'Professional discipline for attorneys who used intimidation, surveillance, and aggressive NDA tactics to suppress sexual assault allegations, the legal profession must not be a tool for silencing victims',
     'Permanent federal legislation banning the use of NDAs to conceal sexual assault, including retroactive voiding of existing NDAs in sexual assault cases',
     'Lookback window legislation enacted in every remaining state, providing at minimum a one-year window for civil claims by adult survivors of sexual assault',
-    'Reform of prosecutorial non-prosecution practices to prevent any future informal immunity deals that shield serial predators from criminal accountability -- the Castor non-prosecution promise that led to the reversal of Cosby\'s conviction must never be repeated',
+    'Reform of prosecutorial non-prosecution practices to prevent any future informal immunity deals that shield serial predators from criminal accountability, the Castor non-prosecution promise that led to the reversal of Cosby\'s conviction must never be repeated',
     'A public accounting of every institution that enabled Cosby\'s predation: who knew, when they knew, what they did (or failed to do), and how their silence facilitated the assault of additional victims over five decades',
   ],
 
@@ -210,7 +210,7 @@ export const billCosbyAccountability: AccountabilityData = {
           description: 'Contact your state legislators to support eliminating statutes of limitations for sexual assault and creating lookback windows for time-barred claims. The Cosby case proved that time limitations protect predators, not justice.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your state legislators (find via congress.gov or your state legislature website)',
-          templateText: 'Dear [Legislator],\n\nThe Bill Cosby case demonstrated that statutes of limitations for sexual assault protect predators, not victims. At least 60 women were assaulted over five decades, yet only one case could be prosecuted -- and that conviction was overturned on a technicality.\n\nI urge you to support legislation that:\n1. Eliminates the statute of limitations for felony sexual assault\n2. Creates a lookback window for survivors to file civil claims regardless of when the assault occurred\n3. Limits NDA enforceability in sexual assault cases\n\nEvery day a statute of limitations runs, another predator escapes accountability.\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear [Legislator],\n\nThe Bill Cosby case demonstrated that statutes of limitations for sexual assault protect predators, not victims. At least 60 women were assaulted over five decades, yet only one case could be prosecuted, and that conviction was overturned on a technicality.\n\nI urge you to support legislation that:\n1. Eliminates the statute of limitations for felony sexual assault\n2. Creates a lookback window for survivors to file civil claims regardless of when the assault occurred\n3. Limits NDA enforceability in sexual assault cases\n\nEvery day a statute of limitations runs, another predator escapes accountability.\n\nSincerely,\n[Your Name]',
         },
         {
           step: 2,
@@ -228,7 +228,7 @@ export const billCosbyAccountability: AccountabilityData = {
     },
     {
       role: 'journalist',
-      overview: 'The Cosby case was broken by journalists -- first the AP\'s unsealing of deposition testimony, then sustained reporting by multiple outlets. The enabler network remains largely unexposed.',
+      overview: 'The Cosby case was broken by journalists, first the AP\'s unsealing of deposition testimony, then sustained reporting by multiple outlets. The enabler network remains largely unexposed.',
       urgency: 'high',
       relevantMechanisms: ['Civil Sexual Assault Claims', 'NDA Reform Legislation'],
       steps: [
@@ -269,7 +269,7 @@ export const billCosbyAccountability: AccountabilityData = {
           step: 1,
           title: 'File Lookback Window Claims',
           description: 'File civil claims under lookback window legislation in applicable states. Pursue aggressive asset discovery to identify all recoverable assets including the art collection, real estate, trusts, and syndication revenue streams.',
-          legalBasis: ['NY Adult Survivors Act', 'CA AB 2777', 'State tort law -- battery, IIED, fraud'],
+          legalBasis: ['NY Adult Survivors Act', 'CA AB 2777', 'State tort law, battery, IIED, fraud'],
           estimatedTime: '6-18 months',
         },
         {
@@ -337,7 +337,7 @@ export const billCosbyAccountability: AccountabilityData = {
           step: 1,
           title: 'Clear the Rape Kit Backlog',
           description: 'Prioritize clearing the nationwide backlog of untested rape kits (estimated 200,000+). Fund testing, hire forensic analysts, and investigate cold cases identified through testing. The Cosby case showed that each year of delay enables additional victims.',
-          estimatedTime: 'Ongoing -- requires sustained funding and commitment',
+          estimatedTime: 'Ongoing, requires sustained funding and commitment',
         },
         {
           step: 2,
@@ -348,7 +348,7 @@ export const billCosbyAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Investigate Pattern Evidence',
-          description: 'When sexual assault allegations involve a pattern of behavior across jurisdictions, coordinate investigation across agencies. The Cosby case involved allegations in multiple states over decades -- no single jurisdiction saw the full picture.',
+          description: 'When sexual assault allegations involve a pattern of behavior across jurisdictions, coordinate investigation across agencies. The Cosby case involved allegations in multiple states over decades, no single jurisdiction saw the full picture.',
           estimatedTime: 'Case-dependent',
         },
       ],

@@ -50,7 +50,7 @@ const scrubbedFromInternetData: Record<string, ScrubbedItem[]> = {
     {
       title: 'Ivan Boesky\'s Trading Counterparty Records',
       type: 'destroyed',
-      description: 'Ivan Boesky systematically destroyed personal trading journals and counterparty records before his cooperation agreement with the SEC. While Boesky\'s testimony helped convict others, his own detailed records of insider trading transactions -- including the full scope of his arrangement with Martin Siegel and his parking scheme with Milken -- were never recovered. The SEC acknowledged that Boesky\'s self-reported scope was likely understated.',
+      description: 'Ivan Boesky systematically destroyed personal trading journals and counterparty records before his cooperation agreement with the SEC. While Boesky\'s testimony helped convict others, his own detailed records of insider trading transactions, including the full scope of his arrangement with Martin Siegel and his parking scheme with Milken, were never recovered. The SEC acknowledged that Boesky\'s self-reported scope was likely understated.',
       originalSource: 'Ivan F. Boesky Corporation / Personal records',
       dateRemoved: '1986',
       removedBy: 'Ivan Boesky and associates',
@@ -68,7 +68,7 @@ const scrubbedFromInternetData: Record<string, ScrubbedItem[]> = {
     {
       title: 'Kidder Peabody Internal Investigation Files',
       type: 'buried',
-      description: 'Kidder, Peabody & Co.\'s internal investigation into Martin Siegel\'s insider trading activities produced reports that were never made public. The firm conducted its own review before cooperating with federal prosecutors, and the internal findings -- which reportedly identified additional employees with knowledge of illegal trading -- were suppressed to limit the firm\'s liability. Kidder was later absorbed by General Electric and then PaineWebber.',
+      description: 'Kidder, Peabody & Co.\'s internal investigation into Martin Siegel\'s insider trading activities produced reports that were never made public. The firm conducted its own review before cooperating with federal prosecutors, and the internal findings, which reportedly identified additional employees with knowledge of illegal trading, were suppressed to limit the firm\'s liability. Kidder was later absorbed by General Electric and then PaineWebber.',
       originalSource: 'Kidder, Peabody & Co. compliance division',
       dateRemoved: '1987-1994',
       removedBy: 'Kidder Peabody / GE corporate counsel',
@@ -77,7 +77,7 @@ const scrubbedFromInternetData: Record<string, ScrubbedItem[]> = {
     {
       title: 'SEC Enforcement Division Pre-Investigation Tips',
       type: 'redacted',
-      description: 'Multiple tips about Ivan Boesky\'s suspicious trading patterns were submitted to the SEC years before enforcement action began. Internal SEC memoranda documenting these early warnings -- and the decisions not to act -- were heavily redacted in subsequent FOIA releases. The delayed response allowed billions in additional illegal profits to be extracted from public markets.',
+      description: 'Multiple tips about Ivan Boesky\'s suspicious trading patterns were submitted to the SEC years before enforcement action began. Internal SEC memoranda documenting these early warnings, and the decisions not to act, were heavily redacted in subsequent FOIA releases. The delayed response allowed billions in additional illegal profits to be extracted from public markets.',
       originalSource: 'SEC Division of Enforcement',
       dateRemoved: '1983-1986',
       removedBy: 'SEC under FOIA exemptions',
@@ -848,7 +848,7 @@ const scrubbedFromInternetData: Record<string, ScrubbedItem[]> = {
     {
       title: 'Complete COINTELPRO Operational Files (1956-1971)',
       type: 'destroyed',
-      description: 'FBI Director J. Edgar Hoover ordered the systematic destruction of COINTELPRO operational files in 1971 after the program was exposed by the Citizens\' Commission to Investigate the FBI. Field offices were instructed to purge files documenting illegal surveillance, infiltration, and disruption operations targeting civil rights organizations, antiwar groups, and Black liberation movements. The full scope of destroyed records remains unknown -- the Church Committee estimated that only a fraction of program documentation survived.',
+      description: 'FBI Director J. Edgar Hoover ordered the systematic destruction of COINTELPRO operational files in 1971 after the program was exposed by the Citizens\' Commission to Investigate the FBI. Field offices were instructed to purge files documenting illegal surveillance, infiltration, and disruption operations targeting civil rights organizations, antiwar groups, and Black liberation movements. The full scope of destroyed records remains unknown, the Church Committee estimated that only a fraction of program documentation survived.',
       originalSource: 'FBI field offices nationwide',
       dateRemoved: '1971-1972',
       removedBy: 'FBI under J. Edgar Hoover directive',
@@ -866,7 +866,7 @@ const scrubbedFromInternetData: Record<string, ScrubbedItem[]> = {
     {
       title: 'NSA SHAMROCK/MINARET Domestic Surveillance Records',
       type: 'classified',
-      description: 'Records from NSA programs SHAMROCK and MINARET -- which intercepted international telegrams and monitored communications of civil rights leaders, journalists, and antiwar activists -- were classified at the highest levels. The Church Committee obtained partial access but much remains sealed. The programs operated from 1945 to 1975, collecting communications of thousands of American citizens without warrants.',
+      description: 'Records from NSA programs SHAMROCK and MINARET, which intercepted international telegrams and monitored communications of civil rights leaders, journalists, and antiwar activists, were classified at the highest levels. The Church Committee obtained partial access but much remains sealed. The programs operated from 1945 to 1975, collecting communications of thousands of American citizens without warrants.',
       originalSource: 'National Security Agency',
       dateRemoved: '1975-present',
       removedBy: 'NSA / Executive classification authority',
@@ -911,7 +911,7 @@ const scrubbedFromInternetData: Record<string, ScrubbedItem[]> = {
     {
       title: 'Jean Seberg FBI Disinformation Campaign Records',
       type: 'destroyed',
-      description: 'FBI records documenting the full scope of the disinformation campaign against actress Jean Seberg -- including the planted false story about her pregnancy that contributed to her mental breakdown and eventual suicide in 1979 -- were partially destroyed. The Los Angeles Times reported on the campaign in 1979, but complete operational files including authorization memoranda and media contact records were never fully recovered.',
+      description: 'FBI records documenting the full scope of the disinformation campaign against actress Jean Seberg, including the planted false story about her pregnancy that contributed to her mental breakdown and eventual suicide in 1979, were partially destroyed. The Los Angeles Times reported on the campaign in 1979, but complete operational files including authorization memoranda and media contact records were never fully recovered.',
       originalSource: 'FBI Los Angeles Field Office',
       dateRemoved: '1970-1979',
       removedBy: 'FBI records destruction protocols',

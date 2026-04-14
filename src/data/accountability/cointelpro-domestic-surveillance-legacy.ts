@@ -6,7 +6,7 @@ export const cointelproAccountability: AccountabilityData = {
   // ============================================================
   // WHAT HAPPENED
   // ============================================================
-  crimeSummary: 'From 1956 to 1971, the FBI operated COINTELPRO (Counter Intelligence Program) -- a covert and illegal campaign of infiltration, disruption, psychological warfare, and political assassination targeting constitutionally protected domestic organizations and individuals. Under J. Edgar Hoover\'s direct authority, the FBI ran over 2,000 documented operations against civil rights leaders (Martin Luther King Jr., Malcolm X), Black liberation movements (Black Panther Party, SNCC, CORE), the American Indian Movement, the Socialist Workers Party, antiwar organizations, the women\'s liberation movement, and white supremacist groups. Methods included warrantless wiretapping and bugging, forged anonymous letters, agent provocateurs, fabricated criminal charges, tax audits as harassment, media disinformation campaigns, and complicity in assassination. COINTELPRO was exposed by the 1971 Citizens\' Commission burglary and investigated by the Church Committee in 1975-1976. No FBI official was ever criminally prosecuted for COINTELPRO abuses. The program\'s tactics and legal architecture shaped the post-9/11 surveillance state.',
+  crimeSummary: 'From 1956 to 1971, the FBI operated COINTELPRO (Counter Intelligence Program), a covert and illegal campaign of infiltration, disruption, psychological warfare, and political assassination targeting constitutionally protected domestic organizations and individuals. Under J. Edgar Hoover\'s direct authority, the FBI ran over 2,000 documented operations against civil rights leaders (Martin Luther King Jr., Malcolm X), Black liberation movements (Black Panther Party, SNCC, CORE), the American Indian Movement, the Socialist Workers Party, antiwar organizations, the women\'s liberation movement, and white supremacist groups. Methods included warrantless wiretapping and bugging, forged anonymous letters, agent provocateurs, fabricated criminal charges, tax audits as harassment, media disinformation campaigns, and complicity in assassination. COINTELPRO was exposed by the 1971 Citizens\' Commission burglary and investigated by the Church Committee in 1975-1976. No FBI official was ever criminally prosecuted for COINTELPRO abuses. The program\'s tactics and legal architecture shaped the post-9/11 surveillance state.',
 
   totalHarm: 'At least two confirmed assassinations (Fred Hampton, Mark Clark); complicity in multiple additional killings (Viola Liuzzo murder, Bunchy Carter and John Huggins at UCLA, Sylvester Bell in San Diego); the wrongful imprisonment of Geronimo Pratt (27 years), Leonard Peltier (48+ years and counting), and Dhoruba bin Wahad (19 years); psychological warfare that contributed to the deaths of Jean Seberg and William O\'Neal; the systematic destruction of the Black Panther Party, SCLC, SWP, AIM, SDS, and dozens of other organizations; the suppression of First Amendment rights for millions of Americans across four presidential administrations; and the creation of the institutional and legal architecture for the post-9/11 mass surveillance state that now monitors hundreds of millions of Americans.',
 
@@ -34,7 +34,7 @@ export const cointelproAccountability: AccountabilityData = {
       currentStatus: 'Died in office May 2, 1972. Never investigated or charged. The J. Edgar Hoover Building at 935 Pennsylvania Avenue NW in Washington, D.C. still bears his name as FBI headquarters.',
       accountabilityPath: 'Congressional resolution formally condemning Hoover\'s role in COINTELPRO. Removal of Hoover\'s name from FBI headquarters. Declassification and public release of all remaining Hoover-era COINTELPRO documents. Posthumous formal finding of responsibility by the DOJ Inspector General.',
       obstacles: [
-        'Deceased -- cannot face criminal accountability',
+        'Deceased, cannot face criminal accountability',
         'Institutional loyalty within the FBI protects his legacy',
         'FBI headquarters naming has symbolic political significance',
         'Remaining classified documents may implicate other branches of government',
@@ -43,7 +43,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'William C. Sullivan',
       role: 'FBI Assistant Director heading Division Five (Domestic Intelligence). Managed all COINTELPRO field operations. Authored the anonymous "suicide letter" sent to Martin Luther King Jr.',
-      currentStatus: 'Shot and killed by a hunter near his home in Sugar Hill, New Hampshire on November 9, 1977 -- days before he was scheduled to testify before the House Select Committee on Assassinations. The shooting was ruled accidental.',
+      currentStatus: 'Shot and killed by a hunter near his home in Sugar Hill, New Hampshire on November 9, 1977, days before he was scheduled to testify before the House Select Committee on Assassinations. The shooting was ruled accidental.',
       accountabilityPath: 'Congressional investigation into the circumstances of Sullivan\'s death immediately before scheduled testimony. Declassification of Sullivan\'s Division Five files. Public acknowledgment of Sullivan\'s role in the King harassment campaign.',
       obstacles: [
         'Deceased under suspicious circumstances before testimony',
@@ -76,7 +76,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'William O\'Neal',
       role: 'FBI informant who infiltrated the Black Panther Party as Fred Hampton\'s bodyguard. Provided the floor plan of Hampton\'s apartment to the FBI. Drugged Hampton with secobarbital the night before the fatal raid.',
-      currentStatus: 'Received $10,000+ in documented FBI payments. Testified before Church Committee and grand jury. Died by suicide on January 15, 1990 -- the night before the Martin Luther King Jr. federal holiday.',
+      currentStatus: 'Received $10,000+ in documented FBI payments. Testified before Church Committee and grand jury. Died by suicide on January 15, 1990, the night before the Martin Luther King Jr. federal holiday.',
       accountabilityPath: 'O\'Neal was never criminally charged for his role in Hampton\'s death despite providing the intelligence and drugging that enabled the assassination. Congressional investigation should examine the FBI\'s systematic use of informants as instruments of violence and the policy of immunizing informants from prosecution for crimes committed at the Bureau\'s direction.',
       obstacles: [
         'Deceased by suicide (1990)',
@@ -178,7 +178,7 @@ export const cointelproAccountability: AccountabilityData = {
     },
     {
       name: 'State Civil Rights and Wrongful Death Actions',
-      statute: 'Varies by state -- Illinois Wrongful Death Act (740 ILCS 180); California Civil Code § 52.1 (Bane Act)',
+      statute: 'Varies by state, Illinois Wrongful Death Act (740 ILCS 180); California Civil Code § 52.1 (Bane Act)',
       description: 'State-level civil rights statutes and wrongful death laws provide additional avenues for accountability that are not affected by federal immunity doctrines. Illinois law governed the Hampton assassination; California law applied to Geronimo Pratt\'s wrongful imprisonment and FBI operations against the LA Panthers.',
       hasStatuteOfLimitations: true,
       limitationPeriod: 'Varies by state. Discovery rule applies in most jurisdictions.',
@@ -205,7 +205,7 @@ export const cointelproAccountability: AccountabilityData = {
   wealthTrace: [
     {
       name: 'FBI Institutional Budget (Continuous Growth Without Accountability)',
-      relationship: 'Primary institutional beneficiary of COINTELPRO -- budget grew from $170M (1960) to $11.3B (FY2024) without any reduction for documented constitutional violations',
+      relationship: 'Primary institutional beneficiary of COINTELPRO, budget grew from $170M (1960) to $11.3B (FY2024) without any reduction for documented constitutional violations',
       transferMethod: 'Congressional appropriations. Despite Church Committee findings documenting systematic illegality, the FBI\'s budget was never reduced. Post-9/11 budget increases effectively rewarded the surveillance infrastructure COINTELPRO built.',
       estimatedValue: '$11.3 billion (FY2024 appropriation)',
       legalEntities: ['Federal Bureau of Investigation', 'Department of Justice'],
@@ -223,7 +223,7 @@ export const cointelproAccountability: AccountabilityData = {
       name: 'FBI Confidential Informant Payments (COINTELPRO Era)',
       relationship: 'FBI paid thousands of informants to infiltrate and disrupt constitutionally protected organizations',
       transferMethod: 'William O\'Neal received $10,000+ in documented payments. The FBI maintained approximately 7,500 "Ghetto Informants" under the 1967 program. Total COINTELPRO-era informant expenditures remain classified.',
-      estimatedValue: 'Classified -- estimated tens of millions over 15 years',
+      estimatedValue: 'Classified, estimated tens of millions over 15 years',
       legalEntities: ['FBI Confidential Informant Fund'],
       recoveryMechanisms: ['FOIA litigation for disbursement records', 'Congressional investigation and subpoena'],
     },
@@ -233,7 +233,7 @@ export const cointelproAccountability: AccountabilityData = {
       transferMethod: '$1.85 million civil settlement in 1982 paid by City of Chicago, Cook County, and federal government. The settlement confirmed the coordinated nature of the raid but did not constitute an admission of assassination.',
       estimatedValue: '$1.85 million (1982)',
       legalEntities: ['City of Chicago', 'Cook County', 'U.S. Government'],
-      recoveryMechanisms: ['Already partially settled -- additional claims possible with new evidence'],
+      recoveryMechanisms: ['Already partially settled, additional claims possible with new evidence'],
     },
     {
       name: 'Geronimo Pratt Settlement',
@@ -241,7 +241,7 @@ export const cointelproAccountability: AccountabilityData = {
       transferMethod: '$4.5 million civil settlement in 2000 from FBI and City of Los Angeles. Pratt\'s conviction was vacated in 1997 after courts found FBI and LAPD suppressed exculpatory evidence.',
       estimatedValue: '$4.5 million (2000)',
       legalEntities: ['FBI', 'City of Los Angeles', 'LAPD'],
-      recoveryMechanisms: ['Already settled -- additional claims unlikely'],
+      recoveryMechanisms: ['Already settled, additional claims unlikely'],
     },
     {
       name: 'Socialist Workers Party Judgment',
@@ -249,13 +249,13 @@ export const cointelproAccountability: AccountabilityData = {
       transferMethod: '$264,000 court judgment in 1986 after Judge Griesa ruled the FBI violated First and Fourth Amendment rights. The court found the SWP had committed no criminal or violent acts during the entire surveillance period.',
       estimatedValue: '$264,000 (1986)',
       legalEntities: ['FBI', 'U.S. Government'],
-      recoveryMechanisms: ['Already paid -- establishes precedent for similar claims by other targeted organizations'],
+      recoveryMechanisms: ['Already paid, establishes precedent for similar claims by other targeted organizations'],
     },
     {
       name: 'Unrecompensed COINTELPRO Victims',
       relationship: 'Hundreds of individuals and organizations targeted by COINTELPRO who never received compensation',
       transferMethod: 'The vast majority of COINTELPRO victims never filed civil suits or received any compensation. The Liuzzo family received nothing from the FBI. Jean Seberg\'s estate received nothing. Hundreds of Panthers, AIM members, SWP members, and activists who were surveilled, harassed, fired from jobs, or imprisoned on fabricated charges were never compensated.',
-      estimatedValue: 'Incalculable -- thousands of lives disrupted, careers destroyed, organizations decimated',
+      estimatedValue: 'Incalculable, thousands of lives disrupted, careers destroyed, organizations decimated',
       legalEntities: ['FBI', 'U.S. Government'],
       recoveryMechanisms: ['Class action Section 1983 litigation', 'Congressional reparations legislation', 'Victim compensation fund'],
     },
@@ -268,7 +268,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'U.S. Senate Select Committee on Intelligence',
       title: 'Senate Intelligence Committee (SSCI)',
-      jurisdiction: 'Federal -- direct successor to the Church Committee; primary oversight authority over intelligence community',
+      jurisdiction: 'Federal, direct successor to the Church Committee; primary oversight authority over intelligence community',
       powers: [
         'Subpoena classified COINTELPRO documents',
         'Investigate current FBI domestic surveillance for COINTELPRO-pattern activities',
@@ -280,7 +280,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'U.S. Senate Judiciary Committee',
       title: 'Senate Judiciary Committee',
-      jurisdiction: 'Federal -- oversight of DOJ and FBI; confirmation of FBI Director and Attorney General',
+      jurisdiction: 'Federal, oversight of DOJ and FBI; confirmation of FBI Director and Attorney General',
       powers: [
         'Subpoena DOJ and FBI records',
         'Condition FBI Director confirmation on COINTELPRO accountability commitments',
@@ -292,7 +292,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'U.S. Attorney General',
       title: 'Head of the Department of Justice',
-      jurisdiction: 'Federal -- supervision of the FBI; enforcement of civil rights laws',
+      jurisdiction: 'Federal, supervision of the FBI; enforcement of civil rights laws',
       powers: [
         'Order declassification of remaining COINTELPRO files',
         'Open investigation into unprosecuted COINTELPRO operations',
@@ -304,7 +304,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'DOJ Inspector General',
       title: 'Inspector General, Department of Justice',
-      jurisdiction: 'Federal -- independent oversight of DOJ and FBI',
+      jurisdiction: 'Federal, independent oversight of DOJ and FBI',
       powers: [
         'Investigate whether COINTELPRO-type activities continue under different names',
         'Audit FBI domestic surveillance operations for compliance with Attorney General Guidelines',
@@ -315,7 +315,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'President of the United States',
       title: 'Commander in Chief',
-      jurisdiction: 'Federal -- plenary pardon power; executive authority over intelligence agencies',
+      jurisdiction: 'Federal, plenary pardon power; executive authority over intelligence agencies',
       powers: [
         'Grant clemency or pardon to Leonard Peltier',
         'Issue executive order mandating declassification of all COINTELPRO documents over 50 years old',
@@ -327,7 +327,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'FISA Court',
       title: 'Foreign Intelligence Surveillance Court',
-      jurisdiction: 'Federal -- oversight of intelligence surveillance requests',
+      jurisdiction: 'Federal, oversight of intelligence surveillance requests',
       powers: [
         'Impose stricter standards on FBI surveillance requests targeting domestic political activity',
         'Publish declassified opinions documenting scope of current domestic surveillance',
@@ -337,7 +337,7 @@ export const cointelproAccountability: AccountabilityData = {
     {
       name: 'State Attorneys General (Illinois, California, New York)',
       title: 'Chief law enforcement officers of their respective states',
-      jurisdiction: 'State-level -- civil rights enforcement, wrongful death, conspiracy',
+      jurisdiction: 'State-level, civil rights enforcement, wrongful death, conspiracy',
       powers: [
         'Investigate state-level liability for COINTELPRO operations within their jurisdiction',
         'File civil rights actions against federal agents who violated state law',
@@ -354,7 +354,7 @@ export const cointelproAccountability: AccountabilityData = {
     // ---- CITIZEN ----
     {
       role: 'citizen',
-      overview: 'As a citizen, you can demand accountability for COINTELPRO through FOIA requests for remaining classified documents, complaints to congressional oversight committees, support for Leonard Peltier\'s clemency petition, and pressure on elected officials to investigate whether COINTELPRO-type operations continue under post-9/11 authorities. COINTELPRO was an attack on every American\'s First Amendment rights -- you have standing to demand answers.',
+      overview: 'As a citizen, you can demand accountability for COINTELPRO through FOIA requests for remaining classified documents, complaints to congressional oversight committees, support for Leonard Peltier\'s clemency petition, and pressure on elected officials to investigate whether COINTELPRO-type operations continue under post-9/11 authorities. COINTELPRO was an attack on every American\'s First Amendment rights, you have standing to demand answers.',
       urgency: 'standard',
       relevantMechanisms: ['Congressional Investigation and Subpoena Power', 'FOIA Litigation for Declassification', 'Presidential Clemency for Political Prisoners'],
       steps: [
@@ -505,7 +505,7 @@ export const cointelproAccountability: AccountabilityData = {
           title: 'Challenge Current COINTELPRO-Pattern Surveillance',
           description: 'File Fourth Amendment and First Amendment challenges to current FBI domestic surveillance operations that mirror COINTELPRO tactics: (1) "Black Identity Extremists" categorization, (2) surveillance of BLM protests, (3) infiltration of Muslim community organizations, (4) monitoring of environmental and antiwar groups. Seek declaratory and injunctive relief.',
           requirements: [
-            'Standing -- clients currently subject to surveillance',
+            'Standing, clients currently subject to surveillance',
             'FOIA evidence of FBI domestic targeting criteria',
             'Expert testimony on parallels between current and COINTELPRO operations',
             'Constitutional analysis under strict scrutiny for First Amendment claims',
@@ -609,7 +609,7 @@ export const cointelproAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Investigate Cold Cases from COINTELPRO Era',
-          description: 'If you have jurisdiction over unsolved cases from the COINTELPRO era -- particularly the 60+ unsolved homicides on Pine Ridge during 1973-1976, or unexplained deaths of activists and informants -- reopen investigation using modern forensic techniques and newly declassified documents.',
+          description: 'If you have jurisdiction over unsolved cases from the COINTELPRO era, particularly the 60+ unsolved homicides on Pine Ridge during 1973-1976, or unexplained deaths of activists and informants, reopen investigation using modern forensic techniques and newly declassified documents.',
           requirements: [
             'Access to original case files',
             'FOIA documents providing new leads',
@@ -624,7 +624,7 @@ export const cointelproAccountability: AccountabilityData = {
     // ---- REGULATOR ----
     {
       role: 'regulator',
-      overview: 'The regulatory failure that enabled COINTELPRO was the absence of effective oversight mechanisms for intelligence operations targeting American citizens. Regulators -- including the FISA Court, DOJ Inspector General, and congressional oversight committees -- must actively monitor for the recurrence of COINTELPRO-type programs under post-9/11 authorities that have dramatically expanded the FBI\'s domestic surveillance powers.',
+      overview: 'The regulatory failure that enabled COINTELPRO was the absence of effective oversight mechanisms for intelligence operations targeting American citizens. Regulators, including the FISA Court, DOJ Inspector General, and congressional oversight committees, must actively monitor for the recurrence of COINTELPRO-type programs under post-9/11 authorities that have dramatically expanded the FBI\'s domestic surveillance powers.',
       urgency: 'high',
       relevantMechanisms: ['Congressional Investigation and Subpoena Power', 'FOIA Litigation for Declassification'],
       steps: [

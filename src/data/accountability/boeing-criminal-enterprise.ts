@@ -2,8 +2,8 @@ import type { AccountabilityData } from '@/types/accountability';
 
 export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
   investigationSlug: 'boeing-criminal-enterprise',
-  crimeSummary: 'Boeing\'s transformation from an engineering-driven company to a profit-maximizing entity culminating in 346 deaths across two 737 MAX crashes (Lion Air Flight 610, October 29, 2018; Ethiopian Airlines Flight 302, March 10, 2019). Boeing concealed the existence of the MCAS (Maneuvering Characteristics Augmentation System) from pilots and regulators, omitting it from flight manuals and training materials to avoid expensive simulator training requirements that would have slowed deliveries. Boeing\'s deception of the FAA in the 737 MAX certification process involved misleading submissions about critical flight characteristics. After the first crash killed 189 people, Boeing blamed pilot error and actively lobbied against grounding the aircraft -- Ethiopian Airlines Flight 302 killed 157 more four months later. Internal communications revealed Boeing employees knew about problems: "This airplane is designed by clowns, who in turn are supervised by monkeys." Boeing entered a deferred prosecution agreement (DPA) in January 2021 for conspiracy to defraud the FAA, paying $2.5 billion. DOJ later found Boeing violated the DPA terms. In July 2024, Boeing agreed to plead guilty to the conspiracy charge. Chief technical pilot Mark Forkner was the only individual charged -- and was acquitted in March 2022. No senior executive has ever been charged despite internal evidence showing corporate knowledge of MCAS dangers.',
-  totalHarm: '346 people killed across two crashes (189 on Lion Air 610, 157 on Ethiopian Airlines 302). Boeing\'s 2021 DPA: $2.5 billion ($500M criminal penalty, $1.77B airline compensation, $243.6M victim compensation fund -- approximately $700,000 per death). The 737 MAX was grounded globally for 20 months, costing airlines an estimated $20 billion. Boeing spent $43 billion on share buybacks from 2013-2019 while cutting safety and engineering investment. The MCAS cover-up destroyed public trust in the FAA certification system. Boeing whistleblowers have faced retaliation, with at least two dying under suspicious circumstances during ongoing investigations (John Barnett, March 2024, found dead during deposition testimony).',
+  crimeSummary: 'Boeing\'s transformation from an engineering-driven company to a profit-maximizing entity culminating in 346 deaths across two 737 MAX crashes (Lion Air Flight 610, October 29, 2018; Ethiopian Airlines Flight 302, March 10, 2019). Boeing concealed the existence of the MCAS (Maneuvering Characteristics Augmentation System) from pilots and regulators, omitting it from flight manuals and training materials to avoid expensive simulator training requirements that would have slowed deliveries. Boeing\'s deception of the FAA in the 737 MAX certification process involved misleading submissions about critical flight characteristics. After the first crash killed 189 people, Boeing blamed pilot error and actively lobbied against grounding the aircraft, Ethiopian Airlines Flight 302 killed 157 more four months later. Internal communications revealed Boeing employees knew about problems: "This airplane is designed by clowns, who in turn are supervised by monkeys." Boeing entered a deferred prosecution agreement (DPA) in January 2021 for conspiracy to defraud the FAA, paying $2.5 billion. DOJ later found Boeing violated the DPA terms. In July 2024, Boeing agreed to plead guilty to the conspiracy charge. Chief technical pilot Mark Forkner was the only individual charged, and was acquitted in March 2022. No senior executive has ever been charged despite internal evidence showing corporate knowledge of MCAS dangers.',
+  totalHarm: '346 people killed across two crashes (189 on Lion Air 610, 157 on Ethiopian Airlines 302). Boeing\'s 2021 DPA: $2.5 billion ($500M criminal penalty, $1.77B airline compensation, $243.6M victim compensation fund, approximately $700,000 per death). The 737 MAX was grounded globally for 20 months, costing airlines an estimated $20 billion. Boeing spent $43 billion on share buybacks from 2013-2019 while cutting safety and engineering investment. The MCAS cover-up destroyed public trust in the FAA certification system. Boeing whistleblowers have faced retaliation, with at least two dying under suspicious circumstances during ongoing investigations (John Barnett, March 2024, found dead during deposition testimony).',
   victimsAffected: '346 passengers and crew killed. Families of victims from 35 countries. All 737 MAX operators worldwide (grounded for 20 months). Boeing employees who raised safety concerns and were silenced or retaliated against. Boeing whistleblower John Barnett, found dead in March 2024. The flying public whose trust in FAA certification was destroyed. Airlines that purchased aircraft on the basis of fraudulent safety representations.',
 
   primaryTargets: [
@@ -19,12 +19,12 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
       role: 'Chief Technical Pilot for the 737 MAX. In November 2016, Forkner texted a colleague: "So I basically lied to the regulators (unknowingly)." He had guided FAA evaluators to remove references to MCAS from pilot training materials, ensuring airlines would not require expensive simulator training. Forkner was the only individual charged in connection with the 346 deaths.',
       currentStatus: 'Indicted on six counts of fraud in October 2021. Acquitted on all counts in March 2022. The jury accepted his defense that he was misled by his own engineers and did not knowingly deceive the FAA. The acquittal effectively ended any prospect of individual criminal accountability for the 737 MAX crashes.',
       accountabilityPath: 'Criminal retrial barred by double jeopardy. Civil fraud claims by victims\' families remain theoretically available. The acquittal does not preclude civil liability under the lower preponderance standard.',
-      obstacles: ['Acquitted -- double jeopardy bars retrial', 'Defense successfully shifted blame to Boeing institutional culture', 'Forkner positioned as scapegoat for systemic failure'],
+      obstacles: ['Acquitted, double jeopardy bars retrial', 'Defense successfully shifted blame to Boeing institutional culture', 'Forkner positioned as scapegoat for systemic failure'],
     },
     {
       name: 'Boeing Board of Directors (2015-2019)',
       role: 'Authorized the corporate culture shift that prioritized financial returns over engineering safety. Approved $43 billion in share buybacks while cutting engineering staffing and moving production to non-union facilities. The 1997 merger with McDonnell Douglas brought in cost-cutting executives (Harry Stonecipher, James McNerney) who systematically subordinated engineering judgment to financial targets. The board failed in its oversight duty by not questioning the elimination of pilot training for a new automated flight control system.',
-      currentStatus: 'No charges against any board member. A $237.5 million shareholder derivative settlement was reached in 2021, paid entirely by insurance -- not a single director contributed personal funds. Multiple directors continued serving on other corporate boards.',
+      currentStatus: 'No charges against any board member. A $237.5 million shareholder derivative settlement was reached in 2021, paid entirely by insurance, not a single director contributed personal funds. Multiple directors continued serving on other corporate boards.',
       accountabilityPath: 'Shareholder derivative suits challenging D&O insurance payments. Personal liability claims against directors who specifically approved the training waiver strategy. Breach of fiduciary duty claims under Delaware law (Caremark/Marchand standard for oversight failure in safety-critical industries).',
       obstacles: ['Business judgment rule protects board decisions', 'D&O insurance shields personal liability', '$237.5M settlement released most claims', 'Proving individual director knowledge is difficult'],
     },
@@ -47,7 +47,7 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
       role: 'CEO of Boeing (2003-2005, previously CEO of McDonnell Douglas). Stonecipher was a key architect of Boeing\'s cultural transformation from engineering-first to shareholder-first. When McDonnell Douglas merged with Boeing in 1997, it was described as "McDonnell Douglas bought Boeing with Boeing\'s money." The cost-cutting, finance-driven culture that led to the 737 MAX disaster originated with the MDC leadership that took control of Boeing post-merger.',
       currentStatus: 'Stonecipher was forced to resign in 2005 over a personal scandal, but the cultural transformation he instituted became permanent. The MDC-Boeing cultural merger is documented as the root cause of Boeing\'s safety decline in multiple analyses, including the Columbia Accident Investigation Board model applied to Boeing by risk management scholars.',
       accountabilityPath: 'Historical accountability. The corporate culture that killed 346 people can be traced to specific decisions by specific executives to prioritize financial metrics over engineering safety. This record must be preserved to prevent similar transformations at other safety-critical companies.',
-      obstacles: ['Historical -- most relevant decisions occurred 20+ years ago', 'Corporate culture change is difficult to assign individual liability for'],
+      obstacles: ['Historical, most relevant decisions occurred 20+ years ago', 'Corporate culture change is difficult to assign individual liability for'],
     },
   ],
 
@@ -61,7 +61,7 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['DOJ Criminal Division, Fraud Section', 'U.S. Attorney for the Northern District of Texas'],
       applicability: 'directly_applicable',
-      notes: 'The DPA was controversial from the start. Victims\' families argued the $2.5B total was inadequate -- approximately $700,000 per death compared to the $43 billion Boeing spent on stock buybacks. The DPA violation finding opened the door to full prosecution but the guilty plea deal was criticized as another lenient resolution.',
+      notes: 'The DPA was controversial from the start. Victims\' families argued the $2.5B total was inadequate, approximately $700,000 per death compared to the $43 billion Boeing spent on stock buybacks. The DPA violation finding opened the door to full prosecution but the guilty plea deal was criticized as another lenient resolution.',
     },
     {
       name: 'Involuntary Manslaughter / Negligent Homicide',
@@ -107,7 +107,7 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
       notes: 'The death of John Barnett during testimony sent a chilling message to aviation whistleblowers. Investigations into the circumstances of his death remain open. Multiple current and former Boeing employees have come forward with safety concerns but report fear of retaliation.',
     },
     {
-      name: 'RICO -- Racketeering',
+      name: 'RICO, Racketeering',
       statute: '18 U.S.C. Sections 1961-1968',
       description: 'Boeing\'s pattern of concealing safety information from regulators across multiple programs, combined with fraudulent statements to the FAA, obstruction of investigations, and witness retaliation, could constitute a pattern of racketeering activity. Civil RICO allows treble damages.',
       hasStatuteOfLimitations: true,
@@ -125,7 +125,7 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
       reachesHeirs: true,
       authorizedActors: ['Courts of equity', 'Victims\' families through civil action', 'Shareholders through derivative action'],
       applicability: 'directly_applicable',
-      notes: 'Boeing\'s accelerated delivery schedule was achieved by concealing MCAS from training requirements -- this directly increased revenue and stock price, which determined executive compensation. The compensation was built on a foundation of fraud that killed 346 people.',
+      notes: 'Boeing\'s accelerated delivery schedule was achieved by concealing MCAS from training requirements, this directly increased revenue and stock price, which determined executive compensation. The compensation was built on a foundation of fraud that killed 346 people.',
     },
     {
       name: 'State Product Liability and Wrongful Death',
@@ -168,7 +168,7 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
     {
       name: 'DPA and Guilty Plea Payments',
       relationship: 'Total corporate penalties paid',
-      transferMethod: 'The 2021 DPA required $2.5 billion: $500 million criminal penalty, $1.77 billion airline customer compensation, and $243.6 million victim compensation fund. The 2024 guilty plea added $243.6 million more. Total corporate penalty: approximately $2.75 billion -- compared to $43 billion in buybacks.',
+      transferMethod: 'The 2021 DPA required $2.5 billion: $500 million criminal penalty, $1.77 billion airline customer compensation, and $243.6 million victim compensation fund. The 2024 guilty plea added $243.6 million more. Total corporate penalty: approximately $2.75 billion, compared to $43 billion in buybacks.',
       estimatedValue: '$2.75 billion total penalties',
       legalEntities: ['Boeing Company', 'U.S. Treasury', 'Victim compensation fund'],
       recoveryMechanisms: ['Additional penalties through guilty plea sentencing', 'Treble damages through civil RICO', 'State-level penalties'],
@@ -215,14 +215,14 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
   ],
 
   successCriteria: [
-    'Criminal prosecution of individual Boeing executives who authorized the concealment of MCAS from pilots and regulators -- the corporate DPA and guilty plea do not substitute for individual accountability for decisions that killed 346 people',
+    'Criminal prosecution of individual Boeing executives who authorized the concealment of MCAS from pilots and regulators, the corporate DPA and guilty plea do not substitute for individual accountability for decisions that killed 346 people',
     'Full disgorgement of executive compensation earned during the MCAS concealment period (2015-2019), including Muilenburg\'s $62 million severance, Calhoun\'s tens of millions earned while overseeing DPA compliance, and all stock awards tied to delivery schedules achieved through fraud',
-    'Complete elimination of manufacturer self-certification for safety-critical aircraft systems -- no airplane manufacturer should certify its own safety compliance, period',
+    'Complete elimination of manufacturer self-certification for safety-critical aircraft systems, no airplane manufacturer should certify its own safety compliance, period',
     'Establishment of an independent aviation safety investigation authority, separate from the FAA, with the power to ground aircraft, compel testimony, and impose penalties without manufacturer influence',
     'Protection of Boeing whistleblowers who have come forward with safety concerns, including a full investigation into the circumstances surrounding John Barnett\'s death during deposition testimony',
     'Maximum sentencing on Boeing\'s guilty plea, including appointment of an independent compliance monitor with authority to halt production if safety conditions are not met',
-    'A public accounting of every decision in the chain that led to 346 deaths: who knew about MCAS problems, when they knew, what they decided, and why no one stopped it -- this record must be permanently preserved',
-    'Victim compensation that reflects the true value of 346 human lives, not the $700,000-per-death formula of the original victim fund -- a figure that Boeing executives earn in days',
+    'A public accounting of every decision in the chain that led to 346 deaths: who knew about MCAS problems, when they knew, what they decided, and why no one stopped it, this record must be permanently preserved',
+    'Victim compensation that reflects the true value of 346 human lives, not the $700,000-per-death formula of the original victim fund, a figure that Boeing executives earn in days',
     'Congressional legislation banning the revolving door between aviation manufacturers and the FAA, with a mandatory cooling-off period of at least five years',
   ],
 
@@ -254,7 +254,7 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
       role: 'lawyer',
       overview: 'Multiple legal theories remain viable for individual accountability. The corporate guilty plea does not bar civil claims against individuals. Constructive trust claims have no statute of limitations. The responsible corporate officer doctrine has never been tested in aviation but applies directly. State manslaughter charges may still be available in some jurisdictions.',
       urgency: 'immediate',
-      relevantMechanisms: ['Responsible Corporate Officer Doctrine', 'Constructive Trust on Executive Compensation', 'RICO -- Racketeering', 'State Product Liability and Wrongful Death'],
+      relevantMechanisms: ['Responsible Corporate Officer Doctrine', 'Constructive Trust on Executive Compensation', 'RICO, Racketeering', 'State Product Liability and Wrongful Death'],
       steps: [
         { step: 1, title: 'Pursue Individual Executive Liability', description: 'Develop civil claims against individual Boeing executives under the responsible corporate officer doctrine, breach of fiduciary duty, and constructive fraud theories. Target Muilenburg specifically for the decision not to ground after Lion Air.', legalBasis: ['United States v. Park, 421 U.S. 658 (1975)', 'Restatement (Third) of Restitution Section 55'], estimatedTime: '6-12 months' },
         { step: 2, title: 'File Civil RICO Action', description: 'Represent victims\' families or airlines in a civil RICO action against Boeing and individual officers. The pattern of racketeering includes: fraud in the certification process, obstruction of the investigation, DPA violations, and ongoing concealment of safety issues.', legalBasis: ['18 U.S.C. Sections 1961-1968'], estimatedTime: '12-24 months' },
@@ -281,7 +281,7 @@ export const boeingCriminalEnterpriseAccountability: AccountabilityData = {
       relevantMechanisms: ['Conspiracy to Defraud the United States', 'Involuntary Manslaughter / Negligent Homicide', 'Responsible Corporate Officer Doctrine'],
       steps: [
         { step: 1, title: 'Investigate Individual Executives', description: 'Open a formal investigation into Muilenburg, the VP of engineering who oversaw the 737 program, and the executives who made the decision to lobby against grounding after Lion Air. Use the DPA violation as grounds for expanding the investigation beyond the original scope.', estimatedTime: '12-18 months' },
-        { step: 2, title: 'Pursue Manslaughter Charges', description: 'Present involuntary manslaughter charges to a grand jury for the 157 deaths on Ethiopian Airlines Flight 302 -- the second crash that occurred because Boeing resisted grounding after the first. The decision not to ground was a conscious choice that a reasonable person would know risked additional deaths.', legalBasis: ['18 U.S.C. Section 1112', 'State manslaughter statutes'], estimatedTime: '6-12 months' },
+        { step: 2, title: 'Pursue Manslaughter Charges', description: 'Present involuntary manslaughter charges to a grand jury for the 157 deaths on Ethiopian Airlines Flight 302, the second crash that occurred because Boeing resisted grounding after the first. The decision not to ground was a conscious choice that a reasonable person would know risked additional deaths.', legalBasis: ['18 U.S.C. Section 1112', 'State manslaughter statutes'], estimatedTime: '6-12 months' },
         { step: 3, title: 'Investigate Whistleblower Deaths', description: 'Open a formal investigation into the circumstances surrounding the death of Boeing whistleblower John Barnett, who was found dead during deposition testimony in his retaliation case. Ensure the investigation is conducted by agents with no connections to Boeing or the FAA.', estimatedTime: '6-12 months' },
       ],
     },

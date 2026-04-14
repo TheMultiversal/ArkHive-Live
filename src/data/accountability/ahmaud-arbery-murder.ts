@@ -83,34 +83,34 @@ export const ahmaudArberyAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Complete repeal of citizen\'s arrest laws in all remaining states where they can be weaponized for racial vigilantism -- Georgia repealed theirs because of Ahmaud Arbery, but similar laws remain on the books across the country',
-    'Mandatory independent prosecution protocols in every jurisdiction requiring automatic appointment of outside prosecutors when suspects have any connection to the DA\'s office -- the 74-day delay in Arbery\'s case was caused by prosecutorial conflicts of interest',
-    'Criminal prosecution of Jackie Johnson (former Brunswick DA) completed -- she was indicted for violating her oath of office in recusing too slowly and directing police not to arrest the McMichaels',
-    'Federal legislation mandating that when local prosecution fails due to conflicts of interest, federal authorities must step in within 30 days -- the 74-day gap between murder and arrest should never be repeated',
-    'Comprehensive documentation of every case where prosecutorial connections to law enforcement delayed or prevented prosecution of civilian killings -- the Arbery case is not unique, it is just the one that was filmed',
-    'Mandatory body cameras and dashcams for all law enforcement with tamper-proof cloud storage -- the only reason justice came in the Arbery case was that William Bryan filmed the murder on his phone',
-    'Georgia hate crime law fully enforced as a model for federal legislation -- Georgia had no hate crime law until 2020, after Arbery\'s murder. Every state must have hate crime legislation with enhancement provisions',
-    'A permanent memorial and annual recognition for Ahmaud Arbery and all victims of racial vigilantism -- the right to exist in public space without being hunted is not negotiable',
+    'Complete repeal of citizen\'s arrest laws in all remaining states where they can be weaponized for racial vigilantism, Georgia repealed theirs because of Ahmaud Arbery, but similar laws remain on the books across the country',
+    'Mandatory independent prosecution protocols in every jurisdiction requiring automatic appointment of outside prosecutors when suspects have any connection to the DA\'s office, the 74-day delay in Arbery\'s case was caused by prosecutorial conflicts of interest',
+    'Criminal prosecution of Jackie Johnson (former Brunswick DA) completed, she was indicted for violating her oath of office in recusing too slowly and directing police not to arrest the McMichaels',
+    'Federal legislation mandating that when local prosecution fails due to conflicts of interest, federal authorities must step in within 30 days, the 74-day gap between murder and arrest should never be repeated',
+    'Comprehensive documentation of every case where prosecutorial connections to law enforcement delayed or prevented prosecution of civilian killings, the Arbery case is not unique, it is just the one that was filmed',
+    'Mandatory body cameras and dashcams for all law enforcement with tamper-proof cloud storage, the only reason justice came in the Arbery case was that William Bryan filmed the murder on his phone',
+    'Georgia hate crime law fully enforced as a model for federal legislation, Georgia had no hate crime law until 2020, after Arbery\'s murder. Every state must have hate crime legislation with enhancement provisions',
+    'A permanent memorial and annual recognition for Ahmaud Arbery and all victims of racial vigilantism, the right to exist in public space without being hunted is not negotiable',
   ],
 
   actionPaths: [
     {
       role: 'citizen',
-      overview: 'Ahmaud Arbery was murdered for jogging while Black. Three men chased him down and killed him. No arrests for 74 days -- until video leaked.',
+      overview: 'Ahmaud Arbery was murdered for jogging while Black. Three men chased him down and killed him. No arrests for 74 days, until video leaked.',
       urgency: 'high',
       relevantMechanisms: ['Georgia Citizen\'s Arrest Repeal', 'Federal Hate Crime'],
       steps: [
         {
           step: 1,
           title: 'Support Anti-Vigilante Laws',
-          description: 'Contact representatives to support repeal of citizen\'s arrest laws in remaining states that still have them. Georgia repealed its Civil War-era citizen\'s arrest law because of Ahmaud Arbery -- push for the same reform in your state.',
+          description: 'Contact representatives to support repeal of citizen\'s arrest laws in remaining states that still have them. Georgia repealed its Civil War-era citizen\'s arrest law because of Ahmaud Arbery, push for the same reform in your state.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your state legislators; state judiciary committee',
         },
         {
           step: 2,
           title: 'Demand Independent Prosecution',
-          description: 'Advocate for mandatory independent prosecution when suspects have connections to law enforcement or the DA\'s office. The Arbery case went through three DAs before action was taken -- all because of relationships with the McMichael family.',
+          description: 'Advocate for mandatory independent prosecution when suspects have connections to law enforcement or the DA\'s office. The Arbery case went through three DAs before action was taken, all because of relationships with the McMichael family.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your state attorney general; state bar association',
         },
@@ -212,19 +212,19 @@ export const ahmaudArberyAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Eliminate Preferential Treatment',
-          description: 'Implement strict policies preventing preferential treatment for suspects with law enforcement connections. Gregory McMichael was a retired investigator in the DA\'s office -- that relationship delayed justice for 74 days.',
+          description: 'Implement strict policies preventing preferential treatment for suspects with law enforcement connections. Gregory McMichael was a retired investigator in the DA\'s office, that relationship delayed justice for 74 days.',
           estimatedTime: 'Immediate',
         },
         {
           step: 2,
           title: 'Mandatory Evidence-Based Arrest Protocols',
-          description: 'Establish protocols requiring arrest based on probable cause regardless of suspect\'s connections. When three armed men chase and kill an unarmed jogger on camera, probable cause for arrest exists immediately -- not 74 days later.',
+          description: 'Establish protocols requiring arrest based on probable cause regardless of suspect\'s connections. When three armed men chase and kill an unarmed jogger on camera, probable cause for arrest exists immediately, not 74 days later.',
           estimatedTime: '3-6 months',
         },
         {
           step: 3,
           title: 'Video Evidence Preservation',
-          description: 'Implement mandatory immediate collection and preservation of all video evidence in homicide cases. The Arbery video was nearly suppressed -- ensure that evidence collection is systematic and tamper-proof.',
+          description: 'Implement mandatory immediate collection and preservation of all video evidence in homicide cases. The Arbery video was nearly suppressed, ensure that evidence collection is systematic and tamper-proof.',
           estimatedTime: '3-6 months',
         },
       ],
@@ -238,7 +238,7 @@ export const ahmaudArberyAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Conflict of Interest Standards',
-          description: 'Mandate automatic recusal and independent appointment when any conflict exists between DA offices and suspects. The standard should be prophylactic -- even the appearance of conflict should trigger independent appointment.',
+          description: 'Mandate automatic recusal and independent appointment when any conflict exists between DA offices and suspects. The standard should be prophylactic, even the appearance of conflict should trigger independent appointment.',
           estimatedTime: '6 months',
         },
         {
@@ -250,7 +250,7 @@ export const ahmaudArberyAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'State Bar Enforcement',
-          description: 'State bar associations should investigate and sanction prosecutors who fail to recuse in cases with clear conflicts of interest. The Arbery case involved multiple DAs with conflicts -- bar enforcement must be proactive, not reactive.',
+          description: 'State bar associations should investigate and sanction prosecutors who fail to recuse in cases with clear conflicts of interest. The Arbery case involved multiple DAs with conflicts, bar enforcement must be proactive, not reactive.',
           estimatedTime: 'Ongoing',
         },
       ],

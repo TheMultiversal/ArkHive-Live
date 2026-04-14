@@ -164,16 +164,16 @@ export const trumpOrgAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Full enforcement and collection of the $464 million civil fraud judgment including interest -- no modifications, no reductions, no political interference in enforcement',
+    'Full enforcement and collection of the $464 million civil fraud judgment including interest, no modifications, no reductions, no political interference in enforcement',
     'Sentencing in the 34-count felony falsifying business records conviction that reflects the gravity of the crimes and applies the same standards as any non-political defendant',
-    'Comprehensive state tax fraud investigation examining decades of dual-valuation schemes -- inflating values for loans while deflating for taxes',
+    'Comprehensive state tax fraud investigation examining decades of dual-valuation schemes, inflating values for loans while deflating for taxes',
     'Independent monitor\'s full accounting of Trump Organization assets, valuations, and financial statements with public reporting of findings',
-    'Personal criminal liability for all executives who signed or certified fraudulent financial statements -- not just entity-level penalties',
+    'Personal criminal liability for all executives who signed or certified fraudulent financial statements, not just entity-level penalties',
     'Deutsche Bank investigation into whether the bank knowingly accepted inflated valuations and failed to conduct adequate due diligence on Trump Organization loans',
-    'Complete dissolution of the business registration fraud -- permanent ban on principals from serving as officers or directors of New York corporations as ordered by the court',
+    'Complete dissolution of the business registration fraud, permanent ban on principals from serving as officers or directors of New York corporations as ordered by the court',
     'Legislation clarifying that sitting presidents and former presidents face the same criminal prosecution standards as any citizen in state courts',
-    'Public database of all fraudulent financial statements submitted to banks, insurance companies, and tax authorities -- establishing the complete scope of the decadeslong scheme',
-    'IRS criminal referral for tax fraud based on the discrepancy between property valuations used for loans vs. tax filings -- tax fraud has no statute of limitations',
+    'Public database of all fraudulent financial statements submitted to banks, insurance companies, and tax authorities, establishing the complete scope of the decadeslong scheme',
+    'IRS criminal referral for tax fraud based on the discrepancy between property valuations used for loans vs. tax filings, tax fraud has no statute of limitations',
   ],
 
 
@@ -199,7 +199,7 @@ export const trumpOrgAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'Report Financial Fraud Indicators',
-          description: 'If you have knowledge of Trump Organization financial fraud -- whether as a former employee, contractor, or business partner -- report to the NY AG or Manhattan DA. Whistleblower protections apply.',
+          description: 'If you have knowledge of Trump Organization financial fraud, whether as a former employee, contractor, or business partner, report to the NY AG or Manhattan DA. Whistleblower protections apply.',
           filingTarget: 'NY AG: ag.ny.gov/report-complaint | Manhattan DA: manhattanda.org/report-a-crime',
           estimatedTime: '30 minutes',
         },

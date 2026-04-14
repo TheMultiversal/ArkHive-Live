@@ -185,16 +185,16 @@ export const ciaTortureAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Full declassification of the 6,700-page Senate Torture Report -- the American people have a right to know the complete scope of what was done in their name',
-    'Criminal prosecution under the Federal Torture Statute and War Crimes Act for the death of Gul Rahman at the Salt Pit -- no statute of limitations applies to torture resulting in death',
-    'Impeachment of Judge Jay Bybee for his role in authorizing torture through the OLC memos -- his legal opinions were not analysis but instruments designed to facilitate crime',
+    'Full declassification of the 6,700-page Senate Torture Report, the American people have a right to know the complete scope of what was done in their name',
+    'Criminal prosecution under the Federal Torture Statute and War Crimes Act for the death of Gul Rahman at the Salt Pit, no statute of limitations applies to torture resulting in death',
+    'Impeachment of Judge Jay Bybee for his role in authorizing torture through the OLC memos, his legal opinions were not analysis but instruments designed to facilitate crime',
     'Full accounting of all CIA black site locations, host government cooperation agreements, and the treatment of every detainee who passed through the program',
-    'Revocation of professional licenses for psychologists who designed the torture program and lawyers who authorized it -- James Mitchell and Bruce Jessen received $81 million for designing torture techniques',
+    'Revocation of professional licenses for psychologists who designed the torture program and lawyers who authorized it, James Mitchell and Bruce Jessen received $81 million for designing torture techniques',
     'Criminal referral of CIA officials who destroyed 92 interrogation videotapes in direct defiance of court orders and congressional requests',
     'Formal government apology and compensation for torture victims including Abu Zubaydah, who has been held for 20+ years without charge based on intelligence obtained through torture',
-    'Permanent statutory prohibition on enhanced interrogation techniques with no executive waiver authority -- closing the loopholes that the OLC memos exploited',
-    'Investigation and accountability for the CIA officers who lied to Congress about the torture program\'s effectiveness -- the Senate report documented that the CIA systematically misrepresented results',
-    'Prosecution of John Kiriakou\'s treatment as a whistleblower -- the only person imprisoned in connection with the torture program was the man who exposed it, not anyone who committed torture',
+    'Permanent statutory prohibition on enhanced interrogation techniques with no executive waiver authority, closing the loopholes that the OLC memos exploited',
+    'Investigation and accountability for the CIA officers who lied to Congress about the torture program\'s effectiveness, the Senate report documented that the CIA systematically misrepresented results',
+    'Prosecution of John Kiriakou\'s treatment as a whistleblower, the only person imprisoned in connection with the torture program was the man who exposed it, not anyone who committed torture',
   ],
 
 

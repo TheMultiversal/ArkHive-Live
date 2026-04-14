@@ -34,14 +34,14 @@ export const civilRightsAccountability: AccountabilityData = {
     { name: 'Congress', title: 'U.S. Congress', jurisdiction: 'Legislation and investigation', powers: ['Fund cold case investigations', 'Pass reparations study (H.R. 40)', 'Establish truth commission'] },
   ],
   successCriteria: [
-    'Full funding and reauthorization of the Emmett Till Unsolved Civil Rights Crime Act with dedicated FBI investigative resources -- the current effort has been chronically underfunded and most cases were closed without resolution',
+    'Full funding and reauthorization of the Emmett Till Unsolved Civil Rights Crime Act with dedicated FBI investigative resources, the current effort has been chronically underfunded and most cases were closed without resolution',
     'Federal truth and reconciliation commission established by Congress to document the full scope of civil rights era violence: every known murder, every identified perpetrator (living and dead), every institutional failure, and every community impacted',
-    'H.R. 40 passage -- the Commission to Study and Develop Reparation Proposals for African Americans, establishing a formal federal commission to study the impact of slavery and Jim Crow and propose remedies including reparations',
-    'Complete declassification and public release of all COINTELPRO files and related FBI domestic intelligence documents -- the full scope of the FBI\'s war on the civil rights movement must be part of the permanent historical record',
-    'Prosecution of every civil rights era cold case where living suspects can be identified and evidence supports charges -- there is no statute of limitations on murder, and justice delayed should not be justice denied',
-    'Permanent, publicly accessible national memorial and digital archive documenting every known victim of racial violence from Reconstruction through the present -- building on the National Memorial for Peace and Justice in Montgomery',
+    'H.R. 40 passage, the Commission to Study and Develop Reparation Proposals for African Americans, establishing a formal federal commission to study the impact of slavery and Jim Crow and propose remedies including reparations',
+    'Complete declassification and public release of all COINTELPRO files and related FBI domestic intelligence documents, the full scope of the FBI\'s war on the civil rights movement must be part of the permanent historical record',
+    'Prosecution of every civil rights era cold case where living suspects can be identified and evidence supports charges, there is no statute of limitations on murder, and justice delayed should not be justice denied',
+    'Permanent, publicly accessible national memorial and digital archive documenting every known victim of racial violence from Reconstruction through the present, building on the National Memorial for Peace and Justice in Montgomery',
     'Federal investment in communities targeted by civil rights era violence and systemic discrimination: directed economic development, educational investment, housing assistance, and health services addressing generational trauma',
-    'Formal acknowledgment by the United States government of its role in perpetrating, facilitating, and tolerating racial violence from slavery through COINTELPRO -- without acknowledgment, reconciliation is impossible',
+    'Formal acknowledgment by the United States government of its role in perpetrating, facilitating, and tolerating racial violence from slavery through COINTELPRO, without acknowledgment, reconciliation is impossible',
   ],
 
   actionPaths: [
@@ -54,7 +54,7 @@ export const civilRightsAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Support H.R. 40',
-          description: 'Contact your representative to support H.R. 40 -- the Commission to Study and Develop Reparation Proposals for African Americans Act. This commission would study the legacy of slavery and Jim Crow and recommend remedies. It is a study commission, not a spending bill -- and even that has been blocked for decades.',
+          description: 'Contact your representative to support H.R. 40, the Commission to Study and Develop Reparation Proposals for African Americans Act. This commission would study the legacy of slavery and Jim Crow and recommend remedies. It is a study commission, not a spending bill, and even that has been blocked for decades.',
           estimatedTime: '20 minutes',
           filingTarget: 'Your House representative; House Judiciary Committee',
           templateText: 'Dear [Representative],\n\nEmmett Till was tortured and murdered at age 14 over a lie. The FBI ran COINTELPRO against Dr. King. Children were bombed at 16th Street Baptist Church. Most perpetrators were never punished. The racial wealth gap ($171,000 vs. $17,600 median household wealth) is the direct economic legacy.\n\nI urge you to:\n1. Support H.R. 40 for a reparations study commission\n2. Fully fund the Emmett Till Unsolved Civil Rights Crime Act\n3. Support establishment of a truth and reconciliation commission\n\nAcknowledgment is the first step toward repair.\n\nSincerely,\n[Your Name]',
@@ -82,8 +82,8 @@ export const civilRightsAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Document Living Memory',
-          description: 'Interview surviving witnesses and family members of civil rights era crimes before they pass. Create oral history archives with video, audio, and written testimony. Living witnesses from the 1950s and 1960s are in their 80s and 90s -- this work is urgent.',
-          estimatedTime: 'Ongoing -- urgent due to age of witnesses',
+          description: 'Interview surviving witnesses and family members of civil rights era crimes before they pass. Create oral history archives with video, audio, and written testimony. Living witnesses from the 1950s and 1960s are in their 80s and 90s, this work is urgent.',
+          estimatedTime: 'Ongoing, urgent due to age of witnesses',
         },
         {
           step: 2,
@@ -94,7 +94,7 @@ export const civilRightsAccountability: AccountabilityData = {
         {
           step: 3,
           title: 'COINTELPRO Documentation',
-          description: 'Compile and publish a comprehensive, accessible account of FBI COINTELPRO operations against the civil rights movement. The documentary evidence exists in declassified files -- it needs to be made into a public-facing narrative that Americans can engage with.',
+          description: 'Compile and publish a comprehensive, accessible account of FBI COINTELPRO operations against the civil rights movement. The documentary evidence exists in declassified files, it needs to be made into a public-facing narrative that Americans can engage with.',
           estimatedTime: '6-12 months',
         },
       ],
@@ -137,7 +137,7 @@ export const civilRightsAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'H.R. 40 Passage',
-          description: 'Pass H.R. 40 to establish a commission studying the impact of slavery and Jim Crow and developing reparation proposals. After decades of introduction without a vote, bring it to the floor. The commission is a study -- opposing even studying the issue is indefensible.',
+          description: 'Pass H.R. 40 to establish a commission studying the impact of slavery and Jim Crow and developing reparation proposals. After decades of introduction without a vote, bring it to the floor. The commission is a study, opposing even studying the issue is indefensible.',
           estimatedTime: '6-12 months legislative timeline',
         },
         {
@@ -189,13 +189,13 @@ export const civilRightsAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Audit FBI Domestic Intelligence',
-          description: 'Mandate independent audit of current FBI domestic intelligence operations to ensure COINTELPRO-style abuses are not recurring. The Church Committee exposed the abuses in 1975 -- but oversight has weakened. Report findings publicly.',
+          description: 'Mandate independent audit of current FBI domestic intelligence operations to ensure COINTELPRO-style abuses are not recurring. The Church Committee exposed the abuses in 1975, but oversight has weakened. Report findings publicly.',
           estimatedTime: '6-12 months',
         },
         {
           step: 2,
           title: 'Civil Rights Data Preservation',
-          description: 'Mandate permanent preservation of all civil rights era evidence, documents, and records held by federal, state, and local agencies. Some evidence has been lost or destroyed over decades -- what remains must be protected.',
+          description: 'Mandate permanent preservation of all civil rights era evidence, documents, and records held by federal, state, and local agencies. Some evidence has been lost or destroyed over decades, what remains must be protected.',
           estimatedTime: '6-12 months',
         },
         {

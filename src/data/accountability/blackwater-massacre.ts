@@ -183,16 +183,16 @@ export const blackwaterAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Civil wrongful death judgments against Blackwater/Academi/Constellis and Erik Prince personally for the 17 civilians murdered at Nisour Square -- pardons do not extinguish civil liability',
-    'Congressional investigation of the pardon process -- who lobbied for the pardons, what role did Erik Prince play, and what was the DOJ recommendation that was overridden',
-    'Legislation mandating UCMJ jurisdiction over all private military contractors operating in conflict zones -- closing the accountability gap that allowed Blackwater to operate outside military law',
-    'Investigation of all 195 Blackwater shooting incidents in Iraq -- Nisour Square was only one of hundreds of incidents, most never investigated',
+    'Civil wrongful death judgments against Blackwater/Academi/Constellis and Erik Prince personally for the 17 civilians murdered at Nisour Square, pardons do not extinguish civil liability',
+    'Congressional investigation of the pardon process, who lobbied for the pardons, what role did Erik Prince play, and what was the DOJ recommendation that was overridden',
+    'Legislation mandating UCMJ jurisdiction over all private military contractors operating in conflict zones, closing the accountability gap that allowed Blackwater to operate outside military law',
+    'Investigation of all 195 Blackwater shooting incidents in Iraq, Nisour Square was only one of hundreds of incidents, most never investigated',
     'Full financial accounting of Erik Prince\'s current private military operations through Frontier Services Group and other entities operating in Libya, Mozambique, UAE, and China',
     'Arms trafficking investigation into allegations of unauthorized Blackwater weapons transfers in violation of the Arms Export Control Act',
-    'Piercing the corporate veil of Blackwater/Xe/Academi/Constellis to reach Erik Prince\'s personal assets -- he renamed the company three times to evade accountability',
+    'Piercing the corporate veil of Blackwater/Xe/Academi/Constellis to reach Erik Prince\'s personal assets, he renamed the company three times to evade accountability',
     'International criminal court referral for the Nisour Square massacre and other contractor killings that constitute war crimes under international humanitarian law',
     'Transparent contracting requirements for all future private military engagements including mandatory incident reporting, independent investigation authority, and binding rules of engagement',
-    'Reparations for all Iraqi civilian victims of private military contractor violence -- not just Nisour Square but the full scope of contractor killings across the Iraq war',
+    'Reparations for all Iraqi civilian victims of private military contractor violence, not just Nisour Square but the full scope of contractor killings across the Iraq war',
   ],
 
 

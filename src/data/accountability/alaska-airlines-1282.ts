@@ -8,14 +8,14 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
   primaryTargets: [
     {
       name: 'Boeing Company',
-      role: 'Manufactured the 737 MAX 9 with four retaining bolts missing from the door plug. Boeing\'s factory quality control system failed to catch the defect despite multiple inspection points. The production culture prioritizing speed and cost over safety -- the same culture that killed 346 people in the MAX crashes -- remained fundamentally unchanged. Boeing was already operating under a deferred prosecution agreement (DPA) from the MAX crashes when Flight 1282 occurred.',
+      role: 'Manufactured the 737 MAX 9 with four retaining bolts missing from the door plug. Boeing\'s factory quality control system failed to catch the defect despite multiple inspection points. The production culture prioritizing speed and cost over safety, the same culture that killed 346 people in the MAX crashes, remained fundamentally unchanged. Boeing was already operating under a deferred prosecution agreement (DPA) from the MAX crashes when Flight 1282 occurred.',
       currentStatus: 'DOJ determined Boeing violated the 2021 DPA. Boeing pleaded guilty to conspiracy to defraud the FAA (July 2024). Sentenced to pay $243.6 million fine (equal to prior DPA fine), serve 3 years probation with an independent compliance monitor, and invest $455 million in compliance and safety programs. FAA imposed a production rate cap. NTSB investigation confirmed missing bolts were removed at Boeing\'s Renton factory.',
       accountabilityPath: 'Guilty plea and sentencing. FAA enforcement actions. Civil litigation by passengers. Congressional oversight. Shareholder derivative suits. Potential individual prosecution of managers who oversaw quality failures.',
-      obstacles: ['Too big to fail -- Boeing is one of two duopoly aircraft manufacturers and the largest U.S. defense contractor', 'Government reliance on Boeing for military aircraft', 'Plea deal allows Boeing to avoid trial', 'DPA framework produced minimal deterrence (Flight 1282 occurred under the DPA)', 'Corporate guilty plea without individual prosecution repeats the pattern'],
+      obstacles: ['Too big to fail, Boeing is one of two duopoly aircraft manufacturers and the largest U.S. defense contractor', 'Government reliance on Boeing for military aircraft', 'Plea deal allows Boeing to avoid trial', 'DPA framework produced minimal deterrence (Flight 1282 occurred under the DPA)', 'Corporate guilty plea without individual prosecution repeats the pattern'],
     },
     {
       name: 'Dave Calhoun (CEO 2020-2024)',
-      role: 'CEO during the period when the Flight 1282 aircraft was manufactured and when the DPA was supposedly reforming Boeing\'s safety culture. Calhoun received $33 million in total compensation in 2023 alone. Under his leadership, Boeing continued prioritizing financial metrics over manufacturing quality. Announced his "retirement" in March 2024 -- two months after the door plug blowout.',
+      role: 'CEO during the period when the Flight 1282 aircraft was manufactured and when the DPA was supposedly reforming Boeing\'s safety culture. Calhoun received $33 million in total compensation in 2023 alone. Under his leadership, Boeing continued prioritizing financial metrics over manufacturing quality. Announced his "retirement" in March 2024, two months after the door plug blowout.',
       currentStatus: 'Stepped down as CEO in August 2024. Received full retirement benefits and compensation. Never charged or personally sanctioned. The board allowed a graceful exit rather than a termination for cause.',
       accountabilityPath: 'Executive compensation clawback. Shareholder derivative action. Congressional testimony and public accountability. Criminal investigation of individual executive decisions that contributed to the quality failures.',
       obstacles: ['Board facilitated a "retirement" rather than termination', 'Executive employment agreements protect compensation', 'Difficult to prove individual criminal liability for systemic quality failures', 'Successor CEO (Kelly Ortberg) provides corporate distancing'],
@@ -23,13 +23,13 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
     {
       name: 'Boeing Quality Control Managers (Renton Factory)',
       role: 'Mid-level managers and quality inspectors at Boeing\'s 737 factory in Renton, Washington who failed to ensure the four door plug retaining bolts were reinstalled after maintenance work. NTSB found that the bolts were removed during rework to fix damaged rivets on the door plug, and Boeing had no documentation of the rework and no record of the bolts being reinstalled.',
-      currentStatus: 'NTSB could not identify the specific individuals responsible due to Boeing\'s inadequate documentation practices. No individual has been charged. The lack of documentation -- itself a safety violation -- paradoxically protects the individuals responsible.',
+      currentStatus: 'NTSB could not identify the specific individuals responsible due to Boeing\'s inadequate documentation practices. No individual has been charged. The lack of documentation, itself a safety violation, paradoxically protects the individuals responsible.',
       accountabilityPath: 'NTSB investigation may identify responsible individuals. DOJ investigation into individual conduct. FAA enforcement against Boeing\'s documentation failures.',
       obstacles: ['Inadequate documentation makes it impossible to identify exactly who removed the bolts and who was supposed to reinstall them', 'Workers report pressure to prioritize speed over documentation', 'Cultural problems are harder to prosecute than individual misconduct'],
     },
     {
       name: 'Spirit AeroSystems',
-      role: 'Boeing supplier that manufactured the 737 fuselage including the door plug area at its Wichita, Kansas facility. Spirit\'s quality control was also implicated in the door plug defect -- the rivets that required rework (which led to the bolt removal) were a Spirit manufacturing defect. Boeing subsequently agreed to reacquire Spirit AeroSystems for $4.7 billion.',
+      role: 'Boeing supplier that manufactured the 737 fuselage including the door plug area at its Wichita, Kansas facility. Spirit\'s quality control was also implicated in the door plug defect, the rivets that required rework (which led to the bolt removal) were a Spirit manufacturing defect. Boeing subsequently agreed to reacquire Spirit AeroSystems for $4.7 billion.',
       currentStatus: 'Boeing announced acquisition of Spirit AeroSystems in July 2024 for $4.7 billion, bringing the supply chain back in-house. Spirit had been spun off from Boeing in 2005 as a cost-cutting measure. The reacquisition tacitly acknowledges that outsourcing critical fuselage manufacturing compromised quality.',
       accountabilityPath: 'Quality control investigation at Spirit. Integration of Spirit manufacturing under Boeing\'s (presumably improved) quality framework. Accountability for Spirit management who oversaw defective manufacturing.',
       obstacles: ['Acquisition may shield Spirit from independent accountability', 'Supplier quality problems are treated as commercial disputes rather than safety violations', 'Spirit workers may face retaliation for speaking up'],
@@ -67,7 +67,7 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
     {
       name: 'Products Liability',
       statute: 'Restatement (Third) of Torts: Products Liability; State strict liability',
-      description: 'Boeing is strictly liable for manufacturing defects in its aircraft. The missing bolts constitute a clear manufacturing defect -- the aircraft deviated from its intended design. Strict liability does not require proving negligence; the defect itself establishes liability. All 177 passengers and crew have potential personal injury claims.',
+      description: 'Boeing is strictly liable for manufacturing defects in its aircraft. The missing bolts constitute a clear manufacturing defect, the aircraft deviated from its intended design. Strict liability does not require proving negligence; the defect itself establishes liability. All 177 passengers and crew have potential personal injury claims.',
       hasStatuteOfLimitations: true,
       limitationPeriod: '2-6 years depending on state',
       reachesHeirs: true,
@@ -94,12 +94,12 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['Boeing shareholders', 'Institutional investors'],
       applicability: 'directly_applicable',
-      notes: 'A prior shareholder derivative suit related to the MAX crashes resulted in a $237.5 million settlement in 2021 -- one of the largest officer/director settlements in history.',
+      notes: 'A prior shareholder derivative suit related to the MAX crashes resulted in a $237.5 million settlement in 2021, one of the largest officer/director settlements in history.',
     },
     {
       name: 'Involuntary Manslaughter / Reckless Endangerment',
       statute: '18 U.S.C. Section 1112 (federal); Washington State RCW 9A.32.060',
-      description: 'If individual managers knowingly overrode safety protocols or suppressed quality concerns, involuntary manslaughter or reckless endangerment charges may be appropriate. While no one died on Flight 1282, the conduct that caused the door plug blowout -- removing safety-critical bolts and not reinstalling them -- could have killed everyone on board.',
+      description: 'If individual managers knowingly overrode safety protocols or suppressed quality concerns, involuntary manslaughter or reckless endangerment charges may be appropriate. While no one died on Flight 1282, the conduct that caused the door plug blowout, removing safety-critical bolts and not reinstalling them, could have killed everyone on board.',
       hasStatuteOfLimitations: true,
       limitationPeriod: '5 years (federal)',
       reachesHeirs: false,
@@ -128,7 +128,7 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
     {
       name: 'Spirit AeroSystems Acquisition',
       relationship: 'Boeing paying $4.7 billion to reacquire the supply chain it should never have outsourced',
-      transferMethod: 'Boeing spun off Spirit AeroSystems in 2005 as a cost-cutting measure. Spirit manufactured the 737 fuselage including the door plug area. After Flight 1282 exposed the quality problems created by outsourcing, Boeing agreed to reacquire Spirit for $4.7 billion -- effectively paying billions to fix a problem Boeing created by prioritizing cost reduction over quality control.',
+      transferMethod: 'Boeing spun off Spirit AeroSystems in 2005 as a cost-cutting measure. Spirit manufactured the 737 fuselage including the door plug area. After Flight 1282 exposed the quality problems created by outsourcing, Boeing agreed to reacquire Spirit for $4.7 billion, effectively paying billions to fix a problem Boeing created by prioritizing cost reduction over quality control.',
       estimatedValue: '$4.7 billion acquisition cost; billions more in integration costs',
       legalEntities: ['Spirit AeroSystems Holdings (NYSE: SPR)', 'Onex Partners (sold Spirit in 2014 IPO)'],
       recoveryMechanisms: ['The acquisition itself is a form of (very expensive) remediation, not recovery'],
@@ -169,10 +169,10 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
   ],
 
   successCriteria: [
-    'Individual criminal prosecution of Boeing managers who directed or permitted the safety shortcuts that caused the door plug blowout -- corporate guilty pleas without individual accountability perpetuate the cycle',
-    'Complete reform of the ODA self-certification system so that Boeing no longer certifies the safety of its own aircraft -- the fox cannot guard the henhouse',
-    'Full executive compensation clawback from Dave Calhoun and other senior leaders who received tens of millions while safety deteriorated -- $33 million in CEO pay during a year of continuing safety failures is indefensible',
-    'Thorough, independent investigation of John Barnett\'s death during his whistleblower lawsuit -- the circumstances demand scrutiny and the public answer must be definitive',
+    'Individual criminal prosecution of Boeing managers who directed or permitted the safety shortcuts that caused the door plug blowout, corporate guilty pleas without individual accountability perpetuate the cycle',
+    'Complete reform of the ODA self-certification system so that Boeing no longer certifies the safety of its own aircraft, the fox cannot guard the henhouse',
+    'Full executive compensation clawback from Dave Calhoun and other senior leaders who received tens of millions while safety deteriorated, $33 million in CEO pay during a year of continuing safety failures is indefensible',
+    'Thorough, independent investigation of John Barnett\'s death during his whistleblower lawsuit, the circumstances demand scrutiny and the public answer must be definitive',
     'Meaningful FAA-employed inspection presence on Boeing production lines, funded by adequate Congressional appropriations, replacing the industry-employed designee system',
     'Full civil compensation for all 177 passengers and crew on Flight 1282, including punitive damages proportional to Boeing\'s $43 billion in buybacks and pattern of prioritizing profit over safety',
     'Permanent prohibition on stock buybacks by any company operating under an FAA production certificate, deferred prosecution agreement, or federal safety probation',
@@ -245,7 +245,7 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
           step: 1,
           title: 'Passenger Personal Injury Claims',
           description: 'Represent Flight 1282 passengers in strict liability and negligence claims against Boeing. The missing bolts constitute a clear manufacturing defect. Pursue both compensatory and punitive damages proportional to Boeing\'s pattern of safety failures.',
-          legalBasis: ['Strict products liability -- manufacturing defect', 'Negligence -- failure to maintain quality control', 'Punitive damages -- pattern of conscious disregard for safety'],
+          legalBasis: ['Strict products liability, manufacturing defect', 'Negligence, failure to maintain quality control', 'Punitive damages, pattern of conscious disregard for safety'],
           estimatedTime: '12-24 months',
         },
         {
@@ -258,7 +258,7 @@ export const alaskaAirlines1282Accountability: AccountabilityData = {
         {
           step: 3,
           title: 'Shareholder Derivative Action',
-          description: 'Bring derivative claims against Boeing directors and officers for breach of fiduciary duty -- specifically, failure to ensure adequate safety oversight during the DPA period. The prior MAX shareholder case settled for $237.5 million; the Flight 1282 case involves even more egregious board failures.',
+          description: 'Bring derivative claims against Boeing directors and officers for breach of fiduciary duty, specifically, failure to ensure adequate safety oversight during the DPA period. The prior MAX shareholder case settled for $237.5 million; the Flight 1282 case involves even more egregious board failures.',
           legalBasis: ['Delaware duty of oversight (Caremark)', 'Boeing bylaws', 'Prior $237.5M settlement as precedent'],
           estimatedTime: '2-4 years',
         },

@@ -3,7 +3,7 @@ import type { AccountabilityData } from '@/types/accountability';
 export const bearStearnsAccountability: AccountabilityData = {
   investigationSlug: 'bear-stearns-2008-collapse',
 
-  crimeSummary: 'Bear Stearns, the fifth-largest U.S. investment bank, collapsed in March 2008 after decades of reckless mortgage-backed securities trading, excessive leverage (33:1 ratio), and fraudulent misrepresentation of asset quality. Two Bear Stearns hedge fund managers -- Ralph Cioffi and Matthew Tannin -- ran the Bear Stearns High-Grade Structured Credit Strategies Fund and its Enhanced Leverage companion fund, which collectively lost $1.6 billion in investor money. Internal emails showed Cioffi and Tannin privately described the subprime market as a "sinking ship" while publicly reassuring investors. When Bear Stearns collapsed on March 14, 2008, the Federal Reserve orchestrated an emergency sale to JPMorgan Chase at $2 per share (later raised to $10) -- down from $172 one year earlier. The Fed provided $29 billion in guarantees to JPMorgan to absorb Bear\'s toxic assets through Maiden Lane LLC, socializing the losses while privatizing the salvageable business. No senior Bear Stearns executive was ever criminally convicted. Cioffi and Tannin were acquitted at trial in November 2009. The SEC settled civil charges against them for $1 million combined -- a fraction of the losses they oversaw.',
+  crimeSummary: 'Bear Stearns, the fifth-largest U.S. investment bank, collapsed in March 2008 after decades of reckless mortgage-backed securities trading, excessive leverage (33:1 ratio), and fraudulent misrepresentation of asset quality. Two Bear Stearns hedge fund managers, Ralph Cioffi and Matthew Tannin, ran the Bear Stearns High-Grade Structured Credit Strategies Fund and its Enhanced Leverage companion fund, which collectively lost $1.6 billion in investor money. Internal emails showed Cioffi and Tannin privately described the subprime market as a "sinking ship" while publicly reassuring investors. When Bear Stearns collapsed on March 14, 2008, the Federal Reserve orchestrated an emergency sale to JPMorgan Chase at $2 per share (later raised to $10), down from $172 one year earlier. The Fed provided $29 billion in guarantees to JPMorgan to absorb Bear\'s toxic assets through Maiden Lane LLC, socializing the losses while privatizing the salvageable business. No senior Bear Stearns executive was ever criminally convicted. Cioffi and Tannin were acquitted at trial in November 2009. The SEC settled civil charges against them for $1 million combined, a fraction of the losses they oversaw.',
 
   totalHarm: 'Bear Stearns shareholders lost approximately $25 billion in market value. The two hedge funds lost $1.6 billion in investor capital. Approximately 14,000 Bear Stearns employees lost their jobs or were absorbed into JPMorgan at reduced compensation. Taxpayers bore $29 billion in risk through the Maiden Lane LLC facility. Bear Stearns\' collapse was the first domino in the 2008 financial crisis, which destroyed $17.5 trillion in household wealth, caused 10 million home foreclosures, and pushed unemployment to 10%. Bear Stearns\' CDO operations directly packaged fraudulent mortgage securities that were sold to pension funds, municipalities, and individual investors worldwide.',
 
@@ -19,7 +19,7 @@ export const bearStearnsAccountability: AccountabilityData = {
     },
     {
       name: 'Alan Schwartz',
-      role: 'CEO of Bear Stearns (January-May 2008). On March 12, 2008 -- two days before the collapse -- Schwartz appeared on CNBC and stated "our balance sheet, our liquidity, our capital are all fine." The firm was insolvent within 48 hours. Schwartz negotiated the JPMorgan sale and received $38.5 million in compensation in his final year.',
+      role: 'CEO of Bear Stearns (January-May 2008). On March 12, 2008, two days before the collapse, Schwartz appeared on CNBC and stated "our balance sheet, our liquidity, our capital are all fine." The firm was insolvent within 48 hours. Schwartz negotiated the JPMorgan sale and received $38.5 million in compensation in his final year.',
       currentStatus: 'No charges ever filed. Became executive chairman of Guggenheim Partners, one of the largest asset management firms in the U.S. (over $300 billion AUM). Has been rehabilitated by the financial industry without any accountability.',
       accountabilityPath: 'Civil fraud claims for his March 12 CNBC statements (material misrepresentation to investors who continued to hold stock based on his assurances). Disgorgement of final-year compensation. State securities fraud actions in New York where the statements were made and the firm was headquartered.',
       obstacles: ['Statute of limitations likely expired', 'Can argue he believed statements when made', 'Financial industry rallied around former executives', 'No political will for prosecution'],
@@ -29,14 +29,14 @@ export const bearStearnsAccountability: AccountabilityData = {
       role: 'Senior Managing Director, Bear Stearns Asset Management. Managed the Bear Stearns High-Grade Structured Credit Strategies Fund. Internal emails from March 2007 show Cioffi writing to a colleague: "I\'m fearful of these markets. Matt said it\'s either a meltdown or the greatest buying opportunity ever. I\'m leaning towards the former." Despite this, he continued to reassure investors and even invested in a separate fund to secretly reduce his exposure.',
       currentStatus: 'Acquitted of all charges at trial in November 2009. Settled SEC civil charges for $800,000 (a fraction of his compensation). Returned to finance at a small firm.',
       accountabilityPath: 'Criminal retrial barred by double jeopardy. The civil settlement was trivially small. Unjust enrichment claims for compensation earned while defrauding investors could still be pursued in some jurisdictions.',
-      obstacles: ['Acquitted -- double jeopardy bars criminal retrial', 'SEC civil case settled', 'Jury found private doubts insufficient for criminal fraud'],
+      obstacles: ['Acquitted, double jeopardy bars criminal retrial', 'SEC civil case settled', 'Jury found private doubts insufficient for criminal fraud'],
     },
     {
       name: 'Matthew Tannin',
       role: 'Senior Managing Director and co-manager of the Bear Stearns hedge funds. Wrote in a private email in April 2007: "the subprime market looks pretty damn ugly... if we believe [the CDO pricing report] then the entire subprime market is toast." The funds collapsed two months later, losing $1.6 billion.',
       currentStatus: 'Acquitted alongside Cioffi in November 2009. Settled SEC civil charges for $250,000. The combined $1.05 million settlement between both managers was less than 0.07% of the $1.6 billion investors lost.',
-      accountabilityPath: 'Same as Cioffi -- criminal retrial barred. Civil settlements closed most federal avenues. State-level fraud claims in New York remain theoretically available if statute of limitations tolling can be established.',
-      obstacles: ['Acquitted -- double jeopardy bars retrial', 'SEC civil case settled', 'Statute of limitations barriers at state level'],
+      accountabilityPath: 'Same as Cioffi, criminal retrial barred. Civil settlements closed most federal avenues. State-level fraud claims in New York remain theoretically available if statute of limitations tolling can be established.',
+      obstacles: ['Acquitted, double jeopardy bars retrial', 'SEC civil case settled', 'Statute of limitations barriers at state level'],
     },
     {
       name: 'Warren Spector',
@@ -49,7 +49,7 @@ export const bearStearnsAccountability: AccountabilityData = {
       name: 'JPMorgan Chase / Jamie Dimon',
       role: 'Acquired Bear Stearns at a fire-sale price ($10/share vs. $172 one year prior) with $29 billion in Federal Reserve guarantees through Maiden Lane LLC. JPMorgan acquired Bear Stearns\' prime brokerage business, real estate, and client relationships at a massive discount while the Fed absorbed the worst toxic assets. JPMorgan paid $13 billion in a 2013 settlement for mortgage-backed securities fraud, including Bear Stearns legacy liabilities.',
       currentStatus: 'JPMorgan is the largest bank in the United States ($4+ trillion in assets). The Bear Stearns acquisition was enormously profitable once markets recovered. The $13 billion 2013 settlement included no admission of wrongdoing.',
-      accountabilityPath: 'The structure of the deal -- private profit, public risk -- is itself an accountability failure. Investigation into whether JPMorgan\'s due diligence revealed greater fraud than was disclosed to the Fed when negotiating the Maiden Lane terms. Shareholder derivative actions regarding the $13 billion settlement amount relative to total profits from acquired business.',
+      accountabilityPath: 'The structure of the deal, private profit, public risk, is itself an accountability failure. Investigation into whether JPMorgan\'s due diligence revealed greater fraud than was disclosed to the Fed when negotiating the Maiden Lane terms. Shareholder derivative actions regarding the $13 billion settlement amount relative to total profits from acquired business.',
       obstacles: ['Settlement resolved most legal exposure', '"Too big to fail" doctrine protects from aggressive prosecution', 'Political influence and lobbying resources'],
     },
     {
@@ -82,7 +82,7 @@ export const bearStearnsAccountability: AccountabilityData = {
       reachesHeirs: false,
       authorizedActors: ['DOJ', 'FBI'],
       applicability: 'directly_applicable',
-      notes: 'Wire fraud was not the primary charge in the Cioffi/Tannin case but could have been pursued more aggressively. Schwartz\'s March 12, 2008 CNBC statements -- "our balance sheet, our liquidity, our capital are all fine" -- made 48 hours before insolvency could constitute wire fraud if intent to deceive can be established.',
+      notes: 'Wire fraud was not the primary charge in the Cioffi/Tannin case but could have been pursued more aggressively. Schwartz\'s March 12, 2008 CNBC statements, "our balance sheet, our liquidity, our capital are all fine", made 48 hours before insolvency could constitute wire fraud if intent to deceive can be established.',
     },
     {
       name: 'Sarbanes-Oxley Certifications',
@@ -152,7 +152,7 @@ export const bearStearnsAccountability: AccountabilityData = {
   wealthTrace: [
     {
       name: 'James Cayne Estate',
-      relationship: 'Former CEO and Chairman -- primary architect of the risk culture',
+      relationship: 'Former CEO and Chairman, primary architect of the risk culture',
       transferMethod: 'Cayne accumulated approximately $1 billion in Bear Stearns stock during his tenure. While the stock price collapse reduced his holdings to approximately $61 million, he had previously extracted hundreds of millions in cash compensation, bonuses, and stock sales over his 15-year run as CEO. Estate was settled after his death in 2021.',
       estimatedValue: '$61 million in final stock value; hundreds of millions in prior compensation and stock sales',
       legalEntities: ['Cayne estate', 'Family trusts'],
@@ -175,7 +175,7 @@ export const bearStearnsAccountability: AccountabilityData = {
       recoveryMechanisms: ['Class action shareholder recovery', 'Constructive trust', 'Unjust enrichment', 'Clawback (prospective under Dodd-Frank)'],
     },
     {
-      name: 'JPMorgan Chase -- Maiden Lane LLC',
+      name: 'JPMorgan Chase, Maiden Lane LLC',
       relationship: 'Acquirer that benefited from public subsidy',
       transferMethod: 'JPMorgan acquired Bear Stearns\' prime brokerage, wealth management, and trading operations at $10/share (vs. book value of approximately $80/share). The Fed absorbed $29 billion in Bear Stearns\' worst assets through Maiden Lane LLC, allowing JPMorgan to cherry-pick the best assets at a massive discount. JPMorgan later paid $13 billion in a 2013 settlement related to mortgage-backed securities fraud, including Bear Stearns legacy liabilities.',
       estimatedValue: 'Acquisition cost: $1.5 billion. Value of acquired business: estimated $10-20 billion. Maiden Lane ultimately returned $765 million profit to the Fed.',
@@ -185,7 +185,7 @@ export const bearStearnsAccountability: AccountabilityData = {
     {
       name: 'Cioffi and Tannin Civil Settlements',
       relationship: 'Managers whose funds lost $1.6 billion',
-      transferMethod: 'Cioffi paid $800,000 and Tannin paid $250,000 to settle SEC civil charges -- a combined $1.05 million, which represents less than 0.07% of the $1.6 billion their investors lost. Both retained the vast majority of compensation earned during the period of fraud.',
+      transferMethod: 'Cioffi paid $800,000 and Tannin paid $250,000 to settle SEC civil charges, a combined $1.05 million, which represents less than 0.07% of the $1.6 billion their investors lost. Both retained the vast majority of compensation earned during the period of fraud.',
       estimatedValue: '$1.05 million settled; tens of millions in prior compensation retained',
       legalEntities: ['Personal assets', 'Family holdings'],
       recoveryMechanisms: ['Unjust enrichment claims by fund investors', 'State fraud actions'],
@@ -233,13 +233,13 @@ export const bearStearnsAccountability: AccountabilityData = {
 
   successCriteria: [
     'Full disgorgement of executive compensation earned during the period of fraudulent CDO operations (2003-2008), including compensation paid to Cayne, Schwartz, Spector, Cioffi, Tannin, and other senior executives',
-    'Complete public accounting of the Maiden Lane LLC facility -- total assets acquired, disposition, net cost or profit to taxpayers, and whether JPMorgan received a subsidy at public expense',
+    'Complete public accounting of the Maiden Lane LLC facility, total assets acquired, disposition, net cost or profit to taxpayers, and whether JPMorgan received a subsidy at public expense',
     'Congressional investigation into the decision-making process that led to the Bear Stearns rescue, the terms offered to JPMorgan, and the inconsistency between rescuing Bear Stearns and allowing Lehman Brothers to fail six months later',
-    'Prosecution or civil recovery framework that addresses the "business judgment" defense loophole exposed by the Cioffi/Tannin acquittal -- ensuring that financial executives cannot hide behind subjective belief when objective evidence of fraud exists',
+    'Prosecution or civil recovery framework that addresses the "business judgment" defense loophole exposed by the Cioffi/Tannin acquittal, ensuring that financial executives cannot hide behind subjective belief when objective evidence of fraud exists',
     'Permanent clawback provisions that apply to all financial institutions receiving any form of government support, requiring disgorgement of executive compensation for the five years preceding the failure',
     'Public accountability record documenting the complete failure chain: who built the toxic portfolio, who certified the financials, who made false public statements, and who profited while investors and taxpayers bore the losses',
     'Strengthened Dodd-Frank orderly liquidation authority to prevent any future Bear Stearns-style bailout where private parties receive government-backed acquisitions at fire-sale prices',
-    'Reform of DOJ financial fraud prosecution strategy to address the systemic reluctance to bring cases after the Cioffi/Tannin acquittal -- the failure to convict two hedge fund managers should not have resulted in the government effectively abandoning criminal prosecution for the entire financial crisis',
+    'Reform of DOJ financial fraud prosecution strategy to address the systemic reluctance to bring cases after the Cioffi/Tannin acquittal, the failure to convict two hedge fund managers should not have resulted in the government effectively abandoning criminal prosecution for the entire financial crisis',
   ],
 
   actionPaths: [
@@ -272,7 +272,7 @@ export const bearStearnsAccountability: AccountabilityData = {
       relevantMechanisms: ['Constructive Trust on Executive Compensation', 'Shareholder Derivative Actions', 'Securities Fraud'],
       steps: [
         { step: 1, title: 'Assess Constructive Trust Viability', description: 'Analyze whether constructive trust claims against Bear Stearns executive compensation can be pursued. The key question: can compensation earned during 2003-2008 be traced to profits from the fraudulent CDO business? Retain forensic accountants to trace the funds.', legalBasis: ['Restatement (Third) of Restitution Section 55', 'New York constructive trust law'], estimatedTime: '2-4 months' },
-        { step: 2, title: 'Martin Act Civil Action', description: 'File civil fraud claims under New York\'s Martin Act against surviving executives. The Martin Act does not require proof of intent -- only that the statements were materially misleading. Schwartz\'s March 12, 2008 CNBC statement is a clear candidate.', legalBasis: ['N.Y. Gen. Bus. Law Sections 352-353 (Martin Act)'], estimatedTime: '3-6 months to file' },
+        { step: 2, title: 'Martin Act Civil Action', description: 'File civil fraud claims under New York\'s Martin Act against surviving executives. The Martin Act does not require proof of intent, only that the statements were materially misleading. Schwartz\'s March 12, 2008 CNBC statement is a clear candidate.', legalBasis: ['N.Y. Gen. Bus. Law Sections 352-353 (Martin Act)'], estimatedTime: '3-6 months to file' },
         { step: 3, title: 'Fund Investor Recovery Action', description: 'Represent investors in the collapsed Bear Stearns hedge funds who were inadequately compensated by the $1.05 million Cioffi/Tannin SEC settlement. Pursue unjust enrichment and state fraud claims to recover a meaningful portion of the $1.6 billion in losses.', legalBasis: ['State common law fraud', 'Unjust enrichment', 'Breach of fiduciary duty'], estimatedTime: '6-18 months' },
         { step: 4, title: 'Develop Clawback Precedent', description: 'Use Bear Stearns as a test case for establishing the legal precedent that executive compensation earned during a period of institutional fraud is recoverable regardless of individual criminal conviction. Win or lose, the litigation creates the precedent.', estimatedTime: 'Multi-year litigation' },
       ],
@@ -291,12 +291,12 @@ export const bearStearnsAccountability: AccountabilityData = {
     },
     {
       role: 'law_enforcement',
-      overview: 'The Cioffi/Tannin acquittal was a turning point -- DOJ effectively abandoned criminal prosecution of financial executives for the rest of the crisis. The lesson should not be "don\'t prosecute" but "prosecute differently."',
+      overview: 'The Cioffi/Tannin acquittal was a turning point, DOJ effectively abandoned criminal prosecution of financial executives for the rest of the crisis. The lesson should not be "don\'t prosecute" but "prosecute differently."',
       urgency: 'high',
       relevantMechanisms: ['Securities Fraud', 'Wire Fraud', 'Sarbanes-Oxley Certifications'],
       steps: [
         { step: 1, title: 'Post-Mortem Analysis', description: 'Conduct a formal post-mortem of the Cioffi/Tannin prosecution to understand why the jury acquitted despite damning internal emails. Interview jurors (if willing), prosecutors, and defense counsel. Develop institutional knowledge that improves future financial fraud prosecution.', estimatedTime: '3-6 months' },
-        { step: 2, title: 'Develop Financial Fraud Expertise', description: 'Create dedicated financial crimes units with prosecutors, agents, and forensic accountants who specialize in securities fraud. The complexity of CDO structures allowed the defense to create reasonable doubt -- specialized prosecutors can prevent this.', estimatedTime: '12 months to build capacity' },
+        { step: 2, title: 'Develop Financial Fraud Expertise', description: 'Create dedicated financial crimes units with prosecutors, agents, and forensic accountants who specialize in securities fraud. The complexity of CDO structures allowed the defense to create reasonable doubt, specialized prosecutors can prevent this.', estimatedTime: '12 months to build capacity' },
         { step: 3, title: 'Pursue Wire Fraud and SOX Charges', description: 'For future cases similar to Bear Stearns, pursue wire fraud (broader intent standard) and SOX certification charges in addition to securities fraud. Schwartz\'s public statements and the CEO/CFO certifications of financial statements provide alternative charging theories.', estimatedTime: 'Ongoing institutional reform' },
       ],
     },
@@ -307,7 +307,7 @@ export const bearStearnsAccountability: AccountabilityData = {
       relevantMechanisms: ['Dodd-Frank Orderly Liquidation Authority', 'Federal Reserve Audit and Transparency', 'Shareholder Derivative Actions'],
       steps: [
         { step: 1, title: 'Stress Testing Reform', description: 'Implement stress testing requirements that specifically model the scenario Bear Stearns experienced: rapid client withdrawal, counterparty risk contagion, and liquidity evaporation. Ensure stress tests include worst-case scenarios for concentrated asset classes.', estimatedTime: '6-12 months' },
-        { step: 2, title: 'Leverage Limits Enforcement', description: 'Bear Stearns operated at 33:1 leverage -- for every $1 in capital, $33 in risk. Enforce strict leverage limits and ensure that off-balance-sheet vehicles (like the collapsed hedge funds) are included in leverage calculations.', estimatedTime: '3-6 months' },
+        { step: 2, title: 'Leverage Limits Enforcement', description: 'Bear Stearns operated at 33:1 leverage, for every $1 in capital, $33 in risk. Enforce strict leverage limits and ensure that off-balance-sheet vehicles (like the collapsed hedge funds) are included in leverage calculations.', estimatedTime: '3-6 months' },
         { step: 3, title: 'Executive Accountability Framework', description: 'Develop regulatory requirements for personal accountability of senior bank executives. The UK\'s Senior Managers Regime provides a model: individual executives are personally responsible for specific risk areas and can be held personally liable for failures.', estimatedTime: '12-18 months' },
         { step: 4, title: 'Early Intervention Triggers', description: 'Establish automatic regulatory intervention triggers based on leverage ratios, liquidity metrics, and concentration risk. When a firm crosses a threshold, mandatory remediation begins before the firm reaches the point of crisis.', estimatedTime: '6-12 months' },
       ],

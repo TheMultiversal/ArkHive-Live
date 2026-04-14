@@ -170,7 +170,7 @@ export const nsaMassSurveillanceAccountability: AccountabilityData = {
       name: 'Five Eyes Intelligence Alliance',
       relationship: 'Resource sharing arrangement to circumvent domestic surveillance restrictions',
       transferMethod: 'Intelligence sharing agreements and joint operations',
-      estimatedValue: 'Classified -- billions collectively across US, UK, Australia, Canada, New Zealand',
+      estimatedValue: 'Classified, billions collectively across US, UK, Australia, Canada, New Zealand',
       legalEntities: ['GCHQ (UK)', 'Australian Signals Directorate', 'Communications Security Establishment (Canada)', 'Government Communications Security Bureau (New Zealand)'],
       recoveryMechanisms: ['Treaty renegotiation', 'Legislative restrictions on intelligence sharing', 'International court challenges']
     }

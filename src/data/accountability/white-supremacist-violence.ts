@@ -42,14 +42,14 @@ export const whiteSupremacistViolenceAccountability: AccountabilityData = {
     { name: 'DHS', title: 'Department of Homeland Security', jurisdiction: 'Domestic threat assessment', powers: ['Threat assessment reports', 'Grant programs for targeted communities', 'Countering violent extremism programs'] },
   ],
   successCriteria: [
-    'Federal domestic terrorism statute enacted -- providing prosecutorial tools equivalent to international terrorism charges, with mandatory threat reporting and resource allocation requirements',
-    'Sines v. Kessler model replicated -- civil RICO suits bankrupting organized white supremacist groups nationwide, stripping them of operational funding and real estate',
-    'FBI counterterrorism resource allocation matching the threat assessment -- equal or greater resources devoted to domestic white supremacist terrorism as to international terrorism',
+    'Federal domestic terrorism statute enacted, providing prosecutorial tools equivalent to international terrorism charges, with mandatory threat reporting and resource allocation requirements',
+    'Sines v. Kessler model replicated, civil RICO suits bankrupting organized white supremacist groups nationwide, stripping them of operational funding and real estate',
+    'FBI counterterrorism resource allocation matching the threat assessment, equal or greater resources devoted to domestic white supremacist terrorism as to international terrorism',
     'Platform accountability laws requiring algorithmic auditing for radicalization pathways and mandatory reporting of extremist recruitment activity to law enforcement',
     'Every white supremacist mass casualty attack prosecuted as both a federal hate crime and state murder/terrorism charge, with sentences proportionate to the crime (Fields and Crusius as minimum standard)',
-    'Deradicalization programs funded at scale -- Life After Hate and similar organizations receiving federal grants proportionate to the prevention mandate',
+    'Deradicalization programs funded at scale, Life After Hate and similar organizations receiving federal grants proportionate to the prevention mandate',
     'Complete mapping and public documentation of the white supremacist organizational infrastructure: leadership, funding, recruitment pipelines, international connections, and law enforcement infiltration',
-    'Mandatory tracking and annual public reporting of domestic terrorism statistics by ideology -- currently the government does not publish comprehensive data on white supremacist violence, making the threat invisible in policy debates',
+    'Mandatory tracking and annual public reporting of domestic terrorism statistics by ideology, currently the government does not publish comprehensive data on white supremacist violence, making the threat invisible in policy debates',
   ],
 
   actionPaths: [
@@ -62,7 +62,7 @@ export const whiteSupremacistViolenceAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Report Threats',
-          description: 'If you see extremist recruitment, threats, or radicalization -- online or in person -- report it to the FBI tip line (tips.fbi.gov) and local law enforcement. Document what you see with screenshots and timestamps.',
+          description: 'If you see extremist recruitment, threats, or radicalization, online or in person, report it to the FBI tip line (tips.fbi.gov) and local law enforcement. Document what you see with screenshots and timestamps.',
           estimatedTime: '15 minutes',
           filingTarget: 'FBI Internet Crime Complaint Center (tips.fbi.gov); Local FBI field office; Local law enforcement',
         },
@@ -78,13 +78,13 @@ export const whiteSupremacistViolenceAccountability: AccountabilityData = {
           description: 'Contact your representatives to demand passage of the Domestic Terrorism Prevention Act. The FBI says white supremacist terrorism is the #1 domestic threat but has no domestic terrorism statute to prosecute it.',
           estimatedTime: '30 minutes',
           filingTarget: 'Your House and Senate representatives; House and Senate Judiciary Committees',
-          templateText: 'Dear [Representative/Senator],\n\nThe FBI identifies white supremacist extremism as the deadliest domestic terrorism threat. Yet there is no federal domestic terrorism statute. The El Paso massacre (23 killed), the Tree of Life shooting (11 killed), the Buffalo shooting (10 killed) -- all prosecuted under hate crime statutes because no domestic terrorism charge exists.\n\nI urge you to:\n1. Pass the Domestic Terrorism Prevention Act\n2. Mandate resource allocation matching the threat assessment\n3. Require annual public reporting of domestic terrorism statistics by ideology\n\nSincerely,\n[Your Name]',
+          templateText: 'Dear [Representative/Senator],\n\nThe FBI identifies white supremacist extremism as the deadliest domestic terrorism threat. Yet there is no federal domestic terrorism statute. The El Paso massacre (23 killed), the Tree of Life shooting (11 killed), the Buffalo shooting (10 killed), all prosecuted under hate crime statutes because no domestic terrorism charge exists.\n\nI urge you to:\n1. Pass the Domestic Terrorism Prevention Act\n2. Mandate resource allocation matching the threat assessment\n3. Require annual public reporting of domestic terrorism statistics by ideology\n\nSincerely,\n[Your Name]',
         },
       ],
     },
     {
       role: 'journalist',
-      overview: 'Map the radicalization pipeline. Document the ecosystem -- from mainstream amplification to recruitment to attack.',
+      overview: 'Map the radicalization pipeline. Document the ecosystem, from mainstream amplification to recruitment to attack.',
       urgency: 'immediate',
       relevantMechanisms: ['Federal Hate Crimes', 'Domestic Terrorism Statute (Proposed)'],
       steps: [
@@ -165,14 +165,14 @@ export const whiteSupremacistViolenceAccountability: AccountabilityData = {
     },
     {
       role: 'law_enforcement',
-      overview: 'Allocate resources to the #1 threat. The FBI\'s own assessment says white supremacist terrorism is the most lethal domestic threat -- resource accordingly.',
+      overview: 'Allocate resources to the #1 threat. The FBI\'s own assessment says white supremacist terrorism is the most lethal domestic threat, resource accordingly.',
       urgency: 'immediate',
       relevantMechanisms: ['Federal Hate Crimes', 'Racketeer Influenced and Corrupt Organizations Act (RICO)'],
       steps: [
         {
           step: 1,
           title: 'Resource Reallocation',
-          description: 'Reallocate counterterrorism resources to match the threat assessment. White supremacist terrorism has been identified as the most persistent and lethal domestic threat -- resource allocation must match. Create dedicated domestic terrorism units in every field office.',
+          description: 'Reallocate counterterrorism resources to match the threat assessment. White supremacist terrorism has been identified as the most persistent and lethal domestic threat, resource allocation must match. Create dedicated domestic terrorism units in every field office.',
           estimatedTime: '6-12 months',
         },
         {

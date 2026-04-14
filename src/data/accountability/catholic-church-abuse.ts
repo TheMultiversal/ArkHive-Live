@@ -178,16 +178,16 @@ export const catholicChurchAccountability: AccountabilityData = {
     },
   ],
   successCriteria: [
-    'Grand jury investigation of every Catholic diocese in the United States following the Pennsylvania model -- documenting every credibly accused priest, every institutional cover-up, every transferred predator',
-    'Statute of limitations reform in all 50 states eliminating time barriers for child sexual abuse claims -- with lookback windows allowing previously time-barred victims to pursue justice',
-    'Mandatory reporting requirements covering all clergy with no religious exemptions in every state -- no institution has the right to conceal child abuse',
+    'Grand jury investigation of every Catholic diocese in the United States following the Pennsylvania model, documenting every credibly accused priest, every institutional cover-up, every transferred predator',
+    'Statute of limitations reform in all 50 states eliminating time barriers for child sexual abuse claims, with lookback windows allowing previously time-barred victims to pursue justice',
+    'Mandatory reporting requirements covering all clergy with no religious exemptions in every state, no institution has the right to conceal child abuse',
     'Full Vatican cooperation with law enforcement investigations including opening archives related to known abuser transfers between dioceses and countries',
     'Personal criminal prosecution of bishops and cardinals who participated in the cover-up through transferring known predators to new parishes with access to children',
-    'Establishment of independent lay oversight boards with binding authority over clergy personnel decisions -- ending the self-policing model that enabled six decades of abuse',
+    'Establishment of independent lay oversight boards with binding authority over clergy personnel decisions, ending the self-policing model that enabled six decades of abuse',
     'Full financial accounting of every diocesan bankruptcy to ensure victim compensation is prioritized over institutional asset preservation',
-    'Publication of all credibly accused clergy lists with full details of allegations, institutional knowledge, and transfer history -- no more sealed files',
+    'Publication of all credibly accused clergy lists with full details of allegations, institutional knowledge, and transfer history, no more sealed files',
     'Compensation fund for all victims administered independently of Church control with standardized criteria and transparent distribution',
-    'Revocation of tax-exempt status for any diocese found to have used charitable solicitation while actively concealing clergy abuse -- fundraising while hiding predators constitutes fraud on donors',
+    'Revocation of tax-exempt status for any diocese found to have used charitable solicitation while actively concealing clergy abuse, fundraising while hiding predators constitutes fraud on donors',
   ],
 
 

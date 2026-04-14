@@ -34,14 +34,14 @@ export const armsTraffickingAccountability: AccountabilityData = {
     { name: 'DOJ Inspector General', title: 'DOJ OIG', jurisdiction: 'DOJ/ATF oversight', powers: ['Investigate misconduct', 'Refer for prosecution', 'Issue public reports'] },
   ],
   successCriteria: [
-    'Criminal prosecution of the ATF and DOJ officials who authorized and supervised Operation Fast and Furious -- allowing 2,000 weapons to walk into cartel hands while knowing they would be used in violence is not a policy disagreement, it is reckless endangerment',
-    'Full disclosure of all documents withheld under executive privilege -- the American public and Brian Terry\'s family deserve a complete accounting of who knew what and when',
-    'Mandatory operational safeguards at ATF preventing any future gunwalking operations -- every controlled delivery or tracked weapon sale must include real-time interdiction capability',
+    'Criminal prosecution of the ATF and DOJ officials who authorized and supervised Operation Fast and Furious, allowing 2,000 weapons to walk into cartel hands while knowing they would be used in violence is not a policy disagreement, it is reckless endangerment',
+    'Full disclosure of all documents withheld under executive privilege, the American public and Brian Terry\'s family deserve a complete accounting of who knew what and when',
+    'Mandatory operational safeguards at ATF preventing any future gunwalking operations, every controlled delivery or tracked weapon sale must include real-time interdiction capability',
     'Comprehensive whistleblower protection reform ensuring that agents like John Dodson who expose dangerous operations are protected, not retaliated against',
     'Arms Export Control Act enforcement strengthened with mandatory congressional notification when U.S.-manufactured weapons are used in documented civilian casualties in end-use countries',
     'End-use monitoring with teeth: automatic sanctions suspension when U.S. weapons are documented in use against civilian populations (Saudi/Yemen, Israel/Gaza)',
     'Complete public accounting of every Fast and Furious weapon: where each of the 2,000 walked guns ended up, how many were recovered at crime scenes, and how many remain unaccounted for',
-    'Binding legislation requiring congressional approval for large arms sales to countries with documented human rights violations -- the current notification-only process provides no meaningful check on weapons transfers to authoritarian regimes',
+    'Binding legislation requiring congressional approval for large arms sales to countries with documented human rights violations, the current notification-only process provides no meaningful check on weapons transfers to authoritarian regimes',
   ],
 
   actionPaths: [
@@ -108,7 +108,7 @@ export const armsTraffickingAccountability: AccountabilityData = {
         {
           step: 1,
           title: 'Whistleblower Representation',
-          description: 'Provide legal support for government whistleblowers exposing weapons program misconduct. ATF agents who exposed Fast and Furious faced career retaliation -- ensure future whistleblowers have immediate legal protection.',
+          description: 'Provide legal support for government whistleblowers exposing weapons program misconduct. ATF agents who exposed Fast and Furious faced career retaliation, ensure future whistleblowers have immediate legal protection.',
           legalBasis: ['Whistleblower Protection Act (5 U.S.C. Section 2302)', 'Inspector General Act'],
           estimatedTime: 'Ongoing',
         },
@@ -169,13 +169,13 @@ export const armsTraffickingAccountability: AccountabilityData = {
         {
           step: 2,
           title: 'Internal Whistleblower Channels',
-          description: 'Create secure, protected internal channels for agents to raise concerns about operational decisions without fear of retaliation. The Fast and Furious whistleblowers were right -- the system should have made it easier, not harder, to stop the operation.',
+          description: 'Create secure, protected internal channels for agents to raise concerns about operational decisions without fear of retaliation. The Fast and Furious whistleblowers were right, the system should have made it easier, not harder, to stop the operation.',
           estimatedTime: '3-6 months',
         },
         {
           step: 3,
           title: 'Cross-Border Coordination',
-          description: 'Strengthen coordination with Mexican law enforcement on cross-border weapons trafficking. The Fast and Furious weapons ended up at 170+ crime scenes in Mexico -- Mexican authorities must be partners in any future interdiction operations.',
+          description: 'Strengthen coordination with Mexican law enforcement on cross-border weapons trafficking. The Fast and Furious weapons ended up at 170+ crime scenes in Mexico, Mexican authorities must be partners in any future interdiction operations.',
           estimatedTime: 'Ongoing',
         },
       ],
