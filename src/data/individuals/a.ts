@@ -4644,6 +4644,58 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+  'albert-hakim': {
+    name: 'Albert Hakim',
+    title: 'Iranian-American Businessman Who Co-Managed the Iran-Contra "Enterprise"',
+    role: 'Iranian-born arms dealer who co-managed the covert financial network used to sell weapons to Iran and fund the Contras, pleading guilty to a supplemental charge',
+    riskLevel: 'high' as const,
+    description: 'Albert Hakim (1936-2003) was an Iranian-American businessman who partnered with retired Air Force Major General Richard Secord to create and manage "the Enterprise," the covert financial network at the center of the Iran-Contra affair. The Enterprise was used to sell U.S. weapons to Iran, negotiate with Iranian intermediaries, supply the Nicaraguan Contras, and manage the secret Swiss bank accounts through which millions of dollars flowed.\n\nHakim emigrated from Iran before the 1979 revolution and established himself in the United States as an arms dealer and international businessman. He was recruited by Oliver North and Richard Secord to handle the financial side of the covert operations because of his business experience, his knowledge of Iran, and his established network of foreign bank accounts. Hakim set up a web of shell companies and Swiss bank accounts, managed by the Compagnie de Services Fiduciaires in Geneva, through which the arms sale proceeds were channeled.\n\nHakim was personally involved in negotiations with Iranian intermediaries and Second Channel contacts in 1986. He also created a personal financial benefit for Oliver North by setting up a $200,000 fund (sometimes called the "Button account") intended for North\'s family, though it was never disbursed. This detail became one of the more embarrassing revelations of the congressional hearings.\n\nIn November 1989, Hakim pleaded guilty to a misdemeanor charge of supplementing the salary of Oliver North (a government official). He was sentenced to two years probation and fined $5,000. The Enterprise\'s finances were ordered dissolved, with remaining funds directed to the U.S. Treasury. Hakim died in 2003.',
+    birthDate: '1936',
+    deathDate: '2003',
+    education: [],
+    affiliations: [
+      { name: 'Stanford Technology Trading Group International', role: 'Principal; the corporate front through which the Enterprise operated', type: 'corporation' },
+      { name: 'Lake Resources Inc.', role: 'One of the shell companies used to manage Enterprise finances through Swiss bank accounts', type: 'corporation' },
+    ],
+    controversies: [
+      'Co-managed "the Enterprise" with Richard Secord, the covert financial network used to sell U.S. weapons to Iran and fund the Nicaraguan Contras',
+      'Set up a web of shell companies and Swiss bank accounts through which millions in arms sale proceeds were channeled, evading congressional oversight',
+      'Created a $200,000 fund (the "Button account") intended as a personal financial benefit for Oliver North\'s family, though it was never disbursed',
+      'Personally negotiated with Iranian intermediaries during the 1986 Second Channel contacts, directly participating in illegal arms sales',
+      'The Enterprise generated significant personal profits for Hakim and Secord beyond what was directed to the Contras, raising questions about profiteering',
+      'Pleaded guilty only to a misdemeanor charge of supplementing a government official\'s salary, avoiding more serious prosecution',
+    ],
+    charges: [
+      { charge: 'Supplementing the salary of Oliver North (a government official) - misdemeanor', status: 'convicted', date: '1989-11', source: 'Pleaded guilty; sentenced to two years probation and fined $5,000.' },
+    ],
+    relatedInvestigations: [
+      { title: 'Iran-Contra Affair: The Secret Arms Deal and Cover-Up', slug: 'iran-contra-reagan-secret-wars', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1936', event: 'Born in Iran' },
+      { date: 'Pre-1979', event: 'Emigrates from Iran to the United States; establishes himself as an arms dealer and international businessman' },
+      { date: '1984-1985', event: 'Recruited by Oliver North and Richard Secord to manage the financial side of covert Contra supply and Iran arms operations' },
+      { date: '1985-1986', event: 'Sets up shell companies and Swiss bank accounts to manage the Enterprise\'s finances' },
+      { date: '1986', event: 'Personally participates in negotiations with Iranian intermediaries during Second Channel contacts' },
+      { date: '1986', event: 'Creates the $200,000 "Button account" intended for Oliver North\'s family' },
+      { date: 'November 1986', event: 'Iran-Contra exposed; the Enterprise\'s financial network comes under investigation' },
+      { date: 'November 1989', event: 'Pleads guilty to misdemeanor charge of supplementing the salary of a government official' },
+      { date: '1990', event: 'Sentenced to two years probation and $5,000 fine; Enterprise finances ordered dissolved' },
+      { date: '2003', event: 'Dies' },
+    ],
+    sources: [
+      { title: 'Lawrence Walsh, Final Report of the Independent Counsel for Iran/Contra Matters (1993)', date: '1993' },
+      { title: 'Theodore Draper, A Very Thin Line: The Iran-Contra Affairs (Hill and Wang, 1991)', date: '1991' },
+      { title: 'Report of the Congressional Committees Investigating the Iran-Contra Affair (November 1987)', date: '1987' },
+    ],
+    knownAssociates: [
+      { name: 'Richard Secord', relationship: 'Business partner who co-managed the Enterprise; Secord handled the military logistics while Hakim managed finances', href: '/entities/individuals/richard-secord' },
+      { name: 'Oliver North', relationship: 'NSC staff member who directed the covert operations and for whom Hakim set up the $200,000 Button account', href: '/entities/individuals/oliver-north' },
+      { name: 'Carl Channell', relationship: 'Conservative fundraiser whose private donations flowed through the Enterprise network Hakim managed', href: '/entities/individuals/carl-channell' },
+    ],
+  },
+
+
   'albert-lord': {
     name: 'Albert Lord',
     title: 'Sallie Mae CEO who pushed for privatization and making student loans non-dischargeable in bankruptcy',

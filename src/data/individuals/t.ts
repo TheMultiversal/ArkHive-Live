@@ -1021,6 +1021,60 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'thomas-clines': {
+ name: 'Thomas G. Clines',
+ title: 'Former CIA Officer Convicted of Tax Fraud in Iran-Contra; Only Defendant to Serve Prison Time',
+ role: 'Former CIA officer and private arms dealer who participated in the Iran-Contra Enterprise and became the only Iran-Contra defendant to serve a full prison sentence',
+ riskLevel: 'high' as const,
+ description: 'Thomas G. Clines (1928-2013) was a former senior CIA officer who became a private arms dealer and was the only Iran-Contra defendant to serve a meaningful prison sentence. Clines had a long career in the CIA\'s clandestine operations, including service in the Bay of Pigs operation, Vietnam-era operations in Laos (working with Ted Shackley and Edwin Wilson), and other covert programs before retiring from the agency in 1978.\n\nAfter leaving the CIA, Clines entered the private arms business. When Oliver North and Richard Secord organized the covert Contra resupply operation and Iran arms sales, Clines was brought in because of his extensive contacts in the international arms trade. He served as a middleman in weapons procurement, using his connections to source arms for the Contras and facilitating aspects of the Iran weapons pipeline.\n\nClines was indicted by Independent Counsel Lawrence Walsh on charges related to his role in the Enterprise. However, his most significant legal jeopardy came from tax charges. Clines had failed to report income from his arms dealing activities and had concealed his financial interest in the Enterprise. He was convicted on four felony counts of underreporting his income to the IRS for tax years 1985 and 1986 and filing false tax returns.\n\nClines was sentenced to 16 months in federal prison and fined $40,000. He was the only Iran-Contra defendant to serve a full prison term, a distinction that highlighted the disparity in accountability: while senior officials like Caspar Weinberger and Clair George were pardoned by President Bush, and others like Oliver North had convictions overturned on technicalities, Clines, a mid-level operative, did actual prison time. Clines died in 2013.',
+ birthDate: '1928',
+ deathDate: '2013',
+ education: [],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'Senior clandestine officer (1950s-1978); involved in Bay of Pigs, Vietnam/Laos operations, and other covert programs', type: 'agency' },
+ { name: 'International Signal and Control', role: 'Private arms dealing ventures after leaving CIA; used connections to procure weapons for Iran-Contra Enterprise', type: 'corporation' },
+ ],
+ controversies: [
+ 'Participated in the Iran-Contra Enterprise as a private arms dealer, using his CIA contacts to source weapons for the Contras and facilitate Iran arms sales',
+ 'Convicted on four felony counts of underreporting income and filing false tax returns related to his undisclosed Iran-Contra arms dealing profits',
+ 'Served 16 months in federal prison, making him the only Iran-Contra defendant to serve a meaningful prison sentence',
+ 'His imprisonment highlighted the disparity in accountability: senior officials were pardoned or had convictions overturned while mid-level operatives faced prosecution',
+ 'Had a long history in CIA covert operations including the Bay of Pigs, Vietnam-era Laos operations, and associations with controversial figures like Ted Shackley and Edwin Wilson',
+ 'Failed to report income from arms dealing, concealing his financial interest in the Iran-Contra Enterprise from the IRS',
+ ],
+ charges: [
+ { charge: 'Underreporting income to the IRS (1985)', status: 'convicted', date: '1990', source: 'Convicted; sentenced to 16 months in federal prison and fined $40,000.' },
+ { charge: 'Underreporting income to the IRS (1986)', status: 'convicted', date: '1990', source: 'Convicted on multiple counts.' },
+ { charge: 'Filing false tax returns', status: 'convicted', date: '1990', source: 'Convicted; the only Iran-Contra defendant to serve a full prison sentence.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Iran-Contra Affair: The Secret Arms Deal and Cover-Up', slug: 'iran-contra-reagan-secret-wars', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1928', event: 'Born' },
+ { date: '1950s', event: 'Begins CIA career in clandestine operations' },
+ { date: '1961', event: 'Involved in Bay of Pigs operation' },
+ { date: '1960s-1970s', event: 'Serves in CIA operations in Laos and Vietnam, working with Ted Shackley' },
+ { date: '1978', event: 'Retires from the CIA; enters private arms business' },
+ { date: '1984-1986', event: 'Recruited into the Iran-Contra Enterprise; uses arms trade connections to procure weapons for the Contras and Iran pipeline' },
+ { date: 'November 1986', event: 'Iran-Contra exposed; Clines\'s role in the Enterprise comes under investigation' },
+ { date: '1990', event: 'Convicted on four felony counts of underreporting income and filing false tax returns for 1985-1986' },
+ { date: '1990-1991', event: 'Sentenced to 16 months in federal prison and $40,000 fine; becomes the only Iran-Contra defendant to serve a full prison sentence' },
+ { date: '2013', event: 'Dies' },
+ ],
+ sources: [
+ { title: 'Lawrence Walsh, Final Report of the Independent Counsel for Iran/Contra Matters (1993)', date: '1993' },
+ { title: 'Theodore Draper, A Very Thin Line: The Iran-Contra Affairs (Hill and Wang, 1991)', date: '1991' },
+ { title: 'Malcolm Byrne, Iran-Contra: Reagan\'s Scandal and the Unchecked Abuse of Presidential Power (University Press of Kansas, 2014)', date: '2014' },
+ ],
+ knownAssociates: [
+ { name: 'Richard Secord', relationship: 'Former Air Force general who co-managed the Enterprise; Clines worked as arms procurement intermediary', href: '/entities/individuals/richard-secord' },
+ { name: 'Albert Hakim', relationship: 'Iranian-American businessman who managed Enterprise finances alongside Secord', href: '/entities/individuals/albert-hakim' },
+ { name: 'Oliver North', relationship: 'NSC staff member who directed the Contra resupply operation that Clines supplied', href: '/entities/individuals/oliver-north' },
+ ],
+ },
+
+
  'thomas-caldwell': {
  name: 'Thomas Caldwell',
  title: 'Profile Under Review',

@@ -563,6 +563,55 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'carl-channell': {
+ name: 'Carl R. Channell',
+ title: 'Conservative Fundraiser Convicted of Tax Fraud in Iran-Contra Scandal',
+ role: 'Conservative fundraiser who used a tax-exempt organization to illegally raise millions for the Nicaraguan Contras, becoming the first person convicted in the Iran-Contra affair',
+ riskLevel: 'medium' as const,
+ description: 'Carl R. "Spitz" Channell (1944-1990) was a conservative political fundraiser who operated the National Endowment for the Preservation of Liberty (NEPL), a tax-exempt organization that he used to illegally raise funds for the Nicaraguan Contras during the period when the Boland Amendment prohibited U.S. government aid to the rebel group. Channell became the first person convicted in the Iran-Contra affair.\n\nChannell worked closely with Oliver North and the Reagan White House to solicit wealthy conservative donors for the Contra cause. He organized private briefings at the White House where donors met with North and other officials, and then directed the funds through his tax-exempt organization to purchase weapons and supplies for the Contras. Because NEPL was registered as a 501(c)(3) charitable organization, donors received illegal tax deductions for what were effectively political and military contributions.\n\nIn April 1987, Channell pleaded guilty to conspiracy to defraud the United States by using a tax-exempt organization for non-exempt purposes (conspiracy to defraud the IRS). He agreed to cooperate with Independent Counsel Lawrence Walsh\'s investigation and testified about the White House\'s role in directing the private fundraising network. Through NEPL and related entities, Channell raised an estimated $10 million, much of which was directed to the Contra supply operation managed by Oliver North and Richard Secord.\n\nChannell was sentenced to probation. He died in 1990 before the broader Iran-Contra prosecutions concluded.',
+ birthDate: '1944',
+ deathDate: '1990',
+ education: [],
+ affiliations: [
+ { name: 'National Endowment for the Preservation of Liberty', role: 'Founder and director; used this tax-exempt organization to illegally raise millions for the Nicaraguan Contras', type: 'organization' },
+ ],
+ controversies: [
+ 'Used a tax-exempt 501(c)(3) organization (NEPL) to illegally raise approximately $10 million for the Nicaraguan Contras during the period of the Boland Amendment prohibition',
+ 'Organized private White House briefings where wealthy donors met with Oliver North and other officials before making illegal contributions',
+ 'Enabled donors to claim illegal tax deductions for contributions that were actually funding foreign military operations',
+ 'Became the first person convicted in the Iran-Contra affair, pleading guilty to conspiracy to defraud the United States in April 1987',
+ 'Operated as a key node in the private fundraising network that the Reagan White House used to circumvent congressional prohibition on Contra aid',
+ ],
+ charges: [
+ { charge: 'Conspiracy to defraud the United States (conspiracy to defraud the IRS)', status: 'convicted', date: '1987-04-29', source: 'Pleaded guilty; sentenced to probation. First conviction in the Iran-Contra affair.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Iran-Contra Affair: The Secret Arms Deal and Cover-Up', slug: 'iran-contra-reagan-secret-wars', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1944', event: 'Born' },
+ { date: 'Early 1980s', event: 'Establishes the National Endowment for the Preservation of Liberty as a tax-exempt conservative fundraising organization' },
+ { date: '1984-1986', event: 'Works with Oliver North and the Reagan White House to raise approximately $10 million for the Contras through NEPL' },
+ { date: '1984-1986', event: 'Organizes private White House briefings for wealthy donors, connecting them with North and other officials' },
+ { date: 'November 1986', event: 'Iran-Contra affair exposed; the private Contra fundraising network comes under investigation' },
+ { date: 'April 29, 1987', event: 'Pleads guilty to conspiracy to defraud the United States; becomes the first person convicted in Iran-Contra' },
+ { date: '1987', event: 'Cooperates with Independent Counsel Lawrence Walsh\'s investigation, testifying about White House involvement in private fundraising' },
+ { date: '1988', event: 'Sentenced to probation' },
+ { date: '1990', event: 'Dies before the broader Iran-Contra prosecutions conclude' },
+ ],
+ sources: [
+ { title: 'Lawrence Walsh, Final Report of the Independent Counsel for Iran/Contra Matters (1993)', date: '1993' },
+ { title: 'Theodore Draper, A Very Thin Line: The Iran-Contra Affairs (Hill and Wang, 1991)', date: '1991' },
+ { title: 'National Security Archive, The Iran-Contra Affair 20 Years On', date: '2006' },
+ ],
+ knownAssociates: [
+ { name: 'Oliver North', relationship: 'NSC staff member who directed the Contra resupply operation and worked with Channell on private fundraising', href: '/entities/individuals/oliver-north' },
+ { name: 'Richard Secord', relationship: 'Retired Air Force general who managed the Contra supply operation funded by Channell\'s fundraising', href: '/entities/individuals/richard-secord' },
+ { name: 'Albert Hakim', relationship: 'Iranian-American businessman who co-managed the Enterprise with Secord, receiving funds from Channell\'s network', href: '/entities/individuals/albert-hakim' },
+ ],
+ },
+
+
  'carl-icahn': {
  name: 'Carl Icahn',
  title: 'Profile Under Review',
@@ -3299,6 +3348,58 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
+ 'clair-george': {
+ name: 'Clair E. George',
+ title: 'CIA Chief of Covert Operations Convicted of Perjury in Iran-Contra, Pardoned by Bush',
+ role: 'CIA Deputy Director for Operations who oversaw covert activities related to Iran-Contra and was convicted of lying to Congress, then pardoned by President George H.W. Bush',
+ riskLevel: 'high' as const,
+ description: 'Clair Elroy George (1930-2011) served as the CIA\'s Deputy Director for Operations (DDO) from 1984 to 1987, making him the senior officer in charge of all CIA covert operations during the most active period of the Iran-Contra affair. As DDO, George was responsible for the CIA\'s Directorate of Operations, which conducted clandestine intelligence activities worldwide, including operations related to Central America and Iran.\n\nGeorge was indicted by Independent Counsel Lawrence Walsh on ten counts of perjury, false statements, and obstruction of congressional and grand jury investigations related to Iran-Contra. The charges centered on George\'s testimony before the House and Senate Intelligence Committees in 1986, where he denied knowledge of Oliver North\'s Contra resupply operation and the CIA\'s involvement in it. Walsh\'s investigation revealed that George had been briefed on the operation and had actively worked to conceal the CIA\'s role.\n\nAfter a first trial ended in a mistrial in August 1992, George was convicted in a second trial in December 1992 on two felony counts: making false statements to the House Intelligence Committee and making false statements to the Senate Intelligence Committee. However, on December 24, 1992, President George H.W. Bush pardoned George along with five other Iran-Contra defendants, including former Defense Secretary Caspar Weinberger, before sentencing could occur.\n\nWalsh condemned the pardons as the final act of a cover-up, noting that Bush himself was a potential subject of the investigation as Vice President during the Iran-Contra period. George\'s pardon, coming just weeks after his conviction, exemplified the pattern of senior officials escaping accountability that defined the Iran-Contra aftermath. George died in 2011.',
+ birthDate: 'August 3, 1930',
+ deathDate: 'August 14, 2011',
+ education: [],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'Deputy Director for Operations (1984-1987); oversaw all CIA covert operations during the Iran-Contra period', type: 'agency' },
+ ],
+ controversies: [
+ 'As CIA Deputy Director for Operations, oversaw the directorate responsible for covert activities during the most active period of the Iran-Contra affair',
+ 'Testified falsely before the House and Senate Intelligence Committees in 1986, denying knowledge of Oliver North\'s Contra resupply operation and CIA involvement',
+ 'Indicted on ten counts of perjury, false statements, and obstruction of congressional and grand jury investigations by Independent Counsel Walsh',
+ 'Convicted on two felony counts of making false statements to Congress in December 1992 after a first trial ended in mistrial',
+ 'Pardoned by President George H.W. Bush on December 24, 1992, just weeks after conviction and before sentencing, as part of a mass Iran-Contra pardon',
+ 'His pardon was condemned by Walsh as part of a cover-up, noting Bush himself was a potential subject of the investigation',
+ ],
+ charges: [
+ { charge: 'Making false statements to the House Intelligence Committee', status: 'pardoned', date: '1992-12', source: 'Convicted December 1992; pardoned by President George H.W. Bush on December 24, 1992, before sentencing.' },
+ { charge: 'Making false statements to the Senate Intelligence Committee', status: 'pardoned', date: '1992-12', source: 'Convicted December 1992; pardoned by President George H.W. Bush on December 24, 1992.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Iran-Contra Affair: The Secret Arms Deal and Cover-Up', slug: 'iran-contra-reagan-secret-wars', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'August 3, 1930', event: 'Born' },
+ { date: '1984', event: 'Becomes CIA Deputy Director for Operations, the senior officer in charge of all covert operations' },
+ { date: '1986', event: 'Testifies before House and Senate Intelligence Committees, denying knowledge of North\'s Contra operation and CIA involvement' },
+ { date: 'November 1986', event: 'Iran-Contra affair exposed; George\'s congressional testimony comes under scrutiny' },
+ { date: '1987', event: 'Leaves position as DDO amid the expanding Iran-Contra investigation' },
+ { date: 'September 1991', event: 'Indicted by Independent Counsel Walsh on ten counts of perjury, false statements, and obstruction' },
+ { date: 'August 1992', event: 'First trial ends in mistrial' },
+ { date: 'December 9, 1992', event: 'Convicted on two felony counts of making false statements to Congress in second trial' },
+ { date: 'December 24, 1992', event: 'Pardoned by President George H.W. Bush before sentencing, along with five other Iran-Contra defendants' },
+ { date: 'August 14, 2011', event: 'Dies' },
+ ],
+ sources: [
+ { title: 'Lawrence Walsh, Final Report of the Independent Counsel for Iran/Contra Matters (1993)', date: '1993' },
+ { title: 'Theodore Draper, A Very Thin Line: The Iran-Contra Affairs (Hill and Wang, 1991)', date: '1991' },
+ { title: 'National Security Archive, The Iran-Contra Affair 20 Years On', date: '2006' },
+ ],
+ knownAssociates: [
+ { name: 'Oliver North', relationship: 'NSC staff member whose Contra resupply operation George denied knowledge of in congressional testimony', href: '/entities/individuals/oliver-north' },
+ { name: 'Duane Clarridge', relationship: 'Senior CIA officer also indicted in Iran-Contra and pardoned by Bush', href: '/entities/individuals/duane-clarridge' },
+ { name: 'George H.W. Bush', relationship: 'President who pardoned George on December 24, 1992, before sentencing', href: '/entities/individuals/george-hw-bush' },
+ { name: 'Caspar Weinberger', relationship: 'Former Defense Secretary pardoned alongside George in the Christmas Eve 1992 mass pardon', href: '/entities/individuals/caspar-weinberger' },
+ ],
+ },
 
  'clair-patterson': {
  name: 'Clair Patterson',

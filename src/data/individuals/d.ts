@@ -5102,6 +5102,57 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'duane-clarridge': {
+ name: 'Duane R. "Dewey" Clarridge',
+ title: 'Senior CIA Officer Indicted on Seven Counts in Iran-Contra, Pardoned by Bush',
+ role: 'CIA Latin America Division chief and senior clandestine operative who was indicted for lying to Congress about his role in arms shipments to Iran, pardoned before trial by President Bush',
+ riskLevel: 'high' as const,
+ description: 'Duane Ramsdell "Dewey" Clarridge (1932-2016) was a senior CIA officer who served as chief of the Latin America Division and later head of the CIA\'s Counterterrorism Center. He played a central role in CIA operations in Central America and was indicted by Independent Counsel Lawrence Walsh for perjury and false statements related to the Iran-Contra affair.\n\nClarridge was one of the most aggressive and controversial operatives in CIA history. As Latin America Division chief in the early 1980s, he was instrumental in organizing CIA support for the Nicaraguan Contras, including the mining of Nicaraguan harbors in 1984, an operation that drew international condemnation and a ruling against the United States by the International Court of Justice. He was also involved in early discussions about using the proceeds from arms sales to Iran to fund the Contras.\n\nWhen congressional committees investigated Iran-Contra, Clarridge testified that he had no knowledge of a November 1985 shipment of HAWK missiles to Iran that was facilitated by the CIA. Walsh\'s investigation revealed that Clarridge had in fact known about the shipment and had helped arrange CIA logistical support for it. In November 1991, Clarridge was indicted on seven counts of perjury and making false statements to congressional investigators and the Tower Commission.\n\nClarridge was scheduled to stand trial in March 1993, but on December 24, 1992, President George H.W. Bush pardoned him along with five other Iran-Contra defendants, including Caspar Weinberger and Clair George. Walsh condemned the pardons as completing the cover-up of Iran-Contra. After retirement from the CIA, Clarridge ran a private intelligence network and remained active in conservative foreign policy circles until his death in 2016.',
+ birthDate: 'April 16, 1932',
+ deathDate: 'April 9, 2016',
+ education: ['Brown University, BA', 'Columbia University, MA'],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'Chief, Latin America Division (early 1980s); founding head, Counterterrorism Center (1986); involved in Contra operations and Iran arms shipments', type: 'agency' },
+ ],
+ controversies: [
+ 'Organized CIA support for the Nicaraguan Contras as Latin America Division chief, including the mining of Nicaraguan harbors in 1984',
+ 'Harbor mining operation drew international condemnation and a ruling against the U.S. by the International Court of Justice',
+ 'Testified falsely to congressional committees and the Tower Commission about his knowledge of the November 1985 HAWK missile shipment to Iran',
+ 'Indicted on seven counts of perjury and false statements by Independent Counsel Walsh in November 1991',
+ 'Pardoned by President George H.W. Bush on December 24, 1992, before his trial, as part of a mass Iran-Contra pardon',
+ 'After retirement, ran a private intelligence network and remained active in controversial covert operations beyond official CIA channels',
+ ],
+ charges: [
+ { charge: 'Perjury and false statements (seven counts)', status: 'pardoned', date: '1991-11', source: 'Indicted November 1991; pardoned by President George H.W. Bush on December 24, 1992, before trial.' },
+ ],
+ relatedInvestigations: [
+ { title: 'Iran-Contra Affair: The Secret Arms Deal and Cover-Up', slug: 'iran-contra-reagan-secret-wars', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'April 16, 1932', event: 'Born' },
+ { date: '1955', event: 'Joins the CIA' },
+ { date: 'Early 1980s', event: 'Becomes chief of the CIA\'s Latin America Division; organizes CIA support for the Nicaraguan Contras' },
+ { date: '1984', event: 'Directs the mining of Nicaraguan harbors, drawing international condemnation and an ICJ ruling against the United States' },
+ { date: 'November 1985', event: 'Involved in facilitating the HAWK missile shipment to Iran, which he later denies under oath' },
+ { date: '1986', event: 'Becomes founding head of the CIA\'s Counterterrorism Center' },
+ { date: '1986-1987', event: 'Testifies falsely before congressional committees and the Tower Commission about the Iran arms shipments' },
+ { date: 'November 1991', event: 'Indicted by Independent Counsel Walsh on seven counts of perjury and false statements' },
+ { date: 'December 24, 1992', event: 'Pardoned by President Bush before trial as part of mass Iran-Contra pardon' },
+ { date: 'April 9, 2016', event: 'Dies' },
+ ],
+ sources: [
+ { title: 'Lawrence Walsh, Final Report of the Independent Counsel for Iran/Contra Matters (1993)', date: '1993' },
+ { title: 'Theodore Draper, A Very Thin Line: The Iran-Contra Affairs (Hill and Wang, 1991)', date: '1991' },
+ { title: 'Mark Mazzetti, "Duane R. Clarridge, Ex-C.I.A. Spy Who Helped Run the Contras, Dies at 83," New York Times (April 10, 2016)', date: '2016' },
+ ],
+ knownAssociates: [
+ { name: 'Oliver North', relationship: 'NSC staff member who coordinated the Contra resupply operation that Clarridge helped facilitate from the CIA side', href: '/entities/individuals/oliver-north' },
+ { name: 'Clair George', relationship: 'CIA Deputy Director for Operations, also indicted and pardoned in Iran-Contra', href: '/entities/individuals/clair-george' },
+ { name: 'George H.W. Bush', relationship: 'President who pardoned Clarridge on December 24, 1992', href: '/entities/individuals/george-hw-bush' },
+ { name: 'Caspar Weinberger', relationship: 'Former Defense Secretary pardoned alongside Clarridge in the Christmas Eve 1992 mass pardon', href: '/entities/individuals/caspar-weinberger' },
+ ],
+ },
+
  'duane-parde': {
  name: 'Duane Parde',
  title: 'Former ALEC executive director who expanded corporate membership',
