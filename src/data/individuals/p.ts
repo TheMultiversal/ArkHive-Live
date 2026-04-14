@@ -437,6 +437,40 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
+ 'paul-volcker': {
+ name: 'Paul Volcker',
+ title: 'Former Federal Reserve Chairman and Oil-for-Food Investigator',
+ role: 'Led the Independent Inquiry Committee investigation into the UN Oil-for-Food Programme, documenting $10.1 billion in illegal revenues',
+ riskLevel: 'medium',
+ description: 'Paul Adolph Volcker was an American economist who served as the 12th Chairman of the Federal Reserve from 1979 to 1987 and later led the Independent Inquiry Committee (IIC) into the United Nations Oil-for-Food Programme. Appointed by UN Secretary-General Kofi Annan in April 2004, Volcker oversaw a 19-month investigation that produced five interim reports and a comprehensive final report released on October 27, 2005. The investigation documented that the Iraqi regime under Saddam Hussein generated $10.1 billion in illegal revenues from the Oil-for-Food Programme, including $5.7 billion from oil smuggling to neighboring countries and $4.4 billion in illicit surcharges and kickbacks from companies in dozens of countries. The IIC found that OFFP director Benon Sevan had accepted $147,184 in bribes and that approximately 2,200 companies from over 60 countries had paid illegal kickbacks. The report also documented failures in UN oversight, corruption among senior UN officials, and the complicity of Security Council members whose companies profited from the programme. Volcker had previously been known for his aggressive monetary policy in the early 1980s that broke the back of inflation but caused a severe recession. He later served as chairman of President Obama\'s Economic Recovery Advisory Board from 2009 to 2011. The "Volcker Rule," part of the Dodd-Frank Act, was named after him and restricted banks from making speculative investments.',
+ birthDate: 'September 5, 1927',
+ birthPlace: 'Cape May, New Jersey',
+ deathDate: 'December 8, 2019',
+ deathCause: 'Prostate cancer',
+ education: ['Princeton University (BA, 1949)', 'Harvard University (MA in Political Economy, 1951)', 'London School of Economics (1951-1952)'],
+ affiliations: [
+  { name: 'UN Independent Inquiry Committee', relationship: 'Chairman (2004-2005)', href: '/entities/agencies/united-nations' },
+  { name: 'Federal Reserve System', relationship: 'Chairman (1979-1987)', href: '/entities/agencies/federal-reserve' },
+  { name: 'Obama Economic Recovery Advisory Board', relationship: 'Chairman (2009-2011)' },
+  { name: 'U.S. Department of the Treasury', relationship: 'Under Secretary for Monetary Affairs (1969-1974)' },
+  { name: 'Chase Manhattan Bank', relationship: 'Vice President (1957-1961)' },
+ ],
+ keyPositions: ['Chairman of the Federal Reserve (1979-1987)', 'Chairman of the UN Oil-for-Food Independent Inquiry Committee (2004-2005)', 'Chairman of Obama Economic Recovery Advisory Board (2009-2011)'],
+ knownAssociates: [
+  { name: 'Kofi Annan', relationship: 'Appointed Volcker to lead the IIC investigation' },
+  { name: 'Benon Sevan', relationship: 'OFFP director found to have accepted bribes by Volcker\'s investigation' },
+  { name: 'Barack Obama', relationship: 'Appointed Volcker to chair Economic Recovery Advisory Board' },
+ ],
+ controversies: [
+  { title: 'Severe Recession from Monetary Policy', description: 'Volcker\'s aggressive interest rate hikes to combat inflation in the early 1980s raised the federal funds rate to over 20%, triggering the worst recession since the Great Depression at the time with unemployment reaching 10.8%', date: '1981-1982' },
+  { title: 'Oil-for-Food Investigation Limitations', description: 'Some critics argued the IIC investigation did not go far enough in examining the role of Security Council members, particularly the United States and Britain, in facilitating Iraqi oil smuggling through allies like Jordan and Turkey', date: '2005' },
+ ],
+ relatedInvestigations: ['iraq-sanctions'],
+ sources: [
+  { title: 'Independent Inquiry Committee Final Report on the Oil-for-Food Programme (2005)', url: 'https://web.archive.org/web/2005/http://www.iic-offp.org/' },
+  { title: 'Volcker biographical material', url: 'https://www.federalreservehistory.org/people/paul-a-volcker' },
+ ],
+},
  'paul-wolfowitz': {
  name: 'Paul Dundes Wolfowitz',
  title: 'Former Deputy Secretary of Defense',

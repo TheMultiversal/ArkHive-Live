@@ -3906,7 +3906,7 @@ const investigations_c: Record<string, InvestigationData> = {
       { id: '3', name: 'William C. Sullivan', type: 'individual', relationship: 'FBI Assistant Director who ran Division Five (Domestic Intelligence) and managed COINTELPRO field operations; sent King "suicide letter"', href: '/entities/individuals/william-c-sullivan' },
       { id: '4', name: 'Cartha DeLoach', type: 'individual', relationship: 'FBI Associate Director who ran media disinformation campaigns offering King surveillance transcripts to journalists', href: '/entities/individuals/cartha-deloach' },
       { id: '5', name: 'Mark Felt', type: 'individual', relationship: 'FBI Chief Inspector of COINTELPRO field operations; later convicted of authorizing warrantless break-ins; pardoned by Reagan', href: '/entities/individuals/mark-felt' },
-      { id: '6', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who infiltrated Black Panther Party as Hampton\'s bodyguard, provided apartment floor plan, and drugged Hampton before the fatal raid', href: '/entities/individuals/william-oneal' },
+      { id: '6', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who infiltrated Black Panther Party as Hampton\'s bodyguard, provided apartment floor plan, and drugged Hampton before the fatal raid', href: '/entities/individuals/william-o-neal' },
       { id: '7', name: 'Fred Hampton', type: 'individual', relationship: 'Illinois Black Panther Party chairman assassinated on December 4, 1969 in FBI-coordinated raid at age 21', href: '/entities/individuals/fred-hampton' },
       { id: '8', name: 'Martin Luther King Jr.', type: 'individual', relationship: 'Primary COINTELPRO target from 1963-1968; subjected to wiretapping, bugging, blackmail, and the FBI "suicide letter"', href: '/entities/individuals/martin-luther-king-jr' },
       { id: '9', name: 'Black Panther Party', type: 'organization', relationship: 'Most targeted COINTELPRO organization, 233 documented operations; leadership assassinated, imprisoned, or exiled', href: '/entities/organizations/black-panther-party' },
@@ -7706,7 +7706,7 @@ const investigations_c: Record<string, InvestigationData> = {
    { id: 'j-edgar-hoover', name: 'J. Edgar Hoover', type: 'individual', relationship: 'FBI Director who created and directed COINTELPRO for 15 years', href: '/entities/individuals/j-edgar-hoover' },
    { id: 'fred-hampton', name: 'Fred Hampton', type: 'individual', relationship: 'Black Panther Chairman assassinated by FBI-directed raid at age 21', href: '/entities/individuals/fred-hampton' },
    { id: 'martin-luther-king-jr', name: 'Martin Luther King Jr.', type: 'individual', relationship: 'Civil rights leader subjected to years of FBI harassment and blackmail', href: '/entities/individuals/martin-luther-king-jr' },
-   { id: 'william-o-neal', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who betrayed Fred Hampton, provided floor plan and drugged him', href: '/entities/individuals/william-oneal' },
+   { id: 'william-o-neal', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who betrayed Fred Hampton, provided floor plan and drugged him', href: '/entities/individuals/william-o-neal' },
    { id: 'william-sullivan', name: 'William Sullivan', type: 'individual', relationship: 'FBI Domestic Intelligence chief who ran COINTELPRO operations' },
    { id: 'mark-felt', name: 'Mark Felt', type: 'individual', relationship: 'FBI Associate Director who later became "Deep Throat"in Watergate' }
  ],

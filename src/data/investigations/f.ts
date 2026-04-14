@@ -564,7 +564,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted COINTELPRO, surveilled civil rights leaders, facilitated Hampton assassination', href: '/entities/agencies/fbi' },
  { id: '3', name: 'Martin Luther King Jr.', type: 'individual', relationship: 'Primary target of FBI surveillance, sent anonymous suicide letter by FBI', href: '/entities/individuals/martin-luther-king-jr' },
  { id: '4', name: 'Fred Hampton', type: 'individual', relationship: 'Black Panther leader assassinated in FBI-facilitated raid at age 21', href: '/entities/individuals/fred-hampton' },
- { id: '5', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who provided floor plan of Hampton\'s apartment and drugged him', href: '/entities/individuals/william-oneal' },
+ { id: '5', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who provided floor plan of Hampton\'s apartment and drugged him', href: '/entities/individuals/william-o-neal' },
  { id: '6', name: 'DOJ', type: 'agency', relationship: 'Failed to rein in FBI abuses, did not prosecute COINTELPRO officials', href: '/entities/agencies/doj' },
  { id: '7', name: 'Chicago Police Department', type: 'agency', relationship: 'Executed the raid that killed Fred Hampton using FBI intelligence', href: '/entities/agencies/chicago-police' }
  ],
@@ -3801,7 +3801,7 @@ const investigations_f: Record<string, InvestigationData> = {
  affiliations: [
    { id: 'fred-hampton', name: 'Fred Hampton', type: 'individual', relationship: 'Chairman of the Illinois Black Panther Party; assassinated at age 21 in FBI-coordinated raid', href: '/entities/individuals/fred-hampton' },
    { id: 'mark-clark', name: 'Mark Clark', type: 'individual', relationship: 'Peoria Black Panther leader killed in the same raid; fired the only Panther shot (likely reflexive death spasm)', href: '/entities/individuals/mark-clark' },
-   { id: 'william-o-neal', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who infiltrated the Panthers, provided apartment floor plan, and drugged Hampton', href: '/entities/individuals/william-oneal' },
+   { id: 'william-o-neal', name: 'William O\'Neal', type: 'individual', relationship: 'FBI informant who infiltrated the Panthers, provided apartment floor plan, and drugged Hampton', href: '/entities/individuals/william-o-neal' },
    { id: 'roy-martin-mitchell', name: 'Roy Martin Mitchell', type: 'individual', relationship: 'FBI Special Agent who handled informant O\'Neal and directed his activities within the Panthers', href: '/entities/individuals/roy-mitchell' },
    { id: 'edward-hanrahan', name: 'Edward Hanrahan', type: 'individual', relationship: 'Cook County State\'s Attorney who authorized the raid and attempted to cover up the evidence', href: '/entities/individuals/edward-hanrahan' },
    { id: 'j-edgar-hoover', name: 'J. Edgar Hoover', type: 'individual', relationship: 'FBI Director who authorized COINTELPRO targeting of Hampton as a"key Black extremist"', href: '/entities/individuals/j-edgar-hoover' },

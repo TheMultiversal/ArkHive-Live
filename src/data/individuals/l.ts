@@ -2941,6 +2941,33 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'lesley-stahl': {
+ name: 'Lesley Stahl',
+ title: 'CBS News Correspondent and 60 Minutes Reporter',
+ role: 'Journalist who asked Madeleine Albright the question about 500,000 dead Iraqi children being "worth it" on 60 Minutes, producing one of the most devastating exchanges in broadcast journalism',
+ riskLevel: 'low',
+ description: 'Lesley Rene Stahl is an American television journalist who has been a correspondent for CBS News since 1972 and a regular contributor to 60 Minutes since 1991. She is most consequentially associated with the Iraq sanctions investigation through her May 12, 1996 interview with U.S. Ambassador to the United Nations Madeleine Albright on 60 Minutes. During the segment, Stahl stated: "We have heard that half a million children have died. I mean, that\'s more children than died in Hiroshima. And, you know, is the price worth it?" Albright responded: "I think this is a very hard choice, but the price, we think the price is worth it." The segment won an Emmy Award and Albright\'s response became one of the most damning statements ever made by a U.S. official, crystallizing American indifference to Iraqi civilian suffering and fueling anti-American sentiment across the Muslim world. Osama bin Laden later cited Iraqi sanctions and the deaths of Iraqi children in his 1998 fatwa justifying attacks on Americans. Before 60 Minutes, Stahl served as CBS White House correspondent from 1979 to 1991, covering the Carter, Reagan, and George H.W. Bush administrations. She moderated the vice presidential debate in 1984 and anchored the CBS News broadcast Face the Nation from 1983 to 1991. Her career at CBS has spanned over five decades of investigative journalism.',
+ birthDate: 'December 16, 1941',
+ birthPlace: 'Lynn, Massachusetts',
+ education: ['Wheaton College (BA, 1963)'],
+ affiliations: [
+  { name: 'CBS News', relationship: 'Correspondent (1972-present)' },
+  { name: '60 Minutes', relationship: 'Regular contributor (1991-present)' },
+  { name: 'Face the Nation', relationship: 'Anchor and moderator (1983-1991)' },
+ ],
+ keyPositions: ['CBS White House Correspondent (1979-1991)', '60 Minutes Correspondent (1991-present)', 'Face the Nation Anchor (1983-1991)'],
+ knownAssociates: [
+  { name: 'Madeleine Albright', relationship: 'Albright made the infamous "worth it" statement during Stahl\'s 1996 interview' },
+ ],
+ controversies: [
+  { title: '500,000 Dead Children Interview', description: 'Stahl\'s 1996 60 Minutes interview confronted Madeleine Albright with UNICEF estimates of 500,000 Iraqi children dead from sanctions. Albright\'s response that "the price is worth it" became one of the most cited examples of American foreign policy callousness. The segment won an Emmy Award.', date: '1996-05-12' },
+ ],
+ relatedInvestigations: ['iraq-sanctions'],
+ sources: [
+  { title: '60 Minutes segment on Iraq sanctions (May 12, 1996)', url: 'https://www.cbsnews.com/60-minutes/' },
+  'Lesley Stahl, Reporting Live (Simon and Schuster, 1999)',
+ ],
+},
  'lawrence-colburn': {
  name: 'Lawrence Colburn',
  title: 'My Lai Helicopter Crew Hero',
