@@ -3661,7 +3661,40 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-  'lawrence-wilkerson': {
+  'lawrence-walsh': {
+ name: 'Lawrence Walsh',
+ title: 'Iran-Contra Independent Counsel',
+ role: 'Independent Counsel who spent seven years investigating the Iran-Contra affair, obtaining 14 indictments and 11 convictions',
+ riskLevel: 'medium',
+ description: 'Lawrence Edward Walsh was a federal judge and attorney who served as Independent Counsel for the Iran-Contra investigation from December 19, 1986 through August 4, 1993. His seven-year investigation cost $47.4 million and resulted in 14 indictments and 11 convictions, including those of Oliver North, John Poindexter, Elliott Abrams, and Richard Secord. Walsh uncovered that senior Reagan administration officials had secretly sold arms to Iran in violation of an arms embargo and diverted the proceeds to fund the Nicaraguan Contras in violation of the Boland Amendment. His investigation was severely undermined when President George H.W. Bush pardoned six Iran-Contra defendants on December 24, 1992, including Defense Secretary Caspar Weinberger, just days before Weinberger was set to stand trial on charges that could have implicated Bush himself. Walsh called the pardons "the completion of a cover-up" and noted that Bush had refused to be interviewed by investigators. Prior to the Iran-Contra appointment, Walsh had served as a federal judge, as Deputy Attorney General under President Eisenhower, and as president of the American Bar Association. He died on March 19, 2014 at age 102.',
+ birthDate: 'January 8, 1912',
+ birthPlace: 'Port Maitland, Nova Scotia',
+ deathDate: 'March 19, 2014',
+ deathCause: 'Natural causes',
+ education: ['Columbia College (BA)', 'Columbia Law School (JD)'],
+ affiliations: [
+  { name: 'Office of Independent Counsel', relationship: 'Iran-Contra Independent Counsel (1986-1993)' },
+  { name: 'American Bar Association', relationship: 'President (1975-1976)' },
+  { name: 'U.S. Department of Justice', relationship: 'Deputy Attorney General (1957-1960)' },
+ ],
+ keyPositions: ['Iran-Contra Independent Counsel (1986-1993)', 'President of the American Bar Association (1975-1976)', 'Deputy Attorney General of the United States (1957-1960)', 'Federal Judge, U.S. District Court for the Southern District of New York'],
+ knownAssociates: [
+  { name: 'Oliver North', relationship: 'Indicted and convicted by Walsh\'s investigation; conviction later overturned on appeal' },
+  { name: 'Caspar Weinberger', relationship: 'Indicted by Walsh; pardoned by Bush before trial' },
+  { name: 'George H.W. Bush', relationship: 'Pardoned six Iran-Contra defendants; refused to submit to interview by Walsh\'s investigators' },
+ ],
+ controversies: [
+  { title: 'Bush Pardons Undermined Investigation', description: 'President George H.W. Bush pardoned six Iran-Contra defendants on Christmas Eve 1992, including Caspar Weinberger whose trial might have revealed Bush\'s own role. Walsh called it "the completion of a cover-up."', date: '1992-12-24' },
+  { title: 'Oliver North Conviction Overturned', description: 'North\'s conviction was overturned on appeal because his immunized congressional testimony may have influenced trial witnesses, exposing a fundamental conflict between congressional immunity grants and criminal prosecutions', date: '1990' },
+  { title: 'Investigation Cost and Duration Criticized', description: 'Walsh\'s seven-year, $47.4 million investigation drew criticism from Republicans who characterized it as an expensive partisan exercise, though Walsh was a lifelong Republican himself', date: '1993' },
+ ],
+ relatedInvestigations: ['iran-contra', 'iran-contra-full-financial-trail'],
+ sources: [
+  { title: 'Lawrence Walsh, Firewall: The Iran-Contra Conspiracy and Cover-Up (W.W. Norton, 1997)' },
+  { title: 'Final Report of the Independent Counsel for Iran/Contra Matters (August 4, 1993)' },
+ ],
+},
+ 'lawrence-wilkerson': {
     name: 'Lawrence Wilkerson',
     title: 'Colonel, U.S. Army (Retired)',
     role: 'Chief of Staff to Secretary of State Colin Powell; Whistleblower on Iraq War lies',

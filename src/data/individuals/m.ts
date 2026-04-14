@@ -1450,6 +1450,35 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
+ 'manucher-ghorbanifar': {
+ name: 'Manucher Ghorbanifar',
+ title: 'Iranian Arms Dealer and Intelligence Intermediary',
+ role: 'Iranian expatriate who served as the primary intermediary in the Iran-Contra arms-for-hostages scheme',
+ riskLevel: 'high',
+ description: 'Manucher Ghorbanifar is an Iranian-born businessman and former SAVAK agent who served as the primary intermediary between the United States and Iran in the arms-for-hostages deals at the center of the Iran-Contra affair. He proposed the original concept of selling U.S. weapons to Iran in exchange for the release of American hostages held by Hezbollah in Lebanon. Ghorbanifar added an approximately 41% markup on weapons sales, personally profiting from the transactions while inflating the costs that the U.S. government disguised through a complex web of shell companies and Swiss bank accounts. The CIA had previously designated Ghorbanifar as a fabricator and issued a rare "burn notice" warning against using him as an intelligence source after he failed multiple polygraph tests. Despite this, Israeli intelligence officials and National Security Council staff, particularly Michael Ledeen and Oliver North, continued to rely on him as an intermediary. American officials who dealt with Ghorbanifar grew increasingly frustrated with what they described as his dishonesty and double-dealing, with some suspecting he was simultaneously working for Iranian intelligence. After the scandal broke, Ghorbanifar attempted to resurface as an intermediary during the George W. Bush administration through meetings arranged by Pentagon officials, further demonstrating the persistent connections between arms dealers and U.S. intelligence operations.',
+ birthDate: '1945',
+ birthPlace: 'Tehran, Iran',
+ education: [],
+ affiliations: [
+  { name: 'SAVAK (Iranian Intelligence)', relationship: 'Former agent, pre-1979 revolution' },
+  { name: 'Central Intelligence Agency', relationship: 'Designated asset turned "burn notice" subject; primary Iran-Contra intermediary' },
+ ],
+ knownAssociates: [
+  { name: 'Oliver North', relationship: 'Primary U.S. contact for arms-for-hostages transactions' },
+  { name: 'Adnan Khashoggi', relationship: 'Saudi arms dealer who helped finance early Iran weapons shipments' },
+  { name: 'Michael Ledeen', relationship: 'Pentagon consultant who introduced Ghorbanifar to NSC officials' },
+ ],
+ controversies: [
+  { title: 'CIA Burn Notice', description: 'The CIA issued a rare "burn notice" against Ghorbanifar after he failed multiple polygraph examinations and was designated a fabricator, yet Reagan administration officials continued to use him as their primary Iran intermediary', date: '1984' },
+  { title: 'Arms-for-Hostages Profiteering', description: 'Ghorbanifar added approximately 41% personal markup on weapons sales to Iran, profiting from transactions that were simultaneously illegal under U.S. law and counterproductive to stated American hostage-release objectives', date: '1985-1986' },
+  { title: 'Post-9/11 Resurfacing', description: 'Ghorbanifar resurfaced after September 11, 2001 through meetings arranged by Pentagon officials including Harold Rhode and Larry Franklin, attempting to serve again as an intermediary with Iran despite his documented unreliability', date: '2001-2003' },
+ ],
+ relatedInvestigations: ['iran-contra', 'iran-contra-full-financial-trail'],
+ sources: [
+  { title: 'Report of the Congressional Committees Investigating the Iran-Contra Affair (1987)' },
+  { title: 'Tower Commission Report (1987)' },
+ ],
+},
  'marco-rubio': {
  name: 'Marco Rubio',
  title: 'Profile Under Review',

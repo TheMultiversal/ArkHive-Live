@@ -98,6 +98,37 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'prince-bandar': {
+ name: 'Prince Bandar bin Sultan',
+ title: 'Saudi Ambassador to the United States (1983-2005)',
+ role: 'Saudi diplomat who facilitated $32 million in Saudi contributions to Contra bank accounts, circumventing the Boland Amendment',
+ riskLevel: 'high',
+ description: 'Prince Bandar bin Sultan Al Saud served as Saudi Arabia\'s Ambassador to the United States from 1983 to 2005, the longest tenure of any Saudi ambassador to Washington. Known as "Bandar Bush" for his extraordinarily close relationship with the Bush family, he became a central figure in the Iran-Contra affair when he facilitated $32 million in Saudi contributions to Nicaraguan Contra bank accounts between 1984 and 1986, helping the Reagan administration circumvent the Boland Amendment\'s prohibition on U.S. funding for the Contras. The Saudi contributions were coordinated with National Security Adviser Robert McFarlane and NSC staff member Oliver North as part of a broader effort to fund the Contra insurgency through third-party countries after Congress cut off direct U.S. aid. Bandar\'s role illustrated the Reagan administration\'s use of foreign governments as conduits for covert operations that had been explicitly prohibited by law. Beyond Iran-Contra, Bandar was one of the most influential foreign diplomats in Washington for over two decades, maintaining relationships across multiple administrations. He later served as Secretary General of the Saudi National Security Council (2005-2015) and briefly as Director General of Saudi Intelligence (2012-2014). His diplomatic career was marked by both his ability to serve as a trusted interlocutor between Washington and Riyadh and by persistent questions about Saudi Arabia\'s role in financing extremism.',
+ birthDate: 'March 2, 1949',
+ birthPlace: 'Taif, Saudi Arabia',
+ education: ['Royal Air Force College Cranwell', 'Johns Hopkins University (MA, International Public Policy)'],
+ affiliations: [
+  { name: 'Kingdom of Saudi Arabia', relationship: 'Ambassador to the United States (1983-2005)' },
+  { name: 'Saudi National Security Council', relationship: 'Secretary General (2005-2015)' },
+  { name: 'Saudi General Intelligence Directorate', relationship: 'Director General (2012-2014)' },
+ ],
+ keyPositions: ['Saudi Ambassador to the United States (1983-2005)', 'Secretary General of the Saudi National Security Council (2005-2015)', 'Director General of Saudi Intelligence (2012-2014)'],
+ knownAssociates: [
+  { name: 'George H.W. Bush', relationship: 'Close personal friend; Bandar nicknamed "Bandar Bush" for his relationship with the Bush family' },
+  { name: 'Oliver North', relationship: 'Coordinated Saudi Contra funding through North\'s operational network' },
+  { name: 'Robert McFarlane', relationship: 'National Security Adviser who arranged Saudi contributions to the Contras' },
+ ],
+ controversies: [
+  { title: 'Saudi Contra Funding', description: 'Facilitated $32 million in Saudi government contributions to Contra bank accounts between 1984-1986, helping circumvent the Boland Amendment\'s congressional prohibition on U.S. Contra funding', date: '1984-1986' },
+  { title: '9/11 Commission Redacted Pages', description: 'The 28 redacted pages of the 9/11 Commission Report, declassified in 2016, described Saudi government connections to the hijackers including funds from Bandar\'s wife Princess Haifa that reached two of the San Diego-based hijackers through intermediaries', date: '2016' },
+  { title: 'BAE Systems Al-Yamamah Arms Deal', description: 'Bandar was implicated in receiving over 1 billion pounds in secret payments from BAE Systems related to the Al-Yamamah arms deal between Britain and Saudi Arabia, one of the largest arms deals in history', date: '2007' },
+ ],
+ relatedInvestigations: ['iran-contra', 'iran-contra-full-financial-trail'],
+ sources: [
+  { title: 'Report of the Congressional Committees Investigating the Iran-Contra Affair (1987)' },
+  { title: 'William Simpson, The Prince: The Secret Story of the World\'s Most Intriguing Royal (2006)' },
+ ],
+},
  'pat-cipollone': {
  name: 'Pasquale Anthony Cipollone',
  title: 'Former White House Counsel',
