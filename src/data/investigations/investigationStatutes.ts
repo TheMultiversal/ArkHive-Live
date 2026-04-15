@@ -1995,9 +1995,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 2251', description: 'Sexual Exploitation of Children' },
   ],
-  'fannie-mae-fraud': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-  ],
   'far-right': [
     { code: '18 U.S.C. § 371', description: 'Conspiracy' },
     { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },

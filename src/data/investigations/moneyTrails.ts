@@ -2344,12 +2344,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2022-01-01', from: 'Mark Zuckerberg', to: 'Affected investors / victims', amount: '$2.6B', purpose: 'Restitution and settlement payments to victims of Facebook Antitrust Violations', documented: true },
   ],
 
-  'fannie-mae-fraud': [
-    { date: '2004-01-01', from: 'Franklin Raines', to: 'Illicit financial flows', amount: '$14.0B', purpose: 'Fraudulent financial activity in Fannie Mae Accounting Fraud', documented: true },
-    { date: '2007-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Franklin Raines', amount: '$4.7B', purpose: 'Fines and penalties imposed for violations uncovered in Fannie Mae Accounting Fraud', documented: true },
-    { date: '2006-01-01', from: 'Franklin Raines', to: 'Affected investors / victims', amount: '$556M', purpose: 'Restitution and settlement payments to victims of Fannie Mae Accounting Fraud', documented: true },
-  ],
-
   'fbi-cointelpro-full-accounting': [
     { date: '1971-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$1.1B', purpose: 'Government spending on operations that violated civil rights in FBI COINTELPRO: A Full Accounting of Domestic Political Warfare', documented: true },
     { date: '1975-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$3.4B', purpose: 'Settlements and compensation to victims of FBI COINTELPRO: A Full Accounting of Domestic Political Warfare', documented: true },

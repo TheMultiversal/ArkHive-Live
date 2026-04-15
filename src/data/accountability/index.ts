@@ -57,6 +57,7 @@ import { cryptoFraudAccountability } from './crypto-exchange-fraud-ecosystem';
 import { enronFraudAccountability } from './enron-fraud';
 import { farmlandAcquisitionAccountability } from './farmland-acquisition';
 import { financialCrisisAccountability } from './financial-crisis-accountability-failure';
+import { fannieMaeFraudAccountability } from './fannie-mae-fraud';
 import { forcedArbitrationAccountability } from './forced-arbitration-consumer-rights';
 import { greatResetAccountability } from './great-reset';
 import { healthPolicyAccountability } from './health-policy';
@@ -157,6 +158,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'enron-fraud': enronFraudAccountability,
   'farmland-acquisition': farmlandAcquisitionAccountability,
   'financial-crisis-accountability-failure': financialCrisisAccountability,
+  'fannie-mae-fraud': fannieMaeFraudAccountability,
   'forced-arbitration-consumer-rights': forcedArbitrationAccountability,
   'flint-water-crisis': flintWaterCrisisAccountability,
   'george-floyd': georgeFloydAccountability,
