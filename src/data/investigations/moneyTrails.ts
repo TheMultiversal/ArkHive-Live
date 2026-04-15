@@ -3386,10 +3386,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2024-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$2.3B', purpose: 'Settlements and compensation to victims of COVID Restrictions Debate', documented: true },
   ],
 
-  'media-consolidation': [
-    { date: '2022-01-01', from: 'Sinclair Broadcast Group', to: 'Revenue from disinformation', amount: '$31.4B', purpose: 'Revenue generated while spreading misleading content in Media Consolidation', documented: true },
-    { date: '2024-01-01', from: 'Sinclair Broadcast Group', to: 'Legal penalties', amount: '$1.9B', purpose: 'Legal costs and settlements for misconduct in Media Consolidation', documented: true },
-  ],
 
   'media-manipulation': [
     { date: '2022-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$3.3B', purpose: 'Undisclosed political spending connected to Media Manipulation', documented: false },

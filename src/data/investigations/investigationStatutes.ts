@@ -5911,12 +5911,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 371', description: 'Conspiracy' },
     { code: '7 U.S.C. § 9', description: 'Commodity Exchange Act - Manipulation' },
   ],
-  'media-consolidation': [
-    { code: '15 U.S.C. § 1', description: 'Sherman Antitrust Act' },
-    { code: '15 U.S.C. § 18', description: 'Clayton Act - Anti-Competitive Mergers' },
-    { code: '47 U.S.C. § 303', description: 'FCC Powers (media ownership rules)' },
-    { code: '15 U.S.C. § 45', description: 'FTC Act - Unfair Methods of Competition' },
-  ],
   'media-fraud': [
     { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
     { code: '15 U.S.C. § 45', description: 'FTC Act - Deceptive Practices' },
