@@ -1117,12 +1117,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2015-01-01', from: 'Cambridge Analytica', to: 'Victim settlements', amount: '$4.9B', purpose: 'Settlements and reparations paid to victims of Cambridge Analytica Global Operations', documented: true },
   ],
 
-  'cryptocurrency-money-laundering-networks': [
-    { date: '2024-01-01', from: 'Changpeng Zhao', to: 'Illicit financial flows', amount: '$2.8B', purpose: 'Fraudulent financial activity in Cryptocurrency Money Laundering Networks', documented: true },
-    { date: '2025-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Changpeng Zhao', amount: '$1.8B', purpose: 'Fines and penalties imposed for violations uncovered in Cryptocurrency Money Laundering Networks', documented: true },
-    { date: '2025-01-01', from: 'Changpeng Zhao', to: 'Affected investors / victims', amount: '$17.1B', purpose: 'Restitution and settlement payments to victims of Cryptocurrency Money Laundering Networks', documented: true },
-  ],
-
   'credit-default-swap-fraud': [
     { date: '2020-01-01', from: 'Goldman Sachs', to: 'Illicit financial flows', amount: '$14.4B', purpose: 'Fraudulent financial activity in Credit Default Swap Fraud', documented: true },
     { date: '2023-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Goldman Sachs', amount: '$7.7B', purpose: 'Fines and penalties imposed for violations uncovered in Credit Default Swap Fraud', documented: true },
