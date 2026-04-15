@@ -2994,19 +2994,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
     { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
   ],
-  'january-6-investigation': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 371', description: 'Conspiracy' },
-    { code: '18 U.S.C. § 1503', description: 'Obstruction of Justice' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
-  'january-6th': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-    { code: '18 U.S.C. § 371', description: 'Conspiracy' },
-    { code: '52 U.S.C. § 10301', description: 'Voting Rights Act' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
   'japanese-american-internment': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },

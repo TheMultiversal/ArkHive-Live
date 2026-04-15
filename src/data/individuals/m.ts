@@ -259,6 +259,61 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
+ 'michael-flynn': {
+ name: 'Michael Flynn',
+ role: 'National Security Advisor; Retired Lt. General; QAnon Figure',
+ background: 'Michael Thomas Flynn served as the 25th United States National Security Advisor for the first 24 days of the Trump administration, the shortest tenure in the position\'s history. A retired U.S. Army Lieutenant General who previously directed the Defense Intelligence Agency, Flynn resigned after lying to the FBI and Vice President Pence about his contacts with Russian Ambassador Sergey Kislyak. He pleaded guilty twice to making false statements, was pardoned by Trump in November 2020, and subsequently became a prominent advocate for martial law, military seizure of voting machines, and QAnon conspiracy theories.',
+ keyPositions: [
+   'National Security Advisor (January 20 - February 13, 2017; shortest tenure in history)',
+   'Director of the Defense Intelligence Agency (2012-2014)',
+   'Senior Military Intelligence Officer, U.S. Army Lieutenant General (retired)',
+   'Assistant Director of National Intelligence (2007-2008)'
+ ],
+ affiliations: [
+   { name: 'Donald Trump', relationship: 'National Security Advisor; key campaign surrogate; attended December 18 Oval Office meeting proposing military seizure of voting machines', href: '/entities/individuals/donald-trump' },
+   { name: 'Sergey Kislyak', relationship: 'Russian ambassador; Flynn lied to FBI about discussions regarding sanctions during transition', href: '/entities/individuals/sergey-kislyak' },
+   { name: 'Sidney Powell', relationship: 'Attorney who represented Flynn; both attended December 18 Oval Office meeting proposing extreme measures to overturn election', href: '/entities/individuals/sidney-powell' },
+   { name: 'Roger Stone', relationship: 'Fellow Trump ally; both connected to far-right organizing; both benefited from Trump pardons', href: '/entities/individuals/roger-stone' },
+   { name: 'Mike Pence', relationship: 'Vice President whom Flynn lied to about Russian contacts, precipitating his resignation', href: '/entities/individuals/mike-pence' },
+   { name: 'Robert Mueller', relationship: 'Special Counsel who prosecuted Flynn; Flynn cooperated extensively before reversing course', href: '/entities/individuals/robert-mueller' }
+ ],
+ controversies: [
+   { title: 'Russia Contacts and False Statements', description: 'During the presidential transition, Flynn discussed sanctions with Russian Ambassador Kislyak and then lied to the FBI and Vice President Pence about the conversations. He pleaded guilty to making false statements under 18 U.S.C. 1001.', date: '2017-01-24', impact: 'Resigned as National Security Advisor after 24 days; pleaded guilty twice; cooperated with Mueller investigation' },
+   { title: 'December 18 Oval Office Meeting', description: 'Attended a chaotic late-night White House meeting where Sidney Powell proposed being appointed special counsel to seize voting machines and Flynn advocated for declaring martial law to rerun the election.', date: '2020-12-18', impact: 'Meeting documented by Select Committee as part of Trump\'s multi-part plan to overturn election' },
+   { title: 'Calls for Martial Law', description: 'Publicly called for Trump to declare martial law, suspend the Constitution, and have the military oversee a new election. Appeared on Newsmax advocating these positions.', date: '2020-12-17', impact: 'Normalized discussion of military coup among Trump supporters; cited by January 6 Committee' },
+   { title: 'QAnon Involvement', description: 'Became a prominent figure in the QAnon conspiracy movement, publicly taking the "QAnon oath" and appearing at QAnon events. Promoted theories about satanic child trafficking networks.', date: '2020-07-04', impact: 'Lent credibility of a former three-star general to extremist conspiracy movement' },
+   { title: 'Turkey Lobbying and FARA Violations', description: 'Retroactively registered as a foreign agent of Turkey after failing to disclose $530,000 in lobbying payments from a Turkish company while serving as a campaign advisor. Discussed kidnapping cleric Fethullah Gulen.', date: '2017-03-07', impact: 'DOJ investigation; Flynn\'s business partner Bijan Rafiekian convicted of illegal lobbying' },
+   { title: 'Trump Pardon', description: 'Pardoned by Trump on November 25, 2020, despite having pleaded guilty twice. Pardon came amid Trump\'s escalating campaign to overturn the election, freeing Flynn to advocate for extreme measures.', date: '2020-11-25', impact: 'Removed legal leverage over Flynn; enabled his advocacy for martial law and military seizure of voting machines' }
+ ],
+ charges: [],
+ relatedInvestigations: [
+   { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ sources: [
+   { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+   { title: 'Mueller Report: Investigation into Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+   { title: 'Flynn Plea Agreement (U.S. v. Flynn)', url: 'https://www.justice.gov/sco', date: '2017' },
+   { title: 'Presidential Pardon of Michael Flynn', url: 'https://www.whitehouse.gov/', date: '2020' }
+ ],
+ timeline: [
+   { date: '1958-12-24', event: 'Born in Middletown, Rhode Island' },
+   { date: '1981', event: 'Commissioned as second lieutenant in the U.S. Army; begins military intelligence career' },
+   { date: '2012-07', event: 'Appointed Director of the Defense Intelligence Agency by President Obama' },
+   { date: '2014-08', event: 'Forced out of DIA after clashes with Obama administration over terrorism policy' },
+   { date: '2015-12', event: 'Sits next to Vladimir Putin at RT (Russia Today) gala dinner in Moscow; paid $45,000 by Russian state media' },
+   { date: '2016-07-18', event: 'Leads "Lock her up!" chant about Hillary Clinton at Republican National Convention' },
+   { date: '2017-01-20', event: 'Sworn in as National Security Advisor' },
+   { date: '2017-01-24', event: 'Interviewed by FBI at White House about contacts with Russian Ambassador Kislyak; makes false statements' },
+   { date: '2017-02-13', event: 'Resigns as National Security Advisor after only 24 days; admits misleading Vice President Pence about Russia contacts' },
+   { date: '2017-12-01', event: 'Pleads guilty to making false statements to the FBI (18 U.S.C. 1001); agrees to cooperate with Special Counsel Mueller' },
+   { date: '2020-07-04', event: 'Posts video taking the "QAnon oath": "Where we go one, we go all"' },
+   { date: '2020-11-25', event: 'Pardoned by Trump for false statements conviction' },
+   { date: '2020-12-17', event: 'Appears on Newsmax calling for Trump to declare martial law and have military oversee new election' },
+   { date: '2020-12-18', event: 'Attends chaotic Oval Office meeting with Sidney Powell proposing military seizure of voting machines and appointment of special counsel' },
+   { date: '2021-01-06', event: 'Present in Washington D.C. during the Capitol attack; Select Committee investigated his role in planning' },
+   { date: '2022-12-19', event: 'Select Committee criminal referral includes Flynn\'s role in the broader conspiracy to overturn the election' }
+ ],
+},
  'mike-pence': {
  name: 'Michael Richard Pence',
  title: '48th Vice President of the United States',

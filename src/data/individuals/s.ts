@@ -217,6 +217,61 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'steve-bannon': {
+ name: 'Steve Bannon',
+ role: 'White House Chief Strategist; Breitbart News Executive; Trump Political Advisor',
+ background: 'Stephen Kevin Bannon served as White House Chief Strategist under President Trump from January to August 2017 and was the executive chairman of Breitbart News. A former naval officer, Goldman Sachs investment banker, and Hollywood producer, Bannon became one of the most influential figures in the populist-nationalist movement. He predicted "all hell will break loose" on January 5, 2021, and was convicted of contempt of Congress for defying the January 6 Select Committee subpoena. He was pardoned by Trump in January 2021 for fraud charges related to the "We Build the Wall" scheme and again in January 2025 for the contempt conviction.',
+ keyPositions: [
+   'White House Chief Strategist (January-August 2017)',
+   'Executive Chairman of Breitbart News (2012-2018)',
+   'CEO of Trump 2016 Presidential Campaign (August-November 2016)',
+   'Senior Counselor to the President (2017)',
+   'Naval Officer, U.S. Navy (1976-1983)'
+ ],
+ affiliations: [
+   { name: 'Donald Trump', relationship: 'Campaign CEO (2016); White House Chief Strategist; key political advisor through January 6 and beyond', href: '/entities/individuals/donald-trump' },
+   { name: 'Roger Stone', relationship: 'Fellow Trump ally and political operative; both connected to far-right organizing around January 6', href: '/entities/individuals/roger-stone' },
+   { name: 'Peter Navarro', relationship: 'Co-architect of "Green Bay Sweep" strategy to overturn election certification; both convicted of contempt of Congress', href: '/entities/individuals/peter-navarro' },
+   { name: 'Stewart Rhodes', relationship: 'Bannon\'s War Room podcast gave platform to Oath Keepers and other January 6 organizers', href: '/entities/individuals/stewart-rhodes' },
+   { name: 'Robert Mercer', relationship: 'Billionaire patron who funded Breitbart News and connected Bannon to Trump campaign', href: '/entities/individuals/rebekah-mercer' },
+   { name: 'Mark Meadows', relationship: 'White House Chief of Staff with whom Bannon coordinated election challenge strategy', href: '/entities/individuals/mark-meadows' }
+ ],
+ controversies: [
+   { title: 'Contempt of Congress Conviction', description: 'Defied subpoena from the House January 6 Select Committee, refusing to testify or produce documents. Convicted of two counts of contempt of Congress.', date: '2022-07-22', impact: 'Sentenced to 4 months federal prison; served starting July 2024. Pardoned by Trump January 2025.' },
+   { title: '"All Hell Will Break Loose" Prediction', description: 'On his War Room podcast on January 5, 2021, stated "all hell is going to break loose tomorrow" regarding January 6th, suggesting foreknowledge of planned violence.', date: '2021-01-05', impact: 'Statement cited by Select Committee as evidence of advance planning' },
+   { title: 'We Build the Wall Fraud', description: 'Charged with conspiracy to commit wire fraud and money laundering in connection with the "We Build the Wall" crowdfunding campaign that raised $25 million. Allegedly siphoned hundreds of thousands for personal expenses.', date: '2020-08-20', impact: 'Arrested by U.S. Postal Inspection Service on a yacht. Pardoned by Trump on January 19, 2021, his last day in office.' },
+   { title: 'Breitbart and White Nationalism', description: 'Under Bannon\'s leadership, Breitbart News became a platform for the "alt-right" movement, publishing content that promoted white nationalist and anti-immigrant ideology.', date: '2016-03-01', impact: 'Southern Poverty Law Center and ADL documented Breitbart\'s role in mainstreaming extremist ideology' },
+   { title: 'War Room Podcast Radicalization', description: 'War Room podcast became a major platform for election denial, January 6 organizing, and far-right political mobilization, reaching millions of listeners.', date: '2020-11-04', impact: 'Federal prosecutors noted Bannon\'s media role in radicalizing January 6 participants' }
+ ],
+ charges: [],
+ relatedInvestigations: [
+   { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ sources: [
+   { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
+   { title: 'U.S. v. Bannon (Contempt of Congress)', url: 'https://www.justice.gov/usao-dc/case/united-states-v-bannon', date: '2022' },
+   { title: '"We Build the Wall" Federal Indictment', url: 'https://www.justice.gov/', date: '2020' },
+   { title: 'War Room Podcast January 5 Broadcast', url: 'https://warroom.org/', date: '2021' }
+ ],
+ timeline: [
+   { date: '1953-11-27', event: 'Born in Norfolk, Virginia to a working-class Irish Catholic family' },
+   { date: '1976', event: 'Graduates from Virginia Tech; receives commission in the U.S. Navy' },
+   { date: '1983', event: 'Leaves Navy; later earns MBA from Harvard Business School' },
+   { date: '1990', event: 'Becomes investment banker at Goldman Sachs; later moves to entertainment and media' },
+   { date: '2012', event: 'Becomes executive chairman of Breitbart News; transforms it into leading "alt-right" platform' },
+   { date: '2016-08-17', event: 'Named CEO of Trump\'s 2016 presidential campaign for final stretch' },
+   { date: '2017-01-20', event: 'Appointed White House Chief Strategist and Senior Counselor to the President' },
+   { date: '2017-08-18', event: 'Fired from White House after losing internal power struggle; returns to Breitbart' },
+   { date: '2020-08-20', event: 'Arrested on fraud charges related to "We Build the Wall" crowdfunding scheme' },
+   { date: '2021-01-05', event: 'Predicts on War Room podcast: "All hell is going to break loose tomorrow"' },
+   { date: '2021-01-19', event: 'Pardoned by Trump for "We Build the Wall" fraud charges on Trump\'s last day in office' },
+   { date: '2021-10-21', event: 'Referred to DOJ for contempt of Congress after defying January 6 Committee subpoena' },
+   { date: '2022-07-22', event: 'Convicted of two counts of contempt of Congress' },
+   { date: '2022-10-21', event: 'Sentenced to 4 months in federal prison (sentence delayed pending appeal)' },
+   { date: '2024-07-01', event: 'Reports to federal prison in Danbury, Connecticut to begin serving contempt sentence' },
+   { date: '2025-01-20', event: 'Pardoned by Trump upon return to office; released from prison' }
+ ],
+},
  'stewart-rhodes': {
  name: 'Stewart Rhodes',
  title: 'Profile Under Review',

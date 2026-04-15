@@ -1,0 +1,501 @@
+import type { AccountabilityData } from '@/types/accountability';
+
+export const january6InsurrectionAccountability: AccountabilityData = {
+  investigationSlug: 'january-6-insurrection',
+
+  // ============================================================
+  // WHAT HAPPENED
+  // ============================================================
+  crimeSummary: 'On January 6, 2021, thousands of supporters of President Donald Trump violently stormed the U.S. Capitol in an attempt to prevent the certification of Joe Biden\'s electoral victory. The attack was the culmination of a multi-part conspiracy orchestrated by Trump and his allies to overturn the results of a democratic election. The scheme included spreading disinformation about election fraud, pressuring state officials, organizing fake elector slates in seven states, pressuring Vice President Pence to reject electoral votes, and ultimately inciting a violent mob to attack Congress. The assault resulted in multiple deaths, over 140 injured police officers, and over $30 million in damage to the Capitol. Trump failed to act for 187 minutes while the building was under siege. The House Select Committee documented the conspiracy in detail, and DOJ launched the largest criminal investigation in American history, charging over 1,400 defendants. After returning to office in 2025, Trump pardoned virtually all convicted defendants.',
+
+  totalHarm: 'Five deaths directly connected to the attack; over 140 law enforcement officers physically injured (concussions, broken bones, chemical burns, stab wounds); four officers later died by suicide. Over $30 million in physical damage to the U.S. Capitol building. $100+ million in federal prosecution costs. Incalculable damage to American democratic institutions, the peaceful transfer of power, and international perceptions of American democracy. The pardoning of virtually all convicted defendants in 2025 sends the message that political violence on behalf of the president will be rewarded with impunity.',
+
+  victimsAffected: 'The American people as a whole, specifically: the 81+ million voters whose democratic choice was targeted for violent overthrow; the 535 members of Congress whose lives were threatened; the 140+ Capitol Police and Metropolitan Police officers who were physically assaulted; the families of the 5 people who died and 4 officers who died by suicide; congressional staff, journalists, and janitorial workers traumatized by the attack; election workers nationwide who now face ongoing threats and harassment; and every American whose faith in democratic institutions was damaged.',
+
+  // ============================================================
+  // WHO SHOULD BE HELD ACCOUNTABLE
+  // ============================================================
+  primaryTargets: [
+    {
+      name: 'Donald Trump',
+      role: 'Incited the insurrection; orchestrated seven-part plan to overturn election; failed to act for 187 minutes; later pardoned all convicted attackers.',
+      currentStatus: 'Serving as 47th President of the United States. Federal charges dismissed by Special Counsel Jack Smith after 2024 election victory. Georgia RICO case pending but effectively frozen during presidency. Pardoned virtually all January 6 defendants on first day back in office.',
+      accountabilityPath: 'Presidential immunity shields Trump from federal prosecution during his term. Post-presidency: reinstatement of federal charges or new indictment when DOJ policy no longer bars prosecution of a sitting president. Georgia RICO case can proceed after his term. Congressional accountability through the 14th Amendment Section 3 (disqualification from office for engaging in insurrection); requires either Congressional action or court proceedings. Civil lawsuits by injured officers and victims (Swalwell v. Trump, Capitol Police officers v. Trump). International accountability through ICC referral or foreign court proceedings for incitement of violence against democratic governance.',
+      obstacles: [
+        'Presidential immunity during current term',
+        'DOJ longstanding policy against prosecuting sitting presidents',
+        'Pardon power could extend to self-pardon (untested constitutional question)',
+        'Political polarization prevents Congressional accountability',
+        '14th Amendment Section 3 enforcement remains legally contested',
+        'Supreme Court immunity ruling (Trump v. United States) narrowed prosecution scope',
+      ],
+    },
+    {
+      name: 'Mark Meadows',
+      role: 'White House Chief of Staff who coordinated the multi-part plan with Congress, burned documents, and was central to communications between Trump and state officials.',
+      currentStatus: 'Georgia RICO defendant. Cooperated with Special Counsel\'s federal investigation. Sought removal of Georgia case to federal court.',
+      accountabilityPath: 'Georgia RICO prosecution (case pending). Obstruction of justice charges for document destruction (burning documents in White House fireplace). Violation of Presidential Records Act. Contempt of Congress referral for defying subpoena. Civil liability for coordinating pressure on election officials.',
+      obstacles: [
+        'Cooperation with federal investigation may provide leverage for leniency',
+        'Georgia case delayed by procedural challenges',
+        'Trump pardon power covers federal offenses',
+        'Executive privilege claims, though courts have largely rejected them',
+      ],
+    },
+    {
+      name: 'John Eastman',
+      role: 'Authored the "coup memo" pressuring Pence to reject electoral votes; central architect of the constitutional argument for overturning the election.',
+      currentStatus: 'Disbarred by California State Bar (March 2024). Georgia RICO defendant. Federal criminal exposure as unindicted co-conspirator in Jack Smith case.',
+      accountabilityPath: 'Georgia RICO prosecution (case pending). State bar discipline already achieved (disbarment). Federal charges could be reinstated or new indictment issued for conspiracy to defraud the United States. Civil liability to individuals harmed by the constitutional crisis he engineered. Academic accountability (fired from Chapman University).',
+      obstacles: [
+        'Georgia case delayed',
+        'Attorney-client privilege claims (mostly rejected by courts)',
+        'Trump pardon power for federal offenses',
+      ],
+    },
+    {
+      name: 'Rudy Giuliani',
+      role: '"Trial by combat" speech at January 6 rally; led fake elector scheme; promoted election fraud disinformation.',
+      currentStatus: 'Disbarred in New York and D.C. Found liable for $148 million in defamation to Ruby Freeman and Shaye Moss. Filed bankruptcy. Georgia RICO defendant.',
+      accountabilityPath: 'Georgia RICO prosecution. Enforcement of $148 million defamation judgment (bankruptcy proceedings ongoing). Additional civil liability for inciting violence through rally speech. State-level prosecution for fake elector coordination. Asset tracing to identify hidden wealth.',
+      obstacles: [
+        'Bankruptcy filing delays judgment enforcement',
+        'Georgia case delayed',
+        'Advanced age and claimed indigence complicate enforcement',
+        'Trump pardon power for federal offenses',
+      ],
+    },
+    {
+      name: 'Stewart Rhodes',
+      role: 'Oath Keepers founder convicted of seditious conspiracy for organizing paramilitary assault on the Capitol.',
+      currentStatus: 'Pardoned by Trump on January 20, 2025. Released from federal prison where he was serving 18-year sentence. Conviction for seditious conspiracy effectively nullified.',
+      accountabilityPath: 'Pardon eliminates federal criminal accountability. Civil lawsuits by injured officers (pending). State-level charges for assault, conspiracy, or weapons offenses if applicable. Congressional investigation into circumstances of the pardon. Tracking and monitoring of continued extremist activities. Civil RICO suits by victims.',
+      obstacles: [
+        'Federal pardon eliminates primary criminal liability',
+        'Civil suits face challenges collecting from individuals with limited visible assets',
+        'Pardon sends message of impunity to future extremist organizers',
+      ],
+    },
+    {
+      name: 'Enrique Tarrio',
+      role: 'Proud Boys chairman convicted of seditious conspiracy; directed Capitol assault remotely; received longest January 6 sentence.',
+      currentStatus: 'Pardoned by Trump on January 20, 2025. Released from federal prison where he was serving 22-year sentence.',
+      accountabilityPath: 'Similar to Rhodes. Civil lawsuits by injured officers. State-level prosecution possibilities. Monitoring of continued extremist organizing. Financial investigation of Proud Boys funding sources. Civil RICO suits.',
+      obstacles: [
+        'Federal pardon eliminates primary criminal liability',
+        'Proud Boys organizational structure makes individual accountability difficult',
+        'Pardon normalizes political violence',
+      ],
+    },
+    {
+      name: 'The 147 Congressional Objectors',
+      role: '8 Senators and 139 House members who voted to object to election certification even after witnessing the violent attack on the Capitol.',
+      currentStatus: 'Most remain in office. Several sought presidential pardons for their roles. None have faced formal accountability.',
+      accountabilityPath: '14th Amendment Section 3 disqualification proceedings (bars from office those who "engaged in insurrection"). Ethics complaints within Congress. Electoral accountability through campaigns highlighting their votes. Civil litigation for those who actively coordinated with the White House.',
+      obstacles: [
+        'Congressional self-policing is inherently dysfunctional',
+        '14th Amendment enforcement requires political will',
+        'First Amendment speech protections for Congressional votes',
+        'Political base supports objection, limiting electoral accountability',
+      ],
+    },
+    {
+      name: 'Secret Service Leadership (January 5-6 Text Deletion)',
+      role: 'Deleted text messages from January 5-6 despite a DHS Inspector General preservation order, destroying potentially critical evidence.',
+      currentStatus: 'Multiple Secret Service officials retired or transferred. No criminal charges filed for evidence destruction.',
+      accountabilityPath: 'Criminal prosecution under 18 U.S.C. 1519 (destruction of records in federal investigation). Inspector General investigation. Congressional investigation. Civil discovery in ongoing lawsuits may reveal additional information. Whistleblower protections for agents who come forward.',
+      obstacles: [
+        'Evidence of the evidence destruction is itself limited',
+        'Claimed "device upgrade migration" as explanation',
+        'Institutional resistance within DHS to investigating its own agencies',
+        'Trump administration unlikely to pursue during his term',
+      ],
+    },
+    {
+      name: 'Pentagon Officials Who Delayed National Guard',
+      role: 'Officials who delayed National Guard deployment for over 3 hours while the Capitol was under assault, citing "optics" concerns.',
+      currentStatus: 'Most officials have left government or been reassigned. The complete decision-making chain remains partially classified.',
+      accountabilityPath: 'Congressional investigation to declassify the full decision-making timeline. DOD Inspector General investigation. Criminal referral if delay was intentional to allow the attack to succeed. Civil liability if officers can prove the delay directly caused their injuries.',
+      obstacles: [
+        'Pentagon internal communications remain partially classified',
+        'DOD IG report was heavily redacted',
+        'Institutional protection of senior officials',
+        'Difficult to prove intent vs. bureaucratic dysfunction',
+      ],
+    },
+  ],
+
+  // ============================================================
+  // HOW TO HOLD THEM ACCOUNTABLE
+  // ============================================================
+  legalMechanisms: [
+    {
+      name: '14th Amendment Section 3 Disqualification',
+      statute: 'U.S. Const. Amend. XIV, Section 3',
+      description: 'Bars from public office any person who has previously taken an oath to support the Constitution and engaged in insurrection or rebellion. Applies to Trump and officials who aided the insurrection. Supreme Court ruled in Trump v. Anderson (2024) that only Congress can enforce Section 3 against federal candidates.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: false,
+      authorizedActors: ['U.S. Congress', 'Federal courts (upon Congressional legislation)'],
+      applicability: 'requires_new_action' as const,
+      notes: 'Requires Congressional legislation to enforce after Trump v. Anderson. No statute of limitations on constitutional disqualification.',
+    },
+    {
+      name: 'Georgia RICO Prosecution',
+      statute: 'O.C.G.A. Section 16-14-4',
+      description: 'Fulton County DA secured 41-count RICO indictment against Trump and 18 co-defendants for coordinated effort to overturn Georgia\'s 2020 election results. Georgia RICO law has broader application than federal RICO. State charges cannot be pardoned by Trump.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: false,
+      authorizedActors: ['Fulton County District Attorney', 'Georgia state courts'],
+      applicability: 'directly_applicable' as const,
+      notes: 'Case delayed by procedural challenges. Several defendants took plea deals (Sidney Powell, Kenneth Chesebro). Trial unlikely before 2027.',
+    },
+    {
+      name: 'Federal Criminal Prosecution (Post-Presidency)',
+      statute: '18 U.S.C. Sections 371, 1512(c)(2), 1512(k), 241',
+      description: 'Special Counsel Jack Smith\'s 4-count federal indictment can be revived post-presidency. Statute of limitations tolled during Trump\'s term. Charges: conspiracy to defraud the United States, obstruction, and conspiracy against rights.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '5 years (tolled during presidency); prosecution viable through at least 2030',
+      reachesHeirs: false,
+      authorizedActors: ['U.S. Attorney General', 'Special Counsel', 'U.S. Attorney for D.C.'],
+      applicability: 'potentially_applicable' as const,
+      notes: 'Requires future DOJ with political will. Supreme Court immunity ruling narrowed scope but did not eliminate prosecution.',
+    },
+    {
+      name: 'Civil Rights Conspiracy Suits',
+      statute: '42 U.S.C. Sections 1985, 1986',
+      description: 'Civil lawsuits by injured officers and members of Congress against Trump for conspiracy to deprive civil rights. Multiple cases pending including Swalwell v. Trump and Capitol Police Officers v. Trump. Not subject to presidential immunity for unofficial acts.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '4 years for federal civil rights claims; already filed within time',
+      reachesHeirs: true,
+      authorizedActors: ['Injured Capitol Police officers', 'Metropolitan Police officers', 'Members of Congress', 'Private attorneys'],
+      applicability: 'directly_applicable' as const,
+      notes: 'Discovery in these cases may reveal new evidence. Courts have generally stayed cases during presidency.',
+    },
+    {
+      name: 'Evidence Destruction (Secret Service Texts)',
+      statute: '18 U.S.C. Section 1519',
+      description: 'Criminal prosecution for deliberate destruction of Secret Service text messages from January 5-6 despite DHS IG preservation order. Each instance of records destruction constitutes a separate felony. DHS IG referred the matter for criminal prosecution.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '5 years; Secret Service deletion occurred January 2021; deadline approaching',
+      reachesHeirs: false,
+      authorizedActors: ['DOJ', 'DHS Inspector General', 'U.S. Attorney for D.C.'],
+      applicability: 'directly_applicable' as const,
+      notes: 'Requires DOJ action before January 2026 for some acts. Blocked during current administration.',
+    },
+    {
+      name: 'Civil RICO Against Paramilitary Organizations',
+      statute: '18 U.S.C. Section 1964',
+      description: 'Private civil RICO actions against Proud Boys, Oath Keepers, and financial supporters for organized criminal conspiracy to attack the Capitol. Civil RICO allows treble damages. Pardons eliminate criminal liability but NOT civil liability.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '4 years from discovery of injury',
+      reachesHeirs: true,
+      authorizedActors: ['Injured officers (private civil action)', 'Members of Congress', 'Private attorneys', 'Civil rights organizations'],
+      applicability: 'directly_applicable' as const,
+      notes: 'Some civil suits already filed. Pardons make civil route the most viable accountability path for paramilitary leaders.',
+    },
+    {
+      name: 'State Fake Elector Prosecutions',
+      statute: 'State forgery, fraud, and conspiracy statutes (AZ, GA, MI, NV, NM, PA, WI)',
+      description: 'Prosecution of individuals who signed and submitted fraudulent electoral certificates in seven states. Charges filed in Georgia (RICO), Michigan (8 fake electors), Arizona (18 individuals), and Nevada (6 fake electors). State charges immune from presidential pardon.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '5-6 years for most state felony fraud statutes',
+      reachesHeirs: false,
+      authorizedActors: ['State Attorneys General (AZ, MI, NV, WI, PA, NM)', 'Fulton County DA (GA)', 'State prosecutors'],
+      applicability: 'directly_applicable' as const,
+      notes: 'These state cases represent the most viable, pardon-proof path to accountability. Michigan, Arizona, and Nevada cases progressing toward trial.',
+    },
+    {
+      name: 'FEC Enforcement (Stop the Steal Fundraising)',
+      statute: '52 U.S.C. Section 30101 et seq.; 18 U.S.C. Section 1343 (Wire Fraud)',
+      description: 'FEC enforcement for the Stop the Steal campaign that raised $250M+ from donors based on false election fraud claims. Funds were not used for stated purposes. Possible wire fraud prosecution for fraudulent solicitation.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '5 years for wire fraud from last fraudulent solicitation',
+      reachesHeirs: false,
+      authorizedActors: ['Federal Election Commission', 'DOJ (wire fraud)', 'State AGs (consumer fraud)'],
+      applicability: 'directly_applicable' as const,
+      notes: 'FEC is evenly split between parties and frequently deadlocks. Wire fraud prosecution would require future DOJ action.',
+    },
+    {
+      name: 'Congressional Contempt and Ethics Proceedings',
+      statute: 'U.S. Constitution Art. I, Section 5; 2 U.S.C. Section 192',
+      description: 'Congress can hold its own members accountable through ethics investigations, censure, and expulsion (requires two-thirds vote) for their roles in the insurrection plot. Multiple members sought pardons for their involvement.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: false,
+      authorizedActors: ['House Ethics Committee', 'Senate Ethics Committee', 'Full House (expulsion)', 'Full Senate (expulsion)'],
+      applicability: 'requires_new_action' as const,
+      notes: 'Requires future Congressional majority willing to act. No meaningful ethics proceedings initiated.',
+    },
+    {
+      name: 'Presidential Records Act Enforcement',
+      statute: '44 U.S.C. Sections 2201-2209; 18 U.S.C. Section 2071',
+      description: 'Criminal and civil enforcement for removal and destruction of presidential records including White House documents, call logs, and Mark Meadows\'s burned documents. National Archives recovered 15 boxes from Mar-a-Lago.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '5 years for criminal violations',
+      reachesHeirs: false,
+      authorizedActors: ['DOJ', 'National Archives and Records Administration', 'U.S. Attorney for D.C.'],
+      applicability: 'directly_applicable' as const,
+      notes: 'Full accounting of destroyed or missing records never completed. Requires future administration action.',
+    },
+    {
+      name: 'Pardon Power Abuse Investigation',
+      statute: 'U.S. Const. Art. II, Section 2; 18 U.S.C. Section 1503',
+      description: 'Investigation into whether January 6 pardons were issued as part of obstruction scheme to reward political allies and cover up Trump\'s own conduct. Legal scholars debate whether pardons issued to further an ongoing criminal conspiracy are valid.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: false,
+      authorizedActors: ['U.S. Congress', 'Future DOJ', 'Federal courts'],
+      applicability: 'requires_new_action' as const,
+      notes: 'Constitutional question with no established precedent. Requires future administration or Congressional investigation.',
+    },
+    {
+      name: 'Defamation and Election Worker Protection',
+      statute: 'State defamation and tortious interference laws',
+      description: 'Civil liability for systematic defamation of election workers. Ruby Freeman and Shaye Moss secured $148M verdict against Giuliani, establishing precedent. Additional suits by other targeted election workers possible.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: '1-3 years depending on state',
+      reachesHeirs: true,
+      authorizedActors: ['Election workers (private civil action)', 'State AGs (worker protection)', 'Private attorneys'],
+      applicability: 'directly_applicable' as const,
+      notes: '$148M judgment enforcement pending through Giuliani bankruptcy. Establishes precedent for future claims.',
+    },
+    {
+      name: 'DHS Inspector General Investigation (Text Deletion)',
+      statute: '5 U.S.C. App. Section 3 (Inspector General Act); 18 U.S.C. Section 1519',
+      description: 'DHS IG investigation into Secret Service text message deletion. Messages may have contained critical evidence about Trump\'s movements, desire to go to Capitol, and agents\'s real-time security assessments on January 6.',
+      hasStatuteOfLimitations: true,
+      limitationPeriod: 'Criminal statute of limitations applies to underlying obstruction (5 years)',
+      reachesHeirs: false,
+      authorizedActors: ['DHS Inspector General', 'DOJ (criminal referral)', 'Congressional committees'],
+      applicability: 'directly_applicable' as const,
+      notes: 'Investigation initiated but no public findings. Blocked during current administration.',
+    },
+    {
+      name: 'International Accountability Mechanisms',
+      statute: 'International Covenant on Civil and Political Rights; Inter-American Democratic Charter',
+      description: 'International legal mechanisms for addressing the attack on democratic governance. While primarily domestic, the insurrection impacts global democratic norms. European Parliament and UN bodies have issued statements of concern.',
+      hasStatuteOfLimitations: false,
+      reachesHeirs: false,
+      authorizedActors: ['International court systems', 'UN Human Rights bodies', 'Inter-American Commission on Human Rights', 'Foreign governments through diplomatic channels'],
+      applicability: 'potentially_applicable' as const,
+      notes: 'Primarily through diplomatic pressure and international norm-setting. No statute of limitations for crimes against democratic governance.',
+    },
+  ],
+
+  // ============================================================
+  // WEALTH TRACING
+  // ============================================================
+  wealthTrace: [
+    {
+      name: 'Save America PAC / Trump Political Operation',
+      relationship: 'Primary recipient of $250M+ "Stop the Steal" fundraising based on false election fraud claims',
+      transferMethod: 'Small-dollar online donations solicited through emails and texts claiming funds would fight election fraud; money actually directed to PAC expenses, Trump properties, and allied organizations',
+      estimatedValue: '$100,000,000+ remaining in PAC and affiliated accounts',
+      legalEntities: ['Save America PAC', 'Make America Great Again PAC', 'Trump Save America Joint Fundraising Committee'],
+      recoveryMechanisms: ['FEC enforcement action', 'State AG consumer fraud suits', 'Wire fraud prosecution', 'Donor class action for fraudulent solicitation'],
+    },
+    {
+      name: 'Trump Organization / Trump Hotel Collection',
+      relationship: 'Trump-owned businesses that received PAC event payments and benefited from political activities',
+      transferMethod: 'PAC funds paid directly to Trump-owned venues for events, lodging, and logistics',
+      estimatedValue: '$5,000,000+ in direct PAC payments to Trump properties',
+      legalEntities: ['Trump Organization LLC', 'Trump Hotel Collection', 'Mar-a-Lago Club'],
+      recoveryMechanisms: ['FEC audit of PAC expenditures', 'IRS examination of self-dealing', 'New York AG investigation'],
+    },
+    {
+      name: 'Trump Personal Legal Defense',
+      relationship: 'PAC funds diverted to pay Trump\'s personal criminal defense attorneys',
+      transferMethod: 'Save America PAC made direct payments to law firms representing Trump in January 6 and other criminal cases',
+      estimatedValue: '$40,000,000+ in PAC funds used for personal legal fees',
+      legalEntities: ['Save America PAC', 'Various law firms'],
+      recoveryMechanisms: ['FEC enforcement for prohibited personal use of PAC funds', 'Congressional investigation'],
+    },
+    {
+      name: 'Women for America First / Rally Organizing Network',
+      relationship: 'Organizations that planned and funded the January 6 Ellipse rally',
+      transferMethod: 'Direct payments from donors and allied organizations for rally logistics, permits, and coordination',
+      estimatedValue: '$3,500,000 in rally costs',
+      legalEntities: ['Women for America First', 'various 501(c)(4) organizations', 'Turning Point Action'],
+      recoveryMechanisms: ['IRS review of tax-exempt status', 'Congressional investigation', 'Civil liability for incitement'],
+    },
+    {
+      name: 'Pardoned January 6 Defendants (Financial Benefits)',
+      relationship: 'Pardoned rioters who have received financial benefits from MAGA movement since release',
+      transferMethod: 'GoFundMe campaigns, speaking fees, book deals, merchandise sales, political campaign contributions',
+      estimatedValue: '$5,000,000+ collectively across pardoned defendants',
+      legalEntities: ['Various PACs', 'personal fundraising platforms'],
+      recoveryMechanisms: ['Civil suits by injured officers to attach these assets', 'Unjust enrichment claims'],
+    },
+    {
+      name: 'Dark Money 501(c)(4) Network',
+      relationship: 'Non-profit organizations that funded January 6 organizing without disclosing donors',
+      transferMethod: '501(c)(4) "social welfare" organizations received large donations and distributed them to rally organizing, travel funding, and communications',
+      estimatedValue: '$10,000,000+ in undisclosed funding',
+      legalEntities: ['Various 501(c)(4) organizations', 'state-level political organizations'],
+      recoveryMechanisms: ['IRS investigation of tax-exempt status', 'FEC dark money disclosure enforcement', 'Congressional investigation'],
+    },
+    {
+      name: 'U.S. Taxpayer Costs (Capitol Repairs, Prosecution, Security)',
+      relationship: 'Tax dollars spent to repair Capitol damage, prosecute defendants, and enhance security',
+      transferMethod: 'Federal budget appropriations',
+      estimatedValue: '$200,000,000+ (repairs: $30M, prosecution: $100M+, enhanced security: $70M+)',
+      legalEntities: ['Architect of the Capitol', 'DOJ', 'U.S. Capitol Police'],
+      recoveryMechanisms: ['Restitution orders against defendants', 'Civil suits against organizers', 'Insurance claims against liable parties'],
+    },
+    {
+      name: '"J6 Hostage" Fundraising Industry',
+      relationship: 'Ongoing fundraising and merchandise operations that profit from portraying convicted rioters as political prisoners',
+      transferMethod: 'Online merchandise, rally collections, PAC solicitations using January 6 defendants as fundraising props',
+      estimatedValue: '$10,000,000+ raised through J6-themed fundraising',
+      legalEntities: ['Various PACs', 'merchandise companies', 'media organizations'],
+      recoveryMechanisms: ['FEC investigation', 'State consumer fraud actions', 'Civil suits by victims'],
+    },
+  ],
+
+  // ============================================================
+  // WHO HAS THE POWER TO ACT
+  // ============================================================
+  authoritiesWithPower: [
+    {
+      name: 'Fani Willis',
+      title: 'District Attorney, Fulton County, Georgia',
+      jurisdiction: 'Georgia state crimes related to election interference; RICO case',
+      powers: ['Prosecute state RICO charges against Trump and co-defendants', 'Subpoena witnesses and evidence', 'Cannot be pardoned by Trump (state charges)', 'Authorize plea agreements with cooperating defendants'],
+    },
+    {
+      name: 'U.S. Attorney General (Future Administration)',
+      title: 'Attorney General of the United States',
+      jurisdiction: 'Federal criminal law enforcement nationwide',
+      powers: ['Reinstate or bring new federal charges against Trump post-presidency', 'Investigate pardon abuse and obstruction', 'Prosecute evidence destruction (Secret Service texts, burned documents)', 'Appoint Special Counsel for independent investigation'],
+    },
+    {
+      name: 'State Attorneys General (Fake Elector States)',
+      title: 'Attorneys General of Arizona, Michigan, Nevada, Wisconsin, Pennsylvania, New Mexico',
+      jurisdiction: 'State-level prosecution of fake electors and election fraud',
+      powers: ['Prosecute fake electors for forgery, fraud, and conspiracy', 'Investigate state-level coordination of the scheme', 'Cannot be pardoned by Trump (state charges)', 'Enforce election integrity laws'],
+    },
+    {
+      name: 'U.S. Congress (Future Majority)',
+      title: 'United States Congress',
+      jurisdiction: 'Federal legislative and oversight authority',
+      powers: ['Enforce 14th Amendment Section 3 disqualification through legislation', 'Conduct investigations and hold hearings', 'Expel members who participated in insurrection (2/3 vote)', 'Legislate reforms to prevent future insurrections', 'Override pardons through constitutional amendment'],
+    },
+    {
+      name: 'Department of Homeland Security Inspector General',
+      title: 'DHS OIG',
+      jurisdiction: 'Oversight of DHS agencies including Secret Service',
+      powers: ['Investigate Secret Service text message deletion', 'Refer criminal conduct to DOJ', 'Issue public reports on findings', 'Subpoena documents and testimony'],
+    },
+    {
+      name: 'Federal Election Commission',
+      title: 'Federal Election Commission (FEC)',
+      jurisdiction: 'Federal campaign finance law enforcement',
+      powers: ['Investigate Stop the Steal fundraising fraud', 'Audit Save America PAC expenditures', 'Enforce disclosure requirements for dark money organizations', 'Refer criminal violations to DOJ'],
+    },
+    {
+      name: 'Civil Rights Division, DOJ (Future Administration)',
+      title: 'Assistant Attorney General for Civil Rights',
+      jurisdiction: 'Federal civil rights enforcement',
+      powers: ['Investigate ongoing threats against election workers', 'Prosecute voter intimidation', 'Enforce Voting Rights Act', 'Investigate civil rights conspiracy under 18 U.S.C. 241'],
+    },
+  ],
+
+  // ============================================================
+  // ROLE-BASED ACTION PATHS
+  // ============================================================
+  actionPaths: [
+    {
+      role: 'citizen',
+      overview: 'Citizens are the ultimate guarantors of democratic accountability. Individual actions, when coordinated and sustained, can create the political conditions necessary for institutional accountability.',
+      steps: [
+        { step: 1, title: 'Contact elected representatives about 14th Amendment enforcement', description: 'Call and write your Senators and Representative. Demand they support legislation enforcing the disqualification clause against officials who participated in or aided the insurrection. Reference the Select Committee\'s findings.', estimatedTime: '1-2 hours' },
+        { step: 2, title: 'Support election worker protection organizations', description: 'Donate to and volunteer with organizations protecting election workers from threats, including the Committee for Safe and Secure Elections and the Election Official Legal Defense Network.', estimatedTime: '1 week to start' },
+        { step: 3, title: 'File FEC complaints about Stop the Steal fundraising', description: 'Any citizen can file a complaint with the FEC about misleading fundraising practices. Document specific instances where Save America PAC solicitations claimed funds would fight election fraud.', filingTarget: 'Federal Election Commission', estimatedTime: '1-2 hours' },
+        { step: 4, title: 'Support civil lawsuits by injured officers', description: 'Donate to legal defense funds supporting Capitol Police officers pursuing civil suits against Trump and rally organizers.', estimatedTime: '1 day' },
+        { step: 5, title: 'Demand transparency on pardoned defendants via FOIA', description: 'File FOIA requests for the complete list of all pardoned January 6 defendants, their original charges, convictions, and sentences. Maintain public databases tracking their post-pardon activities.', filingTarget: 'Department of Justice, Bureau of Prisons', legalBasis: ['5 U.S.C. Section 552 (Freedom of Information Act)'], estimatedTime: '2-4 weeks for FOIA response' },
+        { step: 6, title: 'Vote and organize for accountability-focused candidates', description: 'Support candidates at all levels who commit to January 6 accountability. Primary challenger campaigns against the 147 Congressional objectors. State-level races for AGs committed to fake elector prosecution.', estimatedTime: 'Ongoing through election cycles' },
+      ],
+      relevantMechanisms: ['14th Amendment Section 3 Disqualification', 'FEC Enforcement (Stop the Steal Fundraising)', 'Civil Rights Conspiracy Suits'],
+      urgency: 'immediate',
+    },
+    {
+      role: 'journalist',
+      overview: 'Investigative journalism is essential to maintaining public awareness and creating pressure for accountability, especially when official channels are blocked.',
+      steps: [
+        { step: 1, title: 'Track pardoned January 6 defendants', description: 'Build and maintain public database of all pardoned defendants: their original charges, what they were convicted of, current activities, any signs of continued extremist organizing, and any financial benefits received since pardoning.', estimatedTime: 'Ongoing' },
+        { step: 2, title: 'Investigate dark money funding of January 6', description: 'FOIA requests, financial analysis, and source development to identify who funded the rally organizing, travel logistics, and communications infrastructure. 501(c)(4) donor identification through state-level disclosure requirements.', estimatedTime: '3-6 months' },
+        { step: 3, title: 'Preserve and archive Select Committee evidence', description: 'The full Select Committee archive is at risk. Work with archivists and legal experts to ensure all evidence, transcripts, and documents are preserved in multiple locations.', estimatedTime: '1-3 months' },
+        { step: 4, title: 'Investigate the Secret Service text deletion', description: 'Develop sources within DHS and Secret Service. FOIA for all communications about the device upgrade that resulted in deletion. Interview former agents. Track which officials approved the deletion.', estimatedTime: '6-12 months' },
+        { step: 5, title: 'Document state-level prosecutions comprehensively', description: 'Comprehensive coverage of the Fulton County RICO case and fake elector prosecutions in Michigan, Arizona, and Nevada. These state cases are the most viable path to accountability.', estimatedTime: 'Ongoing' },
+      ],
+      relevantMechanisms: ['Georgia RICO Prosecution', 'State Fake Elector Prosecutions', 'DHS Inspector General Investigation (Text Deletion)'],
+      urgency: 'immediate',
+    },
+    {
+      role: 'lawyer',
+      overview: 'Attorneys can pursue accountability through civil litigation, support state prosecutions, and develop legal theories for constitutional enforcement.',
+      steps: [
+        { step: 1, title: 'File civil RICO suits against paramilitary organizations', description: 'Civil RICO allows treble damages against the Proud Boys, Oath Keepers, and their financial supporters for organized criminal conspiracy. Pardons do NOT eliminate civil liability. Target organizational assets and individual leadership.', legalBasis: ['18 U.S.C. Section 1964 (Civil RICO)'], estimatedTime: '1-3 years' },
+        { step: 2, title: 'Support state-level fake elector prosecutions', description: 'Pro bono legal support for state AGs pursuing fake elector cases. Brief-writing, witness preparation, and legal research. These state cases are immune from presidential pardon.', estimatedTime: 'Ongoing' },
+        { step: 3, title: 'Develop 14th Amendment Section 3 enforcement litigation', description: 'After Trump v. Anderson, Congress must act to enforce Section 3. Develop model legislation and constitutional arguments. Brief Congressional committees on enforcement mechanisms.', legalBasis: ['U.S. Const. Amend. XIV, Section 3'], estimatedTime: '6-12 months' },
+        { step: 4, title: 'Challenge pardon validity for obstruction pardons', description: 'Research and develop legal theory that pardons issued to cover up the pardoner\'s own criminal conduct are invalid. File test case challenging specific pardons.', legalBasis: ['U.S. Const. Art. II, Section 2'], estimatedTime: '1-2 years' },
+        { step: 5, title: 'Enforce the Freeman/Moss $148M judgment', description: 'Aggressive creditor litigation in Giuliani bankruptcy. Asset tracing, deposition of family members and business associates, and challenges to fraudulent transfers.', estimatedTime: '1-3 years' },
+        { step: 6, title: 'Represent injured officers in civil suits', description: 'Support pending civil suits by Capitol Police and Metropolitan Police officers against Trump, rally organizers, and paramilitary groups. Discovery in these cases may reveal new evidence.', legalBasis: ['42 U.S.C. Sections 1985, 1986'], estimatedTime: '2-4 years' },
+      ],
+      relevantMechanisms: ['Civil RICO Against Paramilitary Organizations', 'State Fake Elector Prosecutions', '14th Amendment Section 3 Disqualification', 'Defamation and Election Worker Protection'],
+      urgency: 'high',
+    },
+    {
+      role: 'elected_official',
+      overview: 'Elected officials have unique constitutional and legislative powers to restore accountability and prevent future insurrections.',
+      steps: [
+        { step: 1, title: 'Introduce 14th Amendment enforcement legislation', description: 'Draft and introduce legislation providing a clear mechanism for enforcing the disqualification clause against individuals who engaged in insurrection. Include both administrative and judicial pathways.', filingTarget: 'U.S. House and Senate Judiciary Committees', legalBasis: ['U.S. Const. Amend. XIV, Section 3', '5 U.S.C. Section 3331 (Oath of Office)'], estimatedTime: '1-3 months to draft' },
+        { step: 2, title: 'Protect state-level prosecutions from federal interference', description: 'Legislate protections ensuring state-level election fraud cases cannot be removed to federal court and cannot be interfered with by federal officials.', estimatedTime: '6 months' },
+        { step: 3, title: 'Subpoena Secret Service records and Pentagon timeline', description: 'When Congress changes hands, immediately subpoena all records related to Secret Service text deletion and the Pentagon decision-making timeline for National Guard deployment.', filingTarget: 'House and Senate subcommittees with oversight authority', estimatedTime: '1-3 months after majority' },
+        { step: 4, title: 'Strengthen Presidential Records Act penalties', description: 'Amend the Presidential Records Act to include meaningful criminal penalties for destruction or removal of presidential records, and empower the National Archives with enforcement authority.', legalBasis: ['44 U.S.C. Sections 2201-2209'], estimatedTime: '6-12 months' },
+        { step: 5, title: 'Reform the pardon power through legislation or amendment', description: 'Propose constitutional amendment or legislation limiting the pardon power when used to pardon individuals connected to the pardoner\'s own conduct. Require transparency in pardon decision-making.', estimatedTime: 'Years (constitutional amendment process)' },
+      ],
+      relevantMechanisms: ['14th Amendment Section 3 Disqualification', 'Presidential Records Act Enforcement', 'Pardon Power Abuse Investigation', 'Congressional Contempt and Ethics Proceedings'],
+      urgency: 'high',
+    },
+    {
+      role: 'law_enforcement',
+      overview: 'State AGs have irreplaceable authority to pursue accountability for election crimes that cannot be pardoned by the president.',
+      steps: [
+        { step: 1, title: 'Prosecute fake electors in your state', description: 'If your state had fake electors (AZ, GA, MI, NV, NM, PA, WI), investigate and prosecute all individuals who signed or submitted fraudulent electoral certificates. These are state crimes immune from presidential pardon.', legalBasis: ['State forgery and fraud statutes', 'State election law'], estimatedTime: '1-2 years' },
+        { step: 2, title: 'Investigate Stop the Steal as consumer fraud', description: 'State consumer protection laws can reach fraudulent solicitations made to state residents. Investigate whether Save America PAC fundraising constituted deceptive trade practices.', legalBasis: ['State consumer protection and deceptive practices statutes'], estimatedTime: '6-12 months' },
+        { step: 3, title: 'Join multistate investigation of election worker threats', description: 'Coordinate with other state AGs to investigate and prosecute threats against election workers, which have continued and escalated since January 6.', estimatedTime: 'Ongoing' },
+      ],
+      relevantMechanisms: ['State Fake Elector Prosecutions', 'Georgia RICO Prosecution', 'FEC Enforcement (Stop the Steal Fundraising)'],
+      urgency: 'immediate',
+    },
+    {
+      role: 'regulator',
+      overview: 'Academic researchers can develop legal theories, preserve evidence, and provide expert analysis that supports accountability efforts.',
+      steps: [
+        { step: 1, title: 'Create comprehensive documentation and archival project', description: 'Create a permanent academic archive of all January 6 evidence, testimony, court records, and Select Committee materials. Ensure preservation across multiple institutions.', estimatedTime: '1-2 years' },
+        { step: 2, title: 'Research pardon power and insurrection nexus', description: 'Develop constitutional scholarship on the limits of the pardon power when used to reward insurrectionists, the interaction between pardons and the 14th Amendment, and the historical precedents for accountability after political violence.', estimatedTime: 'Ongoing' },
+        { step: 3, title: 'Track radicalization and extremist networks post-pardon', description: 'Monitor whether pardoned January 6 defendants rejoin extremist organizations and whether the pardons have a measurable effect on recruitment and radicalization.', estimatedTime: 'Ongoing' },
+        { step: 4, title: 'Comparative international insurrection accountability analysis', description: 'Research how other democracies have handled insurrections and accountability (Turkey 2016, Brazil 2023, etc.) to develop best practices applicable to the U.S. context.', estimatedTime: '6-12 months' },
+      ],
+      relevantMechanisms: ['14th Amendment Section 3 Disqualification', 'Pardon Power Abuse Investigation', 'International Accountability Mechanisms'],
+      urgency: 'high',
+    },
+  ],
+
+  // ============================================================
+  // WHAT SUCCESS LOOKS LIKE
+  // ============================================================
+  successCriteria: [
+    'Trump faces trial and conviction in Georgia RICO case for his role in the conspiracy to overturn the 2020 election',
+    'All fake electors are prosecuted at the state level in Arizona, Michigan, Nevada, and other states where charges have been filed',
+    'The $148 million defamation judgment against Giuliani is fully collected and distributed to Ruby Freeman and Shaye Moss',
+    'Civil RICO suits against Proud Boys and Oath Keepers result in treble damages awards to injured officers',
+    'Congress passes legislation enforcing 14th Amendment Section 3, disqualifying insurrection participants from holding office',
+    'The Secret Service text deletion is fully investigated and those responsible face criminal charges for obstruction',
+    'Complete accounting of "Stop the Steal" fundraising fraud, with FEC enforcement and donor restitution',
+    'Pentagon National Guard deployment timeline is fully declassified and officials who delayed response are held accountable',
+    'Election workers receive federal legal protection and ongoing harassment is prosecuted as witness intimidation',
+    'Constitutional amendment or legislation reforms the pardon power to prevent its use to reward political violence',
+    'Complete public archive of all Select Committee evidence, testimony, and documents is permanently preserved',
+    'Ongoing monitoring system tracks pardoned defendants for continued extremist activity and re-offending',
+  ],
+};

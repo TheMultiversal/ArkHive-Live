@@ -487,6 +487,60 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'rudy-giuliani': {
+ name: 'Rudy Giuliani',
+ role: 'Trump\'s Personal Attorney; Former Mayor of New York City',
+ background: 'Rudolph William Louis Giuliani served as the 107th Mayor of New York City from 1994 to 2001, gaining national prominence for his leadership after the September 11 attacks and earning the nickname "America\'s Mayor." He later became Donald Trump\'s personal attorney and a central figure in attempts to overturn the 2020 election, including the fake electors scheme and the "trial by combat" speech at the January 6 rally. He was disbarred in both New York and Washington D.C. and found liable for $148 million in defamation damages to Georgia election workers Ruby Freeman and Shaye Moss.',
+ keyPositions: [
+   '107th Mayor of New York City (1994-2001)',
+   'U.S. Attorney for the Southern District of New York (1983-1989)',
+   'Personal Attorney to Donald Trump (2018-2023)',
+   'Trump Campaign Election Fraud Spokesperson (2020-2021)',
+   'Associate Attorney General of the United States (1981-1983)'
+ ],
+ affiliations: [
+   { name: 'Donald Trump', relationship: 'Personal attorney; led election fraud claims; coordinated fake elector scheme', href: '/entities/individuals/donald-trump' },
+   { name: 'John Eastman', relationship: 'Co-conspirator in effort to overturn election; both indicted in Georgia RICO case', href: '/entities/individuals/john-eastman' },
+   { name: 'Ruby Freeman', relationship: 'Defamation victim; Giuliani promoted false claims she manipulated votes; $148M judgment', href: '/entities/individuals/ruby-freeman' },
+   { name: 'Shaye Moss', relationship: 'Defamation victim; Giuliani promoted false claims she manipulated votes; $148M judgment', href: '/entities/individuals/shaye-moss' },
+   { name: 'Sidney Powell', relationship: 'Co-defendant in Georgia RICO case; both promoted Dominion voting machine conspiracy theories', href: '/entities/individuals/sidney-powell' },
+   { name: 'Mark Meadows', relationship: 'Co-defendant in Georgia RICO case; coordinated pressure on state officials', href: '/entities/individuals/mark-meadows' }
+ ],
+ controversies: [
+   { title: 'January 6 Rally Speech', description: 'Called for "trial by combat" at the Ellipse rally immediately before the Capitol attack, helping incite the violent breach of the Capitol.', date: '2021-01-06', impact: 'Speech contributed to violent attack leaving 5 dead and 140+ officers injured' },
+   { title: 'Fake Electors Scheme', description: 'Coordinated the submission of fraudulent Electoral College certificates in seven states Biden won, claiming Trump had won those states.', date: '2020-12-14', impact: 'Indicted in Georgia RICO case with Trump and 18 co-defendants' },
+   { title: 'Ruby Freeman/Shaye Moss Defamation', description: 'Repeatedly and falsely accused Georgia election workers Ruby Freeman and Shaye Moss of manipulating votes, causing them severe harassment and forcing them into hiding.', date: '2021-01-01', impact: 'Found liable for $148 million in damages; forced to file bankruptcy' },
+   { title: 'Four Seasons Total Landscaping Press Conference', description: 'Held infamous post-election press conference at a landscaping company between a crematorium and a sex shop, becoming a symbol of the campaign\'s disarray.', date: '2020-11-07', impact: 'International embarrassment; became cultural symbol of incompetence' },
+   { title: 'Disbarment', description: 'Disbarred in New York (July 2024) and Washington D.C. for making false statements about the 2020 election in court and public forums.', date: '2024-07-02', impact: 'Lost ability to practice law; professional destruction' },
+   { title: 'Ukraine Pressure Campaign', description: 'Conducted shadow diplomacy in Ukraine to pressure the government to investigate Joe Biden, leading to Trump\'s first impeachment.', date: '2019-05-01', impact: 'Triggered first Trump impeachment; associates Parnas and Fruman convicted' }
+ ],
+ charges: [],
+ relatedInvestigations: [
+   { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ ],
+ sources: [
+   { title: 'Georgia RICO Indictment (Georgia v. Trump et al.)', url: 'https://www.fultonclerk.org/DocumentCenter', date: '2023' },
+   { title: 'Freeman v. Giuliani Defamation Verdict ($148M)', url: 'https://www.courtlistener.com/', date: '2023' },
+   { title: 'New York Bar Disbarment Decision', url: 'https://www.nycourts.gov/', date: '2024' },
+   { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' }
+ ],
+ timeline: [
+   { date: '1944-05-28', event: 'Born in Brooklyn, New York' },
+   { date: '1983', event: 'Appointed U.S. Attorney for the Southern District of New York; prosecutes organized crime using RICO statutes' },
+   { date: '1994', event: 'Elected 107th Mayor of New York City' },
+   { date: '2001-09-11', event: 'Leads New York City response to September 11 attacks; gains national prominence as "America\'s Mayor"' },
+   { date: '2018', event: 'Becomes personal attorney to President Donald Trump' },
+   { date: '2019-05', event: 'Begins shadow diplomacy campaign in Ukraine to pressure investigation of Joe Biden; associates Parnas and Fruman arrested' },
+   { date: '2020-11-07', event: 'Holds press conference at Four Seasons Total Landscaping in Philadelphia to contest election results' },
+   { date: '2020-12-14', event: 'Coordinates submission of fake elector certificates in seven states Biden won' },
+   { date: '2021-01-06', event: 'Delivers "trial by combat" speech at Ellipse rally; hours later the Capitol is violently breached' },
+   { date: '2021-12-15', event: 'Georgia election workers Ruby Freeman and Shaye Moss file defamation lawsuit' },
+   { date: '2023-08-14', event: 'Indicted in Georgia RICO case as co-defendant with Trump and 17 others' },
+   { date: '2023-12-15', event: 'Found liable for $148 million in defamation damages to Ruby Freeman and Shaye Moss' },
+   { date: '2023-12-21', event: 'Files for Chapter 11 bankruptcy, listing debts of $152 million' },
+   { date: '2024-07-02', event: 'Disbarred in New York for making false and misleading statements; disbarred in D.C. shortly after' }
+ ],
+},
  'rupert-murdoch': {
  name: 'Rupert Murdoch',
  title: 'Profile Under Review',

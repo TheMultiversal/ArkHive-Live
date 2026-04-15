@@ -738,7 +738,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'January 6th Insurrection', slug: 'january-6th-insurrection', severity: 'critical' },
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
  ],
  timeline: [
  { date: '1999', event: 'Alex Jones launches InfoWars website' },

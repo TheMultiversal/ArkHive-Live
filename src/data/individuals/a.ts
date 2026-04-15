@@ -796,7 +796,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
+      { title: 'January 6 Investigation', slug: 'january-6-insurrection', severity: 'critical' },
     ],
     timeline: [
       { date: 'February 11; 1974', event: 'Born in Dallas; Texas' },
@@ -1371,7 +1371,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
+      { title: 'January 6 Investigation', slug: 'january-6-insurrection', severity: 'critical' },
     ],
     timeline: [
       { date: 'February 27; 1978', event: 'Born in Kankakee; Illinois' },
@@ -1419,7 +1419,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     charges: [],
     relatedInvestigations: [
-      { title: 'January 6 Investigation', slug: 'january-6-investigation', severity: 'critical' },
+      { title: 'January 6 Investigation', slug: 'january-6-insurrection', severity: 'critical' },
     ],
     timeline: [
       { date: 'November 7; 1958', event: 'Born in Tucson; Arizona' },

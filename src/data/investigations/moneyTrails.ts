@@ -3157,18 +3157,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$228M', purpose: 'Personal financial benefits gained through corruption in Judicial Capture by Federalist Society', documented: false },
   ],
 
-  'january-6-investigation': [
-    { date: '2021-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$1.6B', purpose: 'Undisclosed political spending connected to January 6th Insurrection & Congressional Investigation', documented: false },
-    { date: '2022-01-01', from: 'Corporate donors', to: 'Donald Trump', amount: '$624M', purpose: 'Campaign contributions and financial benefits flowing through January 6th Insurrection & Congressional Investigation', documented: true },
-    { date: '2023-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$84M', purpose: 'Personal financial benefits gained through corruption in January 6th Insurrection & Congressional Investigation', documented: false },
-  ],
-
-  'january-6th': [
-    { date: '2021-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$11.2B', purpose: 'Undisclosed political spending connected to January 6th Capitol Attack: The Day Democracy Was Assaulted', documented: false },
-    { date: '2022-01-01', from: 'Corporate donors', to: 'Donald Trump', amount: '$1.2B', purpose: 'Campaign contributions and financial benefits flowing through January 6th Capitol Attack: The Day Democracy Was Assaulted', documented: true },
-    { date: '2023-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$127M', purpose: 'Personal financial benefits gained through corruption in January 6th Capitol Attack: The Day Democracy Was Assaulted', documented: false },
-  ],
-
   'jj-baby-powder': [
     { date: '2021-01-01', from: 'Johnson & Johnson', to: 'Revenue from harmful practices', amount: '$91.1B', purpose: 'Johnson & Johnson revenue while engaging in practices exposed by Johnson & Johnson Baby Powder: Decades of Asbestos Concealment', documented: true },
     { date: '2023-01-01', from: 'Johnson & Johnson', to: 'Anti-regulation lobbying', amount: '$680M', purpose: 'Lobbying spending by Johnson & Johnson to avoid accountability in Johnson & Johnson Baby Powder: Decades of Asbestos Concealment', documented: true },
