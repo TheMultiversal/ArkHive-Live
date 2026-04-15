@@ -919,11 +919,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
 
 
-  'china-tech': [
-    { date: '2019-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$35.1B', purpose: 'Government spending on programs implicated in China Tech', documented: true },
-    { date: '2022-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$4.7B', purpose: 'Settlement costs and remediation arising from China Tech', documented: true },
-    { date: '2020-01-01', from: 'Huawei Technologies', to: 'Oversight and investigation costs', amount: '$553M', purpose: 'Congressional and inspector general investigation costs for China Tech', documented: false },
-  ],
+
 
   'cia-origins': [
     { date: '2016-01-01', from: 'US taxpayers', to: 'CIA', amount: '$42.9B', purpose: 'Government spending on programs implicated in CIA Origins and Operation Paperclip', documented: true },

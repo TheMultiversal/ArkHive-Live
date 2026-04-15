@@ -38,6 +38,7 @@ import { childExploitationAccountability } from './child-exploitation';
 import { childSexualAbuseAccountability } from './child-sexual-abuse';
 import { chinaBusinessComplicityAccountability } from './china-business-complicity';
 import { chinaCyberEspionageAccountability } from './china-cyber-espionage';
+import { chinaTechAccountability } from './china-tech';
 import { cryptoMoneyLaunderingAccountability } from './cryptocurrency-money-laundering-networks';
 import { ciaTortureAccountability } from './cia-torture';
 import { civilRightsAccountability } from './civil-rights';
@@ -133,6 +134,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'child-sexual-abuse': childSexualAbuseAccountability,
   'china-business-complicity': chinaBusinessComplicityAccountability,
   'china-cyber-espionage': chinaCyberEspionageAccountability,
+  'china-tech': chinaTechAccountability,
   'cryptocurrency-money-laundering-networks': cryptoMoneyLaunderingAccountability,
   'cia-torture-program': ciaTortureAccountability,
   'civil-rights': civilRightsAccountability,

@@ -763,12 +763,7 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '22 U.S.C. § 611', description: 'Foreign Agents Registration Act' },
     { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
   ],
-  'china-tech': [
-    { code: '18 U.S.C. § 1001', description: 'False Statements' },
-    { code: '18 U.S.C. § 1505', description: 'Obstruction of Proceedings' },
-    { code: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-  ],
+
   'chinese-influence-operations-united-states': [
     { code: '18 U.S.C. § 793', description: 'Espionage Act' },
     { code: '50 U.S.C. § 1801', description: 'Foreign Intelligence Surveillance Act' },
