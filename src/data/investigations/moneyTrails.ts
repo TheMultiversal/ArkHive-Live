@@ -3387,11 +3387,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   ],
 
 
-  'media-manipulation': [
-    { date: '2022-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$3.3B', purpose: 'Undisclosed political spending connected to Media Manipulation', documented: false },
-    { date: '2023-01-01', from: 'Corporate donors', to: 'Fox News', amount: '$458M', purpose: 'Campaign contributions and financial benefits flowing through Media Manipulation', documented: true },
-    { date: '2024-01-01', from: 'Fox News', to: 'Personal financial enrichment', amount: '$290M', purpose: 'Personal financial benefits gained through corruption in Media Manipulation', documented: false },
-  ],
 
   'madoff-ponzi': [
     { date: '2008-01-01', from: 'JPMorgan Chase', to: 'Illicit financial flows', amount: '$26.0B', purpose: 'Fraudulent financial activity in Bernie Madoff Ponzi Scheme', documented: true },

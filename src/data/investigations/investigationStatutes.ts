@@ -5917,12 +5917,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '47 U.S.C. § 325', description: 'False Distress Signals / Deceptive Broadcasting' },
     { code: '18 U.S.C. § 1001', description: 'False Statements' },
   ],
-  'media-manipulation': [
-    { code: '47 U.S.C. § 317', description: 'Disclosure of Paid Programming (payola)' },
-    { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
-    { code: '15 U.S.C. § 45', description: 'FTC Act - Deceptive Practices' },
-    { code: '50 U.S.C. § 3091', description: 'Congressional Intelligence Oversight (domestic propaganda)' },
-  ],
   'my-lai-massacre': [
     { code: '18 U.S.C. § 2441', description: 'War Crimes' },
     { code: '10 U.S.C. § 918 (UCMJ Art. 118)', description: 'Murder under military law' },

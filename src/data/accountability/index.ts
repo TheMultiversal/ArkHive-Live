@@ -68,6 +68,7 @@ import { jjBabyPowderAccountability } from './jj-baby-powder';
 import { kushnerSecurityClearanceAccountability } from './kushner-security-clearance';
 import { liborScandalAccountability } from './libor-scandal';
 import { mediaConsolidationAccountability } from './media-consolidation';
+import { mediaManipulationAccountability } from './media-manipulation';
 import { mkultraCiaHumanExperimentationAccountability } from './mkultra-cia-human-experimentation';
 import { myLaiMassacreAccountability } from './my-lai-massacre';
 import { nsaMassSurveillanceAccountability } from './nsa-mass-surveillance';
@@ -165,6 +166,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'kushner-security-clearance': kushnerSecurityClearanceAccountability,
   'banking-libor-manipulation': liborScandalAccountability,
   'media-consolidation': mediaConsolidationAccountability,
+  'media-manipulation': mediaManipulationAccountability,
   'mkultra-cia-human-experimentation': mkultraCiaHumanExperimentationAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,
   'nsa-mass-surveillance': nsaMassSurveillanceAccountability,
