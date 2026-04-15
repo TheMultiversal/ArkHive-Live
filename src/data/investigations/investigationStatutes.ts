@@ -3526,11 +3526,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 371', description: 'Conspiracy' },
     { code: '15 U.S.C. § 1', description: 'Sherman Antitrust Act' },
   ],
-  'neo-colonialism': [
-    { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
   'neocon-network': [
     { code: '18 U.S.C. § 1962', description: 'RICO - Racketeering' },
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },

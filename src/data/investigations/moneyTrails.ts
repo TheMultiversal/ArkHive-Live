@@ -3745,11 +3745,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== N ==========
 
-  'neo-colonialism': [
-    { date: '2012-01-01', from: 'Foreign state actors', to: 'Influence operations', amount: '$2.1B', purpose: 'Foreign spending on influence operations in Neo-Colonial Exploitation Patterns', documented: false },
-    { date: '2014-01-01', from: 'US Government', to: 'Counter-operations and investigations', amount: '$195M', purpose: 'US government response costs for Neo-Colonial Exploitation Patterns', documented: true },
-  ],
-
   'ny-civil-fraud': [
     { date: '2022-01-01', from: 'Donald Trump', to: 'Illicit financial flows', amount: '$16.0B', purpose: 'Fraudulent financial activity in New York Civil Fraud Case', documented: true },
     { date: '2025-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Donald Trump', amount: '$1.3B', purpose: 'Fines and penalties imposed for violations uncovered in New York Civil Fraud Case', documented: true },
