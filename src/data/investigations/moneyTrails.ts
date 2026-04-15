@@ -1100,10 +1100,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Sam Bankman-Fried', to: 'Affected investors / victims', amount: '$11.8B', purpose: 'Restitution and settlement payments to victims of Cryptocurrency Fraud Epidemic', documented: true },
   ],
 
-  'cambridge-analytica-global-operations': [
-    { date: '2011-01-01', from: 'Cambridge Analytica', to: 'Operations during misconduct period', amount: '$4.2B', purpose: 'Institutional spending during period of abuse in Cambridge Analytica Global Operations', documented: true },
-    { date: '2015-01-01', from: 'Cambridge Analytica', to: 'Victim settlements', amount: '$4.9B', purpose: 'Settlements and reparations paid to victims of Cambridge Analytica Global Operations', documented: true },
-  ],
+
 
   'credit-default-swap-fraud': [
     { date: '2020-01-01', from: 'Goldman Sachs', to: 'Illicit financial flows', amount: '$14.4B', purpose: 'Fraudulent financial activity in Credit Default Swap Fraud', documented: true },

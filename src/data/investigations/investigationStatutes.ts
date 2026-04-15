@@ -5855,12 +5855,7 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 371', description: 'Conspiracy to Defraud' },
     { code: '18 U.S.C. § 1349', description: 'Attempted/Conspiracy to Commit Fraud' },
   ],
-  'cambridge-analytica-global-operations': [
-    { code: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse Act' },
-    { code: '52 U.S.C. § 30121', description: 'Foreign National Contribution Prohibition' },
-    { code: '15 U.S.C. § 45', description: 'FTC Act - Unfair or Deceptive Practices' },
-    { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
-  ],
+
   'cbs-sexual-harassment': [
     { code: '42 U.S.C. § 2000e', description: 'Title VII - Employment Discrimination' },
     { code: '18 U.S.C. § 1512', description: 'Witness Tampering' },
