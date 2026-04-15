@@ -45,6 +45,7 @@ import { covidMisinfoAccountability } from './covid-misinfo';
 import { crowNetworkAccountability } from './crow-network';
 import { cryptoFraudAccountability } from './crypto-exchange-fraud-ecosystem';
 import { enronFraudAccountability } from './enron-fraud';
+import { farmlandAcquisitionAccountability } from './farmland-acquisition';
 import { financialCrisisAccountability } from './financial-crisis-accountability-failure';
 import { flintWaterCrisisAccountability } from './flint-water-crisis';
 import { georgeFloydAccountability } from './george-floyd';
@@ -121,6 +122,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'drone-assassinations': droneAssassinationsAccountability,
   'crypto-exchange-fraud-ecosystem': cryptoFraudAccountability,
   'enron-fraud': enronFraudAccountability,
+  'farmland-acquisition': farmlandAcquisitionAccountability,
   'financial-crisis-accountability-failure': financialCrisisAccountability,
   'flint-water-crisis': flintWaterCrisisAccountability,
   'george-floyd': georgeFloydAccountability,

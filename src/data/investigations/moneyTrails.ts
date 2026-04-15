@@ -2122,11 +2122,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== F ==========
 
-  'farmland-acquisition': [
-    { date: '2020-01-01', from: 'Elite networks', to: 'Concentrated wealth flows', amount: '$49.7B', purpose: 'Wealth concentration and financial flows in Agricultural Land Monopolization', documented: false },
-    { date: '2022-01-01', from: 'Billionaire class', to: 'Political influence and tax avoidance', amount: '$80.9B', purpose: 'Tax avoidance and political spending exposed in Agricultural Land Monopolization', documented: true },
-  ],
-
   'financial-fraud': [
     { date: '2010-01-01', from: 'Donald Trump', to: 'Illicit financial flows', amount: '$21.1B', purpose: 'Fraudulent financial activity in Financial Fraud & Securities Violations', documented: true },
     { date: '2013-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Donald Trump', amount: '$4.4B', purpose: 'Fines and penalties imposed for violations uncovered in Financial Fraud & Securities Violations', documented: true },

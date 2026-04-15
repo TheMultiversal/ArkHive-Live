@@ -2040,10 +2040,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
   'far-right-media': [
     { code: '18 U.S.C. § 371', description: 'Conspiracy' },
   ],
-  'farmland-acquisition': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
   'fast-food-labor': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
   ],
