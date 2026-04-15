@@ -186,66 +186,6 @@ const investigations_d: Record<string, InvestigationData> = {
 
  ],
  },
-  'dobbs-aftermath': {
- title: 'Post-Dobbs Reproductive Healthcare Crisis',
- subtitle: 'Women dying, fleeing states, and denied care after Roe fell',
- severity: 'critical',
- category: 'Human Rights',
- date: 'June 24, 2022',
- lastUpdated: 'July 24, 2022',
- summary: 'Since Dobbs v. Jackson overturned Roe v. Wade in June 2022, the reproductive healthcare landscape has become a crisis. Women have died from delayed care. Emergency rooms turn away miscarrying patients. Women with ectopic pregnancies wait while doctors consult lawyers. IVF access is threatened. The healthcare system is collapsing in abortion-ban states.',
- content: [
- 'DEATHS FROM DELAYED CARE: Women have died because doctors delayed medically necessary procedures, fearing prosecution under abortion bans. Amber Thurman in Georgia died of sepsis from an incomplete miscarriage. Doctors waited 20 hours to perform a routine procedure.',
- 'EMERGENCY ROOM CHAOS: ERs in ban states are turning away women with pregnancy complications. Doctors must consult lawyers before providing care. Miscarrying women are told to wait until they\'re "sick enough "to qualify for exceptions.',
- 'ECTOPIC PREGNANCY CONFUSION: Ectopic pregnancies are always fatal without intervention. Yet some ban states\' laws are so poorly drafted that doctors hesitate to treat. Women have nearly died waiting for legal clarity.',
- 'TEXAS EXODUS: Kate Cox, a Texas woman with a nonviable pregnancy that threatened her fertility, had to flee to another state for care after Texas courts denied her abortion. Her case exemplified the cruelty of bans.',
- 'IVF THREATENED: An Alabama Supreme Court ruling declared frozen embryos are "children," threatening IVF. Clinics temporarily shut down. The ruling showed abortion bans affect far more than abortion.',
- 'MISCARRIAGE CRIMINALIZATION: Women having miscarriages have been investigated and in some cases arrested. Prosecutors in some states treat pregnancy loss as suspicious. Women fear seeking medical care.',
- 'HOSPITAL CLOSURES: OB-GYN services are closing in ban states. Doctors are leaving. Medical students are refusing residencies in states where they can\'t learn full reproductive care. Maternal care deserts are expanding.',
- 'CONTRACEPTION THREATS: Clarence Thomas\'s Dobbs concurrence called for revisiting Griswold v. Connecticut, which protects contraception access. Some Republican officials have targeted certain contraceptives.',
- 'RAPE AND INCEST: Most bans lack exceptions for rape and incest, forcing survivors to carry pregnancies resulting from assault. A 10-year-old rape victim in Ohio had to travel to Indiana for care.',
- 'TRAVEL FOR CARE: Women in ban states must travel hundreds of miles to access care. This requires money, time off work, and childcare many don\'t have. The burden falls hardest on poor women and women of color.',
- 'MEDICAL TRAINING: Doctors cannot learn abortion procedures in ban states. OB-GYN residency programs are affected. The next generation of doctors is being trained without essential skills.',
- 'STATE-BY-STATE CHAOS: The patchwork of state laws creates confusion. What\'s legal in one state is felony in another. Women and doctors navigate an impossible legal landscape.'
- ],
- tags: ['Dobbs', 'Abortion', 'Reproductive Rights', 'Maternal Healthcare', 'Roe v Wade', 'IVF', 'Women\'s Health'],
- sources: [
- { title: 'ProPublica Abortion Ban Deaths', url: 'https://www.propublica.org/article/georgia-abortion-ban-amber-thurman-death', type: 'Investigation' },
- { title: 'Kate Cox Texas Case', url: 'https://www.nytimes.com/2023/12/11/us/kate-cox-abortion-texas.html', type: 'News Report' },
- { title: 'Alabama IVF Ruling', url: 'https://www.nytimes.com/2024/02/16/us/alabama-ruling-embryo-ivf.html', type: 'News Report' },
- { title: 'Guttmacher State Policy Tracker', url: 'https://www.guttmacher.org/state-policy', type: 'Research' },
- { title: 'ACOG Statement on Abortion Bans', url: 'https://www.acog.org/advocacy/abortion-is-essential-healthcare', type: 'Medical Organization' }
- ],
- affiliations: [
- { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Overturned Roe v. Wade', href: '/entities/agencies/supreme-court' },
- { id: '2', name: 'Samuel Alito', type: 'individual', relationship: 'Wrote Dobbs majority opinion', href: '/entities/individuals/samuel-alito' },
- { id: '3', name: 'Clarence Thomas', type: 'individual', relationship: 'Concurrence targeting contraception', href: '/entities/individuals/clarence-thomas' },
- { id: '4', name: 'Amy Coney Barrett', type: 'individual', relationship: 'Vote to overturn Roe', href: '/entities/individuals/amy-coney-barrett' },
- { id: '5', name: 'Brett Kavanaugh', type: 'individual', relationship: 'Vote to overturn Roe', href: '/entities/individuals/brett-kavanaugh' },
- { id: '6', name: 'Neil Gorsuch', type: 'individual', relationship: 'Vote to overturn Roe', href: '/entities/individuals/neil-gorsuch' },
- { id: '7', name: 'Donald Trump', type: 'individual', relationship: 'Appointed three justices who overturned Roe', href: '/entities/individuals/donald-trump' },
- { id: '8', name: 'Federalist Society', type: 'organization', relationship: 'Vetted justices who overturned Roe', href: '/entities/organizations/federalist-society' }
- ],
-   eventOriginDate: '2022-01-01',
-   lastActivityDate: '2022-07-24',
-   pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2022-05-02', event: 'Politico publishes leaked draft of Dobbs opinion authored by Justice Samuel Alito, revealing the Court plans to overturn Roe v. Wade. Unprecedented leak triggers nationwide protests', type: 'critical' },
-     { date: '2022-06-24', event: 'Supreme Court issues Dobbs v. Jackson Women\'s Health Organization decision, overturning Roe v. Wade and eliminating the constitutional right to abortion after 49 years', type: 'critical' },
-     { date: '2022-07', event: 'Trigger laws take effect in 13 states, immediately banning or severely restricting abortion. Clinics in ban states close; patients flood clinics in remaining access states', type: 'default' },
-     { date: '2022-08', event: 'Kansas voters reject a constitutional amendment that would have removed abortion protections, the first post-Dobbs referendum showing overwhelming public support for abortion rights', type: 'political' },
-     { date: '2023-12-11', event: 'Kate Cox, a Texas woman with a fatal fetal abnormality threatening her fertility, flees to another state for care after the Texas Supreme Court blocks her from obtaining an abortion', type: 'critical' },
-     { date: '2024-02-16', event: 'Alabama Supreme Court rules frozen embryos are "children" under state law, forcing IVF clinics to shut down temporarily and threatening fertility treatment access nationwide', type: 'legal' },
-     { date: '2024-09', event: 'ProPublica reveals Amber Thurman died of sepsis in Georgia after doctors delayed a routine D&C procedure for 20 hours, fearing prosecution under the state\'s six-week abortion ban', type: 'critical' },
-     { date: '2024-11', event: 'Voters in seven states pass abortion-rights ballot measures in the November election; abortion rights prevail in every state where it appears on the ballot, including red states', type: 'political' }
-   ],
-
- defendants: [
-
-   { name: 'Supreme Court Majority (6-3)', role: 'Overturned Roe v. Wade in Dobbs v. Jackson (2022), ending 49 years of federal abortion rights', status: 'pending', notes: 'Justices Alito, Thomas, Gorsuch, Kavanaugh, Barrett, Roberts. Draft opinion was unprecedented leak.' }
-
- ],
- },
   'doj-corruption': {
  title: 'DOJ Politicization',
  subtitle: 'Weaponizing the Justice Department for political purposes',

@@ -2394,12 +2394,12 @@ const timelineEvents: TimelineEvent[] = [
  {
  date: 'June 24, 2022',
  sortDate: '2022-06-24',
- title: 'Post-Dobbs Reproductive Healthcare Crisis',
- description: 'Women dying, fleeing states, and denied care after Roe fell',
+ title: 'The Overturn of Roe v. Wade',
+ description: 'How Dark Money, a Stolen Supreme Court Seat, and Perjured Testimony Stripped Reproductive Rights from 170 Million Americans',
  category: 'Human Rights',
  severity: 'critical',
- slug: 'dobbs-aftermath',
- tags: ['Healthcare'],
+ slug: 'roe-v-wade-overturn',
+ tags: ['Reproductive Rights', 'Dark Money', 'Supreme Court'],
  },
  {
  date: 'August 30, 2022',

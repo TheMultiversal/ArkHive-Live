@@ -1546,13 +1546,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
   ],
-  'dobbs-aftermath': [
-    { code: '18 U.S.C. § 2340A', description: 'Torture' },
-    { code: '18 U.S.C. § 1091', description: 'Genocide' },
-    { code: '18 U.S.C. § 2441', description: 'War Crimes' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
   'doj-corruption': [
     { code: '18 U.S.C. § 201', description: 'Bribery of Public Officials' },
     { code: '18 U.S.C. § 1346', description: 'Honest Services Fraud' },

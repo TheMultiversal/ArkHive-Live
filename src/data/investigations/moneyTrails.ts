@@ -1541,12 +1541,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2023-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$7.9B', purpose: 'Reparations and frozen assets related to DHS Human Rights Violations', documented: true },
   ],
 
-  'dobbs-aftermath': [
-    { date: '2022-01-01', from: 'Supreme Court', to: 'Military/security operations', amount: '$155.4B', purpose: 'Military spending on operations involving atrocities in Post-Dobbs Reproductive Healthcare Crisis', documented: false },
-    { date: '2024-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$27.9B', purpose: 'Weapons industry profits from conflict in Post-Dobbs Reproductive Healthcare Crisis', documented: true },
-    { date: '2025-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$17.4B', purpose: 'Reparations and frozen assets related to Post-Dobbs Reproductive Healthcare Crisis', documented: true },
-  ],
-
   'doj-corruption': [
     { date: '2022-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$6.2B', purpose: 'Undisclosed political spending connected to DOJ Politicization', documented: false },
     { date: '2023-01-01', from: 'Corporate donors', to: 'Donald Trump', amount: '$1.5B', purpose: 'Campaign contributions and financial benefits flowing through DOJ Politicization', documented: true },
