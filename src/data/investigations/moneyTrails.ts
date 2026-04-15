@@ -149,11 +149,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Goldman Sachs', to: 'Affected investors / victims', amount: '$3.6B', purpose: 'Restitution and settlement payments to victims of Goldman Sachs Abacus CDO Fraud', documented: true },
   ],
 
-  'adelphia-scandal': [
-    { date: '2020-01-01', from: 'John Rigas', to: 'Illicit financial flows', amount: '$5.7B', purpose: 'Fraudulent financial activity in Adelphia Corporate Corruption', documented: true },
-    { date: '2023-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against John Rigas', amount: '$4.1B', purpose: 'Fines and penalties imposed for violations uncovered in Adelphia Corporate Corruption', documented: true },
-    { date: '2022-01-01', from: 'John Rigas', to: 'Affected investors / victims', amount: '$3.0B', purpose: 'Restitution and settlement payments to victims of Adelphia Corporate Corruption', documented: true },
-  ],
 
   'agricultural-policy': [
     { date: '2015-01-01', from: 'Monsanto', to: 'Revenue from harmful practices', amount: '$26.2B', purpose: 'Monsanto revenue while engaging in practices exposed by Agricultural Policy & Corporate Farming', documented: true },
