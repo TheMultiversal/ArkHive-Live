@@ -5912,13 +5912,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: 'New York Penal Law § 130.55', description: 'Sexual Abuse in the Third Degree' },
     { code: '18 U.S.C. § 1512', description: 'Witness Tampering (NDA enforcement)' },
   ],
-  'child-exploitation': [
-    { code: '18 U.S.C. § 2251', description: 'Sexual Exploitation of Children' },
-    { code: '18 U.S.C. § 2252', description: 'Material Involving Sexual Exploitation of Minors' },
-    { code: '18 U.S.C. § 1591', description: 'Sex Trafficking of Children' },
-    { code: '18 U.S.C. § 2423', description: 'Transportation of Minors for Illegal Sexual Activity' },
-    { code: '18 U.S.C. § 2260', description: 'Production of CSAM Outside the United States' },
-  ],
   'credit-reporting-errors-harm': [
     { code: '15 U.S.C. § 1681', description: 'Fair Credit Reporting Act' },
     { code: '15 U.S.C. § 1681s-2', description: 'Responsibilities of Furnishers of Information' },
