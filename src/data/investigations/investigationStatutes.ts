@@ -5817,13 +5817,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 1503', description: 'Obstruction of Justice' },
   ],
-  'xkeyscore-universal-data-collection': [
-    { code: '50 U.S.C. § 1801', description: 'Foreign Intelligence Surveillance Act' },
-    { code: '18 U.S.C. § 2511', description: 'Wiretap Act' },
-    { code: '12 U.S.C. § 3401', description: 'Right to Financial Privacy Act' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
   'yemen-war-crimes': [
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
     { code: '18 U.S.C. § 2441', description: 'War Crimes Act' },

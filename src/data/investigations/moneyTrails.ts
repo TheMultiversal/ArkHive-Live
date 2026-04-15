@@ -6179,12 +6179,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== X ==========
 
-  'xkeyscore-universal-data-collection': [
-    { date: '2011-01-01', from: 'Government agencies', to: 'NSA', amount: '$23.6B', purpose: 'Contracts for surveillance technology related to XKeyscore Universal Data Collection', documented: false },
-    { date: '2012-01-01', from: 'NSA', to: 'Data monetization revenue', amount: '$83.2B', purpose: 'Revenue from data collection practices exposed in XKeyscore Universal Data Collection', documented: true },
-    { date: '2014-01-01', from: 'NSA', to: 'Regulatory fines and settlements', amount: '$13.5B', purpose: 'Privacy violation penalties resulting from XKeyscore Universal Data Collection', documented: true },
-  ],
-
 
   // ========== P ==========
 

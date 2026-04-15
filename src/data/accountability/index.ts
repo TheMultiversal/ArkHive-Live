@@ -79,6 +79,7 @@ import { warOnDrugsAccountability } from './war-on-drugs';
 import { watergateAccountability } from './watergate';
 import { wellsFargoAccountability } from './wells-fargo-fraud';
 import { whiteSupremacistViolenceAccountability } from './white-supremacist-violence';
+import { xkeyscoreUniversalDataCollectionAccountability } from './xkeyscore-universal-data-collection';
 
 const accountabilityDatabase: Record<string, AccountabilityData> = {
   '1980s-insider-trading': insiderTradingAccountability,
@@ -161,6 +162,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'watergate': watergateAccountability,
   'wells-fargo-fraud': wellsFargoAccountability,
   'white-supremacist-violence': whiteSupremacistViolenceAccountability,
+  'xkeyscore-universal-data-collection': xkeyscoreUniversalDataCollectionAccountability,
 };
 
 export default accountabilityDatabase;
