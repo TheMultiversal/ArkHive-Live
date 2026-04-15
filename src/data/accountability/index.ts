@@ -78,6 +78,7 @@ import { roeVWadeOverturnAccountability } from './roe-v-wade-overturn';
 import { russianInterferenceAccountability } from './russian-interference';
 import { scotusCorruptionAccountability } from './scotus-corruption';
 import { trumpOrgAccountability } from './trump-org-fraud';
+import { tradeBasedMoneyLaunderingSchemesAccountability } from './trade-based-money-laundering-schemes';
 import { trumpTowerMeetingAccountability } from './trump-tower-meeting';
 import { trumpModelManagementAccountability } from './trump-model-management';
 import { tuskegeeExperimentAccountability } from './tuskegee-experiment';
@@ -168,6 +169,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'russian-interference': russianInterferenceAccountability,
   'scotus-corruption': scotusCorruptionAccountability,
   'trump-org-fraud': trumpOrgAccountability,
+  'trade-based-money-laundering-schemes': tradeBasedMoneyLaunderingSchemesAccountability,
   'trump-tower-meeting': trumpTowerMeetingAccountability,
   'trump-model-management': trumpModelManagementAccountability,
   'tuskegee-experiment': tuskegeeExperimentAccountability,

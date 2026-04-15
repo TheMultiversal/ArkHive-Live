@@ -5174,13 +5174,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 1591', description: 'Sex Trafficking' },
   ],
-  'trade-based-money-laundering-schemes': [
-    { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
-    { code: '18 U.S.C. § 1344', description: 'Bank Fraud' },
-    { code: '18 U.S.C. § 1956', description: 'Money Laundering' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 1591', description: 'Sex Trafficking' },
-  ],
   'trafficking-corridors-central-america': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 2340A', description: 'Torture' },

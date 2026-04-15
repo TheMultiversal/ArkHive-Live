@@ -5526,12 +5526,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2002-01-01', from: 'Government', to: 'Victim support and restitution', amount: '$195M', purpose: 'Victim restitution and support programs from Trafficking Victim Identification Failures', documented: true },
   ],
 
-  'trade-based-money-laundering-schemes': [
-    { date: '2000-01-01', from: 'Trade', to: 'Illicit financial flows', amount: '$17.2B', purpose: 'Fraudulent financial activity in Trade-Based Money Laundering Schemes', documented: true },
-    { date: '2003-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Trade', amount: '$6.2B', purpose: 'Fines and penalties imposed for violations uncovered in Trade-Based Money Laundering Schemes', documented: true },
-    { date: '2002-01-01', from: 'Trade', to: 'Affected investors / victims', amount: '$19.1B', purpose: 'Restitution and settlement payments to victims of Trade-Based Money Laundering Schemes', documented: true },
-  ],
-
   'trucking-industry-organized-crime': [
     { date: '1970-01-01', from: 'City/county taxpayers', to: 'Police department', amount: '$3.9B', purpose: 'Department funding during period of misconduct in Trucking Industry Organized Crime', documented: true },
     { date: '1972-01-01', from: 'Municipal government', to: 'Misconduct settlements', amount: '$877M', purpose: 'Taxpayer-funded settlements for misconduct exposed in Trucking Industry Organized Crime', documented: true },
