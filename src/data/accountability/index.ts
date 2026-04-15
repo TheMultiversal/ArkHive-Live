@@ -77,6 +77,7 @@ import { russianInterferenceAccountability } from './russian-interference';
 import { scotusCorruptionAccountability } from './scotus-corruption';
 import { trumpOrgAccountability } from './trump-org-fraud';
 import { trumpTowerMeetingAccountability } from './trump-tower-meeting';
+import { trumpModelManagementAccountability } from './trump-model-management';
 import { tuskegeeExperimentAccountability } from './tuskegee-experiment';
 import { wallStreetBailoutAccountability } from './wall-street-bailout';
 import { warOnDrugsAccountability } from './war-on-drugs';
@@ -164,6 +165,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'scotus-corruption': scotusCorruptionAccountability,
   'trump-org-fraud': trumpOrgAccountability,
   'trump-tower-meeting': trumpTowerMeetingAccountability,
+  'trump-model-management': trumpModelManagementAccountability,
   'tuskegee-experiment': tuskegeeExperimentAccountability,
   'wall-street-bailout': wallStreetBailoutAccountability,
   'war-on-drugs': warOnDrugsAccountability,
