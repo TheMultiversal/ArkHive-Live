@@ -71,6 +71,7 @@ import { oathKeepersAccountability } from './oath-keepers';
 import { obesityEpidemicAccountability } from './obesity-epidemic';
 import { opioidCrisisAccountability } from './opioid-crisis-corporate-mass-murder';
 import { pandemicProfiteeringAccountability } from './pandemic-profiteering-covid-corruption';
+import { payrollTaxFraudAccountability } from './payroll-tax-fraud-industry-analysis';
 import { policeBrutalityAccountability } from './police-brutality';
 import { qualifiedImmunityAccountability } from './qualified-immunity-police-accountability-gap';
 import { roeVWadeOverturnAccountability } from './roe-v-wade-overturn';
@@ -160,6 +161,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'obesity-epidemic': obesityEpidemicAccountability,
   'opioid-crisis-corporate-mass-murder': opioidCrisisAccountability,
   'pandemic-profiteering-covid-corruption': pandemicProfiteeringAccountability,
+  'payroll-tax-fraud-industry-analysis': payrollTaxFraudAccountability,
   'police-brutality': policeBrutalityAccountability,
   'qualified-immunity-police-accountability-gap': qualifiedImmunityAccountability,
   'roe-v-wade-overturn': roeVWadeOverturnAccountability,

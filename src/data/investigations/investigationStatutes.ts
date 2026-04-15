@@ -3805,13 +3805,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
   'payday-loan-industry-debt-trap': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
   ],
-  'payroll-tax-fraud-industry-analysis': [
-    { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },
-    { code: '18 U.S.C. § 1344', description: 'Bank Fraud' },
-    { code: '18 U.S.C. § 1956', description: 'Money Laundering' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-  ],
   'penn-state-scandal': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 2251', description: 'Sexual Exploitation of Children' },

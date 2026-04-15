@@ -4407,12 +4407,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1990-01-01', from: 'ExxonMobil', to: 'Environmental lobbying', amount: '$367M', purpose: 'Lobbying to weaken regulations related to Plastic Industry Recycling Fraud', documented: true },
   ],
 
-  'payroll-tax-fraud-industry-analysis': [
-    { date: '2000-01-01', from: 'IRS', to: 'Illicit financial flows', amount: '$10.0B', purpose: 'Fraudulent financial activity in Payroll Tax Fraud Industry Analysis', documented: true },
-    { date: '2003-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against IRS', amount: '$1.7B', purpose: 'Fines and penalties imposed for violations uncovered in Payroll Tax Fraud Industry Analysis', documented: true },
-    { date: '2002-01-01', from: 'IRS', to: 'Affected investors / victims', amount: '$5.9B', purpose: 'Restitution and settlement payments to victims of Payroll Tax Fraud Industry Analysis', documented: true },
-  ],
-
   'pharmaceutical-waste-environmental-impact': [
     { date: '2000-01-01', from: 'Industrial polluters', to: 'Revenue from polluting operations', amount: '$129.6B', purpose: 'Revenue from operations causing environmental damage in Pharmaceutical Waste Environmental Impact', documented: true },
     { date: '2005-01-01', from: 'Industrial polluters', to: 'EPA fines and cleanup costs', amount: '$16.7B', purpose: 'Environmental remediation and regulatory penalties for Pharmaceutical Waste Environmental Impact', documented: true },
