@@ -81,11 +81,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2017-01-01', from: 'Donald Trump', to: 'Legal and remediation costs', amount: '$538M', purpose: 'Accountability costs arising from Animal Cruelty & Wildlife Destruction', documented: true },
   ],
 
-  'agricultural-monopoly': [
-    { date: '2012-01-01', from: 'Elite networks', to: 'Concentrated wealth flows', amount: '$76.4B', purpose: 'Wealth concentration and financial flows in Agricultural Monopoly', documented: false },
-    { date: '2014-01-01', from: 'Billionaire class', to: 'Political influence and tax avoidance', amount: '$64.4B', purpose: 'Tax avoidance and political spending exposed in Agricultural Monopoly', documented: true },
-  ],
-
   'alfa-bank': [
     { date: '2017-01-01', from: 'Foreign state actors', to: 'Influence operations', amount: '$9.7B', purpose: 'Foreign spending on influence operations in Alfa Bank Server Investigation', documented: false },
     { date: '2019-01-01', from: 'US Government', to: 'Counter-operations and investigations', amount: '$1.4B', purpose: 'US government response costs for Alfa Bank Server Investigation', documented: true },

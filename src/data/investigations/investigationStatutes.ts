@@ -86,9 +86,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
     { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
   ],
-  'agricultural-monopoly': [
-    { code: '15 U.S.C. § 1', description: 'Sherman Antitrust Act' },
-  ],
   'agricultural-policy': [
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
   ],

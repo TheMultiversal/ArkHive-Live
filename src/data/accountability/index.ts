@@ -5,6 +5,7 @@ import { financialCrisis2008Accountability } from './2008-financial-crisis';
 import { electionInterference2016Accountability } from './2016-election';
 import { electionOverturnAccountability } from './2020-election-overturn';
 import { accessHollywoodAccountability } from './access-hollywood';
+import { agriculturalMonopolyAccountability } from './agricultural-monopoly';
 import { ahmaudArberyAccountability } from './ahmaud-arbery-murder';
 import { aidsCrisisAccountability } from './aids-crisis';
 import { agentOrangeAccountability } from './agent-orange';
@@ -88,6 +89,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   '2016-election': electionInterference2016Accountability,
   '2020-election-overturn': electionOverturnAccountability,
   'access-hollywood': accessHollywoodAccountability,
+  'agricultural-monopoly': agriculturalMonopolyAccountability,
   'ahmaud-arbery-murder': ahmaudArberyAccountability,
   'aids-crisis': aidsCrisisAccountability,
   'agent-orange': agentOrangeAccountability,
