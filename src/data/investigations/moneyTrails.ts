@@ -2484,11 +2484,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== G ==========
 
-  'great-reset': [
-    { date: '2020-01-01', from: 'Elite networks', to: 'Concentrated wealth flows', amount: '$69.8B', purpose: 'Wealth concentration and financial flows in The Great Reset Agenda', documented: false },
-    { date: '2022-01-01', from: 'Billionaire class', to: 'Political influence and tax avoidance', amount: '$6.9B', purpose: 'Tax avoidance and political spending exposed in The Great Reset Agenda', documented: true },
-  ],
-
   'global-governance': [
     { date: '2020-01-01', from: 'Elite networks', to: 'Concentrated wealth flows', amount: '$178.1B', purpose: 'Wealth concentration and financial flows in Global Governance Networks', documented: false },
     { date: '2022-01-01', from: 'Billionaire class', to: 'Political influence and tax avoidance', amount: '$4.7B', purpose: 'Tax avoidance and political spending exposed in Global Governance Networks', documented: true },

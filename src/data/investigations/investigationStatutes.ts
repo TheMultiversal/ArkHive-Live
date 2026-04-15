@@ -2533,10 +2533,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
   ],
-  'great-reset': [
-    { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
   'green-bay-sweep': [
     { code: '52 U.S.C. § 20511', description: 'Criminal Penalties for Election Fraud' },
     { code: '52 U.S.C. § 30121', description: 'Foreign National Contribution Prohibition' },
