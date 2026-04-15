@@ -82,9 +82,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
     { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
   ],
-  'agricultural-policy': [
-    { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
-  ],
   'agricultural-runoff-dead-zone-creation': [
     { code: '42 U.S.C. § 7413', description: 'Clean Air Act Violations' },
     { code: '33 U.S.C. § 1319', description: 'Clean Water Act Violations' },

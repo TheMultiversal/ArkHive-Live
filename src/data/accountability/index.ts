@@ -8,6 +8,7 @@ import { accessHollywoodAccountability } from './access-hollywood';
 import { adelphiaFraudAccountability } from './adelphia-fraud';
 import { adelphiaScandalAccountability } from './adelphia-scandal';
 import { agriculturalMonopolyAccountability } from './agricultural-monopoly';
+import { agriculturalPolicyAccountability } from './agricultural-policy';
 import { ahmaudArberyAccountability } from './ahmaud-arbery-murder';
 import { aidsCrisisAccountability } from './aids-crisis';
 import { agentOrangeAccountability } from './agent-orange';
@@ -107,6 +108,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'adelphia-fraud': adelphiaFraudAccountability,
   'adelphia-scandal': adelphiaScandalAccountability,
   'agricultural-monopoly': agriculturalMonopolyAccountability,
+  'agricultural-policy': agriculturalPolicyAccountability,
   'ahmaud-arbery-murder': ahmaudArberyAccountability,
   'aids-crisis': aidsCrisisAccountability,
   'agent-orange': agentOrangeAccountability,

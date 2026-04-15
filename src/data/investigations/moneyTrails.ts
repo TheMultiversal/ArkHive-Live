@@ -150,12 +150,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   ],
 
 
-  'agricultural-policy': [
-    { date: '2015-01-01', from: 'Monsanto', to: 'Revenue from harmful practices', amount: '$26.2B', purpose: 'Monsanto revenue while engaging in practices exposed by Agricultural Policy & Corporate Farming', documented: true },
-    { date: '2017-01-01', from: 'Monsanto', to: 'Anti-regulation lobbying', amount: '$82M', purpose: 'Lobbying spending by Monsanto to avoid accountability in Agricultural Policy & Corporate Farming', documented: true },
-    { date: '2019-01-01', from: 'Monsanto', to: 'Legal penalties and settlements', amount: '$268M', purpose: 'Fines and settlements resulting from Agricultural Policy & Corporate Farming', documented: true },
-  ],
-
   'ahmaud-arbery-murder': [
     { date: '2025-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$3.6B', purpose: 'Government spending on operations that violated civil rights in Ahmaud Arbery Murder', documented: true },
     { date: '2025-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$3.0B', purpose: 'Settlements and compensation to victims of Ahmaud Arbery Murder', documented: true },
