@@ -3642,11 +3642,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
     { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
   ],
-  'oath-keepers': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
-    { code: '18 U.S.C. § 371', description: 'Conspiracy' },
-  ],
   'ocean-pollution-industrial-scale': [
     { code: '42 U.S.C. § 7413', description: 'Clean Air Act Violations' },
     { code: '33 U.S.C. § 1319', description: 'Clean Water Act Violations' },

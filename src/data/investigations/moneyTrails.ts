@@ -3896,12 +3896,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== O ==========
 
-  'oath-keepers': [
-    { date: '2012-01-01', from: 'US taxpayers', to: 'Intelligence agencies', amount: '$43.9B', purpose: 'Budget allocation for operations connected to Oath Keepers: From Military Veterans Group to Seditious Conspiracy', documented: false },
-    { date: '2013-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$34.2B', purpose: 'Contractor profits from programs related to Oath Keepers: From Military Veterans Group to Seditious Conspiracy', documented: true },
-    { date: '2015-01-01', from: 'Intelligence agencies', to: 'Classified / black budget programs', amount: '$20.4B', purpose: 'Classified spending on programs exposed in Oath Keepers: From Military Veterans Group to Seditious Conspiracy', documented: false },
-  ],
-
   'okc-bombing': [
     { date: '2022-01-01', from: 'US taxpayers', to: 'Intelligence agencies', amount: '$61.4B', purpose: 'Budget allocation for operations connected to Oklahoma City Bombing: America\'s Deadliest Domestic Terror Attack', documented: false },
     { date: '2023-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$19.7B', purpose: 'Contractor profits from programs related to Oklahoma City Bombing: America\'s Deadliest Domestic Terror Attack', documented: true },

@@ -1385,7 +1385,7 @@ const timelineEvents: TimelineEvent[] = [
  description:"Oath Keepers militia planned armed assault on Capitol. Leader Stewart Rhodes convicted of seditious conspiracy. Weapons staged across Potomac.",
  category:"Criminal Conduct",
  severity:"critical",
- slug:"oath-keepers-sedition",
+ slug:"oath-keepers",
  tags: ["Jan 6","Militia","Sedition"],
  },
  {

@@ -51,13 +51,17 @@ import { georgeFloydAccountability } from './george-floyd';
 import { hushMoneyAccountability } from './hush-money';
 import { iranContraAccountability } from './iran-contra-full-financial-trail';
 import { iraqSanctionsAccountability } from './iraq-sanctions';
+import { january6InsurrectionAccountability } from './january-6-insurrection';
 import { liborScandalAccountability } from './libor-scandal';
 import { mkultraCiaHumanExperimentationAccountability } from './mkultra-cia-human-experimentation';
 import { myLaiMassacreAccountability } from './my-lai-massacre';
 import { nsaMassSurveillanceAccountability } from './nsa-mass-surveillance';
+import { oathKeepersAccountability } from './oath-keepers';
+import { obesityEpidemicAccountability } from './obesity-epidemic';
 import { opioidCrisisAccountability } from './opioid-crisis-corporate-mass-murder';
 import { pandemicProfiteeringAccountability } from './pandemic-profiteering-covid-corruption';
 import { policeBrutalityAccountability } from './police-brutality';
+import { roeVWadeOverturnAccountability } from './roe-v-wade-overturn';
 import { russianInterferenceAccountability } from './russian-interference';
 import { scotusCorruptionAccountability } from './scotus-corruption';
 import { trumpOrgAccountability } from './trump-org-fraud';
@@ -121,13 +125,17 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'hush-money': hushMoneyAccountability,
   'iran-contra-full-financial-trail': iranContraAccountability,
   'iraq-sanctions': iraqSanctionsAccountability,
+  'january-6-insurrection': january6InsurrectionAccountability,
   'banking-libor-manipulation': liborScandalAccountability,
   'mkultra-cia-human-experimentation': mkultraCiaHumanExperimentationAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,
   'nsa-mass-surveillance': nsaMassSurveillanceAccountability,
+  'oath-keepers': oathKeepersAccountability,
+  'obesity-epidemic': obesityEpidemicAccountability,
   'opioid-crisis-corporate-mass-murder': opioidCrisisAccountability,
   'pandemic-profiteering-covid-corruption': pandemicProfiteeringAccountability,
   'police-brutality': policeBrutalityAccountability,
+  'roe-v-wade-overturn': roeVWadeOverturnAccountability,
   'russian-interference': russianInterferenceAccountability,
   'scotus-corruption': scotusCorruptionAccountability,
   'trump-org-fraud': trumpOrgAccountability,

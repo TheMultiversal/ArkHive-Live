@@ -44,7 +44,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
  { title: 'Proud Boys Seditious Conspiracy', slug: 'proud-boys-sedition', severity: 'critical' },
- { title: 'Oath Keepers Seditious Conspiracy', slug: 'oath-keepers-sedition', severity: 'critical' },
+ { title: 'Oath Keepers Seditious Conspiracy', slug: 'oath-keepers', severity: 'critical' },
  ],
  timeline: [
  { date: '1952', event: 'Born in Norwalk, Connecticut' },

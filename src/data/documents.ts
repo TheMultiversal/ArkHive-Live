@@ -3148,7 +3148,7 @@ export const documents: DocumentEntry[] = [
     "size": "12.1 MB",
     "category": "Legal",
     "investigation": "Oath Keepers Sedition",
-    "investigationSlug": "oath-keepers-sedition",
+    "investigationSlug": "oath-keepers",
     "downloadCount": 1917,
     "previewAvailable": true,
     "url": "https://www.justice.gov/news"
@@ -3163,7 +3163,7 @@ export const documents: DocumentEntry[] = [
     "size": "8.3 MB",
     "category": "Legal",
     "investigation": "Oath Keepers Sedition",
-    "investigationSlug": "oath-keepers-sedition",
+    "investigationSlug": "oath-keepers",
     "downloadCount": 3403,
     "previewAvailable": true,
     "url": "https://www.nytimes.com/2022/11/29/us/politics/oath-keepers-stewart-rhodes-seditious-conspiracy.html"
@@ -3178,7 +3178,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.4 MB",
     "category": "Legal",
     "investigation": "Oath Keepers Sedition",
-    "investigationSlug": "oath-keepers-sedition",
+    "investigationSlug": "oath-keepers",
     "downloadCount": 4369,
     "previewAvailable": true,
     "url": "https://www.npr.org/"
@@ -3193,7 +3193,7 @@ export const documents: DocumentEntry[] = [
     "size": "8.3 MB",
     "category": "Investigative Reporting",
     "investigation": "Oath Keepers Sedition",
-    "investigationSlug": "oath-keepers-sedition",
+    "investigationSlug": "oath-keepers",
     "downloadCount": 3154,
     "previewAvailable": true,
     "url": "https://www.nytimes.com/2023/01/04/us/politics/proud-boys-oath-keepers-jan-6.html"
@@ -3208,7 +3208,7 @@ export const documents: DocumentEntry[] = [
     "size": "1.1 MB",
     "category": "Legal",
     "investigation": "Oath Keepers Sedition",
-    "investigationSlug": "oath-keepers-sedition",
+    "investigationSlug": "oath-keepers",
     "downloadCount": 2941,
     "previewAvailable": true,
     "url": "https://www.washingtonpost.com/dc-md-va/2023/05/25/stewart-rhodes-oath-keepers-sentencing/"
@@ -6628,7 +6628,7 @@ export const documents: DocumentEntry[] = [
     "size": "248 KB",
     "category": "Legal",
     "investigation": "Oath Keepers Sedition",
-    "investigationSlug": "oath-keepers-sedition",
+    "investigationSlug": "oath-keepers",
     "downloadCount": 1734,
     "previewAvailable": true,
     "url": "https://www.justice.gov/usao-dc/capitol-breach-cases"
