@@ -2183,9 +2183,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '31 U.S.C. § 3729', description: 'False Claims Act' },
   ],
-  'forced-arbitration-consumer-rights': [
-    { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
-  ],
   'forced-labor-in-us-prison-system': [
     { code: '18 U.S.C. § 1341', description: 'Mail Fraud' },
     { code: '18 U.S.C. § 1343', description: 'Wire Fraud' },

@@ -6180,12 +6180,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== F ==========
 
-  'forced-arbitration-consumer-rights': [
-    { date: '2024-01-01', from: 'Forced Arbitration and Consumer Rights', to: 'Revenue from harmful practices', amount: '$74.1B', purpose: 'Forced Arbitration and Consumer Rights revenue while engaging in practices exposed by Forced Arbitration and Consumer Rights', documented: true },
-    { date: '2025-01-01', from: 'Forced Arbitration and Consumer Rights', to: 'Anti-regulation lobbying', amount: '$174M', purpose: 'Lobbying spending by Forced Arbitration and Consumer Rights to avoid accountability in Forced Arbitration and Consumer Rights', documented: true },
-    { date: '2025-01-01', from: 'Forced Arbitration and Consumer Rights', to: 'Legal penalties and settlements', amount: '$3.0B', purpose: 'Fines and settlements resulting from Forced Arbitration and Consumer Rights', documented: true },
-  ],
-
 
   // ========== Y ==========
 
