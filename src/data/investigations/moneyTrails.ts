@@ -939,12 +939,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2021-01-01', from: 'Apple Inc', to: 'Oversight and investigation costs', amount: '$554M', purpose: 'Congressional and inspector general investigation costs for China Business Complicity', documented: false },
   ],
 
-  'china-cyber-espionage': [
-    { date: '2025-01-01', from: 'US taxpayers', to: 'FBI', amount: '$15.2B', purpose: 'Government spending on programs implicated in China Cyber Espionage', documented: true },
-    { date: '2025-01-01', from: 'FBI', to: 'Legal settlements and remediation', amount: '$7.0B', purpose: 'Settlement costs and remediation arising from China Cyber Espionage', documented: true },
-    { date: '2025-01-01', from: 'NSA', to: 'Oversight and investigation costs', amount: '$1.2B', purpose: 'Congressional and inspector general investigation costs for China Cyber Espionage', documented: false },
-  ],
-
   'china-tech': [
     { date: '2019-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$35.1B', purpose: 'Government spending on programs implicated in China Tech', documented: true },
     { date: '2022-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$4.7B', purpose: 'Settlement costs and remediation arising from China Tech', documented: true },

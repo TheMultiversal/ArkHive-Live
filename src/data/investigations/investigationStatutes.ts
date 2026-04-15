@@ -768,11 +768,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
-  'china-cyber-espionage': [
-    { code: '18 U.S.C. § 1001', description: 'False Statements' },
-    { code: '18 U.S.C. § 1505', description: 'Obstruction of Proceedings' },
-    { code: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices' },
-  ],
   'china-influence': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '22 U.S.C. § 611', description: 'Foreign Agents Registration Act' },

@@ -34,6 +34,7 @@ import { centralParkFiveAccountability } from './central-park-five';
 import { charlestonMassacreAccountability } from './charleston-massacre';
 import { chicagoPolTortureAccountability } from './chicago-police-torture';
 import { childExploitationAccountability } from './child-exploitation';
+import { chinaCyberEspionageAccountability } from './china-cyber-espionage';
 import { ciaTortureAccountability } from './cia-torture';
 import { civilRightsAccountability } from './civil-rights';
 import { civilRightsRollbacksAccountability } from './civil-rights-rollbacks';
@@ -122,6 +123,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'charleston-massacre': charlestonMassacreAccountability,
   'chicago-police-torture': chicagoPolTortureAccountability,
   'child-exploitation': childExploitationAccountability,
+  'china-cyber-espionage': chinaCyberEspionageAccountability,
   'cia-torture-program': ciaTortureAccountability,
   'civil-rights': civilRightsAccountability,
   'civil-rights-rollbacks': civilRightsRollbacksAccountability,
