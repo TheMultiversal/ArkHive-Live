@@ -4599,11 +4599,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2019-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$244M', purpose: 'Personal financial benefits gained through corruption in Qatar Blockade Extortion', documented: false },
   ],
 
-  'qualified-immunity-police-accountability-gap': [
-    { date: '1967-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$16.9B', purpose: 'Government spending on operations that violated civil rights in Qualified Immunity Police Accountability Gap', documented: true },
-    { date: '1971-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$7.8B', purpose: 'Settlements and compensation to victims of Qualified Immunity Police Accountability Gap', documented: true },
-  ],
-
 
   // ========== P ==========
 

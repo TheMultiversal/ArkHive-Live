@@ -4383,12 +4383,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 1962', description: 'RICO' },
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
   ],
-  'qualified-immunity-police-accountability-gap': [
-    { code: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law' },
-    { code: '42 U.S.C. § 1983', description: 'Civil Action for Deprivation of Rights' },
-    { code: '18 U.S.C. § 245', description: 'Federally Protected Activities' },
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-  ],
   'qualified-immunity-police-shield': [
     { code: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law' },
     { code: '42 U.S.C. § 1983', description: 'Civil Action for Deprivation of Rights' },
