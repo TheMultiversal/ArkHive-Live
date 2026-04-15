@@ -5290,11 +5290,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
   ],
-  'trump-model-management': [
-    { code: '18 U.S.C. § 1347', description: 'Health Care Fraud' },
-    { code: '31 U.S.C. § 3729', description: 'False Claims Act' },
-    { code: '42 U.S.C. § 1320a-7b', description: 'Anti-Kickback Statute' },
-  ],
   'trump-pardons': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
@@ -5310,10 +5305,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
   ],
   'trump-tax-cuts': [
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
-  'trump-tower-meeting': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
   ],
   'trump-tower-moscow': [

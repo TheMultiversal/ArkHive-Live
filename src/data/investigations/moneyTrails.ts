@@ -5293,19 +5293,9 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2013-01-01', from: 'FBI', to: 'Classified / black budget programs', amount: '$22.2B', purpose: 'Classified spending on programs exposed in Treason & Foreign Collusion', documented: false },
   ],
 
-  'trump-tower-meeting': [
-    { date: '2017-01-01', from: 'Foreign state actors', to: 'Influence operations', amount: '$18.4B', purpose: 'Foreign spending on influence operations in Trump Tower Meeting (June 2016)', documented: false },
-    { date: '2019-01-01', from: 'US Government', to: 'Counter-operations and investigations', amount: '$2.8B', purpose: 'US government response costs for Trump Tower Meeting (June 2016)', documented: true },
-  ],
-
   'trump-tower-moscow': [
     { date: '2016-01-01', from: 'Foreign state actors', to: 'Influence operations', amount: '$13.0B', purpose: 'Foreign spending on influence operations in Trump Tower Moscow Project', documented: false },
     { date: '2018-01-01', from: 'US Government', to: 'Counter-operations and investigations', amount: '$7.5B', purpose: 'US government response costs for Trump Tower Moscow Project', documented: true },
-  ],
-
-  'trump-model-management': [
-    { date: '2014-01-01', from: 'Donald Trump', to: 'Operations and activities', amount: '$4.7B', purpose: 'Financial flows connected to Trump Model Management', documented: true },
-    { date: '2017-01-01', from: 'Donald Trump', to: 'Legal and remediation costs', amount: '$5.8B', purpose: 'Accountability costs arising from Trump Model Management', documented: true },
   ],
 
   'trump-soho-fraud': [
