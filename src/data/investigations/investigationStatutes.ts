@@ -2981,9 +2981,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
     { code: '42 U.S.C. § 1983', description: 'Civil Rights Act § 1983' },
   ],
-  'jj-baby-powder': [
-    { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
-  ],
   'johnson-and-johnson-talc-cancer': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },

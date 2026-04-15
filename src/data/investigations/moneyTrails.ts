@@ -3135,11 +3135,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$228M', purpose: 'Personal financial benefits gained through corruption in Judicial Capture by Federalist Society', documented: false },
   ],
 
-  'jj-baby-powder': [
-    { date: '2021-01-01', from: 'Johnson & Johnson', to: 'Revenue from harmful practices', amount: '$91.1B', purpose: 'Johnson & Johnson revenue while engaging in practices exposed by Johnson & Johnson Baby Powder: Decades of Asbestos Concealment', documented: true },
-    { date: '2023-01-01', from: 'Johnson & Johnson', to: 'Anti-regulation lobbying', amount: '$680M', purpose: 'Lobbying spending by Johnson & Johnson to avoid accountability in Johnson & Johnson Baby Powder: Decades of Asbestos Concealment', documented: true },
-    { date: '2025-01-01', from: 'Johnson & Johnson', to: 'Legal penalties and settlements', amount: '$12.9B', purpose: 'Fines and settlements resulting from Johnson & Johnson Baby Powder: Decades of Asbestos Concealment', documented: true },
-  ],
 
   'juul-vaping-epidemic': [
     { date: '2024-01-01', from: 'Pharmaceutical/healthcare industry', to: 'Revenue from harmful products/practices', amount: '$48.5B', purpose: 'Revenue generated from products or practices at center of JUUL and the Youth Vaping Epidemic', documented: true },
