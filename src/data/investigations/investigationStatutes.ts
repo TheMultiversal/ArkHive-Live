@@ -3647,9 +3647,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
     { code: '18 U.S.C. § 371', description: 'Conspiracy' },
   ],
-  'obesity-epidemic': [
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
   'ocean-pollution-industrial-scale': [
     { code: '42 U.S.C. § 7413', description: 'Clean Air Act Violations' },
     { code: '33 U.S.C. § 1319', description: 'Clean Water Act Violations' },

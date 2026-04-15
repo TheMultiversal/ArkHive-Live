@@ -3902,12 +3902,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2015-01-01', from: 'Intelligence agencies', to: 'Classified / black budget programs', amount: '$20.4B', purpose: 'Classified spending on programs exposed in Oath Keepers: From Military Veterans Group to Seditious Conspiracy', documented: false },
   ],
 
-  'obesity-epidemic': [
-    { date: '2025-01-01', from: 'Oath Keepers', to: 'Revenue from harmful products/practices', amount: '$7.2B', purpose: 'Revenue generated from products or practices at center of The American Obesity Epidemic: A Manufactured Health Crisis', documented: true },
-    { date: '2025-01-01', from: 'Oath Keepers', to: 'Lobbying and political influence', amount: '$1.1B', purpose: 'Lobbying expenditures to prevent regulation related to The American Obesity Epidemic: A Manufactured Health Crisis', documented: true },
-    { date: '2025-01-01', from: 'Oath Keepers', to: 'Settlements and victim compensation', amount: '$15.0B', purpose: 'Legal settlements and compensation arising from The American Obesity Epidemic: A Manufactured Health Crisis', documented: true },
-  ],
-
   'okc-bombing': [
     { date: '2022-01-01', from: 'US taxpayers', to: 'Intelligence agencies', amount: '$61.4B', purpose: 'Budget allocation for operations connected to Oklahoma City Bombing: America\'s Deadliest Domestic Terror Attack', documented: false },
     { date: '2023-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$19.7B', purpose: 'Contractor profits from programs related to Oklahoma City Bombing: America\'s Deadliest Domestic Terror Attack', documented: true },
