@@ -917,11 +917,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
 
 
-  'china-business-complicity': [
-    { date: '2020-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$47.9B', purpose: 'Government spending on programs implicated in China Business Complicity', documented: true },
-    { date: '2023-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$2.3B', purpose: 'Settlement costs and remediation arising from China Business Complicity', documented: true },
-    { date: '2021-01-01', from: 'Apple Inc', to: 'Oversight and investigation costs', amount: '$554M', purpose: 'Congressional and inspector general investigation costs for China Business Complicity', documented: false },
-  ],
+
 
   'china-tech': [
     { date: '2019-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$35.1B', purpose: 'Government spending on programs implicated in China Tech', documented: true },

@@ -36,6 +36,7 @@ import { charlestonMassacreAccountability } from './charleston-massacre';
 import { chicagoPolTortureAccountability } from './chicago-police-torture';
 import { childExploitationAccountability } from './child-exploitation';
 import { childSexualAbuseAccountability } from './child-sexual-abuse';
+import { chinaBusinessComplicityAccountability } from './china-business-complicity';
 import { chinaCyberEspionageAccountability } from './china-cyber-espionage';
 import { cryptoMoneyLaunderingAccountability } from './cryptocurrency-money-laundering-networks';
 import { ciaTortureAccountability } from './cia-torture';
@@ -130,6 +131,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'chicago-police-torture': chicagoPolTortureAccountability,
   'child-exploitation': childExploitationAccountability,
   'child-sexual-abuse': childSexualAbuseAccountability,
+  'china-business-complicity': chinaBusinessComplicityAccountability,
   'china-cyber-espionage': chinaCyberEspionageAccountability,
   'cryptocurrency-money-laundering-networks': cryptoMoneyLaunderingAccountability,
   'cia-torture-program': ciaTortureAccountability,

@@ -752,11 +752,7 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
 
-  'china-business-complicity': [
-    { code: '18 U.S.C. § 1001', description: 'False Statements' },
-    { code: '18 U.S.C. § 1505', description: 'Obstruction of Proceedings' },
-    { code: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices' },
-  ],
+
   'china-coverup': [
     { code: '18 U.S.C. § 1503', description: 'Obstruction of Justice' },
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
