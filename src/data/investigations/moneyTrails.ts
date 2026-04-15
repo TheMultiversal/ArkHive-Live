@@ -915,11 +915,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Police department', to: 'Militarized equipment purchases', amount: '$795M', purpose: 'Equipment and training spending related to Chicago Police Torture', documented: true },
   ],
 
-  'child-sexual-abuse': [
-    { date: '2025-01-01', from: 'Criminal networks', to: 'Trafficking revenue', amount: '$10.3B', purpose: 'Estimated proceeds from trafficking operations in Child Sexual Abuse', documented: false },
-    { date: '2025-01-01', from: 'DOJ / FBI', to: 'Asset seizures', amount: '$754M', purpose: 'Law enforcement asset seizures related to Child Sexual Abuse', documented: true },
-    { date: '2025-01-01', from: 'Government', to: 'Victim support and restitution', amount: '$150M', purpose: 'Victim restitution and support programs from Child Sexual Abuse', documented: true },
-  ],
+
 
   'china-business-complicity': [
     { date: '2020-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$47.9B', purpose: 'Government spending on programs implicated in China Business Complicity', documented: true },

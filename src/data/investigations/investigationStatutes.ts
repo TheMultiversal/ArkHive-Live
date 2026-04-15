@@ -751,9 +751,7 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
-  'child-sexual-abuse': [
-    { code: '18 U.S.C. § 2251', description: 'Sexual Exploitation of Children' },
-  ],
+
   'china-business-complicity': [
     { code: '18 U.S.C. § 1001', description: 'False Statements' },
     { code: '18 U.S.C. § 1505', description: 'Obstruction of Proceedings' },
