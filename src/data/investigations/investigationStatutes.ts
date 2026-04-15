@@ -60,10 +60,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
   ],
-  'adelphia-fraud': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-    { code: '18 U.S.C. § 371', description: 'Conspiracy' },
-  ],
   'admin-state-capture': [
     { code: '18 U.S.C. § 201', description: 'Bribery of Public Officials' },
     { code: '18 U.S.C. § 1346', description: 'Honest Services Fraud' },
