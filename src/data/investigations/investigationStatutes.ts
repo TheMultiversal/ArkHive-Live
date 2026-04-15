@@ -3571,11 +3571,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
-  'nra-russia': [
-    { code: '18 U.S.C. § 1962', description: 'RICO - Racketeering' },
-    { code: '22 U.S.C. § 611', description: 'Foreign Agents Registration Act' },
-    { code: '18 U.S.C. § 371', description: 'Conspiracy' },
-  ],
   'nsa-warrantless-wiretapping': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },

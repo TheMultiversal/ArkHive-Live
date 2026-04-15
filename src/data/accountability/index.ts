@@ -56,6 +56,7 @@ import { liborScandalAccountability } from './libor-scandal';
 import { mkultraCiaHumanExperimentationAccountability } from './mkultra-cia-human-experimentation';
 import { myLaiMassacreAccountability } from './my-lai-massacre';
 import { nsaMassSurveillanceAccountability } from './nsa-mass-surveillance';
+import { nraRussiaAccountability } from './nra-russia';
 import { oathKeepersAccountability } from './oath-keepers';
 import { obesityEpidemicAccountability } from './obesity-epidemic';
 import { opioidCrisisAccountability } from './opioid-crisis-corporate-mass-murder';
@@ -130,6 +131,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'mkultra-cia-human-experimentation': mkultraCiaHumanExperimentationAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,
   'nsa-mass-surveillance': nsaMassSurveillanceAccountability,
+  'nra-russia': nraRussiaAccountability,
   'oath-keepers': oathKeepersAccountability,
   'obesity-epidemic': obesityEpidemicAccountability,
   'opioid-crisis-corporate-mass-murder': opioidCrisisAccountability,
