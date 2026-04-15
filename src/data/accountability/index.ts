@@ -18,6 +18,7 @@ import { bankingCorruptionAccountability } from './banking-corruption';
 import { bearStearnsAccountability } from './bear-stearns-2008-collapse';
 import { bhopalAccountability } from './bhopal-disaster';
 import { bigTobaccoAccountability } from './big-tobacco-lies';
+import { biologicalExperimentationAccountability } from './biological-experimentation';
 import { billCosbyAccountability } from './bill-cosby-sexual-assault';
 import { blackwaterAccountability } from './blackwater-massacre';
 import { boeingCriminalEnterpriseAccountability } from './boeing-criminal-enterprise';
@@ -103,6 +104,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'bhopal-disaster': bhopalAccountability,
   'big-tobacco-lies': bigTobaccoAccountability,
   'bill-cosby-sexual-assault': billCosbyAccountability,
+  'biological-experimentation': biologicalExperimentationAccountability,
   'blackwater-massacre': blackwaterAccountability,
   'boeing-criminal-enterprise': boeingCriminalEnterpriseAccountability,
   'boeing-safety-crisis': boeingSafetyAccountability,

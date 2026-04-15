@@ -5894,12 +5894,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: 'Geneva Convention Common Article 3', description: 'Protection of civilians in armed conflict' },
     { code: 'Rome Statute Article 7', description: 'Crimes Against Humanity' },
   ],
-  'biological-experimentation': [
-    { code: '18 U.S.C. § 175', description: 'Biological Weapons Anti-Terrorism Act' },
-    { code: '42 U.S.C. § 1983', description: 'Civil Rights Violation (non-consensual experimentation)' },
-    { code: '45 C.F.R. § 46', description: 'Common Rule - Protection of Human Subjects' },
-    { code: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law' },
-  ],
   'botham-jean-murder': [
     { code: 'Texas Penal Code § 19.02', description: 'Murder' },
     { code: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law' },

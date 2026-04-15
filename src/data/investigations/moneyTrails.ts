@@ -445,12 +445,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2014-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$34M', purpose: 'Personal financial benefits gained through corruption in Bribery & Corruption', documented: false },
   ],
 
-  'biological-experimentation': [
-    { date: '2010-01-01', from: 'Donald Trump', to: 'Revenue from harmful products/practices', amount: '$16.0B', purpose: 'Revenue generated from products or practices at center of Biological Experimentation', documented: true },
-    { date: '2012-01-01', from: 'Donald Trump', to: 'Lobbying and political influence', amount: '$889M', purpose: 'Lobbying expenditures to prevent regulation related to Biological Experimentation', documented: true },
-    { date: '2014-01-01', from: 'Donald Trump', to: 'Settlements and victim compensation', amount: '$2.1B', purpose: 'Legal settlements and compensation arising from Biological Experimentation', documented: true },
-  ],
-
   'birther-conspiracy': [
     { date: '2014-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$2.5B', purpose: 'Government spending on operations that violated civil rights in Birther Conspiracy', documented: true },
     { date: '2018-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$3.5B', purpose: 'Settlements and compensation to victims of Birther Conspiracy', documented: true },
