@@ -2760,12 +2760,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== H ==========
 
-  'health-policy': [
-    { date: '2015-01-01', from: 'Bill Gates', to: 'Revenue from harmful products/practices', amount: '$68.9B', purpose: 'Revenue generated from products or practices at center of Global Health Policy Capture', documented: true },
-    { date: '2017-01-01', from: 'Bill Gates', to: 'Lobbying and political influence', amount: '$686M', purpose: 'Lobbying expenditures to prevent regulation related to Global Health Policy Capture', documented: true },
-    { date: '2019-01-01', from: 'Bill Gates', to: 'Settlements and victim compensation', amount: '$18.9B', purpose: 'Legal settlements and compensation arising from Global Health Policy Capture', documented: true },
-  ],
-
   'helsinki-summit': [
     { date: '2018-01-01', from: 'US taxpayers', to: 'Intelligence agencies', amount: '$78.7B', purpose: 'Budget allocation for operations connected to Helsinki Summit, Trump Sides with Putin', documented: false },
     { date: '2019-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$3.5B', purpose: 'Contractor profits from programs related to Helsinki Summit, Trump Sides with Putin', documented: true },

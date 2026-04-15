@@ -48,6 +48,7 @@ import { enronFraudAccountability } from './enron-fraud';
 import { farmlandAcquisitionAccountability } from './farmland-acquisition';
 import { financialCrisisAccountability } from './financial-crisis-accountability-failure';
 import { greatResetAccountability } from './great-reset';
+import { healthPolicyAccountability } from './health-policy';
 import { flintWaterCrisisAccountability } from './flint-water-crisis';
 import { georgeFloydAccountability } from './george-floyd';
 import { hushMoneyAccountability } from './hush-money';
@@ -128,6 +129,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'flint-water-crisis': flintWaterCrisisAccountability,
   'george-floyd': georgeFloydAccountability,
   'great-reset': greatResetAccountability,
+  'health-policy': healthPolicyAccountability,
   'hush-money': hushMoneyAccountability,
   'iran-contra-full-financial-trail': iranContraAccountability,
   'iraq-sanctions': iraqSanctionsAccountability,

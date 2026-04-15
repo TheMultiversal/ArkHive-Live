@@ -2614,9 +2614,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
   ],
-  'health-policy': [
-    { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
-  ],
   'healthcare-capture': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '15 U.S.C. § 1', description: 'Sherman Antitrust Act' },
