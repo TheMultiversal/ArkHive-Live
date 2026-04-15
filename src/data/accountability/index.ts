@@ -56,6 +56,7 @@ import { iranContraAccountability } from './iran-contra-full-financial-trail';
 import { iraqSanctionsAccountability } from './iraq-sanctions';
 import { january6InsurrectionAccountability } from './january-6-insurrection';
 import { jjBabyPowderAccountability } from './jj-baby-powder';
+import { kushnerSecurityClearanceAccountability } from './kushner-security-clearance';
 import { liborScandalAccountability } from './libor-scandal';
 import { mkultraCiaHumanExperimentationAccountability } from './mkultra-cia-human-experimentation';
 import { myLaiMassacreAccountability } from './my-lai-massacre';
@@ -137,6 +138,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'iraq-sanctions': iraqSanctionsAccountability,
   'january-6-insurrection': january6InsurrectionAccountability,
   'jj-baby-powder': jjBabyPowderAccountability,
+  'kushner-security-clearance': kushnerSecurityClearanceAccountability,
   'banking-libor-manipulation': liborScandalAccountability,
   'mkultra-cia-human-experimentation': mkultraCiaHumanExperimentationAccountability,
   'my-lai-massacre': myLaiMassacreAccountability,

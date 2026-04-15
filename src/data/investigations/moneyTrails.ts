@@ -3202,12 +3202,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== K ==========
 
-  'kushner-security-clearance': [
-    { date: '2018-01-01', from: 'US taxpayers', to: 'CIA', amount: '$14.1B', purpose: 'Budget allocation for operations connected to Kushner Security Clearance Scandal', documented: false },
-    { date: '2019-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$35.5B', purpose: 'Contractor profits from programs related to Kushner Security Clearance Scandal', documented: true },
-    { date: '2021-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$5.0B', purpose: 'Classified spending on programs exposed in Kushner Security Clearance Scandal', documented: false },
-  ],
-
   'khashoggi-coverup': [
     { date: '2018-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$4.1B', purpose: 'Undisclosed political spending connected to Khashoggi Murder Cover-up', documented: false },
     { date: '2019-01-01', from: 'Corporate donors', to: 'Donald Trump', amount: '$980M', purpose: 'Campaign contributions and financial benefits flowing through Khashoggi Murder Cover-up', documented: true },
