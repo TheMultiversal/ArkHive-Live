@@ -2623,12 +2623,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2012-01-01', from: 'Lloyd Blankfein', to: 'Affected investors / victims', amount: '$10.9B', purpose: 'Restitution and settlement payments to victims of Goldman Sachs Securities Fraud', documented: true },
   ],
 
-  'gulf-oil-spill': [
-    { date: '2010-01-01', from: 'Tony Hayward', to: 'Revenue from polluting operations', amount: '$80.7B', purpose: 'Revenue from operations causing environmental damage in Deepwater Horizon Oil Spill', documented: true },
-    { date: '2015-01-01', from: 'Tony Hayward', to: 'EPA fines and cleanup costs', amount: '$17.4B', purpose: 'Environmental remediation and regulatory penalties for Deepwater Horizon Oil Spill', documented: true },
-    { date: '2012-01-01', from: 'Tony Hayward', to: 'Environmental lobbying', amount: '$775M', purpose: 'Lobbying to weaken regulations related to Deepwater Horizon Oil Spill', documented: true },
-  ],
-
   'guantanamo-bay-torture-program': [
     { date: '2002-01-01', from: 'CIA', to: 'Military/security operations', amount: '$119.4B', purpose: 'Military spending on operations involving atrocities in Guantanamo Bay: The Architecture of Indefinite Detention and Torture', documented: false },
     { date: '2004-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$19.8B', purpose: 'Weapons industry profits from conflict in Guantanamo Bay: The Architecture of Indefinite Detention and Torture', documented: true },

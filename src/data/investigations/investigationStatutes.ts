@@ -2533,12 +2533,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },
   ],
-  'gulf-oil-spill': [
-    { code: '42 U.S.C. § 7413', description: 'Clean Air Act Violations' },
-    { code: '33 U.S.C. § 1319', description: 'Clean Water Act Violations' },
-    { code: '42 U.S.C. § 6928', description: 'RCRA Violations' },
-    { code: '18 U.S.C. § 1513', description: 'Witness/Whistleblower Retaliation' },
-  ],
   'gulf-war-crimes': [
     { code: '42 U.S.C. § 9601', description: 'CERCLA (Superfund)' },
     { code: '18 U.S.C. § 2441', description: 'War Crimes Act' },

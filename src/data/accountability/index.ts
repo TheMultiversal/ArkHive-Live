@@ -58,6 +58,7 @@ import { enronFraudAccountability } from './enron-fraud';
 import { farmlandAcquisitionAccountability } from './farmland-acquisition';
 import { financialCrisisAccountability } from './financial-crisis-accountability-failure';
 import { fannieMaeFraudAccountability } from './fannie-mae-fraud';
+import { gulfOilSpillAccountability } from './gulf-oil-spill';
 import { forcedArbitrationAccountability } from './forced-arbitration-consumer-rights';
 import { greatResetAccountability } from './great-reset';
 import { healthPolicyAccountability } from './health-policy';
@@ -183,6 +184,7 @@ const accountabilityDatabase: Record<string, AccountabilityData> = {
   'opioid-crisis-corporate-mass-murder': opioidCrisisAccountability,
   'pandemic-profiteering-covid-corruption': pandemicProfiteeringAccountability,
   'payroll-tax-fraud-industry-analysis': payrollTaxFraudAccountability,
+  'gulf-oil-spill': gulfOilSpillAccountability,
   'police-brutality': policeBrutalityAccountability,
   'qualified-immunity-police-accountability-gap': qualifiedImmunityAccountability,
   'roe-v-wade-overturn': roeVWadeOverturnAccountability,
